@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DishKAI is a bilingual personalized cross-cultural dining assistant.">
+  <title>DishKAI | Know before you order</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="DishKAI home">
+      <span class="brand-mark">D</span>
+      <span>DishKAI</span>
+    </a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#cuisines" data-i18n="navCuisines">Cuisines</a>
+      <a href="#profile" data-i18n="navProfile">Profile</a>
+      <a href="#upload-menu" data-i18n="navUpload">Upload</a>
+      <a href="#history" data-i18n="navHistory">History</a>
+      <a href="#about" data-i18n="navAbout">About</a>
+    </nav>
+    <div class="lang-toggle" aria-label="Language switcher">
+      <button class="active" data-lang="en">EN</button>
+      <button data-lang="zh">中文</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="heroEyebrow">Dish Knowledge AI / Dish Know AI</p>
+        <h1>DishKAI</h1>
+        <p class="tagline" data-i18n="heroTagline">Know before you order.</p>
+        <p class="subtitle" data-i18n="heroSubtitle">Build your dining profile, upload a menu photo, and get calm, personalized recommendations before you order.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#profile" data-i18n="startProfile">Start profile</a>
+          <a class="button secondary" href="#upload-menu" data-i18n="scanMenu">Mock menu upload</a>
+        </div>
+      </div>
+      <div class="hero-panel" aria-label="DishKAI recommendation preview">
+        <div class="phone-shell">
+          <div class="phone-header">
+            <span data-i18n="todayPick">Tonight's gentle pick</span>
+            <strong>92%</strong>
+          </div>
+          <div class="dish-preview-image"></div>
+          <h2 data-i18n="previewDish">Spanakopita</h2>
+          <p data-i18n="previewReason">Comforting, savory, herb-forward, and easy to share.</p>
+          <div class="taste-row"><span>Herby</span><span>Warm</span><span>Vegetarian</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cuisines" class="section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="cuisinesEyebrow">Cuisines</p>
+        <h2 data-i18n="cuisinesTitle">Explore flavor worlds without guessing.</h2>
+      </div>
+      <div id="cuisineGrid" class="cuisine-grid"></div>
+    </section>
+
+    <section id="cuisine-detail" class="section detail-section">
+      <div id="cuisineDetail"></div>
+    </section>
+
+    <section id="profile" class="section profile-section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="profileEyebrow">Dining Profile</p>
+        <h2 data-i18n="profileTitle">Tell DishKAI what your taste already knows.</h2>
+      </div>
+      <form id="profileForm" class="profile-form">
+        <label><span data-i18n="likesLabel">Likes</span><input name="likes" data-i18n-placeholder="likesPlaceholder" placeholder="Crispy textures, herbs, noodles"></label>
+        <label><span data-i18n="dislikesLabel">Dislikes</span><input name="dislikes" data-i18n-placeholder="dislikesPlaceholder" placeholder="Very sour food, organ meats"></label>
+        <label><span data-i18n="allergiesLabel">Allergies</span><input name="allergies" data-i18n-placeholder="allergiesPlaceholder" placeholder="Peanuts, shellfish, dairy"></label>
+        <label><span data-i18n="dietLabel">Diet type</span><select name="diet"><option>Flexible</option><option>Vegetarian</option><option>Vegan</option><option>Halal</option><option>Gluten-light</option></select></label>
+        <label><span data-i18n="spiceLabel">Spice level</span><input name="spice" type="range" min="0" max="5" value="2"></label>
+        <label><span data-i18n="exploreLabel">Exploration level</span><input name="explore" type="range" min="0" max="5" value="3"></label>
+        <button class="button primary" type="submit" data-i18n="saveProfile">Save mock profile</button>
+      </form>
+      <p id="profileStatus" class="status"></p>
+    </section>
+
+    <section id="upload-menu" class="section upload-section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="menuEyebrow">Upload Menu</p>
+        <h2 data-i18n="menuTitle">A quiet place for the menu photo.</h2>
+      </div>
+      <div class="upload-box">
+        <input id="menuInput" type="file" accept="image/*">
+        <p data-i18n="menuUploadText">Mock upload only. Future endpoint: POST /api/analyze-menu.</p>
+        <button id="mockAnalyzeMenu" class="button primary" data-i18n="analyzeMenu">Show recommendations</button>
+      </div>
+    </section>
+
+    <section id="recommendations" class="section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="recommendEyebrow">Recommendations</p>
+        <h2 data-i18n="recommendTitle">Three dishes that fit your profile.</h2>
+      </div>
+      <div id="recommendationGrid" class="recommendation-grid"></div>
+    </section>
+
+    <section id="upload-receipt" class="section upload-section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="receiptEyebrow">Upload Receipt</p>
+        <h2 data-i18n="receiptTitle">Turn dinner into better future recommendations.</h2>
+      </div>
+      <div class="upload-box">
+        <input id="receiptInput" type="file" accept="image/*">
+        <p data-i18n="receiptUploadText">Mock recognition only. Future endpoint: POST /api/analyze-receipt.</p>
+        <div id="receiptResults" class="receipt-results"></div>
+      </div>
+    </section>
+
+    <section id="history" class="section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="historyEyebrow">Dining History</p>
+        <h2 data-i18n="historyTitle">A memory of what worked for you.</h2>
+      </div>
+      <div id="historyList" class="history-list"></div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <p class="eyebrow" data-i18n="aboutEyebrow">About</p>
+      <h2 data-i18n="aboutTitle">DishKAI is built for people who cross cultures through food.</h2>
+      <p data-i18n="aboutBody">It starts with preference, explains unfamiliar dishes in familiar language, and learns from what you actually ate.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>DishKAI</span>
+    <span data-i18n="footerText">Know before you order.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
