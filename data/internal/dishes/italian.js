@@ -151,8 +151,8 @@ function dish(id, metadataCode, en, zh, nl, category, cookingMethods, compositio
     acquiredTasteLevel: ["osso-buco"].includes(id) ? 2 : 1,
     metadataConfidence: 0.78,
     restaurantVariationLevel: "medium",
-    imagePath: `/assets/dishes/italian/${id}.webp`,
-    thumbPath: `/assets/dishes/italian/${id}-thumb.webp`,
+    imagePath: `/assets/dishes/main/${metadataCode}-${id}.webp`,
+    thumbPath: `/assets/dishes/thumb/${metadataCode}-${id}.webp`,
     visualDisclaimer: {
       en: "Visual reference only. Actual dish may vary by restaurant. Estimated composition.",
       zh: "图片仅供参考。实际出品会因餐厅而异。成分比例为估算。",
