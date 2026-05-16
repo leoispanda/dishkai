@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="DishKAI is a bilingual personalized cross-cultural dining assistant.">
-  <title>DishKAI | Know before you order</title>
+  <meta name="description" content="DishKAI turns unfamiliar menu names into visual Dish Knowledge Cards.">
+  <title>DishKAI | Know the dish before you order</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,117 +14,107 @@
       <span>DishKAI</span>
     </a>
     <nav class="nav" aria-label="Primary navigation">
-      <a href="#cuisines" data-i18n="navCuisines">Cuisines</a>
-      <a href="#profile" data-i18n="navProfile">Profile</a>
-      <a href="#upload-menu" data-i18n="navUpload">Upload</a>
-      <a href="#history" data-i18n="navHistory">History</a>
+      <a href="#home" data-i18n="navAnalyze">Analyze</a>
+      <a href="#visual-menu" data-i18n="navVisualMenu">Visual menu</a>
+      <a href="#metadata" data-i18n="navMetadata">Metadata</a>
       <a href="#about" data-i18n="navAbout">About</a>
     </nav>
-    <div class="lang-toggle" aria-label="Language switcher">
-      <button class="active" data-lang="en">EN</button>
-      <button data-lang="zh">中文</button>
+    <div class="lang-toggle" aria-label="Interface language">
+      <button class="active" data-ui-lang="en">EN</button>
+      <button data-ui-lang="zh">中文</button>
+      <button data-ui-lang="nl">NL</button>
     </div>
   </header>
 
   <main>
     <section id="home" class="hero section">
       <div class="hero-copy">
-        <p class="eyebrow" data-i18n="heroEyebrow">Dish Knowledge AI / Dish Know AI</p>
-        <h1>DishKAI</h1>
-        <p class="tagline" data-i18n="heroTagline">Know before you order.</p>
-        <p class="subtitle" data-i18n="heroSubtitle">Build your dining profile, upload a menu photo, and get calm, personalized recommendations before you order.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#profile" data-i18n="startProfile">Start profile</a>
-          <a class="button secondary" href="#upload-menu" data-i18n="scanMenu">Mock menu upload</a>
+        <p class="eyebrow">Dish Knowledge AI</p>
+        <h1 data-i18n="heroTitle">Know the dish before you order.</h1>
+        <p class="subtitle" data-i18n="heroSubtitle">Upload a menu photo or paste menu text. DishKAI turns unfamiliar dishes into visual cards with ingredients, taste, distinctive flavors, watch-outs, and ordering guidance.</p>
+      </div>
+
+      <form id="menuForm" class="analysis-panel">
+        <div class="mode-tabs" role="tablist" aria-label="Menu input mode">
+          <button class="active" type="button" data-mode="text" data-i18n="textMode">Paste menu text</button>
+          <button type="button" data-mode="image" data-i18n="imageMode">Upload menu image</button>
         </div>
-      </div>
-      <div class="hero-panel" aria-label="DishKAI recommendation preview">
-        <div class="phone-shell">
-          <div class="phone-header">
-            <span data-i18n="todayPick">Tonight's gentle pick</span>
-            <strong>92%</strong>
-          </div>
-          <div class="dish-preview-image"></div>
-          <h2 data-i18n="previewDish">Spanakopita</h2>
-          <p data-i18n="previewReason">Comforting, savory, herb-forward, and easy to share.</p>
-          <div class="taste-row"><span>Herby</span><span>Warm</span><span>Vegetarian</span></div>
+
+        <div class="input-mode active" data-input-panel="text">
+          <label for="menuText" data-i18n="menuTextLabel">Paste or type menu text</label>
+          <textarea id="menuText" name="menuText" rows="9" data-i18n-placeholder="menuTextPlaceholder" placeholder="Pad Thai&#10;Tom Yum Goong&#10;Som Tam">Pad Thai
+Unknown Dish</textarea>
         </div>
-      </div>
-    </section>
 
-    <section id="cuisines" class="section">
-      <div class="section-heading">
-        <p class="eyebrow" data-i18n="cuisinesEyebrow">Cuisines</p>
-        <h2 data-i18n="cuisinesTitle">Explore flavor worlds without guessing.</h2>
-      </div>
-      <div id="cuisineGrid" class="cuisine-grid"></div>
-    </section>
+        <div class="input-mode" data-input-panel="image">
+          <label for="menuImage" data-i18n="menuImageLabel">Upload menu image</label>
+          <input id="menuImage" name="menuImage" type="file" accept="image/*">
+          <p class="helper" data-i18n="imageHelper">Image analysis calls the backend endpoint. If vision support is unavailable, paste menu text instead.</p>
+        </div>
 
-    <section id="cuisine-detail" class="section detail-section">
-      <div id="cuisineDetail"></div>
-    </section>
+        <div class="language-grid">
+          <label>
+            <span data-i18n="sourceLanguage">Original menu language</span>
+            <select id="sourceLanguage" name="sourceLanguage">
+              <option value="auto">Auto</option>
+              <option value="en">English</option>
+              <option value="zh">中文</option>
+              <option value="th">ไทย</option>
+              <option value="nl">Nederlands</option>
+            </select>
+          </label>
+          <label>
+            <span data-i18n="targetLanguage">Familiar target language</span>
+            <select id="targetLanguage" name="targetLanguage">
+              <option value="en">English</option>
+              <option value="zh">中文</option>
+              <option value="nl">Nederlands</option>
+            </select>
+          </label>
+        </div>
 
-    <section id="profile" class="section profile-section">
-      <div class="section-heading">
-        <p class="eyebrow" data-i18n="profileEyebrow">Dining Profile</p>
-        <h2 data-i18n="profileTitle">Tell DishKAI what your taste already knows.</h2>
-      </div>
-      <form id="profileForm" class="profile-form">
-        <label><span data-i18n="likesLabel">Likes</span><input name="likes" data-i18n-placeholder="likesPlaceholder" placeholder="Crispy textures, herbs, noodles"></label>
-        <label><span data-i18n="dislikesLabel">Dislikes</span><input name="dislikes" data-i18n-placeholder="dislikesPlaceholder" placeholder="Very sour food, organ meats"></label>
-        <label><span data-i18n="allergiesLabel">Allergies</span><input name="allergies" data-i18n-placeholder="allergiesPlaceholder" placeholder="Peanuts, shellfish, dairy"></label>
-        <label><span data-i18n="dietLabel">Diet type</span><select name="diet"><option>Flexible</option><option>Vegetarian</option><option>Vegan</option><option>Halal</option><option>Gluten-light</option></select></label>
-        <label><span data-i18n="spiceLabel">Spice level</span><input name="spice" type="range" min="0" max="5" value="2"></label>
-        <label><span data-i18n="exploreLabel">Exploration level</span><input name="explore" type="range" min="0" max="5" value="3"></label>
-        <button class="button primary" type="submit" data-i18n="saveProfile">Save mock profile</button>
+        <button id="generateButton" class="button primary" type="submit" data-i18n="generate">Generate visual menu</button>
+        <p id="statusMessage" class="status" role="status"></p>
       </form>
-      <p id="profileStatus" class="status"></p>
     </section>
 
-    <section id="upload-menu" class="section upload-section">
+    <section id="visual-menu" class="section visual-menu-section">
       <div class="section-heading">
-        <p class="eyebrow" data-i18n="menuEyebrow">Upload Menu</p>
-        <h2 data-i18n="menuTitle">A quiet place for the menu photo.</h2>
+        <p class="eyebrow" data-i18n="visualMenuEyebrow">Visual clickable menu</p>
+        <h2 data-i18n="visualMenuTitle">Menu order stays exactly as entered.</h2>
+        <p data-i18n="visualMenuBody">Matched dishes use verified DishKAI metadata. Unknown dishes remain in place and are clearly marked.</p>
       </div>
-      <div class="upload-box">
-        <input id="menuInput" type="file" accept="image/*">
-        <p data-i18n="menuUploadText">Mock upload only. Future endpoint: POST /api/analyze-menu.</p>
-        <button id="mockAnalyzeMenu" class="button primary" data-i18n="analyzeMenu">Show recommendations</button>
-      </div>
+      <div id="menuSummary" class="summary-strip"></div>
+      <div id="visualMenuGrid" class="visual-menu-grid"></div>
     </section>
 
-    <section id="recommendations" class="section">
+    <section id="knowledge-card" class="section knowledge-section">
       <div class="section-heading">
-        <p class="eyebrow" data-i18n="recommendEyebrow">Recommendations</p>
-        <h2 data-i18n="recommendTitle">Three dishes that fit your profile.</h2>
+        <p class="eyebrow" data-i18n="cardEyebrow">Dish Knowledge Card</p>
+        <h2 data-i18n="cardTitle">Fast verdict first, deeper knowledge when opened.</h2>
       </div>
-      <div id="recommendationGrid" class="recommendation-grid"></div>
-    </section>
-
-    <section id="upload-receipt" class="section upload-section">
-      <div class="section-heading">
-        <p class="eyebrow" data-i18n="receiptEyebrow">Upload Receipt</p>
-        <h2 data-i18n="receiptTitle">Turn dinner into better future recommendations.</h2>
-      </div>
-      <div class="upload-box">
-        <input id="receiptInput" type="file" accept="image/*">
-        <p data-i18n="receiptUploadText">Mock recognition only. Future endpoint: POST /api/analyze-receipt.</p>
-        <div id="receiptResults" class="receipt-results"></div>
+      <div id="dishCard" class="knowledge-card empty">
+        <p data-i18n="emptyCard">Generate a visual menu, then open a dish card.</p>
       </div>
     </section>
 
-    <section id="history" class="section">
+    <section id="metadata" class="section metadata-section">
       <div class="section-heading">
-        <p class="eyebrow" data-i18n="historyEyebrow">Dining History</p>
-        <h2 data-i18n="historyTitle">A memory of what worked for you.</h2>
+        <p class="eyebrow" data-i18n="metadataEyebrow">Internal metadata</p>
+        <h2 data-i18n="metadataTitle">AI extracts names. Metadata explains dishes.</h2>
+        <p data-i18n="metadataBody">DishKAI keeps dish aliases separate from reusable ingredient, seasoning, taste, method, and risk metadata.</p>
       </div>
-      <div id="historyList" class="history-list"></div>
+      <div class="metadata-grid">
+        <article><strong>alias → dishId</strong><span data-i18n="metadataAlias">Menu names map to stable dish IDs.</span></article>
+        <article><strong>dish → components</strong><span data-i18n="metadataDish">Dishes reference reusable ingredients and seasonings.</span></article>
+        <article><strong>metadata → card</strong><span data-i18n="metadataCard">Cards show clean decision-making output, not raw schema.</span></article>
+      </div>
     </section>
 
     <section id="about" class="section about-section">
       <p class="eyebrow" data-i18n="aboutEyebrow">About</p>
-      <h2 data-i18n="aboutTitle">DishKAI is built for people who cross cultures through food.</h2>
-      <p data-i18n="aboutBody">It starts with preference, explains unfamiliar dishes in familiar language, and learns from what you actually ate.</p>
+      <h2 data-i18n="aboutTitle">DishKAI is for ordering across languages and food cultures.</h2>
+      <p data-i18n="aboutBody">It is not a recipe site or review app. It is a calm menu understanding tool for deciding what is worth ordering.</p>
     </section>
   </main>
 

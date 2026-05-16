@@ -1,0 +1,321 @@
+import { metadata } from "../../data/internal/index.js";
+
+export const TEXT_MODEL = "@cf/meta/llama-3.1-8b-instruct";
+export const VISION_MODEL = "";
+
+const MAX_MENU_TEXT_LENGTH = 12000;
+
+export const iconTags = {
+  "signature-dish": { icon: "⭐", en: "Signature", zh: "代表菜", nl: "Signatuur" },
+  "classic-dish": { icon: "🏛️", en: "Classic", zh: "经典", nl: "Klassieker" },
+  "street-food": { icon: "🛵", en: "Street food", zh: "街头小吃", nl: "Streetfood" },
+  "regional-dish": { icon: "📍", en: "Regional", zh: "地区特色", nl: "Regionaal" },
+  "first-timer-friendly": { icon: "✅", en: "First-timer friendly", zh: "新手友好", nl: "Geschikt voor beginners" },
+  "internationally-known": { icon: "🌍", en: "Well-known", zh: "知名度高", nl: "Bekend" },
+  "safe-choice": { icon: "✅", en: "Safe", zh: "安全", nl: "Veilig" },
+  noodle: { icon: "🍜", en: "Noodles", zh: "面/粉", nl: "Noedels" },
+  rice: { icon: "🍚", en: "Rice", zh: "米饭", nl: "Rijst" },
+  soup: { icon: "🥣", en: "Soup", zh: "汤", nl: "Soep" },
+  curry: { icon: "🥘", en: "Curry", zh: "咖喱", nl: "Curry" },
+  "contains-peanut": { icon: "🥜", en: "Peanut", zh: "花生", nl: "Pinda" },
+  "contains-egg": { icon: "🥚", en: "Egg", zh: "鸡蛋", nl: "Ei" },
+  "contains-shellfish": { icon: "🦐", en: "Shellfish", zh: "甲壳类", nl: "Schaaldieren" },
+  "contains-dairy": { icon: "🥛", en: "Dairy", zh: "乳制品", nl: "Zuivel" },
+  spicy: { icon: "🌶️", en: "Spicy", zh: "辣", nl: "Pittig" },
+  tangy: { icon: "🍋", en: "Tangy", zh: "酸香", nl: "Friszuur" },
+  sweet: { icon: "🍯", en: "Sweet", zh: "甜", nl: "Zoet" },
+  creamy: { icon: "🧈", en: "Creamy", zh: "奶香厚重", nl: "Romig" },
+};
+
+function jsonSafeText(value, maxLength = 400) {
+  return String(value || "").trim().slice(0, maxLength);
+}
+
+export function json(data, status = 200) {
+  return new Response(JSON.stringify(data), {
+    status,
+    headers: { "Content-Type": "application/json; charset=utf-8" },
+  });
+}
+
+export function normalizeName(value) {
+  return String(value || "")
+    .toLowerCase()
+    .normalize("NFKC")
+    .replace(/[()[\]{}.,;:!?'"]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function localize(value, language = "en") {
+  if (!value || typeof value !== "object") return value || "";
+  return value[language] || value.en || value.zh || value.nl || "";
+}
+
+function byId(items) {
+  return new Map(items.map((item) => [item.id, item]));
+}
+
+const ingredientById = byId(metadata.ingredients);
+const seasoningById = byId(metadata.seasonings);
+const cuisineById = byId(metadata.cuisines);
+const riskById = byId(metadata.riskFlags);
+const dishById = byId(metadata.dishes);
+
+const aliasIndex = metadata.dishAliases.map((alias) => ({
+  ...alias,
+  normalizedAlias: normalizeName(alias.alias),
+}));
+
+function splitMenuText(menuText) {
+  return String(menuText || "")
+    .slice(0, MAX_MENU_TEXT_LENGTH)
+    .split(/\r?\n/)
+    .map((line) => line.replace(/^\s*[-*•\d.)]+\s*/, "").trim())
+    .filter(Boolean)
+    .map((line, index) => ({
+      orderIndex: index + 1,
+      originalName: line,
+      cleanName: line,
+      detectedLanguage: "unknown",
+      possibleCategory: "",
+      notes: "",
+    }));
+}
+
+function buildExtractionPrompt(menuText, sourceLanguage, targetLanguage) {
+  return `You are DishKAI's menu item extraction step.
+Return valid JSON only. No markdown.
+Preserve the original menu order. Do not invent dishes. Do not add house-special claims unless the text says so.
+Extract likely dish names from this menu text.
+Use this exact shape:
+{
+  "items": [
+    {
+      "orderIndex": 1,
+      "originalName": "Pad Thai",
+      "cleanName": "Pad Thai",
+      "detectedLanguage": "en",
+      "possibleCategory": "noodle",
+      "notes": ""
+    }
+  ]
+}
+sourceLanguage: ${sourceLanguage}
+targetLanguage: ${targetLanguage}
+menuText:
+${menuText}`;
+}
+
+function extractJsonObject(value) {
+  const text = typeof value === "string" ? value : String(value?.response || value?.result || "");
+  const match = text.match(/\{[\s\S]*\}/);
+  if (!match) throw new Error("Workers AI did not return JSON.");
+  return JSON.parse(match[0]);
+}
+
+function cleanExtractedItems(value, fallbackItems) {
+  const rawItems = Array.isArray(value?.items) ? value.items : fallbackItems;
+  return rawItems
+    .map((item, index) => ({
+      orderIndex: Number.isFinite(Number(item.orderIndex)) ? Number(item.orderIndex) : index + 1,
+      originalName: jsonSafeText(item.originalName || item.cleanName || fallbackItems[index]?.originalName),
+      cleanName: jsonSafeText(item.cleanName || item.originalName || fallbackItems[index]?.cleanName),
+      detectedLanguage: jsonSafeText(item.detectedLanguage || "unknown", 24),
+      possibleCategory: jsonSafeText(item.possibleCategory || "", 60),
+      notes: jsonSafeText(item.notes || "", 160),
+    }))
+    .filter((item) => item.originalName || item.cleanName)
+    .sort((a, b) => a.orderIndex - b.orderIndex)
+    .map((item, index) => ({ ...item, orderIndex: index + 1 }));
+}
+
+async function extractItems(menuText, sourceLanguage, targetLanguage, env) {
+  const fallbackItems = splitMenuText(menuText);
+  if (!env?.AI || !fallbackItems.length) return { items: fallbackItems, extractionSource: "local-fallback" };
+
+  try {
+    const aiResult = await env.AI.run(TEXT_MODEL, {
+      prompt: buildExtractionPrompt(menuText, sourceLanguage, targetLanguage),
+      max_tokens: 900,
+      temperature: 0.1,
+    });
+    return {
+      items: cleanExtractedItems(extractJsonObject(aiResult), fallbackItems),
+      extractionSource: "workers-ai",
+      model: TEXT_MODEL,
+    };
+  } catch (error) {
+    console.error("DishKAI text extraction failed, using local fallback:", error);
+    return { items: fallbackItems, extractionSource: "local-fallback" };
+  }
+}
+
+function findAliasMatch(cleanName) {
+  const normalizedName = normalizeName(cleanName);
+  const exact = aliasIndex.find((alias) => alias.normalizedAlias === normalizedName);
+  if (exact) return { alias: exact, normalizedName, confidence: exact.confidence || 1 };
+
+  const includes = aliasIndex.find((alias) => {
+    return normalizedName.includes(alias.normalizedAlias) || alias.normalizedAlias.includes(normalizedName);
+  });
+  if (includes && Math.min(normalizedName.length, includes.normalizedAlias.length) >= 6) {
+    return { alias: includes, normalizedName, confidence: Math.min(includes.confidence || 0.82, 0.86) };
+  }
+
+  return { alias: null, normalizedName, confidence: 0 };
+}
+
+function itemDisplayName(item, language) {
+  return localize(item.names, language);
+}
+
+function componentDisplay(component, targetLanguage) {
+  const source = component.itemType === "seasoning"
+    ? seasoningById.get(component.itemId)
+    : ingredientById.get(component.itemId);
+  return {
+    name: localize(source?.names, targetLanguage),
+    estimatedPercent: component.estimatedPercent,
+    role: component.role,
+    optional: Boolean(component.optional),
+  };
+}
+
+function flavorSourceDisplay(id, targetLanguage) {
+  const source = seasoningById.get(id) || ingredientById.get(id);
+  return localize(source?.names, targetLanguage) || id;
+}
+
+function riskDisplay(id, targetLanguage) {
+  const risk = riskById.get(id);
+  return localize(risk?.names, targetLanguage) || id;
+}
+
+function tagLabel(tagId, targetLanguage) {
+  const tag = iconTags[tagId];
+  if (!tag) return { id: tagId, icon: "", label: tagId };
+  return { id: tagId, icon: tag.icon, label: tag[targetLanguage] || tag.en };
+}
+
+export function deriveIconTagIds(dish) {
+  const tagIds = [];
+  if (dish.cuisineRole?.level === "signature") tagIds.push("signature-dish");
+  if (dish.cuisineRole?.level === "classic") tagIds.push("classic-dish");
+  if (dish.cuisineRole?.level === "regional") tagIds.push("regional-dish");
+  if (dish.cuisineRole?.level === "street-food") tagIds.push("street-food");
+  if (dish.cuisineRole?.tags?.includes("first-timer-friendly")) tagIds.push("first-timer-friendly");
+  if (dish.cuisineRole?.tags?.includes("internationally-known")) tagIds.push("internationally-known");
+  if (dish.goodForTags?.includes("safe-choice")) tagIds.push("safe-choice");
+  if (dish.category) tagIds.push(dish.category);
+  if (dish.riskFlags?.includes("contains-peanut")) tagIds.push("contains-peanut");
+  if (dish.riskFlags?.includes("contains-egg")) tagIds.push("contains-egg");
+  if (dish.riskFlags?.includes("contains-shellfish")) tagIds.push("contains-shellfish");
+  if (dish.tasteProfile?.basic?.some((taste) => String(taste).includes("spicy"))) tagIds.push("spicy");
+  if (dish.tasteProfile?.basic?.some((taste) => ["sour", "tangy"].includes(taste))) tagIds.push("tangy");
+  if (dish.tasteProfile?.basic?.includes("sweet")) tagIds.push("sweet");
+  return [...new Set(tagIds)].slice(0, 7);
+}
+
+function buildCard(dish, originalName, targetLanguage) {
+  const cuisine = cuisineById.get(dish.cuisineId);
+  return {
+    originalName,
+    familiarName: itemDisplayName(dish, targetLanguage),
+    imagePath: dish.imagePath,
+    thumbPath: dish.thumbPath,
+    orderVerdict: localize(dish.orderVerdict, targetLanguage),
+    cuisineName: localize(cuisine?.names, targetLanguage),
+    cuisineRole: {
+      level: dish.cuisineRole?.level || "",
+      note: localize(dish.cuisineRole?.description, targetLanguage),
+    },
+    shortDescription: localize(dish.shortDescription, targetLanguage),
+    composition: dish.composition
+      .slice()
+      .sort((a, b) => a.displayPriority - b.displayPriority)
+      .map((component) => componentDisplay(component, targetLanguage)),
+    basicTaste: dish.tasteProfile?.basic || [],
+    distinctiveFlavorSources: dish.distinctiveFlavorSources.map((id) => flavorSourceDisplay(id, targetLanguage)),
+    texture: dish.textureProfile || [],
+    watchOuts: dish.riskFlags.map((id) => riskDisplay(id, targetLanguage)),
+    dietaryNotes: dish.dietaryFlags || [],
+    visualDisclaimer: localize(dish.visualDisclaimer, targetLanguage),
+    iconTags: deriveIconTagIds(dish).map((id) => tagLabel(id, targetLanguage)),
+    metadataSource: "dishkai-database",
+    verified: true,
+  };
+}
+
+function unmatchedCard(item, targetLanguage) {
+  const message = {
+    en: "This dish is not in the starter database yet.",
+    zh: "这道菜暂时还不在 DishKAI 初始数据库中。",
+    nl: "Dit gerecht staat nog niet in de startdatabase.",
+  };
+  return {
+    originalName: item.originalName,
+    familiarName: item.cleanName,
+    orderVerdict: message[targetLanguage] || message.en,
+    shortDescription: message[targetLanguage] || message.en,
+    iconTags: [],
+    metadataSource: "unmatched",
+    verified: false,
+  };
+}
+
+export async function analyzeMenuText({ menuText, sourceLanguage = "auto", targetLanguage = "en", env }) {
+  const cleanMenuText = String(menuText || "").trim().slice(0, MAX_MENU_TEXT_LENGTH);
+  if (!cleanMenuText) {
+    return {
+      ok: false,
+      error: "No menu items were found. Please paste clearer menu text.",
+      sourceLanguage,
+      targetLanguage,
+      items: [],
+      unmatchedItems: [],
+    };
+  }
+
+  const extraction = await extractItems(cleanMenuText, sourceLanguage, targetLanguage, env);
+  const items = extraction.items.map((item) => {
+    const match = findAliasMatch(item.cleanName || item.originalName);
+    const dish = match.alias ? dishById.get(match.alias.dishId) : null;
+    if (!dish) {
+      return {
+        ...item,
+        normalizedName: match.normalizedName,
+        matchedDishId: null,
+        matchStatus: "unmatched",
+        matchConfidence: 0,
+        card: unmatchedCard(item, targetLanguage),
+      };
+    }
+    return {
+      ...item,
+      normalizedName: match.normalizedName,
+      matchedDishId: dish.id,
+      matchStatus: "matched",
+      matchConfidence: match.confidence,
+      card: buildCard(dish, item.originalName, targetLanguage),
+    };
+  });
+
+  return {
+    ok: true,
+    sourceLanguage,
+    targetLanguage,
+    extractionSource: extraction.extractionSource,
+    model: extraction.model,
+    items,
+    unmatchedItems: items.filter((item) => item.matchStatus === "unmatched"),
+  };
+}
+
+export async function analyzeMenuImage() {
+  // TODO: Wire this to a Workers AI vision/OCR model when the target Cloudflare account supports one.
+  return {
+    ok: false,
+    error: "Image analysis is not available yet. Please paste menu text instead.",
+  };
+}

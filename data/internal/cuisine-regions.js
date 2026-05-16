@@ -1,0 +1,15 @@
+export const cuisineRegions = [
+  { id: "east-asia", names: { en: "East Asia", zh: "东亚", nl: "Oost-Azie" } },
+  { id: "southeast-asia", names: { en: "Southeast Asia", zh: "东南亚", nl: "Zuidoost-Azie" } },
+  { id: "south-asia", names: { en: "South Asia", zh: "南亚", nl: "Zuid-Azie" } },
+  { id: "middle-east-north-africa", names: { en: "Middle East & North Africa", zh: "中东和北非", nl: "Midden-Oosten en Noord-Afrika" } },
+  { id: "mediterranean-europe", names: { en: "Mediterranean Europe", zh: "地中海欧洲", nl: "Mediterraan Europa" } },
+  { id: "western-central-europe", names: { en: "Western & Central Europe", zh: "西欧和中欧", nl: "West- en Centraal-Europa" } },
+  { id: "northern-europe", names: { en: "Northern Europe", zh: "北欧", nl: "Noord-Europa" } },
+  { id: "eastern-europe-balkans", names: { en: "Eastern Europe & Balkans", zh: "东欧和巴尔干", nl: "Oost-Europa en Balkan" } },
+  { id: "latin-america", names: { en: "Latin America", zh: "拉丁美洲", nl: "Latijns-Amerika" } },
+  { id: "north-america", names: { en: "North America", zh: "北美", nl: "Noord-Amerika" } },
+  { id: "sub-saharan-africa", names: { en: "Sub-Saharan Africa", zh: "撒哈拉以南非洲", nl: "Sub-Sahara Afrika" } },
+  { id: "oceania-pacific", names: { en: "Oceania & Pacific", zh: "大洋洲和太平洋", nl: "Oceanie en Pacific" } },
+  { id: "global-fusion", names: { en: "Global Fusion", zh: "全球融合", nl: "Wereldfusie" } },
+];

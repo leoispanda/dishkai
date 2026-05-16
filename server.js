@@ -1,6 +1,7 @@
 import { createServer } from "node:http";
 import { readFile } from "node:fs/promises";
 import { extname, join, normalize } from "node:path";
+import { analyzeMenuImage, analyzeMenuText } from "./functions/_shared/menu-analysis.js";
 
 const root = process.cwd();
 const port = Number(process.env.PORT || 3000);
@@ -17,13 +18,6 @@ const mimeTypes = {
   ".jpeg": "image/jpeg",
 };
 
-const mockApiPaths = new Set([
-  "/api/analyze-menu",
-  "/api/save-profile",
-  "/api/analyze-receipt",
-  "/api/save-rating",
-]);
-
 const server = createServer(async (request, response) => {
   try {
     const url = new URL(request.url, `http://${host}:${port}`);
@@ -33,8 +27,21 @@ const server = createServer(async (request, response) => {
       return;
     }
 
-    if (request.method === "POST" && mockApiPaths.has(url.pathname)) {
-      sendJson(response, 200, { ok: true, mock: true, endpoint: url.pathname });
+    if (request.method === "POST" && url.pathname === "/api/analyze-menu-text") {
+      const body = await readJson(request);
+      const result = await analyzeMenuText({
+        menuText: body.menuText,
+        sourceLanguage: body.sourceLanguage || "auto",
+        targetLanguage: body.targetLanguage || "en",
+        env: {},
+      });
+      sendJson(response, result.ok ? 200 : 400, result);
+      return;
+    }
+
+    if (request.method === "POST" && url.pathname === "/api/analyze-menu-image") {
+      const result = await analyzeMenuImage();
+      sendJson(response, 501, result);
       return;
     }
 
@@ -76,6 +83,13 @@ async function serveStatic(pathname, response) {
 function sendJson(response, status, data) {
   response.writeHead(status, { "Content-Type": "application/json; charset=utf-8" });
   response.end(JSON.stringify(data));
+}
+
+async function readJson(request) {
+  const chunks = [];
+  for await (const chunk of request) chunks.push(chunk);
+  if (!chunks.length) return {};
+  return JSON.parse(Buffer.concat(chunks).toString("utf8"));
 }
 
 server.listen(port, host, () => {
