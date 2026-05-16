@@ -14,9 +14,16 @@ export const iconTags = {
   "internationally-known": { icon: "🌍", en: "Well-known", zh: "知名度高", nl: "Bekend" },
   "safe-choice": { icon: "✅", en: "Safe", zh: "安全", nl: "Veilig" },
   noodle: { icon: "🍜", en: "Noodles", zh: "面/粉", nl: "Noedels" },
+  pasta: { icon: "🍝", en: "Pasta", zh: "意面", nl: "Pasta" },
+  pizza: { icon: "🍕", en: "Pizza", zh: "披萨", nl: "Pizza" },
   rice: { icon: "🍚", en: "Rice", zh: "米饭", nl: "Rijst" },
   soup: { icon: "🥣", en: "Soup", zh: "汤", nl: "Soep" },
   curry: { icon: "🥘", en: "Curry", zh: "咖喱", nl: "Curry" },
+  dessert: { icon: "🍮", en: "Dessert", zh: "甜点", nl: "Dessert" },
+  salad: { icon: "🥗", en: "Salad", zh: "沙拉", nl: "Salade" },
+  starter: { icon: "🍅", en: "Starter", zh: "前菜", nl: "Voorgerecht" },
+  bread: { icon: "🥖", en: "Bread", zh: "面包", nl: "Brood" },
+  meat: { icon: "🍖", en: "Meat", zh: "肉类", nl: "Vlees" },
   "contains-peanut": { icon: "🥜", en: "Peanut", zh: "花生", nl: "Pinda" },
   "contains-egg": { icon: "🥚", en: "Egg", zh: "鸡蛋", nl: "Ei" },
   "contains-shellfish": { icon: "🦐", en: "Shellfish", zh: "甲壳类", nl: "Schaaldieren" },
@@ -59,6 +66,7 @@ function byId(items) {
 const ingredientById = byId(metadata.ingredients);
 const seasoningById = byId(metadata.seasonings);
 const cuisineById = byId(metadata.cuisines);
+const cookingMethodById = byId(metadata.cookingMethods);
 const riskById = byId(metadata.riskFlags);
 const dishById = byId(metadata.dishes);
 
@@ -192,6 +200,11 @@ function riskDisplay(id, targetLanguage) {
   return localize(risk?.names, targetLanguage) || id;
 }
 
+function cookingMethodDisplay(id, targetLanguage) {
+  const method = cookingMethodById.get(id);
+  return localize(method?.names, targetLanguage) || id;
+}
+
 function tagLabel(tagId, targetLanguage) {
   const tag = iconTags[tagId];
   if (!tag) return { id: tagId, icon: "", label: tagId };
@@ -229,6 +242,10 @@ function buildCard(dish, originalName, targetLanguage) {
     cuisineRole: {
       level: dish.cuisineRole?.level || "",
       note: localize(dish.cuisineRole?.description, targetLanguage),
+    },
+    cooking: {
+      methods: (dish.cookingMethods || []).map((id) => cookingMethodDisplay(id, targetLanguage)),
+      profile: localize(dish.cookingProfile, targetLanguage),
     },
     shortDescription: localize(dish.shortDescription, targetLanguage),
     composition: dish.composition

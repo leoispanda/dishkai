@@ -9,7 +9,7 @@ const translations = {
     cardEyebrow: "Dish Knowledge Card", cardTitle: "Fast verdict first, deeper knowledge when opened.", emptyCard: "Generate a visual menu, then open a dish card.",
     metadataEyebrow: "Internal metadata", metadataTitle: "AI extracts names. Metadata explains dishes.", metadataBody: "DishKAI keeps dish aliases separate from reusable ingredient, seasoning, taste, method, and risk metadata.", metadataAlias: "Menu names map to stable dish IDs.", metadataDish: "Dishes reference reusable ingredients and seasonings.", metadataCard: "Cards show clean decision-making output, not raw schema.",
     aboutEyebrow: "About", aboutTitle: "DishKAI is for ordering across languages and food cultures.", aboutBody: "It is not a recipe site or review app. It is a calm menu understanding tool for deciding what is worth ordering.", footerText: "Know before you order.",
-    matched: "matched", unmatched: "not in starter database", aiGenerated: "AI-generated estimate. Not yet verified in DishKAI database.", original: "Original", familiar: "Familiar", verdict: "Order verdict", description: "What it is", composition: "Estimated composition", taste: "Basic taste", flavor: "Distinctive flavor", texture: "Texture", watchOut: "Watch out", disclaimer: "Visual note", openCard: "Open card", summary: "items analyzed", unknownNote: "This dish is not in the starter database yet."
+    matched: "matched", unmatched: "not in starter database", aiGenerated: "AI-generated estimate. Not yet verified in DishKAI database.", original: "Original", familiar: "Familiar", verdict: "Order verdict", description: "What it is", preparation: "How it is usually prepared", composition: "Estimated composition", taste: "Basic taste", flavor: "Distinctive flavor", texture: "Texture", watchOut: "Watch out", disclaimer: "Visual note", openCard: "Open card", summary: "items analyzed", unknownNote: "This dish is not in the starter database yet."
   },
   zh: {
     navAnalyze: "分析", navVisualMenu: "视觉菜单", navMetadata: "元数据", navAbout: "关于",
@@ -21,7 +21,7 @@ const translations = {
     cardEyebrow: "菜品知识卡", cardTitle: "先给点餐结论，打开后再看更深的食物知识。", emptyCard: "先生成视觉菜单，然后打开一道菜。",
     metadataEyebrow: "内部元数据", metadataTitle: "AI 负责提取菜名，元数据负责解释菜品。", metadataBody: "DishKAI 将菜名别名与可复用的食材、调味、口味、做法和风险元数据分开维护。", metadataAlias: "菜单名称映射到稳定 dish ID。", metadataDish: "菜品引用可复用食材和调味料。", metadataCard: "卡片展示清晰的点餐信息，而不是原始 schema。", 
     aboutEyebrow: "关于", aboutTitle: "DishKAI 面向跨语言、跨饮食文化的点餐场景。", aboutBody: "它不是菜谱网站或点评应用，而是一个帮助你判断是否值得点的安静菜单理解工具。", footerText: "Know before you order.",
-    matched: "已匹配", unmatched: "暂未收录", aiGenerated: "AI 估算结果，尚未进入 DishKAI 已验证数据库。", original: "原始菜名", familiar: "熟悉名称", verdict: "点餐建议", description: "这是什么", composition: "估算成分", taste: "基础味道", flavor: "特色风味", texture: "口感", watchOut: "注意事项", disclaimer: "图片说明", openCard: "打开卡片", summary: "项已分析", unknownNote: "这道菜暂时还不在 DishKAI 初始数据库中。"
+    matched: "已匹配", unmatched: "暂未收录", aiGenerated: "AI 估算结果，尚未进入 DishKAI 已验证数据库。", original: "原始菜名", familiar: "熟悉名称", verdict: "点餐建议", description: "这是什么", preparation: "常见做法风格", composition: "估算成分", taste: "基础味道", flavor: "特色风味", texture: "口感", watchOut: "注意事项", disclaimer: "图片说明", openCard: "打开卡片", summary: "项已分析", unknownNote: "这道菜暂时还不在 DishKAI 初始数据库中。"
   },
   nl: {
     navAnalyze: "Analyseren", navVisualMenu: "Visueel menu", navMetadata: "Metadata", navAbout: "Over",
@@ -33,7 +33,7 @@ const translations = {
     cardEyebrow: "Dish Knowledge Card", cardTitle: "Eerst een snel oordeel, daarna meer kennis wanneer je opent.", emptyCard: "Genereer een visueel menu en open daarna een gerechtkaart.",
     metadataEyebrow: "Interne metadata", metadataTitle: "AI haalt namen eruit. Metadata legt gerechten uit.", metadataBody: "DishKAI houdt aliassen gescheiden van herbruikbare ingredient-, seasoning-, smaak-, methode- en risicometadata.", metadataAlias: "Menunamen verwijzen naar stabiele dish IDs.", metadataDish: "Gerechten verwijzen naar herbruikbare ingredienten en seasonings.", metadataCard: "Kaarten tonen heldere beslisinformatie, geen ruwe schema's.",
     aboutEyebrow: "Over", aboutTitle: "DishKAI is voor bestellen over talen en eetculturen heen.", aboutBody: "Het is geen receptensite of reviewapp, maar een rustige tool om menus te begrijpen.", footerText: "Know before you order.",
-    matched: "gekoppeld", unmatched: "nog niet in database", aiGenerated: "AI-schatting. Nog niet geverifieerd in de DishKAI-database.", original: "Origineel", familiar: "Vertrouwd", verdict: "Besteladvies", description: "Wat het is", composition: "Geschatte samenstelling", taste: "Basissmaak", flavor: "Kenmerkende smaak", texture: "Textuur", watchOut: "Let op", disclaimer: "Visuele noot", openCard: "Open kaart", summary: "items geanalyseerd", unknownNote: "Dit gerecht staat nog niet in de startdatabase."
+    matched: "gekoppeld", unmatched: "nog niet in database", aiGenerated: "AI-schatting. Nog niet geverifieerd in de DishKAI-database.", original: "Origineel", familiar: "Vertrouwd", verdict: "Besteladvies", description: "Wat het is", preparation: "Hoe het meestal wordt bereid", composition: "Geschatte samenstelling", taste: "Basissmaak", flavor: "Kenmerkende smaak", texture: "Textuur", watchOut: "Let op", disclaimer: "Visuele noot", openCard: "Open kaart", summary: "items geanalyseerd", unknownNote: "Dit gerecht staat nog niet in de startdatabase."
   }
 };
 
@@ -189,6 +189,7 @@ function renderKnowledgeCard(item) {
       ${card.cuisineRole?.note ? `<p>${escapeHtml(card.cuisineRole.note)}</p>` : ""}
       <dl>
         <div><dt>${t("description")}</dt><dd>${escapeHtml(card.shortDescription || t("unknownNote"))}</dd></div>
+        <div><dt>${t("preparation")}</dt><dd>${renderCooking(card.cooking)}</dd></div>
         <div><dt>${t("composition")}</dt><dd><ul class="composition-list">${composition}</ul></dd></div>
         <div><dt>${t("taste")}</dt><dd>${listText(card.basicTaste)}</dd></div>
         <div><dt>${t("flavor")}</dt><dd>${listText(card.distinctiveFlavorSources)}</dd></div>
@@ -199,6 +200,12 @@ function renderKnowledgeCard(item) {
       <div class="icon-row">${tags}</div>
     </div>
   `;
+}
+
+function renderCooking(cooking) {
+  if (!cooking?.profile && !cooking?.methods?.length) return "—";
+  const methods = (cooking.methods || []).map((method) => `<span class="method-tag">${escapeHtml(method)}</span>`).join("");
+  return `<div class="method-row">${methods}</div>${cooking.profile ? `<p class="cooking-profile">${escapeHtml(cooking.profile)}</p>` : ""}`;
 }
 
 function listText(value) {

@@ -98,6 +98,88 @@ Each dish should only define how ingredients and seasonings are used in that dis
 - optional
 - displayPriority
 
+## Metadata Code System
+
+Every important metadata object should be traceable through a stable internal metadataCode.
+
+Use this 6-digit format:
+
+TCCNNN
+
+Where:
+
+- T = object type
+- CC = cuisine/category group
+- NNN = sequence number
+
+Object type codes:
+
+- 1 = dish
+- 2 = ingredient
+- 3 = seasoning
+- 4 = cuisine
+- 5 = taste tag
+- 6 = risk flag
+- 7 = cooking method
+
+Cuisine/category group codes:
+
+- 00 = global/common
+- 01 = Italian
+- 02 = Dutch
+- 03 = French
+- 04 = Greek
+- 05 = Spanish
+- 06 = German
+- 07 = Belgian
+- 08 = Thai
+- 09 = Japanese
+- 10 = Korean
+- 11 = Chinese
+- 12 = Southeast Asian general
+- 13 = Mediterranean general
+- 14 = Western/Central European general
+
+metadataCode rules:
+
+- metadataCode should be stable once assigned.
+- Do not use random numbers.
+- Do not reuse the same metadataCode for different objects.
+- Do not change existing metadataCode casually after images are generated.
+- imageCode should match metadataCode for dish images unless a future reason requires separation.
+
+For generated dish images, the small identification code printed on the image should match the dish metadataCode.
+
+Example:
+
+- Image shows code: 101001
+- metadataCode: 101001
+- dish id: carbonara
+
+Raw generated image files may be stored as:
+
+```text
+/assets/dishes/italian/raw/101001.png
+```
+
+Final optimized website files should still use dish id names:
+
+```text
+/assets/dishes/italian/carbonara.webp
+/assets/dishes/italian/carbonara-thumb.webp
+```
+
+Codex may later create a safe image import helper that maps:
+
+metadataCode -> dish id -> final image filename
+
+Example:
+
+101001.png -> carbonara.webp
+101001.png -> carbonara-thumb.webp
+
+Do not create that helper unless it is simple and safe, or unless explicitly requested.
+
 ## Internal Knowledge Database
 
 DishKAI has an internal knowledge database.
@@ -166,6 +248,8 @@ western-central-europe
 A dish should generally include:
 
 - id
+- metadataCode
+- imageCode
 - cuisineId
 - names
 - aliases handled separately through dishAliases
@@ -177,6 +261,7 @@ A dish should generally include:
 - servingTemperature
 - rawnessLevel
 - shortDescription
+- cookingProfile
 - composition
 - distinctiveFlavorSources
 - tasteProfile
@@ -195,6 +280,47 @@ A dish should generally include:
 - imagePath
 - thumbPath
 - visualDisclaimer
+
+## Cooking Profile Rule
+
+DishKAI explains how a dish feels and what to expect when ordering, not how to cook it.
+
+Cooking metadata should support ordering understanding, not recipe instruction.
+
+Do not add:
+
+- step-by-step recipes
+- measurements
+- cooking times
+- kitchen instructions
+- detailed cooking procedures
+
+Each dish may include:
+
+- cookingMethods: [...]
+- cookingProfile: { en, zh, nl }
+
+The cookingProfile should be one short sentence from a diner's perspective.
+
+It should help users understand:
+
+- preparation style
+- texture
+- richness
+- temperature
+- serving expectation
+
+The Dish Knowledge Card may show a compact section:
+
+- How it is usually prepared
+- method tags
+- one-sentence cookingProfile
+
+For Chinese:
+
+常见做法风格
+
+This section should support ordering understanding and must not become the main content.
 
 ## Composition Rule
 

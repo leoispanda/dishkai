@@ -76,6 +76,13 @@ Key architecture:
 - cuisineRole supports levels like signature, classic, common, regional, street-food, festival, modern, and niche.
 - houseSpecial should only be used when a menu explicitly marks an item as a restaurant special.
 - MapKAI may be inspected only as technical reference for Cloudflare AI patterns, but must not be modified from DishKAI tasks.
+- Added structured metadataCode system using TCCNNN.
+- Italian dish codes use 101001 to 101015.
+- Dish image codes should match metadataCode.
+- Raw generated images may be named by metadataCode and later converted to dish-id filenames.
+- Added cookingProfile support as a concise diner-facing preparation style.
+- CookingProfile must not become recipe instructions.
+- DishKAI should preserve the main focus: fast menu understanding and ordering decisions.
 
 Composition rule:
 Use approximate 5% composition blocks.
