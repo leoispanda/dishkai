@@ -1,39 +1,30 @@
 const translations = {
   en: {
-    navAnalyze: "Analyze", navVisualMenu: "Visual menu", navMetadata: "Metadata", navAbout: "About",
     heroTitle: "Know the dish before you order.",
-    heroSubtitle: "Upload a menu photo or paste menu text. DishKAI turns unfamiliar dishes into visual cards with ingredients, taste, distinctive flavors, watch-outs, and ordering guidance.",
-    textMode: "Paste menu text", imageMode: "Upload menu image", menuTextLabel: "Paste or type menu text", menuTextPlaceholder: "Pad Thai\nTom Yum Goong\nSom Tam", menuImageLabel: "Upload menu image", imageHelper: "Image analysis calls the backend endpoint. If vision support is unavailable, paste menu text instead.",
-    sourceLanguage: "Original menu language", targetLanguage: "Familiar target language", generate: "Generate visual menu", loading: "Analyzing menu...", noItems: "No menu items were found. Please paste clearer menu text.", imageUnavailable: "Image analysis is not available yet. Please paste menu text instead.",
-    visualMenuEyebrow: "Visual clickable menu", visualMenuTitle: "Menu order stays exactly as entered.", visualMenuBody: "Matched dishes use verified DishKAI metadata. Unknown dishes remain in place and are clearly marked.",
-    cardEyebrow: "Dish Knowledge Card", cardTitle: "Fast verdict first, deeper knowledge when opened.", emptyCard: "Generate a visual menu, then open a dish card.",
-    metadataEyebrow: "Internal metadata", metadataTitle: "AI extracts names. Metadata explains dishes.", metadataBody: "DishKAI keeps dish aliases separate from reusable ingredient, seasoning, taste, method, and risk metadata.", metadataAlias: "Menu names map to stable dish IDs.", metadataDish: "Dishes reference reusable ingredients and seasonings.", metadataCard: "Cards show clean decision-making output, not raw schema.",
-    aboutEyebrow: "About", aboutTitle: "DishKAI is for ordering across languages and food cultures.", aboutBody: "It is not a recipe site or review app. It is a calm menu understanding tool for deciding what is worth ordering.", footerText: "Know before you order.",
-    matched: "matched", unmatched: "not in starter database", aiGenerated: "AI-generated estimate. Not yet verified in DishKAI database.", original: "Original", familiar: "Familiar", verdict: "Order verdict", description: "What it is", preparation: "How it is usually prepared", composition: "Estimated composition", taste: "Basic taste", flavor: "Distinctive flavor", texture: "Texture", watchOut: "Watch out", disclaimer: "Visual note", openCard: "Open card", summary: "items analyzed", unknownNote: "This dish is not in the starter database yet."
+    heroSubtitle: "Upload a menu photo or paste menu text. DishKAI turns it into a clear dish list you can tap for ingredients, taste, watch-outs, and ordering guidance.",
+    textMode: "Paste menu text", imageMode: "Upload menu image", menuTextLabel: "Paste or type menu text", menuTextPlaceholder: "Carbonara\nPad Thai\nChef Special Pasta", menuImageLabel: "Upload menu image", imageHelper: "If image analysis is unavailable, paste the menu text instead.",
+    outputLanguage: "Output language", generate: "Generate menu list", loading: "Analyzing menu...", noItems: "No menu items were found. Please paste clearer menu text.", imageUnavailable: "Image analysis is not available yet. Please paste menu text instead.",
+    menuListEyebrow: "Menu list", menuListTitle: "Tap a dish to understand it.", emptyCard: "Tap a menu item to open its Dish Knowledge Card.",
+    footerText: "Fast menu understanding for ordering decisions.",
+    matched: "matched", unmatched: "Not in starter database yet", tapForDetails: "Tap for details", tapForEstimate: "Tap for AI estimate if available", aiGenerated: "AI-generated estimate. Not yet verified in DishKAI database.", original: "Original", familiar: "Familiar", verdict: "Order verdict", description: "What it is", preparation: "How it is usually prepared", composition: "Estimated composition", taste: "Basic taste", flavor: "Distinctive flavor", texture: "Texture", watchOut: "Watch out", disclaimer: "Visual note", summary: "items", unknownNote: "This dish is not in the starter database yet."
   },
   zh: {
-    navAnalyze: "分析", navVisualMenu: "视觉菜单", navMetadata: "元数据", navAbout: "关于",
     heroTitle: "点餐前，先看懂这道菜。",
-    heroSubtitle: "上传菜单照片或粘贴菜单文字。DishKAI 会把陌生菜名变成视觉卡片，说明成分、味道、特色风味、注意事项和点餐建议。",
-    textMode: "粘贴菜单文字", imageMode: "上传菜单图片", menuTextLabel: "粘贴或输入菜单文字", menuTextPlaceholder: "Pad Thai\nTom Yum Goong\nSom Tam", menuImageLabel: "上传菜单图片", imageHelper: "图片分析会调用后端接口。如果视觉模型暂不可用，请改用粘贴菜单文字。",
-    sourceLanguage: "原始菜单语言", targetLanguage: "熟悉的目标语言", generate: "生成视觉菜单", loading: "正在分析菜单...", noItems: "没有找到菜单项。请粘贴更清晰的菜单文字。", imageUnavailable: "图片分析暂不可用。请粘贴菜单文字。",
-    visualMenuEyebrow: "可点击视觉菜单", visualMenuTitle: "菜单顺序会严格保持原样。", visualMenuBody: "匹配菜品使用 DishKAI 已验证元数据。未知菜品会保留在原位并明确标记。",
-    cardEyebrow: "菜品知识卡", cardTitle: "先给点餐结论，打开后再看更深的食物知识。", emptyCard: "先生成视觉菜单，然后打开一道菜。",
-    metadataEyebrow: "内部元数据", metadataTitle: "AI 负责提取菜名，元数据负责解释菜品。", metadataBody: "DishKAI 将菜名别名与可复用的食材、调味、口味、做法和风险元数据分开维护。", metadataAlias: "菜单名称映射到稳定 dish ID。", metadataDish: "菜品引用可复用食材和调味料。", metadataCard: "卡片展示清晰的点餐信息，而不是原始 schema。", 
-    aboutEyebrow: "关于", aboutTitle: "DishKAI 面向跨语言、跨饮食文化的点餐场景。", aboutBody: "它不是菜谱网站或点评应用，而是一个帮助你判断是否值得点的安静菜单理解工具。", footerText: "Know before you order.",
-    matched: "已匹配", unmatched: "暂未收录", aiGenerated: "AI 估算结果，尚未进入 DishKAI 已验证数据库。", original: "原始菜名", familiar: "熟悉名称", verdict: "点餐建议", description: "这是什么", preparation: "常见做法风格", composition: "估算成分", taste: "基础味道", flavor: "特色风味", texture: "口感", watchOut: "注意事项", disclaimer: "图片说明", openCard: "打开卡片", summary: "项已分析", unknownNote: "这道菜暂时还不在 DishKAI 初始数据库中。"
+    heroSubtitle: "上传菜单照片或粘贴菜单文字。DishKAI 会生成一份清晰菜品列表，点击即可查看成分、味道、注意事项和点餐建议。",
+    textMode: "粘贴菜单文字", imageMode: "上传菜单图片", menuTextLabel: "粘贴或输入菜单文字", menuTextPlaceholder: "Carbonara\nPad Thai\nChef Special Pasta", menuImageLabel: "上传菜单图片", imageHelper: "如果图片分析暂不可用，请改用粘贴菜单文字。",
+    outputLanguage: "输出语言", generate: "生成菜单列表", loading: "正在分析菜单...", noItems: "没有找到菜单项。请粘贴更清晰的菜单文字。", imageUnavailable: "图片分析暂不可用。请粘贴菜单文字。",
+    menuListEyebrow: "菜单列表", menuListTitle: "点击一道菜，快速看懂它。", emptyCard: "点击菜单项以打开菜品知识卡。",
+    footerText: "为点餐决策而生的快速菜单理解工具。",
+    matched: "已匹配", unmatched: "暂未收录", tapForDetails: "点击查看详情", tapForEstimate: "如可用，可点击查看 AI 估算", aiGenerated: "AI 估算结果，尚未进入 DishKAI 已验证数据库。", original: "原始菜名", familiar: "熟悉名称", verdict: "点餐建议", description: "这是什么", preparation: "常见做法风格", composition: "估算成分", taste: "基础味道", flavor: "特色风味", texture: "口感", watchOut: "注意事项", disclaimer: "图片说明", summary: "项", unknownNote: "这道菜暂时还不在 DishKAI 初始数据库中。"
   },
   nl: {
-    navAnalyze: "Analyseren", navVisualMenu: "Visueel menu", navMetadata: "Metadata", navAbout: "Over",
     heroTitle: "Ken het gerecht voordat je bestelt.",
-    heroSubtitle: "Upload een menufoto of plak menutekst. DishKAI maakt van onbekende gerechten visuele kaarten met ingredienten, smaak, kenmerkende smaken, aandachtspunten en besteladvies.",
-    textMode: "Menutekst plakken", imageMode: "Menufoto uploaden", menuTextLabel: "Plak of typ menutekst", menuTextPlaceholder: "Pad Thai\nTom Yum Goong\nSom Tam", menuImageLabel: "Menufoto uploaden", imageHelper: "Beeldanalyse gebruikt het backend-endpoint. Als vision nog niet beschikbaar is, plak dan menutekst.",
-    sourceLanguage: "Originele menutaal", targetLanguage: "Vertrouwde doeltaal", generate: "Genereer visueel menu", loading: "Menu analyseren...", noItems: "Geen menu-items gevonden. Plak duidelijkere menutekst.", imageUnavailable: "Beeldanalyse is nog niet beschikbaar. Plak menutekst.",
-    visualMenuEyebrow: "Klikbaar visueel menu", visualMenuTitle: "De menuvolgorde blijft exact gelijk.", visualMenuBody: "Gekoppelde gerechten gebruiken geverifieerde DishKAI-metadata. Onbekende gerechten blijven op hun plek.",
-    cardEyebrow: "Dish Knowledge Card", cardTitle: "Eerst een snel oordeel, daarna meer kennis wanneer je opent.", emptyCard: "Genereer een visueel menu en open daarna een gerechtkaart.",
-    metadataEyebrow: "Interne metadata", metadataTitle: "AI haalt namen eruit. Metadata legt gerechten uit.", metadataBody: "DishKAI houdt aliassen gescheiden van herbruikbare ingredient-, seasoning-, smaak-, methode- en risicometadata.", metadataAlias: "Menunamen verwijzen naar stabiele dish IDs.", metadataDish: "Gerechten verwijzen naar herbruikbare ingredienten en seasonings.", metadataCard: "Kaarten tonen heldere beslisinformatie, geen ruwe schema's.",
-    aboutEyebrow: "Over", aboutTitle: "DishKAI is voor bestellen over talen en eetculturen heen.", aboutBody: "Het is geen receptensite of reviewapp, maar een rustige tool om menus te begrijpen.", footerText: "Know before you order.",
-    matched: "gekoppeld", unmatched: "nog niet in database", aiGenerated: "AI-schatting. Nog niet geverifieerd in de DishKAI-database.", original: "Origineel", familiar: "Vertrouwd", verdict: "Besteladvies", description: "Wat het is", preparation: "Hoe het meestal wordt bereid", composition: "Geschatte samenstelling", taste: "Basissmaak", flavor: "Kenmerkende smaak", texture: "Textuur", watchOut: "Let op", disclaimer: "Visuele noot", openCard: "Open kaart", summary: "items geanalyseerd", unknownNote: "Dit gerecht staat nog niet in de startdatabase."
+    heroSubtitle: "Upload een menufoto of plak menutekst. DishKAI maakt er een heldere gerechtenlijst van die je kunt aantikken voor ingredienten, smaak, aandachtspunten en besteladvies.",
+    textMode: "Menutekst plakken", imageMode: "Menufoto uploaden", menuTextLabel: "Plak of typ menutekst", menuTextPlaceholder: "Carbonara\nPad Thai\nChef Special Pasta", menuImageLabel: "Menufoto uploaden", imageHelper: "Als beeldanalyse niet beschikbaar is, plak dan de menutekst.",
+    outputLanguage: "Uitvoertaal", generate: "Genereer menulijst", loading: "Menu analyseren...", noItems: "Geen menu-items gevonden. Plak duidelijkere menutekst.", imageUnavailable: "Beeldanalyse is nog niet beschikbaar. Plak menutekst.",
+    menuListEyebrow: "Menulijst", menuListTitle: "Tik op een gerecht om het te begrijpen.", emptyCard: "Tik op een menu-item om de Dish Knowledge Card te openen.",
+    footerText: "Snelle menubegrip voor bestelbeslissingen.",
+    matched: "gekoppeld", unmatched: "nog niet in database", tapForDetails: "Tik voor details", tapForEstimate: "Tik voor AI-schatting indien beschikbaar", aiGenerated: "AI-schatting. Nog niet geverifieerd in de DishKAI-database.", original: "Origineel", familiar: "Vertrouwd", verdict: "Besteladvies", description: "Wat het is", preparation: "Hoe het meestal wordt bereid", composition: "Geschatte samenstelling", taste: "Basissmaak", flavor: "Kenmerkende smaak", texture: "Textuur", watchOut: "Let op", disclaimer: "Visuele noot", summary: "items", unknownNote: "Dit gerecht staat nog niet in de startdatabase."
   }
 };
 
@@ -80,7 +71,7 @@ async function analyzeText() {
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
       menuText,
-      sourceLanguage: $("#sourceLanguage").value,
+      sourceLanguage: "auto",
       targetLanguage: $("#targetLanguage").value,
     }),
   });
@@ -104,7 +95,7 @@ async function analyzeImage() {
   setStatus(t("loading"));
   const formData = new FormData();
   formData.append("image", image);
-  formData.append("sourceLanguage", $("#sourceLanguage").value);
+  formData.append("sourceLanguage", "auto");
   formData.append("targetLanguage", $("#targetLanguage").value);
   const response = await fetch("/api/analyze-menu-image", { method: "POST", body: formData });
   const result = await response.json();
@@ -120,8 +111,7 @@ async function analyzeImage() {
 function renderAnalysis(result) {
   renderSummary(result);
   renderVisualMenu(result.items || []);
-  const firstMatched = result.items?.find((item) => item.card);
-  if (firstMatched) renderKnowledgeCard(firstMatched);
+  resetKnowledgeCard();
 }
 
 function renderSummary(result) {
@@ -131,7 +121,6 @@ function renderSummary(result) {
     <span>${result.items.length} ${t("summary")}</span>
     <span>${matched} ${t("matched")}</span>
     <span>${unmatched} ${t("unmatched")}</span>
-    <span>${result.extractionSource || "local-fallback"}</span>
   `;
 }
 
@@ -143,17 +132,15 @@ function renderVisualMenu(items) {
   }
   grid.innerHTML = items.map((item) => {
     const card = item.card || {};
-    const tags = (card.iconTags || []).map((tag) => `<span class="icon-tag" title="${escapeHtml(tag.label)}">${tag.icon} ${escapeHtml(tag.label)}</span>`).join("");
-    const statusLabel = item.matchStatus === "matched" ? t("matched") : item.matchStatus === "ai-generated" ? t("aiGenerated") : t("unmatched");
+    const tags = (card.iconTags || []).slice(0, 5).map((tag) => `<span class="icon-tag" title="${escapeHtml(tag.label)}">${tag.icon ? `${tag.icon} ` : ""}${escapeHtml(tag.label)}</span>`).join("");
+    const statusLabel = item.matchStatus === "matched" ? t("tapForDetails") : item.matchStatus === "ai-generated" ? t("aiGenerated") : t("tapForEstimate");
     return `
       <article class="menu-card ${item.matchStatus}" data-order-index="${item.orderIndex}">
         <button class="menu-card-button" type="button" data-open-card="${item.orderIndex}">
-          <div class="thumb" aria-hidden="true">${card.thumbPath ? `<img src="${card.thumbPath}" alt="" loading="lazy">` : ""}</div>
+          <span class="order-index">${item.orderIndex}</span>
           <div class="menu-card-copy">
-            <span class="order-index">${item.orderIndex}</span>
             <h3>${escapeHtml(item.originalName)}</h3>
             <p>${escapeHtml(card.familiarName || item.cleanName || item.originalName)}</p>
-            <strong>${escapeHtml(card.orderVerdict || t("unknownNote"))}</strong>
             <div class="icon-row">${tags}</div>
             <small>${statusLabel}</small>
           </div>
@@ -170,11 +157,16 @@ function renderVisualMenu(items) {
   });
 }
 
+function resetKnowledgeCard() {
+  $("#dishCard").className = "knowledge-card empty";
+  $("#dishCard").innerHTML = `<p>${t("emptyCard")}</p>`;
+}
+
 function renderKnowledgeCard(item) {
   const card = item.card || {};
   const composition = (card.composition || []).map((part) => `
     <li><span>${escapeHtml(part.name || part.role)}</span><strong>${Number(part.estimatedPercent || 0)}%</strong></li>
-  `).join("");
+  `).join("") || `<li><span>—</span><strong></strong></li>`;
   const tags = (card.iconTags || []).map((tag) => `<span class="icon-tag">${tag.icon} ${escapeHtml(tag.label)}</span>`).join("");
   const unverified = card.verified === false && card.metadataSource === "ai-fallback" ? `<p class="notice">${t("aiGenerated")}</p>` : "";
   $("#dishCard").className = "knowledge-card";

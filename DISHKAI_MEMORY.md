@@ -83,6 +83,9 @@ Key architecture:
 - Added cookingProfile support as a concise diner-facing preparation style.
 - CookingProfile must not become recipe instructions.
 - DishKAI should preserve the main focus: fast menu understanding and ordering decisions.
+- DishKAI homepage was simplified to focus on one action: upload menu image or paste menu text, choose output language, and generate a compact ordered menu list.
+- The result list should preserve original menu order and avoid large images.
+- Detailed images and metadata appear only after tapping a dish.
 
 Composition rule:
 Use approximate 5% composition blocks.

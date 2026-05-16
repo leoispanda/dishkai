@@ -3,27 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="DishKAI turns unfamiliar menu names into visual Dish Knowledge Cards.">
+  <meta name="description" content="DishKAI turns unfamiliar menu names into tappable Dish Knowledge Cards.">
   <title>DishKAI | Know the dish before you order</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="topbar">
+  <header class="topbar compact">
     <a class="brand" href="#home" aria-label="DishKAI home">
       <span class="brand-mark">D</span>
       <span>DishKAI</span>
     </a>
-    <nav class="nav" aria-label="Primary navigation">
-      <a href="#home" data-i18n="navAnalyze">Analyze</a>
-      <a href="#visual-menu" data-i18n="navVisualMenu">Visual menu</a>
-      <a href="#metadata" data-i18n="navMetadata">Metadata</a>
-      <a href="#about" data-i18n="navAbout">About</a>
-    </nav>
-    <div class="lang-toggle" aria-label="Interface language">
-      <button class="active" data-ui-lang="en">EN</button>
-      <button data-ui-lang="zh">中文</button>
-      <button data-ui-lang="nl">NL</button>
-    </div>
   </header>
 
   <main>
@@ -31,7 +20,7 @@
       <div class="hero-copy">
         <p class="eyebrow">Dish Knowledge AI</p>
         <h1 data-i18n="heroTitle">Know the dish before you order.</h1>
-        <p class="subtitle" data-i18n="heroSubtitle">Upload a menu photo or paste menu text. DishKAI turns unfamiliar dishes into visual cards with ingredients, taste, distinctive flavors, watch-outs, and ordering guidance.</p>
+        <p class="subtitle" data-i18n="heroSubtitle">Upload a menu photo or paste menu text. DishKAI turns it into a clear dish list you can tap for ingredients, taste, watch-outs, and ordering guidance.</p>
       </div>
 
       <form id="menuForm" class="analysis-panel">
@@ -42,85 +31,50 @@
 
         <div class="input-mode active" data-input-panel="text">
           <label for="menuText" data-i18n="menuTextLabel">Paste or type menu text</label>
-          <textarea id="menuText" name="menuText" rows="9" data-i18n-placeholder="menuTextPlaceholder" placeholder="Pad Thai&#10;Tom Yum Goong&#10;Som Tam">Pad Thai
-Unknown Dish</textarea>
+          <textarea id="menuText" name="menuText" rows="8" data-i18n-placeholder="menuTextPlaceholder" placeholder="Carbonara&#10;Pad Thai&#10;Chef Special Pasta">Carbonara
+Pad Thai
+Chef Special Pasta</textarea>
         </div>
 
         <div class="input-mode" data-input-panel="image">
           <label for="menuImage" data-i18n="menuImageLabel">Upload menu image</label>
           <input id="menuImage" name="menuImage" type="file" accept="image/*">
-          <p class="helper" data-i18n="imageHelper">Image analysis calls the backend endpoint. If vision support is unavailable, paste menu text instead.</p>
+          <p class="helper" data-i18n="imageHelper">If image analysis is unavailable, paste the menu text instead.</p>
         </div>
 
-        <div class="language-grid">
-          <label>
-            <span data-i18n="sourceLanguage">Original menu language</span>
-            <select id="sourceLanguage" name="sourceLanguage">
-              <option value="auto">Auto</option>
-              <option value="en">English</option>
-              <option value="zh">中文</option>
-              <option value="th">ไทย</option>
-              <option value="nl">Nederlands</option>
-            </select>
-          </label>
-          <label>
-            <span data-i18n="targetLanguage">Familiar target language</span>
-            <select id="targetLanguage" name="targetLanguage">
-              <option value="en">English</option>
-              <option value="zh">中文</option>
-              <option value="nl">Nederlands</option>
-            </select>
-          </label>
-        </div>
+        <label>
+          <span data-i18n="outputLanguage">Output language</span>
+          <select id="targetLanguage" name="targetLanguage">
+            <option value="en">English</option>
+            <option value="zh">中文</option>
+            <option value="nl">Nederlands</option>
+          </select>
+        </label>
 
-        <button id="generateButton" class="button primary" type="submit" data-i18n="generate">Generate visual menu</button>
+        <button id="generateButton" class="button primary" type="submit" data-i18n="generate">Generate menu list</button>
         <p id="statusMessage" class="status" role="status"></p>
       </form>
     </section>
 
     <section id="visual-menu" class="section visual-menu-section">
-      <div class="section-heading">
-        <p class="eyebrow" data-i18n="visualMenuEyebrow">Visual clickable menu</p>
-        <h2 data-i18n="visualMenuTitle">Menu order stays exactly as entered.</h2>
-        <p data-i18n="visualMenuBody">Matched dishes use verified DishKAI metadata. Unknown dishes remain in place and are clearly marked.</p>
+      <div class="section-heading compact-heading">
+        <p class="eyebrow" data-i18n="menuListEyebrow">Menu list</p>
+        <h2 data-i18n="menuListTitle">Tap a dish to understand it.</h2>
       </div>
       <div id="menuSummary" class="summary-strip"></div>
-      <div id="visualMenuGrid" class="visual-menu-grid"></div>
+      <div id="visualMenuGrid" class="menu-list"></div>
     </section>
 
     <section id="knowledge-card" class="section knowledge-section">
-      <div class="section-heading">
-        <p class="eyebrow" data-i18n="cardEyebrow">Dish Knowledge Card</p>
-        <h2 data-i18n="cardTitle">Fast verdict first, deeper knowledge when opened.</h2>
-      </div>
       <div id="dishCard" class="knowledge-card empty">
-        <p data-i18n="emptyCard">Generate a visual menu, then open a dish card.</p>
+        <p data-i18n="emptyCard">Tap a menu item to open its Dish Knowledge Card.</p>
       </div>
-    </section>
-
-    <section id="metadata" class="section metadata-section">
-      <div class="section-heading">
-        <p class="eyebrow" data-i18n="metadataEyebrow">Internal metadata</p>
-        <h2 data-i18n="metadataTitle">AI extracts names. Metadata explains dishes.</h2>
-        <p data-i18n="metadataBody">DishKAI keeps dish aliases separate from reusable ingredient, seasoning, taste, method, and risk metadata.</p>
-      </div>
-      <div class="metadata-grid">
-        <article><strong>alias → dishId</strong><span data-i18n="metadataAlias">Menu names map to stable dish IDs.</span></article>
-        <article><strong>dish → components</strong><span data-i18n="metadataDish">Dishes reference reusable ingredients and seasonings.</span></article>
-        <article><strong>metadata → card</strong><span data-i18n="metadataCard">Cards show clean decision-making output, not raw schema.</span></article>
-      </div>
-    </section>
-
-    <section id="about" class="section about-section">
-      <p class="eyebrow" data-i18n="aboutEyebrow">About</p>
-      <h2 data-i18n="aboutTitle">DishKAI is for ordering across languages and food cultures.</h2>
-      <p data-i18n="aboutBody">It is not a recipe site or review app. It is a calm menu understanding tool for deciding what is worth ordering.</p>
     </section>
   </main>
 
-  <footer class="footer">
+  <footer class="footer compact">
     <span>DishKAI</span>
-    <span data-i18n="footerText">Know before you order.</span>
+    <span data-i18n="footerText">Fast menu understanding for ordering decisions.</span>
   </footer>
 
   <script src="script.js"></script>

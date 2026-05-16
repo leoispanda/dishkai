@@ -22,18 +22,26 @@ The MVP should focus on:
 
 Do not prioritize user login, payment, restaurant maps, social sharing, full recipe instructions, complex profile systems, or large history systems at the current stage.
 
+DishKAI homepage should stay minimal and action-first.
+
+The output should first be an ordered list, not large visual cards.
+
+Large images and full metadata belong in the clicked Dish Knowledge Card.
+
+Use progressive disclosure: show compact dish rows first, reveal full details only when the user taps an item.
+
 ## Core Product Flow
 
 Default product flow:
 
 1. User uploads a menu image OR enters/pastes menu text.
-2. User selects original menu language and familiar target language.
+2. User selects output language.
 3. Image input is converted to menu text by the backend when vision/OCR support is available.
 4. DishKAI extracts likely dish names and preserves original menu order.
 5. DishKAI matches menu names through dish aliases.
 6. DishKAI retrieves internal metadata.
-7. DishKAI generates a clickable visual menu.
-8. Each dish card shows image, original name, familiar language name, composition, flavor, watch-outs, and order verdict.
+7. DishKAI generates a compact ordered menu list.
+8. Tapping a dish opens a Dish Knowledge Card with image, original name, familiar language name, composition, flavor, watch-outs, and order verdict.
 
 Keep the product focused on fast ordering decisions.
 
@@ -523,9 +531,9 @@ Use concise, user-friendly wording.
 
 Do not turn DishKAI into a long encyclopedia.
 
-## Visual Menu Card Standard
+## Visual Menu List Standard
 
-Dish grid cards should show compact icon tags where useful:
+Dish list rows should show compact icon tags where useful:
 
 - order verdict
 - dish type
@@ -535,6 +543,12 @@ Dish grid cards should show compact icon tags where useful:
 - cuisine role
 
 Use a centralized iconTags mapping instead of hardcoding icons in each card.
+
+Do not show large dish images in the menu list.
+
+Prefer no image or a very small thumbnail only when it does not dominate the row.
+
+Keep list rows compact and preserve original menu order.
 
 Useful icon tag IDs include:
 
