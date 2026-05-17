@@ -88,12 +88,15 @@ Key architecture:
 - Detailed images and metadata appear only after tapping a dish.
 - Added Personal PDC Council Room V1.5 as a general personal decision system hosted inside DishKAI for technical testing.
 - DishKAI is the host/test environment; the PDC is not a DishKAI-specific food council.
-- PDC output is Chinese by default and supports quick_mode, team_debate, select_agents, and full_council.
-- PDC defaults to team_debate to reduce AI calls while covering activation, experience, and judgment perspectives.
+- PDC output is Chinese by default and supports quick_mode, individual_debate, preset_team_debate, custom_team_debate, and hybrid_debate.
+- PDC defaults to preset_team_debate to reduce AI calls while covering activation, experience, and judgment perspectives.
 - PDC uses Cloudflare Workers AI through the backend AI binding, not OpenAI API.
 - PDC does not use a database, login, voting, elimination, or PK in V1.5.
 - PDC supports user intervention by sending previous_summary instead of full conversation history.
 - Future PDC V2 can add likes, elimination, PK, and persistent meeting state.
+- PDC now supports flexible grouping: individual_debate, preset_team_debate, custom_team_debate, and hybrid_debate.
+- Custom grouping settings are saved locally under personalPdcCustomGroups, with no database.
+- Backend keeps old team_debate input compatible by mapping it to preset_team_debate and now returns participants as the primary output schema.
 
 Composition rule:
 Use approximate 5% composition blocks.

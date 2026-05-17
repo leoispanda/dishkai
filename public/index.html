@@ -95,26 +95,48 @@ Chef Special Pasta</textarea>
             <span>会议模式</span>
             <select id="pdcMeetingMode" name="meeting_mode">
               <option value="quick_mode">快速三人模式</option>
-              <option value="team_debate" selected>小组对抗模式</option>
-              <option value="select_agents">自选参会人模式</option>
-              <option value="full_council">完整委员会模式</option>
+              <option value="individual_debate">个人独立作战</option>
+              <option value="preset_team_debate" selected>默认三组对抗</option>
+              <option value="custom_team_debate">自定义分组对抗</option>
+              <option value="hybrid_debate">混合模式</option>
             </select>
           </label>
 
-          <p id="pdcModeNote" class="helper">小组对抗模式默认调用 3 个小组，覆盖激活、体验、判断三个核心视角。</p>
+          <p id="pdcModeNote" class="helper">默认三组对抗调用 3 个小组，覆盖激活、体验、判断三个核心视角。</p>
+          <p id="pdcCallEstimate" class="helper">预计 AI 调用次数：3</p>
 
-          <fieldset id="pdcAgentPicker" class="agent-picker" hidden>
-            <legend>选择参会人</legend>
-            <label><input type="checkbox" value="rex-velocity"> Rex Velocity</label>
-            <label><input type="checkbox" value="vera-flow"> Vera Flow</label>
-            <label><input type="checkbox" value="max-build"> Max Build</label>
-            <label><input type="checkbox" value="nina-ember"> Nina Ember</label>
-            <label><input type="checkbox" value="wang-zhibai"> Wang Zhibai / 王之白</label>
-            <label><input type="checkbox" value="owen-insight"> Owen Insight</label>
-            <label><input type="checkbox" value="adrian-north"> Adrian North</label>
-            <label><input type="checkbox" value="orion-zhuge"> Orion Zhuge / 诸葛观辰</label>
-            <label><input type="checkbox" value="mira-ethos"> Mira Ethos</label>
-          </fieldset>
+          <section id="pdcGroupingSettings" class="pdc-grouping">
+            <div>
+              <h3>编组设置</h3>
+              <p class="helper">你可以选择让合伙人独立作战，也可以把他们分成不同小组进行对抗。</p>
+            </div>
+
+            <fieldset id="pdcAgentPicker" class="agent-picker" hidden>
+              <legend>选择独立参会人</legend>
+              <label><input type="checkbox" value="rex-velocity"> Rex Velocity</label>
+              <label><input type="checkbox" value="vera-flow"> Vera Flow</label>
+              <label><input type="checkbox" value="max-build"> Max Build</label>
+              <label><input type="checkbox" value="nina-ember"> Nina Ember</label>
+              <label><input type="checkbox" value="wang-zhibai"> Wang Zhibai / 王之白</label>
+              <label><input type="checkbox" value="owen-insight"> Owen Insight</label>
+              <label><input type="checkbox" value="adrian-north"> Adrian North</label>
+              <label><input type="checkbox" value="orion-zhuge"> Orion Zhuge / 诸葛观辰</label>
+              <label><input type="checkbox" value="mira-ethos"> Mira Ethos</label>
+            </fieldset>
+
+            <div id="pdcCustomGroupTools" class="group-tools" hidden>
+              <button id="pdcUsePresetGroups" class="button" type="button">使用推荐三组模板</button>
+              <button id="pdcAddGroup" class="button" type="button">添加小组</button>
+              <button id="pdcClearGroups" class="button" type="button">清空分组</button>
+            </div>
+
+            <div id="pdcCustomGroups" class="custom-groups" hidden></div>
+
+            <label id="pdcHybridToggle" class="toggle-row" hidden>
+              <input id="pdcIncludeUngrouped" type="checkbox" checked>
+              <span>未分组成员独立发言</span>
+            </label>
+          </section>
 
           <button id="pdcStartButton" class="button primary" type="submit">启动委员会</button>
           <p id="pdcStatus" class="status" role="status"></p>

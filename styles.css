@@ -338,6 +338,74 @@ select, input { min-height: 46px; }
   font-weight: 700;
 }
 .agent-picker input { width: auto; min-height: auto; }
+.pdc-grouping {
+  display: grid;
+  gap: 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper);
+  padding: 14px;
+}
+.pdc-grouping h3 { font-size: 20px; }
+.group-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.group-tools .button {
+  min-height: 40px;
+  background: var(--white);
+}
+.custom-groups {
+  display: grid;
+  gap: 12px;
+}
+.custom-group-card {
+  display: grid;
+  gap: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+  padding: 14px;
+}
+.custom-group-card header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.custom-group-card header h4 {
+  margin: 0;
+  font-size: 16px;
+}
+.remove-group {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--danger);
+  padding: 7px 10px;
+  font-size: 12px;
+  font-weight: 800;
+}
+.group-member-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+.group-member-grid label,
+.toggle-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 750;
+}
+.group-member-grid input,
+.toggle-row input {
+  width: auto;
+  min-height: auto;
+}
 .pdc-rounds {
   display: grid;
   gap: 14px;
@@ -378,6 +446,26 @@ select, input { min-height: 46px; }
   font-size: 13px;
   font-weight: 800;
 }
+.participant-kind {
+  display: inline-flex;
+  width: fit-content;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+  padding: 5px 8px;
+  color: var(--sage);
+  font-size: 12px;
+  font-weight: 850;
+}
+.member-list {
+  display: grid;
+  gap: 6px;
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+  color: var(--muted);
+  font-size: 13px;
+}
 .pdc-card dl {
   display: grid;
   gap: 10px;
@@ -400,7 +488,7 @@ select, input { min-height: 46px; }
   .nav { order: 3; width: 100%; overflow-x: auto; margin-left: 0; padding-bottom: 3px; }
   .lang-toggle { margin-left: auto; }
   .hero, .knowledge-card { grid-template-columns: 1fr; }
-  .agent-picker { grid-template-columns: 1fr 1fr; }
+  .agent-picker, .group-member-grid { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 640px) {
@@ -409,6 +497,6 @@ select, input { min-height: 46px; }
   .menu-card-button { grid-template-columns: 32px minmax(0, 1fr); }
   .mode-tabs { grid-template-columns: 1fr; border-radius: 12px; }
   .mode-tabs button { border-radius: 8px; }
-  .agent-picker { grid-template-columns: 1fr; }
+  .agent-picker, .group-member-grid { grid-template-columns: 1fr; }
   .footer { flex-direction: column; }
 }

@@ -42,10 +42,12 @@ DishKAI now hosts an internal Personal PDC Council Room as a technical test envi
 The PDC room:
 
 - outputs Chinese by default
-- supports `quick_mode`, `team_debate`, `select_agents`, and `full_council`
-- defaults to `team_debate` to reduce AI calls while preserving activation, experience, and judgment perspectives
+- supports `quick_mode`, `individual_debate`, `preset_team_debate`, `custom_team_debate`, and `hybrid_debate`
+- defaults to `preset_team_debate` to reduce AI calls while preserving activation, experience, and judgment perspectives
 - uses Cloudflare Workers AI through the backend `AI` binding
 - does not use OpenAI API, login, database storage, voting, elimination, or PK
 - supports user intervention through follow-up rounds using `previous_summary`
 
 Future V2 ideas include likes, elimination, PK, and persistent meeting state.
+
+Flexible grouping is supported through `individual_debate`, `preset_team_debate`, `custom_team_debate`, and `hybrid_debate`. Custom grouping settings are saved in localStorage under `personalPdcCustomGroups`; no database is used.

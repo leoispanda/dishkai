@@ -215,18 +215,53 @@ function escapeHtml(value) {
   }[char]));
 }
 
+const pdcAgents = [
+  ["rex-velocity", "Rex Velocity"],
+  ["vera-flow", "Vera Flow"],
+  ["max-build", "Max Build"],
+  ["nina-ember", "Nina Ember"],
+  ["wang-zhibai", "Wang Zhibai / 王之白"],
+  ["owen-insight", "Owen Insight"],
+  ["adrian-north", "Adrian North"],
+  ["orion-zhuge", "Orion Zhuge / 诸葛观辰"],
+  ["mira-ethos", "Mira Ethos"],
+];
+
+const presetCustomGroups = [
+  {
+    group_id: "activation-team",
+    group_name: "激活组",
+    group_purpose: "论证这件事能不能马上动起来，并形成第一批真实行动。",
+    member_ids: ["rex-velocity", "nina-ember", "max-build"],
+  },
+  {
+    group_id: "experience-team",
+    group_name: "体验组",
+    group_purpose: "判断用户能否看懂、相信，并产生一点感觉。",
+    member_ids: ["vera-flow", "wang-zhibai", "mira-ethos"],
+  },
+  {
+    group_id: "judgment-team",
+    group_name: "判断组",
+    group_purpose: "判断这是否真是正确方向，而不是只看起来合理。",
+    member_ids: ["owen-insight", "adrian-north", "orion-zhuge"],
+  },
+];
+
 const pdcModeNotes = {
   quick_mode: "快速三人模式适合日常快速判断，会调用 Rex、Vera、Max。",
-  team_debate: "小组对抗模式默认调用 3 个小组，覆盖激活、体验、判断三个核心视角。",
-  select_agents: "自选参会人模式会调用你勾选的成员；如果为空，会回到快速三人模式。",
-  full_council: "完整委员会会消耗更多 AI 调用。快速模式或小组对抗模式适合日常判断。",
+  individual_debate: "个人独立作战会按参会人数消耗 AI 调用。可减少参会人或使用小组模式。",
+  preset_team_debate: "默认三组对抗调用 3 个小组，覆盖激活、体验、判断三个核心视角。",
+  custom_team_debate: "自定义分组对抗按小组数量调用。每个小组至少需要 1 位成员。",
+  hybrid_debate: "混合模式按小组数量 + 独立参会人数调用，可让未分组成员独立发言。",
 };
 
 const pdcLoadingText = {
   quick_mode: "快速小组正在形成初步判断……",
-  team_debate: "三个小组正在准备对抗观点……",
-  select_agents: "你选择的合伙人正在进入会议室……",
-  full_council: "9 位合伙人正在进入会议室……",
+  individual_debate: "独立参会人正在形成各自判断……",
+  preset_team_debate: "三个小组正在准备对抗观点……",
+  custom_team_debate: "自定义小组正在准备对抗观点……",
+  hybrid_debate: "小组与独立参会人正在进入会议室……",
 };
 
 function loadPdcState() {
@@ -241,6 +276,24 @@ function savePdcState() {
   localStorage.setItem("dishkai-pdc-state", JSON.stringify(pdcState));
 }
 
+function loadPdcGroupingSettings() {
+  try {
+    return JSON.parse(localStorage.getItem("personalPdcCustomGroups")) || {};
+  } catch {
+    return {};
+  }
+}
+
+function savePdcGroupingSettings() {
+  const settings = {
+    meeting_mode: $("#pdcMeetingMode")?.value || "preset_team_debate",
+    selected_agents: selectedPdcAgents(),
+    custom_groups: readCustomGroups({ allowEmpty: true }),
+    include_ungrouped_as_individuals: Boolean($("#pdcIncludeUngrouped")?.checked),
+  };
+  localStorage.setItem("personalPdcCustomGroups", JSON.stringify(settings));
+}
+
 function setPdcStatus(message, tone = "") {
   const el = $("#pdcStatus");
   if (!el) return;
@@ -251,18 +304,150 @@ function setPdcStatus(message, tone = "") {
 function openPdcRoom() {
   const section = $("#personal-pdc");
   section.hidden = false;
+  restorePdcGroupingSettings();
   renderPdcRounds();
   section.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function updatePdcModeUi() {
   const mode = $("#pdcMeetingMode").value;
-  $("#pdcAgentPicker").hidden = mode !== "select_agents";
-  $("#pdcModeNote").textContent = pdcModeNotes[mode] || pdcModeNotes.team_debate;
+  const showsAgents = mode === "individual_debate" || mode === "hybrid_debate";
+  const showsGroups = mode === "custom_team_debate" || mode === "hybrid_debate";
+  $("#pdcAgentPicker").hidden = !showsAgents;
+  $("#pdcCustomGroupTools").hidden = !showsGroups;
+  $("#pdcCustomGroups").hidden = !showsGroups;
+  $("#pdcHybridToggle").hidden = mode !== "hybrid_debate";
+  if (showsGroups && !readCustomGroups({ allowEmpty: true }).length) addCustomGroup();
+  $("#pdcModeNote").textContent = pdcModeNotes[mode] || pdcModeNotes.preset_team_debate;
+  updatePdcCallEstimate();
+  savePdcGroupingSettings();
 }
 
 function selectedPdcAgents() {
   return Array.from(document.querySelectorAll("#pdcAgentPicker input:checked")).map((input) => input.value);
+}
+
+function restorePdcGroupingSettings() {
+  const settings = loadPdcGroupingSettings();
+  if (settings.meeting_mode && $("#pdcMeetingMode")) $("#pdcMeetingMode").value = normalizePdcUiMode(settings.meeting_mode);
+  document.querySelectorAll("#pdcAgentPicker input").forEach((input) => {
+    input.checked = (settings.selected_agents || []).includes(input.value);
+  });
+  renderCustomGroups(settings.custom_groups || []);
+  if ($("#pdcIncludeUngrouped")) $("#pdcIncludeUngrouped").checked = settings.include_ungrouped_as_individuals !== false;
+  updatePdcModeUi();
+}
+
+function renderCustomGroups(groups) {
+  const container = $("#pdcCustomGroups");
+  if (!container) return;
+  container.innerHTML = "";
+  groups.forEach((group) => addCustomGroup(group));
+  updatePdcCallEstimate();
+}
+
+function addCustomGroup(group = {}) {
+  const container = $("#pdcCustomGroups");
+  const index = container.children.length + 1;
+  const groupId = group.group_id || `custom_group_${Date.now()}_${index}`;
+  const selected = new Set(group.member_ids || []);
+  const card = document.createElement("section");
+  card.className = "custom-group-card";
+  card.dataset.groupId = groupId;
+  card.innerHTML = `
+    <header>
+      <h4>小组 ${index}</h4>
+      <button class="remove-group" type="button">删除小组</button>
+    </header>
+    <label>
+      <span>小组名称</span>
+      <input class="group-name" type="text" value="${escapeAttribute(group.group_name || "")}" placeholder="例如：支持继续组 / 反对继续组 / 验证组">
+    </label>
+    <label>
+      <span>小组任务 / 小组立场</span>
+      <textarea class="group-purpose" rows="3" placeholder="例如：专门论证为什么应该继续读 EMBA">${escapeHtml(group.group_purpose || "")}</textarea>
+    </label>
+    <div class="group-member-grid">
+      ${pdcAgents.map(([id, name]) => `
+        <label><input type="checkbox" value="${id}" ${selected.has(id) ? "checked" : ""}> ${escapeHtml(name)}</label>
+      `).join("")}
+    </div>
+  `;
+  card.querySelector(".remove-group").addEventListener("click", () => {
+    card.remove();
+    renumberCustomGroups();
+    updatePdcCallEstimate();
+    savePdcGroupingSettings();
+  });
+  card.querySelectorAll("input, textarea").forEach((el) => {
+    el.addEventListener("input", () => {
+      validateCustomGroups();
+      updatePdcCallEstimate();
+      savePdcGroupingSettings();
+    });
+    el.addEventListener("change", () => {
+      validateCustomGroups();
+      updatePdcCallEstimate();
+      savePdcGroupingSettings();
+    });
+  });
+  container.appendChild(card);
+  validateCustomGroups();
+  updatePdcCallEstimate();
+}
+
+function renumberCustomGroups() {
+  document.querySelectorAll(".custom-group-card h4").forEach((title, index) => {
+    title.textContent = `小组 ${index + 1}`;
+  });
+}
+
+function readCustomGroups({ allowEmpty = false } = {}) {
+  return Array.from(document.querySelectorAll(".custom-group-card")).map((card, index) => ({
+    group_id: card.dataset.groupId || `custom_group_${index + 1}`,
+    group_name: card.querySelector(".group-name").value.trim() || `自定义小组 ${index + 1}`,
+    group_purpose: card.querySelector(".group-purpose").value.trim(),
+    member_ids: Array.from(card.querySelectorAll(".group-member-grid input:checked")).map((input) => input.value),
+  })).filter((group) => allowEmpty || group.member_ids.length);
+}
+
+function validateCustomGroups() {
+  const groups = readCustomGroups({ allowEmpty: true });
+  const seen = new Map();
+  const duplicates = [];
+  groups.forEach((group) => {
+    group.member_ids.forEach((id) => {
+      if (seen.has(id)) duplicates.push(id);
+      seen.set(id, group.group_id);
+    });
+  });
+  if (duplicates.length) {
+    setPdcStatus("同一位 agent 原则上只能加入一个小组，请调整重复成员。", "error");
+    return false;
+  }
+  return true;
+}
+
+function estimatePdcCalls() {
+  const mode = $("#pdcMeetingMode")?.value || "preset_team_debate";
+  if (mode === "quick_mode") return 3;
+  if (mode === "preset_team_debate") return 3;
+  if (mode === "individual_debate") return selectedPdcAgents().length || 9;
+  const groups = readCustomGroups({ allowEmpty: false });
+  if (mode === "custom_team_debate") return Math.max(groups.length, 1);
+  const selected = selectedPdcAgents().length ? selectedPdcAgents() : pdcAgents.map(([id]) => id);
+  const grouped = new Set(groups.flatMap((group) => group.member_ids));
+  const individualCount = $("#pdcIncludeUngrouped")?.checked ? selected.filter((id) => !grouped.has(id)).length : 0;
+  return groups.length + individualCount;
+}
+
+function updatePdcCallEstimate() {
+  const el = $("#pdcCallEstimate");
+  if (el) el.textContent = `预计 AI 调用次数：${estimatePdcCalls()}`;
+}
+
+function escapeAttribute(value) {
+  return escapeHtml(value).replace(/"/g, "&quot;");
 }
 
 async function startPdcRound(event) {
@@ -280,10 +465,22 @@ async function startPdcRound(event) {
     context,
     meeting_mode: meetingMode,
     selected_agents: selectedPdcAgents(),
+    custom_groups: readCustomGroups(),
+    include_ungrouped_as_individuals: Boolean($("#pdcIncludeUngrouped")?.checked),
     previous_summary: "",
     rounds: [],
   };
+  if ((meetingMode === "custom_team_debate" || meetingMode === "hybrid_debate") && !pdcState.custom_groups.length) {
+    setPdcStatus("请至少创建一个小组，并为每个小组选择成员。", "error");
+    return;
+  }
+  if ((meetingMode === "custom_team_debate" || meetingMode === "hybrid_debate") && readCustomGroups({ allowEmpty: true }).some((group) => !group.member_ids.length)) {
+    setPdcStatus("每个自定义小组至少需要一位成员；允许单人小组。", "error");
+    return;
+  }
+  if (!validateCustomGroups()) return;
   savePdcState();
+  savePdcGroupingSettings();
   setPdcStatus(pdcLoadingText[meetingMode] || "9 位合伙人正在进入会议室……");
   await callPdcRound({ mode: "round_1a" });
 }
@@ -309,9 +506,11 @@ async function callPdcRound({ mode, user_intervention = "" }) {
         topic: pdcState.topic,
         context: pdcState.context,
         mode,
-        meeting_mode: pdcState.meeting_mode || "team_debate",
+        meeting_mode: pdcState.meeting_mode || "preset_team_debate",
         selected_agents: pdcState.selected_agents || [],
-        previous_summary: pdcState.previous_summary || "",
+        custom_groups: pdcState.custom_groups || [],
+        include_ungrouped_as_individuals: Boolean(pdcState.include_ungrouped_as_individuals),
+        previous_summary: typeof pdcState.previous_summary === "string" ? pdcState.previous_summary : JSON.stringify(pdcState.previous_summary || {}),
         user_intervention,
       }),
     });
@@ -345,9 +544,15 @@ function renderPdcRounds() {
   if (pdcState.topic && $("#pdcTopic") && !$("#pdcTopic").value) {
     $("#pdcTopic").value = pdcState.topic;
     $("#pdcContext").value = pdcState.context || "";
-    $("#pdcMeetingMode").value = pdcState.meeting_mode || "team_debate";
+    $("#pdcMeetingMode").value = normalizePdcUiMode(pdcState.meeting_mode);
     updatePdcModeUi();
   }
+}
+
+function normalizePdcUiMode(mode) {
+  if (mode === "team_debate") return "preset_team_debate";
+  if (mode === "select_agents" || mode === "full_council") return "individual_debate";
+  return mode || "preset_team_debate";
 }
 
 function renderPdcRound(round, index) {
@@ -358,9 +563,7 @@ function renderPdcRound(round, index) {
       <p>${escapeHtml(round.user_intervention)}</p>
     </article>
   ` : "";
-  const cards = result.meeting_mode === "team_debate"
-    ? (result.team_outputs || []).map(renderPdcTeamCard).join("")
-    : (result.agent_outputs || []).map(renderPdcAgentCard).join("");
+  const cards = (result.participants || []).map(renderPdcParticipantCard).join("");
   return `
     <section class="pdc-round">
       <div class="pdc-round-title">
@@ -374,31 +577,28 @@ function renderPdcRound(round, index) {
   `;
 }
 
-function renderPdcAgentCard(agent) {
+function renderPdcParticipantCard(participant) {
+  const isTeam = participant.participant_type === "team";
+  const members = isTeam ? `
+    <ul class="member-list">
+      ${(participant.members || []).map((member) => `<li>${escapeHtml(member.name)} · ${escapeHtml(member.role || member.responsibility || "")}</li>`).join("")}
+    </ul>
+  ` : "";
   return `
-    <article class="pdc-card">
-      <h3>${escapeHtml(agent.name)}</h3>
-      <p class="pdc-role">${escapeHtml(agent.role)}</p>
+    <article class="pdc-card ${isTeam ? "team-participant" : "agent-participant"}">
+      <span class="participant-kind">${isTeam ? "小组发言" : "个人发言"}</span>
+      <h3>${escapeHtml(participant.name)}</h3>
+      <p class="pdc-role">${escapeHtml(participant.role_or_purpose)}</p>
+      ${members}
       <dl>
-        <div><dt>发言：</dt><dd>${escapeHtml(agent.statement)}</dd></div>
-        <div><dt>建议：</dt><dd>${escapeHtml(agent.recommendation)}</dd></div>
-        <div><dt>风险：</dt><dd>${escapeHtml(agent.risk)}</dd></div>
-      </dl>
-    </article>
-  `;
-}
-
-function renderPdcTeamCard(team) {
-  return `
-    <article class="pdc-card">
-      <h3>${escapeHtml(team.team_name)}</h3>
-      <p class="pdc-members">${escapeHtml((team.members || []).join("、"))}</p>
-      <dl>
-        <div><dt>立场：</dt><dd>${escapeHtml(team.position)}</dd></div>
-        <div><dt>组内张力：</dt><dd>${escapeHtml(team.internal_tension)}</dd></div>
-        <div><dt>建议：</dt><dd>${escapeHtml(team.recommendation)}</dd></div>
-        <div><dt>风险：</dt><dd>${escapeHtml(team.risk)}</dd></div>
-        <div><dt>向其他组挑战：</dt><dd>${escapeHtml(team.challenge_to_other_team)}</dd></div>
+        <div><dt>立场标签：</dt><dd>${escapeHtml(participant.decision_bias)}</dd></div>
+        <div><dt>立场：</dt><dd>${escapeHtml(participant.position)}</dd></div>
+        <div><dt>回应用户：</dt><dd>${escapeHtml(participant.response_to_user)}</dd></div>
+        ${isTeam ? `<div><dt>组内张力：</dt><dd>${escapeHtml(participant.internal_tension)}</dd></div>` : ""}
+        <div><dt>最强反驳：</dt><dd>${escapeHtml(participant.strongest_counterargument)}</dd></div>
+        <div><dt>建议：</dt><dd>${escapeHtml(participant.recommendation)}</dd></div>
+        <div><dt>风险：</dt><dd>${escapeHtml(participant.risk)}</dd></div>
+        <div><dt>挑战：</dt><dd>${escapeHtml(participant.challenge)}</dd></div>
       </dl>
     </article>
   `;
@@ -430,6 +630,29 @@ $("#targetLanguage").addEventListener("change", () => {
 
 $("#openPdcButton")?.addEventListener("click", openPdcRoom);
 $("#pdcMeetingMode")?.addEventListener("change", updatePdcModeUi);
+document.querySelectorAll("#pdcAgentPicker input").forEach((input) => {
+  input.addEventListener("change", () => {
+    updatePdcCallEstimate();
+    savePdcGroupingSettings();
+  });
+});
+$("#pdcIncludeUngrouped")?.addEventListener("change", () => {
+  updatePdcCallEstimate();
+  savePdcGroupingSettings();
+});
+$("#pdcAddGroup")?.addEventListener("click", () => {
+  addCustomGroup();
+  savePdcGroupingSettings();
+});
+$("#pdcUsePresetGroups")?.addEventListener("click", () => {
+  renderCustomGroups(presetCustomGroups);
+  savePdcGroupingSettings();
+});
+$("#pdcClearGroups")?.addEventListener("click", () => {
+  renderCustomGroups([]);
+  updatePdcCallEstimate();
+  savePdcGroupingSettings();
+});
 $("#pdcForm")?.addEventListener("submit", startPdcRound);
 $("#pdcInterventionForm")?.addEventListener("submit", continuePdcRound);
 updatePdcModeUi();

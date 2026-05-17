@@ -2,6 +2,8 @@ export const PDC_TEAMS = [
   {
     id: "activation-team",
     name: "Activation Team / 激活组",
+    purpose: "论证这件事能不能马上动起来，并形成第一批真实行动。",
+    memberIds: ["rex-velocity", "nina-ember", "max-build"],
     members: ["Rex Velocity", "Nina Ember", "Max Build"],
     focus: "用户行动、第一批真实用户、执行落地。",
     coreQuestion: "这件事能不能马上动起来？",
@@ -10,6 +12,8 @@ export const PDC_TEAMS = [
   {
     id: "experience-team",
     name: "Experience Team / 体验组",
+    purpose: "判断用户能否看懂、相信，并产生一点感觉。",
+    memberIds: ["vera-flow", "wang-zhibai", "mira-ethos"],
     members: ["Vera Flow", "Wang Zhibai / 王之白", "Mira Ethos"],
     focus: "UX 清晰度、视觉语言、镜像边界。",
     coreQuestion: "用户能不能看懂、相信，并产生一点感觉？",
@@ -18,6 +22,8 @@ export const PDC_TEAMS = [
   {
     id: "judgment-team",
     name: "Judgment Team / 判断组",
+    purpose: "判断这是否真是正确方向，而不是只看起来合理。",
+    memberIds: ["owen-insight", "adrian-north", "orion-zhuge"],
     members: ["Owen Insight", "Adrian North", "Orion Zhuge / 诸葛观辰"],
     focus: "真实用户洞察、长期战略、象征时机。",
     coreQuestion: "这真的是正确方向吗？",
