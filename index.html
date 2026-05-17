@@ -13,6 +13,7 @@
       <span class="brand-mark">D</span>
       <span>DishKAI</span>
     </a>
+    <button id="openPdcButton" class="internal-button" type="button">个人 PDC</button>
   </header>
 
   <main>
@@ -68,6 +69,67 @@ Chef Special Pasta</textarea>
     <section id="knowledge-card" class="section knowledge-section">
       <div id="dishCard" class="knowledge-card empty">
         <p data-i18n="emptyCard">Tap a menu item to open its Dish Knowledge Card.</p>
+      </div>
+    </section>
+
+    <section id="personal-pdc" class="section pdc-section" hidden>
+      <div class="pdc-shell">
+        <div class="pdc-heading">
+          <p class="eyebrow">Personal PDC</p>
+          <h2>个人 PDC 会议室</h2>
+          <p>9 位 AI 合伙人，从增长、UX、执行、社群、视觉、用户洞察、战略、象征时机和镜像边界等角度挑战你的决策。</p>
+        </div>
+
+        <form id="pdcForm" class="pdc-form">
+          <label>
+            <span>决策议题</span>
+            <input id="pdcTopic" name="topic" type="text" placeholder="例如：我是否应该把真实 API agent 系统先放在 DishKAI 里测试？">
+          </label>
+
+          <label>
+            <span>背景信息</span>
+            <textarea id="pdcContext" name="context" rows="5" placeholder="例如：DishKAI 只是技术试验场，我真正想验证的是个人 PDC 决策系统。"></textarea>
+          </label>
+
+          <label>
+            <span>会议模式</span>
+            <select id="pdcMeetingMode" name="meeting_mode">
+              <option value="quick_mode">快速三人模式</option>
+              <option value="team_debate" selected>小组对抗模式</option>
+              <option value="select_agents">自选参会人模式</option>
+              <option value="full_council">完整委员会模式</option>
+            </select>
+          </label>
+
+          <p id="pdcModeNote" class="helper">小组对抗模式默认调用 3 个小组，覆盖激活、体验、判断三个核心视角。</p>
+
+          <fieldset id="pdcAgentPicker" class="agent-picker" hidden>
+            <legend>选择参会人</legend>
+            <label><input type="checkbox" value="rex-velocity"> Rex Velocity</label>
+            <label><input type="checkbox" value="vera-flow"> Vera Flow</label>
+            <label><input type="checkbox" value="max-build"> Max Build</label>
+            <label><input type="checkbox" value="nina-ember"> Nina Ember</label>
+            <label><input type="checkbox" value="wang-zhibai"> Wang Zhibai / 王之白</label>
+            <label><input type="checkbox" value="owen-insight"> Owen Insight</label>
+            <label><input type="checkbox" value="adrian-north"> Adrian North</label>
+            <label><input type="checkbox" value="orion-zhuge"> Orion Zhuge / 诸葛观辰</label>
+            <label><input type="checkbox" value="mira-ethos"> Mira Ethos</label>
+          </fieldset>
+
+          <button id="pdcStartButton" class="button primary" type="submit">启动委员会</button>
+          <p id="pdcStatus" class="status" role="status"></p>
+        </form>
+
+        <div id="pdcRounds" class="pdc-rounds"></div>
+
+        <form id="pdcInterventionForm" class="pdc-intervention" hidden>
+          <h3>我想参与讨论</h3>
+          <label>
+            <span>我想补充 / 追问 / 纠正：</span>
+            <textarea id="pdcIntervention" rows="4" placeholder="例如：我觉得你们忽略了时间成本，请重新考虑。"></textarea>
+          </label>
+          <button id="pdcContinueButton" class="button primary" type="submit">继续讨论</button>
+        </form>
       </div>
     </section>
   </main>

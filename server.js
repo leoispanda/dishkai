@@ -2,6 +2,7 @@ import { createServer } from "node:http";
 import { readFile } from "node:fs/promises";
 import { extname, join, normalize } from "node:path";
 import { analyzeMenuImage, analyzeMenuText } from "./functions/_shared/menu-analysis.js";
+import { runPdcRound } from "./functions/_shared/pdc-engine.js";
 
 const root = process.cwd();
 const port = Number(process.env.PORT || 3000);
@@ -16,6 +17,7 @@ const mimeTypes = {
   ".png": "image/png",
   ".jpg": "image/jpeg",
   ".jpeg": "image/jpeg",
+  ".webp": "image/webp",
 };
 
 const server = createServer(async (request, response) => {
@@ -42,6 +44,13 @@ const server = createServer(async (request, response) => {
     if (request.method === "POST" && url.pathname === "/api/analyze-menu-image") {
       const result = await analyzeMenuImage();
       sendJson(response, 501, result);
+      return;
+    }
+
+    if (request.method === "POST" && url.pathname === "/api/pdc-round") {
+      const body = await readJson(request);
+      const result = await runPdcRound(body, {});
+      sendJson(response, result.status, result.body);
       return;
     }
 

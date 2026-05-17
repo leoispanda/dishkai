@@ -27,9 +27,25 @@ Current API endpoints:
 
 - `POST /api/analyze-menu-text`
 - `POST /api/analyze-menu-image`
+- `POST /api/pdc-round`
 
 For local Wrangler testing, Workers AI may require:
 
 ```bash
 wrangler pages dev public --ai AI
 ```
+
+## Personal PDC Council Room V1.5
+
+DishKAI now hosts an internal Personal PDC Council Room as a technical test environment. This is a general personal decision system, not a DishKAI-specific food council.
+
+The PDC room:
+
+- outputs Chinese by default
+- supports `quick_mode`, `team_debate`, `select_agents`, and `full_council`
+- defaults to `team_debate` to reduce AI calls while preserving activation, experience, and judgment perspectives
+- uses Cloudflare Workers AI through the backend `AI` binding
+- does not use OpenAI API, login, database storage, voting, elimination, or PK
+- supports user intervention through follow-up rounds using `previous_summary`
+
+Future V2 ideas include likes, elimination, PK, and persistent meeting state.

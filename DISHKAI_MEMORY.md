@@ -9,7 +9,7 @@ Current MVP direction:
 
 - DishKAI supports two input modes: menu image upload and pasted/typed menu text.
 - Text input is the fast path; image upload is the real restaurant path.
-- User selects original menu language and familiar target language.
+- User selects output language only. DishKAI detects the original menu language automatically.
 - DishKAI turns the menu into a clickable visual menu.
 - Each item opens a Dish Knowledge Card.
 
@@ -86,6 +86,14 @@ Key architecture:
 - DishKAI homepage was simplified to focus on one action: upload menu image or paste menu text, choose output language, and generate a compact ordered menu list.
 - The result list should preserve original menu order and avoid large images.
 - Detailed images and metadata appear only after tapping a dish.
+- Added Personal PDC Council Room V1.5 as a general personal decision system hosted inside DishKAI for technical testing.
+- DishKAI is the host/test environment; the PDC is not a DishKAI-specific food council.
+- PDC output is Chinese by default and supports quick_mode, team_debate, select_agents, and full_council.
+- PDC defaults to team_debate to reduce AI calls while covering activation, experience, and judgment perspectives.
+- PDC uses Cloudflare Workers AI through the backend AI binding, not OpenAI API.
+- PDC does not use a database, login, voting, elimination, or PK in V1.5.
+- PDC supports user intervention by sending previous_summary instead of full conversation history.
+- Future PDC V2 can add likes, elimination, PK, and persistent meeting state.
 
 Composition rule:
 Use approximate 5% composition blocks.

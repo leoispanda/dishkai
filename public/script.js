@@ -31,6 +31,7 @@ const translations = {
 let uiLang = localStorage.getItem("dishkai-ui-lang") || "en";
 let inputMode = "text";
 let latestResult = null;
+let pdcState = loadPdcState();
 
 const $ = (selector) => document.querySelector(selector);
 
@@ -214,6 +215,195 @@ function escapeHtml(value) {
   }[char]));
 }
 
+const pdcModeNotes = {
+  quick_mode: "快速三人模式适合日常快速判断，会调用 Rex、Vera、Max。",
+  team_debate: "小组对抗模式默认调用 3 个小组，覆盖激活、体验、判断三个核心视角。",
+  select_agents: "自选参会人模式会调用你勾选的成员；如果为空，会回到快速三人模式。",
+  full_council: "完整委员会会消耗更多 AI 调用。快速模式或小组对抗模式适合日常判断。",
+};
+
+const pdcLoadingText = {
+  quick_mode: "快速小组正在形成初步判断……",
+  team_debate: "三个小组正在准备对抗观点……",
+  select_agents: "你选择的合伙人正在进入会议室……",
+  full_council: "9 位合伙人正在进入会议室……",
+};
+
+function loadPdcState() {
+  try {
+    return JSON.parse(localStorage.getItem("dishkai-pdc-state")) || { rounds: [] };
+  } catch {
+    return { rounds: [] };
+  }
+}
+
+function savePdcState() {
+  localStorage.setItem("dishkai-pdc-state", JSON.stringify(pdcState));
+}
+
+function setPdcStatus(message, tone = "") {
+  const el = $("#pdcStatus");
+  if (!el) return;
+  el.textContent = message;
+  el.className = `status ${tone}`.trim();
+}
+
+function openPdcRoom() {
+  const section = $("#personal-pdc");
+  section.hidden = false;
+  renderPdcRounds();
+  section.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function updatePdcModeUi() {
+  const mode = $("#pdcMeetingMode").value;
+  $("#pdcAgentPicker").hidden = mode !== "select_agents";
+  $("#pdcModeNote").textContent = pdcModeNotes[mode] || pdcModeNotes.team_debate;
+}
+
+function selectedPdcAgents() {
+  return Array.from(document.querySelectorAll("#pdcAgentPicker input:checked")).map((input) => input.value);
+}
+
+async function startPdcRound(event) {
+  event.preventDefault();
+  const topic = $("#pdcTopic").value.trim();
+  const context = $("#pdcContext").value.trim();
+  const meetingMode = $("#pdcMeetingMode").value;
+  if (!topic) {
+    setPdcStatus("请输入决策议题。", "error");
+    return;
+  }
+
+  pdcState = {
+    topic,
+    context,
+    meeting_mode: meetingMode,
+    selected_agents: selectedPdcAgents(),
+    previous_summary: "",
+    rounds: [],
+  };
+  savePdcState();
+  setPdcStatus(pdcLoadingText[meetingMode] || "9 位合伙人正在进入会议室……");
+  await callPdcRound({ mode: "round_1a" });
+}
+
+async function continuePdcRound(event) {
+  event.preventDefault();
+  const intervention = $("#pdcIntervention").value.trim();
+  if (!intervention) {
+    setPdcStatus("请先写下你想补充、追问或纠正的内容。", "error");
+    return;
+  }
+  setPdcStatus("委员会正在根据你的补充继续讨论……");
+  await callPdcRound({ mode: "user_intervention", user_intervention: intervention });
+  $("#pdcIntervention").value = "";
+}
+
+async function callPdcRound({ mode, user_intervention = "" }) {
+  try {
+    const response = await fetch("/api/pdc-round", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        topic: pdcState.topic,
+        context: pdcState.context,
+        mode,
+        meeting_mode: pdcState.meeting_mode || "team_debate",
+        selected_agents: pdcState.selected_agents || [],
+        previous_summary: pdcState.previous_summary || "",
+        user_intervention,
+      }),
+    });
+    const result = await response.json();
+    if (!response.ok || result.error) {
+      throw new Error(result.message || "PDC 暂时无法启动。请检查 Cloudflare Workers AI binding 是否配置为 AI。");
+    }
+
+    pdcState.previous_summary = result.summary || pdcState.previous_summary || "";
+    pdcState.rounds.push({
+      mode,
+      user_intervention,
+      result,
+      created_at: new Date().toISOString(),
+    });
+    savePdcState();
+    renderPdcRounds();
+    $("#pdcInterventionForm").hidden = false;
+    setPdcStatus("PDC 本轮讨论完成。");
+  } catch (error) {
+    setPdcStatus(error.message || "PDC 暂时无法启动。请检查 Cloudflare Workers AI binding 是否配置为 AI。", "error");
+  }
+}
+
+function renderPdcRounds() {
+  const container = $("#pdcRounds");
+  if (!container) return;
+  const rounds = pdcState.rounds || [];
+  container.innerHTML = rounds.map((round, index) => renderPdcRound(round, index)).join("");
+  $("#pdcInterventionForm").hidden = !rounds.length;
+  if (pdcState.topic && $("#pdcTopic") && !$("#pdcTopic").value) {
+    $("#pdcTopic").value = pdcState.topic;
+    $("#pdcContext").value = pdcState.context || "";
+    $("#pdcMeetingMode").value = pdcState.meeting_mode || "team_debate";
+    updatePdcModeUi();
+  }
+}
+
+function renderPdcRound(round, index) {
+  const result = round.result || {};
+  const userCard = round.user_intervention ? `
+    <article class="pdc-user-card">
+      <h3>我的补充：</h3>
+      <p>${escapeHtml(round.user_intervention)}</p>
+    </article>
+  ` : "";
+  const cards = result.meeting_mode === "team_debate"
+    ? (result.team_outputs || []).map(renderPdcTeamCard).join("")
+    : (result.agent_outputs || []).map(renderPdcAgentCard).join("");
+  return `
+    <section class="pdc-round">
+      <div class="pdc-round-title">
+        <span>第 ${index + 1} 轮 · ${result.meeting_mode || round.mode}</span>
+        <span>${round.mode === "user_intervention" ? "继续讨论" : "开场陈述"}</span>
+      </div>
+      ${userCard}
+      ${cards}
+      ${result.next_step ? `<p class="helper">${escapeHtml(result.next_step)}</p>` : ""}
+    </section>
+  `;
+}
+
+function renderPdcAgentCard(agent) {
+  return `
+    <article class="pdc-card">
+      <h3>${escapeHtml(agent.name)}</h3>
+      <p class="pdc-role">${escapeHtml(agent.role)}</p>
+      <dl>
+        <div><dt>发言：</dt><dd>${escapeHtml(agent.statement)}</dd></div>
+        <div><dt>建议：</dt><dd>${escapeHtml(agent.recommendation)}</dd></div>
+        <div><dt>风险：</dt><dd>${escapeHtml(agent.risk)}</dd></div>
+      </dl>
+    </article>
+  `;
+}
+
+function renderPdcTeamCard(team) {
+  return `
+    <article class="pdc-card">
+      <h3>${escapeHtml(team.team_name)}</h3>
+      <p class="pdc-members">${escapeHtml((team.members || []).join("、"))}</p>
+      <dl>
+        <div><dt>立场：</dt><dd>${escapeHtml(team.position)}</dd></div>
+        <div><dt>组内张力：</dt><dd>${escapeHtml(team.internal_tension)}</dd></div>
+        <div><dt>建议：</dt><dd>${escapeHtml(team.recommendation)}</dd></div>
+        <div><dt>风险：</dt><dd>${escapeHtml(team.risk)}</dd></div>
+        <div><dt>向其他组挑战：</dt><dd>${escapeHtml(team.challenge_to_other_team)}</dd></div>
+      </dl>
+    </article>
+  `;
+}
+
 document.querySelectorAll("[data-ui-lang]").forEach((button) => {
   button.addEventListener("click", () => {
     uiLang = button.dataset.uiLang;
@@ -237,5 +427,11 @@ $("#targetLanguage").addEventListener("change", () => {
   localStorage.setItem("dishkai-ui-lang", uiLang);
   applyLanguage();
 });
+
+$("#openPdcButton")?.addEventListener("click", openPdcRoom);
+$("#pdcMeetingMode")?.addEventListener("change", updatePdcModeUi);
+$("#pdcForm")?.addEventListener("submit", startPdcRound);
+$("#pdcInterventionForm")?.addEventListener("submit", continuePdcRound);
+updatePdcModeUi();
 
 applyLanguage();
