@@ -42,12 +42,14 @@ DishKAI now hosts an internal Personal PDC Council Room as a technical test envi
 The PDC room:
 
 - outputs Chinese by default
-- supports `quick_mode`, `individual_debate`, `preset_team_debate`, `custom_team_debate`, and `hybrid_debate`
-- defaults to `preset_team_debate` to reduce AI calls while preserving activation, experience, and judgment perspectives
+- lets Leo choose Product Council or Personal PDC Council
+- uses role cards with short traits, tags, and expandable detail profiles
+- supports independent speaking and automatic round-robin grouping as the main path
+- keeps older modes such as `quick_mode`, `preset_team_debate`, `custom_team_debate`, and `hybrid_debate` compatible in the backend
 - uses Cloudflare Workers AI through the backend `AI` binding
 - does not use OpenAI API, login, database storage, voting, elimination, or PK
 - supports user intervention through follow-up rounds using `previous_summary`
 
 Future V2 ideas include likes, elimination, PK, and persistent meeting state.
 
-Flexible grouping is supported through `individual_debate`, `preset_team_debate`, `custom_team_debate`, and `hybrid_debate`. Custom grouping settings are saved in localStorage under `personalPdcCustomGroups`; no database is used.
+The main PDC flow is council-first: choose Product Council or Personal PDC Council, select role cards, inspect role details, then choose independent speaking or automatic grouping. Automatic grouping uses a simple round-robin assignment and can turn 9 selected roles into any valid group count, such as 5 groups. Settings are saved in localStorage under `personalPdcCustomGroups`; no database is used.

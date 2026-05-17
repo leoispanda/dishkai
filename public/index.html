@@ -92,50 +92,45 @@ Chef Special Pasta</textarea>
           </label>
 
           <label>
-            <span>会议模式</span>
-            <select id="pdcMeetingMode" name="meeting_mode">
-              <option value="quick_mode">快速三人模式</option>
-              <option value="individual_debate">个人独立作战</option>
-              <option value="preset_team_debate" selected>默认三组对抗</option>
-              <option value="custom_team_debate">自定义分组对抗</option>
-              <option value="hybrid_debate">混合模式</option>
+            <span>Council Type</span>
+            <select id="pdcCouncilType" name="council_type">
+              <option value="product">Product Council / 产品决策委员会</option>
+              <option value="personal">Personal PDC Council / 个人 PDC 决策委员会</option>
             </select>
           </label>
 
-          <p id="pdcModeNote" class="helper">默认三组对抗调用 3 个小组，覆盖激活、体验、判断三个核心视角。</p>
-          <p id="pdcCallEstimate" class="helper">预计 AI 调用次数：3</p>
-
-          <section id="pdcGroupingSettings" class="pdc-grouping">
+          <section class="pdc-grouping">
             <div>
-              <h3>编组设置</h3>
-              <p class="helper">你可以选择让合伙人独立作战，也可以把他们分成不同小组进行对抗。</p>
+              <h3>选择角色</h3>
+              <p class="helper">点击卡片选择参会人，也可以展开查看性格、盲点和典型问题。</p>
             </div>
-
-            <fieldset id="pdcAgentPicker" class="agent-picker" hidden>
-              <legend>选择独立参会人</legend>
-              <label><input type="checkbox" value="rex-velocity"> Rex Velocity</label>
-              <label><input type="checkbox" value="vera-flow"> Vera Flow</label>
-              <label><input type="checkbox" value="max-build"> Max Build</label>
-              <label><input type="checkbox" value="nina-ember"> Nina Ember</label>
-              <label><input type="checkbox" value="wang-zhibai"> Wang Zhibai / 王之白</label>
-              <label><input type="checkbox" value="owen-insight"> Owen Insight</label>
-              <label><input type="checkbox" value="adrian-north"> Adrian North</label>
-              <label><input type="checkbox" value="orion-zhuge"> Orion Zhuge / 诸葛观辰</label>
-              <label><input type="checkbox" value="mira-ethos"> Mira Ethos</label>
-            </fieldset>
-
-            <div id="pdcCustomGroupTools" class="group-tools" hidden>
-              <button id="pdcUsePresetGroups" class="button" type="button">使用推荐三组模板</button>
-              <button id="pdcAddGroup" class="button" type="button">添加小组</button>
-              <button id="pdcClearGroups" class="button" type="button">清空分组</button>
+            <div class="group-tools">
+              <button id="pdcSelectAll" class="button" type="button">一键全选</button>
+              <button id="pdcSelectProductQuick" class="button" type="button">一键选择产品快速组</button>
+              <button id="pdcSelectPersonalQuick" class="button" type="button">一键选择个人决策快速组</button>
+              <button id="pdcClearSelection" class="button" type="button">清空选择</button>
             </div>
+            <div id="pdcRoleGrid" class="role-grid"></div>
+          </section>
 
-            <div id="pdcCustomGroups" class="custom-groups" hidden></div>
-
-            <label id="pdcHybridToggle" class="toggle-row" hidden>
-              <input id="pdcIncludeUngrouped" type="checkbox" checked>
-              <span>未分组成员独立发言</span>
+          <section class="pdc-grouping">
+            <div>
+              <h3>讨论方式</h3>
+              <p class="helper">独立发言会逐个调用；自动分组讨论会把选中角色分成若干小组后融合发言。</p>
+            </div>
+            <label>
+              <span>讨论方式</span>
+              <select id="pdcDiscussionStyle">
+                <option value="individual_debate" selected>独立发言</option>
+                <option value="auto_group_debate">自动分组讨论</option>
+              </select>
             </label>
+            <label id="pdcGroupCountWrap" hidden>
+              <span>分成几个组？</span>
+              <input id="pdcGroupCount" type="number" min="1" value="3">
+            </label>
+            <p id="pdcCallEstimate" class="helper">预计 AI 调用次数：0</p>
+            <div id="pdcAutoGroupPreview" class="auto-group-preview"></div>
           </section>
 
           <button id="pdcStartButton" class="button primary" type="submit">启动委员会</button>

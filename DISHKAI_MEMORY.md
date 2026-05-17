@@ -88,15 +88,17 @@ Key architecture:
 - Detailed images and metadata appear only after tapping a dish.
 - Added Personal PDC Council Room V1.5 as a general personal decision system hosted inside DishKAI for technical testing.
 - DishKAI is the host/test environment; the PDC is not a DishKAI-specific food council.
-- PDC output is Chinese by default and supports quick_mode, individual_debate, preset_team_debate, custom_team_debate, and hybrid_debate.
-- PDC defaults to preset_team_debate to reduce AI calls while covering activation, experience, and judgment perspectives.
+- PDC output is Chinese by default.
+- PDC main UI lets Leo choose Product Council or Personal PDC Council, then choose role cards and either independent speaking or automatic grouping.
 - PDC uses Cloudflare Workers AI through the backend AI binding, not OpenAI API.
 - PDC does not use a database, login, voting, elimination, or PK in V1.5.
 - PDC supports user intervention by sending previous_summary instead of full conversation history.
 - Future PDC V2 can add likes, elimination, PK, and persistent meeting state.
-- PDC now supports flexible grouping: individual_debate, preset_team_debate, custom_team_debate, and hybrid_debate.
+- PDC now supports automatic round-robin grouping as the main path, with older modes such as quick_mode, preset_team_debate, custom_team_debate, and hybrid_debate kept compatible in the backend.
 - Custom grouping settings are saved locally under personalPdcCustomGroups, with no database.
 - Backend keeps old team_debate input compatible by mapping it to preset_team_debate and now returns participants as the primary output schema.
+- PDC main flow is now council-first: choose Product Council or Personal PDC Council, select role cards, inspect role details, then choose independent speaking or automatic grouping.
+- Automatic grouping uses simple round-robin assignment with user-selected group count; fixed three-team templates are no longer the main UI path.
 
 Composition rule:
 Use approximate 5% composition blocks.

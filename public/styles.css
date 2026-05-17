@@ -360,6 +360,113 @@ select, input { min-height: 46px; }
   display: grid;
   gap: 12px;
 }
+.role-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+.role-card {
+  display: grid;
+  gap: 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--white);
+  padding: 14px;
+  text-align: left;
+}
+.role-card.selected {
+  border-color: var(--sage);
+  box-shadow: 0 0 0 2px rgba(111, 143, 122, 0.18);
+}
+.role-card-head {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 10px;
+}
+.role-card h4 {
+  margin: 0;
+  font-size: 17px;
+}
+.role-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.45;
+}
+.role-check {
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: transparent;
+}
+.role-card.selected .role-check {
+  background: var(--sage);
+  border-color: var(--sage);
+  color: var(--white);
+}
+.role-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.role-tags span {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+  padding: 4px 7px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+.role-detail {
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+.role-detail summary {
+  color: var(--terra);
+  cursor: pointer;
+  font-weight: 850;
+}
+.role-detail dl {
+  display: grid;
+  gap: 7px;
+  margin: 10px 0 0;
+}
+.role-detail dt {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 850;
+}
+.role-detail dd {
+  margin: 2px 0 0;
+  color: var(--ink);
+  line-height: 1.5;
+}
+.auto-group-preview {
+  display: grid;
+  gap: 10px;
+}
+.auto-group-card {
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+  background: var(--white);
+  padding: 12px;
+}
+.auto-group-card h4 {
+  margin: 0 0 8px;
+  font-size: 15px;
+}
+.auto-group-card ul {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+}
 .custom-group-card {
   display: grid;
   gap: 12px;
@@ -488,7 +595,7 @@ select, input { min-height: 46px; }
   .nav { order: 3; width: 100%; overflow-x: auto; margin-left: 0; padding-bottom: 3px; }
   .lang-toggle { margin-left: auto; }
   .hero, .knowledge-card { grid-template-columns: 1fr; }
-  .agent-picker, .group-member-grid { grid-template-columns: 1fr 1fr; }
+  .agent-picker, .group-member-grid, .role-grid { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 640px) {
@@ -497,6 +604,6 @@ select, input { min-height: 46px; }
   .menu-card-button { grid-template-columns: 32px minmax(0, 1fr); }
   .mode-tabs { grid-template-columns: 1fr; border-radius: 12px; }
   .mode-tabs button { border-radius: 8px; }
-  .agent-picker, .group-member-grid { grid-template-columns: 1fr; }
+  .agent-picker, .group-member-grid, .role-grid { grid-template-columns: 1fr; }
   .footer { flex-direction: column; }
 }

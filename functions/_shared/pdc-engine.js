@@ -1,10 +1,9 @@
-import { PDC_AGENTS, QUICK_AGENT_IDS, getAgentById } from "./pdc-agents.js";
+import { QUICK_AGENT_IDS, getAgentById, getCouncilAgents, normalizeAgentId } from "./pdc-agents.js";
 import { PDC_TEAMS } from "./pdc-teams.js";
 import { DEFAULT_CF_MODEL, MissingAiBindingError, callLLM, parseJsonFromLLM } from "./pdc-provider.js";
 
-const VALID_MODES = new Set(["quick_mode", "individual_debate", "preset_team_debate", "custom_team_debate", "hybrid_debate"]);
+const VALID_MODES = new Set(["quick_mode", "individual_debate", "preset_team_debate", "custom_team_debate", "hybrid_debate", "auto_group_debate"]);
 const VALID_ROUNDS = new Set(["round_1a", "user_intervention"]);
-const ALL_AGENT_IDS = PDC_AGENTS.map((agent) => agent.id);
 
 export async function runPdcRound(input, env) {
   if (!env?.AI) {
@@ -19,11 +18,14 @@ export async function runPdcRound(input, env) {
 
   const topic = clean(input.topic, 800);
   const context = clean(input.context, 4000);
+  const councilType = input.council_type === "personal" ? "personal" : "product";
+  const councilAgents = getCouncilAgents(councilType);
   const mode = VALID_ROUNDS.has(input.mode) ? input.mode : "round_1a";
   const meetingMode = normalizeMeetingMode(input.meeting_mode);
-  const selectedAgentIds = normalizeSelectedAgents(input.selected_agents, meetingMode);
-  const customGroups = normalizeCustomGroups(input.custom_groups);
+  const selectedAgentIds = normalizeSelectedAgents(input.selected_agents, meetingMode, councilAgents);
+  const customGroups = normalizeCustomGroups(input.custom_groups, councilType);
   const includeUngrouped = Boolean(input.include_ungrouped_as_individuals);
+  const groupCount = Number(input.group_count || input.auto_group_count || 3);
   const previousSummary = clean(input.previous_summary, 2500);
   const userIntervention = clean(input.user_intervention, 1500);
 
@@ -31,7 +33,7 @@ export async function runPdcRound(input, env) {
     return { status: 400, body: { error: "TOPIC_REQUIRED", message: "请输入决策议题。" } };
   }
 
-  const participantPlans = buildParticipantPlans({ meetingMode, selectedAgentIds, customGroups, includeUngrouped });
+  const participantPlans = buildParticipantPlans({ meetingMode, selectedAgentIds, customGroups, includeUngrouped, groupCount, councilType, councilAgents });
   if (!participantPlans.length) {
     return { status: 400, body: { error: "NO_PARTICIPANTS", message: "请至少选择一位参会人或创建一个小组。" } };
   }
@@ -46,6 +48,7 @@ export async function runPdcRound(input, env) {
     status: 200,
     body: {
       round: mode,
+      council_type: councilType,
       meeting_mode: meetingMode,
       participants,
       agent_outputs: participants.filter((item) => item.participant_type === "agent").map(toLegacyAgentOutput),
@@ -59,22 +62,22 @@ export async function runPdcRound(input, env) {
 function normalizeMeetingMode(value) {
   if (value === "team_debate") return "preset_team_debate";
   if (value === "select_agents" || value === "full_council") return "individual_debate";
-  return VALID_MODES.has(value) ? value : "preset_team_debate";
+  return VALID_MODES.has(value) ? value : "individual_debate";
 }
 
-function normalizeSelectedAgents(selectedAgents, meetingMode) {
-  const validIds = new Set(ALL_AGENT_IDS);
+function normalizeSelectedAgents(selectedAgents, meetingMode, councilAgents) {
+  const validIds = new Set(councilAgents.map((agent) => agent.id));
   const ids = (selectedAgents || []).map(normalizeAgentId).filter((id) => validIds.has(id));
   if (meetingMode === "quick_mode") return QUICK_AGENT_IDS;
-  if (meetingMode === "individual_debate") return ids.length ? ids : ALL_AGENT_IDS;
-  if (meetingMode === "hybrid_debate") return ids.length ? ids : ALL_AGENT_IDS;
+  if (meetingMode === "individual_debate") return ids.length ? ids : councilAgents.map((agent) => agent.id);
+  if (meetingMode === "hybrid_debate" || meetingMode === "auto_group_debate") return ids.length ? ids : councilAgents.map((agent) => agent.id);
   return ids;
 }
 
-function normalizeCustomGroups(groups) {
+function normalizeCustomGroups(groups, councilType) {
   return (Array.isArray(groups) ? groups : [])
     .map((group, index) => {
-      const memberIds = [...new Set((group.member_ids || []).map(normalizeAgentId).filter((id) => getAgentById(id)))];
+      const memberIds = [...new Set((group.member_ids || []).map(normalizeAgentId).filter((id) => getAgentById(id, councilType)))];
       return {
         id: clean(group.group_id, 80) || `custom_group_${index + 1}`,
         name: clean(group.group_name, 120) || `自定义小组 ${index + 1}`,
@@ -85,18 +88,19 @@ function normalizeCustomGroups(groups) {
     .filter((group) => group.memberIds.length);
 }
 
-function buildParticipantPlans({ meetingMode, selectedAgentIds, customGroups, includeUngrouped }) {
+function buildParticipantPlans({ meetingMode, selectedAgentIds, customGroups, includeUngrouped, groupCount, councilType, councilAgents }) {
   if (meetingMode === "quick_mode") {
-    return QUICK_AGENT_IDS.map((id) => ({ type: "agent", agent: getAgentById(id) })).filter((plan) => plan.agent);
+    return QUICK_AGENT_IDS.map((id) => ({ type: "agent", agent: getAgentById(id, "product") })).filter((plan) => plan.agent);
   }
 
   if (meetingMode === "individual_debate") {
-    return selectedAgentIds.map((id) => ({ type: "agent", agent: getAgentById(id) })).filter((plan) => plan.agent);
+    return selectedAgentIds.map((id) => ({ type: "agent", agent: getAgentById(id, councilType) })).filter((plan) => plan.agent);
   }
 
   if (meetingMode === "preset_team_debate") {
     return PDC_TEAMS.map((team) => ({
       type: "team",
+      councilType: "product",
       id: team.id,
       name: team.name,
       purpose: team.purpose,
@@ -108,20 +112,40 @@ function buildParticipantPlans({ meetingMode, selectedAgentIds, customGroups, in
   }
 
   if (meetingMode === "custom_team_debate") {
-    return customGroups.map((group) => ({ type: "team", ...group }));
+    return customGroups.map((group) => ({ type: "team", councilType, ...group }));
+  }
+
+  if (meetingMode === "auto_group_debate") {
+    return autoAssignGroups(selectedAgentIds, groupCount).map((ids, index) => ({
+      type: "team",
+      councilType,
+      id: `group_${index + 1}`,
+      name: `第 ${index + 1} 组`,
+      purpose: "融合组内成员特征，对当前决策形成一个小组立场。",
+      memberIds: ids,
+    }));
   }
 
   const usedIds = new Set(customGroups.flatMap((group) => group.memberIds));
-  const plans = customGroups.map((group) => ({ type: "team", ...group }));
+  const plans = customGroups.map((group) => ({ type: "team", councilType, ...group }));
   if (includeUngrouped) {
     selectedAgentIds
       .filter((id) => !usedIds.has(id))
       .forEach((id) => {
-        const agent = getAgentById(id);
+        const agent = getAgentById(id, councilType);
         if (agent) plans.push({ type: "agent", agent });
       });
   }
   return plans;
+}
+
+export function autoAssignGroups(selectedAgentIds, groupCount) {
+  const ids = [...new Set((selectedAgentIds || []).map(normalizeAgentId))];
+  if (!ids.length) return [];
+  const count = Math.max(1, Math.min(Number(groupCount) || 1, ids.length));
+  const groups = Array.from({ length: count }, () => []);
+  ids.forEach((id, index) => groups[index % count].push(id));
+  return groups;
 }
 
 async function runAgent({ agent, topic, context, mode, previousSummary, userIntervention, env }) {
@@ -147,11 +171,18 @@ async function runAgent({ agent, topic, context, mode, previousSummary, userInte
 用户补充 / 追问 / 纠正：${userIntervention || "无"}
 
 你的身份：
-姓名：${agent.name}
-角色：${agent.role}
-关注：${agent.focus}
+姓名：${agent.name} / ${agent.cn_name}
+角色：${agent.role} / ${agent.cn_role}
+一句话特征：${agent.short_trait}
+标签：${(agent.tags || []).join("、")}
+核心职责：${agent.core_responsibility}
 性格：${agent.personality}
-盲点：${agent.blindSpot}
+最在乎：${agent.cares_about}
+最讨厌：${agent.hates}
+盲点：${agent.blind_spot || agent.blindSpot}
+典型问题：${(agent.typical_questions || []).join("；")}
+适合决策：${agent.best_for}
+发言风格：${agent.speaking_style}
 签名句：${agent.signature}
 特别规则：${agent.specialRule || "无"}
 
@@ -167,13 +198,14 @@ async function runAgent({ agent, topic, context, mode, previousSummary, userInte
 }
 
 async function runTeam({ plan, topic, context, mode, previousSummary, userIntervention, env }) {
-  const members = plan.memberIds.map(getAgentById).filter(Boolean);
-  const memberText = members.map((agent) => `- ${agent.name}：${agent.role}，职责：${agent.focus}`).join("\n");
+  const members = plan.memberIds.map((id) => getAgentById(id, plan.councilType || "product")).filter(Boolean);
+  const memberText = members.map((agent) => `- ${agent.name} / ${agent.cn_name}：${agent.cn_role}；特征：${agent.short_trait}；职责：${agent.core_responsibility}；盲点：${agent.blind_spot}; 典型问题：${(agent.typical_questions || []).join(" / ")}`).join("\n");
   const systemPrompt = `你是个人 PDC 决策委员会的小组发言人。所有输出必须是中文。只输出 JSON，不要 markdown。
 字段必须是：
 {
   "decision_bias": "小组决策偏向标签",
   "position": "明确站队或有条件判断，最多150个中文字符",
+  "member_traits": ["每个成员的核心特征"],
   "response_to_user": "直接回应用户最新补充，最多120个中文字符",
   "internal_tension": "体现组内微冲突，最多150个中文字符",
   "strongest_counterargument": "对本组立场最强的反驳，最多120个中文字符",
@@ -211,9 +243,12 @@ function cleanAgentParticipant(value, agent) {
     participant_type: "agent",
     id: agent.id,
     name: agent.name,
-    role_or_purpose: agent.role,
+    cn_name: agent.cn_name,
+    role: agent.role,
+    cn_role: agent.cn_role,
+    role_or_purpose: agent.cn_role,
     members: [],
-    decision_bias: clean(output.decision_bias, 80) || agent.role,
+    decision_bias: clean(output.decision_bias, 80) || agent.short_trait || agent.cn_role,
     position: clean(output.position, 180) || clean(output.statement, 180) || "我倾向先用真实议题小范围验证。",
     response_to_user: clean(output.response_to_user, 180) || "你的补充会改变优先级，但不能替代真实验证。",
     internal_tension: "",
@@ -234,9 +269,13 @@ function cleanTeamParticipant(value, plan, members) {
     members: members.map((agent) => ({
       agent_id: agent.id,
       name: agent.name,
-      role: agent.role,
-      responsibility: agent.focus,
+      cn_name: agent.cn_name,
+      role: agent.cn_role,
+      responsibility: agent.core_responsibility,
     })),
+    member_traits: Array.isArray(output.member_traits) && output.member_traits.length
+      ? output.member_traits.map((item) => clean(item, 120))
+      : members.map((agent) => `${agent.cn_name}：${agent.short_trait}`),
     decision_bias: clean(output.decision_bias, 80) || plan.name,
     position: clean(output.position, 220) || "本组认为方向可以继续，但必须变成可验证动作。",
     response_to_user: clean(output.response_to_user, 180) || "你的补充是有效限制，应直接改变下一步验证方式。",
@@ -253,7 +292,10 @@ function fallbackAgentParticipant(agent, error) {
     participant_type: "agent",
     id: agent.id,
     name: agent.name,
-    role_or_purpose: agent.role,
+    cn_name: agent.cn_name,
+    role: agent.role,
+    cn_role: agent.cn_role,
+    role_or_purpose: agent.cn_role,
     members: [],
     decision_bias: "调用异常",
     position: clean(error?.message, 180) || "该成员调用失败。",
@@ -272,7 +314,8 @@ function fallbackTeamParticipant(plan, members, error) {
     id: plan.id,
     name: plan.name,
     role_or_purpose: plan.purpose || "",
-    members: members.map((agent) => ({ agent_id: agent.id, name: agent.name, role: agent.role, responsibility: agent.focus })),
+    members: members.map((agent) => ({ agent_id: agent.id, name: agent.name, cn_name: agent.cn_name, role: agent.cn_role, responsibility: agent.core_responsibility })),
+    member_traits: members.map((agent) => `${agent.cn_name}：${agent.short_trait}`),
     decision_bias: "调用异常",
     position: clean(error?.message, 220) || "该小组调用失败。",
     response_to_user: "未能生成有效回应。",
@@ -297,7 +340,9 @@ function toLegacyAgentOutput(item) {
   return {
     agent_id: item.id,
     name: item.name,
-    role: item.role_or_purpose,
+    cn_name: item.cn_name,
+    role: item.role || item.role_or_purpose,
+    cn_role: item.cn_role || item.role_or_purpose,
     statement: item.position,
     recommendation: item.recommendation,
     risk: item.risk,
@@ -309,16 +354,13 @@ function toLegacyTeamOutput(item) {
     team_id: item.id,
     team_name: item.name,
     members: item.members.map((member) => member.name),
+    member_traits: item.member_traits || [],
     position: item.position,
     internal_tension: item.internal_tension,
     recommendation: item.recommendation,
     risk: item.risk,
     challenge_to_other_team: item.challenge,
   };
-}
-
-function normalizeAgentId(id) {
-  return String(id || "").trim().replace(/_/g, "-");
 }
 
 function clean(value, maxLength) {
