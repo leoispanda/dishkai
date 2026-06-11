@@ -248,14 +248,14 @@ function buildCard(dish, originalName, targetLanguage) {
       profile: localize(dish.cookingProfile, targetLanguage),
     },
     shortDescription: localize(dish.shortDescription, targetLanguage),
-    composition: dish.composition
+    composition: (dish.composition || [])
       .slice()
-      .sort((a, b) => a.displayPriority - b.displayPriority)
+      .sort((a, b) => (a.displayPriority || 0) - (b.displayPriority || 0))
       .map((component) => componentDisplay(component, targetLanguage)),
     basicTaste: dish.tasteProfile?.basic || [],
-    distinctiveFlavorSources: dish.distinctiveFlavorSources.map((id) => flavorSourceDisplay(id, targetLanguage)),
+    distinctiveFlavorSources: (dish.distinctiveFlavorSources || []).map((id) => flavorSourceDisplay(id, targetLanguage)),
     texture: dish.textureProfile || [],
-    watchOuts: dish.riskFlags.map((id) => riskDisplay(id, targetLanguage)),
+    watchOuts: (dish.riskFlags || []).map((id) => riskDisplay(id, targetLanguage)),
     dietaryNotes: dish.dietaryFlags || [],
     visualDisclaimer: localize(dish.visualDisclaimer, targetLanguage),
     aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.",

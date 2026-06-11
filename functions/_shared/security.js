@@ -3,7 +3,14 @@ const SESSION_TTL_SECONDS = 60 * 60 * 24 * 7;
 const rateBuckets = new Map();
 
 export function securityHeaders() {
-  return { "Cache-Control": "no-store" };
+  return {
+    "Cache-Control": "no-store",
+    "Content-Security-Policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; img-src 'self' data: blob:; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self'",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=(), payment=()",
+    "Referrer-Policy": "no-referrer",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+  };
 }
 
 export async function createSessionCookie(env) {
@@ -14,11 +21,11 @@ export async function createSessionCookie(env) {
   };
   const encodedPayload = base64UrlEncode(JSON.stringify(payload));
   const signature = await sign(encodedPayload, secret);
-  return `${SESSION_COOKIE}=${encodedPayload}.${signature}; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=${SESSION_TTL_SECONDS}`;
+  return `${SESSION_COOKIE}=${encodedPayload}.${signature}; HttpOnly;${secureCookieAttribute(env)} SameSite=Lax; Path=/; Max-Age=${SESSION_TTL_SECONDS}`;
 }
 
-export function clearSessionCookie() {
-  return `${SESSION_COOKIE}=; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=0`;
+export function clearSessionCookie(env) {
+  return `${SESSION_COOKIE}=; HttpOnly;${secureCookieAttribute(env)} SameSite=Lax; Path=/; Max-Age=0`;
 }
 
 export async function hasValidSession(request, env) {
@@ -138,4 +145,8 @@ function base64UrlDecode(value) {
   const normalized = String(value).replace(/-/g, "+").replace(/_/g, "/");
   const padded = normalized.padEnd(Math.ceil(normalized.length / 4) * 4, "=");
   return atob(padded);
+}
+
+function secureCookieAttribute(env) {
+  return env?.DISHKAI_LOCAL_DEV === "true" ? "" : " Secure;";
 }

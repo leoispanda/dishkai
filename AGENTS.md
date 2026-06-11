@@ -13,8 +13,7 @@ DishKAI is not a generic recipe website, restaurant review app, recipe database,
 The MVP should focus on:
 
 - paste menu text
-- choose original menu language
-- choose familiar target language
+- choose output language only while DishKAI detects the original menu language automatically
 - match dish names through aliases
 - retrieve internal metadata
 - generate a visual clickable menu
@@ -35,7 +34,7 @@ Use progressive disclosure: show compact dish rows first, reveal full details on
 Default product flow:
 
 1. User uploads a menu image OR enters/pastes menu text.
-2. User selects output language.
+2. User selects output language only. DishKAI detects the original menu language automatically.
 3. Image input is converted to menu text by the backend when vision/OCR support is available.
 4. DishKAI extracts likely dish names and preserves original menu order.
 5. DishKAI matches menu names through dish aliases.

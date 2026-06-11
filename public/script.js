@@ -64,6 +64,24 @@ function setStatus(message, tone = "") {
   el.className = `status ${tone}`.trim();
 }
 
+async function fetchJson(url, options = {}) {
+  const response = await fetch(url, options);
+  const text = await response.text();
+  let result = {};
+  if (text) {
+    try {
+      result = JSON.parse(text);
+    } catch {
+      result = { error: "INVALID_JSON", message: text.slice(0, 180) || "Unexpected server response." };
+    }
+  }
+  return { response, result };
+}
+
+function apiErrorMessage(result, fallback) {
+  return result?.message || result?.error || fallback;
+}
+
 function setPrivateStatus(message, tone = "") {
   const el = $("#privateAccessStatus");
   if (!el) return;
@@ -87,8 +105,7 @@ function setPrivateAccess(granted) {
 
 async function checkPrivateAccess() {
   try {
-    const response = await fetch("/api/private-status", { cache: "no-store" });
-    const result = await response.json();
+    const { result } = await fetchJson("/api/private-status", { cache: "no-store" });
     setPrivateAccess(Boolean(result.authenticated));
     setPrivateStatus(result.authenticated ? t("privateUnlocked") : t("privateLocked"), result.authenticated ? "" : "error");
   } catch {
@@ -100,15 +117,14 @@ async function checkPrivateAccess() {
 async function submitPrivateAccess(event) {
   event.preventDefault();
   const accessCode = $("#privateAccessCode").value;
-  const response = await fetch("/api/private-login", {
+  const { response, result } = await fetchJson("/api/private-login", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ accessCode }),
   });
-  const result = await response.json().catch(() => ({}));
   if (!response.ok || !result.ok) {
     setPrivateAccess(false);
-    setPrivateStatus(result.message || t("privateDenied"), "error");
+    setPrivateStatus(apiErrorMessage(result, t("privateDenied")), "error");
     return;
   }
   $("#privateAccessCode").value = "";
@@ -117,10 +133,9 @@ async function submitPrivateAccess(event) {
 }
 
 async function clearRecentScans() {
-  const response = await fetch("/api/clear-recent-scans", { method: "POST" });
-  const result = await response.json().catch(() => ({}));
+  const { response, result } = await fetchJson("/api/clear-recent-scans", { method: "POST" });
   if (!response.ok || result.error) {
-    setPrivateStatus(result.message || t("privateDenied"), "error");
+    setPrivateStatus(apiErrorMessage(result, t("privateDenied")), "error");
     return;
   }
   setPrivateStatus(result.message || t("clearScansDone"));
@@ -143,7 +158,7 @@ async function analyzeText() {
     return;
   }
   setStatus(t("loading"));
-  const response = await fetch("/api/analyze-menu-text", {
+  const { response, result } = await fetchJson("/api/analyze-menu-text", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
@@ -152,9 +167,9 @@ async function analyzeText() {
       targetLanguage: $("#targetLanguage").value,
     }),
   });
-  const result = await response.json();
-  if (!result.ok) {
-    setStatus(result.error || t("noItems"), "error");
+  if (!response.ok || !result.ok) {
+    if (response.status === 401) setPrivateAccess(false);
+    setStatus(apiErrorMessage(result, t("noItems")), "error");
     return;
   }
   latestResult = result;
@@ -178,10 +193,10 @@ async function analyzeImage() {
   formData.append("image", image);
   formData.append("sourceLanguage", "auto");
   formData.append("targetLanguage", $("#targetLanguage").value);
-  const response = await fetch("/api/analyze-menu-image", { method: "POST", body: formData });
-  const result = await response.json();
-  if (!result.ok) {
-    setStatus(result.error || t("imageUnavailable"), "error");
+  const { response, result } = await fetchJson("/api/analyze-menu-image", { method: "POST", body: formData });
+  if (!response.ok || !result.ok) {
+    if (response.status === 401) setPrivateAccess(false);
+    setStatus(apiErrorMessage(result, t("imageUnavailable")), "error");
     return;
   }
   latestResult = result;
@@ -575,7 +590,7 @@ async function continuePdcRound(event) {
 
 async function callPdcRound({ mode, user_intervention = "" }) {
   try {
-    const response = await fetch("/api/pdc-round", {
+    const { response, result } = await fetchJson("/api/pdc-round", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -591,9 +606,9 @@ async function callPdcRound({ mode, user_intervention = "" }) {
         user_intervention,
       }),
     });
-    const result = await response.json();
     if (!response.ok || result.error) {
-      throw new Error(result.message || "PDC 暂时无法启动。请检查 Cloudflare Workers AI binding 是否配置为 AI。");
+      if (response.status === 401) setPrivateAccess(false);
+      throw new Error(apiErrorMessage(result, "PDC 暂时无法启动。请检查 Cloudflare Workers AI binding 是否配置为 AI。"));
     }
 
     pdcState.previous_summary = result.summary || pdcState.previous_summary || "";

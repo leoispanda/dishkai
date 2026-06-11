@@ -16,6 +16,10 @@ const root = process.cwd();
 const port = Number(process.env.PORT || 3000);
 const host = process.env.HOST || "127.0.0.1";
 
+function localEnv() {
+  return { ...process.env, DISHKAI_LOCAL_DEV: "true" };
+}
+
 const mimeTypes = {
   ".html": "text/html; charset=utf-8",
   ".css": "text/css; charset=utf-8",
@@ -38,7 +42,7 @@ const server = createServer(async (request, response) => {
     }
 
     if (request.method === "GET" && url.pathname === "/api/private-status") {
-      sendJson(response, 200, { ok: true, authenticated: await hasValidSession(toWebRequest(request, url), process.env) }, securityHeaders());
+      sendJson(response, 200, { ok: true, authenticated: await hasValidSession(toWebRequest(request, url), localEnv()) }, securityHeaders());
       return;
     }
 
@@ -49,11 +53,11 @@ const server = createServer(async (request, response) => {
 
       const body = await readJson(request);
       try {
-        if (!verifyAccessCode(body.accessCode, process.env)) {
+        if (!verifyAccessCode(body.accessCode, localEnv())) {
           sendJson(response, 401, { error: "INVALID_ACCESS_CODE", message: "Unauthorized access is not permitted." }, securityHeaders());
           return;
         }
-        sendJson(response, 200, { ok: true }, { ...securityHeaders(), "Set-Cookie": await createSessionCookie(process.env) });
+        sendJson(response, 200, { ok: true }, { ...securityHeaders(), "Set-Cookie": await createSessionCookie(localEnv()) });
       } catch {
         sendJson(response, 500, { error: "PRIVATE_ACCESS_CONFIG_ERROR", message: "Private access is not configured correctly." }, securityHeaders());
       }
@@ -61,13 +65,13 @@ const server = createServer(async (request, response) => {
     }
 
     if (request.method === "POST" && url.pathname === "/api/private-logout") {
-      sendJson(response, 200, { ok: true }, { ...securityHeaders(), "Set-Cookie": clearSessionCookie() });
+      sendJson(response, 200, { ok: true }, { ...securityHeaders(), "Set-Cookie": clearSessionCookie(localEnv()) });
       return;
     }
 
     if (request.method === "POST" && url.pathname === "/api/analyze-menu-text") {
       const webRequest = toWebRequest(request, url);
-      if (!(await hasValidSession(webRequest, process.env))) {
+      if (!(await hasValidSession(webRequest, localEnv()))) {
         sendJson(response, 401, { error: "PRIVATE_ACCESS_REQUIRED", message: "Unauthorized access is not permitted." }, securityHeaders());
         return;
       }
@@ -81,13 +85,33 @@ const server = createServer(async (request, response) => {
         targetLanguage: body.targetLanguage || "en",
         env: {},
       });
-      sendJson(response, result.ok ? 200 : 400, result);
+      sendJson(response, result.ok ? 200 : 400, result, securityHeaders());
+      return;
+    }
+
+    if (request.method === "POST" && url.pathname === "/api/analyze-menu") {
+      const webRequest = toWebRequest(request, url);
+      if (!(await hasValidSession(webRequest, localEnv()))) {
+        sendJson(response, 401, { error: "PRIVATE_ACCESS_REQUIRED", message: "Unauthorized access is not permitted." }, securityHeaders());
+        return;
+      }
+      const limited = checkRateLimit(webRequest, localJson, "analyze-menu", 20, 60_000);
+      if (limited) return sendWebJson(response, limited);
+
+      const body = await readJson(request);
+      const result = await analyzeMenuText({
+        menuText: body.menuText || body.text || "",
+        sourceLanguage: "auto",
+        targetLanguage: body.targetLanguage || "en",
+        env: {},
+      });
+      sendJson(response, result.ok ? 200 : 400, result, securityHeaders());
       return;
     }
 
     if (request.method === "POST" && url.pathname === "/api/analyze-menu-image") {
       const webRequest = toWebRequest(request, url);
-      if (!(await hasValidSession(webRequest, process.env))) {
+      if (!(await hasValidSession(webRequest, localEnv()))) {
         sendJson(response, 401, { error: "PRIVATE_ACCESS_REQUIRED", message: "Unauthorized access is not permitted." }, securityHeaders());
         return;
       }
@@ -101,7 +125,7 @@ const server = createServer(async (request, response) => {
 
     if (request.method === "POST" && url.pathname === "/api/pdc-round") {
       const webRequest = toWebRequest(request, url);
-      if (!(await hasValidSession(webRequest, process.env))) {
+      if (!(await hasValidSession(webRequest, localEnv()))) {
         sendJson(response, 401, { error: "PRIVATE_ACCESS_REQUIRED", message: "Unauthorized access is not permitted." }, securityHeaders());
         return;
       }
@@ -115,7 +139,6 @@ const server = createServer(async (request, response) => {
     }
 
     if (request.method === "POST" && [
-      "/api/analyze-menu",
       "/api/save-profile",
       "/api/analyze-receipt",
       "/api/save-rating",
@@ -123,7 +146,7 @@ const server = createServer(async (request, response) => {
       "/api/clear-recent-scans",
     ].includes(url.pathname)) {
       const webRequest = toWebRequest(request, url);
-      if (!(await hasValidSession(webRequest, process.env))) {
+      if (!(await hasValidSession(webRequest, localEnv()))) {
         sendJson(response, 401, { error: "PRIVATE_ACCESS_REQUIRED", message: "Unauthorized access is not permitted." }, securityHeaders());
         return;
       }
@@ -159,6 +182,18 @@ async function serveStatic(pathname, response) {
     });
     response.end(content);
   } catch {
+    const publicFilePath = join(root, "public", safePath);
+    if (publicFilePath.startsWith(join(root, "public"))) {
+      try {
+        const publicContent = await readFile(publicFilePath);
+        response.writeHead(200, {
+          "Content-Type": mimeTypes[extname(publicFilePath)] || "application/octet-stream",
+        });
+        response.end(publicContent);
+        return;
+      } catch {}
+    }
+
     if (!extname(filePath)) {
       const content = await readFile(join(root, "index.html"));
       response.writeHead(200, { "Content-Type": mimeTypes[".html"] });

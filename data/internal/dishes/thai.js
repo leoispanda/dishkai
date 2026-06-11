@@ -60,8 +60,8 @@ export const thaiDishes = [
     acquiredTasteLevel: 1,
     metadataConfidence: 0.88,
     restaurantVariationLevel: "medium",
-    imagePath: "/images/dishes/pad-thai.jpg",
-    thumbPath: "/images/dishes/pad-thai-thumb.jpg",
+    imagePath: "/assets/dishes/placeholders/dish-placeholder.svg",
+    thumbPath: "/assets/dishes/placeholders/dish-placeholder.svg",
     visualDisclaimer: {
       en: "Visual reference only. Actual dish may vary by restaurant. Estimated composition.",
       zh: "图片仅供参考。实际出品会因餐厅而异。成分比例为估算。",

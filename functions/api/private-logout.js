@@ -1,10 +1,10 @@
 import { json } from "../_shared/menu-analysis.js";
 import { clearSessionCookie, securityHeaders } from "../_shared/security.js";
 
-export async function onRequestPost() {
+export async function onRequestPost({ env }) {
   return json({ ok: true }, 200, {
     ...securityHeaders(),
-    "Set-Cookie": clearSessionCookie(),
+    "Set-Cookie": clearSessionCookie(env),
   });
 }
 
