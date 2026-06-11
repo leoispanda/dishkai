@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="DishKAI turns unfamiliar menu names into tappable Dish Knowledge Cards.">
+  <meta name="description" content="DishKAI is a private food memory and menu assistant for Leo & Cindy.">
   <title>DishKAI | Know the dish before you order</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -21,8 +21,27 @@
       <div class="hero-copy">
         <p class="eyebrow">Dish Knowledge AI</p>
         <h1 data-i18n="heroTitle">Know the dish before you order.</h1>
+        <p class="private-notice" data-i18n="privateNotice">DishKAI is a private food memory and menu assistant for Leo &amp; Cindy. It is not a public service.</p>
         <p class="subtitle" data-i18n="heroSubtitle">Upload a menu photo or paste menu text. DishKAI turns it into a clear dish list you can tap for ingredients, taste, watch-outs, and ordering guidance.</p>
       </div>
+
+      <section id="privateAccess" class="private-access-panel" aria-label="Private access">
+        <p class="eyebrow" data-i18n="privateAccessEyebrow">Private access</p>
+        <h2 data-i18n="privateAccessTitle">Leo &amp; Cindy only.</h2>
+        <p data-i18n="unauthorizedNotice">Unauthorized access is not permitted.</p>
+        <form id="privateAccessForm" class="private-access-form">
+          <label for="privateAccessCode">
+            <span data-i18n="privateAccessLabel">Private access code</span>
+            <input id="privateAccessCode" name="privateAccessCode" type="password" autocomplete="current-password" data-i18n-placeholder="privateAccessPlaceholder" placeholder="Enter private access code">
+          </label>
+          <button class="button primary" type="submit" data-i18n="unlockPrivate">Unlock private tools</button>
+        </form>
+        <div class="private-actions">
+          <button id="clearRecentScans" class="button" type="button" data-i18n="clearRecentScans">Clear recent scans</button>
+          <button id="privateLogout" class="button" type="button" data-i18n="privateLogout">Lock</button>
+        </div>
+        <p id="privateAccessStatus" class="status" role="status"></p>
+      </section>
 
       <form id="menuForm" class="analysis-panel">
         <div class="mode-tabs" role="tablist" aria-label="Menu input mode">
@@ -41,6 +60,7 @@ Chef Special Pasta</textarea>
           <label for="menuImage" data-i18n="menuImageLabel">Upload menu image</label>
           <input id="menuImage" name="menuImage" type="file" accept="image/*">
           <p class="helper" data-i18n="imageHelper">If image analysis is unavailable, paste the menu text instead.</p>
+          <p class="helper warning" data-i18n="uploadWarning">Please do not upload images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.</p>
         </div>
 
         <label>

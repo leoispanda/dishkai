@@ -38,10 +38,10 @@ function jsonSafeText(value, maxLength = 400) {
   return String(value || "").trim().slice(0, maxLength);
 }
 
-export function json(data, status = 200) {
+export function json(data, status = 200, headers = {}) {
   return new Response(JSON.stringify(data), {
     status,
-    headers: { "Content-Type": "application/json; charset=utf-8" },
+    headers: { "Content-Type": "application/json; charset=utf-8", ...headers },
   });
 }
 
@@ -258,6 +258,7 @@ function buildCard(dish, originalName, targetLanguage) {
     watchOuts: dish.riskFlags.map((id) => riskDisplay(id, targetLanguage)),
     dietaryNotes: dish.dietaryFlags || [],
     visualDisclaimer: localize(dish.visualDisclaimer, targetLanguage),
+    aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.",
     iconTags: deriveIconTagIds(dish).map((id) => tagLabel(id, targetLanguage)),
     metadataSource: "dishkai-database",
     verified: true,
@@ -275,6 +276,7 @@ function unmatchedCard(item, targetLanguage) {
     familiarName: item.cleanName,
     orderVerdict: message[targetLanguage] || message.en,
     shortDescription: message[targetLanguage] || message.en,
+    aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.",
     iconTags: [],
     metadataSource: "unmatched",
     verified: false,
@@ -324,6 +326,10 @@ export async function analyzeMenuText({ menuText, sourceLanguage = "auto", targe
     targetLanguage,
     extractionSource: extraction.extractionSource,
     model: extraction.model,
+    privacy: {
+      uploadedImagesStored: false,
+      note: "DishKAI does not permanently store uploaded menu images by default. Store only structured dish data after Leo/Cindy manually confirms.",
+    },
     items,
     unmatchedItems: items.filter((item) => item.matchStatus === "unmatched"),
   };
@@ -334,5 +340,9 @@ export async function analyzeMenuImage() {
   return {
     ok: false,
     error: "Image analysis is not available yet. Please paste menu text instead.",
+    privacy: {
+      uploadedImagesStored: false,
+      note: "Uploaded menu images should be processed temporarily and not permanently stored by default.",
+    },
   };
 }

@@ -2,29 +2,32 @@ const translations = {
   en: {
     heroTitle: "Know the dish before you order.",
     heroSubtitle: "Upload a menu photo or paste menu text. DishKAI turns it into a clear dish list you can tap for ingredients, taste, watch-outs, and ordering guidance.",
-    textMode: "Paste menu text", imageMode: "Upload menu image", menuTextLabel: "Paste or type menu text", menuTextPlaceholder: "Carbonara\nPad Thai\nChef Special Pasta", menuImageLabel: "Upload menu image", imageHelper: "If image analysis is unavailable, paste the menu text instead.",
+    privateNotice: "DishKAI is a private food memory and menu assistant for Leo & Cindy. It is not a public service.", privateAccessEyebrow: "Private access", privateAccessTitle: "Leo & Cindy only.", unauthorizedNotice: "Unauthorized access is not permitted.", privateAccessLabel: "Private access code", privateAccessPlaceholder: "Enter private access code", unlockPrivate: "Unlock private tools", privateUnlocked: "Private access unlocked.", privateLocked: "Private access is locked.", privateDenied: "Unauthorized access is not permitted.", clearRecentScans: "Clear recent scans", clearScansDone: "Recent scans cleared.", privateLogout: "Lock",
+    textMode: "Paste menu text", imageMode: "Upload menu image", menuTextLabel: "Paste or type menu text", menuTextPlaceholder: "Carbonara\nPad Thai\nChef Special Pasta", menuImageLabel: "Upload menu image", imageHelper: "If image analysis is unavailable, paste the menu text instead.", uploadWarning: "Please do not upload images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.",
     outputLanguage: "Output language", generate: "Generate menu list", loading: "Analyzing menu...", noItems: "No menu items were found. Please paste clearer menu text.", imageUnavailable: "Image analysis is not available yet. Please paste menu text instead.",
     menuListEyebrow: "Menu list", menuListTitle: "Tap a dish to understand it.", emptyCard: "Tap a menu item to open its Dish Knowledge Card.",
     footerText: "Fast menu understanding for ordering decisions.",
-    matched: "matched", unmatched: "Not in starter database yet", tapForDetails: "Tap for details", tapForEstimate: "Tap for AI estimate if available", aiGenerated: "AI-generated estimate. Not yet verified in DishKAI database.", original: "Original", familiar: "Familiar", verdict: "Order verdict", description: "What it is", preparation: "How it is usually prepared", composition: "Estimated composition", taste: "Basic taste", flavor: "Distinctive flavor", texture: "Texture", watchOut: "Watch out", disclaimer: "Visual note", summary: "items", unknownNote: "This dish is not in the starter database yet."
+    matched: "matched", unmatched: "Not in starter database yet", tapForDetails: "Tap for details", tapForEstimate: "Tap for AI estimate if available", aiGenerated: "AI-generated estimate. Not yet verified in DishKAI database.", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "Original", familiar: "Familiar", verdict: "Order verdict", description: "What it is", preparation: "How it is usually prepared", composition: "Estimated composition", taste: "Basic taste", flavor: "Distinctive flavor", texture: "Texture", watchOut: "Watch out", disclaimer: "Visual note", summary: "items", unknownNote: "This dish is not in the starter database yet."
   },
   zh: {
     heroTitle: "点餐前，先看懂这道菜。",
     heroSubtitle: "上传菜单照片或粘贴菜单文字。DishKAI 会生成一份清晰菜品列表，点击即可查看成分、味道、注意事项和点餐建议。",
-    textMode: "粘贴菜单文字", imageMode: "上传菜单图片", menuTextLabel: "粘贴或输入菜单文字", menuTextPlaceholder: "Carbonara\nPad Thai\nChef Special Pasta", menuImageLabel: "上传菜单图片", imageHelper: "如果图片分析暂不可用，请改用粘贴菜单文字。",
+    privateNotice: "DishKAI is a private food memory and menu assistant for Leo & Cindy. It is not a public service.", privateAccessEyebrow: "私有访问", privateAccessTitle: "仅 Leo 和 Cindy 使用。", unauthorizedNotice: "Unauthorized access is not permitted.", privateAccessLabel: "私有访问码", privateAccessPlaceholder: "输入私有访问码", unlockPrivate: "解锁私有工具", privateUnlocked: "私有访问已解锁。", privateLocked: "私有访问已锁定。", privateDenied: "Unauthorized access is not permitted.", clearRecentScans: "清除最近扫描", clearScansDone: "最近扫描已清除。", privateLogout: "锁定",
+    textMode: "粘贴菜单文字", imageMode: "上传菜单图片", menuTextLabel: "粘贴或输入菜单文字", menuTextPlaceholder: "Carbonara\nPad Thai\nChef Special Pasta", menuImageLabel: "上传菜单图片", imageHelper: "如果图片分析暂不可用，请改用粘贴菜单文字。", uploadWarning: "Please do not upload images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.",
     outputLanguage: "输出语言", generate: "生成菜单列表", loading: "正在分析菜单...", noItems: "没有找到菜单项。请粘贴更清晰的菜单文字。", imageUnavailable: "图片分析暂不可用。请粘贴菜单文字。",
     menuListEyebrow: "菜单列表", menuListTitle: "点击一道菜，快速看懂它。", emptyCard: "点击菜单项以打开菜品知识卡。",
     footerText: "为点餐决策而生的快速菜单理解工具。",
-    matched: "已匹配", unmatched: "暂未收录", tapForDetails: "点击查看详情", tapForEstimate: "如可用，可点击查看 AI 估算", aiGenerated: "AI 估算结果，尚未进入 DishKAI 已验证数据库。", original: "原始菜名", familiar: "熟悉名称", verdict: "点餐建议", description: "这是什么", preparation: "常见做法风格", composition: "估算成分", taste: "基础味道", flavor: "特色风味", texture: "口感", watchOut: "注意事项", disclaimer: "图片说明", summary: "项", unknownNote: "这道菜暂时还不在 DishKAI 初始数据库中。"
+    matched: "已匹配", unmatched: "暂未收录", tapForDetails: "点击查看详情", tapForEstimate: "如可用，可点击查看 AI 估算", aiGenerated: "AI 估算结果，尚未进入 DishKAI 已验证数据库。", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "原始菜名", familiar: "熟悉名称", verdict: "点餐建议", description: "这是什么", preparation: "常见做法风格", composition: "估算成分", taste: "基础味道", flavor: "特色风味", texture: "口感", watchOut: "注意事项", disclaimer: "图片说明", summary: "项", unknownNote: "这道菜暂时还不在 DishKAI 初始数据库中。"
   },
   nl: {
     heroTitle: "Ken het gerecht voordat je bestelt.",
     heroSubtitle: "Upload een menufoto of plak menutekst. DishKAI maakt er een heldere gerechtenlijst van die je kunt aantikken voor ingredienten, smaak, aandachtspunten en besteladvies.",
-    textMode: "Menutekst plakken", imageMode: "Menufoto uploaden", menuTextLabel: "Plak of typ menutekst", menuTextPlaceholder: "Carbonara\nPad Thai\nChef Special Pasta", menuImageLabel: "Menufoto uploaden", imageHelper: "Als beeldanalyse niet beschikbaar is, plak dan de menutekst.",
+    privateNotice: "DishKAI is a private food memory and menu assistant for Leo & Cindy. It is not a public service.", privateAccessEyebrow: "Private toegang", privateAccessTitle: "Alleen Leo & Cindy.", unauthorizedNotice: "Unauthorized access is not permitted.", privateAccessLabel: "Private toegangscode", privateAccessPlaceholder: "Voer private toegangscode in", unlockPrivate: "Ontgrendel private tools", privateUnlocked: "Private toegang ontgrendeld.", privateLocked: "Private toegang is vergrendeld.", privateDenied: "Unauthorized access is not permitted.", clearRecentScans: "Wis recente scans", clearScansDone: "Recente scans gewist.", privateLogout: "Vergrendel",
+    textMode: "Menutekst plakken", imageMode: "Menufoto uploaden", menuTextLabel: "Plak of typ menutekst", menuTextPlaceholder: "Carbonara\nPad Thai\nChef Special Pasta", menuImageLabel: "Menufoto uploaden", imageHelper: "Als beeldanalyse niet beschikbaar is, plak dan de menutekst.", uploadWarning: "Please do not upload images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.",
     outputLanguage: "Uitvoertaal", generate: "Genereer menulijst", loading: "Menu analyseren...", noItems: "Geen menu-items gevonden. Plak duidelijkere menutekst.", imageUnavailable: "Beeldanalyse is nog niet beschikbaar. Plak menutekst.",
     menuListEyebrow: "Menulijst", menuListTitle: "Tik op een gerecht om het te begrijpen.", emptyCard: "Tik op een menu-item om de Dish Knowledge Card te openen.",
     footerText: "Snelle menubegrip voor bestelbeslissingen.",
-    matched: "gekoppeld", unmatched: "nog niet in database", tapForDetails: "Tik voor details", tapForEstimate: "Tik voor AI-schatting indien beschikbaar", aiGenerated: "AI-schatting. Nog niet geverifieerd in de DishKAI-database.", original: "Origineel", familiar: "Vertrouwd", verdict: "Besteladvies", description: "Wat het is", preparation: "Hoe het meestal wordt bereid", composition: "Geschatte samenstelling", taste: "Basissmaak", flavor: "Kenmerkende smaak", texture: "Textuur", watchOut: "Let op", disclaimer: "Visuele noot", summary: "items", unknownNote: "Dit gerecht staat nog niet in de startdatabase."
+    matched: "gekoppeld", unmatched: "nog niet in database", tapForDetails: "Tik voor details", tapForEstimate: "Tik voor AI-schatting indien beschikbaar", aiGenerated: "AI-schatting. Nog niet geverifieerd in de DishKAI-database.", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "Origineel", familiar: "Vertrouwd", verdict: "Besteladvies", description: "Wat het is", preparation: "Hoe het meestal wordt bereid", composition: "Geschatte samenstelling", taste: "Basissmaak", flavor: "Kenmerkende smaak", texture: "Textuur", watchOut: "Let op", disclaimer: "Visuele noot", summary: "items", unknownNote: "Dit gerecht staat nog niet in de startdatabase."
   }
 };
 
@@ -32,6 +35,7 @@ let uiLang = localStorage.getItem("dishkai-ui-lang") || "en";
 let inputMode = "text";
 let latestResult = null;
 let pdcState = loadPdcState();
+let privateAccessGranted = false;
 
 const $ = (selector) => document.querySelector(selector);
 
@@ -60,7 +64,79 @@ function setStatus(message, tone = "") {
   el.className = `status ${tone}`.trim();
 }
 
+function setPrivateStatus(message, tone = "") {
+  const el = $("#privateAccessStatus");
+  if (!el) return;
+  el.textContent = message;
+  el.className = `status ${tone}`.trim();
+}
+
+function setPrivateAccess(granted) {
+  privateAccessGranted = Boolean(granted);
+  document.body.classList.toggle("private-unlocked", privateAccessGranted);
+  document.body.classList.toggle("private-locked", !privateAccessGranted);
+  document.querySelectorAll("#menuForm input, #menuForm textarea, #menuForm select, #menuForm button").forEach((element) => {
+    element.disabled = !privateAccessGranted;
+  });
+  document.querySelectorAll("#pdcForm input, #pdcForm textarea, #pdcForm select, #pdcForm button, #pdcInterventionForm textarea, #pdcInterventionForm button").forEach((element) => {
+    element.disabled = !privateAccessGranted;
+  });
+  if (!privateAccessGranted) setStatus(t("privateDenied"), "error");
+  else setStatus("");
+}
+
+async function checkPrivateAccess() {
+  try {
+    const response = await fetch("/api/private-status", { cache: "no-store" });
+    const result = await response.json();
+    setPrivateAccess(Boolean(result.authenticated));
+    setPrivateStatus(result.authenticated ? t("privateUnlocked") : t("privateLocked"), result.authenticated ? "" : "error");
+  } catch {
+    setPrivateAccess(false);
+    setPrivateStatus(t("privateLocked"), "error");
+  }
+}
+
+async function submitPrivateAccess(event) {
+  event.preventDefault();
+  const accessCode = $("#privateAccessCode").value;
+  const response = await fetch("/api/private-login", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ accessCode }),
+  });
+  const result = await response.json().catch(() => ({}));
+  if (!response.ok || !result.ok) {
+    setPrivateAccess(false);
+    setPrivateStatus(result.message || t("privateDenied"), "error");
+    return;
+  }
+  $("#privateAccessCode").value = "";
+  setPrivateAccess(true);
+  setPrivateStatus(t("privateUnlocked"));
+}
+
+async function clearRecentScans() {
+  const response = await fetch("/api/clear-recent-scans", { method: "POST" });
+  const result = await response.json().catch(() => ({}));
+  if (!response.ok || result.error) {
+    setPrivateStatus(result.message || t("privateDenied"), "error");
+    return;
+  }
+  setPrivateStatus(result.message || t("clearScansDone"));
+}
+
+async function logoutPrivateAccess() {
+  await fetch("/api/private-logout", { method: "POST" }).catch(() => {});
+  setPrivateAccess(false);
+  setPrivateStatus(t("privateLocked"), "error");
+}
+
 async function analyzeText() {
+  if (!privateAccessGranted) {
+    setStatus(t("privateDenied"), "error");
+    return;
+  }
   const menuText = $("#menuText").value.trim();
   if (!menuText) {
     setStatus(t("noItems"), "error");
@@ -88,6 +164,10 @@ async function analyzeText() {
 }
 
 async function analyzeImage() {
+  if (!privateAccessGranted) {
+    setStatus(t("privateDenied"), "error");
+    return;
+  }
   const image = $("#menuImage").files[0];
   if (!image) {
     setStatus(t("imageUnavailable"), "error");
@@ -178,6 +258,7 @@ function renderKnowledgeCard(item) {
       <h3>${escapeHtml(card.familiarName || item.cleanName || item.originalName)}</h3>
       <p class="original-name"><strong>${t("original")}:</strong> ${escapeHtml(item.originalName)}</p>
       <p class="verdict">${escapeHtml(card.orderVerdict || t("unknownNote"))}</p>
+      <p class="notice">${escapeHtml(card.aiImageLabel || t("aiImageLabel"))}</p>
       ${unverified}
       ${card.cuisineRole?.note ? `<p>${escapeHtml(card.cuisineRole.note)}</p>` : ""}
       <dl>
@@ -447,6 +528,10 @@ function escapeAttribute(value) {
 
 async function startPdcRound(event) {
   event.preventDefault();
+  if (!privateAccessGranted) {
+    setPdcStatus(t("privateDenied"), "error");
+    return;
+  }
   const topic = $("#pdcTopic").value.trim();
   const context = $("#pdcContext").value.trim();
   const discussionStyle = currentDiscussionStyle();
@@ -474,6 +559,10 @@ async function startPdcRound(event) {
 
 async function continuePdcRound(event) {
   event.preventDefault();
+  if (!privateAccessGranted) {
+    setPdcStatus(t("privateDenied"), "error");
+    return;
+  }
   const intervention = $("#pdcIntervention").value.trim();
   if (!intervention) {
     setPdcStatus("请先写下你想补充、追问或纠正的内容。", "error");
@@ -648,7 +737,11 @@ $("#pdcSelectPersonalQuick")?.addEventListener("click", () => {
 $("#pdcClearSelection")?.addEventListener("click", () => selectPdcAgents([]));
 $("#pdcForm")?.addEventListener("submit", startPdcRound);
 $("#pdcInterventionForm")?.addEventListener("submit", continuePdcRound);
+$("#privateAccessForm")?.addEventListener("submit", submitPrivateAccess);
+$("#clearRecentScans")?.addEventListener("click", clearRecentScans);
+$("#privateLogout")?.addEventListener("click", logoutPrivateAccess);
 renderPdcRoleCards();
 updatePdcDiscussionUi();
 
 applyLanguage();
+checkPrivateAccess();

@@ -73,8 +73,19 @@ h1 { margin: 0; max-width: 720px; font-size: clamp(40px, 8vw, 76px); line-height
 h2 { margin: 0; font-size: clamp(26px, 5vw, 42px); line-height: 1; letter-spacing: 0; }
 h3 { margin: 0; font-size: 22px; }
 .subtitle { max-width: 680px; color: var(--muted); font-size: 17px; line-height: 1.6; }
+.private-notice {
+  max-width: 680px;
+  border-left: 3px solid var(--terra);
+  border-radius: 8px;
+  background: #fff8e8;
+  padding: 10px 14px;
+  color: var(--ink);
+  font-weight: 760;
+  line-height: 1.5;
+}
 
-.analysis-panel {
+.analysis-panel,
+.private-access-panel {
   display: grid;
   gap: 18px;
   border: 1px solid var(--line);
@@ -82,6 +93,24 @@ h3 { margin: 0; font-size: 22px; }
   background: var(--white);
   padding: 20px;
   box-shadow: 0 14px 46px rgba(34, 42, 36, 0.1);
+}
+.private-access-panel h2 {
+  font-size: 28px;
+}
+.private-access-panel p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.private-access-form { display: grid; gap: 12px; }
+.private-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.private-locked .analysis-panel {
+  opacity: 0.62;
+}
+.private-locked #menuForm::after {
+  content: "Unauthorized access is not permitted.";
+  color: var(--danger);
+  font-weight: 800;
 }
 
 .mode-tabs {
@@ -116,6 +145,12 @@ textarea, input, select {
 textarea { resize: vertical; line-height: 1.55; }
 select, input { min-height: 46px; }
 .helper { margin: 0; color: var(--muted); line-height: 1.5; }
+.helper.warning {
+  border-left: 3px solid var(--danger);
+  padding-left: 10px;
+  color: var(--danger);
+  font-weight: 700;
+}
 
 .button { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 18px; border-radius: 999px; border: 1px solid var(--line); }
 .button.primary { background: var(--ink); color: var(--white); border-color: var(--ink); }

@@ -1,17 +1,21 @@
-import { json } from "../_shared/menu-analysis.js";
-import { runPdcRound } from "../_shared/pdc-engine.js";
+import { analyzeMenuText, json } from "../_shared/menu-analysis.js";
 import { checkRateLimit, requirePrivateSession, securityHeaders } from "../_shared/security.js";
 
 export async function onRequestPost({ request, env }) {
   const unauthorized = await requirePrivateSession(request, env, json);
   if (unauthorized) return unauthorized;
 
-  const limited = checkRateLimit(request, json, "pdc-round", 20, 60_000);
+  const limited = checkRateLimit(request, json, "analyze-menu", 20, 60_000);
   if (limited) return limited;
 
   const body = await request.json().catch(() => ({}));
-  const result = await runPdcRound(body, env);
-  return json(result.body, result.status, securityHeaders());
+  const result = await analyzeMenuText({
+    menuText: body.menuText || body.text || "",
+    sourceLanguage: "auto",
+    targetLanguage: body.targetLanguage || "en",
+    env,
+  });
+  return json(result, result.ok ? 200 : 400, securityHeaders());
 }
 
 export function onRequest() {

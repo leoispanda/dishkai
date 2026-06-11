@@ -1,17 +1,18 @@
 import { json } from "../_shared/menu-analysis.js";
-import { runPdcRound } from "../_shared/pdc-engine.js";
 import { checkRateLimit, requirePrivateSession, securityHeaders } from "../_shared/security.js";
 
 export async function onRequestPost({ request, env }) {
   const unauthorized = await requirePrivateSession(request, env, json);
   if (unauthorized) return unauthorized;
 
-  const limited = checkRateLimit(request, json, "pdc-round", 20, 60_000);
+  const limited = checkRateLimit(request, json, "clear-recent-scans", 6, 60_000);
   if (limited) return limited;
 
-  const body = await request.json().catch(() => ({}));
-  const result = await runPdcRound(body, env);
-  return json(result.body, result.status, securityHeaders());
+  return json({
+    ok: true,
+    cleared: true,
+    message: "No persistent temporary scan records are stored by default.",
+  }, 200, securityHeaders());
 }
 
 export function onRequest() {

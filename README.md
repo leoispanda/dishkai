@@ -1,6 +1,8 @@
 # DishKAI
 
-DishKAI is a lightweight visual menu understanding tool. It turns unfamiliar menu names into visual, clickable Dish Knowledge Cards for fast ordering decisions.
+DishKAI is a private food memory and menu assistant for Leo & Cindy. It is not a public service and is not intended for public user uploads.
+
+It turns unfamiliar menu names into visual, clickable Dish Knowledge Cards for fast ordering decisions.
 
 ## Local development
 
@@ -23,11 +25,37 @@ Deploy the `public` directory. Root files and `public/` copies are kept synchron
 
 Cloudflare Pages Functions live under `functions/api/` and call Workers AI from the backend through the `AI` binding when available.
 
+Required Cloudflare secrets:
+
+- `DISHKAI_PRIVATE_ACCESS_CODE`: private access code for Leo/Cindy. Do not hardcode this in frontend code.
+- `DISHKAI_SESSION_SECRET`: strong random session signing secret for the `dishkai_session` httpOnly cookie.
+
 Current API endpoints:
 
+- `POST /api/private-login`
+- `GET /api/private-status`
+- `POST /api/private-logout`
 - `POST /api/analyze-menu-text`
 - `POST /api/analyze-menu-image`
 - `POST /api/pdc-round`
+- `POST /api/analyze-menu`
+- `POST /api/save-profile`
+- `POST /api/analyze-receipt`
+- `POST /api/save-rating`
+- `POST /api/generate-dish-image`
+- `POST /api/clear-recent-scans`
+
+Privacy and misuse protections:
+
+- Private access codes are verified server-side only.
+- Sessions use a signed `HttpOnly; Secure; SameSite=Lax` cookie.
+- Expensive/private APIs include best-effort per-IP rate limiting.
+- DishKAI should not permanently store uploaded menu images by default.
+- Uploaded menu images should be processed temporarily.
+- Store only structured dish data after Leo/Cindy manually confirms.
+- Users are warned not to upload images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.
+- AI dish images must be labeled: “AI-generated preview. For inspiration only. Actual dish may look different.”
+- If temporary scan records are introduced later, keep `/api/clear-recent-scans` able to clear them.
 
 For local Wrangler testing, Workers AI may require:
 

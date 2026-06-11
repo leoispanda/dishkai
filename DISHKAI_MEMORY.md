@@ -99,6 +99,14 @@ Key architecture:
 - Backend keeps old team_debate input compatible by mapping it to preset_team_debate and now returns participants as the primary output schema.
 - PDC main flow is now council-first: choose Product Council or Personal PDC Council, select role cards, inspect role details, then choose independent speaking or automatic grouping.
 - Automatic grouping uses simple round-robin assignment with user-selected group count; fixed three-team templates are no longer the main UI path.
+- DishKAI is now explicitly documented and presented as a private food memory and menu assistant for Leo & Cindy, not a public service.
+- Public homepage must state that DishKAI is private and not a public service.
+- Private tools require server-side access-code verification through `DISHKAI_PRIVATE_ACCESS_CODE` and a signed httpOnly session cookie using `DISHKAI_SESSION_SECRET`.
+- Upload, recognition, PDC, image generation, and database-write APIs should be protected server-side and rate limited.
+- Uploaded menu images should not be permanently stored by default; process temporarily and store only structured dish data after Leo/Cindy manually confirms.
+- Menu upload UI must warn against images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.
+- AI dish image previews must show: “AI-generated preview. For inspiration only. Actual dish may look different.”
+- If temporary scan records are introduced, keep a clear recent scans admin action.
 
 Composition rule:
 Use approximate 5% composition blocks.

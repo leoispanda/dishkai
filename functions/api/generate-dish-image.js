@@ -1,17 +1,18 @@
 import { json } from "../_shared/menu-analysis.js";
-import { runPdcRound } from "../_shared/pdc-engine.js";
 import { checkRateLimit, requirePrivateSession, securityHeaders } from "../_shared/security.js";
 
 export async function onRequestPost({ request, env }) {
   const unauthorized = await requirePrivateSession(request, env, json);
   if (unauthorized) return unauthorized;
 
-  const limited = checkRateLimit(request, json, "pdc-round", 20, 60_000);
+  const limited = checkRateLimit(request, json, "generate-dish-image", 5, 60_000);
   if (limited) return limited;
 
-  const body = await request.json().catch(() => ({}));
-  const result = await runPdcRound(body, env);
-  return json(result.body, result.status, securityHeaders());
+  return json({
+    ok: false,
+    error: "IMAGE_GENERATION_DISABLED",
+    message: "AI image generation is disabled for now. AI-generated preview. For inspiration only. Actual dish may look different.",
+  }, 501, securityHeaders());
 }
 
 export function onRequest() {
