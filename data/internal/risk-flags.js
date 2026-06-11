@@ -6,4 +6,10 @@ export const riskFlags = [
   { id: "can-be-spicy", metadataCode: "600005", names: { en: "Can be spicy", zh: "可能偏辣", nl: "Kan pittig zijn" } },
   { id: "contains-dairy", metadataCode: "600006", names: { en: "Dairy", zh: "乳制品", nl: "Zuivel" }, allergen: "dairy" },
   { id: "contains-gluten", metadataCode: "600007", names: { en: "Gluten", zh: "麸质", nl: "Gluten" }, allergen: "gluten" },
+  { id: "contains-soy", metadataCode: "600008", names: { en: "Soy", zh: "大豆", nl: "Soja" }, allergen: "soy" },
+  { id: "contains-fish", metadataCode: "600009", names: { en: "Fish", zh: "鱼类", nl: "Vis" }, allergen: "fish" },
+  { id: "contains-sesame", metadataCode: "600010", names: { en: "Sesame", zh: "芝麻", nl: "Sesam" }, allergen: "sesame" },
+  { id: "contains-alcohol", metadataCode: "600011", names: { en: "Alcohol used", zh: "使用酒类", nl: "Alcohol gebruikt" } },
+  { id: "contains-pork", metadataCode: "600012", names: { en: "Pork", zh: "猪肉", nl: "Varkensvlees" } },
+  { id: "contains-raw-fish", metadataCode: "600013", names: { en: "Raw fish", zh: "生鱼", nl: "Rauwe vis" }, allergen: "fish" },
 ];

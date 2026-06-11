@@ -12,6 +12,10 @@ export const cookingMethods = [
   method("braised", "700011", "braised", "炖煮", "gestoofd", "Slow cooked with moisture until tender and saucy.", "带水分慢炖至软烂，通常有明显酱汁感。", "Langzaam gegaard met vocht tot het mals en sauzig is.", "tender", "medium", "richer"),
   method("set", "700012", "set", "凝固定型", "opgesteven", "Soft ingredients are gently firmed into a smooth shape.", "柔软食材凝固定型，形成顺滑的成品。", "Zachte ingredienten worden stevig genoeg gemaakt tot een gladde vorm.", "smooth set", "medium", "richer"),
   method("stir-fried", "700013", "stir-fried", "快炒", "geroerbakt", "Quickly cooked in a hot pan; usually glossy, savory, and lightly oily.", "热锅快速翻炒，通常油润、咸香、带锅气。", "Snel gegaard in een hete pan; meestal glanzend, hartig en licht olieachtig.", "glossy", "medium", "medium"),
+  method("fried", "700014", "fried", "煎炸", "gebakken", "Cooked in oil; expect a browned, richer surface.", "用油煎或炸，通常表面更香、更厚重。", "Gegaard in olie; verwacht een bruiner en rijker oppervlak.", "crisps", "high", "richer"),
+  method("deep-fried", "700015", "deep-fried", "油炸", "gefrituurd", "Cooked in hot oil until crisp; usually heavier than boiled or steamed food.", "在热油中炸至酥脆，通常比水煮或蒸制更厚重。", "Gegaard in hete olie tot knapperig; meestal zwaarder dan gekookt of gestoomd eten.", "crisps", "high", "richer"),
+  method("steamed", "700016", "steamed", "蒸", "gestoomd", "Cooked with steam; often soft, moist, and lighter.", "用蒸汽加热，常见柔软、多汁、相对清淡。", "Gegaard met stoom; vaak zacht, vochtig en lichter.", "softens", "low", "lighter"),
+  method("grilled", "700017", "grilled", "烤制", "gegrild", "Cooked over direct heat; often smoky, browned, or lightly charred.", "直接高温烤制，通常带烟熏感、焦香或轻微炭烤感。", "Gegaard boven directe hitte; vaak rokerig, gebruind of licht geschroeid.", "firms", "medium", "medium"),
 ];
 
 function method(id, metadataCode, en, zh, nl, enMeaning, zhMeaning, nlMeaning, textureImpact, oilLevelImpact, lightnessImpact) {

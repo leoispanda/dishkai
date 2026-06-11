@@ -24,10 +24,22 @@ export const iconTags = {
   starter: { icon: "🍅", en: "Starter", zh: "前菜", nl: "Voorgerecht" },
   bread: { icon: "🥖", en: "Bread", zh: "面包", nl: "Brood" },
   meat: { icon: "🍖", en: "Meat", zh: "肉类", nl: "Vlees" },
+  main: { icon: "🍽️", en: "Main", zh: "主菜", nl: "Hoofdgerecht" },
+  seafood: { icon: "🦪", en: "Seafood", zh: "海鲜", nl: "Zeevruchten" },
+  dumpling: { icon: "🥟", en: "Dumpling", zh: "点心/饺子", nl: "Dumpling" },
+  "fried-snack": { icon: "🍤", en: "Fried snack", zh: "炸物小吃", nl: "Gefrituurde snack" },
+  "vegetable-main": { icon: "🥬", en: "Vegetable main", zh: "蔬菜主菜", nl: "Groentehoofdgerecht" },
+  "raw-seafood": { icon: "🐟", en: "Raw seafood", zh: "生食海鲜", nl: "Rauwe zeevruchten" },
   "contains-peanut": { icon: "🥜", en: "Peanut", zh: "花生", nl: "Pinda" },
   "contains-egg": { icon: "🥚", en: "Egg", zh: "鸡蛋", nl: "Ei" },
   "contains-shellfish": { icon: "🦐", en: "Shellfish", zh: "甲壳类", nl: "Schaaldieren" },
   "contains-dairy": { icon: "🥛", en: "Dairy", zh: "乳制品", nl: "Zuivel" },
+  "contains-gluten": { icon: "🌾", en: "Gluten", zh: "麸质", nl: "Gluten" },
+  "contains-soy": { icon: "🫘", en: "Soy", zh: "大豆", nl: "Soja" },
+  "contains-fish": { icon: "🐟", en: "Fish", zh: "鱼类", nl: "Vis" },
+  "contains-sesame": { icon: "⚪", en: "Sesame", zh: "芝麻", nl: "Sesam" },
+  "contains-pork": { icon: "🥓", en: "Pork", zh: "猪肉", nl: "Varkensvlees" },
+  "contains-raw-fish": { icon: "🐟", en: "Raw fish", zh: "生鱼", nl: "Rauwe vis" },
   spicy: { icon: "🌶️", en: "Spicy", zh: "辣", nl: "Pittig" },
   tangy: { icon: "🍋", en: "Tangy", zh: "酸香", nl: "Friszuur" },
   sweet: { icon: "🍯", en: "Sweet", zh: "甜", nl: "Zoet" },
@@ -224,6 +236,12 @@ export function deriveIconTagIds(dish) {
   if (dish.riskFlags?.includes("contains-peanut")) tagIds.push("contains-peanut");
   if (dish.riskFlags?.includes("contains-egg")) tagIds.push("contains-egg");
   if (dish.riskFlags?.includes("contains-shellfish")) tagIds.push("contains-shellfish");
+  if (dish.riskFlags?.includes("contains-gluten")) tagIds.push("contains-gluten");
+  if (dish.riskFlags?.includes("contains-soy")) tagIds.push("contains-soy");
+  if (dish.riskFlags?.includes("contains-fish")) tagIds.push("contains-fish");
+  if (dish.riskFlags?.includes("contains-sesame")) tagIds.push("contains-sesame");
+  if (dish.riskFlags?.includes("contains-pork")) tagIds.push("contains-pork");
+  if (dish.riskFlags?.includes("contains-raw-fish")) tagIds.push("contains-raw-fish");
   if (dish.tasteProfile?.basic?.some((taste) => String(taste).includes("spicy"))) tagIds.push("spicy");
   if (dish.tasteProfile?.basic?.some((taste) => ["sour", "tangy"].includes(taste))) tagIds.push("tangy");
   if (dish.tasteProfile?.basic?.includes("sweet")) tagIds.push("sweet");

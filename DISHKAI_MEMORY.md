@@ -137,3 +137,5 @@ At the start of each new task, Codex should ask Leo whether approval checkpoints
 If Leo says no approval is needed, Codex may directly modify files inside the DishKAI project, run checks, commit, and push.
 Codex must not modify files outside the DishKAI project.
 Codex must still ask before destructive operations, editing secrets, changing Cloudflare settings, changing database schema, installing dependencies, or changing project direction significantly.
+
+- Added starter metadata coverage for every currently registered cuisine: Thai, Japanese, Korean, Chinese, Italian, French, German, Dutch, and Belgian. New non-Italian dish images use the shared placeholder until approved generated images are imported.
