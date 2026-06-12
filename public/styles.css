@@ -143,15 +143,7 @@ h3 { margin: 0; font-size: 22px; }
 .private-access-form { display: grid; gap: 12px; }
 .private-actions { display: flex; flex-wrap: wrap; gap: 10px; }
 .private-locked .private-actions { display: none; }
-.private-locked .analysis-panel,
-.private-locked .visual-menu-section,
-.private-locked .knowledge-section { display: none; }
 .private-unlocked .private-access-panel { display: none; }
-.private-locked #menuForm::after {
-  content: "Unauthorized access is not permitted.";
-  color: var(--danger);
-  font-weight: 800;
-}
 
 .mode-tabs {
   display: grid;

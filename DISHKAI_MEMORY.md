@@ -99,8 +99,8 @@ Key architecture:
 - Backend keeps old team_debate input compatible by mapping it to preset_team_debate and now returns participants as the primary output schema.
 - PDC main flow is now council-first: choose Product Council or Personal PDC Council, select role cards, inspect role details, then choose independent speaking or automatic grouping.
 - Automatic grouping uses simple round-robin assignment with user-selected group count; fixed three-team templates are no longer the main UI path.
-- DishKAI is now explicitly documented and presented as a private food memory and menu assistant for Leo & Cindy, not a public service.
-- Public homepage must state that DishKAI is private and not a public service.
+- DishKAI is now public beta for core menu recognition, while PDC and internal/private actions remain Leo/Cindy-only.
+- Public homepage should state that AI scans cost Leo a small API fee and invite happy users to buy Leo coffee someday.
 - Private tools require server-side access-code verification through `DISHKAI_PRIVATE_ACCESS_CODE` and a signed httpOnly session cookie using `DISHKAI_SESSION_SECRET`.
 - Upload, recognition, PDC, image generation, and database-write APIs should be protected server-side and rate limited.
 - Uploaded menu images should not be permanently stored by default; process temporarily and store only structured dish data after Leo/Cindy manually confirms.
@@ -175,3 +175,5 @@ Codex must still ask before destructive operations, editing secrets, changing Cl
 - DishKAI v0.2.4 added a local unmatched-dish backlog. Each successful text/photo menu analysis saves `matchStatus: "unmatched"` items to `localStorage` with deduping, seen counts, timestamps, candidate/category hints, and original examples. The visual menu now shows a Coverage Backlog panel with copy and clear actions so Leo can collect real missing dishes for batch metadata updates later. This is intentionally local-only for now: no database, no Cloudflare storage, no uploaded image persistence.
 
 - DishKAI v0.2.5 added explicit frontend cache busting after Leo saw an old `v0.2.2` app version in the browser after a push. `index.html` and `public/index.html` now reference `styles.css?v=0.2.5` and `script.js?v=0.2.5`, and `public/_headers` requires revalidation for core frontend files. Future version bumps must update these query versions too.
+
+- DishKAI v0.2.6 opened the core menu recognition flow to public beta without a shared daily quota. Text/photo menu analysis no longer requires private login, but same-origin checks and per-IP short-window rate limits remain. PDC and internal/private actions stay behind Leo/Cindy private access. The homepage now tells users AI scans cost Leo a small API fee and asks happy users to buy him coffee someday.

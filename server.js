@@ -85,10 +85,6 @@ const server = createServer(async (request, response) => {
       const crossOrigin = requireSameOrigin(webRequest, localJson);
       if (crossOrigin) return sendWebJson(response, crossOrigin);
 
-      if (!(await hasValidSession(webRequest, localEnv()))) {
-        sendJson(response, 401, { error: "PRIVATE_ACCESS_REQUIRED", message: "Unauthorized access is not permitted." }, securityHeaders());
-        return;
-      }
       const limited = checkRateLimit(webRequest, localJson, "analyze-menu-text", 30, 60_000);
       if (limited) return sendWebJson(response, limited);
 
@@ -108,10 +104,6 @@ const server = createServer(async (request, response) => {
       const crossOrigin = requireSameOrigin(webRequest, localJson);
       if (crossOrigin) return sendWebJson(response, crossOrigin);
 
-      if (!(await hasValidSession(webRequest, localEnv()))) {
-        sendJson(response, 401, { error: "PRIVATE_ACCESS_REQUIRED", message: "Unauthorized access is not permitted." }, securityHeaders());
-        return;
-      }
       const limited = checkRateLimit(webRequest, localJson, "analyze-menu", 20, 60_000);
       if (limited) return sendWebJson(response, limited);
 
@@ -131,10 +123,6 @@ const server = createServer(async (request, response) => {
       const crossOrigin = requireSameOrigin(webRequest, localJson);
       if (crossOrigin) return sendWebJson(response, crossOrigin);
 
-      if (!(await hasValidSession(webRequest, localEnv()))) {
-        sendJson(response, 401, { error: "PRIVATE_ACCESS_REQUIRED", message: "Unauthorized access is not permitted." }, securityHeaders());
-        return;
-      }
       const limited = checkRateLimit(webRequest, localJson, "analyze-menu-image", 10, 60_000);
       if (limited) return sendWebJson(response, limited);
 

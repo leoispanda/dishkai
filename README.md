@@ -1,6 +1,6 @@
 # DishKAI
 
-DishKAI is a private food memory and menu assistant for Leo & Cindy. It is not a public service and is not intended for public user uploads.
+DishKAI is a public beta menu understanding assistant, with private internal tools still reserved for Leo & Cindy.
 
 It turns unfamiliar menu names into visual, clickable Dish Knowledge Cards for fast ordering decisions.
 
@@ -66,7 +66,8 @@ Current API endpoints:
 
 Privacy and misuse protections:
 
-- Private access codes are verified server-side only.
+- Public menu recognition is available without private login.
+- Private access codes are verified server-side only for internal tools such as PDC and administrative actions.
 - Sessions use a signed `HttpOnly; Secure; SameSite=Lax` cookie.
 - Private POST APIs reject cross-origin browser requests when an unexpected `Origin` header is present.
 - Expensive/private APIs include best-effort per-IP rate limiting.
@@ -78,6 +79,7 @@ Privacy and misuse protections:
 - AI dish images must be labeled: “AI-generated preview. For inspiration only. Actual dish may look different.”
 - If temporary scan records are introduced later, keep `/api/clear-recent-scans` able to clear them.
 - The local Node dev server serves static files from `public/` only, so source files and local configuration are not exposed by static routes.
+- DishKAI currently does not enforce a shared daily public quota; the UI instead explains that AI scans consume Leo's API budget and asks happy users to buy him coffee someday.
 
 For local Wrangler testing, Workers AI may require:
 

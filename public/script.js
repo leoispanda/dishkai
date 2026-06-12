@@ -1,4 +1,4 @@
-const APP_VERSION = "DishKAI v0.2.5-private-beta";
+const APP_VERSION = "DishKAI v0.2.6-public-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
 const UNMATCHED_BACKLOG_KEY = "dishkai-unmatched-dish-backlog-v1";
@@ -11,15 +11,15 @@ const translations = {
   en: {
     heroTitle: "Know the dish before you order.",
     heroSubtitle: "Upload a menu photo or paste menu text. DishKAI turns it into a clear dish list you can tap for ingredients, taste, watch-outs, and ordering guidance.",
-    privateNotice: "DishKAI is a private food memory and menu assistant for Leo & Cindy. It is not a public service.", privateAccessEyebrow: "Private access", privateAccessTitle: "Leo & Cindy only.", unauthorizedNotice: "Unauthorized access is not permitted.", privateAccessLabel: "Private access code", privateAccessPlaceholder: "Enter private access code", unlockPrivate: "Unlock private tools", privateUnlocked: "Private access unlocked.", privateLocked: "Private access is locked.", privateDenied: "Unauthorized access is not permitted.", clearRecentScans: "Clear recent scans", clearScansDone: "Recent scans cleared.", privateLogout: "Lock",
+    privateNotice: "DishKAI menu recognition is open to try. Each AI scan costs Leo a small API fee; if it helps, buy him a coffee someday.", privateAccessEyebrow: "Private tools", privateAccessTitle: "Leo & Cindy internal tools.", unauthorizedNotice: "Menu recognition is public. PDC and internal actions stay private.", privateAccessLabel: "Private access code", privateAccessPlaceholder: "Enter private access code", unlockPrivate: "Unlock private tools", privateUnlocked: "Private tools unlocked.", privateLocked: "Private tools are locked. Menu recognition is open.", privateDenied: "Private tools are locked.", clearRecentScans: "Clear recent scans", clearScansDone: "Recent scans cleared.", privateLogout: "Lock",
     textMode: "Paste menu text", imageMode: "Upload menu image", menuTextLabel: "Paste or type menu text", menuTextPlaceholder: "Carbonara\nPad Thai\nChef Special Pasta", menuImageLabel: "Upload menu image", imageHelper: "If image analysis is unavailable, paste the menu text instead.", uploadWarning: "Please do not upload images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.",
     outputLanguage: "Output language", generate: "Generate menu list", loading: "Analyzing menu...", compressionStatus: "Compressed {from} to {to}. Analyzing menu...", noItems: "No menu items were found. Please paste clearer menu text.", imageUnavailable: "Image analysis is not available yet. Please paste menu text instead.",
     menuListEyebrow: "Menu list", menuListTitle: "Tap a dish to understand it.", emptyCard: "Tap a menu item to open its Dish Knowledge Card.",
     footerText: "Fast menu understanding for ordering decisions.",
-    footerLegal: "Private experimental reference. Verify critical food information with the restaurant.",
+    footerLegal: "Public beta reference. Verify critical food information with the restaurant.",
     legalEyebrow: "Important disclaimer",
-    legalTitle: "Use DishKAI as a private, experimental reference only.",
-    legalPrivate: "DishKAI is a private prototype for limited personal testing. It is not a public, professional, medical, nutritional, allergy, legal, or restaurant advisory service.",
+    legalTitle: "Use DishKAI as an experimental menu reference only.",
+    legalPrivate: "DishKAI is a public beta menu helper. It is not a professional, medical, nutritional, allergy, legal, or restaurant advisory service.",
     legalAccuracy: "Dish names, ingredients, allergens, dietary flags, translations, images, AI estimates, and ordering advice may be incomplete, outdated, mistranslated, or wrong.",
     legalAllergy: "Do not rely on DishKAI for allergies, pregnancy, medical conditions, religious restrictions, food safety, alcohol, raw food, or other high-risk decisions. Ask the restaurant directly.",
     legalPrivacy: "Do not upload images containing faces, payment details, addresses, phone numbers, private conversations, or other personal/sensitive information unless you have permission and accept the risk.",
@@ -32,15 +32,15 @@ const translations = {
   zh: {
     heroTitle: "点餐前，先看懂这道菜。",
     heroSubtitle: "上传菜单照片或粘贴菜单文字。DishKAI 会生成一份清晰菜品列表，点击即可查看成分、味道、注意事项和点餐建议。",
-    privateNotice: "DishKAI is a private food memory and menu assistant for Leo & Cindy. It is not a public service.", privateAccessEyebrow: "私有访问", privateAccessTitle: "仅 Leo 和 Cindy 使用。", unauthorizedNotice: "Unauthorized access is not permitted.", privateAccessLabel: "私有访问码", privateAccessPlaceholder: "输入私有访问码", unlockPrivate: "解锁私有工具", privateUnlocked: "私有访问已解锁。", privateLocked: "私有访问已锁定。", privateDenied: "Unauthorized access is not permitted.", clearRecentScans: "清除最近扫描", clearScansDone: "最近扫描已清除。", privateLogout: "锁定",
+    privateNotice: "DishKAI 菜单识别先开放给大家试用。每次 AI 识别都会消耗 Leo 一点 API 费用；如果它帮到你，以后请 Leo 喝杯咖啡就好。", privateAccessEyebrow: "私有工具", privateAccessTitle: "Leo 和 Cindy 的内部工具。", unauthorizedNotice: "菜单识别已公开开放。PDC 和内部操作仍然保持私有。", privateAccessLabel: "私有访问码", privateAccessPlaceholder: "输入私有访问码", unlockPrivate: "解锁私有工具", privateUnlocked: "私有工具已解锁。", privateLocked: "私有工具已锁定。菜单识别已开放。", privateDenied: "私有工具已锁定。", clearRecentScans: "清除最近扫描", clearScansDone: "最近扫描已清除。", privateLogout: "锁定",
     textMode: "粘贴菜单文字", imageMode: "上传菜单图片", menuTextLabel: "粘贴或输入菜单文字", menuTextPlaceholder: "Carbonara\nPad Thai\nChef Special Pasta", menuImageLabel: "上传菜单图片", imageHelper: "如果图片分析暂不可用，请改用粘贴菜单文字。", uploadWarning: "Please do not upload images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.",
     outputLanguage: "输出语言", generate: "生成菜单列表", loading: "正在分析菜单...", compressionStatus: "已将图片从 {from} 压缩到 {to}，正在分析菜单...", noItems: "没有找到菜单项。请粘贴更清晰的菜单文字。", imageUnavailable: "图片分析暂不可用。请粘贴菜单文字。",
     menuListEyebrow: "菜单列表", menuListTitle: "点击一道菜，快速看懂它。", emptyCard: "点击菜单项以打开菜品知识卡。",
     footerText: "为点餐决策而生的快速菜单理解工具。",
-    footerLegal: "私有实验参考工具。关键饮食信息请直接向餐厅确认。",
+    footerLegal: "公开 beta 参考工具。关键饮食信息请直接向餐厅确认。",
     legalEyebrow: "重要免责声明",
-    legalTitle: "DishKAI 仅作为私有、实验性的参考工具使用。",
-    legalPrivate: "DishKAI 是用于有限个人测试的私有原型，不是公开服务，也不是专业、医疗、营养、过敏、法律或餐厅顾问服务。",
+    legalTitle: "DishKAI 仅作为实验性的菜单参考工具使用。",
+    legalPrivate: "DishKAI 是公开 beta 菜单辅助工具，不是专业、医疗、营养、过敏、法律或餐厅顾问服务。",
     legalAccuracy: "菜名、成分、过敏原、饮食标签、翻译、图片、AI 估算和点餐建议都可能不完整、过时、误译或错误。",
     legalAllergy: "不要把 DishKAI 用于过敏、怀孕、疾病、宗教饮食限制、食品安全、酒精、生食或其他高风险决策。请直接向餐厅确认。",
     legalPrivacy: "请勿上传包含人脸、支付信息、地址、电话号码、私人对话或其他个人/敏感信息的图片，除非你有权限并愿意自行承担风险。",
@@ -53,15 +53,15 @@ const translations = {
   nl: {
     heroTitle: "Ken het gerecht voordat je bestelt.",
     heroSubtitle: "Upload een menufoto of plak menutekst. DishKAI maakt er een heldere gerechtenlijst van die je kunt aantikken voor ingredienten, smaak, aandachtspunten en besteladvies.",
-    privateNotice: "DishKAI is a private food memory and menu assistant for Leo & Cindy. It is not a public service.", privateAccessEyebrow: "Private toegang", privateAccessTitle: "Alleen Leo & Cindy.", unauthorizedNotice: "Unauthorized access is not permitted.", privateAccessLabel: "Private toegangscode", privateAccessPlaceholder: "Voer private toegangscode in", unlockPrivate: "Ontgrendel private tools", privateUnlocked: "Private toegang ontgrendeld.", privateLocked: "Private toegang is vergrendeld.", privateDenied: "Unauthorized access is not permitted.", clearRecentScans: "Wis recente scans", clearScansDone: "Recente scans gewist.", privateLogout: "Vergrendel",
+    privateNotice: "DishKAI-menuherkenning is open om te proberen. Elke AI-scan kost Leo een kleine API-fee; als het helpt, trakteer hem ooit op koffie.", privateAccessEyebrow: "Private tools", privateAccessTitle: "Interne tools voor Leo & Cindy.", unauthorizedNotice: "Menuherkenning is publiek. PDC en interne acties blijven privaat.", privateAccessLabel: "Private toegangscode", privateAccessPlaceholder: "Voer private toegangscode in", unlockPrivate: "Ontgrendel private tools", privateUnlocked: "Private tools ontgrendeld.", privateLocked: "Private tools zijn vergrendeld. Menuherkenning is open.", privateDenied: "Private tools zijn vergrendeld.", clearRecentScans: "Wis recente scans", clearScansDone: "Recente scans gewist.", privateLogout: "Vergrendel",
     textMode: "Menutekst plakken", imageMode: "Menufoto uploaden", menuTextLabel: "Plak of typ menutekst", menuTextPlaceholder: "Carbonara\nPad Thai\nChef Special Pasta", menuImageLabel: "Menufoto uploaden", imageHelper: "Als beeldanalyse niet beschikbaar is, plak dan de menutekst.", uploadWarning: "Please do not upload images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.",
     outputLanguage: "Uitvoertaal", generate: "Genereer menulijst", loading: "Menu analyseren...", compressionStatus: "Afbeelding verkleind van {from} naar {to}. Menu analyseren...", noItems: "Geen menu-items gevonden. Plak duidelijkere menutekst.", imageUnavailable: "Beeldanalyse is nog niet beschikbaar. Plak menutekst.",
     menuListEyebrow: "Menulijst", menuListTitle: "Tik op een gerecht om het te begrijpen.", emptyCard: "Tik op een menu-item om de Dish Knowledge Card te openen.",
     footerText: "Snelle menubegrip voor bestelbeslissingen.",
-    footerLegal: "Private experimentele referentie. Controleer kritieke voedselinformatie bij het restaurant.",
+    footerLegal: "Publieke beta-referentie. Controleer kritieke voedselinformatie bij het restaurant.",
     legalEyebrow: "Belangrijke disclaimer",
-    legalTitle: "Gebruik DishKAI alleen als private, experimentele referentie.",
-    legalPrivate: "DishKAI is een privaat prototype voor beperkte persoonlijke tests. Het is geen publieke, professionele, medische, voedingskundige, allergie-, juridische of restaurantadviesdienst.",
+    legalTitle: "Gebruik DishKAI alleen als experimentele menureferentie.",
+    legalPrivate: "DishKAI is een publieke beta-menuhelper. Het is geen professionele, medische, voedingskundige, allergie-, juridische of restaurantadviesdienst.",
     legalAccuracy: "Gerechtnamen, ingredienten, allergenen, dieetlabels, vertalingen, afbeeldingen, AI-schattingen en besteladvies kunnen onvolledig, verouderd, verkeerd vertaald of onjuist zijn.",
     legalAllergy: "Vertrouw niet op DishKAI voor allergieen, zwangerschap, medische aandoeningen, religieuze dieetregels, voedselveiligheid, alcohol, rauw eten of andere risicovolle beslissingen. Vraag het restaurant rechtstreeks.",
     legalPrivacy: "Upload geen afbeeldingen met gezichten, betaalgegevens, adressen, telefoonnummers, privegesprekken of andere persoonlijke/gevoelige informatie tenzij je toestemming hebt en het risico accepteert.",
@@ -173,14 +173,10 @@ function setPrivateAccess(granted) {
     element.hidden = !privateAccessGranted;
   });
   renderUnmatchedBacklog();
-  document.querySelectorAll("#menuForm input, #menuForm textarea, #menuForm select, #menuForm button").forEach((element) => {
-    element.disabled = !privateAccessGranted;
-  });
   document.querySelectorAll("#pdcForm input, #pdcForm textarea, #pdcForm select, #pdcForm button, #pdcInterventionForm textarea, #pdcInterventionForm button").forEach((element) => {
     element.disabled = !privateAccessGranted;
   });
-  if (!privateAccessGranted) setStatus(t("privateDenied"), "error");
-  else setStatus("");
+  setStatus("");
   updateLegalGate();
   if (wasGranted && !privateAccessGranted) clearPrivateLocalData();
 }
@@ -192,7 +188,7 @@ function legalAccepted() {
 function updateLegalGate() {
   const accepted = legalAccepted();
   localStorage.setItem(LEGAL_ACCEPTED_KEY, accepted ? "true" : "false");
-  if ($("#generateButton")) $("#generateButton").disabled = !privateAccessGranted || !accepted;
+  if ($("#generateButton")) $("#generateButton").disabled = !accepted;
 }
 
 function requireLegalAcceptance() {
@@ -290,18 +286,10 @@ async function logoutPrivateAccess() {
 function clearPrivateLocalData() {
   localStorage.removeItem("dishkai-pdc-state");
   pdcState = { rounds: [] };
-  latestResult = null;
   renderPdcRounds();
-  resetKnowledgeCard();
-  renderVisualMenu([]);
-  $("#menuSummary").textContent = "";
 }
 
 async function analyzeText() {
-  if (!privateAccessGranted) {
-    setStatus(t("privateDenied"), "error");
-    return;
-  }
   if (!requireLegalAcceptance()) return;
   const menuText = $("#menuText").value.trim();
   if (!menuText) {
@@ -331,10 +319,6 @@ async function analyzeText() {
 }
 
 async function analyzeImage() {
-  if (!privateAccessGranted) {
-    setStatus(t("privateDenied"), "error");
-    return;
-  }
   if (!requireLegalAcceptance()) return;
   const image = $("#menuImage").files[0];
   if (!image) {
@@ -464,7 +448,7 @@ function renderUnmatchedBacklog() {
   const panel = $("#unmatchedBacklogPanel");
   if (!panel) return;
   const items = loadUnmatchedBacklog();
-  const shouldShow = privateAccessGranted && items.length > 0;
+  const shouldShow = items.length > 0;
   panel.hidden = !shouldShow;
   if (!shouldShow) return;
 
