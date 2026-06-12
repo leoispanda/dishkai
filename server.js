@@ -1,7 +1,7 @@
 import { createServer } from "node:http";
 import { readFile } from "node:fs/promises";
 import { extname, join, normalize, resolve, sep } from "node:path";
-import { analyzeMenuImage, analyzeMenuText } from "./functions/_shared/menu-analysis.js";
+import { MAX_MENU_IMAGE_BYTES, analyzeMenuImage, analyzeMenuText } from "./functions/_shared/menu-analysis.js";
 import { runPdcRound } from "./functions/_shared/pdc-engine.js";
 import {
   checkRateLimit,
@@ -138,8 +138,14 @@ const server = createServer(async (request, response) => {
       const limited = checkRateLimit(webRequest, localJson, "analyze-menu-image", 10, 60_000);
       if (limited) return sendWebJson(response, limited);
 
-      const result = await analyzeMenuImage();
-      sendJson(response, 501, result, securityHeaders());
+      const formData = await readMultipartFormData(request, url, MAX_MENU_IMAGE_BYTES + 2048);
+      const result = await analyzeMenuImage({
+        image: formData.get("image"),
+        sourceLanguage: formData.get("sourceLanguage") || "auto",
+        targetLanguage: formData.get("targetLanguage") || "en",
+        env: localEnv(),
+      });
+      sendJson(response, result.ok ? 200 : result.statusCode || 400, result, securityHeaders());
       return;
     }
 
@@ -274,6 +280,34 @@ async function readJson(request, maxBytes = JSON_BODY_LIMIT_BYTES) {
   }
   if (!chunks.length) return {};
   return JSON.parse(Buffer.concat(chunks).toString("utf8"));
+}
+
+async function readMultipartFormData(request, url, maxBytes) {
+  const contentLength = Number(request.headers["content-length"] || 0);
+  if (Number.isFinite(contentLength) && contentLength > maxBytes) {
+    const error = new Error("Request body is too large.");
+    error.code = "REQUEST_BODY_TOO_LARGE";
+    throw error;
+  }
+
+  const chunks = [];
+  let totalBytes = 0;
+  for await (const chunk of request) {
+    totalBytes += chunk.length;
+    if (totalBytes > maxBytes) {
+      const error = new Error("Request body is too large.");
+      error.code = "REQUEST_BODY_TOO_LARGE";
+      throw error;
+    }
+    chunks.push(chunk);
+  }
+
+  const webRequest = new Request(url.toString(), {
+    method: request.method,
+    headers: new Headers(request.headers),
+    body: chunks.length ? Buffer.concat(chunks) : undefined,
+  });
+  return webRequest.formData();
 }
 
 server.listen(port, host, () => {

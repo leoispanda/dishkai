@@ -2,11 +2,12 @@ import { metadata } from "../../data/internal/index.js";
 
 export const TEXT_MODEL = "@cf/meta/llama-3.1-8b-instruct";
 export const DEFAULT_OPENAI_MODEL = "gpt-5.4-mini";
-export const VISION_MODEL = "";
 
 const MAX_MENU_TEXT_LENGTH = 12000;
+export const MAX_MENU_IMAGE_BYTES = 8 * 1024 * 1024;
 const AI_FALLBACK_MAX_ITEMS = 30;
 const OPENAI_CHAT_COMPLETIONS_URL = "https://api.openai.com/v1/chat/completions";
+const SUPPORTED_IMAGE_TYPES = new Set(["image/jpeg", "image/png", "image/webp", "image/gif"]);
 
 export const iconTags = {
   "signature-dish": { icon: "⭐", en: "Signature", zh: "代表菜", nl: "Signatuur" },
@@ -135,6 +136,10 @@ function openAiModel(env) {
   return String(env?.DISHKAI_AI_MODEL || env?.OPENAI_MODEL || DEFAULT_OPENAI_MODEL).trim() || DEFAULT_OPENAI_MODEL;
 }
 
+function openAiVisionModel(env) {
+  return String(env?.DISHKAI_AI_VISION_MODEL || env?.DISHKAI_AI_MODEL || env?.OPENAI_MODEL || DEFAULT_OPENAI_MODEL).trim() || DEFAULT_OPENAI_MODEL;
+}
+
 function hasOpenAiApiKey(env) {
   return Boolean(String(env?.DISHKAI_AI_API_KEY || "").trim());
 }
@@ -161,6 +166,39 @@ async function runOpenAiJson(prompt, env, { maxTokens = 1200, temperature = 0.1 
   if (!response.ok) {
     const errorText = await response.text().catch(() => "");
     throw new Error(`OpenAI request failed: ${response.status} ${errorText.slice(0, 220)}`);
+  }
+
+  return response.json();
+}
+
+async function runOpenAiVisionJson(prompt, imageDataUrl, env, { maxTokens = 1400, temperature = 0.1 } = {}) {
+  const response = await fetch(OPENAI_CHAT_COMPLETIONS_URL, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${env.DISHKAI_AI_API_KEY}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      model: openAiVisionModel(env),
+      messages: [
+        { role: "system", content: "Return valid JSON only. Do not include markdown." },
+        {
+          role: "user",
+          content: [
+            { type: "text", text: prompt },
+            { type: "image_url", image_url: { url: imageDataUrl } },
+          ],
+        },
+      ],
+      response_format: { type: "json_object" },
+      max_tokens: maxTokens,
+      temperature,
+    }),
+  });
+
+  if (!response.ok) {
+    const errorText = await response.text().catch(() => "");
+    throw new Error(`OpenAI vision request failed: ${response.status} ${errorText.slice(0, 220)}`);
   }
 
   return response.json();
@@ -235,6 +273,96 @@ async function extractItems(menuText, sourceLanguage, targetLanguage, env) {
     console.error("DishKAI Workers AI text extraction failed, using local fallback:", error);
     return { items: fallbackItems, extractionSource: "local-fallback" };
   }
+}
+
+function buildImageExtractionPrompt(sourceLanguage, targetLanguage) {
+  return `You are DishKAI's menu photo OCR and item extraction step.
+Return valid JSON only. No markdown.
+Read the visible menu text from the image and extract likely dish names.
+Preserve the visible menu order. Do not invent dishes. Do not add house-special claims unless the image says so.
+Ignore decorative text, addresses, phone numbers, opening hours, allergen legends, and prices unless needed to distinguish a dish.
+Use this exact shape:
+{
+  "menuText": "one dish or menu line per line, preserving the image order",
+  "items": [
+    {
+      "orderIndex": 1,
+      "originalName": "visible dish name as written",
+      "cleanName": "normalized dish name without price",
+      "detectedLanguage": "en",
+      "possibleCategory": "noodle",
+      "notes": ""
+    }
+  ]
+}
+sourceLanguage: ${sourceLanguage}
+targetLanguage: ${targetLanguage}`;
+}
+
+async function extractItemsFromImage(image, sourceLanguage, targetLanguage, env) {
+  if (!hasOpenAiApiKey(env)) {
+    return {
+      ok: false,
+      statusCode: 503,
+      error: "IMAGE_AI_NOT_CONFIGURED",
+      message: "Menu photo reading needs DISHKAI_AI_API_KEY configured on the backend.",
+    };
+  }
+
+  const imageDataUrl = await imageToDataUrl(image);
+  const aiResult = await runOpenAiVisionJson(
+    buildImageExtractionPrompt(sourceLanguage, targetLanguage),
+    imageDataUrl,
+    env,
+    { maxTokens: 1400, temperature: 0.1 },
+  );
+  const parsed = extractJsonObject(aiResult);
+  const fallbackItems = splitMenuText(parsed.menuText || "");
+  return {
+    ok: true,
+    items: cleanExtractedItems(parsed, fallbackItems),
+    menuText: jsonSafeText(parsed.menuText || fallbackItems.map((item) => item.originalName).join("\n"), MAX_MENU_TEXT_LENGTH),
+    extractionSource: "openai-vision",
+    model: openAiVisionModel(env),
+  };
+}
+
+async function imageToDataUrl(image) {
+  if (!image || typeof image.arrayBuffer !== "function") {
+    const error = new Error("No image file was uploaded.");
+    error.code = "IMAGE_REQUIRED";
+    throw error;
+  }
+
+  const type = String(image.type || "image/jpeg").toLowerCase();
+  if (!SUPPORTED_IMAGE_TYPES.has(type)) {
+    const error = new Error("Unsupported image type. Please upload a JPEG, PNG, WebP, or GIF menu photo.");
+    error.code = "UNSUPPORTED_IMAGE_TYPE";
+    throw error;
+  }
+
+  const size = Number(image.size || 0);
+  if (Number.isFinite(size) && size > MAX_MENU_IMAGE_BYTES) {
+    const error = new Error("Image is too large. Please upload a smaller menu photo.");
+    error.code = "IMAGE_TOO_LARGE";
+    throw error;
+  }
+
+  const buffer = await image.arrayBuffer();
+  if (buffer.byteLength > MAX_MENU_IMAGE_BYTES) {
+    const error = new Error("Image is too large. Please upload a smaller menu photo.");
+    error.code = "IMAGE_TOO_LARGE";
+    throw error;
+  }
+
+  return `data:${type};base64,${base64EncodeBytes(new Uint8Array(buffer))}`;
+}
+
+function base64EncodeBytes(bytes) {
+  if (typeof Buffer !== "undefined") return Buffer.from(bytes).toString("base64");
+  let binary = "";
+  bytes.forEach((byte) => { binary += String.fromCharCode(byte); });
+  return btoa(binary);
 }
 
 function findAliasMatch(cleanName) {
@@ -578,6 +706,15 @@ export async function analyzeMenuText({ menuText, sourceLanguage = "auto", targe
   }
 
   const extraction = await extractItems(cleanMenuText, sourceLanguage, targetLanguage, env);
+  return buildMenuAnalysis({
+    sourceLanguage,
+    targetLanguage,
+    extraction,
+    env,
+  });
+}
+
+async function buildMenuAnalysis({ sourceLanguage, targetLanguage, extraction, env }) {
   const matchedItems = extraction.items.map((item) => {
     const match = findAliasMatch(item.cleanName || item.originalName);
     const dish = match.alias ? dishById.get(match.alias.dishId) : null;
@@ -634,14 +771,68 @@ export async function analyzeMenuText({ menuText, sourceLanguage = "auto", targe
   };
 }
 
-export async function analyzeMenuImage() {
-  // TODO: Wire this to a Workers AI vision/OCR model when the target Cloudflare account supports one.
-  return {
-    ok: false,
-    error: "Image analysis is not available yet. Please paste menu text instead.",
-    privacy: {
-      uploadedImagesStored: false,
-      note: "Uploaded menu images should be processed temporarily and not permanently stored by default.",
-    },
-  };
+export async function analyzeMenuImage({ image, sourceLanguage = "auto", targetLanguage = "en", env } = {}) {
+  try {
+    const extraction = await extractItemsFromImage(image, sourceLanguage, targetLanguage, env);
+    if (!extraction.ok) {
+      return {
+        ok: false,
+        statusCode: extraction.statusCode || 503,
+        error: extraction.error,
+        message: extraction.message,
+        sourceLanguage,
+        targetLanguage,
+        items: [],
+        unmatchedItems: [],
+        privacy: {
+          uploadedImagesStored: false,
+          note: "Uploaded menu images are processed temporarily and are not permanently stored by default.",
+        },
+      };
+    }
+
+    if (!extraction.items.length) {
+      return {
+        ok: false,
+        statusCode: 400,
+        error: "NO_MENU_ITEMS_FOUND",
+        message: "No menu items were found in the image. Please try a clearer photo or paste menu text.",
+        sourceLanguage,
+        targetLanguage,
+        items: [],
+        unmatchedItems: [],
+        privacy: {
+          uploadedImagesStored: false,
+          note: "Uploaded menu images are processed temporarily and are not permanently stored by default.",
+        },
+      };
+    }
+
+    return buildMenuAnalysis({
+      sourceLanguage,
+      targetLanguage,
+      extraction,
+      env,
+    });
+  } catch (error) {
+    const statusByCode = {
+      IMAGE_REQUIRED: 400,
+      IMAGE_TOO_LARGE: 413,
+      UNSUPPORTED_IMAGE_TYPE: 415,
+    };
+    return {
+      ok: false,
+      statusCode: statusByCode[error?.code] || 502,
+      error: error?.code || "IMAGE_ANALYSIS_FAILED",
+      message: error?.message || "Image analysis failed. Please try a clearer photo or paste menu text.",
+      sourceLanguage,
+      targetLanguage,
+      items: [],
+      unmatchedItems: [],
+      privacy: {
+        uploadedImagesStored: false,
+        note: "Uploaded menu images are processed temporarily and are not permanently stored by default.",
+      },
+    };
+  }
 }

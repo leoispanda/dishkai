@@ -17,7 +17,7 @@ The local Node server supports the same starter text-analysis pipeline as the Pa
 - `POST /api/analyze-menu-text`
 - `POST /api/analyze-menu-image`
 
-Text input works with starter metadata. Image analysis returns a graceful fallback until Cloudflare Workers AI vision/OCR support is wired.
+Text input works with starter metadata. Image analysis uses the server-side OpenAI key to read menu photos, then reuses the same verified DishKAI metadata and alias-matching pipeline as pasted text.
 
 
 ## Metadata coverage
@@ -45,6 +45,7 @@ Required Cloudflare secrets:
 Optional Cloudflare variables:
 
 - `DISHKAI_AI_MODEL`: OpenAI model for menu AI. Defaults to `gpt-5.4-mini`. `OPENAI_MODEL` is also accepted as a compatibility alias.
+- `DISHKAI_AI_VISION_MODEL`: optional OpenAI model override for menu photo reading. Defaults to `DISHKAI_AI_MODEL`.
 - `DISHKAI_ENABLE_AI_FALLBACK`: set to `true` only when unmatched menu items should receive temporary, unverified AI estimate cards.
 
 Current API endpoints:

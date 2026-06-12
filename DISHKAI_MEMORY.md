@@ -151,3 +151,5 @@ Codex must still ask before destructive operations, editing secrets, changing Cl
 - Added world restaurant coverage V1: 18 additional cuisines and 216 more verified high-frequency dishes, bringing the internal database to 379 dishes and 1086 aliases. Core metadata remains repo-versioned; R2 is still only for images/uploads, not dish knowledge.
 
 - Security hardening pass: private POST APIs now reject unexpected cross-origin browser requests, JSON API bodies are size-limited before parsing, the local Node server only serves static files from `public/`, logout clears local PDC private discussion cache, dish image paths are allowlisted to `/assets/dishes/`, and `.gitignore` covers common local secret files such as `.env.*` and `.dev.vars`.
+
+- Menu photo upload is now wired to OpenAI vision through `DISHKAI_AI_API_KEY`. `/api/analyze-menu-image` accepts a temporary multipart image upload, validates type/size, asks OpenAI to extract ordered menu items, then reuses the same verified metadata and alias matching pipeline as pasted text. `DISHKAI_AI_VISION_MODEL` can override the image-reading model; otherwise it follows `DISHKAI_AI_MODEL`.
