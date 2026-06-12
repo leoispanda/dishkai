@@ -1530,6 +1530,8 @@ function greekDish(config) {
     confidenceTag: "verified-greek-depth-v1",
     metadataConfidence: config.metadataConfidence ?? 0.78,
     restaurantVariationLevel: config.restaurantVariationLevel || "medium",
+    imagePath: config.imagePath || `/assets/dishes/main/${config.metadataCode}-${config.id}.webp`,
+    thumbPath: config.thumbPath || `/assets/dishes/thumb/${config.metadataCode}-${config.id}.webp`,
     ...config,
   });
 }
