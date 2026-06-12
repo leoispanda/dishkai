@@ -1,43 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
-  <title id="title">DishKAI cloche logo</title>
-  <desc id="desc">An orange serving cloche with sparkles on a warm glass tile.</desc>
+  <title id="title">DishKAI app icon</title>
+  <desc id="desc">A clean orange serving cloche with two sparkles on a white rounded square.</desc>
   <defs>
-    <linearGradient id="tile" x1="18" y1="12" x2="112" y2="118" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fff2c8"/>
-      <stop offset="0.44" stop-color="#ffd067"/>
-      <stop offset="1" stop-color="#ff7a00"/>
+    <linearGradient id="tile" x1="16" y1="8" x2="112" y2="124" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fffaf1"/>
+      <stop offset="1" stop-color="#fff1dc"/>
     </linearGradient>
-    <linearGradient id="dome" x1="34" y1="40" x2="104" y2="104" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ffdc69"/>
-      <stop offset="0.38" stop-color="#ff9f14"/>
-      <stop offset="1" stop-color="#e65300"/>
+    <linearGradient id="orange" x1="35" y1="35" x2="98" y2="98" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f59a24"/>
+      <stop offset="1" stop-color="#d94d00"/>
     </linearGradient>
-    <linearGradient id="rim" x1="25" y1="82" x2="111" y2="103" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ff9d14"/>
-      <stop offset="1" stop-color="#e64b00"/>
+    <linearGradient id="rim" x1="25" y1="86" x2="109" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ef7c11"/>
+      <stop offset="1" stop-color="#ca4100"/>
     </linearGradient>
-    <radialGradient id="glow" cx="59" cy="58" r="62" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fff0aa" stop-opacity="0.86"/>
-      <stop offset="0.55" stop-color="#ff9c18" stop-opacity="0.45"/>
-      <stop offset="1" stop-color="#b95100" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="150%" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#9d3e00" flood-opacity="0.28"/>
+    <filter id="shadow" x="-18%" y="-18%" width="136%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#b94a00" flood-opacity="0.18"/>
     </filter>
   </defs>
-  <rect width="128" height="128" rx="30" fill="#fff7dc"/>
-  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#tile)" opacity="0.28"/>
-  <circle cx="64" cy="63" r="55" fill="url(#glow)"/>
-  <g filter="url(#softShadow)">
-    <path d="M34 78.7C37.1 52.1 55 37 75 39.7c18 2.4 30.4 17.4 34 40.9L34 78.7Z" fill="url(#dome)"/>
-    <path d="M39.1 73.1C43 53.8 57.2 43.6 72.6 45.8c13.9 2 23 12.1 28.2 28.8L39.1 73.1Z" fill="#ffba24" opacity="0.48"/>
-    <path d="M73.2 40.2c-1.3-7.2 2.6-11.6 7.7-11 5.2.5 8.3 5.7 7.1 12.5-4.7-1.3-9.8-1.8-14.8-1.5Z" fill="#ff7a00"/>
-    <ellipse cx="81.2" cy="34.1" rx="7" ry="4.1" fill="#ffe7ad" opacity="0.82" transform="rotate(22 81.2 34.1)"/>
-    <path d="M27.4 91.2c14.1-8.7 66.1-13.7 87.7-7.8 3.1.9 3.5 4.7.7 6.5-15.9 10.5-69.4 15.4-89 7.8-2.9-1.1-2.4-4.6.6-6.5Z" fill="url(#rim)"/>
-    <path d="M32.4 89.5c20.7-7.4 57.7-9.1 78.1-4" fill="none" stroke="#ffc54d" stroke-width="2" stroke-linecap="round" opacity="0.52"/>
-    <path d="M80.5 42.9c13.5 5.2 20 16.2 23.8 30.7l-14.4-.4c-4-14.2-10.2-23.1-22.7-29.8 4.5-.8 8.9-.8 13.3-.5Z" fill="#fff8df" opacity="0.88"/>
+  <rect x="6" y="6" width="116" height="116" rx="29" fill="url(#tile)"/>
+  <rect x="6.5" y="6.5" width="115" height="115" rx="28.5" fill="none" stroke="#ffffff" stroke-opacity="0.78"/>
+  <g filter="url(#shadow)">
+    <path d="M34.2 78.8c2.7-24.7 19.7-39.1 39.4-36.8 17.1 2 29.4 15.8 32.7 38.4L34.2 78.8Z" fill="url(#orange)"/>
+    <path d="M39.9 73.4C44.6 56 57.7 47.1 72 48.7c12.7 1.4 21.2 10.1 26.3 25.2L39.9 73.4Z" fill="#ffbd35" opacity="0.34"/>
+    <path d="M72.2 42.1c-.9-7.1 3-11.4 8.3-10.8 5.2.6 8.3 5.6 7 12.2-4.8-1.2-10.3-1.7-15.3-1.4Z" fill="#e85b00"/>
+    <ellipse cx="80.6" cy="36.1" rx="6.2" ry="3.5" fill="#ffe2a2" opacity="0.82" transform="rotate(22 80.6 36.1)"/>
+    <path d="M25.7 91.9c14.1-8.1 65.7-12.5 87.8-6.5 2.8.8 3.1 4.2.6 5.9-15.9 9.8-69.5 14.4-88.9 7.4-2.8-1-2.4-5 .5-6.8Z" fill="url(#rim)"/>
+    <path d="M33.6 90.4c20.7-6.6 54.7-7.7 75.3-3.3" fill="none" stroke="#ffc457" stroke-width="2.4" stroke-linecap="round" opacity="0.52"/>
+    <path d="M79.7 45.1c11.9 4.9 18.2 14.6 22 29.1l-12.2-.3c-3.6-12.2-9.2-20.2-19.9-26.3 3.4-1.3 6.8-2.1 10.1-2.5Z" fill="#fff5da" opacity="0.95"/>
   </g>
-  <path d="M101.8 28.4c2.3 8.4 5.6 11.7 14 14-8.4 2.3-11.7 5.6-14 14-2.3-8.4-5.6-11.7-14-14 8.4-2.3 11.7-5.6 14-14Z" fill="#fff2ae" opacity="0.82"/>
-  <path d="M75.6 57.4c1.5 5.4 3.6 7.5 9 9-5.4 1.5-7.5 3.6-9 9-1.5-5.4-3.6-7.5-9-9 5.4-1.5 7.5-3.6 9-9Z" fill="#fff8df"/>
-  <path d="M111.2 57.8c1.2 4.4 3 6.2 7.4 7.4-4.4 1.2-6.2 3-7.4 7.4-1.2-4.4-3-6.2-7.4-7.4 4.4-1.2 6.2-3 7.4-7.4Z" fill="#ffe27d" opacity="0.9"/>
+  <path d="M36.2 23.7c1.6 5.7 3.9 8 9.6 9.6-5.7 1.6-8 3.9-9.6 9.6-1.6-5.7-3.9-8-9.6-9.6 5.7-1.6 8-3.9 9.6-9.6Z" fill="#d95a12"/>
+  <path d="M67 24.6c1.1 4.2 2.8 5.9 7 7-4.2 1.1-5.9 2.8-7 7-1.1-4.2-2.8-5.9-7-7 4.2-1.1 5.9-2.8 7-7Z" fill="#e99537"/>
 </svg>

@@ -197,3 +197,5 @@ Codex must still ask before destructive operations, editing secrets, changing Cl
 - DishKAI v0.2.15 refined the primary button away from the saturated green gradient. Primary actions now use a restrained dark glass treatment with subtle highlight, fine border, and softer shadow to better match the premium glass UI.
 
 - DishKAI v0.2.16 added the orange cloche sparkle logo as a project SVG asset at `/assets/brand/dishkai-cloche-logo.svg`. The topbar brand mark and favicon now use this logo, with root/public asset copies kept in sync.
+
+- DishKAI v0.2.17 changed the brand lockup to match the shared reference format: rounded white app icon plus `Dish` wordmark with orange `KAI`. The cloche SVG was simplified for a cleaner app-icon look.

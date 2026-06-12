@@ -52,24 +52,35 @@ button { cursor: pointer; }
 }
 .topbar.compact { justify-content: space-between; }
 
-.brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 820; letter-spacing: 0; }
+.brand { display: inline-flex; align-items: center; gap: 12px; font-weight: 820; letter-spacing: 0; }
 .brand-mark {
   display: grid;
   place-items: center;
-  width: 38px;
-  height: 38px;
-  border-radius: 13px;
-  background: rgba(255, 245, 215, 0.64);
-  border: 1px solid rgba(255, 153, 18, 0.24);
+  width: 42px;
+  height: 42px;
+  border-radius: 15px;
+  background: rgba(255, 250, 242, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.76);
   box-shadow:
-    0 1px 0 rgba(255, 255, 255, 0.72) inset,
-    0 12px 24px rgba(203, 89, 0, 0.16);
+    0 1px 0 rgba(255, 255, 255, 0.88) inset,
+    0 12px 24px rgba(203, 89, 0, 0.13);
   overflow: hidden;
 }
 .brand-mark img {
   display: block;
   width: 100%;
   height: 100%;
+}
+.brand-wordmark {
+  display: inline-flex;
+  align-items: baseline;
+  color: var(--ink);
+  font-size: 20px;
+  font-weight: 860;
+  line-height: 1;
+}
+.brand-wordmark span:last-child {
+  color: #e57d22;
 }
 .app-meta {
   display: inline-flex;
