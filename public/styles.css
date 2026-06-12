@@ -50,6 +50,22 @@ button { cursor: pointer; }
   background: var(--ink);
   color: var(--paper);
 }
+.app-meta {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+.app-meta span {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--white);
+  padding: 6px 9px;
+}
 
 .nav { display: flex; gap: 16px; margin-left: auto; color: var(--muted); font-size: 14px; }
 .nav a:hover { color: var(--ink); }
@@ -151,9 +167,51 @@ select, input { min-height: 46px; }
   color: var(--danger);
   font-weight: 700;
 }
+.legal-panel {
+  display: grid;
+  gap: 13px;
+  border: 1px solid #e3c7be;
+  border-left: 5px solid var(--danger);
+  border-radius: 8px;
+  background: #fff8f4;
+  padding: 15px;
+}
+.legal-panel h2 {
+  font-size: 21px;
+  line-height: 1.18;
+}
+.legal-panel ul {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding-left: 20px;
+  color: var(--ink);
+}
+.legal-panel li {
+  line-height: 1.48;
+}
+.legal-acceptance {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  border-top: 1px solid #e8d3ca;
+  padding-top: 12px;
+  color: var(--ink);
+  font-weight: 850;
+}
+.legal-acceptance input {
+  width: auto;
+  min-height: auto;
+  margin-top: 4px;
+  transform: scale(1.15);
+}
 
 .button { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 18px; border-radius: 999px; border: 1px solid var(--line); }
 .button.primary { background: var(--ink); color: var(--white); border-color: var(--ink); }
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.48;
+}
 .internal-button {
   margin-left: auto;
   border: 1px solid var(--line);
@@ -340,7 +398,7 @@ select, input { min-height: 46px; }
   color: var(--muted);
 }
 
-.footer { display: flex; justify-content: space-between; gap: 14px; padding: 28px clamp(18px, 5vw, 70px); border-top: 1px solid var(--line); color: var(--muted); }
+.footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 14px; padding: 28px clamp(18px, 5vw, 70px); border-top: 1px solid var(--line); color: var(--muted); }
 .footer.compact { font-size: 14px; }
 .empty-state { color: var(--muted); }
 
@@ -646,6 +704,7 @@ select, input { min-height: 46px; }
 
 @media (max-width: 980px) {
   .topbar { align-items: flex-start; flex-wrap: wrap; }
+  .app-meta { order: 2; width: 100%; margin-left: 0; }
   .nav { order: 3; width: 100%; overflow-x: auto; margin-left: 0; padding-bottom: 3px; }
   .lang-toggle { margin-left: auto; }
   .hero, .knowledge-card { grid-template-columns: 1fr; }

@@ -13,6 +13,10 @@
       <span class="brand-mark">D</span>
       <span>DishKAI</span>
     </a>
+    <div class="app-meta" aria-label="Application status">
+      <span id="appVersion">Private beta</span>
+      <span id="visitCount">Visits: 0</span>
+    </div>
     <button id="openPdcButton" class="internal-button" type="button" hidden aria-hidden="true" tabindex="-1">个人 PDC</button>
   </header>
 
@@ -73,6 +77,23 @@ Chef Special Pasta</textarea>
         </label>
 
         <button id="generateButton" class="button primary" type="submit" data-i18n="generate">Generate menu list</button>
+        <section class="legal-panel" aria-label="Legal and safety disclaimer">
+          <div>
+            <p class="eyebrow" data-i18n="legalEyebrow">Important disclaimer</p>
+            <h2 data-i18n="legalTitle">Use DishKAI as a private, experimental reference only.</h2>
+          </div>
+          <ul>
+            <li data-i18n="legalPrivate">DishKAI is a private prototype for limited personal testing. It is not a public, professional, medical, nutritional, allergy, legal, or restaurant advisory service.</li>
+            <li data-i18n="legalAccuracy">Dish names, ingredients, allergens, dietary flags, translations, images, AI estimates, and ordering advice may be incomplete, outdated, mistranslated, or wrong.</li>
+            <li data-i18n="legalAllergy">Do not rely on DishKAI for allergies, pregnancy, medical conditions, religious restrictions, food safety, alcohol, raw food, or other high-risk decisions. Ask the restaurant directly.</li>
+            <li data-i18n="legalPrivacy">Do not upload images containing faces, payment details, addresses, phone numbers, private conversations, or other personal/sensitive information unless you have permission and accept the risk.</li>
+            <li data-i18n="legalResponsibility">You are solely responsible for what you upload and what you choose to order. DishKAI is provided without warranties and the maintainers accept no liability for decisions made from its output.</li>
+          </ul>
+          <label class="legal-acceptance">
+            <input id="legalAccepted" type="checkbox">
+            <span data-i18n="legalAccept">I understand and accept these limits before using DishKAI.</span>
+          </label>
+        </section>
         <p id="statusMessage" class="status" role="status"></p>
       </form>
     </section>
@@ -173,7 +194,9 @@ Chef Special Pasta</textarea>
 
   <footer class="footer compact">
     <span>DishKAI</span>
+    <span id="footerVersion">Private beta</span>
     <span data-i18n="footerText">Fast menu understanding for ordering decisions.</span>
+    <span data-i18n="footerLegal">Private experimental reference. Verify critical food information with the restaurant.</span>
   </footer>
 
   <script src="script.js"></script>

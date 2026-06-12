@@ -1,3 +1,7 @@
+const APP_VERSION = "DishKAI v0.2.1-private-beta";
+const VISIT_COUNT_KEY = "dishkai-local-visit-count";
+const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
+
 const translations = {
   en: {
     heroTitle: "Know the dish before you order.",
@@ -7,6 +11,17 @@ const translations = {
     outputLanguage: "Output language", generate: "Generate menu list", loading: "Analyzing menu...", noItems: "No menu items were found. Please paste clearer menu text.", imageUnavailable: "Image analysis is not available yet. Please paste menu text instead.",
     menuListEyebrow: "Menu list", menuListTitle: "Tap a dish to understand it.", emptyCard: "Tap a menu item to open its Dish Knowledge Card.",
     footerText: "Fast menu understanding for ordering decisions.",
+    footerLegal: "Private experimental reference. Verify critical food information with the restaurant.",
+    legalEyebrow: "Important disclaimer",
+    legalTitle: "Use DishKAI as a private, experimental reference only.",
+    legalPrivate: "DishKAI is a private prototype for limited personal testing. It is not a public, professional, medical, nutritional, allergy, legal, or restaurant advisory service.",
+    legalAccuracy: "Dish names, ingredients, allergens, dietary flags, translations, images, AI estimates, and ordering advice may be incomplete, outdated, mistranslated, or wrong.",
+    legalAllergy: "Do not rely on DishKAI for allergies, pregnancy, medical conditions, religious restrictions, food safety, alcohol, raw food, or other high-risk decisions. Ask the restaurant directly.",
+    legalPrivacy: "Do not upload images containing faces, payment details, addresses, phone numbers, private conversations, or other personal/sensitive information unless you have permission and accept the risk.",
+    legalResponsibility: "You are solely responsible for what you upload and what you choose to order. DishKAI is provided without warranties and the maintainers accept no liability for decisions made from its output.",
+    legalAccept: "I understand and accept these limits before using DishKAI.",
+    legalRequired: "Please accept the disclaimer before using DishKAI.",
+    visitCountLabel: "Local visits",
     matched: "matched", unmatched: "Not in starter database yet", aiEstimated: "AI estimate", tapForDetails: "Tap for details", tapForEstimate: "Tap for note", aiGenerated: "AI-generated estimate. Not yet verified in DishKAI database.", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "Original", familiar: "Familiar", verdict: "Order verdict", description: "What it is", preparation: "How it is usually prepared", composition: "Estimated composition", taste: "Basic taste", flavor: "Distinctive flavor", texture: "Texture", watchOut: "Watch out", variations: "Common variations", disclaimer: "Visual note", summary: "items", unknownNote: "This dish is not in the starter database yet."
   },
   zh: {
@@ -17,6 +32,17 @@ const translations = {
     outputLanguage: "输出语言", generate: "生成菜单列表", loading: "正在分析菜单...", noItems: "没有找到菜单项。请粘贴更清晰的菜单文字。", imageUnavailable: "图片分析暂不可用。请粘贴菜单文字。",
     menuListEyebrow: "菜单列表", menuListTitle: "点击一道菜，快速看懂它。", emptyCard: "点击菜单项以打开菜品知识卡。",
     footerText: "为点餐决策而生的快速菜单理解工具。",
+    footerLegal: "私有实验参考工具。关键饮食信息请直接向餐厅确认。",
+    legalEyebrow: "重要免责声明",
+    legalTitle: "DishKAI 仅作为私有、实验性的参考工具使用。",
+    legalPrivate: "DishKAI 是用于有限个人测试的私有原型，不是公开服务，也不是专业、医疗、营养、过敏、法律或餐厅顾问服务。",
+    legalAccuracy: "菜名、成分、过敏原、饮食标签、翻译、图片、AI 估算和点餐建议都可能不完整、过时、误译或错误。",
+    legalAllergy: "不要把 DishKAI 用于过敏、怀孕、疾病、宗教饮食限制、食品安全、酒精、生食或其他高风险决策。请直接向餐厅确认。",
+    legalPrivacy: "请勿上传包含人脸、支付信息、地址、电话号码、私人对话或其他个人/敏感信息的图片，除非你有权限并愿意自行承担风险。",
+    legalResponsibility: "你需要自行负责上传内容和点餐选择。DishKAI 不提供任何保证，维护者不对基于输出作出的决定承担责任。",
+    legalAccept: "我理解并接受以上限制，然后再使用 DishKAI。",
+    legalRequired: "使用 DishKAI 前请先确认免责声明。",
+    visitCountLabel: "本机访问次数",
     matched: "已匹配", unmatched: "暂未收录", aiEstimated: "AI 估算", tapForDetails: "点击查看详情", tapForEstimate: "点击查看未收录提示", aiGenerated: "AI 估算结果，尚未进入 DishKAI 已验证数据库。", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "原始菜名", familiar: "熟悉名称", verdict: "点餐建议", description: "这是什么", preparation: "常见做法风格", composition: "估算成分", taste: "基础味道", flavor: "特色风味", texture: "口感", watchOut: "注意事项", variations: "常见变体", disclaimer: "图片说明", summary: "项", unknownNote: "这道菜暂时还不在 DishKAI 初始数据库中。"
   },
   nl: {
@@ -27,6 +53,17 @@ const translations = {
     outputLanguage: "Uitvoertaal", generate: "Genereer menulijst", loading: "Menu analyseren...", noItems: "Geen menu-items gevonden. Plak duidelijkere menutekst.", imageUnavailable: "Beeldanalyse is nog niet beschikbaar. Plak menutekst.",
     menuListEyebrow: "Menulijst", menuListTitle: "Tik op een gerecht om het te begrijpen.", emptyCard: "Tik op een menu-item om de Dish Knowledge Card te openen.",
     footerText: "Snelle menubegrip voor bestelbeslissingen.",
+    footerLegal: "Private experimentele referentie. Controleer kritieke voedselinformatie bij het restaurant.",
+    legalEyebrow: "Belangrijke disclaimer",
+    legalTitle: "Gebruik DishKAI alleen als private, experimentele referentie.",
+    legalPrivate: "DishKAI is een privaat prototype voor beperkte persoonlijke tests. Het is geen publieke, professionele, medische, voedingskundige, allergie-, juridische of restaurantadviesdienst.",
+    legalAccuracy: "Gerechtnamen, ingredienten, allergenen, dieetlabels, vertalingen, afbeeldingen, AI-schattingen en besteladvies kunnen onvolledig, verouderd, verkeerd vertaald of onjuist zijn.",
+    legalAllergy: "Vertrouw niet op DishKAI voor allergieen, zwangerschap, medische aandoeningen, religieuze dieetregels, voedselveiligheid, alcohol, rauw eten of andere risicovolle beslissingen. Vraag het restaurant rechtstreeks.",
+    legalPrivacy: "Upload geen afbeeldingen met gezichten, betaalgegevens, adressen, telefoonnummers, privegesprekken of andere persoonlijke/gevoelige informatie tenzij je toestemming hebt en het risico accepteert.",
+    legalResponsibility: "Je bent zelf verantwoordelijk voor wat je uploadt en bestelt. DishKAI wordt zonder garanties aangeboden en de beheerders aanvaarden geen aansprakelijkheid voor beslissingen op basis van de output.",
+    legalAccept: "Ik begrijp en accepteer deze beperkingen voordat ik DishKAI gebruik.",
+    legalRequired: "Accepteer de disclaimer voordat je DishKAI gebruikt.",
+    visitCountLabel: "Lokale bezoeken",
     matched: "gekoppeld", unmatched: "nog niet in database", aiEstimated: "AI-schatting", tapForDetails: "Tik voor details", tapForEstimate: "Tik voor notitie", aiGenerated: "AI-schatting. Nog niet geverifieerd in de DishKAI-database.", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "Origineel", familiar: "Vertrouwd", verdict: "Besteladvies", description: "Wat het is", preparation: "Hoe het meestal wordt bereid", composition: "Geschatte samenstelling", taste: "Basissmaak", flavor: "Kenmerkende smaak", texture: "Textuur", watchOut: "Let op", variations: "Veelvoorkomende variaties", disclaimer: "Visuele noot", summary: "items", unknownNote: "Dit gerecht staat nog niet in de startdatabase."
   }
 };
@@ -49,7 +86,22 @@ function applyLanguage() {
   document.querySelectorAll("[data-i18n-placeholder]").forEach((el) => { el.placeholder = t(el.dataset.i18nPlaceholder); });
   document.querySelectorAll("[data-ui-lang]").forEach((button) => button.classList.toggle("active", button.dataset.uiLang === uiLang));
   if ($("#targetLanguage")) $("#targetLanguage").value = uiLang;
+  renderAppMeta();
   if (latestResult) renderAnalysis(latestResult);
+}
+
+function incrementVisitCount() {
+  const current = Number(localStorage.getItem(VISIT_COUNT_KEY) || 0);
+  const next = Number.isFinite(current) ? current + 1 : 1;
+  localStorage.setItem(VISIT_COUNT_KEY, String(next));
+  renderAppMeta();
+}
+
+function renderAppMeta() {
+  const count = Number(localStorage.getItem(VISIT_COUNT_KEY) || 0);
+  if ($("#appVersion")) $("#appVersion").textContent = APP_VERSION;
+  if ($("#footerVersion")) $("#footerVersion").textContent = APP_VERSION;
+  if ($("#visitCount")) $("#visitCount").textContent = `${t("visitCountLabel")}: ${count}`;
 }
 
 function setMode(mode) {
@@ -108,7 +160,25 @@ function setPrivateAccess(granted) {
   });
   if (!privateAccessGranted) setStatus(t("privateDenied"), "error");
   else setStatus("");
+  updateLegalGate();
   if (wasGranted && !privateAccessGranted) clearPrivateLocalData();
+}
+
+function legalAccepted() {
+  return $("#legalAccepted")?.checked === true;
+}
+
+function updateLegalGate() {
+  const accepted = legalAccepted();
+  localStorage.setItem(LEGAL_ACCEPTED_KEY, accepted ? "true" : "false");
+  if ($("#generateButton")) $("#generateButton").disabled = !privateAccessGranted || !accepted;
+}
+
+function requireLegalAcceptance() {
+  if (legalAccepted()) return true;
+  setStatus(t("legalRequired"), "error");
+  $("#legalAccepted")?.focus();
+  return false;
 }
 
 async function checkPrivateAccess() {
@@ -171,6 +241,7 @@ async function analyzeText() {
     setStatus(t("privateDenied"), "error");
     return;
   }
+  if (!requireLegalAcceptance()) return;
   const menuText = $("#menuText").value.trim();
   if (!menuText) {
     setStatus(t("noItems"), "error");
@@ -202,6 +273,7 @@ async function analyzeImage() {
     setStatus(t("privateDenied"), "error");
     return;
   }
+  if (!requireLegalAcceptance()) return;
   const image = $("#menuImage").files[0];
   if (!image) {
     setStatus(t("imageUnavailable"), "error");
@@ -795,8 +867,13 @@ $("#pdcInterventionForm")?.addEventListener("submit", continuePdcRound);
 $("#privateAccessForm")?.addEventListener("submit", submitPrivateAccess);
 $("#clearRecentScans")?.addEventListener("click", clearRecentScans);
 $("#privateLogout")?.addEventListener("click", logoutPrivateAccess);
+if ($("#legalAccepted")) {
+  $("#legalAccepted").checked = localStorage.getItem(LEGAL_ACCEPTED_KEY) === "true";
+  $("#legalAccepted").addEventListener("change", updateLegalGate);
+}
 renderPdcRoleCards();
 updatePdcDiscussionUi();
 
+incrementVisitCount();
 applyLanguage();
 checkPrivateAccess();
