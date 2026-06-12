@@ -72,7 +72,13 @@ async function fetchJson(url, options = {}) {
     try {
       result = JSON.parse(text);
     } catch {
-      result = { error: "INVALID_JSON", message: text.slice(0, 180) || "Unexpected server response." };
+      const looksLikeHtml = /^\s*</.test(text);
+      result = {
+        error: "INVALID_JSON",
+        message: looksLikeHtml
+          ? "Server returned an HTML error page instead of JSON. Please try again after the latest deploy finishes."
+          : text.slice(0, 180) || "Unexpected server response.",
+      };
     }
   }
   return { response, result };
