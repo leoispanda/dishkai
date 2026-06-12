@@ -1,4 +1,4 @@
-const APP_VERSION = "DishKAI v0.2.11-public-beta";
+const APP_VERSION = "DishKAI v0.2.12-public-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
 const MENU_IMAGE_MAX_EDGE = 1800;
@@ -8,6 +8,7 @@ const translations = {
   en: {
     legalGateTitle: "Before using DishKAI",
     legalGateSubtitle: "Please confirm the safety and privacy limits first. Then you can enter the menu tool.",
+    legalLanguageLabel: "Choose your language",
     heroTitle: "Know the dish before you order.",
     heroSubtitle: "Upload a menu photo or paste menu text. DishKAI turns it into a clear dish list you can tap for ingredients, taste, watch-outs, and ordering guidance.",
     privateAccessEyebrow: "Private tools", privateAccessTitle: "Leo & Cindy internal tools.", unauthorizedNotice: "Menu recognition is public. PDC and internal actions stay private.", privateAccessLabel: "Private access code", privateAccessPlaceholder: "Enter private access code", unlockPrivate: "Unlock private tools", privateUnlocked: "Private tools unlocked.", privateLocked: "Private tools are locked. Menu recognition is open.", privateDenied: "Private tools are locked.", clearRecentScans: "Clear recent scans", clearScansDone: "Recent scans cleared.", privateLogout: "Lock",
@@ -33,6 +34,7 @@ const translations = {
   zh: {
     legalGateTitle: "使用 DishKAI 之前",
     legalGateSubtitle: "请先确认安全和隐私限制。确认后再进入菜单识别工具。",
+    legalLanguageLabel: "选择语言",
     heroTitle: "点餐前，先看懂这道菜。",
     heroSubtitle: "上传菜单照片或粘贴菜单文字。DishKAI 会生成一份清晰菜品列表，点击即可查看成分、味道、注意事项和点餐建议。",
     privateAccessEyebrow: "私有工具", privateAccessTitle: "Leo 和 Cindy 的内部工具。", unauthorizedNotice: "菜单识别已公开开放。PDC 和内部操作仍然保持私有。", privateAccessLabel: "私有访问码", privateAccessPlaceholder: "输入私有访问码", unlockPrivate: "解锁私有工具", privateUnlocked: "私有工具已解锁。", privateLocked: "私有工具已锁定。菜单识别已开放。", privateDenied: "私有工具已锁定。", clearRecentScans: "清除最近扫描", clearScansDone: "最近扫描已清除。", privateLogout: "锁定",
@@ -58,6 +60,7 @@ const translations = {
   nl: {
     legalGateTitle: "Voordat je DishKAI gebruikt",
     legalGateSubtitle: "Bevestig eerst de veiligheids- en privacygrenzen. Daarna kun je de menutool openen.",
+    legalLanguageLabel: "Kies je taal",
     heroTitle: "Ken het gerecht voordat je bestelt.",
     heroSubtitle: "Upload een menufoto of plak menutekst. DishKAI maakt er een heldere gerechtenlijst van die je kunt aantikken voor ingredienten, smaak, aandachtspunten en besteladvies.",
     privateAccessEyebrow: "Private tools", privateAccessTitle: "Interne tools voor Leo & Cindy.", unauthorizedNotice: "Menuherkenning is publiek. PDC en interne acties blijven privaat.", privateAccessLabel: "Private toegangscode", privateAccessPlaceholder: "Voer private toegangscode in", unlockPrivate: "Ontgrendel private tools", privateUnlocked: "Private tools ontgrendeld.", privateLocked: "Private tools zijn vergrendeld. Menuherkenning is open.", privateDenied: "Private tools zijn vergrendeld.", clearRecentScans: "Wis recente scans", clearScansDone: "Recente scans gewist.", privateLogout: "Vergrendel",

@@ -187,3 +187,5 @@ Codex must still ask before destructive operations, editing secrets, changing Cl
 - DishKAI v0.2.10 changed public onboarding to a real two-step flow. First-time users see only the standalone disclaimer/privacy-risk gate; after checking the acceptance box and clicking "Enter DishKAI", the full menu tool appears. The acceptance remains stored locally for return visits.
 
 - DishKAI v0.2.11 removed guilt-framed API-cost wording from the hero. The public app now places a small footer note with approximate API cost only: usually within a few cents per AI scan depending on menu length and image size.
+
+- DishKAI v0.2.12 added language selection to the first disclaimer step. The three gate buttons set `dishkai-ui-lang`; entering the app keeps the UI and output language select defaulted to that language.

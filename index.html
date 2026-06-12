@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="DishKAI helps people understand unfamiliar menu names before ordering.">
   <title>DishKAI | Know the dish before you order</title>
-  <link rel="stylesheet" href="styles.css?v=0.2.11">
+  <link rel="stylesheet" href="styles.css?v=0.2.12">
 </head>
 <body>
   <header class="topbar compact">
@@ -27,6 +27,14 @@
         <p class="eyebrow">Dish Knowledge AI</p>
         <h1 data-i18n="legalGateTitle">Before using DishKAI</h1>
         <p class="subtitle" data-i18n="legalGateSubtitle">Please confirm the safety and privacy limits first. Then you can enter the menu tool.</p>
+        <div class="gate-language" aria-label="Language">
+          <p data-i18n="legalLanguageLabel">Choose your language</p>
+          <div class="lang-toggle gate-lang-toggle">
+            <button type="button" data-ui-lang="en">English</button>
+            <button type="button" data-ui-lang="zh">中文</button>
+            <button type="button" data-ui-lang="nl">Nederlands</button>
+          </div>
+        </div>
       </div>
       <section class="legal-panel legal-panel-standalone" aria-label="Legal and safety disclaimer">
         <div>
@@ -212,6 +220,6 @@ Chef Special Pasta</textarea>
     <span class="footer-cost" data-i18n="footerCostNote">AI menu analysis usually costs a small API fee, often under a few cents per scan depending on menu length and image size.</span>
   </footer>
 
-  <script src="script.js?v=0.2.11"></script>
+  <script src="script.js?v=0.2.12"></script>
 </body>
 </html>

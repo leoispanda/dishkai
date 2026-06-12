@@ -82,7 +82,7 @@ button { cursor: pointer; }
   display: grid;
   align-content: center;
   justify-content: center;
-  gap: 22px;
+  gap: 14px;
 }
 .legal-gate[hidden],
 #appShell[hidden] {
@@ -92,8 +92,34 @@ button { cursor: pointer; }
 .legal-panel-standalone {
   width: min(760px, calc(100vw - 32px));
 }
+.gate-language {
+  display: grid;
+  gap: 9px;
+  max-width: 420px;
+}
+.gate-language p {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 800;
+}
+.gate-lang-toggle {
+  justify-self: start;
+  border-radius: 12px;
+}
+.gate-lang-toggle button {
+  min-width: 96px;
+  min-height: 42px;
+  border-radius: 8px;
+}
 .legal-panel-standalone .button {
   justify-self: start;
+}
+.legal-panel-standalone {
+  gap: 10px;
+  padding: 13px;
+}
+.legal-panel-standalone ul {
+  gap: 5px;
 }
 .hero {
   min-height: auto;

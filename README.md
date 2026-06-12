@@ -72,7 +72,7 @@ Current API endpoints:
 
 Privacy and misuse protections:
 
-- Public menu recognition is available without private login; first-time users first see a standalone disclaimer/privacy-risk confirmation step, then enter the menu tool.
+- Public menu recognition is available without private login; first-time users first choose a language, confirm the standalone disclaimer/privacy-risk step, then enter the menu tool with output defaulting to that language.
 - Private access codes are verified server-side only for internal tools such as PDC and administrative actions.
 - Sessions use a signed `HttpOnly; Secure; SameSite=Lax` cookie.
 - Private POST APIs reject cross-origin browser requests when an unexpected `Origin` header is present.
