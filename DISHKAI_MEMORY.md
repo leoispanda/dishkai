@@ -191,3 +191,5 @@ Codex must still ask before destructive operations, editing secrets, changing Cl
 - DishKAI v0.2.12 added language selection to the first disclaimer step. The three gate buttons set `dishkai-ui-lang`; entering the app keeps the UI and output language select defaulted to that language.
 
 - DishKAI v0.2.13 added dish thumbnails to matched visual-menu list rows. The small thumbnail uses `card.thumbPath` with `card.imagePath` fallback to hint that tapping opens a larger image/detail card.
+
+- DishKAI v0.2.14 refreshed the public UI with an Apple-inspired glass interface: near-white luminous background, frosted panels, finer borders, softer shadows, sage primary actions, tighter app-shell spacing, glass result rows, and refined dish detail cards. Keep future UI changes compatible with the two-step legal gate and synchronized root/public files.
