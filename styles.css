@@ -124,6 +124,7 @@ h3 { margin: 0; font-size: 22px; }
   border-color: rgba(111, 143, 122, 0.35);
   box-shadow: 0 24px 70px rgba(34, 42, 36, 0.14);
 }
+.private-access-panel[hidden] { display: none; }
 .private-access-panel::before {
   content: "";
   position: absolute;

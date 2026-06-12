@@ -1,4 +1,4 @@
-const APP_VERSION = "DishKAI v0.2.8-public-beta";
+const APP_VERSION = "DishKAI v0.2.9-public-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
 const MENU_IMAGE_MAX_EDGE = 1800;
@@ -161,11 +161,27 @@ function setPrivateStatus(message, tone = "") {
   el.className = `status ${tone}`.trim();
 }
 
+function shouldShowPrivateAccessPanel() {
+  const params = new URLSearchParams(window.location.search);
+  return params.has("internal") || window.location.hash === "#internal" || window.location.hash === "#personal-pdc" || privateAccessGranted;
+}
+
+function updatePrivateAccessVisibility() {
+  const panel = $("#privateAccess");
+  if (!panel) return;
+  const shouldHide = privateAccessGranted || !shouldShowPrivateAccessPanel();
+  panel.hidden = shouldHide;
+  panel.querySelectorAll("input, button").forEach((element) => {
+    element.disabled = shouldHide;
+  });
+}
+
 function setPrivateAccess(granted) {
   const wasGranted = privateAccessGranted;
   privateAccessGranted = Boolean(granted);
   document.body.classList.toggle("private-unlocked", privateAccessGranted);
   document.body.classList.toggle("private-locked", !privateAccessGranted);
+  updatePrivateAccessVisibility();
   document.querySelectorAll("#privateLogoutTop").forEach((element) => {
     element.hidden = !privateAccessGranted;
   });
@@ -242,6 +258,7 @@ async function checkPrivateAccess() {
     setPrivateAccess(false);
     setPrivateStatus(t("privateLocked"), "error");
   }
+  updatePrivateAccessVisibility();
 }
 
 async function submitPrivateAccess(event) {
@@ -916,6 +933,7 @@ $("#privateAccessForm")?.addEventListener("submit", submitPrivateAccess);
 $("#clearRecentScans")?.addEventListener("click", clearRecentScans);
 $("#privateLogout")?.addEventListener("click", logoutPrivateAccess);
 $("#privateLogoutTop")?.addEventListener("click", logoutPrivateAccess);
+window.addEventListener("hashchange", updatePrivateAccessVisibility);
 if ($("#legalAccepted")) {
   $("#legalAccepted").checked = localStorage.getItem(LEGAL_ACCEPTED_KEY) === "true";
   $("#legalAccepted").addEventListener("change", updateLegalGate);
