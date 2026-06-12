@@ -72,7 +72,7 @@ Current API endpoints:
 
 Privacy and misuse protections:
 
-- Public menu recognition is available without private login; first-time users only need to accept the disclaimer/privacy-risk acknowledgement.
+- Public menu recognition is available without private login; first-time users first see a standalone disclaimer/privacy-risk confirmation step, then enter the menu tool.
 - Private access codes are verified server-side only for internal tools such as PDC and administrative actions.
 - Sessions use a signed `HttpOnly; Secure; SameSite=Lax` cookie.
 - Private POST APIs reject cross-origin browser requests when an unexpected `Origin` header is present.
@@ -86,7 +86,7 @@ Privacy and misuse protections:
 - If temporary scan records are introduced later, keep `/api/clear-recent-scans` able to clear them.
 - The local Node dev server serves static files from `public/` only, so source files and local configuration are not exposed by static routes.
 - DishKAI currently does not enforce a shared daily public quota; the UI instead explains that AI scans consume Leo's API budget and asks happy users to buy him coffee someday.
-- The private access-code panel is hidden from the normal public start page. Internal testing can reveal it with `?internal=1`, while backend private APIs remain protected.
+- The private access-code panel is hidden from the normal public app page. Internal testing can reveal it with `?internal=1`, while backend private APIs remain protected.
 
 For local Wrangler testing, Workers AI may require:
 

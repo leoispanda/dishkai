@@ -1,4 +1,4 @@
-const APP_VERSION = "DishKAI v0.2.9-public-beta";
+const APP_VERSION = "DishKAI v0.2.10-public-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
 const MENU_IMAGE_MAX_EDGE = 1800;
@@ -6,6 +6,8 @@ const MENU_IMAGE_JPEG_QUALITY = 0.82;
 
 const translations = {
   en: {
+    legalGateTitle: "Before using DishKAI",
+    legalGateSubtitle: "Please confirm the safety and privacy limits first. Then you can enter the menu tool.",
     heroTitle: "Know the dish before you order.",
     heroSubtitle: "Upload a menu photo or paste menu text. DishKAI turns it into a clear dish list you can tap for ingredients, taste, watch-outs, and ordering guidance.",
     privateNotice: "DishKAI menu recognition is open to try. Each AI scan costs Leo a small API fee; if it helps, buy him a coffee someday.", privateAccessEyebrow: "Private tools", privateAccessTitle: "Leo & Cindy internal tools.", unauthorizedNotice: "Menu recognition is public. PDC and internal actions stay private.", privateAccessLabel: "Private access code", privateAccessPlaceholder: "Enter private access code", unlockPrivate: "Unlock private tools", privateUnlocked: "Private tools unlocked.", privateLocked: "Private tools are locked. Menu recognition is open.", privateDenied: "Private tools are locked.", clearRecentScans: "Clear recent scans", clearScansDone: "Recent scans cleared.", privateLogout: "Lock",
@@ -23,10 +25,13 @@ const translations = {
     legalResponsibility: "You are solely responsible for what you upload and what you choose to order. DishKAI is provided without warranties and the maintainers accept no liability for decisions made from its output.",
     legalAccept: "I understand and accept these limits before using DishKAI.",
     legalRequired: "Please accept the disclaimer before using DishKAI.",
+    enterApp: "Enter DishKAI",
     visitCountLabel: "Local visits",
     matched: "matched", unmatched: "Not in starter database yet", aiEstimated: "AI estimate", tapForDetails: "Tap for details", tapForEstimate: "Tap for note", aiGenerated: "AI-generated estimate. Not yet verified in DishKAI database.", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "Original", familiar: "Familiar", verdict: "Order verdict", description: "What it is", preparation: "How it is usually prepared", composition: "Estimated composition", taste: "Basic taste", flavor: "Distinctive flavor", texture: "Texture", watchOut: "Watch out", variations: "Common variations", disclaimer: "Visual note", summary: "items", unknownNote: "This dish is not in the starter database yet."
   },
   zh: {
+    legalGateTitle: "使用 DishKAI 之前",
+    legalGateSubtitle: "请先确认安全和隐私限制。确认后再进入菜单识别工具。",
     heroTitle: "点餐前，先看懂这道菜。",
     heroSubtitle: "上传菜单照片或粘贴菜单文字。DishKAI 会生成一份清晰菜品列表，点击即可查看成分、味道、注意事项和点餐建议。",
     privateNotice: "DishKAI 菜单识别先开放给大家试用。每次 AI 识别都会消耗 Leo 一点 API 费用；如果它帮到你，以后请 Leo 喝杯咖啡就好。", privateAccessEyebrow: "私有工具", privateAccessTitle: "Leo 和 Cindy 的内部工具。", unauthorizedNotice: "菜单识别已公开开放。PDC 和内部操作仍然保持私有。", privateAccessLabel: "私有访问码", privateAccessPlaceholder: "输入私有访问码", unlockPrivate: "解锁私有工具", privateUnlocked: "私有工具已解锁。", privateLocked: "私有工具已锁定。菜单识别已开放。", privateDenied: "私有工具已锁定。", clearRecentScans: "清除最近扫描", clearScansDone: "最近扫描已清除。", privateLogout: "锁定",
@@ -44,10 +49,13 @@ const translations = {
     legalResponsibility: "你需要自行负责上传内容和点餐选择。DishKAI 不提供任何保证，维护者不对基于输出作出的决定承担责任。",
     legalAccept: "我理解并接受以上限制，然后再使用 DishKAI。",
     legalRequired: "使用 DishKAI 前请先确认免责声明。",
+    enterApp: "进入 DishKAI",
     visitCountLabel: "本机访问次数",
     matched: "已匹配", unmatched: "暂未收录", aiEstimated: "AI 估算", tapForDetails: "点击查看详情", tapForEstimate: "点击查看未收录提示", aiGenerated: "AI 估算结果，尚未进入 DishKAI 已验证数据库。", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "原始菜名", familiar: "熟悉名称", verdict: "点餐建议", description: "这是什么", preparation: "常见做法风格", composition: "估算成分", taste: "基础味道", flavor: "特色风味", texture: "口感", watchOut: "注意事项", variations: "常见变体", disclaimer: "图片说明", summary: "项", unknownNote: "这道菜暂时还不在 DishKAI 初始数据库中。"
   },
   nl: {
+    legalGateTitle: "Voordat je DishKAI gebruikt",
+    legalGateSubtitle: "Bevestig eerst de veiligheids- en privacygrenzen. Daarna kun je de menutool openen.",
     heroTitle: "Ken het gerecht voordat je bestelt.",
     heroSubtitle: "Upload een menufoto of plak menutekst. DishKAI maakt er een heldere gerechtenlijst van die je kunt aantikken voor ingredienten, smaak, aandachtspunten en besteladvies.",
     privateNotice: "DishKAI-menuherkenning is open om te proberen. Elke AI-scan kost Leo een kleine API-fee; als het helpt, trakteer hem ooit op koffie.", privateAccessEyebrow: "Private tools", privateAccessTitle: "Interne tools voor Leo & Cindy.", unauthorizedNotice: "Menuherkenning is publiek. PDC en interne acties blijven privaat.", privateAccessLabel: "Private toegangscode", privateAccessPlaceholder: "Voer private toegangscode in", unlockPrivate: "Ontgrendel private tools", privateUnlocked: "Private tools ontgrendeld.", privateLocked: "Private tools zijn vergrendeld. Menuherkenning is open.", privateDenied: "Private tools zijn vergrendeld.", clearRecentScans: "Wis recente scans", clearScansDone: "Recente scans gewist.", privateLogout: "Vergrendel",
@@ -65,6 +73,7 @@ const translations = {
     legalResponsibility: "Je bent zelf verantwoordelijk voor wat je uploadt en bestelt. DishKAI wordt zonder garanties aangeboden en de beheerders aanvaarden geen aansprakelijkheid voor beslissingen op basis van de output.",
     legalAccept: "Ik begrijp en accepteer deze beperkingen voordat ik DishKAI gebruik.",
     legalRequired: "Accepteer de disclaimer voordat je DishKAI gebruikt.",
+    enterApp: "Open DishKAI",
     visitCountLabel: "Lokale bezoeken",
     matched: "gekoppeld", unmatched: "nog niet in database", aiEstimated: "AI-schatting", tapForDetails: "Tik voor details", tapForEstimate: "Tik voor notitie", aiGenerated: "AI-schatting. Nog niet geverifieerd in de DishKAI-database.", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "Origineel", familiar: "Vertrouwd", verdict: "Besteladvies", description: "Wat het is", preparation: "Hoe het meestal wordt bereid", composition: "Geschatte samenstelling", taste: "Basissmaak", flavor: "Kenmerkende smaak", texture: "Textuur", watchOut: "Let op", variations: "Veelvoorkomende variaties", disclaimer: "Visuele noot", summary: "items", unknownNote: "Dit gerecht staat nog niet in de startdatabase."
   }
@@ -197,17 +206,50 @@ function legalAccepted() {
   return $("#legalAccepted")?.checked === true;
 }
 
-function updateLegalGate() {
-  const accepted = legalAccepted();
-  localStorage.setItem(LEGAL_ACCEPTED_KEY, accepted ? "true" : "false");
+function storedLegalAccepted() {
+  return localStorage.getItem(LEGAL_ACCEPTED_KEY) === "true";
+}
+
+function setLegalGateStatus(message, tone = "") {
+  const el = $("#legalGateStatus");
+  if (!el) return;
+  el.textContent = message;
+  el.className = `status ${tone}`.trim();
+}
+
+function renderLegalStep() {
+  const accepted = storedLegalAccepted();
+  document.body.classList.toggle("legal-step-complete", accepted);
+  if ($("#legalGate")) $("#legalGate").hidden = accepted;
+  if ($("#appShell")) $("#appShell").hidden = !accepted;
   if ($("#generateButton")) $("#generateButton").disabled = !accepted;
+  if ($("#enterAppButton")) $("#enterAppButton").disabled = !legalAccepted();
+}
+
+function updateLegalGate() {
+  if ($("#enterAppButton")) $("#enterAppButton").disabled = !legalAccepted();
+  if ($("#generateButton")) $("#generateButton").disabled = !storedLegalAccepted();
 }
 
 function requireLegalAcceptance() {
-  if (legalAccepted()) return true;
+  if (storedLegalAccepted()) return true;
   setStatus(t("legalRequired"), "error");
+  setLegalGateStatus(t("legalRequired"), "error");
+  renderLegalStep();
   $("#legalAccepted")?.focus();
   return false;
+}
+
+function enterApp() {
+  if (!legalAccepted()) {
+    setLegalGateStatus(t("legalRequired"), "error");
+    $("#legalAccepted")?.focus();
+    return;
+  }
+  localStorage.setItem(LEGAL_ACCEPTED_KEY, "true");
+  setLegalGateStatus("");
+  renderLegalStep();
+  focusMenuEntry();
 }
 
 function formatBytes(bytes) {
@@ -934,12 +976,14 @@ $("#clearRecentScans")?.addEventListener("click", clearRecentScans);
 $("#privateLogout")?.addEventListener("click", logoutPrivateAccess);
 $("#privateLogoutTop")?.addEventListener("click", logoutPrivateAccess);
 window.addEventListener("hashchange", updatePrivateAccessVisibility);
+$("#enterAppButton")?.addEventListener("click", enterApp);
 if ($("#legalAccepted")) {
   $("#legalAccepted").checked = localStorage.getItem(LEGAL_ACCEPTED_KEY) === "true";
   $("#legalAccepted").addEventListener("change", updateLegalGate);
 }
 renderPdcRoleCards();
 updatePdcDiscussionUi();
+renderLegalStep();
 
 incrementVisitCount();
 applyLanguage();
