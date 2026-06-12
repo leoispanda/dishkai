@@ -10,6 +10,7 @@ export const dishAliases = [
   { alias: "tiramisu", dishId: "tiramisu", language: "it", matchType: "canonical", confidence: 1 },
   { alias: "tiramisù", dishId: "tiramisu", language: "it", matchType: "spelling-variant", confidence: 1 },
   { alias: "caprese salad", dishId: "caprese-salad", language: "en", matchType: "canonical", confidence: 1 },
+  { alias: "caprese", dishId: "caprese-salad", language: "it", matchType: "short-menu-name", confidence: 0.98 },
   { alias: "insalata caprese", dishId: "caprese-salad", language: "it", matchType: "local-name", confidence: 1 },
   { alias: "bruschetta", dishId: "bruschetta", language: "it", matchType: "canonical", confidence: 1 },
   { alias: "pesto pasta", dishId: "pesto-pasta", language: "en", matchType: "descriptive", confidence: 0.96 },

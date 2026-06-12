@@ -30,11 +30,29 @@ const MENU_EXTRACTION_RESPONSE_FORMAT = {
               orderIndex: { type: "integer" },
               originalName: { type: "string" },
               cleanName: { type: "string" },
+              canonicalCandidate: {
+                type: "string",
+                description: "Best short real dish name to match against DishKAI metadata, without toppings or sauces.",
+              },
+              matchCandidates: {
+                type: "array",
+                items: { type: "string" },
+                description: "Short dish-name candidates from most specific to broadest, excluding pure ingredient lists.",
+              },
               detectedLanguage: { type: "string" },
               possibleCategory: { type: "string" },
               notes: { type: "string" },
             },
-            required: ["orderIndex", "originalName", "cleanName", "detectedLanguage", "possibleCategory", "notes"],
+            required: [
+              "orderIndex",
+              "originalName",
+              "cleanName",
+              "canonicalCandidate",
+              "matchCandidates",
+              "detectedLanguage",
+              "possibleCategory",
+              "notes",
+            ],
           },
         },
       },
@@ -197,6 +215,8 @@ function splitMenuText(menuText) {
       orderIndex: index + 1,
       originalName: line,
       cleanName: line,
+      canonicalCandidate: "",
+      matchCandidates: [],
       detectedLanguage: "unknown",
       possibleCategory: "",
       notes: "",
@@ -214,7 +234,10 @@ Rules:
 - Keep menu sections in the same visible order, but do not output section headers as dishes.
 - Remove prices, currency symbols, calorie counts, item numbers, and decorative labels from cleanName.
 - Keep useful dish modifiers in cleanName, such as "smoked salmon bagel", "ham and cheese omelette", or "spicy tuna roll".
+- Add canonicalCandidate as the shortest real dish name a diner would recognize or a database should match, for example "Caprese", "Tuna tataki", "Caesar salad", "Goat cheese salad", or "Garlic scampi".
+- Add matchCandidates from most specific to broadest. For "Caprese | pomodori | buffalo mozzarella | pesto", use ["Caprese", "Caprese salad"].
 - If a line contains a dish name plus a description, originalName should be the visible dish name or shortest dish line, and notes can summarize the description.
+- Do not output sauce-choice or option-only lines as dishes, such as "Choice pesto mayonnaise or chili mayonnaise".
 - For European café/brunch menus, include items like scrambled eggs, omelette, shakshuka, french toast, eggs benedict, avocado toast, granola bowl, tosti, broodje gezond, croissant, and pain au chocolat.
 Use this exact shape:
 {
@@ -224,6 +247,8 @@ Use this exact shape:
       "orderIndex": 1,
       "originalName": "Pad Thai",
       "cleanName": "Pad Thai",
+      "canonicalCandidate": "Pad Thai",
+      "matchCandidates": ["Pad Thai"],
       "detectedLanguage": "en",
       "possibleCategory": "noodle",
       "notes": ""
@@ -331,17 +356,37 @@ function extractJsonObject(value) {
 function cleanExtractedItems(value, fallbackItems) {
   const rawItems = Array.isArray(value?.items) && value.items.length ? value.items : fallbackItems;
   return rawItems
-    .map((item, index) => ({
-      orderIndex: Number.isFinite(Number(item.orderIndex)) ? Number(item.orderIndex) : index + 1,
-      originalName: jsonSafeText(item.originalName || item.cleanName || fallbackItems[index]?.originalName),
-      cleanName: jsonSafeText(item.cleanName || item.originalName || fallbackItems[index]?.cleanName),
-      detectedLanguage: jsonSafeText(item.detectedLanguage || "unknown", 24),
-      possibleCategory: jsonSafeText(item.possibleCategory || "", 60),
-      notes: jsonSafeText(item.notes || "", 160),
-    }))
+    .map((item, index) => {
+      const originalName = jsonSafeText(item.originalName || item.cleanName || fallbackItems[index]?.originalName);
+      const cleanName = jsonSafeText(item.cleanName || item.originalName || fallbackItems[index]?.cleanName);
+      return {
+        orderIndex: Number.isFinite(Number(item.orderIndex)) ? Number(item.orderIndex) : index + 1,
+        originalName,
+        cleanName,
+        canonicalCandidate: jsonSafeText(item.canonicalCandidate || "", 120),
+        matchCandidates: cleanMatchCandidates(item.matchCandidates),
+        detectedLanguage: jsonSafeText(item.detectedLanguage || "unknown", 24),
+        possibleCategory: jsonSafeText(item.possibleCategory || "", 60),
+        notes: jsonSafeText(item.notes || "", 160),
+      };
+    })
     .filter((item) => item.originalName || item.cleanName)
+    .filter((item) => !isOptionOnlyLine(item.cleanName || item.originalName))
     .sort((a, b) => a.orderIndex - b.orderIndex)
     .map((item, index) => ({ ...item, orderIndex: index + 1 }));
+}
+
+function cleanMatchCandidates(value) {
+  if (!Array.isArray(value)) return [];
+  return [...new Set(value.map((item) => jsonSafeText(item, 120)).filter(Boolean))].slice(0, 8);
+}
+
+function isOptionOnlyLine(value) {
+  const normalized = normalizeName(value);
+  if (!normalized) return false;
+  if (!/\b(choice|choose|keuze|kies)\b/.test(normalized)) return false;
+  return /\b(or|of|oder|ofwel)\b/.test(normalized)
+    && /\b(mayonnaise|mayo|sauce|dressing|dip|vinaigrette|aioli)\b/.test(normalized);
 }
 
 async function extractItems(menuText, sourceLanguage, targetLanguage, env) {
@@ -365,7 +410,12 @@ async function extractItems(menuText, sourceLanguage, targetLanguage, env) {
     }
   }
 
-  if (!env?.AI) return { items: fallbackItems, extractionSource: "local-fallback" };
+  if (!env?.AI) {
+    return {
+      items: cleanExtractedItems({ items: fallbackItems }, fallbackItems),
+      extractionSource: "local-fallback",
+    };
+  }
 
   try {
     const aiResult = await env.AI.run(TEXT_MODEL, {
@@ -380,7 +430,10 @@ async function extractItems(menuText, sourceLanguage, targetLanguage, env) {
     };
   } catch (error) {
     console.error("DishKAI Workers AI text extraction failed, using local fallback:", error);
-    return { items: fallbackItems, extractionSource: "local-fallback" };
+    return {
+      items: cleanExtractedItems({ items: fallbackItems }, fallbackItems),
+      extractionSource: "local-fallback",
+    };
   }
 }
 
@@ -398,8 +451,11 @@ Rules:
 - Do not output section headers like "Breakfast", "Mains", "Desserts", "Drinks", or "Extras" as dishes.
 - Remove prices, currency symbols, calories, and item numbers from cleanName.
 - Keep useful modifiers in cleanName, such as protein, sauce, filling, or cooking style.
+- Add canonicalCandidate as the shortest real dish name a diner would recognize or DishKAI should match.
+- Add matchCandidates from most specific to broadest, excluding pure toppings and sauce-only choices.
 - If a dish line wraps across two visual lines, combine it into one item.
 - If confidence is low but the text is readable, include the dish and write the uncertainty in notes instead of dropping it.
+- Do not output sauce-choice or option-only lines as dishes, such as "Choice pesto mayonnaise or chili mayonnaise".
 Use this exact shape:
 {
   "menuText": "one dish or menu line per line, preserving the image order",
@@ -408,6 +464,8 @@ Use this exact shape:
       "orderIndex": 1,
       "originalName": "visible dish name as written",
       "cleanName": "normalized dish name without price",
+      "canonicalCandidate": "short real dish name for database matching",
+      "matchCandidates": ["specific candidate", "broader candidate"],
       "detectedLanguage": "en",
       "possibleCategory": "noodle",
       "notes": ""
@@ -484,19 +542,88 @@ function base64EncodeBytes(bytes) {
   return btoa(binary);
 }
 
-function findAliasMatch(cleanName) {
+function findAliasMatch(cleanName, { exactOnly = false } = {}) {
   const normalizedName = normalizeName(cleanName);
+  if (!normalizedName) return { alias: null, normalizedName, confidence: 0 };
   const exact = aliasIndex.find((alias) => alias.normalizedAlias === normalizedName);
   if (exact) return { alias: exact, normalizedName, confidence: exact.confidence || 1 };
+  if (exactOnly) return { alias: null, normalizedName, confidence: 0 };
 
   const includes = aliasIndex.find((alias) => {
-    return normalizedName.includes(alias.normalizedAlias) || alias.normalizedAlias.includes(normalizedName);
+    return normalizedName.includes(alias.normalizedAlias);
   });
   if (includes && Math.min(normalizedName.length, includes.normalizedAlias.length) >= 6) {
     return { alias: includes, normalizedName, confidence: Math.min(includes.confidence || 0.82, 0.86) };
   }
 
   return { alias: null, normalizedName, confidence: 0 };
+}
+
+function candidateDishNames(item) {
+  const names = [
+    item.cleanName,
+    item.canonicalCandidate,
+    ...(Array.isArray(item.matchCandidates) ? item.matchCandidates : []),
+    item.originalName,
+  ];
+
+  for (const name of [item.cleanName, item.originalName]) {
+    names.push(...heuristicDishNameCandidates(name));
+  }
+
+  return [...new Set(names.map((name) => jsonSafeText(name, 120)).filter(Boolean))];
+}
+
+function heuristicDishNameCandidates(value) {
+  const text = jsonSafeText(value, 160);
+  if (!text || isOptionOnlyLine(text)) return [];
+
+  const candidates = [];
+  const pipeBase = text.split("|")[0]?.trim();
+  if (pipeBase && pipeBase !== text) candidates.push(pipeBase);
+
+  const withBase = text.split(/\s+(?:with|met|served with|geserveerd met)\s+/i)[0]?.trim();
+  if (withBase && withBase !== text) candidates.push(withBase);
+
+  const normalized = normalizeName(pipeBase || withBase || text);
+  if (normalized === "caprese") candidates.push("caprese salad");
+  if (normalized === "carpaccio" || normalized === "beef carpaccio") candidates.push("beef carpaccio");
+  if (normalized === "caesar salad") candidates.push("caesar salad");
+  if (normalized === "tuna tataki") candidates.push("tuna tataki");
+  if (normalized === "scampi") candidates.push("scampi", "garlic scampi");
+
+  return candidates;
+}
+
+function findBestAliasMatch(item) {
+  const candidates = candidateDishNames(item);
+  for (const candidate of candidates) {
+    const match = findAliasMatch(candidate, { exactOnly: true });
+    if (match.alias) {
+      return {
+        ...match,
+        matchedCandidate: candidate,
+        candidateNames: candidates,
+      };
+    }
+  }
+
+  for (const candidate of candidates) {
+    const match = findAliasMatch(candidate);
+    if (match.alias) {
+      return {
+        ...match,
+        matchedCandidate: candidate,
+        candidateNames: candidates,
+      };
+    }
+  }
+  const fallbackName = item.cleanName || item.originalName;
+  return {
+    ...findAliasMatch(fallbackName),
+    matchedCandidate: "",
+    candidateNames: candidates,
+  };
 }
 
 function itemDisplayName(item, language) {
@@ -839,12 +966,14 @@ export async function analyzeMenuText({ menuText, sourceLanguage = "auto", targe
 
 async function buildMenuAnalysis({ sourceLanguage, targetLanguage, extraction, env }) {
   const matchedItems = extraction.items.map((item) => {
-    const match = findAliasMatch(item.cleanName || item.originalName);
+    const match = findBestAliasMatch(item);
     const dish = match.alias ? dishById.get(match.alias.dishId) : null;
     if (!dish) {
       return {
         ...item,
         normalizedName: match.normalizedName,
+        matchedCandidate: match.matchedCandidate,
+        matchCandidates: match.candidateNames,
         matchedDishId: null,
         matchStatus: "unmatched",
         matchConfidence: 0,
@@ -854,6 +983,8 @@ async function buildMenuAnalysis({ sourceLanguage, targetLanguage, extraction, e
     return {
       ...item,
       normalizedName: match.normalizedName,
+      matchedCandidate: match.matchedCandidate,
+      matchCandidates: match.candidateNames,
       matchedDishId: dish.id,
       matchStatus: "matched",
       matchConfidence: match.confidence,
