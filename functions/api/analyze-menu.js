@@ -1,14 +1,19 @@
 import { analyzeMenuText, json } from "../_shared/menu-analysis.js";
-import { checkRateLimit, requirePrivateSession, securityHeaders } from "../_shared/security.js";
+import { checkRateLimit, readJsonBody, requirePrivateSession, requireSameOrigin, securityHeaders } from "../_shared/security.js";
 
 export async function onRequestPost({ request, env }) {
+  const crossOrigin = requireSameOrigin(request, json);
+  if (crossOrigin) return crossOrigin;
+
   const unauthorized = await requirePrivateSession(request, env, json);
   if (unauthorized) return unauthorized;
 
   const limited = checkRateLimit(request, json, "analyze-menu", 20, 60_000);
   if (limited) return limited;
 
-  const body = await request.json().catch(() => ({}));
+  const parsed = await readJsonBody(request, json);
+  if (parsed.error) return parsed.error;
+  const body = parsed.body;
   const result = await analyzeMenuText({
     menuText: body.menuText || body.text || "",
     sourceLanguage: "auto",

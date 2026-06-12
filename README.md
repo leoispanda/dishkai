@@ -66,13 +66,16 @@ Privacy and misuse protections:
 
 - Private access codes are verified server-side only.
 - Sessions use a signed `HttpOnly; Secure; SameSite=Lax` cookie.
+- Private POST APIs reject cross-origin browser requests when an unexpected `Origin` header is present.
 - Expensive/private APIs include best-effort per-IP rate limiting.
+- JSON API request bodies are size-limited before parsing to reduce accidental memory/cost abuse.
 - DishKAI should not permanently store uploaded menu images by default.
 - Uploaded menu images should be processed temporarily.
 - Store only structured dish data after Leo/Cindy manually confirms.
 - Users are warned not to upload images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.
 - AI dish images must be labeled: “AI-generated preview. For inspiration only. Actual dish may look different.”
 - If temporary scan records are introduced later, keep `/api/clear-recent-scans` able to clear them.
+- The local Node dev server serves static files from `public/` only, so source files and local configuration are not exposed by static routes.
 
 For local Wrangler testing, Workers AI may require:
 

@@ -1,6 +1,6 @@
 import { createServer } from "node:http";
 import { readFile } from "node:fs/promises";
-import { extname, join, normalize } from "node:path";
+import { extname, join, normalize, resolve, sep } from "node:path";
 import { analyzeMenuImage, analyzeMenuText } from "./functions/_shared/menu-analysis.js";
 import { runPdcRound } from "./functions/_shared/pdc-engine.js";
 import {
@@ -8,13 +8,16 @@ import {
   clearSessionCookie,
   createSessionCookie,
   hasValidSession,
+  requireSameOrigin,
   securityHeaders,
   verifyAccessCode,
 } from "./functions/_shared/security.js";
 
 const root = process.cwd();
+const publicRoot = join(root, "public");
 const port = Number(process.env.PORT || 3000);
 const host = process.env.HOST || "127.0.0.1";
+const JSON_BODY_LIMIT_BYTES = 64 * 1024;
 
 function localEnv() {
   return { ...process.env, DISHKAI_LOCAL_DEV: "true" };
@@ -34,7 +37,8 @@ const mimeTypes = {
 
 const server = createServer(async (request, response) => {
   try {
-    const url = new URL(request.url, `http://${host}:${port}`);
+    const requestHost = request.headers.host || `${host}:${port}`;
+    const url = new URL(request.url, `http://${requestHost}`);
 
     if (request.method === "GET" && url.pathname === "/api/health") {
       sendJson(response, 200, { ok: true, app: "DishKAI" });
@@ -48,10 +52,13 @@ const server = createServer(async (request, response) => {
 
     if (request.method === "POST" && url.pathname === "/api/private-login") {
       const webRequest = toWebRequest(request, url);
+      const crossOrigin = requireSameOrigin(webRequest, localJson);
+      if (crossOrigin) return sendWebJson(response, crossOrigin);
+
       const limited = checkRateLimit(webRequest, localJson, "private-login", 8, 60_000);
       if (limited) return sendWebJson(response, limited);
 
-      const body = await readJson(request);
+      const body = await readJson(request, 4096);
       try {
         if (!verifyAccessCode(body.accessCode, localEnv())) {
           sendJson(response, 401, { error: "INVALID_ACCESS_CODE", message: "Unauthorized access is not permitted." }, securityHeaders());
@@ -65,12 +72,19 @@ const server = createServer(async (request, response) => {
     }
 
     if (request.method === "POST" && url.pathname === "/api/private-logout") {
+      const webRequest = toWebRequest(request, url);
+      const crossOrigin = requireSameOrigin(webRequest, localJson);
+      if (crossOrigin) return sendWebJson(response, crossOrigin);
+
       sendJson(response, 200, { ok: true }, { ...securityHeaders(), "Set-Cookie": clearSessionCookie(localEnv()) });
       return;
     }
 
     if (request.method === "POST" && url.pathname === "/api/analyze-menu-text") {
       const webRequest = toWebRequest(request, url);
+      const crossOrigin = requireSameOrigin(webRequest, localJson);
+      if (crossOrigin) return sendWebJson(response, crossOrigin);
+
       if (!(await hasValidSession(webRequest, localEnv()))) {
         sendJson(response, 401, { error: "PRIVATE_ACCESS_REQUIRED", message: "Unauthorized access is not permitted." }, securityHeaders());
         return;
@@ -91,6 +105,9 @@ const server = createServer(async (request, response) => {
 
     if (request.method === "POST" && url.pathname === "/api/analyze-menu") {
       const webRequest = toWebRequest(request, url);
+      const crossOrigin = requireSameOrigin(webRequest, localJson);
+      if (crossOrigin) return sendWebJson(response, crossOrigin);
+
       if (!(await hasValidSession(webRequest, localEnv()))) {
         sendJson(response, 401, { error: "PRIVATE_ACCESS_REQUIRED", message: "Unauthorized access is not permitted." }, securityHeaders());
         return;
@@ -111,6 +128,9 @@ const server = createServer(async (request, response) => {
 
     if (request.method === "POST" && url.pathname === "/api/analyze-menu-image") {
       const webRequest = toWebRequest(request, url);
+      const crossOrigin = requireSameOrigin(webRequest, localJson);
+      if (crossOrigin) return sendWebJson(response, crossOrigin);
+
       if (!(await hasValidSession(webRequest, localEnv()))) {
         sendJson(response, 401, { error: "PRIVATE_ACCESS_REQUIRED", message: "Unauthorized access is not permitted." }, securityHeaders());
         return;
@@ -119,12 +139,15 @@ const server = createServer(async (request, response) => {
       if (limited) return sendWebJson(response, limited);
 
       const result = await analyzeMenuImage();
-      sendJson(response, 501, result);
+      sendJson(response, 501, result, securityHeaders());
       return;
     }
 
     if (request.method === "POST" && url.pathname === "/api/pdc-round") {
       const webRequest = toWebRequest(request, url);
+      const crossOrigin = requireSameOrigin(webRequest, localJson);
+      if (crossOrigin) return sendWebJson(response, crossOrigin);
+
       if (!(await hasValidSession(webRequest, localEnv()))) {
         sendJson(response, 401, { error: "PRIVATE_ACCESS_REQUIRED", message: "Unauthorized access is not permitted." }, securityHeaders());
         return;
@@ -134,7 +157,7 @@ const server = createServer(async (request, response) => {
 
       const body = await readJson(request);
       const result = await runPdcRound(body, {});
-      sendJson(response, result.status, result.body);
+      sendJson(response, result.status, result.body, securityHeaders());
       return;
     }
 
@@ -146,6 +169,9 @@ const server = createServer(async (request, response) => {
       "/api/clear-recent-scans",
     ].includes(url.pathname)) {
       const webRequest = toWebRequest(request, url);
+      const crossOrigin = requireSameOrigin(webRequest, localJson);
+      if (crossOrigin) return sendWebJson(response, crossOrigin);
+
       if (!(await hasValidSession(webRequest, localEnv()))) {
         sendJson(response, 401, { error: "PRIVATE_ACCESS_REQUIRED", message: "Unauthorized access is not permitted." }, securityHeaders());
         return;
@@ -160,18 +186,26 @@ const server = createServer(async (request, response) => {
     }
 
     await serveStatic(url.pathname, response);
-  } catch {
-    sendJson(response, 500, { error: "Internal server error" });
+  } catch (error) {
+    if (error?.code === "REQUEST_BODY_TOO_LARGE") {
+      sendJson(response, 413, { error: "REQUEST_BODY_TOO_LARGE", message: "Request body is too large." }, securityHeaders());
+      return;
+    }
+    if (error instanceof SyntaxError) {
+      sendJson(response, 400, { error: "INVALID_JSON", message: "Request body must be valid JSON." }, securityHeaders());
+      return;
+    }
+    sendJson(response, 500, { error: "Internal server error" }, securityHeaders());
   }
 });
 
 async function serveStatic(pathname, response) {
   const requested = pathname === "/" ? "/index.html" : pathname;
-  const safePath = normalize(requested).replace(/^(\.\.[/\\])+/, "");
-  const filePath = join(root, safePath);
+  const safePath = normalize(requested).replace(/^[/\\]+/, "");
+  const filePath = resolve(publicRoot, safePath);
 
-  if (!filePath.startsWith(root)) {
-    sendJson(response, 403, { error: "Forbidden" });
+  if (filePath !== publicRoot && !filePath.startsWith(`${publicRoot}${sep}`)) {
+    sendJson(response, 403, { error: "Forbidden" }, securityHeaders());
     return;
   }
 
@@ -179,24 +213,13 @@ async function serveStatic(pathname, response) {
     const content = await readFile(filePath);
     response.writeHead(200, {
       "Content-Type": mimeTypes[extname(filePath)] || "application/octet-stream",
+      ...securityHeaders(),
     });
     response.end(content);
   } catch {
-    const publicFilePath = join(root, "public", safePath);
-    if (publicFilePath.startsWith(join(root, "public"))) {
-      try {
-        const publicContent = await readFile(publicFilePath);
-        response.writeHead(200, {
-          "Content-Type": mimeTypes[extname(publicFilePath)] || "application/octet-stream",
-        });
-        response.end(publicContent);
-        return;
-      } catch {}
-    }
-
     if (!extname(filePath)) {
-      const content = await readFile(join(root, "index.html"));
-      response.writeHead(200, { "Content-Type": mimeTypes[".html"] });
+      const content = await readFile(join(publicRoot, "index.html"));
+      response.writeHead(200, { "Content-Type": mimeTypes[".html"], ...securityHeaders() });
       response.end(content);
       return;
     }
@@ -230,9 +253,25 @@ function toWebRequest(request, url) {
   });
 }
 
-async function readJson(request) {
+async function readJson(request, maxBytes = JSON_BODY_LIMIT_BYTES) {
+  const contentLength = Number(request.headers["content-length"] || 0);
+  if (Number.isFinite(contentLength) && contentLength > maxBytes) {
+    const error = new Error("Request body is too large.");
+    error.code = "REQUEST_BODY_TOO_LARGE";
+    throw error;
+  }
+
   const chunks = [];
-  for await (const chunk of request) chunks.push(chunk);
+  let totalBytes = 0;
+  for await (const chunk of request) {
+    totalBytes += chunk.length;
+    if (totalBytes > maxBytes) {
+      const error = new Error("Request body is too large.");
+      error.code = "REQUEST_BODY_TOO_LARGE";
+      throw error;
+    }
+    chunks.push(chunk);
+  }
   if (!chunks.length) return {};
   return JSON.parse(Buffer.concat(chunks).toString("utf8"));
 }

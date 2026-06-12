@@ -1,7 +1,10 @@
 import { json } from "../_shared/menu-analysis.js";
-import { clearSessionCookie, securityHeaders } from "../_shared/security.js";
+import { clearSessionCookie, requireSameOrigin, securityHeaders } from "../_shared/security.js";
 
-export async function onRequestPost({ env }) {
+export async function onRequestPost({ request, env }) {
+  const crossOrigin = requireSameOrigin(request, json);
+  if (crossOrigin) return crossOrigin;
+
   return json({ ok: true }, 200, {
     ...securityHeaders(),
     "Set-Cookie": clearSessionCookie(env),

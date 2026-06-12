@@ -1,7 +1,10 @@
 import { json } from "../_shared/menu-analysis.js";
-import { checkRateLimit, requirePrivateSession, securityHeaders } from "../_shared/security.js";
+import { checkRateLimit, requirePrivateSession, requireSameOrigin, securityHeaders } from "../_shared/security.js";
 
 export async function onRequestPost({ request, env }) {
+  const crossOrigin = requireSameOrigin(request, json);
+  if (crossOrigin) return crossOrigin;
+
   const unauthorized = await requirePrivateSession(request, env, json);
   if (unauthorized) return unauthorized;
 

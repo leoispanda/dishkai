@@ -1,11 +1,16 @@
 import { json } from "../_shared/menu-analysis.js";
-import { checkRateLimit, createSessionCookie, securityHeaders, verifyAccessCode } from "../_shared/security.js";
+import { checkRateLimit, createSessionCookie, readJsonBody, requireSameOrigin, securityHeaders, verifyAccessCode } from "../_shared/security.js";
 
 export async function onRequestPost({ request, env }) {
+  const crossOrigin = requireSameOrigin(request, json);
+  if (crossOrigin) return crossOrigin;
+
   const limited = checkRateLimit(request, json, "private-login", 8, 60_000);
   if (limited) return limited;
 
-  const body = await request.json().catch(() => ({}));
+  const parsed = await readJsonBody(request, json, 4096);
+  if (parsed.error) return parsed.error;
+  const body = parsed.body;
   try {
     if (!verifyAccessCode(body.accessCode, env)) {
       return json({

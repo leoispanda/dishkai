@@ -90,6 +90,7 @@ function setPrivateStatus(message, tone = "") {
 }
 
 function setPrivateAccess(granted) {
+  const wasGranted = privateAccessGranted;
   privateAccessGranted = Boolean(granted);
   document.body.classList.toggle("private-unlocked", privateAccessGranted);
   document.body.classList.toggle("private-locked", !privateAccessGranted);
@@ -101,6 +102,7 @@ function setPrivateAccess(granted) {
   });
   if (!privateAccessGranted) setStatus(t("privateDenied"), "error");
   else setStatus("");
+  if (wasGranted && !privateAccessGranted) clearPrivateLocalData();
 }
 
 async function checkPrivateAccess() {
@@ -143,8 +145,19 @@ async function clearRecentScans() {
 
 async function logoutPrivateAccess() {
   await fetch("/api/private-logout", { method: "POST" }).catch(() => {});
+  clearPrivateLocalData();
   setPrivateAccess(false);
   setPrivateStatus(t("privateLocked"), "error");
+}
+
+function clearPrivateLocalData() {
+  localStorage.removeItem("dishkai-pdc-state");
+  pdcState = { rounds: [] };
+  latestResult = null;
+  renderPdcRounds();
+  resetKnowledgeCard();
+  renderVisualMenu([]);
+  $("#menuSummary").textContent = "";
 }
 
 async function analyzeText() {
@@ -263,6 +276,7 @@ function resetKnowledgeCard() {
 
 function renderKnowledgeCard(item) {
   const card = item.card || {};
+  const imagePath = safeImagePath(card.imagePath);
   const composition = (card.composition || []).map((part) => `
     <li><span>${escapeHtml(part.name || part.role)}</span><strong>${Number(part.estimatedPercent || 0)}%</strong></li>
   `).join("") || `<li><span>—</span><strong></strong></li>`;
@@ -271,7 +285,7 @@ function renderKnowledgeCard(item) {
   const unverified = card.verified === false && card.metadataSource === "ai-fallback" ? `<p class="notice">${t("aiGenerated")}</p>` : "";
   $("#dishCard").className = "knowledge-card";
   $("#dishCard").innerHTML = `
-    <div class="knowledge-image">${card.imagePath ? `<img src="${card.imagePath}" alt="" loading="lazy">` : ""}</div>
+    <div class="knowledge-image">${imagePath ? `<img src="${escapeAttribute(imagePath)}" alt="" loading="lazy">` : ""}</div>
     <div class="knowledge-copy">
       <p class="eyebrow">${escapeHtml(card.cuisineName || item.matchStatus)}</p>
       <h3>${escapeHtml(card.familiarName || item.cleanName || item.originalName)}</h3>
@@ -551,6 +565,14 @@ function updatePdcCallEstimate() {
 
 function escapeAttribute(value) {
   return escapeHtml(value).replace(/"/g, "&quot;");
+}
+
+function safeImagePath(value) {
+  const path = String(value || "").trim();
+  if (!path) return "";
+  if (path.startsWith("/assets/dishes/")) return path;
+  if (path.startsWith("assets/dishes/")) return `/${path}`;
+  return "";
 }
 
 async function startPdcRound(event) {

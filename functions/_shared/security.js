@@ -1,5 +1,6 @@
 const SESSION_COOKIE = "dishkai_session";
 const SESSION_TTL_SECONDS = 60 * 60 * 24 * 7;
+const DEFAULT_JSON_BODY_LIMIT_BYTES = 64 * 1024;
 const rateBuckets = new Map();
 
 export function securityHeaders() {
@@ -53,6 +54,19 @@ export async function requirePrivateSession(request, env, json) {
   }, 401, securityHeaders());
 }
 
+export function requireSameOrigin(request, json) {
+  const origin = request.headers.get("Origin");
+  if (!origin) return null;
+
+  const expectedOrigin = new URL(request.url).origin;
+  if (origin === expectedOrigin) return null;
+
+  return json({
+    error: "ORIGIN_NOT_ALLOWED",
+    message: "Cross-origin requests are not permitted.",
+  }, 403, securityHeaders());
+}
+
 export function verifyAccessCode(inputCode, env) {
   const expected = requireSecret(env, "DISHKAI_PRIVATE_ACCESS_CODE");
   return timingSafeEqual(String(inputCode || ""), expected);
@@ -91,6 +105,41 @@ export function checkRateLimit(request, json, scope, limit = 20, windowMs = 60_0
     ...securityHeaders(),
     "Retry-After": String(Math.ceil((bucket.resetAt - now) / 1000)),
   });
+}
+
+export async function readJsonBody(request, json, maxBytes = DEFAULT_JSON_BODY_LIMIT_BYTES) {
+  const contentLength = Number(request.headers.get("Content-Length") || 0);
+  if (Number.isFinite(contentLength) && contentLength > maxBytes) {
+    return {
+      error: json({
+        error: "REQUEST_BODY_TOO_LARGE",
+        message: "Request body is too large.",
+      }, 413, securityHeaders()),
+    };
+  }
+
+  const text = await request.text();
+  if (new TextEncoder().encode(text).length > maxBytes) {
+    return {
+      error: json({
+        error: "REQUEST_BODY_TOO_LARGE",
+        message: "Request body is too large.",
+      }, 413, securityHeaders()),
+    };
+  }
+
+  if (!text.trim()) return { body: {} };
+
+  try {
+    return { body: JSON.parse(text) };
+  } catch {
+    return {
+      error: json({
+        error: "INVALID_JSON",
+        message: "Request body must be valid JSON.",
+      }, 400, securityHeaders()),
+    };
+  }
 }
 
 export function parseCookies(header) {
