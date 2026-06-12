@@ -116,6 +116,14 @@ function setStatus(message, tone = "") {
   el.className = `status ${tone}`.trim();
 }
 
+function focusMenuEntry() {
+  $("#menuForm")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  window.setTimeout(() => {
+    const target = inputMode === "image" ? $("#menuImage") : $("#menuText");
+    target?.focus({ preventScroll: true });
+  }, 420);
+}
+
 async function fetchJson(url, options = {}) {
   const response = await fetch(url, options);
   const text = await response.text();
@@ -208,6 +216,7 @@ async function submitPrivateAccess(event) {
   $("#privateAccessCode").value = "";
   setPrivateAccess(true);
   setPrivateStatus(t("privateUnlocked"));
+  focusMenuEntry();
 }
 
 async function clearRecentScans() {
