@@ -195,3 +195,5 @@ Codex must still ask before destructive operations, editing secrets, changing Cl
 - DishKAI v0.2.14 refreshed the public UI with an Apple-inspired glass interface: near-white luminous background, frosted panels, finer borders, softer shadows, sage primary actions, tighter app-shell spacing, glass result rows, and refined dish detail cards. Keep future UI changes compatible with the two-step legal gate and synchronized root/public files.
 
 - DishKAI v0.2.15 refined the primary button away from the saturated green gradient. Primary actions now use a restrained dark glass treatment with subtle highlight, fine border, and softer shadow to better match the premium glass UI.
+
+- DishKAI v0.2.16 added the orange cloche sparkle logo as a project SVG asset at `/assets/brand/dishkai-cloche-logo.svg`. The topbar brand mark and favicon now use this logo, with root/public asset copies kept in sync.
