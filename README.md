@@ -85,7 +85,7 @@ Privacy and misuse protections:
 - AI dish images must be labeled: “AI-generated preview. For inspiration only. Actual dish may look different.”
 - If temporary scan records are introduced later, keep `/api/clear-recent-scans` able to clear them.
 - The local Node dev server serves static files from `public/` only, so source files and local configuration are not exposed by static routes.
-- DishKAI currently does not enforce a shared daily public quota; the UI instead explains that AI scans consume Leo's API budget and asks happy users to buy him coffee someday.
+- DishKAI currently does not enforce a shared daily public quota; the footer only gives a simple approximate API-cost note for AI scans.
 - The private access-code panel is hidden from the normal public app page. Internal testing can reveal it with `?internal=1`, while backend private APIs remain protected.
 
 For local Wrangler testing, Workers AI may require:

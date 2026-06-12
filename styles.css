@@ -115,17 +115,6 @@ h1 { margin: 0; max-width: 720px; font-size: clamp(40px, 8vw, 76px); line-height
 h2 { margin: 0; font-size: clamp(26px, 5vw, 42px); line-height: 1; letter-spacing: 0; }
 h3 { margin: 0; font-size: 22px; }
 .subtitle { max-width: 680px; color: var(--muted); font-size: 17px; line-height: 1.6; }
-.private-notice {
-  max-width: 680px;
-  border-left: 3px solid var(--terra);
-  border-radius: 8px;
-  background: #fff8e8;
-  padding: 10px 14px;
-  color: var(--ink);
-  font-weight: 760;
-  line-height: 1.5;
-}
-
 .analysis-panel,
 .private-access-panel {
   display: grid;
@@ -443,6 +432,7 @@ select, input { min-height: 46px; }
 
 .footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 14px; padding: 28px clamp(18px, 5vw, 70px); border-top: 1px solid var(--line); color: var(--muted); }
 .footer.compact { font-size: 14px; }
+.footer-cost { flex-basis: 100%; font-size: 12px; }
 .empty-state { color: var(--muted); }
 
 .pdc-section {

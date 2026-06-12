@@ -100,7 +100,7 @@ Key architecture:
 - PDC main flow is now council-first: choose Product Council or Personal PDC Council, select role cards, inspect role details, then choose independent speaking or automatic grouping.
 - Automatic grouping uses simple round-robin assignment with user-selected group count; fixed three-team templates are no longer the main UI path.
 - DishKAI is now public beta for core menu recognition, while PDC and internal/private actions remain Leo/Cindy-only.
-- Public homepage should state that AI scans cost Leo a small API fee and invite happy users to buy Leo coffee someday.
+- Public footer should state that AI scans have a small approximate API cost. Do not use guilt-framed donation language.
 - Private tools require server-side access-code verification through `DISHKAI_PRIVATE_ACCESS_CODE` and a signed httpOnly session cookie using `DISHKAI_SESSION_SECRET`.
 - Upload, recognition, PDC, image generation, and database-write APIs should be protected server-side and rate limited.
 - Uploaded menu images should not be permanently stored by default; process temporarily and store only structured dish data after Leo/Cindy manually confirms.
@@ -176,7 +176,7 @@ Codex must still ask before destructive operations, editing secrets, changing Cl
 
 - DishKAI v0.2.5 added explicit frontend cache busting after Leo saw an old `v0.2.2` app version in the browser after a push. `index.html` and `public/index.html` now reference `styles.css?v=0.2.5` and `script.js?v=0.2.5`, and `public/_headers` requires revalidation for core frontend files. Future version bumps must update these query versions too.
 
-- DishKAI v0.2.6 opened the core menu recognition flow to public beta without a shared daily quota. Text/photo menu analysis no longer requires private login, but same-origin checks and per-IP short-window rate limits remain. PDC and internal/private actions stay behind Leo/Cindy private access. The homepage now tells users AI scans cost Leo a small API fee and asks happy users to buy him coffee someday.
+- DishKAI v0.2.6 opened the core menu recognition flow to public beta without a shared daily quota. Text/photo menu analysis no longer requires private login, but same-origin checks and per-IP short-window rate limits remain. PDC and internal/private actions stay behind Leo/Cindy private access.
 
 - DishKAI v0.2.7 changed the unmatched-dish backlog to background-only collection. Unmatched and AI-generated items are still saved locally under `dishkai-unmatched-dish-backlog-v1`, but the public visual menu no longer renders the Coverage Backlog panel, copy action, clear action, or "saved for later" status text. Future batch-generation tooling should expose this only through a private/admin path.
 
@@ -185,3 +185,5 @@ Codex must still ask before destructive operations, editing secrets, changing Cl
 - DishKAI v0.2.9 removed the private access-code panel from the default public start experience. The first public action is now the disclaimer/privacy-risk acknowledgement inside the menu form. The private panel is still available for internal testing with `?internal=1`, and backend private APIs remain protected.
 
 - DishKAI v0.2.10 changed public onboarding to a real two-step flow. First-time users see only the standalone disclaimer/privacy-risk gate; after checking the acceptance box and clicking "Enter DishKAI", the full menu tool appears. The acceptance remains stored locally for return visits.
+
+- DishKAI v0.2.11 removed guilt-framed API-cost wording from the hero. The public app now places a small footer note with approximate API cost only: usually within a few cents per AI scan depending on menu length and image size.
