@@ -23,12 +23,18 @@ Text input works with starter metadata. Image analysis returns a graceful fallba
 
 Deploy the `public` directory. Root files and `public/` copies are kept synchronized for Pages deployment.
 
-Cloudflare Pages Functions live under `functions/api/` and call Workers AI from the backend through the `AI` binding when available.
+Cloudflare Pages Functions live under `functions/api/` and call AI providers only from the backend. Menu extraction prefers OpenAI when `DISHKAI_AI_API_KEY` is configured, then falls back to the Cloudflare Workers AI `AI` binding when available.
 
 Required Cloudflare secrets:
 
 - `DISHKAI_PRIVATE_ACCESS_CODE`: private access code for Leo/Cindy. Do not hardcode this in frontend code.
 - `DISHKAI_SESSION_SECRET`: strong random session signing secret for the `dishkai_session` httpOnly cookie.
+- `DISHKAI_AI_API_KEY`: OpenAI API key used server-side for higher-quality menu extraction and optional unmatched-dish estimates.
+
+Optional Cloudflare variables:
+
+- `DISHKAI_AI_MODEL`: OpenAI model for menu AI. Defaults to `gpt-5.4-mini`. `OPENAI_MODEL` is also accepted as a compatibility alias.
+- `DISHKAI_ENABLE_AI_FALLBACK`: set to `true` only when unmatched menu items should receive temporary, unverified AI estimate cards.
 
 Current API endpoints:
 

@@ -143,3 +143,5 @@ Codex must still ask before destructive operations, editing secrets, changing Cl
 - Real restaurant coverage should use two layers: verified DishKAI metadata for high-frequency dishes, plus AI fallback cards for unmatched menu items. AI fallback must remain temporary, unverified, and clearly labeled as metadataSource: ai-fallback.
 
 - AI fallback is disabled by default and should only run when `DISHKAI_ENABLE_AI_FALLBACK` is explicitly set to `true`; without that flag, unmatched dishes remain clearly marked as not yet in the starter database.
+
+- DishKAI menu AI now prefers OpenAI when `DISHKAI_AI_API_KEY` is configured. The model defaults to `gpt-5.4-mini`, can be overridden with `DISHKAI_AI_MODEL`, and accepts `OPENAI_MODEL` as a compatibility alias; Workers AI remains a fallback.

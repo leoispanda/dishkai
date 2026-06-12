@@ -1,10 +1,12 @@
 import { metadata } from "../../data/internal/index.js";
 
 export const TEXT_MODEL = "@cf/meta/llama-3.1-8b-instruct";
+export const DEFAULT_OPENAI_MODEL = "gpt-5.4-mini";
 export const VISION_MODEL = "";
 
 const MAX_MENU_TEXT_LENGTH = 12000;
 const AI_FALLBACK_MAX_ITEMS = 30;
+const OPENAI_CHAT_COMPLETIONS_URL = "https://api.openai.com/v1/chat/completions";
 
 export const iconTags = {
   "signature-dish": { icon: "⭐", en: "Signature", zh: "代表菜", nl: "Signatuur" },
@@ -128,10 +130,53 @@ menuText:
 ${menuText}`;
 }
 
+function openAiModel(env) {
+  return String(env?.DISHKAI_AI_MODEL || env?.OPENAI_MODEL || DEFAULT_OPENAI_MODEL).trim() || DEFAULT_OPENAI_MODEL;
+}
+
+function hasOpenAiApiKey(env) {
+  return Boolean(String(env?.DISHKAI_AI_API_KEY || "").trim());
+}
+
+async function runOpenAiJson(prompt, env, { maxTokens = 1200, temperature = 0.1 } = {}) {
+  const response = await fetch(OPENAI_CHAT_COMPLETIONS_URL, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${env.DISHKAI_AI_API_KEY}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      model: openAiModel(env),
+      messages: [
+        { role: "system", content: "Return valid JSON only. Do not include markdown." },
+        { role: "user", content: prompt },
+      ],
+      response_format: { type: "json_object" },
+      max_tokens: maxTokens,
+      temperature,
+    }),
+  });
+
+  if (!response.ok) {
+    const errorText = await response.text().catch(() => "");
+    throw new Error(`OpenAI request failed: ${response.status} ${errorText.slice(0, 220)}`);
+  }
+
+  return response.json();
+}
+
 function extractJsonObject(value) {
-  const text = typeof value === "string" ? value : String(value?.response || value?.result || "");
+  const text = typeof value === "string"
+    ? value
+    : String(
+      value?.choices?.[0]?.message?.content
+        || value?.output_text
+        || value?.response
+        || value?.result
+        || "",
+    );
   const match = text.match(/\{[\s\S]*\}/);
-  if (!match) throw new Error("Workers AI did not return JSON.");
+  if (!match) throw new Error("AI did not return JSON.");
   return JSON.parse(match[0]);
 }
 
@@ -153,7 +198,26 @@ function cleanExtractedItems(value, fallbackItems) {
 
 async function extractItems(menuText, sourceLanguage, targetLanguage, env) {
   const fallbackItems = splitMenuText(menuText);
-  if (!env?.AI || !fallbackItems.length) return { items: fallbackItems, extractionSource: "local-fallback" };
+  if (!fallbackItems.length) return { items: fallbackItems, extractionSource: "local-fallback" };
+
+  if (hasOpenAiApiKey(env)) {
+    try {
+      const aiResult = await runOpenAiJson(
+        buildExtractionPrompt(menuText, sourceLanguage, targetLanguage),
+        env,
+        { maxTokens: 900, temperature: 0.1 },
+      );
+      return {
+        items: cleanExtractedItems(extractJsonObject(aiResult), fallbackItems),
+        extractionSource: "openai",
+        model: openAiModel(env),
+      };
+    } catch (error) {
+      console.error("DishKAI OpenAI text extraction failed, trying next fallback:", error);
+    }
+  }
+
+  if (!env?.AI) return { items: fallbackItems, extractionSource: "local-fallback" };
 
   try {
     const aiResult = await env.AI.run(TEXT_MODEL, {
@@ -167,7 +231,7 @@ async function extractItems(menuText, sourceLanguage, targetLanguage, env) {
       model: TEXT_MODEL,
     };
   } catch (error) {
-    console.error("DishKAI text extraction failed, using local fallback:", error);
+    console.error("DishKAI Workers AI text extraction failed, using local fallback:", error);
     return { items: fallbackItems, extractionSource: "local-fallback" };
   }
 }
@@ -399,26 +463,44 @@ function aiFallbackEnabled(env) {
 }
 
 async function buildAiFallbackCards(unmatchedItems, targetLanguage, env) {
-  if (!aiFallbackEnabled(env) || !env?.AI || !unmatchedItems.length) return new Map();
+  if (!aiFallbackEnabled(env) || !unmatchedItems.length) return { cards: new Map(), source: "none" };
   const targetItems = unmatchedItems.slice(0, AI_FALLBACK_MAX_ITEMS);
+  const prompt = buildAiFallbackPrompt(targetItems, targetLanguage);
+  const maxTokens = Math.min(3500, 650 + targetItems.length * 260);
 
   try {
-    const aiResult = await env.AI.run(TEXT_MODEL, {
-      prompt: buildAiFallbackPrompt(targetItems, targetLanguage),
-      max_tokens: Math.min(3500, 650 + targetItems.length * 260),
-      temperature: 0.25,
-    });
+    let aiResult;
+    let source;
+    let model;
+
+    if (hasOpenAiApiKey(env)) {
+      aiResult = await runOpenAiJson(prompt, env, { maxTokens, temperature: 0.25 });
+      source = "openai";
+      model = openAiModel(env);
+    } else if (env?.AI) {
+      aiResult = await env.AI.run(TEXT_MODEL, {
+        prompt,
+        max_tokens: maxTokens,
+        temperature: 0.25,
+      });
+      source = "workers-ai";
+      model = TEXT_MODEL;
+    } else {
+      return { cards: new Map(), source: "none" };
+    }
+
     const parsed = extractJsonObject(aiResult);
-    const cards = Array.isArray(parsed.cards) ? parsed.cards : [];
-    return new Map(cards.map((card) => {
+    const rawCards = Array.isArray(parsed.cards) ? parsed.cards : [];
+    const cards = new Map(rawCards.map((card) => {
       const orderIndex = Number(card.orderIndex);
       const item = targetItems.find((candidate) => candidate.orderIndex === orderIndex);
       if (!item) return null;
       return [orderIndex, cleanAiFallbackCard(card, item, targetLanguage)];
     }).filter(Boolean));
+    return { cards, source: cards.size ? source : "none", model: cards.size ? model : undefined };
   } catch (error) {
     console.error("DishKAI AI fallback failed, keeping unmatched cards:", error);
-    return new Map();
+    return { cards: new Map(), source: "none" };
   }
 }
 
@@ -458,13 +540,13 @@ export async function analyzeMenuText({ menuText, sourceLanguage = "auto", targe
       card: buildCard(dish, item.originalName, targetLanguage),
     };
   });
-  const aiFallbackCards = await buildAiFallbackCards(
+  const aiFallback = await buildAiFallbackCards(
     matchedItems.filter((item) => item.matchStatus === "unmatched"),
     targetLanguage,
     env,
   );
   const items = matchedItems.map((item) => {
-    const aiCard = aiFallbackCards.get(item.orderIndex);
+    const aiCard = aiFallback.cards.get(item.orderIndex);
     if (!aiCard) return item;
     return {
       ...item,
@@ -480,8 +562,8 @@ export async function analyzeMenuText({ menuText, sourceLanguage = "auto", targe
     targetLanguage,
     extractionSource: extraction.extractionSource,
     model: extraction.model,
-    aiFallbackSource: aiFallbackCards.size ? "workers-ai" : "none",
-    aiFallbackModel: aiFallbackCards.size ? TEXT_MODEL : undefined,
+    aiFallbackSource: aiFallback.source,
+    aiFallbackModel: aiFallback.model,
     privacy: {
       uploadedImagesStored: false,
       note: "DishKAI does not permanently store uploaded menu images by default. Store only structured dish data after Leo/Cindy manually confirms.",

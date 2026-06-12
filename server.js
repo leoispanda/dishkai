@@ -83,7 +83,7 @@ const server = createServer(async (request, response) => {
         menuText: body.menuText,
         sourceLanguage: body.sourceLanguage || "auto",
         targetLanguage: body.targetLanguage || "en",
-        env: {},
+        env: localEnv(),
       });
       sendJson(response, result.ok ? 200 : 400, result, securityHeaders());
       return;
@@ -103,7 +103,7 @@ const server = createServer(async (request, response) => {
         menuText: body.menuText || body.text || "",
         sourceLanguage: "auto",
         targetLanguage: body.targetLanguage || "en",
-        env: {},
+        env: localEnv(),
       });
       sendJson(response, result.ok ? 200 : 400, result, securityHeaders());
       return;
