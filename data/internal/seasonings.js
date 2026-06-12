@@ -45,6 +45,7 @@ export const seasonings = [
   seasoning("parsley", "300013", "parsley", "欧芹", "peterselie", ["fresh", "herbal"], "parsley-fresh-herbal", []),
   seasoning("dill", "300014", "dill", "莳萝", "dille", ["fresh", "herbal"], "dill-fresh-grassy", []),
   seasoning("cinnamon", "300015", "cinnamon", "肉桂", "kaneel", ["warm", "sweet"], "cinnamon-warm-sweet-spice", []),
+  seasoning("maple-syrup", "300016", "maple syrup", "枫糖浆", "ahornsiroop", ["sweet", "caramel"], "maple-warm-caramel-sweetness", []),
   seasoning("tahini", "320001", "tahini", "芝麻酱", "tahini", ["nutty", "creamy"], "tahini-sesame-creamy", ["sesame"]),
   seasoning("harissa", "324001", "harissa", "哈里萨辣酱", "harissa", ["spicy", "smoky"], "harissa-smoky-chili", []),
   seasoning("smoked-paprika", "305001", "smoked paprika", "烟熏红椒粉", "gerookt paprikapoeder", ["smoky", "warm"], "smoked-paprika-warm-smoke", []),
