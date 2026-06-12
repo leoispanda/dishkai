@@ -272,6 +272,44 @@ function flavorSourceDisplay(id, targetLanguage) {
   return localize(source?.names, targetLanguage) || id;
 }
 
+const allergenRiskMap = {
+  peanut: "contains-peanut",
+  egg: "contains-egg",
+  shellfish: "contains-shellfish",
+  fish: "contains-fish",
+  dairy: "contains-dairy",
+  gluten: "contains-gluten",
+  soy: "contains-soy",
+  sesame: "contains-sesame",
+};
+
+const porkIngredientIds = new Set([
+  "pork", "bacon", "pork-cutlet", "sausage", "smoked-sausage", "minced-pork", "guanciale-or-pancetta",
+]);
+const glutenIngredientIds = new Set([
+  "pasta", "spaghetti", "pasta-sheets", "pizza-dough", "wheat-flour", "bread", "ladyfingers",
+  "potato-gnocchi", "ravioli-dough", "ramen-noodles", "tempura-batter", "dumpling-wrapper",
+  "wheat-noodles", "egg-noodles", "pretzel-dough", "pastry-crust", "pancake-batter", "waffle-batter",
+]);
+const rawFishIngredientIds = new Set(["raw-fish", "raw-herring"]);
+
+function riskFlagsForDish(dish) {
+  const riskIds = new Set(dish.riskFlags || []);
+  (dish.composition || []).forEach((component) => {
+    const source = component.itemType === "seasoning"
+      ? seasoningById.get(component.itemId)
+      : ingredientById.get(component.itemId);
+    (source?.allergens || []).forEach((allergen) => {
+      const riskId = allergenRiskMap[allergen];
+      if (riskId) riskIds.add(riskId);
+    });
+    if (porkIngredientIds.has(component.itemId)) riskIds.add("contains-pork");
+    if (glutenIngredientIds.has(component.itemId)) riskIds.add("contains-gluten");
+    if (rawFishIngredientIds.has(component.itemId)) riskIds.add("contains-raw-fish");
+  });
+  return [...riskIds];
+}
+
 function riskDisplay(id, targetLanguage) {
   const risk = riskById.get(id);
   return localize(risk?.names, targetLanguage) || id;
@@ -288,8 +326,24 @@ function tagLabel(tagId, targetLanguage) {
   return { id: tagId, icon: tag.icon, label: tag[targetLanguage] || tag.en };
 }
 
+function localizedVariations(dish, targetLanguage) {
+  return (dish.commonVariations || []).map((variation) => ({
+    label: localize(variation.label, targetLanguage),
+    note: localize(variation.note, targetLanguage),
+  })).filter((variation) => variation.label || variation.note);
+}
+
+function verifiedVisualNote(targetLanguage) {
+  return localize({
+    en: "Visual reference only. Actual dish may vary by restaurant.",
+    zh: "图片仅供参考。实际出品会因餐厅而异。",
+    nl: "Alleen visuele referentie. Het gerecht kan per restaurant verschillen.",
+  }, targetLanguage);
+}
+
 export function deriveIconTagIds(dish) {
   const tagIds = [];
+  const riskFlags = riskFlagsForDish(dish);
   if (dish.cuisineRole?.level === "signature") tagIds.push("signature-dish");
   if (dish.cuisineRole?.level === "classic") tagIds.push("classic-dish");
   if (dish.cuisineRole?.level === "regional") tagIds.push("regional-dish");
@@ -298,15 +352,15 @@ export function deriveIconTagIds(dish) {
   if (dish.cuisineRole?.tags?.includes("internationally-known")) tagIds.push("internationally-known");
   if (dish.goodForTags?.includes("safe-choice")) tagIds.push("safe-choice");
   if (dish.category) tagIds.push(dish.category);
-  if (dish.riskFlags?.includes("contains-peanut")) tagIds.push("contains-peanut");
-  if (dish.riskFlags?.includes("contains-egg")) tagIds.push("contains-egg");
-  if (dish.riskFlags?.includes("contains-shellfish")) tagIds.push("contains-shellfish");
-  if (dish.riskFlags?.includes("contains-gluten")) tagIds.push("contains-gluten");
-  if (dish.riskFlags?.includes("contains-soy")) tagIds.push("contains-soy");
-  if (dish.riskFlags?.includes("contains-fish")) tagIds.push("contains-fish");
-  if (dish.riskFlags?.includes("contains-sesame")) tagIds.push("contains-sesame");
-  if (dish.riskFlags?.includes("contains-pork")) tagIds.push("contains-pork");
-  if (dish.riskFlags?.includes("contains-raw-fish")) tagIds.push("contains-raw-fish");
+  if (riskFlags.includes("contains-peanut")) tagIds.push("contains-peanut");
+  if (riskFlags.includes("contains-egg")) tagIds.push("contains-egg");
+  if (riskFlags.includes("contains-shellfish")) tagIds.push("contains-shellfish");
+  if (riskFlags.includes("contains-gluten")) tagIds.push("contains-gluten");
+  if (riskFlags.includes("contains-soy")) tagIds.push("contains-soy");
+  if (riskFlags.includes("contains-fish")) tagIds.push("contains-fish");
+  if (riskFlags.includes("contains-sesame")) tagIds.push("contains-sesame");
+  if (riskFlags.includes("contains-pork")) tagIds.push("contains-pork");
+  if (riskFlags.includes("contains-raw-fish")) tagIds.push("contains-raw-fish");
   if (dish.tasteProfile?.basic?.some((taste) => String(taste).includes("spicy"))) tagIds.push("spicy");
   if (dish.tasteProfile?.basic?.some((taste) => ["sour", "tangy"].includes(taste))) tagIds.push("tangy");
   if (dish.tasteProfile?.basic?.includes("sweet")) tagIds.push("sweet");
@@ -315,6 +369,7 @@ export function deriveIconTagIds(dish) {
 
 function buildCard(dish, originalName, targetLanguage) {
   const cuisine = cuisineById.get(dish.cuisineId);
+  const riskFlags = riskFlagsForDish(dish);
   return {
     originalName,
     familiarName: itemDisplayName(dish, targetLanguage),
@@ -338,10 +393,11 @@ function buildCard(dish, originalName, targetLanguage) {
     basicTaste: dish.tasteProfile?.basic || [],
     distinctiveFlavorSources: (dish.distinctiveFlavorSources || []).map((id) => flavorSourceDisplay(id, targetLanguage)),
     texture: dish.textureProfile || [],
-    watchOuts: (dish.riskFlags || []).map((id) => riskDisplay(id, targetLanguage)),
+    watchOuts: riskFlags.map((id) => riskDisplay(id, targetLanguage)),
     dietaryNotes: dish.dietaryFlags || [],
+    commonVariations: localizedVariations(dish, targetLanguage),
     visualDisclaimer: localize(dish.visualDisclaimer, targetLanguage),
-    aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.",
+    aiImageLabel: verifiedVisualNote(targetLanguage),
     iconTags: deriveIconTagIds(dish).map((id) => tagLabel(id, targetLanguage)),
     metadataSource: "dishkai-database",
     verified: true,

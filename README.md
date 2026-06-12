@@ -19,6 +19,17 @@ The local Node server supports the same starter text-analysis pipeline as the Pa
 
 Text input works with starter metadata. Image analysis returns a graceful fallback until Cloudflare Workers AI vision/OCR support is wired.
 
+
+## Metadata coverage
+
+DishKAI's internal verified metadata currently includes 163 dishes and 520 aliases across Thai, Japanese, Korean, Chinese, Italian, French, German, Dutch, and Belgian cuisine coverage.
+
+Validate metadata integrity with:
+
+```bash
+npm run validate:metadata
+```
+
 ## Cloudflare Pages
 
 Deploy the `public` directory. Root files and `public/` copies are kept synchronized for Pages deployment.

@@ -1,3 +1,24 @@
+const commonVariations = {
+  "carbonara": [
+    {
+      label: { en: "authentic", zh: "传统做法", nl: "authentiek" },
+      note: {
+        en: "Guanciale, pecorino, egg, black pepper, and no cream.",
+        zh: "正统版本通常是猪颊肉、佩科里诺、鸡蛋和黑胡椒，不加奶油。",
+        nl: "Guanciale, pecorino, ei, zwarte peper en geen room.",
+      },
+    },
+    {
+      label: { en: "restaurant variation", zh: "餐厅常见变体", nl: "restaurantvariant" },
+      note: {
+        en: "Cream may be added outside Italy.",
+        zh: "意大利以外的餐厅可能会加入奶油。",
+        nl: "Buiten Italië kan room worden toegevoegd.",
+      },
+    },
+  ],
+};
+
 const cookingProfiles = {
   "carbonara": {
     en: "Boiled pasta is tossed with egg, cheese, cured pork, and black pepper into a silky, rich sauce.",
@@ -114,6 +135,7 @@ function dish(id, metadataCode, en, zh, nl, category, cookingMethods, compositio
       nl: `${nl} is een klassiek Italiaans gerecht met een helder bestelprofiel.`,
     },
     cookingProfile: cookingProfiles[id],
+    commonVariations: commonVariations[id] || [],
     cuisineRole: {
       level: ["carbonara", "margherita-pizza", "lasagna", "risotto", "tiramisu"].includes(id) ? "classic" : "common",
       tags: ["classic", "internationally-known"],

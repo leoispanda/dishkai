@@ -145,3 +145,5 @@ Codex must still ask before destructive operations, editing secrets, changing Cl
 - AI fallback is disabled by default and should only run when `DISHKAI_ENABLE_AI_FALLBACK` is explicitly set to `true`; without that flag, unmatched dishes remain clearly marked as not yet in the starter database.
 
 - DishKAI menu AI now prefers OpenAI when `DISHKAI_AI_API_KEY` is configured. The model defaults to `gpt-5.4-mini`, can be overridden with `DISHKAI_AI_MODEL`, and accepts `OPENAI_MODEL` as a compatibility alias; Workers AI remains a fallback.
+
+- Expanded DishKAI verified metadata coverage with a V1 high-frequency restaurant layer for the existing registered cuisines. Risk display now infers common allergens/dietary watch-outs from composition, and verified dish cards use visual-reference wording instead of AI-preview wording.

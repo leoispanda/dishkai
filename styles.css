@@ -320,6 +320,25 @@ select, input { min-height: 46px; }
   border-bottom: 1px solid var(--line);
   padding-bottom: 6px;
 }
+.variation-list {
+  display: grid;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.variation-list li {
+  display: grid;
+  gap: 2px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 8px;
+}
+.variation-list strong {
+  color: var(--ink);
+}
+.variation-list span {
+  color: var(--muted);
+}
 
 .footer { display: flex; justify-content: space-between; gap: 14px; padding: 28px clamp(18px, 5vw, 70px); border-top: 1px solid var(--line); color: var(--muted); }
 .footer.compact { font-size: 14px; }

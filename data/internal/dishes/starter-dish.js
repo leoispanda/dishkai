@@ -33,6 +33,7 @@ export function starterDish(config) {
         nl: "Een nuttig referentiegerecht in de startdatabase voor het herkennen van deze keuken op menu's.",
       },
     },
+    commonVariations: config.commonVariations || [],
     composition: (config.composition || []).map((component, index) => ({
       itemId: component[0],
       estimatedPercent: component[1],
