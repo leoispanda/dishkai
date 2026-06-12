@@ -165,3 +165,7 @@ Codex must still ask before destructive operations, editing secrets, changing Cl
 - Added generated visual-reference assets for all 58 verified Greek dishes. Greek dish metadata now follows the dish image convention `/assets/dishes/main/{metadataCode}-{dishId}.webp` and `/assets/dishes/thumb/{metadataCode}-{dishId}.webp`, with 800x800 main images and 320x320 thumbnails.
 
 - Added generated visual-reference assets for every verified DishKAI dish. All 443 dishes now have `/assets/dishes/main/{metadataCode}-{dishId}.webp` and `/assets/dishes/thumb/{metadataCode}-{dishId}.webp`; `starterDish` defaults to this naming convention, so new verified dishes should get matching image files before being marked ready. Placeholder image usage should now be 0 for verified dishes.
+
+- Menu matching now first extracts/uses short real-dish candidates (`canonicalCandidate` / `matchCandidates`) before metadata alias lookup, so restaurant lines like `Caprese | pomodori | mozzarella...` can match verified Caprese while broad ingredient lines like plain `Salmon` do not incorrectly match unrelated dishes. Current alias count is 1476.
+
+- Versioning rule: for future deliverable DishKAI changes, update the visible app version in both root `script.js` and `public/script.js`, keep `package.json` version aligned, and explicitly tell Leo the new version number in the final response.

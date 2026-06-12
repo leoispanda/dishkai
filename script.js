@@ -1,4 +1,4 @@
-const APP_VERSION = "DishKAI v0.2.1-private-beta";
+const APP_VERSION = "DishKAI v0.2.2-private-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
 const MENU_IMAGE_MAX_EDGE = 1800;
