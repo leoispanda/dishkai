@@ -147,3 +147,5 @@ Codex must still ask before destructive operations, editing secrets, changing Cl
 - DishKAI menu AI now prefers OpenAI when `DISHKAI_AI_API_KEY` is configured. The model defaults to `gpt-5.4-mini`, can be overridden with `DISHKAI_AI_MODEL`, and accepts `OPENAI_MODEL` as a compatibility alias; Workers AI remains a fallback.
 
 - Expanded DishKAI verified metadata coverage with a V1 high-frequency restaurant layer for the existing registered cuisines. Risk display now infers common allergens/dietary watch-outs from composition, and verified dish cards use visual-reference wording instead of AI-preview wording.
+
+- Added world restaurant coverage V1: 18 additional cuisines and 216 more verified high-frequency dishes, bringing the internal database to 379 dishes and 1086 aliases. Core metadata remains repo-versioned; R2 is still only for images/uploads, not dish knowledge.

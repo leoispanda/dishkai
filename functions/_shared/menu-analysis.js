@@ -43,6 +43,7 @@ export const iconTags = {
   "contains-sesame": { icon: "⚪", en: "Sesame", zh: "芝麻", nl: "Sesam" },
   "contains-pork": { icon: "🥓", en: "Pork", zh: "猪肉", nl: "Varkensvlees" },
   "contains-raw-fish": { icon: "🐟", en: "Raw fish", zh: "生鱼", nl: "Rauwe vis" },
+  "contains-tree-nut": { icon: "◦", en: "Tree nut", zh: "坚果", nl: "Noten" },
   spicy: { icon: "🌶️", en: "Spicy", zh: "辣", nl: "Pittig" },
   tangy: { icon: "🍋", en: "Tangy", zh: "酸香", nl: "Friszuur" },
   sweet: { icon: "🍯", en: "Sweet", zh: "甜", nl: "Zoet" },
@@ -281,6 +282,7 @@ const allergenRiskMap = {
   gluten: "contains-gluten",
   soy: "contains-soy",
   sesame: "contains-sesame",
+  "tree-nut": "contains-tree-nut",
 };
 
 const porkIngredientIds = new Set([
@@ -290,8 +292,9 @@ const glutenIngredientIds = new Set([
   "pasta", "spaghetti", "pasta-sheets", "pizza-dough", "wheat-flour", "bread", "ladyfingers",
   "potato-gnocchi", "ravioli-dough", "ramen-noodles", "tempura-batter", "dumpling-wrapper",
   "wheat-noodles", "egg-noodles", "pretzel-dough", "pastry-crust", "pancake-batter", "waffle-batter",
+  "tortilla", "pita", "couscous", "brioche-bun",
 ]);
-const rawFishIngredientIds = new Set(["raw-fish", "raw-herring"]);
+const rawFishIngredientIds = new Set(["raw-fish", "raw-herring", "raw-white-fish"]);
 
 function riskFlagsForDish(dish) {
   const riskIds = new Set(dish.riskFlags || []);
@@ -361,6 +364,7 @@ export function deriveIconTagIds(dish) {
   if (riskFlags.includes("contains-sesame")) tagIds.push("contains-sesame");
   if (riskFlags.includes("contains-pork")) tagIds.push("contains-pork");
   if (riskFlags.includes("contains-raw-fish")) tagIds.push("contains-raw-fish");
+  if (riskFlags.includes("contains-tree-nut")) tagIds.push("contains-tree-nut");
   if (dish.tasteProfile?.basic?.some((taste) => String(taste).includes("spicy"))) tagIds.push("spicy");
   if (dish.tasteProfile?.basic?.some((taste) => ["sour", "tangy"].includes(taste))) tagIds.push("tangy");
   if (dish.tasteProfile?.basic?.includes("sweet")) tagIds.push("sweet");

@@ -12,4 +12,5 @@ export const riskFlags = [
   { id: "contains-alcohol", metadataCode: "600011", names: { en: "Alcohol used", zh: "使用酒类", nl: "Alcohol gebruikt" } },
   { id: "contains-pork", metadataCode: "600012", names: { en: "Pork", zh: "猪肉", nl: "Varkensvlees" } },
   { id: "contains-raw-fish", metadataCode: "600013", names: { en: "Raw fish", zh: "生鱼", nl: "Rauwe vis" }, allergen: "fish" },
+  { id: "contains-tree-nut", metadataCode: "600014", names: { en: "Tree nut", zh: "坚果", nl: "Noten" }, allergen: "tree-nut" },
 ];

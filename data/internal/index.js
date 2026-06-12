@@ -8,6 +8,7 @@ import { cookingMethods } from "./cooking-methods.js";
 import { riskFlags } from "./risk-flags.js";
 import { dishAliases as baseDishAliases } from "./dish-aliases.js";
 import { expandedDishAliases } from "./expanded-dish-aliases.js";
+import { worldDishAliases } from "./world-dish-aliases.js";
 import { belgianDishes } from "./dishes/belgian.js";
 import { chineseDishes } from "./dishes/chinese.js";
 import { dutchDishes } from "./dishes/dutch.js";
@@ -15,6 +16,7 @@ import { frenchDishes } from "./dishes/french.js";
 import { germanDishes } from "./dishes/german.js";
 import { italianDishes } from "./dishes/italian.js";
 import { expandedDishes } from "./dishes/expanded-dishes.js";
+import { worldDishes } from "./dishes/world-dishes.js";
 import { japaneseDishes } from "./dishes/japanese.js";
 import { koreanDishes } from "./dishes/korean.js";
 import { thaiDishes } from "./dishes/thai.js";
@@ -22,6 +24,7 @@ import { thaiDishes } from "./dishes/thai.js";
 export const dishAliases = [
   ...baseDishAliases,
   ...expandedDishAliases,
+  ...worldDishAliases,
 ];
 
 export {
@@ -46,6 +49,7 @@ export const dishes = [
   ...dutchDishes,
   ...belgianDishes,
   ...expandedDishes,
+  ...worldDishes,
 ];
 
 export const metadata = {
