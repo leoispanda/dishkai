@@ -1,6 +1,6 @@
 import { createServer } from "node:http";
-import { readFile } from "node:fs/promises";
-import { extname, join, normalize, resolve, sep } from "node:path";
+import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { dirname, extname, join, normalize, resolve, sep } from "node:path";
 import { MAX_MENU_IMAGE_BYTES, analyzeMenuImage, analyzeMenuText } from "./functions/_shared/menu-analysis.js";
 import { runPdcRound } from "./functions/_shared/pdc-engine.js";
 import {
@@ -12,15 +12,26 @@ import {
   securityHeaders,
   verifyAccessCode,
 } from "./functions/_shared/security.js";
+import {
+  UNMATCHED_DISH_AGGREGATE_KEY,
+  clearUnmatchedDishBacklog,
+  readUnmatchedDishBacklog,
+  recordUnmatchedDishes,
+} from "./functions/_shared/unmatched-dishes.js";
 
 const root = process.cwd();
 const publicRoot = join(root, "public");
 const port = Number(process.env.PORT || 3000);
 const host = process.env.HOST || "127.0.0.1";
 const JSON_BODY_LIMIT_BYTES = 64 * 1024;
+const localUnmatchedDishesPath = join(root, "data", "private", "unmatched-dish-backlog.json");
 
 function localEnv() {
-  return { ...process.env, DISHKAI_LOCAL_DEV: "true" };
+  return {
+    ...process.env,
+    DISHKAI_LOCAL_DEV: "true",
+    DISHKAI_UNMATCHED_DISHES: localUnmatchedDishStore(),
+  };
 }
 
 const mimeTypes = {
@@ -95,6 +106,7 @@ const server = createServer(async (request, response) => {
         targetLanguage: body.targetLanguage || "en",
         env: localEnv(),
       });
+      if (result.ok) await recordUnmatchedDishes({ result, env: localEnv(), sourceType: "text" });
       sendJson(response, result.ok ? 200 : 400, result, securityHeaders());
       return;
     }
@@ -114,6 +126,7 @@ const server = createServer(async (request, response) => {
         targetLanguage: body.targetLanguage || "en",
         env: localEnv(),
       });
+      if (result.ok) await recordUnmatchedDishes({ result, env: localEnv(), sourceType: "text" });
       sendJson(response, result.ok ? 200 : 400, result, securityHeaders());
       return;
     }
@@ -133,7 +146,28 @@ const server = createServer(async (request, response) => {
         targetLanguage: formData.get("targetLanguage") || "en",
         env: localEnv(),
       });
+      if (result.ok) await recordUnmatchedDishes({ result, env: localEnv(), sourceType: "image" });
       sendJson(response, result.ok ? 200 : result.statusCode || 400, result, securityHeaders());
+      return;
+    }
+
+    if (["GET", "DELETE"].includes(request.method) && url.pathname === "/api/unmatched-dishes") {
+      const webRequest = toWebRequest(request, url);
+      const crossOrigin = requireSameOrigin(webRequest, localJson);
+      if (crossOrigin) return sendWebJson(response, crossOrigin);
+
+      if (!(await hasValidSession(webRequest, localEnv()))) {
+        sendJson(response, 401, { error: "PRIVATE_ACCESS_REQUIRED", message: "Unauthorized access is not permitted." }, securityHeaders());
+        return;
+      }
+
+      const limited = checkRateLimit(webRequest, localJson, request.method === "DELETE" ? "unmatched-dishes-clear" : "unmatched-dishes", request.method === "DELETE" ? 5 : 20, 60_000);
+      if (limited) return sendWebJson(response, limited);
+
+      const result = request.method === "DELETE"
+        ? await clearUnmatchedDishBacklog(localEnv())
+        : await readUnmatchedDishBacklog(localEnv());
+      sendJson(response, result.configured ? 200 : 503, result, securityHeaders());
       return;
     }
 
@@ -296,6 +330,28 @@ async function readMultipartFormData(request, url, maxBytes) {
     body: chunks.length ? Buffer.concat(chunks) : undefined,
   });
   return webRequest.formData();
+}
+
+function localUnmatchedDishStore() {
+  return {
+    async get(key) {
+      if (key !== UNMATCHED_DISH_AGGREGATE_KEY) return null;
+      try {
+        return await readFile(localUnmatchedDishesPath, "utf8");
+      } catch {
+        return null;
+      }
+    },
+    async put(key, value) {
+      if (key !== UNMATCHED_DISH_AGGREGATE_KEY) return;
+      await mkdir(dirname(localUnmatchedDishesPath), { recursive: true });
+      await writeFile(localUnmatchedDishesPath, value);
+    },
+    async delete(key) {
+      if (key !== UNMATCHED_DISH_AGGREGATE_KEY) return;
+      await rm(localUnmatchedDishesPath, { force: true });
+    },
+  };
 }
 
 server.listen(port, host, () => {

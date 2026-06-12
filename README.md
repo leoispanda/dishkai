@@ -49,6 +49,10 @@ Optional Cloudflare variables:
 - `DISHKAI_AI_IMAGE_DETAIL`: optional image-detail setting for OpenAI menu photo reading. Defaults to `original` for better OCR on photographed menus; use `high`, `auto`, or `low` only when cost/latency matters more than recognition quality.
 - `DISHKAI_ENABLE_AI_FALLBACK`: set to `true` only when unmatched menu items should receive temporary, unverified AI estimate cards.
 
+Optional Cloudflare bindings:
+
+- `DISHKAI_UNMATCHED_DISHES`: KV namespace binding used to collect unmatched and AI-estimated dish names from all public users. This stores structured dish names/examples only, not uploaded images or full menu text. If the binding is missing, menu analysis still works but the central backlog is not persisted.
+
 Current API endpoints:
 
 - `POST /api/private-login`
@@ -58,6 +62,8 @@ Current API endpoints:
 - `POST /api/analyze-menu-image`
 - `POST /api/pdc-round`
 - `POST /api/analyze-menu`
+- `GET /api/unmatched-dishes` (private)
+- `DELETE /api/unmatched-dishes` (private)
 - `POST /api/save-profile`
 - `POST /api/analyze-receipt`
 - `POST /api/save-rating`

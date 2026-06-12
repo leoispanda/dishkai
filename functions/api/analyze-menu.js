@@ -1,5 +1,6 @@
 import { analyzeMenuText, json } from "../_shared/menu-analysis.js";
 import { checkRateLimit, readJsonBody, requireSameOrigin, securityHeaders } from "../_shared/security.js";
+import { recordUnmatchedDishes } from "../_shared/unmatched-dishes.js";
 
 export async function onRequestPost({ request, env }) {
   const crossOrigin = requireSameOrigin(request, json);
@@ -17,6 +18,7 @@ export async function onRequestPost({ request, env }) {
     targetLanguage: body.targetLanguage || "en",
     env,
   });
+  if (result.ok) await recordUnmatchedDishes({ result, env, sourceType: "text" });
   return json(result, result.ok ? 200 : 400, securityHeaders());
 }
 

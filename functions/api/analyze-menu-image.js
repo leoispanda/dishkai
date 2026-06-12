@@ -1,5 +1,6 @@
 import { MAX_MENU_IMAGE_BYTES, analyzeMenuImage, json } from "../_shared/menu-analysis.js";
 import { checkRateLimit, requireSameOrigin, securityHeaders } from "../_shared/security.js";
+import { recordUnmatchedDishes } from "../_shared/unmatched-dishes.js";
 
 export async function onRequestPost({ request, env }) {
   try {
@@ -26,6 +27,7 @@ export async function onRequestPost({ request, env }) {
       targetLanguage: formData?.get("targetLanguage") || "en",
       env,
     });
+    if (result.ok) await recordUnmatchedDishes({ result, env, sourceType: "image" });
     return json(result, result.ok ? 200 : result.statusCode || 400, securityHeaders());
   } catch (error) {
     return json({

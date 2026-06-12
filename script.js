@@ -1,9 +1,6 @@
-const APP_VERSION = "DishKAI v0.2.7-public-beta";
+const APP_VERSION = "DishKAI v0.2.8-public-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
-const UNMATCHED_BACKLOG_KEY = "dishkai-unmatched-dish-backlog-v1";
-const UNMATCHED_BACKLOG_MAX_ITEMS = 200;
-const UNMATCHED_BACKLOG_MAX_EXAMPLES = 5;
 const MENU_IMAGE_MAX_EDGE = 1800;
 const MENU_IMAGE_JPEG_QUALITY = 0.82;
 
@@ -311,7 +308,6 @@ async function analyzeText() {
     return;
   }
   latestResult = result;
-  collectUnmatchedItems(result);
   renderAnalysis(result);
   setStatus(`${result.items.length} ${t("summary")}.`);
   $("#visual-menu").scrollIntoView({ behavior: "smooth", block: "start" });
@@ -343,7 +339,6 @@ async function analyzeImage() {
     return;
   }
   latestResult = result;
-  collectUnmatchedItems(result);
   renderAnalysis(result);
   setStatus(`${result.items.length} ${t("summary")}.`);
 }
@@ -365,80 +360,6 @@ function renderSummary(result) {
     ${aiSummary}
     <span>${unmatched} ${t("unmatched")}</span>
   `;
-}
-
-function loadUnmatchedBacklog() {
-  try {
-    const items = JSON.parse(localStorage.getItem(UNMATCHED_BACKLOG_KEY));
-    return Array.isArray(items) ? items : [];
-  } catch {
-    return [];
-  }
-}
-
-function saveUnmatchedBacklog(items) {
-  localStorage.setItem(UNMATCHED_BACKLOG_KEY, JSON.stringify(items.slice(0, UNMATCHED_BACKLOG_MAX_ITEMS)));
-}
-
-function backlogKey(value) {
-  return String(value || "")
-    .toLowerCase()
-    .normalize("NFKC")
-    .replace(/[()[\]{}.,;:!?'"]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-function collectUnmatchedItems(result) {
-  const missingMetadataItems = [
-    ...(result.unmatchedItems || []),
-    ...(result.aiGeneratedItems || []),
-  ];
-  const unmatched = (missingMetadataItems.length ? missingMetadataItems : (result.items || []).filter((item) => ["unmatched", "ai-generated"].includes(item.matchStatus)))
-    .filter((item) => item?.originalName || item?.cleanName || item?.canonicalCandidate);
-  if (!unmatched.length) return 0;
-
-  const now = new Date().toISOString();
-  const backlog = loadUnmatchedBacklog();
-  const byId = new Map(backlog.map((entry) => [entry.id, entry]));
-  let added = 0;
-
-  unmatched.forEach((item) => {
-    const name = String(item.cleanName || item.originalName || item.canonicalCandidate || "").trim();
-    const canonicalCandidate = String(item.canonicalCandidate || "").trim();
-    const detectedLanguage = item.detectedLanguage && item.detectedLanguage !== "unknown" ? item.detectedLanguage : "";
-    const id = backlogKey(canonicalCandidate || name);
-    if (!id) return;
-
-    const example = String(item.originalName || name).trim();
-    const existing = byId.get(id);
-    if (existing) {
-      existing.lastSeenAt = now;
-      existing.seenCount = Number(existing.seenCount || 0) + 1;
-      existing.examples = [...new Set([...(existing.examples || []), example].filter(Boolean))].slice(0, UNMATCHED_BACKLOG_MAX_EXAMPLES);
-      if (canonicalCandidate && !existing.canonicalCandidate) existing.canonicalCandidate = canonicalCandidate;
-      if (item.possibleCategory && !existing.possibleCategory) existing.possibleCategory = item.possibleCategory;
-      if (detectedLanguage && !existing.detectedLanguage) existing.detectedLanguage = detectedLanguage;
-      return;
-    }
-
-    byId.set(id, {
-      id,
-      name,
-      canonicalCandidate,
-      possibleCategory: item.possibleCategory || "",
-      detectedLanguage,
-      firstSeenAt: now,
-      lastSeenAt: now,
-      seenCount: 1,
-      examples: example ? [example] : [],
-    });
-    added += 1;
-  });
-
-  const next = [...byId.values()].sort((a, b) => String(b.lastSeenAt).localeCompare(String(a.lastSeenAt)));
-  saveUnmatchedBacklog(next);
-  return added;
 }
 
 function renderVisualMenu(items) {
