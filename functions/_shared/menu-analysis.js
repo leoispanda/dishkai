@@ -267,7 +267,7 @@ async function runOpenAiJson(prompt, env, { maxTokens = 1200, temperature = 0.1,
         { role: "user", content: prompt },
       ],
       response_format: responseFormat || { type: "json_object" },
-      max_tokens: maxTokens,
+      max_completion_tokens: maxTokens,
       temperature,
     }),
   });
@@ -300,7 +300,7 @@ async function runOpenAiVisionJson(prompt, imageDataUrl, env, { maxTokens = 1400
         },
       ],
       response_format: responseFormat || { type: "json_object" },
-      max_tokens: maxTokens,
+      max_completion_tokens: maxTokens,
       temperature,
     }),
   });
