@@ -9,7 +9,7 @@
   --glass-strong: rgba(255, 255, 255, 0.82);
   --sage: #5d8f75;
   --sage-deep: #2f6d55;
-  --terra: #b86a4a;
+  --terra: #e57d22;
   --amber: #c5963f;
   --white: #ffffff;
   --danger: #a94d3f;
@@ -80,7 +80,7 @@ button { cursor: pointer; }
   line-height: 1;
 }
 .brand-wordmark span:last-child {
-  color: #e57d22;
+  color: var(--terra);
 }
 .app-meta {
   display: inline-flex;
