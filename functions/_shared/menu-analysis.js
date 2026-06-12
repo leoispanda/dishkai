@@ -8,6 +8,101 @@ export const MAX_MENU_IMAGE_BYTES = 8 * 1024 * 1024;
 const AI_FALLBACK_MAX_ITEMS = 30;
 const OPENAI_CHAT_COMPLETIONS_URL = "https://api.openai.com/v1/chat/completions";
 const SUPPORTED_IMAGE_TYPES = new Set(["image/jpeg", "image/png", "image/webp", "image/gif"]);
+const MENU_EXTRACTION_RESPONSE_FORMAT = {
+  type: "json_schema",
+  json_schema: {
+    name: "dishkai_menu_extraction",
+    strict: true,
+    schema: {
+      type: "object",
+      additionalProperties: false,
+      properties: {
+        menuText: {
+          type: "string",
+          description: "One visible dish/menu line per line, preserving menu order when available.",
+        },
+        items: {
+          type: "array",
+          items: {
+            type: "object",
+            additionalProperties: false,
+            properties: {
+              orderIndex: { type: "integer" },
+              originalName: { type: "string" },
+              cleanName: { type: "string" },
+              detectedLanguage: { type: "string" },
+              possibleCategory: { type: "string" },
+              notes: { type: "string" },
+            },
+            required: ["orderIndex", "originalName", "cleanName", "detectedLanguage", "possibleCategory", "notes"],
+          },
+        },
+      },
+      required: ["menuText", "items"],
+    },
+  },
+};
+const AI_FALLBACK_RESPONSE_FORMAT = {
+  type: "json_schema",
+  json_schema: {
+    name: "dishkai_ai_fallback_cards",
+    strict: true,
+    schema: {
+      type: "object",
+      additionalProperties: false,
+      properties: {
+        cards: {
+          type: "array",
+          items: {
+            type: "object",
+            additionalProperties: false,
+            properties: {
+              orderIndex: { type: "integer" },
+              familiarName: { type: "string" },
+              cuisineName: { type: "string" },
+              orderVerdict: { type: "string" },
+              shortDescription: { type: "string" },
+              cooking: {
+                type: "object",
+                additionalProperties: false,
+                properties: {
+                  methods: { type: "array", items: { type: "string" } },
+                  profile: { type: "string" },
+                },
+                required: ["methods", "profile"],
+              },
+              composition: {
+                type: "array",
+                items: {
+                  type: "object",
+                  additionalProperties: false,
+                  properties: {
+                    name: { type: "string" },
+                    estimatedPercent: { type: "integer" },
+                    role: { type: "string" },
+                    optional: { type: "boolean" },
+                  },
+                  required: ["name", "estimatedPercent", "role", "optional"],
+                },
+              },
+              basicTaste: { type: "array", items: { type: "string" } },
+              distinctiveFlavorSources: { type: "array", items: { type: "string" } },
+              texture: { type: "array", items: { type: "string" } },
+              watchOuts: { type: "array", items: { type: "string" } },
+              visualDisclaimer: { type: "string" },
+            },
+            required: [
+              "orderIndex", "familiarName", "cuisineName", "orderVerdict", "shortDescription",
+              "cooking", "composition", "basicTaste", "distinctiveFlavorSources", "texture",
+              "watchOuts", "visualDisclaimer",
+            ],
+          },
+        },
+      },
+      required: ["cards"],
+    },
+  },
+};
 
 export const iconTags = {
   "signature-dish": { icon: "⭐", en: "Signature", zh: "代表菜", nl: "Signatuur" },
@@ -113,8 +208,17 @@ function buildExtractionPrompt(menuText, sourceLanguage, targetLanguage) {
 Return valid JSON only. No markdown.
 Preserve the original menu order. Do not invent dishes. Do not add house-special claims unless the text says so.
 Extract likely dish names from this menu text.
+This is for restaurant ordering, not recipes or encyclopedia content.
+Rules:
+- Output one item per orderable dish, drink, dessert, bread, brunch item, or side dish.
+- Keep menu sections in the same visible order, but do not output section headers as dishes.
+- Remove prices, currency symbols, calorie counts, item numbers, and decorative labels from cleanName.
+- Keep useful dish modifiers in cleanName, such as "smoked salmon bagel", "ham and cheese omelette", or "spicy tuna roll".
+- If a line contains a dish name plus a description, originalName should be the visible dish name or shortest dish line, and notes can summarize the description.
+- For European café/brunch menus, include items like scrambled eggs, omelette, shakshuka, french toast, eggs benedict, avocado toast, granola bowl, tosti, broodje gezond, croissant, and pain au chocolat.
 Use this exact shape:
 {
+  "menuText": "one dish or menu line per line, preserving the source order",
   "items": [
     {
       "orderIndex": 1,
@@ -140,11 +244,16 @@ function openAiVisionModel(env) {
   return String(env?.DISHKAI_AI_VISION_MODEL || env?.DISHKAI_AI_MODEL || env?.OPENAI_MODEL || DEFAULT_OPENAI_MODEL).trim() || DEFAULT_OPENAI_MODEL;
 }
 
+function openAiImageDetail(env) {
+  const detail = String(env?.DISHKAI_AI_IMAGE_DETAIL || "original").trim().toLowerCase();
+  return ["low", "high", "original", "auto"].includes(detail) ? detail : "original";
+}
+
 function hasOpenAiApiKey(env) {
   return Boolean(String(env?.DISHKAI_AI_API_KEY || "").trim());
 }
 
-async function runOpenAiJson(prompt, env, { maxTokens = 1200, temperature = 0.1 } = {}) {
+async function runOpenAiJson(prompt, env, { maxTokens = 1200, temperature = 0.1, responseFormat } = {}) {
   const response = await fetch(OPENAI_CHAT_COMPLETIONS_URL, {
     method: "POST",
     headers: {
@@ -157,7 +266,7 @@ async function runOpenAiJson(prompt, env, { maxTokens = 1200, temperature = 0.1 
         { role: "system", content: "Return valid JSON only. Do not include markdown." },
         { role: "user", content: prompt },
       ],
-      response_format: { type: "json_object" },
+      response_format: responseFormat || { type: "json_object" },
       max_tokens: maxTokens,
       temperature,
     }),
@@ -171,7 +280,7 @@ async function runOpenAiJson(prompt, env, { maxTokens = 1200, temperature = 0.1 
   return response.json();
 }
 
-async function runOpenAiVisionJson(prompt, imageDataUrl, env, { maxTokens = 1400, temperature = 0.1 } = {}) {
+async function runOpenAiVisionJson(prompt, imageDataUrl, env, { maxTokens = 1400, temperature = 0.1, responseFormat } = {}) {
   const response = await fetch(OPENAI_CHAT_COMPLETIONS_URL, {
     method: "POST",
     headers: {
@@ -186,11 +295,11 @@ async function runOpenAiVisionJson(prompt, imageDataUrl, env, { maxTokens = 1400
           role: "user",
           content: [
             { type: "text", text: prompt },
-            { type: "image_url", image_url: { url: imageDataUrl } },
+            { type: "image_url", image_url: { url: imageDataUrl, detail: openAiImageDetail(env) } },
           ],
         },
       ],
-      response_format: { type: "json_object" },
+      response_format: responseFormat || { type: "json_object" },
       max_tokens: maxTokens,
       temperature,
     }),
@@ -220,7 +329,7 @@ function extractJsonObject(value) {
 }
 
 function cleanExtractedItems(value, fallbackItems) {
-  const rawItems = Array.isArray(value?.items) ? value.items : fallbackItems;
+  const rawItems = Array.isArray(value?.items) && value.items.length ? value.items : fallbackItems;
   return rawItems
     .map((item, index) => ({
       orderIndex: Number.isFinite(Number(item.orderIndex)) ? Number(item.orderIndex) : index + 1,
@@ -244,7 +353,7 @@ async function extractItems(menuText, sourceLanguage, targetLanguage, env) {
       const aiResult = await runOpenAiJson(
         buildExtractionPrompt(menuText, sourceLanguage, targetLanguage),
         env,
-        { maxTokens: 900, temperature: 0.1 },
+        { maxTokens: 1200, temperature: 0.1, responseFormat: MENU_EXTRACTION_RESPONSE_FORMAT },
       );
       return {
         items: cleanExtractedItems(extractJsonObject(aiResult), fallbackItems),
@@ -281,6 +390,16 @@ Return valid JSON only. No markdown.
 Read the visible menu text from the image and extract likely dish names.
 Preserve the visible menu order. Do not invent dishes. Do not add house-special claims unless the image says so.
 Ignore decorative text, addresses, phone numbers, opening hours, allergen legends, and prices unless needed to distinguish a dish.
+This image may be a café, brunch, bistro, tapas, bakery, hotel breakfast, or European restaurant menu.
+Rules:
+- First transcribe dish-like menu lines into menuText, one line per visible item, preserving order.
+- Then create items from menuText. If menuText has readable dish lines, items must not be empty.
+- Include orderable foods even when they are simple: scrambled eggs, omelette, shakshuka, french toast, eggs benedict, avocado toast, granola bowl, croissant, pain au chocolat, tosti, broodje gezond, quiche, cakes, salads, soups, sides, and desserts.
+- Do not output section headers like "Breakfast", "Mains", "Desserts", "Drinks", or "Extras" as dishes.
+- Remove prices, currency symbols, calories, and item numbers from cleanName.
+- Keep useful modifiers in cleanName, such as protein, sauce, filling, or cooking style.
+- If a dish line wraps across two visual lines, combine it into one item.
+- If confidence is low but the text is readable, include the dish and write the uncertainty in notes instead of dropping it.
 Use this exact shape:
 {
   "menuText": "one dish or menu line per line, preserving the image order",
@@ -314,7 +433,7 @@ async function extractItemsFromImage(image, sourceLanguage, targetLanguage, env)
     buildImageExtractionPrompt(sourceLanguage, targetLanguage),
     imageDataUrl,
     env,
-    { maxTokens: 1400, temperature: 0.1 },
+    { maxTokens: 2200, temperature: 0.1, responseFormat: MENU_EXTRACTION_RESPONSE_FORMAT },
   );
   const parsed = extractJsonObject(aiResult);
   const fallbackItems = splitMenuText(parsed.menuText || "");
@@ -662,7 +781,11 @@ async function buildAiFallbackCards(unmatchedItems, targetLanguage, env) {
     let model;
 
     if (hasOpenAiApiKey(env)) {
-      aiResult = await runOpenAiJson(prompt, env, { maxTokens, temperature: 0.25 });
+      aiResult = await runOpenAiJson(prompt, env, {
+        maxTokens,
+        temperature: 0.25,
+        responseFormat: AI_FALLBACK_RESPONSE_FORMAT,
+      });
       source = "openai";
       model = openAiModel(env);
     } else if (env?.AI) {

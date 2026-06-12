@@ -46,6 +46,7 @@ Optional Cloudflare variables:
 
 - `DISHKAI_AI_MODEL`: OpenAI model for menu AI. Defaults to `gpt-5.4-mini`. `OPENAI_MODEL` is also accepted as a compatibility alias.
 - `DISHKAI_AI_VISION_MODEL`: optional OpenAI model override for menu photo reading. Defaults to `DISHKAI_AI_MODEL`.
+- `DISHKAI_AI_IMAGE_DETAIL`: optional image-detail setting for OpenAI menu photo reading. Defaults to `original` for better OCR on photographed menus; use `high`, `auto`, or `low` only when cost/latency matters more than recognition quality.
 - `DISHKAI_ENABLE_AI_FALLBACK`: set to `true` only when unmatched menu items should receive temporary, unverified AI estimate cards.
 
 Current API endpoints:
