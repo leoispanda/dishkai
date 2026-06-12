@@ -1,0 +1,42 @@
+export const greekDepthDishAliases = [
+  ...aliases("fava", ["fava", "φάβα", "greek fava", "yellow split pea dip", "希腊黄豌豆泥", "gele spliterwtendip"]),
+  ...aliases("melitzanosalata", ["melitzanosalata", "μελιτζανοσαλάτα", "μελιτζανοσαλατα", "eggplant dip", "aubergine dip", "希腊烤茄子酱", "auberginedip"]),
+  ...aliases("taramasalata", ["taramasalata", "ταραμοσαλάτα", "ταραμοσαλατα", "tarama", "fish roe dip", "希腊鱼籽酱", "viskuitdip"]),
+  ...aliases("tirokafteri", ["tirokafteri", "tyrokafteri", "τυροκαυτερή", "τυροκαυτερη", "spicy feta dip", "辣味菲达奶酪酱", "pittige fetadip"]),
+  ...aliases("skordalia", ["skordalia", "σκορδαλιά", "σκορδαλια", "garlic potato dip", "garlic dip", "希腊蒜味土豆酱", "knoflook-aardappeldip"]),
+  ...aliases("garides-saganaki", ["garides saganaki", "γαρίδες σαγανάκι", "γαριδες σαγανακι", "shrimp saganaki", "prawn saganaki", "番茄菲达焗虾", "garnalen saganaki"]),
+  ...aliases("kolokithokeftedes", ["kolokithokeftedes", "κολοκυθοκεφτέδες", "κολοκυθοκεφτεδες", "zucchini fritters", "courgette fritters", "希腊西葫芦丸子", "courgettebeignets"]),
+  ...aliases("keftedes", ["keftedes", "κεφτέδες", "κεφτεδες", "greek meatballs", "meatballs greek style", "希腊肉丸", "griekse gehaktballetjes"]),
+  ...aliases("soutzoukakia", ["soutzoukakia", "σουτζουκάκια", "σουτζουκακια", "greek meatballs in tomato sauce", "cumin meatballs", "孜然番茄肉丸"]),
+  ...aliases("bifteki", ["bifteki", "μπιφτέκι", "μπιφτεκι", "greek burger patty", "feta stuffed bifteki", "希腊汉堡肉饼"]),
+  ...aliases("gemista", ["gemista", "yemista", "γεμιστά", "γεμιστα", "stuffed tomatoes", "stuffed peppers greek", "希腊酿番茄青椒"]),
+  ...aliases("stifado", ["stifado", "στιφάδο", "στιφαδο", "greek beef stew", "rabbit stifado", "希腊红酒洋葱炖肉"]),
+  ...aliases("youvetsi", ["youvetsi", "giouvetsi", "γιουβέτσι", "γιουβετσι", "orzo lamb bake", "greek orzo stew", "希腊番茄烤肉米粒面"]),
+  ...aliases("kokkinisto", ["kokkinisto", "κοκκινιστό", "κοκκινιστο", "greek tomato braised meat", "beef kokkinisto", "希腊番茄红烧肉"]),
+  ...aliases("psari-plaki", ["psari plaki", "ψάρι πλακί", "ψαρι πλακι", "greek baked fish", "fish plaki", "希腊番茄烤鱼"]),
+  ...aliases("grilled-octopus", ["grilled octopus", "χταπόδι σχάρας", "χταποδι σχαρας", "octopus grill", "希腊烤章鱼", "gegrilde octopus"]),
+  ...aliases("calamari-greek", ["calamari", "kalamari", "καλαμαράκια", "καλαμαρακια", "fried squid", "greek calamari", "希腊炸鱿鱼"]),
+  ...aliases("gavros", ["gavros", "γαύρος", "γαυρος", "fried anchovies", "greek anchovies", "希腊小凤尾鱼"]),
+  ...aliases("horta", ["horta", "χόρτα", "χορτα", "boiled greens", "wild greens", "希腊水煮野菜"]),
+  ...aliases("briam", ["briam", "μπριάμ", "μπριαμ", "greek roasted vegetables", "greek ratatouille", "希腊烤蔬菜"]),
+  ...aliases("fasolada", ["fasolada", "fasoulada", "φασολάδα", "φασολαδα", "greek bean soup", "white bean soup", "希腊白豆汤"]),
+  ...aliases("avgolemono", ["avgolemono", "avgolemono soup", "αυγολέμονο", "αυγολεμονο", "greek lemon chicken soup", "希腊柠檬蛋花鸡汤"]),
+  ...aliases("revithada", ["revithada", "ρεβιθάδα", "ρεβιθαδα", "greek chickpea stew", "chickpea stew", "希腊慢炖鹰嘴豆"]),
+  ...aliases("paidakia", ["paidakia", "παϊδάκια", "παιδακια", "greek lamb chops", "lamb chops greek", "希腊烤羊排", "lamskoteletjes"]),
+  ...aliases("kontosouvli", ["kontosouvli", "κοντοσούβλι", "κοντοσουβλι", "greek spit roast", "pork kontosouvli", "希腊大块烤肉串"]),
+  ...aliases("loukaniko", ["loukaniko", "λουκάνικο", "λουκανικο", "greek sausage", "希腊香肠", "griekse worst"]),
+  ...aliases("galaktoboureko", ["galaktoboureko", "γαλακτομπούρεκο", "γαλακτομπουρεκο", "greek custard pie", "希腊奶酥派"]),
+  ...aliases("kataifi", ["kataifi", "kadaifi", "κανταΐφι", "κανταιφι", "shredded phyllo dessert", "希腊丝酥蜜点"]),
+  ...aliases("bougatsa", ["bougatsa", "μπουγάτσα", "μπουγατσα", "greek custard pastry", "希腊奶油酥皮派"]),
+  ...aliases("portokalopita", ["portokalopita", "πορτοκαλόπιτα", "πορτοκαλοπιτα", "orange syrup cake", "greek orange cake", "希腊橙香糖浆蛋糕"]),
+];
+
+function aliases(dishId, names) {
+  return names.map((alias, index) => ({
+    alias,
+    dishId,
+    language: "menu",
+    matchType: index === 0 ? "canonical" : "menu-variant",
+    confidence: index === 0 ? 1 : 0.94,
+  }));
+}

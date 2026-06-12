@@ -75,6 +75,16 @@ export const ingredients = [
   ingredient("arepa", "229001", "arepa", "玉米饼", "arepa", ["corny", "soft"], ["vegan"], []),
   ingredient("raw-white-fish", "229002", "raw white fish", "生白鱼", "rauwe witte vis", ["fresh", "tender"], ["pescatarian"], ["fish"]),
   ingredient("sausage-global", "200030", "sausage", "香肠", "worst", ["savory", "fatty"], [], []),
+  greek("octopus", "204001", "octopus", "章鱼", "octopus", ["firm", "chewy"], ["pescatarian"], ["shellfish"]),
+  greek("squid", "204002", "squid", "鱿鱼", "inktvis", ["firm", "springy"], ["pescatarian"], ["shellfish"]),
+  greek("phyllo-pastry", "204003", "phyllo pastry", "菲洛酥皮", "filodeeg", ["flaky", "crisp"], ["vegetarian"], ["gluten"]),
+  greek("honey", "204004", "honey", "蜂蜜", "honing", ["sticky", "sweet"], ["vegetarian"], []),
+  greek("walnuts", "204005", "walnuts", "核桃", "walnoten", ["crunchy", "nutty"], ["vegan"], ["tree-nut"]),
+  greek("orzo", "204006", "orzo pasta", "米粒形意面", "orzo", ["soft", "small"], ["vegetarian"], ["gluten"]),
+  greek("grape-leaves", "204007", "grape leaves", "葡萄叶", "druivenbladeren", ["tender", "leafy"], ["vegan"], []),
+  greek("white-beans", "204008", "white beans", "白豆", "witte bonen", ["soft", "creamy"], ["vegan"], []),
+  greek("fish-roe", "204009", "fish roe", "鱼籽", "viskuit", ["salty", "creamy"], ["pescatarian"], ["fish"]),
+  greek("orange", "204010", "orange", "橙子", "sinaasappel", ["juicy", "citrusy"], ["vegan"], []),
   italian("pasta", "201001", "pasta", "意面", "pasta", ["soft", "springy"], ["vegetarian"]),
   italian("spaghetti", "201002", "spaghetti", "意大利细面", "spaghetti", ["long", "springy"], ["vegetarian"]),
   italian("pasta-sheets", "201003", "pasta sheets", "千层面片", "pastavellen", ["soft", "layered"], ["vegetarian"]),
@@ -124,5 +134,9 @@ function ingredient(id, metadataCode, en, zh, nl, texture = [], dietaryFlags = [
 }
 
 function italian(id, metadataCode, en, zh, nl, texture = [], dietaryFlags = [], allergens = []) {
+  return ingredient(id, metadataCode, en, zh, nl, texture, dietaryFlags, allergens);
+}
+
+function greek(id, metadataCode, en, zh, nl, texture = [], dietaryFlags = [], allergens = []) {
   return ingredient(id, metadataCode, en, zh, nl, texture, dietaryFlags, allergens);
 }

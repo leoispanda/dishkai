@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js.
 
-- Total verified dishes: 379
-- Total aliases: 1086
+- Total verified dishes: 409
+- Total aliases: 1276
 - Total cuisines: 27
 
 ## Thai (thai) - 17
@@ -196,7 +196,7 @@ Generated from data/internal/index.js.
 16. 107016 - `dame-blanche` - Dame Blanche / 比利时香草冰淇淋巧克力酱 / Dame blanche
 17. 107017 - `speculoos` - Speculoos / 焦糖香料饼干
 
-## Greek (greek) - 12
+## Greek (greek) - 42
 
 1. 104001 - `moussaka` - Moussaka / 希腊肉酱茄子烤菜 / μουσακάς
 2. 104002 - `souvlaki` - Souvlaki / 希腊烤肉串 / σουβλάκι
@@ -210,6 +210,36 @@ Generated from data/internal/index.js.
 10. 104010 - `saganaki` - Saganaki / 煎奶酪 / σαγανάκι
 11. 104011 - `baklava` - Baklava / 果仁蜜酥 / μπακλαβάς
 12. 104012 - `loukoumades` - Loukoumades / 希腊蜂蜜小炸球 / λουκουμάδες
+13. 104013 - `fava` - Fava / 希腊黄豌豆泥 / φάβα
+14. 104014 - `melitzanosalata` - Melitzanosalata / 希腊烤茄子酱 / μελιτζανοσαλάτα
+15. 104015 - `taramasalata` - Taramasalata / 希腊鱼籽酱 / ταραμοσαλάτα
+16. 104016 - `tirokafteri` - Tirokafteri / 辣味菲达奶酪酱 / τυροκαυτερή
+17. 104017 - `skordalia` - Skordalia / 希腊蒜味土豆酱 / σκορδαλιά
+18. 104018 - `garides-saganaki` - Garides Saganaki / 番茄菲达焗虾 / γαρίδες σαγανάκι
+19. 104019 - `kolokithokeftedes` - Kolokithokeftedes / 希腊西葫芦丸子 / κολοκυθοκεφτέδες
+20. 104020 - `keftedes` - Keftedes / 希腊肉丸 / κεφτέδες
+21. 104021 - `soutzoukakia` - Soutzoukakia / 孜然番茄肉丸 / σουτζουκάκια
+22. 104022 - `bifteki` - Bifteki / 希腊汉堡肉饼 / μπιφτέκι
+23. 104023 - `gemista` - Gemista / 希腊酿番茄青椒 / γεμιστά
+24. 104024 - `stifado` - Stifado / 希腊红酒洋葱炖肉 / στιφάδο
+25. 104025 - `youvetsi` - Youvetsi / 希腊番茄烤肉米粒面 / γιουβέτσι
+26. 104026 - `kokkinisto` - Kokkinisto / 希腊番茄红烧肉 / κοκκινιστό
+27. 104027 - `psari-plaki` - Psari Plaki / 希腊番茄烤鱼 / ψάρι πλακί
+28. 104028 - `grilled-octopus` - Grilled Octopus / 希腊烤章鱼 / χταπόδι σχάρας
+29. 104029 - `calamari-greek` - Calamari / 希腊炸鱿鱼 / καλαμαράκια
+30. 104030 - `gavros` - Gavros / 希腊小凤尾鱼 / γαύρος
+31. 104031 - `horta` - Horta / 希腊水煮野菜 / χόρτα
+32. 104032 - `briam` - Briam / 希腊烤蔬菜 / μπριάμ
+33. 104033 - `fasolada` - Fasolada / 希腊白豆汤 / φασολάδα
+34. 104034 - `avgolemono` - Avgolemono Soup / 希腊柠檬蛋花鸡汤 / αυγολέμονο
+35. 104035 - `revithada` - Revithada / 希腊慢炖鹰嘴豆 / ρεβιθάδα
+36. 104036 - `paidakia` - Paidakia / 希腊烤羊排 / παϊδάκια
+37. 104037 - `kontosouvli` - Kontosouvli / 希腊大块烤肉串 / κοντοσούβλι
+38. 104038 - `loukaniko` - Loukaniko / 希腊香肠 / λουκάνικο
+39. 104039 - `galaktoboureko` - Galaktoboureko / 希腊奶酥派 / γαλακτομπούρεκο
+40. 104040 - `kataifi` - Kataifi / 希腊丝酥蜜点 / κανταΐφι
+41. 104041 - `bougatsa` - Bougatsa / 希腊奶油酥皮派 / μπουγάτσα
+42. 104042 - `portokalopita` - Portokalopita / 希腊橙香糖浆蛋糕 / πορτοκαλόπιτα
 
 ## Spanish (spanish) - 12
 
