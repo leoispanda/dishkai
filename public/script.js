@@ -1,6 +1,9 @@
-const APP_VERSION = "DishKAI v0.2.2-private-beta";
+const APP_VERSION = "DishKAI v0.2.4-private-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
+const UNMATCHED_BACKLOG_KEY = "dishkai-unmatched-dish-backlog-v1";
+const UNMATCHED_BACKLOG_MAX_ITEMS = 200;
+const UNMATCHED_BACKLOG_MAX_EXAMPLES = 5;
 const MENU_IMAGE_MAX_EDGE = 1800;
 const MENU_IMAGE_JPEG_QUALITY = 0.82;
 
@@ -24,7 +27,7 @@ const translations = {
     legalAccept: "I understand and accept these limits before using DishKAI.",
     legalRequired: "Please accept the disclaimer before using DishKAI.",
     visitCountLabel: "Local visits",
-    matched: "matched", unmatched: "Not in starter database yet", aiEstimated: "AI estimate", tapForDetails: "Tap for details", tapForEstimate: "Tap for note", aiGenerated: "AI-generated estimate. Not yet verified in DishKAI database.", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "Original", familiar: "Familiar", verdict: "Order verdict", description: "What it is", preparation: "How it is usually prepared", composition: "Estimated composition", taste: "Basic taste", flavor: "Distinctive flavor", texture: "Texture", watchOut: "Watch out", variations: "Common variations", disclaimer: "Visual note", summary: "items", unknownNote: "This dish is not in the starter database yet."
+    matched: "matched", unmatched: "Not in starter database yet", aiEstimated: "AI estimate", tapForDetails: "Tap for details", tapForEstimate: "Tap for note", aiGenerated: "AI-generated estimate. Not yet verified in DishKAI database.", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "Original", familiar: "Familiar", verdict: "Order verdict", description: "What it is", preparation: "How it is usually prepared", composition: "Estimated composition", taste: "Basic taste", flavor: "Distinctive flavor", texture: "Texture", watchOut: "Watch out", variations: "Common variations", disclaimer: "Visual note", summary: "items", unknownNote: "This dish is not in the starter database yet.", backlogEyebrow: "Coverage backlog", backlogTitle: "Dishes to add later", backlogSubtitle: "Unmatched dishes are saved locally so Leo can update the database in batches.", backlogEmpty: "No unmatched dishes saved yet.", backlogCount: "{count} saved unmatched dishes", backlogSeen: "seen {count}x", backlogExample: "Example: {example}", copyBacklog: "Copy list", clearBacklog: "Clear list", copiedBacklog: "Unmatched dish list copied.", clearedBacklog: "Unmatched dish list cleared.", clearBacklogConfirm: "Clear the saved unmatched dish list on this device?", addedBacklog: "{count} new unmatched dishes saved for later."
   },
   zh: {
     heroTitle: "点餐前，先看懂这道菜。",
@@ -45,7 +48,7 @@ const translations = {
     legalAccept: "我理解并接受以上限制，然后再使用 DishKAI。",
     legalRequired: "使用 DishKAI 前请先确认免责声明。",
     visitCountLabel: "本机访问次数",
-    matched: "已匹配", unmatched: "暂未收录", aiEstimated: "AI 估算", tapForDetails: "点击查看详情", tapForEstimate: "点击查看未收录提示", aiGenerated: "AI 估算结果，尚未进入 DishKAI 已验证数据库。", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "原始菜名", familiar: "熟悉名称", verdict: "点餐建议", description: "这是什么", preparation: "常见做法风格", composition: "估算成分", taste: "基础味道", flavor: "特色风味", texture: "口感", watchOut: "注意事项", variations: "常见变体", disclaimer: "图片说明", summary: "项", unknownNote: "这道菜暂时还不在 DishKAI 初始数据库中。"
+    matched: "已匹配", unmatched: "暂未收录", aiEstimated: "AI 估算", tapForDetails: "点击查看详情", tapForEstimate: "点击查看未收录提示", aiGenerated: "AI 估算结果，尚未进入 DishKAI 已验证数据库。", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "原始菜名", familiar: "熟悉名称", verdict: "点餐建议", description: "这是什么", preparation: "常见做法风格", composition: "估算成分", taste: "基础味道", flavor: "特色风味", texture: "口感", watchOut: "注意事项", variations: "常见变体", disclaimer: "图片说明", summary: "项", unknownNote: "这道菜暂时还不在 DishKAI 初始数据库中。", backlogEyebrow: "收录待办", backlogTitle: "待补充菜品清单", backlogSubtitle: "未匹配菜名会保存在本机，方便 Leo 过一段时间统一扩充数据库。", backlogEmpty: "还没有保存未收录菜。", backlogCount: "已保存 {count} 个未收录菜", backlogSeen: "出现 {count} 次", backlogExample: "例子：{example}", copyBacklog: "复制清单", clearBacklog: "清空清单", copiedBacklog: "未收录菜清单已复制。", clearedBacklog: "未收录菜清单已清空。", clearBacklogConfirm: "要清空这台设备上保存的未收录菜清单吗？", addedBacklog: "已保存 {count} 个新的未收录菜，之后可统一补库。"
   },
   nl: {
     heroTitle: "Ken het gerecht voordat je bestelt.",
@@ -66,7 +69,7 @@ const translations = {
     legalAccept: "Ik begrijp en accepteer deze beperkingen voordat ik DishKAI gebruik.",
     legalRequired: "Accepteer de disclaimer voordat je DishKAI gebruikt.",
     visitCountLabel: "Lokale bezoeken",
-    matched: "gekoppeld", unmatched: "nog niet in database", aiEstimated: "AI-schatting", tapForDetails: "Tik voor details", tapForEstimate: "Tik voor notitie", aiGenerated: "AI-schatting. Nog niet geverifieerd in de DishKAI-database.", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "Origineel", familiar: "Vertrouwd", verdict: "Besteladvies", description: "Wat het is", preparation: "Hoe het meestal wordt bereid", composition: "Geschatte samenstelling", taste: "Basissmaak", flavor: "Kenmerkende smaak", texture: "Textuur", watchOut: "Let op", variations: "Veelvoorkomende variaties", disclaimer: "Visuele noot", summary: "items", unknownNote: "Dit gerecht staat nog niet in de startdatabase."
+    matched: "gekoppeld", unmatched: "nog niet in database", aiEstimated: "AI-schatting", tapForDetails: "Tik voor details", tapForEstimate: "Tik voor notitie", aiGenerated: "AI-schatting. Nog niet geverifieerd in de DishKAI-database.", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "Origineel", familiar: "Vertrouwd", verdict: "Besteladvies", description: "Wat het is", preparation: "Hoe het meestal wordt bereid", composition: "Geschatte samenstelling", taste: "Basissmaak", flavor: "Kenmerkende smaak", texture: "Textuur", watchOut: "Let op", variations: "Veelvoorkomende variaties", disclaimer: "Visuele noot", summary: "items", unknownNote: "Dit gerecht staat nog niet in de startdatabase.", backlogEyebrow: "Dekking backlog", backlogTitle: "Gerechten om later toe te voegen", backlogSubtitle: "Niet-gekoppelde gerechten worden lokaal bewaard zodat Leo de database in batches kan bijwerken.", backlogEmpty: "Nog geen niet-gekoppelde gerechten bewaard.", backlogCount: "{count} niet-gekoppelde gerechten bewaard", backlogSeen: "{count}x gezien", backlogExample: "Voorbeeld: {example}", copyBacklog: "Kopieer lijst", clearBacklog: "Wis lijst", copiedBacklog: "Lijst met niet-gekoppelde gerechten gekopieerd.", clearedBacklog: "Lijst met niet-gekoppelde gerechten gewist.", clearBacklogConfirm: "De opgeslagen lijst met niet-gekoppelde gerechten op dit apparaat wissen?", addedBacklog: "{count} nieuwe niet-gekoppelde gerechten bewaard voor later."
   }
 };
 
@@ -166,6 +169,10 @@ function setPrivateAccess(granted) {
   privateAccessGranted = Boolean(granted);
   document.body.classList.toggle("private-unlocked", privateAccessGranted);
   document.body.classList.toggle("private-locked", !privateAccessGranted);
+  document.querySelectorAll("#privateLogoutTop").forEach((element) => {
+    element.hidden = !privateAccessGranted;
+  });
+  renderUnmatchedBacklog();
   document.querySelectorAll("#menuForm input, #menuForm textarea, #menuForm select, #menuForm button").forEach((element) => {
     element.disabled = !privateAccessGranted;
   });
@@ -317,8 +324,9 @@ async function analyzeText() {
     return;
   }
   latestResult = result;
+  const addedToBacklog = collectUnmatchedItems(result);
   renderAnalysis(result);
-  setStatus(`${result.items.length} ${t("summary")}.`);
+  setStatus(`${result.items.length} ${t("summary")}.${addedToBacklog ? ` ${template("addedBacklog", { count: addedToBacklog })}` : ""}`);
   $("#visual-menu").scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
@@ -352,12 +360,14 @@ async function analyzeImage() {
     return;
   }
   latestResult = result;
+  const addedToBacklog = collectUnmatchedItems(result);
   renderAnalysis(result);
-  setStatus(`${result.items.length} ${t("summary")}.`);
+  setStatus(`${result.items.length} ${t("summary")}.${addedToBacklog ? ` ${template("addedBacklog", { count: addedToBacklog })}` : ""}`);
 }
 
 function renderAnalysis(result) {
   renderSummary(result);
+  renderUnmatchedBacklog();
   renderVisualMenu(result.items || []);
   resetKnowledgeCard();
 }
@@ -373,6 +383,133 @@ function renderSummary(result) {
     ${aiSummary}
     <span>${unmatched} ${t("unmatched")}</span>
   `;
+}
+
+function loadUnmatchedBacklog() {
+  try {
+    const items = JSON.parse(localStorage.getItem(UNMATCHED_BACKLOG_KEY));
+    return Array.isArray(items) ? items : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveUnmatchedBacklog(items) {
+  localStorage.setItem(UNMATCHED_BACKLOG_KEY, JSON.stringify(items.slice(0, UNMATCHED_BACKLOG_MAX_ITEMS)));
+}
+
+function backlogKey(value) {
+  return String(value || "")
+    .toLowerCase()
+    .normalize("NFKC")
+    .replace(/[()[\]{}.,;:!?'"]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function collectUnmatchedItems(result) {
+  const missingMetadataItems = [
+    ...(result.unmatchedItems || []),
+    ...(result.aiGeneratedItems || []),
+  ];
+  const unmatched = (missingMetadataItems.length ? missingMetadataItems : (result.items || []).filter((item) => ["unmatched", "ai-generated"].includes(item.matchStatus)))
+    .filter((item) => item?.originalName || item?.cleanName || item?.canonicalCandidate);
+  if (!unmatched.length) return 0;
+
+  const now = new Date().toISOString();
+  const backlog = loadUnmatchedBacklog();
+  const byId = new Map(backlog.map((entry) => [entry.id, entry]));
+  let added = 0;
+
+  unmatched.forEach((item) => {
+    const name = String(item.cleanName || item.originalName || item.canonicalCandidate || "").trim();
+    const canonicalCandidate = String(item.canonicalCandidate || "").trim();
+    const detectedLanguage = item.detectedLanguage && item.detectedLanguage !== "unknown" ? item.detectedLanguage : "";
+    const id = backlogKey(canonicalCandidate || name);
+    if (!id) return;
+
+    const example = String(item.originalName || name).trim();
+    const existing = byId.get(id);
+    if (existing) {
+      existing.lastSeenAt = now;
+      existing.seenCount = Number(existing.seenCount || 0) + 1;
+      existing.examples = [...new Set([...(existing.examples || []), example].filter(Boolean))].slice(0, UNMATCHED_BACKLOG_MAX_EXAMPLES);
+      if (canonicalCandidate && !existing.canonicalCandidate) existing.canonicalCandidate = canonicalCandidate;
+      if (item.possibleCategory && !existing.possibleCategory) existing.possibleCategory = item.possibleCategory;
+      if (detectedLanguage && !existing.detectedLanguage) existing.detectedLanguage = detectedLanguage;
+      return;
+    }
+
+    byId.set(id, {
+      id,
+      name,
+      canonicalCandidate,
+      possibleCategory: item.possibleCategory || "",
+      detectedLanguage,
+      firstSeenAt: now,
+      lastSeenAt: now,
+      seenCount: 1,
+      examples: example ? [example] : [],
+    });
+    added += 1;
+  });
+
+  const next = [...byId.values()].sort((a, b) => String(b.lastSeenAt).localeCompare(String(a.lastSeenAt)));
+  saveUnmatchedBacklog(next);
+  renderUnmatchedBacklog();
+  return added;
+}
+
+function renderUnmatchedBacklog() {
+  const panel = $("#unmatchedBacklogPanel");
+  if (!panel) return;
+  const items = loadUnmatchedBacklog();
+  const shouldShow = privateAccessGranted && items.length > 0;
+  panel.hidden = !shouldShow;
+  if (!shouldShow) return;
+
+  $("#unmatchedBacklogCount").textContent = template("backlogCount", { count: items.length });
+  $("#unmatchedBacklogList").innerHTML = items.slice(0, 30).map((item) => {
+    const example = item.examples?.[0] ? `<small>${escapeHtml(template("backlogExample", { example: item.examples[0] }))}</small>` : "";
+    const hints = [item.canonicalCandidate, item.possibleCategory, item.detectedLanguage].filter(Boolean).join(" · ");
+    return `
+      <li>
+        <strong>${escapeHtml(item.name || item.canonicalCandidate || item.id)}</strong>
+        <span>${escapeHtml(template("backlogSeen", { count: item.seenCount || 1 }))}</span>
+        ${hints ? `<small>${escapeHtml(hints)}</small>` : ""}
+        ${example}
+      </li>
+    `;
+  }).join("");
+}
+
+function unmatchedBacklogText() {
+  const items = loadUnmatchedBacklog();
+  if (!items.length) return t("backlogEmpty");
+  return items.map((item) => [
+    item.name || item.canonicalCandidate || item.id,
+    `seen=${item.seenCount || 1}`,
+    item.canonicalCandidate ? `candidate=${item.canonicalCandidate}` : "",
+    item.possibleCategory ? `category=${item.possibleCategory}` : "",
+    item.examples?.length ? `examples=${item.examples.join(" / ")}` : "",
+  ].filter(Boolean).join("\t")).join("\n");
+}
+
+async function copyUnmatchedBacklog() {
+  const text = unmatchedBacklogText();
+  try {
+    await navigator.clipboard.writeText(text);
+    setStatus(t("copiedBacklog"));
+  } catch {
+    setStatus(text, "");
+  }
+}
+
+function clearUnmatchedBacklog() {
+  if (!window.confirm(t("clearBacklogConfirm"))) return;
+  localStorage.removeItem(UNMATCHED_BACKLOG_KEY);
+  renderUnmatchedBacklog();
+  setStatus(t("clearedBacklog"));
 }
 
 function renderVisualMenu(items) {
@@ -928,12 +1065,16 @@ $("#pdcInterventionForm")?.addEventListener("submit", continuePdcRound);
 $("#privateAccessForm")?.addEventListener("submit", submitPrivateAccess);
 $("#clearRecentScans")?.addEventListener("click", clearRecentScans);
 $("#privateLogout")?.addEventListener("click", logoutPrivateAccess);
+$("#privateLogoutTop")?.addEventListener("click", logoutPrivateAccess);
+$("#copyUnmatchedBacklog")?.addEventListener("click", copyUnmatchedBacklog);
+$("#clearUnmatchedBacklog")?.addEventListener("click", clearUnmatchedBacklog);
 if ($("#legalAccepted")) {
   $("#legalAccepted").checked = localStorage.getItem(LEGAL_ACCEPTED_KEY) === "true";
   $("#legalAccepted").addEventListener("change", updateLegalGate);
 }
 renderPdcRoleCards();
 updatePdcDiscussionUi();
+renderUnmatchedBacklog();
 
 incrementVisitCount();
 applyLanguage();

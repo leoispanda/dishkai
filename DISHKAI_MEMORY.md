@@ -169,3 +169,7 @@ Codex must still ask before destructive operations, editing secrets, changing Cl
 - Menu matching now first extracts/uses short real-dish candidates (`canonicalCandidate` / `matchCandidates`) before metadata alias lookup, so restaurant lines like `Caprese | pomodori | mozzarella...` can match verified Caprese while broad ingredient lines like plain `Salmon` do not incorrectly match unrelated dishes. Current alias count is 1476.
 
 - Versioning rule: for future deliverable DishKAI changes, update the visible app version in both root `script.js` and `public/script.js`, keep `package.json` version aligned, and explicitly tell Leo the new version number in the final response.
+
+- DishKAI v0.2.3 fixed the private session controls: locked users no longer see session-only private actions, and unlocked users get a persistent topbar Lock button even after the private access panel hides. Remember to verify both locked and unlocked browser states when changing private access UI.
+
+- DishKAI v0.2.4 added a local unmatched-dish backlog. Each successful text/photo menu analysis saves `matchStatus: "unmatched"` items to `localStorage` with deduping, seen counts, timestamps, candidate/category hints, and original examples. The visual menu now shows a Coverage Backlog panel with copy and clear actions so Leo can collect real missing dishes for batch metadata updates later. This is intentionally local-only for now: no database, no Cloudflare storage, no uploaded image persistence.

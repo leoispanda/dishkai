@@ -18,6 +18,7 @@
       <span id="visitCount">Visits: 0</span>
     </div>
     <button id="openPdcButton" class="internal-button" type="button" hidden aria-hidden="true" tabindex="-1">个人 PDC</button>
+    <button id="privateLogoutTop" class="internal-button session-lock" type="button" hidden data-i18n="privateLogout">Lock</button>
   </header>
 
   <main>
@@ -104,6 +105,21 @@ Chef Special Pasta</textarea>
         <h2 data-i18n="menuListTitle">Tap a dish to understand it.</h2>
       </div>
       <div id="menuSummary" class="summary-strip"></div>
+      <section id="unmatchedBacklogPanel" class="unmatched-backlog" aria-label="Unmatched dish backlog" hidden>
+        <div class="backlog-head">
+          <div>
+            <p class="eyebrow" data-i18n="backlogEyebrow">Coverage backlog</p>
+            <h3 data-i18n="backlogTitle">Dishes to add later</h3>
+            <p data-i18n="backlogSubtitle">Unmatched dishes are saved locally so Leo can update the database in batches.</p>
+          </div>
+          <div class="backlog-actions">
+            <button id="copyUnmatchedBacklog" class="button" type="button" data-i18n="copyBacklog">Copy list</button>
+            <button id="clearUnmatchedBacklog" class="button" type="button" data-i18n="clearBacklog">Clear list</button>
+          </div>
+        </div>
+        <p id="unmatchedBacklogCount" class="helper"></p>
+        <ul id="unmatchedBacklogList" class="backlog-list"></ul>
+      </section>
       <div id="visualMenuGrid" class="menu-list"></div>
     </section>
 
