@@ -21359,6 +21359,7 @@ export const worldDishes = [
   }),
   starterDish({
     "id": "bobó-de-camarão",
+    "imageSlug": "bobo-de-camarao",
     "metadataCode": "130011",
     "cuisineId": "brazilian",
     "names": {

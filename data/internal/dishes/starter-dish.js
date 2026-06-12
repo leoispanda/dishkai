@@ -3,6 +3,9 @@ const PLACEHOLDER_IMAGE = "/assets/dishes/placeholders/dish-placeholder.svg";
 export function starterDish(config) {
   const category = config.category || "main";
   const metadataCode = config.metadataCode;
+  const imageSlug = config.imageSlug || config.id;
+  const defaultImagePath = metadataCode && imageSlug ? `/assets/dishes/main/${metadataCode}-${imageSlug}.webp` : PLACEHOLDER_IMAGE;
+  const defaultThumbPath = metadataCode && imageSlug ? `/assets/dishes/thumb/${metadataCode}-${imageSlug}.webp` : PLACEHOLDER_IMAGE;
   return {
     id: config.id,
     metadataCode,
@@ -61,8 +64,8 @@ export function starterDish(config) {
     acquiredTasteLevel: config.acquiredTasteLevel ?? 1,
     metadataConfidence: config.metadataConfidence ?? 0.76,
     restaurantVariationLevel: config.restaurantVariationLevel || "medium",
-    imagePath: config.imagePath || PLACEHOLDER_IMAGE,
-    thumbPath: config.thumbPath || PLACEHOLDER_IMAGE,
+    imagePath: config.imagePath || defaultImagePath,
+    thumbPath: config.thumbPath || defaultThumbPath,
     visualDisclaimer: {
       en: "Visual reference only. Actual dish may vary by restaurant. Estimated composition.",
       zh: "图片仅供参考。实际出品会因餐厅而异。成分比例为估算。",
