@@ -4,6 +4,7 @@ export const TEXT_MODEL = "@cf/meta/llama-3.1-8b-instruct";
 export const VISION_MODEL = "";
 
 const MAX_MENU_TEXT_LENGTH = 12000;
+const AI_FALLBACK_MAX_ITEMS = 30;
 
 export const iconTags = {
   "signature-dish": { icon: "⭐", en: "Signature", zh: "代表菜", nl: "Signatuur" },
@@ -301,6 +302,122 @@ function unmatchedCard(item, targetLanguage) {
   };
 }
 
+
+function buildAiFallbackPrompt(items, targetLanguage) {
+  const compactItems = items.map((item) => ({
+    orderIndex: item.orderIndex,
+    originalName: item.originalName,
+    cleanName: item.cleanName,
+    possibleCategory: item.possibleCategory,
+  }));
+  return `You are DishKAI's temporary dish estimate step.
+Return valid JSON only. No markdown.
+These dishes were not found in DishKAI's verified metadata.
+Generate concise diner-facing estimates for ordering decisions.
+Do not write recipes, cooking steps, exact measurements, or claim verification.
+Preserve orderIndex exactly.
+Use ${targetLanguage} for user-facing text when possible.
+Use this exact shape:
+{
+  "cards": [
+    {
+      "orderIndex": 1,
+      "familiarName": "translated or familiar dish name",
+      "cuisineName": "likely cuisine or broad region",
+      "orderVerdict": "one short ordering recommendation",
+      "shortDescription": "one short sentence explaining what it usually is",
+      "cooking": {
+        "methods": ["grilled"],
+        "profile": "one short diner's-perspective preparation sentence"
+      },
+      "composition": [
+        { "name": "main ingredient", "estimatedPercent": 45, "role": "base" }
+      ],
+      "basicTaste": ["savory", "mild"],
+      "distinctiveFlavorSources": ["garlic", "soy sauce"],
+      "texture": ["soft", "crisp"],
+      "watchOuts": ["May contain gluten"],
+      "visualDisclaimer": "AI-generated estimate. Actual dish may vary by restaurant."
+    }
+  ]
+}
+Items:
+${JSON.stringify(compactItems)}`;
+}
+
+function cleanPercent(value, fallback) {
+  const number = Number(value);
+  if (!Number.isFinite(number)) return fallback;
+  return Math.max(0, Math.min(100, Math.round(number / 5) * 5));
+}
+
+function shortArray(value, max = 5) {
+  if (!Array.isArray(value)) return [];
+  return value
+    .map((item) => jsonSafeText(item, 80))
+    .filter(Boolean)
+    .slice(0, max);
+}
+
+function cleanAiFallbackCard(rawCard, item, targetLanguage) {
+  const fallbackMessage = {
+    en: "AI-generated estimate. Not yet verified in DishKAI database.",
+    zh: "AI 估算结果，尚未进入 DishKAI 已验证数据库。",
+    nl: "AI-schatting. Nog niet geverifieerd in de DishKAI-database.",
+  };
+  const composition = Array.isArray(rawCard?.composition) ? rawCard.composition : [];
+  return {
+    originalName: item.originalName,
+    familiarName: jsonSafeText(rawCard?.familiarName || item.cleanName || item.originalName, 120),
+    cuisineName: jsonSafeText(rawCard?.cuisineName || "AI estimate", 80),
+    orderVerdict: jsonSafeText(rawCard?.orderVerdict || fallbackMessage[targetLanguage] || fallbackMessage.en, 260),
+    shortDescription: jsonSafeText(rawCard?.shortDescription || fallbackMessage[targetLanguage] || fallbackMessage.en, 260),
+    cooking: {
+      methods: shortArray(rawCard?.cooking?.methods, 4),
+      profile: jsonSafeText(rawCard?.cooking?.profile || "", 220),
+    },
+    composition: composition.slice(0, 7).map((part, index) => ({
+      name: jsonSafeText(part?.name || part?.role || "ingredient", 80),
+      estimatedPercent: cleanPercent(part?.estimatedPercent, index === 0 ? 50 : 10),
+      role: jsonSafeText(part?.role || "component", 40),
+      optional: Boolean(part?.optional),
+    })),
+    basicTaste: shortArray(rawCard?.basicTaste),
+    distinctiveFlavorSources: shortArray(rawCard?.distinctiveFlavorSources),
+    texture: shortArray(rawCard?.texture),
+    watchOuts: shortArray(rawCard?.watchOuts),
+    visualDisclaimer: jsonSafeText(rawCard?.visualDisclaimer || fallbackMessage[targetLanguage] || fallbackMessage.en, 180),
+    aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.",
+    iconTags: [{ id: "ai-generated", icon: "AI", label: fallbackMessage[targetLanguage] || fallbackMessage.en }],
+    metadataSource: "ai-fallback",
+    verified: false,
+  };
+}
+
+async function buildAiFallbackCards(unmatchedItems, targetLanguage, env) {
+  if (!env?.AI || !unmatchedItems.length) return new Map();
+  const targetItems = unmatchedItems.slice(0, AI_FALLBACK_MAX_ITEMS);
+
+  try {
+    const aiResult = await env.AI.run(TEXT_MODEL, {
+      prompt: buildAiFallbackPrompt(targetItems, targetLanguage),
+      max_tokens: Math.min(3500, 650 + targetItems.length * 260),
+      temperature: 0.25,
+    });
+    const parsed = extractJsonObject(aiResult);
+    const cards = Array.isArray(parsed.cards) ? parsed.cards : [];
+    return new Map(cards.map((card) => {
+      const orderIndex = Number(card.orderIndex);
+      const item = targetItems.find((candidate) => candidate.orderIndex === orderIndex);
+      if (!item) return null;
+      return [orderIndex, cleanAiFallbackCard(card, item, targetLanguage)];
+    }).filter(Boolean));
+  } catch (error) {
+    console.error("DishKAI AI fallback failed, keeping unmatched cards:", error);
+    return new Map();
+  }
+}
+
 export async function analyzeMenuText({ menuText, sourceLanguage = "auto", targetLanguage = "en", env }) {
   const cleanMenuText = String(menuText || "").trim().slice(0, MAX_MENU_TEXT_LENGTH);
   if (!cleanMenuText) {
@@ -315,7 +432,7 @@ export async function analyzeMenuText({ menuText, sourceLanguage = "auto", targe
   }
 
   const extraction = await extractItems(cleanMenuText, sourceLanguage, targetLanguage, env);
-  const items = extraction.items.map((item) => {
+  const matchedItems = extraction.items.map((item) => {
     const match = findAliasMatch(item.cleanName || item.originalName);
     const dish = match.alias ? dishById.get(match.alias.dishId) : null;
     if (!dish) {
@@ -337,6 +454,21 @@ export async function analyzeMenuText({ menuText, sourceLanguage = "auto", targe
       card: buildCard(dish, item.originalName, targetLanguage),
     };
   });
+  const aiFallbackCards = await buildAiFallbackCards(
+    matchedItems.filter((item) => item.matchStatus === "unmatched"),
+    targetLanguage,
+    env,
+  );
+  const items = matchedItems.map((item) => {
+    const aiCard = aiFallbackCards.get(item.orderIndex);
+    if (!aiCard) return item;
+    return {
+      ...item,
+      matchStatus: "ai-generated",
+      matchConfidence: 0.35,
+      card: aiCard,
+    };
+  });
 
   return {
     ok: true,
@@ -344,12 +476,15 @@ export async function analyzeMenuText({ menuText, sourceLanguage = "auto", targe
     targetLanguage,
     extractionSource: extraction.extractionSource,
     model: extraction.model,
+    aiFallbackSource: aiFallbackCards.size ? "workers-ai" : "none",
+    aiFallbackModel: aiFallbackCards.size ? TEXT_MODEL : undefined,
     privacy: {
       uploadedImagesStored: false,
       note: "DishKAI does not permanently store uploaded menu images by default. Store only structured dish data after Leo/Cindy manually confirms.",
     },
     items,
     unmatchedItems: items.filter((item) => item.matchStatus === "unmatched"),
+    aiGeneratedItems: items.filter((item) => item.matchStatus === "ai-generated"),
   };
 }
 

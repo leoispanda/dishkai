@@ -139,3 +139,5 @@ Codex must not modify files outside the DishKAI project.
 Codex must still ask before destructive operations, editing secrets, changing Cloudflare settings, changing database schema, installing dependencies, or changing project direction significantly.
 
 - Added starter metadata coverage for every currently registered cuisine: Thai, Japanese, Korean, Chinese, Italian, French, German, Dutch, and Belgian. New non-Italian dish images use the shared placeholder until approved generated images are imported.
+
+- Real restaurant coverage should use two layers: verified DishKAI metadata for high-frequency dishes, plus AI fallback cards for unmatched menu items. AI fallback must remain temporary, unverified, and clearly labeled as metadataSource: ai-fallback.
