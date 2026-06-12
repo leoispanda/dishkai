@@ -1,5 +1,5 @@
 /*
-  Cache-Control: public, max-age=60
+  Cache-Control: no-cache, max-age=0, must-revalidate
   Content-Security-Policy: default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; img-src 'self' data: blob:; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self'
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
   Referrer-Policy: no-referrer
@@ -11,3 +11,9 @@
 
 /
   Cache-Control: no-cache
+
+/script.js
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/styles.css
+  Cache-Control: no-cache, max-age=0, must-revalidate

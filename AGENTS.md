@@ -779,6 +779,17 @@ also check whether corresponding files exist under:
 
 Do not let root and public versions drift.
 
+## Version Cache Rule
+
+When bumping the DishKAI app version:
+
+- update `APP_VERSION` in both `script.js` and `public/script.js`
+- update `package.json`
+- update the query version on `styles.css?v=...` and `script.js?v=...` in both `index.html` and `public/index.html`
+- keep `public/_headers` configured so HTML, `script.js`, and `styles.css` require browser revalidation
+
+This prevents browsers and Cloudflare Pages from showing an old frontend after a version bump.
+
 ## Memory Rule
 
 When a meaningful product or architecture decision is made, append a short note to DISHKAI_MEMORY.md.
