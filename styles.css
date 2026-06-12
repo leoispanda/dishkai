@@ -268,69 +268,6 @@ select, input { min-height: 46px; }
   color: var(--muted);
   font-weight: 700;
 }
-.unmatched-backlog {
-  display: grid;
-  gap: 14px;
-  max-width: 820px;
-  margin: 0 0 18px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--white);
-  padding: 16px;
-}
-.unmatched-backlog[hidden] { display: none; }
-.backlog-head {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 16px;
-}
-.backlog-head h3 {
-  font-size: 22px;
-  line-height: 1.1;
-}
-.backlog-head p:not(.eyebrow) {
-  margin: 6px 0 0;
-  color: var(--muted);
-  line-height: 1.5;
-}
-.backlog-actions {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 8px;
-}
-.backlog-actions .button {
-  min-height: 40px;
-  background: var(--paper);
-}
-.backlog-list {
-  display: grid;
-  gap: 8px;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-.backlog-list li {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 8px 12px;
-  border-top: 1px solid var(--line);
-  padding-top: 9px;
-}
-.backlog-list strong {
-  min-width: 0;
-  overflow-wrap: anywhere;
-}
-.backlog-list span,
-.backlog-list small {
-  color: var(--muted);
-}
-.backlog-list small {
-  grid-column: 1 / -1;
-  line-height: 1.45;
-}
-
 .menu-list {
   display: grid;
   gap: 10px;
@@ -804,9 +741,6 @@ select, input { min-height: 46px; }
   .menu-card-button { grid-template-columns: 32px minmax(0, 1fr); }
   .mode-tabs { grid-template-columns: 1fr; border-radius: 12px; }
   .mode-tabs button { border-radius: 8px; }
-  .backlog-head, .backlog-list li { grid-template-columns: 1fr; }
-  .backlog-head { display: grid; }
-  .backlog-actions { justify-content: flex-start; }
   .agent-picker, .group-member-grid, .role-grid { grid-template-columns: 1fr; }
   .footer { flex-direction: column; }
 }
