@@ -394,8 +394,12 @@ function cleanAiFallbackCard(rawCard, item, targetLanguage) {
   };
 }
 
+function aiFallbackEnabled(env) {
+  return env?.DISHKAI_ENABLE_AI_FALLBACK === "true";
+}
+
 async function buildAiFallbackCards(unmatchedItems, targetLanguage, env) {
-  if (!env?.AI || !unmatchedItems.length) return new Map();
+  if (!aiFallbackEnabled(env) || !env?.AI || !unmatchedItems.length) return new Map();
   const targetItems = unmatchedItems.slice(0, AI_FALLBACK_MAX_ITEMS);
 
   try {
