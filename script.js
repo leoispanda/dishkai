@@ -1,4 +1,4 @@
-const APP_VERSION = "DishKAI v0.2.12-public-beta";
+const APP_VERSION = "DishKAI v0.2.13-public-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
 const MENU_IMAGE_MAX_EDGE = 1800;
@@ -435,12 +435,15 @@ function renderVisualMenu(items) {
   }
   grid.innerHTML = items.map((item) => {
     const card = item.card || {};
+    const thumbPath = safeImagePath(card.thumbPath || card.imagePath);
+    const thumbMarkup = thumbPath ? `<span class="menu-card-thumb" aria-hidden="true"><img src="${escapeAttribute(thumbPath)}" alt="" loading="lazy"></span>` : "";
     const tags = (card.iconTags || []).slice(0, 5).map((tag) => `<span class="icon-tag" title="${escapeHtml(tag.label)}">${tag.icon ? `${tag.icon} ` : ""}${escapeHtml(tag.label)}</span>`).join("");
     const statusLabel = item.matchStatus === "matched" ? t("tapForDetails") : item.matchStatus === "ai-generated" ? t("aiGenerated") : t("tapForEstimate");
     return `
       <article class="menu-card ${item.matchStatus}" data-order-index="${item.orderIndex}">
-        <button class="menu-card-button" type="button" data-open-card="${item.orderIndex}">
+        <button class="menu-card-button ${thumbPath ? "has-thumb" : "no-thumb"}" type="button" data-open-card="${item.orderIndex}">
           <span class="order-index">${item.orderIndex}</span>
+          ${thumbMarkup}
           <div class="menu-card-copy">
             <h3>${escapeHtml(item.originalName)}</h3>
             <p>${escapeHtml(card.familiarName || item.cleanName || item.originalName)}</p>

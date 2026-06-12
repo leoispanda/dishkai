@@ -189,3 +189,5 @@ Codex must still ask before destructive operations, editing secrets, changing Cl
 - DishKAI v0.2.11 removed guilt-framed API-cost wording from the hero. The public app now places a small footer note with approximate API cost only: usually within a few cents per AI scan depending on menu length and image size.
 
 - DishKAI v0.2.12 added language selection to the first disclaimer step. The three gate buttons set `dishkai-ui-lang`; entering the app keeps the UI and output language select defaulted to that language.
+
+- DishKAI v0.2.13 added dish thumbnails to matched visual-menu list rows. The small thumbnail uses `card.thumbPath` with `card.imagePath` fallback to hint that tapping opens a larger image/detail card.
