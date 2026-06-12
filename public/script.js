@@ -1,6 +1,8 @@
 const APP_VERSION = "DishKAI v0.2.1-private-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
+const MENU_IMAGE_MAX_EDGE = 1800;
+const MENU_IMAGE_JPEG_QUALITY = 0.82;
 
 const translations = {
   en: {
@@ -8,7 +10,7 @@ const translations = {
     heroSubtitle: "Upload a menu photo or paste menu text. DishKAI turns it into a clear dish list you can tap for ingredients, taste, watch-outs, and ordering guidance.",
     privateNotice: "DishKAI is a private food memory and menu assistant for Leo & Cindy. It is not a public service.", privateAccessEyebrow: "Private access", privateAccessTitle: "Leo & Cindy only.", unauthorizedNotice: "Unauthorized access is not permitted.", privateAccessLabel: "Private access code", privateAccessPlaceholder: "Enter private access code", unlockPrivate: "Unlock private tools", privateUnlocked: "Private access unlocked.", privateLocked: "Private access is locked.", privateDenied: "Unauthorized access is not permitted.", clearRecentScans: "Clear recent scans", clearScansDone: "Recent scans cleared.", privateLogout: "Lock",
     textMode: "Paste menu text", imageMode: "Upload menu image", menuTextLabel: "Paste or type menu text", menuTextPlaceholder: "Carbonara\nPad Thai\nChef Special Pasta", menuImageLabel: "Upload menu image", imageHelper: "If image analysis is unavailable, paste the menu text instead.", uploadWarning: "Please do not upload images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.",
-    outputLanguage: "Output language", generate: "Generate menu list", loading: "Analyzing menu...", noItems: "No menu items were found. Please paste clearer menu text.", imageUnavailable: "Image analysis is not available yet. Please paste menu text instead.",
+    outputLanguage: "Output language", generate: "Generate menu list", loading: "Analyzing menu...", compressionStatus: "Compressed {from} to {to}. Analyzing menu...", noItems: "No menu items were found. Please paste clearer menu text.", imageUnavailable: "Image analysis is not available yet. Please paste menu text instead.",
     menuListEyebrow: "Menu list", menuListTitle: "Tap a dish to understand it.", emptyCard: "Tap a menu item to open its Dish Knowledge Card.",
     footerText: "Fast menu understanding for ordering decisions.",
     footerLegal: "Private experimental reference. Verify critical food information with the restaurant.",
@@ -29,7 +31,7 @@ const translations = {
     heroSubtitle: "上传菜单照片或粘贴菜单文字。DishKAI 会生成一份清晰菜品列表，点击即可查看成分、味道、注意事项和点餐建议。",
     privateNotice: "DishKAI is a private food memory and menu assistant for Leo & Cindy. It is not a public service.", privateAccessEyebrow: "私有访问", privateAccessTitle: "仅 Leo 和 Cindy 使用。", unauthorizedNotice: "Unauthorized access is not permitted.", privateAccessLabel: "私有访问码", privateAccessPlaceholder: "输入私有访问码", unlockPrivate: "解锁私有工具", privateUnlocked: "私有访问已解锁。", privateLocked: "私有访问已锁定。", privateDenied: "Unauthorized access is not permitted.", clearRecentScans: "清除最近扫描", clearScansDone: "最近扫描已清除。", privateLogout: "锁定",
     textMode: "粘贴菜单文字", imageMode: "上传菜单图片", menuTextLabel: "粘贴或输入菜单文字", menuTextPlaceholder: "Carbonara\nPad Thai\nChef Special Pasta", menuImageLabel: "上传菜单图片", imageHelper: "如果图片分析暂不可用，请改用粘贴菜单文字。", uploadWarning: "Please do not upload images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.",
-    outputLanguage: "输出语言", generate: "生成菜单列表", loading: "正在分析菜单...", noItems: "没有找到菜单项。请粘贴更清晰的菜单文字。", imageUnavailable: "图片分析暂不可用。请粘贴菜单文字。",
+    outputLanguage: "输出语言", generate: "生成菜单列表", loading: "正在分析菜单...", compressionStatus: "已将图片从 {from} 压缩到 {to}，正在分析菜单...", noItems: "没有找到菜单项。请粘贴更清晰的菜单文字。", imageUnavailable: "图片分析暂不可用。请粘贴菜单文字。",
     menuListEyebrow: "菜单列表", menuListTitle: "点击一道菜，快速看懂它。", emptyCard: "点击菜单项以打开菜品知识卡。",
     footerText: "为点餐决策而生的快速菜单理解工具。",
     footerLegal: "私有实验参考工具。关键饮食信息请直接向餐厅确认。",
@@ -50,7 +52,7 @@ const translations = {
     heroSubtitle: "Upload een menufoto of plak menutekst. DishKAI maakt er een heldere gerechtenlijst van die je kunt aantikken voor ingredienten, smaak, aandachtspunten en besteladvies.",
     privateNotice: "DishKAI is a private food memory and menu assistant for Leo & Cindy. It is not a public service.", privateAccessEyebrow: "Private toegang", privateAccessTitle: "Alleen Leo & Cindy.", unauthorizedNotice: "Unauthorized access is not permitted.", privateAccessLabel: "Private toegangscode", privateAccessPlaceholder: "Voer private toegangscode in", unlockPrivate: "Ontgrendel private tools", privateUnlocked: "Private toegang ontgrendeld.", privateLocked: "Private toegang is vergrendeld.", privateDenied: "Unauthorized access is not permitted.", clearRecentScans: "Wis recente scans", clearScansDone: "Recente scans gewist.", privateLogout: "Vergrendel",
     textMode: "Menutekst plakken", imageMode: "Menufoto uploaden", menuTextLabel: "Plak of typ menutekst", menuTextPlaceholder: "Carbonara\nPad Thai\nChef Special Pasta", menuImageLabel: "Menufoto uploaden", imageHelper: "Als beeldanalyse niet beschikbaar is, plak dan de menutekst.", uploadWarning: "Please do not upload images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.",
-    outputLanguage: "Uitvoertaal", generate: "Genereer menulijst", loading: "Menu analyseren...", noItems: "Geen menu-items gevonden. Plak duidelijkere menutekst.", imageUnavailable: "Beeldanalyse is nog niet beschikbaar. Plak menutekst.",
+    outputLanguage: "Uitvoertaal", generate: "Genereer menulijst", loading: "Menu analyseren...", compressionStatus: "Afbeelding verkleind van {from} naar {to}. Menu analyseren...", noItems: "Geen menu-items gevonden. Plak duidelijkere menutekst.", imageUnavailable: "Beeldanalyse is nog niet beschikbaar. Plak menutekst.",
     menuListEyebrow: "Menulijst", menuListTitle: "Tik op een gerecht om het te begrijpen.", emptyCard: "Tik op een menu-item om de Dish Knowledge Card te openen.",
     footerText: "Snelle menubegrip voor bestelbeslissingen.",
     footerLegal: "Private experimentele referentie. Controleer kritieke voedselinformatie bij het restaurant.",
@@ -78,6 +80,10 @@ const $ = (selector) => document.querySelector(selector);
 
 function t(key) {
   return translations[uiLang][key] || translations.en[key] || key;
+}
+
+function template(key, values) {
+  return Object.entries(values).reduce((text, [name, value]) => text.replaceAll(`{${name}}`, value), t(key));
 }
 
 function applyLanguage() {
@@ -189,6 +195,45 @@ function requireLegalAcceptance() {
   return false;
 }
 
+function formatBytes(bytes) {
+  const value = Number(bytes || 0);
+  if (!Number.isFinite(value) || value <= 0) return "0 KB";
+  if (value < 1024 * 1024) return `${Math.max(1, Math.round(value / 1024))} KB`;
+  return `${(value / (1024 * 1024)).toFixed(1)} MB`;
+}
+
+async function compressMenuImage(file) {
+  if (!file || !file.type?.startsWith("image/")) return { file, changed: false };
+  if (file.type === "image/gif") return { file, changed: false };
+
+  try {
+    const bitmap = await createImageBitmap(file);
+    const scale = Math.min(1, MENU_IMAGE_MAX_EDGE / Math.max(bitmap.width, bitmap.height));
+    const width = Math.max(1, Math.round(bitmap.width * scale));
+    const height = Math.max(1, Math.round(bitmap.height * scale));
+    const canvas = document.createElement("canvas");
+    canvas.width = width;
+    canvas.height = height;
+    const context = canvas.getContext("2d", { alpha: false });
+    context.drawImage(bitmap, 0, 0, width, height);
+    bitmap.close?.();
+
+    const blob = await new Promise((resolve) => {
+      canvas.toBlob(resolve, "image/jpeg", MENU_IMAGE_JPEG_QUALITY);
+    });
+    if (!blob || blob.size >= file.size) return { file, changed: false };
+
+    const compressed = new File([blob], file.name.replace(/\.[^.]+$/, "") + "-dishkai-compressed.jpg", {
+      type: "image/jpeg",
+      lastModified: Date.now(),
+    });
+    return { file: compressed, changed: true, originalSize: file.size, compressedSize: compressed.size, width, height };
+  } catch (error) {
+    console.warn("DishKAI image compression failed; uploading original image.", error);
+    return { file, changed: false };
+  }
+}
+
 async function checkPrivateAccess() {
   try {
     const { result } = await fetchJson("/api/private-status", { cache: "no-store" });
@@ -289,8 +334,15 @@ async function analyzeImage() {
     return;
   }
   setStatus(t("loading"));
+  const uploadImage = await compressMenuImage(image);
+  if (uploadImage.changed) {
+    setStatus(template("compressionStatus", {
+      from: formatBytes(uploadImage.originalSize),
+      to: formatBytes(uploadImage.compressedSize),
+    }));
+  }
   const formData = new FormData();
-  formData.append("image", image);
+  formData.append("image", uploadImage.file);
   formData.append("sourceLanguage", "auto");
   formData.append("targetLanguage", $("#targetLanguage").value);
   const { response, result } = await fetchJson("/api/analyze-menu-image", { method: "POST", body: formData });
