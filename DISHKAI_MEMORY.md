@@ -206,3 +206,4 @@ Codex must still ask before destructive operations, editing secrets, changing Cl
 - DishKAI v0.2.21 removed the approximate AI API cost note from the public footer.
 - DishKAI v0.2.22 tightened the public footer layout and moved the disclaimer into a native expandable footer section.
 - DishKAI v0.2.23 merged the footer disclaimer into the contact/info area as a compact native details link, following the Turnpo footer pattern instead of a separate full-width disclosure row.
+- DishKAI v0.2.24 aligned the footer disclaimer trigger at the same height as Contact by making it a sibling footer column, matching the Turnpo-style same-row disclosure layout.

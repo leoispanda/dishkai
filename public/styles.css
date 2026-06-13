@@ -617,7 +617,7 @@ select, input { min-height: 46px; }
 .footer.compact { font-size: 13px; }
 .footer-main {
   display: grid;
-  grid-template-columns: minmax(180px, 0.58fr) minmax(300px, 1.22fr) minmax(300px, 0.86fr);
+  grid-template-columns: minmax(170px, 0.54fr) minmax(280px, 1fr) minmax(150px, 0.44fr) minmax(260px, 0.8fr);
   gap: 18px;
   align-items: start;
 }
@@ -685,7 +685,7 @@ select, input { min-height: 46px; }
 }
 .footer-disclaimer {
   width: 100%;
-  margin-top: 2px;
+  align-self: start;
 }
 .footer-disclaimer summary {
   display: inline-flex;
@@ -1061,9 +1061,12 @@ select, input { min-height: 46px; }
   .knowledge-image { height: clamp(220px, 58vw, 360px); }
   .agent-picker, .group-member-grid, .role-grid { grid-template-columns: 1fr 1fr; }
   .footer-main {
-    grid-template-columns: minmax(180px, 0.7fr) minmax(0, 1.3fr);
+    grid-template-columns: minmax(180px, 0.72fr) minmax(0, 1.28fr);
   }
   .footer-contact {
+    grid-column: 1;
+  }
+  .footer-disclaimer {
     grid-column: 2;
   }
 }
@@ -1103,6 +1106,9 @@ select, input { min-height: 46px; }
     gap: 12px;
   }
   .footer-contact {
+    grid-column: auto;
+  }
+  .footer-disclaimer {
     grid-column: auto;
   }
   .footer-summary {
