@@ -679,9 +679,12 @@ select, input { min-height: 46px; }
   text-decoration: none;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.9) inset;
 }
-.footer-contact a:hover {
+.footer-contact a:hover,
+.footer-contact a:focus-visible {
   border-color: rgba(229, 125, 34, 0.42);
   background: rgba(255, 239, 220, 0.86);
+  outline: 2px solid rgba(229, 125, 34, 0.32);
+  outline-offset: 2px;
 }
 .footer-disclaimer {
   width: 100%;
@@ -691,11 +694,24 @@ select, input { min-height: 46px; }
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  min-height: 30px;
+  border: 1px solid rgba(229, 125, 34, 0.2);
+  border-radius: 999px;
+  background: rgba(255, 246, 235, 0.74);
   color: var(--terra);
   cursor: pointer;
   font-size: 12px;
-  font-weight: 820;
+  font-weight: 850;
   list-style: none;
+  padding: 5px 8px 5px 10px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.9) inset;
+}
+.footer-disclaimer summary:hover,
+.footer-disclaimer summary:focus-visible {
+  border-color: rgba(229, 125, 34, 0.42);
+  background: rgba(255, 239, 220, 0.86);
+  outline: 2px solid rgba(229, 125, 34, 0.32);
+  outline-offset: 2px;
 }
 .footer-disclaimer summary::-webkit-details-marker {
   display: none;
@@ -706,9 +722,9 @@ select, input { min-height: 46px; }
   place-items: center;
   width: 18px;
   height: 18px;
-  border: 1px solid rgba(229, 125, 34, 0.24);
+  border: 1px solid rgba(229, 125, 34, 0.26);
   border-radius: 999px;
-  background: rgba(255, 246, 235, 0.68);
+  background: rgba(255, 255, 255, 0.58);
   color: var(--terra);
   font-size: 12px;
   line-height: 1;

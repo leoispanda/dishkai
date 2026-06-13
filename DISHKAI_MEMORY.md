@@ -207,3 +207,4 @@ Codex must still ask before destructive operations, editing secrets, changing Cl
 - DishKAI v0.2.22 tightened the public footer layout and moved the disclaimer into a native expandable footer section.
 - DishKAI v0.2.23 merged the footer disclaimer into the contact/info area as a compact native details link, following the Turnpo footer pattern instead of a separate full-width disclosure row.
 - DishKAI v0.2.24 aligned the footer disclaimer trigger at the same height as Contact by making it a sibling footer column, matching the Turnpo-style same-row disclosure layout.
+- DishKAI v0.2.25 unified footer contact and disclaimer controls with matching orange pill styling and orange focus rings, removing the browser-default blue focus outline.
