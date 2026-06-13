@@ -752,6 +752,25 @@ select, input { min-height: 46px; }
   margin: 0;
   padding-left: 18px;
 }
+.footer-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px 12px;
+  border-top: 1px solid var(--line);
+  padding-top: 13px;
+  color: rgba(102, 112, 107, 0.82);
+  font-size: 12px;
+}
+.footer-stats > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.footer-stats strong {
+  color: #9f5719;
+  font-weight: 860;
+}
 .empty-state { color: var(--muted); }
 
 .pdc-section {
@@ -1129,5 +1148,8 @@ select, input { min-height: 46px; }
   }
   .footer-summary {
     gap: 6px;
+  }
+  .footer-stats {
+    justify-content: flex-start;
   }
 }

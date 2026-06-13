@@ -1,5 +1,6 @@
-const APP_VERSION = "DishKAI v0.2.25-public-beta";
+const APP_VERSION = "DishKAI v0.2.26-public-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
+const USAGE_COUNT_KEY = "dishkai-local-usage-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
 const MENU_IMAGE_MAX_EDGE = 1800;
 const MENU_IMAGE_JPEG_QUALITY = 0.82;
@@ -19,6 +20,8 @@ const translations = {
     footerAbout: "DishKAI helps people quickly understand menu names, dish context, and ordering risks before choosing what to eat.",
     footerContact: "Contact",
     footerDisclaimerLabel: "View disclaimer",
+    footerVisitTotalLabel: "Total views",
+    footerUsageTotalLabel: "Uses",
     legalEyebrow: "Important disclaimer",
     legalTitle: "Use DishKAI as an experimental menu reference only.",
     legalPrivate: "DishKAI is a public beta menu helper. It is not a professional, medical, nutritional, allergy, legal, or restaurant advisory service.",
@@ -46,6 +49,8 @@ const translations = {
     footerAbout: "DishKAI 帮助你在点餐前快速理解菜名、菜品背景和需要注意的风险。",
     footerContact: "联系",
     footerDisclaimerLabel: "查看免责声明",
+    footerVisitTotalLabel: "总浏览次数",
+    footerUsageTotalLabel: "使用次数",
     legalEyebrow: "重要免责声明",
     legalTitle: "DishKAI 仅作为实验性的菜单参考工具使用。",
     legalPrivate: "DishKAI 是公开 beta 菜单辅助工具，不是专业、医疗、营养、过敏、法律或餐厅顾问服务。",
@@ -73,6 +78,8 @@ const translations = {
     footerAbout: "DishKAI helpt je snel menunamen, gerechtcontext en bestelrisico's te begrijpen voordat je kiest wat je eet.",
     footerContact: "Contact",
     footerDisclaimerLabel: "Bekijk disclaimer",
+    footerVisitTotalLabel: "Totaal bezoeken",
+    footerUsageTotalLabel: "Gebruik",
     legalEyebrow: "Belangrijke disclaimer",
     legalTitle: "Gebruik DishKAI alleen als experimentele menureferentie.",
     legalPrivate: "DishKAI is een publieke beta-menuhelper. Het is geen professionele, medische, voedingskundige, allergie-, juridische of restaurantadviesdienst.",
@@ -121,11 +128,21 @@ function incrementVisitCount() {
   renderAppMeta();
 }
 
+function incrementUsageCount() {
+  const current = Number(localStorage.getItem(USAGE_COUNT_KEY) || 0);
+  const next = Number.isFinite(current) ? current + 1 : 1;
+  localStorage.setItem(USAGE_COUNT_KEY, String(next));
+  renderAppMeta();
+}
+
 function renderAppMeta() {
-  const count = Number(localStorage.getItem(VISIT_COUNT_KEY) || 0);
+  const visitCount = Number(localStorage.getItem(VISIT_COUNT_KEY) || 0);
+  const usageCount = Number(localStorage.getItem(USAGE_COUNT_KEY) || 0);
   if ($("#appVersion")) $("#appVersion").textContent = APP_VERSION;
   if ($("#footerVersion")) $("#footerVersion").textContent = APP_VERSION;
-  if ($("#visitCount")) $("#visitCount").textContent = `${t("visitCountLabel")}: ${count}`;
+  if ($("#visitCount")) $("#visitCount").textContent = `${t("visitCountLabel")}: ${visitCount}`;
+  if ($("#footerVisitTotal")) $("#footerVisitTotal").textContent = String(visitCount);
+  if ($("#footerUsageTotal")) $("#footerUsageTotal").textContent = String(usageCount);
 }
 
 function setMode(mode) {
@@ -376,6 +393,7 @@ async function analyzeText() {
     return;
   }
   latestResult = result;
+  incrementUsageCount();
   renderAnalysis(result);
   setStatus(`${result.items.length} ${t("summary")}.`);
   $("#visual-menu").scrollIntoView({ behavior: "smooth", block: "start" });
@@ -407,6 +425,7 @@ async function analyzeImage() {
     return;
   }
   latestResult = result;
+  incrementUsageCount();
   renderAnalysis(result);
   setStatus(`${result.items.length} ${t("summary")}.`);
 }
