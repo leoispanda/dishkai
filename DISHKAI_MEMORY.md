@@ -205,3 +205,4 @@ Codex must still ask before destructive operations, editing secrets, changing Cl
 - DishKAI v0.2.20 redesigned the public footer into a premium glass card layout with clearer brand/version grouping, a separated About/contact area, a pill-style contact link, and responsive single-column behavior on smaller screens.
 - DishKAI v0.2.21 removed the approximate AI API cost note from the public footer.
 - DishKAI v0.2.22 tightened the public footer layout and moved the disclaimer into a native expandable footer section.
+- DishKAI v0.2.23 merged the footer disclaimer into the contact/info area as a compact native details link, following the Turnpo footer pattern instead of a separate full-width disclosure row.

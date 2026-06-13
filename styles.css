@@ -617,7 +617,7 @@ select, input { min-height: 46px; }
 .footer.compact { font-size: 13px; }
 .footer-main {
   display: grid;
-  grid-template-columns: minmax(180px, 0.6fr) minmax(280px, 1.4fr) minmax(190px, 0.62fr);
+  grid-template-columns: minmax(180px, 0.58fr) minmax(300px, 1.22fr) minmax(300px, 0.86fr);
   gap: 18px;
   align-items: start;
 }
@@ -655,8 +655,8 @@ select, input { min-height: 46px; }
 }
 .footer-contact {
   display: grid;
-  gap: 8px;
-  justify-items: end;
+  gap: 7px;
+  justify-items: start;
   align-content: start;
   line-height: 1.6;
 }
@@ -684,15 +684,14 @@ select, input { min-height: 46px; }
   background: rgba(255, 239, 220, 0.86);
 }
 .footer-disclaimer {
-  border-top: 1px solid var(--line);
-  padding-top: 12px;
+  width: 100%;
+  margin-top: 2px;
 }
 .footer-disclaimer summary {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  color: var(--ink);
+  gap: 8px;
+  color: var(--terra);
   cursor: pointer;
   font-size: 12px;
   font-weight: 820;
@@ -705,13 +704,13 @@ select, input { min-height: 46px; }
   content: "+";
   display: grid;
   place-items: center;
-  width: 24px;
-  height: 24px;
-  border: 1px solid rgba(229, 125, 34, 0.22);
+  width: 18px;
+  height: 18px;
+  border: 1px solid rgba(229, 125, 34, 0.24);
   border-radius: 999px;
-  background: rgba(255, 246, 235, 0.72);
+  background: rgba(255, 246, 235, 0.68);
   color: var(--terra);
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1;
 }
 .footer-disclaimer[open] summary::after {
@@ -719,12 +718,12 @@ select, input { min-height: 46px; }
 }
 .footer-disclaimer-body {
   display: grid;
-  gap: 10px;
-  margin-top: 12px;
+  gap: 9px;
+  margin-top: 10px;
   border: 1px solid rgba(89, 107, 97, 0.14);
-  border-radius: 16px;
+  border-radius: 14px;
   background: rgba(255, 255, 255, 0.46);
-  padding: 14px;
+  padding: 12px;
   line-height: 1.55;
 }
 .footer-disclaimer-body strong {
@@ -1065,7 +1064,6 @@ select, input { min-height: 46px; }
     grid-template-columns: minmax(180px, 0.7fr) minmax(0, 1.3fr);
   }
   .footer-contact {
-    justify-items: start;
     grid-column: 2;
   }
 }
