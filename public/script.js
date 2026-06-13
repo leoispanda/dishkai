@@ -1,4 +1,4 @@
-const APP_VERSION = "DishKAI v0.2.21-public-beta";
+const APP_VERSION = "DishKAI v0.2.22-public-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
 const MENU_IMAGE_MAX_EDGE = 1800;
@@ -16,8 +16,9 @@ const translations = {
     outputLanguage: "Output language", generate: "Generate menu list", loading: "Analyzing menu...", compressionStatus: "Compressed {from} to {to}. Analyzing menu...", noItems: "No menu items were found. Please paste clearer menu text.", imageUnavailable: "Image analysis is not available yet. Please paste menu text instead.",
     menuListEyebrow: "Menu list", menuListTitle: "Tap a dish to understand it.", emptyCard: "Tap a menu item to open its Dish Knowledge Card.",
     footerText: "Fast menu understanding for ordering decisions.",
-    footerLegal: "Public beta reference. Verify critical food information with the restaurant.",
     footerAbout: "DishKAI helps people quickly understand menu names, dish context, and ordering risks before choosing what to eat.",
+    footerContact: "Contact",
+    footerDisclaimerLabel: "View disclaimer",
     legalEyebrow: "Important disclaimer",
     legalTitle: "Use DishKAI as an experimental menu reference only.",
     legalPrivate: "DishKAI is a public beta menu helper. It is not a professional, medical, nutritional, allergy, legal, or restaurant advisory service.",
@@ -42,8 +43,9 @@ const translations = {
     outputLanguage: "输出语言", generate: "生成菜单列表", loading: "正在分析菜单...", compressionStatus: "已将图片从 {from} 压缩到 {to}，正在分析菜单...", noItems: "没有找到菜单项。请粘贴更清晰的菜单文字。", imageUnavailable: "图片分析暂不可用。请粘贴菜单文字。",
     menuListEyebrow: "菜单列表", menuListTitle: "点击一道菜，快速看懂它。", emptyCard: "点击菜单项以打开菜品知识卡。",
     footerText: "为点餐决策而生的快速菜单理解工具。",
-    footerLegal: "公开 beta 参考工具。关键饮食信息请直接向餐厅确认。",
     footerAbout: "DishKAI 帮助你在点餐前快速理解菜名、菜品背景和需要注意的风险。",
+    footerContact: "联系",
+    footerDisclaimerLabel: "查看免责声明",
     legalEyebrow: "重要免责声明",
     legalTitle: "DishKAI 仅作为实验性的菜单参考工具使用。",
     legalPrivate: "DishKAI 是公开 beta 菜单辅助工具，不是专业、医疗、营养、过敏、法律或餐厅顾问服务。",
@@ -68,8 +70,9 @@ const translations = {
     outputLanguage: "Uitvoertaal", generate: "Genereer menulijst", loading: "Menu analyseren...", compressionStatus: "Afbeelding verkleind van {from} naar {to}. Menu analyseren...", noItems: "Geen menu-items gevonden. Plak duidelijkere menutekst.", imageUnavailable: "Beeldanalyse is nog niet beschikbaar. Plak menutekst.",
     menuListEyebrow: "Menulijst", menuListTitle: "Tik op een gerecht om het te begrijpen.", emptyCard: "Tik op een menu-item om de Dish Knowledge Card te openen.",
     footerText: "Snelle menubegrip voor bestelbeslissingen.",
-    footerLegal: "Publieke beta-referentie. Controleer kritieke voedselinformatie bij het restaurant.",
     footerAbout: "DishKAI helpt je snel menunamen, gerechtcontext en bestelrisico's te begrijpen voordat je kiest wat je eet.",
+    footerContact: "Contact",
+    footerDisclaimerLabel: "Bekijk disclaimer",
     legalEyebrow: "Belangrijke disclaimer",
     legalTitle: "Gebruik DishKAI alleen als experimentele menureferentie.",
     legalPrivate: "DishKAI is een publieke beta-menuhelper. Het is geen professionele, medische, voedingskundige, allergie-, juridische of restaurantadviesdienst.",

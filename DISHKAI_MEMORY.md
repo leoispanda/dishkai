@@ -100,7 +100,7 @@ Key architecture:
 - PDC main flow is now council-first: choose Product Council or Personal PDC Council, select role cards, inspect role details, then choose independent speaking or automatic grouping.
 - Automatic grouping uses simple round-robin assignment with user-selected group count; fixed three-team templates are no longer the main UI path.
 - DishKAI is now public beta for core menu recognition, while PDC and internal/private actions remain Leo/Cindy-only.
-- Public footer should state that AI scans have a small approximate API cost. Do not use guilt-framed donation language.
+- Public footer should not show the approximate AI API cost note unless explicitly requested. Do not use guilt-framed donation language.
 - Private tools require server-side access-code verification through `DISHKAI_PRIVATE_ACCESS_CODE` and a signed httpOnly session cookie using `DISHKAI_SESSION_SECRET`.
 - Upload, recognition, PDC, image generation, and database-write APIs should be protected server-side and rate limited.
 - Uploaded menu images should not be permanently stored by default; process temporarily and store only structured dish data after Leo/Cindy manually confirms.
@@ -204,3 +204,4 @@ Codex must still ask before destructive operations, editing secrets, changing Cl
 - DishKAI v0.2.19 added a compact footer About block with the public contact address `hello@dishkai.com`, while keeping the approximate AI API cost note in the footer.
 - DishKAI v0.2.20 redesigned the public footer into a premium glass card layout with clearer brand/version grouping, a separated About/contact area, a pill-style contact link, and responsive single-column behavior on smaller screens.
 - DishKAI v0.2.21 removed the approximate AI API cost note from the public footer.
+- DishKAI v0.2.22 tightened the public footer layout and moved the disclaimer into a native expandable footer section.
