@@ -2,5 +2,9 @@ name = "dishkai"
 compatibility_date = "2026-05-14"
 pages_build_output_dir = "./public"
 
+[[kv_namespaces]]
+binding = "DISHKAI_UNMATCHED_DISHES"
+id = "6500a1ef77664ca0a9c8be2ee9fdd13d"
+
 [ai]
 binding = "AI"

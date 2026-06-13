@@ -51,7 +51,7 @@ Optional Cloudflare variables:
 
 Optional Cloudflare bindings:
 
-- `DISHKAI_UNMATCHED_DISHES`: KV namespace binding used to collect unmatched and AI-estimated dish names from all public users. This stores structured dish names/examples only, not uploaded images or full menu text. If the binding is missing, menu analysis still works but the central backlog is not persisted.
+- `DISHKAI_UNMATCHED_DISHES`: KV namespace binding used to collect unmatched and AI-estimated dish names from all public users. This stores structured dish names/examples only, not uploaded images or full menu text. The production binding is configured in `wrangler.toml` for the `dishkai_unmatched_dishes` KV namespace. If the binding is missing, menu analysis still works but the central backlog is not persisted.
 
 Current API endpoints:
 

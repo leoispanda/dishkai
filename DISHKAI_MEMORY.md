@@ -209,3 +209,4 @@ Codex must still ask before destructive operations, editing secrets, changing Cl
 - DishKAI v0.2.24 aligned the footer disclaimer trigger at the same height as Contact by making it a sibling footer column, matching the Turnpo-style same-row disclosure layout.
 - DishKAI v0.2.25 unified footer contact and disclaimer controls with matching orange pill styling and orange focus rings, removing the browser-default blue focus outline.
 - DishKAI v0.2.26 added a footer stats row showing stored visit count and successful menu-use count. These counters are browser-local unless a future backend analytics store is added.
+- The Cloudflare Pages KV binding for centralized unmatched-dish collection is configured in `wrangler.toml` as `DISHKAI_UNMATCHED_DISHES` pointing to the `dishkai_unmatched_dishes` namespace ID `6500a1ef77664ca0a9c8be2ee9fdd13d`.
