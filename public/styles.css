@@ -686,14 +686,6 @@ select, input { min-height: 46px; }
   border-color: rgba(229, 125, 34, 0.42);
   background: rgba(255, 239, 220, 0.86);
 }
-.footer-cost {
-  grid-column: 1 / -1;
-  border-top: 1px solid var(--line);
-  padding-top: 14px;
-  color: rgba(102, 112, 107, 0.86);
-  font-size: 12px;
-  line-height: 1.55;
-}
 .empty-state { color: var(--muted); }
 
 .pdc-section {
@@ -1065,8 +1057,5 @@ select, input { min-height: 46px; }
   }
   .footer-summary {
     gap: 6px;
-  }
-  .footer-cost {
-    padding-top: 12px;
   }
 }
