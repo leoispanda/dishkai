@@ -6,7 +6,7 @@
   <meta name="description" content="DishKAI helps people understand unfamiliar menu names before ordering.">
   <title>DishKAI | Know the dish before you order</title>
   <link rel="icon" href="/assets/brand/dishkai-cloche-logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=0.2.18">
+  <link rel="stylesheet" href="styles.css?v=0.2.19">
 </head>
 <body>
   <header class="topbar compact">
@@ -214,13 +214,20 @@ Chef Special Pasta</textarea>
   </main>
 
   <footer class="footer compact">
-    <span>DishKAI</span>
-    <span id="footerVersion">Public beta</span>
-    <span data-i18n="footerText">Fast menu understanding for ordering decisions.</span>
-    <span data-i18n="footerLegal">Public beta reference. Verify critical food information with the restaurant.</span>
+    <div class="footer-main">
+      <span>DishKAI</span>
+      <span id="footerVersion">Public beta</span>
+      <span data-i18n="footerText">Fast menu understanding for ordering decisions.</span>
+      <span data-i18n="footerLegal">Public beta reference. Verify critical food information with the restaurant.</span>
+    </div>
+    <div class="footer-about">
+      <strong>About</strong>
+      <span data-i18n="footerAbout">DishKAI helps people quickly understand menu names, dish context, and ordering risks before choosing what to eat.</span>
+      <a href="mailto:hello@dishkai.com">hello@dishkai.com</a>
+    </div>
     <span class="footer-cost" data-i18n="footerCostNote">AI menu analysis usually costs a small API fee, often under a few cents per scan depending on menu length and image size.</span>
   </footer>
 
-  <script src="script.js?v=0.2.18"></script>
+  <script src="script.js?v=0.2.19"></script>
 </body>
 </html>

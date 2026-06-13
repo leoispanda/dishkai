@@ -597,9 +597,14 @@ select, input { min-height: 46px; }
   color: var(--muted);
 }
 
-.footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 14px; padding: 28px clamp(18px, 5vw, 70px); border-top: 1px solid var(--line); background: rgba(255, 255, 255, 0.42); color: var(--muted); backdrop-filter: blur(14px); }
+.footer { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(260px, 0.65fr); gap: 18px 34px; padding: 28px clamp(18px, 5vw, 70px); border-top: 1px solid var(--line); background: rgba(255, 255, 255, 0.42); color: var(--muted); backdrop-filter: blur(14px); }
 .footer.compact { font-size: 14px; }
-.footer-cost { flex-basis: 100%; font-size: 12px; }
+.footer-main { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 28px; align-content: start; }
+.footer-about { display: grid; gap: 6px; justify-items: start; max-width: 520px; }
+.footer-about strong { color: var(--ink); font-size: 13px; letter-spacing: 0; }
+.footer-about a { color: var(--terra); font-weight: 800; text-decoration: none; }
+.footer-about a:hover { text-decoration: underline; }
+.footer-cost { grid-column: 1 / -1; font-size: 12px; }
 .empty-state { color: var(--muted); }
 
 .pdc-section {
@@ -950,5 +955,6 @@ select, input { min-height: 46px; }
   .mode-tabs { grid-template-columns: 1fr; border-radius: 12px; }
   .mode-tabs button { border-radius: 8px; }
   .agent-picker, .group-member-grid, .role-grid { grid-template-columns: 1fr; }
-  .footer { flex-direction: column; }
+  .footer { grid-template-columns: 1fr; }
+  .footer-main { display: grid; gap: 10px; }
 }

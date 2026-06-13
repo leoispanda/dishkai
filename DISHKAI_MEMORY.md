@@ -201,3 +201,4 @@ Codex must still ask before destructive operations, editing secrets, changing Cl
 - DishKAI v0.2.17 changed the brand lockup to match the shared reference format: rounded white app icon plus `Dish` wordmark with orange `KAI`. The cloche SVG was simplified for a cleaner app-icon look.
 
 - DishKAI v0.2.18 unified the logo orange and interface accent color by setting `--terra` to the same orange used by `KAI`. The product eyebrow copy now reads "Dish Knowledge with AI".
+- DishKAI v0.2.19 added a compact footer About block with the public contact address `hello@dishkai.com`, while keeping the approximate AI API cost note in the footer.

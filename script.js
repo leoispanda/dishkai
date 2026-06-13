@@ -1,4 +1,4 @@
-const APP_VERSION = "DishKAI v0.2.18-public-beta";
+const APP_VERSION = "DishKAI v0.2.19-public-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
 const MENU_IMAGE_MAX_EDGE = 1800;
@@ -17,6 +17,7 @@ const translations = {
     menuListEyebrow: "Menu list", menuListTitle: "Tap a dish to understand it.", emptyCard: "Tap a menu item to open its Dish Knowledge Card.",
     footerText: "Fast menu understanding for ordering decisions.",
     footerLegal: "Public beta reference. Verify critical food information with the restaurant.",
+    footerAbout: "DishKAI helps people quickly understand menu names, dish context, and ordering risks before choosing what to eat.",
     footerCostNote: "AI menu analysis usually costs a small API fee, often under a few cents per scan depending on menu length and image size.",
     legalEyebrow: "Important disclaimer",
     legalTitle: "Use DishKAI as an experimental menu reference only.",
@@ -43,6 +44,7 @@ const translations = {
     menuListEyebrow: "菜单列表", menuListTitle: "点击一道菜，快速看懂它。", emptyCard: "点击菜单项以打开菜品知识卡。",
     footerText: "为点餐决策而生的快速菜单理解工具。",
     footerLegal: "公开 beta 参考工具。关键饮食信息请直接向餐厅确认。",
+    footerAbout: "DishKAI 帮助你在点餐前快速理解菜名、菜品背景和需要注意的风险。",
     footerCostNote: "AI 菜单识别会产生少量 API 成本，通常每次几美分以内，具体取决于菜单长度和图片大小。",
     legalEyebrow: "重要免责声明",
     legalTitle: "DishKAI 仅作为实验性的菜单参考工具使用。",
@@ -69,6 +71,7 @@ const translations = {
     menuListEyebrow: "Menulijst", menuListTitle: "Tik op een gerecht om het te begrijpen.", emptyCard: "Tik op een menu-item om de Dish Knowledge Card te openen.",
     footerText: "Snelle menubegrip voor bestelbeslissingen.",
     footerLegal: "Publieke beta-referentie. Controleer kritieke voedselinformatie bij het restaurant.",
+    footerAbout: "DishKAI helpt je snel menunamen, gerechtcontext en bestelrisico's te begrijpen voordat je kiest wat je eet.",
     footerCostNote: "AI-menuanalyse kost meestal een kleine API-fee, vaak minder dan een paar cent per scan afhankelijk van menulengte en afbeeldingsgrootte.",
     legalEyebrow: "Belangrijke disclaimer",
     legalTitle: "Gebruik DishKAI alleen als experimentele menureferentie.",
