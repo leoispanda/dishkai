@@ -597,14 +597,103 @@ select, input { min-height: 46px; }
   color: var(--muted);
 }
 
-.footer { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(260px, 0.65fr); gap: 18px 34px; padding: 28px clamp(18px, 5vw, 70px); border-top: 1px solid var(--line); background: rgba(255, 255, 255, 0.42); color: var(--muted); backdrop-filter: blur(14px); }
-.footer.compact { font-size: 14px; }
-.footer-main { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 28px; align-content: start; }
-.footer-about { display: grid; gap: 6px; justify-items: start; max-width: 520px; }
-.footer-about strong { color: var(--ink); font-size: 13px; letter-spacing: 0; }
-.footer-about a { color: var(--terra); font-weight: 800; text-decoration: none; }
-.footer-about a:hover { text-decoration: underline; }
-.footer-cost { grid-column: 1 / -1; font-size: 12px; }
+.footer {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.72fr);
+  gap: 20px 30px;
+  width: min(1180px, calc(100vw - 32px));
+  margin: 0 auto 22px;
+  padding: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.74);
+  border-radius: 24px;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.78), rgba(255, 248, 240, 0.52)),
+    rgba(255, 255, 255, 0.5);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.9) inset,
+    0 18px 52px rgba(31, 40, 35, 0.08);
+  color: var(--muted);
+  backdrop-filter: var(--blur);
+}
+.footer.compact { font-size: 13px; }
+.footer-main {
+  display: grid;
+  grid-template-columns: minmax(190px, 0.42fr) minmax(0, 1fr);
+  gap: 12px 20px;
+  align-content: start;
+}
+.footer-brand {
+  display: grid;
+  gap: 6px;
+  align-content: start;
+}
+.footer-logo {
+  color: var(--ink);
+  font-size: 17px;
+  font-weight: 860;
+  line-height: 1;
+}
+.footer-version {
+  width: fit-content;
+  border: 1px solid rgba(229, 125, 34, 0.22);
+  border-radius: 999px;
+  background: rgba(255, 245, 232, 0.78);
+  color: #9f5719;
+  padding: 5px 9px;
+  font-size: 11px;
+  font-weight: 820;
+  white-space: nowrap;
+}
+.footer-summary {
+  display: grid;
+  gap: 8px;
+  max-width: 620px;
+  line-height: 1.6;
+}
+.footer-summary span:first-child {
+  color: var(--ink);
+  font-weight: 760;
+}
+.footer-about {
+  display: grid;
+  gap: 8px;
+  justify-items: start;
+  max-width: 520px;
+  padding-left: 22px;
+  border-left: 1px solid var(--line);
+  line-height: 1.6;
+}
+.footer-about strong {
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 860;
+  letter-spacing: 0;
+}
+.footer-about a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  border: 1px solid rgba(229, 125, 34, 0.2);
+  border-radius: 999px;
+  background: rgba(255, 246, 235, 0.74);
+  color: var(--terra);
+  font-weight: 850;
+  padding: 5px 10px;
+  text-decoration: none;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.9) inset;
+}
+.footer-about a:hover {
+  border-color: rgba(229, 125, 34, 0.42);
+  background: rgba(255, 239, 220, 0.86);
+}
+.footer-cost {
+  grid-column: 1 / -1;
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+  color: rgba(102, 112, 107, 0.86);
+  font-size: 12px;
+  line-height: 1.55;
+}
 .empty-state { color: var(--muted); }
 
 .pdc-section {
@@ -929,6 +1018,15 @@ select, input { min-height: 46px; }
   }
   .knowledge-image { height: clamp(220px, 58vw, 360px); }
   .agent-picker, .group-member-grid, .role-grid { grid-template-columns: 1fr 1fr; }
+  .footer {
+    grid-template-columns: 1fr;
+  }
+  .footer-about {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+    padding-left: 0;
+    padding-top: 16px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -955,6 +1053,20 @@ select, input { min-height: 46px; }
   .mode-tabs { grid-template-columns: 1fr; border-radius: 12px; }
   .mode-tabs button { border-radius: 8px; }
   .agent-picker, .group-member-grid, .role-grid { grid-template-columns: 1fr; }
-  .footer { grid-template-columns: 1fr; }
-  .footer-main { display: grid; gap: 10px; }
+  .footer {
+    width: min(100vw - 20px, 620px);
+    margin-bottom: 10px;
+    padding: 18px;
+    border-radius: 18px;
+  }
+  .footer-main {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .footer-summary {
+    gap: 6px;
+  }
+  .footer-cost {
+    padding-top: 12px;
+  }
 }
