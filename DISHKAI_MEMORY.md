@@ -107,6 +107,8 @@ Key architecture:
 - Menu upload UI must warn against images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.
 - AI dish image previews must show: “AI-generated preview. For inspiration only. Actual dish may look different.”
 - If temporary scan records are introduced, keep a clear recent scans admin action.
+- Default pasted menu sample now uses verified French dishes: Boeuf Bourguignon, Coq au Vin, and Ratatouille.
+- Leo confirmed future normal DishKAI repository tasks should proceed directly with local edits, checks, commit, and push unless they cross the explicit safety boundaries.
 
 Composition rule:
 Use approximate 5% composition blocks.

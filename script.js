@@ -1,4 +1,4 @@
-const APP_VERSION = "DishKAI v0.2.26-public-beta";
+const APP_VERSION = "DishKAI v0.2.27-public-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
 const USAGE_COUNT_KEY = "dishkai-local-usage-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
@@ -13,7 +13,7 @@ const translations = {
     heroTitle: "Know the dish before you order.",
     heroSubtitle: "Upload a menu photo or paste menu text. DishKAI turns it into a clear dish list you can tap for ingredients, taste, watch-outs, and ordering guidance.",
     privateAccessEyebrow: "Private tools", privateAccessTitle: "Leo & Cindy internal tools.", unauthorizedNotice: "Menu recognition is public. PDC and internal actions stay private.", privateAccessLabel: "Private access code", privateAccessPlaceholder: "Enter private access code", unlockPrivate: "Unlock private tools", privateUnlocked: "Private tools unlocked.", privateLocked: "Private tools are locked. Menu recognition is open.", privateDenied: "Private tools are locked.", clearRecentScans: "Clear recent scans", clearScansDone: "Recent scans cleared.", privateLogout: "Lock",
-    textMode: "Paste menu text", imageMode: "Upload menu image", menuTextLabel: "Paste or type menu text", menuTextPlaceholder: "Carbonara\nPad Thai\nChef Special Pasta", menuImageLabel: "Upload menu image", imageHelper: "If image analysis is unavailable, paste the menu text instead.", uploadWarning: "Please do not upload images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.",
+    textMode: "Paste menu text", imageMode: "Upload menu image", menuTextLabel: "Paste or type menu text", menuTextPlaceholder: "Boeuf Bourguignon\nCoq au Vin\nRatatouille", menuImageLabel: "Upload menu image", imageHelper: "If image analysis is unavailable, paste the menu text instead.", uploadWarning: "Please do not upload images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.",
     outputLanguage: "Output language", generate: "Generate menu list", loading: "Analyzing menu...", compressionStatus: "Compressed {from} to {to}. Analyzing menu...", noItems: "No menu items were found. Please paste clearer menu text.", imageUnavailable: "Image analysis is not available yet. Please paste menu text instead.",
     menuListEyebrow: "Menu list", menuListTitle: "Tap a dish to understand it.", emptyCard: "Tap a menu item to open its Dish Knowledge Card.",
     footerText: "Fast menu understanding for ordering decisions.",
@@ -42,7 +42,7 @@ const translations = {
     heroTitle: "点餐前，先看懂这道菜。",
     heroSubtitle: "上传菜单照片或粘贴菜单文字。DishKAI 会生成一份清晰菜品列表，点击即可查看成分、味道、注意事项和点餐建议。",
     privateAccessEyebrow: "私有工具", privateAccessTitle: "Leo 和 Cindy 的内部工具。", unauthorizedNotice: "菜单识别已公开开放。PDC 和内部操作仍然保持私有。", privateAccessLabel: "私有访问码", privateAccessPlaceholder: "输入私有访问码", unlockPrivate: "解锁私有工具", privateUnlocked: "私有工具已解锁。", privateLocked: "私有工具已锁定。菜单识别已开放。", privateDenied: "私有工具已锁定。", clearRecentScans: "清除最近扫描", clearScansDone: "最近扫描已清除。", privateLogout: "锁定",
-    textMode: "粘贴菜单文字", imageMode: "上传菜单图片", menuTextLabel: "粘贴或输入菜单文字", menuTextPlaceholder: "Carbonara\nPad Thai\nChef Special Pasta", menuImageLabel: "上传菜单图片", imageHelper: "如果图片分析暂不可用，请改用粘贴菜单文字。", uploadWarning: "Please do not upload images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.",
+    textMode: "粘贴菜单文字", imageMode: "上传菜单图片", menuTextLabel: "粘贴或输入菜单文字", menuTextPlaceholder: "Boeuf Bourguignon\nCoq au Vin\nRatatouille", menuImageLabel: "上传菜单图片", imageHelper: "如果图片分析暂不可用，请改用粘贴菜单文字。", uploadWarning: "Please do not upload images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.",
     outputLanguage: "输出语言", generate: "生成菜单列表", loading: "正在分析菜单...", compressionStatus: "已将图片从 {from} 压缩到 {to}，正在分析菜单...", noItems: "没有找到菜单项。请粘贴更清晰的菜单文字。", imageUnavailable: "图片分析暂不可用。请粘贴菜单文字。",
     menuListEyebrow: "菜单列表", menuListTitle: "点击一道菜，快速看懂它。", emptyCard: "点击菜单项以打开菜品知识卡。",
     footerText: "为点餐决策而生的快速菜单理解工具。",
@@ -71,7 +71,7 @@ const translations = {
     heroTitle: "Ken het gerecht voordat je bestelt.",
     heroSubtitle: "Upload een menufoto of plak menutekst. DishKAI maakt er een heldere gerechtenlijst van die je kunt aantikken voor ingredienten, smaak, aandachtspunten en besteladvies.",
     privateAccessEyebrow: "Private tools", privateAccessTitle: "Interne tools voor Leo & Cindy.", unauthorizedNotice: "Menuherkenning is publiek. PDC en interne acties blijven privaat.", privateAccessLabel: "Private toegangscode", privateAccessPlaceholder: "Voer private toegangscode in", unlockPrivate: "Ontgrendel private tools", privateUnlocked: "Private tools ontgrendeld.", privateLocked: "Private tools zijn vergrendeld. Menuherkenning is open.", privateDenied: "Private tools zijn vergrendeld.", clearRecentScans: "Wis recente scans", clearScansDone: "Recente scans gewist.", privateLogout: "Vergrendel",
-    textMode: "Menutekst plakken", imageMode: "Menufoto uploaden", menuTextLabel: "Plak of typ menutekst", menuTextPlaceholder: "Carbonara\nPad Thai\nChef Special Pasta", menuImageLabel: "Menufoto uploaden", imageHelper: "Als beeldanalyse niet beschikbaar is, plak dan de menutekst.", uploadWarning: "Please do not upload images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.",
+    textMode: "Menutekst plakken", imageMode: "Menufoto uploaden", menuTextLabel: "Plak of typ menutekst", menuTextPlaceholder: "Boeuf Bourguignon\nCoq au Vin\nRatatouille", menuImageLabel: "Menufoto uploaden", imageHelper: "Als beeldanalyse niet beschikbaar is, plak dan de menutekst.", uploadWarning: "Please do not upload images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.",
     outputLanguage: "Uitvoertaal", generate: "Genereer menulijst", loading: "Menu analyseren...", compressionStatus: "Afbeelding verkleind van {from} naar {to}. Menu analyseren...", noItems: "Geen menu-items gevonden. Plak duidelijkere menutekst.", imageUnavailable: "Beeldanalyse is nog niet beschikbaar. Plak menutekst.",
     menuListEyebrow: "Menulijst", menuListTitle: "Tik op een gerecht om het te begrijpen.", emptyCard: "Tik op een menu-item om de Dish Knowledge Card te openen.",
     footerText: "Snelle menubegrip voor bestelbeslissingen.",
