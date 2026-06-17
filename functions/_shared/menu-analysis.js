@@ -748,6 +748,7 @@ export function deriveIconTagIds(dish) {
 function buildCard(dish, originalName, targetLanguage) {
   const cuisine = cuisineById.get(dish.cuisineId);
   const riskFlags = riskFlagsForDish(dish);
+  const isCoverageMetadata = dish.confidenceTag === "coverage-metadata-needs-review";
   return {
     originalName,
     familiarName: itemDisplayName(dish, targetLanguage),
@@ -777,8 +778,8 @@ function buildCard(dish, originalName, targetLanguage) {
     visualDisclaimer: localize(dish.visualDisclaimer, targetLanguage),
     aiImageLabel: verifiedVisualNote(targetLanguage),
     iconTags: deriveIconTagIds(dish).map((id) => tagLabel(id, targetLanguage)),
-    metadataSource: "dishkai-database",
-    verified: true,
+    metadataSource: isCoverageMetadata ? "dishkai-coverage" : "dishkai-database",
+    verified: !isCoverageMetadata,
   };
 }
 

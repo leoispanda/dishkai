@@ -109,6 +109,9 @@ Key architecture:
 - If temporary scan records are introduced, keep a clear recent scans admin action.
 - Default pasted menu sample now uses verified French dishes: Boeuf Bourguignon, Coq au Vin, and Ratatouille.
 - Leo confirmed future normal DishKAI repository tasks should proceed directly with local edits, checks, commit, and push unless they cross the explicit safety boundaries.
+- Added 405 coverage-expansion dishes across the 27 existing cuisines, bringing DishKAI to 848 total dishes.
+- Coverage-expansion dishes use starter structured metadata, lower metadataConfidence, and placeholder images until deeper review and real dish images are generated.
+- Coverage-expansion cards should return `metadataSource: "dishkai-coverage"` and `verified: false` so the UI can show a starter-coverage notice instead of implying deep verified metadata.
 
 Composition rule:
 Use approximate 5% composition blocks.
@@ -162,13 +165,13 @@ Codex must still ask before destructive operations, editing secrets, changing Cl
 
 - Updated GPT menu recognition strategy: OpenAI menu extraction now uses strict JSON schema responses, menu photo requests default to `DISHKAI_AI_IMAGE_DETAIL=original`, image prompts explicitly handle European café/brunch/bistro menus, and image OCR falls back from returned `menuText` to local line splitting if the model returns an empty `items` array. Keep `DISHKAI_AI_VISION_MODEL` available for a stronger vision model than the default mini text model when photo OCR quality matters.
 
-- Added Dutch/European Greek restaurant menu depth coverage after testing a real Greek restaurant photo. New verified items include Greek mixed grill / restaurant-named grill platters, ossenhaas, grilled chicken fillet, lavraki, grilled scampi, solomos, seafood pasta, vegetable/tomato pasta, vegan moussaka, vegetarian souvlaki, common Greek restaurant sides, chicken nuggets, fried meatballs, fish sticks, and butter side. This fixed the tested 32-line Dutch Greek menu from 9/32 matched to 32/32 matched, with vegan moussaka and vegetarian souvlaki no longer falling through to meat metadata. Full database is now 443 verified dishes / 1475 aliases, with Greek at 58 dishes.
+- Added Dutch/European Greek restaurant menu depth coverage after testing a real Greek restaurant photo. New verified items include Greek mixed grill / restaurant-named grill platters, ossenhaas, grilled chicken fillet, lavraki, grilled scampi, solomos, seafood pasta, vegetable/tomato pasta, vegan moussaka, vegetarian souvlaki, common Greek restaurant sides, chicken nuggets, fried meatballs, fish sticks, and butter side. This fixed the tested 32-line Dutch Greek menu from 9/32 matched to 32/32 matched, with vegan moussaka and vegetarian souvlaki no longer falling through to meat metadata. At that stage, the full database reached 443 verified dishes / 1475 aliases, with Greek at 58 dishes.
 
 - Added generated visual-reference assets for all 58 verified Greek dishes. Greek dish metadata now follows the dish image convention `/assets/dishes/main/{metadataCode}-{dishId}.webp` and `/assets/dishes/thumb/{metadataCode}-{dishId}.webp`, with 800x800 main images and 320x320 thumbnails.
 
 - Added generated visual-reference assets for every verified DishKAI dish. All 443 dishes now have `/assets/dishes/main/{metadataCode}-{dishId}.webp` and `/assets/dishes/thumb/{metadataCode}-{dishId}.webp`; `starterDish` defaults to this naming convention, so new verified dishes should get matching image files before being marked ready. Placeholder image usage should now be 0 for verified dishes.
 
-- Menu matching now first extracts/uses short real-dish candidates (`canonicalCandidate` / `matchCandidates`) before metadata alias lookup, so restaurant lines like `Caprese | pomodori | mozzarella...` can match verified Caprese while broad ingredient lines like plain `Salmon` do not incorrectly match unrelated dishes. Current alias count is 1476.
+- Menu matching now first extracts/uses short real-dish candidates (`canonicalCandidate` / `matchCandidates`) before metadata alias lookup, so restaurant lines like `Caprese | pomodori | mozzarella...` can match verified Caprese while broad ingredient lines like plain `Salmon` do not incorrectly match unrelated dishes. The alias count at that stage was 1476.
 
 - Versioning rule: for future deliverable DishKAI changes, update the visible app version in both root `script.js` and `public/script.js`, keep `package.json` version aligned, and explicitly tell Leo the new version number in the final response.
 
