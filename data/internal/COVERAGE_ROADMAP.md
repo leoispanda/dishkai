@@ -8,20 +8,21 @@ Verified metadata is the source of truth. It should be curated for high-frequenc
 
 Current verified starter database:
 
-- 461 dishes
+- 838 dishes
 - 27 cuisines
-- 1567 aliases
+- 2553 aliases
 
 Recent depth progress:
 
-- Greek coverage is deepened to 58 verified dishes.
-- Spanish coverage is deepened to 30 verified dishes, with visual-reference assets through metadataCode 105030.
+- All registered cuisines now have at least 30 verified dishes with visual-reference assets.
+- Greek remains the deepest cuisine at 58 verified dishes.
+- Spanish is at 30 verified dishes, and the global 30 pass brought every other registered cuisine to 30.
 
 Next verified coverage targets:
 
-1. 150 dishes: deepen current 9 cuisines to around 15-20 dishes each.
-2. 300 dishes: add common restaurant cuisines Leo and Cindy are likely to meet in Europe, including Indian, Vietnamese, Indonesian, Malaysian, Mexican, Spanish, Greek, Turkish, Middle Eastern, and American.
-3. 500+ dishes: add regional variants and common menu aliases, not just canonical names.
+1. Quality-audit the new global depth cards, especially high-risk items and dishes with strong restaurant variation.
+2. Use the central unmatched-dish backlog and real menu misses to prioritize the next verified batches.
+3. Add new cuisines only when real restaurant menus show repeated unmet demand.
 
 Verified metadata should stay concise and ordering-focused. Do not turn cards into recipes.
 
