@@ -22,7 +22,7 @@ Text input works with starter metadata. Image analysis uses the server-side Open
 
 ## Metadata coverage
 
-DishKAI's internal metadata currently includes 848 verified starter-database dishes and 2306 aliases across Thai, Japanese, Korean, Chinese, Italian, French, German, Dutch, Belgian, Greek, Spanish, Indian, Vietnamese, Indonesian, Malaysian/Singaporean, Turkish, Middle Eastern, Mexican, American, British/Irish, Moroccan, Portuguese, Surinamese, Ethiopian, Scandinavian, Peruvian, and Brazilian cuisine coverage. Of these, 443 dishes currently have generated visual-reference image assets, while the latest 405 verified dishes still use placeholders until the next dish-image generation pass.
+DishKAI's internal metadata currently includes 848 verified starter-database dishes and 2306 aliases across Thai, Japanese, Korean, Chinese, Italian, French, German, Dutch, Belgian, Greek, Spanish, Indian, Vietnamese, Indonesian, Malaysian/Singaporean, Turkish, Middle Eastern, Mexican, American, British/Irish, Moroccan, Portuguese, Surinamese, Ethiopian, Scandinavian, Peruvian, and Brazilian cuisine coverage. All 848 verified dishes currently have main and thumbnail visual-reference image assets.
 
 Validate metadata integrity with:
 

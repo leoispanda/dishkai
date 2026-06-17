@@ -1,7 +1,5 @@
 import { starterDish } from "./starter-dish.js";
 
-const PLACEHOLDER_IMAGE = "/assets/dishes/placeholders/dish-placeholder.svg";
-
 const cuisineCopy = {
   thai: ["Thai", "泰国菜", "Thais", ["fish-sauce", "lime", "chili"]],
   japanese: ["Japanese", "日本菜", "Japans", ["soy-sauce", "miso", "sea-salt"]],
@@ -30,6 +28,10 @@ const cuisineCopy = {
   scandinavian: ["Scandinavian", "北欧菜", "Scandinavisch", ["dill", "mustard", "sea-salt"]],
   peruvian: ["Peruvian", "秘鲁菜", "Peruaans", ["lime", "chili", "coriander"]],
   brazilian: ["Brazilian", "巴西菜", "Braziliaans", ["lime", "cumin", "garlic"]],
+};
+
+const imageSlugs = {
+  "rabarbergrød": "rabarbergrod",
 };
 
 const categoryProfiles = {
@@ -276,6 +278,7 @@ export const globalCoverageDishConfigs = groups.flatMap(([cuisineId, groupCode, 
     const metadataCode = `1${groupCode}${String(startNumber + index).padStart(3, "0")}`;
     return {
       id,
+      imageSlug: imageSlugs[id],
       metadataCode,
       cuisineId,
       names: { en, zh, nl: en, local: en },
@@ -319,8 +322,6 @@ export const globalCoverageDishConfigs = groups.flatMap(([cuisineId, groupCode, 
       metadataConfidence: 0.72,
       restaurantVariationLevel: "medium-high",
       confidenceTag: "starter-metadata",
-      imagePath: PLACEHOLDER_IMAGE,
-      thumbPath: PLACEHOLDER_IMAGE,
     };
   });
 });
