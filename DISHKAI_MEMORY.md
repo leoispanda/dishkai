@@ -110,9 +110,10 @@ Key architecture:
 - Default pasted menu sample now uses verified French dishes: Boeuf Bourguignon, Coq au Vin, and Ratatouille.
 - Leo confirmed future normal DishKAI repository tasks should proceed directly with local edits, checks, commit, and push unless they cross the explicit safety boundaries.
 - Added 405 coverage-expansion dishes across the 27 existing cuisines, bringing DishKAI to 848 total dishes.
-- Coverage-expansion dishes use starter structured metadata, lower metadataConfidence, and generated visual-reference images until deeper review.
-- DishKAI v0.2.29 added generated visual-reference assets for the 405 coverage-expansion dishes. The workflow is sheet-based for speed: generate 45 local 3x3 coverage sheets, crop them into 405 main WebP images and 405 thumb WebP images, then overlay each dish metadataCode programmatically. These coverage visuals are usable references but still marked needs review.
+- Coverage-expansion dishes use starter structured metadata, lower metadataConfidence, and placeholder images until deeper review and real dish images are generated.
 - Coverage-expansion cards should return `metadataSource: "dishkai-coverage"` and `verified: false` so the UI can show a starter-coverage notice instead of implying deep verified metadata.
+- DishKAI v0.2.30 keeps dish image assets verified-only: 443 verified dishes have main/thumb WebP visual-reference images, while the 405 coverage-expansion dishes remain unverified and should use placeholders until review. Future dish image generation should use 5x3 contact sheets, crop to 800x800 main and 320x320 thumb, avoid text/logos/people/hands, and never overwrite existing verified images unless explicitly asked.
+- Non-ASCII dish IDs must stay stable. For image filenames, add/use an ASCII `imageSlug` instead of changing the dish ID; example: `bobó-de-camarão` keeps its ID and uses `130011-bobo-de-camarao.webp`.
 
 Composition rule:
 Use approximate 5% composition blocks.
@@ -144,7 +145,7 @@ If Leo says no approval is needed, Codex may directly modify files inside the Di
 Codex must not modify files outside the DishKAI project.
 Codex must still ask before destructive operations, editing secrets, changing Cloudflare settings, changing database schema, installing dependencies, or changing project direction significantly.
 
-- Added starter metadata coverage for every currently registered cuisine: Thai, Japanese, Korean, Chinese, Italian, French, German, Dutch, and Belgian. New dish images should follow the metadataCode-based generated visual-reference workflow before being considered image-backed.
+- Added starter metadata coverage for every currently registered cuisine: Thai, Japanese, Korean, Chinese, Italian, French, German, Dutch, and Belgian. New non-Italian dish images use the shared placeholder until approved generated images are imported.
 
 - Real restaurant coverage should use two layers: verified DishKAI metadata for high-frequency dishes, plus AI fallback cards for unmatched menu items. AI fallback must remain temporary, unverified, and clearly labeled as metadataSource: ai-fallback.
 
