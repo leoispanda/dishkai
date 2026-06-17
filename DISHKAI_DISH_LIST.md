@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js.
 
-- Total verified dishes: 443
-- Total aliases: 1475
+- Total verified dishes: 461
+- Total aliases: 1567
 - Total cuisines: 27
 
 ## Thai (thai) - 17
@@ -28,12 +28,12 @@ Generated from data/internal/index.js.
 
 ## Japanese (japanese) - 17
 
-1. 109001 - `sushi` - Sushi / 寿司 / 寿司
+1. 109001 - `sushi` - Sushi / 寿司
 2. 109002 - `ramen` - Ramen / 拉面 / ラーメン
 3. 109003 - `tempura` - Tempura / 天妇罗 / 天ぷら
 4. 109004 - `katsu-curry` - Katsu Curry / 日式炸猪排咖喱饭 / カツカレー
 5. 109005 - `miso-soup` - Miso Soup / 味噌汤 / 味噌汁
-6. 109006 - `sashimi` - Sashimi / 刺身 / 刺身
+6. 109006 - `sashimi` - Sashimi / 刺身
 7. 109007 - `gyoza` - Gyoza / 日式煎饺 / 餃子
 8. 109008 - `yakitori` - Yakitori / 日式烤鸡串 / 焼き鳥
 9. 109009 - `udon` - Udon / 乌冬面 / うどん
@@ -68,23 +68,23 @@ Generated from data/internal/index.js.
 
 ## Chinese (chinese) - 17
 
-1. 111001 - `mapo-tofu` - Mapo Tofu / 麻婆豆腐 / 麻婆豆腐
-2. 111002 - `peking-duck` - Peking Duck / 北京烤鸭 / 北京烤鸭
-3. 111003 - `xiao-long-bao` - Xiao Long Bao / 小笼包 / 小笼包
-4. 111004 - `chow-mein` - Chow Mein / 炒面 / 炒面
-5. 111005 - `hot-pot` - Hot Pot / 火锅 / 火锅
-6. 111006 - `kung-pao-chicken` - Kung Pao Chicken / 宫保鸡丁 / 宫保鸡丁
-7. 111007 - `sweet-and-sour-pork` - Sweet and Sour Pork / 咕咾肉 / 咕咾肉
-8. 111008 - `dan-dan-noodles` - Dan Dan Noodles / 担担面 / 担担面
-9. 111009 - `wonton-soup` - Wonton Soup / 馄饨汤 / 馄饨汤
-10. 111010 - `jiaozi` - Jiaozi Dumplings / 饺子 / 饺子
-11. 111011 - `yangzhou-fried-rice` - Yangzhou Fried Rice / 扬州炒饭 / 扬州炒饭
-12. 111012 - `char-siu` - Char Siu / 叉烧 / 叉烧
-13. 111013 - `spring-rolls` - Spring Rolls / 春卷 / 春卷
-14. 111014 - `beef-chow-fun` - Beef Chow Fun / 干炒牛河 / 干炒牛河
-15. 111015 - `salt-pepper-squid` - Salt and Pepper Squid / 椒盐鱿鱼 / 椒盐鱿鱼
-16. 111016 - `twice-cooked-pork` - Twice-Cooked Pork / 回锅肉 / 回锅肉
-17. 111017 - `sichuan-boiled-fish` - Sichuan Boiled Fish / 水煮鱼 / 水煮鱼
+1. 111001 - `mapo-tofu` - Mapo Tofu / 麻婆豆腐
+2. 111002 - `peking-duck` - Peking Duck / 北京烤鸭
+3. 111003 - `xiao-long-bao` - Xiao Long Bao / 小笼包
+4. 111004 - `chow-mein` - Chow Mein / 炒面
+5. 111005 - `hot-pot` - Hot Pot / 火锅
+6. 111006 - `kung-pao-chicken` - Kung Pao Chicken / 宫保鸡丁
+7. 111007 - `sweet-and-sour-pork` - Sweet and Sour Pork / 咕咾肉
+8. 111008 - `dan-dan-noodles` - Dan Dan Noodles / 担担面
+9. 111009 - `wonton-soup` - Wonton Soup / 馄饨汤
+10. 111010 - `jiaozi` - Jiaozi Dumplings / 饺子
+11. 111011 - `yangzhou-fried-rice` - Yangzhou Fried Rice / 扬州炒饭
+12. 111012 - `char-siu` - Char Siu / 叉烧
+13. 111013 - `spring-rolls` - Spring Rolls / 春卷
+14. 111014 - `beef-chow-fun` - Beef Chow Fun / 干炒牛河
+15. 111015 - `salt-pepper-squid` - Salt and Pepper Squid / 椒盐鱿鱼
+16. 111016 - `twice-cooked-pork` - Twice-Cooked Pork / 回锅肉
+17. 111017 - `sichuan-boiled-fish` - Sichuan Boiled Fish / 水煮鱼
 
 ## Italian (italian) - 27
 
@@ -203,6 +203,77 @@ Generated from data/internal/index.js.
 16. 107016 - `dame-blanche` - Dame Blanche / 比利时香草冰淇淋巧克力酱 / Dame blanche
 17. 107017 - `speculoos` - Speculoos / 焦糖香料饼干
 
+## British Irish (british-irish) - 13
+
+1. 123013 - `scrambled-eggs` - Scrambled Eggs / 炒蛋 / scrambled eggs
+2. 123001 - `fish-and-chips` - Fish and Chips / 炸鱼薯条 / fish and chips
+3. 123002 - `shepherds-pie` - Shepherd’s Pie / 牧羊人派 / shepherd’s pie
+4. 123003 - `bangers-and-mash` - Bangers and Mash / 香肠土豆泥 / bangers and mash
+5. 123004 - `full-english-breakfast` - Full English Breakfast / 英式早餐 / full English breakfast
+6. 123005 - `steak-and-ale-pie` - Steak and Ale Pie / 啤酒牛肉派 / steak and ale pie
+7. 123006 - `irish-stew` - Irish Stew / 爱尔兰炖肉 / Irish stew
+8. 123007 - `cornish-pasty` - Cornish Pasty / 康沃尔馅饼 / Cornish pasty
+9. 123008 - `scotch-egg` - Scotch Egg / 苏格兰蛋 / Scotch egg
+10. 123009 - `ploughmans-lunch` - Ploughman’s Lunch / 农夫冷盘 / ploughman’s lunch
+11. 123010 - `beef-wellington` - Beef Wellington / 威灵顿牛排 / beef Wellington
+12. 123011 - `sticky-toffee-pudding` - Sticky Toffee Pudding / 太妃糖布丁蛋糕 / sticky toffee pudding
+13. 123012 - `scones` - Scones / 英式司康 / scones
+
+## Middle Eastern (middle-eastern) - 13
+
+1. 120013 - `shakshuka` - Shakshuka / 番茄炖蛋 / shakshuka
+2. 120001 - `hummus` - Hummus / 鹰嘴豆泥 / hummus
+3. 120002 - `falafel` - Falafel / 炸鹰嘴豆丸 / falafel
+4. 120003 - `shawarma` - Shawarma / 中东烤肉卷 / shawarma
+5. 120004 - `tabbouleh` - Tabbouleh / 塔布勒沙拉 / tabbouleh
+6. 120005 - `fattoush` - Fattoush / 炸面包蔬菜沙拉 / fattoush
+7. 120006 - `baba-ganoush` - Baba Ganoush / 烤茄子芝麻酱泥 / baba ganoush
+8. 120007 - `kibbeh` - Kibbeh / 中东炸肉麦丸 / kibbeh
+9. 120008 - `kofta` - Kofta / 中东香料肉丸 / kofta
+10. 120009 - `mansaf` - Mansaf / 约旦酸奶羊肉饭 / mansaf
+11. 120010 - `mujadara` - Mujadara / 扁豆洋葱饭 / mujadara
+12. 120011 - `baklava-middle-eastern` - Baklava / 中东果仁蜜酥 / baklava
+13. 120012 - `labneh` - Labneh / 浓缩酸奶酱 / labneh
+
+## American (american) - 20
+
+1. 122013 - `french-toast` - French Toast / 法式吐司 / French toast
+2. 122014 - `eggs-benedict` - Eggs Benedict / 班尼迪克蛋 / eggs benedict
+3. 122015 - `avocado-toast` - Avocado Toast / 牛油果吐司 / avocado toast
+4. 122016 - `granola-bowl` - Granola Bowl / 格兰诺拉酸奶碗 / granola bowl
+5. 122017 - `club-sandwich` - Club Sandwich / 总汇三明治 / club sandwich
+6. 122018 - `bagel-cream-cheese` - Bagel with Cream Cheese / 奶油奶酪贝果 / bagel with cream cheese
+7. 122019 - `smoked-salmon-bagel` - Smoked Salmon Bagel / 烟熏三文鱼贝果 / smoked salmon bagel
+8. 122020 - `banana-bread` - Banana Bread / 香蕉蛋糕 / banana bread
+9. 122001 - `burger` - Burger / 汉堡 / burger
+10. 122002 - `bbq-ribs` - BBQ Ribs / 美式烤肋排 / bbq ribs
+11. 122003 - `mac-and-cheese` - Mac and Cheese / 奶酪通心粉 / mac and cheese
+12. 122004 - `fried-chicken-american` - Fried Chicken / 美式炸鸡 / fried chicken
+13. 122005 - `caesar-salad` - Caesar Salad / 凯撒沙拉 / Caesar salad
+14. 122006 - `clam-chowder` - Clam Chowder / 蛤蜊浓汤 / clam chowder
+15. 122007 - `buffalo-wings` - Buffalo Wings / 水牛城鸡翅 / buffalo wings
+16. 122008 - `pancakes` - Pancakes / 美式松饼 / pancakes
+17. 122009 - `hot-dog` - Hot Dog / 热狗 / hot dog
+18. 122010 - `apple-pie` - Apple Pie / 苹果派 / apple pie
+19. 122011 - `cobb-salad` - Cobb Salad / 科布沙拉 / Cobb salad
+20. 122012 - `lobster-roll` - Lobster Roll / 龙虾卷 / lobster roll
+
+## Brazilian (brazilian) - 13
+
+1. 130013 - `acai-bowl` - Açaí Bowl / 巴西莓碗 / açaí bowl
+2. 130001 - `feijoada` - Feijoada / 巴西黑豆炖肉 / feijoada
+3. 130002 - `pao-de-queijo` - Pão de Queijo / 巴西芝士面包球 / pão de queijo
+4. 130003 - `coxinha` - Coxinha / 巴西炸鸡肉球 / coxinha
+5. 130004 - `moqueca` - Moqueca / 巴西椰奶海鲜炖菜 / moqueca
+6. 130005 - `churrasco` - Churrasco / 巴西烤肉 / churrasco
+7. 130006 - `acaraje` - Acarajé / 巴西炸豆球虾馅 / acarajé
+8. 130007 - `farofa` - Farofa / 巴西木薯粉配菜 / farofa
+9. 130008 - `brigadeiro` - Brigadeiro / 巴西巧克力奶糖球 / brigadeiro
+10. 130009 - `pastel-brazilian` - Pastel / 巴西炸馅饼 / pastel
+11. 130010 - `vatapa` - Vatapá / 巴西虾椰奶花生酱 / vatapá
+12. 130011 - `bobó-de-camarão` - Bobó de Camarão / 巴西木薯虾浓 stew / bobó de camarão
+13. 130012 - `quindim` - Quindim / 巴西椰香蛋黄布丁 / quindim
+
 ## Greek (greek) - 58
 
 1. 104001 - `moussaka` - Moussaka / 希腊肉酱茄子烤菜 / μουσακάς
@@ -264,7 +335,7 @@ Generated from data/internal/index.js.
 57. 104057 - `fish-sticks-kids` - Fish Sticks / 炸鱼条
 58. 104058 - `butter-side` - Butter / 黄油小份
 
-## Spanish (spanish) - 12
+## Spanish (spanish) - 30
 
 1. 105001 - `paella` - Paella / 西班牙海鲜饭 / paella
 2. 105002 - `tortilla-espanola` - Tortilla Española / 西班牙土豆蛋饼 / tortilla española
@@ -278,6 +349,24 @@ Generated from data/internal/index.js.
 10. 105010 - `churros` - Churros / 西班牙油条 / churros
 11. 105011 - `crema-catalana` - Crema Catalana / 加泰罗尼亚焦糖布丁 / crema catalana
 12. 105012 - `fabada` - Fabada / 西班牙豆肉炖菜 / fabada
+13. 105013 - `albondigas` - Albóndigas / 西班牙肉丸 / albóndigas
+14. 105014 - `pimientos-de-padron` - Pimientos de Padrón / 帕德龙小青椒 / pimientos de padrón
+15. 105015 - `boquerones-en-vinagre` - Boquerones en Vinagre / 醋渍凤尾鱼 / boquerones en vinagre
+16. 105016 - `ensaladilla-rusa` - Ensaladilla Rusa / 西班牙土豆蛋黄酱沙拉 / ensaladilla rusa
+17. 105017 - `salmorejo` - Salmorejo / 科尔多瓦冷番茄浓汤 / salmorejo
+18. 105018 - `calamares-a-la-romana` - Calamares a la Romana / 西班牙炸鱿鱼圈 / calamares a la romana
+19. 105019 - `fideua` - Fideuà / 西班牙海鲜细面锅 / fideuà
+20. 105020 - `arroz-negro` - Arroz Negro / 西班牙墨鱼汁黑饭 / arroz negro
+21. 105021 - `bacalao-al-pil-pil` - Bacalao al Pil Pil / 蒜香橄榄油鳕鱼 / bacalao al pil pil
+22. 105022 - `merluza-a-la-vasca` - Merluza a la Vasca / 巴斯克青酱鳕鱼 / merluza a la vasca
+23. 105023 - `pollo-al-ajillo` - Pollo al Ajillo / 西班牙蒜香鸡 / pollo al ajillo
+24. 105024 - `rabo-de-toro` - Rabo de Toro / 西班牙炖牛尾 / rabo de toro
+25. 105025 - `carrillada` - Carrillada / 西班牙慢炖猪脸肉 / carrillada
+26. 105026 - `cocido-madrileno` - Cocido Madrileño / 马德里鹰嘴豆肉汤锅 / cocido madrileño
+27. 105027 - `huevos-rotos` - Huevos Rotos / 西班牙碎蛋薯条 / huevos rotos
+28. 105028 - `tarta-de-santiago` - Tarta de Santiago / 圣地亚哥杏仁蛋糕 / tarta de santiago
+29. 105029 - `spanish-flan` - Flan / 西班牙焦糖布丁 / flan
+30. 105030 - `bocadillo-de-calamares` - Bocadillo de Calamares / 西班牙炸鱿鱼三明治 / bocadillo de calamares
 
 ## Indian (indian) - 12
 
@@ -324,17 +413,17 @@ Generated from data/internal/index.js.
 11. 117011 - `ikan-bakar` - Ikan Bakar / 印尼烤鱼 / ikan bakar
 12. 117012 - `pisang-goreng` - Pisang Goreng / 炸香蕉 / pisang goreng
 
-## Malaysian & Singaporean (malaysian-singaporean) - 12
+## Malaysian Singaporean (malaysian-singaporean) - 12
 
 1. 118001 - `laksa` - Laksa / 叻沙 / laksa
-2. 118002 - `hainanese-chicken-rice` - Hainanese Chicken Rice / 海南鸡饭 / 海南鸡饭
-3. 118003 - `char-kway-teow` - Char Kway Teow / 炒粿条 / 炒粿条
+2. 118002 - `hainanese-chicken-rice` - Hainanese Chicken Rice / 海南鸡饭
+3. 118003 - `char-kway-teow` - Char Kway Teow / 炒粿条
 4. 118004 - `nasi-lemak` - Nasi Lemak / 椰浆饭 / nasi lemak
 5. 118005 - `roti-canai` - Roti Canai / 印度煎饼配咖喱 / roti canai
 6. 118006 - `satay` - Satay / 沙爹串 / satay
-7. 118007 - `bak-kut-teh` - Bak Kut Teh / 肉骨茶 / 肉骨茶
-8. 118008 - `chili-crab` - Chili Crab / 辣椒蟹 / 辣椒蟹
-9. 118009 - `hokkien-mee` - Hokkien Mee / 福建面 / 福建面
+7. 118007 - `bak-kut-teh` - Bak Kut Teh / 肉骨茶
+8. 118008 - `chili-crab` - Chili Crab / 辣椒蟹
+9. 118009 - `hokkien-mee` - Hokkien Mee / 福建面
 10. 118010 - `rendang-chicken` - Chicken Rendang / 鸡肉仁当 / rendang ayam
 11. 118011 - `kaya-toast` - Kaya Toast / 咖椰吐司 / kaya toast
 12. 118012 - `ice-kacang` - Ice Kacang / 红豆刨冰 / ais kacang
@@ -354,22 +443,6 @@ Generated from data/internal/index.js.
 11. 119011 - `baklava-turkish` - Baklava / 土耳其果仁蜜酥 / baklava
 12. 119012 - `kunefe` - Künefe / 土耳其奶酪甜点 / künefe
 
-## Middle Eastern (middle-eastern) - 13
-
-1. 120013 - `shakshuka` - Shakshuka / 番茄炖蛋 / shakshuka
-2. 120001 - `hummus` - Hummus / 鹰嘴豆泥 / hummus
-3. 120002 - `falafel` - Falafel / 炸鹰嘴豆丸 / falafel
-4. 120003 - `shawarma` - Shawarma / 中东烤肉卷 / shawarma
-5. 120004 - `tabbouleh` - Tabbouleh / 塔布勒沙拉 / tabbouleh
-6. 120005 - `fattoush` - Fattoush / 炸面包蔬菜沙拉 / fattoush
-7. 120006 - `baba-ganoush` - Baba Ganoush / 烤茄子芝麻酱泥 / baba ganoush
-8. 120007 - `kibbeh` - Kibbeh / 中东炸肉麦丸 / kibbeh
-9. 120008 - `kofta` - Kofta / 中东香料肉丸 / kofta
-10. 120009 - `mansaf` - Mansaf / 约旦酸奶羊肉饭 / mansaf
-11. 120010 - `mujadara` - Mujadara / 扁豆洋葱饭 / mujadara
-12. 120011 - `baklava-middle-eastern` - Baklava / 中东果仁蜜酥 / baklava
-13. 120012 - `labneh` - Labneh / 浓缩酸奶酱 / labneh
-
 ## Mexican (mexican) - 12
 
 1. 121001 - `tacos` - Tacos / 墨西哥玉米卷 / tacos
@@ -384,45 +457,6 @@ Generated from data/internal/index.js.
 10. 121010 - `mole-poblano` - Mole Poblano / 摩雷鸡肉 / mole poblano
 11. 121011 - `ceviche-mexican` - Ceviche / 墨西哥酸橘汁腌鱼 / ceviche
 12. 121012 - `flan` - Flan / 焦糖布丁 / flan
-
-## American (american) - 20
-
-1. 122013 - `french-toast` - French Toast / 法式吐司 / French toast
-2. 122014 - `eggs-benedict` - Eggs Benedict / 班尼迪克蛋 / eggs benedict
-3. 122015 - `avocado-toast` - Avocado Toast / 牛油果吐司 / avocado toast
-4. 122016 - `granola-bowl` - Granola Bowl / 格兰诺拉酸奶碗 / granola bowl
-5. 122017 - `club-sandwich` - Club Sandwich / 总汇三明治 / club sandwich
-6. 122018 - `bagel-cream-cheese` - Bagel with Cream Cheese / 奶油奶酪贝果 / bagel with cream cheese
-7. 122019 - `smoked-salmon-bagel` - Smoked Salmon Bagel / 烟熏三文鱼贝果 / smoked salmon bagel
-8. 122020 - `banana-bread` - Banana Bread / 香蕉蛋糕 / banana bread
-9. 122001 - `burger` - Burger / 汉堡 / burger
-10. 122002 - `bbq-ribs` - BBQ Ribs / 美式烤肋排 / bbq ribs
-11. 122003 - `mac-and-cheese` - Mac and Cheese / 奶酪通心粉 / mac and cheese
-12. 122004 - `fried-chicken-american` - Fried Chicken / 美式炸鸡 / fried chicken
-13. 122005 - `caesar-salad` - Caesar Salad / 凯撒沙拉 / Caesar salad
-14. 122006 - `clam-chowder` - Clam Chowder / 蛤蜊浓汤 / clam chowder
-15. 122007 - `buffalo-wings` - Buffalo Wings / 水牛城鸡翅 / buffalo wings
-16. 122008 - `pancakes` - Pancakes / 美式松饼 / pancakes
-17. 122009 - `hot-dog` - Hot Dog / 热狗 / hot dog
-18. 122010 - `apple-pie` - Apple Pie / 苹果派 / apple pie
-19. 122011 - `cobb-salad` - Cobb Salad / 科布沙拉 / Cobb salad
-20. 122012 - `lobster-roll` - Lobster Roll / 龙虾卷 / lobster roll
-
-## British & Irish (british-irish) - 13
-
-1. 123013 - `scrambled-eggs` - Scrambled Eggs / 炒蛋 / scrambled eggs
-2. 123001 - `fish-and-chips` - Fish and Chips / 炸鱼薯条 / fish and chips
-3. 123002 - `shepherds-pie` - Shepherd’s Pie / 牧羊人派 / shepherd’s pie
-4. 123003 - `bangers-and-mash` - Bangers and Mash / 香肠土豆泥 / bangers and mash
-5. 123004 - `full-english-breakfast` - Full English Breakfast / 英式早餐 / full English breakfast
-6. 123005 - `steak-and-ale-pie` - Steak and Ale Pie / 啤酒牛肉派 / steak and ale pie
-7. 123006 - `irish-stew` - Irish Stew / 爱尔兰炖肉 / Irish stew
-8. 123007 - `cornish-pasty` - Cornish Pasty / 康沃尔馅饼 / Cornish pasty
-9. 123008 - `scotch-egg` - Scotch Egg / 苏格兰蛋 / Scotch egg
-10. 123009 - `ploughmans-lunch` - Ploughman’s Lunch / 农夫冷盘 / ploughman’s lunch
-11. 123010 - `beef-wellington` - Beef Wellington / 威灵顿牛排 / beef Wellington
-12. 123011 - `sticky-toffee-pudding` - Sticky Toffee Pudding / 太妃糖布丁蛋糕 / sticky toffee pudding
-13. 123012 - `scones` - Scones / 英式司康 / scones
 
 ## Moroccan (moroccan) - 12
 
@@ -514,18 +548,3 @@ Generated from data/internal/index.js.
 11. 129011 - `picarones` - Picarones / 秘鲁南瓜甜甜圈 / picarones
 12. 129012 - `suspiro-limeno` - Suspiro Limeño / 秘鲁焦糖蛋奶甜点 / suspiro limeño
 
-## Brazilian (brazilian) - 13
-
-1. 130013 - `acai-bowl` - Açaí Bowl / 巴西莓碗 / açaí bowl
-2. 130001 - `feijoada` - Feijoada / 巴西黑豆炖肉 / feijoada
-3. 130002 - `pao-de-queijo` - Pão de Queijo / 巴西芝士面包球 / pão de queijo
-4. 130003 - `coxinha` - Coxinha / 巴西炸鸡肉球 / coxinha
-5. 130004 - `moqueca` - Moqueca / 巴西椰奶海鲜炖菜 / moqueca
-6. 130005 - `churrasco` - Churrasco / 巴西烤肉 / churrasco
-7. 130006 - `acaraje` - Acarajé / 巴西炸豆球虾馅 / acarajé
-8. 130007 - `farofa` - Farofa / 巴西木薯粉配菜 / farofa
-9. 130008 - `brigadeiro` - Brigadeiro / 巴西巧克力奶糖球 / brigadeiro
-10. 130009 - `pastel-brazilian` - Pastel / 巴西炸馅饼 / pastel
-11. 130010 - `vatapa` - Vatapá / 巴西虾椰奶花生酱 / vatapá
-12. 130011 - `bobó-de-camarão` - Bobó de Camarão / 巴西木薯虾浓 stew / bobó de camarão
-13. 130012 - `quindim` - Quindim / 巴西椰香蛋黄布丁 / quindim

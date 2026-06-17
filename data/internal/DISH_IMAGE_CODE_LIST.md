@@ -1,3 +1,7 @@
+# DishKAI Dish Image Code List
+
+Generated from data/internal/index.js.
+
 | code | dishId | cuisine | en | zh | imagePath | thumbPath | status | prompt |
 |---|---|---|---|---|---|---|---|---|
 | 101001 | carbonara | italian | Carbonara | 卡邦尼意面 | /assets/dishes/main/101001-carbonara.webp | /assets/dishes/thumb/101001-carbonara.webp | generated / ready | Carbonara visual reference, italian restaurant dish, code 101001. |
@@ -138,6 +142,24 @@
 | 105010 | churros | spanish | Churros | 西班牙油条 | /assets/dishes/main/105010-churros.webp | /assets/dishes/thumb/105010-churros.webp | generated / ready | Churros visual reference, spanish restaurant dish, code 105010. |
 | 105011 | crema-catalana | spanish | Crema Catalana | 加泰罗尼亚焦糖布丁 | /assets/dishes/main/105011-crema-catalana.webp | /assets/dishes/thumb/105011-crema-catalana.webp | generated / ready | Crema Catalana visual reference, spanish restaurant dish, code 105011. |
 | 105012 | fabada | spanish | Fabada | 西班牙豆肉炖菜 | /assets/dishes/main/105012-fabada.webp | /assets/dishes/thumb/105012-fabada.webp | generated / ready | Fabada visual reference, spanish restaurant dish, code 105012. |
+| 105013 | albondigas | spanish | Albóndigas | 西班牙肉丸 | /assets/dishes/main/105013-albondigas.webp | /assets/dishes/thumb/105013-albondigas.webp | generated / ready | Albóndigas visual reference, spanish restaurant dish, code 105013. |
+| 105014 | pimientos-de-padron | spanish | Pimientos de Padrón | 帕德龙小青椒 | /assets/dishes/main/105014-pimientos-de-padron.webp | /assets/dishes/thumb/105014-pimientos-de-padron.webp | generated / ready | Pimientos de Padrón visual reference, spanish restaurant dish, code 105014. |
+| 105015 | boquerones-en-vinagre | spanish | Boquerones en Vinagre | 醋渍凤尾鱼 | /assets/dishes/main/105015-boquerones-en-vinagre.webp | /assets/dishes/thumb/105015-boquerones-en-vinagre.webp | generated / ready | Boquerones en Vinagre visual reference, spanish restaurant dish, code 105015. |
+| 105016 | ensaladilla-rusa | spanish | Ensaladilla Rusa | 西班牙土豆蛋黄酱沙拉 | /assets/dishes/main/105016-ensaladilla-rusa.webp | /assets/dishes/thumb/105016-ensaladilla-rusa.webp | generated / ready | Ensaladilla Rusa visual reference, spanish restaurant dish, code 105016. |
+| 105017 | salmorejo | spanish | Salmorejo | 科尔多瓦冷番茄浓汤 | /assets/dishes/main/105017-salmorejo.webp | /assets/dishes/thumb/105017-salmorejo.webp | generated / ready | Salmorejo visual reference, spanish restaurant dish, code 105017. |
+| 105018 | calamares-a-la-romana | spanish | Calamares a la Romana | 西班牙炸鱿鱼圈 | /assets/dishes/main/105018-calamares-a-la-romana.webp | /assets/dishes/thumb/105018-calamares-a-la-romana.webp | generated / ready | Calamares a la Romana visual reference, spanish restaurant dish, code 105018. |
+| 105019 | fideua | spanish | Fideuà | 西班牙海鲜细面锅 | /assets/dishes/main/105019-fideua.webp | /assets/dishes/thumb/105019-fideua.webp | generated / ready | Fideuà visual reference, spanish restaurant dish, code 105019. |
+| 105020 | arroz-negro | spanish | Arroz Negro | 西班牙墨鱼汁黑饭 | /assets/dishes/main/105020-arroz-negro.webp | /assets/dishes/thumb/105020-arroz-negro.webp | generated / ready | Arroz Negro visual reference, spanish restaurant dish, code 105020. |
+| 105021 | bacalao-al-pil-pil | spanish | Bacalao al Pil Pil | 蒜香橄榄油鳕鱼 | /assets/dishes/main/105021-bacalao-al-pil-pil.webp | /assets/dishes/thumb/105021-bacalao-al-pil-pil.webp | generated / ready | Bacalao al Pil Pil visual reference, spanish restaurant dish, code 105021. |
+| 105022 | merluza-a-la-vasca | spanish | Merluza a la Vasca | 巴斯克青酱鳕鱼 | /assets/dishes/main/105022-merluza-a-la-vasca.webp | /assets/dishes/thumb/105022-merluza-a-la-vasca.webp | generated / ready | Merluza a la Vasca visual reference, spanish restaurant dish, code 105022. |
+| 105023 | pollo-al-ajillo | spanish | Pollo al Ajillo | 西班牙蒜香鸡 | /assets/dishes/main/105023-pollo-al-ajillo.webp | /assets/dishes/thumb/105023-pollo-al-ajillo.webp | generated / ready | Pollo al Ajillo visual reference, spanish restaurant dish, code 105023. |
+| 105024 | rabo-de-toro | spanish | Rabo de Toro | 西班牙炖牛尾 | /assets/dishes/main/105024-rabo-de-toro.webp | /assets/dishes/thumb/105024-rabo-de-toro.webp | generated / ready | Rabo de Toro visual reference, spanish restaurant dish, code 105024. |
+| 105025 | carrillada | spanish | Carrillada | 西班牙慢炖猪脸肉 | /assets/dishes/main/105025-carrillada.webp | /assets/dishes/thumb/105025-carrillada.webp | generated / ready | Carrillada visual reference, spanish restaurant dish, code 105025. |
+| 105026 | cocido-madrileno | spanish | Cocido Madrileño | 马德里鹰嘴豆肉汤锅 | /assets/dishes/main/105026-cocido-madrileno.webp | /assets/dishes/thumb/105026-cocido-madrileno.webp | generated / ready | Cocido Madrileño visual reference, spanish restaurant dish, code 105026. |
+| 105027 | huevos-rotos | spanish | Huevos Rotos | 西班牙碎蛋薯条 | /assets/dishes/main/105027-huevos-rotos.webp | /assets/dishes/thumb/105027-huevos-rotos.webp | generated / ready | Huevos Rotos visual reference, spanish restaurant dish, code 105027. |
+| 105028 | tarta-de-santiago | spanish | Tarta de Santiago | 圣地亚哥杏仁蛋糕 | /assets/dishes/main/105028-tarta-de-santiago.webp | /assets/dishes/thumb/105028-tarta-de-santiago.webp | generated / ready | Tarta de Santiago visual reference, spanish restaurant dish, code 105028. |
+| 105029 | spanish-flan | spanish | Flan | 西班牙焦糖布丁 | /assets/dishes/main/105029-spanish-flan.webp | /assets/dishes/thumb/105029-spanish-flan.webp | generated / ready | Flan visual reference, spanish restaurant dish, code 105029. |
+| 105030 | bocadillo-de-calamares | spanish | Bocadillo de Calamares | 西班牙炸鱿鱼三明治 | /assets/dishes/main/105030-bocadillo-de-calamares.webp | /assets/dishes/thumb/105030-bocadillo-de-calamares.webp | generated / ready | Bocadillo de Calamares visual reference, spanish restaurant dish, code 105030. |
 | 106001 | schnitzel | german | Schnitzel | 德式炸肉排 | /assets/dishes/main/106001-schnitzel.webp | /assets/dishes/thumb/106001-schnitzel.webp | generated / ready | Schnitzel visual reference, german restaurant dish, code 106001. |
 | 106002 | bratwurst | german | Bratwurst | 德式煎香肠 | /assets/dishes/main/106002-bratwurst.webp | /assets/dishes/thumb/106002-bratwurst.webp | generated / ready | Bratwurst visual reference, german restaurant dish, code 106002. |
 | 106003 | sauerbraten | german | Sauerbraten | 德式酸味炖牛肉 | /assets/dishes/main/106003-sauerbraten.webp | /assets/dishes/thumb/106003-sauerbraten.webp | generated / ready | Sauerbraten visual reference, german restaurant dish, code 106003. |

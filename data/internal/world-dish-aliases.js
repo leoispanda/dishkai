@@ -3962,5 +3962,642 @@ export const worldDishAliases = [
     "language": "menu",
     "matchType": "spelling-variant",
     "confidence": 0.94
+  },
+  {
+    "alias": "albóndigas",
+    "dishId": "albondigas",
+    "language": "menu",
+    "matchType": "canonical",
+    "confidence": 1
+  },
+  {
+    "alias": "albondigas",
+    "dishId": "albondigas",
+    "language": "menu",
+    "matchType": "spelling-variant",
+    "confidence": 0.96
+  },
+  {
+    "alias": "spanish meatballs",
+    "dishId": "albondigas",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.94
+  },
+  {
+    "alias": "西班牙肉丸",
+    "dishId": "albondigas",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.96
+  },
+  {
+    "alias": "spaanse gehaktballetjes",
+    "dishId": "albondigas",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.94
+  },
+  {
+    "alias": "pimientos de padrón",
+    "dishId": "pimientos-de-padron",
+    "language": "menu",
+    "matchType": "canonical",
+    "confidence": 1
+  },
+  {
+    "alias": "pimientos de padron",
+    "dishId": "pimientos-de-padron",
+    "language": "menu",
+    "matchType": "spelling-variant",
+    "confidence": 0.96
+  },
+  {
+    "alias": "padron peppers",
+    "dishId": "pimientos-de-padron",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.94
+  },
+  {
+    "alias": "帕德龙小青椒",
+    "dishId": "pimientos-de-padron",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.96
+  },
+  {
+    "alias": "padrón pepers",
+    "dishId": "pimientos-de-padron",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.94
+  },
+  {
+    "alias": "boquerones en vinagre",
+    "dishId": "boquerones-en-vinagre",
+    "language": "menu",
+    "matchType": "canonical",
+    "confidence": 1
+  },
+  {
+    "alias": "marinated anchovies",
+    "dishId": "boquerones-en-vinagre",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.94
+  },
+  {
+    "alias": "anchovies in vinegar",
+    "dishId": "boquerones-en-vinagre",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.94
+  },
+  {
+    "alias": "醋渍凤尾鱼",
+    "dishId": "boquerones-en-vinagre",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.96
+  },
+  {
+    "alias": "ansjovis in azijn",
+    "dishId": "boquerones-en-vinagre",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.94
+  },
+  {
+    "alias": "ensaladilla rusa",
+    "dishId": "ensaladilla-rusa",
+    "language": "menu",
+    "matchType": "canonical",
+    "confidence": 1
+  },
+  {
+    "alias": "spanish potato salad",
+    "dishId": "ensaladilla-rusa",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.94
+  },
+  {
+    "alias": "russian salad",
+    "dishId": "ensaladilla-rusa",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.92
+  },
+  {
+    "alias": "西班牙土豆蛋黄酱沙拉",
+    "dishId": "ensaladilla-rusa",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.96
+  },
+  {
+    "alias": "spaanse aardappelsalade",
+    "dishId": "ensaladilla-rusa",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.94
+  },
+  {
+    "alias": "salmorejo",
+    "dishId": "salmorejo",
+    "language": "menu",
+    "matchType": "canonical",
+    "confidence": 1
+  },
+  {
+    "alias": "cordoban tomato soup",
+    "dishId": "salmorejo",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.9
+  },
+  {
+    "alias": "cold tomato bread soup",
+    "dishId": "salmorejo",
+    "language": "menu",
+    "matchType": "descriptive",
+    "confidence": 0.9
+  },
+  {
+    "alias": "科尔多瓦冷番茄浓汤",
+    "dishId": "salmorejo",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.96
+  },
+  {
+    "alias": "koude tomaten-broodsoep",
+    "dishId": "salmorejo",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.92
+  },
+  {
+    "alias": "calamares a la romana",
+    "dishId": "calamares-a-la-romana",
+    "language": "menu",
+    "matchType": "canonical",
+    "confidence": 1
+  },
+  {
+    "alias": "fried calamari",
+    "dishId": "calamares-a-la-romana",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.92
+  },
+  {
+    "alias": "fried squid rings",
+    "dishId": "calamares-a-la-romana",
+    "language": "menu",
+    "matchType": "descriptive",
+    "confidence": 0.92
+  },
+  {
+    "alias": "西班牙炸鱿鱼圈",
+    "dishId": "calamares-a-la-romana",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.96
+  },
+  {
+    "alias": "gefrituurde inktvisringen",
+    "dishId": "calamares-a-la-romana",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.92
+  },
+  {
+    "alias": "fideuà",
+    "dishId": "fideua",
+    "language": "menu",
+    "matchType": "canonical",
+    "confidence": 1
+  },
+  {
+    "alias": "fideua",
+    "dishId": "fideua",
+    "language": "menu",
+    "matchType": "spelling-variant",
+    "confidence": 0.96
+  },
+  {
+    "alias": "seafood fideua",
+    "dishId": "fideua",
+    "language": "menu",
+    "matchType": "descriptive",
+    "confidence": 0.92
+  },
+  {
+    "alias": "西班牙海鲜细面锅",
+    "dishId": "fideua",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.96
+  },
+  {
+    "alias": "spaanse zeevruchtennoedels",
+    "dishId": "fideua",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.92
+  },
+  {
+    "alias": "arroz negro",
+    "dishId": "arroz-negro",
+    "language": "menu",
+    "matchType": "canonical",
+    "confidence": 1
+  },
+  {
+    "alias": "black rice",
+    "dishId": "arroz-negro",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.9
+  },
+  {
+    "alias": "squid ink rice",
+    "dishId": "arroz-negro",
+    "language": "menu",
+    "matchType": "descriptive",
+    "confidence": 0.94
+  },
+  {
+    "alias": "西班牙墨鱼汁黑饭",
+    "dishId": "arroz-negro",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.96
+  },
+  {
+    "alias": "zwarte rijst",
+    "dishId": "arroz-negro",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.9
+  },
+  {
+    "alias": "bacalao al pil pil",
+    "dishId": "bacalao-al-pil-pil",
+    "language": "menu",
+    "matchType": "canonical",
+    "confidence": 1
+  },
+  {
+    "alias": "cod pil pil",
+    "dishId": "bacalao-al-pil-pil",
+    "language": "menu",
+    "matchType": "word-order-variant",
+    "confidence": 0.94
+  },
+  {
+    "alias": "pil pil cod",
+    "dishId": "bacalao-al-pil-pil",
+    "language": "menu",
+    "matchType": "word-order-variant",
+    "confidence": 0.94
+  },
+  {
+    "alias": "蒜香橄榄油鳕鱼",
+    "dishId": "bacalao-al-pil-pil",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.96
+  },
+  {
+    "alias": "kabeljauw pil pil",
+    "dishId": "bacalao-al-pil-pil",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.94
+  },
+  {
+    "alias": "merluza a la vasca",
+    "dishId": "merluza-a-la-vasca",
+    "language": "menu",
+    "matchType": "canonical",
+    "confidence": 1
+  },
+  {
+    "alias": "basque hake",
+    "dishId": "merluza-a-la-vasca",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.92
+  },
+  {
+    "alias": "hake in green sauce",
+    "dishId": "merluza-a-la-vasca",
+    "language": "menu",
+    "matchType": "descriptive",
+    "confidence": 0.92
+  },
+  {
+    "alias": "巴斯克青酱鳕鱼",
+    "dishId": "merluza-a-la-vasca",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.96
+  },
+  {
+    "alias": "heek in groene saus",
+    "dishId": "merluza-a-la-vasca",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.92
+  },
+  {
+    "alias": "pollo al ajillo",
+    "dishId": "pollo-al-ajillo",
+    "language": "menu",
+    "matchType": "canonical",
+    "confidence": 1
+  },
+  {
+    "alias": "garlic chicken",
+    "dishId": "pollo-al-ajillo",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.92
+  },
+  {
+    "alias": "spanish garlic chicken",
+    "dishId": "pollo-al-ajillo",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.94
+  },
+  {
+    "alias": "西班牙蒜香鸡",
+    "dishId": "pollo-al-ajillo",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.96
+  },
+  {
+    "alias": "spaanse knoflookkip",
+    "dishId": "pollo-al-ajillo",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.94
+  },
+  {
+    "alias": "rabo de toro",
+    "dishId": "rabo-de-toro",
+    "language": "menu",
+    "matchType": "canonical",
+    "confidence": 1
+  },
+  {
+    "alias": "oxtail stew",
+    "dishId": "rabo-de-toro",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.92
+  },
+  {
+    "alias": "braised oxtail",
+    "dishId": "rabo-de-toro",
+    "language": "menu",
+    "matchType": "descriptive",
+    "confidence": 0.92
+  },
+  {
+    "alias": "西班牙炖牛尾",
+    "dishId": "rabo-de-toro",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.96
+  },
+  {
+    "alias": "gestoofde ossenstaart",
+    "dishId": "rabo-de-toro",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.92
+  },
+  {
+    "alias": "carrillada",
+    "dishId": "carrillada",
+    "language": "menu",
+    "matchType": "canonical",
+    "confidence": 1
+  },
+  {
+    "alias": "carrillada iberica",
+    "dishId": "carrillada",
+    "language": "menu",
+    "matchType": "descriptive",
+    "confidence": 0.92
+  },
+  {
+    "alias": "pork cheek",
+    "dishId": "carrillada",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.9
+  },
+  {
+    "alias": "西班牙慢炖猪脸肉",
+    "dishId": "carrillada",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.96
+  },
+  {
+    "alias": "gestoofde varkenswang",
+    "dishId": "carrillada",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.92
+  },
+  {
+    "alias": "cocido madrileño",
+    "dishId": "cocido-madrileno",
+    "language": "menu",
+    "matchType": "canonical",
+    "confidence": 1
+  },
+  {
+    "alias": "cocido madrileno",
+    "dishId": "cocido-madrileno",
+    "language": "menu",
+    "matchType": "spelling-variant",
+    "confidence": 0.96
+  },
+  {
+    "alias": "madrid stew",
+    "dishId": "cocido-madrileno",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.9
+  },
+  {
+    "alias": "马德里鹰嘴豆肉汤锅",
+    "dishId": "cocido-madrileno",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.96
+  },
+  {
+    "alias": "madrileense stoof",
+    "dishId": "cocido-madrileno",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.92
+  },
+  {
+    "alias": "huevos rotos",
+    "dishId": "huevos-rotos",
+    "language": "menu",
+    "matchType": "canonical",
+    "confidence": 1
+  },
+  {
+    "alias": "broken eggs",
+    "dishId": "huevos-rotos",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.9
+  },
+  {
+    "alias": "eggs with potatoes",
+    "dishId": "huevos-rotos",
+    "language": "menu",
+    "matchType": "descriptive",
+    "confidence": 0.88
+  },
+  {
+    "alias": "西班牙碎蛋薯条",
+    "dishId": "huevos-rotos",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.96
+  },
+  {
+    "alias": "gebroken eieren met aardappel",
+    "dishId": "huevos-rotos",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.9
+  },
+  {
+    "alias": "tarta de santiago",
+    "dishId": "tarta-de-santiago",
+    "language": "menu",
+    "matchType": "canonical",
+    "confidence": 1
+  },
+  {
+    "alias": "santiago cake",
+    "dishId": "tarta-de-santiago",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.92
+  },
+  {
+    "alias": "spanish almond cake",
+    "dishId": "tarta-de-santiago",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.94
+  },
+  {
+    "alias": "圣地亚哥杏仁蛋糕",
+    "dishId": "tarta-de-santiago",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.96
+  },
+  {
+    "alias": "spaanse amandelcake",
+    "dishId": "tarta-de-santiago",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.94
+  },
+  {
+    "alias": "caramel custard",
+    "dishId": "spanish-flan",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.92
+  },
+  {
+    "alias": "spanish flan",
+    "dishId": "spanish-flan",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.94
+  },
+  {
+    "alias": "flan español",
+    "dishId": "spanish-flan",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.94
+  },
+  {
+    "alias": "flan espanol",
+    "dishId": "spanish-flan",
+    "language": "menu",
+    "matchType": "spelling-variant",
+    "confidence": 0.94
+  },
+  {
+    "alias": "西班牙焦糖布丁",
+    "dishId": "spanish-flan",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.96
+  },
+  {
+    "alias": "karamelcustard",
+    "dishId": "spanish-flan",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.92
+  },
+  {
+    "alias": "bocadillo de calamares",
+    "dishId": "bocadillo-de-calamares",
+    "language": "menu",
+    "matchType": "canonical",
+    "confidence": 1
+  },
+  {
+    "alias": "calamari sandwich",
+    "dishId": "bocadillo-de-calamares",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.92
+  },
+  {
+    "alias": "squid sandwich",
+    "dishId": "bocadillo-de-calamares",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.92
+  },
+  {
+    "alias": "西班牙炸鱿鱼三明治",
+    "dishId": "bocadillo-de-calamares",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.96
+  },
+  {
+    "alias": "broodje gefrituurde inktvis",
+    "dishId": "bocadillo-de-calamares",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.92
   }
 ];

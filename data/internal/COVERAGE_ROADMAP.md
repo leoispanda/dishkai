@@ -8,9 +8,14 @@ Verified metadata is the source of truth. It should be curated for high-frequenc
 
 Current verified starter database:
 
-- 55 dishes
-- 9 cuisines
-- 171 aliases
+- 461 dishes
+- 27 cuisines
+- 1567 aliases
+
+Recent depth progress:
+
+- Greek coverage is deepened to 58 verified dishes.
+- Spanish coverage is deepened to 30 verified dishes, with visual-reference assets through metadataCode 105030.
 
 Next verified coverage targets:
 

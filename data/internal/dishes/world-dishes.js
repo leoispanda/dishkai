@@ -2400,6 +2400,1947 @@ export const worldDishes = [
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "id": "albondigas",
+    "metadataCode": "105013",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Albóndigas",
+      "zh": "西班牙肉丸",
+      "nl": "Spaanse gehaktballetjes",
+      "local": "albóndigas"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Spanish meatballs usually served in tomato or almond-style sauce; comforting and saucy.",
+      "zh": "西班牙肉丸通常配番茄或坚果风味酱汁，咸香多汁，适合作为 tapas 或主菜。",
+      "nl": "Spaanse gehaktballetjes in tomaten- of notensaus; hartig, zacht en sauzig."
+    },
+    "cookingProfile": {
+      "en": "Usually simmered until tender and served warm with a spoonable sauce.",
+      "zh": "常见做法风格是炖到柔软后配温热酱汁，重点看酱汁浓度和是否含猪肉。",
+      "nl": "Meestal zacht gestoofd en warm geserveerd met een royale saus."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "tapas",
+        "common-menu-item",
+        "restaurant-coverage"
+      ],
+      "description": {
+        "en": "A common Spanish tapas and casual restaurant dish that helps users recognize a saucy meatball order.",
+        "zh": "常见于西班牙 tapas 和休闲餐厅菜单，有助于判断肉丸类菜品的分量和风险。",
+        "nl": "Een veelvoorkomend Spaans tapasgerecht voor het herkennen van sauzige gehaktballetjes."
+      }
+    },
+    "composition": [
+      [
+        "ground-meat",
+        45,
+        "main"
+      ],
+      [
+        "tomato-sauce",
+        25,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "wheat-flour",
+        10,
+        "binder"
+      ],
+      [
+        "egg",
+        10,
+        "binder"
+      ],
+      [
+        "parsley",
+        5,
+        "finish",
+        "seasoning"
+      ],
+      [
+        "black-pepper",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "tomato-sauce",
+      "garlic",
+      "parsley"
+    ],
+    "basicTaste": [
+      "savory",
+      "saucy",
+      "mild"
+    ],
+    "textureProfile": [
+      "tender meatballs",
+      "warm sauce"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "tapas",
+      "first-timer-friendly",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "A safe, hearty tapas pick if meat and sauce sound good; ask if the meat mix includes pork.",
+      "zh": "想吃温热扎实的 tapas 可以点；如不吃猪肉，需要先确认肉丸混合肉。",
+      "nl": "Een toegankelijke, stevige tapaskeuze; vraag naar varkensvlees als dat belangrijk is."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.78,
+    "restaurantVariationLevel": "medium"
+  }),
+  starterDish({
+    "id": "pimientos-de-padron",
+    "metadataCode": "105014",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Pimientos de Padrón",
+      "zh": "帕德龙小青椒",
+      "nl": "Pimientos de Padrón",
+      "local": "pimientos de padrón"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "fried"
+    ],
+    "shortDescription": {
+      "en": "Small green peppers blistered in olive oil and sea salt; usually mild, occasionally spicy.",
+      "zh": "小青椒用橄榄油煎到起泡后撒海盐，通常温和，但偶尔会吃到辣的。",
+      "nl": "Kleine groene pepers, geblakerd in olijfolie met zeezout; meestal mild, soms pittig."
+    },
+    "cookingProfile": {
+      "en": "Usually quickly fried or blistered, giving soft peppers with lightly charred skins.",
+      "zh": "常见做法风格是快速煎到外皮微焦，口感柔软，偶尔有惊喜辣度。",
+      "nl": "Meestal kort gebakken tot de schil licht geblakerd is en de peper zacht wordt."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "tapas",
+        "vegetarian",
+        "common-menu-item"
+      ],
+      "description": {
+        "en": "A frequent tapas vegetable dish with a useful mild-but-sometimes-spicy ordering note.",
+        "zh": "高频西班牙蔬菜 tapas，点餐时最重要的是知道它可能偶尔偏辣。",
+        "nl": "Een vaak voorkomende groentetapas met de nuttige nuance dat hij soms pittig kan zijn."
+      }
+    },
+    "composition": [
+      [
+        "mixed-vegetables",
+        80,
+        "main"
+      ],
+      [
+        "olive-oil",
+        10,
+        "finish",
+        "seasoning"
+      ],
+      [
+        "sea-salt",
+        10,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "olive-oil",
+      "sea-salt"
+    ],
+    "basicTaste": [
+      "savory",
+      "mild",
+      "occasionally spicy"
+    ],
+    "textureProfile": [
+      "soft pepper flesh",
+      "blistered skin"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegan"
+    ],
+    "goodForTags": [
+      "vegetarian-friendly",
+      "vegan-friendly",
+      "light-tapas"
+    ],
+    "avoidIfTags": [
+      "strictly-no-spice"
+    ],
+    "orderVerdict": {
+      "en": "Great light tapas if you want something simple and vegetable-forward; expect the occasional spicy pepper.",
+      "zh": "想要清爽蔬菜 tapas 很适合；但如果完全不能吃辣，要注意偶尔会有辣椒。",
+      "nl": "Een fijne lichte tapas als je iets eenvoudigs met groente wilt; soms zit er een pittige tussen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.8,
+    "restaurantVariationLevel": "low"
+  }),
+  starterDish({
+    "id": "boquerones-en-vinagre",
+    "metadataCode": "105015",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Boquerones en Vinagre",
+      "zh": "醋渍凤尾鱼",
+      "nl": "Boquerones en vinagre",
+      "local": "boquerones en vinagre"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "raw"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "marinated",
+    "shortDescription": {
+      "en": "Vinegar-marinated anchovies with olive oil, garlic, and parsley; bright, salty, and cold.",
+      "zh": "凤尾鱼用醋腌制后配橄榄油、蒜和欧芹，冷食，酸鲜咸香。",
+      "nl": "In azijn gemarineerde ansjovis met olijfolie, knoflook en peterselie; fris, zout en koud."
+    },
+    "cookingProfile": {
+      "en": "Usually served cold after marinating, so expect a fresh acidic bite rather than a cooked fish texture.",
+      "zh": "常见做法风格是冷腌而非热烹，口感酸爽，鱼味直接。",
+      "nl": "Meestal koud en gemarineerd geserveerd, met frisse zuren in plaats van gegaarde visstructuur."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "tapas",
+        "seafood",
+        "common-menu-item"
+      ],
+      "description": {
+        "en": "A common Spanish cold seafood tapas where acidity and fish preference matter for ordering.",
+        "zh": "常见西班牙冷海鲜 tapas，点餐关键是能否接受酸味和明显鱼味。",
+        "nl": "Een veelvoorkomende koude zeevruchtentapas waarbij zuur en vissmaak belangrijk zijn."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        70,
+        "main"
+      ],
+      [
+        "vinegar",
+        10,
+        "marinade",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        10,
+        "finish",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "parsley",
+        5,
+        "finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "vinegar",
+      "olive-oil",
+      "garlic"
+    ],
+    "basicTaste": [
+      "sour",
+      "salty",
+      "briny"
+    ],
+    "textureProfile": [
+      "cool firm fish",
+      "oil-slick finish"
+    ],
+    "riskFlags": [
+      "contains-fish"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "seafood-lover",
+      "light-tapas",
+      "acidic-flavors"
+    ],
+    "avoidIfTags": [
+      "avoids-fish",
+      "dislikes-sour-food"
+    ],
+    "orderVerdict": {
+      "en": "Order if you like cold, tangy seafood; skip if you want a warm or mild fish dish.",
+      "zh": "喜欢冷盘酸鲜海鲜可以点；想要热菜或温和鱼味则不太适合。",
+      "nl": "Bestel dit als je koude, friszure vis lekker vindt; minder geschikt als je warme milde vis wilt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.78,
+    "restaurantVariationLevel": "medium"
+  }),
+  starterDish({
+    "id": "ensaladilla-rusa",
+    "metadataCode": "105016",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Ensaladilla Rusa",
+      "zh": "西班牙土豆蛋黄酱沙拉",
+      "nl": "Ensaladilla rusa",
+      "local": "ensaladilla rusa"
+    },
+    "category": "salad",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Cold potato salad with mayonnaise-style richness, vegetables, egg, and often tuna.",
+      "zh": "冷土豆沙拉，常含蛋黄酱、蔬菜、鸡蛋，有时加金枪鱼，口感浓郁。",
+      "nl": "Koude aardappelsalade met mayo-achtige romigheid, groenten, ei en vaak tonijn."
+    },
+    "cookingProfile": {
+      "en": "Usually served cold and creamy, so it eats more like a rich salad than a fresh leafy one.",
+      "zh": "常见做法风格是冷食且奶油感明显，更像浓郁沙拉而不是清爽叶菜。",
+      "nl": "Meestal koud en romig; eerder een rijke salade dan een frisse bladsalade."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "tapas",
+        "cold-salad",
+        "common-menu-item"
+      ],
+      "description": {
+        "en": "A very common Spanish bar salad where egg, fish, and creaminess are useful ordering signals.",
+        "zh": "常见于西班牙酒吧和 tapas 菜单，鸡蛋、鱼和浓郁度是关键判断点。",
+        "nl": "Een veelvoorkomende Spaanse barsalade waarbij ei, vis en romigheid belangrijk zijn."
+      }
+    },
+    "composition": [
+      [
+        "potato",
+        45,
+        "base"
+      ],
+      [
+        "mixed-vegetables",
+        20,
+        "body"
+      ],
+      [
+        "egg",
+        15,
+        "richness"
+      ],
+      [
+        "fish-fillet",
+        10,
+        "optional protein"
+      ],
+      [
+        "olive-oil",
+        5,
+        "finish",
+        "seasoning"
+      ],
+      [
+        "mustard",
+        5,
+        "tang",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "egg",
+      "mustard",
+      "olive-oil"
+    ],
+    "basicTaste": [
+      "creamy",
+      "savory",
+      "mild"
+    ],
+    "textureProfile": [
+      "soft potato cubes",
+      "creamy dressing"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-fish"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "tapas",
+      "mild-flavors",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "avoids-mayonnaise",
+      "avoids-fish"
+    ],
+    "orderVerdict": {
+      "en": "Good mild tapas if you like creamy potato salad; check for tuna or anchovy if avoiding fish.",
+      "zh": "喜欢温和浓郁土豆沙拉可以点；不吃鱼的人要确认是否含金枪鱼或凤尾鱼。",
+      "nl": "Prima milde tapas als je romige aardappelsalade wilt; vraag naar tonijn of ansjovis bij visvermijding."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.78,
+    "restaurantVariationLevel": "high"
+  }),
+  starterDish({
+    "id": "salmorejo",
+    "metadataCode": "105017",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Salmorejo",
+      "zh": "科尔多瓦冷番茄浓汤",
+      "nl": "Salmorejo",
+      "local": "salmorejo"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Thick cold tomato and bread soup, often topped with egg and cured ham.",
+      "zh": "浓稠冷番茄面包汤，常以鸡蛋和西班牙火腿作点缀，比 gazpacho 更厚重。",
+      "nl": "Dikke koude tomaten-broodsoep, vaak met ei en gedroogde ham erbovenop."
+    },
+    "cookingProfile": {
+      "en": "Usually served cold and velvety, with a thicker body than gazpacho.",
+      "zh": "常见做法风格是冷食、顺滑浓稠，比西班牙冷番茄汤更有饱腹感。",
+      "nl": "Meestal koud en fluweelzacht geserveerd, dikker dan gazpacho."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "andalusian",
+        "cold-soup",
+        "common-menu-item"
+      ],
+      "description": {
+        "en": "A frequent Andalusian cold soup that is useful to distinguish from lighter gazpacho.",
+        "zh": "常见安达卢西亚冷汤，适合帮助用户区分它和更清爽的 gazpacho。",
+        "nl": "Een vaak voorkomende Andalusische koude soep, handig om te onderscheiden van lichtere gazpacho."
+      }
+    },
+    "composition": [
+      [
+        "tomato",
+        45,
+        "base"
+      ],
+      [
+        "bread",
+        20,
+        "thickener"
+      ],
+      [
+        "olive-oil",
+        15,
+        "richness",
+        "seasoning"
+      ],
+      [
+        "egg",
+        10,
+        "topping"
+      ],
+      [
+        "ham",
+        5,
+        "topping"
+      ],
+      [
+        "garlic",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "olive-oil",
+      "garlic",
+      "ham"
+    ],
+    "basicTaste": [
+      "savory",
+      "tangy",
+      "creamy"
+    ],
+    "textureProfile": [
+      "thick cold soup",
+      "smooth body"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "cold-starter",
+      "summer-food",
+      "tomato-forward"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "avoids-cold-soup"
+    ],
+    "orderVerdict": {
+      "en": "Order for a cool, rich tomato starter; ask to skip ham or egg if needed.",
+      "zh": "想要清凉但浓郁的番茄前菜可以点；不吃猪肉或鸡蛋要提前确认配料。",
+      "nl": "Bestel dit voor een koele, rijke tomatenstarter; vraag naar ham of ei indien nodig."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.8,
+    "restaurantVariationLevel": "medium"
+  }),
+  starterDish({
+    "id": "calamares-a-la-romana",
+    "metadataCode": "105018",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Calamares a la Romana",
+      "zh": "西班牙炸鱿鱼圈",
+      "nl": "Calamares a la romana",
+      "local": "calamares a la romana"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "deep-fried"
+    ],
+    "shortDescription": {
+      "en": "Battered fried squid rings, usually served with lemon or aioli.",
+      "zh": "裹糊油炸鱿鱼圈，常配柠檬或蒜香酱，口感外脆内弹。",
+      "nl": "Gefrituurde inktvisringen in beslag, meestal met citroen of aioli."
+    },
+    "cookingProfile": {
+      "en": "Usually deep-fried, so the main experience is crisp batter around springy squid.",
+      "zh": "常见做法风格是油炸，重点是外层酥脆和鱿鱼弹性。",
+      "nl": "Meestal gefrituurd, met knapperig beslag rond veerkrachtige inktvis."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "seafood",
+        "tapas",
+        "common-menu-item"
+      ],
+      "description": {
+        "en": "A common Spanish fried seafood item often seen as tapas or a sandwich filling.",
+        "zh": "常见西班牙炸海鲜，可作为 tapas 或鱿鱼三明治里的主体。",
+        "nl": "Een veelvoorkomend Spaans gefrituurd zeevruchtengerecht, als tapas of broodjevulling."
+      }
+    },
+    "composition": [
+      [
+        "squid",
+        55,
+        "main"
+      ],
+      [
+        "wheat-flour",
+        20,
+        "batter"
+      ],
+      [
+        "egg",
+        10,
+        "binder"
+      ],
+      [
+        "olive-oil",
+        10,
+        "frying medium",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lemon",
+      "sea-salt",
+      "olive-oil"
+    ],
+    "basicTaste": [
+      "savory",
+      "briny",
+      "fried"
+    ],
+    "textureProfile": [
+      "crisp batter",
+      "springy squid"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-gluten",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "fried-seafood",
+      "sharing",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "avoids-fried-food",
+      "shellfish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "A familiar fried seafood choice; good for sharing, but heavier than grilled seafood.",
+      "zh": "是容易理解的炸海鲜选择，适合分享；但比烤海鲜更油更重。",
+      "nl": "Een herkenbare gefrituurde zeevruchtenkeuze; fijn om te delen, maar zwaarder dan gegrilde vis."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.78,
+    "restaurantVariationLevel": "medium"
+  }),
+  starterDish({
+    "id": "fideua",
+    "metadataCode": "105019",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Fideuà",
+      "zh": "西班牙海鲜细面锅",
+      "nl": "Fideuà",
+      "local": "fideuà"
+    },
+    "category": "noodle",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Paella-like seafood noodle dish made with short pasta instead of rice.",
+      "zh": "类似海鲜饭的短面锅，用短面代替米饭，常含海鲜和藏红花香气。",
+      "nl": "Paella-achtig zeevruchtennoedelgerecht met korte pasta in plaats van rijst."
+    },
+    "cookingProfile": {
+      "en": "Usually simmered in a shallow pan, giving saucy short noodles with seafood on top.",
+      "zh": "常见做法风格是浅锅焖煮，短面吸收汤汁，上面有海鲜。",
+      "nl": "Meestal in een lage pan gesudderd, met sauzige korte noedels en zeevruchten erbovenop."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "valencian",
+        "seafood",
+        "common-menu-item"
+      ],
+      "description": {
+        "en": "A common coastal Spanish alternative to paella that users may misread as pasta.",
+        "zh": "西班牙沿海常见的海鲜饭替代菜，用户容易把它误认为普通意面。",
+        "nl": "Een kust-Spaanse paella-variant die snel als gewone pasta gelezen kan worden."
+      }
+    },
+    "composition": [
+      [
+        "wheat-noodles",
+        45,
+        "base"
+      ],
+      [
+        "fish-fillet",
+        20,
+        "seafood"
+      ],
+      [
+        "shrimp",
+        15,
+        "seafood"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "body"
+      ],
+      [
+        "saffron",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "saffron",
+      "olive-oil",
+      "seafood broth"
+    ],
+    "basicTaste": [
+      "savory",
+      "briny",
+      "aromatic"
+    ],
+    "textureProfile": [
+      "short saucy noodles",
+      "tender seafood"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-fish",
+      "contains-shellfish"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "seafood-lover",
+      "sharing",
+      "paella-alternative"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "shellfish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Order if paella sounds good but you prefer noodles; check seafood mix before sharing.",
+      "zh": "想吃类似海鲜饭但更偏面食时很适合；分享前要确认海鲜组合。",
+      "nl": "Bestel dit als paella goed klinkt maar je liever noedels hebt; check de zeevruchtenmix."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.78,
+    "restaurantVariationLevel": "medium"
+  }),
+  starterDish({
+    "id": "arroz-negro",
+    "metadataCode": "105020",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Arroz Negro",
+      "zh": "西班牙墨鱼汁黑饭",
+      "nl": "Arroz negro",
+      "local": "arroz negro"
+    },
+    "category": "rice",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Black squid-ink rice, usually with squid or cuttlefish; deep seafood flavor.",
+      "zh": "用墨鱼汁染黑的西班牙米饭，常配鱿鱼或墨鱼，海味明显。",
+      "nl": "Zwarte rijst met inktvisinkt, meestal met inktvis; uitgesproken zeevruchtensmaak."
+    },
+    "cookingProfile": {
+      "en": "Usually cooked like a seafood rice pan, with moist rice and dark briny sauce.",
+      "zh": "常见做法风格类似海鲜饭，米饭湿润，黑色酱汁带明显海味。",
+      "nl": "Meestal als zeevruchtenrijst bereid, met vochtige rijst en een donkere zilte saus."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "seafood",
+        "rice",
+        "common-menu-item"
+      ],
+      "description": {
+        "en": "A common Spanish seafood rice dish where the black color and briny taste need clear explanation.",
+        "zh": "常见西班牙海鲜米饭，黑色外观和海味需要给用户清楚预期。",
+        "nl": "Een veelvoorkomend Spaans zeevruchtenrijstgerecht waarbij kleur en zilte smaak uitleg vragen."
+      }
+    },
+    "composition": [
+      [
+        "steamed-rice",
+        45,
+        "base"
+      ],
+      [
+        "squid",
+        25,
+        "seafood"
+      ],
+      [
+        "fish-fillet",
+        10,
+        "seafood"
+      ],
+      [
+        "tomato-sauce",
+        10,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "finish",
+        "seasoning"
+      ],
+      [
+        "smoked-paprika",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "squid ink",
+      "olive-oil",
+      "smoked-paprika"
+    ],
+    "basicTaste": [
+      "savory",
+      "briny",
+      "umami"
+    ],
+    "textureProfile": [
+      "moist rice",
+      "tender squid"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-fish"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "seafood-lover",
+      "distinctive-dish",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "dislikes-strong-seafood",
+      "shellfish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "A strong choice for seafood fans; skip if dark briny rice sounds too intense.",
+      "zh": "喜欢明显海味的人很值得点；如果害怕黑色米饭和浓海味，就不太适合。",
+      "nl": "Sterk voor zeevruchtenliefhebbers; sla over als donkere zilte rijst te intens klinkt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.78,
+    "restaurantVariationLevel": "medium"
+  }),
+  starterDish({
+    "id": "bacalao-al-pil-pil",
+    "metadataCode": "105021",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Bacalao al Pil Pil",
+      "zh": "蒜香橄榄油鳕鱼",
+      "nl": "Bacalao al pil pil",
+      "local": "bacalao al pil pil"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Cod in a glossy olive oil and garlic sauce; rich, salty, and fish-forward.",
+      "zh": "鳕鱼配橄榄油和蒜乳化出的浓滑酱汁，鱼味和油润感明显。",
+      "nl": "Kabeljauw in glanzende olijfolie-knoflooksaus; rijk, zout en duidelijk visachtig."
+    },
+    "cookingProfile": {
+      "en": "Usually gently cooked so the fish flakes softly and the sauce feels glossy and rich.",
+      "zh": "常见做法风格是轻柔加热，鱼肉细嫩，酱汁油润浓滑。",
+      "nl": "Meestal zacht gegaard, met vlokkige vis en een glanzend rijke saus."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "basque",
+        "seafood",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A classic Basque-style cod dish that explains a rich fish order without recipe detail.",
+        "zh": "巴斯克经典鳕鱼菜，适合帮助用户判断这是一道油润浓郁的鱼菜。",
+        "nl": "Een klassiek Baskisch kabeljauwgerecht dat een rijke viskeuze helder maakt."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        70,
+        "main"
+      ],
+      [
+        "olive-oil",
+        15,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        10,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "parsley",
+        5,
+        "finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "olive-oil",
+      "garlic",
+      "salted cod"
+    ],
+    "basicTaste": [
+      "salty",
+      "savory",
+      "rich"
+    ],
+    "textureProfile": [
+      "flaky fish",
+      "glossy sauce"
+    ],
+    "riskFlags": [
+      "contains-fish"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "fish-lover",
+      "classic-dish",
+      "rich-sauce"
+    ],
+    "avoidIfTags": [
+      "avoids-oily-food",
+      "avoids-fish"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a classic rich fish dish; not the lightest seafood option.",
+      "zh": "想吃经典浓郁鱼菜可以点；如果想要清淡海鲜，它会偏油润。",
+      "nl": "Bestel dit voor een klassiek rijk visgerecht; niet de lichtste zeevruchtenkeuze."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.78,
+    "restaurantVariationLevel": "medium"
+  }),
+  starterDish({
+    "id": "merluza-a-la-vasca",
+    "metadataCode": "105022",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Merluza a la Vasca",
+      "zh": "巴斯克青酱鳕鱼",
+      "nl": "Merluza a la vasca",
+      "local": "merluza a la vasca"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Hake in a green parsley sauce, sometimes with peas, asparagus, clams, or egg.",
+      "zh": "鳕科白鱼配欧芹青酱，常加豌豆、芦笋、贝类或鸡蛋，口味比炸鱼更清爽。",
+      "nl": "Heek in groene peterseliesaus, soms met erwten, asperges, schelpen of ei."
+    },
+    "cookingProfile": {
+      "en": "Usually gently simmered, giving soft white fish with a light herbal sauce.",
+      "zh": "常见做法风格是轻煮白鱼，搭配清爽草本酱汁。",
+      "nl": "Meestal zacht gesudderd, met zachte witte vis en een lichte kruidensaus."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "basque",
+        "seafood",
+        "restaurant-coverage"
+      ],
+      "description": {
+        "en": "A common Spanish restaurant fish dish that helps identify a lighter sauced seafood main.",
+        "zh": "常见西班牙餐厅鱼类主菜，适合帮助用户判断较清爽的青酱海鲜。",
+        "nl": "Een veelvoorkomend Spaans visgerecht voor het herkennen van lichtere vis met saus."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        60,
+        "main"
+      ],
+      [
+        "mixed-vegetables",
+        15,
+        "side"
+      ],
+      [
+        "peas",
+        10,
+        "body"
+      ],
+      [
+        "olive-oil",
+        5,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "parsley",
+        5,
+        "herb sauce",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "parsley",
+      "garlic",
+      "olive-oil"
+    ],
+    "basicTaste": [
+      "savory",
+      "herbal",
+      "mild"
+    ],
+    "textureProfile": [
+      "soft white fish",
+      "light sauce"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-shellfish"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "lighter-main",
+      "fish-lover",
+      "mild-flavors"
+    ],
+    "avoidIfTags": [
+      "avoids-fish",
+      "shellfish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "A good fish main if you want something gentler than fried seafood; ask about clams if shellfish matters.",
+      "zh": "想吃比炸海鲜更温和的鱼类主菜可以点；甲壳/贝类过敏需确认是否加贝类。",
+      "nl": "Een fijne viskeuze als je iets lichter wilt dan gefrituurde zeevruchten; vraag naar schelpen."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.78,
+    "restaurantVariationLevel": "high"
+  }),
+  starterDish({
+    "id": "pollo-al-ajillo",
+    "metadataCode": "105023",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Pollo al Ajillo",
+      "zh": "西班牙蒜香鸡",
+      "nl": "Pollo al ajillo",
+      "local": "pollo al ajillo"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "fried",
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Chicken cooked with lots of garlic, olive oil, and sometimes white wine; savory and aromatic.",
+      "zh": "鸡肉配大量蒜、橄榄油，有时加白葡萄酒，咸香且蒜味明显。",
+      "nl": "Kip met veel knoflook, olijfolie en soms witte wijn; hartig en aromatisch."
+    },
+    "cookingProfile": {
+      "en": "Usually browned then finished in a garlicky sauce, so expect juicy chicken and strong aroma.",
+      "zh": "常见做法风格是鸡肉煎香后配蒜香酱汁，重点是多汁和蒜味。",
+      "nl": "Meestal eerst gebruind en daarna in knoflooksaus afgemaakt, met sappige kip en sterke geur."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "meat-main",
+        "common-menu-item",
+        "restaurant-coverage"
+      ],
+      "description": {
+        "en": "A common Spanish chicken order that is easy for travelers to recognize once garlic is explained.",
+        "zh": "常见西班牙鸡肉菜，解释清楚蒜味后能帮助用户快速判断是否适合。",
+        "nl": "Een veelvoorkomende Spaanse kipkeuze waarbij knoflook de belangrijkste verwachting is."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        70,
+        "main"
+      ],
+      [
+        "olive-oil",
+        10,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        10,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "red-wine",
+        5,
+        "sauce depth",
+        "seasoning"
+      ],
+      [
+        "parsley",
+        5,
+        "finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "garlic",
+      "olive-oil",
+      "wine"
+    ],
+    "basicTaste": [
+      "savory",
+      "garlicky",
+      "rich"
+    ],
+    "textureProfile": [
+      "juicy chicken",
+      "oily garlic sauce"
+    ],
+    "riskFlags": [
+      "contains-alcohol"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "chicken-main",
+      "first-timer-friendly",
+      "garlic-lover"
+    ],
+    "avoidIfTags": [
+      "dislikes-garlic",
+      "avoids-alcohol"
+    ],
+    "orderVerdict": {
+      "en": "A reliable chicken dish if garlic is welcome; ask about wine if avoiding alcohol.",
+      "zh": "爱蒜味的话是稳妥鸡肉选择；避酒精的人要确认是否用酒。",
+      "nl": "Een betrouwbare kipkeuze als knoflook welkom is; vraag naar wijn bij alcoholvermijding."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.78,
+    "restaurantVariationLevel": "medium"
+  }),
+  starterDish({
+    "id": "rabo-de-toro",
+    "metadataCode": "105024",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Rabo de Toro",
+      "zh": "西班牙炖牛尾",
+      "nl": "Rabo de toro",
+      "local": "rabo de toro"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "braised"
+    ],
+    "shortDescription": {
+      "en": "Slow-braised oxtail in a deep winey sauce; rich, tender, and very hearty.",
+      "zh": "慢炖牛尾配浓郁酒香酱汁，肉质软烂，分量和风味都偏厚重。",
+      "nl": "Lang gestoofde ossenstaart in diepe wijnsaus; rijk, mals en stevig."
+    },
+    "cookingProfile": {
+      "en": "Usually braised until the meat is very tender and served with a dark, rich sauce.",
+      "zh": "常见做法风格是长时间炖到软烂，配深色浓酱。",
+      "nl": "Meestal lang gestoofd tot het vlees zeer mals is, met een donkere rijke saus."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "andalusian",
+        "meat-main",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A classic Spanish braised meat dish where richness and portion size guide ordering.",
+        "zh": "经典西班牙炖肉菜，点餐关键是浓郁度和饱腹感。",
+        "nl": "Een klassiek Spaans stoofgerecht waarbij rijkdom en portie belangrijk zijn."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        65,
+        "main"
+      ],
+      [
+        "mixed-vegetables",
+        15,
+        "braise base"
+      ],
+      [
+        "red-wine",
+        10,
+        "sauce depth",
+        "seasoning"
+      ],
+      [
+        "tomato-sauce",
+        5,
+        "body",
+        "seasoning"
+      ],
+      [
+        "black-pepper",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "red-wine",
+      "black-pepper",
+      "slow-braised beef"
+    ],
+    "basicTaste": [
+      "savory",
+      "rich",
+      "meaty"
+    ],
+    "textureProfile": [
+      "fall-apart meat",
+      "thick sauce"
+    ],
+    "riskFlags": [
+      "contains-alcohol"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "hearty-main",
+      "meat-lover",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "wants-light-food",
+      "avoids-alcohol"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a rich, slow-braised meat main; skip for a light meal.",
+      "zh": "想吃浓郁慢炖肉主菜很适合；如果只想吃轻食就不建议。",
+      "nl": "Bestel dit voor een rijke gestoofde vleesmaaltijd; minder geschikt voor iets lichts."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.78,
+    "restaurantVariationLevel": "medium"
+  }),
+  starterDish({
+    "id": "carrillada",
+    "metadataCode": "105025",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Carrillada",
+      "zh": "西班牙慢炖猪脸肉",
+      "nl": "Carrillada",
+      "local": "carrillada"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "braised"
+    ],
+    "shortDescription": {
+      "en": "Slow-braised pork cheek, often in wine sauce; very tender, saucy, and rich.",
+      "zh": "慢炖猪脸肉，常配酒香酱汁，口感软烂浓郁。",
+      "nl": "Lang gestoofde varkenswang, vaak in wijnsaus; zeer mals, sauzig en rijk."
+    },
+    "cookingProfile": {
+      "en": "Usually braised until spoon-tender, with a glossy sauce and soft meat fibers.",
+      "zh": "常见做法风格是炖到可轻松切开，酱汁浓亮，肉质柔软。",
+      "nl": "Meestal gestoofd tot lepelmals, met glanzende saus en zacht vlees."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "meat-main",
+        "restaurant-coverage",
+        "andalusian"
+      ],
+      "description": {
+        "en": "A common Spanish restaurant braise where users need to know it is usually pork cheek.",
+        "zh": "常见西班牙餐厅炖肉，用户需要知道它通常是猪脸肉。",
+        "nl": "Een veelvoorkomende Spaanse stoofschotel waarbij het meestal om varkenswang gaat."
+      }
+    },
+    "composition": [
+      [
+        "pork",
+        60,
+        "main"
+      ],
+      [
+        "potato",
+        20,
+        "side"
+      ],
+      [
+        "red-wine",
+        10,
+        "sauce depth",
+        "seasoning"
+      ],
+      [
+        "mixed-vegetables",
+        5,
+        "braise base"
+      ],
+      [
+        "black-pepper",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "red-wine",
+      "slow-braised pork",
+      "black-pepper"
+    ],
+    "basicTaste": [
+      "savory",
+      "rich",
+      "meaty"
+    ],
+    "textureProfile": [
+      "spoon-tender pork",
+      "glossy sauce"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-alcohol"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "hearty-main",
+      "comfort-food",
+      "meat-lover"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Excellent if you like soft braised pork; avoid if you do not eat pork or want a light dish.",
+      "zh": "喜欢软烂炖猪肉会很适合；不吃猪肉或想吃清淡菜则避开。",
+      "nl": "Uitstekend als je zacht gestoofd varkensvlees wilt; vermijd bij geen-varkensvlees of licht eten."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.78,
+    "restaurantVariationLevel": "medium"
+  }),
+  starterDish({
+    "id": "cocido-madrileno",
+    "metadataCode": "105026",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Cocido Madrileño",
+      "zh": "马德里鹰嘴豆肉汤锅",
+      "nl": "Cocido madrileño",
+      "local": "cocido madrileño"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Hearty Madrid chickpea stew with meats, sausage, vegetables, and broth.",
+      "zh": "马德里风格鹰嘴豆炖锅，含肉、香肠、蔬菜和汤，分量很足。",
+      "nl": "Stevige Madrileense kikkererwtenstoof met vlees, worst, groente en bouillon."
+    },
+    "cookingProfile": {
+      "en": "Usually simmered as a generous stew, sometimes served in separate broth and solids.",
+      "zh": "常见做法风格是长时间炖成丰盛汤锅，有时汤和固体分开上桌。",
+      "nl": "Meestal als royale stoof gesudderd, soms met bouillon en vaste delen apart."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "madrid",
+        "stew",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A classic Madrid stew that matters for portion size, pork risk, and heaviness.",
+        "zh": "马德里经典炖锅，点餐重点是分量、猪肉风险和厚重程度。",
+        "nl": "Een klassieke Madrileense stoof waarbij portie, varkensvlees en zwaarte tellen."
+      }
+    },
+    "composition": [
+      [
+        "chickpeas",
+        35,
+        "base"
+      ],
+      [
+        "pork",
+        25,
+        "meat"
+      ],
+      [
+        "sausage",
+        15,
+        "meat"
+      ],
+      [
+        "potato",
+        15,
+        "body"
+      ],
+      [
+        "broth",
+        10,
+        "soup base"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "pork",
+      "sausage",
+      "broth"
+    ],
+    "basicTaste": [
+      "savory",
+      "brothy",
+      "hearty"
+    ],
+    "textureProfile": [
+      "soft chickpeas",
+      "mixed meats",
+      "warm broth"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "very-filling",
+      "winter-food",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a very filling traditional stew; not a small tapas-style order.",
+      "zh": "想吃非常饱腹的传统炖锅可以点；它不是小份 tapas。",
+      "nl": "Kies dit voor een zeer vullende traditionele stoof; geen kleine tapasportie."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 5,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.78,
+    "restaurantVariationLevel": "medium"
+  }),
+  starterDish({
+    "id": "huevos-rotos",
+    "metadataCode": "105027",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Huevos Rotos",
+      "zh": "西班牙碎蛋薯条",
+      "nl": "Huevos rotos",
+      "local": "huevos rotos"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "fried"
+    ],
+    "shortDescription": {
+      "en": "Fried eggs broken over potatoes, often with jamón or chorizo; rich and shareable.",
+      "zh": "煎蛋打散在土豆上，常加火腿或西班牙香肠，咸香浓郁适合分享。",
+      "nl": "Gebakken eieren gebroken over aardappels, vaak met jamón of chorizo; rijk en deelbaar."
+    },
+    "cookingProfile": {
+      "en": "Usually served hot with runny or soft yolk coating fried potatoes.",
+      "zh": "常见做法风格是热食，软蛋黄裹住煎炸土豆。",
+      "nl": "Meestal warm geserveerd, met zachte dooier over gebakken aardappels."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "tapas",
+        "egg-dish",
+        "common-menu-item"
+      ],
+      "description": {
+        "en": "A common Spanish sharing plate where egg, potato, and cured pork are the key signals.",
+        "zh": "常见西班牙分享菜，关键是鸡蛋、土豆和腌猪肉。",
+        "nl": "Een vaak gedeeld Spaans gerecht waarbij ei, aardappel en varkensvlees centraal staan."
+      }
+    },
+    "composition": [
+      [
+        "potato",
+        50,
+        "base"
+      ],
+      [
+        "egg",
+        25,
+        "topping"
+      ],
+      [
+        "ham",
+        15,
+        "topping"
+      ],
+      [
+        "olive-oil",
+        5,
+        "frying medium",
+        "seasoning"
+      ],
+      [
+        "black-pepper",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "egg yolk",
+      "ham",
+      "olive-oil"
+    ],
+    "basicTaste": [
+      "savory",
+      "salty",
+      "rich"
+    ],
+    "textureProfile": [
+      "soft egg yolk",
+      "fried potatoes",
+      "salty ham"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "sharing",
+      "comfort-food",
+      "tapas"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "avoids-runny-egg"
+    ],
+    "orderVerdict": {
+      "en": "Great sharing comfort food if egg and pork are fine; heavier than it may look.",
+      "zh": "鸡蛋和猪肉都能接受的话很适合分享；实际会比看起来更厚重。",
+      "nl": "Heerlijk deelbaar comfortfood als ei en varkensvlees oké zijn; zwaarder dan het lijkt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.78,
+    "restaurantVariationLevel": "medium"
+  }),
+  starterDish({
+    "id": "tarta-de-santiago",
+    "metadataCode": "105028",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Tarta de Santiago",
+      "zh": "圣地亚哥杏仁蛋糕",
+      "nl": "Tarta de Santiago",
+      "local": "tarta de santiago"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Galician almond cake, dense, nutty, and usually dusted with powdered sugar.",
+      "zh": "加利西亚杏仁蛋糕，质地扎实，坚果香明显，通常撒糖粉。",
+      "nl": "Galicische amandelcake, compact en nootachtig, meestal met poedersuiker."
+    },
+    "cookingProfile": {
+      "en": "Usually baked as a dense cake slice, with a moist crumb rather than a creamy filling.",
+      "zh": "常见做法风格是烤成扎实蛋糕片，口感偏湿润坚果，不是奶油夹心蛋糕。",
+      "nl": "Meestal als compacte cake gebakken, met vochtige kruim en geen romige vulling."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "galician",
+        "dessert",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A well-known Galician dessert where tree-nut risk is the main ordering note.",
+        "zh": "知名加利西亚甜点，点餐时最重要的是坚果风险。",
+        "nl": "Een bekende Galicische dessertkeuze waarbij noten het belangrijkste aandachtspunt zijn."
+      }
+    },
+    "composition": [
+      [
+        "walnuts",
+        40,
+        "nut base"
+      ],
+      [
+        "sugar",
+        25,
+        "sweetener"
+      ],
+      [
+        "egg",
+        20,
+        "binder"
+      ],
+      [
+        "lemon",
+        5,
+        "aroma"
+      ],
+      [
+        "cinnamon",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "wheat-flour",
+        5,
+        "structure"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "almond-style nut base",
+      "cinnamon",
+      "lemon"
+    ],
+    "basicTaste": [
+      "sweet",
+      "nutty",
+      "mild"
+    ],
+    "textureProfile": [
+      "dense cake",
+      "moist crumb"
+    ],
+    "riskFlags": [
+      "contains-tree-nut",
+      "contains-egg",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "nutty-flavors",
+      "not-too-creamy"
+    ],
+    "avoidIfTags": [
+      "tree-nut-allergy",
+      "wants-light-dessert"
+    ],
+    "orderVerdict": {
+      "en": "Good dessert if you like dense nut cakes; avoid with tree-nut allergy.",
+      "zh": "喜欢扎实坚果蛋糕可以点；坚果过敏者应避开。",
+      "nl": "Goed dessert als je compacte notencake wilt; vermijden bij notenallergie."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.78,
+    "restaurantVariationLevel": "low"
+  }),
+  starterDish({
+    "id": "spanish-flan",
+    "metadataCode": "105029",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Flan",
+      "zh": "西班牙焦糖布丁",
+      "nl": "Flan",
+      "local": "flan"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Caramel custard dessert, soft and wobbly with a sweet caramel sauce.",
+      "zh": "焦糖蛋奶布丁，质地柔软晃动，配甜焦糖汁。",
+      "nl": "Karamelcustarddessert, zacht en wiebelig met zoete karamelsaus."
+    },
+    "cookingProfile": {
+      "en": "Usually served chilled or cool, with a smooth set custard and syrupy caramel.",
+      "zh": "常见做法风格是冷食或微凉，凝固蛋奶口感顺滑，焦糖汁甜润。",
+      "nl": "Meestal koel geserveerd, met gladde custard en stroperige karamel."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "dessert",
+        "common-menu-item",
+        "restaurant-coverage"
+      ],
+      "description": {
+        "en": "A very common Spanish dessert with clear egg and dairy ordering signals.",
+        "zh": "非常常见的西班牙甜点，鸡蛋和乳制品风险需要明确。",
+        "nl": "Een zeer veelvoorkomend Spaans dessert met duidelijke ei- en zuivelsignalen."
+      }
+    },
+    "composition": [
+      [
+        "cream",
+        40,
+        "custard base"
+      ],
+      [
+        "egg",
+        25,
+        "set custard"
+      ],
+      [
+        "sugar",
+        25,
+        "caramel"
+      ],
+      [
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "fruit-sauce-or-caramel",
+        5,
+        "sauce"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "caramel",
+      "vanilla",
+      "egg custard"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "caramel"
+    ],
+    "textureProfile": [
+      "smooth custard",
+      "soft wobble",
+      "syrupy caramel"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "first-timer-friendly",
+      "creamy"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "dairy-allergy"
+    ],
+    "orderVerdict": {
+      "en": "A safe classic dessert if egg and dairy are fine; softer and lighter than cake.",
+      "zh": "鸡蛋和乳制品都能接受的话，是稳妥经典甜点；比蛋糕更柔软轻一些。",
+      "nl": "Een veilige klassieke dessertkeuze als ei en zuivel oké zijn; zachter en lichter dan cake."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.8,
+    "restaurantVariationLevel": "low"
+  }),
+  starterDish({
+    "id": "bocadillo-de-calamares",
+    "metadataCode": "105030",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Bocadillo de Calamares",
+      "zh": "西班牙炸鱿鱼三明治",
+      "nl": "Bocadillo de calamares",
+      "local": "bocadillo de calamares"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "deep-fried",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Madrid-style sandwich filled with fried squid rings, often served with lemon or aioli.",
+      "zh": "马德里常见炸鱿鱼三明治，面包夹炸鱿鱼圈，常配柠檬或蒜香酱。",
+      "nl": "Madrileens broodje met gefrituurde inktvisringen, vaak met citroen of aioli."
+    },
+    "cookingProfile": {
+      "en": "Usually assembled hot or warm, with crisp squid inside a simple bread roll.",
+      "zh": "常见做法风格是热食或温热上桌，简单面包中夹酥脆鱿鱼。",
+      "nl": "Meestal warm samengesteld, met knapperige inktvis in een eenvoudig broodje."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "madrid",
+        "street-food",
+        "seafood"
+      ],
+      "description": {
+        "en": "A well-known Madrid street-food sandwich that is useful for seafood and gluten risk recognition.",
+        "zh": "马德里知名街头食物，有助于识别炸海鲜和麸质风险。",
+        "nl": "Een bekend Madrileens streetfoodbroodje, nuttig voor zeevruchten- en glutenherkenning."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        40,
+        "base"
+      ],
+      [
+        "squid",
+        35,
+        "main filling"
+      ],
+      [
+        "wheat-flour",
+        10,
+        "batter"
+      ],
+      [
+        "egg",
+        5,
+        "binder"
+      ],
+      [
+        "lemon",
+        5,
+        "finish"
+      ],
+      [
+        "olive-oil",
+        5,
+        "frying medium",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fried squid",
+      "lemon",
+      "olive-oil"
+    ],
+    "basicTaste": [
+      "savory",
+      "briny",
+      "bready"
+    ],
+    "textureProfile": [
+      "crisp squid",
+      "chewy bread",
+      "light lemon finish"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-gluten",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "seafood-lover",
+      "casual-meal"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "gluten-free",
+      "avoids-fried-food"
+    ],
+    "orderVerdict": {
+      "en": "Great casual order if fried squid in bread sounds fun; it is more filling than a small tapas plate.",
+      "zh": "想吃轻松街头风味很适合；它比小份 tapas 更顶饱。",
+      "nl": "Leuke informele keuze als gefrituurde inktvis in brood goed klinkt; vullender dan kleine tapas."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.78,
+    "restaurantVariationLevel": "medium"
+  }),
+  starterDish({
     "id": "butter-chicken",
     "metadataCode": "115001",
     "cuisineId": "indian",
