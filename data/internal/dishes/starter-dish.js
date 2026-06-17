@@ -8,7 +8,6 @@ export function starterDish(config) {
   const defaultThumbPath = metadataCode && imageSlug ? `/assets/dishes/thumb/${metadataCode}-${imageSlug}.webp` : PLACEHOLDER_IMAGE;
   return {
     id: config.id,
-    imageSlug: config.imageSlug,
     metadataCode,
     imageCode: config.imageCode || metadataCode,
     cuisineId: config.cuisineId,

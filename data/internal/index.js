@@ -11,7 +11,6 @@ import { expandedDishAliases } from "./expanded-dish-aliases.js";
 import { cafeBrunchDepthDishAliases } from "./cafe-brunch-depth-dish-aliases.js";
 import { greekDepthDishAliases } from "./greek-depth-dish-aliases.js";
 import { worldDishAliases } from "./world-dish-aliases.js";
-import { globalCoverageDishAliases } from "./global-coverage-dish-aliases.js";
 import { belgianDishes } from "./dishes/belgian.js";
 import { chineseDishes } from "./dishes/chinese.js";
 import { dutchDishes } from "./dishes/dutch.js";
@@ -22,7 +21,6 @@ import { greekDepthDishes } from "./dishes/greek-depth-dishes.js";
 import { italianDishes } from "./dishes/italian.js";
 import { expandedDishes } from "./dishes/expanded-dishes.js";
 import { worldDishes } from "./dishes/world-dishes.js";
-import { globalCoverageDishes } from "./dishes/global-coverage-dishes.js";
 import { japaneseDishes } from "./dishes/japanese.js";
 import { koreanDishes } from "./dishes/korean.js";
 import { thaiDishes } from "./dishes/thai.js";
@@ -33,7 +31,6 @@ export const dishAliases = [
   ...cafeBrunchDepthDishAliases,
   ...greekDepthDishAliases,
   ...worldDishAliases,
-  ...globalCoverageDishAliases,
 ];
 
 export {
@@ -61,7 +58,6 @@ export const dishes = [
   ...cafeBrunchDepthDishes,
   ...worldDishes,
   ...greekDepthDishes,
-  ...globalCoverageDishes,
 ];
 
 export const metadata = {
