@@ -1,7 +1,5 @@
 import { starterDish } from "./starter-dish.js";
 
-const PLACEHOLDER_IMAGE = "/assets/dishes/placeholders/dish-placeholder.svg";
-
 const cuisineCopy = {
   thai: ["Thai", "泰国菜", "Thais", ["fish-sauce", "lime", "chili"]],
   japanese: ["Japanese", "日本菜", "Japans", ["soy-sauce", "miso", "sea-salt"]],
@@ -295,9 +293,9 @@ export const globalCoverageDishConfigs = groups.flatMap(([cuisineId, groupCode, 
         level: "common",
         tags: ["coverage-expansion", "common-menu-item"],
         description: {
-          en: "A menu-coverage dish added to broaden DishKAI recognition. It uses starter metadata and placeholder imagery until deeper review.",
-          zh: "为扩大 DishKAI 菜单识别覆盖而加入的菜品。当前使用初始结构化信息和占位图，后续可继续深度校对。",
-          nl: "Een gerecht voor bredere menuherkenning. Gebruikt startermetadata en placeholderbeeld tot verdere review.",
+          en: "A menu-coverage dish added to broaden DishKAI recognition. It uses starter metadata and a generated visual reference until deeper review.",
+          zh: "为扩大 DishKAI 菜单识别覆盖而加入的菜品。当前使用初始结构化信息和生成视觉参考，后续可继续深度校对。",
+          nl: "Een gerecht voor bredere menuherkenning. Gebruikt startermetadata en een gegenereerde visuele referentie tot verdere review.",
         },
       },
       composition: profile.composition,
@@ -319,8 +317,6 @@ export const globalCoverageDishConfigs = groups.flatMap(([cuisineId, groupCode, 
       metadataConfidence: 0.58,
       restaurantVariationLevel: "high",
       confidenceTag: "coverage-metadata-needs-review",
-      imagePath: PLACEHOLDER_IMAGE,
-      thumbPath: PLACEHOLDER_IMAGE,
     };
   });
 });
