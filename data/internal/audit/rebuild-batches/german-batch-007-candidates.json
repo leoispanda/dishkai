@@ -1,0 +1,227 @@
+[
+  {
+    "dishId": "currywurst",
+    "metadataCode": "106006",
+    "cuisineId": "german",
+    "name": "Currywurst",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106006-currywurst.webp",
+    "thumbPath": "/assets/dishes/thumb/106006-currywurst.webp"
+  },
+  {
+    "dishId": "rouladen",
+    "metadataCode": "106007",
+    "cuisineId": "german",
+    "name": "Rouladen",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106007-rouladen.webp",
+    "thumbPath": "/assets/dishes/thumb/106007-rouladen.webp"
+  },
+  {
+    "dishId": "schweinshaxe",
+    "metadataCode": "106008",
+    "cuisineId": "german",
+    "name": "Schweinshaxe",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106008-schweinshaxe.webp",
+    "thumbPath": "/assets/dishes/thumb/106008-schweinshaxe.webp"
+  },
+  {
+    "dishId": "kaesespaetzle",
+    "metadataCode": "106009",
+    "cuisineId": "german",
+    "name": "Käsespätzle",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106009-kaesespaetzle.webp",
+    "thumbPath": "/assets/dishes/thumb/106009-kaesespaetzle.webp"
+  },
+  {
+    "dishId": "kartoffelsalat",
+    "metadataCode": "106010",
+    "cuisineId": "german",
+    "name": "Kartoffelsalat",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106010-kartoffelsalat.webp",
+    "thumbPath": "/assets/dishes/thumb/106010-kartoffelsalat.webp"
+  },
+  {
+    "dishId": "maultaschen",
+    "metadataCode": "106011",
+    "cuisineId": "german",
+    "name": "Maultaschen",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106011-maultaschen.webp",
+    "thumbPath": "/assets/dishes/thumb/106011-maultaschen.webp"
+  },
+  {
+    "dishId": "weisswurst",
+    "metadataCode": "106012",
+    "cuisineId": "german",
+    "name": "Weisswurst",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106012-weisswurst.webp",
+    "thumbPath": "/assets/dishes/thumb/106012-weisswurst.webp"
+  },
+  {
+    "dishId": "leberkaese",
+    "metadataCode": "106013",
+    "cuisineId": "german",
+    "name": "Leberkäse",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106013-leberkaese.webp",
+    "thumbPath": "/assets/dishes/thumb/106013-leberkaese.webp"
+  },
+  {
+    "dishId": "flammkuchen",
+    "metadataCode": "106014",
+    "cuisineId": "german",
+    "name": "Flammkuchen",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106014-flammkuchen.webp",
+    "thumbPath": "/assets/dishes/thumb/106014-flammkuchen.webp"
+  },
+  {
+    "dishId": "koenigsberger-klopse",
+    "metadataCode": "106015",
+    "cuisineId": "german",
+    "name": "Königsberger Klopse",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106015-koenigsberger-klopse.webp",
+    "thumbPath": "/assets/dishes/thumb/106015-koenigsberger-klopse.webp"
+  },
+  {
+    "dishId": "apfelstrudel",
+    "metadataCode": "106016",
+    "cuisineId": "german",
+    "name": "Apfelstrudel",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106016-apfelstrudel.webp",
+    "thumbPath": "/assets/dishes/thumb/106016-apfelstrudel.webp"
+  },
+  {
+    "dishId": "black-forest-cake",
+    "metadataCode": "106017",
+    "cuisineId": "german",
+    "name": "Black Forest Cake",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106017-black-forest-cake.webp",
+    "thumbPath": "/assets/dishes/thumb/106017-black-forest-cake.webp"
+  },
+  {
+    "dishId": "goulash-german",
+    "metadataCode": "106018",
+    "cuisineId": "german",
+    "name": "German Goulash",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106018-goulash-german.webp",
+    "thumbPath": "/assets/dishes/thumb/106018-goulash-german.webp"
+  },
+  {
+    "dishId": "eisbein",
+    "metadataCode": "106019",
+    "cuisineId": "german",
+    "name": "Eisbein",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106019-eisbein.webp",
+    "thumbPath": "/assets/dishes/thumb/106019-eisbein.webp"
+  },
+  {
+    "dishId": "kartoffelpuffer",
+    "metadataCode": "106020",
+    "cuisineId": "german",
+    "name": "Kartoffelpuffer",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106020-kartoffelpuffer.webp",
+    "thumbPath": "/assets/dishes/thumb/106020-kartoffelpuffer.webp"
+  },
+  {
+    "dishId": "sauerkraut",
+    "metadataCode": "106021",
+    "cuisineId": "german",
+    "name": "Sauerkraut",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106021-sauerkraut.webp",
+    "thumbPath": "/assets/dishes/thumb/106021-sauerkraut.webp"
+  },
+  {
+    "dishId": "red-cabbage-german",
+    "metadataCode": "106022",
+    "cuisineId": "german",
+    "name": "Rotkohl",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106022-red-cabbage-german.webp",
+    "thumbPath": "/assets/dishes/thumb/106022-red-cabbage-german.webp"
+  },
+  {
+    "dishId": "matjes-herring",
+    "metadataCode": "106023",
+    "cuisineId": "german",
+    "name": "Matjes Herring",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106023-matjes-herring.webp",
+    "thumbPath": "/assets/dishes/thumb/106023-matjes-herring.webp"
+  },
+  {
+    "dishId": "labskaus",
+    "metadataCode": "106024",
+    "cuisineId": "german",
+    "name": "Labskaus",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106024-labskaus.webp",
+    "thumbPath": "/assets/dishes/thumb/106024-labskaus.webp"
+  },
+  {
+    "dishId": "zanderfilet",
+    "metadataCode": "106025",
+    "cuisineId": "german",
+    "name": "Zanderfilet",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106025-zanderfilet.webp",
+    "thumbPath": "/assets/dishes/thumb/106025-zanderfilet.webp"
+  },
+  {
+    "dishId": "germknoedel",
+    "metadataCode": "106026",
+    "cuisineId": "german",
+    "name": "Germknödel",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106026-germknoedel.webp",
+    "thumbPath": "/assets/dishes/thumb/106026-germknoedel.webp"
+  },
+  {
+    "dishId": "kaiserschmarrn",
+    "metadataCode": "106027",
+    "cuisineId": "german",
+    "name": "Kaiserschmarrn",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106027-kaiserschmarrn.webp",
+    "thumbPath": "/assets/dishes/thumb/106027-kaiserschmarrn.webp"
+  },
+  {
+    "dishId": "kartoffelsuppe",
+    "metadataCode": "106030",
+    "cuisineId": "german",
+    "name": "Kartoffelsuppe",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106030-kartoffelsuppe.webp",
+    "thumbPath": "/assets/dishes/thumb/106030-kartoffelsuppe.webp"
+  },
+  {
+    "dishId": "frikadellen-german",
+    "metadataCode": "106031",
+    "cuisineId": "german",
+    "name": "Frikadellen",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106031-frikadellen-german.webp",
+    "thumbPath": "/assets/dishes/thumb/106031-frikadellen-german.webp"
+  },
+  {
+    "dishId": "obatzda",
+    "metadataCode": "106049",
+    "cuisineId": "german",
+    "name": "Obatzda",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/106049-obatzda.webp",
+    "thumbPath": "/assets/dishes/thumb/106049-obatzda.webp"
+  }
+]

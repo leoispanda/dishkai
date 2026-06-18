@@ -55,6 +55,10 @@ export const seasonings = [
   seasoning("mole", "321002", "mole sauce", "墨西哥摩雷酱", "molesaus", ["earthy", "sweet", "spiced"], "mole-earthy-chili-cocoa", ["tree-nut", "sesame"]),
   seasoning("peri-peri", "325001", "peri-peri", "霹雳辣椒酱", "piri-piri", ["spicy", "tangy"], "peri-peri-bright-chili", []),
   seasoning("coconut-curry", "318001", "coconut curry paste", "椰香咖喱酱", "kokoscurrypasta", ["creamy", "spicy"], "coconut-curry-aromatic-spice", []),
+  seasoning("curry-ketchup", "306001", "curry-spiced ketchup", "咖喱番茄酱", "curryketchup", ["sweet", "tangy", "mildly spicy"], "curry-ketchup-sweet-tangy-spice", []),
+  seasoning("caraway", "306002", "caraway", "葛缕子", "karwij", ["warm", "earthy"], "caraway-warm-cabbage-aroma", []),
+  seasoning("nutmeg", "306003", "nutmeg", "肉豆蔻", "nootmuskaat", ["warm", "sweet"], "nutmeg-warm-dairy-potato-aroma", []),
+  seasoning("juniper", "306004", "juniper", "杜松子", "jeneverbes", ["piney", "sharp"], "juniper-piney-braised-depth", []),
 ];
 
 function seasoning(id, metadataCode, en, zh, nl, basicTaste, distinctiveFlavor, allergens) {

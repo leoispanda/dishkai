@@ -1,0 +1,80 @@
+[
+  {
+    "dishId": "goulash-german",
+    "metadataCode": "106018",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a3465f53c0c8191b180bef22c0b8346.png",
+    "copyPath": "data/internal/audit/rebuild-batches/german-batch-007-image-sources/106018-goulash-german.png"
+  },
+  {
+    "dishId": "eisbein",
+    "metadataCode": "106019",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a34662ae2f88191b0d1a9333ed41973.png",
+    "copyPath": "data/internal/audit/rebuild-batches/german-batch-007-image-sources/106019-eisbein.png"
+  },
+  {
+    "dishId": "kartoffelpuffer",
+    "metadataCode": "106020",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a346664a1b48191a062cfde18e8336a.png",
+    "copyPath": "data/internal/audit/rebuild-batches/german-batch-007-image-sources/106020-kartoffelpuffer.png"
+  },
+  {
+    "dishId": "sauerkraut",
+    "metadataCode": "106021",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a346693c24481918b8acaa8a863e8da.png",
+    "copyPath": "data/internal/audit/rebuild-batches/german-batch-007-image-sources/106021-sauerkraut.png"
+  },
+  {
+    "dishId": "red-cabbage-german",
+    "metadataCode": "106022",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a3466ce0c548191a313ea7ffd614829.png",
+    "copyPath": "data/internal/audit/rebuild-batches/german-batch-007-image-sources/106022-red-cabbage-german.png"
+  },
+  {
+    "dishId": "matjes-herring",
+    "metadataCode": "106023",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a346701f6088191a246da12978ab26e.png",
+    "copyPath": "data/internal/audit/rebuild-batches/german-batch-007-image-sources/106023-matjes-herring.png"
+  },
+  {
+    "dishId": "labskaus",
+    "metadataCode": "106024",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a34673780f88191ab5dab6f22930b9e.png",
+    "copyPath": "data/internal/audit/rebuild-batches/german-batch-007-image-sources/106024-labskaus.png"
+  },
+  {
+    "dishId": "zanderfilet",
+    "metadataCode": "106025",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a34676e7ef48191bc67ee7c9edae2f3.png",
+    "copyPath": "data/internal/audit/rebuild-batches/german-batch-007-image-sources/106025-zanderfilet.png"
+  },
+  {
+    "dishId": "germknoedel",
+    "metadataCode": "106026",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a3467accd088191921e97ec7cd20375.png",
+    "copyPath": "data/internal/audit/rebuild-batches/german-batch-007-image-sources/106026-germknoedel.png"
+  },
+  {
+    "dishId": "kaiserschmarrn",
+    "metadataCode": "106027",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a3467e4654c8191884e0e833a7da21b.png",
+    "copyPath": "data/internal/audit/rebuild-batches/german-batch-007-image-sources/106027-kaiserschmarrn.png"
+  },
+  {
+    "dishId": "kartoffelsuppe",
+    "metadataCode": "106030",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a3468227dec8191afc1e3bcb2c54039.png",
+    "copyPath": "data/internal/audit/rebuild-batches/german-batch-007-image-sources/106030-kartoffelsuppe.png"
+  },
+  {
+    "dishId": "frikadellen-german",
+    "metadataCode": "106031",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a34686e704081919e82cf1a65226043.png",
+    "copyPath": "data/internal/audit/rebuild-batches/german-batch-007-image-sources/106031-frikadellen-german.png"
+  },
+  {
+    "dishId": "obatzda",
+    "metadataCode": "106049",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a346897a74081919e1fe87395d346fe.png",
+    "copyPath": "data/internal/audit/rebuild-batches/german-batch-007-image-sources/106049-obatzda.png"
+  }
+]

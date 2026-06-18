@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 128
-- Total aliases: 505
+- Total verified dishes: 153
+- Total aliases: 577
 - Total cuisines: 10
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -66,13 +66,38 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 103029 - `profiteroles` - Profiteroles / 泡芙冰淇淋巧克力酱 / Profiteroles
 30. 103030 - `paris-brest` - Paris-Brest / 巴黎布雷斯特泡芙 / Paris-Brest
 
-## German (german) - 5
+## German (german) - 30
 
 1. 106001 - `schnitzel` - Schnitzel / 德式炸肉排 / Schnitzel
 2. 106002 - `bratwurst` - Bratwurst / 德式煎香肠 / Bratwurst
 3. 106003 - `sauerbraten` - Sauerbraten / 德式酸味炖牛肉 / Sauerbraten
 4. 106004 - `spaetzle` - Spaetzle / 德式鸡蛋面疙瘩 / Spätzle
 5. 106005 - `pretzel` - Pretzel / 德式碱水结 / Brezel
+6. 106006 - `currywurst` - Currywurst / 咖喱香肠 / Currywurst
+7. 106007 - `rouladen` - Rouladen / 德式牛肉卷 / Rouladen
+8. 106008 - `schweinshaxe` - Schweinshaxe / 德国烤猪肘 / Schweinshaxe
+9. 106009 - `kaesespaetzle` - Käsespätzle / 奶酪面疙瘩 / Käsespätzle
+10. 106010 - `kartoffelsalat` - Kartoffelsalat / 德式土豆沙拉 / Kartoffelsalat
+11. 106011 - `maultaschen` - Maultaschen / 德式大馄饨 / Maultaschen
+12. 106012 - `weisswurst` - Weisswurst / 巴伐利亚白香肠 / Weißwurst
+13. 106013 - `leberkaese` - Leberkäse / 德式肉糜烤片 / Leberkäse
+14. 106014 - `flammkuchen` - Flammkuchen / 德式薄饼 / Flammkuchen
+15. 106015 - `koenigsberger-klopse` - Königsberger Klopse / 酸豆奶油肉丸 / Königsberger Klopse
+16. 106016 - `apfelstrudel` - Apfelstrudel / 苹果卷 / Apfelstrudel
+17. 106017 - `black-forest-cake` - Black Forest Cake / 黑森林蛋糕 / Schwarzwälder Kirschtorte
+18. 106031 - `frikadellen-german` - Frikadellen / 德式煎肉饼 / Frikadellen
+19. 106049 - `obatzda` - Obatzda / 巴伐利亚奶酪抹酱 / Obatzda
+20. 106018 - `goulash-german` - German Goulash / 德式炖牛肉 / Gulasch
+21. 106019 - `eisbein` - Eisbein / 德式水煮猪肘 / Eisbein
+22. 106020 - `kartoffelpuffer` - Kartoffelpuffer / 德式土豆饼 / Kartoffelpuffer
+23. 106021 - `sauerkraut` - Sauerkraut / 德国酸菜 / Sauerkraut
+24. 106022 - `red-cabbage-german` - Rotkohl / 德式红甘蓝 / Rotkohl
+25. 106023 - `matjes-herring` - Matjes Herring / 嫩鲱鱼 / Matjes
+26. 106024 - `labskaus` - Labskaus / 北德咸牛肉土豆泥 / Labskaus
+27. 106025 - `zanderfilet` - Zanderfilet / 煎梭鲈鱼柳 / Zanderfilet
+28. 106026 - `germknoedel` - Germknödel / 甜酵母团子 / Germknödel
+29. 106027 - `kaiserschmarrn` - Kaiserschmarrn / 皇帝煎饼 / Kaiserschmarrn
+30. 106030 - `kartoffelsuppe` - Kartoffelsuppe / 德式土豆汤 / Kartoffelsuppe
 
 ## Greek (greek) - 31
 

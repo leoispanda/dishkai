@@ -7360,92 +7360,107 @@ export const expandedDishes = [
       "nl": "Currywurst",
       "local": "Currywurst"
     },
-    "category": "fried-snack",
+    "category": "street-food",
+    "mealRole": "starter-or-main",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
-      "deep-fried"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Sausage with curry-spiced tomato sauce, often served with fries.",
-      "zh": "咖喱香肠 是常见德国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Currywurst is een veelvoorkomend gerecht in de duits keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Sliced German sausage covered with curry-spiced ketchup, often served with fries.",
+      "zh": "切片德式香肠淋咖喱番茄酱，常和薯条一起上桌。",
+      "nl": "Gesneden Duitse worst met curryketchup, vaak geserveerd met friet."
     },
     "cookingProfile": {
-      "en": "Usually served as a fried snack with a crisp outside, savory center feel.",
-      "zh": "通常以fried-snack形式上桌，重点体验是crisp outside。",
-      "nl": "Meestal geserveerd als fried snack met een crisp outside gevoel."
+      "en": "The sausage is browned then sauced, so the bite is snappy, salty, sweet-tangy, and casual.",
+      "zh": "香肠先煎烤上色再淋酱，口感弹脆，咸香中带甜酸咖喱味。",
+      "nl": "De worst wordt gebakken en met saus bedekt: stevig, zoutig, zoetzuur en informeel."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
+        "street-food",
+        "classic-dish",
         "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency German menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频德国菜菜品。",
-        "nl": "Een vaak voorkomend duits menu-item voor bredere restaurantdekking."
+        "en": "A Berlin-associated German street-food classic, common on casual menus and snack stands.",
+        "zh": "带有柏林街头小吃代表性的德国经典，常见于休闲菜单和小吃摊。",
+        "nl": "Een met Berlijn verbonden Duitse streetfoodklassieker, vaak op snack- en informele menu's."
       }
     },
     "composition": [
       [
-        "fried-chicken",
+        "sausage",
         45,
-        "main"
+        "protein"
       ],
       [
-        "wheat-flour",
+        "curry-ketchup",
         25,
-        "coating"
-      ],
-      [
-        "egg",
-        10,
-        "binder"
-      ],
-      [
-        "mustard",
-        10,
-        "dip",
+        "sauce",
         "seasoning"
       ],
       [
         "fries",
-        10,
+        20,
         "side"
+      ],
+      [
+        "paprika",
+        5,
+        "seasoning",
+        "seasoning"
+      ],
+      [
+        "mustard",
+        5,
+        "optional condiment",
+        "seasoning",
+        "high",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "mustard",
-      "beer",
-      "paprika"
+      "curry-ketchup",
+      "paprika",
+      "sausage"
     ],
     "basicTaste": [
       "savory",
-      "salty"
+      "sweet",
+      "tangy",
+      "mildly spicy"
     ],
     "textureProfile": [
-      "crisp outside",
-      "savory center"
+      "snappy sausage",
+      "glossy sauce",
+      "crisp fries"
     ],
     "riskFlags": [
-      "contains-gluten",
       "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "street-food",
+      "first-timer-friendly",
+      "safe-choice"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "no-pork",
+      "wants-light-food"
+    ],
     "orderVerdict": {
-      "en": "Casual, salty, and filling; good street-food style order.",
-      "zh": "如果你接受这类口味和风险，咖喱香肠 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Order it for a casual, salty-sweet sausage plate; skip it if you want something light or no pork.",
+      "zh": "想吃轻松直接的咸甜香肠很适合；想要清淡或不吃猪肉时避开。",
+      "nl": "Kies dit voor een simpele zout-zoete worstmaaltijd; vermijd bij lichte trek of geen varkensvlees."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 1,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -7463,87 +7478,97 @@ export const expandedDishes = [
       "braised"
     ],
     "shortDescription": {
-      "en": "Rolled beef with savory filling, braised until tender in gravy.",
-      "zh": "德式牛肉卷 是常见德国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Rouladen is een veelvoorkomend gerecht in de duits keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Thin beef rolls filled with mustard, onion, bacon, and pickle, braised in dark gravy.",
+      "zh": "薄牛肉片卷入芥末、洋葱、培根和酸黄瓜，再用深色肉汁炖软。",
+      "nl": "Dunne rundvleesrollen gevuld met mosterd, ui, spek en augurk, gestoofd in donkere jus."
     },
     "cookingProfile": {
-      "en": "Usually served as a meat with a tender meat, rich sauce feel.",
-      "zh": "通常以meat形式上桌，重点体验是tender meat。",
-      "nl": "Meestal geserveerd als meat met een tender meat gevoel."
+      "en": "It is slow-braised, so expect tender beef, a savory filling, and gravy rather than crisp edges.",
+      "zh": "慢炖后牛肉软嫩，内馅咸香，重点是肉汁而不是酥脆口感。",
+      "nl": "Lang gestoofd: mals rundvlees, hartige vulling en jus in plaats van krokante randjes."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency German menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频德国菜菜品。",
-        "nl": "Een vaak voorkomend duits menu-item voor bredere restaurantdekking."
+        "en": "A classic German Sunday-style meat dish; `Rinderroulade` is treated as the same dish family here.",
+        "zh": "德国经典周末肉类主菜；这里把 Rinderroulade 视为同一菜品族。",
+        "nl": "Een klassieke Duitse zondagsachtige vleesschotel; Rinderroulade valt hier onder dezelfde familie."
       }
     },
     "composition": [
       [
         "beef",
-        55,
-        "main"
+        50,
+        "roll wrapper"
+      ],
+      [
+        "bacon",
+        10,
+        "filling"
+      ],
+      [
+        "onion",
+        10,
+        "filling"
+      ],
+      [
+        "mustard",
+        10,
+        "filling",
+        "seasoning"
+      ],
+      [
+        "red-cabbage",
+        10,
+        "side"
       ],
       [
         "potato",
-        20,
+        10,
         "side"
-      ],
-      [
-        "mixed-vegetables",
-        15,
-        "side"
-      ],
-      [
-        "butter",
-        5,
-        "richness"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
       "mustard",
-      "beer",
-      "paprika"
+      "bacon",
+      "braised gravy"
     ],
     "basicTaste": [
       "savory",
       "rich",
-      "umami"
+      "tangy"
     ],
     "textureProfile": [
-      "tender meat",
-      "rich sauce"
+      "tender rolled beef",
+      "soft filling",
+      "dark gravy"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-pork"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "classic-dish",
+      "comfort-food"
     ],
     "avoidIfTags": [
+      "no-pork",
       "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Choose this for a classic rich meat-and-gravy main.",
-      "zh": "如果你接受这类口味和风险，德式牛肉卷 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good for a hearty beef-and-gravy main; not a quick or light choice.",
+      "zh": "适合想吃扎实牛肉和肉汁主菜时点；不属于轻快清淡型。",
+      "nl": "Goed voor een stevige rundvlees-en-jus hoofdschotel; niet snel of licht."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
     "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -7556,94 +7581,99 @@ export const expandedDishes = [
       "nl": "Schweinshaxe",
       "local": "Schweinshaxe"
     },
-    "category": "meat",
+    "category": "pork",
+    "goodForSharing": true,
     "cookingMethods": [
-      "braised"
+      "baked"
     ],
     "shortDescription": {
-      "en": "Roasted pork knuckle with crisp skin and rich meat.",
-      "zh": "德国烤猪肘 是常见德国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Schweinshaxe is een veelvoorkomend gerecht in de duits keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Roasted pork knuckle with crisp crackling, usually served with sauerkraut or potato dumplings.",
+      "zh": "烤猪肘外皮酥脆，常配德国酸菜或土豆丸子。",
+      "nl": "Geroosterde varkensschenkel met krokante korst, vaak met zuurkool of aardappelknödel."
     },
     "cookingProfile": {
-      "en": "Usually served as a meat with a tender meat, rich sauce feel.",
-      "zh": "通常以meat形式上桌，重点体验是tender meat。",
-      "nl": "Meestal geserveerd als meat met een tender meat gevoel."
+      "en": "The skin is roasted hard while the meat stays rich and fatty, making it one of the heaviest German mains.",
+      "zh": "外皮烤得脆硬，里面肉质浓厚偏肥，是很有分量的德国主菜。",
+      "nl": "De huid wordt hard krokant geroosterd terwijl het vlees rijk en vet blijft."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency German menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频德国菜菜品。",
-        "nl": "Een vaak voorkomend duits menu-item voor bredere restaurantdekking."
+        "en": "A Bavarian-style pork knuckle classic, distinct from softer boiled Eisbein.",
+        "zh": "偏巴伐利亚风格的经典猪肘，和更软的水煮/腌制 Eisbein 区分。",
+        "nl": "Een Beiers aandoende varkensschenkelklassieker, anders dan zachter gekookte Eisbein."
       }
     },
     "composition": [
       [
-        "beef",
-        55,
+        "pork",
+        65,
         "main"
       ],
       [
-        "potato",
-        20,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
+        "sauerkraut",
         15,
         "side"
       ],
       [
-        "butter",
-        5,
-        "richness"
+        "potato",
+        10,
+        "side"
       ],
       [
-        "black-pepper",
+        "mustard",
         5,
-        "seasoning",
+        "condiment",
+        "seasoning"
+      ],
+      [
+        "beer",
+        5,
+        "braising or roasting note",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
+      "crisp pork skin",
       "mustard",
-      "beer",
-      "paprika"
+      "sauerkraut"
     ],
     "basicTaste": [
       "savory",
-      "rich",
-      "umami"
+      "salty",
+      "rich"
     ],
     "textureProfile": [
-      "tender meat",
-      "rich sauce"
+      "crackling skin",
+      "fatty tender pork",
+      "tangy side"
     ],
     "riskFlags": [
       "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "sharing",
+      "classic-dish"
     ],
     "avoidIfTags": [
+      "no-pork",
       "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Very heavy and pork-forward; great for sharing if you want a feast.",
-      "zh": "如果你接受这类口味和风险，德国烤猪肘 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Choose it when you want a heavy pork feast; it is often large enough to share.",
+      "zh": "想吃厚重猪肉大菜时很合适；很多餐厅的分量足够分享。",
+      "nl": "Kies dit voor een stevige varkensmaaltijd; vaak groot genoeg om te delen."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
     "weightLevel": 5,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -7656,96 +7686,105 @@ export const expandedDishes = [
       "nl": "Käsespätzle",
       "local": "Käsespätzle"
     },
-    "category": "pasta",
+    "category": "noodle",
     "cookingMethods": [
       "boiled",
       "sauce-tossed"
     ],
     "shortDescription": {
-      "en": "Egg noodles mixed with cheese and often fried onions.",
-      "zh": "奶酪面疙瘩 是常见德国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Käsespätzle is een veelvoorkomend gerecht in de duits keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Soft egg noodles mixed with melted cheese and topped with fried onions.",
+      "zh": "软弹鸡蛋面疙瘩拌入融化奶酪，再撒炸洋葱。",
+      "nl": "Zachte eiernoedels met gesmolten kaas en gebakken uitjes."
     },
     "cookingProfile": {
-      "en": "Usually served as a pasta with a springy pasta, coated sauce feel.",
-      "zh": "通常以pasta形式上桌，重点体验是springy pasta。",
-      "nl": "Meestal geserveerd als pasta met een springy pasta gevoel."
+      "en": "It eats like German mac and cheese: soft, stretchy, creamy, and filling.",
+      "zh": "吃起来像德式奶酪通心粉，柔软、拉丝、奶香重且饱腹。",
+      "nl": "Het eet als Duitse mac and cheese: zacht, draderig, romig en vullend."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "regional-dish",
+        "comfort-food",
+        "vegetarian"
       ],
       "description": {
-        "en": "A high-frequency German menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频德国菜菜品。",
-        "nl": "Een vaak voorkomend duits menu-item voor bredere restaurantdekking."
+        "en": "A southern German and Alpine comfort dish built around Spätzle and cheese.",
+        "zh": "德国南部和阿尔卑斯地区常见的舒适主食，以面疙瘩和奶酪为核心。",
+        "nl": "Een Zuid-Duits en Alpenachtig comfortgerecht met Spätzle en kaas."
       }
     },
     "composition": [
       [
-        "pasta",
-        60,
+        "egg-noodles",
+        55,
         "base"
       ],
       [
         "cheese",
-        15,
-        "finish"
+        25,
+        "sauce"
       ],
       [
-        "tomato-sauce",
-        15,
-        "sauce",
-        "seasoning"
+        "fried-onions",
+        10,
+        "topping"
       ],
       [
-        "olive-oil",
+        "butter",
         5,
-        "finish",
-        "seasoning"
+        "richness"
       ],
       [
-        "garlic",
+        "nutmeg",
         5,
-        "aroma",
+        "warm aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "mustard",
-      "beer",
-      "paprika"
+      "cheese",
+      "fried-onions",
+      "nutmeg"
     ],
     "basicTaste": [
       "savory",
-      "creamy"
+      "creamy",
+      "rich"
     ],
     "textureProfile": [
-      "springy pasta",
-      "coated sauce"
+      "soft noodles",
+      "melted cheese",
+      "crisp onions"
     ],
     "riskFlags": [
-      "contains-gluten"
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "comfort-food",
+      "vegetarian"
     ],
     "avoidIfTags": [
+      "dairy-free",
+      "gluten-free",
+      "egg-allergy",
       "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "German comfort food for cheese lovers; not light.",
-      "zh": "如果你接受这类口味和风险，奶酪面疙瘩 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A strong pick for cheese lovers; too rich if you want a fresh or light plate.",
+      "zh": "喜欢奶酪主食时很稳；想吃清爽轻食时不适合。",
+      "nl": "Sterk voor kaasliefhebbers; te rijk als je iets fris of licht zoekt."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
     "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -7759,91 +7798,102 @@ export const expandedDishes = [
       "local": "Kartoffelsalat"
     },
     "category": "salad",
+    "mealRole": "side",
+    "portionType": "side",
+    "goodForSharing": true,
     "cookingMethods": [
       "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Potato salad that may be vinegar-based or creamy depending on region.",
-      "zh": "德式土豆沙拉 是常见德国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Kartoffelsalat is een veelvoorkomend gerecht in de duits keuken, beschreven voor snelle bestelkeuzes."
+      "en": "German potato salad, usually vinegar-broth based in the south or creamier in some regions.",
+      "zh": "德式土豆沙拉，南部常见醋和高汤风格，有些地区会更 creamy。",
+      "nl": "Duitse aardappelsalade, vaak azijn-bouillonachtig in het zuiden of romiger per regio."
     },
     "cookingProfile": {
-      "en": "Usually served as a salad with a fresh crunch, cool finish feel.",
-      "zh": "通常以salad形式上桌，重点体验是fresh crunch。",
-      "nl": "Meestal geserveerd als salad met een fresh crunch gevoel."
+      "en": "It is a cool or room-temperature side, with soft potato slices and a tangy dressing.",
+      "zh": "通常冷食或常温上桌，土豆片柔软，调味带酸香。",
+      "nl": "Een koud of lauw bijgerecht met zachte aardappelschijfjes en frisse dressing."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "side"
       ],
       "description": {
-        "en": "A high-frequency German menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频德国菜菜品。",
-        "nl": "Een vaak voorkomend duits menu-item voor bredere restaurantdekking."
+        "en": "A very common German side, especially with sausage, schnitzel, and picnic-style plates.",
+        "zh": "非常常见的德国配菜，常搭香肠、炸肉排或冷盘。",
+        "nl": "Een veelvoorkomend Duits bijgerecht bij worst, schnitzel en koude schotels."
       }
     },
     "composition": [
       [
-        "mixed-vegetables",
-        45,
+        "potato",
+        70,
         "base"
       ],
       [
-        "cucumber",
-        20,
-        "freshness"
-      ],
-      [
-        "tomato",
-        20,
-        "body"
-      ],
-      [
-        "olive-oil",
+        "onion",
         10,
-        "finish",
-        "seasoning"
+        "aroma"
       ],
       [
         "vinegar",
+        10,
+        "dressing",
+        "seasoning"
+      ],
+      [
+        "mustard",
         5,
-        "tang",
+        "dressing",
+        "seasoning"
+      ],
+      [
+        "parsley",
+        5,
+        "finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
+      "vinegar",
       "mustard",
-      "beer",
-      "paprika"
+      "parsley"
     ],
     "basicTaste": [
-      "fresh",
-      "tangy"
+      "tangy",
+      "savory",
+      "mild"
     ],
     "textureProfile": [
-      "fresh crunch",
+      "soft potato slices",
+      "light dressing",
       "cool finish"
     ],
     "riskFlags": [],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+    "dietaryFlags": [
+      "vegetarian"
     ],
-    "avoidIfTags": [],
+    "goodForTags": [
+      "side",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "avoids-vinegar"
+    ],
     "orderVerdict": {
-      "en": "Useful side; ask if it is mayo/cream-based if avoiding dairy or egg.",
-      "zh": "如果你接受这类口味和风险，德式土豆沙拉 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Useful as a lighter side next to meat; ask if it contains bacon or mayonnaise.",
+      "zh": "配肉类时能减轻厚重感；不吃培根或蛋黄酱时建议确认。",
+      "nl": "Handig als lichter bijgerecht naast vlees; vraag of er spek of mayonaise in zit."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "high"
   }),
   starterDish({
     "id": "maultaschen",
@@ -7857,34 +7907,34 @@ export const expandedDishes = [
     },
     "category": "dumpling",
     "cookingMethods": [
-      "steamed"
+      "boiled"
     ],
     "shortDescription": {
-      "en": "Large filled pasta pockets with meat, spinach, or bread-based filling.",
-      "zh": "德式大馄饨 是常见德国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Maultaschen is een veelvoorkomend gerecht in de duits keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Large Swabian pasta pockets filled with meat, spinach, bread, and herbs.",
+      "zh": "施瓦本地区的大号面皮馅包，常包肉、菠菜、面包和香草。",
+      "nl": "Grote Zwabische pastabuidels gevuld met vlees, spinazie, brood en kruiden."
     },
     "cookingProfile": {
-      "en": "Usually served as a dumpling with a soft wrapper, juicy filling feel.",
-      "zh": "通常以dumpling形式上桌，重点体验是soft wrapper。",
-      "nl": "Meestal geserveerd als dumpling met een soft wrapper gevoel."
+      "en": "They are usually boiled in broth or sliced and fried, so the wrapper is soft and the filling is hearty.",
+      "zh": "常见做法是汤中煮熟或切片煎香，面皮柔软，内馅扎实。",
+      "nl": "Meestal gekookt in bouillon of in plakken gebakken, met zachte buitenkant en stevige vulling."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "regional-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency German menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频德国菜菜品。",
-        "nl": "Een vaak voorkomend duits menu-item voor bredere restaurantdekking."
+        "en": "A Swabian regional classic that appears on many southern German menus.",
+        "zh": "施瓦本地区经典，在德国南部菜单上很常见。",
+        "nl": "Een Zwabische klassieker die op veel Zuid-Duitse menu's staat."
       }
     },
     "composition": [
       [
         "dumpling-wrapper",
-        45,
+        40,
         "wrapper"
       ],
       [
@@ -7893,54 +7943,67 @@ export const expandedDishes = [
         "filling"
       ],
       [
-        "mixed-vegetables",
+        "spinach",
         15,
         "filling"
       ],
       [
-        "soy-sauce",
+        "bread",
         10,
-        "dip",
-        "seasoning"
+        "binder"
       ],
       [
-        "sesame-oil",
+        "onion",
         5,
-        "aroma",
+        "aroma"
+      ],
+      [
+        "parsley",
+        5,
+        "herb",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "mustard",
-      "beer",
-      "paprika"
+      "spinach",
+      "minced-pork",
+      "parsley"
     ],
     "basicTaste": [
       "savory",
-      "umami"
+      "herbal",
+      "mild"
     ],
     "textureProfile": [
-      "soft wrapper",
-      "juicy filling"
+      "soft pasta wrapper",
+      "dense filling",
+      "brothy or pan-fried edges"
     ],
     "riskFlags": [
-      "contains-gluten"
+      "contains-gluten",
+      "contains-pork",
+      "contains-egg"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "regional-dish",
+      "comfort-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "no-pork",
+      "gluten-free",
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "A hearty dumpling-like choice; filling often includes meat and gluten.",
-      "zh": "如果你接受这类口味和风险，德式大馄饨 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A hearty dumpling-like main; check the filling if you need vegetarian or no-pork food.",
+      "zh": "像大馄饨一样扎实；吃素或不吃猪肉时要确认馅料。",
+      "nl": "Een stevige dumplingachtige keuze; check de vulling bij vegetarisch of geen varkensvlees."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -7953,92 +8016,94 @@ export const expandedDishes = [
       "nl": "Weisswurst",
       "local": "Weißwurst"
     },
-    "category": "meat",
+    "category": "sausage",
     "cookingMethods": [
-      "braised"
+      "boiled"
     ],
     "shortDescription": {
-      "en": "Mild Bavarian white sausage, traditionally served with mustard and pretzel.",
-      "zh": "巴伐利亚白香肠 是常见德国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Weisswurst is een veelvoorkomend gerecht in de duits keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Mild Bavarian white sausage, traditionally served warm with sweet mustard and a pretzel.",
+      "zh": "温和的巴伐利亚白香肠，传统上配甜芥末和碱水结。",
+      "nl": "Milde Beierse witte worst, traditioneel warm met zoete mosterd en een pretzel."
     },
     "cookingProfile": {
-      "en": "Usually served as a meat with a tender meat, rich sauce feel.",
-      "zh": "通常以meat形式上桌，重点体验是tender meat。",
-      "nl": "Meestal geserveerd als meat met een tender meat gevoel."
+      "en": "It is gently heated rather than browned, so the texture is soft, pale, and delicate.",
+      "zh": "它通常温热而不是煎到上色，口感柔软、颜色浅、味道温和。",
+      "nl": "Zacht verwarmd in plaats van bruin gebakken: zacht, bleek en mild."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "regional-dish",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency German menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频德国菜菜品。",
-        "nl": "Een vaak voorkomend duits menu-item voor bredere restaurantdekking."
+        "en": "A Bavarian breakfast and beer-hall classic, strongly tied to Munich food culture.",
+        "zh": "巴伐利亚早餐和啤酒馆经典，和慕尼黑饮食文化关系很强。",
+        "nl": "Een Beierse ontbijt- en bierhalklassieker, sterk verbonden met München."
       }
     },
     "composition": [
       [
-        "beef",
-        55,
-        "main"
+        "sausage",
+        60,
+        "protein"
       ],
       [
-        "potato",
+        "pretzel-dough",
         20,
         "side"
       ],
       [
-        "mixed-vegetables",
+        "mustard",
         15,
-        "side"
+        "sweet mustard condiment",
+        "seasoning"
       ],
       [
-        "butter",
+        "parsley",
         5,
-        "richness"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
+        "herb",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "mustard",
-      "beer",
-      "paprika"
+      "mild veal-pork sausage",
+      "sweet mustard",
+      "pretzel"
     ],
     "basicTaste": [
+      "mild",
       "savory",
-      "rich",
-      "umami"
+      "slightly sweet"
     ],
     "textureProfile": [
-      "tender meat",
-      "rich sauce"
+      "soft sausage",
+      "smooth casing",
+      "chewy pretzel"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-gluten"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
+      "regional-dish",
       "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "no-pork",
+      "gluten-free"
+    ],
     "orderVerdict": {
-      "en": "Mild but pork/veal-based; good if you like soft sausage.",
-      "zh": "如果你接受这类口味和风险，巴伐利亚白香肠 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A gentle sausage choice if you like mild flavors; not the browned, smoky bratwurst style.",
+      "zh": "适合想吃温和香肠时点；它不是煎烤上色的烟熏型香肠。",
+      "nl": "Een zachte worstkeuze voor milde smaken; niet de bruine, rokerige bratwurststijl."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -8051,92 +8116,103 @@ export const expandedDishes = [
       "nl": "Leberkäse",
       "local": "Leberkäse"
     },
-    "category": "meat",
+    "category": "pork",
     "cookingMethods": [
-      "braised"
+      "baked",
+      "fried"
     ],
     "shortDescription": {
-      "en": "Baked loaf-like processed meat slice, often served in bread or with egg.",
-      "zh": "德式肉糜烤片 是常见德国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Leberkäse is een veelvoorkomend gerecht in de duits keuken, beschreven voor snelle bestelkeuzes."
+      "en": "A baked, loaf-like German meat slice, often served warm with mustard, bread, or a fried egg.",
+      "zh": "类似肉糜烤成的德式厚肉片，常温热上桌，配芥末、面包或煎蛋。",
+      "nl": "Een gebakken Duitse vleesplak uit een soort vleesbrood, vaak warm met mosterd, brood of ei."
     },
     "cookingProfile": {
-      "en": "Usually served as a meat with a tender meat, rich sauce feel.",
-      "zh": "通常以meat形式上桌，重点体验是tender meat。",
-      "nl": "Meestal geserveerd als meat met een tender meat gevoel."
+      "en": "The slice is firm and salty, closer to a hot deli meat than a whole cut of pork.",
+      "zh": "口感紧实偏咸，更像热的熟肉片，不是整块猪排。",
+      "nl": "Stevig en zoutig, meer warme vleeswaar dan een heel stuk varkensvlees."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "regional-dish",
+        "street-food"
       ],
       "description": {
-        "en": "A high-frequency German menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频德国菜菜品。",
-        "nl": "Een vaak voorkomend duits menu-item voor bredere restaurantdekking."
+        "en": "A common Bavarian and Austrian-style snack or casual plate; often seen in bakeries and beer halls.",
+        "zh": "常见于巴伐利亚和奥地利风格的小吃或简餐，也常见于面包店和啤酒馆。",
+        "nl": "Een Beiers/Oostenrijks aandoende snack of simpele maaltijd, vaak bij bakkers en bierhallen."
       }
     },
     "composition": [
       [
-        "beef",
-        55,
+        "leberkaese",
+        60,
         "main"
       ],
       [
-        "potato",
-        20,
-        "side"
+        "egg",
+        15,
+        "topping",
+        "ingredient",
+        "medium",
+        true
       ],
       [
-        "mixed-vegetables",
+        "potato",
         15,
         "side"
       ],
       [
-        "butter",
+        "mustard",
         5,
-        "richness"
+        "condiment",
+        "seasoning"
       ],
       [
-        "black-pepper",
+        "bread",
         5,
-        "seasoning",
-        "seasoning"
+        "side"
       ]
     ],
     "distinctiveFlavorSources": [
+      "leberkaese",
       "mustard",
-      "beer",
-      "paprika"
+      "fried egg"
     ],
     "basicTaste": [
+      "salty",
       "savory",
-      "rich",
-      "umami"
+      "rich"
     ],
     "textureProfile": [
-      "tender meat",
-      "rich sauce"
+      "firm meat slice",
+      "browned surface",
+      "soft egg if served"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-egg",
+      "contains-gluten"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "street-food",
+      "quick-meal"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "no-pork",
+      "avoids-processed-meat"
+    ],
     "orderVerdict": {
-      "en": "Filling and salty; avoid if you want unprocessed or no-pork food.",
-      "zh": "如果你接受这类口味和风险，德式肉糜烤片 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good if you want a salty, filling meat snack; avoid if processed meat is not appealing.",
+      "zh": "想吃咸香、顶饱的肉类小吃时适合；介意加工肉时不推荐。",
+      "nl": "Goed voor een zoute, vullende vleessnack; minder geschikt als bewerkt vlees je niet ligt."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -8149,73 +8225,75 @@ export const expandedDishes = [
       "nl": "Flammkuchen",
       "local": "Flammkuchen"
     },
-    "category": "pizza",
+    "category": "flatbread",
+    "goodForSharing": true,
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Thin flatbread with cream, onion, and bacon-style topping.",
-      "zh": "德式薄饼 是常见德国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Flammkuchen is een veelvoorkomend gerecht in de duits keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Very thin flatbread topped with cream, onion, and bacon or lardons.",
+      "zh": "很薄的烤饼，上面铺奶油、洋葱和培根粒。",
+      "nl": "Zeer dun platbrood met room, ui en spekjes."
     },
     "cookingProfile": {
-      "en": "Usually served as a pizza with a airy crust, melted topping feel.",
-      "zh": "通常以pizza形式上桌，重点体验是airy crust。",
-      "nl": "Meestal geserveerd als pizza met een airy crust gevoel."
+      "en": "It is baked thin and crisp, so it feels lighter than pizza but still creamy and salty.",
+      "zh": "薄烤后边缘酥脆，比披萨轻一些，但奶油和培根让味道咸香。",
+      "nl": "Dun en krokant gebakken: lichter dan pizza, maar romig en zoutig."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "regional-dish",
+        "sharing"
       ],
       "description": {
-        "en": "A high-frequency German menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频德国菜菜品。",
-        "nl": "Een vaak voorkomend duits menu-item voor bredere restaurantdekking."
+        "en": "An Alsace and southwest German-style flatbread common as a shared starter or light meal.",
+        "zh": "阿尔萨斯和德国西南部风格薄饼，常作为分享前菜或轻主食。",
+        "nl": "Een Elzasser en Zuidwest-Duitse platbroodstijl, vaak gedeeld of als lichte maaltijd."
       }
     },
     "composition": [
       [
         "pizza-dough",
-        55,
-        "base"
+        45,
+        "thin base"
       ],
       [
-        "tomato-sauce",
-        20,
-        "sauce",
-        "seasoning"
+        "cream",
+        25,
+        "sauce"
       ],
       [
-        "mozzarella",
+        "bacon",
         15,
         "topping"
       ],
       [
-        "basil",
-        5,
-        "aroma"
+        "onion",
+        10,
+        "topping"
       ],
       [
-        "olive-oil",
+        "black-pepper",
         5,
         "finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "mustard",
-      "beer",
-      "paprika"
+      "cream",
+      "bacon",
+      "onion"
     ],
     "basicTaste": [
       "savory",
-      "creamy"
+      "creamy",
+      "salty"
     ],
     "textureProfile": [
-      "airy crust",
-      "melted topping"
+      "thin crisp base",
+      "creamy topping",
+      "soft onion"
     ],
     "riskFlags": [
       "contains-gluten",
@@ -8224,19 +8302,24 @@ export const expandedDishes = [
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
+      "sharing",
       "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "no-pork"
+    ],
     "orderVerdict": {
-      "en": "Good sharing dish, but usually contains dairy, gluten, and pork.",
-      "zh": "如果你接受这类口味和风险，德式薄饼 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A good shared starter if you want something crisp, creamy, and salty.",
+      "zh": "想分享一份薄脆、奶香、咸香的小食时很合适。",
+      "nl": "Een goed gedeeld voorgerecht als je iets krokants, romigs en zoutigs wilt."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -8245,94 +8328,103 @@ export const expandedDishes = [
     "cuisineId": "german",
     "names": {
       "en": "Königsberger Klopse",
-      "zh": "酸豆肉丸",
+      "zh": "酸豆奶油肉丸",
       "nl": "Königsberger Klopse",
       "local": "Königsberger Klopse"
     },
     "category": "meat",
     "cookingMethods": [
-      "braised"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Meatballs in a creamy caper sauce, usually mild and tangy.",
-      "zh": "酸豆肉丸 是常见德国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Königsberger Klopse is een veelvoorkomend gerecht in de duits keuken, beschreven voor snelle bestelkeuzes."
+      "en": "German meatballs served in a pale creamy caper sauce, usually with potatoes.",
+      "zh": "德式肉丸配浅色酸豆奶油酱，通常搭土豆。",
+      "nl": "Duitse gehaktballen in lichte romige kappertjessaus, meestal met aardappelen."
     },
     "cookingProfile": {
-      "en": "Usually served as a meat with a tender meat, rich sauce feel.",
-      "zh": "通常以meat形式上桌，重点体验是tender meat。",
-      "nl": "Meestal geserveerd als meat met een tender meat gevoel."
+      "en": "The meatballs are poached or simmered, so they are soft and mild with a tangy sauce.",
+      "zh": "肉丸通常水煮或慢煮，口感柔软温和，酱汁带酸豆的酸香。",
+      "nl": "De gehaktballen worden gepocheerd of zacht gekookt: zacht en mild met frisse saus."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency German menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频德国菜菜品。",
-        "nl": "Een vaak voorkomend duits menu-item voor bredere restaurantdekking."
+        "en": "A classic German meatball dish known for its caper cream sauce.",
+        "zh": "以酸豆奶油酱为特色的德国经典肉丸菜。",
+        "nl": "Een klassieke Duitse gehaktballenschotel bekend om de kappertjesroomsaus."
       }
     },
     "composition": [
       [
-        "beef",
-        55,
-        "main"
+        "ground-meat",
+        45,
+        "meatballs"
+      ],
+      [
+        "bechamel-sauce",
+        25,
+        "cream sauce"
       ],
       [
         "potato",
-        20,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
         15,
         "side"
       ],
       [
-        "butter",
-        5,
-        "richness"
+        "capers",
+        10,
+        "tangy accent"
       ],
       [
-        "black-pepper",
+        "egg",
         5,
-        "seasoning",
-        "seasoning"
+        "binder"
       ]
     ],
     "distinctiveFlavorSources": [
-      "mustard",
-      "beer",
-      "paprika"
+      "capers",
+      "cream sauce",
+      "ground-meat"
     ],
     "basicTaste": [
       "savory",
-      "rich",
-      "umami"
+      "creamy",
+      "tangy"
     ],
     "textureProfile": [
-      "tender meat",
-      "rich sauce"
+      "soft meatballs",
+      "smooth sauce",
+      "tender potatoes"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-egg",
+      "contains-dairy",
+      "contains-gluten"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "comfort-food",
+      "classic-dish"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "dairy-free",
+      "egg-allergy",
+      "gluten-free"
+    ],
     "orderVerdict": {
-      "en": "Comforting if you like creamy savory sauces.",
-      "zh": "如果你接受这类口味和风险，酸豆肉丸 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Choose it for soft meatballs and a tangy cream sauce, not for crisp or grilled textures.",
+      "zh": "适合想吃软嫩肉丸和酸香奶油酱时点；不是煎烤酥脆型。",
+      "nl": "Kies dit voor zachte gehaktballen en frisse roomsaus, niet voor krokante grilltextuur."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -8347,91 +8439,103 @@ export const expandedDishes = [
     },
     "category": "dessert",
     "cookingMethods": [
-      "chilled"
+      "baked"
     ],
     "shortDescription": {
-      "en": "Apple pastry with cinnamon-like warmth, often served with cream or vanilla sauce.",
-      "zh": "苹果卷 是常见德国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Apfelstrudel is een veelvoorkomend gerecht in de duits keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Thin pastry wrapped around warm apple filling, often served with vanilla sauce or cream.",
+      "zh": "薄酥皮包裹温热苹果馅，常配香草酱或奶油。",
+      "nl": "Dun deeg rond warme appelvulling, vaak met vanillesaus of room."
     },
     "cookingProfile": {
-      "en": "Usually served as a dessert with a sweet, soft feel.",
-      "zh": "通常以dessert形式上桌，重点体验是sweet。",
-      "nl": "Meestal geserveerd als dessert met een sweet gevoel."
+      "en": "The pastry is light and flaky while the apple filling is soft, sweet, and cinnamon-warm.",
+      "zh": "外层酥皮轻薄，苹果馅柔软甜香，常带肉桂暖香。",
+      "nl": "Het deeg is licht en bladerig, met zachte zoete appel en warme kaneeltonen."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A high-frequency German menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频德国菜菜品。",
-        "nl": "Een vaak voorkomend duits menu-item voor bredere restaurantdekking."
+        "en": "An Alpine dessert classic common across German-speaking menus.",
+        "zh": "德语区菜单上常见的阿尔卑斯甜点经典。",
+        "nl": "Een Alpenklassieker die vaak op Duitstalige dessertmenu's staat."
       }
     },
     "composition": [
       [
-        "cream",
-        35,
-        "base"
+        "apple",
+        45,
+        "filling"
+      ],
+      [
+        "pastry-crust",
+        25,
+        "wrapper"
       ],
       [
         "sugar",
-        25,
-        "sweetener"
-      ],
-      [
-        "wheat-flour",
-        20,
-        "base"
-      ],
-      [
-        "egg",
         10,
-        "binder"
+        "sweetness"
       ],
       [
-        "vanilla",
+        "butter",
         10,
-        "aroma",
+        "richness"
+      ],
+      [
+        "cinnamon",
+        5,
+        "warm spice",
         "seasoning"
+      ],
+      [
+        "cream",
+        5,
+        "sauce or side"
       ]
     ],
     "distinctiveFlavorSources": [
-      "mustard",
-      "beer",
-      "paprika"
+      "apple",
+      "cinnamon",
+      "vanilla or cream sauce"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "fruity",
+      "buttery"
     ],
     "textureProfile": [
-      "sweet",
-      "soft"
+      "flaky pastry",
+      "soft apple filling",
+      "smooth sauce"
     ],
     "riskFlags": [
-      "contains-dairy",
-      "contains-egg",
-      "contains-gluten"
+      "contains-gluten",
+      "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "common-menu-item",
+      "dessert",
       "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
     "orderVerdict": {
-      "en": "Good dessert if you want fruit plus pastry rather than chocolate.",
-      "zh": "如果你接受这类口味和风险，苹果卷 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A safe dessert if you want warm fruit and pastry rather than chocolate.",
+      "zh": "想吃温热水果和酥皮甜点时很稳，不是巧克力型甜点。",
+      "nl": "Een veilige dessertkeuze voor warm fruit en deeg in plaats van chocolade."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -8446,94 +8550,110 @@ export const expandedDishes = [
     },
     "category": "dessert",
     "cookingMethods": [
+      "layered",
       "chilled"
     ],
     "shortDescription": {
-      "en": "Chocolate cherry cream cake, sometimes with cherry liqueur.",
-      "zh": "黑森林蛋糕 是常见德国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Schwarzwälder kersentaart is een veelvoorkomend gerecht in de duits keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Layered chocolate cake with whipped cream and cherries, sometimes flavored with cherry liqueur.",
+      "zh": "巧克力蛋糕层夹打发奶油和樱桃，有些版本会带樱桃酒香。",
+      "nl": "Laagjescake van chocolade, slagroom en kersen, soms met kersenlikeur."
     },
     "cookingProfile": {
-      "en": "Usually served as a dessert with a sweet, soft feel.",
-      "zh": "通常以dessert形式上桌，重点体验是sweet。",
-      "nl": "Meestal geserveerd als dessert met een sweet gevoel."
+      "en": "It is served cool and creamy, with soft cake layers and bright cherry sweetness.",
+      "zh": "通常冷藏后上桌，奶油感明显，蛋糕层柔软，樱桃带清亮甜酸。",
+      "nl": "Koel en romig geserveerd, met zachte cakelagen en frisse kersensmaak."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "dessert",
+        "internationally-known"
       ],
       "description": {
-        "en": "A high-frequency German menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频德国菜菜品。",
-        "nl": "Een vaak voorkomend duits menu-item voor bredere restaurantdekking."
+        "en": "A highly recognizable German cake associated with the Black Forest region.",
+        "zh": "和黑森林地区相关、国际辨识度很高的德国蛋糕。",
+        "nl": "Een zeer herkenbare Duitse taart verbonden met het Zwarte Woud."
       }
     },
     "composition": [
       [
-        "cream",
-        35,
-        "base"
+        "chocolate",
+        30,
+        "cake"
       ],
       [
-        "sugar",
-        25,
-        "sweetener"
+        "cream",
+        30,
+        "filling"
+      ],
+      [
+        "cherries",
+        20,
+        "fruit"
       ],
       [
         "wheat-flour",
-        20,
-        "base"
+        10,
+        "cake base"
       ],
       [
-        "egg",
-        10,
-        "binder"
+        "sugar",
+        5,
+        "sweetness"
       ],
       [
-        "vanilla",
-        10,
-        "aroma",
+        "cocoa",
+        5,
+        "bitter note",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "mustard",
-      "beer",
-      "paprika"
+      "cherries",
+      "cream",
+      "cocoa"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "fruity",
+      "chocolatey"
     ],
     "textureProfile": [
-      "sweet",
-      "soft"
+      "soft cake layers",
+      "whipped cream",
+      "juicy cherries"
     ],
     "riskFlags": [
+      "contains-gluten",
       "contains-dairy",
       "contains-egg",
-      "contains-gluten",
       "contains-alcohol"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "dessert",
+      "classic-dish"
     ],
     "avoidIfTags": [
-      "wants-light-food"
+      "dairy-free",
+      "gluten-free",
+      "egg-allergy",
+      "avoids-alcohol"
     ],
     "orderVerdict": {
-      "en": "Rich dessert; check alcohol if that matters.",
-      "zh": "如果你接受这类口味和风险，黑森林蛋糕 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Choose it for cream, cherry, and chocolate; ask about liqueur if avoiding alcohol.",
+      "zh": "想吃奶油、樱桃和巧克力组合时适合；避酒精时要确认是否含樱桃酒。",
+      "nl": "Kies dit voor room, kers en chocolade; vraag naar likeur als je alcohol vermijdt."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
-    "weightLevel": 4,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({

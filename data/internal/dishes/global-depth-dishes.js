@@ -1175,97 +1175,100 @@ const globalDepthDishConfigs = [
       "en": "German Goulash",
       "zh": "德式炖牛肉",
       "nl": "Duitse goulash",
-      "local": "gulasch"
+      "local": "Gulasch"
     },
     "category": "meat",
     "cookingMethods": [
       "braised"
     ],
     "shortDescription": {
-      "en": "German Goulash is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式炖牛肉是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Duitse goulash is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Tender beef stew in a paprika-rich brown sauce, often served with noodles, dumplings, or potatoes.",
+      "zh": "牛肉块炖到软嫩，配红椒粉香气明显的深色酱汁，常搭面疙瘩或土豆。",
+      "nl": "Malse rundstoof in bruine paprikasaus, vaak met noedels, knödel of aardappel."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is sauce-heavy and slow-braised, so the main appeal is tender beef and warm paprika depth.",
+      "zh": "这道菜酱汁多、慢炖感强，重点是软嫩牛肉和温暖红椒粉香。",
+      "nl": "Sausrijk en lang gestoofd, met mals rund en warme paprikadiepgang."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "comfort-food",
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency German menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将德国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Duits menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Central European stew that appears on German menus in a milder, gravy-style form.",
+        "zh": "中欧炖菜在德国菜单上的常见版本，通常偏温和、酱汁感强。",
+        "nl": "Een Midden-Europese stoof die op Duitse menu's vaak milder en jusachtig is."
       }
     },
     "composition": [
       [
         "beef",
-        60,
+        55,
         "main"
       ],
       [
-        "potato",
+        "onion",
         15,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
-        10,
-        "body"
+        "sauce base"
       ],
       [
         "tomato-sauce",
-        5,
+        10,
         "sauce",
         "seasoning"
       ],
       [
-        "black-pepper",
-        5,
-        "seasoning",
+        "paprika",
+        10,
+        "signature spice",
         "seasoning"
       ],
       [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
+        "egg-noodles",
+        10,
+        "side"
       ]
     ],
     "distinctiveFlavorSources": [
-      "beef",
-      "sauce",
-      "herbs"
+      "paprika",
+      "beef gravy",
+      "onion"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "rich",
+      "warm-spiced"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "tender beef cubes",
+      "thick sauce",
+      "soft side"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-gluten"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "comfort-food",
+      "saucy"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "wants-light-food"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you want beef stew and sauce; not the same as currywurst or sausage dishes.",
+      "zh": "想吃牛肉炖菜和浓酱时适合；它不是香肠类咖喱小吃。",
+      "nl": "Goed voor rundstoof en saus; dit is geen currywurst of worstgerecht."
     },
-    "spiceLevel": 0,
-    "weightLevel": 3,
+    "confidenceTag": "audited-german-batch-007",
+    "spiceLevel": 1,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -1274,103 +1277,98 @@ const globalDepthDishConfigs = [
     "cuisineId": "german",
     "names": {
       "en": "Eisbein",
-      "zh": "德式猪肘",
+      "zh": "德式水煮猪肘",
       "nl": "Eisbein",
-      "local": "eisbein"
+      "local": "Eisbein"
     },
-    "category": "meat",
+    "category": "pork",
+    "goodForSharing": true,
     "cookingMethods": [
+      "boiled",
       "braised"
     ],
     "shortDescription": {
-      "en": "Eisbein is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式猪肘是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Eisbein is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Boiled or cured pork knuckle, usually softer and less crisp than roasted Schweinshaxe.",
+      "zh": "水煮或腌制猪肘，通常比烤猪肘更软，不主打酥脆外皮。",
+      "nl": "Gekookte of gepekelde varkensschenkel, zachter en minder krokant dan Schweinshaxe."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect gelatinous skin, tender pork, and sauerkraut rather than crackling.",
+      "zh": "重点是软糯猪皮、嫩猪肉和酸菜，而不是脆皮。",
+      "nl": "Verwacht gelatineuze huid, mals varkensvlees en zuurkool in plaats van crackling."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "regional-dish",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency German menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将德国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Duits menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Berlin and northern/eastern German-style pork knuckle dish, distinct from crispy roasted versions.",
+        "zh": "偏柏林、德国北部和东部风格的猪肘，和脆皮烤猪肘不同。",
+        "nl": "Een Berlijnse/noord- en oost-Duitse stijl, anders dan krokant geroosterde varianten."
       }
     },
     "composition": [
       [
         "pork",
-        60,
+        65,
         "main"
       ],
       [
-        "potato",
-        15,
+        "sauerkraut",
+        20,
         "side"
       ],
       [
-        "mixed-vegetables",
+        "potato",
         10,
-        "body"
+        "side"
       ],
       [
-        "tomato-sauce",
+        "mustard",
         5,
-        "sauce",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
+        "condiment",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "sauce",
-      "herbs"
+      "cured pork",
+      "sauerkraut",
+      "mustard"
     ],
     "basicTaste": [
+      "salty",
       "savory",
-      "rich"
+      "tangy"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "soft pork",
+      "gelatinous skin",
+      "tangy cabbage"
     ],
     "riskFlags": [
       "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "regional-dish",
+      "classic-dish"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "no-pork",
+      "wants-crisp-texture"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check pork if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Pick it for soft pork knuckle and sauerkraut; choose Schweinshaxe instead if you want crisp skin.",
+      "zh": "想吃软糯猪肘和酸菜时点它；想要脆皮则选 Schweinshaxe。",
+      "nl": "Kies dit voor zachte varkensschenkel en zuurkool; neem Schweinshaxe voor krokante huid."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "weightLevel": 5,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -1381,99 +1379,115 @@ const globalDepthDishConfigs = [
       "en": "Kartoffelpuffer",
       "zh": "德式土豆饼",
       "nl": "Kartoffelpuffer",
-      "local": "kartoffelpuffer"
+      "local": "Kartoffelpuffer"
     },
-    "category": "starter",
+    "category": "potato",
+    "mealRole": "starter-or-side",
+    "goodForSharing": true,
     "cookingMethods": [
-      "assembled"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Kartoffelpuffer is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式土豆饼是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Kartoffelpuffer is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Crisp fried potato pancakes, often served with applesauce or sour cream.",
+      "zh": "煎炸到金黄酥脆的土豆饼，常配苹果酱或酸奶油。",
+      "nl": "Krokant gebakken aardappelpannenkoekjes, vaak met appelmoes of zure room."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small bites，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small bites; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "They are shallow-fried, so the edges are crisp while the inside stays soft and starchy.",
+      "zh": "浅油煎后边缘酥脆，内部保持柔软的土豆口感。",
+      "nl": "Ondiep gebakken: krokante randen met zachte aardappel binnenin."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "street-food",
+        "regional-dish",
+        "vegetarian"
       ],
       "description": {
-        "en": "A high-frequency German menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将德国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Duits menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common German potato snack, side, or market-stall item.",
+        "zh": "德国常见土豆小吃、配菜或市集摊位菜。",
+        "nl": "Een veelvoorkomende Duitse aardappelsnack, bijgerecht of marktgerecht."
       }
     },
     "composition": [
       [
-        "chicken",
-        40,
-        "main"
-      ],
-      [
-        "mixed-vegetables",
-        25,
-        "body"
-      ],
-      [
         "potato",
-        15,
-        "richness"
+        65,
+        "base"
       ],
       [
-        "olive-oil",
+        "egg",
         10,
-        "finish",
-        "seasoning"
+        "binder"
       ],
       [
-        "sea-salt",
-        5,
-        "seasoning",
-        "seasoning"
+        "wheat-flour",
+        10,
+        "binder"
       ],
       [
-        "parsley",
+        "onion",
         5,
-        "finish",
-        "seasoning"
+        "aroma"
+      ],
+      [
+        "apple-sauce",
+        5,
+        "sweet side"
+      ],
+      [
+        "sour-cream",
+        5,
+        "optional dip",
+        "ingredient",
+        "medium",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "olive-oil",
-      "herbs"
+      "fried potato",
+      "onion",
+      "apple sauce"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "mild",
+      "slightly sweet"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "crisp edges",
+      "soft potato center",
+      "cool dip"
     ],
     "riskFlags": [
-      "contains-egg"
+      "contains-egg",
+      "contains-gluten",
+      "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage"
+      "street-food",
+      "vegetarian",
+      "sharing"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "gluten-free",
+      "dairy-free"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check egg if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A friendly crisp potato choice; ask for applesauce only if avoiding dairy.",
+      "zh": "喜欢酥脆土豆时很稳；避乳制品时可要求只配苹果酱。",
+      "nl": "Een toegankelijke krokante aardappelkeuze; vraag alleen appelmoes bij zuivelvrij."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -1482,101 +1496,101 @@ const globalDepthDishConfigs = [
     "cuisineId": "german",
     "names": {
       "en": "Sauerkraut",
-      "zh": "酸菜",
+      "zh": "德国酸菜",
       "nl": "Zuurkool",
-      "local": "sauerkraut"
+      "local": "Sauerkraut"
     },
-    "category": "starter",
+    "category": "side",
+    "mealRole": "side",
+    "portionType": "side",
+    "goodForSharing": true,
     "cookingMethods": [
-      "assembled"
+      "simmered"
     ],
+    "servingTemperature": "hot-or-warm",
     "shortDescription": {
-      "en": "Sauerkraut is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "酸菜是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Zuurkool is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Fermented shredded cabbage served as a tangy side with pork, sausage, or potatoes.",
+      "zh": "发酵切丝卷心菜，常作为酸香配菜搭猪肉、香肠或土豆。",
+      "nl": "Gefermenteerde fijngesneden kool als friszuur bijgerecht bij varkensvlees, worst of aardappel."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small bites，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small bites; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is usually warmed through, with a soft shredded texture and sharp sourness.",
+      "zh": "通常温热上桌，切丝口感柔软，酸味直接。",
+      "nl": "Meestal warm geserveerd, met zachte slierten en duidelijke zuurheid."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "side",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency German menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将德国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Duits menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A signature German side rather than a full main dish on its own.",
+        "zh": "德国代表性配菜，本身通常不是完整主菜。",
+        "nl": "Een kenmerkend Duits bijgerecht, meestal geen volledige hoofdschotel op zichzelf."
       }
     },
     "composition": [
       [
-        "mixed-vegetables",
-        40,
-        "main"
+        "sauerkraut",
+        85,
+        "base"
       ],
       [
-        "mixed-vegetables",
-        25,
-        "body"
-      ],
-      [
-        "potato",
-        15,
-        "richness"
-      ],
-      [
-        "olive-oil",
-        10,
-        "finish",
+        "caraway",
+        5,
+        "aroma",
         "seasoning"
       ],
       [
-        "sea-salt",
+        "juniper",
         5,
-        "seasoning",
+        "aroma",
         "seasoning"
       ],
       [
-        "parsley",
+        "vinegar",
         5,
-        "finish",
+        "tang",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "mixed-vegetables",
-      "olive-oil",
-      "herbs"
+      "sauerkraut",
+      "caraway",
+      "juniper"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "sour",
+      "salty",
+      "savory"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "soft shredded cabbage",
+      "juicy bite",
+      "sharp finish"
     ],
     "riskFlags": [],
     "dietaryFlags": [
       "vegan"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "side",
+      "vegan"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "avoids-sour-food"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Useful if you want acidity next to heavy meat; too sharp if you dislike fermented flavors.",
+      "zh": "搭厚重肉类时能解腻；不喜欢发酵酸味时会显得太冲。",
+      "nl": "Handig voor frisheid naast zwaar vlees; te scherp als je gefermenteerd zuur niet lekker vindt."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -1587,99 +1601,107 @@ const globalDepthDishConfigs = [
       "en": "Rotkohl",
       "zh": "德式红甘蓝",
       "nl": "Rode kool",
-      "local": "rotkohl"
+      "local": "Rotkohl"
     },
-    "category": "starter",
+    "category": "side",
+    "mealRole": "side",
+    "portionType": "side",
+    "goodForSharing": true,
     "cookingMethods": [
-      "assembled"
+      "braised"
     ],
     "shortDescription": {
-      "en": "Rotkohl is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式红甘蓝是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Rode kool is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Sweet-sour braised red cabbage, often served with roast meats, dumplings, or gravy.",
+      "zh": "酸甜炖红甘蓝，常配烤肉、丸子或肉汁菜。",
+      "nl": "Zoetzuur gestoofde rode kool, vaak bij gebraad, knödel of jus."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small bites，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small bites; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is soft and glossy, with more sweetness than sauerkraut and a gentle spice note.",
+      "zh": "口感柔软有光泽，比酸菜更甜，常带温和香料气息。",
+      "nl": "Zacht en glanzend, zoeter dan zuurkool en licht kruidig."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "side",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency German menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将德国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Duits menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic German side for winter and roast-style plates.",
+        "zh": "德国冬季和烤肉类餐盘常见的经典配菜。",
+        "nl": "Een klassiek Duits bijgerecht bij winterse en gebraden gerechten."
       }
     },
     "composition": [
       [
-        "mixed-vegetables",
-        40,
-        "main"
+        "red-cabbage",
+        75,
+        "base"
       ],
       [
-        "mixed-vegetables",
-        25,
-        "body"
-      ],
-      [
-        "potato",
-        15,
-        "richness"
-      ],
-      [
-        "olive-oil",
+        "apple",
         10,
-        "finish",
+        "sweetness"
+      ],
+      [
+        "vinegar",
+        5,
+        "tang",
         "seasoning"
       ],
       [
-        "sea-salt",
+        "cinnamon",
         5,
-        "seasoning",
+        "warm spice",
         "seasoning"
       ],
       [
-        "parsley",
+        "butter",
         5,
-        "finish",
-        "seasoning"
+        "gloss",
+        "ingredient",
+        "medium",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "mixed-vegetables",
-      "olive-oil",
-      "herbs"
+      "red-cabbage",
+      "apple",
+      "cinnamon"
     ],
     "basicTaste": [
-      "savory",
+      "sweet",
+      "sour",
       "mild"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "soft cabbage ribbons",
+      "glossy sauce",
+      "sweet-sour finish"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-dairy"
+    ],
     "dietaryFlags": [
-      "vegan"
+      "vegetarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "side",
+      "vegetarian"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good side if you want sweet-sour balance with meat or dumplings.",
+      "zh": "想用酸甜配菜平衡肉类或丸子时很合适。",
+      "nl": "Een goed bijgerecht voor zoetzuur evenwicht bij vlees of knödel."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -1688,104 +1710,106 @@ const globalDepthDishConfigs = [
     "cuisineId": "german",
     "names": {
       "en": "Matjes Herring",
-      "zh": "德国嫩鲱鱼",
+      "zh": "嫩鲱鱼",
       "nl": "Matjesharing",
-      "local": "matjes"
+      "local": "Matjes"
     },
     "category": "seafood",
     "cookingMethods": [
-      "grilled"
+      "raw"
     ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "cured-raw",
     "shortDescription": {
-      "en": "Matjes Herring is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德国嫩鲱鱼是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Matjesharing is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Young cured herring fillets served cold, often with onions, apples, cream, or potatoes.",
+      "zh": "冷食嫩腌鲱鱼片，常搭洋葱、苹果、奶油酱或土豆。",
+      "nl": "Jonge gepekelde haringfilets koud geserveerd, vaak met ui, appel, room of aardappel."
     },
     "cookingProfile": {
-      "en": "Usually served with tender seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is cured rather than cooked, so expect a silky, briny, distinctly fish-forward bite.",
+      "zh": "它是腌制而非熟制，口感细滑，咸鲜鱼味很明显。",
+      "nl": "Gepekeld in plaats van gekookt: zacht, zilt en duidelijk vissig."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "regional-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A high-frequency German menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将德国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Duits menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A North German and coastal menu item; close to Dutch herring but used here for German menus.",
+        "zh": "德国北部和沿海菜单常见；和荷兰鲱鱼接近，但这里按德国菜单处理。",
+        "nl": "Een Noord-Duits en kustgerecht; verwant aan Hollandse haring, hier voor Duitse menu's."
       }
     },
     "composition": [
       [
-        "fish-fillet",
+        "matjes-herring",
         60,
         "main"
       ],
       [
-        "steamed-rice",
+        "onion",
         15,
-        "base or side"
+        "garnish"
       ],
       [
-        "mixed-vegetables",
+        "apple",
+        10,
+        "sweet contrast"
+      ],
+      [
+        "potato",
         10,
         "side"
       ],
       [
-        "lemon",
+        "dill",
         5,
-        "finish"
-      ],
-      [
-        "olive-oil",
-        5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "aroma",
+        "herb",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-fillet",
-      "lemon",
-      "olive-oil"
+      "matjes-herring",
+      "onion",
+      "dill"
     ],
     "basicTaste": [
+      "briny",
       "savory",
-      "briny"
+      "slightly sweet"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "silky fish",
+      "crisp onion",
+      "cool serving"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-raw-fish"
     ],
     "dietaryFlags": [
       "pescatarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "seafood",
+      "regional-dish"
     ],
     "avoidIfTags": [
-      "avoids-fish"
+      "avoids-fish",
+      "avoids-raw-fish"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check fish if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good for briny cold fish lovers; skip it if raw-style herring sounds too strong.",
+      "zh": "喜欢冷食咸鲜鱼片时适合；不习惯生腌鲱鱼味时避开。",
+      "nl": "Goed voor liefhebbers van koude zoute vis; sla over als rauwachtige haring te heftig klinkt."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.74,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -1796,97 +1820,110 @@ const globalDepthDishConfigs = [
       "en": "Labskaus",
       "zh": "北德咸牛肉土豆泥",
       "nl": "Labskaus",
-      "local": "labskaus"
+      "local": "Labskaus"
     },
     "category": "meat",
     "cookingMethods": [
-      "braised"
+      "simmered",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Labskaus is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "北德咸牛肉土豆泥是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Labskaus is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "North German mash of corned beef, potato, and beetroot, usually topped with egg and served with pickles or herring.",
+      "zh": "北德咸牛肉、土豆和甜菜根混合泥，常配煎蛋、酸黄瓜或鲱鱼。",
+      "nl": "Noord-Duitse stamppot van cornedbeef, aardappel en biet, vaak met ei, augurk of haring."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is soft, salty, and mashed; the pink color and egg topping are key visual cues.",
+      "zh": "整体柔软咸香、呈泥状，粉红色和煎蛋是主要识别点。",
+      "nl": "Zacht, zoutig en gestampt; roze kleur en ei bovenop zijn herkenbaar."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "regional-dish",
+        "acquired-taste"
       ],
       "description": {
-        "en": "A high-frequency German menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将德国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Duits menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A North German seafaring-style comfort dish with a distinctive look and flavor profile.",
+        "zh": "北德航海传统相关的舒适菜，外观和味道都很有辨识度。",
+        "nl": "Een Noord-Duits zeemansachtig comfortgerecht met uitgesproken uiterlijk en smaak."
       }
     },
     "composition": [
       [
-        "chicken",
-        60,
-        "main"
+        "corned-beef",
+        35,
+        "meat base"
       ],
       [
         "potato",
+        30,
+        "mash base"
+      ],
+      [
+        "beetroot",
         15,
-        "side"
+        "color and sweetness"
       ],
       [
-        "mixed-vegetables",
+        "egg",
         10,
-        "body"
+        "topping"
       ],
       [
-        "tomato-sauce",
+        "matjes-herring",
         5,
-        "sauce",
-        "seasoning"
+        "side",
+        "ingredient",
+        "high",
+        true
       ],
       [
-        "black-pepper",
+        "cucumber",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
+        "pickle-style side"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "sauce",
-      "herbs"
+      "corned-beef",
+      "beetroot",
+      "herring or pickles"
     ],
     "basicTaste": [
+      "salty",
       "savory",
-      "rich"
+      "earthy",
+      "tangy"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "soft mash",
+      "runny or firm egg",
+      "sharp pickle side"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-egg",
+      "contains-fish"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "regional-dish",
+      "comfort-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "avoids-fish",
+      "wants-crisp-texture"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order it for a regional North German experience; the soft mash and fish garnish can be polarizing.",
+      "zh": "想体验北德地方菜可以点；软泥口感和鱼类配菜可能比较挑人。",
+      "nl": "Kies dit voor een Noord-Duitse ervaring; zachte stamppot en visgarnituur kunnen uitgesproken zijn."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -1897,32 +1934,32 @@ const globalDepthDishConfigs = [
       "en": "Zanderfilet",
       "zh": "煎梭鲈鱼柳",
       "nl": "Snoekbaarsfilet",
-      "local": "zanderfilet"
+      "local": "Zanderfilet"
     },
     "category": "seafood",
     "cookingMethods": [
-      "grilled"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Zanderfilet is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "煎梭鲈鱼柳是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Snoekbaarsfilet is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Pan-fried pike-perch fillet, usually mild and flaky, often served with potatoes or butter sauce.",
+      "zh": "煎梭鲈鱼柳，鱼肉温和细嫩，常配土豆或黄油酱。",
+      "nl": "Gebakken snoekbaarsfilet, meestal mild en vlokkig, vaak met aardappel of botersaus."
     },
     "cookingProfile": {
-      "en": "Usually served with tender seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The fillet is usually pan-fried for a lightly crisp surface and delicate white fish center.",
+      "zh": "通常平底锅煎制，表面微脆，内部是细嫩白鱼肉。",
+      "nl": "Meestal in de pan gebakken, met licht krokant oppervlak en zachte witte vis."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "seafood",
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency German menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将德国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Duits menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common freshwater fish option on German and Central European restaurant menus.",
+        "zh": "德国和中欧餐厅菜单上常见的淡水鱼选择。",
+        "nl": "Een veelvoorkomende zoetwatervis op Duitse en Midden-Europese restaurantmenu's."
       }
     },
     "composition": [
@@ -1932,14 +1969,14 @@ const globalDepthDishConfigs = [
         "main"
       ],
       [
-        "steamed-rice",
-        15,
-        "base or side"
+        "potato",
+        20,
+        "side"
       ],
       [
-        "mixed-vegetables",
+        "butter",
         10,
-        "side"
+        "sauce"
       ],
       [
         "lemon",
@@ -1947,52 +1984,53 @@ const globalDepthDishConfigs = [
         "finish"
       ],
       [
-        "olive-oil",
-        5,
-        "finish",
-        "seasoning"
-      ],
-      [
         "parsley",
         5,
-        "aroma",
+        "herb",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-fillet",
-      "lemon",
-      "olive-oil"
+      "white fish",
+      "butter",
+      "lemon"
     ],
     "basicTaste": [
       "savory",
-      "briny"
+      "mild",
+      "buttery",
+      "fresh"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "flaky fish",
+      "light crisp surface",
+      "soft potatoes"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-dairy"
     ],
     "dietaryFlags": [
       "pescatarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "seafood",
+      "lighter-choice"
     ],
     "avoidIfTags": [
-      "avoids-fish"
+      "avoids-fish",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check fish if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good lighter German menu option if you want mild fish rather than pork or sausage.",
+      "zh": "想在德国菜单里选较清爽的鱼类，而不是猪肉或香肠时很合适。",
+      "nl": "Een lichtere Duitse keuze als je milde vis wilt in plaats van varkensvlees of worst."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.74,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -2001,104 +2039,110 @@ const globalDepthDishConfigs = [
     "cuisineId": "german",
     "names": {
       "en": "Germknödel",
-      "zh": "奥德甜酵母团子",
+      "zh": "甜酵母团子",
       "nl": "Germknödel",
-      "local": "germknödel"
+      "local": "Germknödel"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "steamed"
     ],
     "shortDescription": {
-      "en": "Germknödel is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "奥德甜酵母团子是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Germknödel is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Large steamed yeast dumpling, usually filled with plum and served with poppy seeds and vanilla sauce.",
+      "zh": "大号甜酵母团子，常夹李子馅，配罂粟籽和香草酱。",
+      "nl": "Grote gestoomde gistknoedel, vaak met pruimenvulling, maanzaad en vanillesaus."
     },
     "cookingProfile": {
-      "en": "Usually served with soft dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is soft and bready rather than crisp, with a sweet sauce and poppy-seed finish.",
+      "zh": "口感柔软像面包，不是酥脆甜点，重点是甜酱和罂粟籽香。",
+      "nl": "Zacht en broodachtig, niet krokant, met zoete saus en maanzaad."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "dessert",
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency German menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将德国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Duits menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "An Alpine dessert common around Bavarian and Austrian-style menus.",
+        "zh": "阿尔卑斯地区甜点，常见于巴伐利亚和奥地利风格菜单。",
+        "nl": "Een Alpenachtig dessert op Beierse en Oostenrijkse menu's."
       }
     },
     "composition": [
       [
-        "sugar",
-        30,
-        "sweetness"
+        "wheat-flour",
+        40,
+        "yeast dumpling"
+      ],
+      [
+        "plum-compote",
+        20,
+        "filling"
       ],
       [
         "cream",
-        25,
-        "base"
-      ],
-      [
-        "egg",
         15,
-        "richness"
+        "vanilla sauce"
       ],
       [
-        "wheat-flour",
-        15,
-        "structure"
-      ],
-      [
-        "vanilla",
+        "butter",
         10,
-        "aroma",
-        "seasoning"
+        "finish"
       ],
       [
-        "fruit-sauce-or-caramel",
+        "poppy-seeds",
+        10,
+        "topping"
+      ],
+      [
+        "sugar",
         5,
-        "finish"
+        "sweetness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "vanilla",
-      "cream",
-      "sweet finish"
+      "plum-compote",
+      "poppy-seeds",
+      "vanilla sauce"
     ],
     "basicTaste": [
       "sweet",
+      "fruity",
       "creamy"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft steamed dough",
+      "jammy center",
+      "tiny poppy-seed crunch"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
-      "dessert"
+      "dessert",
+      "comfort-food"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a warm, soft, filling dessert rather than a light cake slice.",
+      "zh": "想吃温热、柔软、很顶饱的甜点时适合；它不是轻盈蛋糕片。",
+      "nl": "Kies dit voor een warm, zacht en vullend dessert, niet voor een luchtig taartpuntje."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -2109,102 +2153,105 @@ const globalDepthDishConfigs = [
       "en": "Kaiserschmarrn",
       "zh": "皇帝煎饼",
       "nl": "Kaiserschmarrn",
-      "local": "kaiserschmarrn"
+      "local": "Kaiserschmarrn"
     },
     "category": "dessert",
+    "goodForSharing": true,
     "cookingMethods": [
-      "baked"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Kaiserschmarrn is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "皇帝煎饼是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Kaiserschmarrn is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Torn fluffy pancake pieces dusted with sugar, usually served with plum compote.",
+      "zh": "撕成小块的松软煎饼撒糖粉，通常配李子果酱。",
+      "nl": "Gescheurde luchtige pannenkoekstukjes met poedersuiker, vaak met pruimencompote."
     },
     "cookingProfile": {
-      "en": "Usually served with soft dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is pan-fried in pieces, giving browned edges, soft centers, and a dessert-for-sharing feel.",
+      "zh": "煎饼被切撕后再煎，边缘微焦，内部柔软，适合分享。",
+      "nl": "In stukjes gebakken: bruine randjes, zachte binnenkant en goed om te delen."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "dessert",
+        "regional-dish",
+        "sharing"
       ],
       "description": {
-        "en": "A high-frequency German menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将德国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Duits menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "An Austrian-Alpine dessert widely seen on Bavarian and German-speaking menus.",
+        "zh": "奥地利和阿尔卑斯地区甜点，在巴伐利亚及德语菜单上很常见。",
+        "nl": "Een Oostenrijks-Alpen dessert dat vaak op Beierse en Duitstalige menu's staat."
       }
     },
     "composition": [
       [
-        "sugar",
-        30,
-        "sweetness"
-      ],
-      [
-        "cream",
-        25,
+        "pancake-batter",
+        55,
         "base"
       ],
       [
         "egg",
         15,
-        "richness"
-      ],
-      [
-        "wheat-flour",
-        15,
         "structure"
       ],
       [
-        "vanilla",
+        "butter",
         10,
-        "aroma",
-        "seasoning"
+        "frying richness"
       ],
       [
-        "fruit-sauce-or-caramel",
-        5,
+        "plum-compote",
+        10,
+        "side"
+      ],
+      [
+        "sugar",
+        10,
         "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "vanilla",
-      "cream",
-      "sweet finish"
+      "butter",
+      "powdered sugar",
+      "plum-compote"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "buttery",
+      "fruity"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "fluffy torn pancake",
+      "browned edges",
+      "jammy fruit side"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
-      "dessert"
+      "dessert",
+      "sharing"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Great for sharing a warm sweet plate; heavier than a small pastry.",
+      "zh": "适合分享一份温热甜点；比小块糕点更有分量。",
+      "nl": "Mooi om een warm zoet bord te delen; zwaarder dan klein gebak."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -2422,100 +2469,101 @@ const globalDepthDishConfigs = [
       "en": "Kartoffelsuppe",
       "zh": "德式土豆汤",
       "nl": "Aardappelsoep",
-      "local": "kartoffelsuppe"
+      "local": "Kartoffelsuppe"
     },
     "category": "soup",
     "cookingMethods": [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Kartoffelsuppe is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式土豆汤是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Aardappelsoep is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Hearty German potato soup, often with leek, carrot, herbs, and smoked sausage.",
+      "zh": "扎实的德式土豆汤，常有韭葱、胡萝卜、香草和烟熏香肠。",
+      "nl": "Stevige Duitse aardappelsoep, vaak met prei, wortel, kruiden en rookworst."
     },
     "cookingProfile": {
-      "en": "Usually served with warm broth, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现warm broth，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met warm broth; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is simmered until creamy or chunky, so it feels warming and filling without being crisp.",
+      "zh": "慢煮到浓稠或带土豆块，温暖顶饱，不是酥脆型菜。",
+      "nl": "Gestoofd tot romig of stukjesrijk: warm en vullend, niet krokant."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "soup",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency German menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将德国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Duits menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common German home-style and casual restaurant soup.",
+        "zh": "德国家庭风和休闲餐厅都常见的汤类。",
+        "nl": "Een veelvoorkomende Duitse huiselijke en informele restaurantsoep."
       }
     },
     "composition": [
       [
+        "potato",
+        55,
+        "base"
+      ],
+      [
         "broth",
-        45,
+        20,
         "soup base"
       ],
       [
-        "pork",
-        25,
-        "main"
+        "smoked-sausage",
+        10,
+        "garnish",
+        "ingredient",
+        "medium",
+        true
       ],
       [
         "mixed-vegetables",
-        15,
-        "body"
-      ],
-      [
-        "potato",
-        5,
-        "body"
+        10,
+        "vegetable body"
       ],
       [
         "parsley",
         5,
         "finish",
         "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "broth",
-      "herbs"
+      "potato",
+      "smoked-sausage",
+      "parsley"
     ],
     "basicTaste": [
-      "brothy",
-      "savory"
+      "savory",
+      "mild",
+      "hearty"
     ],
     "textureProfile": [
-      "warm broth",
-      "soft pieces"
+      "creamy soup",
+      "soft potato chunks",
+      "warm broth"
     ],
     "riskFlags": [
       "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "soup",
+      "comfort-food"
     ],
     "avoidIfTags": [
       "no-pork"
     ],
     "orderVerdict": {
-      "en": "Order if this brothy, savory profile sounds appealing; check pork if that matters.",
-      "zh": "如果你想要brothy、savory的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van brothy, savory je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A warming low-risk choice, but ask about sausage or bacon if avoiding pork.",
+      "zh": "想要温暖、稳妥的汤品时适合；不吃猪肉时需确认是否加香肠或培根。",
+      "nl": "Een warme veilige keuze, maar vraag naar worst of spek bij geen varkensvlees."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {

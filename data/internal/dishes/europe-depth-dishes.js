@@ -12678,93 +12678,96 @@ const europeDepthDishConfigs = [
     },
     "category": "meat",
     "cookingMethods": [
-      "braised"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Frikadellen is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式煎肉饼是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Frikadellen is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Pan-fried German meat patties, often served with mustard, potato salad, or bread.",
+      "zh": "平底锅煎的德式肉饼，常配芥末、土豆沙拉或面包。",
+      "nl": "Gebakken Duitse gehaktballen/gehaktschijven, vaak met mosterd, aardappelsalade of brood."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "They are browned in a pan, so they have a crust outside and a soft minced-meat center.",
+      "zh": "平底锅煎出焦香外层，里面是柔软肉糜口感。",
+      "nl": "In de pan gebruind, met korst buiten en zachte gehaktkern."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A common German home-style and pub-style meat patty, distinct from creamy meatball dishes.",
+        "zh": "德国常见家常/酒馆风肉饼，和奶油酱肉丸不同。",
+        "nl": "Een veelvoorkomende Duitse huiselijke of kroegachtige gehaktschijf, anders dan romige gehaktballetjes."
       }
     },
     "composition": [
       [
-        "beef",
-        45,
-        "main"
+        "ground-meat",
+        60,
+        "patty"
       ],
       [
-        "potato",
-        20,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
+        "bread",
         15,
-        "body"
+        "binder"
+      ],
+      [
+        "egg",
+        10,
+        "binder"
       ],
       [
         "onion",
         10,
-        "aromatic"
+        "aroma"
       ],
       [
-        "black-pepper",
+        "mustard",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
+        "condiment",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "browned ground meat",
+      "onion",
+      "mustard"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "salty",
+      "meaty"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "browned crust",
+      "soft minced center",
+      "firm bite"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "meat"
+      "comfort-food",
+      "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A straightforward meat choice; ask whether it is beef, pork, or mixed if that matters.",
+      "zh": "是直接好懂的肉类选择；介意牛猪混合时要确认肉源。",
+      "nl": "Een rechttoe rechtaan vleeskeuze; vraag naar rund, varken of gemengd als dat uitmaakt."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -14545,100 +14548,112 @@ const europeDepthDishConfigs = [
       "local": "Obatzda"
     },
     "category": "cheese",
+    "mealRole": "starter-or-side",
+    "portionType": "shareable",
+    "goodForSharing": true,
     "cookingMethods": [
       "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Obatzda is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "巴伐利亚奶酪抹酱是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Obatzda is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Bavarian cheese spread made with soft cheese, butter, paprika, onion, and usually served with pretzel.",
+      "zh": "巴伐利亚奶酪抹酱，由软奶酪、黄油、红椒粉和洋葱调成，常配碱水结。",
+      "nl": "Beierse kaasspread van zachte kaas, boter, paprika en ui, meestal met pretzel."
     },
     "cookingProfile": {
-      "en": "Usually served with cheese-focused dish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现cheese-focused dish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met cheese-focused dish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is not cooked; expect a cool, creamy, slightly pungent spread for bread or pretzel.",
+      "zh": "它不是热菜，口感冰凉 creamy，带一点成熟奶酪和洋葱的冲味。",
+      "nl": "Niet gekookt; koel, romig en licht pittig als spread voor brood of pretzel."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "beer-hall",
+        "sharing"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Bavarian beer-garden starter or snack, especially common with pretzels.",
+        "zh": "巴伐利亚啤酒花园常见前菜或小吃，尤其常搭碱水结。",
+        "nl": "Een Beierse biergartensnack of starter, vooral met pretzels."
       }
     },
     "composition": [
       [
-        "cheese",
+        "camembert",
         45,
-        "main"
+        "cheese base"
       ],
       [
-        "bread",
-        20,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
+        "butter",
         15,
-        "body"
+        "richness"
       ],
       [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
+        "cream-cheese",
+        15,
+        "softener"
       ],
       [
-        "black-pepper",
+        "pretzel-dough",
+        15,
+        "side"
+      ],
+      [
+        "onion",
         5,
-        "seasoning",
-        "seasoning"
+        "aroma"
       ],
       [
-        "parsley",
+        "paprika",
         5,
-        "finish",
+        "color and spice",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cheese",
-      "cream",
-      "pepper"
+      "camembert",
+      "paprika",
+      "onion"
     ],
     "basicTaste": [
+      "creamy",
+      "salty",
       "savory",
-      "creamy"
+      "slightly pungent"
     ],
     "textureProfile": [
-      "creamy or firm cheese",
-      "savory finish"
+      "thick spread",
+      "soft cheese",
+      "chewy pretzel side"
     ],
     "riskFlags": [
       "contains-dairy",
       "contains-gluten"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "cheese"
+      "sharing",
+      "beer-hall",
+      "vegetarian"
     ],
     "avoidIfTags": [
-      "dairy-free"
+      "dairy-free",
+      "gluten-free",
+      "avoids-strong-cheese"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A strong shared snack with beer or pretzel; skip if ripe cheese or onion sounds too intense.",
+      "zh": "配啤酒或碱水结很合适，适合分享；不喜欢成熟奶酪或洋葱冲味时避开。",
+      "nl": "Een sterke deelsnack bij bier of pretzel; sla over als rijpe kaas of ui te heftig klinkt."
     },
+    "confidenceTag": "audited-german-batch-007",
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
