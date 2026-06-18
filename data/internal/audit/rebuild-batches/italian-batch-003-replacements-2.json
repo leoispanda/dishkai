@@ -1,0 +1,137 @@
+[
+  {
+    "dishId": "brasato-al-barolo",
+    "metadataCode": "101046",
+    "cuisineId": "italian",
+    "name": "Brasato al Barolo",
+    "imagePath": "/assets/dishes/main/101046-brasato-al-barolo.webp",
+    "thumbPath": "/assets/dishes/thumb/101046-brasato-al-barolo.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "trippa-alla-romana",
+    "metadataCode": "101047",
+    "cuisineId": "italian",
+    "name": "Trippa alla Romana",
+    "imagePath": "/assets/dishes/main/101047-trippa-alla-romana.webp",
+    "thumbPath": "/assets/dishes/thumb/101047-trippa-alla-romana.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "suppli",
+    "metadataCode": "101048",
+    "cuisineId": "italian",
+    "name": "Suppli",
+    "imagePath": "/assets/dishes/main/101048-suppli.webp",
+    "thumbPath": "/assets/dishes/thumb/101048-suppli.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "panzerotti",
+    "metadataCode": "101049",
+    "cuisineId": "italian",
+    "name": "Panzerotti",
+    "imagePath": "/assets/dishes/main/101049-panzerotti.webp",
+    "thumbPath": "/assets/dishes/thumb/101049-panzerotti.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "piadina",
+    "metadataCode": "101050",
+    "cuisineId": "italian",
+    "name": "Piadina",
+    "imagePath": "/assets/dishes/main/101050-piadina.webp",
+    "thumbPath": "/assets/dishes/thumb/101050-piadina.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "pinsa-romana",
+    "metadataCode": "101051",
+    "cuisineId": "italian",
+    "name": "Pinsa Romana",
+    "imagePath": "/assets/dishes/main/101051-pinsa-romana.webp",
+    "thumbPath": "/assets/dishes/thumb/101051-pinsa-romana.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "calzone",
+    "metadataCode": "101052",
+    "cuisineId": "italian",
+    "name": "Calzone",
+    "imagePath": "/assets/dishes/main/101052-calzone.webp",
+    "thumbPath": "/assets/dishes/thumb/101052-calzone.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "sarde-a-beccafico",
+    "metadataCode": "101053",
+    "cuisineId": "italian",
+    "name": "Sarde a Beccafico",
+    "imagePath": "/assets/dishes/main/101053-sarde-a-beccafico.webp",
+    "thumbPath": "/assets/dishes/thumb/101053-sarde-a-beccafico.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "involtini",
+    "metadataCode": "101054",
+    "cuisineId": "italian",
+    "name": "Involtini",
+    "imagePath": "/assets/dishes/main/101054-involtini.webp",
+    "thumbPath": "/assets/dishes/thumb/101054-involtini.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "sfogliatelle",
+    "metadataCode": "101055",
+    "cuisineId": "italian",
+    "name": "Sfogliatelle",
+    "imagePath": "/assets/dishes/main/101055-sfogliatelle.webp",
+    "thumbPath": "/assets/dishes/thumb/101055-sfogliatelle.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "zabaglione",
+    "metadataCode": "101056",
+    "cuisineId": "italian",
+    "name": "Zabaglione",
+    "imagePath": "/assets/dishes/main/101056-zabaglione.webp",
+    "thumbPath": "/assets/dishes/thumb/101056-zabaglione.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "semifreddo",
+    "metadataCode": "101057",
+    "cuisineId": "italian",
+    "name": "Semifreddo",
+    "imagePath": "/assets/dishes/main/101057-semifreddo.webp",
+    "thumbPath": "/assets/dishes/thumb/101057-semifreddo.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "granita",
+    "metadataCode": "101058",
+    "cuisineId": "italian",
+    "name": "Granita",
+    "imagePath": "/assets/dishes/main/101058-granita.webp",
+    "thumbPath": "/assets/dishes/thumb/101058-granita.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "bresaola-rucola-parmesan",
+    "metadataCode": "101059",
+    "cuisineId": "italian",
+    "name": "Bresaola Rucola Parmesan",
+    "imagePath": "/assets/dishes/main/101059-bresaola-rucola-parmesan.webp",
+    "thumbPath": "/assets/dishes/thumb/101059-bresaola-rucola-parmesan.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "zuppa-di-cozze",
+    "metadataCode": "101060",
+    "cuisineId": "italian",
+    "name": "Zuppa di Cozze",
+    "imagePath": "/assets/dishes/main/101060-zuppa-di-cozze.webp",
+    "thumbPath": "/assets/dishes/thumb/101060-zuppa-di-cozze.webp",
+    "metadataConfidence": 0.72
+  }
+]

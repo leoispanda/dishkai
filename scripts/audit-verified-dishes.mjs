@@ -138,7 +138,7 @@ function flattenDishSources() {
       ...dish,
       sourceFile: item.sourceFile,
       layer: item.layer,
-      sourceHighRisk: item.highRisk,
+      sourceHighRisk: item.highRisk && !verifiedDishIds.has(dish.id),
       verifiedExported: verifiedDishIds.has(dish.id),
     })),
   );
@@ -150,7 +150,7 @@ function flattenAliasSources() {
       ...alias,
       sourceFile: item.sourceFile,
       layer: item.layer,
-      sourceHighRisk: item.highRisk,
+      sourceHighRisk: item.highRisk && !verifiedDishIds.has(alias.dishId),
       verifiedExported: metadata.dishAliases.some((verifiedAlias) => verifiedAlias.alias === alias.alias && verifiedAlias.dishId === alias.dishId),
     })),
   );
@@ -401,7 +401,7 @@ function buildDishListDoc() {
     `- Total verified dishes: ${metadata.dishes.length}`,
     `- Total aliases: ${metadata.dishAliases.length}`,
     `- Total cuisines: ${byCuisine.size}`,
-    "- Quarantined generated layers are excluded from this verified list until batch rebuild.",
+    "- Generated layers remain quarantined except for rows restored through a documented human audit batch.",
     "",
   ];
 
@@ -531,7 +531,7 @@ function buildFullReport(rows, aliasRows, assetSummary, overviewLinks) {
     `- Verified export rows with automated keep-verified status: ${exportedRows.filter((row) => row.auditStatus === "keep-verified").length}`,
     `- Verified export rows requiring metadata/image follow-up: ${exportedRows.filter((row) => row.auditStatus !== "keep-verified").length}`,
     "",
-    "The audit found systemic template language, low confidence values, repeated compositions, and placeholder localized text in the generated expansion layers. Those layers are no longer part of `metadata.dishes` or `metadata.dishAliases` and must be rebuilt in review batches of at most 30 dishes before returning to verified status.",
+    "The audit found systemic template language, low confidence values, repeated compositions, and placeholder localized text in the generated expansion layers. Those layers remain quarantined from `metadata.dishes` and `metadata.dishAliases` except for rows restored through documented review batches of at most 30 dishes.",
     "",
     "## Status counts",
     "",

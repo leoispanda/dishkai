@@ -34,6 +34,7 @@ export const seasonings = [
   seasoning("vanilla", "301013", "vanilla", "香草", "vanille", ["sweet", "aromatic"], "vanilla-soft-dessert-aroma", []),
   seasoning("cocoa", "301014", "cocoa", "可可", "cacao", ["bitter"], "cocoa-dry-bittersweet", []),
   seasoning("coffee", "301015", "coffee", "咖啡", "koffie", ["bitter", "roasty"], "coffee-roasted-bitterness", []),
+  seasoning("sage", "301016", "sage", "鼠尾草", "salie", ["herbal", "warm"], "sage-warm-herbal-aroma", []),
   seasoning("cumin", "300009", "cumin", "孜然", "komijn", ["earthy", "warm"], "cumin-smoky-earthy", []),
   seasoning("coriander", "300010", "coriander", "香菜籽/芫荽", "koriander", ["citrusy", "warm"], "coriander-citrusy-warm", []),
   seasoning("turmeric", "300011", "turmeric", "姜黄", "kurkuma", ["earthy", "bitter"], "turmeric-earthy-golden", []),

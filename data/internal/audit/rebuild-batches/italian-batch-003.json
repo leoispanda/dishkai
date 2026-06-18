@@ -1,0 +1,167 @@
+[
+  {
+    "dishId": "cacio-e-pepe",
+    "metadataCode": "101016",
+    "cuisineId": "italian",
+    "name": "Cacio e Pepe",
+    "imagePath": "/assets/dishes/main/101016-cacio-e-pepe.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from template source; contact-sheet image visually matches cacio e pepe with cheese and black pepper."
+  },
+  {
+    "dishId": "amatriciana",
+    "metadataCode": "101017",
+    "cuisineId": "italian",
+    "name": "Amatriciana",
+    "imagePath": "/assets/dishes/main/101017-amatriciana.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from template source; contact-sheet image matches tomato pasta with cured pork-style pieces."
+  },
+  {
+    "dishId": "bolognese",
+    "metadataCode": "101018",
+    "cuisineId": "italian",
+    "name": "Bolognese",
+    "imagePath": "/assets/dishes/main/101018-bolognese.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from template source; contact-sheet image matches pasta with meat ragù."
+  },
+  {
+    "dishId": "spaghetti-vongole",
+    "metadataCode": "101019",
+    "cuisineId": "italian",
+    "name": "Spaghetti alle Vongole",
+    "imagePath": "/assets/dishes/main/101019-spaghetti-vongole.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from template source; contact-sheet image clearly shows spaghetti with clams."
+  },
+  {
+    "dishId": "burrata",
+    "metadataCode": "101020",
+    "cuisineId": "italian",
+    "name": "Burrata",
+    "imagePath": "/assets/dishes/main/101020-burrata.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from template source; contact-sheet image matches burrata with tomato and greens."
+  },
+  {
+    "dishId": "arancini",
+    "metadataCode": "101021",
+    "cuisineId": "italian",
+    "name": "Arancini",
+    "imagePath": "/assets/dishes/main/101021-arancini.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from wrong fried-chicken composition; contact-sheet image matches fried rice balls."
+  },
+  {
+    "dishId": "calamari-fritti",
+    "metadataCode": "101022",
+    "cuisineId": "italian",
+    "name": "Calamari Fritti",
+    "imagePath": "/assets/dishes/main/101022-calamari-fritti.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from wrong raw-fish/rice composition; contact-sheet image matches fried calamari."
+  },
+  {
+    "dishId": "carpaccio",
+    "metadataCode": "101023",
+    "cuisineId": "italian",
+    "name": "Carpaccio",
+    "imagePath": "/assets/dishes/main/101023-carpaccio.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from generic starter composition; contact-sheet image matches thin raw beef carpaccio."
+  },
+  {
+    "dishId": "polenta",
+    "metadataCode": "101024",
+    "cuisineId": "italian",
+    "name": "Polenta",
+    "imagePath": "/assets/dishes/main/101024-polenta.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from vegetable-template composition; contact-sheet image matches soft polenta."
+  },
+  {
+    "dishId": "saltimbocca",
+    "metadataCode": "101025",
+    "cuisineId": "italian",
+    "name": "Saltimbocca",
+    "imagePath": "/assets/dishes/main/101025-saltimbocca.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from beef/potato template; contact-sheet image matches veal cutlets with prosciutto and sage."
+  },
+  {
+    "dishId": "cannoli",
+    "metadataCode": "101026",
+    "cuisineId": "italian",
+    "name": "Cannoli",
+    "imagePath": "/assets/dishes/main/101026-cannoli.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from generic dessert composition; contact-sheet image matches cannoli pastry tubes with cream filling."
+  },
+  {
+    "dishId": "gelato",
+    "metadataCode": "101027",
+    "cuisineId": "italian",
+    "name": "Gelato",
+    "imagePath": "/assets/dishes/main/101027-gelato.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from generic dessert composition; contact-sheet image matches scoops of gelato."
+  },
+  {
+    "dishId": "prosciutto-e-melone",
+    "metadataCode": "101028",
+    "cuisineId": "italian",
+    "name": "Prosciutto e Melone",
+    "imagePath": "/assets/dishes/main/101028-prosciutto-e-melone.webp",
+    "metadataConfidence": 0.74,
+    "auditStatus": "replace-image",
+    "imageStatus": "rejected",
+    "notes": "Contact-sheet image shows tomato pasta/gnocchi-like food, not prosciutto with melon; metadata also remains generated and must be rebuilt before verified."
+  },
+  {
+    "dishId": "vitello-tonnato",
+    "metadataCode": "101029",
+    "cuisineId": "italian",
+    "name": "Vitello Tonnato",
+    "imagePath": "/assets/dishes/main/101029-vitello-tonnato.webp",
+    "metadataConfidence": 0.74,
+    "auditStatus": "replace-image",
+    "imageStatus": "rejected",
+    "notes": "Contact-sheet image shows spaghetti with clams, not sliced veal with tuna sauce; metadata also remains generated and must be rebuilt before verified."
+  },
+  {
+    "dishId": "affogato",
+    "metadataCode": "101030",
+    "cuisineId": "italian",
+    "name": "Affogato",
+    "imagePath": "/assets/dishes/main/101030-affogato.webp",
+    "metadataConfidence": 0.74,
+    "auditStatus": "replace-image",
+    "imageStatus": "rejected",
+    "notes": "Contact-sheet image shows tomato bruschetta/toast, not espresso over gelato; metadata also remains generated and must be rebuilt before verified."
+  }
+]

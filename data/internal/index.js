@@ -42,6 +42,21 @@ const generatedCandidateDishAliases = [
   ...worldDishAliases,
 ];
 
+const auditedGeneratedDishIds = new Set([
+  "cacio-e-pepe",
+  "amatriciana",
+  "bolognese",
+  "spaghetti-vongole",
+  "burrata",
+  "arancini",
+  "calamari-fritti",
+  "carpaccio",
+  "polenta",
+  "saltimbocca",
+  "cannoli",
+  "gelato",
+]);
+
 export {
   cuisineRegions,
   cuisines,
@@ -137,19 +152,29 @@ function clearsVerifiedGate(dish) {
   return true;
 }
 
-export const dishes = trustedCandidateDishes.filter(clearsVerifiedGate);
+const reviewedGeneratedDishes = generatedCandidateDishes.filter((dish) => auditedGeneratedDishIds.has(dish.id));
+
+export const dishes = [
+  ...trustedCandidateDishes,
+  ...reviewedGeneratedDishes,
+].filter(clearsVerifiedGate);
 const verifiedDishIds = new Set(dishes.map((dish) => dish.id));
 
 export const quarantinedDishes = [
   ...trustedCandidateDishes.filter((dish) => !verifiedDishIds.has(dish.id)),
-  ...generatedCandidateDishes,
+  ...generatedCandidateDishes.filter((dish) => !verifiedDishIds.has(dish.id)),
 ];
 
-export const dishAliases = trustedCandidateDishAliases.filter((alias) => verifiedDishIds.has(alias.dishId));
+export const dishAliases = [
+  ...trustedCandidateDishAliases,
+  ...generatedCandidateDishAliases.filter((alias) => auditedGeneratedDishIds.has(alias.dishId)),
+].filter((alias) => verifiedDishIds.has(alias.dishId));
+
+const verifiedDishAliasKeys = new Set(dishAliases.map(aliasKey));
 
 export const quarantinedDishAliases = [
-  ...trustedCandidateDishAliases.filter((alias) => !verifiedDishIds.has(alias.dishId)),
-  ...generatedCandidateDishAliases,
+  ...trustedCandidateDishAliases.filter((alias) => !verifiedDishAliasKeys.has(aliasKey(alias))),
+  ...generatedCandidateDishAliases.filter((alias) => !verifiedDishAliasKeys.has(aliasKey(alias))),
 ];
 
 export const metadata = {
@@ -164,3 +189,7 @@ export const metadata = {
   dishAliases,
   dishes,
 };
+
+function aliasKey(alias) {
+  return `${alias.alias}\u0000${alias.dishId}`;
+}

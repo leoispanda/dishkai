@@ -2,10 +2,10 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 93
-- Total aliases: 405
+- Total verified dishes: 105
+- Total aliases: 443
 - Total cuisines: 10
-- Quarantined generated layers are excluded from this verified list until batch rebuild.
+- Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
 ## Belgian (belgian) - 5
 
@@ -88,7 +88,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 30. 104042 - `portokalopita` - Portokalopita / 希腊橙香糖浆蛋糕 / πορτοκαλόπιτα
 31. 104046 - `lavraki` - Lavraki / 希腊烤海鲈鱼 / λαβράκι
 
-## Italian (italian) - 15
+## Italian (italian) - 27
 
 1. 101001 - `carbonara` - Carbonara / 卡邦尼意面
 2. 101002 - `margherita-pizza` - Margherita Pizza / 玛格丽特披萨
@@ -105,6 +105,18 @@ Generated from data/internal/index.js after the verified database quarantine aud
 13. 101013 - `minestrone` - Minestrone / 意式蔬菜汤
 14. 101014 - `focaccia` - Focaccia / 佛卡夏
 15. 101015 - `panna-cotta` - Panna Cotta / 意式奶冻
+16. 101016 - `cacio-e-pepe` - Cacio e Pepe / 奶酪黑胡椒意面 / Cacio e pepe
+17. 101017 - `amatriciana` - Amatriciana / 阿马特里恰纳意面 / Amatriciana
+18. 101018 - `bolognese` - Bolognese / 博洛尼亚肉酱面 / Bolognese
+19. 101019 - `spaghetti-vongole` - Spaghetti alle Vongole / 蛤蜊意面 / Spaghetti alle vongole
+20. 101020 - `burrata` - Burrata / 布拉塔奶酪 / Burrata
+21. 101021 - `arancini` - Arancini / 西西里炸饭团 / Arancini
+22. 101022 - `calamari-fritti` - Calamari Fritti / 炸鱿鱼圈 / Calamari fritti
+23. 101023 - `carpaccio` - Carpaccio / 生牛肉薄片 / Carpaccio
+24. 101024 - `polenta` - Polenta / 玉米粥 / Polenta
+25. 101025 - `saltimbocca` - Saltimbocca / 鼠尾草火腿小牛肉 / Saltimbocca
+26. 101026 - `cannoli` - Cannoli / 西西里奶油卷 / Cannoli
+27. 101027 - `gelato` - Gelato / 意式冰淇淋 / Gelato
 
 ## Japanese (japanese) - 5
 

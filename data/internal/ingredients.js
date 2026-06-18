@@ -137,6 +137,10 @@ export const ingredients = [
   italian("pine-nuts", "201040", "pine nuts", "松子", "pijnboompitten", ["nutty"], ["vegan"], ["tree-nut"]),
   italian("pesto", "201041", "pesto", "罗勒青酱", "pesto", ["glossy", "herbal"], ["vegetarian"], ["dairy", "tree-nut"]),
   italian("olive-oil", "201042", "olive oil", "橄榄油", "olijfolie", ["glossy"], ["vegan"]),
+  italian("clams", "201043", "clams", "蛤蜊", "venusschelpen", ["tender", "briny"], ["pescatarian"], ["shellfish"]),
+  italian("veal-cutlet", "201044", "veal cutlet", "小牛肉片", "kalfslapje", ["tender"], [], []),
+  italian("prosciutto", "201045", "prosciutto", "意式风干火腿", "prosciutto", ["salty", "silky"], [], []),
+  italian("ricotta", "201046", "ricotta", "乳清奶酪", "ricotta", ["creamy", "soft"], ["vegetarian"], ["dairy"]),
 ];
 
 function ingredient(id, metadataCode, en, zh, nl, texture = [], dietaryFlags = [], allergens = []) {

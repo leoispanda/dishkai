@@ -1,0 +1,137 @@
+[
+  {
+    "dishId": "tagliatelle-al-ragu",
+    "metadataCode": "101031",
+    "cuisineId": "italian",
+    "name": "Tagliatelle al Ragu",
+    "imagePath": "/assets/dishes/main/101031-tagliatelle-al-ragu.webp",
+    "thumbPath": "/assets/dishes/thumb/101031-tagliatelle-al-ragu.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "pappardelle-al-cinghiale",
+    "metadataCode": "101032",
+    "cuisineId": "italian",
+    "name": "Pappardelle al Cinghiale",
+    "imagePath": "/assets/dishes/main/101032-pappardelle-al-cinghiale.webp",
+    "thumbPath": "/assets/dishes/thumb/101032-pappardelle-al-cinghiale.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "linguine-allo-scoglio",
+    "metadataCode": "101033",
+    "cuisineId": "italian",
+    "name": "Linguine allo Scoglio",
+    "imagePath": "/assets/dishes/main/101033-linguine-allo-scoglio.webp",
+    "thumbPath": "/assets/dishes/thumb/101033-linguine-allo-scoglio.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "spaghetti-alla-puttanesca",
+    "metadataCode": "101034",
+    "cuisineId": "italian",
+    "name": "Spaghetti alla Puttanesca",
+    "imagePath": "/assets/dishes/main/101034-spaghetti-alla-puttanesca.webp",
+    "thumbPath": "/assets/dishes/thumb/101034-spaghetti-alla-puttanesca.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "penne-arrabbiata",
+    "metadataCode": "101035",
+    "cuisineId": "italian",
+    "name": "Penne all Arrabbiata",
+    "imagePath": "/assets/dishes/main/101035-penne-arrabbiata.webp",
+    "thumbPath": "/assets/dishes/thumb/101035-penne-arrabbiata.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "pasta-alla-norma",
+    "metadataCode": "101036",
+    "cuisineId": "italian",
+    "name": "Pasta alla Norma",
+    "imagePath": "/assets/dishes/main/101036-pasta-alla-norma.webp",
+    "thumbPath": "/assets/dishes/thumb/101036-pasta-alla-norma.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "ribollita",
+    "metadataCode": "101037",
+    "cuisineId": "italian",
+    "name": "Ribollita",
+    "imagePath": "/assets/dishes/main/101037-ribollita.webp",
+    "thumbPath": "/assets/dishes/thumb/101037-ribollita.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "pappa-al-pomodoro",
+    "metadataCode": "101038",
+    "cuisineId": "italian",
+    "name": "Pappa al Pomodoro",
+    "imagePath": "/assets/dishes/main/101038-pappa-al-pomodoro.webp",
+    "thumbPath": "/assets/dishes/thumb/101038-pappa-al-pomodoro.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "panzanella",
+    "metadataCode": "101039",
+    "cuisineId": "italian",
+    "name": "Panzanella",
+    "imagePath": "/assets/dishes/main/101039-panzanella.webp",
+    "thumbPath": "/assets/dishes/thumb/101039-panzanella.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "insalata-di-mare",
+    "metadataCode": "101040",
+    "cuisineId": "italian",
+    "name": "Insalata di Mare",
+    "imagePath": "/assets/dishes/main/101040-insalata-di-mare.webp",
+    "thumbPath": "/assets/dishes/thumb/101040-insalata-di-mare.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "fritto-misto",
+    "metadataCode": "101041",
+    "cuisineId": "italian",
+    "name": "Fritto Misto",
+    "imagePath": "/assets/dishes/main/101041-fritto-misto.webp",
+    "thumbPath": "/assets/dishes/thumb/101041-fritto-misto.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "baccala-mantecato",
+    "metadataCode": "101042",
+    "cuisineId": "italian",
+    "name": "Baccala Mantecato",
+    "imagePath": "/assets/dishes/main/101042-baccala-mantecato.webp",
+    "thumbPath": "/assets/dishes/thumb/101042-baccala-mantecato.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "porchetta",
+    "metadataCode": "101043",
+    "cuisineId": "italian",
+    "name": "Porchetta",
+    "imagePath": "/assets/dishes/main/101043-porchetta.webp",
+    "thumbPath": "/assets/dishes/thumb/101043-porchetta.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "bistecca-fiorentina",
+    "metadataCode": "101044",
+    "cuisineId": "italian",
+    "name": "Bistecca alla Fiorentina",
+    "imagePath": "/assets/dishes/main/101044-bistecca-fiorentina.webp",
+    "thumbPath": "/assets/dishes/thumb/101044-bistecca-fiorentina.webp",
+    "metadataConfidence": 0.72
+  },
+  {
+    "dishId": "cotoletta-alla-milanese",
+    "metadataCode": "101045",
+    "cuisineId": "italian",
+    "name": "Cotoletta alla Milanese",
+    "imagePath": "/assets/dishes/main/101045-cotoletta-alla-milanese.webp",
+    "thumbPath": "/assets/dishes/thumb/101045-cotoletta-alla-milanese.webp",
+    "metadataConfidence": 0.72
+  }
+]

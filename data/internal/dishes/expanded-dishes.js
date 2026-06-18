@@ -4737,100 +4737,110 @@ export const expandedDishes = [
       "sauce-tossed"
     ],
     "shortDescription": {
-      "en": "Roman pasta with pecorino cheese and black pepper, creamy without cream when done traditionally.",
-      "zh": "奶酪黑胡椒意面 是常见意大利菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Cacio e pepe is een veelvoorkomend gerecht in de italiaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Roman pasta built around pecorino cheese, black pepper, and pasta water, with a creamy feel but no cream in the classic version.",
+      "zh": "罗马经典意面，核心是佩科里诺奶酪和黑胡椒，口感咸香浓郁，传统做法不靠奶油。",
+      "nl": "Romeinse pasta met pecorino, zwarte peper en pastawater; romig van gevoel, maar klassiek zonder room."
     },
     "cookingProfile": {
-      "en": "Usually served as a pasta with a springy pasta, coated sauce feel.",
-      "zh": "通常以pasta形式上桌，重点体验是springy pasta。",
-      "nl": "Meestal geserveerd als pasta met een springy pasta gevoel."
+      "en": "Served hot and glossy, with firm pasta coated in a salty cheese-and-pepper sauce.",
+      "zh": "热食上桌，面条有嚼劲，表面裹着咸香的奶酪黑胡椒酱。",
+      "nl": "Warm geserveerd, met stevige pasta in een zoute kaas-pepersaus."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
+        "classic-dish",
+        "regional-dish",
         "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Italian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频意大利菜菜品。",
-        "nl": "Een vaak voorkomend italiaans menu-item voor bredere restaurantdekking."
+        "en": "A Roman pasta classic that is useful for recognizing simple, cheese-forward Italian orders.",
+        "zh": "罗马代表性意面，适合识别以奶酪和黑胡椒为主的简洁意式点单。",
+        "nl": "Een Romeinse pastaklassieker voor het herkennen van eenvoudige, kaasgerichte Italiaanse bestellingen."
       }
     },
     "composition": [
       [
-        "pasta",
-        60,
+        "spaghetti",
+        65,
         "base"
       ],
       [
-        "cheese",
-        15,
+        "pecorino",
+        20,
+        "sauce-base"
+      ],
+      [
+        "parmesan",
+        5,
         "finish"
       ],
       [
-        "tomato-sauce",
-        15,
-        "sauce",
+        "black-pepper",
+        5,
+        "seasoning",
         "seasoning"
       ],
       [
         "olive-oil",
         5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "garlic",
-        5,
-        "aroma",
-        "seasoning"
+        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "olive-oil",
-      "parmesan",
-      "garlic"
+      "pecorino",
+      "black-pepper"
     ],
     "basicTaste": [
+      "salty",
       "savory",
+      "peppery",
       "creamy"
     ],
     "textureProfile": [
-      "springy pasta",
-      "coated sauce"
+      "firm pasta",
+      "silky cheese coating",
+      "pepper grain bite"
     ],
     "riskFlags": [
-      "contains-gluten"
+      "contains-gluten",
+      "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "classic-dish",
+      "first-timer-friendly",
+      "creamy"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "dairy-free",
+      "gluten-free",
+      "wants-tomato-sauce"
+    ],
     "orderVerdict": {
-      "en": "Excellent if you want simple salty cheese and pepper; not light or dairy-free.",
-      "zh": "如果你接受这类口味和风险，奶酪黑胡椒意面 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Choose it when you want a simple but rich cheese-and-pepper pasta; skip if you need a light or dairy-free plate.",
+      "zh": "想要简单但浓郁的奶酪黑胡椒意面时很合适；忌乳制品或想吃清淡口味时不推荐。",
+      "nl": "Kies dit voor een eenvoudige maar rijke kaas-peperpasta; minder geschikt als je licht of zuivelvrij wilt eten."
     },
-    "spiceLevel": 0,
+    "confidenceTag": "audited-italian-batch-003",
+    "spiceLevel": 1,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium",
     "commonVariations": [
       {
         "label": {
-          "en": "traditional",
-          "zh": "传统做法",
-          "nl": "traditioneel"
+          "en": "classic Roman",
+          "zh": "罗马经典",
+          "nl": "klassiek Romeins"
         },
         "note": {
-          "en": "Pecorino Romano, black pepper, pasta water, and no cream.",
-          "zh": "传统做法是佩科里诺、黑胡椒和煮面水，不加奶油。",
-          "nl": "Traditioneel met pecorino, zwarte peper en pastawater, zonder room."
+          "en": "Pecorino Romano, black pepper, and pasta water; cream is a restaurant variation.",
+          "zh": "经典版本是佩科里诺、黑胡椒和煮面水；加奶油属于餐厅变化。",
+          "nl": "Met pecorino romano, zwarte peper en pastawater; room is een restaurantvariant."
         }
       }
     ]
@@ -4851,88 +4861,105 @@ export const expandedDishes = [
       "sauce-tossed"
     ],
     "shortDescription": {
-      "en": "Pasta with tomato, cured pork, pecorino, and chili warmth.",
-      "zh": "阿马特里恰纳意面 是常见意大利菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Amatriciana is een veelvoorkomend gerecht in de italiaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Central Italian tomato pasta with guanciale or pancetta, pecorino, and a lightly spicy cured-pork depth.",
+      "zh": "中部意大利风格的番茄意面，常用风干猪颊肉或培根、佩科里诺和少量辣味。",
+      "nl": "Midden-Italiaanse tomatenpasta met guanciale of pancetta, pecorino en een licht pittige varkenssmaak."
     },
     "cookingProfile": {
-      "en": "Usually served as a pasta with a springy pasta, coated sauce feel.",
-      "zh": "通常以pasta形式上桌，重点体验是springy pasta。",
-      "nl": "Meestal geserveerd als pasta met een springy pasta gevoel."
+      "en": "Served hot with tomato sauce clinging to the pasta and small salty pieces of cured pork.",
+      "zh": "热食上桌，番茄酱汁包裹面条，并有咸香的风干猪肉小块。",
+      "nl": "Warm geserveerd, met tomatensaus rond de pasta en zoute stukjes gedroogd varkensvlees."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency Italian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频意大利菜菜品。",
-        "nl": "Een vaak voorkomend italiaans menu-item voor bredere restaurantdekking."
+        "en": "A Lazio-area pasta classic for diners who want tomato sauce with pork richness.",
+        "zh": "拉齐奥一带的经典意面，适合想要番茄酱汁和猪肉咸香的点单。",
+        "nl": "Een pastaklassieker uit de regio Lazio voor wie tomatensaus met varkensrijkdom wil."
       }
     },
     "composition": [
       [
-        "pasta",
-        60,
+        "spaghetti",
+        55,
         "base"
       ],
       [
-        "cheese",
+        "tomato-sauce",
+        20,
+        "sauce-base"
+      ],
+      [
+        "guanciale-or-pancetta",
         15,
+        "protein"
+      ],
+      [
+        "pecorino",
+        5,
         "finish"
       ],
       [
-        "tomato-sauce",
-        15,
-        "sauce",
+        "chili",
+        3,
+        "heat",
         "seasoning"
       ],
       [
-        "olive-oil",
-        5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "garlic",
-        5,
-        "aroma",
+        "black-pepper",
+        2,
+        "seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "olive-oil",
-      "parmesan",
-      "garlic"
+      "guanciale-or-pancetta",
+      "pecorino",
+      "chili"
     ],
     "basicTaste": [
       "savory",
-      "creamy"
+      "salty",
+      "tomato-tangy",
+      "mildly-spicy"
     ],
     "textureProfile": [
-      "springy pasta",
-      "coated sauce"
+      "firm pasta",
+      "coated tomato sauce",
+      "chewy cured pork"
     ],
     "riskFlags": [
-      "contains-gluten"
+      "contains-gluten",
+      "contains-dairy",
+      "contains-pork",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "classic-dish",
+      "spicy",
+      "pasta"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "no-pork",
+      "dairy-free",
+      "gluten-free",
+      "spice-sensitive"
+    ],
     "orderVerdict": {
-      "en": "Choose this if you like tomato pasta with porky depth.",
-      "zh": "如果你接受这类口味和风险，阿马特里恰纳意面 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A good pick if you want tomato pasta with porky salt and a little heat; not suitable for pork-free orders.",
+      "zh": "想吃带猪肉咸香和轻微辣感的番茄意面时很合适；不吃猪肉时应避开。",
+      "nl": "Goed als je tomatenpasta met zoute varkenssmaak en lichte pit wilt; niet geschikt zonder varkensvlees."
     },
+    "confidenceTag": "audited-italian-batch-003",
     "spiceLevel": 1,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -4947,93 +4974,102 @@ export const expandedDishes = [
     },
     "category": "pasta",
     "cookingMethods": [
+      "simmered",
       "boiled",
       "sauce-tossed"
     ],
     "shortDescription": {
-      "en": "Meat ragù pasta, usually rich, slow-cooked, and more savory than tomato-only sauce.",
-      "zh": "博洛尼亚肉酱面 是常见意大利菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Bolognese is een veelvoorkomend gerecht in de italiaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Pasta with a slow-simmered meat ragù, usually more meaty and less bright than tomato-only sauce.",
+      "zh": "搭配慢炖肉酱的意面，肉香明显，通常比单纯番茄酱更厚重。",
+      "nl": "Pasta met langzaam gestoofde vleessaus, meestal vlezig en minder fris dan alleen tomatensaus."
     },
     "cookingProfile": {
-      "en": "Usually served as a pasta with a springy pasta, coated sauce feel.",
-      "zh": "通常以pasta形式上桌，重点体验是springy pasta。",
-      "nl": "Meestal geserveerd als pasta met een springy pasta gevoel."
+      "en": "Served hot as a hearty pasta where the meat sauce is the main source of body.",
+      "zh": "热食上桌，分量感主要来自浓厚肉酱，整体偏饱足。",
+      "nl": "Warm geserveerd als stevige pasta waarbij de vleessaus voor de meeste vulling zorgt."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "first-timer-friendly",
+        "internationally-known"
       ],
       "description": {
-        "en": "A high-frequency Italian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频意大利菜菜品。",
-        "nl": "Een vaak voorkomend italiaans menu-item voor bredere restaurantdekking."
+        "en": "A widely recognized Italian-style meat-sauce pasta useful as a safe ordering reference.",
+        "zh": "识别度很高的意式肉酱意面，可作为稳妥点单参考。",
+        "nl": "Een breed herkenbare Italiaanse vleessauspasta, handig als veilige bestelreferentie."
       }
     },
     "composition": [
       [
         "pasta",
-        60,
+        45,
         "base"
       ],
       [
-        "cheese",
-        15,
-        "finish"
+        "meat-ragu",
+        35,
+        "sauce-base"
       ],
       [
         "tomato-sauce",
-        15,
-        "sauce",
-        "seasoning"
+        10,
+        "sauce-base"
       ],
       [
-        "olive-oil",
+        "parmesan",
         5,
-        "finish",
-        "seasoning"
+        "finish"
       ],
       [
-        "garlic",
+        "onion",
         5,
-        "aroma",
-        "seasoning"
+        "aroma"
       ]
     ],
     "distinctiveFlavorSources": [
-      "olive-oil",
+      "meat-ragu",
       "parmesan",
-      "garlic"
+      "tomato-sauce"
     ],
     "basicTaste": [
       "savory",
-      "creamy"
+      "umami",
+      "rich"
     ],
     "textureProfile": [
-      "springy pasta",
-      "coated sauce"
+      "firm pasta",
+      "thick meat sauce",
+      "grated cheese finish"
     ],
     "riskFlags": [
-      "contains-gluten"
+      "contains-gluten",
+      "contains-dairy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "safe-choice",
+      "first-timer-friendly",
+      "internationally-known"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "vegetarian",
+      "dairy-free",
+      "gluten-free",
+      "wants-light-food"
+    ],
     "orderVerdict": {
-      "en": "A hearty safe choice if you want meat sauce.",
-      "zh": "如果你接受这类口味和风险，博洛尼亚肉酱面 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A safe, filling choice if you want meat sauce; ask about the meat mix if pork or beef matters.",
+      "zh": "想吃肉酱和饱足感时是稳妥选择；若在意猪肉或牛肉，需要询问肉酱组成。",
+      "nl": "Een veilige, vullende keuze voor vleessaus; vraag naar de vleesmix als varken of rund belangrijk is."
     },
+    "confidenceTag": "audited-italian-batch-003",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "high"
   }),
   starterDish({
     "id": "spaghetti-vongole",
@@ -5051,90 +5087,99 @@ export const expandedDishes = [
       "sauce-tossed"
     ],
     "shortDescription": {
-      "en": "Pasta with clams, garlic, olive oil, and white-wine style aroma.",
-      "zh": "蛤蜊意面 是常见意大利菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Spaghetti vongole is een veelvoorkomend gerecht in de italiaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Spaghetti with clams, garlic, olive oil, and often white wine, usually briny rather than creamy.",
+      "zh": "蛤蜊、蒜、橄榄油和常见白葡萄酒风味的意面，重点是海味鲜咸而不是奶油感。",
+      "nl": "Spaghetti met venusschelpen, knoflook, olijfolie en vaak witte wijn; eerder zilte zee dan romig."
     },
     "cookingProfile": {
-      "en": "Usually served as a pasta with a springy pasta, coated sauce feel.",
-      "zh": "通常以pasta形式上桌，重点体验是springy pasta。",
-      "nl": "Meestal geserveerd als pasta met een springy pasta gevoel."
+      "en": "Served hot with a light glossy sauce and whole clams visible on the plate.",
+      "zh": "热食上桌，酱汁轻薄油润，盘中通常能直接看到带壳蛤蜊。",
+      "nl": "Warm geserveerd met een lichte glanzende saus en zichtbare schelpen op het bord."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency Italian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频意大利菜菜品。",
-        "nl": "Een vaak voorkomend italiaans menu-item voor bredere restaurantdekking."
+        "en": "A coastal Italian pasta reference for briny seafood orders.",
+        "zh": "沿海意大利常见的海鲜意面参考，适合识别鲜咸贝类点单。",
+        "nl": "Een kust-Italiaanse pastareferentie voor ziltige zeevruchtenbestellingen."
       }
     },
     "composition": [
       [
-        "pasta",
-        60,
+        "spaghetti",
+        55,
         "base"
       ],
       [
-        "cheese",
-        15,
-        "finish"
+        "clams",
+        25,
+        "seafood"
       ],
       [
-        "tomato-sauce",
-        15,
-        "sauce",
-        "seasoning"
-      ],
-      [
-        "olive-oil",
-        5,
-        "finish",
-        "seasoning"
+        "wine",
+        10,
+        "sauce-base"
       ],
       [
         "garlic",
         5,
-        "aroma",
-        "seasoning"
+        "aroma"
+      ],
+      [
+        "olive-oil",
+        5,
+        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "olive-oil",
-      "parmesan",
-      "garlic"
+      "clams",
+      "garlic",
+      "wine",
+      "olive-oil"
     ],
     "basicTaste": [
+      "briny",
       "savory",
-      "creamy"
+      "garlicky",
+      "light"
     ],
     "textureProfile": [
-      "springy pasta",
-      "coated sauce"
+      "firm spaghetti",
+      "tender clams",
+      "light glossy sauce"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-shellfish"
+      "contains-shellfish",
+      "contains-alcohol"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+      "regional-dish",
+      "lighter-choice",
+      "seafood"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "gluten-free",
+      "no-alcohol"
+    ],
     "orderVerdict": {
-      "en": "Great for seafood pasta lovers; avoid if shellfish is an issue.",
-      "zh": "如果你接受这类口味和风险，蛤蜊意面 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Great for seafood pasta without heavy cream; avoid if shellfish or wine-based sauces are a concern.",
+      "zh": "想吃不厚重的海鲜意面时很合适；贝类过敏或避免酒类酱汁时不推荐。",
+      "nl": "Sterk voor zeevruchtenpasta zonder zware room; vermijd dit bij schelpdierallergie of wijnsaus."
     },
+    "confidenceTag": "audited-italian-batch-003",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -5151,89 +5196,99 @@ export const expandedDishes = [
     "cookingMethods": [
       "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Fresh mozzarella-like cheese with a creamy center, often served with tomato or bread.",
-      "zh": "布拉塔奶酪 是常见意大利菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Burrata is een veelvoorkomend gerecht in de italiaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Fresh mozzarella-style cheese with a creamy center, often served with tomato, greens, olive oil, or bread.",
+      "zh": "外层类似新鲜马苏里拉、中心奶香浓稠的奶酪，常配番茄、叶菜、橄榄油或面包。",
+      "nl": "Verse mozzarella-achtige kaas met een romige kern, vaak met tomaat, groen, olijfolie of brood."
     },
     "cookingProfile": {
-      "en": "Usually served as a starter with a small bites, contrasting textures feel.",
-      "zh": "通常以starter形式上桌，重点体验是small bites。",
-      "nl": "Meestal geserveerd als starter met een small bites gevoel."
+      "en": "Usually served cool and assembled, so the main experience is milky creaminess against fresh sides.",
+      "zh": "通常冷食或微凉上桌，重点是奶香流心和清爽配菜的对比。",
+      "nl": "Meestal koel en samengesteld geserveerd, met romigheid tegenover frisse garnituren."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
+        "classic-dish",
         "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Italian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频意大利菜菜品。",
-        "nl": "Een vaak voorkomend italiaans menu-item voor bredere restaurantdekking."
+        "en": "A familiar Italian starter for diners who want a fresh cheese plate rather than a cooked main.",
+        "zh": "常见意式前菜，适合想点新鲜奶酪而不是热主菜的场景。",
+        "nl": "Een herkenbaar Italiaans voorgerecht voor wie verse kaas wil in plaats van een warm hoofdgerecht."
       }
     },
     "composition": [
       [
-        "bread",
-        35,
-        "base"
+        "mozzarella",
+        45,
+        "outer-cheese"
       ],
       [
-        "mixed-vegetables",
-        25,
-        "topping"
-      ],
-      [
-        "cheese",
+        "cream",
         20,
-        "richness"
+        "center"
       ],
       [
-        "garlic",
+        "tomato",
+        20,
+        "fresh-side"
+      ],
+      [
+        "bread",
         10,
-        "aroma",
-        "seasoning"
+        "side"
       ],
       [
         "olive-oil",
-        10,
-        "finish",
-        "seasoning"
+        5,
+        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "olive-oil",
-      "parmesan",
-      "garlic"
+      "cream",
+      "mozzarella",
+      "olive-oil"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "milky",
+      "mild",
+      "fresh",
+      "creamy"
     ],
     "textureProfile": [
-      "small bites",
-      "contrasting textures"
+      "soft cheese skin",
+      "creamy center",
+      "juicy tomato"
     ],
     "riskFlags": [
-      "contains-dairy"
+      "contains-dairy",
+      "contains-gluten"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "common-menu-item",
       "first-timer-friendly",
+      "creamy",
       "lighter-choice"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "dairy-free",
+      "gluten-free-if-served-with-bread",
+      "wants-hot-food"
+    ],
     "orderVerdict": {
-      "en": "Order if you want a rich fresh cheese starter.",
-      "zh": "如果你接受这类口味和风险，布拉塔奶酪 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Order it as a fresh, creamy starter; skip if you want something hot, crisp, or dairy-free.",
+      "zh": "适合作为清爽但奶香浓的前菜；想吃热菜、脆口菜或忌乳制品时不适合。",
+      "nl": "Bestel dit als fris en romig voorgerecht; minder geschikt als je warm, krokant of zuivelvrij wilt."
     },
+    "confidenceTag": "audited-italian-batch-003",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -5251,88 +5306,105 @@ export const expandedDishes = [
       "deep-fried"
     ],
     "shortDescription": {
-      "en": "Fried rice balls with cheese, ragù, or vegetable filling.",
-      "zh": "西西里炸饭团 是常见意大利菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Arancini is een veelvoorkomend gerecht in de italiaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Sicilian fried rice balls with a crisp coating and a filling such as ragù, cheese, peas, or tomato.",
+      "zh": "西西里炸饭团，外层酥脆，里面常见米饭、肉酱、奶酪、豌豆或番茄馅。",
+      "nl": "Siciliaanse gefrituurde rijstballen met krokante buitenkant en vulling zoals ragu, kaas, erwten of tomaat."
     },
     "cookingProfile": {
-      "en": "Usually served as a fried snack with a crisp outside, savory center feel.",
-      "zh": "通常以fried-snack形式上桌，重点体验是crisp outside。",
-      "nl": "Meestal geserveerd als fried snack met een crisp outside gevoel."
+      "en": "Served hot as a filling snack, with a crisp shell and a soft rice center.",
+      "zh": "热食上桌，外壳酥脆，中心是柔软米饭和馅料，饱腹感较强。",
+      "nl": "Warm geserveerd als vullende snack, met krokante korst en zachte rijstvulling."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
+        "street-food",
+        "regional-dish",
         "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Italian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频意大利菜菜品。",
-        "nl": "Een vaak voorkomend italiaans menu-item voor bredere restaurantdekking."
+        "en": "A Sicilian street-food classic that often appears as a snack or starter.",
+        "zh": "西西里街头小吃代表，菜单上常作为小食或前菜出现。",
+        "nl": "Een Siciliaanse streetfoodklassieker die vaak als snack of voorgerecht opduikt."
       }
     },
     "composition": [
       [
-        "fried-chicken",
+        "arborio-rice",
         45,
-        "main"
+        "base"
+      ],
+      [
+        "meat-ragu",
+        20,
+        "filling"
+      ],
+      [
+        "cheese",
+        15,
+        "filling"
       ],
       [
         "wheat-flour",
-        25,
+        10,
         "coating"
       ],
       [
         "egg",
-        10,
+        5,
         "binder"
       ],
       [
-        "mustard",
-        10,
-        "dip",
-        "seasoning"
-      ],
-      [
-        "fries",
-        10,
-        "side"
+        "tomato-sauce",
+        5,
+        "filling"
       ]
     ],
     "distinctiveFlavorSources": [
-      "olive-oil",
-      "parmesan",
-      "garlic"
+      "meat-ragu",
+      "cheese",
+      "tomato-sauce"
     ],
     "basicTaste": [
       "savory",
-      "salty"
+      "fried",
+      "mild"
     ],
     "textureProfile": [
-      "crisp outside",
-      "savory center"
+      "crisp crumb",
+      "soft rice",
+      "melty filling"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg",
+      "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "street-food",
+      "first-timer-friendly",
+      "small-bites"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy",
+      "no-pork",
+      "wants-light-food"
+    ],
     "orderVerdict": {
-      "en": "Good sharing snack, but filling can include meat and dairy.",
-      "zh": "如果你接受这类口味和风险，西西里炸饭团 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good for sharing or a snack, but check the filling if meat, pork, or dairy matters.",
+      "zh": "适合分享或当小食；如果在意肉类、猪肉或乳制品，需要先确认内馅。",
+      "nl": "Goed om te delen of als snack, maar vraag naar de vulling bij vlees, varken of zuivel."
     },
+    "confidenceTag": "audited-italian-batch-003",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "high"
   }),
   starterDish({
     "id": "calamari-fritti",
@@ -5346,45 +5418,40 @@ export const expandedDishes = [
     },
     "category": "seafood",
     "cookingMethods": [
-      "assembled"
+      "deep-fried"
     ],
     "shortDescription": {
-      "en": "Fried squid served with lemon or dip, crisp outside and chewy inside.",
-      "zh": "炸鱿鱼圈 是常见意大利菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Gefrituurde calamari is een veelvoorkomend gerecht in de italiaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Fried squid pieces or rings, usually served with lemon and sometimes aioli or a simple dip.",
+      "zh": "炸鱿鱼块或鱿鱼圈，通常配柠檬，有时配蒜味蘸酱或简单酱料。",
+      "nl": "Gefrituurde inktvisringen of stukjes, meestal met citroen en soms aioli of een simpele dip."
     },
     "cookingProfile": {
-      "en": "Usually served as a seafood with a tender seafood, fresh finish feel.",
-      "zh": "通常以seafood形式上桌，重点体验是tender seafood。",
-      "nl": "Meestal geserveerd als seafood met een tender seafood gevoel."
+      "en": "Served hot with a crisp coating and springy squid inside; best eaten right away.",
+      "zh": "热食上桌，外层酥脆，里面是有弹性的鱿鱼，趁热吃口感最好。",
+      "nl": "Warm geserveerd met krokante korst en veerkrachtige inktvis; het lekkerst direct aan tafel."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
+        "classic-dish",
         "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Italian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频意大利菜菜品。",
-        "nl": "Een vaak voorkomend italiaans menu-item voor bredere restaurantdekking."
+        "en": "A familiar Italian seafood starter for diners who want something crisp and briny.",
+        "zh": "常见意式海鲜前菜，适合想要酥脆口感和轻微海味的点单。",
+        "nl": "Een herkenbaar Italiaans zeevruchtenvoorgerecht voor iets krokants en licht zilts."
       }
     },
     "composition": [
       [
-        "raw-fish",
-        45,
-        "main"
+        "squid",
+        60,
+        "seafood"
       ],
       [
-        "mixed-vegetables",
+        "wheat-flour",
         20,
-        "side"
-      ],
-      [
-        "steamed-rice",
-        20,
-        "base"
+        "coating"
       ],
       [
         "lemon",
@@ -5392,45 +5459,61 @@ export const expandedDishes = [
         "finish"
       ],
       [
+        "egg",
+        5,
+        "binder"
+      ],
+      [
         "olive-oil",
         5,
-        "finish",
-        "seasoning"
+        "frying-medium"
       ]
     ],
     "distinctiveFlavorSources": [
-      "olive-oil",
-      "parmesan",
-      "garlic"
+      "squid",
+      "lemon",
+      "olive-oil"
     ],
     "basicTaste": [
+      "savory",
       "briny",
-      "fresh",
-      "savory"
+      "fried",
+      "citrusy"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "crisp coating",
+      "springy squid",
+      "lemony finish"
     ],
     "riskFlags": [
-      "contains-fish",
-      "contains-gluten"
+      "contains-shellfish",
+      "contains-gluten",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "first-timer-friendly",
+      "seafood",
+      "small-bites"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "gluten-free",
+      "egg-allergy",
+      "wants-light-food"
+    ],
     "orderVerdict": {
-      "en": "A classic seafood starter if fried food is okay.",
-      "zh": "如果你接受这类口味和风险，炸鱿鱼圈 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A classic fried seafood starter; avoid if you dislike chewy seafood or need gluten-free food.",
+      "zh": "经典炸海鲜前菜；不喜欢有嚼劲的海鲜或需要无麸质时不推荐。",
+      "nl": "Een klassiek gefrituurd zeevruchtengerecht; vermijd dit bij taaie zeevruchten of glutenvrij eten."
     },
+    "confidenceTag": "audited-italian-batch-003",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -5445,89 +5528,100 @@ export const expandedDishes = [
     },
     "category": "starter",
     "cookingMethods": [
+      "raw",
       "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "raw",
     "shortDescription": {
-      "en": "Very thin raw beef or fish slices with oil, lemon, cheese, or capers.",
-      "zh": "生牛肉薄片 是常见意大利菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Carpaccio is een veelvoorkomend gerecht in de italiaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Very thin raw beef slices, commonly served with olive oil, lemon, parmesan, capers, or greens.",
+      "zh": "极薄的生牛肉片，常配橄榄油、柠檬、帕玛森、酸豆或叶菜。",
+      "nl": "Zeer dunne rauwe rundvleesplakjes, vaak met olijfolie, citroen, Parmezaan, kappertjes of groen."
     },
     "cookingProfile": {
-      "en": "Usually served as a starter with a small bites, contrasting textures feel.",
-      "zh": "通常以starter形式上桌，重点体验是small bites。",
-      "nl": "Meestal geserveerd als starter met een small bites gevoel."
+      "en": "Served cool and uncooked, so expect a delicate, silky texture rather than seared meat.",
+      "zh": "冷食且不加热，口感细薄柔滑，不是煎烤肉的质地。",
+      "nl": "Koel en rauw geserveerd, met een fijne, zijdezachte textuur in plaats van gebakken vlees."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency Italian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频意大利菜菜品。",
-        "nl": "Een vaak voorkomend italiaans menu-item voor bredere restaurantdekking."
+        "en": "An Italian raw starter reference where comfort with uncooked beef is the key ordering question.",
+        "zh": "意式生食前菜参考，点单关键是能否接受生牛肉。",
+        "nl": "Een Italiaanse rauwe voorgerechtreferentie waarbij comfort met rauw rundvlees centraal staat."
       }
     },
     "composition": [
       [
-        "bread",
-        35,
-        "base"
+        "beef",
+        60,
+        "raw-slices"
       ],
       [
-        "mixed-vegetables",
-        25,
-        "topping"
-      ],
-      [
-        "cheese",
-        20,
-        "richness"
-      ],
-      [
-        "garlic",
-        10,
-        "aroma",
-        "seasoning"
+        "parmesan",
+        15,
+        "finish"
       ],
       [
         "olive-oil",
         10,
-        "finish",
-        "seasoning"
+        "finish"
+      ],
+      [
+        "lemon",
+        10,
+        "acid"
+      ],
+      [
+        "herbs",
+        5,
+        "fresh-garnish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "olive-oil",
+      "raw-beef",
       "parmesan",
-      "garlic"
+      "olive-oil",
+      "lemon"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "fresh",
+      "light",
+      "umami"
     ],
     "textureProfile": [
-      "small bites",
-      "contrasting textures"
+      "silky raw slices",
+      "thin bite",
+      "fresh garnish"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-dairy"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
+      "classic-dish",
       "lighter-choice"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "raw-food-avoidant",
+      "pregnant-or-immunocompromised",
+      "dairy-free"
+    ],
     "orderVerdict": {
-      "en": "Only order if you are comfortable with raw preparations.",
-      "zh": "如果你接受这类口味和风险，生牛肉薄片 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Order only if raw beef is comfortable for you; it is light, delicate, and not a hot meat dish.",
+      "zh": "只有能接受生牛肉时才建议点；它清爽细薄，不是热的肉类主菜。",
+      "nl": "Bestel dit alleen als rauw rundvlees prettig voelt; het is licht en fijn, geen warm vleesgerecht."
     },
+    "confidenceTag": "audited-italian-batch-003",
     "spiceLevel": 0,
     "weightLevel": 1,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -5542,40 +5636,35 @@ export const expandedDishes = [
     },
     "category": "vegetable-main",
     "cookingMethods": [
-      "baked"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Soft or grilled cornmeal base, often served with sauce, cheese, or mushrooms.",
-      "zh": "玉米粥 是常见意大利菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Polenta is een veelvoorkomend gerecht in de italiaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Northern Italian cornmeal dish served soft, creamy, grilled, or topped with cheese, mushrooms, or sauce.",
+      "zh": "意大利北部常见的玉米粉菜，可做成柔软浓稠状，也可搭配奶酪、蘑菇或酱汁。",
+      "nl": "Noord-Italiaans maismeelgerecht, zacht en romig of gegrild, vaak met kaas, paddenstoelen of saus."
     },
     "cookingProfile": {
-      "en": "Usually served as a vegetable main with a soft vegetables, saucy layers feel.",
-      "zh": "通常以vegetable-main形式上桌，重点体验是soft vegetables。",
-      "nl": "Meestal geserveerd als vegetable main met een soft vegetables gevoel."
+      "en": "Usually served warm and spoonable, with toppings deciding whether it feels light or rich.",
+      "zh": "通常温热上桌，质地柔软可舀，轻重程度主要取决于配料和酱汁。",
+      "nl": "Meestal warm en lepelbaar, waarbij toppings bepalen of het licht of rijk aanvoelt."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
+        "regional-dish",
         "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Italian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频意大利菜菜品。",
-        "nl": "Een vaak voorkomend italiaans menu-item voor bredere restaurantdekking."
+        "en": "A northern Italian comfort staple useful as a non-pasta reference.",
+        "zh": "意大利北部常见主食型菜品，可作为非意面类点单参考。",
+        "nl": "Een Noord-Italiaanse comfortbasis, handig als referentie buiten pasta om."
       }
     },
     "composition": [
       [
-        "mixed-vegetables",
-        45,
+        "corn",
+        60,
         "base"
-      ],
-      [
-        "potato",
-        20,
-        "body"
       ],
       [
         "cheese",
@@ -5583,50 +5672,63 @@ export const expandedDishes = [
         "richness"
       ],
       [
-        "tomato-sauce",
-        15,
-        "sauce",
-        "seasoning"
+        "mushrooms",
+        10,
+        "topping"
       ],
       [
-        "herbs",
+        "butter",
+        10,
+        "finish"
+      ],
+      [
+        "tomato-sauce",
         5,
-        "aroma"
+        "sauce"
       ]
     ],
     "distinctiveFlavorSources": [
-      "olive-oil",
-      "parmesan",
-      "garlic"
+      "corn",
+      "cheese",
+      "butter"
     ],
     "basicTaste": [
+      "mild",
       "savory",
-      "mild"
+      "creamy",
+      "corn-sweet"
     ],
     "textureProfile": [
-      "soft vegetables",
-      "saucy layers"
+      "soft porridge",
+      "smooth body",
+      "optional topping bite"
     ],
     "riskFlags": [
       "contains-dairy"
     ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+    "dietaryFlags": [
+      "vegetarian"
     ],
-    "avoidIfTags": [],
+    "goodForTags": [
+      "regional-dish",
+      "first-timer-friendly",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "wants-crisp-texture"
+    ],
     "orderVerdict": {
-      "en": "A comforting alternative to pasta or rice; toppings decide richness.",
-      "zh": "如果你接受这类口味和风险，玉米粥 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A comforting alternative to pasta; ask about toppings if you need it vegetarian, dairy-free, or lighter.",
+      "zh": "可作为意面之外的温和饱腹选择；如需素食、无乳或清淡，要确认配料。",
+      "nl": "Een troostrijk alternatief voor pasta; vraag naar toppings bij vegetarisch, zuivelvrij of lichter eten."
     },
+    "confidenceTag": "audited-italian-batch-003",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "high"
   }),
   starterDish({
     "id": "saltimbocca",
@@ -5640,90 +5742,102 @@ export const expandedDishes = [
     },
     "category": "meat",
     "cookingMethods": [
-      "braised"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Veal with cured ham and sage, usually pan-cooked in a savory sauce.",
-      "zh": "鼠尾草火腿小牛肉 是常见意大利菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Saltimbocca is een veelvoorkomend gerecht in de italiaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Thin veal cutlets with prosciutto and sage, usually pan-cooked with butter and wine.",
+      "zh": "薄小牛肉片配意式风干火腿和鼠尾草，常用黄油和葡萄酒煎成咸香酱汁。",
+      "nl": "Dunne kalfslapjes met prosciutto en salie, meestal in pan gebakken met boter en wijn."
     },
     "cookingProfile": {
-      "en": "Usually served as a meat with a tender meat, rich sauce feel.",
-      "zh": "通常以meat形式上桌，重点体验是tender meat。",
-      "nl": "Meestal geserveerd als meat met een tender meat gevoel."
+      "en": "Served hot as a compact meat main, tender and salty with a buttery pan sauce.",
+      "zh": "热食上桌，是紧凑型肉类主菜，口感嫩，咸香，并带黄油锅底酱汁。",
+      "nl": "Warm geserveerd als compacte vleesmaaltijd, mals en zout met boterige pansaus."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency Italian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频意大利菜菜品。",
-        "nl": "Een vaak voorkomend italiaans menu-item voor bredere restaurantdekking."
+        "en": "A Roman-style meat classic where veal, prosciutto, and sage define the order.",
+        "zh": "罗马风格肉类经典，关键特征是小牛肉、风干火腿和鼠尾草。",
+        "nl": "Een Romeinse vleesklassieker waarin kalfsvlees, prosciutto en salie de bestelling bepalen."
       }
     },
     "composition": [
       [
-        "beef",
-        55,
+        "veal-cutlet",
+        50,
         "main"
       ],
       [
-        "potato",
+        "prosciutto",
         20,
-        "side"
+        "cured-pork-layer"
       ],
       [
-        "mixed-vegetables",
+        "wine",
         15,
-        "side"
+        "pan-sauce"
       ],
       [
         "butter",
-        5,
-        "richness"
+        10,
+        "sauce-richness"
       ],
       [
-        "black-pepper",
+        "sage",
         5,
-        "seasoning",
+        "aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "olive-oil",
-      "parmesan",
-      "garlic"
+      "prosciutto",
+      "sage",
+      "wine",
+      "butter"
     ],
     "basicTaste": [
       "savory",
-      "rich",
-      "umami"
+      "salty",
+      "buttery",
+      "herbal"
     ],
     "textureProfile": [
-      "tender meat",
-      "rich sauce"
+      "tender veal",
+      "silky cured ham",
+      "glossy pan sauce"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-dairy",
+      "contains-alcohol"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "classic-dish",
+      "regional-dish",
+      "meat"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "no-pork",
+      "dairy-free",
+      "no-alcohol",
+      "wants-large-portion"
+    ],
     "orderVerdict": {
-      "en": "Good for a compact, salty meat main; avoid if no pork.",
-      "zh": "如果你接受这类口味和风险，鼠尾草火腿小牛肉 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Choose it for a salty, aromatic meat main; avoid if pork, butter, or wine-based sauces are off limits.",
+      "zh": "想吃咸香、有鼠尾草香气的肉类主菜时适合；忌猪肉、黄油或酒类酱汁时不推荐。",
+      "nl": "Kies dit voor een zoute, aromatische vleesmaaltijd; vermijd bij varken, boter of wijnsaus."
     },
+    "confidenceTag": "audited-italian-batch-003",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -5738,91 +5852,102 @@ export const expandedDishes = [
     },
     "category": "dessert",
     "cookingMethods": [
+      "deep-fried",
       "chilled"
     ],
     "shortDescription": {
-      "en": "Crisp pastry tubes filled with sweet ricotta-style cream.",
-      "zh": "西西里奶油卷 是常见意大利菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Cannoli is een veelvoorkomend gerecht in de italiaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Sicilian crisp pastry tubes filled with sweet ricotta cream, often finished with chocolate, pistachio, or citrus.",
+      "zh": "西西里甜点，酥脆管状外壳内填甜乳清奶酪馅，常点缀巧克力、开心果或柑橘香气。",
+      "nl": "Siciliaanse krokante deegrolletjes met zoete ricottavulling, vaak met chocolade, pistache of citrus."
     },
     "cookingProfile": {
-      "en": "Usually served as a dessert with a sweet, soft feel.",
-      "zh": "通常以dessert形式上桌，重点体验是sweet。",
-      "nl": "Meestal geserveerd als dessert met een sweet gevoel."
+      "en": "Served cool or room-temperature, with a crisp shell against a dense creamy filling.",
+      "zh": "通常冷食或常温上桌，重点是酥脆外壳和浓稠奶酪馅的对比。",
+      "nl": "Koel of op kamertemperatuur geserveerd, met krokant deeg tegenover dichte romige vulling."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency Italian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频意大利菜菜品。",
-        "nl": "Een vaak voorkomend italiaans menu-item voor bredere restaurantdekking."
+        "en": "A Sicilian dessert classic useful for recognizing pastry-plus-ricotta orders.",
+        "zh": "西西里经典甜点，适合识别酥皮加乳清奶酪馅的甜品。",
+        "nl": "Een Siciliaanse dessertklassieker voor het herkennen van deeg met ricottavulling."
       }
     },
     "composition": [
       [
-        "cream",
-        35,
-        "base"
-      ],
-      [
-        "sugar",
-        25,
-        "sweetener"
+        "ricotta",
+        45,
+        "filling"
       ],
       [
         "wheat-flour",
-        20,
-        "base"
+        25,
+        "pastry-shell"
       ],
       [
-        "egg",
-        10,
-        "binder"
+        "sugar",
+        15,
+        "sweetener"
       ],
       [
-        "vanilla",
+        "cream",
         10,
-        "aroma",
-        "seasoning"
+        "filling-richness"
+      ],
+      [
+        "cocoa",
+        5,
+        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "olive-oil",
-      "parmesan",
-      "garlic"
+      "ricotta",
+      "cocoa",
+      "sugar"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "mildly-tangy"
     ],
     "textureProfile": [
-      "sweet",
-      "soft"
+      "crisp pastry",
+      "dense cream",
+      "sweet filling"
     ],
     "riskFlags": [
       "contains-dairy",
-      "contains-egg",
-      "contains-gluten"
+      "contains-gluten",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "classic-dish",
+      "dessert",
+      "creamy"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "dairy-free",
+      "gluten-free",
+      "egg-allergy",
+      "wants-light-dessert"
+    ],
     "orderVerdict": {
-      "en": "Good dessert if you want crunch plus sweet cream.",
-      "zh": "如果你接受这类口味和风险，西西里奶油卷 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good when you want a richer dessert with crunch and cream; check nuts if the garnish matters.",
+      "zh": "想吃酥脆加奶酪馅的浓郁甜点时很合适；若在意坚果，需要确认表面装饰。",
+      "nl": "Goed voor een rijk dessert met crunch en room; vraag naar noten als garnering belangrijk is."
     },
+    "confidenceTag": "audited-italian-batch-003",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -5840,31 +5965,32 @@ export const expandedDishes = [
       "chilled"
     ],
     "shortDescription": {
-      "en": "Italian-style frozen dessert, usually denser and smoother than standard ice cream.",
-      "zh": "意式冰淇淋 是常见意大利菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Gelato is een veelvoorkomend gerecht in de italiaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Italian frozen dessert, usually dense, smooth, and flavor-driven, with less airy texture than many ice creams.",
+      "zh": "意式冷冻甜点，通常质地细密顺滑，风味突出，比许多普通冰淇淋空气感更少。",
+      "nl": "Italiaans bevroren dessert, meestal dicht, glad en smaakgericht, minder luchtig dan veel ijs."
     },
     "cookingProfile": {
-      "en": "Usually served as a dessert with a sweet, soft feel.",
-      "zh": "通常以dessert形式上桌，重点体验是sweet。",
-      "nl": "Meestal geserveerd als dessert met een sweet gevoel."
+      "en": "Served cold in scoops; the main decision is flavor and dairy comfort rather than portion size.",
+      "zh": "以冰冷球状上桌，点单重点通常是口味选择和能否接受乳制品。",
+      "nl": "Koud in bolletjes geserveerd; de keuze draait vooral om smaak en zuivelcomfort."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
+        "classic-dish",
+        "internationally-known",
         "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Italian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频意大利菜菜品。",
-        "nl": "Een vaak voorkomend italiaans menu-item voor bredere restaurantdekking."
+        "en": "An internationally recognized Italian dessert reference for dense frozen sweets.",
+        "zh": "国际识别度很高的意式甜点，可作为细密冷冻甜品参考。",
+        "nl": "Een internationaal herkenbare Italiaanse dessertreferentie voor dicht bevroren zoet."
       }
     },
     "composition": [
       [
         "cream",
-        35,
+        45,
         "base"
       ],
       [
@@ -5873,14 +5999,14 @@ export const expandedDishes = [
         "sweetener"
       ],
       [
-        "wheat-flour",
-        20,
-        "base"
-      ],
-      [
         "egg",
         10,
-        "binder"
+        "custard-base"
+      ],
+      [
+        "fruit-sauce-or-caramel",
+        10,
+        "flavor"
       ],
       [
         "vanilla",
@@ -5890,40 +6016,49 @@ export const expandedDishes = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "olive-oil",
-      "parmesan",
-      "garlic"
+      "cream",
+      "vanilla",
+      "fruit-sauce-or-caramel"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "cold",
+      "smooth"
     ],
     "textureProfile": [
-      "sweet",
-      "soft"
+      "dense scoop",
+      "smooth melt",
+      "cold finish"
     ],
     "riskFlags": [
       "contains-dairy",
-      "contains-egg",
-      "contains-gluten"
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+      "safe-choice",
+      "dessert",
+      "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "dairy-free",
+      "egg-allergy",
+      "very-cold-dessert"
+    ],
     "orderVerdict": {
-      "en": "A safe dessert, but check dairy and flavor allergens.",
-      "zh": "如果你接受这类口味和风险，意式冰淇淋 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A safe dessert when you want something cold and smooth; check the specific flavor for nuts, chocolate, or alcohol.",
+      "zh": "想吃冰冷顺滑甜点时很稳妥；具体口味可能含坚果、巧克力或酒，需要按口味确认。",
+      "nl": "Een veilige keuze voor iets kouds en glads; controleer per smaak op noten, chocolade of alcohol."
     },
+    "confidenceTag": "audited-italian-batch-003",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "high"
   }),
   starterDish({
     "id": "duck-confit",
