@@ -1,0 +1,222 @@
+[
+  {
+    "dishId": "duck-confit",
+    "metadataCode": "103006",
+    "cuisineId": "french",
+    "name": "Duck Confit",
+    "imagePath": "/assets/dishes/main/103006-duck-confit.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from generated template; contact-sheet image visually matches the dish."
+  },
+  {
+    "dishId": "steak-frites",
+    "metadataCode": "103007",
+    "cuisineId": "french",
+    "name": "Steak Frites",
+    "imagePath": "/assets/dishes/main/103007-steak-frites.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from generated template; contact-sheet image visually matches the dish."
+  },
+  {
+    "dishId": "escargots",
+    "metadataCode": "103008",
+    "cuisineId": "french",
+    "name": "Escargots",
+    "imagePath": "/assets/dishes/main/103008-escargots.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from generated template; contact-sheet image visually matches the dish."
+  },
+  {
+    "dishId": "french-onion-soup",
+    "metadataCode": "103009",
+    "cuisineId": "french",
+    "name": "French Onion Soup",
+    "imagePath": "/assets/dishes/main/103009-french-onion-soup.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from generated template; contact-sheet image visually matches the dish."
+  },
+  {
+    "dishId": "salade-nicoise",
+    "metadataCode": "103010",
+    "cuisineId": "french",
+    "name": "Salade Niçoise",
+    "imagePath": "/assets/dishes/main/103010-salade-nicoise.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from generated template; contact-sheet image visually matches the dish."
+  },
+  {
+    "dishId": "croque-monsieur",
+    "metadataCode": "103011",
+    "cuisineId": "french",
+    "name": "Croque Monsieur",
+    "imagePath": "/assets/dishes/main/103011-croque-monsieur.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from generated template; contact-sheet image visually matches the dish."
+  },
+  {
+    "dishId": "cassoulet",
+    "metadataCode": "103012",
+    "cuisineId": "french",
+    "name": "Cassoulet",
+    "imagePath": "/assets/dishes/main/103012-cassoulet.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from generated template; contact-sheet image visually matches the dish."
+  },
+  {
+    "dishId": "steak-tartare",
+    "metadataCode": "103013",
+    "cuisineId": "french",
+    "name": "Steak Tartare",
+    "imagePath": "/assets/dishes/main/103013-steak-tartare.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from generated template; contact-sheet image visually matches the dish."
+  },
+  {
+    "dishId": "bouillabaisse",
+    "metadataCode": "103014",
+    "cuisineId": "french",
+    "name": "Bouillabaisse",
+    "imagePath": "/assets/dishes/main/103014-bouillabaisse.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from generated template; contact-sheet image visually matches the dish."
+  },
+  {
+    "dishId": "sole-meuniere",
+    "metadataCode": "103015",
+    "cuisineId": "french",
+    "name": "Sole Meunière",
+    "imagePath": "/assets/dishes/main/103015-sole-meuniere.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from generated template; contact-sheet image visually matches the dish."
+  },
+  {
+    "dishId": "tarte-tatin",
+    "metadataCode": "103016",
+    "cuisineId": "french",
+    "name": "Tarte Tatin",
+    "imagePath": "/assets/dishes/main/103016-tarte-tatin.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from generated template; contact-sheet image visually matches the dish."
+  },
+  {
+    "dishId": "crepes",
+    "metadataCode": "103017",
+    "cuisineId": "french",
+    "name": "Crêpes",
+    "imagePath": "/assets/dishes/main/103017-crepes.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted",
+    "notes": "Metadata rebuilt from generated template; contact-sheet image visually matches the dish."
+  },
+  {
+    "dishId": "moules-marinieres",
+    "metadataCode": "103023",
+    "cuisineId": "french",
+    "name": "Moules Marinières",
+    "imagePath": "/assets/dishes/main/103023-moules-marinieres.webp",
+    "metadataConfidence": 0.74,
+    "auditStatus": "replace-image",
+    "imageStatus": "rejected",
+    "notes": "Image shows steak frites, not mussels in white-wine broth. Metadata remains generated and must be rebuilt with a replacement image before verified."
+  },
+  {
+    "dishId": "blanquette-de-veau",
+    "metadataCode": "103024",
+    "cuisineId": "french",
+    "name": "Blanquette de Veau",
+    "imagePath": "/assets/dishes/main/103024-blanquette-de-veau.webp",
+    "metadataConfidence": 0.74,
+    "auditStatus": "replace-image",
+    "imageStatus": "rejected",
+    "notes": "Image shows French onion soup, not veal in white sauce. Metadata remains generated and must be rebuilt with a replacement image before verified."
+  },
+  {
+    "dishId": "gratin-dauphinois",
+    "metadataCode": "103025",
+    "cuisineId": "french",
+    "name": "Gratin Dauphinois",
+    "imagePath": "/assets/dishes/main/103025-gratin-dauphinois.webp",
+    "metadataConfidence": 0.74,
+    "auditStatus": "replace-image",
+    "imageStatus": "rejected",
+    "notes": "Image shows beef stew, not potato gratin. Metadata remains generated and must be rebuilt with a replacement image before verified."
+  },
+  {
+    "dishId": "tartiflette",
+    "metadataCode": "103026",
+    "cuisineId": "french",
+    "name": "Tartiflette",
+    "imagePath": "/assets/dishes/main/103026-tartiflette.webp",
+    "metadataConfidence": 0.74,
+    "auditStatus": "replace-image",
+    "imageStatus": "rejected",
+    "notes": "Image shows steak tartare, not potato/reblochon/bacon gratin. Metadata remains generated and must be rebuilt with a replacement image before verified."
+  },
+  {
+    "dishId": "foie-gras",
+    "metadataCode": "103027",
+    "cuisineId": "french",
+    "name": "Foie Gras",
+    "imagePath": "/assets/dishes/main/103027-foie-gras.webp",
+    "metadataConfidence": 0.74,
+    "auditStatus": "replace-image",
+    "imageStatus": "rejected",
+    "notes": "Image shows salade niçoise, not foie gras. Metadata remains generated and must be rebuilt with a replacement image before verified."
+  },
+  {
+    "dishId": "madeleines",
+    "metadataCode": "103028",
+    "cuisineId": "french",
+    "name": "Madeleines",
+    "imagePath": "/assets/dishes/main/103028-madeleines.webp",
+    "metadataConfidence": 0.74,
+    "auditStatus": "replace-image",
+    "imageStatus": "rejected",
+    "notes": "Image shows escargots, not shell-shaped cakes. Metadata remains generated and must be rebuilt with a replacement image before verified."
+  },
+  {
+    "dishId": "profiteroles",
+    "metadataCode": "103029",
+    "cuisineId": "french",
+    "name": "Profiteroles",
+    "imagePath": "/assets/dishes/main/103029-profiteroles.webp",
+    "metadataConfidence": 0.74,
+    "auditStatus": "replace-image",
+    "imageStatus": "rejected",
+    "notes": "Image shows omelette-like food, not choux pastry dessert. Metadata remains generated and must be rebuilt with a replacement image before verified."
+  },
+  {
+    "dishId": "paris-brest",
+    "metadataCode": "103030",
+    "cuisineId": "french",
+    "name": "Paris-Brest",
+    "imagePath": "/assets/dishes/main/103030-paris-brest.webp",
+    "metadataConfidence": 0.74,
+    "auditStatus": "replace-image",
+    "imageStatus": "rejected",
+    "notes": "Image shows cassoulet, not ring-shaped praline choux pastry. Metadata remains generated and must be rebuilt with a replacement image before verified."
+  }
+]

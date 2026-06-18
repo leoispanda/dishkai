@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 108
-- Total aliases: 450
+- Total verified dishes: 120
+- Total aliases: 488
 - Total cuisines: 10
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -33,7 +33,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 6. 102018 - `tosti` - Tosti / 荷式烤火腿奶酪三明治 / tosti
 7. 102020 - `broodje-gezond` - Broodje Gezond / 荷式健康三明治 / broodje gezond
 
-## French (french) - 10
+## French (french) - 22
 
 1. 103001 - `boeuf-bourguignon` - Boeuf Bourguignon / 勃艮第红酒炖牛肉 / Boeuf bourguignon
 2. 103002 - `coq-au-vin` - Coq au Vin / 红酒炖鸡 / Coq au vin
@@ -45,6 +45,18 @@ Generated from data/internal/index.js after the verified database quarantine aud
 8. 103020 - `pain-au-chocolat` - Pain au Chocolat / 巧克力可颂 / pain au chocolat
 9. 103021 - `croque-madame` - Croque Madame / 法式火腿奶酪煎蛋三明治 / croque madame
 10. 103022 - `quiche` - Quiche / 法式咸派 / quiche
+11. 103006 - `duck-confit` - Duck Confit / 油封鸭腿 / Confit de canard
+12. 103007 - `steak-frites` - Steak Frites / 牛排薯条 / Steak frites
+13. 103008 - `escargots` - Escargots / 法式焗蜗牛 / Escargots
+14. 103009 - `french-onion-soup` - French Onion Soup / 法式洋葱汤 / Soupe à l’oignon
+15. 103010 - `salade-nicoise` - Salade Niçoise / 尼斯沙拉 / Salade niçoise
+16. 103011 - `croque-monsieur` - Croque Monsieur / 法式火腿奶酪三明治 / Croque monsieur
+17. 103012 - `cassoulet` - Cassoulet / 法式豆焖肉 / Cassoulet
+18. 103013 - `steak-tartare` - Steak Tartare / 生牛肉塔塔 / Steak tartare
+19. 103014 - `bouillabaisse` - Bouillabaisse / 马赛鱼汤 / Bouillabaisse
+20. 103015 - `sole-meuniere` - Sole Meunière / 黄油煎鳎鱼 / Sole meunière
+21. 103016 - `tarte-tatin` - Tarte Tatin / 反烤苹果塔 / Tarte tatin
+22. 103017 - `crepes` - Crêpes / 法式薄饼 / Crêpes
 
 ## German (german) - 5
 

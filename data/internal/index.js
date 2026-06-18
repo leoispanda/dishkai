@@ -58,6 +58,18 @@ const auditedGeneratedDishIds = new Set([
   "prosciutto-e-melone",
   "vitello-tonnato",
   "affogato",
+  "duck-confit",
+  "steak-frites",
+  "escargots",
+  "french-onion-soup",
+  "salade-nicoise",
+  "croque-monsieur",
+  "cassoulet",
+  "steak-tartare",
+  "bouillabaisse",
+  "sole-meuniere",
+  "tarte-tatin",
+  "crepes",
 ]);
 
 export {

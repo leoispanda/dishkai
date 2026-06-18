@@ -1,0 +1,557 @@
+[
+  {
+    "id": "duck-confit",
+    "metadataCode": "103006",
+    "cuisineId": "french",
+    "names": { "en": "Duck Confit", "zh": "油封鸭腿", "nl": "Confit de canard", "local": "Confit de canard" },
+    "category": "meat",
+    "cookingMethods": ["braised", "fried"],
+    "shortDescription": {
+      "en": "Duck leg preserved and slow-cooked in its own fat, usually served tender inside with crisped skin.",
+      "zh": "鸭腿以鸭脂低温慢熟保存，常见口感是内部软嫩、外皮煎到酥香。",
+      "nl": "Eendenbout langzaam gegaard in eigen vet, meestal mals vanbinnen met krokant gemaakte huid."
+    },
+    "cookingProfile": {
+      "en": "Served hot as a rich meat main, often with potatoes or greens rather than a heavy sauce.",
+      "zh": "热食上桌，是偏浓郁的肉类主菜，常配土豆或绿叶菜，不一定有很多酱汁。",
+      "nl": "Warm geserveerd als rijk vleesgerecht, vaak met aardappel of groen en niet per se veel saus."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": ["classic-dish", "regional-dish"],
+      "description": {
+        "en": "A southwest French classic where duck fat, tenderness, and crisp skin define the order.",
+        "zh": "法国西南部经典菜，识别关键是鸭脂、软嫩鸭肉和酥皮。",
+        "nl": "Een Zuidwest-Franse klassieker waarbij eendenvet, mals vlees en krokante huid centraal staan."
+      }
+    },
+    "composition": [["duck", 60, "main"], ["potato", 20, "side"], ["duck-fat", 10, "cooking-fat"], ["butter", 5, "finish"], ["herbs", 5, "aroma"]],
+    "distinctiveFlavorSources": ["duck-fat", "duck", "herbs"],
+    "basicTaste": ["savory", "rich", "salty"],
+    "textureProfile": ["crisp skin", "tender duck", "soft potato"],
+    "riskFlags": [],
+    "dietaryFlags": [],
+    "goodForTags": ["classic-dish", "regional-dish", "meat"],
+    "avoidIfTags": ["wants-light-food", "no-duck"],
+    "orderVerdict": {
+      "en": "Choose it for rich, tender duck with crisp skin; skip if you want a light plate.",
+      "zh": "想吃浓郁软嫩、表皮酥香的鸭腿时很合适；想吃清淡菜时不推荐。",
+      "nl": "Kies dit voor rijke, malse eend met krokante huid; minder geschikt als je licht wilt eten."
+    },
+    "confidenceTag": "audited-french-batch-005",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "steak-frites",
+    "metadataCode": "103007",
+    "cuisineId": "french",
+    "names": { "en": "Steak Frites", "zh": "牛排薯条", "nl": "Steak frites", "local": "Steak frites" },
+    "category": "meat",
+    "cookingMethods": ["grilled", "fried"],
+    "shortDescription": {
+      "en": "French bistro steak served with fries, often with butter, pepper, or a separate sauce.",
+      "zh": "法式小酒馆常见的牛排配薯条，常有黄油、黑胡椒或另配酱汁。",
+      "nl": "Franse bistrosteak met friet, vaak met boter, peper of een losse saus."
+    },
+    "cookingProfile": {
+      "en": "Served hot and straightforward: seared steak plus crisp fries, with doneness and sauce deciding the experience.",
+      "zh": "热食上桌，结构直接：煎烤牛排加酥脆薯条，熟度和酱汁决定体验。",
+      "nl": "Warm en direct geserveerd: gebakken steak met krokante friet; gaarheid en saus bepalen de ervaring."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": ["classic-dish", "first-timer-friendly", "safe-choice"],
+      "description": {
+        "en": "A common French bistro order and a useful safe-choice reference.",
+        "zh": "常见法式小酒馆点单，也是较稳妥的肉类参考。",
+        "nl": "Een veelvoorkomende Franse bistrobestelling en nuttige veilige referentie."
+      }
+    },
+    "composition": [["beef", 55, "steak"], ["fries", 30, "side"], ["butter", 5, "finish"], ["black-pepper", 5, "seasoning", "seasoning"], ["herbs", 5, "garnish"]],
+    "distinctiveFlavorSources": ["beef", "butter", "black-pepper"],
+    "basicTaste": ["savory", "salty", "meaty"],
+    "textureProfile": ["seared steak", "crisp fries", "juicy center"],
+    "riskFlags": ["contains-dairy"],
+    "dietaryFlags": [],
+    "goodForTags": ["safe-choice", "first-timer-friendly", "meat"],
+    "avoidIfTags": ["vegetarian", "dairy-free-if-buttered"],
+    "orderVerdict": {
+      "en": "A straightforward choice if you want steak and fries; ask for doneness and sauce.",
+      "zh": "想吃牛排薯条时很稳妥；建议确认牛排熟度和配酱。",
+      "nl": "Een eenvoudige keuze voor steak met friet; vraag naar gaarheid en saus."
+    },
+    "confidenceTag": "audited-french-batch-005",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "escargots",
+    "metadataCode": "103008",
+    "cuisineId": "french",
+    "names": { "en": "Escargots", "zh": "法式焗蜗牛", "nl": "Escargots", "local": "Escargots" },
+    "category": "starter",
+    "cookingMethods": ["baked"],
+    "shortDescription": {
+      "en": "Snails served hot in garlic-herb butter, often in shells or a special escargot dish.",
+      "zh": "蜗牛配蒜香香草黄油热食，常装在壳中或专用烤盘里。",
+      "nl": "Slakken warm geserveerd in knoflook-kruidenboter, vaak in schelpen of een escargotschaal."
+    },
+    "cookingProfile": {
+      "en": "Served hot and buttery; the texture is tender-chewy while the garlic butter carries most of the flavor.",
+      "zh": "热食且黄油感明显，蜗牛口感柔韧，风味主要来自蒜香黄油。",
+      "nl": "Warm en boterig; de textuur is mals-taai en de knoflookboter draagt de smaak."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": ["classic-dish", "acquired-taste"],
+      "description": {
+        "en": "A classic French starter where comfort with snails is the main decision point.",
+        "zh": "经典法式前菜，点单关键是能否接受蜗牛口感。",
+        "nl": "Een klassiek Frans voorgerecht waarbij comfort met slakken de hoofdvraag is."
+      }
+    },
+    "composition": [["snails", 55, "main"], ["butter", 20, "sauce"], ["garlic", 10, "aroma"], ["herbs", 10, "aroma"], ["bread", 5, "optional-side"]],
+    "distinctiveFlavorSources": ["garlic", "butter", "herbs"],
+    "basicTaste": ["savory", "garlicky", "buttery"],
+    "textureProfile": ["tender-chewy snails", "melted herb butter"],
+    "riskFlags": ["contains-dairy", "contains-shellfish", "contains-gluten"],
+    "dietaryFlags": [],
+    "goodForTags": ["classic-dish", "regional-dish"],
+    "avoidIfTags": ["snail-averse", "dairy-free", "shellfish-allergy"],
+    "orderVerdict": {
+      "en": "Try it if garlic butter sounds good and you are comfortable with a chewy snail texture.",
+      "zh": "喜欢蒜香黄油且能接受蜗牛柔韧口感时可以尝试。",
+      "nl": "Probeer dit als knoflookboter goed klinkt en een taaie slakkentextuur geen probleem is."
+    },
+    "confidenceTag": "audited-french-batch-005",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "low"
+  },
+  {
+    "id": "french-onion-soup",
+    "metadataCode": "103009",
+    "cuisineId": "french",
+    "names": { "en": "French Onion Soup", "zh": "法式洋葱汤", "nl": "Franse uiensoep", "local": "Soupe à l’oignon" },
+    "category": "soup",
+    "cookingMethods": ["simmered", "baked"],
+    "shortDescription": {
+      "en": "Deep onion broth topped with bread and melted cheese, usually served very hot.",
+      "zh": "浓郁洋葱汤，上面常盖面包和融化奶酪，通常滚热上桌。",
+      "nl": "Diepe uiensoep met brood en gesmolten kaas erbovenop, meestal zeer warm geserveerd."
+    },
+    "cookingProfile": {
+      "en": "The broth is savory and sweet from onions, with a heavy cheese-and-bread top.",
+      "zh": "汤底有洋葱带来的咸甜深度，上层面包和奶酪让整体更厚重。",
+      "nl": "De bouillon is hartig en zoet van ui, met een zware kaas-broodlaag."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": ["classic-dish", "first-timer-friendly"],
+      "description": {
+        "en": "A French bistro soup classic and an easy menu-recognition item.",
+        "zh": "法式小酒馆经典汤品，菜单识别度很高。",
+        "nl": "Een Franse bistrosoepklassieker en makkelijk herkenbaar op menu's."
+      }
+    },
+    "composition": [["onion", 45, "base"], ["broth", 25, "soup-base"], ["bread", 15, "topping"], ["cheese", 10, "melted-top"], ["butter", 5, "richness"]],
+    "distinctiveFlavorSources": ["onion", "cheese", "butter"],
+    "basicTaste": ["savory", "sweet-onion", "rich"],
+    "textureProfile": ["hot broth", "soft onions", "melted cheese top"],
+    "riskFlags": ["contains-dairy", "contains-gluten"],
+    "dietaryFlags": [],
+    "goodForTags": ["classic-dish", "first-timer-friendly", "soup"],
+    "avoidIfTags": ["dairy-free", "gluten-free", "wants-light-soup"],
+    "orderVerdict": {
+      "en": "Comforting and recognizable, but heavier than a clear soup because of bread and cheese.",
+      "zh": "暖胃且好识别，但因为面包和奶酪，比清汤更厚重。",
+      "nl": "Troostrijk en herkenbaar, maar zwaarder dan heldere soep door brood en kaas."
+    },
+    "confidenceTag": "audited-french-batch-005",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "salade-nicoise",
+    "metadataCode": "103010",
+    "cuisineId": "french",
+    "names": { "en": "Salade Niçoise", "zh": "尼斯沙拉", "nl": "Salade niçoise", "local": "Salade niçoise" },
+    "category": "salad",
+    "cookingMethods": ["assembled"],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "A composed salad with tuna, egg, green beans, olives, tomato, and vinaigrette-style dressing.",
+      "zh": "组合式沙拉，常有金枪鱼、鸡蛋、四季豆、橄榄、番茄和油醋汁。",
+      "nl": "Samengestelde salade met tonijn, ei, sperziebonen, olijven, tomaat en vinaigrette."
+    },
+    "cookingProfile": {
+      "en": "Served cool as a light meal salad, with protein from tuna and egg rather than cheese or meat.",
+      "zh": "冷食上桌，可作轻主餐，蛋白质主要来自金枪鱼和鸡蛋。",
+      "nl": "Koel geserveerd als lichte maaltijdsalade, met eiwit uit tonijn en ei."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": ["classic-dish", "regional-dish", "lighter-choice"],
+      "description": {
+        "en": "A southern French salad classic for diners who want a lighter but complete plate.",
+        "zh": "南法经典沙拉，适合想要清爽但有完整分量的点单。",
+        "nl": "Een Zuid-Franse saladeklassieker voor een lichtere maar volledige maaltijd."
+      }
+    },
+    "composition": [["mixed-vegetables", 30, "base"], ["tuna", 20, "protein"], ["egg", 15, "protein"], ["green-beans", 15, "vegetable"], ["olives", 10, "briny-garnish"], ["tomato", 10, "freshness"]],
+    "distinctiveFlavorSources": ["tuna", "olives", "vinegar"],
+    "basicTaste": ["fresh", "savory", "briny", "tangy"],
+    "textureProfile": ["cool vegetables", "firm tuna", "soft egg"],
+    "riskFlags": ["contains-fish", "contains-egg"],
+    "dietaryFlags": ["pescatarian"],
+    "goodForTags": ["lighter-choice", "regional-dish", "salad"],
+    "avoidIfTags": ["fish-allergy", "egg-allergy", "wants-hot-food"],
+    "orderVerdict": {
+      "en": "Good as a lighter meal if tuna and egg are welcome; not a plain side salad.",
+      "zh": "如果能接受金枪鱼和鸡蛋，它是较清爽的一餐；不是普通配菜沙拉。",
+      "nl": "Goed als lichtere maaltijd als tonijn en ei welkom zijn; geen gewone bijsalade."
+    },
+    "confidenceTag": "audited-french-batch-005",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "high"
+  },
+  {
+    "id": "croque-monsieur",
+    "metadataCode": "103011",
+    "cuisineId": "french",
+    "names": { "en": "Croque Monsieur", "zh": "法式火腿奶酪三明治", "nl": "Croque monsieur", "local": "Croque monsieur" },
+    "category": "bread",
+    "cookingMethods": ["toasted", "baked"],
+    "shortDescription": {
+      "en": "Hot French ham-and-cheese sandwich, often topped or filled with béchamel for extra richness.",
+      "zh": "热的法式火腿奶酪三明治，常加白酱让口感更浓郁。",
+      "nl": "Warme Franse ham-kaastosti, vaak met bechamel voor extra rijkdom."
+    },
+    "cookingProfile": {
+      "en": "Served hot and browned, with melted cheese, salty ham, and a crisp bread edge.",
+      "zh": "热食上桌，表面烤到上色，有融化奶酪、咸火腿和酥脆面包边。",
+      "nl": "Warm en gebruind geserveerd, met gesmolten kaas, zoute ham en krokante broodrand."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": ["classic-dish", "first-timer-friendly"],
+      "description": {
+        "en": "A French café classic useful for recognizing rich hot sandwich orders.",
+        "zh": "法式咖啡馆经典，适合识别浓郁热三明治类点单。",
+        "nl": "Een Franse cafeklassieker voor rijke warme sandwichbestellingen."
+      }
+    },
+    "composition": [["bread", 35, "base"], ["ham", 25, "filling"], ["cheese", 20, "melted-cheese"], ["bechamel-sauce", 15, "sauce"], ["butter", 5, "browning"]],
+    "distinctiveFlavorSources": ["ham", "cheese", "bechamel-sauce"],
+    "basicTaste": ["salty", "creamy", "savory"],
+    "textureProfile": ["crisp bread", "melted cheese", "soft sauce"],
+    "riskFlags": ["contains-gluten", "contains-pork", "contains-dairy"],
+    "dietaryFlags": [],
+    "goodForTags": ["first-timer-friendly", "classic-dish", "comfort-food"],
+    "avoidIfTags": ["no-pork", "dairy-free", "gluten-free", "wants-light-food"],
+    "orderVerdict": {
+      "en": "A rich comfort choice for ham and melted cheese; avoid if pork, dairy, or gluten is off limits.",
+      "zh": "想吃火腿和融化奶酪的热三明治时很合适；忌猪肉、乳制品或麸质时不推荐。",
+      "nl": "Een rijke comfortkeuze voor ham en gesmolten kaas; vermijd bij varken, zuivel of gluten."
+    },
+    "confidenceTag": "audited-french-batch-005",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "cassoulet",
+    "metadataCode": "103012",
+    "cuisineId": "french",
+    "names": { "en": "Cassoulet", "zh": "法式豆焖肉", "nl": "Cassoulet", "local": "Cassoulet" },
+    "category": "meat",
+    "cookingMethods": ["simmered", "braised"],
+    "shortDescription": {
+      "en": "Hearty southwest French bean stew with duck, sausage, pork, or other meats depending on region.",
+      "zh": "法国西南部浓厚豆类炖菜，常见鸭肉、香肠、猪肉或其他肉类组合。",
+      "nl": "Stevige Zuidwest-Franse bonenstoof met eend, worst, varken of ander vlees per regio."
+    },
+    "cookingProfile": {
+      "en": "Served hot and very filling, with soft beans and deeply savory meat pieces.",
+      "zh": "热食上桌，分量很足，豆子软糯，肉类咸香浓厚。",
+      "nl": "Warm en zeer vullend, met zachte bonen en hartige stukken vlees."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": ["regional-dish", "classic-dish"],
+      "description": {
+        "en": "A southwest French regional classic for diners looking for a rustic, filling stew.",
+        "zh": "法国西南部区域经典，适合想吃乡村风、饱腹炖菜的人。",
+        "nl": "Een Zuidwest-Franse regioklassieker voor een rustieke, vullende stoof."
+      }
+    },
+    "composition": [["white-beans", 35, "base"], ["duck", 25, "meat"], ["sausage-global", 20, "meat"], ["pork", 10, "meat"], ["broth", 10, "stew-base"]],
+    "distinctiveFlavorSources": ["duck", "sausage-global", "white-beans"],
+    "basicTaste": ["savory", "rich", "hearty"],
+    "textureProfile": ["soft beans", "tender meat", "thick stew"],
+    "riskFlags": ["contains-pork"],
+    "dietaryFlags": [],
+    "goodForTags": ["regional-dish", "comfort-food", "meat"],
+    "avoidIfTags": ["no-pork", "wants-light-food", "vegetarian"],
+    "orderVerdict": {
+      "en": "Order when you want a rustic, very filling stew; not a light bistro plate.",
+      "zh": "想吃乡村风、非常饱腹的炖菜时适合；不是清淡小酒馆菜。",
+      "nl": "Bestel dit voor een rustieke, zeer vullende stoof; geen lichte bistroschotel."
+    },
+    "confidenceTag": "audited-french-batch-005",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "high"
+  },
+  {
+    "id": "steak-tartare",
+    "metadataCode": "103013",
+    "cuisineId": "french",
+    "names": { "en": "Steak Tartare", "zh": "生牛肉塔塔", "nl": "Steak tartare", "local": "Steak tartare" },
+    "category": "meat",
+    "cookingMethods": ["raw", "assembled"],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "raw",
+    "shortDescription": {
+      "en": "Raw minced or finely chopped beef seasoned with capers, onion, mustard-style sharpness, and often egg yolk.",
+      "zh": "生牛肉末或细切牛肉，常以酸豆、洋葱、芥末风味调味，并常配生蛋黄。",
+      "nl": "Rauw gehakt of fijn gesneden rundvlees met kappertjes, ui, mosterdachtige scherpte en vaak eidooier."
+    },
+    "cookingProfile": {
+      "en": "Served cold and uncooked, so the key decision is comfort with raw beef and egg yolk.",
+      "zh": "冷食且不加热，点单关键是能否接受生牛肉和生蛋黄。",
+      "nl": "Koud en rauw geserveerd; de hoofdvraag is comfort met rauw rund en eidooier."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": ["classic-dish", "acquired-taste"],
+      "description": {
+        "en": "A French bistro raw-beef classic that needs clear ordering caution.",
+        "zh": "法式小酒馆生牛肉经典，需要明确提示生食风险。",
+        "nl": "Een Franse bistroklassieker van rauw rund waarbij duidelijke waarschuwing nodig is."
+      }
+    },
+    "composition": [["beef", 65, "raw-beef"], ["egg", 10, "yolk"], ["capers", 10, "briny-seasoning"], ["onion", 10, "aroma"], ["fries", 5, "side"]],
+    "distinctiveFlavorSources": ["raw-beef", "capers", "egg-yolk"],
+    "basicTaste": ["savory", "briny", "raw-meat"],
+    "textureProfile": ["soft raw beef", "rich yolk", "crisp side garnish"],
+    "riskFlags": ["contains-egg"],
+    "dietaryFlags": [],
+    "goodForTags": ["classic-dish", "acquired-taste"],
+    "avoidIfTags": ["raw-food-avoidant", "pregnant-or-immunocompromised", "egg-allergy"],
+    "orderVerdict": {
+      "en": "Only order if raw beef and egg yolk are comfortable for you; this is not a cooked steak.",
+      "zh": "只有能接受生牛肉和生蛋黄时才建议点；它不是熟牛排。",
+      "nl": "Bestel dit alleen als rauw rund en eidooier prettig voelen; dit is geen gebakken steak."
+    },
+    "confidenceTag": "audited-french-batch-005",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "bouillabaisse",
+    "metadataCode": "103014",
+    "cuisineId": "french",
+    "names": { "en": "Bouillabaisse", "zh": "马赛鱼汤", "nl": "Bouillabaisse", "local": "Bouillabaisse" },
+    "category": "soup",
+    "cookingMethods": ["simmered"],
+    "shortDescription": {
+      "en": "Provençal seafood soup or stew with fish, shellfish, tomato, broth, and saffron-style aromatics.",
+      "zh": "普罗旺斯海鲜汤或炖菜，常有鱼、贝类、番茄、高汤和藏红花香气。",
+      "nl": "Provençaalse zeevruchtensoep of stoof met vis, schelpdieren, tomaat, bouillon en saffraanaroma."
+    },
+    "cookingProfile": {
+      "en": "Served hot and brothy, with seafood pieces in an aromatic orange-red broth.",
+      "zh": "热食上桌，汤感明显，海鲜块浸在香料感橙红汤底里。",
+      "nl": "Warm en bouillonachtig, met zeevruchten in een aromatische oranjerode bouillon."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": ["regional-dish", "classic-dish"],
+      "description": {
+        "en": "A Marseille and Provence seafood classic for diners who want a briny soup.",
+        "zh": "马赛和普罗旺斯海鲜经典，适合想要鲜咸汤类菜的人。",
+        "nl": "Een zeevruchtenklassieker uit Marseille en Provence voor wie een ziltige soep wil."
+      }
+    },
+    "composition": [["broth", 35, "soup-base"], ["fish-fillet", 25, "seafood"], ["mussels", 15, "shellfish"], ["shrimp", 10, "shellfish"], ["tomato", 10, "body"], ["saffron", 5, "aroma", "seasoning"]],
+    "distinctiveFlavorSources": ["saffron", "fish-fillet", "mussels"],
+    "basicTaste": ["briny", "savory", "aromatic"],
+    "textureProfile": ["hot broth", "tender seafood", "soft tomato base"],
+    "riskFlags": ["contains-fish", "contains-shellfish"],
+    "dietaryFlags": ["pescatarian"],
+    "goodForTags": ["regional-dish", "seafood", "soup"],
+    "avoidIfTags": ["fish-allergy", "shellfish-allergy", "wants-non-seafood"],
+    "orderVerdict": {
+      "en": "Great if you want a seafood soup; avoid if fish or shellfish is a concern.",
+      "zh": "想吃海鲜汤时很合适；鱼类或贝类过敏时应避开。",
+      "nl": "Sterk als je zeevruchtensoep wilt; vermijd bij vis- of schelpdierallergie."
+    },
+    "confidenceTag": "audited-french-batch-005",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "sole-meuniere",
+    "metadataCode": "103015",
+    "cuisineId": "french",
+    "names": { "en": "Sole Meunière", "zh": "黄油煎鳎鱼", "nl": "Sole meunière", "local": "Sole meunière" },
+    "category": "seafood",
+    "cookingMethods": ["fried"],
+    "shortDescription": {
+      "en": "Delicate flatfish lightly floured and pan-cooked with brown butter, lemon, and parsley.",
+      "zh": "细嫩扁鱼薄薄裹粉后煎制，配焦化黄油、柠檬和欧芹。",
+      "nl": "Fijne platvis licht bebloemd en in de pan gebakken met bruine boter, citroen en peterselie."
+    },
+    "cookingProfile": {
+      "en": "Served hot as a refined fish main with buttery lemon sauce rather than heavy spice.",
+      "zh": "热食上桌，是细致的鱼类主菜，重点是黄油柠檬香，不靠重香料。",
+      "nl": "Warm geserveerd als verfijnd visgerecht met boter-citroensaus, niet zwaar gekruid."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": ["classic-dish", "first-timer-friendly"],
+      "description": {
+        "en": "A French fish classic that signals a simple butter-lemon preparation.",
+        "zh": "法式鱼类经典，识别点是简洁的黄油柠檬做法。",
+        "nl": "Een Franse visklassieker met eenvoudige boter-citroenbereiding."
+      }
+    },
+    "composition": [["fish-fillet", 60, "main"], ["butter", 15, "sauce"], ["lemon", 10, "finish"], ["wheat-flour", 10, "light-coating"], ["parsley", 5, "herb", "seasoning"]],
+    "distinctiveFlavorSources": ["butter", "lemon", "parsley"],
+    "basicTaste": ["savory", "buttery", "lemony"],
+    "textureProfile": ["tender fish", "light browned surface", "buttery sauce"],
+    "riskFlags": ["contains-fish", "contains-dairy", "contains-gluten"],
+    "dietaryFlags": ["pescatarian"],
+    "goodForTags": ["classic-dish", "seafood", "first-timer-friendly"],
+    "avoidIfTags": ["fish-allergy", "dairy-free", "gluten-free"],
+    "orderVerdict": {
+      "en": "Good if you want gentle fish with butter and lemon; ask about bones if that matters.",
+      "zh": "想吃温和鱼肉配黄油柠檬时很适合；在意鱼刺可先询问。",
+      "nl": "Goed voor zachte vis met boter en citroen; vraag naar graten als dat belangrijk is."
+    },
+    "confidenceTag": "audited-french-batch-005",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "tarte-tatin",
+    "metadataCode": "103016",
+    "cuisineId": "french",
+    "names": { "en": "Tarte Tatin", "zh": "反烤苹果塔", "nl": "Tarte tatin", "local": "Tarte tatin" },
+    "category": "dessert",
+    "cookingMethods": ["baked"],
+    "shortDescription": {
+      "en": "Upside-down caramelized apple tart, usually buttery, glossy, and served warm or room-temperature.",
+      "zh": "反烤焦糖苹果塔，通常黄油香明显，苹果表面油亮，可温热或常温上桌。",
+      "nl": "Omgekeerde gekaramelliseerde appeltaart, meestal boterig, glanzend en warm of op kamertemperatuur."
+    },
+    "cookingProfile": {
+      "en": "The fruit is caramelized under pastry, giving soft apples and a sticky buttery top.",
+      "zh": "苹果在酥皮下焦糖化，形成柔软苹果和黏润黄油焦糖表层。",
+      "nl": "Het fruit karamelliseert onder deeg, met zachte appel en kleverige boterkaramel bovenop."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": ["classic-dish", "dessert"],
+      "description": {
+        "en": "A French dessert classic for caramelized fruit and pastry.",
+        "zh": "法式经典甜点，重点是焦糖水果和酥皮。",
+        "nl": "Een Franse dessertklassieker rond gekaramelliseerd fruit en deeg."
+      }
+    },
+    "composition": [["apple", 45, "fruit"], ["pastry-crust", 25, "base"], ["sugar", 15, "caramel"], ["butter", 10, "caramel-richness"], ["vanilla", 5, "aroma", "seasoning"]],
+    "distinctiveFlavorSources": ["apple", "caramelized-sugar", "butter"],
+    "basicTaste": ["sweet", "caramel", "buttery", "fruity"],
+    "textureProfile": ["soft caramelized apple", "crisp pastry edge", "sticky glaze"],
+    "riskFlags": ["contains-dairy", "contains-gluten"],
+    "dietaryFlags": ["vegetarian"],
+    "goodForTags": ["classic-dish", "dessert"],
+    "avoidIfTags": ["gluten-free", "dairy-free", "wants-light-dessert"],
+    "orderVerdict": {
+      "en": "A strong dessert choice if you like caramelized apple and buttery pastry.",
+      "zh": "喜欢焦糖苹果和黄油酥皮时很适合。",
+      "nl": "Een sterke dessertkeuze als je gekaramelliseerde appel en boterig deeg wilt."
+    },
+    "confidenceTag": "audited-french-batch-005",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "crepes",
+    "metadataCode": "103017",
+    "cuisineId": "french",
+    "names": { "en": "Crêpes", "zh": "法式薄饼", "nl": "Crêpes", "local": "Crêpes" },
+    "category": "dessert",
+    "cookingMethods": ["fried"],
+    "shortDescription": {
+      "en": "Very thin French pancakes served sweet or savory, often folded with sugar, fruit, chocolate, or cream.",
+      "zh": "非常薄的法式薄饼，可甜可咸，常折叠后配糖、水果、巧克力或奶油。",
+      "nl": "Zeer dunne Franse pannenkoeken, zoet of hartig, vaak gevouwen met suiker, fruit, chocolade of room."
+    },
+    "cookingProfile": {
+      "en": "Served warm or room-temperature, soft and flexible rather than fluffy like thick pancakes.",
+      "zh": "温热或常温上桌，口感柔软可折，不像厚松饼那样蓬松。",
+      "nl": "Warm of op kamertemperatuur, zacht en vouwbaar in plaats van luchtig zoals dikke pannenkoeken."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": ["classic-dish", "first-timer-friendly"],
+      "description": {
+        "en": "A widely recognized French crêperie item with many fillings.",
+        "zh": "识别度很高的法式薄饼店菜品，馅料变化很多。",
+        "nl": "Een breed herkenbaar Frans crêperiegerecht met veel vullingen."
+      }
+    },
+    "composition": [["crepe-batter", 55, "base"], ["fruit-sauce-or-caramel", 15, "filling"], ["sugar", 15, "sweetener"], ["butter", 10, "pan-richness"], ["cream", 5, "optional-finish"]],
+    "distinctiveFlavorSources": ["butter", "sugar", "fruit-sauce-or-caramel"],
+    "basicTaste": ["sweet", "buttery", "mild"],
+    "textureProfile": ["thin soft pancake", "folded layers", "saucy filling"],
+    "riskFlags": ["contains-gluten", "contains-egg", "contains-dairy"],
+    "dietaryFlags": ["vegetarian"],
+    "goodForTags": ["first-timer-friendly", "dessert", "classic-dish"],
+    "avoidIfTags": ["gluten-free", "egg-allergy", "dairy-free"],
+    "orderVerdict": {
+      "en": "A safe dessert or snack if you like thin pancakes; filling choice controls sweetness and richness.",
+      "zh": "喜欢薄饼时是稳妥甜点或小食；甜度和浓郁度主要看馅料。",
+      "nl": "Een veilige dessert- of snackkeuze als je dunne pannenkoeken wilt; vulling bepaalt zoetheid en rijkdom."
+    },
+    "confidenceTag": "audited-french-batch-005",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "high"
+  }
+]
