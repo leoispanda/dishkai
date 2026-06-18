@@ -111,6 +111,17 @@ const manuallyQuarantinedDishReasons = new Map([
   ["fried-meatballs-kids", "generic kids menu item, not verified cuisine metadata"],
   ["fish-sticks-kids", "generic kids menu item, not verified cuisine metadata"],
   ["butter-side", "side condiment, not a dish knowledge card"],
+  ["scrambled-eggs", "generic breakfast item; not specific enough for verified cuisine metadata"],
+  ["shakshuka", "real dish but out of the European batch scope; keep as candidate for later regional review"],
+  ["french-toast", "real item but assigned outside the European batch scope; keep as candidate for later review"],
+  ["eggs-benedict", "real item but assigned outside the European batch scope; keep as candidate for later review"],
+  ["avocado-toast", "generic cafe item; not specific enough for verified cuisine metadata"],
+  ["granola-bowl", "generic cafe breakfast bowl; not specific enough for verified cuisine metadata"],
+  ["acai-bowl", "real item but out of the European batch scope; keep as candidate for later review"],
+  ["club-sandwich", "generic international cafe item; not specific enough for verified cuisine metadata"],
+  ["bagel-cream-cheese", "generic bagel item; not specific enough for verified cuisine metadata"],
+  ["smoked-salmon-bagel", "generic bagel variant; not specific enough for verified cuisine metadata"],
+  ["banana-bread", "generic cafe snack; not specific enough for verified cuisine metadata"],
 ]);
 
 function source(sourceFile, layer, dishes, highRisk = false) {

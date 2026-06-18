@@ -63,6 +63,8 @@ export const cafeBrunchDepthDishes = [
       nl: "Betrouwbare brunchkeuze; check vulling bij varken, zuivel of champignons.",
     },
     weightLevel: 2,
+    confidenceTag: "audited-core-batch-002",
+    metadataConfidence: 0.82
   }),
   cafeDish({
     id: "shakshuka",
@@ -282,6 +284,8 @@ export const cafeBrunchDepthDishes = [
       nl: "Veilige bakkerskeuze; versheid is belangrijker dan topping.",
     },
     weightLevel: 2,
+    confidenceTag: "audited-core-batch-002",
+    metadataConfidence: 0.82
   }),
   cafeDish({
     id: "pain-au-chocolat",
@@ -313,6 +317,8 @@ export const cafeBrunchDepthDishes = [
       nl: "Kies voor een zoete bakkershap; beter met koffie dan als hoofdmaaltijd.",
     },
     weightLevel: 2,
+    confidenceTag: "audited-core-batch-002",
+    metadataConfidence: 0.82
   }),
   cafeDish({
     id: "club-sandwich",
@@ -438,6 +444,8 @@ export const cafeBrunchDepthDishes = [
       nl: "Heel veilige Nederlandse cafésnack; vraag kaas-only voor vegetarisch.",
     },
     weightLevel: 2,
+    confidenceTag: "audited-core-batch-002",
+    metadataConfidence: 0.82
   }),
   cafeDish({
     id: "broodje-gezond",
@@ -469,6 +477,8 @@ export const cafeBrunchDepthDishes = [
       nl: "Veelvoorkomende Nederlandse lunch; niet automatisch vegetarisch of licht ondanks de naam.",
     },
     weightLevel: 3,
+    confidenceTag: "audited-core-batch-002",
+    metadataConfidence: 0.82
   }),
   cafeDish({
     id: "croque-madame",
@@ -500,6 +510,8 @@ export const cafeBrunchDepthDishes = [
       nl: "Bestel voor een rijke warme sandwich; zwaar als kleine snack.",
     },
     weightLevel: 4,
+    confidenceTag: "audited-core-batch-002",
+    metadataConfidence: 0.82
   }),
   cafeDish({
     id: "quiche",
@@ -531,6 +543,8 @@ export const cafeBrunchDepthDishes = [
       nl: "Nuttig café-lunchitem; check vulling want spek, zalm en vegetarisch verschillen.",
     },
     weightLevel: 3,
+    confidenceTag: "audited-core-batch-002",
+    metadataConfidence: 0.82
   }),
   cafeDish({
     id: "banana-bread",
@@ -571,9 +585,9 @@ function cafeDish(config) {
       level: config.cuisineRoleLevel || "common",
       tags: ["cafe-menu-common", ...(config.cuisineRoleTags || [])],
       description: {
-        en: "A practical café or brunch menu item mapped into an existing cuisine for European restaurant coverage.",
-        zh: "面向欧洲 café / brunch 菜单场景的实用条目，归入现有菜系而不是新增菜系。",
-        nl: "Een praktisch café- of brunchgerecht binnen een bestaande keuken voor Europese menudekking.",
+        en: "A practical café or brunch menu item used only when it is specific enough for ordering decisions.",
+        zh: "仅在足够具体、能支持点餐判断时使用的 café / brunch 菜单条目。",
+        nl: "Een praktisch café- of brunchgerecht dat alleen wordt gebruikt wanneer het specifiek genoeg is voor bestelkeuzes.",
       },
     },
     confidenceTag: "verified-cafe-brunch-depth-v1",

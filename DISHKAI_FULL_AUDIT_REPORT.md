@@ -5,25 +5,23 @@ Generated: 2026-06-18
 ## Executive summary
 
 - Raw dish records reviewed from source files: 1110
-- Current verified export after quarantine: 77 dishes, 341 aliases
+- Current verified export after quarantine: 93 dishes, 405 aliases
 - Generated high-risk dishes quarantined from verified export: 991
-- Verified export rows with automated keep-verified status: 77
+- Verified export rows with automated keep-verified status: 93
 - Verified export rows requiring metadata/image follow-up: 0
 
 The audit found systemic template language, low confidence values, repeated compositions, and placeholder localized text in the generated expansion layers. Those layers are no longer part of `metadata.dishes` or `metadata.dishAliases` and must be rebuilt in review batches of at most 30 dishes before returning to verified status.
 
 ## Status counts
 
-- fix-metadata: 27
-- keep-verified: 77
+- keep-verified: 93
 - rebuild: 991
-- remove: 15
+- remove: 26
 
 ## Risk counts
 
-- high: 1006
-- low: 77
-- medium: 27
+- high: 1017
+- low: 93
 
 ## Source counts
 
@@ -45,19 +43,19 @@ The audit found systemic template language, low confidence values, repeated comp
 
 ## Image asset check
 
-- quarantinedOrUnreferencedMainAssets: 1033
-- quarantinedOrUnreferencedThumbAssets: 1033
+- quarantinedOrUnreferencedMainAssets: 1017
+- quarantinedOrUnreferencedThumbAssets: 1017
 - totalMainAssets: 1110
 - totalThumbAssets: 1110
-- verifiedMainAssetsReferenced: 77
-- verifiedThumbAssetsReferenced: 77
+- verifiedMainAssetsReferenced: 93
+- verifiedThumbAssetsReferenced: 93
 
 Quarantined/unreferenced assets were intentionally left in place. They are not deleted because they may be reused only after semantic image review and metadata rebuild.
 
 ## Alias audit summary
 
 - Raw aliases reviewed: 3097
-- Aliases in verified export: 341
+- Aliases in verified export: 405
 - Alias rows flagged for review: 2539
 
 | alias | dishId | sourceFile | confidence | status | notes |
@@ -362,38 +360,38 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | spaetzle | 106004 | german | data/internal/dishes/german.js | /assets/dishes/main/106004-spaetzle.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | pretzel | 106005 | german | data/internal/dishes/german.js | /assets/dishes/main/106005-pretzel.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | bitterballen | 102001 | dutch | data/internal/dishes/dutch.js | /assets/dishes/main/102001-bitterballen.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-| stamppot | 102002 | dutch | data/internal/dishes/dutch.js | /assets/dishes/main/102002-stamppot.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| poffertjes | 102003 | dutch | data/internal/dishes/dutch.js | /assets/dishes/main/102003-poffertjes.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| haring | 102004 | dutch | data/internal/dishes/dutch.js | /assets/dishes/main/102004-haring.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| erwtensoep | 102005 | dutch | data/internal/dishes/dutch.js | /assets/dishes/main/102005-erwtensoep.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| moules-frites | 107001 | belgian | data/internal/dishes/belgian.js | /assets/dishes/main/107001-moules-frites.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| belgian-waffle | 107002 | belgian | data/internal/dishes/belgian.js | /assets/dishes/main/107002-belgian-waffle.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| carbonnade-flamande | 107003 | belgian | data/internal/dishes/belgian.js | /assets/dishes/main/107003-carbonnade-flamande.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| waterzooi | 107004 | belgian | data/internal/dishes/belgian.js | /assets/dishes/main/107004-waterzooi.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| chicon-au-gratin | 107005 | belgian | data/internal/dishes/belgian.js | /assets/dishes/main/107005-chicon-au-gratin.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| scrambled-eggs | 123013 | british-irish | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/123013-scrambled-eggs.webp | medium | fix-metadata | template-coverage-fill | repair metadata before verified expansion |
-| omelette | 103018 | french | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/103018-omelette.webp | medium | fix-metadata | template-coverage-fill | repair metadata before verified expansion |
-| shakshuka | 120013 | middle-eastern | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/120013-shakshuka.webp | medium | fix-metadata | template-coverage-fill | repair metadata before verified expansion |
-| french-toast | 122013 | american | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/122013-french-toast.webp | medium | fix-metadata | template-coverage-fill | repair metadata before verified expansion |
-| eggs-benedict | 122014 | american | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/122014-eggs-benedict.webp | medium | fix-metadata | template-coverage-fill | repair metadata before verified expansion |
+| stamppot | 102002 | dutch | data/internal/dishes/dutch.js | /assets/dishes/main/102002-stamppot.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| poffertjes | 102003 | dutch | data/internal/dishes/dutch.js | /assets/dishes/main/102003-poffertjes.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| haring | 102004 | dutch | data/internal/dishes/dutch.js | /assets/dishes/main/102004-haring.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| erwtensoep | 102005 | dutch | data/internal/dishes/dutch.js | /assets/dishes/main/102005-erwtensoep.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| moules-frites | 107001 | belgian | data/internal/dishes/belgian.js | /assets/dishes/main/107001-moules-frites.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| belgian-waffle | 107002 | belgian | data/internal/dishes/belgian.js | /assets/dishes/main/107002-belgian-waffle.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| carbonnade-flamande | 107003 | belgian | data/internal/dishes/belgian.js | /assets/dishes/main/107003-carbonnade-flamande.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| waterzooi | 107004 | belgian | data/internal/dishes/belgian.js | /assets/dishes/main/107004-waterzooi.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| chicon-au-gratin | 107005 | belgian | data/internal/dishes/belgian.js | /assets/dishes/main/107005-chicon-au-gratin.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| scrambled-eggs | 123013 | british-irish | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/123013-scrambled-eggs.webp | high | remove | manual quarantine: generic breakfast item; not specific enough for verified cuisine metadata | remove or merge into canonical dish |
+| omelette | 103018 | french | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/103018-omelette.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| shakshuka | 120013 | middle-eastern | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/120013-shakshuka.webp | high | remove | manual quarantine: real dish but out of the European batch scope; keep as candidate for later regional review | remove or merge into canonical dish |
+| french-toast | 122013 | american | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/122013-french-toast.webp | high | remove | manual quarantine: real item but assigned outside the European batch scope; keep as candidate for later review | remove or merge into canonical dish |
+| eggs-benedict | 122014 | american | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/122014-eggs-benedict.webp | high | remove | manual quarantine: real item but assigned outside the European batch scope; keep as candidate for later review | remove or merge into canonical dish |
 
 ### Batch 003
 
 | dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| avocado-toast | 122015 | american | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/122015-avocado-toast.webp | medium | fix-metadata | template-coverage-fill | repair metadata before verified expansion |
-| granola-bowl | 122016 | american | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/122016-granola-bowl.webp | medium | fix-metadata | template-coverage-fill | repair metadata before verified expansion |
-| acai-bowl | 130013 | brazilian | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/130013-acai-bowl.webp | medium | fix-metadata | template-coverage-fill | repair metadata before verified expansion |
-| croissant | 103019 | french | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/103019-croissant.webp | medium | fix-metadata | template-coverage-fill | repair metadata before verified expansion |
-| pain-au-chocolat | 103020 | french | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/103020-pain-au-chocolat.webp | medium | fix-metadata | template-coverage-fill | repair metadata before verified expansion |
-| club-sandwich | 122017 | american | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/122017-club-sandwich.webp | medium | fix-metadata | template-coverage-fill | repair metadata before verified expansion |
-| bagel-cream-cheese | 122018 | american | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/122018-bagel-cream-cheese.webp | medium | fix-metadata | template-coverage-fill | repair metadata before verified expansion |
-| smoked-salmon-bagel | 122019 | american | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/122019-smoked-salmon-bagel.webp | medium | fix-metadata | template-coverage-fill | repair metadata before verified expansion |
-| tosti | 102018 | dutch | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/102018-tosti.webp | medium | fix-metadata | template-coverage-fill | repair metadata before verified expansion |
-| broodje-gezond | 102020 | dutch | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/102020-broodje-gezond.webp | medium | fix-metadata | template-coverage-fill | repair metadata before verified expansion |
-| croque-madame | 103021 | french | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/103021-croque-madame.webp | medium | fix-metadata | template-coverage-fill | repair metadata before verified expansion |
-| quiche | 103022 | french | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/103022-quiche.webp | medium | fix-metadata | template-coverage-fill | repair metadata before verified expansion |
-| banana-bread | 122020 | american | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/122020-banana-bread.webp | medium | fix-metadata | template-coverage-fill | repair metadata before verified expansion |
+| avocado-toast | 122015 | american | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/122015-avocado-toast.webp | high | remove | manual quarantine: generic cafe item; not specific enough for verified cuisine metadata | remove or merge into canonical dish |
+| granola-bowl | 122016 | american | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/122016-granola-bowl.webp | high | remove | manual quarantine: generic cafe breakfast bowl; not specific enough for verified cuisine metadata | remove or merge into canonical dish |
+| acai-bowl | 130013 | brazilian | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/130013-acai-bowl.webp | high | remove | manual quarantine: real item but out of the European batch scope; keep as candidate for later review | remove or merge into canonical dish |
+| croissant | 103019 | french | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/103019-croissant.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| pain-au-chocolat | 103020 | french | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/103020-pain-au-chocolat.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| club-sandwich | 122017 | american | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/122017-club-sandwich.webp | high | remove | manual quarantine: generic international cafe item; not specific enough for verified cuisine metadata | remove or merge into canonical dish |
+| bagel-cream-cheese | 122018 | american | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/122018-bagel-cream-cheese.webp | high | remove | manual quarantine: generic bagel item; not specific enough for verified cuisine metadata | remove or merge into canonical dish |
+| smoked-salmon-bagel | 122019 | american | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/122019-smoked-salmon-bagel.webp | high | remove | manual quarantine: generic bagel variant; not specific enough for verified cuisine metadata | remove or merge into canonical dish |
+| tosti | 102018 | dutch | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/102018-tosti.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| broodje-gezond | 102020 | dutch | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/102020-broodje-gezond.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| croque-madame | 103021 | french | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/103021-croque-madame.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| quiche | 103022 | french | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/103022-quiche.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| banana-bread | 122020 | american | data/internal/dishes/cafe-brunch-depth-dishes.js | /assets/dishes/main/122020-banana-bread.webp | high | remove | manual quarantine: generic cafe snack; not specific enough for verified cuisine metadata | remove or merge into canonical dish |
 | fava | 104013 | greek | data/internal/dishes/greek-depth-dishes.js | /assets/dishes/main/104013-fava.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | melitzanosalata | 104014 | greek | data/internal/dishes/greek-depth-dishes.js | /assets/dishes/main/104014-melitzanosalata.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | taramasalata | 104015 | greek | data/internal/dishes/greek-depth-dishes.js | /assets/dishes/main/104015-taramasalata.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |

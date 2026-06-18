@@ -1,0 +1,245 @@
+[
+  {
+    "dishId": "stamppot",
+    "metadataCode": "102002",
+    "cuisineId": "dutch",
+    "name": "Stamppot",
+    "imagePath": "/assets/dishes/main/102002-stamppot.webp",
+    "thumbPath": "/assets/dishes/thumb/102002-stamppot.webp",
+    "metadataConfidence": 0.76
+  },
+  {
+    "dishId": "poffertjes",
+    "metadataCode": "102003",
+    "cuisineId": "dutch",
+    "name": "Poffertjes",
+    "imagePath": "/assets/dishes/main/102003-poffertjes.webp",
+    "thumbPath": "/assets/dishes/thumb/102003-poffertjes.webp",
+    "metadataConfidence": 0.76
+  },
+  {
+    "dishId": "haring",
+    "metadataCode": "102004",
+    "cuisineId": "dutch",
+    "name": "Haring",
+    "imagePath": "/assets/dishes/main/102004-haring.webp",
+    "thumbPath": "/assets/dishes/thumb/102004-haring.webp",
+    "metadataConfidence": 0.76
+  },
+  {
+    "dishId": "erwtensoep",
+    "metadataCode": "102005",
+    "cuisineId": "dutch",
+    "name": "Erwtensoep",
+    "imagePath": "/assets/dishes/main/102005-erwtensoep.webp",
+    "thumbPath": "/assets/dishes/thumb/102005-erwtensoep.webp",
+    "metadataConfidence": 0.76
+  },
+  {
+    "dishId": "moules-frites",
+    "metadataCode": "107001",
+    "cuisineId": "belgian",
+    "name": "Moules-Frites",
+    "imagePath": "/assets/dishes/main/107001-moules-frites.webp",
+    "thumbPath": "/assets/dishes/thumb/107001-moules-frites.webp",
+    "metadataConfidence": 0.76
+  },
+  {
+    "dishId": "belgian-waffle",
+    "metadataCode": "107002",
+    "cuisineId": "belgian",
+    "name": "Belgian Waffle",
+    "imagePath": "/assets/dishes/main/107002-belgian-waffle.webp",
+    "thumbPath": "/assets/dishes/thumb/107002-belgian-waffle.webp",
+    "metadataConfidence": 0.76
+  },
+  {
+    "dishId": "carbonnade-flamande",
+    "metadataCode": "107003",
+    "cuisineId": "belgian",
+    "name": "Carbonnade Flamande",
+    "imagePath": "/assets/dishes/main/107003-carbonnade-flamande.webp",
+    "thumbPath": "/assets/dishes/thumb/107003-carbonnade-flamande.webp",
+    "metadataConfidence": 0.76
+  },
+  {
+    "dishId": "waterzooi",
+    "metadataCode": "107004",
+    "cuisineId": "belgian",
+    "name": "Waterzooi",
+    "imagePath": "/assets/dishes/main/107004-waterzooi.webp",
+    "thumbPath": "/assets/dishes/thumb/107004-waterzooi.webp",
+    "metadataConfidence": 0.76
+  },
+  {
+    "dishId": "chicon-au-gratin",
+    "metadataCode": "107005",
+    "cuisineId": "belgian",
+    "name": "Chicon au Gratin",
+    "imagePath": "/assets/dishes/main/107005-chicon-au-gratin.webp",
+    "thumbPath": "/assets/dishes/thumb/107005-chicon-au-gratin.webp",
+    "metadataConfidence": 0.76
+  },
+  {
+    "dishId": "scrambled-eggs",
+    "metadataCode": "123013",
+    "cuisineId": "british-irish",
+    "name": "Scrambled Eggs",
+    "imagePath": "/assets/dishes/main/123013-scrambled-eggs.webp",
+    "thumbPath": "/assets/dishes/thumb/123013-scrambled-eggs.webp",
+    "metadataConfidence": 0.78
+  },
+  {
+    "dishId": "omelette",
+    "metadataCode": "103018",
+    "cuisineId": "french",
+    "name": "Omelette",
+    "imagePath": "/assets/dishes/main/103018-omelette.webp",
+    "thumbPath": "/assets/dishes/thumb/103018-omelette.webp",
+    "metadataConfidence": 0.78
+  },
+  {
+    "dishId": "shakshuka",
+    "metadataCode": "120013",
+    "cuisineId": "middle-eastern",
+    "name": "Shakshuka",
+    "imagePath": "/assets/dishes/main/120013-shakshuka.webp",
+    "thumbPath": "/assets/dishes/thumb/120013-shakshuka.webp",
+    "metadataConfidence": 0.78
+  },
+  {
+    "dishId": "french-toast",
+    "metadataCode": "122013",
+    "cuisineId": "american",
+    "name": "French Toast",
+    "imagePath": "/assets/dishes/main/122013-french-toast.webp",
+    "thumbPath": "/assets/dishes/thumb/122013-french-toast.webp",
+    "metadataConfidence": 0.78
+  },
+  {
+    "dishId": "eggs-benedict",
+    "metadataCode": "122014",
+    "cuisineId": "american",
+    "name": "Eggs Benedict",
+    "imagePath": "/assets/dishes/main/122014-eggs-benedict.webp",
+    "thumbPath": "/assets/dishes/thumb/122014-eggs-benedict.webp",
+    "metadataConfidence": 0.78
+  },
+  {
+    "dishId": "avocado-toast",
+    "metadataCode": "122015",
+    "cuisineId": "american",
+    "name": "Avocado Toast",
+    "imagePath": "/assets/dishes/main/122015-avocado-toast.webp",
+    "thumbPath": "/assets/dishes/thumb/122015-avocado-toast.webp",
+    "metadataConfidence": 0.78
+  },
+  {
+    "dishId": "granola-bowl",
+    "metadataCode": "122016",
+    "cuisineId": "american",
+    "name": "Granola Bowl",
+    "imagePath": "/assets/dishes/main/122016-granola-bowl.webp",
+    "thumbPath": "/assets/dishes/thumb/122016-granola-bowl.webp",
+    "metadataConfidence": 0.78
+  },
+  {
+    "dishId": "acai-bowl",
+    "metadataCode": "130013",
+    "cuisineId": "brazilian",
+    "name": "Açaí Bowl",
+    "imagePath": "/assets/dishes/main/130013-acai-bowl.webp",
+    "thumbPath": "/assets/dishes/thumb/130013-acai-bowl.webp",
+    "metadataConfidence": 0.78
+  },
+  {
+    "dishId": "croissant",
+    "metadataCode": "103019",
+    "cuisineId": "french",
+    "name": "Croissant",
+    "imagePath": "/assets/dishes/main/103019-croissant.webp",
+    "thumbPath": "/assets/dishes/thumb/103019-croissant.webp",
+    "metadataConfidence": 0.78
+  },
+  {
+    "dishId": "pain-au-chocolat",
+    "metadataCode": "103020",
+    "cuisineId": "french",
+    "name": "Pain au Chocolat",
+    "imagePath": "/assets/dishes/main/103020-pain-au-chocolat.webp",
+    "thumbPath": "/assets/dishes/thumb/103020-pain-au-chocolat.webp",
+    "metadataConfidence": 0.78
+  },
+  {
+    "dishId": "club-sandwich",
+    "metadataCode": "122017",
+    "cuisineId": "american",
+    "name": "Club Sandwich",
+    "imagePath": "/assets/dishes/main/122017-club-sandwich.webp",
+    "thumbPath": "/assets/dishes/thumb/122017-club-sandwich.webp",
+    "metadataConfidence": 0.78
+  },
+  {
+    "dishId": "bagel-cream-cheese",
+    "metadataCode": "122018",
+    "cuisineId": "american",
+    "name": "Bagel with Cream Cheese",
+    "imagePath": "/assets/dishes/main/122018-bagel-cream-cheese.webp",
+    "thumbPath": "/assets/dishes/thumb/122018-bagel-cream-cheese.webp",
+    "metadataConfidence": 0.78
+  },
+  {
+    "dishId": "smoked-salmon-bagel",
+    "metadataCode": "122019",
+    "cuisineId": "american",
+    "name": "Smoked Salmon Bagel",
+    "imagePath": "/assets/dishes/main/122019-smoked-salmon-bagel.webp",
+    "thumbPath": "/assets/dishes/thumb/122019-smoked-salmon-bagel.webp",
+    "metadataConfidence": 0.78
+  },
+  {
+    "dishId": "tosti",
+    "metadataCode": "102018",
+    "cuisineId": "dutch",
+    "name": "Tosti",
+    "imagePath": "/assets/dishes/main/102018-tosti.webp",
+    "thumbPath": "/assets/dishes/thumb/102018-tosti.webp",
+    "metadataConfidence": 0.78
+  },
+  {
+    "dishId": "broodje-gezond",
+    "metadataCode": "102020",
+    "cuisineId": "dutch",
+    "name": "Broodje Gezond",
+    "imagePath": "/assets/dishes/main/102020-broodje-gezond.webp",
+    "thumbPath": "/assets/dishes/thumb/102020-broodje-gezond.webp",
+    "metadataConfidence": 0.78
+  },
+  {
+    "dishId": "croque-madame",
+    "metadataCode": "103021",
+    "cuisineId": "french",
+    "name": "Croque Madame",
+    "imagePath": "/assets/dishes/main/103021-croque-madame.webp",
+    "thumbPath": "/assets/dishes/thumb/103021-croque-madame.webp",
+    "metadataConfidence": 0.78
+  },
+  {
+    "dishId": "quiche",
+    "metadataCode": "103022",
+    "cuisineId": "french",
+    "name": "Quiche",
+    "imagePath": "/assets/dishes/main/103022-quiche.webp",
+    "thumbPath": "/assets/dishes/thumb/103022-quiche.webp",
+    "metadataConfidence": 0.78
+  },
+  {
+    "dishId": "banana-bread",
+    "metadataCode": "122020",
+    "cuisineId": "american",
+    "name": "Banana Bread",
+    "imagePath": "/assets/dishes/main/122020-banana-bread.webp",
+    "thumbPath": "/assets/dishes/thumb/122020-banana-bread.webp",
+    "metadataConfidence": 0.78
+  }
+]

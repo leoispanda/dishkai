@@ -166,7 +166,9 @@ export const dutchDishes = [
       "zh": "想吃柔软顶饱、冬天感很强的舒适主食时适合。",
       "nl": "Goed wintercomfort als je iets zachts en vullends wilt."
     },
-    "weightLevel": 4
+    "weightLevel": 4,
+    confidenceTag: "audited-core-batch-002",
+    metadataConfidence: 0.82
   }),
   starterDish({
     "id": "poffertjes",
@@ -243,7 +245,9 @@ export const dutchDishes = [
       "zh": "适合当甜点或小吃，尤其是想吃柔软黄油甜味时。",
       "nl": "Een zoete snack of dessert, vooral als je iets zachts en boterigs wilt."
     },
-    "weightLevel": 2
+    "weightLevel": 2,
+    confidenceTag: "audited-core-batch-002",
+    metadataConfidence: 0.82
   }),
   starterDish({
     "id": "haring",
@@ -323,7 +327,9 @@ export const dutchDishes = [
       "nl": "Heel Nederlands en memorabel, maar overslaan als rauwe vis of sterke vissmaak lastig is."
     },
     "weightLevel": 1,
-    "acquiredTasteLevel": 3
+    "acquiredTasteLevel": 3,
+    confidenceTag: "audited-core-batch-002",
+    metadataConfidence: 0.82
   }),
   starterDish({
     "id": "erwtensoep",
@@ -404,6 +410,8 @@ export const dutchDishes = [
       "zh": "很浓的冬季汤，能当一餐，不是清爽前菜。",
       "nl": "Een dikke wintersoep die als maaltijd werkt, geen licht voorgerecht."
     },
-    "weightLevel": 4
+    "weightLevel": 4,
+    confidenceTag: "audited-core-batch-002",
+    metadataConfidence: 0.82
   })
 ];

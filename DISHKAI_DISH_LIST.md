@@ -2,10 +2,18 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 77
-- Total aliases: 341
-- Total cuisines: 9
+- Total verified dishes: 93
+- Total aliases: 405
+- Total cuisines: 10
 - Quarantined generated layers are excluded from this verified list until batch rebuild.
+
+## Belgian (belgian) - 5
+
+1. 107001 - `moules-frites` - Moules-Frites / 比利时贻贝配薯条 / Moules-frites
+2. 107002 - `belgian-waffle` - Belgian Waffle / 比利时华夫饼 / Gaufre belge
+3. 107003 - `carbonnade-flamande` - Carbonnade Flamande / 佛兰德啤酒炖牛肉 / Carbonnade flamande
+4. 107004 - `waterzooi` - Waterzooi / 比利时奶油炖鸡/鱼 / Waterzooi
+5. 107005 - `chicon-au-gratin` - Chicon au Gratin / 比利时菊苣火腿奶酪焗 / Chicon au gratin
 
 ## Chinese (chinese) - 5
 
@@ -15,17 +23,28 @@ Generated from data/internal/index.js after the verified database quarantine aud
 4. 111004 - `chow-mein` - Chow Mein / 炒面 / 炒面
 5. 111005 - `hot-pot` - Hot Pot / 火锅 / 火锅
 
-## Dutch (dutch) - 1
+## Dutch (dutch) - 7
 
 1. 102001 - `bitterballen` - Bitterballen / 荷兰炸肉丸 / Bitterballen
+2. 102002 - `stamppot` - Stamppot / 荷兰土豆蔬菜泥 / Stamppot
+3. 102003 - `poffertjes` - Poffertjes / 荷兰小松饼 / Poffertjes
+4. 102004 - `haring` - Haring / 荷兰生鲱鱼 / Haring
+5. 102005 - `erwtensoep` - Erwtensoep / 荷兰豌豆浓汤 / Erwtensoep
+6. 102018 - `tosti` - Tosti / 荷式烤火腿奶酪三明治 / tosti
+7. 102020 - `broodje-gezond` - Broodje Gezond / 荷式健康三明治 / broodje gezond
 
-## French (french) - 5
+## French (french) - 10
 
 1. 103001 - `boeuf-bourguignon` - Boeuf Bourguignon / 勃艮第红酒炖牛肉 / Boeuf bourguignon
 2. 103002 - `coq-au-vin` - Coq au Vin / 红酒炖鸡 / Coq au vin
 3. 103003 - `ratatouille` - Ratatouille / 普罗旺斯炖菜 / Ratatouille
 4. 103004 - `quiche-lorraine` - Quiche Lorraine / 洛林咸派 / Quiche Lorraine
 5. 103005 - `creme-brulee` - Creme Brulee / 法式焦糖布丁 / Creme brulee
+6. 103018 - `omelette` - Omelette / 煎蛋卷 / omelette
+7. 103019 - `croissant` - Croissant / 可颂 / croissant
+8. 103020 - `pain-au-chocolat` - Pain au Chocolat / 巧克力可颂 / pain au chocolat
+9. 103021 - `croque-madame` - Croque Madame / 法式火腿奶酪煎蛋三明治 / croque madame
+10. 103022 - `quiche` - Quiche / 法式咸派 / quiche
 
 ## German (german) - 5
 

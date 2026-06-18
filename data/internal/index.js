@@ -90,6 +90,17 @@ const manuallyQuarantinedDishIds = new Set([
   "fried-meatballs-kids",
   "fish-sticks-kids",
   "butter-side",
+  "scrambled-eggs",
+  "shakshuka",
+  "french-toast",
+  "eggs-benedict",
+  "avocado-toast",
+  "granola-bowl",
+  "acai-bowl",
+  "club-sandwich",
+  "bagel-cream-cheese",
+  "smoked-salmon-bagel",
+  "banana-bread",
 ]);
 
 function metadataText(dish) {

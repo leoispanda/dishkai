@@ -89,7 +89,9 @@ export const belgianDishes = [
       "zh": "喜欢贻贝的话是很经典的比利时选择；先确认甲壳类/贝类和酱汁类型。",
       "nl": "Een klassieke Belgische keuze als je mosselen lust; check schelpdieren en saus eerst."
     },
-    "weightLevel": 3
+    "weightLevel": 3,
+    confidenceTag: "audited-core-batch-002",
+    metadataConfidence: 0.82
   }),
   starterDish({
     "id": "belgian-waffle",
@@ -171,7 +173,9 @@ export const belgianDishes = [
       "zh": "想吃甜的、柔软熟悉的小吃或甜点时很稳。",
       "nl": "Een veilige dessert- of snackkeuze als je iets zoets, zachts en bekends wilt."
     },
-    "weightLevel": 2
+    "weightLevel": 2,
+    confidenceTag: "audited-core-batch-002",
+    metadataConfidence: 0.82
   }),
   starterDish({
     "id": "carbonnade-flamande",
@@ -261,7 +265,9 @@ export const belgianDishes = [
       "zh": "想吃软烂牛肉和啤酒酱汁时很适合，整体偏厚重。",
       "nl": "Een rijk Belgisch comfortgerecht als je mals rund en biersaus wilt."
     },
-    "weightLevel": 4
+    "weightLevel": 4,
+    confidenceTag: "audited-core-batch-002",
+    metadataConfidence: 0.82
   }),
   starterDish({
     "id": "waterzooi",
@@ -347,7 +353,9 @@ export const belgianDishes = [
       "zh": "想吃温和奶油炖汤、但不想吃炸物时很适合。",
       "nl": "Een zachtere Belgische stoofsoep als je romigheid wilt zonder zwaar gefrituurd profiel."
     },
-    "weightLevel": 3
+    "weightLevel": 3,
+    confidenceTag: "audited-core-batch-002",
+    metadataConfidence: 0.82
   }),
   starterDish({
     "id": "chicon-au-gratin",
@@ -428,6 +436,8 @@ export const belgianDishes = [
       "nl": "Goed als je romige ovengroenten wilt; witloof kan licht bitter smaken."
     },
     "weightLevel": 3,
-    "acquiredTasteLevel": 2
+    "acquiredTasteLevel": 2,
+    confidenceTag: "audited-core-batch-002",
+    metadataConfidence: 0.82
   })
 ];
