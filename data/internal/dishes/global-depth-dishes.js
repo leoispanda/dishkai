@@ -3785,104 +3785,106 @@ const globalDepthDishConfigs = [
     "cuisineId": "belgian",
     "names": {
       "en": "Mitraillette",
-      "zh": "比利时薯条肉排三明治",
+      "zh": "比利时薯条肉排长棍",
       "nl": "Mitraillette",
-      "local": "mitraillette"
+      "local": "Mitraillette"
     },
     "category": "bread",
     "cookingMethods": [
-      "baked"
+      "assembled",
+      "deep-fried"
     ],
     "shortDescription": {
-      "en": "Mitraillette is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "比利时薯条肉排三明治是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Mitraillette is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A Belgian snack-bar baguette loaded with fries, fried meat, salad, and sauce.",
+      "zh": "比利时小吃店长棍三明治，夹薯条、炸肉、沙拉和酱料。",
+      "nl": "Een Belgische snackbroodje met friet, gebakken vlees, salade en saus."
     },
     "cookingProfile": {
-      "en": "Usually served with chewy bread, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现chewy bread，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met chewy bread; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is a large, messy, sauce-heavy sandwich where fries are part of the filling.",
+      "zh": "这是一份大而凌乱、酱料重的三明治，薯条本身就是内馅。",
+      "nl": "Een groot, rommelig en sauzig broodje waarin friet onderdeel van de vulling is."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "street-food",
+        "late-night"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将比利时菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Belgisch menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Belgian frituur and late-night snack-bar staple.",
+        "zh": "比利时炸物店和夜宵小吃店常见主食。",
+        "nl": "Een Belgische frituur- en late-nightklassieker."
       }
     },
     "composition": [
       [
         "bread",
-        45,
-        "base"
+        30,
+        "baguette"
       ],
       [
-        "chicken",
-        25,
+        "fries",
+        30,
         "filling"
       ],
       [
-        "cheese",
-        15,
-        "body"
+        "sausage",
+        20,
+        "fried meat"
       ],
       [
-        "tomato",
-        5,
-        "freshness"
+        "mixed-vegetables",
+        10,
+        "salad"
       ],
       [
-        "olive-oil",
-        5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "sea-salt",
-        5,
-        "seasoning",
-        "seasoning"
+        "mayonnaise",
+        10,
+        "sauce"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "cheese",
-      "toasted bread"
+      "fries inside bread",
+      "fried meat",
+      "mayonnaise"
     ],
     "basicTaste": [
       "savory",
-      "bready"
+      "salty",
+      "saucy"
     ],
     "textureProfile": [
-      "chewy bread",
-      "filled center"
+      "crusty bread",
+      "crisp fries",
+      "soft sauced filling"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-dairy"
+      "contains-egg",
+      "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "street-food",
+      "late-night"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "no-pork",
+      "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, bready profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要savory、bready的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, bready je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order it for a heavy Belgian snack-bar meal; avoid if you want tidy or light food.",
+      "zh": "想吃厚重比利时小吃店主食时可点；想吃清爽或精致就避开。",
+      "nl": "Kies dit voor een zware Belgische frituurmaaltijd; niet voor licht of netjes eten."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 5,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "stoofvlees",
@@ -4099,102 +4101,102 @@ const globalDepthDishConfigs = [
       "en": "Solettes Meunière",
       "zh": "黄油煎小鳎鱼",
       "nl": "Solettes meunière",
-      "local": "solettes meunière"
+      "local": "Solettes meunière"
     },
     "category": "seafood",
     "cookingMethods": [
-      "grilled"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Solettes Meunière is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "黄油煎小鳎鱼是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Solettes meunière is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Small sole fish pan-fried in butter with lemon and parsley, often served with potatoes.",
+      "zh": "小鳎鱼用黄油煎制，配柠檬和欧芹，常搭土豆。",
+      "nl": "Kleine zeetong in boter gebakken met citroen en peterselie, vaak met aardappelen."
     },
     "cookingProfile": {
-      "en": "Usually served with tender seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The fish is delicate and buttery, with lemon keeping the plate from feeling too heavy.",
+      "zh": "鱼肉细嫩、黄油香明显，柠檬让整体不至于太腻。",
+      "nl": "Delicate boterige vis, met citroen voor frisheid."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "seafood",
+        "coastal"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将比利时菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Belgisch menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Belgian coast-style fish plate using classic meunière treatment.",
+        "zh": "带比利时海岸风格的鱼类菜，使用经典黄油柠檬煎法。",
+        "nl": "Een Belgische kustvis in klassieke meunièrestijl."
       }
     },
     "composition": [
       [
         "fish-fillet",
         60,
-        "main"
+        "sole fish"
       ],
       [
-        "steamed-rice",
+        "butter",
         15,
-        "base or side"
+        "pan sauce"
       ],
       [
-        "mixed-vegetables",
-        10,
+        "potato",
+        15,
         "side"
       ],
       [
         "lemon",
         5,
-        "finish"
-      ],
-      [
-        "olive-oil",
-        5,
-        "finish",
-        "seasoning"
+        "acidity"
       ],
       [
         "parsley",
         5,
-        "aroma",
+        "fresh herb",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-fillet",
+      "butter",
       "lemon",
-      "olive-oil"
+      "sole fish"
     ],
     "basicTaste": [
-      "savory",
-      "briny"
+      "buttery",
+      "mild",
+      "fresh"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "flaky fish",
+      "butter sauce",
+      "soft potatoes"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-dairy"
     ],
     "dietaryFlags": [
       "pescatarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "seafood",
+      "first-timer-friendly"
     ],
     "avoidIfTags": [
-      "avoids-fish"
+      "fish-allergy",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check fish if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A gentle fish choice if you like butter-lemon flavor; safer than eel for first-timers.",
+      "zh": "喜欢黄油柠檬鱼时很稳；比鳗鱼更适合初尝者。",
+      "nl": "Een milde viskeuze met boter-citroen; toegankelijker dan paling."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.74,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -4313,101 +4315,94 @@ const globalDepthDishConfigs = [
       "en": "Bloedworst",
       "zh": "比利时血肠",
       "nl": "Bloedworst",
-      "local": "bloedworst"
+      "local": "Bloedworst"
     },
     "category": "meat",
     "cookingMethods": [
-      "braised"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Bloedworst is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "比利时血肠是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Bloedworst is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Belgian blood sausage, usually pan-fried and often served with apple, potatoes, or stoemp.",
+      "zh": "比利时血肠，通常煎制，常配苹果、土豆或蔬菜土豆泥。",
+      "nl": "Belgische bloedworst, meestal gebakken en vaak met appel, aardappel of stoemp."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is dark, soft, and iron-rich, with apple or mash used to soften the intensity.",
+      "zh": "颜色深、口感软，有明显血肠铁质味，苹果或土豆泥会缓和强度。",
+      "nl": "Donker, zacht en ijzerachtig; appel of puree verzacht de smaak."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "regional-dish",
+        "acquired-taste"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将比利时菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Belgisch menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A traditional Belgian sausage item with a stronger acquired flavor than ordinary sausage.",
+        "zh": "传统比利时血肠菜，比普通香肠更需要接受度。",
+        "nl": "Een traditionele Belgische worst met sterkere smaak dan gewone worst."
       }
     },
     "composition": [
       [
-        "pork",
-        60,
-        "main"
+        "blood-sausage",
+        50,
+        "main sausage"
       ],
       [
         "potato",
+        25,
+        "mash side"
+      ],
+      [
+        "apple-sauce",
         15,
-        "side"
+        "sweet side"
       ],
       [
-        "mixed-vegetables",
+        "butter",
         10,
-        "body"
-      ],
-      [
-        "tomato-sauce",
-        5,
-        "sauce",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
+        "pan richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "sauce",
-      "herbs"
+      "blood-sausage",
+      "apple-sauce",
+      "butter"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "earthy",
+      "slightly sweet"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "soft sausage",
+      "creamy mash",
+      "smooth apple"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-dairy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "regional-dish"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "no-pork",
+      "dairy-free",
+      "avoids-blood-sausage"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check pork if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Worth trying if you enjoy black pudding; avoid if blood sausage sounds unpleasant.",
+      "zh": "喜欢黑布丁/血肠可以尝试；对血肠反感就避开。",
+      "nl": "Interessant als je black pudding lust; vermijd als bloedworst je niet aanspreekt."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "acquiredTasteLevel": 4,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -4415,104 +4410,114 @@ const globalDepthDishConfigs = [
     "metadataCode": "107024",
     "cuisineId": "belgian",
     "names": {
-      "en": "Jambon d’Ardenne",
+      "en": "Jambon d'Ardenne",
       "zh": "阿登火腿",
       "nl": "Ardense ham",
-      "local": "jambon d’ardenne"
+      "local": "Jambon d'Ardenne"
     },
     "category": "starter",
     "cookingMethods": [
       "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Jambon d’Ardenne is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "阿登火腿是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Ardense ham is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Thin slices of cured Ardennes ham served cold, often with bread, pickles, or salad.",
+      "zh": "薄切阿登风干火腿冷盘，常配面包、酸黄瓜或沙拉。",
+      "nl": "Dunne plakjes Ardense ham, koud geserveerd met brood, augurk of salade."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small bites，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small bites; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is salty, lean, and served cold, more like cured ham than a cooked meat course.",
+      "zh": "咸香偏瘦，冷食，更像风干火腿冷盘而不是热肉菜。",
+      "nl": "Zout, mager en koud; meer gedroogde ham dan warme vleesgang."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "regional-dish",
+        "starter"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将比利时菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Belgisch menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Belgian Ardennes cured-meat starter often used as a simple cold plate.",
+        "zh": "比利时阿登地区风干肉前菜，常作为简单冷盘。",
+        "nl": "Een Ardense Belgische vleesstarter, vaak als koude schotel."
       }
     },
     "composition": [
       [
         "ham",
-        40,
-        "main"
+        65,
+        "cured ham"
+      ],
+      [
+        "bread",
+        20,
+        "side"
+      ],
+      [
+        "butter",
+        5,
+        "side richness",
+        "ingredient",
+        "low",
+        true
+      ],
+      [
+        "mustard",
+        5,
+        "sharp condiment",
+        "seasoning",
+        "high",
+        true
       ],
       [
         "mixed-vegetables",
-        25,
-        "body"
-      ],
-      [
-        "potato",
-        15,
-        "richness"
-      ],
-      [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "sea-salt",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
+        "salad garnish",
+        "ingredient",
+        "low",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "ham",
-      "olive-oil",
-      "herbs"
+      "cured ham",
+      "mustard",
+      "bread"
     ],
     "basicTaste": [
+      "salty",
       "savory",
-      "mild"
+      "mildly smoky"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "thin ham slices",
+      "chewy lean meat",
+      "crisp bread"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-gluten",
+      "contains-dairy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "starter",
+      "regional-dish"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "no-pork",
+      "gluten-free",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check pork if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good as a cold starter if you like cured ham; it is not a hot main dish.",
+      "zh": "喜欢风干火腿冷盘时适合；它不是热主菜。",
+      "nl": "Goed als koude starter als je gedroogde ham lust; geen warm hoofdgerecht."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -4523,101 +4528,99 @@ const globalDepthDishConfigs = [
       "en": "Boulets Sauce Tomate",
       "zh": "番茄酱肉丸",
       "nl": "Gehaktballen in tomatensaus",
-      "local": "boulets sauce tomate"
+      "local": "Boulets sauce tomate"
     },
     "category": "meat",
     "cookingMethods": [
-      "braised"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Boulets Sauce Tomate is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "番茄酱肉丸是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Gehaktballen in tomatensaus is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Belgian meatballs served in tomato sauce, usually with fries, mash, or bread.",
+      "zh": "比利时肉丸配番茄酱汁，常搭薯条、土豆泥或面包。",
+      "nl": "Belgische gehaktballen in tomatensaus, meestal met friet, puree of brood."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "This is saucy and familiar, less sweet than Liège-style meatballs.",
+      "zh": "酱汁感强且熟悉，比列日甜咸肉丸少一点甜味。",
+      "nl": "Sauzig en herkenbaar, minder zoet dan Luikse gehaktballen."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "comfort-food",
+        "common"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将比利时菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Belgisch menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common Belgian cafe meatball variant with tomato sauce instead of brown Liège sauce.",
+        "zh": "常见比利时咖啡馆肉丸变体，用番茄酱而不是列日深色酱。",
+        "nl": "Een gewone Belgische balletjesvariant met tomatensaus in plaats van Luikse saus."
       }
     },
     "composition": [
       [
-        "pork",
-        60,
-        "main"
+        "ground-meat",
+        45,
+        "meatballs"
       ],
       [
-        "potato",
+        "tomato-sauce",
+        30,
+        "sauce"
+      ],
+      [
+        "fries",
         15,
         "side"
       ],
       [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "tomato-sauce",
+        "onion",
         5,
-        "sauce",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
+        "sauce aroma"
       ],
       [
         "parsley",
         5,
-        "finish",
+        "fresh garnish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "sauce",
-      "herbs"
+      "tomato-sauce",
+      "meatballs",
+      "parsley"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "tomatoey",
+      "mild"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "tender meatballs",
+      "smooth sauce",
+      "crisp fries"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-gluten"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "comfort-food",
+      "first-timer-friendly"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "gluten-free",
+      "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check pork if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A safer meatball choice if tomato sauce sounds better than sweet brown gravy.",
+      "zh": "如果番茄酱比甜咸深色肉汁更合口味，这个更稳。",
+      "nl": "Een veilige balletjeskeuze als tomatensaus beter klinkt dan zoete bruine jus."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -4627,103 +4630,103 @@ const globalDepthDishConfigs = [
     "names": {
       "en": "Crêpe Mikado",
       "zh": "巧克力冰淇淋薄饼",
-      "nl": "Crêpe mikado",
-      "local": "crêpe mikado"
+      "nl": "Crêpe Mikado",
+      "local": "Crêpe Mikado"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "fried",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Crêpe Mikado is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "巧克力冰淇淋薄饼是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Crêpe mikado is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A thin crêpe dessert served with vanilla ice cream and warm chocolate sauce.",
+      "zh": "薄饼甜点，配香草冰淇淋和热巧克力酱。",
+      "nl": "Een crêpedessert met vanille-ijs en warme chocoladesaus."
     },
     "cookingProfile": {
-      "en": "Usually served with soft dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It combines a soft warm crêpe with cold ice cream and glossy chocolate sauce.",
+      "zh": "软热薄饼、冷冰淇淋和亮面巧克力酱形成冷热对比。",
+      "nl": "Zachte warme crêpe met koud ijs en glanzende chocoladesaus."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "dessert",
+        "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将比利时菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Belgisch menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Belgian brasserie dessert variant for diners who want crêpe plus ice cream.",
+        "zh": "比利时小馆常见薄饼甜点，适合想要薄饼加冰淇淋的人。",
+        "nl": "Een Belgische brasseriedessert voor crêpe met ijs."
       }
     },
     "composition": [
       [
-        "sugar",
-        30,
-        "sweetness"
+        "crepe-batter",
+        45,
+        "thin pancake"
+      ],
+      [
+        "vanilla-gelato",
+        25,
+        "ice cream"
+      ],
+      [
+        "chocolate",
+        20,
+        "warm sauce"
       ],
       [
         "cream",
-        25,
-        "base"
-      ],
-      [
-        "egg",
-        15,
-        "richness"
-      ],
-      [
-        "wheat-flour",
-        15,
-        "structure"
-      ],
-      [
-        "vanilla",
         10,
-        "aroma",
-        "seasoning"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        5,
-        "finish"
+        "optional topping",
+        "ingredient",
+        "medium",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "vanilla",
-      "cream",
-      "sweet finish"
+      "crêpe",
+      "vanilla ice cream",
+      "chocolate sauce"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "chocolatey"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft crêpe",
+      "cold ice cream",
+      "warm sauce"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
-      "dessert"
+      "dessert",
+      "first-timer-friendly"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A safe dessert if you want crêpe plus ice cream; richer than a plain pancake.",
+      "zh": "想吃薄饼加冰淇淋时很稳；比单纯薄饼更厚重。",
+      "nl": "Een veilige dessertkeuze voor crêpe met ijs; rijker dan een gewone pannenkoek."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -4734,102 +4737,99 @@ const globalDepthDishConfigs = [
       "en": "Rijsttaart",
       "zh": "比利时米布丁塔",
       "nl": "Rijsttaart",
-      "local": "rijsttaart"
+      "local": "Rijsttaart"
     },
     "category": "dessert",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Rijsttaart is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "比利时米布丁塔是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Rijsttaart is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Belgian rice custard tart with a soft creamy filling and pastry base.",
+      "zh": "比利时米布丁塔，酥皮底配柔软奶香米馅。",
+      "nl": "Belgische rijsttaart met zachte romige rijstvulling en deegbodem."
     },
     "cookingProfile": {
-      "en": "Usually served with soft dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It eats like a soft custard tart with small rice grains, not like dry cake.",
+      "zh": "吃起来像柔软卡仕达塔，能感到米粒，不像干蛋糕。",
+      "nl": "Eet als zachte custardtaart met rijstkorrels, niet als droge cake."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "dessert",
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将比利时菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Belgisch menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Belgian bakery dessert especially associated with rice tart traditions.",
+        "zh": "比利时烘焙甜点，核心是米布丁塔传统。",
+        "nl": "Een Belgische bakkerijdessert uit de rijsttaarttraditie."
       }
     },
     "composition": [
       [
-        "sugar",
-        30,
-        "sweetness"
+        "rice-custard",
+        60,
+        "filling"
       ],
       [
-        "cream",
+        "pastry-crust",
         25,
         "base"
       ],
       [
         "egg",
-        15,
-        "richness"
-      ],
-      [
-        "wheat-flour",
-        15,
-        "structure"
+        10,
+        "custard set"
       ],
       [
         "vanilla",
-        10,
+        5,
         "aroma",
         "seasoning"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        5,
-        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
+      "rice-custard",
       "vanilla",
-      "cream",
-      "sweet finish"
+      "pastry-crust"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "mild"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft custard",
+      "rice grains",
+      "tender crust"
     ],
     "riskFlags": [
-      "contains-gluten",
+      "contains-dairy",
       "contains-egg",
-      "contains-dairy"
+      "contains-gluten"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
-      "dessert"
+      "dessert",
+      "bakery"
     ],
     "avoidIfTags": [
+      "dairy-free",
+      "egg-allergy",
       "gluten-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you like mild custard desserts; skip if you want chocolate or strong spice.",
+      "zh": "喜欢温和奶香布丁类甜点会适合；想要巧克力或重香料就选别的。",
+      "nl": "Goed voor milde custarddesserts; minder geschikt voor chocolade of sterke kruidigheid."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {

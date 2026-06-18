@@ -9962,90 +9962,97 @@ export const expandedDishes = [
     },
     "category": "meat",
     "cookingMethods": [
-      "braised"
+      "baked",
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Creamy chicken and mushroom ragout served with puff pastry or fries.",
-      "zh": "比利时奶油鸡酥盒 是常见比利时菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Vol-au-vent is een veelvoorkomend gerecht in de belgisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "A puff-pastry case filled with creamy chicken and mushroom ragout, often served with fries.",
+      "zh": "酥皮壳里装奶油鸡肉蘑菇浓酱，常配薯条。",
+      "nl": "Een bladerdeegkuipje gevuld met romige kip-champignonragout, vaak met friet."
     },
     "cookingProfile": {
-      "en": "Usually served as a meat with a tender meat, rich sauce feel.",
-      "zh": "通常以meat形式上桌，重点体验是tender meat。",
-      "nl": "Meestal geserveerd als meat met een tender meat gevoel."
+      "en": "Expect flaky pastry around a hot creamy filling, so it feels richer than a simple chicken stew.",
+      "zh": "外层酥皮、内馅热而奶香，比普通鸡肉炖菜更厚重。",
+      "nl": "Bladerdeeg rond warme romige vulling; rijker dan een simpele kipstoof."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频比利时菜菜品。",
-        "nl": "Een vaak voorkomend belgisch menu-item voor bredere restaurantdekking."
+        "en": "A Belgian brasserie classic for creamy pastry-and-ragout comfort.",
+        "zh": "比利时小馆经典，重点是酥皮和奶油浓酱的组合。",
+        "nl": "Een Belgische brasserieklassieker met bladerdeeg en romige ragout."
       }
     },
     "composition": [
       [
-        "beef",
-        55,
-        "main"
+        "pastry-crust",
+        35,
+        "puff pastry case"
       ],
       [
-        "potato",
-        20,
-        "side"
+        "chicken",
+        30,
+        "ragout protein"
       ],
       [
-        "mixed-vegetables",
+        "cream",
         15,
-        "side"
+        "sauce richness"
       ],
       [
-        "butter",
-        5,
-        "richness"
+        "mushrooms",
+        10,
+        "ragout body"
       ],
       [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
+        "broth",
+        10,
+        "sauce base"
       ]
     ],
     "distinctiveFlavorSources": [
-      "beer",
-      "butter",
-      "mustard"
+      "pastry-crust",
+      "cream",
+      "mushrooms"
     ],
     "basicTaste": [
       "savory",
-      "rich",
-      "umami"
+      "creamy",
+      "buttery"
     ],
     "textureProfile": [
-      "tender meat",
-      "rich sauce"
+      "flaky pastry",
+      "creamy ragout",
+      "tender chicken"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "comfort-food",
+      "classic-dish"
     ],
     "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
       "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Rich comfort dish; watch dairy and gluten.",
-      "zh": "如果你接受这类口味和风险，比利时奶油鸡酥盒 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Choose it for creamy comfort and pastry; skip if you want something light or crisp all the way through.",
+      "zh": "想吃奶油浓酱和酥皮时适合；想吃清爽轻食时避开。",
+      "nl": "Kies dit voor romig comfort en bladerdeeg; minder geschikt als je licht wilt eten."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
     "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -10054,7 +10061,7 @@ export const expandedDishes = [
     "cuisineId": "belgian",
     "names": {
       "en": "Shrimp Croquettes",
-      "zh": "灰虾可乐饼",
+      "zh": "比利时灰虾可乐饼",
       "nl": "Garnaalkroketten",
       "local": "Garnaalkroketten"
     },
@@ -10063,88 +10070,97 @@ export const expandedDishes = [
       "deep-fried"
     ],
     "shortDescription": {
-      "en": "Crisp croquettes filled with creamy North Sea shrimp ragout.",
-      "zh": "灰虾可乐饼 是常见比利时菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Garnaalkroketten is een veelvoorkomend gerecht in de belgisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Golden croquettes filled with creamy grey-shrimp ragout, usually served with lemon and parsley.",
+      "zh": "金黄炸可乐饼，里面是奶油灰虾浓馅，常配柠檬和欧芹。",
+      "nl": "Gouden kroketten met romige grijze-garnalenragout, meestal met citroen en peterselie."
     },
     "cookingProfile": {
-      "en": "Usually served as a fried snack with a crisp outside, savory center feel.",
-      "zh": "通常以fried-snack形式上桌，重点体验是crisp outside。",
-      "nl": "Meestal geserveerd als fried snack met een crisp outside gevoel."
+      "en": "The outside is crisp while the filling is hot, creamy, and briny from shrimp.",
+      "zh": "外壳酥脆，内馅很烫，奶香中带灰虾咸鲜。",
+      "nl": "Krokant buiten, heet en romig vanbinnen met zilte garnalensmaak."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频比利时菜菜品。",
-        "nl": "Een vaak voorkomend belgisch menu-item voor bredere restaurantdekking."
+        "en": "A common Belgian seafood starter, especially on brasserie and coast menus.",
+        "zh": "常见比利时海鲜前菜，在小馆和海岸菜单上很常见。",
+        "nl": "Een Belgische zeevruchtenklassieker, vooral in brasseries en aan de kust."
       }
     },
     "composition": [
       [
-        "fried-chicken",
-        45,
-        "main"
+        "shrimp",
+        35,
+        "filling"
       ],
       [
-        "wheat-flour",
-        25,
-        "coating"
+        "bechamel-sauce",
+        30,
+        "creamy binder"
+      ],
+      [
+        "bread",
+        20,
+        "crumb coating"
       ],
       [
         "egg",
         10,
-        "binder"
+        "coating"
       ],
       [
-        "mustard",
-        10,
-        "dip",
+        "parsley",
+        5,
+        "fresh garnish",
         "seasoning"
-      ],
-      [
-        "fries",
-        10,
-        "side"
       ]
     ],
     "distinctiveFlavorSources": [
-      "beer",
-      "butter",
-      "mustard"
+      "grey shrimp",
+      "bechamel-sauce",
+      "parsley"
     ],
     "basicTaste": [
-      "savory",
-      "salty"
+      "briny",
+      "creamy",
+      "savory"
     ],
     "textureProfile": [
-      "crisp outside",
-      "savory center"
+      "crisp coating",
+      "hot creamy filling",
+      "small shrimp pieces"
     ],
     "riskFlags": [
-      "contains-gluten",
       "contains-shellfish",
-      "contains-dairy"
+      "contains-gluten",
+      "contains-dairy",
+      "contains-egg"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "seafood",
+      "classic-dish"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "Excellent Belgian starter if shellfish, dairy, and gluten are fine.",
-      "zh": "如果你接受这类口味和风险，灰虾可乐饼 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A strong Belgian starter if you like shellfish; the filling is rich and very hot.",
+      "zh": "喜欢虾类的话很适合作比利时前菜；内馅浓郁而且很烫。",
+      "nl": "Een sterke Belgische starter als je garnalen lust; de vulling is rijk en heet."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -10159,90 +10175,95 @@ export const expandedDishes = [
     },
     "category": "vegetable-main",
     "cookingMethods": [
-      "baked"
+      "boiled"
     ],
     "shortDescription": {
-      "en": "Mashed potatoes mixed with vegetables, often served with sausage or meat.",
-      "zh": "比利时蔬菜土豆泥 是常见比利时菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Stoemp is een veelvoorkomend gerecht in de belgisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Belgian mashed potatoes mixed with vegetables, often served with sausage, bacon, or meatballs.",
+      "zh": "比利时土豆蔬菜泥，常配香肠、培根或肉丸。",
+      "nl": "Belgische aardappelpuree met groenten, vaak met worst, spek of gehaktballen."
     },
     "cookingProfile": {
-      "en": "Usually served as a vegetable main with a soft vegetables, saucy layers feel.",
-      "zh": "通常以vegetable-main形式上桌，重点体验是soft vegetables。",
-      "nl": "Meestal geserveerd als vegetable main met een soft vegetables gevoel."
+      "en": "It is soft, warm, and filling; the vegetable mix decides whether it tastes sweet, earthy, or bitter.",
+      "zh": "口感柔软热乎且顶饱，蔬菜决定它偏甜、泥土味还是微苦。",
+      "nl": "Zacht, warm en vullend; de groenten bepalen of het zoet, aards of bitter smaakt."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "comfort-food",
+        "side"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频比利时菜菜品。",
-        "nl": "Een vaak voorkomend belgisch menu-item voor bredere restaurantdekking."
+        "en": "A common Belgian comfort side or main base, related to Dutch stamppot but used broadly on Belgian menus.",
+        "zh": "常见比利时家常配菜或主食底，和荷兰 stamppot 相近但在比利时菜单上很常见。",
+        "nl": "Een Belgische comfortbasis, verwant aan stamppot maar breed gebruikt op Belgische menu's."
       }
     },
     "composition": [
       [
-        "mixed-vegetables",
-        45,
-        "base"
-      ],
-      [
         "potato",
-        20,
-        "body"
+        55,
+        "mash base"
       ],
       [
-        "cheese",
-        15,
+        "mixed-vegetables",
+        25,
+        "vegetable mix"
+      ],
+      [
+        "butter",
+        10,
         "richness"
       ],
       [
-        "tomato-sauce",
-        15,
-        "sauce",
-        "seasoning"
-      ],
-      [
-        "herbs",
-        5,
-        "aroma"
+        "sausage",
+        10,
+        "common side",
+        "ingredient",
+        "medium",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "beer",
-      "butter",
-      "mustard"
+      "potato",
+      "vegetable mix",
+      "butter"
     ],
     "basicTaste": [
+      "mild",
       "savory",
-      "mild"
+      "buttery"
     ],
     "textureProfile": [
-      "soft vegetables",
-      "saucy layers"
+      "soft mash",
+      "vegetable bits",
+      "warm serving"
     ],
     "riskFlags": [
-      "contains-dairy"
+      "contains-dairy",
+      "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "comfort-food",
+      "classic-dish"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "dairy-free",
+      "no-pork",
+      "wants-light-food"
+    ],
     "orderVerdict": {
-      "en": "Good hearty side or main; ask what meat comes with it.",
-      "zh": "如果你接受这类口味和风险，比利时蔬菜土豆泥 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good as a gentle Belgian comfort dish; ask about sausage or bacon if avoiding pork.",
+      "zh": "适合想吃温和比利时家常味；避猪肉时要确认是否配香肠或培根。",
+      "nl": "Goed voor mild Belgisch comfort; vraag naar worst of spek als je varkensvlees vermijdt."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "high"
   }),
   starterDish({
     "id": "tomate-crevette",
@@ -10251,76 +10272,81 @@ export const expandedDishes = [
     "names": {
       "en": "Tomate Crevette",
       "zh": "番茄灰虾沙拉",
-      "nl": "Tomate crevette",
+      "nl": "Tomaat-garnaal",
       "local": "Tomate crevette"
     },
     "category": "starter",
     "cookingMethods": [
       "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Tomato stuffed with grey shrimp and mayonnaise-style dressing.",
-      "zh": "番茄灰虾沙拉 是常见比利时菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Tomate crevette is een veelvoorkomend gerecht in de belgisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "A hollowed tomato filled with grey shrimp bound in mayonnaise, usually served cold as a starter.",
+      "zh": "掏空番茄中填入拌蛋黄酱的灰虾，通常冷食作前菜。",
+      "nl": "Een uitgeholde tomaat gevuld met grijze garnalen in mayonaise, koud als voorgerecht."
     },
     "cookingProfile": {
-      "en": "Usually served as a starter with a small bites, contrasting textures feel.",
-      "zh": "通常以starter形式上桌，重点体验是small bites。",
-      "nl": "Meestal geserveerd als starter met een small bites gevoel."
+      "en": "It is cool, juicy, and creamy, with the shrimp giving a clean briny bite.",
+      "zh": "冷食、多汁、带蛋黄酱奶滑感，灰虾提供清爽咸鲜。",
+      "nl": "Koel, sappig en romig, met zilte beet van grijze garnalen."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频比利时菜菜品。",
-        "nl": "Een vaak voorkomend belgisch menu-item voor bredere restaurantdekking."
+        "en": "A recognizable Belgian cold seafood starter built around tomato and grey shrimp.",
+        "zh": "典型比利时冷海鲜前菜，核心是番茄和灰虾。",
+        "nl": "Een herkenbaar Belgisch koud zeevruchtenvoorgerecht met tomaat en grijze garnalen."
       }
     },
     "composition": [
       [
-        "bread",
+        "tomato",
+        40,
+        "shell and freshness"
+      ],
+      [
+        "shrimp",
         35,
-        "base"
+        "seafood filling"
+      ],
+      [
+        "mayonnaise",
+        15,
+        "binder"
       ],
       [
         "mixed-vegetables",
-        25,
-        "topping"
+        5,
+        "salad side",
+        "ingredient",
+        "low",
+        true
       ],
       [
-        "cheese",
-        20,
-        "richness"
-      ],
-      [
-        "garlic",
-        10,
-        "aroma",
-        "seasoning"
-      ],
-      [
-        "olive-oil",
-        10,
-        "finish",
+        "parsley",
+        5,
+        "fresh garnish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "beer",
-      "butter",
-      "mustard"
+      "grey shrimp",
+      "tomato",
+      "mayonnaise"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "briny",
+      "fresh",
+      "creamy"
     ],
     "textureProfile": [
-      "small bites",
-      "contrasting textures"
+      "juicy tomato",
+      "small firm shrimp",
+      "creamy filling"
     ],
     "riskFlags": [
       "contains-shellfish",
@@ -10328,20 +10354,23 @@ export const expandedDishes = [
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+      "seafood",
+      "starter"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "Cold seafood starter; avoid if shellfish or egg-based mayo is an issue.",
-      "zh": "如果你接受这类口味和风险，番茄灰虾沙拉 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A lighter Belgian seafood starter; avoid if mayonnaise or shellfish is not your thing.",
+      "zh": "较清爽的比利时海鲜前菜；不喜欢蛋黄酱或虾类就避开。",
+      "nl": "Een lichtere Belgische zeevruchtenstarter; vermijd bij mayonaise- of garnalenafkeer."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -10356,90 +10385,99 @@ export const expandedDishes = [
     },
     "category": "seafood",
     "cookingMethods": [
-      "assembled"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Eel in a green herb sauce, a distinctive Belgian regional dish.",
-      "zh": "绿酱鳗鱼 是常见比利时菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Paling in het groen is een veelvoorkomend gerecht in de belgisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Eel pieces served in a vivid green herb sauce, a traditional Belgian fish dish.",
+      "zh": "鳗鱼块配鲜绿色香草酱，是传统比利时鱼类菜。",
+      "nl": "Stukken paling in een felgroene kruidensaus, een traditioneel Belgisch visgerecht."
     },
     "cookingProfile": {
-      "en": "Usually served as a seafood with a tender seafood, fresh finish feel.",
-      "zh": "通常以seafood形式上桌，重点体验是tender seafood。",
-      "nl": "Meestal geserveerd als seafood met een tender seafood gevoel."
+      "en": "The eel is soft and rich while the herb sauce makes it grassy, fresh, and slightly tangy.",
+      "zh": "鳗鱼柔软偏丰腴，绿色香草酱带清草香和微酸感。",
+      "nl": "Paling is zacht en rijk; de kruidensaus maakt het fris, groen en licht zuur."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "regional-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频比利时菜菜品。",
-        "nl": "Een vaak voorkomend belgisch menu-item voor bredere restaurantdekking."
+        "en": "A regional Belgian eel dish; distinctive but more acquired than shrimp or mussels.",
+        "zh": "地区性比利时鳗鱼菜，比虾和贻贝更有接受门槛。",
+        "nl": "Een regionaal Belgisch palinggerecht; uitgesprokener dan garnalen of mosselen."
       }
     },
     "composition": [
       [
-        "raw-fish",
-        45,
-        "main"
+        "eel",
+        55,
+        "fish"
       ],
       [
-        "mixed-vegetables",
+        "herbs",
         20,
-        "side"
+        "green sauce body"
       ],
       [
-        "steamed-rice",
-        20,
-        "base"
+        "butter",
+        10,
+        "sauce richness"
       ],
       [
         "lemon",
-        10,
-        "finish"
+        5,
+        "fresh acidity"
       ],
       [
-        "olive-oil",
-        5,
-        "finish",
+        "parsley",
+        10,
+        "green herb",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "beer",
-      "butter",
-      "mustard"
+      "eel",
+      "parsley",
+      "green herbs"
     ],
     "basicTaste": [
+      "herbal",
       "briny",
-      "fresh",
-      "savory"
+      "rich"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "soft eel",
+      "herb sauce",
+      "warm serving"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "regional-dish",
+      "seafood"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "fish-allergy",
+      "dairy-free",
+      "prefers-mild-fish"
+    ],
     "orderVerdict": {
-      "en": "For adventurous seafood eaters; texture and herbal sauce can be acquired taste.",
-      "zh": "如果你接受这类口味和风险，绿酱鳗鱼 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Order if you like oily fish and herb sauce; it is less beginner-friendly than mussels.",
+      "zh": "喜欢油脂感鱼肉和香草酱时可点；比贻贝更不适合初尝者。",
+      "nl": "Kies dit als je vette vis en kruidensaus lust; minder toegankelijk dan mosselen."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.74,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -10449,94 +10487,111 @@ export const expandedDishes = [
     "names": {
       "en": "Filet Américain",
       "zh": "比利时生牛肉酱",
-      "nl": "Filet américain",
+      "nl": "Filet americain",
       "local": "Filet américain"
     },
     "category": "meat",
     "cookingMethods": [
-      "braised"
+      "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "raw",
     "shortDescription": {
-      "en": "Seasoned raw beef spread or tartare-style preparation.",
-      "zh": "比利时生牛肉酱 是常见比利时菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Filet américain is een veelvoorkomend gerecht in de belgisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Seasoned raw minced beef spread or tartare-style preparation, usually served with toast, fries, or salad.",
+      "zh": "调味生牛肉碎/肉酱，可像塔塔一样配吐司、薯条或沙拉。",
+      "nl": "Gekruid rauw rundvlees als spread of tartaar, vaak met toast, friet of salade."
     },
     "cookingProfile": {
-      "en": "Usually served as a meat with a tender meat, rich sauce feel.",
-      "zh": "通常以meat形式上桌，重点体验是tender meat。",
-      "nl": "Meestal geserveerd als meat met een tender meat gevoel."
+      "en": "It is served raw and cool, with a soft spreadable texture and sharp seasoning.",
+      "zh": "冷食生牛肉，质地柔软可抹，调味通常带酸香和辛香。",
+      "nl": "Rauw en koel geserveerd, zacht smeerbaar met pittige kruiding."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "raw"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频比利时菜菜品。",
-        "nl": "Een vaak voorkomend belgisch menu-item voor bredere restaurantdekking."
+        "en": "A Belgian raw-beef classic; useful to distinguish from cooked burgers or steak.",
+        "zh": "比利时经典生牛肉菜，点餐时要和熟汉堡/牛排区分。",
+        "nl": "Een Belgische klassieker met rauw rund, duidelijk anders dan burger of steak."
       }
     },
     "composition": [
       [
         "beef",
-        55,
-        "main"
+        65,
+        "raw minced beef"
       ],
       [
-        "potato",
-        20,
-        "side"
+        "egg",
+        10,
+        "binder",
+        "ingredient",
+        "medium",
+        true
       ],
       [
-        "mixed-vegetables",
-        15,
-        "side"
-      ],
-      [
-        "butter",
-        5,
-        "richness"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
+        "mustard",
+        10,
+        "sharp seasoning",
         "seasoning"
+      ],
+      [
+        "capers",
+        5,
+        "briny seasoning"
+      ],
+      [
+        "bread",
+        10,
+        "toast side",
+        "ingredient",
+        "medium",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "beer",
-      "butter",
-      "mustard"
+      "raw beef",
+      "mustard",
+      "capers"
     ],
     "basicTaste": [
       "savory",
-      "rich",
-      "umami"
+      "tangy",
+      "peppery"
     ],
     "textureProfile": [
-      "tender meat",
-      "rich sauce"
+      "soft raw beef",
+      "spreadable",
+      "crisp toast"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-egg",
+      "contains-gluten"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+      "classic-dish",
+      "raw-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "avoids-raw-meat",
+      "pregnant",
+      "egg-allergy",
+      "gluten-free"
+    ],
     "orderVerdict": {
-      "en": "Only order if raw beef is acceptable to you.",
-      "zh": "如果你接受这类口味和风险，比利时生牛肉酱 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Only order if raw seasoned beef sounds appealing; it is not a cooked American-style dish.",
+      "zh": "只有能接受调味生牛肉时再点；这不是熟的美式菜。",
+      "nl": "Alleen bestellen als rauw gekruid rund goed klinkt; dit is geen gaar Amerikaans gerecht."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.74,
+    "confidenceTag": "audited-belgian-batch-009",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -10554,85 +10609,95 @@ export const expandedDishes = [
       "braised"
     ],
     "shortDescription": {
-      "en": "Belgian meatballs in sweet-savory syrupy sauce, often with fries.",
-      "zh": "列日肉丸 是常见比利时菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Luikse gehaktballen is een veelvoorkomend gerecht in de belgisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Belgian meatballs in a sweet-savory Liège sauce, commonly served with fries.",
+      "zh": "比利时肉丸配列日风格甜咸酱汁，常配薯条。",
+      "nl": "Belgische gehaktballen in zoet-hartige Luikse saus, vaak met friet."
     },
     "cookingProfile": {
-      "en": "Usually served as a meat with a tender meat, rich sauce feel.",
-      "zh": "通常以meat形式上桌，重点体验是tender meat。",
-      "nl": "Meestal geserveerd als meat met een tender meat gevoel."
+      "en": "The meatballs are tender and saucy, with a dark sweet onion-and-syrup style gravy.",
+      "zh": "肉丸软嫩多汁，深色酱汁带洋葱和糖浆般甜咸味。",
+      "nl": "Malse gehaktballen met donkere zoet-hartige uiensaus."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "regional-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频比利时菜菜品。",
-        "nl": "Een vaak voorkomend belgisch menu-item voor bredere restaurantdekking."
+        "en": "A Liège-region Belgian comfort dish often found in brasseries.",
+        "zh": "列日地区比利时家常菜，常见于小馆菜单。",
+        "nl": "Een Luikse Belgische comfortklassieker in brasseries."
       }
     },
     "composition": [
       [
-        "beef",
-        55,
-        "main"
+        "ground-meat",
+        45,
+        "meatballs"
       ],
       [
-        "potato",
+        "onion",
+        20,
+        "sauce body"
+      ],
+      [
+        "fries",
         20,
         "side"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "side"
+        "beer",
+        10,
+        "sauce depth",
+        "seasoning"
       ],
       [
-        "butter",
+        "mustard",
         5,
-        "richness"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
+        "sharp balance",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
+      "onion gravy",
       "beer",
-      "butter",
       "mustard"
     ],
     "basicTaste": [
       "savory",
-      "rich",
-      "umami"
+      "sweet",
+      "rich"
     ],
     "textureProfile": [
-      "tender meat",
-      "rich sauce"
+      "tender meatballs",
+      "glossy sauce",
+      "crisp fries"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-alcohol"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "comfort-food",
+      "regional-dish"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "avoids-alcohol",
+      "wants-light-food"
+    ],
     "orderVerdict": {
-      "en": "Comforting and hearty; sauce is sweeter than many meat dishes.",
-      "zh": "如果你接受这类口味和风险，列日肉丸 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A hearty Belgian comfort order; choose tomato meatballs instead if you dislike sweet brown sauce.",
+      "zh": "厚实的比利时家常选择；不喜欢甜咸深色酱可选番茄肉丸。",
+      "nl": "Stevig Belgisch comfort; kies tomatensaus als je zoete bruine saus niet wilt."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -10650,68 +10715,73 @@ export const expandedDishes = [
       "braised"
     ],
     "shortDescription": {
-      "en": "Rabbit braised with gueuze beer for tangy, malty depth.",
-      "zh": "啤酒炖兔 是常见比利时菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Konijn met geuze is een veelvoorkomend gerecht in de belgisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Rabbit braised in gueuze beer sauce, often with onions, herbs, and a slightly sour-malty finish.",
+      "zh": "兔肉用 gueuze 啤酒炖煮，常有洋葱、香草和微酸麦芽味。",
+      "nl": "Konijn gestoofd in geuze, vaak met ui, kruiden en licht zuur-moutige saus."
     },
     "cookingProfile": {
-      "en": "Usually served as a meat with a tender meat, rich sauce feel.",
-      "zh": "通常以meat形式上桌，重点体验是tender meat。",
-      "nl": "Meestal geserveerd als meat met een tender meat gevoel."
+      "en": "Rabbit is leaner than chicken, so the beer sauce carries much of the richness and tang.",
+      "zh": "兔肉比鸡肉更瘦，厚重感和微酸味主要来自啤酒酱汁。",
+      "nl": "Konijn is magerder dan kip; de geuzesaus geeft rijkdom en fris zuur."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "regional-dish",
+        "beer-cuisine"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频比利时菜菜品。",
-        "nl": "Een vaak voorkomend belgisch menu-item voor bredere restaurantdekking."
+        "en": "A Belgian beer-braised rabbit dish for diners comfortable with game-like meats.",
+        "zh": "比利时啤酒炖兔，适合能接受兔肉/野味感的人。",
+        "nl": "Een Belgisch bierstoofgerecht met konijn voor wie wildachtiger vlees lust."
       }
     },
     "composition": [
       [
-        "beef",
+        "rabbit",
         55,
-        "main"
+        "protein"
       ],
       [
-        "potato",
+        "beer",
         20,
-        "side"
+        "gueuze sauce",
+        "seasoning"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "side"
+        "onion",
+        10,
+        "sauce body"
       ],
       [
-        "butter",
+        "mushrooms",
+        10,
+        "earthy body",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "parsley",
         5,
-        "richness"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
+        "fresh herb",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "beer",
-      "butter",
-      "mustard"
+      "rabbit",
+      "gueuze beer",
+      "onion"
     ],
     "basicTaste": [
       "savory",
-      "rich",
-      "umami"
+      "malty",
+      "slightly sour"
     ],
     "textureProfile": [
-      "tender meat",
-      "rich sauce"
+      "lean tender meat",
+      "braising sauce",
+      "soft onions"
     ],
     "riskFlags": [
       "contains-alcohol",
@@ -10719,19 +10789,24 @@ export const expandedDishes = [
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "regional-dish",
+      "beer-cuisine"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "avoids-alcohol",
+      "gluten-free",
+      "avoids-rabbit"
+    ],
     "orderVerdict": {
-      "en": "Good if you want a regional beer-braised dish; contains alcohol/gluten risk.",
-      "zh": "如果你接受这类口味和风险，啤酒炖兔 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Order if rabbit and beer sauce sound interesting; avoid if you prefer familiar chicken texture.",
+      "zh": "想尝兔肉和啤酒酱汁时可点；只想要熟悉鸡肉口感时避开。",
+      "nl": "Kies dit als konijn en biersaus interessant klinken; vermijd bij voorkeur voor kiptextuur."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -10745,90 +10820,101 @@ export const expandedDishes = [
       "local": "Frieten"
     },
     "category": "fried-snack",
+    "mealRole": "side",
+    "portionType": "side",
+    "goodForSharing": true,
     "cookingMethods": [
       "deep-fried"
     ],
     "shortDescription": {
-      "en": "Thick fries, often served with mayonnaise or specialty sauces.",
-      "zh": "比利时薯条 是常见比利时菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Belgische frieten is een veelvoorkomend gerecht in de belgisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Thick Belgian-style fries, usually served with mayonnaise or a choice of frituur sauces.",
+      "zh": "比利时风格粗薯条，通常配蛋黄酱或炸物店酱料。",
+      "nl": "Dikke Belgische frieten, meestal met mayonaise of frituursaus naar keuze."
     },
     "cookingProfile": {
-      "en": "Usually served as a fried snack with a crisp outside, savory center feel.",
-      "zh": "通常以fried-snack形式上桌，重点体验是crisp outside。",
-      "nl": "Meestal geserveerd als fried snack met een crisp outside gevoel."
+      "en": "They should be crisp outside and fluffy inside, with sauce deciding how heavy they feel.",
+      "zh": "理想状态是外脆内松，酱料会决定整体厚重感。",
+      "nl": "Krokant buiten en luchtig binnen; de saus bepaalt hoe zwaar het wordt."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "signature",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "street-food"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频比利时菜菜品。",
-        "nl": "Een vaak voorkomend belgisch menu-item voor bredere restaurantdekking."
+        "en": "A Belgian frituur staple and common side for mussels, meatballs, and sandwiches.",
+        "zh": "比利时炸物店基础小吃，也是贻贝、肉丸和三明治常见配菜。",
+        "nl": "Een frituurklassieker en vaak bij mosselen, balletjes en broodjes."
       }
     },
     "composition": [
       [
-        "fried-chicken",
-        45,
-        "main"
+        "fries",
+        80,
+        "potato base"
       ],
       [
-        "wheat-flour",
-        25,
-        "coating"
-      ],
-      [
-        "egg",
+        "mayonnaise",
         10,
-        "binder"
+        "classic sauce"
+      ],
+      [
+        "curry-ketchup",
+        5,
+        "optional sauce",
+        "seasoning",
+        "high",
+        true
       ],
       [
         "mustard",
-        10,
-        "dip",
-        "seasoning"
-      ],
-      [
-        "fries",
-        10,
-        "side"
+        5,
+        "optional sauce",
+        "seasoning",
+        "high",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "beer",
-      "butter",
-      "mustard"
+      "fries",
+      "mayonnaise"
     ],
     "basicTaste": [
+      "salty",
       "savory",
-      "salty"
+      "mild"
     ],
     "textureProfile": [
       "crisp outside",
-      "savory center"
+      "fluffy potato",
+      "creamy dip"
     ],
     "riskFlags": [
-      "contains-gluten"
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "street-food",
+      "side",
+      "sharing"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "wants-light-food"
+    ],
     "orderVerdict": {
-      "en": "Easy side or snack; sauce matters for egg/dairy risk.",
-      "zh": "如果你接受这类口味和风险，比利时薯条 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A safe side or snack; choose sauce carefully if you want to keep it lighter.",
+      "zh": "作为配菜或小吃很稳；想轻一点就少选厚酱。",
+      "nl": "Een veilige snack of side; kies saus bewust als je het lichter wilt houden."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -10837,7 +10923,7 @@ export const expandedDishes = [
     "cuisineId": "belgian",
     "names": {
       "en": "Cheese Croquettes",
-      "zh": "奶酪可乐饼",
+      "zh": "比利时奶酪可乐饼",
       "nl": "Kaaskroketten",
       "local": "Croquettes au fromage"
     },
@@ -10846,87 +10932,90 @@ export const expandedDishes = [
       "deep-fried"
     ],
     "shortDescription": {
-      "en": "Fried croquettes with molten cheese filling.",
-      "zh": "奶酪可乐饼 是常见比利时菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Kaaskroketten is een veelvoorkomend gerecht in de belgisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Crisp fried croquettes filled with thick melted cheese or cheese béchamel.",
+      "zh": "外壳酥脆，里面是浓稠融化奶酪或奶酪白酱。",
+      "nl": "Krokante kroketten gevuld met dikke gesmolten kaas of kaasbechamel."
     },
     "cookingProfile": {
-      "en": "Usually served as a fried snack with a crisp outside, savory center feel.",
-      "zh": "通常以fried-snack形式上桌，重点体验是crisp outside。",
-      "nl": "Meestal geserveerd als fried snack met een crisp outside gevoel."
+      "en": "They are hot, crisp, and very dairy-rich, with a stretchy or creamy center.",
+      "zh": "热、酥、奶味很重，内馅可能拉丝或呈浓稠奶酪酱。",
+      "nl": "Heet, krokant en erg kaasrijk, met draderige of romige kern."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "starter"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频比利时菜菜品。",
-        "nl": "Een vaak voorkomend belgisch menu-item voor bredere restaurantdekking."
+        "en": "A Belgian brasserie starter for diners who want a vegetarian fried option.",
+        "zh": "比利时小馆常见前菜，适合想要素食炸物的人。",
+        "nl": "Een Belgische brasseriesnack voor wie vegetarisch gefrituurd wil."
       }
     },
     "composition": [
       [
-        "fried-chicken",
+        "cheese",
         45,
-        "main"
+        "filling"
       ],
       [
-        "wheat-flour",
+        "bechamel-sauce",
         25,
-        "coating"
+        "creamy binder"
+      ],
+      [
+        "bread",
+        20,
+        "crumb coating"
       ],
       [
         "egg",
         10,
-        "binder"
-      ],
-      [
-        "mustard",
-        10,
-        "dip",
-        "seasoning"
-      ],
-      [
-        "fries",
-        10,
-        "side"
+        "coating"
       ]
     ],
     "distinctiveFlavorSources": [
-      "beer",
-      "butter",
-      "mustard"
+      "cheese",
+      "bechamel-sauce"
     ],
     "basicTaste": [
       "savory",
+      "creamy",
       "salty"
     ],
     "textureProfile": [
-      "crisp outside",
-      "savory center"
+      "crisp shell",
+      "melted center",
+      "hot filling"
     ],
     "riskFlags": [
+      "contains-dairy",
       "contains-gluten",
-      "contains-dairy"
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "starter",
+      "vegetarian"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "dairy-free",
+      "gluten-free",
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "Great for cheese lovers; heavy and not suitable for dairy/gluten avoiders.",
-      "zh": "如果你接受这类口味和风险，奶酪可乐饼 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A strong pick for cheese lovers; too rich if you dislike heavy dairy.",
+      "zh": "喜欢奶酪会很适合；不爱厚重乳制品就避开。",
+      "nl": "Sterk voor kaasliefhebbers; te rijk als je zware zuivel niet wilt."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -10935,98 +11024,100 @@ export const expandedDishes = [
     "cuisineId": "belgian",
     "names": {
       "en": "Dame Blanche",
-      "zh": "比利时香草冰淇淋巧克力酱",
+      "zh": "香草冰淇淋巧克力酱",
       "nl": "Dame blanche",
       "local": "Dame blanche"
     },
     "category": "dessert",
     "cookingMethods": [
-      "chilled"
+      "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Vanilla ice cream with warm chocolate sauce and often whipped cream.",
-      "zh": "比利时香草冰淇淋巧克力酱 是常见比利时菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Dame blanche is een veelvoorkomend gerecht in de belgisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Vanilla ice cream served with warm chocolate sauce and often whipped cream.",
+      "zh": "香草冰淇淋配热巧克力酱，常加打发奶油。",
+      "nl": "Vanille-ijs met warme chocoladesaus en vaak slagroom."
     },
     "cookingProfile": {
-      "en": "Usually served as a dessert with a sweet, soft feel.",
-      "zh": "通常以dessert形式上桌，重点体验是sweet。",
-      "nl": "Meestal geserveerd als dessert met een sweet gevoel."
+      "en": "It is a cold-hot dessert: cold vanilla ice cream under warm glossy chocolate sauce.",
+      "zh": "冷热对比明显：冷香草冰淇淋上浇热巧克力酱。",
+      "nl": "Een koud-warm dessert: vanille-ijs onder warme glanzende chocoladesaus."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
+        "dessert",
         "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频比利时菜菜品。",
-        "nl": "Een vaak voorkomend belgisch menu-item voor bredere restaurantdekking."
+        "en": "A common Belgian brasserie dessert that is familiar but still very Belgian on menus.",
+        "zh": "常见比利时小馆甜点，熟悉但在比利时菜单上很典型。",
+        "nl": "Een gewone Belgische brasseriedessert, herkenbaar maar typisch op menu's."
       }
     },
     "composition": [
       [
-        "cream",
-        35,
-        "base"
+        "vanilla-gelato",
+        55,
+        "ice cream"
       ],
       [
-        "sugar",
+        "chocolate",
         25,
-        "sweetener"
+        "warm sauce"
       ],
       [
-        "wheat-flour",
-        20,
-        "base"
-      ],
-      [
-        "egg",
-        10,
-        "binder"
+        "cream",
+        15,
+        "whipped topping"
       ],
       [
         "vanilla",
-        10,
+        5,
         "aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "beer",
-      "butter",
-      "mustard"
+      "vanilla ice cream",
+      "warm chocolate sauce"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "chocolatey"
     ],
     "textureProfile": [
-      "sweet",
-      "soft"
+      "cold ice cream",
+      "warm sauce",
+      "soft cream"
     ],
     "riskFlags": [
       "contains-dairy",
-      "contains-egg",
-      "contains-gluten"
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "common-menu-item",
+      "dessert",
       "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "dairy-free",
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "Classic Belgian dessert if you want simple cold creaminess.",
-      "zh": "如果你接受这类口味和风险，比利时香草冰淇淋巧克力酱 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A safe dessert if you want vanilla and chocolate rather than pastry.",
+      "zh": "想吃香草和巧克力、不想吃糕点时很稳。",
+      "nl": "Een veilige dessertkeuze voor vanille en chocolade in plaats van gebak."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "low"
   }),
   starterDish({
     "id": "speculoos",
@@ -11034,98 +11125,105 @@ export const expandedDishes = [
     "cuisineId": "belgian",
     "names": {
       "en": "Speculoos",
-      "zh": "焦糖香料饼干",
+      "zh": "比利时焦糖香料饼干",
       "nl": "Speculoos",
       "local": "Speculoos"
     },
     "category": "dessert",
     "cookingMethods": [
-      "chilled"
+      "baked"
     ],
     "shortDescription": {
-      "en": "Spiced crisp biscuit with caramel-like warmth, often served with coffee.",
-      "zh": "焦糖香料饼干 是常见比利时菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Speculoos is een veelvoorkomend gerecht in de belgisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Crisp caramelized spiced biscuits, often served with coffee or used in desserts.",
+      "zh": "酥脆焦糖化香料饼干，常配咖啡或用于甜点。",
+      "nl": "Krokante gekaramelliseerde kruidkoekjes, vaak bij koffie of in desserts."
     },
     "cookingProfile": {
-      "en": "Usually served as a dessert with a sweet, soft feel.",
-      "zh": "通常以dessert形式上桌，重点体验是sweet。",
-      "nl": "Meestal geserveerd als dessert met een sweet gevoel."
+      "en": "It is dry, crisp, and spice-forward rather than creamy or cake-like.",
+      "zh": "口感干爽酥脆，香料味明显，不是奶油或蛋糕型甜点。",
+      "nl": "Droog, krokant en kruidig, niet romig of cakeachtig."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "dessert",
+        "coffee-pairing"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频比利时菜菜品。",
-        "nl": "Een vaak voorkomend belgisch menu-item voor bredere restaurantdekking."
+        "en": "A Belgian biscuit classic that often appears as a small sweet or dessert component.",
+        "zh": "比利时经典饼干，常作为咖啡小甜点或甜点元素出现。",
+        "nl": "Een Belgische koekjesklassieker, vaak bij koffie of als dessertcomponent."
       }
     },
     "composition": [
       [
-        "cream",
-        35,
-        "base"
+        "wheat-flour",
+        45,
+        "biscuit base"
       ],
       [
         "sugar",
         25,
-        "sweetener"
+        "caramel sweetness"
       ],
       [
-        "wheat-flour",
-        20,
-        "base"
+        "butter",
+        15,
+        "richness"
       ],
       [
-        "egg",
+        "speculaas-spice",
         10,
-        "binder"
+        "warm spice",
+        "seasoning"
       ],
       [
-        "vanilla",
-        10,
-        "aroma",
+        "cinnamon",
+        5,
+        "spice",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "beer",
-      "butter",
-      "mustard"
+      "speculaas-spice",
+      "caramelized sugar",
+      "cinnamon"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "spiced",
+      "caramel-like"
     ],
     "textureProfile": [
-      "sweet",
-      "soft"
+      "crisp biscuit",
+      "dry snap",
+      "crumbly bite"
     ],
     "riskFlags": [
-      "contains-dairy",
-      "contains-egg",
-      "contains-gluten"
+      "contains-gluten",
+      "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+      "dessert",
+      "coffee-pairing"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
     "orderVerdict": {
-      "en": "Small sweet bite rather than a full dessert.",
-      "zh": "如果你接受这类口味和风险，焦糖香料饼干 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good as a small sweet with coffee; choose another dessert if you want something creamy.",
+      "zh": "适合配咖啡的小甜食；想吃奶油甜点时选别的。",
+      "nl": "Goed als klein zoet bij koffie; kies iets anders als je romig dessert wilt."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "low"
   }),
 ];

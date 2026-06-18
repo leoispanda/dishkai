@@ -2,18 +2,43 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 176
-- Total aliases: 642
+- Total verified dishes: 201
+- Total aliases: 713
 - Total cuisines: 10
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
-## Belgian (belgian) - 5
+## Belgian (belgian) - 30
 
 1. 107001 - `moules-frites` - Moules-Frites / 比利时贻贝配薯条 / Moules-frites
 2. 107002 - `belgian-waffle` - Belgian Waffle / 比利时华夫饼 / Gaufre belge
 3. 107003 - `carbonnade-flamande` - Carbonnade Flamande / 佛兰德啤酒炖牛肉 / Carbonnade flamande
 4. 107004 - `waterzooi` - Waterzooi / 比利时奶油炖鸡/鱼 / Waterzooi
 5. 107005 - `chicon-au-gratin` - Chicon au Gratin / 比利时菊苣火腿奶酪焗 / Chicon au gratin
+6. 107006 - `vol-au-vent` - Vol-au-vent / 比利时奶油鸡酥盒 / Vol-au-vent
+7. 107007 - `shrimp-croquettes` - Shrimp Croquettes / 比利时灰虾可乐饼 / Garnaalkroketten
+8. 107008 - `stoemp` - Stoemp / 比利时蔬菜土豆泥 / Stoemp
+9. 107009 - `tomate-crevette` - Tomate Crevette / 番茄灰虾沙拉 / Tomate crevette
+10. 107010 - `anguilles-au-vert` - Eel in Green Sauce / 绿酱鳗鱼 / Anguilles au vert
+11. 107011 - `filet-americain` - Filet Américain / 比利时生牛肉酱 / Filet américain
+12. 107012 - `boulets-liegeois` - Boulets Liégeois / 列日肉丸 / Boulets à la liégeoise
+13. 107013 - `lapin-a-la-gueuze` - Rabbit with Gueuze / 啤酒炖兔 / Lapin à la gueuze
+14. 107014 - `belgian-fries` - Belgian Fries / 比利时薯条 / Frieten
+15. 107015 - `cheese-croquettes` - Cheese Croquettes / 比利时奶酪可乐饼 / Croquettes au fromage
+16. 107016 - `dame-blanche` - Dame Blanche / 香草冰淇淋巧克力酱 / Dame blanche
+17. 107017 - `speculoos` - Speculoos / 比利时焦糖香料饼干 / Speculoos
+18. 107031 - `salade-liegeoise` - Salade Liégeoise / 列日土豆培根四季豆沙拉 / Salade liégeoise
+19. 107032 - `flamiche` - Flamiche / 比利时韭葱奶酪派 / Flamiche
+20. 107041 - `waterkerssoep` - Watercress Soup / 西洋菜汤 / Waterkerssoep
+21. 107042 - `asperges-op-vlaamse-wijze` - Asperges op Vlaamse Wijze / 佛兰德白芦笋 / Asperges op Vlaamse wijze
+22. 107045 - `konijn-met-pruimen` - Konijn met Pruimen / 梅子炖兔肉 / Konijn met pruimen
+23. 107047 - `mattentaart` - Mattentaart / 比利时凝乳挞 / Mattentaart
+24. 107018 - `mitraillette` - Mitraillette / 比利时薯条肉排长棍 / Mitraillette
+25. 107021 - `solettes-meuniere` - Solettes Meunière / 黄油煎小鳎鱼 / Solettes meunière
+26. 107023 - `bloedworst` - Bloedworst / 比利时血肠 / Bloedworst
+27. 107024 - `jambon-dardenne` - Jambon d'Ardenne / 阿登火腿 / Jambon d'Ardenne
+28. 107025 - `boulets-sauce-tomate` - Boulets Sauce Tomate / 番茄酱肉丸 / Boulets sauce tomate
+29. 107026 - `crepe-mikado` - Crêpe Mikado / 巧克力冰淇淋薄饼 / Crêpe Mikado
+30. 107027 - `rijsttaart` - Rijsttaart / 比利时米布丁塔 / Rijsttaart
 
 ## Chinese (chinese) - 5
 

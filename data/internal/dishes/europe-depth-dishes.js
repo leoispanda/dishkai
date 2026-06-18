@@ -15801,100 +15801,102 @@ const europeDepthDishConfigs = [
     "metadataCode": "107031",
     "cuisineId": "belgian",
     "names": {
-      "en": "Salade Liegeoise",
-      "zh": "列日土豆培根沙拉",
-      "nl": "Salade Liegeoise",
-      "local": "Salade Liegeoise"
+      "en": "Salade Liégeoise",
+      "zh": "列日土豆培根四季豆沙拉",
+      "nl": "Luikse salade",
+      "local": "Salade liégeoise"
     },
     "category": "salad",
     "cookingMethods": [
+      "boiled",
       "assembled"
     ],
     "shortDescription": {
-      "en": "Salade Liegeoise is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "列日土豆培根沙拉是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Salade Liegeoise is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Warm Belgian salad of potatoes, green beans, bacon, onion, and vinegar dressing.",
+      "zh": "温热比利时沙拉，用土豆、四季豆、培根、洋葱和醋汁拌成。",
+      "nl": "Warme Belgische salade met aardappel, sperziebonen, spek, ui en azijndressing."
     },
     "cookingProfile": {
-      "en": "Usually served with fresh salad, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fresh salad，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fresh salad; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is warmer and heartier than a leafy salad, with bacon and vinegar balancing the potatoes.",
+      "zh": "比叶菜沙拉更温热扎实，培根和醋汁平衡土豆厚度。",
+      "nl": "Warmer en steviger dan bladsalade, met spek en azijn bij aardappel."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "salad"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Liège-region warm salad that functions almost like a light main.",
+        "zh": "列日地区温沙拉，分量上接近轻主菜。",
+        "nl": "Een Luikse warme salade die bijna als lichte hoofdschotel werkt."
       }
     },
     "composition": [
       [
-        "mixed-vegetables",
-        45,
-        "base"
+        "potato",
+        35,
+        "warm base"
       ],
       [
-        "tomato",
-        15,
-        "body"
+        "green-beans",
+        25,
+        "vegetable"
       ],
       [
-        "cheese",
-        15,
-        "richness"
+        "bacon",
+        20,
+        "salty meat"
       ],
       [
-        "olive-oil",
+        "onion",
         10,
-        "dressing",
-        "seasoning"
+        "aroma"
       ],
       [
         "vinegar",
         10,
         "dressing",
         "seasoning"
-      ],
-      [
-        "herbs",
-        5,
-        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "bacon",
+      "vinegar",
+      "green-beans"
     ],
     "basicTaste": [
       "savory",
-      "fresh"
+      "tangy",
+      "salty"
     ],
     "textureProfile": [
-      "crisp vegetables",
-      "bright dressing"
+      "soft potatoes",
+      "tender beans",
+      "crisp bacon"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-pork"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "salad"
+      "regional-dish",
+      "lighter-main"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "no-pork"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, fresh profile sounds appealing.",
-      "zh": "如果你想要savory、fresh的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, fresh je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good middle ground if you want something lighter than stew but still filling.",
+      "zh": "想比炖菜轻一点但仍有饱足感时很合适。",
+      "nl": "Goede middenweg als je lichter dan stoofvlees maar toch vullend wilt eten."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
-    "weightLevel": 1,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -15903,7 +15905,7 @@ const europeDepthDishConfigs = [
     "cuisineId": "belgian",
     "names": {
       "en": "Flamiche",
-      "zh": "比利时奶酪韭葱派",
+      "zh": "比利时韭葱奶酪派",
       "nl": "Flamiche",
       "local": "Flamiche"
     },
@@ -15912,95 +15914,96 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Flamiche is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "比利时奶酪韭葱派是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Flamiche is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Savory Belgian tart or pie, commonly with leeks, eggs, cream, and cheese.",
+      "zh": "比利时咸派，常见韭葱、鸡蛋、奶油和奶酪馅。",
+      "nl": "Hartige Belgische taart, vaak met prei, ei, room en kaas."
     },
     "cookingProfile": {
-      "en": "Usually served with savory pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现savory pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met savory pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is baked and creamy inside with a pastry edge, similar in feel to a rustic quiche.",
+      "zh": "烤制后内馅奶香柔软、边缘酥，感觉接近乡村咸派。",
+      "nl": "Gebakken met romige vulling en deegrand, vergelijkbaar met rustieke quiche."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "starter"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Walloon-style savory tart often served as a starter or light lunch.",
+        "zh": "瓦隆风格咸派，常作前菜或轻午餐。",
+        "nl": "Een Waalse hartige taart, vaak als starter of lichte lunch."
       }
     },
     "composition": [
       [
         "pastry-crust",
-        40,
-        "base"
+        35,
+        "tart shell"
       ],
       [
-        "cheese",
-        20,
-        "filling"
+        "leek",
+        25,
+        "vegetable filling"
       ],
       [
         "egg",
         15,
-        "binder"
+        "custard set"
       ],
       [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "butter",
-        10,
+        "cream",
+        15,
         "richness"
       ],
       [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
+        "cheese",
+        10,
+        "savory topping"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "leek",
+      "cream",
+      "cheese"
     ],
     "basicTaste": [
       "savory",
-      "buttery"
+      "creamy",
+      "mildly sweet"
     ],
     "textureProfile": [
-      "flaky pastry",
-      "soft filling"
+      "tender pastry",
+      "soft leek filling",
+      "creamy center"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-dairy",
-      "contains-egg"
+      "contains-egg",
+      "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "pastry"
+      "starter",
+      "vegetarian"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, buttery profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、buttery的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, buttery je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good vegetarian-leaning savory tart; avoid if you dislike leek or creamy quiche textures.",
+      "zh": "偏素的咸派选择；不喜欢韭葱或奶油蛋派口感就避开。",
+      "nl": "Een goede hartige vegetarische taart; vermijd bij prei- of quiche-afkeer."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -16847,7 +16850,7 @@ const europeDepthDishConfigs = [
     "metadataCode": "107041",
     "cuisineId": "belgian",
     "names": {
-      "en": "Waterkerssoep",
+      "en": "Watercress Soup",
       "zh": "西洋菜汤",
       "nl": "Waterkerssoep",
       "local": "Waterkerssoep"
@@ -16857,37 +16860,37 @@ const europeDepthDishConfigs = [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Waterkerssoep is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "西洋菜汤是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Waterkerssoep is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Smooth green watercress soup, often finished with cream and served as a light starter.",
+      "zh": "顺滑绿色西洋菜汤，常以奶油收尾，作为清淡前菜。",
+      "nl": "Gladde groene waterkerssoep, vaak afgewerkt met room en als lichte starter geserveerd."
     },
     "cookingProfile": {
-      "en": "Usually served with warm soup, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现warm soup，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met warm soup; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is warm, smooth, and gently peppery, with cream softening the watercress bite.",
+      "zh": "热汤顺滑，带轻微胡椒般草本味，奶油会柔化西洋菜辛香。",
+      "nl": "Warm, glad en licht peperig, met room die de waterkers verzacht."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "soup",
+        "starter"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A light Belgian soup option that appears on brasserie and seasonal menus.",
+        "zh": "比利时小馆和季节菜单上会出现的清淡汤品。",
+        "nl": "Een lichte Belgische soep op brasserie- en seizoensmenu's."
       }
     },
     "composition": [
       [
-        "broth",
-        35,
-        "base"
+        "watercress",
+        40,
+        "green base"
       ],
       [
-        "mixed-vegetables",
+        "broth",
         25,
-        "body"
+        "soup base"
       ],
       [
         "potato",
@@ -16896,51 +16899,53 @@ const europeDepthDishConfigs = [
       ],
       [
         "cream",
-        10,
-        "richness"
+        15,
+        "finish"
       ],
       [
-        "black-pepper",
+        "butter",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
+        "soft richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "watercress",
+      "cream",
+      "broth"
     ],
     "basicTaste": [
-      "savory",
-      "warming"
+      "fresh",
+      "mildly peppery",
+      "creamy"
     ],
     "textureProfile": [
-      "brothy or creamy",
-      "soft bite"
+      "smooth soup",
+      "light cream",
+      "warm bowl"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "soup"
+      "starter",
+      "lighter-choice"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, warming profile sounds appealing.",
-      "zh": "如果你想要savory、warming的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, warming je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A lighter starter if you want something green and warm before a heavier main.",
+      "zh": "想在厚重主菜前先喝点绿色热汤时很合适。",
+      "nl": "Een lichte starter als je iets groens en warms wilt voor een zwaarder hoofdgerecht."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -16950,97 +16955,108 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Asperges op Vlaamse Wijze",
       "zh": "佛兰德白芦笋",
-      "nl": "Asperges op Vlaamse Wijze",
-      "local": "Asperges op Vlaamse Wijze"
+      "nl": "Asperges op Vlaamse wijze",
+      "local": "Asperges op Vlaamse wijze"
     },
     "category": "starter",
     "cookingMethods": [
+      "boiled",
       "assembled"
     ],
     "shortDescription": {
-      "en": "Asperges op Vlaamse Wijze is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "佛兰德白芦笋是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Asperges op Vlaamse Wijze is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "White asparagus served Flemish-style with chopped egg, melted butter, and parsley.",
+      "zh": "白芦笋配切碎鸡蛋、融化黄油和欧芹，是佛兰德风格做法。",
+      "nl": "Witte asperges op Vlaamse wijze met gehakt ei, gesmolten boter en peterselie."
     },
     "cookingProfile": {
-      "en": "Usually served with small starter, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small starter，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small starter; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The asparagus is tender and delicate, while egg and butter make it richer than a plain vegetable plate.",
+      "zh": "白芦笋细嫩清淡，鸡蛋和黄油让它比普通蔬菜盘更浓润。",
+      "nl": "Malse delicate asperges, rijker door ei en boter."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "seasonal",
+        "vegetable"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Flemish spring classic centered on white asparagus season.",
+        "zh": "佛兰德春季经典，核心是白芦笋季节。",
+        "nl": "Een Vlaamse lenteklassieker rond witte asperges."
       }
     },
     "composition": [
       [
-        "bread",
-        30,
-        "base"
+        "white-asparagus",
+        55,
+        "vegetable"
       ],
       [
-        "cheese",
+        "egg",
         20,
-        "richness"
+        "chopped topping"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "ham",
+        "butter",
         15,
-        "main"
+        "sauce"
       ],
       [
-        "olive-oil",
-        10,
-        "finish",
+        "parsley",
+        5,
+        "fresh herb",
         "seasoning"
       ],
       [
-        "herbs",
+        "potato",
         5,
-        "finish"
+        "optional side",
+        "ingredient",
+        "low",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "white-asparagus",
+      "butter",
+      "egg"
     ],
     "basicTaste": [
-      "savory",
+      "delicate",
+      "buttery",
       "mild"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "tender asparagus",
+      "chopped egg",
+      "melted butter"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "starter"
+      "seasonal",
+      "vegetarian"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "dairy-free"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A gentle seasonal order if you like white asparagus; it is subtle rather than bold.",
+      "zh": "喜欢白芦笋时很适合的季节菜；味道细腻，不是重口。",
+      "nl": "Een milde seizoenskeuze als je witte asperges lust; subtiel in plaats van uitgesproken."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
-    "weightLevel": 1,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -17257,98 +17273,102 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Konijn met Pruimen",
       "zh": "梅子炖兔肉",
-      "nl": "Konijn met Pruimen",
-      "local": "Konijn met Pruimen"
+      "nl": "Konijn met pruimen",
+      "local": "Konijn met pruimen"
     },
     "category": "meat",
     "cookingMethods": [
       "braised"
     ],
     "shortDescription": {
-      "en": "Konijn met Pruimen is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "梅子炖兔肉是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Konijn met Pruimen is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Rabbit braised with prunes in a dark sweet-savory sauce, often served with potatoes.",
+      "zh": "兔肉和梅干一起炖成深色甜咸酱汁，常配土豆。",
+      "nl": "Konijn gestoofd met pruimen in donkere zoet-hartige saus, vaak met aardappelen."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The rabbit stays lean while prunes give the sauce sweetness and depth.",
+      "zh": "兔肉本身偏瘦，梅干让酱汁带甜味和深度。",
+      "nl": "Konijn blijft mager; pruimen geven zoetheid en diepte aan de saus."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A traditional Belgian rabbit stew with a sweeter fruit-sauce profile.",
+        "zh": "传统比利时兔肉炖菜，酱汁带水果甜味。",
+        "nl": "Een traditionele Belgische konijnstoof met zoeter fruitig sausprofiel."
       }
     },
     "composition": [
       [
-        "beef",
-        45,
-        "main"
+        "rabbit",
+        55,
+        "protein"
       ],
       [
-        "potato",
+        "plum-compote",
         20,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
-        15,
-        "body"
+        "prune sweetness"
       ],
       [
         "onion",
         10,
-        "aromatic"
+        "sauce body"
       ],
       [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
+        "potato",
+        10,
+        "side"
       ],
       [
-        "parsley",
+        "beer",
         5,
-        "finish",
+        "sauce depth",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "rabbit",
+      "prunes",
+      "beer"
     ],
     "basicTaste": [
       "savory",
+      "sweet",
       "rich"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "lean tender rabbit",
+      "soft prunes",
+      "dark sauce"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-alcohol",
+      "contains-gluten"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "meat"
+      "regional-dish",
+      "comfort-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "avoids-rabbit",
+      "avoids-sweet-savory",
+      "gluten-free"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if sweet-savory braised meat appeals; avoid if rabbit or prunes sound off-putting.",
+      "zh": "喜欢甜咸炖肉会适合；不接受兔肉或梅干就避开。",
+      "nl": "Goed bij zoet-hartig stoofvlees; vermijd als konijn of pruimen je tegenstaan."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -17467,94 +17487,97 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Mattentaart is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "比利时凝乳挞是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Mattentaart is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Small Belgian puff-pastry tart filled with fresh curd cheese, egg, and sugar.",
+      "zh": "小型比利时酥皮挞，内馅是凝乳奶酪、鸡蛋和糖。",
+      "nl": "Kleine Belgische bladerdeegtaart met mattenkaas, ei en suiker."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is flaky outside with a soft slightly grainy dairy filling, less creamy than custard pie.",
+      "zh": "外层酥，内馅柔软略带凝乳颗粒感，比卡仕达塔更朴素。",
+      "nl": "Bladerig buiten met zachte licht korrelige zuivelvulling, minder romig dan custardtaart."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Belgian pastry strongly associated with Geraardsbergen and regional bakeries.",
+        "zh": "和 Geraardsbergen 及地区烘焙传统联系紧密的比利时点心。",
+        "nl": "Een Belgische taart sterk verbonden met Geraardsbergen en regionale bakkers."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "pastry-crust",
+        35,
+        "puff pastry"
       ],
       [
-        "sugar",
-        20,
-        "sweetness"
+        "curd-cheese",
+        35,
+        "filling"
       ],
       [
         "egg",
         15,
-        "structure"
+        "set"
       ],
       [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
+        "sugar",
         10,
-        "richness"
+        "sweetness"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "curd-cheese",
+      "pastry-crust",
+      "vanilla"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "mild",
+      "dairy-rich"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "flaky pastry",
+      "soft curd filling",
+      "lightly grainy center"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "regional-dish"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you want a regional pastry; choose rijsttaart if you prefer smoother custard.",
+      "zh": "想尝地区点心时适合；更喜欢顺滑布丁馅可选 rijsttaart。",
+      "nl": "Goed voor regionale patisserie; kies rijsttaart als je gladdere custard wilt."
     },
+    "confidenceTag": "audited-belgian-batch-009",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {

@@ -2359,13 +2359,6 @@ export const expandedDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "Frieten",
-    "dishId": "belgian-fries",
-    "language": "local",
-    "matchType": "local-name",
-    "confidence": 0.98
-  },
-  {
     "alias": "belgische frieten",
     "dishId": "belgian-fries",
     "language": "nl",

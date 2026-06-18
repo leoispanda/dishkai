@@ -1,0 +1,92 @@
+[
+  {
+    "dishId": "waterkerssoep",
+    "metadataCode": "107041",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a347bc764948191952ed21b25b6548f.png",
+    "copyPath": "data/internal/audit/rebuild-batches/belgian-batch-009-image-sources/107041-waterkerssoep.png"
+  },
+  {
+    "dishId": "mattentaart",
+    "metadataCode": "107047",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a347b8e17e08191adcb1da53fa28fe7.png",
+    "copyPath": "data/internal/audit/rebuild-batches/belgian-batch-009-image-sources/107047-mattentaart.png"
+  },
+  {
+    "dishId": "konijn-met-pruimen",
+    "metadataCode": "107045",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a347af27464819193722a6b91fb612c.png",
+    "copyPath": "data/internal/audit/rebuild-batches/belgian-batch-009-image-sources/107045-konijn-met-pruimen.png"
+  },
+  {
+    "dishId": "asperges-op-vlaamse-wijze",
+    "metadataCode": "107042",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a347aa95f6c81918a56de485a11f331.png",
+    "copyPath": "data/internal/audit/rebuild-batches/belgian-batch-009-image-sources/107042-asperges-op-vlaamse-wijze.png"
+  },
+  {
+    "dishId": "flamiche",
+    "metadataCode": "107032",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a347a827a848191a7aaa6d6862de081.png",
+    "copyPath": "data/internal/audit/rebuild-batches/belgian-batch-009-image-sources/107032-flamiche.png"
+  },
+  {
+    "dishId": "salade-liegeoise",
+    "metadataCode": "107031",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a347a360610819182cf7f0f9b4f45d1.png",
+    "copyPath": "data/internal/audit/rebuild-batches/belgian-batch-009-image-sources/107031-salade-liegeoise.png"
+  },
+  {
+    "dishId": "rijsttaart",
+    "metadataCode": "107027",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a3479f3c20c81919229ad3626f77744.png",
+    "copyPath": "data/internal/audit/rebuild-batches/belgian-batch-009-image-sources/107027-rijsttaart.png"
+  },
+  {
+    "dishId": "crepe-mikado",
+    "metadataCode": "107026",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a3479ae081081919e73a35cb50069a4.png",
+    "copyPath": "data/internal/audit/rebuild-batches/belgian-batch-009-image-sources/107026-crepe-mikado.png"
+  },
+  {
+    "dishId": "boulets-sauce-tomate",
+    "metadataCode": "107025",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a34797154d481918c2dd37a772721b9.png",
+    "copyPath": "data/internal/audit/rebuild-batches/belgian-batch-009-image-sources/107025-boulets-sauce-tomate.png"
+  },
+  {
+    "dishId": "jambon-dardenne",
+    "metadataCode": "107024",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a3479424d6c8191bcc2ad203a470fa0.png",
+    "copyPath": "data/internal/audit/rebuild-batches/belgian-batch-009-image-sources/107024-jambon-dardenne.png"
+  },
+  {
+    "dishId": "bloedworst",
+    "metadataCode": "107023",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a3478ff2900819192b688d6bf6e2705.png",
+    "copyPath": "data/internal/audit/rebuild-batches/belgian-batch-009-image-sources/107023-bloedworst.png"
+  },
+  {
+    "dishId": "solettes-meuniere",
+    "metadataCode": "107021",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a3478c034d48191abfab651de815006.png",
+    "copyPath": "data/internal/audit/rebuild-batches/belgian-batch-009-image-sources/107021-solettes-meuniere.png"
+  },
+  {
+    "dishId": "mitraillette",
+    "metadataCode": "107018",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a347882d9448191a1486067a5c4ccd7.png",
+    "copyPath": "data/internal/audit/rebuild-batches/belgian-batch-009-image-sources/107018-mitraillette.png"
+  },
+  {
+    "dishId": "lapin-a-la-gueuze",
+    "metadataCode": "107013",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a34784081588191a3cbe7283fc57927.png",
+    "copyPath": "data/internal/audit/rebuild-batches/belgian-batch-009-image-sources/107013-lapin-a-la-gueuze.png"
+  },
+  {
+    "dishId": "shrimp-croquettes",
+    "metadataCode": "107007",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a34780634ec8191b6dd25fa00766b6b.png",
+    "copyPath": "data/internal/audit/rebuild-batches/belgian-batch-009-image-sources/107007-shrimp-croquettes.png"
+  }
+]
