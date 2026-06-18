@@ -1,0 +1,90 @@
+[
+  {
+    "dishId": "moules-marinieres",
+    "metadataCode": "103023",
+    "cuisineId": "french",
+    "name": "Moules Marinières",
+    "imagePath": "/assets/dishes/main/103023-moules-marinieres.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted-replacement",
+    "notes": "New generated replacement image passed contact-sheet review; metadata rebuilt from generated template."
+  },
+  {
+    "dishId": "blanquette-de-veau",
+    "metadataCode": "103024",
+    "cuisineId": "french",
+    "name": "Blanquette de Veau",
+    "imagePath": "/assets/dishes/main/103024-blanquette-de-veau.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted-replacement",
+    "notes": "New generated replacement image passed contact-sheet review; metadata rebuilt from generated template."
+  },
+  {
+    "dishId": "gratin-dauphinois",
+    "metadataCode": "103025",
+    "cuisineId": "french",
+    "name": "Gratin Dauphinois",
+    "imagePath": "/assets/dishes/main/103025-gratin-dauphinois.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted-replacement",
+    "notes": "New generated replacement image passed contact-sheet review; metadata rebuilt from generated template."
+  },
+  {
+    "dishId": "tartiflette",
+    "metadataCode": "103026",
+    "cuisineId": "french",
+    "name": "Tartiflette",
+    "imagePath": "/assets/dishes/main/103026-tartiflette.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted-replacement",
+    "notes": "New generated replacement image passed contact-sheet review; metadata rebuilt from generated template."
+  },
+  {
+    "dishId": "foie-gras",
+    "metadataCode": "103027",
+    "cuisineId": "french",
+    "name": "Foie Gras",
+    "imagePath": "/assets/dishes/main/103027-foie-gras.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted-replacement",
+    "notes": "New generated replacement image passed contact-sheet review; metadata rebuilt from generated template."
+  },
+  {
+    "dishId": "madeleines",
+    "metadataCode": "103028",
+    "cuisineId": "french",
+    "name": "Madeleines",
+    "imagePath": "/assets/dishes/main/103028-madeleines.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted-replacement",
+    "notes": "New generated replacement image passed contact-sheet review; metadata rebuilt from generated template."
+  },
+  {
+    "dishId": "profiteroles",
+    "metadataCode": "103029",
+    "cuisineId": "french",
+    "name": "Profiteroles",
+    "imagePath": "/assets/dishes/main/103029-profiteroles.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted-replacement",
+    "notes": "New generated replacement image passed contact-sheet review; metadata rebuilt from generated template."
+  },
+  {
+    "dishId": "paris-brest",
+    "metadataCode": "103030",
+    "cuisineId": "french",
+    "name": "Paris-Brest",
+    "imagePath": "/assets/dishes/main/103030-paris-brest.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted-replacement",
+    "notes": "New generated replacement image passed contact-sheet review; metadata rebuilt from generated template."
+  }
+]

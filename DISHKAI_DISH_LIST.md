@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 120
-- Total aliases: 488
+- Total verified dishes: 128
+- Total aliases: 505
 - Total cuisines: 10
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -33,7 +33,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 6. 102018 - `tosti` - Tosti / 荷式烤火腿奶酪三明治 / tosti
 7. 102020 - `broodje-gezond` - Broodje Gezond / 荷式健康三明治 / broodje gezond
 
-## French (french) - 22
+## French (french) - 30
 
 1. 103001 - `boeuf-bourguignon` - Boeuf Bourguignon / 勃艮第红酒炖牛肉 / Boeuf bourguignon
 2. 103002 - `coq-au-vin` - Coq au Vin / 红酒炖鸡 / Coq au vin
@@ -57,6 +57,14 @@ Generated from data/internal/index.js after the verified database quarantine aud
 20. 103015 - `sole-meuniere` - Sole Meunière / 黄油煎鳎鱼 / Sole meunière
 21. 103016 - `tarte-tatin` - Tarte Tatin / 反烤苹果塔 / Tarte tatin
 22. 103017 - `crepes` - Crêpes / 法式薄饼 / Crêpes
+23. 103023 - `moules-marinieres` - Moules Marinières / 白酒青口贝 / Moules marinières
+24. 103024 - `blanquette-de-veau` - Blanquette de Veau / 法式奶油小牛肉炖菜 / Blanquette de veau
+25. 103025 - `gratin-dauphinois` - Gratin Dauphinois / 法式奶油焗土豆 / Gratin dauphinois
+26. 103026 - `tartiflette` - Tartiflette / 法式奶酪培根焗土豆 / Tartiflette
+27. 103027 - `foie-gras` - Foie Gras / 鹅肝酱 / Foie gras
+28. 103028 - `madeleines` - Madeleines / 玛德琳小蛋糕 / Madeleines
+29. 103029 - `profiteroles` - Profiteroles / 泡芙冰淇淋巧克力酱 / Profiteroles
+30. 103030 - `paris-brest` - Paris-Brest / 巴黎布雷斯特泡芙 / Paris-Brest
 
 ## German (german) - 5
 

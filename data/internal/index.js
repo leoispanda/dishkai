@@ -70,6 +70,14 @@ const auditedGeneratedDishIds = new Set([
   "sole-meuniere",
   "tarte-tatin",
   "crepes",
+  "moules-marinieres",
+  "blanquette-de-veau",
+  "gratin-dauphinois",
+  "tartiflette",
+  "foie-gras",
+  "madeleines",
+  "profiteroles",
+  "paris-brest",
 ]);
 
 export {
