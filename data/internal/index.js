@@ -55,6 +55,9 @@ const auditedGeneratedDishIds = new Set([
   "saltimbocca",
   "cannoli",
   "gelato",
+  "prosciutto-e-melone",
+  "vitello-tonnato",
+  "affogato",
 ]);
 
 export {

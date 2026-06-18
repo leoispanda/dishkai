@@ -1,0 +1,35 @@
+[
+  {
+    "dishId": "prosciutto-e-melone",
+    "metadataCode": "101028",
+    "cuisineId": "italian",
+    "name": "Prosciutto e Melone",
+    "imagePath": "/assets/dishes/main/101028-prosciutto-e-melone.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted-replacement",
+    "notes": "New generated image clearly shows prosciutto with melon and exact code 101028; metadata rebuilt from template source."
+  },
+  {
+    "dishId": "vitello-tonnato",
+    "metadataCode": "101029",
+    "cuisineId": "italian",
+    "name": "Vitello Tonnato",
+    "imagePath": "/assets/dishes/main/101029-vitello-tonnato.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted-replacement",
+    "notes": "New generated image clearly shows sliced veal with tuna-caper sauce and exact code 101029; metadata rebuilt from wrong chicken template."
+  },
+  {
+    "dishId": "affogato",
+    "metadataCode": "101030",
+    "cuisineId": "italian",
+    "name": "Affogato",
+    "imagePath": "/assets/dishes/main/101030-affogato.webp",
+    "metadataConfidence": 0.82,
+    "auditStatus": "keep-verified",
+    "imageStatus": "accepted-replacement",
+    "notes": "New generated image clearly shows espresso over vanilla gelato and exact code 101030; metadata rebuilt from wrong dessert template."
+  }
+]

@@ -1,0 +1,174 @@
+[
+  {
+    "id": "prosciutto-e-melone",
+    "metadataCode": "101028",
+    "cuisineId": "italian",
+    "names": {
+      "en": "Prosciutto e Melone",
+      "zh": "火腿蜜瓜",
+      "nl": "Prosciutto met meloen",
+      "local": "Prosciutto e melone"
+    },
+    "category": "starter",
+    "cookingMethods": ["assembled"],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "raw-assembled",
+    "shortDescription": {
+      "en": "A simple Italian starter of salty prosciutto crudo with sweet melon, usually served cool and uncooked.",
+      "zh": "意式冷前菜，用咸香的风干火腿搭配清甜蜜瓜，通常不加热上桌。",
+      "nl": "Een eenvoudig Italiaans voorgerecht van zoute prosciutto crudo met zoete meloen, meestal koel en rauw samengesteld."
+    },
+    "cookingProfile": {
+      "en": "Served cool as folded cured ham with juicy melon, so the appeal is sweet-salty contrast rather than richness.",
+      "zh": "冷食上桌，火腿薄片配多汁蜜瓜，重点是甜咸对比，不是浓厚酱汁。",
+      "nl": "Koel geserveerd als gevouwen ham met sappige meloen; het draait om zoet-zout contrast."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": ["classic-dish", "first-timer-friendly"],
+      "description": {
+        "en": "A classic Italian antipasto useful for recognizing a light sweet-salty starter.",
+        "zh": "经典意式前菜，适合识别清爽甜咸型冷盘。",
+        "nl": "Een klassieke Italiaanse antipasto voor het herkennen van een licht zoet-zout voorgerecht."
+      }
+    },
+    "composition": [
+      ["prosciutto", 45, "cured-ham"],
+      ["melon", 45, "fruit"],
+      ["olive-oil", 5, "finish"],
+      ["basil", 5, "fresh-garnish", "seasoning"]
+    ],
+    "distinctiveFlavorSources": ["prosciutto", "melon", "olive-oil"],
+    "basicTaste": ["salty", "sweet", "fresh", "savory"],
+    "textureProfile": ["silky cured ham", "juicy melon", "cool starter"],
+    "riskFlags": ["contains-pork"],
+    "dietaryFlags": [],
+    "goodForTags": ["classic-dish", "first-timer-friendly", "lighter-choice"],
+    "avoidIfTags": ["no-pork", "wants-hot-food", "wants-filling-main"],
+    "orderVerdict": {
+      "en": "Choose it for a light sweet-salty starter; skip if you avoid pork or want a hot, filling dish.",
+      "zh": "想要清爽甜咸前菜时很合适；不吃猪肉或想要热的饱腹主菜时不推荐。",
+      "nl": "Kies dit voor een licht zoet-zout voorgerecht; vermijd bij geen varken of als je warm en vullend wilt eten."
+    },
+    "confidenceTag": "audited-italian-batch-004",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "low"
+  },
+  {
+    "id": "vitello-tonnato",
+    "metadataCode": "101029",
+    "cuisineId": "italian",
+    "names": {
+      "en": "Vitello Tonnato",
+      "zh": "金枪鱼酱小牛肉",
+      "nl": "Vitello tonnato",
+      "local": "Vitello tonnato"
+    },
+    "category": "starter",
+    "cookingMethods": ["simmered", "chilled", "assembled"],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Cold sliced veal served with a creamy tuna-caper sauce, usually as an Italian antipasto or light meat course.",
+      "zh": "冷切小牛肉配金枪鱼酸豆奶油感酱汁，常作为意式前菜或较轻的肉类菜。",
+      "nl": "Koude plakjes kalfsvlees met romige tonijn-kappertjessaus, vaak als antipasto of lichte vleesgang."
+    },
+    "cookingProfile": {
+      "en": "The meat is cooked then served cool, with the sauce giving most of the richness and briny flavor.",
+      "zh": "小牛肉熟制后冷食，浓郁感和海味咸鲜主要来自金枪鱼酸豆酱。",
+      "nl": "Het vlees is gegaard en koel geserveerd; de saus geeft de meeste rijkdom en zilte smaak."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": ["classic-dish", "regional-dish"],
+      "description": {
+        "en": "A Piedmontese-style Italian classic where veal plus tuna sauce is the defining ordering cue.",
+        "zh": "皮埃蒙特风格意式经典，识别关键是小牛肉配金枪鱼酱。",
+        "nl": "Een klassieker in Piemontese stijl waarbij kalfsvlees met tonijnsaus het herkenningspunt is."
+      }
+    },
+    "composition": [
+      ["veal-cutlet", 55, "sliced-meat"],
+      ["tuna-sauce", 30, "sauce"],
+      ["capers", 5, "briny-garnish"],
+      ["lemon", 5, "fresh-finish"],
+      ["olive-oil", 5, "finish"]
+    ],
+    "distinctiveFlavorSources": ["tuna-sauce", "capers", "lemon"],
+    "basicTaste": ["savory", "briny", "creamy", "mild"],
+    "textureProfile": ["cool thin veal", "creamy sauce", "briny caper pop"],
+    "riskFlags": ["contains-fish", "contains-egg"],
+    "dietaryFlags": [],
+    "goodForTags": ["classic-dish", "regional-dish", "lighter-choice"],
+    "avoidIfTags": ["fish-allergy", "egg-allergy", "wants-hot-food", "no-meat"],
+    "orderVerdict": {
+      "en": "Good if you like cold sliced meat and creamy seafood-leaning sauce; avoid if fish sauce on meat sounds unpleasant.",
+      "zh": "适合喜欢冷切肉和带海味的奶油感酱汁的人；若不能接受肉配鱼味酱，不建议点。",
+      "nl": "Goed als je koude vleesplakjes met romige, zeeachtige saus lekker vindt; vermijd als visachtige saus op vlees niet aanspreekt."
+    },
+    "confidenceTag": "audited-italian-batch-004",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "affogato",
+    "metadataCode": "101030",
+    "cuisineId": "italian",
+    "names": {
+      "en": "Affogato",
+      "zh": "意式冰淇淋咖啡",
+      "nl": "Affogato",
+      "local": "Affogato"
+    },
+    "category": "dessert",
+    "cookingMethods": ["assembled"],
+    "servingTemperature": "hot-and-cold",
+    "shortDescription": {
+      "en": "A scoop of vanilla gelato or ice cream served with hot espresso poured over it.",
+      "zh": "香草意式冰淇淋或冰淇淋球上淋热浓缩咖啡的意式甜点。",
+      "nl": "Een bol vanillegelato of ijs waar hete espresso overheen wordt gegoten."
+    },
+    "cookingProfile": {
+      "en": "Served immediately as a hot-cold dessert, with bitter espresso melting into sweet creamy gelato.",
+      "zh": "现点后立刻上桌，热咖啡融入冰冷奶香，形成苦甜和冷热对比。",
+      "nl": "Direct geserveerd als warm-koud dessert, waarbij bittere espresso in zoete romige gelato smelt."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": ["classic-dish", "first-timer-friendly"],
+      "description": {
+        "en": "A concise Italian dessert-coffee classic for diners who want something smaller than cake.",
+        "zh": "简洁的意式咖啡甜点，适合想要比蛋糕更轻巧的收尾。",
+        "nl": "Een compacte Italiaanse koffie-dessertklassieker voor wie iets kleiner dan taart wil."
+      }
+    },
+    "composition": [
+      ["vanilla-gelato", 65, "cold-base"],
+      ["coffee", 30, "hot-espresso"],
+      ["cocoa", 5, "finish", "seasoning"]
+    ],
+    "distinctiveFlavorSources": ["coffee", "vanilla-gelato"],
+    "basicTaste": ["sweet", "creamy", "bitter", "coffee"],
+    "textureProfile": ["cold smooth gelato", "hot espresso", "melting edges"],
+    "riskFlags": ["contains-dairy", "contains-egg"],
+    "dietaryFlags": ["vegetarian"],
+    "goodForTags": ["classic-dish", "dessert", "first-timer-friendly"],
+    "avoidIfTags": ["dairy-free", "egg-allergy", "caffeine-sensitive"],
+    "orderVerdict": {
+      "en": "A safe small dessert if you like coffee bitterness with ice cream; avoid late at night if caffeine matters.",
+      "zh": "喜欢咖啡苦味配冰淇淋时很稳妥；如果在意咖啡因，晚上不一定适合。",
+      "nl": "Een veilige kleine dessertkeuze als je koffiebitters met ijs lekker vindt; let op cafeïne laat op de avond."
+    },
+    "confidenceTag": "audited-italian-batch-004",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "low"
+  }
+]

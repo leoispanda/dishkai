@@ -1,0 +1,29 @@
+[
+  {
+    "dishId": "prosciutto-e-melone",
+    "metadataCode": "101028",
+    "cuisineId": "italian",
+    "name": "Prosciutto e Melone",
+    "imagePath": "/assets/dishes/main/101028-prosciutto-e-melone.webp",
+    "thumbPath": "/assets/dishes/thumb/101028-prosciutto-e-melone.webp",
+    "metadataConfidence": 0.74
+  },
+  {
+    "dishId": "vitello-tonnato",
+    "metadataCode": "101029",
+    "cuisineId": "italian",
+    "name": "Vitello Tonnato",
+    "imagePath": "/assets/dishes/main/101029-vitello-tonnato.webp",
+    "thumbPath": "/assets/dishes/thumb/101029-vitello-tonnato.webp",
+    "metadataConfidence": 0.74
+  },
+  {
+    "dishId": "affogato",
+    "metadataCode": "101030",
+    "cuisineId": "italian",
+    "name": "Affogato",
+    "imagePath": "/assets/dishes/main/101030-affogato.webp",
+    "thumbPath": "/assets/dishes/thumb/101030-affogato.webp",
+    "metadataConfidence": 0.74
+  }
+]

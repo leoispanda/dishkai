@@ -9,102 +9,100 @@ const globalDepthDishConfigs = [
       "en": "Prosciutto e Melone",
       "zh": "火腿蜜瓜",
       "nl": "Prosciutto met meloen",
-      "local": "prosciutto e melone"
+      "local": "Prosciutto e melone"
     },
     "category": "starter",
     "cookingMethods": [
       "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "raw-assembled",
     "shortDescription": {
-      "en": "Prosciutto e Melone is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "火腿蜜瓜是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Prosciutto met meloen is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A simple Italian starter of salty prosciutto crudo with sweet melon, usually served cool and uncooked.",
+      "zh": "意式冷前菜，用咸香的风干火腿搭配清甜蜜瓜，通常不加热上桌。",
+      "nl": "Een eenvoudig Italiaans voorgerecht van zoute prosciutto crudo met zoete meloen, meestal koel en rauw samengesteld."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small bites，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small bites; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served cool as folded cured ham with juicy melon, so the appeal is sweet-salty contrast rather than richness.",
+      "zh": "冷食上桌，火腿薄片配多汁蜜瓜，重点是甜咸对比，不是浓厚酱汁。",
+      "nl": "Koel geserveerd als gevouwen ham met sappige meloen; het draait om zoet-zout contrast."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Italian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将意大利菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Italiaans menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic Italian antipasto useful for recognizing a light sweet-salty starter.",
+        "zh": "经典意式前菜，适合识别清爽甜咸型冷盘。",
+        "nl": "Een klassieke Italiaanse antipasto voor het herkennen van een licht zoet-zout voorgerecht."
       }
     },
     "composition": [
       [
-        "ham",
-        40,
-        "main"
+        "prosciutto",
+        45,
+        "cured-ham"
       ],
       [
-        "mixed-vegetables",
-        25,
-        "body"
-      ],
-      [
-        "potato",
-        15,
-        "richness"
+        "melon",
+        45,
+        "fruit"
       ],
       [
         "olive-oil",
-        10,
-        "finish",
-        "seasoning"
+        5,
+        "finish"
       ],
       [
-        "sea-salt",
+        "basil",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
+        "fresh-garnish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "ham",
-      "olive-oil",
-      "herbs"
+      "prosciutto",
+      "melon",
+      "olive-oil"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "salty",
+      "sweet",
+      "fresh",
+      "savory"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "silky cured ham",
+      "juicy melon",
+      "cool starter"
     ],
     "riskFlags": [
       "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "classic-dish",
+      "first-timer-friendly",
+      "lighter-choice"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "no-pork",
+      "wants-hot-food",
+      "wants-filling-main"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check pork if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a light sweet-salty starter; skip if you avoid pork or want a hot, filling dish.",
+      "zh": "想要清爽甜咸前菜时很合适；不吃猪肉或想要热的饱腹主菜时不推荐。",
+      "nl": "Kies dit voor een licht zoet-zout voorgerecht; vermijd bij geen varken of als je warm en vullend wilt eten."
     },
+    "confidenceTag": "audited-italian-batch-004",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "low"
   },
   {
     "id": "vitello-tonnato",
@@ -114,97 +112,106 @@ const globalDepthDishConfigs = [
       "en": "Vitello Tonnato",
       "zh": "金枪鱼酱小牛肉",
       "nl": "Vitello tonnato",
-      "local": "vitello tonnato"
+      "local": "Vitello tonnato"
     },
-    "category": "meat",
+    "category": "starter",
     "cookingMethods": [
-      "braised"
+      "simmered",
+      "chilled",
+      "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Vitello Tonnato is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "金枪鱼酱小牛肉是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Vitello tonnato is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Cold sliced veal served with a creamy tuna-caper sauce, usually as an Italian antipasto or light meat course.",
+      "zh": "冷切小牛肉配金枪鱼酸豆奶油感酱汁，常作为意式前菜或较轻的肉类菜。",
+      "nl": "Koude plakjes kalfsvlees met romige tonijn-kappertjessaus, vaak als antipasto of lichte vleesgang."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The meat is cooked then served cool, with the sauce giving most of the richness and briny flavor.",
+      "zh": "小牛肉熟制后冷食，浓郁感和海味咸鲜主要来自金枪鱼酸豆酱。",
+      "nl": "Het vlees is gegaard en koel geserveerd; de saus geeft de meeste rijkdom en zilte smaak."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency Italian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将意大利菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Italiaans menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Piedmontese-style Italian classic where veal plus tuna sauce is the defining ordering cue.",
+        "zh": "皮埃蒙特风格意式经典，识别关键是小牛肉配金枪鱼酱。",
+        "nl": "Een klassieker in Piemontese stijl waarbij kalfsvlees met tonijnsaus het herkenningspunt is."
       }
     },
     "composition": [
       [
-        "chicken",
-        60,
-        "main"
+        "veal-cutlet",
+        55,
+        "sliced-meat"
       ],
       [
-        "potato",
-        15,
-        "side"
+        "tuna-sauce",
+        30,
+        "sauce"
       ],
       [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "tomato-sauce",
+        "capers",
         5,
-        "sauce",
-        "seasoning"
+        "briny-garnish"
       ],
       [
-        "black-pepper",
+        "lemon",
         5,
-        "seasoning",
-        "seasoning"
+        "fresh-finish"
       ],
       [
-        "parsley",
+        "olive-oil",
         5,
-        "finish",
-        "seasoning"
+        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "sauce",
-      "herbs"
+      "tuna-sauce",
+      "capers",
+      "lemon"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "briny",
+      "creamy",
+      "mild"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "cool thin veal",
+      "creamy sauce",
+      "briny caper pop"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-fish",
+      "contains-egg"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "classic-dish",
+      "regional-dish",
+      "lighter-choice"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "fish-allergy",
+      "egg-allergy",
+      "wants-hot-food",
+      "no-meat"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you like cold sliced meat and creamy seafood-leaning sauce; avoid if fish sauce on meat sounds unpleasant.",
+      "zh": "适合喜欢冷切肉和带海味的奶油感酱汁的人；若不能接受肉配鱼味酱，不建议点。",
+      "nl": "Goed als je koude vleesplakjes met romige, zeeachtige saus lekker vindt; vermijd als visachtige saus op vlees niet aanspreekt."
     },
+    "confidenceTag": "audited-italian-batch-004",
     "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -215,103 +222,96 @@ const globalDepthDishConfigs = [
       "en": "Affogato",
       "zh": "意式冰淇淋咖啡",
       "nl": "Affogato",
-      "local": "affogato"
+      "local": "Affogato"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "assembled"
     ],
+    "servingTemperature": "hot-and-cold",
     "shortDescription": {
-      "en": "Affogato is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "意式冰淇淋咖啡是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Affogato is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A scoop of vanilla gelato or ice cream served with hot espresso poured over it.",
+      "zh": "香草意式冰淇淋或冰淇淋球上淋热浓缩咖啡的意式甜点。",
+      "nl": "Een bol vanillegelato of ijs waar hete espresso overheen wordt gegoten."
     },
     "cookingProfile": {
-      "en": "Usually served with soft dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served immediately as a hot-cold dessert, with bitter espresso melting into sweet creamy gelato.",
+      "zh": "现点后立刻上桌，热咖啡融入冰冷奶香，形成苦甜和冷热对比。",
+      "nl": "Direct geserveerd als warm-koud dessert, waarbij bittere espresso in zoete romige gelato smelt."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Italian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将意大利菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Italiaans menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A concise Italian dessert-coffee classic for diners who want something smaller than cake.",
+        "zh": "简洁的意式咖啡甜点，适合想要比蛋糕更轻巧的收尾。",
+        "nl": "Een compacte Italiaanse koffie-dessertklassieker voor wie iets kleiner dan taart wil."
       }
     },
     "composition": [
       [
-        "sugar",
+        "vanilla-gelato",
+        65,
+        "cold-base"
+      ],
+      [
+        "coffee",
         30,
-        "sweetness"
+        "hot-espresso"
       ],
       [
-        "cream",
-        25,
-        "base"
-      ],
-      [
-        "egg",
-        15,
-        "richness"
-      ],
-      [
-        "wheat-flour",
-        15,
-        "structure"
-      ],
-      [
-        "vanilla",
-        10,
-        "aroma",
-        "seasoning"
-      ],
-      [
-        "fruit-sauce-or-caramel",
+        "cocoa",
         5,
-        "finish"
+        "finish",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "vanilla",
-      "cream",
-      "sweet finish"
+      "coffee",
+      "vanilla-gelato"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "bitter",
+      "coffee"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "cold smooth gelato",
+      "hot espresso",
+      "melting edges"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
-      "dessert"
+      "classic-dish",
+      "dessert",
+      "first-timer-friendly"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "dairy-free",
+      "egg-allergy",
+      "caffeine-sensitive"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A safe small dessert if you like coffee bitterness with ice cream; avoid late at night if caffeine matters.",
+      "zh": "喜欢咖啡苦味配冰淇淋时很稳妥；如果在意咖啡因，晚上不一定适合。",
+      "nl": "Een veilige kleine dessertkeuze als je koffiebitters met ijs lekker vindt; let op cafeïne laat op de avond."
     },
+    "confidenceTag": "audited-italian-batch-004",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "low"
   },
   {
     "id": "moules-marinieres",

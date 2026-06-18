@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 105
-- Total aliases: 443
+- Total verified dishes: 108
+- Total aliases: 450
 - Total cuisines: 10
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -88,7 +88,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 30. 104042 - `portokalopita` - Portokalopita / 希腊橙香糖浆蛋糕 / πορτοκαλόπιτα
 31. 104046 - `lavraki` - Lavraki / 希腊烤海鲈鱼 / λαβράκι
 
-## Italian (italian) - 27
+## Italian (italian) - 30
 
 1. 101001 - `carbonara` - Carbonara / 卡邦尼意面
 2. 101002 - `margherita-pizza` - Margherita Pizza / 玛格丽特披萨
@@ -117,6 +117,9 @@ Generated from data/internal/index.js after the verified database quarantine aud
 25. 101025 - `saltimbocca` - Saltimbocca / 鼠尾草火腿小牛肉 / Saltimbocca
 26. 101026 - `cannoli` - Cannoli / 西西里奶油卷 / Cannoli
 27. 101027 - `gelato` - Gelato / 意式冰淇淋 / Gelato
+28. 101028 - `prosciutto-e-melone` - Prosciutto e Melone / 火腿蜜瓜 / Prosciutto e melone
+29. 101029 - `vitello-tonnato` - Vitello Tonnato / 金枪鱼酱小牛肉 / Vitello tonnato
+30. 101030 - `affogato` - Affogato / 意式冰淇淋咖啡 / Affogato
 
 ## Japanese (japanese) - 5
 
