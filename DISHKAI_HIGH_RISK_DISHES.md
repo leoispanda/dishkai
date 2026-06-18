@@ -2,59 +2,23 @@
 
 This list contains dishes that should not be treated as trusted verified metadata until their listed action is complete.
 
-- Total high-risk or non-keep rows: 1063
+- Total high-risk or non-keep rows: 1033
 
 ## By source
 
 - data/internal/dishes/belgian.js: 5
 - data/internal/dishes/cafe-brunch-depth-dishes.js: 18
-- data/internal/dishes/chinese.js: 5
-- data/internal/dishes/dutch.js: 5
+- data/internal/dishes/dutch.js: 4
 - data/internal/dishes/europe-depth-dishes.js: 272
 - data/internal/dishes/expanded-dishes.js: 108
-- data/internal/dishes/french.js: 5
-- data/internal/dishes/german.js: 5
 - data/internal/dishes/global-depth-dishes.js: 377
 - data/internal/dishes/greek-depth-dishes.js: 15
-- data/internal/dishes/japanese.js: 5
-- data/internal/dishes/korean.js: 5
-- data/internal/dishes/thai.js: 4
 - data/internal/dishes/world-dishes.js: 234
 
 ## Rows
 
 | dishId | metadataCode | cuisineId | sourceFile | riskLevel | auditStatus | notes | recommendedAction |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| tom-yum-goong | 108002 | thai | data/internal/dishes/thai.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| green-curry | 108003 | thai | data/internal/dishes/thai.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| som-tam | 108004 | thai | data/internal/dishes/thai.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| massaman-curry | 108005 | thai | data/internal/dishes/thai.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| sushi | 109001 | japanese | data/internal/dishes/japanese.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| ramen | 109002 | japanese | data/internal/dishes/japanese.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| tempura | 109003 | japanese | data/internal/dishes/japanese.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| katsu-curry | 109004 | japanese | data/internal/dishes/japanese.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| miso-soup | 109005 | japanese | data/internal/dishes/japanese.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| bibimbap | 110001 | korean | data/internal/dishes/korean.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| kimchi-jjigae | 110002 | korean | data/internal/dishes/korean.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| bulgogi | 110003 | korean | data/internal/dishes/korean.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| tteokbokki | 110004 | korean | data/internal/dishes/korean.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| korean-fried-chicken | 110005 | korean | data/internal/dishes/korean.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| mapo-tofu | 111001 | chinese | data/internal/dishes/chinese.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| peking-duck | 111002 | chinese | data/internal/dishes/chinese.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| xiao-long-bao | 111003 | chinese | data/internal/dishes/chinese.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| chow-mein | 111004 | chinese | data/internal/dishes/chinese.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| hot-pot | 111005 | chinese | data/internal/dishes/chinese.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| boeuf-bourguignon | 103001 | french | data/internal/dishes/french.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| coq-au-vin | 103002 | french | data/internal/dishes/french.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| ratatouille | 103003 | french | data/internal/dishes/french.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| quiche-lorraine | 103004 | french | data/internal/dishes/french.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| creme-brulee | 103005 | french | data/internal/dishes/french.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| schnitzel | 106001 | german | data/internal/dishes/german.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| bratwurst | 106002 | german | data/internal/dishes/german.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| sauerbraten | 106003 | german | data/internal/dishes/german.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| spaetzle | 106004 | german | data/internal/dishes/german.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| pretzel | 106005 | german | data/internal/dishes/german.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| bitterballen | 102001 | dutch | data/internal/dishes/dutch.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
 | stamppot | 102002 | dutch | data/internal/dishes/dutch.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
 | poffertjes | 102003 | dutch | data/internal/dishes/dutch.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
 | haring | 102004 | dutch | data/internal/dishes/dutch.js | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |

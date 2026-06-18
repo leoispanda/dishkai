@@ -87,7 +87,9 @@ export const frenchDishes = [
       "zh": "想吃软烂牛肉和红酒酱汁时很适合，整体偏厚重。",
       "nl": "Een rijke langzaam gegaarde keuze als je mals rund en wijnsaus wilt."
     },
-    "weightLevel": 4
+    "weightLevel": 4,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "coq-au-vin",
@@ -173,7 +175,9 @@ export const frenchDishes = [
       "zh": "想吃带红酒深度的酱汁鸡肉很适合，不是清淡烤鸡。",
       "nl": "Goed als je kip met saus en wijndiepte wilt, niet een lichte gegrilde schotel."
     },
-    "weightLevel": 3
+    "weightLevel": 3,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "ratatouille",
@@ -261,7 +265,9 @@ export const frenchDishes = [
       "zh": "想吃蔬菜为主、有酱汁但不想吃肉时很合适。",
       "nl": "Een lichtere groentekeuze als je iets sauzigs maar niet vlezig wilt."
     },
-    "weightLevel": 2
+    "weightLevel": 2,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "quiche-lorraine",
@@ -348,7 +354,9 @@ export const frenchDishes = [
       "zh": "奶香咸派，适合午餐或前菜；避开奶蛋的人不适合。",
       "nl": "Een romige hartige taart; goed als lunch of voorgerecht, niet licht bij zuivel of ei vermijden."
     },
-    "weightLevel": 3
+    "weightLevel": 3,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "creme-brulee",
@@ -432,6 +440,8 @@ export const frenchDishes = [
       "zh": "想吃奶香顺滑、上面有脆糖壳的甜点时很稳。",
       "nl": "Een veilige dessertkeuze als je romige vanillecustard met krokant suikerlaagje wilt."
     },
-    "weightLevel": 2
+    "weightLevel": 2,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   })
 ];

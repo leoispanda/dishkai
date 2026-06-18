@@ -84,7 +84,9 @@ export const dutchDishes = [
       "zh": "经典荷兰分享小吃，好吃但里面很烫，也比看起来更厚重。",
       "nl": "Een klassieke Nederlandse deelsnack; lekker maar heet en zwaarder dan hij lijkt."
     },
-    "weightLevel": 3
+    "weightLevel": 3,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "stamppot",

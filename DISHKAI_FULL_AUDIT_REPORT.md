@@ -5,25 +5,25 @@ Generated: 2026-06-18
 ## Executive summary
 
 - Raw dish records reviewed from source files: 1110
-- Current verified export after quarantine: 47 dishes, 233 aliases
+- Current verified export after quarantine: 77 dishes, 341 aliases
 - Generated high-risk dishes quarantined from verified export: 991
-- Verified export rows with automated keep-verified status: 47
+- Verified export rows with automated keep-verified status: 77
 - Verified export rows requiring metadata/image follow-up: 0
 
 The audit found systemic template language, low confidence values, repeated compositions, and placeholder localized text in the generated expansion layers. Those layers are no longer part of `metadata.dishes` or `metadata.dishAliases` and must be rebuilt in review batches of at most 30 dishes before returning to verified status.
 
 ## Status counts
 
-- fix-metadata: 57
-- keep-verified: 47
+- fix-metadata: 27
+- keep-verified: 77
 - rebuild: 991
 - remove: 15
 
 ## Risk counts
 
 - high: 1006
-- low: 47
-- medium: 57
+- low: 77
+- medium: 27
 
 ## Source counts
 
@@ -45,19 +45,19 @@ The audit found systemic template language, low confidence values, repeated comp
 
 ## Image asset check
 
-- quarantinedOrUnreferencedMainAssets: 1063
-- quarantinedOrUnreferencedThumbAssets: 1063
+- quarantinedOrUnreferencedMainAssets: 1033
+- quarantinedOrUnreferencedThumbAssets: 1033
 - totalMainAssets: 1110
 - totalThumbAssets: 1110
-- verifiedMainAssetsReferenced: 47
-- verifiedThumbAssetsReferenced: 47
+- verifiedMainAssetsReferenced: 77
+- verifiedThumbAssetsReferenced: 77
 
 Quarantined/unreferenced assets were intentionally left in place. They are not deleted because they may be reused only after semantic image review and metadata rebuild.
 
 ## Alias audit summary
 
 - Raw aliases reviewed: 3097
-- Aliases in verified export: 233
+- Aliases in verified export: 341
 - Alias rows flagged for review: 2539
 
 | alias | dishId | sourceFile | confidence | status | notes |
@@ -312,25 +312,25 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | pad-thai | 108001 | thai | data/internal/dishes/thai.js | /assets/dishes/main/108001-pad-thai.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-| tom-yum-goong | 108002 | thai | data/internal/dishes/thai.js | /assets/dishes/main/108002-tom-yum-goong.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| green-curry | 108003 | thai | data/internal/dishes/thai.js | /assets/dishes/main/108003-green-curry.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| som-tam | 108004 | thai | data/internal/dishes/thai.js | /assets/dishes/main/108004-som-tam.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| massaman-curry | 108005 | thai | data/internal/dishes/thai.js | /assets/dishes/main/108005-massaman-curry.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| sushi | 109001 | japanese | data/internal/dishes/japanese.js | /assets/dishes/main/109001-sushi.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| ramen | 109002 | japanese | data/internal/dishes/japanese.js | /assets/dishes/main/109002-ramen.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| tempura | 109003 | japanese | data/internal/dishes/japanese.js | /assets/dishes/main/109003-tempura.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| katsu-curry | 109004 | japanese | data/internal/dishes/japanese.js | /assets/dishes/main/109004-katsu-curry.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| miso-soup | 109005 | japanese | data/internal/dishes/japanese.js | /assets/dishes/main/109005-miso-soup.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| bibimbap | 110001 | korean | data/internal/dishes/korean.js | /assets/dishes/main/110001-bibimbap.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| kimchi-jjigae | 110002 | korean | data/internal/dishes/korean.js | /assets/dishes/main/110002-kimchi-jjigae.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| bulgogi | 110003 | korean | data/internal/dishes/korean.js | /assets/dishes/main/110003-bulgogi.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| tteokbokki | 110004 | korean | data/internal/dishes/korean.js | /assets/dishes/main/110004-tteokbokki.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| korean-fried-chicken | 110005 | korean | data/internal/dishes/korean.js | /assets/dishes/main/110005-korean-fried-chicken.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| mapo-tofu | 111001 | chinese | data/internal/dishes/chinese.js | /assets/dishes/main/111001-mapo-tofu.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| peking-duck | 111002 | chinese | data/internal/dishes/chinese.js | /assets/dishes/main/111002-peking-duck.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| xiao-long-bao | 111003 | chinese | data/internal/dishes/chinese.js | /assets/dishes/main/111003-xiao-long-bao.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| chow-mein | 111004 | chinese | data/internal/dishes/chinese.js | /assets/dishes/main/111004-chow-mein.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| hot-pot | 111005 | chinese | data/internal/dishes/chinese.js | /assets/dishes/main/111005-hot-pot.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
+| tom-yum-goong | 108002 | thai | data/internal/dishes/thai.js | /assets/dishes/main/108002-tom-yum-goong.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| green-curry | 108003 | thai | data/internal/dishes/thai.js | /assets/dishes/main/108003-green-curry.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| som-tam | 108004 | thai | data/internal/dishes/thai.js | /assets/dishes/main/108004-som-tam.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| massaman-curry | 108005 | thai | data/internal/dishes/thai.js | /assets/dishes/main/108005-massaman-curry.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| sushi | 109001 | japanese | data/internal/dishes/japanese.js | /assets/dishes/main/109001-sushi.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| ramen | 109002 | japanese | data/internal/dishes/japanese.js | /assets/dishes/main/109002-ramen.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| tempura | 109003 | japanese | data/internal/dishes/japanese.js | /assets/dishes/main/109003-tempura.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| katsu-curry | 109004 | japanese | data/internal/dishes/japanese.js | /assets/dishes/main/109004-katsu-curry.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| miso-soup | 109005 | japanese | data/internal/dishes/japanese.js | /assets/dishes/main/109005-miso-soup.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| bibimbap | 110001 | korean | data/internal/dishes/korean.js | /assets/dishes/main/110001-bibimbap.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| kimchi-jjigae | 110002 | korean | data/internal/dishes/korean.js | /assets/dishes/main/110002-kimchi-jjigae.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| bulgogi | 110003 | korean | data/internal/dishes/korean.js | /assets/dishes/main/110003-bulgogi.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| tteokbokki | 110004 | korean | data/internal/dishes/korean.js | /assets/dishes/main/110004-tteokbokki.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| korean-fried-chicken | 110005 | korean | data/internal/dishes/korean.js | /assets/dishes/main/110005-korean-fried-chicken.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| mapo-tofu | 111001 | chinese | data/internal/dishes/chinese.js | /assets/dishes/main/111001-mapo-tofu.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| peking-duck | 111002 | chinese | data/internal/dishes/chinese.js | /assets/dishes/main/111002-peking-duck.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| xiao-long-bao | 111003 | chinese | data/internal/dishes/chinese.js | /assets/dishes/main/111003-xiao-long-bao.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| chow-mein | 111004 | chinese | data/internal/dishes/chinese.js | /assets/dishes/main/111004-chow-mein.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| hot-pot | 111005 | chinese | data/internal/dishes/chinese.js | /assets/dishes/main/111005-hot-pot.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | carbonara | 101001 | italian | data/internal/dishes/italian.js | /assets/dishes/main/101001-carbonara.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | margherita-pizza | 101002 | italian | data/internal/dishes/italian.js | /assets/dishes/main/101002-margherita-pizza.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | lasagna | 101003 | italian | data/internal/dishes/italian.js | /assets/dishes/main/101003-lasagna.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -351,17 +351,17 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | minestrone | 101013 | italian | data/internal/dishes/italian.js | /assets/dishes/main/101013-minestrone.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | focaccia | 101014 | italian | data/internal/dishes/italian.js | /assets/dishes/main/101014-focaccia.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | panna-cotta | 101015 | italian | data/internal/dishes/italian.js | /assets/dishes/main/101015-panna-cotta.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-| boeuf-bourguignon | 103001 | french | data/internal/dishes/french.js | /assets/dishes/main/103001-boeuf-bourguignon.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| coq-au-vin | 103002 | french | data/internal/dishes/french.js | /assets/dishes/main/103002-coq-au-vin.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| ratatouille | 103003 | french | data/internal/dishes/french.js | /assets/dishes/main/103003-ratatouille.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| quiche-lorraine | 103004 | french | data/internal/dishes/french.js | /assets/dishes/main/103004-quiche-lorraine.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| creme-brulee | 103005 | french | data/internal/dishes/french.js | /assets/dishes/main/103005-creme-brulee.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| schnitzel | 106001 | german | data/internal/dishes/german.js | /assets/dishes/main/106001-schnitzel.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| bratwurst | 106002 | german | data/internal/dishes/german.js | /assets/dishes/main/106002-bratwurst.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| sauerbraten | 106003 | german | data/internal/dishes/german.js | /assets/dishes/main/106003-sauerbraten.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| spaetzle | 106004 | german | data/internal/dishes/german.js | /assets/dishes/main/106004-spaetzle.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| pretzel | 106005 | german | data/internal/dishes/german.js | /assets/dishes/main/106005-pretzel.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
-| bitterballen | 102001 | dutch | data/internal/dishes/dutch.js | /assets/dishes/main/102001-bitterballen.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
+| boeuf-bourguignon | 103001 | french | data/internal/dishes/french.js | /assets/dishes/main/103001-boeuf-bourguignon.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| coq-au-vin | 103002 | french | data/internal/dishes/french.js | /assets/dishes/main/103002-coq-au-vin.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| ratatouille | 103003 | french | data/internal/dishes/french.js | /assets/dishes/main/103003-ratatouille.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| quiche-lorraine | 103004 | french | data/internal/dishes/french.js | /assets/dishes/main/103004-quiche-lorraine.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| creme-brulee | 103005 | french | data/internal/dishes/french.js | /assets/dishes/main/103005-creme-brulee.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| schnitzel | 106001 | german | data/internal/dishes/german.js | /assets/dishes/main/106001-schnitzel.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| bratwurst | 106002 | german | data/internal/dishes/german.js | /assets/dishes/main/106002-bratwurst.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| sauerbraten | 106003 | german | data/internal/dishes/german.js | /assets/dishes/main/106003-sauerbraten.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| spaetzle | 106004 | german | data/internal/dishes/german.js | /assets/dishes/main/106004-spaetzle.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| pretzel | 106005 | german | data/internal/dishes/german.js | /assets/dishes/main/106005-pretzel.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| bitterballen | 102001 | dutch | data/internal/dishes/dutch.js | /assets/dishes/main/102001-bitterballen.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | stamppot | 102002 | dutch | data/internal/dishes/dutch.js | /assets/dishes/main/102002-stamppot.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
 | poffertjes | 102003 | dutch | data/internal/dishes/dutch.js | /assets/dishes/main/102003-poffertjes.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |
 | haring | 102004 | dutch | data/internal/dishes/dutch.js | /assets/dishes/main/102004-haring.webp | medium | fix-metadata | metadataConfidence 0.76 below 0.78 | repair metadata before verified expansion |

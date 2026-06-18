@@ -82,7 +82,9 @@ export const germanDishes = [
       "zh": "想吃酥脆肉排很稳；比烤制或蒸制菜更厚重。",
       "nl": "Een bekende krokante vleeskeuze; zwaarder dan gegrild of gestoomd."
     },
-    "weightLevel": 4
+    "weightLevel": 4,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "bratwurst",
@@ -165,7 +167,9 @@ export const germanDishes = [
       "zh": "想吃香肠时简单直接；想吃饱要注意配菜。",
       "nl": "Een simpele hartige keuze als je worst wilt; vraag naar bijgerechten voor een volledige maaltijd."
     },
-    "weightLevel": 3
+    "weightLevel": 3,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "sauerbraten",
@@ -249,7 +253,9 @@ export const germanDishes = [
       "zh": "想吃软烂牛肉和酸香酱汁时适合，不是酥脆型。",
       "nl": "Goed als je mals rund met zurige saus wilt, niet iets krokants."
     },
-    "weightLevel": 4
+    "weightLevel": 4,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "spaetzle",
@@ -330,7 +336,9 @@ export const germanDishes = [
       "zh": "喜欢柔软主食和酱汁时很舒服，可作配菜或主食。",
       "nl": "Een zacht comfortabel bijgerecht of hoofdgerecht als je milde noedels en saus wilt."
     },
-    "weightLevel": 3
+    "weightLevel": 3,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "pretzel",
@@ -410,6 +418,8 @@ export const germanDishes = [
       "zh": "适合作为小吃或配菜，配啤酒/芥末很常见，单独不算完整正餐。",
       "nl": "Goed als snack of bijgerecht, vooral met bier of mosterd; alleen geen volledige maaltijd."
     },
-    "weightLevel": 2
+    "weightLevel": 2,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   })
 ];

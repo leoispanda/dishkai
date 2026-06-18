@@ -219,7 +219,9 @@ export const thaiDishes = [
     },
     "spiceLevel": 3,
     "weightLevel": 1,
-    "acquiredTasteLevel": 2
+    "acquiredTasteLevel": 2,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "green-curry",
@@ -314,7 +316,9 @@ export const thaiDishes = [
       "nl": "Een rijkere Thaise keuze als je van kokos curry en wat pit houdt."
     },
     "spiceLevel": 3,
-    "weightLevel": 3
+    "weightLevel": 3,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "som-tam",
@@ -417,7 +421,9 @@ export const thaiDishes = [
       "nl": "Goed als je iets fris, zuur en pittig wilt; vermijden bij pinda- of vissausproblemen."
     },
     "spiceLevel": 4,
-    "weightLevel": 1
+    "weightLevel": 1,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "massaman-curry",
@@ -519,6 +525,8 @@ export const thaiDishes = [
       "nl": "Een goede curry als je Thaise smaak wilt met minder scherpe hitte dan groene curry."
     },
     "spiceLevel": 2,
-    "weightLevel": 4
+    "weightLevel": 4,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   })
 ];

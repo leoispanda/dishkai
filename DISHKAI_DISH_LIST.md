@@ -2,10 +2,38 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 47
-- Total aliases: 233
-- Total cuisines: 3
+- Total verified dishes: 77
+- Total aliases: 341
+- Total cuisines: 9
 - Quarantined generated layers are excluded from this verified list until batch rebuild.
+
+## Chinese (chinese) - 5
+
+1. 111001 - `mapo-tofu` - Mapo Tofu / 麻婆豆腐 / 麻婆豆腐
+2. 111002 - `peking-duck` - Peking Duck / 北京烤鸭 / 北京烤鸭
+3. 111003 - `xiao-long-bao` - Xiao Long Bao / 小笼包 / 小笼包
+4. 111004 - `chow-mein` - Chow Mein / 炒面 / 炒面
+5. 111005 - `hot-pot` - Hot Pot / 火锅 / 火锅
+
+## Dutch (dutch) - 1
+
+1. 102001 - `bitterballen` - Bitterballen / 荷兰炸肉丸 / Bitterballen
+
+## French (french) - 5
+
+1. 103001 - `boeuf-bourguignon` - Boeuf Bourguignon / 勃艮第红酒炖牛肉 / Boeuf bourguignon
+2. 103002 - `coq-au-vin` - Coq au Vin / 红酒炖鸡 / Coq au vin
+3. 103003 - `ratatouille` - Ratatouille / 普罗旺斯炖菜 / Ratatouille
+4. 103004 - `quiche-lorraine` - Quiche Lorraine / 洛林咸派 / Quiche Lorraine
+5. 103005 - `creme-brulee` - Creme Brulee / 法式焦糖布丁 / Creme brulee
+
+## German (german) - 5
+
+1. 106001 - `schnitzel` - Schnitzel / 德式炸肉排 / Schnitzel
+2. 106002 - `bratwurst` - Bratwurst / 德式煎香肠 / Bratwurst
+3. 106003 - `sauerbraten` - Sauerbraten / 德式酸味炖牛肉 / Sauerbraten
+4. 106004 - `spaetzle` - Spaetzle / 德式鸡蛋面疙瘩 / Spätzle
+5. 106005 - `pretzel` - Pretzel / 德式碱水结 / Brezel
 
 ## Greek (greek) - 31
 
@@ -59,6 +87,26 @@ Generated from data/internal/index.js after the verified database quarantine aud
 14. 101014 - `focaccia` - Focaccia / 佛卡夏
 15. 101015 - `panna-cotta` - Panna Cotta / 意式奶冻
 
-## Thai (thai) - 1
+## Japanese (japanese) - 5
+
+1. 109001 - `sushi` - Sushi / 寿司 / 寿司
+2. 109002 - `ramen` - Ramen / 拉面 / ラーメン
+3. 109003 - `tempura` - Tempura / 天妇罗 / 天ぷら
+4. 109004 - `katsu-curry` - Katsu Curry / 日式炸猪排咖喱饭 / カツカレー
+5. 109005 - `miso-soup` - Miso Soup / 味噌汤 / 味噌汁
+
+## Korean (korean) - 5
+
+1. 110001 - `bibimbap` - Bibimbap / 韩式拌饭 / 비빔밥
+2. 110002 - `kimchi-jjigae` - Kimchi Jjigae / 泡菜汤 / 김치찌개
+3. 110003 - `bulgogi` - Bulgogi / 韩式烤牛肉 / 불고기
+4. 110004 - `tteokbokki` - Tteokbokki / 韩式辣炒年糕 / 떡볶이
+5. 110005 - `korean-fried-chicken` - Korean Fried Chicken / 韩式炸鸡 / 치킨
+
+## Thai (thai) - 5
 
 1. 108001 - `pad-thai` - Pad Thai / 泰式炒河粉 / ผัดไทย
+2. 108002 - `tom-yum-goong` - Tom Yum Goong / 冬阴功虾汤 / ต้มยำกุ้ง
+3. 108003 - `green-curry` - Green Curry / 泰式绿咖喱 / แกงเขียวหวาน
+4. 108004 - `som-tam` - Som Tam / 青木瓜沙拉 / ส้มตำ
+5. 108005 - `massaman-curry` - Massaman Curry / 玛莎曼咖喱 / มัสมั่น

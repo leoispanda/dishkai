@@ -97,7 +97,9 @@ export const japaneseDishes = [
       "nl": "Goed als je van schone, koele smaken houdt en rauwe vis oké vindt of gekookte stukken kiest."
     },
     "spiceLevel": 0,
-    "weightLevel": 1
+    "weightLevel": 1,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "ramen",
@@ -190,7 +192,9 @@ export const japaneseDishes = [
       "zh": "想吃热汤面和咸鲜汤底时很稳，饱腹感也强。",
       "nl": "Een vullende, comfortabele keuze als je hete noedels en hartige bouillon wilt."
     },
-    "weightLevel": 3
+    "weightLevel": 3,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "tempura",
@@ -278,7 +282,9 @@ export const japaneseDishes = [
       "zh": "想吃酥脆前菜或配菜很合适，但要留意虾和麸质。",
       "nl": "Goed als knapperig voorgerecht of bijgerecht, maar let op schaal- en gluten."
     },
-    "weightLevel": 2
+    "weightLevel": 2,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "katsu-curry",
@@ -361,7 +367,9 @@ export const japaneseDishes = [
       "zh": "想吃厚重下饭、偏舒适的日式饭类时很适合。",
       "nl": "Kies dit als je een zware, comfortabele rijstschotel wilt in plaats van iets delicaats."
     },
-    "weightLevel": 4
+    "weightLevel": 4,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "miso-soup",
@@ -447,6 +455,8 @@ export const japaneseDishes = [
       "zh": "清淡咸鲜的配汤，单独吃饱腹感不强。",
       "nl": "Een lichte, hartige bijsoep; op zichzelf niet vullend."
     },
-    "weightLevel": 1
+    "weightLevel": 1,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   })
 ];

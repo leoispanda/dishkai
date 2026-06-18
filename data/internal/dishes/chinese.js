@@ -93,7 +93,9 @@ export const chineseDishes = [
     },
     "spiceLevel": 4,
     "weightLevel": 3,
-    "acquiredTasteLevel": 2
+    "acquiredTasteLevel": 2,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "peking-duck",
@@ -183,7 +185,9 @@ export const chineseDishes = [
       "zh": "想吃有仪式感、适合分享的肉菜时很合适。",
       "nl": "Een deelbaar, bijzonder aanvoelend gerecht als je rijke eend en tafelassemblage wilt."
     },
-    "weightLevel": 4
+    "weightLevel": 4,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "xiao-long-bao",
@@ -273,7 +277,9 @@ export const chineseDishes = [
       "zh": "喜欢多汁点心很适合；里面汤汁很烫，吃的时候要小心。",
       "nl": "Goed als je sappige dumplings wilt; voorzichtig bijten omdat de soep heet kan zijn."
     },
-    "weightLevel": 2
+    "weightLevel": 2,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "chow-mein",
@@ -356,7 +362,9 @@ export const chineseDishes = [
       "zh": "想吃咸香饱腹、不带汤的面食时很稳。",
       "nl": "Een bekende noedelkeuze als je iets hartigs en vullends wilt, niet soepig."
     },
-    "weightLevel": 3
+    "weightLevel": 3,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "hot-pot",
@@ -448,6 +456,8 @@ export const chineseDishes = [
       "nl": "Het beste om te delen en te ontdekken; vraag naar pittige bouillon als je milder wilt."
     },
     "spiceLevel": 3,
-    "weightLevel": 4
+    "weightLevel": 4,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   })
 ];

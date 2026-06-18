@@ -97,7 +97,9 @@ export const koreanDishes = [
       "nl": "Een sterke eerste Koreaanse keuze als je rijstkommen en een beetje pittige saus prettig vindt."
     },
     "spiceLevel": 2,
-    "weightLevel": 3
+    "weightLevel": 3,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "kimchi-jjigae",
@@ -188,7 +190,9 @@ export const koreanDishes = [
       "nl": "Goed als je een hete zuur-pittige stoofsoep wilt; minder ideaal voor mild eten."
     },
     "spiceLevel": 3,
-    "weightLevel": 3
+    "weightLevel": 3,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "bulgogi",
@@ -284,7 +288,9 @@ export const koreanDishes = [
       "nl": "Een toegankelijke Koreaanse vleeskeuze als je zoet-hartig rund zonder veel pit wilt."
     },
     "spiceLevel": 0,
-    "weightLevel": 3
+    "weightLevel": 3,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "tteokbokki",
@@ -368,7 +374,9 @@ export const koreanDishes = [
     },
     "spiceLevel": 3,
     "weightLevel": 3,
-    "acquiredTasteLevel": 2
+    "acquiredTasteLevel": 2,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   }),
   starterDish({
     "id": "korean-fried-chicken",
@@ -458,6 +466,8 @@ export const koreanDishes = [
       "nl": "Leuk om te delen als je crunch en saus wilt; zwaarder dan gegrilde gerechten."
     },
     "spiceLevel": 2,
-    "weightLevel": 4
+    "weightLevel": 4,
+    "confidenceTag": "audited-core-batch-001",
+    "metadataConfidence": 0.82
   })
 ];
