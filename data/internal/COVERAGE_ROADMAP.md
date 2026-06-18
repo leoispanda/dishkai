@@ -8,20 +8,20 @@ Verified metadata is the source of truth. It should be curated for high-frequenc
 
 Current verified starter database:
 
-- 1710 dishes
+- 1110 dishes
 - 27 cuisines
-- 4297 aliases
+- 3097 aliases
 
 Recent depth progress:
 
 - All registered cuisines now have at least 30 verified dishes with visual-reference assets.
-- European restaurant coverage has been deepened to 120 verified dishes each for Italian, Dutch, French, Greek, Spanish, German, Belgian, British-Irish, Portuguese, and Scandinavian.
+- European restaurant coverage has been deepened to 60 verified dishes each for Italian, Dutch, French, Greek, Spanish, German, Belgian, British-Irish, Portuguese, and Scandinavian.
 - Non-European registered cuisines remain at 30 verified dishes unless real menu misses indicate a higher-priority depth pass.
 
 Next verified coverage targets:
 
-1. Quality-audit the European 120 pass, especially high-variation generic restaurant-menu dishes, raw seafood, pork-heavy dishes, and mixed platters.
-2. Use the central unmatched-dish backlog and real menu misses to prioritize whether non-European cuisines should receive the next 60/90/120 depth pass.
+1. Quality-audit the European 60 pass, especially raw seafood, pork-heavy dishes, and dishes with strong restaurant variation.
+2. Use the central unmatched-dish backlog and real menu misses to prioritize whether Europe should move next to 90/120 or whether non-European cuisines should be deepened first.
 3. Add new cuisines only when real restaurant menus show repeated unmet demand.
 
 Verified metadata should stay concise and ordering-focused. Do not turn cards into recipes.

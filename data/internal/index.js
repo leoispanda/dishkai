@@ -9,7 +9,6 @@ import { riskFlags } from "./risk-flags.js";
 import { dishAliases as baseDishAliases } from "./dish-aliases.js";
 import { expandedDishAliases } from "./expanded-dish-aliases.js";
 import { cafeBrunchDepthDishAliases } from "./cafe-brunch-depth-dish-aliases.js";
-import { europe120DepthDishAliases } from "./europe-120-depth-dish-aliases.js";
 import { europeDepthDishAliases } from "./europe-depth-dish-aliases.js";
 import { greekDepthDishAliases } from "./greek-depth-dish-aliases.js";
 import { globalDepthDishAliases } from "./global-depth-dish-aliases.js";
@@ -20,7 +19,6 @@ import { dutchDishes } from "./dishes/dutch.js";
 import { frenchDishes } from "./dishes/french.js";
 import { germanDishes } from "./dishes/german.js";
 import { cafeBrunchDepthDishes } from "./dishes/cafe-brunch-depth-dishes.js";
-import { europe120DepthDishes } from "./dishes/europe-120-depth-dishes.js";
 import { europeDepthDishes } from "./dishes/europe-depth-dishes.js";
 import { greekDepthDishes } from "./dishes/greek-depth-dishes.js";
 import { globalDepthDishes } from "./dishes/global-depth-dishes.js";
@@ -35,7 +33,6 @@ export const dishAliases = [
   ...baseDishAliases,
   ...expandedDishAliases,
   ...cafeBrunchDepthDishAliases,
-  ...europe120DepthDishAliases,
   ...europeDepthDishAliases,
   ...greekDepthDishAliases,
   ...globalDepthDishAliases,
@@ -65,7 +62,6 @@ export const dishes = [
   ...belgianDishes,
   ...expandedDishes,
   ...cafeBrunchDepthDishes,
-  ...europe120DepthDishes,
   ...europeDepthDishes,
   ...worldDishes,
   ...greekDepthDishes,
