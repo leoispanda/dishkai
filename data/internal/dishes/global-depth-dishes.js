@@ -2572,99 +2572,104 @@ const globalDepthDishConfigs = [
     "cuisineId": "dutch",
     "names": {
       "en": "Hutspot",
-      "zh": "荷兰胡萝卜洋葱土豆泥",
+      "zh": "胡萝卜洋葱土豆泥",
       "nl": "Hutspot",
-      "local": "hutspot"
+      "local": "Hutspot"
     },
-    "category": "meat",
+    "category": "stamppot",
     "cookingMethods": [
-      "braised"
+      "boiled"
     ],
     "shortDescription": {
-      "en": "Hutspot is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰胡萝卜洋葱土豆泥是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Hutspot is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Dutch mash of potatoes, carrots, and onions, often served with rookworst or braised beef.",
+      "zh": "土豆、胡萝卜和洋葱压成的荷兰泥菜，常配烟熏香肠或炖牛肉。",
+      "nl": "Stamppot van aardappel, wortel en ui, vaak met rookworst of stoofvlees."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The mash is soft, slightly sweet from carrot, and very filling.",
+      "zh": "泥状口感柔软，胡萝卜带轻微甜味，非常顶饱。",
+      "nl": "Zachte stamppot, licht zoet door wortel en erg vullend."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency Dutch menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将荷兰菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Nederlands menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic Dutch stamppot variant with a carrot-onion identity.",
+        "zh": "经典荷兰 stamppot 变体，关键是胡萝卜和洋葱。",
+        "nl": "Een klassieke stamppotvariant met wortel en ui als kern."
       }
     },
     "composition": [
       [
-        "chicken",
-        60,
-        "main"
-      ],
-      [
         "potato",
-        15,
-        "side"
+        45,
+        "mash base"
       ],
       [
-        "mixed-vegetables",
+        "carrot",
+        30,
+        "vegetable"
+      ],
+      [
+        "onion",
         10,
-        "body"
+        "aroma"
       ],
       [
-        "tomato-sauce",
-        5,
-        "sauce",
-        "seasoning"
+        "smoked-sausage",
+        10,
+        "side",
+        "ingredient",
+        "medium",
+        true
       ],
       [
-        "black-pepper",
+        "butter",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
+        "richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "sauce",
-      "herbs"
+      "carrot",
+      "onion",
+      "rookworst"
     ],
     "basicTaste": [
+      "mild",
       "savory",
-      "rich"
+      "slightly sweet"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "soft mash",
+      "snappy sausage",
+      "warm serving"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-pork"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "comfort-food",
+      "classic-dish"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "dairy-free",
+      "no-pork"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A gentle, filling Dutch classic; choose it over green stamppot if carrot sweetness sounds better.",
+      "zh": "温和顶饱的荷兰经典；如果更想要胡萝卜甜味而不是绿叶菜味，选它。",
+      "nl": "Een milde vullende klassieker; kies dit boven groene stamppot als wortelzoet beter klinkt."
     },
+    "confidenceTag": "audited-dutch-batch-008",
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -2675,101 +2680,94 @@ const globalDepthDishConfigs = [
       "en": "Zuurkoolstamppot",
       "zh": "酸菜土豆泥",
       "nl": "Zuurkoolstamppot",
-      "local": "zuurkoolstamppot"
+      "local": "Zuurkoolstamppot"
     },
-    "category": "meat",
+    "category": "stamppot",
     "cookingMethods": [
-      "braised"
+      "boiled"
     ],
     "shortDescription": {
-      "en": "Zuurkoolstamppot is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "酸菜土豆泥是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Zuurkoolstamppot is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Mashed potatoes mixed with sauerkraut, usually served with rookworst or bacon.",
+      "zh": "土豆泥混合酸菜，通常配烟熏香肠或培根。",
+      "nl": "Aardappelpuree gemengd met zuurkool, meestal met rookworst of spek."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is soft like stamppot but sharper and tangier because of the sauerkraut.",
+      "zh": "同样是柔软土豆泥，但酸菜让味道更酸、更开胃。",
+      "nl": "Zacht als stamppot, maar frisser en zuurder door zuurkool."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency Dutch menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将荷兰菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Nederlands menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common Dutch winter stamppot variant built around sauerkraut.",
+        "zh": "荷兰常见冬季 stamppot 变体，核心是酸菜。",
+        "nl": "Een bekende winterse stamppotvariant met zuurkool."
       }
     },
     "composition": [
       [
-        "pork",
-        60,
-        "main"
+        "potato",
+        50,
+        "mash base"
       ],
       [
-        "potato",
+        "sauerkraut",
+        30,
+        "vegetable"
+      ],
+      [
+        "smoked-sausage",
         15,
         "side"
       ],
       [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "tomato-sauce",
+        "butter",
         5,
-        "sauce",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
+        "richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "sauce",
-      "herbs"
+      "sauerkraut",
+      "rookworst"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "tangy",
+      "hearty"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "soft mash",
+      "cabbage strands",
+      "snappy sausage"
     ],
     "riskFlags": [
+      "contains-dairy",
       "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "comfort-food",
+      "classic-dish"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "dairy-free",
+      "no-pork",
+      "avoids-sour-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check pork if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you want stamppot with a sour edge; avoid if fermented cabbage is not your thing.",
+      "zh": "想吃带酸味的土豆泥炖菜时适合；不喜欢发酵酸菜时避开。",
+      "nl": "Goed voor stamppot met zuur randje; vermijd als zuurkool je niet ligt."
     },
+    "confidenceTag": "audited-dutch-batch-008",
     "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -2778,103 +2776,106 @@ const globalDepthDishConfigs = [
     "cuisineId": "dutch",
     "names": {
       "en": "Andijviestamppot",
-      "zh": "荷兰菊苣土豆泥",
+      "zh": "荷兰菊苣叶土豆泥",
       "nl": "Andijviestamppot",
-      "local": "andijviestamppot"
+      "local": "Andijviestamppot"
     },
-    "category": "meat",
+    "category": "stamppot",
     "cookingMethods": [
-      "braised"
+      "boiled",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Andijviestamppot is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰菊苣土豆泥是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Andijviestamppot is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Mashed potatoes mixed with chopped andijvie, often finished with bacon bits or rookworst.",
+      "zh": "土豆泥混合切碎荷兰菊苣叶，常加培根粒或烟熏香肠。",
+      "nl": "Aardappelpuree met gesneden andijvie, vaak met spekjes of rookworst."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The greens are often folded in for a fresher, slightly bitter bite than other stamppots.",
+      "zh": "绿叶菜常在最后拌入，比其他土豆泥变体更清新、略带苦味。",
+      "nl": "De andijvie wordt vaak erdoor gevouwen voor frissere, licht bittere beet."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency Dutch menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将荷兰菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Nederlands menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common Dutch stamppot variant where the leafy green is the key difference.",
+        "zh": "常见荷兰 stamppot 变体，关键区别是绿叶菜。",
+        "nl": "Een bekende stamppotvariant waarbij het bladgroen centraal staat."
       }
     },
     "composition": [
       [
-        "pork",
-        60,
-        "main"
-      ],
-      [
         "potato",
-        15,
-        "side"
+        50,
+        "mash base"
       ],
       [
-        "mixed-vegetables",
+        "andijvie",
+        25,
+        "greens"
+      ],
+      [
+        "bacon",
         10,
-        "body"
+        "salty topping"
       ],
       [
-        "tomato-sauce",
-        5,
-        "sauce",
-        "seasoning"
+        "smoked-sausage",
+        10,
+        "side",
+        "ingredient",
+        "medium",
+        true
       ],
       [
-        "black-pepper",
+        "butter",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
+        "richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "sauce",
-      "herbs"
+      "andijvie",
+      "bacon",
+      "rookworst"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "mild",
+      "slightly bitter"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "soft mash",
+      "leafy flecks",
+      "salty bacon bits"
     ],
     "riskFlags": [
+      "contains-dairy",
       "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "comfort-food",
+      "classic-dish"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "dairy-free",
+      "no-pork",
+      "avoids-bitter-greens"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check pork if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Pick it if you want a greener stamppot; bacon or sausage is common, so ask if avoiding pork.",
+      "zh": "想吃绿叶菜感更强的土豆泥时选它；常有培根或香肠，不吃猪肉要确认。",
+      "nl": "Kies dit voor een groenere stamppot; spek of worst is normaal, dus vraag bij geen varken."
     },
+    "confidenceTag": "audited-dutch-batch-008",
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -2988,97 +2989,119 @@ const globalDepthDishConfigs = [
     "cuisineId": "dutch",
     "names": {
       "en": "Dutch-Indonesian Nasi Goreng",
-      "zh": "荷式印尼炒饭",
+      "zh": "荷兰印尼炒饭",
       "nl": "Nasi goreng",
-      "local": "nasi goreng"
+      "local": "Nasi goreng"
     },
     "category": "rice",
     "cookingMethods": [
-      "simmered"
+      "stir-fried"
     ],
     "shortDescription": {
-      "en": "Dutch-Indonesian Nasi Goreng is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷式印尼炒饭是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Nasi goreng is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Dutch-Indonesian fried rice, often served with egg, pickles, prawn crackers, satay, or sambal.",
+      "zh": "荷兰印尼炒饭，常配煎蛋、酸黄瓜、虾片、沙嗲或参巴辣酱。",
+      "nl": "Nederlands-Indonesische gebakken rijst, vaak met ei, zuur, kroepoek, saté of sambal."
     },
     "cookingProfile": {
-      "en": "Usually served with soft rice, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft rice，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft rice; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is fried and seasoned with sweet soy and sambal, so it is more aromatic than plain rice.",
+      "zh": "炒制后用甜酱油和参巴调味，比白米饭更香、更有酱香。",
+      "nl": "Gebakken en gekruid met ketjap en sambal, aromatischer dan witte rijst."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "dutch-indonesian",
+        "rice"
       ],
       "description": {
-        "en": "A high-frequency Dutch menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将荷兰菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Nederlands menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A very common Dutch-Indonesian takeaway and eetcafé rice dish.",
+        "zh": "荷兰印尼外卖和简餐店非常常见的米饭菜。",
+        "nl": "Een veelvoorkomend Nederlands-Indonesisch afhaal- en eetcafégerecht."
       }
     },
     "composition": [
       [
         "steamed-rice",
-        50,
+        55,
         "base"
       ],
       [
-        "pork",
-        25,
-        "main"
+        "egg",
+        15,
+        "topping"
+      ],
+      [
+        "chicken",
+        10,
+        "protein",
+        "ingredient",
+        "medium",
+        true
       ],
       [
         "mixed-vegetables",
-        15,
+        10,
         "body"
       ],
       [
-        "soy-sauce",
+        "ketjap-manis",
         5,
-        "seasoning",
+        "sweet soy seasoning",
         "seasoning"
       ],
       [
-        "green-onion",
+        "sambal",
         5,
-        "finish"
+        "heat",
+        "seasoning",
+        "high",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "seasoned rice",
-      "aromatics"
+      "ketjap-manis",
+      "sambal",
+      "fried egg"
     ],
     "basicTaste": [
       "savory",
-      "filling"
+      "sweet",
+      "umami",
+      "mildly spicy"
     ],
     "textureProfile": [
-      "soft rice",
-      "mixed toppings"
+      "separate fried rice grains",
+      "soft egg",
+      "crisp garnish"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-egg",
+      "contains-soy",
+      "contains-gluten",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "rice",
+      "dutch-indonesian"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "egg-allergy",
+      "gluten-free",
+      "soy-allergy",
+      "avoids-spicy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, filling profile sounds appealing; check pork if that matters.",
-      "zh": "如果你想要savory、filling的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, filling je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A familiar rice option with Dutch-Indonesian seasoning; ask about meat or sambal if needed.",
+      "zh": "熟悉的米饭选择，带荷兰印尼调味；有肉类或辣度限制时确认。",
+      "nl": "Een herkenbare rijstkeuze met Nederlands-Indonesische smaak; vraag naar vlees of sambal."
     },
-    "spiceLevel": 0,
+    "confidenceTag": "audited-dutch-batch-008",
+    "spiceLevel": 1,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "bami-goreng-dutch",
@@ -3086,51 +3109,174 @@ const globalDepthDishConfigs = [
     "cuisineId": "dutch",
     "names": {
       "en": "Dutch-Indonesian Bami Goreng",
-      "zh": "荷式印尼炒面",
+      "zh": "荷兰印尼炒面",
       "nl": "Bami goreng",
-      "local": "bami goreng"
+      "local": "Bami goreng"
     },
     "category": "noodle",
     "cookingMethods": [
       "stir-fried"
     ],
     "shortDescription": {
-      "en": "Dutch-Indonesian Bami Goreng is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷式印尼炒面是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Bami goreng is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Dutch-Indonesian fried noodles with vegetables, sweet soy, sambal, and often egg or meat.",
+      "zh": "荷兰印尼炒面，常有蔬菜、甜酱油、参巴辣酱，也常加蛋或肉。",
+      "nl": "Nederlands-Indonesische gebakken noedels met groente, ketjap, sambal en vaak ei of vlees."
     },
     "cookingProfile": {
-      "en": "Usually served with springy noodles, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现springy noodles，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met springy noodles; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The noodles are stir-fried, giving a glossy, savory, slightly sweet profile.",
+      "zh": "面条快炒后油润有光泽，咸香中带一点甜酱油味。",
+      "nl": "Geroerbakte noedels met glanzend, hartig en licht zoet profiel."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "dutch-indonesian",
+        "noodle"
       ],
       "description": {
-        "en": "A high-frequency Dutch menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将荷兰菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Nederlands menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common Dutch-Indonesian noodle dish in takeaways and snack bars.",
+        "zh": "荷兰印尼外卖和小吃店常见炒面。",
+        "nl": "Een veelvoorkomend Nederlands-Indonesisch noedelgerecht bij afhaal en snackbar."
       }
     },
     "composition": [
       [
         "wheat-noodles",
-        45,
+        55,
         "base"
-      ],
-      [
-        "pork",
-        25,
-        "main"
       ],
       [
         "mixed-vegetables",
         15,
         "body"
+      ],
+      [
+        "egg",
+        10,
+        "topping"
+      ],
+      [
+        "chicken",
+        10,
+        "protein",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "ketjap-manis",
+        5,
+        "sweet soy seasoning",
+        "seasoning"
+      ],
+      [
+        "sambal",
+        5,
+        "heat",
+        "seasoning",
+        "high",
+        true
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "ketjap-manis",
+      "sambal",
+      "stir-fried noodles"
+    ],
+    "basicTaste": [
+      "savory",
+      "sweet",
+      "umami",
+      "mildly spicy"
+    ],
+    "textureProfile": [
+      "springy noodles",
+      "glossy coating",
+      "soft egg"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-soy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "noodle",
+      "dutch-indonesian"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "soy-allergy",
+      "avoids-spicy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want noodles instead of rice; confirm sambal if avoiding heat.",
+      "zh": "想吃面而不是米饭时选它；不吃辣要确认参巴。",
+      "nl": "Kies dit als je noedels in plaats van rijst wilt; check sambal bij geen pittig."
+    },
+    "confidenceTag": "audited-dutch-batch-008",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "high"
+  },
+  {
+    "id": "loempia",
+    "metadataCode": "102027",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Loempia",
+      "zh": "荷兰炸春卷",
+      "nl": "Loempia",
+      "local": "Loempia"
+    },
+    "category": "fried-snack",
+    "cookingMethods": [
+      "deep-fried"
+    ],
+    "shortDescription": {
+      "en": "A large Dutch-Indonesian fried spring roll, often filled with vegetables and chicken.",
+      "zh": "荷兰印尼风大春卷，常包蔬菜和鸡肉，炸到酥脆。",
+      "nl": "Een grote Nederlands-Indonesische gefrituurde loempia, vaak met groente en kip."
+    },
+    "cookingProfile": {
+      "en": "The wrapper is crisp and blistered, while the filling is soft and savory.",
+      "zh": "外皮酥脆起泡，内馅柔软咸香。",
+      "nl": "De buitenkant is krokant en gebubbeld, de vulling zacht en hartig."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "dutch-indonesian",
+        "street-food"
+      ],
+      "description": {
+        "en": "A Dutch snack-bar and market version of a spring roll, often larger than Chinese dim sum versions.",
+        "zh": "荷兰小吃店和市集常见春卷，通常比中式点心春卷更大。",
+        "nl": "Een snackbar- en marktloempia, vaak groter dan dimsumvarianten."
+      }
+    },
+    "composition": [
+      [
+        "dumpling-wrapper",
+        45,
+        "wrapper"
+      ],
+      [
+        "mixed-vegetables",
+        25,
+        "filling"
+      ],
+      [
+        "chicken",
+        15,
+        "filling",
+        "ingredient",
+        "medium",
+        true
       ],
       [
         "soy-sauce",
@@ -3139,157 +3285,62 @@ const globalDepthDishConfigs = [
         "seasoning"
       ],
       [
-        "sesame-oil",
+        "sambal",
         5,
-        "aroma",
-        "seasoning"
+        "dip",
+        "seasoning",
+        "high",
+        true
       ],
       [
-        "green-onion",
+        "garlic-sauce",
         5,
-        "finish"
+        "optional dip",
+        "ingredient",
+        "medium",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "soy-sauce",
-      "aromatics"
+      "fried wrapper",
+      "sambal",
+      "savory filling"
     ],
     "basicTaste": [
       "savory",
-      "aromatic"
+      "mildly spicy",
+      "oily"
     ],
     "textureProfile": [
-      "springy noodles",
-      "glossy sauce"
+      "crisp wrapper",
+      "soft filling",
+      "saucy dip"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-soy",
-      "contains-pork"
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "street-food",
+      "sharing"
     ],
     "avoidIfTags": [
-      "no-pork",
-      "gluten-free"
+      "gluten-free",
+      "soy-allergy",
+      "avoids-spicy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, aromatic profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要savory、aromatic的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, aromatic je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good as a large fried snack; ask about chicken if you need vegetarian.",
+      "zh": "适合作为大份炸小吃；吃素时要确认是否含鸡肉。",
+      "nl": "Goed als grote gefrituurde snack; vraag naar kip als je vegetarisch wilt."
     },
-    "spiceLevel": 0,
+    "confidenceTag": "audited-dutch-batch-008",
+    "spiceLevel": 1,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "loempia",
-    "metadataCode": "102027",
-    "cuisineId": "dutch",
-    "names": {
-      "en": "Loempia",
-      "zh": "荷式春卷",
-      "nl": "Loempia",
-      "local": "loempia"
-    },
-    "category": "fried-snack",
-    "cookingMethods": [
-      "deep-fried"
-    ],
-    "shortDescription": {
-      "en": "Loempia is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷式春卷是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Loempia is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with crisp outside, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现crisp outside，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met crisp outside; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "common",
-      "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
-      ],
-      "description": {
-        "en": "A high-frequency Dutch menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将荷兰菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Nederlands menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
-      }
-    },
-    "composition": [
-      [
-        "wheat-flour",
-        30,
-        "coating"
-      ],
-      [
-        "chicken",
-        25,
-        "filling"
-      ],
-      [
-        "potato",
-        15,
-        "body"
-      ],
-      [
-        "egg",
-        10,
-        "binder"
-      ],
-      [
-        "olive-oil",
-        10,
-        "frying medium",
-        "seasoning"
-      ],
-      [
-        "sea-salt",
-        10,
-        "seasoning",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "chicken",
-      "fried crust",
-      "sea-salt"
-    ],
-    "basicTaste": [
-      "savory",
-      "fried"
-    ],
-    "textureProfile": [
-      "crisp outside",
-      "soft center"
-    ],
-    "riskFlags": [
-      "contains-gluten",
-      "contains-egg"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "restaurant-coverage"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, fried profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要savory、fried的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, fried je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -3298,104 +3349,116 @@ const globalDepthDishConfigs = [
     "cuisineId": "dutch",
     "names": {
       "en": "Oliebol",
-      "zh": "荷兰油炸甜球",
+      "zh": "荷兰油炸甜面团",
       "nl": "Oliebol",
-      "local": "oliebol"
+      "local": "Oliebol"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "deep-fried"
     ],
     "shortDescription": {
-      "en": "Oliebol is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰油炸甜球是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Oliebol is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Round deep-fried Dutch dough balls dusted with powdered sugar, often eaten around New Year.",
+      "zh": "圆形油炸甜面团，撒糖粉，常在新年前后吃。",
+      "nl": "Ronde gefrituurde deegbollen met poedersuiker, vaak rond oud en nieuw."
     },
     "cookingProfile": {
-      "en": "Usually served with soft dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "They are crisp outside and soft inside, with a doughnut-like but more rustic feel.",
+      "zh": "外层微脆，内部柔软，像更质朴的甜甜圈。",
+      "nl": "Krokant buiten en zacht binnen, als een rustiekere donut."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "festival",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "dessert",
+        "festival"
       ],
       "description": {
-        "en": "A high-frequency Dutch menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将荷兰菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Nederlands menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Dutch New Year classic that also appears at winter markets and fairs.",
+        "zh": "荷兰新年经典，也常见于冬季市集和集会。",
+        "nl": "Een Nederlandse oud-en-nieuwklassieker, ook op wintermarkten en kermissen."
       }
     },
     "composition": [
       [
-        "sugar",
-        30,
-        "sweetness"
-      ],
-      [
-        "cream",
-        25,
-        "base"
+        "wheat-flour",
+        45,
+        "dough"
       ],
       [
         "egg",
         15,
-        "richness"
-      ],
-      [
-        "wheat-flour",
-        15,
         "structure"
       ],
       [
-        "vanilla",
-        10,
-        "aroma",
-        "seasoning"
+        "sugar",
+        15,
+        "sweetness"
       ],
       [
-        "fruit-sauce-or-caramel",
+        "raisins",
+        10,
+        "filling",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "cinnamon",
         5,
-        "finish"
+        "optional warmth",
+        "seasoning",
+        "high",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "vanilla",
-      "cream",
-      "sweet finish"
+      "fried dough",
+      "powdered sugar",
+      "raisins"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "fried",
+      "mild"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "crisp outside",
+      "soft dough",
+      "sugar-dusted surface"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
-      "dessert"
+      "dessert",
+      "festival"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good seasonal sweet snack; heavier and oilier than cake.",
+      "zh": "很适合当季节性甜小吃；比蛋糕更油、更厚重。",
+      "nl": "Een goede seizoenssnack; zwaarder en vetter dan taart."
     },
+    "confidenceTag": "audited-dutch-batch-008",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {

@@ -59,6 +59,11 @@ export const seasonings = [
   seasoning("caraway", "306002", "caraway", "葛缕子", "karwij", ["warm", "earthy"], "caraway-warm-cabbage-aroma", []),
   seasoning("nutmeg", "306003", "nutmeg", "肉豆蔻", "nootmuskaat", ["warm", "sweet"], "nutmeg-warm-dairy-potato-aroma", []),
   seasoning("juniper", "306004", "juniper", "杜松子", "jeneverbes", ["piney", "sharp"], "juniper-piney-braised-depth", []),
+  seasoning("satay-sauce", "302001", "peanut satay sauce", "花生沙嗲酱", "satésaus", ["nutty", "sweet", "savory"], "satay-peanut-sweet-savory", ["peanut"]),
+  seasoning("sambal", "302002", "sambal chili paste", "参巴辣酱", "sambal", ["spicy", "salty"], "sambal-bright-chili-heat", []),
+  seasoning("ketjap-manis", "302003", "ketjap manis", "印尼甜酱油", "ketjap manis", ["sweet", "salty", "umami"], "ketjap-manis-sweet-soy-depth", ["soy", "gluten"]),
+  seasoning("speculaas-spice", "302004", "speculaas spice", "荷兰香料粉", "speculaaskruiden", ["warm", "sweet"], "speculaas-warm-cinnamon-clove", []),
+  seasoning("remoulade-sauce", "302005", "remoulade sauce", "酸黄瓜蛋黄酱", "remouladesaus", ["creamy", "tangy"], "remoulade-creamy-pickle-tang", ["egg"]),
 ];
 
 function seasoning(id, metadataCode, en, zh, nl, basicTaste, distinctiveFlavor, allergens) {

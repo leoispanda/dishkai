@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 153
-- Total aliases: 577
+- Total verified dishes: 176
+- Total aliases: 642
 - Total cuisines: 10
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -23,7 +23,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 4. 111004 - `chow-mein` - Chow Mein / 炒面 / 炒面
 5. 111005 - `hot-pot` - Hot Pot / 火锅 / 火锅
 
-## Dutch (dutch) - 7
+## Dutch (dutch) - 30
 
 1. 102001 - `bitterballen` - Bitterballen / 荷兰炸肉丸 / Bitterballen
 2. 102002 - `stamppot` - Stamppot / 荷兰土豆蔬菜泥 / Stamppot
@@ -32,6 +32,29 @@ Generated from data/internal/index.js after the verified database quarantine aud
 5. 102005 - `erwtensoep` - Erwtensoep / 荷兰豌豆浓汤 / Erwtensoep
 6. 102018 - `tosti` - Tosti / 荷式烤火腿奶酪三明治 / tosti
 7. 102020 - `broodje-gezond` - Broodje Gezond / 荷式健康三明治 / broodje gezond
+8. 102006 - `kroket` - Kroket / 荷兰炸肉卷 / Kroket
+9. 102007 - `patat` - Patat / 荷兰薯条 / Patat
+10. 102008 - `kapsalon` - Kapsalon / 荷兰卡普萨龙薯条盒 / Kapsalon
+11. 102009 - `pannenkoeken` - Pannenkoeken / 荷兰大煎饼 / Pannenkoeken
+12. 102010 - `uitsmijter` - Uitsmijter / 荷兰煎蛋开放三明治 / Uitsmijter
+13. 102011 - `appeltaart` - Appeltaart / 荷兰苹果派 / Appeltaart
+14. 102012 - `kibbeling` - Kibbeling / 荷兰炸鱼块 / Kibbeling
+15. 102013 - `frikandel` - Frikandel / 荷兰炸肉肠 / Frikandel
+16. 102014 - `stroopwafel` - Stroopwafel / 荷兰焦糖糖浆华夫饼 / Stroopwafel
+17. 102015 - `sate` - Saté / 荷兰印尼沙嗲 / Saté
+18. 102016 - `rijsttafel` - Rijsttafel / 荷兰印尼米饭拼盘 / Rijsttafel
+19. 102017 - `hachee` - Hachee / 荷兰洋葱炖牛肉 / Hachee
+20. 102039 - `lekkerbekje` - Lekkerbekje / 荷兰炸鱼排 / Lekkerbekje
+21. 102050 - `saucijzenbroodje` - Saucijzenbroodje / 荷兰酥皮香肠卷 / Saucijzenbroodje
+22. 102051 - `kaassouffle` - Kaassoufflé / 荷兰炸奶酪酥 / Kaassoufflé
+23. 102053 - `tompouce` - Tompouce / 粉色糖霜奶油酥皮 / Tompouce
+24. 102021 - `hutspot` - Hutspot / 胡萝卜洋葱土豆泥 / Hutspot
+25. 102022 - `zuurkoolstamppot` - Zuurkoolstamppot / 酸菜土豆泥 / Zuurkoolstamppot
+26. 102023 - `andijviestamppot` - Andijviestamppot / 荷兰菊苣叶土豆泥 / Andijviestamppot
+27. 102025 - `nasi-goreng-dutch` - Dutch-Indonesian Nasi Goreng / 荷兰印尼炒饭 / Nasi goreng
+28. 102026 - `bami-goreng-dutch` - Dutch-Indonesian Bami Goreng / 荷兰印尼炒面 / Bami goreng
+29. 102027 - `loempia` - Loempia / 荷兰炸春卷 / Loempia
+30. 102028 - `oliebol` - Oliebol / 荷兰油炸甜面团 / Oliebol
 
 ## French (french) - 30
 

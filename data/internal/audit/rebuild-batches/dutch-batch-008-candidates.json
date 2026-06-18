@@ -1,0 +1,209 @@
+[
+  {
+    "dishId": "kroket",
+    "metadataCode": "102006",
+    "cuisineId": "dutch",
+    "name": "Kroket",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102006-kroket.webp",
+    "thumbPath": "/assets/dishes/thumb/102006-kroket.webp"
+  },
+  {
+    "dishId": "patat",
+    "metadataCode": "102007",
+    "cuisineId": "dutch",
+    "name": "Patat",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102007-patat.webp",
+    "thumbPath": "/assets/dishes/thumb/102007-patat.webp"
+  },
+  {
+    "dishId": "kapsalon",
+    "metadataCode": "102008",
+    "cuisineId": "dutch",
+    "name": "Kapsalon",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102008-kapsalon.webp",
+    "thumbPath": "/assets/dishes/thumb/102008-kapsalon.webp"
+  },
+  {
+    "dishId": "pannenkoeken",
+    "metadataCode": "102009",
+    "cuisineId": "dutch",
+    "name": "Pannenkoeken",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102009-pannenkoeken.webp",
+    "thumbPath": "/assets/dishes/thumb/102009-pannenkoeken.webp"
+  },
+  {
+    "dishId": "uitsmijter",
+    "metadataCode": "102010",
+    "cuisineId": "dutch",
+    "name": "Uitsmijter",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102010-uitsmijter.webp",
+    "thumbPath": "/assets/dishes/thumb/102010-uitsmijter.webp"
+  },
+  {
+    "dishId": "appeltaart",
+    "metadataCode": "102011",
+    "cuisineId": "dutch",
+    "name": "Appeltaart",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102011-appeltaart.webp",
+    "thumbPath": "/assets/dishes/thumb/102011-appeltaart.webp"
+  },
+  {
+    "dishId": "kibbeling",
+    "metadataCode": "102012",
+    "cuisineId": "dutch",
+    "name": "Kibbeling",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102012-kibbeling.webp",
+    "thumbPath": "/assets/dishes/thumb/102012-kibbeling.webp"
+  },
+  {
+    "dishId": "frikandel",
+    "metadataCode": "102013",
+    "cuisineId": "dutch",
+    "name": "Frikandel",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102013-frikandel.webp",
+    "thumbPath": "/assets/dishes/thumb/102013-frikandel.webp"
+  },
+  {
+    "dishId": "stroopwafel",
+    "metadataCode": "102014",
+    "cuisineId": "dutch",
+    "name": "Stroopwafel",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102014-stroopwafel.webp",
+    "thumbPath": "/assets/dishes/thumb/102014-stroopwafel.webp"
+  },
+  {
+    "dishId": "sate",
+    "metadataCode": "102015",
+    "cuisineId": "dutch",
+    "name": "Saté",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102015-sate.webp",
+    "thumbPath": "/assets/dishes/thumb/102015-sate.webp"
+  },
+  {
+    "dishId": "rijsttafel",
+    "metadataCode": "102016",
+    "cuisineId": "dutch",
+    "name": "Rijsttafel",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102016-rijsttafel.webp",
+    "thumbPath": "/assets/dishes/thumb/102016-rijsttafel.webp"
+  },
+  {
+    "dishId": "hachee",
+    "metadataCode": "102017",
+    "cuisineId": "dutch",
+    "name": "Hachee",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102017-hachee.webp",
+    "thumbPath": "/assets/dishes/thumb/102017-hachee.webp"
+  },
+  {
+    "dishId": "hutspot",
+    "metadataCode": "102021",
+    "cuisineId": "dutch",
+    "name": "Hutspot",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102021-hutspot.webp",
+    "thumbPath": "/assets/dishes/thumb/102021-hutspot.webp"
+  },
+  {
+    "dishId": "zuurkoolstamppot",
+    "metadataCode": "102022",
+    "cuisineId": "dutch",
+    "name": "Zuurkoolstamppot",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102022-zuurkoolstamppot.webp",
+    "thumbPath": "/assets/dishes/thumb/102022-zuurkoolstamppot.webp"
+  },
+  {
+    "dishId": "andijviestamppot",
+    "metadataCode": "102023",
+    "cuisineId": "dutch",
+    "name": "Andijviestamppot",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102023-andijviestamppot.webp",
+    "thumbPath": "/assets/dishes/thumb/102023-andijviestamppot.webp"
+  },
+  {
+    "dishId": "nasi-goreng-dutch",
+    "metadataCode": "102025",
+    "cuisineId": "dutch",
+    "name": "Dutch-Indonesian Nasi Goreng",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102025-nasi-goreng-dutch.webp",
+    "thumbPath": "/assets/dishes/thumb/102025-nasi-goreng-dutch.webp"
+  },
+  {
+    "dishId": "bami-goreng-dutch",
+    "metadataCode": "102026",
+    "cuisineId": "dutch",
+    "name": "Dutch-Indonesian Bami Goreng",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102026-bami-goreng-dutch.webp",
+    "thumbPath": "/assets/dishes/thumb/102026-bami-goreng-dutch.webp"
+  },
+  {
+    "dishId": "loempia",
+    "metadataCode": "102027",
+    "cuisineId": "dutch",
+    "name": "Loempia",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102027-loempia.webp",
+    "thumbPath": "/assets/dishes/thumb/102027-loempia.webp"
+  },
+  {
+    "dishId": "oliebol",
+    "metadataCode": "102028",
+    "cuisineId": "dutch",
+    "name": "Oliebol",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102028-oliebol.webp",
+    "thumbPath": "/assets/dishes/thumb/102028-oliebol.webp"
+  },
+  {
+    "dishId": "tompouce",
+    "metadataCode": "102053",
+    "cuisineId": "dutch",
+    "name": "Tompouce",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102053-tompouce.webp",
+    "thumbPath": "/assets/dishes/thumb/102053-tompouce.webp"
+  },
+  {
+    "dishId": "kaassouffle",
+    "metadataCode": "102051",
+    "cuisineId": "dutch",
+    "name": "Kaassouffle",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102051-kaassouffle.webp",
+    "thumbPath": "/assets/dishes/thumb/102051-kaassouffle.webp"
+  },
+  {
+    "dishId": "saucijzenbroodje",
+    "metadataCode": "102050",
+    "cuisineId": "dutch",
+    "name": "Saucijzenbroodje",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102050-saucijzenbroodje.webp",
+    "thumbPath": "/assets/dishes/thumb/102050-saucijzenbroodje.webp"
+  },
+  {
+    "dishId": "lekkerbekje",
+    "metadataCode": "102039",
+    "cuisineId": "dutch",
+    "name": "Lekkerbekje",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/102039-lekkerbekje.webp",
+    "thumbPath": "/assets/dishes/thumb/102039-lekkerbekje.webp"
+  }
+]

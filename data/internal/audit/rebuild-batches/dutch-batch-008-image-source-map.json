@@ -1,0 +1,68 @@
+[
+  {
+    "dishId": "hutspot",
+    "metadataCode": "102021",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a346fd1e8f88191a18430f4f5c12750.png",
+    "copyPath": "data/internal/audit/rebuild-batches/dutch-batch-008-image-sources/102021-hutspot.png"
+  },
+  {
+    "dishId": "zuurkoolstamppot",
+    "metadataCode": "102022",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a346ffb67b48191a6045865067d37e9.png",
+    "copyPath": "data/internal/audit/rebuild-batches/dutch-batch-008-image-sources/102022-zuurkoolstamppot.png"
+  },
+  {
+    "dishId": "andijviestamppot",
+    "metadataCode": "102023",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a347034a0e88191a89df0f88da5c4aa.png",
+    "copyPath": "data/internal/audit/rebuild-batches/dutch-batch-008-image-sources/102023-andijviestamppot.png"
+  },
+  {
+    "dishId": "nasi-goreng-dutch",
+    "metadataCode": "102025",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a34706f27f081919c09b11b12e3ae35.png",
+    "copyPath": "data/internal/audit/rebuild-batches/dutch-batch-008-image-sources/102025-nasi-goreng-dutch.png"
+  },
+  {
+    "dishId": "bami-goreng-dutch",
+    "metadataCode": "102026",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a3470b476c48191b84a4c0ccfdfe84a.png",
+    "copyPath": "data/internal/audit/rebuild-batches/dutch-batch-008-image-sources/102026-bami-goreng-dutch.png"
+  },
+  {
+    "dishId": "loempia",
+    "metadataCode": "102027",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a3470f8f6c0819198723f819e5d8ad1.png",
+    "copyPath": "data/internal/audit/rebuild-batches/dutch-batch-008-image-sources/102027-loempia.png"
+  },
+  {
+    "dishId": "oliebol",
+    "metadataCode": "102028",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a34713b7a688191985010175e017b54.png",
+    "copyPath": "data/internal/audit/rebuild-batches/dutch-batch-008-image-sources/102028-oliebol.png"
+  },
+  {
+    "dishId": "tompouce",
+    "metadataCode": "102053",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a34716972ac81919e510aa7d504936e.png",
+    "copyPath": "data/internal/audit/rebuild-batches/dutch-batch-008-image-sources/102053-tompouce.png"
+  },
+  {
+    "dishId": "kaassouffle",
+    "metadataCode": "102051",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a3471ad466c819196196b368727bd14.png",
+    "copyPath": "data/internal/audit/rebuild-batches/dutch-batch-008-image-sources/102051-kaassouffle.png"
+  },
+  {
+    "dishId": "saucijzenbroodje",
+    "metadataCode": "102050",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a3471f361dc8191b2402574e5688c2c.png",
+    "copyPath": "data/internal/audit/rebuild-batches/dutch-batch-008-image-sources/102050-saucijzenbroodje.png"
+  },
+  {
+    "dishId": "lekkerbekje",
+    "metadataCode": "102039",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_05d43a9af584fa27016a347235c2e48191b983a22684775740.png",
+    "copyPath": "data/internal/audit/rebuild-batches/dutch-batch-008-image-sources/102039-lekkerbekje.png"
+  }
+]

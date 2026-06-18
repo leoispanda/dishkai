@@ -3830,104 +3830,101 @@ const europeDepthDishConfigs = [
     "cuisineId": "dutch",
     "names": {
       "en": "Lekkerbekje",
-      "zh": "荷兰炸鱼柳",
+      "zh": "荷兰炸鱼排",
       "nl": "Lekkerbekje",
       "local": "Lekkerbekje"
     },
-    "category": "fried",
+    "category": "seafood",
     "cookingMethods": [
-      "fried"
+      "deep-fried"
     ],
     "shortDescription": {
-      "en": "Lekkerbekje is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰炸鱼柳是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Lekkerbekje is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A large battered fried white fish fillet, often served with fries, lemon, and sauce.",
+      "zh": "整块裹面糊炸白鱼排，常配薯条、柠檬和酱料。",
+      "nl": "Een grote gefrituurde witte visfilet in beslag, vaak met friet, citroen en saus."
     },
     "cookingProfile": {
-      "en": "Usually served with fried snack or main, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fried snack or main，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fried snack or main; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Unlike kibbeling pieces, this is one larger fillet with crisp batter and flaky fish inside.",
+      "zh": "不同于炸鱼块，这是整块大鱼排，外皮酥脆，里面鱼肉细嫩。",
+      "nl": "Anders dan kibbelingstukjes: één grotere filet met krokant beslag en zachte vis."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "seafood",
+        "street-food"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A common Dutch fish-shop item and casual fish meal.",
+        "zh": "荷兰鱼店常见单品，也可作为休闲鱼类餐。",
+        "nl": "Een bekend vishandelgerecht en informele vismaaltijd."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "coating"
-      ],
-      [
-        "potato",
-        25,
-        "body"
-      ],
-      [
         "fish-fillet",
-        20,
+        65,
         "main"
       ],
       [
-        "egg",
-        10,
-        "binder"
+        "tempura-batter",
+        20,
+        "batter"
       ],
       [
-        "butter",
+        "fries",
         10,
-        "richness"
+        "side"
       ],
       [
-        "sea-salt",
-        10,
-        "seasoning",
+        "remoulade-sauce",
+        5,
+        "dip",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "fried white fish",
+      "remoulade-sauce",
+      "lemon"
     ],
     "basicTaste": [
       "savory",
-      "rich"
-    ],
-    "textureProfile": [
-      "crisp outside",
-      "soft center"
-    ],
-    "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-fish"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
+      "briny",
       "fried"
     ],
+    "textureProfile": [
+      "crisp batter",
+      "flaky fish",
+      "creamy sauce"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-gluten",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "seafood",
+      "main-or-snack"
+    ],
     "avoidIfTags": [
-      "gluten-free"
+      "avoids-fish",
+      "gluten-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you want a bigger fried fish portion; choose kibbeling for smaller snackable pieces.",
+      "zh": "想吃较大份炸鱼时适合；想要小块零食感则选 kibbeling。",
+      "nl": "Goed voor een grotere portie gebakken vis; kies kibbeling voor kleinere snackstukjes."
     },
+    "confidenceTag": "audited-dutch-batch-008",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -4964,7 +4961,7 @@ const europeDepthDishConfigs = [
     "cuisineId": "dutch",
     "names": {
       "en": "Saucijzenbroodje",
-      "zh": "荷兰香肠酥卷",
+      "zh": "荷兰酥皮香肠卷",
       "nl": "Saucijzenbroodje",
       "local": "Saucijzenbroodje"
     },
@@ -4973,52 +4970,42 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Saucijzenbroodje is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰香肠酥卷是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Saucijzenbroodje is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Dutch sausage roll made with flaky puff pastry around seasoned minced meat.",
+      "zh": "荷兰酥皮香肠卷，用酥皮包住调味肉馅烤成。",
+      "nl": "Nederlandse saucijzenbroodje van bladerdeeg rond gekruid gehakt."
     },
     "cookingProfile": {
-      "en": "Usually served with savory pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现savory pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met savory pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is baked, so expect flaky pastry outside and warm savory meat filling inside.",
+      "zh": "烘烤后外层酥皮松脆，里面是温热咸香肉馅。",
+      "nl": "Gebakken: bladerig deeg buiten en warme hartige gehaktvulling binnenin."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "bakery",
+        "quick-meal"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A common Dutch bakery and train-station snack.",
+        "zh": "荷兰面包店和车站常见小吃。",
+        "nl": "Een bekende snack bij bakker en station."
       }
     },
     "composition": [
       [
         "pastry-crust",
-        40,
-        "base"
+        45,
+        "wrapper"
       ],
       [
-        "cheese",
-        20,
+        "ground-meat",
+        40,
         "filling"
       ],
       [
         "egg",
-        15,
-        "binder"
-      ],
-      [
-        "mixed-vegetables",
         10,
-        "body"
-      ],
-      [
-        "butter",
-        10,
-        "richness"
+        "glaze and binder"
       ],
       [
         "black-pepper",
@@ -5028,40 +5015,45 @@ const europeDepthDishConfigs = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "puff pastry",
+      "seasoned minced meat",
+      "black-pepper"
     ],
     "basicTaste": [
       "savory",
-      "buttery"
+      "buttery",
+      "salty"
     ],
     "textureProfile": [
       "flaky pastry",
-      "soft filling"
+      "soft meat filling",
+      "warm center"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-dairy",
-      "contains-egg"
+      "contains-egg",
+      "contains-dairy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pastry"
+      "quick-meal",
+      "bakery"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, buttery profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、buttery的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, buttery je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A filling bakery snack; ask meat type if pork matters.",
+      "zh": "很顶饱的烘焙小吃；介意猪肉时确认肉馅类型。",
+      "nl": "Een vullende bakkerssnack; vraag naar vleessoort als varkensvlees uitmaakt."
     },
+    "confidenceTag": "audited-dutch-batch-008",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -5069,105 +5061,109 @@ const europeDepthDishConfigs = [
     "metadataCode": "102051",
     "cuisineId": "dutch",
     "names": {
-      "en": "Kaassouffle",
+      "en": "Kaassoufflé",
       "zh": "荷兰炸奶酪酥",
-      "nl": "Kaassouffle",
-      "local": "Kaassouffle"
+      "nl": "Kaassoufflé",
+      "local": "Kaassoufflé"
     },
-    "category": "fried",
+    "category": "fried-snack",
     "cookingMethods": [
-      "fried"
+      "deep-fried"
     ],
     "shortDescription": {
-      "en": "Kaassouffle is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰炸奶酪酥是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Kaassouffle is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A deep-fried Dutch cheese pastry with a crisp outside and molten cheese inside.",
+      "zh": "荷兰炸奶酪酥，外壳酥脆，里面是融化奶酪。",
+      "nl": "Een gefrituurde kaassnack met krokante buitenkant en gesmolten kaas binnenin."
     },
     "cookingProfile": {
-      "en": "Usually served with fried snack or main, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fried snack or main，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fried snack or main; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is a hot fried snack, so the cheese can be stretchy and very hot.",
+      "zh": "这是热的炸小吃，里面奶酪会拉丝且很烫。",
+      "nl": "Een hete gefrituurde snack, met rekbare en zeer hete kaas."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "street-food",
+        "vegetarian"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Dutch snack-bar vegetarian-leaning alternative to meat snacks.",
+        "zh": "荷兰小吃店里常见的偏素奶酪炸物，常替代肉类炸物。",
+        "nl": "Een snackbaralternatief zonder vlees, gericht op kaas."
       }
     },
     "composition": [
       [
-        "wheat-flour",
+        "cheese",
+        55,
+        "filling"
+      ],
+      [
+        "pastry-crust",
         25,
+        "wrapper"
+      ],
+      [
+        "bread",
+        10,
         "coating"
       ],
       [
-        "potato",
-        25,
-        "body"
-      ],
-      [
-        "fish-fillet",
-        20,
-        "main"
-      ],
-      [
         "egg",
-        10,
-        "binder"
+        5,
+        "coating"
       ],
       [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
-        "sea-salt",
-        10,
+        "mustard",
+        5,
+        "dip",
         "seasoning",
-        "seasoning"
+        "high",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "melted cheese",
+      "fried pastry",
+      "mustard"
     ],
     "basicTaste": [
-      "savory",
-      "rich"
-    ],
-    "textureProfile": [
-      "crisp outside",
-      "soft center"
-    ],
-    "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-fish"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
+      "salty",
+      "creamy",
       "fried"
     ],
+    "textureProfile": [
+      "crisp shell",
+      "molten cheese",
+      "hot center"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-gluten",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "street-food",
+      "vegetarian"
+    ],
     "avoidIfTags": [
-      "gluten-free"
+      "dairy-free",
+      "gluten-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you want a vegetarian fried snack; not light and the filling is hot.",
+      "zh": "想吃素向炸小吃时适合；不清淡，而且内馅很烫。",
+      "nl": "Goed voor een vegetarische gefrituurde snack; niet licht en de vulling is heet."
     },
+    "confidenceTag": "audited-dutch-batch-008",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -5281,104 +5277,101 @@ const europeDepthDishConfigs = [
     "cuisineId": "dutch",
     "names": {
       "en": "Tompouce",
-      "zh": "荷兰粉色奶油千层",
+      "zh": "粉色糖霜奶油酥皮",
       "nl": "Tompouce",
       "local": "Tompouce"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "layered"
     ],
     "shortDescription": {
-      "en": "Tompouce is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰粉色奶油千层是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Tompouce is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Dutch rectangular pastry with puff pastry layers, thick vanilla custard, and pink icing.",
+      "zh": "荷兰长方形酥皮甜点，夹厚厚香草卡仕达，上面是粉色糖霜。",
+      "nl": "Rechthoekig gebak met bladerdeeg, dikke banketbakkersroom en roze glazuur."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is messy, creamy, and sweet, with crisp pastry layers around a thick custard center.",
+      "zh": "吃起来容易散，奶油感强且很甜，酥皮夹着厚卡仕达。",
+      "nl": "Romig, zoet en rommelig, met krokant deeg rond dikke room."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "dessert",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Dutch bakery and supermarket pastry classic, especially recognizable by pink icing.",
+        "zh": "荷兰烘焙店和超市经典甜点，粉色糖霜很有辨识度。",
+        "nl": "Een klassieker bij bakker en supermarkt, herkenbaar aan roze glazuur."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "pastry-crust",
+        35,
+        "puff pastry"
+      ],
+      [
+        "vanilla-custard",
+        40,
+        "filling"
+      ],
+      [
+        "pink-icing",
+        15,
+        "top"
       ],
       [
         "sugar",
-        20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
         10,
-        "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "sweetness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "vanilla-custard",
+      "pink-icing",
+      "puff pastry"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "vanilla"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "crisp pastry",
+      "thick custard",
+      "sticky icing"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "classic-dish"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a very Dutch cream pastry; expect sweetness and a messy bite.",
+      "zh": "想吃很荷兰的奶油酥皮甜点时选它；会很甜，也不太好优雅地吃。",
+      "nl": "Kies dit voor heel Nederlands roomgebak; verwacht zoet en morsig eten."
     },
+    "confidenceTag": "audited-dutch-batch-008",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "low"
   },
   {
     "id": "boterkoek",

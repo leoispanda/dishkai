@@ -8667,91 +8667,94 @@ export const expandedDishes = [
       "local": "Kroket"
     },
     "category": "fried-snack",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
     "cookingMethods": [
       "deep-fried"
     ],
     "shortDescription": {
-      "en": "Crisp fried roll with creamy ragout filling, often beef or veal.",
-      "zh": "荷兰炸肉卷 是常见荷兰菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Kroket is een veelvoorkomend gerecht in de nederlands keuken, beschreven voor snelle bestelkeuzes."
+      "en": "A crisp fried Dutch croquette with hot ragout filling, usually eaten with mustard or in bread.",
+      "zh": "荷兰炸肉卷，外壳酥脆，里面是热的浓稠肉酱，常配芥末或夹面包。",
+      "nl": "Een krokante gefrituurde kroket met hete ragoutvulling, meestal met mosterd of op brood."
     },
     "cookingProfile": {
-      "en": "Usually served as a fried snack with a crisp outside, savory center feel.",
-      "zh": "通常以fried-snack形式上桌，重点体验是crisp outside。",
-      "nl": "Meestal geserveerd als fried snack met een crisp outside gevoel."
+      "en": "It has a crunchy shell and very hot creamy center, so it feels heavier than a simple snack.",
+      "zh": "外壳酥脆，内馅很烫且浓稠，比普通小吃更有分量。",
+      "nl": "Krokante korst en zeer hete romige kern, dus zwaarder dan een simpele snack."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "street-food"
       ],
       "description": {
-        "en": "A high-frequency Dutch menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频荷兰菜菜品。",
-        "nl": "Een vaak voorkomend nederlands menu-item voor bredere restaurantdekking."
+        "en": "A Dutch snack-bar staple and close relative of bitterballen.",
+        "zh": "荷兰小吃店经典，和 bitterballen 属于同一肉酱炸物家族。",
+        "nl": "Een Nederlandse snackbar-klassieker en verwant aan bitterballen."
       }
     },
     "composition": [
       [
-        "fried-chicken",
-        45,
-        "main"
+        "beef-ragout",
+        55,
+        "filling"
       ],
       [
-        "wheat-flour",
+        "bread",
         25,
         "coating"
       ],
       [
         "egg",
         10,
-        "binder"
+        "coating"
       ],
       [
         "mustard",
         10,
         "dip",
         "seasoning"
-      ],
-      [
-        "fries",
-        10,
-        "side"
       ]
     ],
     "distinctiveFlavorSources": [
-      "mustard",
-      "butter",
-      "sea-salt"
+      "beef-ragout",
+      "mustard"
     ],
     "basicTaste": [
       "savory",
+      "creamy",
       "salty"
     ],
     "textureProfile": [
-      "crisp outside",
-      "savory center"
+      "crisp shell",
+      "hot creamy filling"
     ],
     "riskFlags": [
       "contains-gluten",
+      "contains-egg",
       "contains-dairy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
+      "street-food",
       "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
+    ],
     "orderVerdict": {
-      "en": "Classic Dutch snack; avoid if dairy or gluten is a concern.",
-      "zh": "如果你接受这类口味和风险，荷兰炸肉卷 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A safe Dutch snack choice; bite carefully because the filling can be very hot.",
+      "zh": "很稳的荷兰小吃选择；内馅很烫，吃的时候小心。",
+      "nl": "Een veilige Nederlandse snackkeuze; voorzichtig happen door de hete vulling."
     },
+    "confidenceTag": "audited-dutch-batch-008",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -8765,90 +8768,101 @@ export const expandedDishes = [
       "local": "Patat"
     },
     "category": "fried-snack",
+    "mealRole": "side",
+    "portionType": "side",
+    "goodForSharing": true,
     "cookingMethods": [
       "deep-fried"
     ],
     "shortDescription": {
-      "en": "Dutch fries usually served with mayonnaise or other sauces.",
-      "zh": "荷兰薯条 是常见荷兰菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Patat is een veelvoorkomend gerecht in de nederlands keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Dutch fries, usually thick-cut and served with mayonnaise or snack-bar sauces.",
+      "zh": "荷兰薯条，通常偏粗，常配蛋黄酱或小吃店酱料。",
+      "nl": "Nederlandse friet, meestal dikker gesneden en geserveerd met mayo of snackbarsaus."
     },
     "cookingProfile": {
-      "en": "Usually served as a fried snack with a crisp outside, savory center feel.",
-      "zh": "通常以fried-snack形式上桌，重点体验是crisp outside。",
-      "nl": "Meestal geserveerd als fried snack met een crisp outside gevoel."
+      "en": "Expect crisp edges, fluffy potato, and a sauce-heavy snack-bar feel.",
+      "zh": "外缘酥脆、内部松软，整体是酱料感很强的小吃店风格。",
+      "nl": "Krokante randjes, zachte aardappel en een snackbargevoel met saus."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "street-food",
+        "side"
       ],
       "description": {
-        "en": "A high-frequency Dutch menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频荷兰菜菜品。",
-        "nl": "Een vaak voorkomend nederlands menu-item voor bredere restaurantdekking."
+        "en": "A basic Dutch snack-bar side, often ordered with fried snacks.",
+        "zh": "荷兰小吃店基础配菜，常和炸物一起点。",
+        "nl": "Een basisbijgerecht uit de Nederlandse snackbar, vaak bij gefrituurde snacks."
       }
     },
     "composition": [
       [
-        "fried-chicken",
-        45,
-        "main"
+        "fries",
+        75,
+        "base"
       ],
       [
-        "wheat-flour",
-        25,
-        "coating"
-      ],
-      [
-        "egg",
+        "mayonnaise",
         10,
-        "binder"
+        "sauce"
       ],
       [
         "mustard",
-        10,
-        "dip",
-        "seasoning"
+        5,
+        "optional sauce",
+        "seasoning",
+        "high",
+        true
       ],
       [
-        "fries",
+        "curry-ketchup",
         10,
-        "side"
+        "optional sauce",
+        "seasoning",
+        "high",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "mustard",
-      "butter",
-      "sea-salt"
+      "fries",
+      "mayonnaise-style sauce"
     ],
     "basicTaste": [
+      "salty",
       "savory",
-      "salty"
+      "mild"
     ],
     "textureProfile": [
-      "crisp outside",
-      "savory center"
+      "crisp edges",
+      "fluffy potato",
+      "creamy dip"
     ],
     "riskFlags": [
-      "contains-gluten"
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "side",
+      "street-food",
+      "sharing"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "wants-light-food",
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "Safe snack if you want something familiar; sauce changes the risk.",
-      "zh": "如果你接受这类口味和风险，荷兰薯条 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good as a side or snack; sauce choice changes the heaviness quickly.",
+      "zh": "适合作配菜或小吃；酱料会很快增加厚重感。",
+      "nl": "Goed als bijgerecht of snack; de saus maakt het snel zwaarder."
     },
+    "confidenceTag": "audited-dutch-batch-008",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -8857,98 +8871,111 @@ export const expandedDishes = [
     "cuisineId": "dutch",
     "names": {
       "en": "Kapsalon",
-      "zh": "荷兰烤肉薯条盒",
+      "zh": "荷兰卡普萨龙薯条盒",
       "nl": "Kapsalon",
       "local": "Kapsalon"
     },
-    "category": "fried-snack",
+    "category": "street-food",
     "cookingMethods": [
-      "deep-fried"
+      "fried",
+      "baked"
     ],
     "shortDescription": {
-      "en": "Fries topped with shawarma-style meat, cheese, salad, and garlic sauce.",
-      "zh": "荷兰烤肉薯条盒 是常见荷兰菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Kapsalon is een veelvoorkomend gerecht in de nederlands keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Loaded fries topped with shawarma meat, melted cheese, salad, garlic sauce, and sambal.",
+      "zh": "薯条上铺沙威玛肉、融化奶酪、沙拉、蒜味酱和参巴辣酱。",
+      "nl": "Friet met shoarmavlees, gesmolten kaas, salade, knoflooksaus en sambal."
     },
     "cookingProfile": {
-      "en": "Usually served as a fried snack with a crisp outside, savory center feel.",
-      "zh": "通常以fried-snack形式上桌，重点体验是crisp outside。",
-      "nl": "Meestal geserveerd als fried snack met een crisp outside gevoel."
+      "en": "It is hot, layered, saucy, and very filling, with fresh salad only as a small contrast.",
+      "zh": "热、层次多、酱料重、很顶饱，生菜只是小小平衡。",
+      "nl": "Warm, gelaagd, sauzig en zeer vullend, met salade als kleine frisse tegenhanger."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "modern",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "street-food",
+        "modern"
       ],
       "description": {
-        "en": "A high-frequency Dutch menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频荷兰菜菜品。",
-        "nl": "Een vaak voorkomend nederlands menu-item voor bredere restaurantdekking."
+        "en": "A modern Dutch snack-bar icon associated with Rotterdam and late-night eating.",
+        "zh": "现代荷兰小吃店代表，常和鹿特丹及夜宵联系在一起。",
+        "nl": "Een moderne Nederlandse snackbar-icoon, verbonden met Rotterdam en late trek."
       }
     },
     "composition": [
       [
-        "fried-chicken",
-        45,
-        "main"
-      ],
-      [
-        "wheat-flour",
-        25,
-        "coating"
-      ],
-      [
-        "egg",
-        10,
-        "binder"
-      ],
-      [
-        "mustard",
-        10,
-        "dip",
-        "seasoning"
-      ],
-      [
         "fries",
+        35,
+        "base"
+      ],
+      [
+        "shawarma-meat",
+        25,
+        "protein"
+      ],
+      [
+        "cheese",
+        15,
+        "melted topping"
+      ],
+      [
+        "garlic-sauce",
         10,
-        "side"
+        "sauce"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "salad"
+      ],
+      [
+        "sambal",
+        5,
+        "heat",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "mustard",
-      "butter",
-      "sea-salt"
+      "shawarma-meat",
+      "garlic-sauce",
+      "sambal"
     ],
     "basicTaste": [
       "savory",
-      "salty"
+      "creamy",
+      "salty",
+      "spicy"
     ],
     "textureProfile": [
-      "crisp outside",
-      "savory center"
+      "soft loaded fries",
+      "melted cheese",
+      "fresh salad crunch"
     ],
     "riskFlags": [
+      "contains-dairy",
       "contains-gluten",
-      "contains-dairy"
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "street-food",
+      "late-night"
     ],
     "avoidIfTags": [
-      "wants-light-food"
+      "dairy-free",
+      "wants-light-food",
+      "avoids-spicy"
     ],
     "orderVerdict": {
-      "en": "Very heavy comfort food; good late-night style order, not light.",
-      "zh": "如果你接受这类口味和风险，荷兰烤肉薯条盒 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Order it for a heavy late-night comfort box; avoid if you want a neat or light meal.",
+      "zh": "想吃厚重夜宵盒饭时很适合；想吃清爽或精致餐时避开。",
+      "nl": "Kies dit voor zware late-night comfort; vermijd bij licht of netjes eten."
     },
-    "spiceLevel": 1,
+    "confidenceTag": "audited-dutch-batch-008",
+    "spiceLevel": 2,
     "weightLevel": 5,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -8957,98 +8984,108 @@ export const expandedDishes = [
     "cuisineId": "dutch",
     "names": {
       "en": "Pannenkoeken",
-      "zh": "荷兰煎饼",
+      "zh": "荷兰大煎饼",
       "nl": "Pannenkoeken",
       "local": "Pannenkoeken"
     },
-    "category": "dessert",
+    "category": "pancake",
+    "goodForSharing": true,
     "cookingMethods": [
-      "chilled"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Large Dutch pancakes served sweet or savory.",
-      "zh": "荷兰煎饼 是常见荷兰菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Pannenkoeken is een veelvoorkomend gerecht in de nederlands keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Large Dutch pancakes, thinner than American pancakes and often served sweet or savory.",
+      "zh": "荷兰大煎饼，比美式松饼薄，可做甜口或咸口。",
+      "nl": "Grote Nederlandse pannenkoeken, dunner dan American pancakes, zoet of hartig."
     },
     "cookingProfile": {
-      "en": "Usually served as a dessert with a sweet, soft feel.",
-      "zh": "通常以dessert形式上桌，重点体验是sweet。",
-      "nl": "Meestal geserveerd als dessert met een sweet gevoel."
+      "en": "They are pan-cooked wide and thin, so toppings define whether the dish feels like dessert or a meal.",
+      "zh": "宽而薄地煎成，最终像甜点还是正餐主要看配料。",
+      "nl": "Breed en dun gebakken; toppings bepalen of het dessert of maaltijd wordt."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "family-friendly"
       ],
       "description": {
-        "en": "A high-frequency Dutch menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频荷兰菜菜品。",
-        "nl": "Een vaak voorkomend nederlands menu-item voor bredere restaurantdekking."
+        "en": "A Dutch pancake-house staple, common for casual meals with many toppings.",
+        "zh": "荷兰煎饼屋常见主打，适合休闲餐和多种配料。",
+        "nl": "Een klassieker van pannenkoekenhuizen, met veel toppings."
       }
     },
     "composition": [
       [
-        "cream",
-        35,
+        "pancake-batter",
+        70,
         "base"
+      ],
+      [
+        "butter",
+        10,
+        "cooking richness"
       ],
       [
         "sugar",
-        25,
-        "sweetener"
-      ],
-      [
-        "wheat-flour",
-        20,
-        "base"
-      ],
-      [
-        "egg",
         10,
-        "binder"
+        "sweet topping",
+        "ingredient",
+        "medium",
+        true
       ],
       [
-        "vanilla",
+        "bacon",
         10,
-        "aroma",
-        "seasoning"
+        "savory topping",
+        "ingredient",
+        "medium",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "mustard",
+      "pancake-batter",
       "butter",
-      "sea-salt"
+      "sweet or savory toppings"
     ],
     "basicTaste": [
-      "sweet",
-      "creamy"
+      "mild",
+      "buttery",
+      "sweet-or-savory"
     ],
     "textureProfile": [
-      "sweet",
-      "soft"
+      "thin pancake",
+      "soft center",
+      "light browned surface"
     ],
     "riskFlags": [
-      "contains-dairy",
+      "contains-gluten",
       "contains-egg",
-      "contains-gluten"
+      "contains-dairy",
+      "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "first-timer-friendly",
+      "family-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free",
+      "no-pork"
+    ],
     "orderVerdict": {
-      "en": "Flexible but filling; topping decides whether dessert or meal.",
-      "zh": "如果你接受这类口味和风险，荷兰煎饼 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A flexible safe choice; check toppings because sweet and bacon versions feel very different.",
+      "zh": "很灵活稳妥；要看配料，甜口和培根咸口差异很大。",
+      "nl": "Een flexibele veilige keuze; let op toppings, zoet en spek verschillen sterk."
     },
+    "confidenceTag": "audited-dutch-batch-008",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "high"
   }),
   starterDish({
     "id": "uitsmijter",
@@ -9060,94 +9097,104 @@ export const expandedDishes = [
       "nl": "Uitsmijter",
       "local": "Uitsmijter"
     },
-    "category": "bread",
+    "category": "lunch",
     "cookingMethods": [
-      "baked"
+      "fried",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Open sandwich with fried eggs, often ham and cheese.",
-      "zh": "荷兰煎蛋开放三明治 是常见荷兰菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Uitsmijter is een veelvoorkomend gerecht in de nederlands keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Open-faced bread topped with fried eggs, usually with ham and/or cheese.",
+      "zh": "开放式面包上放煎蛋，通常还会有火腿和/或奶酪。",
+      "nl": "Open boterhammen met gebakken eieren, meestal met ham en/of kaas."
     },
     "cookingProfile": {
-      "en": "Usually served as a bread with a bready, chewy or crisp feel.",
-      "zh": "通常以bread形式上桌，重点体验是bready。",
-      "nl": "Meestal geserveerd als bread met een bready gevoel."
+      "en": "It is simple café food: warm eggs over bread, filling but not saucy.",
+      "zh": "这是简单咖啡馆午餐，热煎蛋盖在面包上，顶饱但不多汁。",
+      "nl": "Eenvoudige cafélunch: warme eieren op brood, vullend maar niet sauzig."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "lunch",
+        "cafe"
       ],
       "description": {
-        "en": "A high-frequency Dutch menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频荷兰菜菜品。",
-        "nl": "Een vaak voorkomend nederlands menu-item voor bredere restaurantdekking."
+        "en": "A common Dutch lunch-café dish, especially on simple daytime menus.",
+        "zh": "荷兰午餐咖啡馆常见菜，尤其常见于白天简餐菜单。",
+        "nl": "Een veelvoorkomende Nederlandse lunchcafékeuze."
       }
     },
     "composition": [
       [
         "bread",
-        65,
+        35,
         "base"
       ],
       [
-        "butter",
+        "egg",
+        35,
+        "topping"
+      ],
+      [
+        "ham",
         15,
-        "richness"
+        "protein"
       ],
       [
         "cheese",
         10,
-        "topping"
+        "optional topping",
+        "ingredient",
+        "medium",
+        true
       ],
       [
-        "sea-salt",
+        "butter",
         5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "herbs",
-        5,
-        "aroma"
+        "cooking richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "mustard",
-      "butter",
-      "sea-salt"
+      "fried egg",
+      "ham",
+      "bread"
     ],
     "basicTaste": [
-      "salty",
-      "mild"
+      "savory",
+      "mild",
+      "eggy"
     ],
     "textureProfile": [
-      "bready",
-      "chewy or crisp"
+      "runny or firm yolk",
+      "soft bread",
+      "salty ham"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
-      "contains-pork",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
+      "lunch",
       "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "gluten-free",
+      "no-pork"
+    ],
     "orderVerdict": {
-      "en": "Good brunch choice; watch egg, gluten, dairy, and pork.",
-      "zh": "如果你接受这类口味和风险，荷兰煎蛋开放三明治 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A straightforward lunch if eggs sound good; confirm ham/cheese if you have restrictions.",
+      "zh": "想吃鸡蛋午餐时很直接；有饮食限制时确认是否有火腿和奶酪。",
+      "nl": "Een duidelijke lunch als eieren goed klinken; check ham/kaas bij dieetwensen."
     },
+    "confidenceTag": "audited-dutch-batch-008",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -9162,91 +9209,111 @@ export const expandedDishes = [
     },
     "category": "dessert",
     "cookingMethods": [
-      "chilled"
+      "baked"
     ],
     "shortDescription": {
-      "en": "Dutch apple pie with spiced apple filling and pastry crust.",
-      "zh": "荷兰苹果派 是常见荷兰菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Appeltaart is een veelvoorkomend gerecht in de nederlands keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Dutch apple pie with a thick crust, cinnamon apple filling, and often whipped cream.",
+      "zh": "荷兰苹果派，厚派皮包肉桂苹果馅，常配打发奶油。",
+      "nl": "Nederlandse appeltaart met dikke korst, kaneelappelvulling en vaak slagroom."
     },
     "cookingProfile": {
-      "en": "Usually served as a dessert with a sweet, soft feel.",
-      "zh": "通常以dessert形式上桌，重点体验是sweet。",
-      "nl": "Meestal geserveerd als dessert met een sweet gevoel."
+      "en": "It is more rustic and chunky than a thin tart, with warm spice and soft apples.",
+      "zh": "比薄塔更厚实质朴，苹果块柔软，肉桂暖香明显。",
+      "nl": "Steviger en rustieker dan een dunne taart, met warme specerij en zachte appel."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A high-frequency Dutch menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频荷兰菜菜品。",
-        "nl": "Een vaak voorkomend nederlands menu-item voor bredere restaurantdekking."
+        "en": "A Dutch café dessert classic, often ordered with coffee.",
+        "zh": "荷兰咖啡馆经典甜点，常和咖啡一起点。",
+        "nl": "Een Nederlandse caféklassieker, vaak bij koffie."
       }
     },
     "composition": [
       [
-        "cream",
-        35,
-        "base"
+        "apple",
+        45,
+        "filling"
+      ],
+      [
+        "pastry-crust",
+        30,
+        "crust"
       ],
       [
         "sugar",
-        25,
-        "sweetener"
-      ],
-      [
-        "wheat-flour",
-        20,
-        "base"
-      ],
-      [
-        "egg",
         10,
-        "binder"
+        "sweetness"
       ],
       [
-        "vanilla",
-        10,
-        "aroma",
+        "raisins",
+        5,
+        "filling",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "cinnamon",
+        5,
+        "warm spice",
         "seasoning"
+      ],
+      [
+        "cream",
+        5,
+        "optional side",
+        "ingredient",
+        "medium",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "mustard",
-      "butter",
-      "sea-salt"
+      "apple",
+      "cinnamon",
+      "buttery crust"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "fruity",
+      "warm-spiced"
     ],
     "textureProfile": [
-      "sweet",
-      "soft"
+      "chunky apples",
+      "crumbly crust",
+      "soft cream"
     ],
     "riskFlags": [
+      "contains-gluten",
       "contains-dairy",
-      "contains-egg",
-      "contains-gluten"
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "common-menu-item",
+      "dessert",
       "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "A reliable café dessert, often good with coffee.",
-      "zh": "如果你接受这类口味和风险，荷兰苹果派 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A safe café dessert if you want fruit and cinnamon rather than chocolate.",
+      "zh": "想吃水果和肉桂风味而不是巧克力时，这个甜点很稳。",
+      "nl": "Een veilige cafédessertkeuze voor fruit en kaneel in plaats van chocolade."
     },
+    "confidenceTag": "audited-dutch-batch-008",
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -9261,91 +9328,95 @@ export const expandedDishes = [
     },
     "category": "seafood",
     "cookingMethods": [
-      "assembled"
+      "deep-fried"
     ],
     "shortDescription": {
-      "en": "Battered fried white fish pieces with sauce.",
-      "zh": "荷兰炸鱼块 是常见荷兰菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Kibbeling is een veelvoorkomend gerecht in de nederlands keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Battered fried white fish chunks, usually served with garlic sauce, remoulade, or ravigotte.",
+      "zh": "裹面糊炸的白鱼块，常配蒜味酱、酸黄瓜蛋黄酱或荷兰鱼酱。",
+      "nl": "Gefrituurde stukjes witte vis in beslag, vaak met knoflooksaus, remoulade of ravigotte."
     },
     "cookingProfile": {
-      "en": "Usually served as a seafood with a tender seafood, fresh finish feel.",
-      "zh": "通常以seafood形式上桌，重点体验是tender seafood。",
-      "nl": "Meestal geserveerd als seafood met een tender seafood gevoel."
+      "en": "Small pieces fry crisp outside while the fish stays flaky and moist inside.",
+      "zh": "小鱼块外层酥脆，里面鱼肉细嫩多汁。",
+      "nl": "Kleine stukjes worden krokant, met vlokkige sappige vis binnenin."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "seafood",
+        "street-food"
       ],
       "description": {
-        "en": "A high-frequency Dutch menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频荷兰菜菜品。",
-        "nl": "Een vaak voorkomend nederlands menu-item voor bredere restaurantdekking."
+        "en": "A Dutch fish-shop snack, usually eaten casually rather than as a plated main.",
+        "zh": "荷兰鱼店常见小吃，通常是休闲小食而不是精致主菜。",
+        "nl": "Een Nederlandse vishandelsnack, meestal informeel gegeten."
       }
     },
     "composition": [
       [
-        "raw-fish",
-        45,
-        "main"
+        "fish-fillet",
+        60,
+        "fish"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "side"
+        "tempura-batter",
+        25,
+        "batter"
       ],
       [
-        "steamed-rice",
-        20,
-        "base"
+        "remoulade-sauce",
+        10,
+        "dip",
+        "seasoning"
       ],
       [
         "lemon",
-        10,
-        "finish"
-      ],
-      [
-        "olive-oil",
         5,
-        "finish",
-        "seasoning"
+        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "mustard",
-      "butter",
-      "sea-salt"
+      "fried white fish",
+      "remoulade-sauce",
+      "lemon"
     ],
     "basicTaste": [
+      "savory",
       "briny",
-      "fresh",
-      "savory"
+      "creamy"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "crisp batter",
+      "flaky fish",
+      "creamy dip"
     ],
     "riskFlags": [
       "contains-fish",
-      "contains-gluten"
+      "contains-gluten",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "seafood",
+      "street-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "avoids-fish",
+      "gluten-free",
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "Good if you want crispy fish; avoid if fish or gluten is a concern.",
-      "zh": "如果你接受这类口味和风险，荷兰炸鱼块 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A friendly fried fish snack; choose lekkerbekje instead if you want one larger fillet.",
+      "zh": "很亲民的炸鱼小吃；想吃整块大鱼排则选 lekkerbekje。",
+      "nl": "Een toegankelijke gebakken vissnack; kies lekkerbekje voor één grotere filet."
     },
+    "confidenceTag": "audited-dutch-batch-008",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -9363,87 +9434,88 @@ export const expandedDishes = [
       "deep-fried"
     ],
     "shortDescription": {
-      "en": "Deep-fried processed meat sausage, often served with curry ketchup and mayo.",
-      "zh": "荷兰炸肉肠 是常见荷兰菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Frikandel is een veelvoorkomend gerecht in de nederlands keuken, beschreven voor snelle bestelkeuzes."
+      "en": "A long deep-fried Dutch minced-meat snack, often served plain or as frikandel speciaal with sauces and onion.",
+      "zh": "长条形荷兰炸肉肠，可原味，也常做成加酱和洋葱的 speciaal。",
+      "nl": "Een lange gefrituurde gehaktsnack, naturel of als frikandel speciaal met sauzen en ui."
     },
     "cookingProfile": {
-      "en": "Usually served as a fried snack with a crisp outside, savory center feel.",
-      "zh": "通常以fried-snack形式上桌，重点体验是crisp outside。",
-      "nl": "Meestal geserveerd als fried snack met een crisp outside gevoel."
+      "en": "It is soft and processed rather than snappy like bratwurst, with sauce doing much of the flavor work.",
+      "zh": "口感柔软偏加工肉，不像德式香肠那样弹脆，风味很依赖酱料。",
+      "nl": "Zacht en bewerkt, niet knappend als bratwurst; saus bepaalt veel smaak."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "street-food",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Dutch menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频荷兰菜菜品。",
-        "nl": "Een vaak voorkomend nederlands menu-item voor bredere restaurantdekking."
+        "en": "A Dutch snack-bar icon, especially in `speciaal` form.",
+        "zh": "荷兰小吃店代表，尤其常见 speciaal 加酱版本。",
+        "nl": "Een Nederlandse snackbaricoon, vooral als speciaal."
       }
     },
     "composition": [
       [
-        "fried-chicken",
-        45,
+        "frikandel",
+        65,
         "main"
       ],
       [
-        "wheat-flour",
-        25,
-        "coating"
-      ],
-      [
-        "egg",
-        10,
-        "binder"
-      ],
-      [
-        "mustard",
-        10,
-        "dip",
+        "curry-ketchup",
+        15,
+        "sauce",
         "seasoning"
       ],
       [
-        "fries",
+        "mayonnaise",
         10,
-        "side"
+        "sauce"
+      ],
+      [
+        "onion",
+        10,
+        "topping"
       ]
     ],
     "distinctiveFlavorSources": [
-      "mustard",
-      "butter",
-      "sea-salt"
+      "frikandel",
+      "curry-ketchup",
+      "onion"
     ],
     "basicTaste": [
       "savory",
-      "salty"
+      "salty",
+      "sweet-tangy"
     ],
     "textureProfile": [
-      "crisp outside",
-      "savory center"
+      "soft sausage",
+      "glossy sauce",
+      "crisp onion"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-pork"
+      "contains-pork",
+      "contains-egg"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "street-food",
+      "quick-meal"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "no-pork",
+      "avoids-processed-meat"
+    ],
     "orderVerdict": {
-      "en": "Very snack-bar style; filling is meat-based and not refined.",
-      "zh": "如果你接受这类口味和风险，荷兰炸肉肠 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A very Dutch snack-bar order; skip it if processed meat or sweet sauces do not appeal.",
+      "zh": "很荷兰小吃店的点法；不喜欢加工肉或甜口酱时避开。",
+      "nl": "Een echte snackbarbestelling; sla over bij bewerkt vlees of zoete sauzen."
     },
+    "confidenceTag": "audited-dutch-batch-008",
     "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -9452,99 +9524,97 @@ export const expandedDishes = [
     "cuisineId": "dutch",
     "names": {
       "en": "Stroopwafel",
-      "zh": "荷兰焦糖糖浆华夫",
+      "zh": "荷兰焦糖糖浆华夫饼",
       "nl": "Stroopwafel",
       "local": "Stroopwafel"
     },
     "category": "dessert",
     "cookingMethods": [
-      "chilled"
+      "baked"
     ],
     "shortDescription": {
-      "en": "Thin waffle cookies with caramel syrup filling.",
-      "zh": "荷兰焦糖糖浆华夫 是常见荷兰菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Stroopwafel is een veelvoorkomend gerecht in de nederlands keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Thin waffle cookies sandwiched around sticky caramel syrup.",
+      "zh": "薄华夫饼夹黏稠焦糖糖浆，是荷兰经典甜点小吃。",
+      "nl": "Dunne wafels met plakkerige karamelsiroop ertussen."
     },
     "cookingProfile": {
-      "en": "Usually served as a dessert with a sweet, soft feel.",
-      "zh": "通常以dessert形式上桌，重点体验是sweet。",
-      "nl": "Meestal geserveerd als dessert met een sweet gevoel."
+      "en": "It is chewy and sticky rather than fluffy, especially when warmed over coffee.",
+      "zh": "口感偏韧和黏，不是蓬松型，放在咖啡上温热后更软。",
+      "nl": "Taai en plakkerig, niet luchtig, zeker warm boven koffie."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A high-frequency Dutch menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频荷兰菜菜品。",
-        "nl": "Een vaak voorkomend nederlands menu-item voor bredere restaurantdekking."
+        "en": "An internationally known Dutch sweet snack.",
+        "zh": "国际辨识度很高的荷兰甜点小吃。",
+        "nl": "Een internationaal bekende Nederlandse zoete snack."
       }
     },
     "composition": [
       [
-        "cream",
-        35,
+        "stroopwafel",
+        85,
         "base"
       ],
       [
         "sugar",
-        25,
-        "sweetener"
-      ],
-      [
-        "wheat-flour",
-        20,
-        "base"
-      ],
-      [
-        "egg",
         10,
-        "binder"
+        "caramel sweetness"
       ],
       [
-        "vanilla",
-        10,
-        "aroma",
+        "cinnamon",
+        5,
+        "warm spice",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "mustard",
-      "butter",
-      "sea-salt"
+      "caramel syrup",
+      "thin waffle",
+      "cinnamon"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "caramel",
+      "buttery"
     ],
     "textureProfile": [
-      "sweet",
-      "soft"
+      "thin waffle",
+      "sticky syrup center",
+      "chewy bite"
     ],
     "riskFlags": [
+      "contains-gluten",
       "contains-dairy",
-      "contains-egg",
-      "contains-gluten"
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+      "dessert",
+      "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "Sweet snack, good with coffee; not a full dessert plate.",
-      "zh": "如果你接受这类口味和风险，荷兰焦糖糖浆华夫 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A safe sweet snack with coffee; very sugary for a full dessert.",
+      "zh": "配咖啡很稳的小甜点；作为完整甜点会偏甜。",
+      "nl": "Een veilige zoete snack bij koffie; erg zoet als vol dessert."
     },
+    "confidenceTag": "audited-dutch-batch-008",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "low"
   }),
   starterDish({
     "id": "sate",
@@ -9552,96 +9622,110 @@ export const expandedDishes = [
     "cuisineId": "dutch",
     "names": {
       "en": "Saté",
-      "zh": "荷式沙爹",
+      "zh": "荷兰印尼沙嗲",
       "nl": "Saté",
       "local": "Saté"
     },
     "category": "meat",
     "cookingMethods": [
-      "braised"
+      "grilled"
     ],
     "shortDescription": {
-      "en": "Skewered meat with peanut sauce, common in Dutch-Indonesian menus.",
-      "zh": "荷式沙爹 是常见荷兰菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Saté is een veelvoorkomend gerecht in de nederlands keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Dutch-Indonesian grilled meat skewers served with peanut satay sauce.",
+      "zh": "荷兰印尼风烤肉串，通常配花生沙嗲酱。",
+      "nl": "Nederlands-Indonesische vleesspiesjes met pindasaus."
     },
     "cookingProfile": {
-      "en": "Usually served as a meat with a tender meat, rich sauce feel.",
-      "zh": "通常以meat形式上桌，重点体验是tender meat。",
-      "nl": "Meestal geserveerd als meat met een tender meat gevoel."
+      "en": "The meat is grilled and the peanut sauce makes it sweet, nutty, and filling.",
+      "zh": "肉串烤制，花生酱让整体甜香、坚果味明显且有饱腹感。",
+      "nl": "Het vlees is gegrild en de pindasaus maakt het zoet, nootachtig en vullend."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "dutch-indonesian",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Dutch menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频荷兰菜菜品。",
-        "nl": "Een vaak voorkomend nederlands menu-item voor bredere restaurantdekking."
+        "en": "A Dutch-Indonesian menu staple in cafés, snack bars, and eetcafés.",
+        "zh": "荷兰印尼融合菜单常见菜，咖啡馆和小吃店都常见。",
+        "nl": "Een Nederlands-Indonesische menuklassieker in cafés, snackbars en eetcafés."
       }
     },
     "composition": [
       [
-        "beef",
+        "chicken",
         55,
-        "main"
+        "skewers"
       ],
       [
-        "potato",
-        20,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
-        15,
-        "side"
-      ],
-      [
-        "butter",
-        5,
-        "richness"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
+        "satay-sauce",
+        25,
+        "sauce",
         "seasoning"
+      ],
+      [
+        "steamed-rice",
+        10,
+        "side"
+      ],
+      [
+        "prawn-crackers",
+        5,
+        "crisp side",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "sambal",
+        5,
+        "heat",
+        "seasoning",
+        "high",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "mustard",
-      "butter",
-      "sea-salt"
+      "satay-sauce",
+      "grilled meat",
+      "sambal"
     ],
     "basicTaste": [
       "savory",
-      "rich",
-      "umami"
+      "nutty",
+      "sweet",
+      "mildly spicy"
     ],
     "textureProfile": [
-      "tender meat",
-      "rich sauce"
+      "grilled meat",
+      "thick peanut sauce",
+      "crisp crackers"
     ],
     "riskFlags": [
-      "contains-peanut"
+      "contains-peanut",
+      "contains-shellfish",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "dutch-indonesian",
+      "comfort-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "avoids-spicy"
+    ],
     "orderVerdict": {
-      "en": "Great if you like peanut sauce; avoid with peanut allergy.",
-      "zh": "如果你接受这类口味和风险，荷式沙爹 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Great if peanut sauce sounds good; avoid with peanut allergy or if you want a light plate.",
+      "zh": "喜欢花生酱肉串时很适合；花生过敏或想吃清淡时避开。",
+      "nl": "Goed als pindasaus aantrekkelijk klinkt; vermijd bij pinda-allergie of lichte trek."
     },
+    "confidenceTag": "audited-dutch-batch-008",
     "spiceLevel": 1,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -9650,111 +9734,120 @@ export const expandedDishes = [
     "cuisineId": "dutch",
     "names": {
       "en": "Rijsttafel",
-      "zh": "印尼风味饭桌",
+      "zh": "荷兰印尼米饭拼盘",
       "nl": "Rijsttafel",
       "local": "Rijsttafel"
     },
-    "category": "rice",
+    "category": "shared-set",
+    "portionType": "shareable",
+    "goodForSharing": true,
     "cookingMethods": [
-      "stir-fried"
+      "assembled"
     ],
     "shortDescription": {
-      "en": "A spread of many small Indonesian-influenced dishes served with rice.",
-      "zh": "印尼风味饭桌 是常见荷兰菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Rijsttafel is een veelvoorkomend gerecht in de nederlands keuken, beschreven voor snelle bestelkeuzes."
+      "en": "A Dutch-Indonesian rice table with many small dishes around rice.",
+      "zh": "荷兰印尼米饭拼盘，以米饭为中心，搭配多种小菜。",
+      "nl": "Een Nederlands-Indonesische rijsttafel met veel kleine gerechten rond rijst."
     },
     "cookingProfile": {
-      "en": "Usually served as a rice with a soft rice, mixed toppings feel.",
-      "zh": "通常以rice形式上桌，重点体验是soft rice。",
-      "nl": "Meestal geserveerd als rice met een soft rice gevoel."
+      "en": "It is a shared spread, so expect variety, sauces, and several spice levels rather than one single dish.",
+      "zh": "这是分享式组合餐，会有多种小菜和酱料，辣度也可能不一。",
+      "nl": "Een gedeelde spread met variatie, sauzen en verschillende pittigheden."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item"
+        "dutch-indonesian",
+        "sharing"
       ],
       "description": {
-        "en": "A high-frequency Dutch menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频荷兰菜菜品。",
-        "nl": "Een vaak voorkomend nederlands menu-item voor bredere restaurantdekking."
+        "en": "A Dutch colonial-era Indonesian dining format still common in Dutch-Indonesian restaurants.",
+        "zh": "荷兰印尼餐厅常见的印尼菜组合形式，带有殖民时代饮食背景。",
+        "nl": "Een Indonesische eetvorm uit koloniale context, nog veel gezien in Nederlands-Indonesische restaurants."
       }
     },
     "composition": [
       [
         "steamed-rice",
-        55,
+        25,
         "base"
       ],
       [
-        "mixed-vegetables",
+        "chicken",
         20,
-        "body"
+        "one of several dishes"
       ],
       [
-        "egg",
-        10,
-        "topping"
+        "beef",
+        15,
+        "one of several dishes"
       ],
       [
-        "soy-sauce",
+        "mixed-vegetables",
+        15,
+        "vegetable dishes"
+      ],
+      [
+        "satay-sauce",
         10,
-        "seasoning",
+        "sauce",
         "seasoning"
       ],
       [
-        "green-onion",
+        "sambal",
         5,
-        "finish"
+        "chili condiment",
+        "seasoning"
+      ],
+      [
+        "prawn-crackers",
+        10,
+        "crisp side"
       ]
     ],
     "distinctiveFlavorSources": [
-      "mustard",
-      "butter",
-      "sea-salt"
+      "satay-sauce",
+      "sambal",
+      "ketjap-manis"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "sweet",
+      "spicy",
+      "varied"
     ],
     "textureProfile": [
+      "multiple small dishes",
       "soft rice",
-      "mixed toppings"
+      "crisp crackers"
     ],
     "riskFlags": [
       "contains-peanut",
-      "contains-soy"
+      "contains-shellfish",
+      "contains-soy",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item"
+      "sharing",
+      "dutch-indonesian"
     ],
     "avoidIfTags": [
-      "wants-light-food"
+      "peanut-allergy",
+      "avoids-spicy",
+      "wants-simple-dish"
     ],
     "orderVerdict": {
-      "en": "Good for sharing and sampling; allergens and spice vary widely.",
-      "zh": "如果你接受这类口味和风险，印尼风味饭桌 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Best when sharing and exploring; less ideal if you need one predictable, allergen-simple dish.",
+      "zh": "适合分享和尝试多种味道；如果需要单一、过敏风险简单的菜则不理想。",
+      "nl": "Het best om te delen en te ontdekken; minder handig bij één voorspelbaar allergenarm gerecht."
     },
+    "confidenceTag": "audited-dutch-batch-008",
     "spiceLevel": 2,
     "weightLevel": 4,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "high",
-    "commonVariations": [
-      {
-        "label": {
-          "en": "restaurant variation",
-          "zh": "常见变体",
-          "nl": "restaurantvariant"
-        },
-        "note": {
-          "en": "Often adapted from Indonesian-Dutch dining; dishes and spice vary by restaurant.",
-          "zh": "常见于荷兰-印尼餐饮场景，菜品组合和辣度因餐厅差异很大。",
-          "nl": "Vaak Nederlands-Indisch aangepast; gerechten en pittigheid verschillen per restaurant."
-        }
-      }
-    ]
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "high"
   }),
   starterDish({
     "id": "hachee",
@@ -9771,25 +9864,25 @@ export const expandedDishes = [
       "braised"
     ],
     "shortDescription": {
-      "en": "Dutch beef and onion stew with sweet-sour depth.",
-      "zh": "荷兰洋葱炖牛肉 是常见荷兰菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Hachee is een veelvoorkomend gerecht in de nederlands keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Dutch beef and onion stew with a sweet-sour brown gravy, often served with potatoes or red cabbage.",
+      "zh": "荷兰洋葱炖牛肉，深色肉汁带酸甜味，常配土豆或红甘蓝。",
+      "nl": "Nederlandse rund-ui stoof met zoetzure bruine jus, vaak met aardappel of rode kool."
     },
     "cookingProfile": {
-      "en": "Usually served as a meat with a tender meat, rich sauce feel.",
-      "zh": "通常以meat形式上桌，重点体验是tender meat。",
-      "nl": "Meestal geserveerd als meat met een tender meat gevoel."
+      "en": "It is slow-braised, giving tender beef and soft onions in a gravy-like sauce.",
+      "zh": "慢炖让牛肉软嫩，洋葱融进肉汁，整体酱汁感明显。",
+      "nl": "Lang gestoofd, met mals rund en zachte ui in jusachtige saus."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency Dutch menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频荷兰菜菜品。",
-        "nl": "Een vaak voorkomend nederlands menu-item voor bredere restaurantdekking."
+        "en": "A Dutch home-style stew, especially common in colder months.",
+        "zh": "荷兰家常炖菜，冷天尤其常见。",
+        "nl": "Een Nederlandse huiselijke stoof, vooral in koude maanden."
       }
     },
     "composition": [
@@ -9799,19 +9892,20 @@ export const expandedDishes = [
         "main"
       ],
       [
-        "potato",
-        20,
-        "side"
+        "onion",
+        25,
+        "sauce body"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "side"
-      ],
-      [
-        "butter",
+        "vinegar",
         5,
-        "richness"
+        "sweet-sour balance",
+        "seasoning"
+      ],
+      [
+        "red-cabbage",
+        10,
+        "side"
       ],
       [
         "black-pepper",
@@ -9821,35 +9915,39 @@ export const expandedDishes = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "mustard",
-      "butter",
-      "sea-salt"
+      "onion",
+      "vinegar",
+      "braised beef"
     ],
     "basicTaste": [
       "savory",
       "rich",
-      "umami"
+      "sweet-sour"
     ],
     "textureProfile": [
-      "tender meat",
-      "rich sauce"
+      "tender beef",
+      "soft onions",
+      "thick gravy"
     ],
     "riskFlags": [],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "comfort-food",
+      "classic-dish"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "wants-light-food"
+    ],
     "orderVerdict": {
-      "en": "Comforting meat stew, usually best when you want hearty food.",
-      "zh": "如果你接受这类口味和风险，荷兰洋葱炖牛肉 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good for a tender beef stew; choose this over fried snacks if you want a real main.",
+      "zh": "想吃软烂牛肉炖菜时适合；想要真正主菜时比炸小吃更合适。",
+      "nl": "Goed voor malse rundstoof; kies dit boven snacks als je een echte hoofdschotel wilt."
     },
+    "confidenceTag": "audited-dutch-batch-008",
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
