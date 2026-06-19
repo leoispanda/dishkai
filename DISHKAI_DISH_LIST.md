@@ -2,9 +2,9 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 201
-- Total aliases: 713
-- Total cuisines: 10
+- Total verified dishes: 231
+- Total aliases: 818
+- Total cuisines: 11
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
 ## Belgian (belgian) - 30
@@ -229,6 +229,39 @@ Generated from data/internal/index.js after the verified database quarantine aud
 3. 110003 - `bulgogi` - Bulgogi / 韩式烤牛肉 / 불고기
 4. 110004 - `tteokbokki` - Tteokbokki / 韩式辣炒年糕 / 떡볶이
 5. 110005 - `korean-fried-chicken` - Korean Fried Chicken / 韩式炸鸡 / 치킨
+
+## Spanish (spanish) - 30
+
+1. 105001 - `paella` - Paella / 西班牙海鲜饭 / Paella
+2. 105002 - `tortilla-espanola` - Tortilla Española / 西班牙土豆蛋饼 / Tortilla española
+3. 105003 - `patatas-bravas` - Patatas Bravas / 西班牙辣酱土豆 / Patatas bravas
+4. 105004 - `croquetas` - Croquetas / 西班牙可乐饼 / Croquetas
+5. 105005 - `jamon-iberico` - Jamón Ibérico / 伊比利亚火腿 / Jamón ibérico
+6. 105006 - `gambas-al-ajillo` - Gambas al Ajillo / 蒜香虾 / Gambas al ajillo
+7. 105007 - `gazpacho` - Gazpacho / 西班牙冷番茄汤 / Gazpacho
+8. 105008 - `pulpo-a-la-gallega` - Pulpo a la Gallega / 加利西亚章鱼 / Pulpo a la gallega
+9. 105009 - `pan-con-tomate` - Pan con Tomate / 番茄面包 / Pan con tomate
+10. 105010 - `churros` - Churros / 西班牙油条 / Churros
+11. 105011 - `crema-catalana` - Crema Catalana / 加泰罗尼亚焦糖奶冻 / Crema catalana
+12. 105012 - `fabada` - Fabada / 阿斯图里亚斯豆肉炖菜 / Fabada
+13. 105013 - `albondigas` - Albóndigas / 西班牙肉丸 / Albóndigas
+14. 105014 - `pimientos-de-padron` - Pimientos de Padrón / 帕德龙小青椒 / Pimientos de Padrón
+15. 105015 - `boquerones-en-vinagre` - Boquerones en Vinagre / 醋渍凤尾鱼 / Boquerones en vinagre
+16. 105016 - `ensaladilla-rusa` - Ensaladilla Rusa / 西班牙俄式土豆沙拉 / Ensaladilla rusa
+17. 105017 - `salmorejo` - Salmorejo / 安达卢西亚浓番茄冷汤 / Salmorejo
+18. 105018 - `calamares-a-la-romana` - Calamares a la Romana / 西班牙炸鱿鱼圈 / Calamares a la romana
+19. 105019 - `fideua` - Fideuà / 西班牙海鲜短面 / Fideuà
+20. 105020 - `arroz-negro` - Arroz Negro / 西班牙墨鱼汁黑饭 / Arroz negro
+21. 105021 - `bacalao-al-pil-pil` - Bacalao al Pil Pil / 盐鳕鱼橄榄油乳化酱 / Bacalao al pil pil
+22. 105022 - `merluza-a-la-vasca` - Merluza a la Vasca / 巴斯克绿酱无须鳕 / Merluza a la vasca
+23. 105023 - `pollo-al-ajillo` - Pollo al Ajillo / 西班牙蒜香鸡 / Pollo al ajillo
+24. 105024 - `rabo-de-toro` - Rabo de Toro / 西班牙炖牛尾 / Rabo de toro
+25. 105025 - `carrillada` - Carrillada / 西班牙炖猪颊肉 / Carrillada
+26. 105026 - `cocido-madrileno` - Cocido Madrileño / 马德里鹰嘴豆炖肉 / Cocido madrileño
+27. 105027 - `huevos-rotos` - Huevos Rotos / 碎蛋薯条火腿 / Huevos rotos
+28. 105028 - `tarta-de-santiago` - Tarta de Santiago / 圣地亚哥杏仁蛋糕 / Tarta de Santiago
+29. 105029 - `spanish-flan` - Flan / 西班牙焦糖布丁 / Flan
+30. 105030 - `bocadillo-de-calamares` - Bocadillo de Calamares / 炸鱿鱼圈长棍三明治 / Bocadillo de calamares
 
 ## Thai (thai) - 5
 

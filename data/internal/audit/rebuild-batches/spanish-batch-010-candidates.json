@@ -1,0 +1,302 @@
+[
+  {
+    "dishId": "paella",
+    "metadataCode": "105001",
+    "cuisineId": "spanish",
+    "name": "Paella",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105001-paella.webp",
+    "thumbPath": "/assets/dishes/thumb/105001-paella.webp"
+  },
+  {
+    "dishId": "tortilla-espanola",
+    "metadataCode": "105002",
+    "cuisineId": "spanish",
+    "name": "Tortilla Española",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105002-tortilla-espanola.webp",
+    "thumbPath": "/assets/dishes/thumb/105002-tortilla-espanola.webp"
+  },
+  {
+    "dishId": "patatas-bravas",
+    "metadataCode": "105003",
+    "cuisineId": "spanish",
+    "name": "Patatas Bravas",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105003-patatas-bravas.webp",
+    "thumbPath": "/assets/dishes/thumb/105003-patatas-bravas.webp"
+  },
+  {
+    "dishId": "croquetas",
+    "metadataCode": "105004",
+    "cuisineId": "spanish",
+    "name": "Croquetas",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105004-croquetas.webp",
+    "thumbPath": "/assets/dishes/thumb/105004-croquetas.webp"
+  },
+  {
+    "dishId": "jamon-iberico",
+    "metadataCode": "105005",
+    "cuisineId": "spanish",
+    "name": "Jamón Ibérico",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105005-jamon-iberico.webp",
+    "thumbPath": "/assets/dishes/thumb/105005-jamon-iberico.webp"
+  },
+  {
+    "dishId": "gambas-al-ajillo",
+    "metadataCode": "105006",
+    "cuisineId": "spanish",
+    "name": "Gambas al Ajillo",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105006-gambas-al-ajillo.webp",
+    "thumbPath": "/assets/dishes/thumb/105006-gambas-al-ajillo.webp"
+  },
+  {
+    "dishId": "gazpacho",
+    "metadataCode": "105007",
+    "cuisineId": "spanish",
+    "name": "Gazpacho",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105007-gazpacho.webp",
+    "thumbPath": "/assets/dishes/thumb/105007-gazpacho.webp"
+  },
+  {
+    "dishId": "pulpo-a-la-gallega",
+    "metadataCode": "105008",
+    "cuisineId": "spanish",
+    "name": "Pulpo a la Gallega",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105008-pulpo-a-la-gallega.webp",
+    "thumbPath": "/assets/dishes/thumb/105008-pulpo-a-la-gallega.webp"
+  },
+  {
+    "dishId": "pan-con-tomate",
+    "metadataCode": "105009",
+    "cuisineId": "spanish",
+    "name": "Pan con Tomate",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105009-pan-con-tomate.webp",
+    "thumbPath": "/assets/dishes/thumb/105009-pan-con-tomate.webp"
+  },
+  {
+    "dishId": "churros",
+    "metadataCode": "105010",
+    "cuisineId": "spanish",
+    "name": "Churros",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105010-churros.webp",
+    "thumbPath": "/assets/dishes/thumb/105010-churros.webp"
+  },
+  {
+    "dishId": "crema-catalana",
+    "metadataCode": "105011",
+    "cuisineId": "spanish",
+    "name": "Crema Catalana",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105011-crema-catalana.webp",
+    "thumbPath": "/assets/dishes/thumb/105011-crema-catalana.webp"
+  },
+  {
+    "dishId": "fabada",
+    "metadataCode": "105012",
+    "cuisineId": "spanish",
+    "name": "Fabada",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105012-fabada.webp",
+    "thumbPath": "/assets/dishes/thumb/105012-fabada.webp"
+  },
+  {
+    "dishId": "albondigas",
+    "metadataCode": "105013",
+    "cuisineId": "spanish",
+    "name": "Albóndigas",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105013-albondigas.webp",
+    "thumbPath": "/assets/dishes/thumb/105013-albondigas.webp"
+  },
+  {
+    "dishId": "pimientos-de-padron",
+    "metadataCode": "105014",
+    "cuisineId": "spanish",
+    "name": "Pimientos de Padrón",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105014-pimientos-de-padron.webp",
+    "thumbPath": "/assets/dishes/thumb/105014-pimientos-de-padron.webp"
+  },
+  {
+    "dishId": "boquerones-en-vinagre",
+    "metadataCode": "105015",
+    "cuisineId": "spanish",
+    "name": "Boquerones en Vinagre",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105015-boquerones-en-vinagre.webp",
+    "thumbPath": "/assets/dishes/thumb/105015-boquerones-en-vinagre.webp"
+  },
+  {
+    "dishId": "ensaladilla-rusa",
+    "metadataCode": "105016",
+    "cuisineId": "spanish",
+    "name": "Ensaladilla Rusa",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105016-ensaladilla-rusa.webp",
+    "thumbPath": "/assets/dishes/thumb/105016-ensaladilla-rusa.webp"
+  },
+  {
+    "dishId": "salmorejo",
+    "metadataCode": "105017",
+    "cuisineId": "spanish",
+    "name": "Salmorejo",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105017-salmorejo.webp",
+    "thumbPath": "/assets/dishes/thumb/105017-salmorejo.webp"
+  },
+  {
+    "dishId": "calamares-a-la-romana",
+    "metadataCode": "105018",
+    "cuisineId": "spanish",
+    "name": "Calamares a la Romana",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105018-calamares-a-la-romana.webp",
+    "thumbPath": "/assets/dishes/thumb/105018-calamares-a-la-romana.webp"
+  },
+  {
+    "dishId": "fideua",
+    "metadataCode": "105019",
+    "cuisineId": "spanish",
+    "name": "Fideuà",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105019-fideua.webp",
+    "thumbPath": "/assets/dishes/thumb/105019-fideua.webp"
+  },
+  {
+    "dishId": "arroz-negro",
+    "metadataCode": "105020",
+    "cuisineId": "spanish",
+    "name": "Arroz Negro",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105020-arroz-negro.webp",
+    "thumbPath": "/assets/dishes/thumb/105020-arroz-negro.webp"
+  },
+  {
+    "dishId": "bacalao-al-pil-pil",
+    "metadataCode": "105021",
+    "cuisineId": "spanish",
+    "name": "Bacalao al Pil Pil",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105021-bacalao-al-pil-pil.webp",
+    "thumbPath": "/assets/dishes/thumb/105021-bacalao-al-pil-pil.webp"
+  },
+  {
+    "dishId": "merluza-a-la-vasca",
+    "metadataCode": "105022",
+    "cuisineId": "spanish",
+    "name": "Merluza a la Vasca",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105022-merluza-a-la-vasca.webp",
+    "thumbPath": "/assets/dishes/thumb/105022-merluza-a-la-vasca.webp"
+  },
+  {
+    "dishId": "pollo-al-ajillo",
+    "metadataCode": "105023",
+    "cuisineId": "spanish",
+    "name": "Pollo al Ajillo",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105023-pollo-al-ajillo.webp",
+    "thumbPath": "/assets/dishes/thumb/105023-pollo-al-ajillo.webp"
+  },
+  {
+    "dishId": "rabo-de-toro",
+    "metadataCode": "105024",
+    "cuisineId": "spanish",
+    "name": "Rabo de Toro",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105024-rabo-de-toro.webp",
+    "thumbPath": "/assets/dishes/thumb/105024-rabo-de-toro.webp"
+  },
+  {
+    "dishId": "carrillada",
+    "metadataCode": "105025",
+    "cuisineId": "spanish",
+    "name": "Carrillada",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105025-carrillada.webp",
+    "thumbPath": "/assets/dishes/thumb/105025-carrillada.webp"
+  },
+  {
+    "dishId": "cocido-madrileno",
+    "metadataCode": "105026",
+    "cuisineId": "spanish",
+    "name": "Cocido Madrileño",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105026-cocido-madrileno.webp",
+    "thumbPath": "/assets/dishes/thumb/105026-cocido-madrileno.webp"
+  },
+  {
+    "dishId": "huevos-rotos",
+    "metadataCode": "105027",
+    "cuisineId": "spanish",
+    "name": "Huevos Rotos",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105027-huevos-rotos.webp",
+    "thumbPath": "/assets/dishes/thumb/105027-huevos-rotos.webp"
+  },
+  {
+    "dishId": "tarta-de-santiago",
+    "metadataCode": "105028",
+    "cuisineId": "spanish",
+    "name": "Tarta de Santiago",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105028-tarta-de-santiago.webp",
+    "thumbPath": "/assets/dishes/thumb/105028-tarta-de-santiago.webp"
+  },
+  {
+    "dishId": "spanish-flan",
+    "metadataCode": "105029",
+    "cuisineId": "spanish",
+    "name": "Flan",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105029-spanish-flan.webp",
+    "thumbPath": "/assets/dishes/thumb/105029-spanish-flan.webp"
+  },
+  {
+    "dishId": "bocadillo-de-calamares",
+    "metadataCode": "105030",
+    "cuisineId": "spanish",
+    "name": "Bocadillo de Calamares",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/105030-bocadillo-de-calamares.webp",
+    "thumbPath": "/assets/dishes/thumb/105030-bocadillo-de-calamares.webp"
+  }
+]

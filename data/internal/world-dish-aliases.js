@@ -4083,13 +4083,6 @@ export const worldDishAliases = [
     "confidence": 0.94
   },
   {
-    "alias": "russian salad",
-    "dishId": "ensaladilla-rusa",
-    "language": "menu",
-    "matchType": "translated-name",
-    "confidence": 0.92
-  },
-  {
     "alias": "西班牙土豆蛋黄酱沙拉",
     "dishId": "ensaladilla-rusa",
     "language": "menu",
@@ -4146,14 +4139,7 @@ export const worldDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "fried calamari",
-    "dishId": "calamares-a-la-romana",
-    "language": "menu",
-    "matchType": "translated-name",
-    "confidence": 0.92
-  },
-  {
-    "alias": "fried squid rings",
+    "alias": "spanish fried squid rings",
     "dishId": "calamares-a-la-romana",
     "language": "menu",
     "matchType": "descriptive",
@@ -4165,13 +4151,6 @@ export const worldDishAliases = [
     "language": "menu",
     "matchType": "translated-name",
     "confidence": 0.96
-  },
-  {
-    "alias": "gefrituurde inktvisringen",
-    "dishId": "calamares-a-la-romana",
-    "language": "menu",
-    "matchType": "translated-name",
-    "confidence": 0.92
   },
   {
     "alias": "fideuà",
@@ -4216,11 +4195,11 @@ export const worldDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "black rice",
+    "alias": "spanish black rice",
     "dishId": "arroz-negro",
     "language": "menu",
     "matchType": "translated-name",
-    "confidence": 0.9
+    "confidence": 0.92
   },
   {
     "alias": "squid ink rice",
@@ -4235,13 +4214,6 @@ export const worldDishAliases = [
     "language": "menu",
     "matchType": "translated-name",
     "confidence": 0.96
-  },
-  {
-    "alias": "zwarte rijst",
-    "dishId": "arroz-negro",
-    "language": "menu",
-    "matchType": "translated-name",
-    "confidence": 0.9
   },
   {
     "alias": "bacalao al pil pil",
@@ -4321,13 +4293,6 @@ export const worldDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "garlic chicken",
-    "dishId": "pollo-al-ajillo",
-    "language": "menu",
-    "matchType": "translated-name",
-    "confidence": 0.92
-  },
-  {
     "alias": "spanish garlic chicken",
     "dishId": "pollo-al-ajillo",
     "language": "menu",
@@ -4356,17 +4321,10 @@ export const worldDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "oxtail stew",
+    "alias": "spanish oxtail stew",
     "dishId": "rabo-de-toro",
     "language": "menu",
     "matchType": "translated-name",
-    "confidence": 0.92
-  },
-  {
-    "alias": "braised oxtail",
-    "dishId": "rabo-de-toro",
-    "language": "menu",
-    "matchType": "descriptive",
     "confidence": 0.92
   },
   {
@@ -4375,13 +4333,6 @@ export const worldDishAliases = [
     "language": "menu",
     "matchType": "translated-name",
     "confidence": 0.96
-  },
-  {
-    "alias": "gestoofde ossenstaart",
-    "dishId": "rabo-de-toro",
-    "language": "menu",
-    "matchType": "translated-name",
-    "confidence": 0.92
   },
   {
     "alias": "carrillada",
@@ -4398,11 +4349,11 @@ export const worldDishAliases = [
     "confidence": 0.92
   },
   {
-    "alias": "pork cheek",
+    "alias": "spanish pork cheek",
     "dishId": "carrillada",
     "language": "menu",
     "matchType": "translated-name",
-    "confidence": 0.9
+    "confidence": 0.92
   },
   {
     "alias": "西班牙慢炖猪脸肉",
@@ -4410,13 +4361,6 @@ export const worldDishAliases = [
     "language": "menu",
     "matchType": "translated-name",
     "confidence": 0.96
-  },
-  {
-    "alias": "gestoofde varkenswang",
-    "dishId": "carrillada",
-    "language": "menu",
-    "matchType": "translated-name",
-    "confidence": 0.92
   },
   {
     "alias": "cocido madrileño",
@@ -4461,18 +4405,11 @@ export const worldDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "broken eggs",
+    "alias": "spanish broken eggs",
     "dishId": "huevos-rotos",
     "language": "menu",
     "matchType": "translated-name",
-    "confidence": 0.9
-  },
-  {
-    "alias": "eggs with potatoes",
-    "dishId": "huevos-rotos",
-    "language": "menu",
-    "matchType": "descriptive",
-    "confidence": 0.88
+    "confidence": 0.92
   },
   {
     "alias": "西班牙碎蛋薯条",
@@ -4480,13 +4417,6 @@ export const worldDishAliases = [
     "language": "menu",
     "matchType": "translated-name",
     "confidence": 0.96
-  },
-  {
-    "alias": "gebroken eieren met aardappel",
-    "dishId": "huevos-rotos",
-    "language": "menu",
-    "matchType": "translated-name",
-    "confidence": 0.9
   },
   {
     "alias": "tarta de santiago",
@@ -4524,13 +4454,6 @@ export const worldDishAliases = [
     "confidence": 0.94
   },
   {
-    "alias": "caramel custard",
-    "dishId": "spanish-flan",
-    "language": "menu",
-    "matchType": "translated-name",
-    "confidence": 0.92
-  },
-  {
     "alias": "spanish flan",
     "dishId": "spanish-flan",
     "language": "menu",
@@ -4559,13 +4482,6 @@ export const worldDishAliases = [
     "confidence": 0.96
   },
   {
-    "alias": "karamelcustard",
-    "dishId": "spanish-flan",
-    "language": "menu",
-    "matchType": "translated-name",
-    "confidence": 0.92
-  },
-  {
     "alias": "bocadillo de calamares",
     "dishId": "bocadillo-de-calamares",
     "language": "menu",
@@ -4573,14 +4489,7 @@ export const worldDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "calamari sandwich",
-    "dishId": "bocadillo-de-calamares",
-    "language": "menu",
-    "matchType": "translated-name",
-    "confidence": 0.92
-  },
-  {
-    "alias": "squid sandwich",
+    "alias": "madrid calamari sandwich",
     "dishId": "bocadillo-de-calamares",
     "language": "menu",
     "matchType": "translated-name",
@@ -4594,7 +4503,7 @@ export const worldDishAliases = [
     "confidence": 0.96
   },
   {
-    "alias": "broodje gefrituurde inktvis",
+    "alias": "madrileens broodje calamares",
     "dishId": "bocadillo-de-calamares",
     "language": "menu",
     "matchType": "translated-name",

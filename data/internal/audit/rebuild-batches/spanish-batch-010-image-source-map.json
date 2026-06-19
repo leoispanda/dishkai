@@ -1,0 +1,50 @@
+[
+  {
+    "dishId": "bocadillo-de-calamares",
+    "metadataCode": "105030",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a34847793f88191bf08a2fdffe0f27b.png",
+    "copyPath": "data/internal/audit/rebuild-batches/spanish-batch-010-image-sources/105030-bocadillo-de-calamares.png"
+  },
+  {
+    "dishId": "tarta-de-santiago",
+    "metadataCode": "105028",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a3484432d6c8191af5f81b4a1674462.png",
+    "copyPath": "data/internal/audit/rebuild-batches/spanish-batch-010-image-sources/105028-tarta-de-santiago.png"
+  },
+  {
+    "dishId": "huevos-rotos",
+    "metadataCode": "105027",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a3483f095d88191bb48593aaf466df2.png",
+    "copyPath": "data/internal/audit/rebuild-batches/spanish-batch-010-image-sources/105027-huevos-rotos.png"
+  },
+  {
+    "dishId": "cocido-madrileno",
+    "metadataCode": "105026",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a3483a160f08191a30e7ae8d3679a45.png",
+    "copyPath": "data/internal/audit/rebuild-batches/spanish-batch-010-image-sources/105026-cocido-madrileno.png"
+  },
+  {
+    "dishId": "pollo-al-ajillo",
+    "metadataCode": "105023",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a34834b119881918bd8b411b7254915.png",
+    "copyPath": "data/internal/audit/rebuild-batches/spanish-batch-010-image-sources/105023-pollo-al-ajillo.png"
+  },
+  {
+    "dishId": "fideua",
+    "metadataCode": "105019",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a3482fa62648191a335b2da99375c98.png",
+    "copyPath": "data/internal/audit/rebuild-batches/spanish-batch-010-image-sources/105019-fideua.png"
+  },
+  {
+    "dishId": "salmorejo",
+    "metadataCode": "105017",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a3482b231088191bf529469f407bb26.png",
+    "copyPath": "data/internal/audit/rebuild-batches/spanish-batch-010-image-sources/105017-salmorejo.png"
+  },
+  {
+    "dishId": "pimientos-de-padron",
+    "metadataCode": "105014",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a34828943a081918c78a11150615d38.png",
+    "copyPath": "data/internal/audit/rebuild-batches/spanish-batch-010-image-sources/105014-pimientos-de-padron.png"
+  }
+]
