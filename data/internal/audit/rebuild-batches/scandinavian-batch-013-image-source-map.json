@@ -1,0 +1,154 @@
+[
+  {
+    "metadataCode": "128013",
+    "dishId": "frikadeller",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a34a4a99bb881919ef6d92b2e8792c1.png",
+    "auditSource": "data/internal/audit/rebuild-batches/scandinavian-batch-013-image-sources/128013-frikadeller.png",
+    "mainPath": "/assets/dishes/main/128013-frikadeller.webp",
+    "thumbPath": "/assets/dishes/thumb/128013-frikadeller.webp"
+  },
+  {
+    "metadataCode": "128014",
+    "dishId": "karjalanpiirakka",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a34a50e68788191a166b9c613b77423.png",
+    "auditSource": "data/internal/audit/rebuild-batches/scandinavian-batch-013-image-sources/128014-karjalanpiirakka.png",
+    "mainPath": "/assets/dishes/main/128014-karjalanpiirakka.webp",
+    "thumbPath": "/assets/dishes/thumb/128014-karjalanpiirakka.webp"
+  },
+  {
+    "metadataCode": "128015",
+    "dishId": "lohikeitto",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a34a57d512c81919f37af7b60cd2e2f.png",
+    "auditSource": "data/internal/audit/rebuild-batches/scandinavian-batch-013-image-sources/128015-lohikeitto.png",
+    "mainPath": "/assets/dishes/main/128015-lohikeitto.webp",
+    "thumbPath": "/assets/dishes/thumb/128015-lohikeitto.webp"
+  },
+  {
+    "metadataCode": "128016",
+    "dishId": "kalops",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a34a5d41eec8191a029901bf3d7afca.png",
+    "auditSource": "data/internal/audit/rebuild-batches/scandinavian-batch-013-image-sources/128016-kalops.png",
+    "mainPath": "/assets/dishes/main/128016-kalops.webp",
+    "thumbPath": "/assets/dishes/thumb/128016-kalops.webp"
+  },
+  {
+    "metadataCode": "128017",
+    "dishId": "raggmunk",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a34a63664588191992185d6af660d7c.png",
+    "auditSource": "data/internal/audit/rebuild-batches/scandinavian-batch-013-image-sources/128017-raggmunk.png",
+    "mainPath": "/assets/dishes/main/128017-raggmunk.webp",
+    "thumbPath": "/assets/dishes/thumb/128017-raggmunk.webp"
+  },
+  {
+    "metadataCode": "128018",
+    "dishId": "janssons-frestelse",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a34a676a8f88191ba1a85a6a27ebd37.png",
+    "auditSource": "data/internal/audit/rebuild-batches/scandinavian-batch-013-image-sources/128018-janssons-frestelse.png",
+    "mainPath": "/assets/dishes/main/128018-janssons-frestelse.webp",
+    "thumbPath": "/assets/dishes/thumb/128018-janssons-frestelse.webp"
+  },
+  {
+    "metadataCode": "128019",
+    "dishId": "kroppkakor",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a34a6b8e9208191bcc47b71269e7262.png",
+    "auditSource": "data/internal/audit/rebuild-batches/scandinavian-batch-013-image-sources/128019-kroppkakor.png",
+    "mainPath": "/assets/dishes/main/128019-kroppkakor.webp",
+    "thumbPath": "/assets/dishes/thumb/128019-kroppkakor.webp"
+  },
+  {
+    "metadataCode": "128020",
+    "dishId": "farikal",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a34a71bafe48191b0e0ad431376c33e.png",
+    "auditSource": "data/internal/audit/rebuild-batches/scandinavian-batch-013-image-sources/128020-farikal.png",
+    "mainPath": "/assets/dishes/main/128020-farikal.webp",
+    "thumbPath": "/assets/dishes/thumb/128020-farikal.webp"
+  },
+  {
+    "metadataCode": "128021",
+    "dishId": "kjottkaker",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a34a755fa908191b03b7d657fc8b090.png",
+    "auditSource": "data/internal/audit/rebuild-batches/scandinavian-batch-013-image-sources/128021-kjottkaker.png",
+    "mainPath": "/assets/dishes/main/128021-kjottkaker.webp",
+    "thumbPath": "/assets/dishes/thumb/128021-kjottkaker.webp"
+  },
+  {
+    "metadataCode": "128022",
+    "dishId": "leverpostej",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a34a831cd20819190cb88cb8853d9d3.png",
+    "auditSource": "data/internal/audit/rebuild-batches/scandinavian-batch-013-image-sources/128022-leverpostej.png",
+    "mainPath": "/assets/dishes/main/128022-leverpostej.webp",
+    "thumbPath": "/assets/dishes/thumb/128022-leverpostej.webp"
+  },
+  {
+    "metadataCode": "128024",
+    "dishId": "fish-cakes-scandinavian",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a34a8a2de008191a6b430d659069bd7.png",
+    "auditSource": "data/internal/audit/rebuild-batches/scandinavian-batch-013-image-sources/128024-fish-cakes-scandinavian.png",
+    "mainPath": "/assets/dishes/main/128024-fish-cakes-scandinavian.webp",
+    "thumbPath": "/assets/dishes/thumb/128024-fish-cakes-scandinavian.webp"
+  },
+  {
+    "metadataCode": "128025",
+    "dishId": "pea-soup-pancakes",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a34a8e379408191873e21f2f96e1b42.png",
+    "auditSource": "data/internal/audit/rebuild-batches/scandinavian-batch-013-image-sources/128025-pea-soup-pancakes.png",
+    "mainPath": "/assets/dishes/main/128025-pea-soup-pancakes.webp",
+    "thumbPath": "/assets/dishes/thumb/128025-pea-soup-pancakes.webp"
+  },
+  {
+    "metadataCode": "128026",
+    "dishId": "princess-cake",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a34a94b510c8191b4955b9d4c81aa3e.png",
+    "auditSource": "data/internal/audit/rebuild-batches/scandinavian-batch-013-image-sources/128026-princess-cake.png",
+    "mainPath": "/assets/dishes/main/128026-princess-cake.webp",
+    "thumbPath": "/assets/dishes/thumb/128026-princess-cake.webp"
+  },
+  {
+    "metadataCode": "128027",
+    "dishId": "semla",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a34a9a5cdb48191bef5f3c86e51b55a.png",
+    "auditSource": "data/internal/audit/rebuild-batches/scandinavian-batch-013-image-sources/128027-semla.png",
+    "mainPath": "/assets/dishes/main/128027-semla.webp",
+    "thumbPath": "/assets/dishes/thumb/128027-semla.webp"
+  },
+  {
+    "metadataCode": "128028",
+    "dishId": "riskrem",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a34aa07d7148191a3779e5bd9256254.png",
+    "auditSource": "data/internal/audit/rebuild-batches/scandinavian-batch-013-image-sources/128028-riskrem.png",
+    "mainPath": "/assets/dishes/main/128028-riskrem.webp",
+    "thumbPath": "/assets/dishes/thumb/128028-riskrem.webp"
+  },
+  {
+    "metadataCode": "128029",
+    "dishId": "aebleskiver",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a34aa6fe4dc8191b55796ae9477b3d4.png",
+    "auditSource": "data/internal/audit/rebuild-batches/scandinavian-batch-013-image-sources/128029-aebleskiver.png",
+    "mainPath": "/assets/dishes/main/128029-aebleskiver.webp",
+    "thumbPath": "/assets/dishes/thumb/128029-aebleskiver.webp"
+  },
+  {
+    "metadataCode": "128035",
+    "dishId": "stegt-flaesk",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a34aabd840c8191a4b3b5f6c6a152a4.png",
+    "auditSource": "data/internal/audit/rebuild-batches/scandinavian-batch-013-image-sources/128035-stegt-flaesk.png",
+    "mainPath": "/assets/dishes/main/128035-stegt-flaesk.webp",
+    "thumbPath": "/assets/dishes/thumb/128035-stegt-flaesk.webp"
+  },
+  {
+    "metadataCode": "128040",
+    "dishId": "raspeballer",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a34abcfd2cc8191a1bc59a4546288b3.png",
+    "auditSource": "data/internal/audit/rebuild-batches/scandinavian-batch-013-image-sources/128040-raspeballer.png",
+    "mainPath": "/assets/dishes/main/128040-raspeballer.webp",
+    "thumbPath": "/assets/dishes/thumb/128040-raspeballer.webp"
+  },
+  {
+    "metadataCode": "128047",
+    "dishId": "kladdkaka",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a34ac4137488191924270c8c709b8db.png",
+    "auditSource": "data/internal/audit/rebuild-batches/scandinavian-batch-013-image-sources/128047-kladdkaka.png",
+    "mainPath": "/assets/dishes/main/128047-kladdkaka.webp",
+    "thumbPath": "/assets/dishes/thumb/128047-kladdkaka.webp"
+  }
+]

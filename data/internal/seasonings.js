@@ -65,6 +65,9 @@ export const seasonings = [
   seasoning("ketjap-manis", "302003", "ketjap manis", "印尼甜酱油", "ketjap manis", ["sweet", "salty", "umami"], "ketjap-manis-sweet-soy-depth", ["soy", "gluten"]),
   seasoning("speculaas-spice", "302004", "speculaas spice", "荷兰香料粉", "speculaaskruiden", ["warm", "sweet"], "speculaas-warm-cinnamon-clove", []),
   seasoning("remoulade-sauce", "302005", "remoulade sauce", "酸黄瓜蛋黄酱", "remouladesaus", ["creamy", "tangy"], "remoulade-creamy-pickle-tang", ["egg"]),
+  seasoning("dill", "328001", "dill", "莳萝", "dille", ["fresh", "herbal"], "dill-fresh-nordic-herb", []),
+  seasoning("cardamom", "328002", "cardamom", "小豆蔻", "kardemom", ["warm", "sweet"], "cardamom-warm-sweet-aroma", []),
+  seasoning("allspice", "328003", "allspice", "多香果", "piment", ["warm", "peppery"], "allspice-warm-stew-spice", []),
 ];
 
 function seasoning(id, metadataCode, en, zh, nl, basicTaste, distinctiveFlavor, allergens) {

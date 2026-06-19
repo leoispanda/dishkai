@@ -2,9 +2,9 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 291
-- Total aliases: 972
-- Total cuisines: 13
+- Total verified dishes: 321
+- Total aliases: 1054
+- Total cuisines: 14
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
 ## Belgian (belgian) - 30
@@ -295,6 +295,39 @@ Generated from data/internal/index.js after the verified database quarantine aud
 28. 125028 - `arroz-doce` - Arroz Doce / 葡式肉桂米布丁 / Arroz doce
 29. 125029 - `serradura` - Serradura / 木糠布丁 / Serradura
 30. 125030 - `bolo-de-bolacha` - Bolo de Bolacha / 葡式饼干咖啡奶油蛋糕 / Bolo de bolacha
+
+## Scandinavian (scandinavian) - 30
+
+1. 128035 - `stegt-flaesk` - Stegt Flaesk / 丹麦脆煎五花肉 / Stegt flæsk
+2. 128040 - `raspeballer` - Raspeballer / 挪威土豆团子 / Raspeballer
+3. 128047 - `kladdkaka` - Kladdkaka / 瑞典黏心巧克力蛋糕 / Kladdkaka
+4. 128001 - `gravlax` - Gravlax / 莳萝腌三文鱼 / Gravlax
+5. 128002 - `swedish-meatballs` - Swedish Meatballs / 瑞典肉丸 / Köttbullar
+6. 128003 - `smorrebrod` - Smorrebrod / 丹麦开放三明治 / Smørrebrød
+7. 128004 - `pickled-herring` - Pickled Herring / 腌鲱鱼 / Sill
+8. 128005 - `fiskesuppe` - Fiskesuppe / 北欧奶油鱼汤 / Fiskesuppe
+9. 128006 - `reindeer-stew` - Reindeer Stew / 驯鹿肉炖菜 / Renskav
+10. 128007 - `pyttipanna` - Pyttipanna / 北欧土豆肉丁煎锅 / Pyttipanna
+11. 128008 - `rakfisk` - Rakfisk / 发酵鳟鱼 / Rakfisk
+12. 128009 - `kanelbullar` - Kanelbullar / 瑞典肉桂卷 / Kanelbullar
+13. 128010 - `skagen-toast` - Toast Skagen / 瑞典虾仁吐司 / Toast Skagen
+14. 128011 - `lutefisk` - Lutefisk / 碱水鳕鱼 / Lutefisk
+15. 128013 - `frikadeller` - Frikadeller / 丹麦煎肉丸 / Frikadeller
+16. 128014 - `karjalanpiirakka` - Karelian Pie / 卡累利阿米粥派 / Karjalanpiirakka
+17. 128015 - `lohikeitto` - Lohikeitto / 芬兰奶油三文鱼汤 / Lohikeitto
+18. 128016 - `kalops` - Kalops / 瑞典牛肉炖菜 / Kalops
+19. 128017 - `raggmunk` - Raggmunk / 瑞典土豆煎饼 / Raggmunk
+20. 128018 - `janssons-frestelse` - Jansson's Temptation / 瑞典奶油鳀鱼土豆焗菜 / Janssons frestelse
+21. 128019 - `kroppkakor` - Kroppkakor / 瑞典土豆肉馅团子 / Kroppkakor
+22. 128020 - `farikal` - Farikal / 挪威羊肉卷心菜炖菜 / Fårikål
+23. 128021 - `kjottkaker` - Kjottkaker / 挪威肉饼 / Kjøttkaker
+24. 128022 - `leverpostej` - Leverpostej / 丹麦肝酱 / Leverpostej
+25. 128024 - `fish-cakes-scandinavian` - Scandinavian Fish Cakes / 北欧鱼饼 / Fiskekaker
+26. 128025 - `pea-soup-pancakes` - Pea Soup and Pancakes / 豌豆汤配薄饼 / Ärtsoppa och pannkakor
+27. 128026 - `princess-cake` - Princess Cake / 瑞典公主蛋糕 / Prinsesstårta
+28. 128027 - `semla` - Semla / 瑞典奶油杏仁甜面包 / Semla
+29. 128028 - `riskrem` - Riskrem / 挪威奶油米布丁 / Riskrem
+30. 128029 - `aebleskiver` - Aebleskiver / 丹麦圆球小煎饼 / Æbleskiver
 
 ## Spanish (spanish) - 30
 

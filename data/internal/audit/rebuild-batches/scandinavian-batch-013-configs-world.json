@@ -1,0 +1,1219 @@
+[
+  {
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 2,
+    "id": "gravlax",
+    "metadataCode": "128001",
+    "names": {
+      "en": "Gravlax",
+      "zh": "莳萝腌三文鱼",
+      "nl": "Gravlax",
+      "local": "Gravlax"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "raw",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "cured-raw",
+    "shortDescription": {
+      "en": "Cured salmon served cold with dill, mustard sauce, bread, or potatoes.",
+      "zh": "冷食腌三文鱼，常配莳萝、芥末酱、面包或土豆。",
+      "nl": "Koud gepekelde zalm met dille, mosterdsaus, brood of aardappel."
+    },
+    "cookingProfile": {
+      "en": "Expect silky cold salmon with a sweet-salty cure rather than cooked fish.",
+      "zh": "口感是冷的丝滑三文鱼，带甜咸腌制味，不是熟鱼。",
+      "nl": "Verwacht koude zijdezachte zalm met zoet-zoute pekel, geen gegaarde vis."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "seafood"
+      ],
+      "description": {
+        "en": "A classic Nordic starter where salmon texture and dill are central.",
+        "zh": "经典北欧前菜，重点是三文鱼质地和莳萝香气。",
+        "nl": "Een klassieke Noordse starter waarin zalmtextuur en dille centraal staan."
+      }
+    },
+    "composition": [
+      [
+        "salmon",
+        75,
+        "cured salmon"
+      ],
+      [
+        "rye-bread",
+        10,
+        "bread side"
+      ],
+      [
+        "mustard",
+        5,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "dill",
+        5,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "brightness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cured salmon",
+      "dill",
+      "mustard sauce"
+    ],
+    "basicTaste": [
+      "salty",
+      "fresh",
+      "sweet-savory"
+    ],
+    "textureProfile": [
+      "silky salmon",
+      "cool slices",
+      "soft bread side"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-raw-fish",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "seafood",
+      "starter"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "avoids-raw-fish",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "A strong cold starter if you enjoy cured salmon and dill.",
+      "zh": "喜欢冷食腌三文鱼和莳萝香时很适合。",
+      "nl": "Een sterke koude starter als je gepekelde zalm en dille lekker vindt."
+    },
+    "weightLevel": 2,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "swedish-meatballs",
+    "metadataCode": "128002",
+    "names": {
+      "en": "Swedish Meatballs",
+      "zh": "瑞典肉丸",
+      "nl": "Zweedse gehaktballetjes",
+      "local": "Köttbullar"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "fried",
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Small meatballs with cream gravy, potatoes, lingonberry jam, and often pickled cucumber.",
+      "zh": "小肉丸配奶油肉汁、土豆、越橘果酱，常有腌黄瓜。",
+      "nl": "Kleine gehaktballetjes met roomjus, aardappel, vossenbessenjam en vaak augurk."
+    },
+    "cookingProfile": {
+      "en": "The plate is mild, creamy, and comforting, with sweet-tart jam on the side.",
+      "zh": "整体温和、有奶油肉汁的舒适感，旁边果酱带酸甜。",
+      "nl": "Mild, romig en troostend, met zoetzure jam ernaast."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "first-timer-friendly"
+      ],
+      "description": {
+        "en": "A widely recognized Swedish classic and safe first-time Nordic order.",
+        "zh": "很有辨识度的瑞典经典菜，也是第一次点北欧菜的安全选择。",
+        "nl": "Een herkenbare Zweedse klassieker en veilige eerste Noordse keuze."
+      }
+    },
+    "composition": [
+      [
+        "ground-meat",
+        40,
+        "meatballs"
+      ],
+      [
+        "potato",
+        25,
+        "side"
+      ],
+      [
+        "cream",
+        15,
+        "gravy"
+      ],
+      [
+        "lingonberry-jam",
+        10,
+        "sweet-tart side"
+      ],
+      [
+        "pickles",
+        5,
+        "sharp side"
+      ],
+      [
+        "allspice",
+        5,
+        "warm spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cream gravy",
+      "lingonberry jam",
+      "warm spice"
+    ],
+    "basicTaste": [
+      "savory",
+      "creamy",
+      "sweet-tart"
+    ],
+    "textureProfile": [
+      "soft meatballs",
+      "smooth gravy",
+      "soft potatoes"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "safe-choice",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "gluten-free",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "A safe, filling choice if you want mild meat, gravy, and potatoes.",
+      "zh": "想吃温和、顶饱的肉丸肉汁土豆组合时很稳。",
+      "nl": "Een veilige, vullende keuze voor mild vlees, jus en aardappels."
+    },
+    "weightLevel": 4,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "smorrebrod",
+    "metadataCode": "128003",
+    "names": {
+      "en": "Smorrebrod",
+      "zh": "丹麦开放三明治",
+      "nl": "Smorrebrod",
+      "local": "Smørrebrød"
+    },
+    "category": "open-sandwich",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "assembled",
+    "shortDescription": {
+      "en": "Danish open-faced rye sandwich with layered toppings such as shrimp, egg, herring, roast meat, or vegetables.",
+      "zh": "丹麦开放式黑麦三明治，上面可放虾、鸡蛋、鲱鱼、冷肉或蔬菜。",
+      "nl": "Deense open roggebroodsnede met toppings zoals garnalen, ei, haring, vlees of groenten."
+    },
+    "cookingProfile": {
+      "en": "It is compact but topping-heavy; check the topping because allergens vary a lot.",
+      "zh": "分量不一定大但配料很集中；过敏风险取决于具体 topping。",
+      "nl": "Compact maar rijk belegd; controleer de topping omdat allergenen sterk wisselen."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "lunch"
+      ],
+      "description": {
+        "en": "A defining Danish lunch format rather than one single topping.",
+        "zh": "丹麦午餐代表形式，本身是一类开放三明治。",
+        "nl": "Een bepalend Deens lunchformat, geen enkele vaste topping."
+      }
+    },
+    "composition": [
+      [
+        "rye-bread",
+        40,
+        "base"
+      ],
+      [
+        "shrimp",
+        20,
+        "common topping"
+      ],
+      [
+        "egg",
+        15,
+        "common topping"
+      ],
+      [
+        "herring",
+        10,
+        "common fish topping"
+      ],
+      [
+        "mayonnaise",
+        10,
+        "creamy dressing"
+      ],
+      [
+        "dill",
+        5,
+        "herb",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "dense rye bread",
+      "cold toppings",
+      "dill",
+      "creamy dressing"
+    ],
+    "basicTaste": [
+      "savory",
+      "fresh",
+      "briny"
+    ],
+    "textureProfile": [
+      "dense bread",
+      "cold toppings",
+      "creamy garnish"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-shellfish",
+      "contains-fish",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "lunch",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "shellfish-allergy",
+      "fish-allergy",
+      "egg-free"
+    ],
+    "orderVerdict": {
+      "en": "Great for a Danish lunch, but choose the topping carefully.",
+      "zh": "想吃丹麦午餐很适合，但要仔细看上面的配料。",
+      "nl": "Goed voor een Deense lunch, maar kies de topping zorgvuldig."
+    },
+    "weightLevel": 2,
+    "restaurantVariationLevel": "high"
+  },
+  {
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 4,
+    "id": "pickled-herring",
+    "metadataCode": "128004",
+    "names": {
+      "en": "Pickled Herring",
+      "zh": "腌鲱鱼",
+      "nl": "Ingelegde haring",
+      "local": "Sill"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "cured-raw",
+    "shortDescription": {
+      "en": "Cold pickled herring with onion, potatoes, capers, dill, or sour cream.",
+      "zh": "冷食腌鲱鱼，常配洋葱、土豆、酸豆、莳萝或酸奶油。",
+      "nl": "Koude ingelegde haring met ui, aardappel, kappertjes, dille of zure room."
+    },
+    "cookingProfile": {
+      "en": "Expect a tangy, briny cold fish bite with a pronounced cured flavor.",
+      "zh": "口感是冷的酸咸鱼味，腌制感明显。",
+      "nl": "Verwacht een zure, zilte koude visbeet met duidelijke pekelsmaak."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "acquired-taste"
+      ],
+      "description": {
+        "en": "A classic Nordic cold fish item, common in herring plates and buffets.",
+        "zh": "经典北欧冷鱼菜，常见于鲱鱼拼盘和自助餐。",
+        "nl": "Een klassieke Noordse koude vis, vaak op haringborden en buffetten."
+      }
+    },
+    "composition": [
+      [
+        "herring",
+        70,
+        "pickled fish"
+      ],
+      [
+        "potato",
+        15,
+        "side"
+      ],
+      [
+        "onion",
+        5,
+        "sharp garnish"
+      ],
+      [
+        "vinegar",
+        5,
+        "pickling tang",
+        "seasoning"
+      ],
+      [
+        "dill",
+        5,
+        "herb",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "herring",
+      "vinegar pickle",
+      "dill"
+    ],
+    "basicTaste": [
+      "briny",
+      "sour",
+      "sharp"
+    ],
+    "textureProfile": [
+      "silky fish",
+      "cold slices",
+      "firm potato side"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-raw-fish"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "avoids-raw-fish",
+      "dislikes-vinegar"
+    ],
+    "orderVerdict": {
+      "en": "Worth ordering if you like cold cured fish; not a neutral first bite.",
+      "zh": "喜欢冷腌鱼可以点；它不是中性温和的第一口。",
+      "nl": "Interessant als je koude gepekelde vis lekker vindt; geen neutrale eerste hap."
+    },
+    "weightLevel": 2,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "fiskesuppe",
+    "metadataCode": "128005",
+    "names": {
+      "en": "Fiskesuppe",
+      "zh": "北欧奶油鱼汤",
+      "nl": "Fiskesuppe",
+      "local": "Fiskesuppe"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Creamy Nordic fish soup with salmon or white fish, vegetables, dill, and sometimes shellfish.",
+      "zh": "北欧奶油鱼汤，常有三文鱼或白鱼、蔬菜、莳萝，有时加贝类。",
+      "nl": "Romige Noordse vissoep met zalm of witte vis, groenten, dille en soms schelpdieren."
+    },
+    "cookingProfile": {
+      "en": "The bowl is warming and creamy, with tender fish chunks rather than a clear broth.",
+      "zh": "汤体温热奶油感明显，有嫩鱼块，不是清汤。",
+      "nl": "Warm en romig, met malse visstukken in plaats van heldere bouillon."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "soup"
+      ],
+      "description": {
+        "en": "A common Nordic fish-house soup where cream and dill soften the seafood flavor.",
+        "zh": "北欧鱼餐厅常见汤，奶油和莳萝会柔化海鲜味。",
+        "nl": "Een veelvoorkomende Noordse vissoep waarin room en dille de vissmaak verzachten."
+      }
+    },
+    "composition": [
+      [
+        "salmon",
+        30,
+        "fish"
+      ],
+      [
+        "fish-fillet",
+        20,
+        "white fish"
+      ],
+      [
+        "potato",
+        20,
+        "body"
+      ],
+      [
+        "carrot",
+        10,
+        "vegetable"
+      ],
+      [
+        "cream",
+        15,
+        "broth"
+      ],
+      [
+        "dill",
+        5,
+        "herb",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fish broth",
+      "cream",
+      "dill"
+    ],
+    "basicTaste": [
+      "creamy",
+      "savory",
+      "mild"
+    ],
+    "textureProfile": [
+      "creamy broth",
+      "tender fish",
+      "soft vegetables"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "soup",
+      "seafood"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "A comforting seafood soup if you want something warm and not too sharp.",
+      "zh": "想吃温暖、柔和的海鲜汤时很合适。",
+      "nl": "Een troostende vissoep als je iets warms en niet te scherps wilt."
+    },
+    "weightLevel": 3,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 3,
+    "id": "reindeer-stew",
+    "metadataCode": "128006",
+    "names": {
+      "en": "Reindeer Stew",
+      "zh": "驯鹿肉炖菜",
+      "nl": "Rendierstoof",
+      "local": "Renskav"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "braised"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Nordic reindeer stew with potatoes or mash, root vegetables, and lingonberry jam.",
+      "zh": "北欧驯鹿肉炖菜，常配土豆或土豆泥、根茎蔬菜和越橘果酱。",
+      "nl": "Noordse rendierstoof met aardappel of puree, wortelgroenten en vossenbessenjam."
+    },
+    "cookingProfile": {
+      "en": "Expect lean game meat softened by gravy, with tart jam balancing the richness.",
+      "zh": "驯鹿肉较瘦，靠肉汁变柔和，越橘果酱带酸甜平衡。",
+      "nl": "Verwacht mager wildvlees in jus, met zure jam als balans."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "regional-dish",
+        "acquired-taste"
+      ],
+      "description": {
+        "en": "A northern Nordic and Sami-associated game dish with a distinctive meat flavor.",
+        "zh": "北欧北部和萨米文化相关的野味菜，肉味有辨识度。",
+        "nl": "Een noordelijk Noordse en Sami-geassocieerde wildschotel met uitgesproken vleessmaak."
+      }
+    },
+    "composition": [
+      [
+        "reindeer",
+        45,
+        "meat"
+      ],
+      [
+        "potato",
+        30,
+        "mash or side"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "root vegetables"
+      ],
+      [
+        "lingonberry-jam",
+        10,
+        "tart side"
+      ],
+      [
+        "cream",
+        5,
+        "gravy richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "reindeer",
+      "cream gravy",
+      "lingonberry jam"
+    ],
+    "basicTaste": [
+      "savory",
+      "gamey",
+      "sweet-tart"
+    ],
+    "textureProfile": [
+      "tender meat",
+      "soft mash",
+      "jam contrast"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "regional-dish",
+      "cold-weather"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "dislikes-game-meat"
+    ],
+    "orderVerdict": {
+      "en": "Choose this if you want a northern game dish with lingonberry contrast.",
+      "zh": "想尝北欧北部野味和越橘酸甜搭配时可以点。",
+      "nl": "Kies dit voor noordelijk wild met vossenbessencontrast."
+    },
+    "weightLevel": 4,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "pyttipanna",
+    "metadataCode": "128007",
+    "names": {
+      "en": "Pyttipanna",
+      "zh": "北欧土豆肉丁煎锅",
+      "nl": "Pyttipanna",
+      "local": "Pyttipanna"
+    },
+    "category": "hash",
+    "cookingMethods": [
+      "fried"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Pan-fried diced potatoes, meat, and onions, often served with a fried egg and pickled beet.",
+      "zh": "土豆丁、肉丁和洋葱煎炒，常配煎蛋和腌甜菜。",
+      "nl": "Gebakken blokjes aardappel, vlees en ui, vaak met ei en ingelegde biet."
+    },
+    "cookingProfile": {
+      "en": "It is a browned hash: simple, salty, filling, and practical.",
+      "zh": "这是煎香的土豆肉丁，简单咸香、很顶饱。",
+      "nl": "Een gebakken hash: simpel, zoutig, vullend en praktisch."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "common",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "A common Swedish-style casual plate for using meat and potatoes together.",
+        "zh": "瑞典风格常见家常盘，把肉和土豆放在一起煎。",
+        "nl": "Een veelvoorkomend Zweeds huiselijk bord met vlees en aardappel."
+      }
+    },
+    "composition": [
+      [
+        "potato",
+        45,
+        "fried cubes"
+      ],
+      [
+        "beef",
+        20,
+        "meat cubes"
+      ],
+      [
+        "pork",
+        15,
+        "meat cubes"
+      ],
+      [
+        "onion",
+        10,
+        "aroma"
+      ],
+      [
+        "egg",
+        10,
+        "fried topping"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "browned potato",
+      "fried onion",
+      "egg"
+    ],
+    "basicTaste": [
+      "savory",
+      "salty",
+      "simple"
+    ],
+    "textureProfile": [
+      "crisp potato edges",
+      "small meat cubes",
+      "fried egg"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "safe-choice"
+    ],
+    "avoidIfTags": [
+      "egg-free",
+      "no-pork",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "A practical comfort choice if hash, egg, and potatoes sound good.",
+      "zh": "想吃土豆肉丁煎锅和煎蛋时是实用选择。",
+      "nl": "Een praktische comfortkeuze als hash, ei en aardappel goed klinken."
+    },
+    "weightLevel": 4,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 5,
+    "id": "rakfisk",
+    "metadataCode": "128008",
+    "names": {
+      "en": "Rakfisk",
+      "zh": "发酵鳟鱼",
+      "nl": "Rakfisk",
+      "local": "Rakfisk"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "raw",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fermented-raw",
+    "shortDescription": {
+      "en": "Norwegian fermented trout served cold with flatbread, onion, sour cream, and potatoes.",
+      "zh": "挪威发酵鳟鱼，冷食，常配薄饼、洋葱、酸奶油和土豆。",
+      "nl": "Noorse gefermenteerde forel, koud geserveerd met platbrood, ui, zure room en aardappel."
+    },
+    "cookingProfile": {
+      "en": "This is pungent, cold, and fermented; the flavor is intentionally strong.",
+      "zh": "这是冷食发酵鱼，气味和风味都很强。",
+      "nl": "Koud en gefermenteerd, met bewust krachtige geur en smaak."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "regional-dish",
+        "acquired-taste"
+      ],
+      "description": {
+        "en": "A traditional Norwegian fermented fish for adventurous diners.",
+        "zh": "传统挪威发酵鱼，适合愿意尝试强风味的人。",
+        "nl": "Een traditionele Noorse gefermenteerde vis voor avontuurlijke eters."
+      }
+    },
+    "composition": [
+      [
+        "raw-fish",
+        60,
+        "fermented trout"
+      ],
+      [
+        "potato",
+        15,
+        "side"
+      ],
+      [
+        "rye-bread",
+        10,
+        "flatbread or bread"
+      ],
+      [
+        "sour-cream",
+        10,
+        "cool side"
+      ],
+      [
+        "onion",
+        5,
+        "sharp garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fermented fish",
+      "onion",
+      "sour cream"
+    ],
+    "basicTaste": [
+      "briny",
+      "sour",
+      "pungent"
+    ],
+    "textureProfile": [
+      "silky fish",
+      "cold serving",
+      "soft potato"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-raw-fish",
+      "contains-dairy",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "regional-dish",
+      "adventurous"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "avoids-raw-fish",
+      "dislikes-fermented-food",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Only choose this if fermented fish sounds exciting rather than intimidating.",
+      "zh": "只有在你愿意尝试发酵鱼强风味时才建议点。",
+      "nl": "Kies dit alleen als gefermenteerde vis spannend klinkt in plaats van afschrikwekkend."
+    },
+    "weightLevel": 2,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "kanelbullar",
+    "metadataCode": "128009",
+    "names": {
+      "en": "Kanelbullar",
+      "zh": "瑞典肉桂卷",
+      "nl": "Kaneelbroodjes",
+      "local": "Kanelbullar"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "room-temperature",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Swedish cinnamon-cardamom buns with a soft spiral crumb and pearl sugar.",
+      "zh": "瑞典肉桂小豆蔻甜面包卷，面包柔软，常撒珍珠糖。",
+      "nl": "Zweedse kaneel-kardemombroodjes met zachte spiraal en parelsuiker."
+    },
+    "cookingProfile": {
+      "en": "It is bready and aromatic, less sticky than many American cinnamon rolls.",
+      "zh": "口感偏面包和香料香，不像美式肉桂卷那么黏甜。",
+      "nl": "Broodachtig en aromatisch, minder plakkerig dan veel Amerikaanse cinnamon rolls."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "A Swedish fika staple and one of the most recognizable Nordic sweets.",
+        "zh": "瑞典 fika 代表点心，也是最有辨识度的北欧甜点之一。",
+        "nl": "Een Zweedse fika-klassieker en een van de herkenbaarste Noordse zoetigheden."
+      }
+    },
+    "composition": [
+      [
+        "cardamom-bun",
+        70,
+        "sweet bun"
+      ],
+      [
+        "cinnamon",
+        15,
+        "spiced swirl",
+        "seasoning"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "sugar",
+        5,
+        "sweetness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cinnamon",
+      "cardamom",
+      "butter"
+    ],
+    "basicTaste": [
+      "sweet",
+      "warm-spiced",
+      "bready"
+    ],
+    "textureProfile": [
+      "soft bun",
+      "spiced spiral",
+      "pearl sugar crunch"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "coffee-pairing"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "A good pastry choice if you want warm spice without a very creamy dessert.",
+      "zh": "想吃香料面包甜点、不想要厚奶油时很合适。",
+      "nl": "Een goede keuze als je warme specerijen wilt zonder heel romig dessert."
+    },
+    "weightLevel": 2,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "skagen-toast",
+    "metadataCode": "128010",
+    "names": {
+      "en": "Toast Skagen",
+      "zh": "瑞典虾仁吐司",
+      "nl": "Toast Skagen",
+      "local": "Toast Skagen"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "assembled",
+      "toasted"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "assembled",
+    "shortDescription": {
+      "en": "Toast topped with shrimp salad, mayonnaise or creme fraiche, dill, lemon, and sometimes roe.",
+      "zh": "吐司上放虾仁沙拉、蛋黄酱或酸奶油、莳萝、柠檬，有时加鱼籽。",
+      "nl": "Toast met garnalensalade, mayonaise of creme fraiche, dille, citroen en soms kuit."
+    },
+    "cookingProfile": {
+      "en": "Expect a cool creamy shrimp topping on crisp toast.",
+      "zh": "上层是冷的奶油感虾仁，底部吐司酥脆。",
+      "nl": "Verwacht koele romige garnalentopping op krokante toast."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "starter"
+      ],
+      "description": {
+        "en": "A classic Swedish starter where shrimp freshness and dill matter.",
+        "zh": "经典瑞典前菜，重点是虾仁新鲜度和莳萝香气。",
+        "nl": "Een klassieke Zweedse starter waarin garnalenversheid en dille tellen."
+      }
+    },
+    "composition": [
+      [
+        "shrimp",
+        45,
+        "shrimp salad"
+      ],
+      [
+        "rye-bread",
+        25,
+        "toast"
+      ],
+      [
+        "mayonnaise",
+        15,
+        "creamy dressing"
+      ],
+      [
+        "lemon",
+        5,
+        "brightness"
+      ],
+      [
+        "dill",
+        5,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "fish-roe",
+        5,
+        "optional garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "shrimp",
+      "dill",
+      "lemon",
+      "creamy dressing"
+    ],
+    "basicTaste": [
+      "briny",
+      "creamy",
+      "fresh"
+    ],
+    "textureProfile": [
+      "cool shrimp",
+      "crisp toast",
+      "creamy topping"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-egg",
+      "contains-gluten",
+      "contains-fish"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "starter",
+      "seafood"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "egg-free",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "A reliable seafood starter if shrimp and creamy dressing sound appealing.",
+      "zh": "喜欢虾仁和奶油沙拉口感时，这是稳妥前菜。",
+      "nl": "Een betrouwbare zeevruchtenstarter als garnalen en romige dressing goed klinken."
+    },
+    "weightLevel": 2,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 5,
+    "id": "lutefisk",
+    "metadataCode": "128011",
+    "names": {
+      "en": "Lutefisk",
+      "zh": "碱水鳕鱼",
+      "nl": "Lutefisk",
+      "local": "Lutefisk"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "boiled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Traditional lye-treated white fish, often served with potatoes, peas, bacon, or sauce.",
+      "zh": "传统碱处理白鱼，常配土豆、豌豆、培根或酱汁。",
+      "nl": "Traditionele met loog behandelde witte vis, vaak met aardappel, erwten, spek of saus."
+    },
+    "cookingProfile": {
+      "en": "The texture is soft and gelatinous, which is the main watch-out.",
+      "zh": "质地非常柔软甚至胶质感，这是主要需要注意的点。",
+      "nl": "De structuur is zacht en gelatineus; dat is de belangrijkste waarschuwing."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "festival",
+        "acquired-taste"
+      ],
+      "description": {
+        "en": "A traditional Nordic holiday fish with a famously divisive texture.",
+        "zh": "传统北欧节庆鱼菜，质地很有争议。",
+        "nl": "Een traditionele Noordse feestvis met bekend polariserende textuur."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        60,
+        "treated white fish"
+      ],
+      [
+        "potato",
+        20,
+        "side"
+      ],
+      [
+        "peas",
+        10,
+        "side"
+      ],
+      [
+        "bacon",
+        5,
+        "salty topping"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "treated white fish",
+      "butter",
+      "bacon"
+    ],
+    "basicTaste": [
+      "mild",
+      "salty",
+      "buttery"
+    ],
+    "textureProfile": [
+      "very soft fish",
+      "gelatinous bite",
+      "simple sides"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-pork",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "festival",
+      "adventurous"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "no-pork",
+      "dislikes-soft-textures"
+    ],
+    "orderVerdict": {
+      "en": "A cultural experience more than a safe crowd-pleaser; order only if the texture sounds okay.",
+      "zh": "更像文化体验，不是大众安全牌；能接受胶质软鱼再点。",
+      "nl": "Meer culturele ervaring dan veilige publiekslieveling; bestel alleen als de textuur oké klinkt."
+    },
+    "weightLevel": 2,
+    "restaurantVariationLevel": "medium"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "dishId": "gravlax",
+    "metadataCode": "128001",
+    "cuisineId": "scandinavian",
+    "name": "Gravlax",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128001-gravlax.webp",
+    "thumbPath": "/assets/dishes/thumb/128001-gravlax.webp"
+  },
+  {
+    "dishId": "swedish-meatballs",
+    "metadataCode": "128002",
+    "cuisineId": "scandinavian",
+    "name": "Swedish Meatballs",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128002-swedish-meatballs.webp",
+    "thumbPath": "/assets/dishes/thumb/128002-swedish-meatballs.webp"
+  },
+  {
+    "dishId": "smorrebrod",
+    "metadataCode": "128003",
+    "cuisineId": "scandinavian",
+    "name": "Smørrebrød",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128003-smorrebrod.webp",
+    "thumbPath": "/assets/dishes/thumb/128003-smorrebrod.webp"
+  },
+  {
+    "dishId": "pickled-herring",
+    "metadataCode": "128004",
+    "cuisineId": "scandinavian",
+    "name": "Pickled Herring",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128004-pickled-herring.webp",
+    "thumbPath": "/assets/dishes/thumb/128004-pickled-herring.webp"
+  },
+  {
+    "dishId": "fiskesuppe",
+    "metadataCode": "128005",
+    "cuisineId": "scandinavian",
+    "name": "Fiskesuppe",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128005-fiskesuppe.webp",
+    "thumbPath": "/assets/dishes/thumb/128005-fiskesuppe.webp"
+  },
+  {
+    "dishId": "reindeer-stew",
+    "metadataCode": "128006",
+    "cuisineId": "scandinavian",
+    "name": "Reindeer Stew",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128006-reindeer-stew.webp",
+    "thumbPath": "/assets/dishes/thumb/128006-reindeer-stew.webp"
+  },
+  {
+    "dishId": "pyttipanna",
+    "metadataCode": "128007",
+    "cuisineId": "scandinavian",
+    "name": "Pyttipanna",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128007-pyttipanna.webp",
+    "thumbPath": "/assets/dishes/thumb/128007-pyttipanna.webp"
+  },
+  {
+    "dishId": "rakfisk",
+    "metadataCode": "128008",
+    "cuisineId": "scandinavian",
+    "name": "Rakfisk",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128008-rakfisk.webp",
+    "thumbPath": "/assets/dishes/thumb/128008-rakfisk.webp"
+  },
+  {
+    "dishId": "kanelbullar",
+    "metadataCode": "128009",
+    "cuisineId": "scandinavian",
+    "name": "Kanelbullar",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128009-kanelbullar.webp",
+    "thumbPath": "/assets/dishes/thumb/128009-kanelbullar.webp"
+  },
+  {
+    "dishId": "skagen-toast",
+    "metadataCode": "128010",
+    "cuisineId": "scandinavian",
+    "name": "Toast Skagen",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128010-skagen-toast.webp",
+    "thumbPath": "/assets/dishes/thumb/128010-skagen-toast.webp"
+  },
+  {
+    "dishId": "lutefisk",
+    "metadataCode": "128011",
+    "cuisineId": "scandinavian",
+    "name": "Lutefisk",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128011-lutefisk.webp",
+    "thumbPath": "/assets/dishes/thumb/128011-lutefisk.webp"
+  },
+  {
+    "dishId": "frikadeller",
+    "metadataCode": "128013",
+    "cuisineId": "scandinavian",
+    "name": "Frikadeller",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128013-frikadeller.webp",
+    "thumbPath": "/assets/dishes/thumb/128013-frikadeller.webp"
+  },
+  {
+    "dishId": "karjalanpiirakka",
+    "metadataCode": "128014",
+    "cuisineId": "scandinavian",
+    "name": "Karelian Pie",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128014-karjalanpiirakka.webp",
+    "thumbPath": "/assets/dishes/thumb/128014-karjalanpiirakka.webp"
+  },
+  {
+    "dishId": "lohikeitto",
+    "metadataCode": "128015",
+    "cuisineId": "scandinavian",
+    "name": "Lohikeitto",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128015-lohikeitto.webp",
+    "thumbPath": "/assets/dishes/thumb/128015-lohikeitto.webp"
+  },
+  {
+    "dishId": "kalops",
+    "metadataCode": "128016",
+    "cuisineId": "scandinavian",
+    "name": "Kalops",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128016-kalops.webp",
+    "thumbPath": "/assets/dishes/thumb/128016-kalops.webp"
+  },
+  {
+    "dishId": "raggmunk",
+    "metadataCode": "128017",
+    "cuisineId": "scandinavian",
+    "name": "Raggmunk",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128017-raggmunk.webp",
+    "thumbPath": "/assets/dishes/thumb/128017-raggmunk.webp"
+  },
+  {
+    "dishId": "janssons-frestelse",
+    "metadataCode": "128018",
+    "cuisineId": "scandinavian",
+    "name": "Jansson’s Temptation",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128018-janssons-frestelse.webp",
+    "thumbPath": "/assets/dishes/thumb/128018-janssons-frestelse.webp"
+  },
+  {
+    "dishId": "kroppkakor",
+    "metadataCode": "128019",
+    "cuisineId": "scandinavian",
+    "name": "Kroppkakor",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128019-kroppkakor.webp",
+    "thumbPath": "/assets/dishes/thumb/128019-kroppkakor.webp"
+  },
+  {
+    "dishId": "farikal",
+    "metadataCode": "128020",
+    "cuisineId": "scandinavian",
+    "name": "Fårikål",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128020-farikal.webp",
+    "thumbPath": "/assets/dishes/thumb/128020-farikal.webp"
+  },
+  {
+    "dishId": "kjottkaker",
+    "metadataCode": "128021",
+    "cuisineId": "scandinavian",
+    "name": "Kjøttkaker",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128021-kjottkaker.webp",
+    "thumbPath": "/assets/dishes/thumb/128021-kjottkaker.webp"
+  },
+  {
+    "dishId": "leverpostej",
+    "metadataCode": "128022",
+    "cuisineId": "scandinavian",
+    "name": "Leverpostej",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128022-leverpostej.webp",
+    "thumbPath": "/assets/dishes/thumb/128022-leverpostej.webp"
+  },
+  {
+    "dishId": "fish-cakes-scandinavian",
+    "metadataCode": "128024",
+    "cuisineId": "scandinavian",
+    "name": "Scandinavian Fish Cakes",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128024-fish-cakes-scandinavian.webp",
+    "thumbPath": "/assets/dishes/thumb/128024-fish-cakes-scandinavian.webp"
+  },
+  {
+    "dishId": "pea-soup-pancakes",
+    "metadataCode": "128025",
+    "cuisineId": "scandinavian",
+    "name": "Pea Soup and Pancakes",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128025-pea-soup-pancakes.webp",
+    "thumbPath": "/assets/dishes/thumb/128025-pea-soup-pancakes.webp"
+  },
+  {
+    "dishId": "princess-cake",
+    "metadataCode": "128026",
+    "cuisineId": "scandinavian",
+    "name": "Princess Cake",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128026-princess-cake.webp",
+    "thumbPath": "/assets/dishes/thumb/128026-princess-cake.webp"
+  },
+  {
+    "dishId": "semla",
+    "metadataCode": "128027",
+    "cuisineId": "scandinavian",
+    "name": "Semla",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128027-semla.webp",
+    "thumbPath": "/assets/dishes/thumb/128027-semla.webp"
+  },
+  {
+    "dishId": "riskrem",
+    "metadataCode": "128028",
+    "cuisineId": "scandinavian",
+    "name": "Riskrem",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128028-riskrem.webp",
+    "thumbPath": "/assets/dishes/thumb/128028-riskrem.webp"
+  },
+  {
+    "dishId": "aebleskiver",
+    "metadataCode": "128029",
+    "cuisineId": "scandinavian",
+    "name": "Aebleskiver",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128029-aebleskiver.webp",
+    "thumbPath": "/assets/dishes/thumb/128029-aebleskiver.webp"
+  },
+  {
+    "dishId": "stegt-flaesk",
+    "metadataCode": "128035",
+    "cuisineId": "scandinavian",
+    "name": "Stegt Flaesk",
+    "sourceFile": "europe-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128035-stegt-flaesk.webp",
+    "thumbPath": "/assets/dishes/thumb/128035-stegt-flaesk.webp"
+  },
+  {
+    "dishId": "raspeballer",
+    "metadataCode": "128040",
+    "cuisineId": "scandinavian",
+    "name": "Raspeballer",
+    "sourceFile": "europe-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128040-raspeballer.webp",
+    "thumbPath": "/assets/dishes/thumb/128040-raspeballer.webp"
+  },
+  {
+    "dishId": "kladdkaka",
+    "metadataCode": "128047",
+    "cuisineId": "scandinavian",
+    "name": "Kladdkaka",
+    "sourceFile": "europe-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/128047-kladdkaka.webp",
+    "thumbPath": "/assets/dishes/thumb/128047-kladdkaka.webp"
+  }
+]

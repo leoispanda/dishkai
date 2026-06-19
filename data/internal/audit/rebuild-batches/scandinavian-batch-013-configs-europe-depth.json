@@ -1,0 +1,323 @@
+[
+  {
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "stegt-flaesk",
+    "metadataCode": "128035",
+    "names": {
+      "en": "Stegt Flaesk",
+      "zh": "丹麦脆煎五花肉",
+      "nl": "Stegt flaesk",
+      "local": "Stegt flæsk"
+    },
+    "category": "pork",
+    "cookingMethods": [
+      "fried"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Crispy fried pork belly slices served with boiled potatoes and parsley sauce.",
+      "zh": "脆煎五花肉片配水煮土豆和欧芹奶油酱。",
+      "nl": "Krokant gebakken buikspek met gekookte aardappels en peterseliesaus."
+    },
+    "cookingProfile": {
+      "en": "The dish is salty, fatty, and crisp, balanced by mild potatoes and creamy parsley sauce.",
+      "zh": "咸香油脂感和脆感明显，由土豆和欧芹奶油酱平衡。",
+      "nl": "Zout, vet en krokant, in balans met milde aardappels en romige peterseliesaus."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "A Danish classic often described as a national comfort dish.",
+        "zh": "丹麦经典舒适菜，常被视为代表性家常菜。",
+        "nl": "Een Deense klassieker, vaak gezien als nationaal comfortgerecht."
+      }
+    },
+    "composition": [
+      [
+        "pork-belly",
+        45,
+        "crispy pork"
+      ],
+      [
+        "potato",
+        30,
+        "side"
+      ],
+      [
+        "cream",
+        15,
+        "parsley sauce"
+      ],
+      [
+        "parsley",
+        5,
+        "sauce herb",
+        "seasoning"
+      ],
+      [
+        "butter",
+        5,
+        "sauce richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "crisp pork belly",
+      "parsley sauce",
+      "boiled potatoes"
+    ],
+    "basicTaste": [
+      "salty",
+      "rich",
+      "creamy"
+    ],
+    "textureProfile": [
+      "crispy pork",
+      "soft potatoes",
+      "smooth sauce"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "dairy-free",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Order when you want a very classic Danish pork-and-potato plate.",
+      "zh": "想吃非常经典的丹麦猪肉土豆盘时适合点。",
+      "nl": "Kies dit voor een zeer klassiek Deens spek-en-aardappelbord."
+    },
+    "weightLevel": 5,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 2,
+    "id": "raspeballer",
+    "metadataCode": "128040",
+    "names": {
+      "en": "Raspeballer",
+      "zh": "挪威土豆团子",
+      "nl": "Raspeballer",
+      "local": "Raspeballer"
+    },
+    "category": "potato",
+    "cookingMethods": [
+      "boiled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Norwegian potato dumplings served with salted meat, sausage, rutabaga mash, butter, or potatoes.",
+      "zh": "挪威土豆团子，常配咸肉、香肠、芜菁泥、黄油或土豆。",
+      "nl": "Noorse aardappelknoedels met gezouten vlees, worst, koolraappuree, boter of aardappel."
+    },
+    "cookingProfile": {
+      "en": "Dense and filling, with a plain potato flavor supported by salty sides.",
+      "zh": "团子紧实顶饱，土豆味朴素，由咸肉配菜提升风味。",
+      "nl": "Dicht en vullend, met eenvoudige aardappelsmaak en zoute bijgerechten."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "regional-dish",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "A traditional Norwegian potato dumpling meal with high regional variation.",
+        "zh": "传统挪威土豆团子餐，地区变化较多。",
+        "nl": "Een traditionele Noorse aardappelknoedelmaaltijd met veel regionale variatie."
+      }
+    },
+    "composition": [
+      [
+        "potato-dumpling",
+        55,
+        "dumplings"
+      ],
+      [
+        "pork",
+        20,
+        "salted meat"
+      ],
+      [
+        "sausage",
+        10,
+        "side"
+      ],
+      [
+        "turnip",
+        10,
+        "rutabaga mash"
+      ],
+      [
+        "butter",
+        5,
+        "serving fat"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "potato dumpling",
+      "salted meat",
+      "rutabaga mash"
+    ],
+    "basicTaste": [
+      "mild",
+      "salty",
+      "hearty"
+    ],
+    "textureProfile": [
+      "dense dumplings",
+      "soft mash",
+      "salty meat side"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "regional-dish",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "dairy-free",
+      "dislikes-dense-textures"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a traditional, very filling potato-dumpling plate.",
+      "zh": "想吃传统又很顶饱的土豆团子盘时可以点。",
+      "nl": "Kies dit voor een traditioneel, zeer vullend aardappelknoedelbord."
+    },
+    "weightLevel": 5,
+    "restaurantVariationLevel": "high"
+  },
+  {
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "kladdkaka",
+    "metadataCode": "128047",
+    "names": {
+      "en": "Kladdkaka",
+      "zh": "瑞典黏心巧克力蛋糕",
+      "nl": "Kladdkaka",
+      "local": "Kladdkaka"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "room-temperature",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Swedish sticky chocolate cake with a dense fudgy center, often served with cream or berries.",
+      "zh": "瑞典黏心巧克力蛋糕，中心浓密湿润，常配奶油或莓果。",
+      "nl": "Zweedse kleverige chocoladetaart met fudgy kern, vaak met room of bessen."
+    },
+    "cookingProfile": {
+      "en": "It is denser and stickier than sponge cake, closer to a soft brownie.",
+      "zh": "比海绵蛋糕更浓密黏润，更接近柔软布朗尼。",
+      "nl": "Dichter en kleveriger dan biscuit, dichter bij zachte brownie."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "dessert",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A common Swedish cafe dessert for chocolate lovers.",
+        "zh": "瑞典咖啡馆常见巧克力甜点。",
+        "nl": "Een veelvoorkomend Zweeds cafédessert voor chocoladeliefhebbers."
+      }
+    },
+    "composition": [
+      [
+        "chocolate",
+        35,
+        "chocolate body"
+      ],
+      [
+        "wheat-flour",
+        20,
+        "cake structure"
+      ],
+      [
+        "butter",
+        20,
+        "richness"
+      ],
+      [
+        "egg",
+        15,
+        "binder"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "chocolate",
+      "butter",
+      "fudgy center"
+    ],
+    "basicTaste": [
+      "sweet",
+      "chocolatey",
+      "rich"
+    ],
+    "textureProfile": [
+      "sticky center",
+      "dense crumb",
+      "thin top crust"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "chocolate"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "A strong dessert choice if you want dense chocolate rather than a light cake.",
+      "zh": "想吃浓密巧克力甜点而不是轻蛋糕时很适合。",
+      "nl": "Een sterke dessertkeuze als je dichte chocolade wilt in plaats van lichte cake."
+    },
+    "weightLevel": 3,
+    "restaurantVariationLevel": "medium"
+  }
+]

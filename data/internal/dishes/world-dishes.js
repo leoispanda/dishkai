@@ -20168,180 +20168,207 @@ export const worldDishes = [
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 2,
     "id": "gravlax",
     "metadataCode": "128001",
-    "cuisineId": "scandinavian",
     "names": {
       "en": "Gravlax",
-      "zh": "腌三文鱼",
+      "zh": "莳萝腌三文鱼",
       "nl": "Gravlax",
-      "local": "gravlax"
+      "local": "Gravlax"
     },
     "category": "seafood",
     "cookingMethods": [
-      "assembled"
+      "raw",
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "cured-raw",
     "shortDescription": {
-      "en": "Cured salmon with dill and mustard sauce.",
-      "zh": "腌三文鱼 是常见北欧菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Gravlax is een veelvoorkomend gerecht in de scandinavisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Cured salmon served cold with dill, mustard sauce, bread, or potatoes.",
+      "zh": "冷食腌三文鱼，常配莳萝、芥末酱、面包或土豆。",
+      "nl": "Koud gepekelde zalm met dille, mosterdsaus, brood of aardappel."
     },
     "cookingProfile": {
-      "en": "Usually served with tender seafood, fresh finish, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender seafood，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender seafood; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Expect silky cold salmon with a sweet-salty cure rather than cooked fish.",
+      "zh": "口感是冷的丝滑三文鱼，带甜咸腌制味，不是熟鱼。",
+      "nl": "Verwacht koude zijdezachte zalm met zoet-zoute pekel, geen gegaarde vis."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A high-frequency Scandinavian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频北欧菜菜品。",
-        "nl": "Een vaak voorkomend scandinavisch menu-item voor brede DishKAI restaurantdekking."
+        "en": "A classic Nordic starter where salmon texture and dill are central.",
+        "zh": "经典北欧前菜，重点是三文鱼质地和莳萝香气。",
+        "nl": "Een klassieke Noordse starter waarin zalmtextuur en dille centraal staan."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        50,
-        "main"
+        "salmon",
+        75,
+        "cured salmon"
       ],
       [
-        "steamed-rice",
-        20,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        15,
-        "side"
-      ],
-      [
-        "lime",
+        "rye-bread",
         10,
-        "finish"
+        "bread side"
       ],
       [
-        "parsley",
+        "mustard",
         5,
-        "aroma",
+        "sauce",
         "seasoning"
+      ],
+      [
+        "dill",
+        5,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "brightness"
       ]
     ],
     "distinctiveFlavorSources": [
+      "cured salmon",
       "dill",
-      "mustard",
-      "butter"
+      "mustard sauce"
     ],
     "basicTaste": [
+      "salty",
       "fresh",
-      "briny"
+      "sweet-savory"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "silky salmon",
+      "cool slices",
+      "soft bread side"
     ],
     "riskFlags": [
       "contains-fish",
-      "contains-raw-fish"
+      "contains-raw-fish",
+      "contains-gluten"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "seafood",
+      "starter"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "fish-allergy",
+      "avoids-raw-fish",
+      "gluten-free"
+    ],
     "orderVerdict": {
-      "en": "Good cold fish starter if raw/cured fish is okay.",
-      "zh": "如果你接受这类口味和风险，腌三文鱼 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A strong cold starter if you enjoy cured salmon and dill.",
+      "zh": "喜欢冷食腌三文鱼和莳萝香时很适合。",
+      "nl": "Een sterke koude starter als je gepekelde zalm en dille lekker vindt."
     },
-    "spiceLevel": 0,
-    "weightLevel": 1,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 2,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "swedish-meatballs",
     "metadataCode": "128002",
-    "cuisineId": "scandinavian",
     "names": {
       "en": "Swedish Meatballs",
       "zh": "瑞典肉丸",
       "nl": "Zweedse gehaktballetjes",
-      "local": "köttbullar"
+      "local": "Köttbullar"
     },
     "category": "meat",
     "cookingMethods": [
-      "grilled"
+      "fried",
+      "simmered"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Meatballs with creamy gravy, potatoes, and lingonberry.",
-      "zh": "瑞典肉丸 是常见北欧菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Zweedse gehaktballetjes is een veelvoorkomend gerecht in de scandinavisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Small meatballs with cream gravy, potatoes, lingonberry jam, and often pickled cucumber.",
+      "zh": "小肉丸配奶油肉汁、土豆、越橘果酱，常有腌黄瓜。",
+      "nl": "Kleine gehaktballetjes met roomjus, aardappel, vossenbessenjam en vaak augurk."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "The plate is mild, creamy, and comforting, with sweet-tart jam on the side.",
+      "zh": "整体温和、有奶油肉汁的舒适感，旁边果酱带酸甜。",
+      "nl": "Mild, romig en troostend, met zoetzure jam ernaast."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Scandinavian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频北欧菜菜品。",
-        "nl": "Een vaak voorkomend scandinavisch menu-item voor brede DishKAI restaurantdekking."
+        "en": "A widely recognized Swedish classic and safe first-time Nordic order.",
+        "zh": "很有辨识度的瑞典经典菜，也是第一次点北欧菜的安全选择。",
+        "nl": "Een herkenbare Zweedse klassieker en veilige eerste Noordse keuze."
       }
     },
     "composition": [
       [
-        "lamb",
-        45,
-        "main"
+        "ground-meat",
+        40,
+        "meatballs"
       ],
       [
-        "steamed-rice",
+        "potato",
         25,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        20,
         "side"
       ],
       [
-        "cumin",
-        5,
-        "aroma",
-        "seasoning"
+        "cream",
+        15,
+        "gravy"
       ],
       [
-        "black-pepper",
+        "lingonberry-jam",
+        10,
+        "sweet-tart side"
+      ],
+      [
+        "pickles",
         5,
-        "seasoning",
+        "sharp side"
+      ],
+      [
+        "allspice",
+        5,
+        "warm spice",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "dill",
-      "mustard",
-      "butter"
+      "cream gravy",
+      "lingonberry jam",
+      "warm spice"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "creamy",
+      "sweet-tart"
     ],
     "textureProfile": [
-      "tender meat",
-      "charred or saucy edges"
+      "soft meatballs",
+      "smooth gravy",
+      "soft potatoes"
     ],
     "riskFlags": [
       "contains-dairy",
@@ -20349,676 +20376,967 @@ export const worldDishes = [
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "safe-choice",
+      "comfort-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "dairy-free",
+      "gluten-free",
+      "wants-light-food"
+    ],
     "orderVerdict": {
-      "en": "Comforting and mild; dairy/gluten may be present.",
-      "zh": "如果你接受这类口味和风险，瑞典肉丸 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A safe, filling choice if you want mild meat, gravy, and potatoes.",
+      "zh": "想吃温和、顶饱的肉丸肉汁土豆组合时很稳。",
+      "nl": "Een veilige, vullende keuze voor mild vlees, jus en aardappels."
     },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 4,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "smorrebrod",
     "metadataCode": "128003",
-    "cuisineId": "scandinavian",
     "names": {
-      "en": "Smørrebrød",
+      "en": "Smorrebrod",
       "zh": "丹麦开放三明治",
-      "nl": "Smørrebrød",
-      "local": "smørrebrød"
+      "nl": "Smorrebrod",
+      "local": "Smørrebrød"
     },
-    "category": "bread",
-    "cookingMethods": [
-      "baked"
-    ],
-    "shortDescription": {
-      "en": "Open rye bread sandwich with fish, meat, egg, or cheese toppings.",
-      "zh": "丹麦开放三明治 是常见北欧菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Smørrebrød is een veelvoorkomend gerecht in de scandinavisch keuken, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with bready, chewy or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为bready，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met bready; saus, vulling en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
-      ],
-      "description": {
-        "en": "A high-frequency Scandinavian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频北欧菜菜品。",
-        "nl": "Een vaak voorkomend scandinavisch menu-item voor brede DishKAI restaurantdekking."
-      }
-    },
-    "composition": [
-      [
-        "pita",
-        55,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "freshness"
-      ],
-      [
-        "tomato",
-        10,
-        "body"
-      ],
-      [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "mint",
-        5,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "dill",
-      "mustard",
-      "butter"
-    ],
-    "basicTaste": [
-      "savory",
-      "bready"
-    ],
-    "textureProfile": [
-      "bready",
-      "chewy or crisp"
-    ],
-    "riskFlags": [
-      "contains-gluten"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Good lunch item; topping decides risk.",
-      "zh": "如果你接受这类口味和风险，丹麦开放三明治 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "high"
-  }),
-  starterDish({
-    "id": "pickled-herring",
-    "metadataCode": "128004",
-    "cuisineId": "scandinavian",
-    "names": {
-      "en": "Pickled Herring",
-      "zh": "腌鲱鱼",
-      "nl": "Ingelegde haring",
-      "local": "sild"
-    },
-    "category": "seafood",
+    "category": "open-sandwich",
     "cookingMethods": [
       "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "assembled",
     "shortDescription": {
-      "en": "Herring in vinegar, cream, or mustard marinade.",
-      "zh": "腌鲱鱼 是常见北欧菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Ingelegde haring is een veelvoorkomend gerecht in de scandinavisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Danish open-faced rye sandwich with layered toppings such as shrimp, egg, herring, roast meat, or vegetables.",
+      "zh": "丹麦开放式黑麦三明治，上面可放虾、鸡蛋、鲱鱼、冷肉或蔬菜。",
+      "nl": "Deense open roggebroodsnede met toppings zoals garnalen, ei, haring, vlees of groenten."
     },
     "cookingProfile": {
-      "en": "Usually served with tender seafood, fresh finish, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender seafood，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender seafood; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "It is compact but topping-heavy; check the topping because allergens vary a lot.",
+      "zh": "分量不一定大但配料很集中；过敏风险取决于具体 topping。",
+      "nl": "Compact maar rijk belegd; controleer de topping omdat allergenen sterk wisselen."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "lunch"
       ],
       "description": {
-        "en": "A high-frequency Scandinavian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频北欧菜菜品。",
-        "nl": "Een vaak voorkomend scandinavisch menu-item voor brede DishKAI restaurantdekking."
+        "en": "A defining Danish lunch format rather than one single topping.",
+        "zh": "丹麦午餐代表形式，本身是一类开放三明治。",
+        "nl": "Een bepalend Deens lunchformat, geen enkele vaste topping."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        50,
-        "main"
-      ],
-      [
-        "steamed-rice",
-        20,
+        "rye-bread",
+        40,
         "base"
       ],
       [
-        "mixed-vegetables",
+        "shrimp",
+        20,
+        "common topping"
+      ],
+      [
+        "egg",
         15,
-        "side"
+        "common topping"
       ],
       [
-        "lime",
+        "herring",
         10,
-        "finish"
+        "common fish topping"
       ],
       [
-        "parsley",
+        "mayonnaise",
+        10,
+        "creamy dressing"
+      ],
+      [
+        "dill",
         5,
-        "aroma",
+        "herb",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
+      "dense rye bread",
+      "cold toppings",
       "dill",
-      "mustard",
-      "butter"
+      "creamy dressing"
     ],
     "basicTaste": [
+      "savory",
       "fresh",
       "briny"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "dense bread",
+      "cold toppings",
+      "creamy garnish"
     ],
     "riskFlags": [
-      "contains-fish"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Acquired taste; fishy, tangy, often cold.",
-      "zh": "如果你接受这类口味和风险，腌鲱鱼 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 1,
-    "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  }),
-  starterDish({
-    "id": "fiskesuppe",
-    "metadataCode": "128005",
-    "cuisineId": "scandinavian",
-    "names": {
-      "en": "Fiskesuppe",
-      "zh": "北欧鱼汤",
-      "nl": "Fiskesuppe",
-      "local": "fiskesuppe"
-    },
-    "category": "soup",
-    "cookingMethods": [
-      "simmered"
-    ],
-    "shortDescription": {
-      "en": "Creamy fish soup with vegetables and herbs.",
-      "zh": "北欧鱼汤 是常见北欧菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Fiskesuppe is een veelvoorkomend gerecht in de scandinavisch keuken, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with hot broth, soft pieces, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为hot broth，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met hot broth; saus, vulling en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
-      ],
-      "description": {
-        "en": "A high-frequency Scandinavian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频北欧菜菜品。",
-        "nl": "Een vaak voorkomend scandinavisch menu-item voor brede DishKAI restaurantdekking."
-      }
-    },
-    "composition": [
-      [
-        "broth",
-        45,
-        "soup-base"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "chicken",
-        20,
-        "protein"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "cumin",
-        5,
-        "aroma",
-        "seasoning"
-      ],
-      [
-        "lime",
-        5,
-        "finish"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "dill",
-      "mustard",
-      "butter"
-    ],
-    "basicTaste": [
-      "brothy",
-      "savory"
-    ],
-    "textureProfile": [
-      "hot broth",
-      "soft pieces"
-    ],
-    "riskFlags": [
+      "contains-gluten",
+      "contains-shellfish",
       "contains-fish",
-      "contains-dairy"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Good seafood soup; dairy and fish.",
-      "zh": "如果你接受这类口味和风险，北欧鱼汤 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  }),
-  starterDish({
-    "id": "reindeer-stew",
-    "metadataCode": "128006",
-    "cuisineId": "scandinavian",
-    "names": {
-      "en": "Reindeer Stew",
-      "zh": "驯鹿肉炖菜",
-      "nl": "Rendierstoof",
-      "local": "reinskav"
-    },
-    "category": "meat",
-    "cookingMethods": [
-      "grilled"
-    ],
-    "shortDescription": {
-      "en": "Northern-style reindeer or game stew with creamy sauce.",
-      "zh": "驯鹿肉炖菜 是常见北欧菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Rendierstoof is een veelvoorkomend gerecht in de scandinavisch keuken, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
-      ],
-      "description": {
-        "en": "A high-frequency Scandinavian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频北欧菜菜品。",
-        "nl": "Een vaak voorkomend scandinavisch menu-item voor brede DishKAI restaurantdekking."
-      }
-    },
-    "composition": [
-      [
-        "lamb",
-        45,
-        "main"
-      ],
-      [
-        "steamed-rice",
-        25,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "side"
-      ],
-      [
-        "cumin",
-        5,
-        "aroma",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "dill",
-      "mustard",
-      "butter"
-    ],
-    "basicTaste": [
-      "savory",
-      "rich"
-    ],
-    "textureProfile": [
-      "tender meat",
-      "charred or saucy edges"
-    ],
-    "riskFlags": [
-      "contains-dairy"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Try if you want a regional game meat dish.",
-      "zh": "如果你接受这类口味和风险，驯鹿肉炖菜 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  }),
-  starterDish({
-    "id": "pyttipanna",
-    "metadataCode": "128007",
-    "cuisineId": "scandinavian",
-    "names": {
-      "en": "Pyttipanna",
-      "zh": "瑞典土豆肉丁煎锅",
-      "nl": "Pyttipanna",
-      "local": "pyttipanna"
-    },
-    "category": "meat",
-    "cookingMethods": [
-      "grilled"
-    ],
-    "shortDescription": {
-      "en": "Fried diced potatoes and meat, often served with egg and pickles.",
-      "zh": "瑞典土豆肉丁煎锅 是常见北欧菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Pyttipanna is een veelvoorkomend gerecht in de scandinavisch keuken, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
-      ],
-      "description": {
-        "en": "A high-frequency Scandinavian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频北欧菜菜品。",
-        "nl": "Een vaak voorkomend scandinavisch menu-item voor brede DishKAI restaurantdekking."
-      }
-    },
-    "composition": [
-      [
-        "lamb",
-        45,
-        "main"
-      ],
-      [
-        "steamed-rice",
-        25,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "side"
-      ],
-      [
-        "cumin",
-        5,
-        "aroma",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "dill",
-      "mustard",
-      "butter"
-    ],
-    "basicTaste": [
-      "savory",
-      "rich"
-    ],
-    "textureProfile": [
-      "tender meat",
-      "charred or saucy edges"
-    ],
-    "riskFlags": [
       "contains-egg"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "lunch",
+      "classic-dish"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "shellfish-allergy",
+      "fish-allergy",
+      "egg-free"
+    ],
     "orderVerdict": {
-      "en": "Filling comfort plate; egg common.",
-      "zh": "如果你接受这类口味和风险，瑞典土豆肉丁煎锅 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Great for a Danish lunch, but choose the topping carefully.",
+      "zh": "想吃丹麦午餐很适合，但要仔细看上面的配料。",
+      "nl": "Goed voor een Deense lunch, maar kies de topping zorgvuldig."
     },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 2,
+    "restaurantVariationLevel": "high"
   }),
   starterDish({
-    "id": "rakfisk",
-    "metadataCode": "128008",
     "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 4,
+    "id": "pickled-herring",
+    "metadataCode": "128004",
     "names": {
-      "en": "Rakfisk",
-      "zh": "发酵鱼",
-      "nl": "Rakfisk",
-      "local": "rakfisk"
+      "en": "Pickled Herring",
+      "zh": "腌鲱鱼",
+      "nl": "Ingelegde haring",
+      "local": "Sill"
     },
     "category": "seafood",
     "cookingMethods": [
-      "assembled"
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "cured-raw",
     "shortDescription": {
-      "en": "Fermented fish served cold with flatbread and toppings.",
-      "zh": "发酵鱼 是常见北欧菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Rakfisk is een veelvoorkomend gerecht in de scandinavisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Cold pickled herring with onion, potatoes, capers, dill, or sour cream.",
+      "zh": "冷食腌鲱鱼，常配洋葱、土豆、酸豆、莳萝或酸奶油。",
+      "nl": "Koude ingelegde haring met ui, aardappel, kappertjes, dille of zure room."
     },
     "cookingProfile": {
-      "en": "Usually served with tender seafood, fresh finish, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender seafood，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender seafood; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Expect a tangy, briny cold fish bite with a pronounced cured flavor.",
+      "zh": "口感是冷的酸咸鱼味，腌制感明显。",
+      "nl": "Verwacht een zure, zilte koude visbeet met duidelijke pekelsmaak."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "acquired-taste"
       ],
       "description": {
-        "en": "A high-frequency Scandinavian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频北欧菜菜品。",
-        "nl": "Een vaak voorkomend scandinavisch menu-item voor brede DishKAI restaurantdekking."
+        "en": "A classic Nordic cold fish item, common in herring plates and buffets.",
+        "zh": "经典北欧冷鱼菜，常见于鲱鱼拼盘和自助餐。",
+        "nl": "Een klassieke Noordse koude vis, vaak op haringborden en buffetten."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        50,
-        "main"
+        "herring",
+        70,
+        "pickled fish"
       ],
       [
-        "steamed-rice",
-        20,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
+        "potato",
         15,
         "side"
       ],
       [
-        "lime",
-        10,
-        "finish"
+        "onion",
+        5,
+        "sharp garnish"
       ],
       [
-        "parsley",
+        "vinegar",
         5,
-        "aroma",
+        "pickling tang",
+        "seasoning"
+      ],
+      [
+        "dill",
+        5,
+        "herb",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "dill",
-      "mustard",
-      "butter"
+      "herring",
+      "vinegar pickle",
+      "dill"
     ],
     "basicTaste": [
-      "fresh",
-      "briny"
+      "briny",
+      "sour",
+      "sharp"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "silky fish",
+      "cold slices",
+      "firm potato side"
     ],
     "riskFlags": [
       "contains-fish",
       "contains-raw-fish"
     ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+    "dietaryFlags": [
+      "pescatarian"
     ],
-    "avoidIfTags": [],
+    "goodForTags": [
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "avoids-raw-fish",
+      "dislikes-vinegar"
+    ],
     "orderVerdict": {
-      "en": "Only for adventurous diners; strong acquired taste.",
-      "zh": "如果你接受这类口味和风险，发酵鱼 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Worth ordering if you like cold cured fish; not a neutral first bite.",
+      "zh": "喜欢冷腌鱼可以点；它不是中性温和的第一口。",
+      "nl": "Interessant als je koude gepekelde vis lekker vindt; geen neutrale eerste hap."
     },
-    "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "fiskesuppe",
+    "metadataCode": "128005",
+    "names": {
+      "en": "Fiskesuppe",
+      "zh": "北欧奶油鱼汤",
+      "nl": "Fiskesuppe",
+      "local": "Fiskesuppe"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Creamy Nordic fish soup with salmon or white fish, vegetables, dill, and sometimes shellfish.",
+      "zh": "北欧奶油鱼汤，常有三文鱼或白鱼、蔬菜、莳萝，有时加贝类。",
+      "nl": "Romige Noordse vissoep met zalm of witte vis, groenten, dille en soms schelpdieren."
+    },
+    "cookingProfile": {
+      "en": "The bowl is warming and creamy, with tender fish chunks rather than a clear broth.",
+      "zh": "汤体温热奶油感明显，有嫩鱼块，不是清汤。",
+      "nl": "Warm en romig, met malse visstukken in plaats van heldere bouillon."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "soup"
+      ],
+      "description": {
+        "en": "A common Nordic fish-house soup where cream and dill soften the seafood flavor.",
+        "zh": "北欧鱼餐厅常见汤，奶油和莳萝会柔化海鲜味。",
+        "nl": "Een veelvoorkomende Noordse vissoep waarin room en dille de vissmaak verzachten."
+      }
+    },
+    "composition": [
+      [
+        "salmon",
+        30,
+        "fish"
+      ],
+      [
+        "fish-fillet",
+        20,
+        "white fish"
+      ],
+      [
+        "potato",
+        20,
+        "body"
+      ],
+      [
+        "carrot",
+        10,
+        "vegetable"
+      ],
+      [
+        "cream",
+        15,
+        "broth"
+      ],
+      [
+        "dill",
+        5,
+        "herb",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fish broth",
+      "cream",
+      "dill"
+    ],
+    "basicTaste": [
+      "creamy",
+      "savory",
+      "mild"
+    ],
+    "textureProfile": [
+      "creamy broth",
+      "tender fish",
+      "soft vegetables"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "soup",
+      "seafood"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "A comforting seafood soup if you want something warm and not too sharp.",
+      "zh": "想吃温暖、柔和的海鲜汤时很合适。",
+      "nl": "Een troostende vissoep als je iets warms en niet te scherps wilt."
+    },
+    "weightLevel": 3,
+    "restaurantVariationLevel": "medium"
+  }),
+  starterDish({
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 3,
+    "id": "reindeer-stew",
+    "metadataCode": "128006",
+    "names": {
+      "en": "Reindeer Stew",
+      "zh": "驯鹿肉炖菜",
+      "nl": "Rendierstoof",
+      "local": "Renskav"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "braised"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Nordic reindeer stew with potatoes or mash, root vegetables, and lingonberry jam.",
+      "zh": "北欧驯鹿肉炖菜，常配土豆或土豆泥、根茎蔬菜和越橘果酱。",
+      "nl": "Noordse rendierstoof met aardappel of puree, wortelgroenten en vossenbessenjam."
+    },
+    "cookingProfile": {
+      "en": "Expect lean game meat softened by gravy, with tart jam balancing the richness.",
+      "zh": "驯鹿肉较瘦，靠肉汁变柔和，越橘果酱带酸甜平衡。",
+      "nl": "Verwacht mager wildvlees in jus, met zure jam als balans."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "regional-dish",
+        "acquired-taste"
+      ],
+      "description": {
+        "en": "A northern Nordic and Sami-associated game dish with a distinctive meat flavor.",
+        "zh": "北欧北部和萨米文化相关的野味菜，肉味有辨识度。",
+        "nl": "Een noordelijk Noordse en Sami-geassocieerde wildschotel met uitgesproken vleessmaak."
+      }
+    },
+    "composition": [
+      [
+        "reindeer",
+        45,
+        "meat"
+      ],
+      [
+        "potato",
+        30,
+        "mash or side"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "root vegetables"
+      ],
+      [
+        "lingonberry-jam",
+        10,
+        "tart side"
+      ],
+      [
+        "cream",
+        5,
+        "gravy richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "reindeer",
+      "cream gravy",
+      "lingonberry jam"
+    ],
+    "basicTaste": [
+      "savory",
+      "gamey",
+      "sweet-tart"
+    ],
+    "textureProfile": [
+      "tender meat",
+      "soft mash",
+      "jam contrast"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "regional-dish",
+      "cold-weather"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "dislikes-game-meat"
+    ],
+    "orderVerdict": {
+      "en": "Choose this if you want a northern game dish with lingonberry contrast.",
+      "zh": "想尝北欧北部野味和越橘酸甜搭配时可以点。",
+      "nl": "Kies dit voor noordelijk wild met vossenbessencontrast."
+    },
+    "weightLevel": 4,
+    "restaurantVariationLevel": "medium"
+  }),
+  starterDish({
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "pyttipanna",
+    "metadataCode": "128007",
+    "names": {
+      "en": "Pyttipanna",
+      "zh": "北欧土豆肉丁煎锅",
+      "nl": "Pyttipanna",
+      "local": "Pyttipanna"
+    },
+    "category": "hash",
+    "cookingMethods": [
+      "fried"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Pan-fried diced potatoes, meat, and onions, often served with a fried egg and pickled beet.",
+      "zh": "土豆丁、肉丁和洋葱煎炒，常配煎蛋和腌甜菜。",
+      "nl": "Gebakken blokjes aardappel, vlees en ui, vaak met ei en ingelegde biet."
+    },
+    "cookingProfile": {
+      "en": "It is a browned hash: simple, salty, filling, and practical.",
+      "zh": "这是煎香的土豆肉丁，简单咸香、很顶饱。",
+      "nl": "Een gebakken hash: simpel, zoutig, vullend en praktisch."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "common",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "A common Swedish-style casual plate for using meat and potatoes together.",
+        "zh": "瑞典风格常见家常盘，把肉和土豆放在一起煎。",
+        "nl": "Een veelvoorkomend Zweeds huiselijk bord met vlees en aardappel."
+      }
+    },
+    "composition": [
+      [
+        "potato",
+        45,
+        "fried cubes"
+      ],
+      [
+        "beef",
+        20,
+        "meat cubes"
+      ],
+      [
+        "pork",
+        15,
+        "meat cubes"
+      ],
+      [
+        "onion",
+        10,
+        "aroma"
+      ],
+      [
+        "egg",
+        10,
+        "fried topping"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "browned potato",
+      "fried onion",
+      "egg"
+    ],
+    "basicTaste": [
+      "savory",
+      "salty",
+      "simple"
+    ],
+    "textureProfile": [
+      "crisp potato edges",
+      "small meat cubes",
+      "fried egg"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "safe-choice"
+    ],
+    "avoidIfTags": [
+      "egg-free",
+      "no-pork",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "A practical comfort choice if hash, egg, and potatoes sound good.",
+      "zh": "想吃土豆肉丁煎锅和煎蛋时是实用选择。",
+      "nl": "Een praktische comfortkeuze als hash, ei en aardappel goed klinken."
+    },
+    "weightLevel": 4,
+    "restaurantVariationLevel": "medium"
+  }),
+  starterDish({
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 5,
+    "id": "rakfisk",
+    "metadataCode": "128008",
+    "names": {
+      "en": "Rakfisk",
+      "zh": "发酵鳟鱼",
+      "nl": "Rakfisk",
+      "local": "Rakfisk"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "raw",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fermented-raw",
+    "shortDescription": {
+      "en": "Norwegian fermented trout served cold with flatbread, onion, sour cream, and potatoes.",
+      "zh": "挪威发酵鳟鱼，冷食，常配薄饼、洋葱、酸奶油和土豆。",
+      "nl": "Noorse gefermenteerde forel, koud geserveerd met platbrood, ui, zure room en aardappel."
+    },
+    "cookingProfile": {
+      "en": "This is pungent, cold, and fermented; the flavor is intentionally strong.",
+      "zh": "这是冷食发酵鱼，气味和风味都很强。",
+      "nl": "Koud en gefermenteerd, met bewust krachtige geur en smaak."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "regional-dish",
+        "acquired-taste"
+      ],
+      "description": {
+        "en": "A traditional Norwegian fermented fish for adventurous diners.",
+        "zh": "传统挪威发酵鱼，适合愿意尝试强风味的人。",
+        "nl": "Een traditionele Noorse gefermenteerde vis voor avontuurlijke eters."
+      }
+    },
+    "composition": [
+      [
+        "raw-fish",
+        60,
+        "fermented trout"
+      ],
+      [
+        "potato",
+        15,
+        "side"
+      ],
+      [
+        "rye-bread",
+        10,
+        "flatbread or bread"
+      ],
+      [
+        "sour-cream",
+        10,
+        "cool side"
+      ],
+      [
+        "onion",
+        5,
+        "sharp garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fermented fish",
+      "onion",
+      "sour cream"
+    ],
+    "basicTaste": [
+      "briny",
+      "sour",
+      "pungent"
+    ],
+    "textureProfile": [
+      "silky fish",
+      "cold serving",
+      "soft potato"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-raw-fish",
+      "contains-dairy",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "regional-dish",
+      "adventurous"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "avoids-raw-fish",
+      "dislikes-fermented-food",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Only choose this if fermented fish sounds exciting rather than intimidating.",
+      "zh": "只有在你愿意尝试发酵鱼强风味时才建议点。",
+      "nl": "Kies dit alleen als gefermenteerde vis spannend klinkt in plaats van afschrikwekkend."
+    },
+    "weightLevel": 2,
+    "restaurantVariationLevel": "medium"
+  }),
+  starterDish({
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "kanelbullar",
     "metadataCode": "128009",
-    "cuisineId": "scandinavian",
     "names": {
       "en": "Kanelbullar",
-      "zh": "肉桂卷",
-      "nl": "Kaneelbroodje",
-      "local": "kanelbullar"
+      "zh": "瑞典肉桂卷",
+      "nl": "Kaneelbroodjes",
+      "local": "Kanelbullar"
     },
     "category": "dessert",
     "cookingMethods": [
       "baked"
     ],
+    "servingTemperature": "room-temperature",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Swedish cinnamon bun with soft sweet dough.",
-      "zh": "肉桂卷 是常见北欧菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Kaneelbroodje is een veelvoorkomend gerecht in de scandinavisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Swedish cinnamon-cardamom buns with a soft spiral crumb and pearl sugar.",
+      "zh": "瑞典肉桂小豆蔻甜面包卷，面包柔软，常撒珍珠糖。",
+      "nl": "Zweedse kaneel-kardemombroodjes met zachte spiraal en parelsuiker."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet, soft or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为sweet，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met sweet; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "It is bready and aromatic, less sticky than many American cinnamon rolls.",
+      "zh": "口感偏面包和香料香，不像美式肉桂卷那么黏甜。",
+      "nl": "Broodachtig en aromatisch, minder plakkerig dan veel Amerikaanse cinnamon rolls."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A high-frequency Scandinavian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频北欧菜菜品。",
-        "nl": "Een vaak voorkomend scandinavisch menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Swedish fika staple and one of the most recognizable Nordic sweets.",
+        "zh": "瑞典 fika 代表点心，也是最有辨识度的北欧甜点之一。",
+        "nl": "Een Zweedse fika-klassieker en een van de herkenbaarste Noordse zoetigheden."
       }
     },
     "composition": [
       [
-        "sugar",
-        30,
-        "sweetener"
+        "cardamom-bun",
+        70,
+        "sweet bun"
       ],
       [
-        "cream",
-        25,
-        "base"
-      ],
-      [
-        "wheat-flour",
-        20,
-        "base"
-      ],
-      [
-        "egg",
-        10,
-        "binder"
-      ],
-      [
-        "vanilla",
-        10,
-        "aroma",
+        "cinnamon",
+        15,
+        "spiced swirl",
         "seasoning"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "sugar",
+        5,
+        "sweetness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cinnamon",
+      "cardamom",
+      "butter"
+    ],
+    "basicTaste": [
+      "sweet",
+      "warm-spiced",
+      "bready"
+    ],
+    "textureProfile": [
+      "soft bun",
+      "spiced spiral",
+      "pearl sugar crunch"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "coffee-pairing"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "A good pastry choice if you want warm spice without a very creamy dessert.",
+      "zh": "想吃香料面包甜点、不想要厚奶油时很合适。",
+      "nl": "Een goede keuze als je warme specerijen wilt zonder heel romig dessert."
+    },
+    "weightLevel": 2,
+    "restaurantVariationLevel": "medium"
+  }),
+  starterDish({
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "skagen-toast",
+    "metadataCode": "128010",
+    "names": {
+      "en": "Toast Skagen",
+      "zh": "瑞典虾仁吐司",
+      "nl": "Toast Skagen",
+      "local": "Toast Skagen"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "assembled",
+      "toasted"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "assembled",
+    "shortDescription": {
+      "en": "Toast topped with shrimp salad, mayonnaise or creme fraiche, dill, lemon, and sometimes roe.",
+      "zh": "吐司上放虾仁沙拉、蛋黄酱或酸奶油、莳萝、柠檬，有时加鱼籽。",
+      "nl": "Toast met garnalensalade, mayonaise of creme fraiche, dille, citroen en soms kuit."
+    },
+    "cookingProfile": {
+      "en": "Expect a cool creamy shrimp topping on crisp toast.",
+      "zh": "上层是冷的奶油感虾仁，底部吐司酥脆。",
+      "nl": "Verwacht koele romige garnalentopping op krokante toast."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "starter"
+      ],
+      "description": {
+        "en": "A classic Swedish starter where shrimp freshness and dill matter.",
+        "zh": "经典瑞典前菜，重点是虾仁新鲜度和莳萝香气。",
+        "nl": "Een klassieke Zweedse starter waarin garnalenversheid en dille tellen."
+      }
+    },
+    "composition": [
+      [
+        "shrimp",
+        45,
+        "shrimp salad"
+      ],
+      [
+        "rye-bread",
+        25,
+        "toast"
+      ],
+      [
+        "mayonnaise",
+        15,
+        "creamy dressing"
+      ],
+      [
+        "lemon",
+        5,
+        "brightness"
+      ],
+      [
+        "dill",
+        5,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "fish-roe",
+        5,
+        "optional garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "shrimp",
+      "dill",
+      "lemon",
+      "creamy dressing"
+    ],
+    "basicTaste": [
+      "briny",
+      "creamy",
+      "fresh"
+    ],
+    "textureProfile": [
+      "cool shrimp",
+      "crisp toast",
+      "creamy topping"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-egg",
+      "contains-gluten",
+      "contains-fish"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "starter",
+      "seafood"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "egg-free",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "A reliable seafood starter if shrimp and creamy dressing sound appealing.",
+      "zh": "喜欢虾仁和奶油沙拉口感时，这是稳妥前菜。",
+      "nl": "Een betrouwbare zeevruchtenstarter als garnalen en romige dressing goed klinken."
+    },
+    "weightLevel": 2,
+    "restaurantVariationLevel": "medium"
+  }),
+  starterDish({
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 5,
+    "id": "lutefisk",
+    "metadataCode": "128011",
+    "names": {
+      "en": "Lutefisk",
+      "zh": "碱水鳕鱼",
+      "nl": "Lutefisk",
+      "local": "Lutefisk"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "boiled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Traditional lye-treated white fish, often served with potatoes, peas, bacon, or sauce.",
+      "zh": "传统碱处理白鱼，常配土豆、豌豆、培根或酱汁。",
+      "nl": "Traditionele met loog behandelde witte vis, vaak met aardappel, erwten, spek of saus."
+    },
+    "cookingProfile": {
+      "en": "The texture is soft and gelatinous, which is the main watch-out.",
+      "zh": "质地非常柔软甚至胶质感，这是主要需要注意的点。",
+      "nl": "De structuur is zacht en gelatineus; dat is de belangrijkste waarschuwing."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "festival",
+        "acquired-taste"
+      ],
+      "description": {
+        "en": "A traditional Nordic holiday fish with a famously divisive texture.",
+        "zh": "传统北欧节庆鱼菜，质地很有争议。",
+        "nl": "Een traditionele Noordse feestvis met bekend polariserende textuur."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        60,
+        "treated white fish"
+      ],
+      [
+        "potato",
+        20,
+        "side"
+      ],
+      [
+        "peas",
+        10,
+        "side"
+      ],
+      [
+        "bacon",
+        5,
+        "salty topping"
       ],
       [
         "butter",
@@ -21027,235 +21345,43 @@ export const worldDishes = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "dill",
-      "mustard",
-      "butter"
+      "treated white fish",
+      "butter",
+      "bacon"
     ],
     "basicTaste": [
-      "sweet",
-      "creamy"
+      "mild",
+      "salty",
+      "buttery"
     ],
     "textureProfile": [
-      "sweet",
-      "soft or crisp"
+      "very soft fish",
+      "gelatinous bite",
+      "simple sides"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
+      "contains-fish",
+      "contains-pork",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "festival",
+      "adventurous"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "fish-allergy",
+      "no-pork",
+      "dislikes-soft-textures"
+    ],
     "orderVerdict": {
-      "en": "Good coffee snack; gluten and dairy common.",
-      "zh": "如果你接受这类口味和风险，肉桂卷 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A cultural experience more than a safe crowd-pleaser; order only if the texture sounds okay.",
+      "zh": "更像文化体验，不是大众安全牌；能接受胶质软鱼再点。",
+      "nl": "Meer culturele ervaring dan veilige publiekslieveling; bestel alleen als de textuur oké klinkt."
     },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  }),
-  starterDish({
-    "id": "skagen-toast",
-    "metadataCode": "128010",
-    "cuisineId": "scandinavian",
-    "names": {
-      "en": "Toast Skagen",
-      "zh": "虾仁吐司",
-      "nl": "Toast Skagen",
-      "local": "toast skagen"
-    },
-    "category": "starter",
-    "cookingMethods": [
-      "assembled"
-    ],
-    "shortDescription": {
-      "en": "Shrimp salad on toast with dill and creamy dressing.",
-      "zh": "虾仁吐司 是常见北欧菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Toast Skagen is een veelvoorkomend gerecht in de scandinavisch keuken, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with small bites, fresh or creamy dip, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为small bites，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met small bites; saus, vulling en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "common",
-      "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
-      ],
-      "description": {
-        "en": "A high-frequency Scandinavian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频北欧菜菜品。",
-        "nl": "Een vaak voorkomend scandinavisch menu-item voor brede DishKAI restaurantdekking."
-      }
-    },
-    "composition": [
-      [
-        "chickpeas",
-        35,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        30,
-        "freshness"
-      ],
-      [
-        "tomato",
-        15,
-        "body"
-      ],
-      [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "aroma",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "dill",
-      "mustard",
-      "butter"
-    ],
-    "basicTaste": [
-      "savory",
-      "fresh"
-    ],
-    "textureProfile": [
-      "small bites",
-      "fresh or creamy dip"
-    ],
-    "riskFlags": [
-      "contains-shellfish",
-      "contains-gluten",
-      "contains-egg"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Good starter if shellfish and mayo are okay.",
-      "zh": "如果你接受这类口味和风险，虾仁吐司 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
-    },
-    "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "high"
-  }),
-  starterDish({
-    "id": "lutefisk",
-    "metadataCode": "128011",
-    "cuisineId": "scandinavian",
-    "names": {
-      "en": "Lutefisk",
-      "zh": "碱处理鳕鱼",
-      "nl": "Lutefisk",
-      "local": "lutefisk"
-    },
-    "category": "seafood",
-    "cookingMethods": [
-      "assembled"
-    ],
-    "shortDescription": {
-      "en": "Traditional lye-treated fish with soft gelatinous texture.",
-      "zh": "碱处理鳕鱼 是常见北欧菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Lutefisk is een veelvoorkomend gerecht in de scandinavisch keuken, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with tender seafood, fresh finish, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender seafood，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender seafood; saus, vulling en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "common",
-      "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
-      ],
-      "description": {
-        "en": "A high-frequency Scandinavian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频北欧菜菜品。",
-        "nl": "Een vaak voorkomend scandinavisch menu-item voor brede DishKAI restaurantdekking."
-      }
-    },
-    "composition": [
-      [
-        "fish-fillet",
-        50,
-        "main"
-      ],
-      [
-        "steamed-rice",
-        20,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        15,
-        "side"
-      ],
-      [
-        "lime",
-        10,
-        "finish"
-      ],
-      [
-        "parsley",
-        5,
-        "aroma",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "dill",
-      "mustard",
-      "butter"
-    ],
-    "basicTaste": [
-      "fresh",
-      "briny"
-    ],
-    "textureProfile": [
-      "tender seafood",
-      "fresh finish"
-    ],
-    "riskFlags": [
-      "contains-fish"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Very acquired texture; only order intentionally.",
-      "zh": "如果你接受这类口味和风险，碱处理鳕鱼 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({

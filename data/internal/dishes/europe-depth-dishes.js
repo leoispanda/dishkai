@@ -25615,109 +25615,109 @@ const europeDepthDishConfigs = [
     "restaurantVariationLevel": "medium"
   },
   {
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "stegt-flaesk",
     "metadataCode": "128035",
-    "cuisineId": "scandinavian",
     "names": {
       "en": "Stegt Flaesk",
-      "zh": "丹麦脆猪肉",
-      "nl": "Stegt Flaesk",
-      "local": "Stegt Flaesk"
+      "zh": "丹麦脆煎五花肉",
+      "nl": "Stegt flaesk",
+      "local": "Stegt flæsk"
     },
     "category": "pork",
     "cookingMethods": [
-      "grilled"
+      "fried"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Stegt Flaesk is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "丹麦脆猪肉是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Stegt Flaesk is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Crispy fried pork belly slices served with boiled potatoes and parsley sauce.",
+      "zh": "脆煎五花肉片配水煮土豆和欧芹奶油酱。",
+      "nl": "Krokant gebakken buikspek met gekookte aardappels en peterseliesaus."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The dish is salty, fatty, and crisp, balanced by mild potatoes and creamy parsley sauce.",
+      "zh": "咸香油脂感和脆感明显，由土豆和欧芹奶油酱平衡。",
+      "nl": "Zout, vet en krokant, in balans met milde aardappels en romige peterseliesaus."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Danish classic often described as a national comfort dish.",
+        "zh": "丹麦经典舒适菜，常被视为代表性家常菜。",
+        "nl": "Een Deense klassieker, vaak gezien als nationaal comfortgerecht."
       }
     },
     "composition": [
       [
-        "pork",
-        50,
-        "main"
+        "pork-belly",
+        45,
+        "crispy pork"
       ],
       [
         "potato",
-        20,
+        30,
         "side"
       ],
       [
-        "cabbage",
-        10,
-        "body"
-      ],
-      [
-        "mustard",
-        5,
-        "condiment",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
+        "cream",
+        15,
+        "parsley sauce"
       ],
       [
         "parsley",
-        10,
-        "finish",
+        5,
+        "sauce herb",
         "seasoning"
+      ],
+      [
+        "butter",
+        5,
+        "sauce richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
+      "crisp pork belly",
+      "parsley sauce",
+      "boiled potatoes"
     ],
     "basicTaste": [
-      "savory",
-      "rich"
+      "salty",
+      "rich",
+      "creamy"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "crispy pork",
+      "soft potatoes",
+      "smooth sauce"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-dairy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pork"
+      "comfort-food"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "no-pork",
+      "dairy-free",
+      "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order when you want a very classic Danish pork-and-potato plate.",
+      "zh": "想吃非常经典的丹麦猪肉土豆盘时适合点。",
+      "nl": "Kies dit voor een zeer klassiek Deens spek-en-aardappelbord."
     },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 5,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -26133,109 +26133,110 @@ const europeDepthDishConfigs = [
     "restaurantVariationLevel": "medium"
   },
   {
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 2,
     "id": "raspeballer",
     "metadataCode": "128040",
-    "cuisineId": "scandinavian",
     "names": {
       "en": "Raspeballer",
-      "zh": "挪威土豆丸子",
+      "zh": "挪威土豆团子",
       "nl": "Raspeballer",
       "local": "Raspeballer"
     },
     "category": "potato",
     "cookingMethods": [
-      "baked"
+      "boiled"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Raspeballer is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "挪威土豆丸子是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Raspeballer is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Norwegian potato dumplings served with salted meat, sausage, rutabaga mash, butter, or potatoes.",
+      "zh": "挪威土豆团子，常配咸肉、香肠、芜菁泥、黄油或土豆。",
+      "nl": "Noorse aardappelknoedels met gezouten vlees, worst, koolraappuree, boter of aardappel."
     },
     "cookingProfile": {
-      "en": "Usually served with potato dish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现potato dish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met potato dish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Dense and filling, with a plain potato flavor supported by salty sides.",
+      "zh": "团子紧实顶饱，土豆味朴素，由咸肉配菜提升风味。",
+      "nl": "Dicht en vullend, met eenvoudige aardappelsmaak en zoute bijgerechten."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A traditional Norwegian potato dumpling meal with high regional variation.",
+        "zh": "传统挪威土豆团子餐，地区变化较多。",
+        "nl": "Een traditionele Noorse aardappelknoedelmaaltijd met veel regionale variatie."
       }
     },
     "composition": [
       [
-        "potato",
+        "potato-dumpling",
         55,
-        "base"
+        "dumplings"
       ],
       [
-        "cream",
-        15,
-        "richness"
+        "pork",
+        20,
+        "salted meat"
       ],
       [
-        "cheese",
+        "sausage",
         10,
-        "richness"
+        "side"
+      ],
+      [
+        "turnip",
+        10,
+        "rutabaga mash"
       ],
       [
         "butter",
-        10,
-        "richness"
-      ],
-      [
-        "black-pepper",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
+        "serving fat"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "potato dumpling",
+      "salted meat",
+      "rutabaga mash"
     ],
     "basicTaste": [
-      "savory",
+      "mild",
+      "salty",
       "hearty"
     ],
     "textureProfile": [
-      "soft potato",
-      "browned or creamy edges"
+      "dense dumplings",
+      "soft mash",
+      "salty meat side"
     ],
     "riskFlags": [
+      "contains-pork",
       "contains-dairy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "potato"
+      "regional-dish",
+      "comfort-food"
     ],
     "avoidIfTags": [
-      "dairy-allergy"
+      "no-pork",
+      "dairy-free",
+      "dislikes-dense-textures"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a traditional, very filling potato-dumpling plate.",
+      "zh": "想吃传统又很顶饱的土豆团子盘时可以点。",
+      "nl": "Kies dit voor een traditioneel, zeer vullend aardappelknoedelbord."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 5,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "pinnekjott",
@@ -26861,12 +26862,16 @@ const europeDepthDishConfigs = [
     "restaurantVariationLevel": "medium"
   },
   {
+    "cuisineId": "scandinavian",
+    "confidenceTag": "audited-scandinavian-batch-013",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "kladdkaka",
     "metadataCode": "128047",
-    "cuisineId": "scandinavian",
     "names": {
       "en": "Kladdkaka",
-      "zh": "瑞典黏巧克力蛋糕",
+      "zh": "瑞典黏心巧克力蛋糕",
       "nl": "Kladdkaka",
       "local": "Kladdkaka"
     },
@@ -26874,95 +26879,95 @@ const europeDepthDishConfigs = [
     "cookingMethods": [
       "baked"
     ],
+    "servingTemperature": "room-temperature",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Kladdkaka is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "瑞典黏巧克力蛋糕是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Kladdkaka is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Swedish sticky chocolate cake with a dense fudgy center, often served with cream or berries.",
+      "zh": "瑞典黏心巧克力蛋糕，中心浓密湿润，常配奶油或莓果。",
+      "nl": "Zweedse kleverige chocoladetaart met fudgy kern, vaak met room of bessen."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is denser and stickier than sponge cake, closer to a soft brownie.",
+      "zh": "比海绵蛋糕更浓密黏润，更接近柔软布朗尼。",
+      "nl": "Dichter en kleveriger dan biscuit, dichter bij zachte brownie."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "dessert",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A common Swedish cafe dessert for chocolate lovers.",
+        "zh": "瑞典咖啡馆常见巧克力甜点。",
+        "nl": "Een veelvoorkomend Zweeds cafédessert voor chocoladeliefhebbers."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "chocolate",
+        35,
+        "chocolate body"
       ],
       [
-        "sugar",
+        "wheat-flour",
         20,
-        "sweetness"
+        "cake structure"
+      ],
+      [
+        "butter",
+        20,
+        "richness"
       ],
       [
         "egg",
         15,
-        "structure"
+        "binder"
       ],
       [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
+        "sugar",
         10,
-        "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "sweetness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "chocolate",
+      "butter",
+      "fudgy center"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "chocolatey",
+      "rich"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "sticky center",
+      "dense crumb",
+      "thin top crust"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "chocolate"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-free",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A strong dessert choice if you want dense chocolate rather than a light cake.",
+      "zh": "想吃浓密巧克力甜点而不是轻蛋糕时很适合。",
+      "nl": "Een sterke dessertkeuze als je dichte chocolade wilt in plaats van lichte cake."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 3,
     "restaurantVariationLevel": "medium"
   },
   {
