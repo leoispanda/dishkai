@@ -22051,108 +22051,112 @@ const europeDepthDishConfigs = [
     "restaurantVariationLevel": "medium"
   },
   {
+    "cuisineId": "portuguese",
+    "confidenceTag": "audited-portuguese-batch-012",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "bacalhau-a-lagareiro",
     "metadataCode": "125031",
-    "cuisineId": "portuguese",
     "names": {
       "en": "Bacalhau a Lagareiro",
-      "zh": "橄榄油烤鳕鱼",
-      "nl": "Bacalhau a Lagareiro",
-      "local": "Bacalhau a Lagareiro"
+      "zh": "橄榄油烤盐鳕鱼",
+      "nl": "Bacalhau a lagareiro",
+      "local": "Bacalhau à lagareiro"
     },
-    "category": "fish",
+    "category": "seafood",
     "cookingMethods": [
-      "grilled"
+      "baked"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Bacalhau a Lagareiro is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "橄榄油烤鳕鱼是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Bacalhau a Lagareiro is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Roasted salt cod with smashed potatoes, garlic, black olives, and plenty of olive oil.",
+      "zh": "烤盐鳕鱼配压扁土豆、蒜、黑橄榄和大量橄榄油。",
+      "nl": "Geroosterde gezouten kabeljauw met geplette aardappels, knoflook, zwarte olijven en veel olijfolie."
     },
     "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is firmer and oilier than creamy cod bakes, with a clear cod loin texture.",
+      "zh": "比奶油焗鳕鱼更结实、更油润，能吃到鳕鱼块本身的质感。",
+      "nl": "Steviger en olierijker dan romige kabeljauwschotels, met duidelijke kabeljauwmootstructuur."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic roasted cod order where olive oil and garlic define the plate.",
+        "zh": "经典烤盐鳕鱼，橄榄油和蒜香是关键。",
+        "nl": "Een klassieke geroosterde kabeljauwkeuze waarbij olijfolie en knoflook bepalend zijn."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        60,
-        "main"
+        "salt-cod",
+        45,
+        "cod loin"
       ],
       [
         "potato",
-        15,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "lemon",
-        5,
-        "brightness"
+        35,
+        "smashed potatoes"
       ],
       [
         "olive-oil",
-        5,
-        "finish",
+        10,
+        "rich finish",
         "seasoning"
       ],
       [
-        "parsley",
+        "garlic",
         5,
-        "finish",
+        "aroma",
         "seasoning"
+      ],
+      [
+        "olives",
+        5,
+        "briny garnish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "salt-cod",
+      "olive-oil",
+      "garlic",
+      "black olives"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "salty",
+      "garlicky",
+      "rich"
     ],
     "textureProfile": [
-      "tender fish",
-      "light flaky bite"
+      "firm cod flakes",
+      "soft smashed potatoes",
+      "olive-oil gloss"
     ],
     "riskFlags": [
       "contains-fish"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "fish"
+      "classic-dish",
+      "seafood"
     ],
     "avoidIfTags": [
-      "fish-allergy"
+      "fish-allergy",
+      "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A strong cod choice if you prefer roasted fish and potatoes over creamy casseroles.",
+      "zh": "如果更想吃烤鳕鱼和土豆，而不是奶油焗菜，这道更合适。",
+      "nl": "Een sterke kabeljauwkeuze als je geroosterde vis en aardappels wilt in plaats van romige schotels."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 3,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -22577,109 +22581,120 @@ const europeDepthDishConfigs = [
     "restaurantVariationLevel": "medium"
   },
   {
+    "cuisineId": "portuguese",
+    "confidenceTag": "audited-portuguese-batch-012",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 2,
     "id": "carne-de-porco-a-alentejana",
     "metadataCode": "125036",
-    "cuisineId": "portuguese",
     "names": {
       "en": "Carne de Porco a Alentejana",
-      "zh": "猪肉蛤蜊土豆",
-      "nl": "Carne de Porco a Alentejana",
-      "local": "Carne de Porco a Alentejana"
+      "zh": "阿连特茹猪肉蛤蜊",
+      "nl": "Carne de porco a Alentejana",
+      "local": "Carne de porco à Alentejana"
     },
     "category": "pork",
     "cookingMethods": [
-      "grilled"
+      "fried",
+      "simmered"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Carne de Porco a Alentejana is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "猪肉蛤蜊土豆是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Carne de Porco a Alentejana is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Portuguese pork cubes with clams, fried potatoes, pickles, garlic, and paprika-rich sauce.",
+      "zh": "葡式猪肉块配蛤蜊、炸土豆、腌菜、蒜和红椒香汁。",
+      "nl": "Portugese varkensblokjes met venusschelpen, gebakken aardappels, pickles, knoflook en paprikasaus."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It combines meaty pork with briny clams, so the flavor is richer than a simple pork plate.",
+      "zh": "它把猪肉香和蛤蜊鲜味结合，比普通猪肉盘更有层次。",
+      "nl": "Combineert vlezig varkensvlees met zilte schelpen, rijker dan een simpel varkensbord."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A signature Alentejo-style pork-and-clam dish with a distinctive surf-and-turf profile.",
+        "zh": "阿连特茹代表性猪肉蛤蜊菜，海陆组合很有辨识度。",
+        "nl": "Een kenmerkend gerecht uit Alentejo met varkensvlees en schelpen, uitgesproken surf-and-turf."
       }
     },
     "composition": [
       [
         "pork",
-        50,
-        "main"
+        40,
+        "pork cubes"
+      ],
+      [
+        "clams",
+        25,
+        "shellfish"
       ],
       [
         "potato",
         20,
-        "side"
+        "fried potato cubes"
       ],
       [
-        "cabbage",
-        10,
-        "body"
-      ],
-      [
-        "mustard",
+        "pickles",
         5,
-        "condiment",
+        "tangy garnish"
+      ],
+      [
+        "garlic",
+        5,
+        "aroma",
         "seasoning"
       ],
       [
-        "black-pepper",
+        "paprika",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
+        "warm spice",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
+      "pork juices",
+      "clams",
+      "garlic",
+      "paprika",
+      "pickles"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "briny",
+      "garlicky"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "tender pork cubes",
+      "open clams",
+      "fried potatoes"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-shellfish",
+      "contains-alcohol"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pork"
+      "regional-dish",
+      "comfort-food"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "no-pork",
+      "shellfish-allergy",
+      "no-alcohol"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it if pork with clams sounds exciting; avoid if shellfish with meat feels odd to you.",
+      "zh": "喜欢猪肉和蛤蜊的海陆组合可以点；如果不接受肉配贝类就要避开。",
+      "nl": "Kies dit als varkensvlees met schelpen je aanspreekt; vermijden als die combinatie vreemd voelt."
     },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 4,
     "restaurantVariationLevel": "medium"
   },
   {

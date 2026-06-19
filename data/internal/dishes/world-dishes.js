@@ -16459,1001 +16459,1124 @@ export const worldDishes = [
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "portuguese",
+    "confidenceTag": "audited-portuguese-batch-012",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "bacalhau-a-bras",
     "metadataCode": "125001",
-    "cuisineId": "portuguese",
     "names": {
-      "en": "Bacalhau à Brás",
-      "zh": "葡式鳕鱼炒蛋土豆",
-      "nl": "Bacalhau à Brás",
-      "local": "bacalhau à Brás"
+      "en": "Bacalhau a Bras",
+      "zh": "金丝土豆炒盐鳕鱼",
+      "nl": "Bacalhau a Bras",
+      "local": "Bacalhau à Brás"
     },
     "category": "seafood",
     "cookingMethods": [
-      "assembled"
+      "stirred",
+      "fried"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Salt cod with potato, onion, and egg.",
-      "zh": "葡式鳕鱼炒蛋土豆 是常见葡萄牙菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Bacalhau à Brás is een veelvoorkomend gerecht in de portugees keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Shredded salt cod mixed with matchstick potatoes, egg, onion, olives, and parsley.",
+      "zh": "盐鳕鱼丝拌炒细土豆丝、鸡蛋、洋葱、橄榄和欧芹。",
+      "nl": "Gezouten kabeljauw met dunne aardappelreepjes, ei, ui, olijven en peterselie."
     },
     "cookingProfile": {
-      "en": "Usually served with tender seafood, fresh finish, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender seafood，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender seafood; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Expect a warm, soft cod-and-egg scramble with little crisp potato edges.",
+      "zh": "通常是温热柔软的鳕鱼鸡蛋拌炒，夹着细土豆的轻微脆感。",
+      "nl": "Verwacht warme, zachte kabeljauw met ei en kleine krokante aardappelrandjes."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Portuguese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频葡萄牙菜菜品。",
-        "nl": "Een vaak voorkomend portugees menu-item voor brede DishKAI restaurantdekking."
+        "en": "A widely recognized Lisbon-style cod dish and a useful first Portuguese order.",
+        "zh": "很有代表性的里斯本风格盐鳕鱼菜，适合作为第一次点葡萄牙菜的选择。",
+        "nl": "Een herkenbaar kabeljauwgerecht uit Lissabon en een toegankelijke Portugese eerste keuze."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        50,
-        "main"
+        "salt-cod",
+        30,
+        "shredded fish"
       ],
       [
-        "steamed-rice",
+        "potato",
+        30,
+        "matchstick potatoes"
+      ],
+      [
+        "egg",
         20,
-        "base"
+        "soft binder"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "side"
-      ],
-      [
-        "lime",
+        "onion",
         10,
-        "finish"
+        "aromatic base"
+      ],
+      [
+        "olives",
+        5,
+        "briny garnish"
       ],
       [
         "parsley",
         5,
-        "aroma",
+        "fresh finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "peri-peri",
+      "salt-cod",
       "olive-oil",
-      "paprika"
+      "black olives",
+      "parsley"
     ],
     "basicTaste": [
-      "fresh",
+      "salty",
+      "savory",
       "briny"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "soft cod shreds",
+      "tender egg",
+      "light crisp potato"
     ],
     "riskFlags": [
       "contains-fish",
       "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
+      "classic-dish",
       "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "fish-allergy",
+      "egg-free"
+    ],
     "orderVerdict": {
-      "en": "Classic Portuguese fish dish; salty and egg-based.",
-      "zh": "如果你接受这类口味和风险，葡式鳕鱼炒蛋土豆 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A safe Portuguese classic if you like salty cod and a comforting egg-potato texture.",
+      "zh": "喜欢咸香鳕鱼和鸡蛋土豆口感的话，这是很稳的葡萄牙经典菜。",
+      "nl": "Een veilige Portugese klassieker als je zoute kabeljauw en ei-aardappelstructuur prettig vindt."
     },
-    "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "portuguese",
+    "confidenceTag": "audited-portuguese-batch-012",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "pastel-de-nata",
     "metadataCode": "125002",
-    "cuisineId": "portuguese",
     "names": {
       "en": "Pastel de Nata",
       "zh": "葡式蛋挞",
       "nl": "Pastel de nata",
-      "local": "pastel de nata"
+      "local": "Pastel de nata"
     },
     "category": "dessert",
     "cookingMethods": [
       "baked"
     ],
+    "servingTemperature": "warm-or-room-temperature",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Custard tart with flaky pastry and caramelized top.",
-      "zh": "葡式蛋挞 是常见葡萄牙菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Pastel de nata is een veelvoorkomend gerecht in de portugees keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Portuguese custard tart with crisp pastry and a blistered creamy egg-custard center.",
+      "zh": "葡萄牙蛋挞，酥皮外壳里是带焦斑的柔滑蛋奶馅。",
+      "nl": "Portugees custardtaartje met krokant deeg en romige, geblakerde eivulling."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet, soft or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为sweet，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met sweet; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "It is usually eaten warm or at room temperature, with flaky pastry and soft custard.",
+      "zh": "通常温热或常温吃，外层酥脆，内馅柔滑。",
+      "nl": "Meestal warm of op kamertemperatuur, met bladerig deeg en zachte custard."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "dessert",
+        "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Portuguese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频葡萄牙菜菜品。",
-        "nl": "Een vaak voorkomend portugees menu-item voor brede DishKAI restaurantdekking."
+        "en": "Portugal's best-known pastry and an easy dessert or snack order.",
+        "zh": "最知名的葡萄牙点心之一，适合作为甜点或小食。",
+        "nl": "Het bekendste Portugese gebakje en een makkelijke dessert- of snackkeuze."
       }
     },
     "composition": [
       [
-        "sugar",
-        30,
-        "sweetener"
+        "pastry-crust",
+        40,
+        "flaky shell"
       ],
       [
-        "cream",
-        25,
-        "base"
-      ],
-      [
-        "wheat-flour",
-        20,
-        "base"
+        "vanilla-custard",
+        40,
+        "custard filling"
       ],
       [
         "egg",
         10,
-        "binder"
+        "custard body"
       ],
       [
-        "vanilla",
-        10,
-        "aroma",
-        "seasoning"
-      ],
-      [
-        "butter",
+        "sugar",
         5,
-        "richness"
+        "sweetness"
+      ],
+      [
+        "cinnamon",
+        5,
+        "warm topping",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "peri-peri",
-      "olive-oil",
-      "paprika"
+      "egg custard",
+      "caramelized top",
+      "cinnamon"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "buttery"
     ],
     "textureProfile": [
-      "sweet",
-      "soft or crisp"
+      "flaky pastry",
+      "soft custard",
+      "lightly blistered top"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
+      "dessert",
       "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-free",
+      "dairy-free"
+    ],
     "orderVerdict": {
-      "en": "Excellent sweet bite; egg, dairy, gluten.",
-      "zh": "如果你接受这类口味和风险，葡式蛋挞 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "An easy yes for a small sweet bite; best if you enjoy custard and crisp pastry.",
+      "zh": "想吃小份甜点很适合；喜欢蛋奶馅和酥皮会更对味。",
+      "nl": "Een makkelijke keuze voor iets kleins en zoets, vooral als je custard en krokant deeg lekker vindt."
     },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 2,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "portuguese",
+    "confidenceTag": "audited-portuguese-batch-012",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 2,
     "id": "francesinha",
     "metadataCode": "125003",
-    "cuisineId": "portuguese",
     "names": {
       "en": "Francesinha",
-      "zh": "葡式肉酱三明治",
+      "zh": "波尔图肉酱三明治",
       "nl": "Francesinha",
-      "local": "francesinha"
+      "local": "Francesinha"
     },
-    "category": "bread",
+    "category": "sandwich",
     "cookingMethods": [
+      "assembled",
       "baked"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Heavy sandwich with meats, cheese, egg, and beer-tomato sauce.",
-      "zh": "葡式肉酱三明治 是常见葡萄牙菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Francesinha is een veelvoorkomend gerecht in de portugees keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Porto-style meat sandwich covered with melted cheese and a warm tomato-beer sauce.",
+      "zh": "波尔图风格夹肉三明治，外层盖融化奶酪，再淋热番茄啤酒酱。",
+      "nl": "Vleessandwich uit Porto met gesmolten kaas en warme tomaat-biersaus."
     },
     "cookingProfile": {
-      "en": "Usually served with bready, chewy or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为bready，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met bready; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "It arrives saucy, cheesy, and very heavy, often with fries on the side.",
+      "zh": "上桌时酱汁和奶酪很多，分量厚重，旁边常配薯条。",
+      "nl": "Komt sauzig, kazig en erg machtig op tafel, vaak met friet erbij."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "regional-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency Portuguese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频葡萄牙菜菜品。",
-        "nl": "Een vaak voorkomend portugees menu-item voor brede DishKAI restaurantdekking."
+        "en": "A famous Porto comfort dish where the sauce defines the experience.",
+        "zh": "波尔图代表性舒适菜，关键是外层酱汁的浓度和风味。",
+        "nl": "Een bekende comfortklassieker uit Porto waarbij de saus de ervaring bepaalt."
       }
     },
     "composition": [
       [
-        "pita",
-        55,
-        "base"
+        "portuguese-roll",
+        25,
+        "bread base"
       ],
       [
-        "mixed-vegetables",
+        "beef",
         20,
-        "freshness"
+        "steak layer"
       ],
       [
-        "tomato",
-        10,
-        "body"
+        "chourico",
+        15,
+        "sausage layer"
       ],
       [
-        "olive-oil",
+        "ham",
         10,
-        "finish",
+        "meat layer"
+      ],
+      [
+        "cheese",
+        15,
+        "melted cover"
+      ],
+      [
+        "tomato-sauce",
+        10,
+        "beer-style sauce",
         "seasoning"
       ],
       [
-        "mint",
+        "fries",
         5,
-        "finish",
-        "seasoning"
+        "common side"
       ]
     ],
     "distinctiveFlavorSources": [
-      "peri-peri",
-      "olive-oil",
-      "paprika"
+      "tomato-beer sauce",
+      "melted cheese",
+      "chourico"
     ],
     "basicTaste": [
       "savory",
-      "bready"
+      "rich",
+      "tangy"
     ],
     "textureProfile": [
-      "bready",
-      "chewy or crisp"
+      "saucy bread",
+      "melted cheese",
+      "layered meats"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-pork",
       "contains-dairy",
+      "contains-pork",
       "contains-alcohol"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "comfort-food",
+      "regional-dish"
     ],
     "avoidIfTags": [
-      "wants-light-food"
+      "wants-light-food",
+      "gluten-free",
+      "dairy-free",
+      "no-pork"
     ],
     "orderVerdict": {
-      "en": "Very heavy; pork, dairy, gluten, and alcohol risk.",
-      "zh": "如果你接受这类口味和风险，葡式肉酱三明治 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Choose it when you want a heavy, saucy Porto signature rather than a light sandwich.",
+      "zh": "想吃厚重多酱的波尔图代表菜可以点；它不是清爽三明治。",
+      "nl": "Kies dit voor een zware, sauzige Porto-signature, niet voor een lichte sandwich."
     },
-    "spiceLevel": 1,
     "weightLevel": 5,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "high"
+    "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "portuguese",
+    "confidenceTag": "audited-portuguese-batch-012",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "caldo-verde",
     "metadataCode": "125004",
-    "cuisineId": "portuguese",
     "names": {
       "en": "Caldo Verde",
-      "zh": "葡式青菜汤",
+      "zh": "葡式青菜土豆汤",
       "nl": "Caldo verde",
-      "local": "caldo verde"
+      "local": "Caldo verde"
     },
     "category": "soup",
     "cookingMethods": [
       "simmered"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Potato and kale soup with chorizo slices.",
-      "zh": "葡式青菜汤 是常见葡萄牙菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Caldo verde is een veelvoorkomend gerecht in de portugees keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Green Portuguese soup of potato, finely sliced kale or greens, olive oil, and chourico.",
+      "zh": "葡萄牙青菜土豆汤，常有切细的绿叶菜、橄榄油和烟熏香肠片。",
+      "nl": "Groene Portugese soep met aardappel, fijngesneden kool, olijfolie en chourico."
     },
     "cookingProfile": {
-      "en": "Usually served with hot broth, soft pieces, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为hot broth，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met hot broth; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "The bowl is warm and smooth, with greens and a smoky sausage accent.",
+      "zh": "汤体温热顺滑，青菜带清香，香肠提供烟熏咸味。",
+      "nl": "Warm en glad, met groene kool en een rokerig accent van worst."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "soup"
       ],
       "description": {
-        "en": "A high-frequency Portuguese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频葡萄牙菜菜品。",
-        "nl": "Een vaak voorkomend portugees menu-item voor brede DishKAI restaurantdekking."
+        "en": "A classic Portuguese soup often used as a light starter before a heavier main.",
+        "zh": "葡萄牙经典汤品，常作为较轻的开胃汤。",
+        "nl": "Een klassieke Portugese soep, vaak als lichte starter voor een zwaarder hoofdgerecht."
       }
     },
     "composition": [
       [
-        "broth",
+        "potato",
         45,
-        "soup-base"
+        "soup body"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
+        "kale",
+        25,
+        "green ribbons"
       ],
       [
-        "chicken",
-        20,
-        "protein"
+        "chourico",
+        15,
+        "smoky garnish"
       ],
       [
-        "parsley",
+        "onion",
         5,
-        "finish",
+        "aromatic base"
+      ],
+      [
+        "olive-oil",
+        5,
+        "roundness",
         "seasoning"
       ],
       [
-        "cumin",
+        "garlic",
         5,
         "aroma",
         "seasoning"
-      ],
-      [
-        "lime",
-        5,
-        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "peri-peri",
       "olive-oil",
-      "paprika"
+      "chourico",
+      "greens"
     ],
     "basicTaste": [
-      "brothy",
-      "savory"
+      "savory",
+      "mild",
+      "smoky"
     ],
     "textureProfile": [
-      "hot broth",
-      "soft pieces"
+      "smooth broth",
+      "soft greens",
+      "thin sausage slices"
     ],
     "riskFlags": [
       "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "soup",
+      "classic-dish"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "no-pork"
+    ],
     "orderVerdict": {
-      "en": "Comforting soup; check pork sausage.",
-      "zh": "如果你接受这类口味和风险，葡式青菜汤 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A good starter if you want something warm and gentle with a little smoky sausage.",
+      "zh": "想要温和热汤并接受少量烟熏香肠时很合适。",
+      "nl": "Een fijne starter als je iets warms en milds wilt met wat rokerige worst."
     },
-    "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "portuguese",
+    "confidenceTag": "audited-portuguese-batch-012",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 3,
+    "acquiredTasteLevel": 1,
     "id": "piri-piri-chicken",
     "metadataCode": "125005",
-    "cuisineId": "portuguese",
     "names": {
       "en": "Piri-Piri Chicken",
-      "zh": "霹雳辣烤鸡",
-      "nl": "Piri-piri kip",
-      "local": "frango piri-piri"
+      "zh": "霹雳辣椒烤鸡",
+      "nl": "Piri-pirikip",
+      "local": "Frango piri-piri"
     },
-    "category": "meat",
+    "category": "chicken",
     "cookingMethods": [
       "grilled"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Grilled chicken with spicy piri-piri chili sauce.",
-      "zh": "霹雳辣烤鸡 是常见葡萄牙菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Piri-piri kip is een veelvoorkomend gerecht in de portugees keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Grilled chicken brushed with bright chili-garlic piri-piri sauce.",
+      "zh": "炭烤或烤制鸡肉，表面刷有明亮辛香的霹雳辣椒蒜味酱。",
+      "nl": "Gegrilde kip met frisse chili-knoflook piri-pirisaus."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Expect charred skin, juicy meat, and a chili heat that can vary by restaurant.",
+      "zh": "通常有焦香鸡皮和多汁鸡肉，辣度会因餐厅而变化。",
+      "nl": "Verwacht geroosterde huid, sappig vlees en pittigheid die per zaak verschilt."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "grilled"
       ],
       "description": {
-        "en": "A high-frequency Portuguese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频葡萄牙菜菜品。",
-        "nl": "Een vaak voorkomend portugees menu-item voor brede DishKAI restaurantdekking."
+        "en": "A common Portuguese grill order where sauce heat and chicken juiciness matter.",
+        "zh": "常见葡萄牙烤鸡菜，重点看酱汁辣度和鸡肉是否多汁。",
+        "nl": "Een veelvoorkomende Portugese grillkeuze waarbij sauspit en sappigheid tellen."
       }
     },
     "composition": [
       [
-        "lamb",
-        45,
-        "main"
+        "chicken",
+        75,
+        "grilled chicken"
       ],
       [
-        "steamed-rice",
-        25,
-        "base"
+        "peri-peri",
+        10,
+        "chili sauce",
+        "seasoning"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "side"
-      ],
-      [
-        "cumin",
+        "garlic",
         5,
         "aroma",
         "seasoning"
       ],
       [
-        "black-pepper",
+        "lemon",
         5,
-        "seasoning",
+        "brightness"
+      ],
+      [
+        "olive-oil",
+        5,
+        "gloss",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
       "peri-peri",
-      "olive-oil",
-      "paprika"
+      "garlic",
+      "charred chicken skin"
     ],
     "basicTaste": [
+      "spicy",
       "savory",
-      "rich"
+      "tangy"
     ],
     "textureProfile": [
-      "tender meat",
-      "charred or saucy edges"
+      "charred skin",
+      "juicy chicken",
+      "glossy sauce"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "grilled",
+      "first-timer-friendly"
     ],
     "avoidIfTags": [
-      "spice-sensitive"
+      "avoids-spicy-food"
     ],
     "orderVerdict": {
-      "en": "Good if you want grilled chicken with heat.",
-      "zh": "如果你接受这类口味和风险，霹雳辣烤鸡 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A strong choice if you want grilled chicken with real chili brightness; ask about heat level.",
+      "zh": "想吃带鲜明辣味的烤鸡很适合；不耐辣要先问辣度。",
+      "nl": "Een goede keuze voor gegrilde kip met frisse chilihitte; vraag naar de pittigheid."
     },
-    "spiceLevel": 3,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "portuguese",
+    "confidenceTag": "audited-portuguese-batch-012",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "ameijoas-a-bulhao-pato",
     "metadataCode": "125006",
-    "cuisineId": "portuguese",
     "names": {
-      "en": "Clams Bulhão Pato",
-      "zh": "蒜香香菜蛤蜊",
-      "nl": "Ameijoas Bulhão Pato",
-      "local": "amêijoas à Bulhão Pato"
+      "en": "Clams Bulhao Pato",
+      "zh": "蒜香白酒蛤蜊",
+      "nl": "Ameijoas a Bulhao Pato",
+      "local": "Amêijoas à Bulhão Pato"
     },
     "category": "seafood",
     "cookingMethods": [
-      "assembled"
+      "simmered"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Clams with garlic, coriander, olive oil, and lemon.",
-      "zh": "蒜香香菜蛤蜊 是常见葡萄牙菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Ameijoas Bulhão Pato is een veelvoorkomend gerecht in de portugees keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Clams opened in olive oil, garlic, coriander or parsley, lemon, and often white wine.",
+      "zh": "蛤蜊用橄榄油、蒜、香草、柠檬和常见白酒汁烹出。",
+      "nl": "Venusschelpen met olijfolie, knoflook, kruiden, citroen en vaak witte wijn."
     },
     "cookingProfile": {
-      "en": "Usually served with tender seafood, fresh finish, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender seafood，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender seafood; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "It is light, briny, and meant for dipping bread into the garlicky cooking juices.",
+      "zh": "口感清爽带海味，蒜香汤汁常适合蘸面包。",
+      "nl": "Licht en ziltes, met knoflookjus waar brood goed bij past."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A high-frequency Portuguese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频葡萄牙菜菜品。",
-        "nl": "Een vaak voorkomend portugees menu-item voor brede DishKAI restaurantdekking."
+        "en": "A classic Portuguese clam starter where freshness and garlic-lemon juices are the point.",
+        "zh": "经典葡萄牙蛤蜊前菜，重点是新鲜度和蒜香柠檬汁。",
+        "nl": "Een klassieke Portugese schelpenstarter waarin versheid en knoflook-citroenjus centraal staan."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        50,
-        "main"
+        "clams",
+        75,
+        "main shellfish"
       ],
       [
-        "steamed-rice",
-        20,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        15,
-        "side"
-      ],
-      [
-        "lime",
+        "olive-oil",
         10,
-        "finish"
+        "cooking juices",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "brightness"
       ],
       [
         "parsley",
         5,
-        "aroma",
+        "herbal finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "peri-peri",
-      "olive-oil",
-      "paprika"
+      "clams",
+      "garlic",
+      "lemon",
+      "olive-oil"
     ],
     "basicTaste": [
-      "fresh",
-      "briny"
+      "briny",
+      "garlicky",
+      "fresh"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "tender clams",
+      "light broth",
+      "herbal finish"
     ],
     "riskFlags": [
-      "contains-fish",
-      "contains-shellfish"
+      "contains-shellfish",
+      "contains-alcohol"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "seafood",
+      "sharing"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "no-alcohol"
+    ],
     "orderVerdict": {
-      "en": "Fresh shellfish dish; avoid if shellfish allergy.",
-      "zh": "如果你接受这类口味和风险，蒜香香菜蛤蜊 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Great for seafood lovers who want a light garlicky starter; avoid with shellfish allergy.",
+      "zh": "喜欢海鲜和蒜香清爽前菜可以点；贝类过敏不要点。",
+      "nl": "Mooi voor liefhebbers van lichte knoflookzeevruchten; vermijden bij schelpdierallergie."
     },
-    "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "portuguese",
+    "confidenceTag": "audited-portuguese-batch-012",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "arroz-de-marisco",
     "metadataCode": "125007",
-    "cuisineId": "portuguese",
     "names": {
       "en": "Arroz de Marisco",
       "zh": "葡式海鲜饭",
       "nl": "Arroz de marisco",
-      "local": "arroz de marisco"
+      "local": "Arroz de marisco"
     },
     "category": "rice",
     "cookingMethods": [
-      "stir-fried"
+      "simmered"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Saucy seafood rice with shellfish and fish.",
-      "zh": "葡式海鲜饭 是常见葡萄牙菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Arroz de marisco is een veelvoorkomend gerecht in de portugees keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Brothy Portuguese seafood rice with shellfish, fish, tomato, herbs, and olive oil.",
+      "zh": "带汤汁的葡萄牙海鲜饭，常有贝类、鱼、番茄、香草和橄榄油。",
+      "nl": "Smeuige Portugese zeevruchtenrijst met schelpdieren, vis, tomaat, kruiden en olijfolie."
     },
     "cookingProfile": {
-      "en": "Usually served with soft rice, mixed toppings, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为soft rice，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met soft rice; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "This is looser and wetter than paella, with rice carrying seafood broth.",
+      "zh": "它比西班牙海鲜饭更湿润，米饭吸收海鲜汤汁。",
+      "nl": "Losser en natter dan paella, met rijst die zeevruchtenbouillon draagt."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A high-frequency Portuguese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频葡萄牙菜菜品。",
-        "nl": "Een vaak voorkomend portugees menu-item voor brede DishKAI restaurantdekking."
+        "en": "A common seafood main for people who want shellfish flavor in a rice dish.",
+        "zh": "常见海鲜主菜，适合想在米饭里吃到贝类鲜味的人。",
+        "nl": "Een veelvoorkomend zeevruchtenhoofdgerecht voor wie schelpensmaak in rijst wil."
       }
     },
     "composition": [
       [
-        "steamed-rice",
-        50,
-        "base"
+        "short-grain-rice",
+        40,
+        "rice base"
       ],
       [
-        "chicken",
+        "shrimp",
         20,
-        "protein"
+        "shellfish"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
+        "clams",
+        15,
+        "shellfish"
       ],
       [
-        "green-onion",
+        "mussels",
+        10,
+        "shellfish"
+      ],
+      [
+        "fish-fillet",
         5,
-        "finish"
+        "fish pieces"
       ],
       [
-        "sea-salt",
+        "tomato-sauce",
         5,
-        "seasoning",
+        "broth base",
+        "seasoning"
+      ],
+      [
+        "parsley",
+        5,
+        "fresh finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "peri-peri",
+      "shellfish broth",
+      "tomato",
       "olive-oil",
-      "paprika"
+      "parsley"
     ],
     "basicTaste": [
+      "briny",
       "savory",
-      "mild"
+      "tomato-rich"
     ],
     "textureProfile": [
-      "soft rice",
-      "mixed toppings"
+      "wet rice",
+      "tender seafood",
+      "brothy sauce"
     ],
     "riskFlags": [
       "contains-shellfish",
-      "contains-fish"
+      "contains-fish",
+      "contains-alcohol"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "seafood",
+      "rice"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "fish-allergy",
+      "wants-dry-rice"
+    ],
     "orderVerdict": {
-      "en": "Good seafood main; shellfish-heavy.",
-      "zh": "如果你接受这类口味和风险，葡式海鲜饭 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Pick this for a saucy seafood rice, not for crisp-bottom paella-style rice.",
+      "zh": "想吃带汤汁的海鲜米饭适合点；它不是锅巴型干爽海鲜饭。",
+      "nl": "Kies dit voor sauzige zeevruchtenrijst, niet voor knapperige paella-achtige rijst."
     },
-    "spiceLevel": 1,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "portuguese",
+    "confidenceTag": "audited-portuguese-batch-012",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "bitoque",
     "metadataCode": "125008",
-    "cuisineId": "portuguese",
     "names": {
       "en": "Bitoque",
-      "zh": "葡式牛排煎蛋饭",
+      "zh": "葡式煎牛排配蛋",
       "nl": "Bitoque",
-      "local": "bitoque"
+      "local": "Bitoque"
     },
     "category": "meat",
     "cookingMethods": [
-      "grilled"
+      "fried"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Steak with fried egg, fries, rice, and sauce.",
-      "zh": "葡式牛排煎蛋饭 是常见葡萄牙菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Bitoque is een veelvoorkomend gerecht in de portugees keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Portuguese steak plate with a fried egg, fries or rice, and a garlicky pan sauce.",
+      "zh": "葡式煎牛排，常配煎蛋、薯条或米饭和蒜香锅汁。",
+      "nl": "Portugese steak met gebakken ei, friet of rijst en knoflookjus."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Expect a straightforward steak-and-egg plate rather than a saucy stew.",
+      "zh": "更像直接的牛排煎蛋套餐，不是炖菜或浓汤。",
+      "nl": "Verwacht een rechttoe rechtaan steak-met-ei bord, geen stoofpot."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "common",
+        "safe-choice"
       ],
       "description": {
-        "en": "A high-frequency Portuguese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频葡萄牙菜菜品。",
-        "nl": "Een vaak voorkomend portugees menu-item voor brede DishKAI restaurantdekking."
+        "en": "A common everyday Portuguese restaurant plate for a familiar meat order.",
+        "zh": "葡萄牙餐厅常见日常肉类套餐，熟悉度高。",
+        "nl": "Een alledaags Portugees restaurantbord voor een herkenbare vleeskeuze."
       }
     },
     "composition": [
       [
-        "lamb",
+        "beef",
         45,
-        "main"
+        "steak"
       ],
       [
-        "steamed-rice",
+        "fries",
         25,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        20,
         "side"
       ],
       [
-        "cumin",
-        5,
-        "aroma",
-        "seasoning"
+        "egg",
+        15,
+        "fried topping"
       ],
       [
-        "black-pepper",
+        "steamed-rice",
+        10,
+        "optional side"
+      ],
+      [
+        "garlic",
         5,
-        "seasoning",
+        "pan sauce",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "peri-peri",
-      "olive-oil",
-      "paprika"
+      "garlic pan sauce",
+      "fried egg",
+      "steak juices"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "garlicky",
+      "mild"
     ],
     "textureProfile": [
-      "tender meat",
-      "charred or saucy edges"
+      "pan-fried steak",
+      "runny or set egg",
+      "crisp fries"
     ],
     "riskFlags": [
       "contains-egg"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "safe-choice",
+      "meat"
     ],
     "avoidIfTags": [
+      "egg-free",
       "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Simple filling plate; egg included.",
-      "zh": "如果你接受这类口味和风险，葡式牛排煎蛋饭 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A familiar, practical choice if you want steak with egg and sides.",
+      "zh": "想吃熟悉的牛排、鸡蛋和配菜组合时很实用。",
+      "nl": "Een vertrouwde, praktische keuze als je steak met ei en bijgerechten wilt."
     },
-    "spiceLevel": 0,
     "weightLevel": 4,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "portuguese",
+    "confidenceTag": "audited-portuguese-batch-012",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 2,
     "id": "polvo-a-lagareiro",
     "metadataCode": "125009",
-    "cuisineId": "portuguese",
     "names": {
-      "en": "Polvo à Lagareiro",
+      "en": "Polvo a Lagareiro",
       "zh": "橄榄油烤章鱼",
-      "nl": "Polvo à lagareiro",
-      "local": "polvo à lagareiro"
+      "nl": "Polvo a lagareiro",
+      "local": "Polvo à lagareiro"
     },
     "category": "seafood",
     "cookingMethods": [
-      "assembled"
-    ],
-    "shortDescription": {
-      "en": "Octopus with olive oil, garlic, and potatoes.",
-      "zh": "橄榄油烤章鱼 是常见葡萄牙菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Polvo à lagareiro is een veelvoorkomend gerecht in de portugees keuken, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with tender seafood, fresh finish, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender seafood，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender seafood; saus, vulling en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "common",
-      "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
-      ],
-      "description": {
-        "en": "A high-frequency Portuguese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频葡萄牙菜菜品。",
-        "nl": "Een vaak voorkomend portugees menu-item voor brede DishKAI restaurantdekking."
-      }
-    },
-    "composition": [
-      [
-        "fish-fillet",
-        50,
-        "main"
-      ],
-      [
-        "steamed-rice",
-        20,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        15,
-        "side"
-      ],
-      [
-        "lime",
-        10,
-        "finish"
-      ],
-      [
-        "parsley",
-        5,
-        "aroma",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "peri-peri",
-      "olive-oil",
-      "paprika"
-    ],
-    "basicTaste": [
-      "fresh",
-      "briny"
-    ],
-    "textureProfile": [
-      "tender seafood",
-      "fresh finish"
-    ],
-    "riskFlags": [
-      "contains-fish"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Good if you like tender octopus and olive oil.",
-      "zh": "如果你接受这类口味和风险，橄榄油烤章鱼 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  }),
-  starterDish({
-    "id": "bifana",
-    "metadataCode": "125010",
-    "cuisineId": "portuguese",
-    "names": {
-      "en": "Bifana",
-      "zh": "葡式猪排三明治",
-      "nl": "Bifana",
-      "local": "bifana"
-    },
-    "category": "bread",
-    "cookingMethods": [
       "baked"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Pork sandwich with garlicky marinade and mustard or chili.",
-      "zh": "葡式猪排三明治 是常见葡萄牙菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Bifana is een veelvoorkomend gerecht in de portugees keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Tender octopus with smashed potatoes, garlic, olive oil, and herbs.",
+      "zh": "软嫩章鱼配压扁土豆、蒜、橄榄油和香草。",
+      "nl": "Malse octopus met geplette aardappels, knoflook, olijfolie en kruiden."
     },
     "cookingProfile": {
-      "en": "Usually served with bready, chewy or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为bready，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met bready; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "The dish is olive-oil rich, with tender tentacles and rustic potatoes.",
+      "zh": "整体橄榄油香浓，章鱼须柔韧，土豆质朴厚实。",
+      "nl": "Rijk aan olijfolie, met malse tentakels en rustieke aardappels."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A high-frequency Portuguese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频葡萄牙菜菜品。",
-        "nl": "Een vaak voorkomend portugees menu-item voor brede DishKAI restaurantdekking."
+        "en": "A classic Portuguese octopus order where tenderness and olive oil are key.",
+        "zh": "经典葡萄牙章鱼菜，关键看章鱼软嫩度和橄榄油香气。",
+        "nl": "Een klassieke Portugese octopuskeuze waarbij malsheid en olijfolie tellen."
       }
     },
     "composition": [
       [
-        "pita",
-        55,
-        "base"
+        "octopus",
+        45,
+        "main seafood"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "freshness"
-      ],
-      [
-        "tomato",
-        10,
-        "body"
+        "potato",
+        35,
+        "smashed potatoes"
       ],
       [
         "olive-oil",
         10,
-        "finish",
+        "rich finish",
         "seasoning"
       ],
       [
-        "mint",
+        "garlic",
         5,
-        "finish",
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "parsley",
+        5,
+        "fresh finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "peri-peri",
+      "octopus",
       "olive-oil",
-      "paprika"
+      "garlic"
+    ],
+    "basicTaste": [
+      "briny",
+      "garlicky",
+      "rich"
+    ],
+    "textureProfile": [
+      "tender octopus",
+      "soft potatoes",
+      "oily finish"
+    ],
+    "riskFlags": [
+      "contains-shellfish"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "seafood",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "A strong order if you enjoy octopus and do not mind an olive-oil-rich plate.",
+      "zh": "喜欢章鱼并接受橄榄油较重的菜时很值得点。",
+      "nl": "Een sterke keuze als je octopus lekker vindt en olijfolierijk eten geen probleem is."
+    },
+    "weightLevel": 3,
+    "restaurantVariationLevel": "medium"
+  }),
+  starterDish({
+    "cuisineId": "portuguese",
+    "confidenceTag": "audited-portuguese-batch-012",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "bifana",
+    "metadataCode": "125010",
+    "names": {
+      "en": "Bifana",
+      "zh": "葡式猪扒小面包",
+      "nl": "Bifana",
+      "local": "Bifana"
+    },
+    "category": "sandwich",
+    "cookingMethods": [
+      "fried",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Thin pork cutlet sandwich in a crusty roll, usually with garlicy marinade or mustard.",
+      "zh": "薄猪肉片夹在脆皮小面包里，常有蒜香腌汁或芥末。",
+      "nl": "Broodje met dun varkensvlees, vaak met knoflookmarinade of mosterd."
+    },
+    "cookingProfile": {
+      "en": "It is a quick, savory sandwich with juicy pork rather than a large plated meal.",
+      "zh": "这是咸香多汁的快手小面包，不是大份正餐盘。",
+      "nl": "Een snel, hartig broodje met sappig varkensvlees, geen groot bordgerecht."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "street-food",
+        "common"
+      ],
+      "description": {
+        "en": "A very common Portuguese snack-bar and casual lunch order.",
+        "zh": "葡萄牙小吃店和午餐菜单很常见的选择。",
+        "nl": "Een zeer veelvoorkomende Portugese snackbar- en lunchkeuze."
+      }
+    },
+    "composition": [
+      [
+        "portuguese-roll",
+        40,
+        "bread"
+      ],
+      [
+        "pork",
+        45,
+        "thin cutlet"
+      ],
+      [
+        "garlic",
+        5,
+        "marinade",
+        "seasoning"
+      ],
+      [
+        "mustard",
+        5,
+        "optional sharpness",
+        "seasoning"
+      ],
+      [
+        "wine",
+        5,
+        "marinade depth"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "pork juices",
+      "garlic marinade",
+      "mustard"
     ],
     "basicTaste": [
       "savory",
-      "bready"
+      "garlicky",
+      "mild"
     ],
     "textureProfile": [
-      "bready",
-      "chewy or crisp"
+      "crusty roll",
+      "thin juicy pork",
+      "simple sandwich"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-pork"
+      "contains-pork",
+      "contains-alcohol"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "street-food",
+      "quick-meal"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "no-pork",
+      "no-alcohol"
+    ],
     "orderVerdict": {
-      "en": "Quick savory sandwich; pork and gluten.",
-      "zh": "如果你接受这类口味和风险，葡式猪排三明治 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A good casual pick when you want a simple pork sandwich with Portuguese flavor.",
+      "zh": "想吃简单、有葡萄牙风味的猪肉小面包时很合适。",
+      "nl": "Een goede informele keuze voor een simpel broodje varkensvlees met Portugese smaak."
     },
-    "spiceLevel": 1,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "high"
+    "restaurantVariationLevel": "medium"
   }),
   starterDish({
     "id": "cataplana",
@@ -17554,107 +17677,112 @@ export const worldDishes = [
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "portuguese",
+    "confidenceTag": "audited-portuguese-batch-012",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "queijadas",
     "metadataCode": "125012",
-    "cuisineId": "portuguese",
     "names": {
       "en": "Queijadas",
-      "zh": "葡式奶酪甜挞",
+      "zh": "葡式乳酪小塔",
       "nl": "Queijadas",
-      "local": "queijadas"
+      "local": "Queijadas"
     },
     "category": "dessert",
     "cookingMethods": [
       "baked"
     ],
+    "servingTemperature": "room-temperature",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Small sweet cheese or milk custard pastries.",
-      "zh": "葡式奶酪甜挞 是常见葡萄牙菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Queijadas is een veelvoorkomend gerecht in de portugees keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Small Portuguese cheese or curd tartlets with a soft sweet filling.",
+      "zh": "小份葡萄牙乳酪或凝乳小塔，内馅柔软清甜。",
+      "nl": "Kleine Portugese kaas- of wrongeltaartjes met zachte zoete vulling."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet, soft or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为sweet，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met sweet; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Less flaky and less blistered than pastel de nata, with a denser cheese-custard bite.",
+      "zh": "比葡式蛋挞更少焦斑和酥层，口感更像紧实的乳酪蛋奶馅。",
+      "nl": "Minder bladerig en geblakerd dan pastel de nata, met een dichtere kaas-custardbeet."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "dessert",
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency Portuguese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频葡萄牙菜菜品。",
-        "nl": "Een vaak voorkomend portugees menu-item voor brede DishKAI restaurantdekking."
+        "en": "A family of Portuguese regional sweets useful to distinguish from custard tarts.",
+        "zh": "葡萄牙地区甜点家族，适合和葡式蛋挞区分。",
+        "nl": "Een familie Portugese regionale zoetigheden, handig te onderscheiden van nata-taartjes."
       }
     },
     "composition": [
       [
-        "sugar",
+        "pastry-crust",
+        35,
+        "small tart shell"
+      ],
+      [
+        "curd-cheese",
         30,
-        "sweetener"
-      ],
-      [
-        "cream",
-        25,
-        "base"
-      ],
-      [
-        "wheat-flour",
-        20,
-        "base"
+        "cheese filling"
       ],
       [
         "egg",
-        10,
-        "binder"
+        20,
+        "custard body"
       ],
       [
-        "vanilla",
+        "sugar",
         10,
-        "aroma",
-        "seasoning"
+        "sweetness"
       ],
       [
-        "butter",
+        "cinnamon",
         5,
-        "richness"
+        "warm accent",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "peri-peri",
-      "olive-oil",
-      "paprika"
+      "fresh cheese",
+      "egg custard",
+      "cinnamon"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "mild"
     ],
     "textureProfile": [
-      "sweet",
-      "soft or crisp"
+      "soft filling",
+      "small pastry edge",
+      "dense custard"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "dessert"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free"
+    ],
     "orderVerdict": {
-      "en": "Sweet small dessert; dairy, egg, gluten.",
-      "zh": "如果你接受这类口味和风险，葡式奶酪甜挞 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Choose these for a small regional sweet that is gentler than a caramelized custard tart.",
+      "zh": "想吃小份地区甜点、又想比蛋挞更温和时可以点。",
+      "nl": "Kies dit voor een klein regionaal zoet hapje dat zachter is dan een gekaramelliseerd custardtaartje."
     },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 2,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({

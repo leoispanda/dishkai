@@ -1,0 +1,154 @@
+[
+  {
+    "metadataCode": "125012",
+    "dishId": "queijadas",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a34989679988191a8901e8fd89d86ab.png",
+    "auditSource": "data/internal/audit/rebuild-batches/portuguese-batch-012-image-sources/125012-queijadas.png",
+    "mainPath": "/assets/dishes/main/125012-queijadas.webp",
+    "thumbPath": "/assets/dishes/thumb/125012-queijadas.webp"
+  },
+  {
+    "metadataCode": "125013",
+    "dishId": "bacalhau-com-natas",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a3498d0a5508191b2c97a9404813605.png",
+    "auditSource": "data/internal/audit/rebuild-batches/portuguese-batch-012-image-sources/125013-bacalhau-com-natas.png",
+    "mainPath": "/assets/dishes/main/125013-bacalhau-com-natas.webp",
+    "thumbPath": "/assets/dishes/thumb/125013-bacalhau-com-natas.webp"
+  },
+  {
+    "metadataCode": "125014",
+    "dishId": "bacalhau-a-gomes-de-sa",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a349912482c8191a0499899977a83e5.png",
+    "auditSource": "data/internal/audit/rebuild-batches/portuguese-batch-012-image-sources/125014-bacalhau-a-gomes-de-sa.png",
+    "mainPath": "/assets/dishes/main/125014-bacalhau-a-gomes-de-sa.webp",
+    "thumbPath": "/assets/dishes/thumb/125014-bacalhau-a-gomes-de-sa.webp"
+  },
+  {
+    "metadataCode": "125015",
+    "dishId": "bacalhau-espiritual",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a34995447b88191b36d0448ce6d9aaf.png",
+    "auditSource": "data/internal/audit/rebuild-batches/portuguese-batch-012-image-sources/125015-bacalhau-espiritual.png",
+    "mainPath": "/assets/dishes/main/125015-bacalhau-espiritual.webp",
+    "thumbPath": "/assets/dishes/thumb/125015-bacalhau-espiritual.webp"
+  },
+  {
+    "metadataCode": "125016",
+    "dishId": "sardinhas-assadas",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a349995f5a4819193fa4c96616d7962.png",
+    "auditSource": "data/internal/audit/rebuild-batches/portuguese-batch-012-image-sources/125016-sardinhas-assadas.png",
+    "mainPath": "/assets/dishes/main/125016-sardinhas-assadas.webp",
+    "thumbPath": "/assets/dishes/thumb/125016-sardinhas-assadas.webp"
+  },
+  {
+    "metadataCode": "125017",
+    "dishId": "dourada-grelhada",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a3499dbec448191a78a7962c6954ead.png",
+    "auditSource": "data/internal/audit/rebuild-batches/portuguese-batch-012-image-sources/125017-dourada-grelhada.png",
+    "mainPath": "/assets/dishes/main/125017-dourada-grelhada.webp",
+    "thumbPath": "/assets/dishes/thumb/125017-dourada-grelhada.webp"
+  },
+  {
+    "metadataCode": "125019",
+    "dishId": "feijoada-portuguesa",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a3499fc791881918bc4c6c0f2464267.png",
+    "auditSource": "data/internal/audit/rebuild-batches/portuguese-batch-012-image-sources/125019-feijoada-portuguesa.png",
+    "mainPath": "/assets/dishes/main/125019-feijoada-portuguesa.webp",
+    "thumbPath": "/assets/dishes/thumb/125019-feijoada-portuguesa.webp"
+  },
+  {
+    "metadataCode": "125020",
+    "dishId": "cozido-a-portuguesa",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a349a43ef948191b6b84bec3f8d1a27.png",
+    "auditSource": "data/internal/audit/rebuild-batches/portuguese-batch-012-image-sources/125020-cozido-a-portuguesa.png",
+    "mainPath": "/assets/dishes/main/125020-cozido-a-portuguesa.webp",
+    "thumbPath": "/assets/dishes/thumb/125020-cozido-a-portuguesa.webp"
+  },
+  {
+    "metadataCode": "125021",
+    "dishId": "leitao-assado",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a349a8f912c8191ac30f06c4fc5f2b2.png",
+    "auditSource": "data/internal/audit/rebuild-batches/portuguese-batch-012-image-sources/125021-leitao-assado.png",
+    "mainPath": "/assets/dishes/main/125021-leitao-assado.webp",
+    "thumbPath": "/assets/dishes/thumb/125021-leitao-assado.webp"
+  },
+  {
+    "metadataCode": "125022",
+    "dishId": "alheira",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a349addfd148191a2f1e2e4c626fa56.png",
+    "auditSource": "data/internal/audit/rebuild-batches/portuguese-batch-012-image-sources/125022-alheira.png",
+    "mainPath": "/assets/dishes/main/125022-alheira.webp",
+    "thumbPath": "/assets/dishes/thumb/125022-alheira.webp"
+  },
+  {
+    "metadataCode": "125023",
+    "dishId": "prego",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a349b06d20c81918f724908f25c7a62.png",
+    "auditSource": "data/internal/audit/rebuild-batches/portuguese-batch-012-image-sources/125023-prego.png",
+    "mainPath": "/assets/dishes/main/125023-prego.webp",
+    "thumbPath": "/assets/dishes/thumb/125023-prego.webp"
+  },
+  {
+    "metadataCode": "125024",
+    "dishId": "arroz-de-pato",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a349b50e9a081918bf46da25cf7af16.png",
+    "auditSource": "data/internal/audit/rebuild-batches/portuguese-batch-012-image-sources/125024-arroz-de-pato.png",
+    "mainPath": "/assets/dishes/main/125024-arroz-de-pato.webp",
+    "thumbPath": "/assets/dishes/thumb/125024-arroz-de-pato.webp"
+  },
+  {
+    "metadataCode": "125026",
+    "dishId": "peixinhos-da-horta",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a349ba3f8f08191a391be8ac0532367.png",
+    "auditSource": "data/internal/audit/rebuild-batches/portuguese-batch-012-image-sources/125026-peixinhos-da-horta.png",
+    "mainPath": "/assets/dishes/main/125026-peixinhos-da-horta.webp",
+    "thumbPath": "/assets/dishes/thumb/125026-peixinhos-da-horta.webp"
+  },
+  {
+    "metadataCode": "125027",
+    "dishId": "bolinhos-de-bacalhau",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a349c1772648191942812591109e02f.png",
+    "auditSource": "data/internal/audit/rebuild-batches/portuguese-batch-012-image-sources/125027-bolinhos-de-bacalhau.png",
+    "mainPath": "/assets/dishes/main/125027-bolinhos-de-bacalhau.webp",
+    "thumbPath": "/assets/dishes/thumb/125027-bolinhos-de-bacalhau.webp"
+  },
+  {
+    "metadataCode": "125028",
+    "dishId": "arroz-doce",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a349c49cbec8191bdd8aafde063045d.png",
+    "auditSource": "data/internal/audit/rebuild-batches/portuguese-batch-012-image-sources/125028-arroz-doce.png",
+    "mainPath": "/assets/dishes/main/125028-arroz-doce.webp",
+    "thumbPath": "/assets/dishes/thumb/125028-arroz-doce.webp"
+  },
+  {
+    "metadataCode": "125029",
+    "dishId": "serradura",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a349c74e52881919badac13dc21fb3c.png",
+    "auditSource": "data/internal/audit/rebuild-batches/portuguese-batch-012-image-sources/125029-serradura.png",
+    "mainPath": "/assets/dishes/main/125029-serradura.webp",
+    "thumbPath": "/assets/dishes/thumb/125029-serradura.webp"
+  },
+  {
+    "metadataCode": "125030",
+    "dishId": "bolo-de-bolacha",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a349ca24bac81919c10c523db709674.png",
+    "auditSource": "data/internal/audit/rebuild-batches/portuguese-batch-012-image-sources/125030-bolo-de-bolacha.png",
+    "mainPath": "/assets/dishes/main/125030-bolo-de-bolacha.webp",
+    "thumbPath": "/assets/dishes/thumb/125030-bolo-de-bolacha.webp"
+  },
+  {
+    "metadataCode": "125031",
+    "dishId": "bacalhau-a-lagareiro",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a349ce8c9948191bafedc06a3eadb4e.png",
+    "auditSource": "data/internal/audit/rebuild-batches/portuguese-batch-012-image-sources/125031-bacalhau-a-lagareiro.png",
+    "mainPath": "/assets/dishes/main/125031-bacalhau-a-lagareiro.webp",
+    "thumbPath": "/assets/dishes/thumb/125031-bacalhau-a-lagareiro.webp"
+  },
+  {
+    "metadataCode": "125036",
+    "dishId": "carne-de-porco-a-alentejana",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_0875a7454a2a68c2016a349d3cbab88191a025c8f1bbbfc99d.png",
+    "auditSource": "data/internal/audit/rebuild-batches/portuguese-batch-012-image-sources/125036-carne-de-porco-a-alentejana.png",
+    "mainPath": "/assets/dishes/main/125036-carne-de-porco-a-alentejana.webp",
+    "thumbPath": "/assets/dishes/thumb/125036-carne-de-porco-a-alentejana.webp"
+  }
+]

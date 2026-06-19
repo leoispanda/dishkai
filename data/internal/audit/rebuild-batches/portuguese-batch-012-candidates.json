@@ -1,0 +1,302 @@
+[
+  {
+    "dishId": "bacalhau-a-bras",
+    "metadataCode": "125001",
+    "cuisineId": "portuguese",
+    "name": "Bacalhau à Brás",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125001-bacalhau-a-bras.webp",
+    "thumbPath": "/assets/dishes/thumb/125001-bacalhau-a-bras.webp"
+  },
+  {
+    "dishId": "pastel-de-nata",
+    "metadataCode": "125002",
+    "cuisineId": "portuguese",
+    "name": "Pastel de Nata",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125002-pastel-de-nata.webp",
+    "thumbPath": "/assets/dishes/thumb/125002-pastel-de-nata.webp"
+  },
+  {
+    "dishId": "francesinha",
+    "metadataCode": "125003",
+    "cuisineId": "portuguese",
+    "name": "Francesinha",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125003-francesinha.webp",
+    "thumbPath": "/assets/dishes/thumb/125003-francesinha.webp"
+  },
+  {
+    "dishId": "caldo-verde",
+    "metadataCode": "125004",
+    "cuisineId": "portuguese",
+    "name": "Caldo Verde",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125004-caldo-verde.webp",
+    "thumbPath": "/assets/dishes/thumb/125004-caldo-verde.webp"
+  },
+  {
+    "dishId": "piri-piri-chicken",
+    "metadataCode": "125005",
+    "cuisineId": "portuguese",
+    "name": "Piri-Piri Chicken",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125005-piri-piri-chicken.webp",
+    "thumbPath": "/assets/dishes/thumb/125005-piri-piri-chicken.webp"
+  },
+  {
+    "dishId": "ameijoas-a-bulhao-pato",
+    "metadataCode": "125006",
+    "cuisineId": "portuguese",
+    "name": "Clams Bulhão Pato",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125006-ameijoas-a-bulhao-pato.webp",
+    "thumbPath": "/assets/dishes/thumb/125006-ameijoas-a-bulhao-pato.webp"
+  },
+  {
+    "dishId": "arroz-de-marisco",
+    "metadataCode": "125007",
+    "cuisineId": "portuguese",
+    "name": "Arroz de Marisco",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125007-arroz-de-marisco.webp",
+    "thumbPath": "/assets/dishes/thumb/125007-arroz-de-marisco.webp"
+  },
+  {
+    "dishId": "bitoque",
+    "metadataCode": "125008",
+    "cuisineId": "portuguese",
+    "name": "Bitoque",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125008-bitoque.webp",
+    "thumbPath": "/assets/dishes/thumb/125008-bitoque.webp"
+  },
+  {
+    "dishId": "polvo-a-lagareiro",
+    "metadataCode": "125009",
+    "cuisineId": "portuguese",
+    "name": "Polvo à Lagareiro",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125009-polvo-a-lagareiro.webp",
+    "thumbPath": "/assets/dishes/thumb/125009-polvo-a-lagareiro.webp"
+  },
+  {
+    "dishId": "bifana",
+    "metadataCode": "125010",
+    "cuisineId": "portuguese",
+    "name": "Bifana",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125010-bifana.webp",
+    "thumbPath": "/assets/dishes/thumb/125010-bifana.webp"
+  },
+  {
+    "dishId": "queijadas",
+    "metadataCode": "125012",
+    "cuisineId": "portuguese",
+    "name": "Queijadas",
+    "sourceFile": "world",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125012-queijadas.webp",
+    "thumbPath": "/assets/dishes/thumb/125012-queijadas.webp"
+  },
+  {
+    "dishId": "bacalhau-com-natas",
+    "metadataCode": "125013",
+    "cuisineId": "portuguese",
+    "name": "Bacalhau com Natas",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125013-bacalhau-com-natas.webp",
+    "thumbPath": "/assets/dishes/thumb/125013-bacalhau-com-natas.webp"
+  },
+  {
+    "dishId": "bacalhau-a-gomes-de-sa",
+    "metadataCode": "125014",
+    "cuisineId": "portuguese",
+    "name": "Bacalhau à Gomes de Sá",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125014-bacalhau-a-gomes-de-sa.webp",
+    "thumbPath": "/assets/dishes/thumb/125014-bacalhau-a-gomes-de-sa.webp"
+  },
+  {
+    "dishId": "bacalhau-espiritual",
+    "metadataCode": "125015",
+    "cuisineId": "portuguese",
+    "name": "Bacalhau Espiritual",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125015-bacalhau-espiritual.webp",
+    "thumbPath": "/assets/dishes/thumb/125015-bacalhau-espiritual.webp"
+  },
+  {
+    "dishId": "sardinhas-assadas",
+    "metadataCode": "125016",
+    "cuisineId": "portuguese",
+    "name": "Sardinhas Assadas",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125016-sardinhas-assadas.webp",
+    "thumbPath": "/assets/dishes/thumb/125016-sardinhas-assadas.webp"
+  },
+  {
+    "dishId": "dourada-grelhada",
+    "metadataCode": "125017",
+    "cuisineId": "portuguese",
+    "name": "Dourada Grelhada",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125017-dourada-grelhada.webp",
+    "thumbPath": "/assets/dishes/thumb/125017-dourada-grelhada.webp"
+  },
+  {
+    "dishId": "cataplana-de-marisco",
+    "metadataCode": "125018",
+    "cuisineId": "portuguese",
+    "name": "Cataplana de Marisco",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125018-cataplana-de-marisco.webp",
+    "thumbPath": "/assets/dishes/thumb/125018-cataplana-de-marisco.webp"
+  },
+  {
+    "dishId": "feijoada-portuguesa",
+    "metadataCode": "125019",
+    "cuisineId": "portuguese",
+    "name": "Feijoada Portuguesa",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125019-feijoada-portuguesa.webp",
+    "thumbPath": "/assets/dishes/thumb/125019-feijoada-portuguesa.webp"
+  },
+  {
+    "dishId": "cozido-a-portuguesa",
+    "metadataCode": "125020",
+    "cuisineId": "portuguese",
+    "name": "Cozido à Portuguesa",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125020-cozido-a-portuguesa.webp",
+    "thumbPath": "/assets/dishes/thumb/125020-cozido-a-portuguesa.webp"
+  },
+  {
+    "dishId": "leitao-assado",
+    "metadataCode": "125021",
+    "cuisineId": "portuguese",
+    "name": "Leitão Assado",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125021-leitao-assado.webp",
+    "thumbPath": "/assets/dishes/thumb/125021-leitao-assado.webp"
+  },
+  {
+    "dishId": "alheira",
+    "metadataCode": "125022",
+    "cuisineId": "portuguese",
+    "name": "Alheira",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125022-alheira.webp",
+    "thumbPath": "/assets/dishes/thumb/125022-alheira.webp"
+  },
+  {
+    "dishId": "prego",
+    "metadataCode": "125023",
+    "cuisineId": "portuguese",
+    "name": "Prego",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125023-prego.webp",
+    "thumbPath": "/assets/dishes/thumb/125023-prego.webp"
+  },
+  {
+    "dishId": "arroz-de-pato",
+    "metadataCode": "125024",
+    "cuisineId": "portuguese",
+    "name": "Arroz de Pato",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125024-arroz-de-pato.webp",
+    "thumbPath": "/assets/dishes/thumb/125024-arroz-de-pato.webp"
+  },
+  {
+    "dishId": "peixinhos-da-horta",
+    "metadataCode": "125026",
+    "cuisineId": "portuguese",
+    "name": "Peixinhos da Horta",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125026-peixinhos-da-horta.webp",
+    "thumbPath": "/assets/dishes/thumb/125026-peixinhos-da-horta.webp"
+  },
+  {
+    "dishId": "bolinhos-de-bacalhau",
+    "metadataCode": "125027",
+    "cuisineId": "portuguese",
+    "name": "Bolinhos de Bacalhau",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125027-bolinhos-de-bacalhau.webp",
+    "thumbPath": "/assets/dishes/thumb/125027-bolinhos-de-bacalhau.webp"
+  },
+  {
+    "dishId": "arroz-doce",
+    "metadataCode": "125028",
+    "cuisineId": "portuguese",
+    "name": "Arroz Doce",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125028-arroz-doce.webp",
+    "thumbPath": "/assets/dishes/thumb/125028-arroz-doce.webp"
+  },
+  {
+    "dishId": "serradura",
+    "metadataCode": "125029",
+    "cuisineId": "portuguese",
+    "name": "Serradura",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125029-serradura.webp",
+    "thumbPath": "/assets/dishes/thumb/125029-serradura.webp"
+  },
+  {
+    "dishId": "bolo-de-bolacha",
+    "metadataCode": "125030",
+    "cuisineId": "portuguese",
+    "name": "Bolo de Bolacha",
+    "sourceFile": "global-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125030-bolo-de-bolacha.webp",
+    "thumbPath": "/assets/dishes/thumb/125030-bolo-de-bolacha.webp"
+  },
+  {
+    "dishId": "bacalhau-a-lagareiro",
+    "metadataCode": "125031",
+    "cuisineId": "portuguese",
+    "name": "Bacalhau a Lagareiro",
+    "sourceFile": "europe-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125031-bacalhau-a-lagareiro.webp",
+    "thumbPath": "/assets/dishes/thumb/125031-bacalhau-a-lagareiro.webp"
+  },
+  {
+    "dishId": "carne-de-porco-a-alentejana",
+    "metadataCode": "125036",
+    "cuisineId": "portuguese",
+    "name": "Carne de Porco a Alentejana",
+    "sourceFile": "europe-depth",
+    "sourceStatus": "candidate-rebuild",
+    "imagePath": "/assets/dishes/main/125036-carne-de-porco-a-alentejana.webp",
+    "thumbPath": "/assets/dishes/thumb/125036-carne-de-porco-a-alentejana.webp"
+  }
+]

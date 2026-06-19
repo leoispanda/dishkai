@@ -2,9 +2,9 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 261
-- Total aliases: 890
-- Total cuisines: 12
+- Total verified dishes: 291
+- Total aliases: 972
+- Total cuisines: 13
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
 ## Belgian (belgian) - 30
@@ -262,6 +262,39 @@ Generated from data/internal/index.js after the verified database quarantine aud
 3. 110003 - `bulgogi` - Bulgogi / 韩式烤牛肉 / 불고기
 4. 110004 - `tteokbokki` - Tteokbokki / 韩式辣炒年糕 / 떡볶이
 5. 110005 - `korean-fried-chicken` - Korean Fried Chicken / 韩式炸鸡 / 치킨
+
+## Portuguese (portuguese) - 30
+
+1. 125031 - `bacalhau-a-lagareiro` - Bacalhau a Lagareiro / 橄榄油烤盐鳕鱼 / Bacalhau à lagareiro
+2. 125036 - `carne-de-porco-a-alentejana` - Carne de Porco a Alentejana / 阿连特茹猪肉蛤蜊 / Carne de porco à Alentejana
+3. 125001 - `bacalhau-a-bras` - Bacalhau a Bras / 金丝土豆炒盐鳕鱼 / Bacalhau à Brás
+4. 125002 - `pastel-de-nata` - Pastel de Nata / 葡式蛋挞 / Pastel de nata
+5. 125003 - `francesinha` - Francesinha / 波尔图肉酱三明治 / Francesinha
+6. 125004 - `caldo-verde` - Caldo Verde / 葡式青菜土豆汤 / Caldo verde
+7. 125005 - `piri-piri-chicken` - Piri-Piri Chicken / 霹雳辣椒烤鸡 / Frango piri-piri
+8. 125006 - `ameijoas-a-bulhao-pato` - Clams Bulhao Pato / 蒜香白酒蛤蜊 / Amêijoas à Bulhão Pato
+9. 125007 - `arroz-de-marisco` - Arroz de Marisco / 葡式海鲜饭 / Arroz de marisco
+10. 125008 - `bitoque` - Bitoque / 葡式煎牛排配蛋 / Bitoque
+11. 125009 - `polvo-a-lagareiro` - Polvo a Lagareiro / 橄榄油烤章鱼 / Polvo à lagareiro
+12. 125010 - `bifana` - Bifana / 葡式猪扒小面包 / Bifana
+13. 125012 - `queijadas` - Queijadas / 葡式乳酪小塔 / Queijadas
+14. 125013 - `bacalhau-com-natas` - Bacalhau com Natas / 奶油盐鳕鱼焗土豆 / Bacalhau com natas
+15. 125014 - `bacalhau-a-gomes-de-sa` - Bacalhau a Gomes de Sa / 土豆鸡蛋盐鳕鱼 / Bacalhau à Gomes de Sá
+16. 125015 - `bacalhau-espiritual` - Bacalhau Espiritual / 胡萝卜白酱盐鳕鱼焗菜 / Bacalhau espiritual
+17. 125016 - `sardinhas-assadas` - Sardinhas Assadas / 烤沙丁鱼 / Sardinhas assadas
+18. 125017 - `dourada-grelhada` - Dourada Grelhada / 烤海鲷 / Dourada grelhada
+19. 125018 - `cataplana-de-marisco` - Cataplana de Marisco / 葡式铜锅海鲜 / Cataplana de marisco
+20. 125019 - `feijoada-portuguesa` - Feijoada Portuguesa / 葡式豆子猪肉炖菜 / Feijoada portuguesa
+21. 125020 - `cozido-a-portuguesa` - Cozido a Portuguesa / 葡式杂肉蔬菜锅 / Cozido à portuguesa
+22. 125021 - `leitao-assado` - Leitao Assado / 烤乳猪 / Leitão assado
+23. 125022 - `alheira` - Alheira / 葡式阿列拉香肠 / Alheira
+24. 125023 - `prego` - Prego / 葡式牛排小面包 / Prego
+25. 125024 - `arroz-de-pato` - Arroz de Pato / 葡式鸭肉焗饭 / Arroz de pato
+26. 125026 - `peixinhos-da-horta` - Peixinhos da Horta / 葡式炸四季豆 / Peixinhos da horta
+27. 125027 - `bolinhos-de-bacalhau` - Bolinhos de Bacalhau / 葡式盐鳕鱼球 / Bolinhos de bacalhau
+28. 125028 - `arroz-doce` - Arroz Doce / 葡式肉桂米布丁 / Arroz doce
+29. 125029 - `serradura` - Serradura / 木糠布丁 / Serradura
+30. 125030 - `bolo-de-bolacha` - Bolo de Bolacha / 葡式饼干咖啡奶油蛋糕 / Bolo de bolacha
 
 ## Spanish (spanish) - 30
 
