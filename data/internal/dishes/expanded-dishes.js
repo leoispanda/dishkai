@@ -4079,62 +4079,194 @@ export const expandedDishes = [
     "restaurantVariationLevel": "high"
   }),
   starterDish({
+    "cuisineId": "chinese",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
     "id": "kung-pao-chicken",
     "metadataCode": "111006",
-    "cuisineId": "chinese",
     "names": {
       "en": "Kung Pao Chicken",
       "zh": "宫保鸡丁",
-      "nl": "Kung pao kip",
+      "nl": "Kung pao-kip",
       "local": "宫保鸡丁"
     },
-    "category": "rice",
+    "category": "meat",
     "cookingMethods": [
       "stir-fried"
     ],
     "shortDescription": {
-      "en": "Stir-fried chicken with peanuts, chili, and sweet-savory sauce.",
-      "zh": "宫保鸡丁 是常见中国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Kung pao kip is een veelvoorkomend gerecht in de chinees keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Stir-fried diced chicken with peanuts, dried chili heat, scallions, and a glossy sweet-savory sauce.",
+      "zh": "鸡丁、花生、干辣椒和葱段快炒，酱汁咸甜微酸，常带明显辣香。",
+      "nl": "Geroerbakte kipblokjes met pinda, chili, lente-ui en een glanzende zoet-hartige saus."
     },
     "cookingProfile": {
-      "en": "Usually served as a rice with a soft rice, mixed toppings feel.",
-      "zh": "通常以rice形式上桌，重点体验是soft rice。",
-      "nl": "Meestal geserveerd als rice met een soft rice gevoel."
+      "en": "Quick wok frying keeps the chicken tender while the sauce coats every bite and the peanuts stay crunchy.",
+      "zh": "旺火快炒让鸡肉保持嫩，酱汁裹住鸡丁，花生提供脆感。",
+      "nl": "Snelle wokbereiding houdt de kip mals; saus bedekt elk stuk en pinda blijft krokant."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "lighter-choice"
+        "classic-dish",
+        "spicy",
+        "contains-peanut"
       ],
       "description": {
-        "en": "A high-frequency Chinese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频中国菜菜品。",
-        "nl": "Een vaak voorkomend chinees menu-item voor bredere restaurantdekking."
+        "en": "A Chinese menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按中餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Chinees menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
       }
     },
     "composition": [
       [
-        "steamed-rice",
-        55,
-        "base"
+        "chicken",
+        45,
+        "main"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
+        "peanuts",
+        15,
+        "crunch"
       ],
       [
-        "egg",
+        "bell-pepper",
         10,
-        "topping"
+        "vegetable"
+      ],
+      [
+        "green-onion",
+        10,
+        "aroma"
       ],
       [
         "soy-sauce",
         10,
-        "seasoning",
+        "sauce",
         "seasoning"
+      ],
+      [
+        "black-vinegar",
+        5,
+        "tang",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "peanuts",
+      "chili",
+      "soy-sauce",
+      "black-vinegar"
+    ],
+    "basicTaste": [
+      "savory",
+      "sweet",
+      "mildly-sour",
+      "spicy"
+    ],
+    "textureProfile": [
+      "tender diced chicken",
+      "crunchy peanuts",
+      "glossy sauce"
+    ],
+    "riskFlags": [
+      "contains-peanut",
+      "contains-soy",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "classic-dish",
+      "rice-friendly",
+      "spicy"
+    ],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "soy-allergy",
+      "gluten-allergy",
+      "spice-sensitive"
+    ],
+    "orderVerdict": {
+      "en": "A reliable pick if you want saucy chicken with peanut crunch and moderate chili heat.",
+      "zh": "想吃带花生脆感、咸甜微辣的下饭鸡丁时很稳。",
+      "nl": "Een betrouwbare keuze voor sausrijke kip met pindakrokant en matige chili."
+    },
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1
+  }),
+  starterDish({
+    "cuisineId": "chinese",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "id": "sweet-and-sour-pork",
+    "metadataCode": "111007",
+    "names": {
+      "en": "Sweet and Sour Pork",
+      "zh": "糖醋猪肉",
+      "nl": "Zoetzure varkensstukjes",
+      "local": "咕噜肉 / 糖醋里脊"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "fried",
+      "sauce-tossed"
+    ],
+    "shortDescription": {
+      "en": "Crisp fried pork pieces coated in bright sweet-sour sauce, often with pineapple and peppers.",
+      "zh": "炸猪肉块裹糖醋汁，常配菠萝和甜椒，酸甜明显。",
+      "nl": "Krokant gefrituurde varkensstukjes in heldere zoetzure saus, vaak met ananas en paprika."
+    },
+    "cookingProfile": {
+      "en": "The pork is fried first and then glazed, so the best versions are crisp at the edges but sticky outside.",
+      "zh": "先炸后裹汁，好的版本边缘仍有脆感，外层黏亮酸甜。",
+      "nl": "Het vlees wordt eerst gefrituurd en dan geglazuurd: randjes krokant, buitenkant plakkerig."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "internationally-known",
+        "sweet",
+        "fried-snack"
+      ],
+      "description": {
+        "en": "A Chinese menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按中餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Chinees menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
+      }
+    },
+    "composition": [
+      [
+        "pork",
+        45,
+        "main"
+      ],
+      [
+        "sweet-sour-sauce",
+        25,
+        "glaze",
+        "seasoning"
+      ],
+      [
+        "pineapple",
+        10,
+        "sweet fruit"
+      ],
+      [
+        "bell-pepper",
+        10,
+        "vegetable"
+      ],
+      [
+        "potato-starch",
+        5,
+        "fried coating"
       ],
       [
         "green-onion",
@@ -4143,171 +4275,81 @@ export const expandedDishes = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "soy-sauce",
-      "doubanjiang",
-      "sichuan-pepper"
+      "sweet-sour-sauce",
+      "pineapple",
+      "pork"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "sweet",
+      "sour",
+      "savory"
     ],
     "textureProfile": [
-      "soft rice",
-      "mixed toppings"
+      "sticky glaze",
+      "fried pork pieces",
+      "juicy pineapple"
     ],
     "riskFlags": [
-      "contains-peanut",
-      "contains-soy"
+      "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "lighter-choice"
+      "sweet-and-sour",
+      "first-timer-friendly",
+      "rice-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "pork-avoidant",
+      "low-sugar-preference",
+      "low-fried-food-preference"
+    ],
     "orderVerdict": {
-      "en": "A good pick if peanuts and mild heat are okay.",
-      "zh": "如果你接受这类口味和风险，宫保鸡丁 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
-    },
-    "spiceLevel": 2,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
-  }),
-  starterDish({
-    "id": "sweet-and-sour-pork",
-    "metadataCode": "111007",
-    "cuisineId": "chinese",
-    "names": {
-      "en": "Sweet and Sour Pork",
-      "zh": "咕咾肉",
-      "nl": "Zoetzure varkensvlees",
-      "local": "咕咾肉"
-    },
-    "category": "meat",
-    "cookingMethods": [
-      "braised"
-    ],
-    "shortDescription": {
-      "en": "Crisp pork pieces in bright sweet-sour sauce, often with peppers or pineapple.",
-      "zh": "咕咾肉 是常见中国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Zoetzure varkensvlees is een veelvoorkomend gerecht in de chinees keuken, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served as a meat with a tender meat, rich sauce feel.",
-      "zh": "通常以meat形式上桌，重点体验是tender meat。",
-      "nl": "Meestal geserveerd als meat met een tender meat gevoel."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
-      ],
-      "description": {
-        "en": "A high-frequency Chinese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频中国菜菜品。",
-        "nl": "Een vaak voorkomend chinees menu-item voor bredere restaurantdekking."
-      }
-    },
-    "composition": [
-      [
-        "beef",
-        55,
-        "main"
-      ],
-      [
-        "potato",
-        20,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
-        15,
-        "side"
-      ],
-      [
-        "butter",
-        5,
-        "richness"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "soy-sauce",
-      "doubanjiang",
-      "sichuan-pepper"
-    ],
-    "basicTaste": [
-      "savory",
-      "rich",
-      "umami"
-    ],
-    "textureProfile": [
-      "tender meat",
-      "rich sauce"
-    ],
-    "riskFlags": [
-      "contains-pork",
-      "contains-gluten"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Familiar and sweet; avoid if you do not eat pork or fried food.",
-      "zh": "如果你接受这类口味和风险，咕咾肉 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good for a familiar sweet-sour plate; skip it if you dislike sticky sauces or fried pork.",
+      "zh": "想吃熟悉的酸甜炸猪肉可以点；不喜欢黏甜酱或油炸口感则避开。",
+      "nl": "Goed voor bekende zoetzure smaken; sla over als je plakkerige saus of gefrituurd varkensvlees mijdt."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "acquiredTasteLevel": 1
   }),
   starterDish({
+    "cuisineId": "chinese",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
     "id": "dan-dan-noodles",
     "metadataCode": "111008",
-    "cuisineId": "chinese",
     "names": {
       "en": "Dan Dan Noodles",
       "zh": "担担面",
-      "nl": "Dan dan noedels",
+      "nl": "Dan dan-noedels",
       "local": "担担面"
     },
     "category": "noodle",
     "cookingMethods": [
-      "stir-fried"
+      "boiled",
+      "sauce-tossed"
     ],
     "shortDescription": {
-      "en": "Noodles with chili oil, sesame or peanut richness, and minced pork in many versions.",
-      "zh": "担担面 是常见中国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Dan dan noedels is een veelvoorkomend gerecht in de chinees keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Wheat noodles tossed with chili oil, Sichuan pepper, sesame or peanut richness, and minced pork.",
+      "zh": "小麦面配辣椒油、花椒、芝麻或花生香和肉末，通常麻辣咸香。",
+      "nl": "Tarwenoedels met chiliolie, szechuanpeper, sesam- of pindarijkdom en gehakt varkensvlees."
     },
     "cookingProfile": {
-      "en": "Usually served as a noodle with a springy noodles, glossy sauce feel.",
-      "zh": "通常以noodle形式上桌，重点体验是springy noodles。",
-      "nl": "Meestal geserveerd als noodle met een springy noodles gevoel."
+      "en": "Usually mixed at the table or just before serving, so the noodles feel slick, spicy, and aromatic rather than brothy.",
+      "zh": "通常拌匀后吃，面条油润麻辣，不是汤面。",
+      "nl": "Meestal vlak voor eten gemengd: glad, pittig en aromatisch, niet soepig."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item"
+        "noodle",
+        "spicy",
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency Chinese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频中国菜菜品。",
-        "nl": "Een vaak voorkomend chinees menu-item voor bredere restaurantdekking."
+        "en": "A Chinese menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按中餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Chinees menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
       }
     },
     "composition": [
@@ -4317,219 +4359,154 @@ export const expandedDishes = [
         "base"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
+        "minced-pork",
+        15,
+        "topping"
       ],
       [
-        "chicken",
-        20,
-        "protein"
+        "chili-oil",
+        15,
+        "sauce",
+        "seasoning"
       ],
       [
-        "soy-sauce",
+        "sesame-oil",
         10,
-        "seasoning",
+        "nutty aroma",
+        "seasoning"
+      ],
+      [
+        "sichuan-pepper",
+        5,
+        "numbing aroma",
         "seasoning"
       ],
       [
         "green-onion",
         5,
         "finish"
+      ],
+      [
+        "peanuts",
+        5,
+        "crunch",
+        "ingredient",
+        null,
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "soy-sauce",
-      "doubanjiang",
-      "sichuan-pepper"
+      "chili-oil",
+      "sichuan-pepper",
+      "sesame-oil",
+      "minced-pork"
     ],
     "basicTaste": [
+      "spicy",
       "savory",
-      "umami"
+      "nutty",
+      "numbing"
     ],
     "textureProfile": [
       "springy noodles",
-      "glossy sauce"
+      "slick chili oil",
+      "small savory pork bits"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-pork",
-      "contains-peanut",
-      "contains-soy"
+      "contains-sesame",
+      "can-be-spicy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "peanut-varies-by-restaurant"
+    ],
     "goodForTags": [
-      "common-menu-item"
+      "noodle-lover",
+      "spicy",
+      "regional-dish"
     ],
     "avoidIfTags": [
+      "gluten-allergy",
+      "pork-avoidant",
+      "sesame-allergy",
+      "peanut-allergy",
       "spice-sensitive"
     ],
     "orderVerdict": {
-      "en": "Order if you want spicy, nutty, savory noodles; check peanut and pork.",
-      "zh": "如果你接受这类口味和风险，担担面 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A strong choice for chili-oil noodles; ask about peanut or sesame if allergies matter.",
+      "zh": "想吃麻辣拌面时很适合；有花生或芝麻过敏要先问。",
+      "nl": "Sterk voor chiliolienoedels; vraag naar pinda of sesam bij allergieën."
     },
-    "spiceLevel": 4,
+    "spiceLevel": 3,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "acquiredTasteLevel": 2
   }),
   starterDish({
+    "cuisineId": "chinese",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
     "id": "wonton-soup",
     "metadataCode": "111009",
-    "cuisineId": "chinese",
     "names": {
       "en": "Wonton Soup",
       "zh": "馄饨汤",
       "nl": "Wontonsoep",
-      "local": "馄饨汤"
+      "local": "馄饨汤 / 云吞汤"
     },
     "category": "soup",
     "cookingMethods": [
+      "boiled",
       "simmered"
     ],
     "shortDescription": {
-      "en": "Dumplings in clear broth, usually with pork or shrimp filling.",
-      "zh": "馄饨汤 是常见中国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Wontonsoep is een veelvoorkomend gerecht in de chinees keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Thin-wrapper wontons served in a clear savory broth, often with greens and scallions.",
+      "zh": "薄皮馄饨配清汤，常有青菜和葱花，整体清爽咸鲜。",
+      "nl": "Wontons met dun vel in heldere hartige bouillon, vaak met groente en lente-ui."
     },
     "cookingProfile": {
-      "en": "Usually served as a soup with a hot broth, soft pieces feel.",
-      "zh": "通常以soup形式上桌，重点体验是hot broth。",
-      "nl": "Meestal geserveerd als soup met een hot broth gevoel."
+      "en": "The wontons are boiled in broth, giving a soft wrapper and juicy filling rather than a crisp dumpling texture.",
+      "zh": "馄饨在汤里煮熟，皮软馅多汁，不是煎饺口感。",
+      "nl": "Wontons worden in bouillon gekookt: zacht vel en sappige vulling, niet krokant."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "soup",
+        "dumpling",
+        "mild-flavor"
       ],
       "description": {
-        "en": "A high-frequency Chinese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频中国菜菜品。",
-        "nl": "Een vaak voorkomend chinees menu-item voor bredere restaurantdekking."
+        "en": "A Chinese menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按中餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Chinees menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
       }
     },
     "composition": [
       [
         "broth",
         45,
-        "soup-base"
+        "clear soup"
       ],
       [
-        "mixed-vegetables",
+        "wonton-wrapper",
         20,
-        "body"
+        "wrapper"
       ],
       [
-        "chicken",
-        20,
-        "protein"
+        "minced-pork",
+        15,
+        "filling"
+      ],
+      [
+        "shrimp",
+        10,
+        "common filling"
       ],
       [
         "green-onion",
         5,
         "finish"
-      ],
-      [
-        "soy-sauce",
-        10,
-        "seasoning",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "soy-sauce",
-      "doubanjiang",
-      "sichuan-pepper"
-    ],
-    "basicTaste": [
-      "savory",
-      "brothy"
-    ],
-    "textureProfile": [
-      "hot broth",
-      "soft pieces"
-    ],
-    "riskFlags": [
-      "contains-pork"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "A gentler soup choice, but filling may include pork or shellfish.",
-      "zh": "如果你接受这类口味和风险，馄饨汤 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
-  }),
-  starterDish({
-    "id": "jiaozi",
-    "metadataCode": "111010",
-    "cuisineId": "chinese",
-    "names": {
-      "en": "Jiaozi Dumplings",
-      "zh": "饺子",
-      "nl": "Jiaozi dumplings",
-      "local": "饺子"
-    },
-    "category": "dumpling",
-    "cookingMethods": [
-      "steamed"
-    ],
-    "shortDescription": {
-      "en": "Chinese dumplings boiled, steamed, or pan-fried with meat or vegetable filling.",
-      "zh": "饺子 是常见中国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Jiaozi dumplings is een veelvoorkomend gerecht in de chinees keuken, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served as a dumpling with a soft wrapper, juicy filling feel.",
-      "zh": "通常以dumpling形式上桌，重点体验是soft wrapper。",
-      "nl": "Meestal geserveerd als dumpling met een soft wrapper gevoel."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
-      ],
-      "description": {
-        "en": "A high-frequency Chinese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频中国菜菜品。",
-        "nl": "Een vaak voorkomend chinees menu-item voor bredere restaurantdekking."
-      }
-    },
-    "composition": [
-      [
-        "dumpling-wrapper",
-        45,
-        "wrapper"
-      ],
-      [
-        "minced-pork",
-        25,
-        "filling"
-      ],
-      [
-        "mixed-vegetables",
-        15,
-        "filling"
-      ],
-      [
-        "soy-sauce",
-        10,
-        "dip",
-        "seasoning"
       ],
       [
         "sesame-oil",
@@ -4539,44 +4516,172 @@ export const expandedDishes = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "soy-sauce",
-      "doubanjiang",
-      "sichuan-pepper"
+      "broth",
+      "wonton-wrapper",
+      "sesame-oil"
     ],
     "basicTaste": [
       "savory",
-      "umami"
+      "mild",
+      "brothy"
     ],
     "textureProfile": [
-      "soft wrapper",
-      "juicy filling"
+      "soft wonton wrappers",
+      "juicy filling",
+      "clear hot broth"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-pork"
+      "contains-pork",
+      "contains-shellfish",
+      "contains-sesame"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "filling-varies-by-restaurant"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+      "mild-flavor",
+      "soup",
+      "dumpling"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "pork-avoidant",
+      "shellfish-allergy",
+      "sesame-allergy"
+    ],
     "orderVerdict": {
-      "en": "Good sharing dish; filling and cooking style matter most.",
-      "zh": "如果你接受这类口味和风险，饺子 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A gentle soup choice if you want soft dumplings in clear broth; check shrimp or pork fillings.",
+      "zh": "想喝清汤、吃软皮馄饨时很稳；介意虾或猪肉要先确认馅料。",
+      "nl": "Een milde soepkeuze met zachte wontons; check garnalen of varkensvulling."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "high"
+    "acquiredTasteLevel": 1
   }),
   starterDish({
+    "cuisineId": "chinese",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "id": "jiaozi",
+    "metadataCode": "111010",
+    "names": {
+      "en": "Jiaozi Dumplings",
+      "zh": "饺子",
+      "nl": "Jiaozi-dumplings",
+      "local": "饺子"
+    },
+    "category": "dumpling",
+    "cookingMethods": [
+      "boiled",
+      "fried"
+    ],
+    "goodForSharing": true,
+    "shortDescription": {
+      "en": "Chinese dumplings with wheat wrappers and savory filling, served boiled, steamed, or pan-fried.",
+      "zh": "小麦面皮包肉菜馅，可水煮、蒸或煎，通常蘸醋或酱油。",
+      "nl": "Chinese dumplings met tarwevel en hartige vulling, gekookt, gestoomd of gebakken."
+    },
+    "cookingProfile": {
+      "en": "Preparation changes the texture: boiled jiaozi are soft and juicy, while pan-fried ones get crisp bottoms.",
+      "zh": "做法决定口感：水饺柔软多汁，煎饺底部更脆。",
+      "nl": "Bereiding bepaalt textuur: gekookt zacht en sappig, gebakken met krokante bodem."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "dumpling",
+        "shareable",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Chinese menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按中餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Chinees menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
+      }
+    },
+    "composition": [
+      [
+        "dumpling-wrapper",
+        40,
+        "wrapper"
+      ],
+      [
+        "minced-pork",
+        30,
+        "common filling"
+      ],
+      [
+        "cabbage",
+        15,
+        "filling vegetable"
+      ],
+      [
+        "green-onion",
+        5,
+        "aroma"
+      ],
+      [
+        "soy-sauce",
+        5,
+        "dip",
+        "seasoning"
+      ],
+      [
+        "black-vinegar",
+        5,
+        "dip",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "dumpling-wrapper",
+      "minced-pork",
+      "black-vinegar"
+    ],
+    "basicTaste": [
+      "savory",
+      "mild",
+      "tangy dip"
+    ],
+    "textureProfile": [
+      "soft or crisp wrapper",
+      "juicy filling",
+      "small shared bites"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-pork",
+      "contains-soy"
+    ],
+    "dietaryFlags": [
+      "filling-varies-by-restaurant"
+    ],
+    "goodForTags": [
+      "shareable",
+      "dumpling",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "pork-avoidant",
+      "soy-allergy"
+    ],
+    "orderVerdict": {
+      "en": "A safe shared starter if dumplings sound good; ask boiled or pan-fried depending on texture preference.",
+      "zh": "想点共享饺子很稳；想软一点选水饺，想脆底选煎饺。",
+      "nl": "Een veilige gedeelde starter; kies gekookt of gebakken naar textuurvoorkeur."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1
+  }),
+  starterDish({
+    "cuisineId": "chinese",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
     "id": "yangzhou-fried-rice",
     "metadataCode": "111011",
-    "cuisineId": "chinese",
     "names": {
       "en": "Yangzhou Fried Rice",
       "zh": "扬州炒饭",
@@ -4588,95 +4693,114 @@ export const expandedDishes = [
       "stir-fried"
     ],
     "shortDescription": {
-      "en": "Fried rice with egg, vegetables, and usually shrimp or ham-style meat.",
-      "zh": "扬州炒饭 是常见中国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Yangzhou gebakken rijst is een veelvoorkomend gerecht in de chinees keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Wok-fried rice with egg, shrimp, char siu or ham-style pork, peas, carrots, and scallions.",
+      "zh": "米饭与鸡蛋、虾仁、叉烧或火腿丁、豌豆胡萝卜和葱花快炒。",
+      "nl": "Wokgebakken rijst met ei, garnaal, char siu of hamachtig varkensvlees, erwtjes, wortel en lente-ui."
     },
     "cookingProfile": {
-      "en": "Usually served as a rice with a soft rice, mixed toppings feel.",
-      "zh": "通常以rice形式上桌，重点体验是soft rice。",
-      "nl": "Meestal geserveerd als rice met een soft rice gevoel."
+      "en": "Wok frying separates the grains, so it should feel light and dry rather than saucy.",
+      "zh": "炒饭讲究粒粒分明，口感应偏干爽，不是湿酱饭。",
+      "nl": "Wokken houdt korrels los: licht en droog, niet sausachtig."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
+        "rice",
+        "classic-dish",
         "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Chinese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频中国菜菜品。",
-        "nl": "Een vaak voorkomend chinees menu-item voor bredere restaurantdekking."
+        "en": "A Chinese menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按中餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Chinees menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
       }
     },
     "composition": [
       [
         "steamed-rice",
-        55,
+        50,
         "base"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
+        "egg",
+        15,
+        "scrambled pieces"
       ],
       [
-        "egg",
+        "shrimp",
         10,
-        "topping"
+        "seafood"
+      ],
+      [
+        "char-siu-pork",
+        10,
+        "pork dice"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "vegetables"
       ],
       [
         "soy-sauce",
-        10,
+        5,
         "seasoning",
         "seasoning"
-      ],
-      [
-        "green-onion",
-        5,
-        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "soy-sauce",
-      "doubanjiang",
-      "sichuan-pepper"
+      "egg",
+      "shrimp",
+      "char-siu-pork",
+      "soy-sauce"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "mild",
+      "lightly-sweet"
     ],
     "textureProfile": [
-      "soft rice",
-      "mixed toppings"
+      "separate rice grains",
+      "small egg curds",
+      "firm shrimp"
     ],
     "riskFlags": [
       "contains-egg",
       "contains-shellfish",
-      "contains-pork"
+      "contains-pork",
+      "contains-soy",
+      "contains-gluten"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "protein-varies-by-restaurant"
+    ],
     "goodForTags": [
-      "common-menu-item",
+      "rice",
       "first-timer-friendly",
-      "lighter-choice"
+      "filling"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "shellfish-allergy",
+      "pork-avoidant",
+      "soy-allergy",
+      "gluten-allergy"
+    ],
     "orderVerdict": {
-      "en": "A familiar rice order; check shrimp and pork if needed.",
-      "zh": "如果你接受这类口味和风险，扬州炒饭 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A familiar, filling rice dish; check shrimp and pork if you need a simpler fried rice.",
+      "zh": "熟悉又有饱腹感的炒饭；不能吃虾或猪肉时要确认。",
+      "nl": "Bekende vullende rijst; check garnaal en varkensvlees als je eenvoudiger wilt."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1
   }),
   starterDish({
+    "cuisineId": "chinese",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
     "id": "char-siu",
     "metadataCode": "111012",
-    "cuisineId": "chinese",
     "names": {
       "en": "Char Siu",
       "zh": "叉烧",
@@ -4685,194 +4809,219 @@ export const expandedDishes = [
     },
     "category": "meat",
     "cookingMethods": [
-      "braised"
+      "grilled",
+      "sauce-tossed"
     ],
     "shortDescription": {
-      "en": "Cantonese roast pork with a sweet, glossy, savory glaze.",
-      "zh": "叉烧 是常见中国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Char siu is een veelvoorkomend gerecht in de chinees keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Cantonese barbecue pork with a glossy red-sweet glaze and lightly charred edges.",
+      "zh": "粤式蜜汁烤猪肉，表面红亮微甜，边缘常带焦香。",
+      "nl": "Kantonees geroosterd varkensvlees met glanzend roodzoet glazuur en licht geschroeide randjes."
     },
     "cookingProfile": {
-      "en": "Usually served as a meat with a tender meat, rich sauce feel.",
-      "zh": "通常以meat形式上桌，重点体验是tender meat。",
-      "nl": "Meestal geserveerd als meat met een tender meat gevoel."
+      "en": "Roasting concentrates the sweet-savory glaze, so slices taste rich, sticky, and slightly smoky.",
+      "zh": "烤制让甜咸酱汁浓缩，切片口感丰润、黏亮、微带烟火香。",
+      "nl": "Roosteren concentreert de zoet-hartige glazuur: rijk, plakkerig en licht rokerig."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "contains-pork"
       ],
       "description": {
-        "en": "A high-frequency Chinese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频中国菜菜品。",
-        "nl": "Een vaak voorkomend chinees menu-item voor bredere restaurantdekking."
+        "en": "A Chinese menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按中餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Chinees menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
       }
     },
     "composition": [
       [
-        "beef",
-        55,
+        "char-siu-pork",
+        70,
         "main"
       ],
       [
-        "potato",
+        "char-siu-glaze",
         20,
-        "side"
+        "glaze",
+        "seasoning"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "side"
-      ],
-      [
-        "butter",
+        "hoisin-sauce",
         5,
-        "richness"
+        "sweet bean depth",
+        "seasoning"
       ],
       [
-        "black-pepper",
+        "shaoxing-wine",
         5,
-        "seasoning",
+        "aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "soy-sauce",
-      "doubanjiang",
-      "sichuan-pepper"
+      "char-siu-glaze",
+      "char-siu-pork",
+      "hoisin-sauce"
     ],
     "basicTaste": [
+      "sweet",
       "savory",
-      "rich",
-      "umami"
+      "roasty"
     ],
     "textureProfile": [
-      "tender meat",
-      "rich sauce"
+      "tender pork slices",
+      "sticky glaze",
+      "charred edges"
     ],
     "riskFlags": [
-      "contains-pork"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Great if you want sweet-savory pork; not suitable for no-pork diets.",
-      "zh": "如果你接受这类口味和风险，叉烧 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
-  }),
-  starterDish({
-    "id": "spring-rolls",
-    "metadataCode": "111013",
-    "cuisineId": "chinese",
-    "names": {
-      "en": "Spring Rolls",
-      "zh": "春卷",
-      "nl": "Loempia’s",
-      "local": "春卷"
-    },
-    "category": "fried-snack",
-    "cookingMethods": [
-      "deep-fried"
-    ],
-    "shortDescription": {
-      "en": "Crisp rolls filled with vegetables, meat, or shrimp depending on the restaurant.",
-      "zh": "春卷 是常见中国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Loempia’s is een veelvoorkomend gerecht in de chinees keuken, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served as a fried snack with a crisp outside, savory center feel.",
-      "zh": "通常以fried-snack形式上桌，重点体验是crisp outside。",
-      "nl": "Meestal geserveerd als fried snack met een crisp outside gevoel."
-    },
-    "cuisineRole": {
-      "level": "common",
-      "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
-      ],
-      "description": {
-        "en": "A high-frequency Chinese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频中国菜菜品。",
-        "nl": "Een vaak voorkomend chinees menu-item voor bredere restaurantdekking."
-      }
-    },
-    "composition": [
-      [
-        "fried-chicken",
-        45,
-        "main"
-      ],
-      [
-        "wheat-flour",
-        25,
-        "coating"
-      ],
-      [
-        "egg",
-        10,
-        "binder"
-      ],
-      [
-        "mustard",
-        10,
-        "dip",
-        "seasoning"
-      ],
-      [
-        "fries",
-        10,
-        "side"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "soy-sauce",
-      "doubanjiang",
-      "sichuan-pepper"
-    ],
-    "basicTaste": [
-      "savory",
-      "salty"
-    ],
-    "textureProfile": [
-      "crisp outside",
-      "savory center"
-    ],
-    "riskFlags": [
+      "contains-pork",
+      "contains-soy",
       "contains-gluten"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+      "meat-lover",
+      "classic-dish",
+      "rice-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "pork-avoidant",
+      "soy-allergy",
+      "gluten-allergy",
+      "low-sugar-preference"
+    ],
     "orderVerdict": {
-      "en": "Easy starter, but ask about filling if avoiding meat or shellfish.",
-      "zh": "如果你接受这类口味和风险，春卷 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good when you want sweet roasted pork; it is richer and sweeter than plain roast meat.",
+      "zh": "想吃甜咸烤猪肉时适合；它比普通烤肉更甜更浓。",
+      "nl": "Goed voor zoet geroosterd varkensvlees; rijker en zoeter dan simpel gebraad."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1
+  }),
+  starterDish({
+    "cuisineId": "chinese",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "id": "spring-rolls",
+    "metadataCode": "111013",
+    "names": {
+      "en": "Spring Rolls",
+      "zh": "春卷",
+      "nl": "Loempia's",
+      "local": "春卷"
+    },
+    "category": "fried-snack",
+    "cookingMethods": [
+      "fried"
+    ],
+    "goodForSharing": true,
+    "shortDescription": {
+      "en": "Crisp fried rolls filled with vegetables and sometimes pork or shrimp, usually served with dipping sauce.",
+      "zh": "酥脆炸春卷，内馅多为蔬菜，也可能有猪肉或虾，常配蘸酱。",
+      "nl": "Krokant gefrituurde rollen met groente en soms varkensvlees of garnaal, meestal met dipsaus."
+    },
+    "cookingProfile": {
+      "en": "Deep frying makes the wrapper brittle and crisp, while the filling stays soft and hot.",
+      "zh": "油炸让外皮薄脆，内馅柔软烫口。",
+      "nl": "Frituren maakt het vel bros en krokant, terwijl de vulling zacht en heet blijft."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "fried-snack",
+        "shareable",
+        "first-timer-friendly"
+      ],
+      "description": {
+        "en": "A Chinese menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按中餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Chinees menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
+      }
+    },
+    "composition": [
+      [
+        "dumpling-wrapper",
+        35,
+        "crisp wrapper"
+      ],
+      [
+        "mixed-vegetables",
+        35,
+        "filling"
+      ],
+      [
+        "minced-pork",
+        10,
+        "optional filling",
+        "ingredient",
+        null,
+        true
+      ],
+      [
+        "shrimp",
+        10,
+        "optional filling",
+        "ingredient",
+        null,
+        true
+      ],
+      [
+        "sweet-sour-sauce",
+        10,
+        "dip",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "dumpling-wrapper",
+      "sweet-sour-sauce"
+    ],
+    "basicTaste": [
+      "savory",
+      "crisp",
+      "mildly-sweet"
+    ],
+    "textureProfile": [
+      "crisp shell",
+      "soft filling",
+      "dip on the side"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-pork",
+      "contains-shellfish"
+    ],
+    "dietaryFlags": [
+      "filling-varies-by-restaurant"
+    ],
+    "goodForTags": [
+      "shareable",
+      "fried-snack",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "pork-avoidant",
+      "shellfish-allergy",
+      "low-fried-food-preference"
+    ],
+    "orderVerdict": {
+      "en": "A familiar shared starter, but fillings vary; ask if you need vegetarian rolls.",
+      "zh": "熟悉的共享开胃小食，但馅料变化大；要素食请先确认。",
+      "nl": "Bekende gedeelde starter, maar vulling wisselt; vraag na bij vegetarisch."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "high"
+    "acquiredTasteLevel": 1
   }),
   starterDish({
+    "cuisineId": "chinese",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
     "id": "beef-chow-fun",
     "metadataCode": "111014",
-    "cuisineId": "chinese",
     "names": {
       "en": "Beef Chow Fun",
       "zh": "干炒牛河",
@@ -4884,289 +5033,344 @@ export const expandedDishes = [
       "stir-fried"
     ],
     "shortDescription": {
-      "en": "Wide rice noodles stir-fried with beef, soy sauce, and wok aroma.",
-      "zh": "干炒牛河 是常见中国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Beef chow fun is een veelvoorkomend gerecht in de chinees keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Cantonese wok-fried wide rice noodles with sliced beef, bean sprouts, scallions, and soy sauce.",
+      "zh": "宽河粉、牛肉片、豆芽和葱段用酱油旺火干炒，锅气明显。",
+      "nl": "Kantonees gewokte brede rijstnoedels met rundvlees, taugé, lente-ui en soja."
     },
     "cookingProfile": {
-      "en": "Usually served as a noodle with a springy noodles, glossy sauce feel.",
-      "zh": "通常以noodle形式上桌，重点体验是springy noodles。",
-      "nl": "Meestal geserveerd als noodle met een springy noodles gevoel."
+      "en": "High-heat wok frying gives smoky edges and soft slippery noodles without much sauce pooling.",
+      "zh": "旺火快炒带锅气，河粉柔滑，盘底不应有大量汤汁。",
+      "nl": "Hete wok geeft rokerige randjes en zachte glibberige noedels zonder veel saus."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "noodle",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Chinese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频中国菜菜品。",
-        "nl": "Een vaak voorkomend chinees menu-item voor bredere restaurantdekking."
+        "en": "A Chinese menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按中餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Chinees menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
       }
     },
     "composition": [
       [
-        "wheat-noodles",
-        45,
+        "wide-rice-noodles",
+        50,
         "base"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
+        "beef",
+        25,
+        "main protein"
       ],
       [
-        "chicken",
-        20,
-        "protein"
-      ],
-      [
-        "soy-sauce",
+        "bean-sprouts",
         10,
-        "seasoning",
-        "seasoning"
+        "crunch"
       ],
       [
         "green-onion",
         5,
-        "finish"
+        "aroma"
+      ],
+      [
+        "soy-sauce",
+        5,
+        "seasoning",
+        "seasoning"
+      ],
+      [
+        "oyster-sauce",
+        5,
+        "umami seasoning",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
+      "wide-rice-noodles",
       "soy-sauce",
-      "doubanjiang",
-      "sichuan-pepper"
+      "oyster-sauce",
+      "beef"
     ],
     "basicTaste": [
       "savory",
+      "wok-smoky",
       "umami"
     ],
     "textureProfile": [
-      "springy noodles",
-      "glossy sauce"
+      "slippery wide noodles",
+      "tender beef slices",
+      "crisp bean sprouts"
     ],
     "riskFlags": [
+      "contains-soy",
       "contains-gluten",
-      "contains-soy"
+      "contains-shellfish"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "noodle-lover",
+      "classic-dish",
+      "filling"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "soy-allergy",
+      "gluten-allergy",
+      "shellfish-allergy",
+      "beef-avoidant"
+    ],
     "orderVerdict": {
-      "en": "A strong Cantonese noodle choice if you like beef and smoky wok flavor.",
-      "zh": "如果你接受这类口味和风险，干炒牛河 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A strong noodle order if you like smoky wok flavor and soft wide rice noodles.",
+      "zh": "喜欢锅气、宽河粉和牛肉的人很适合点。",
+      "nl": "Sterke noedelkeuze als je wokaroma en zachte brede rijstnoedels wilt."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "acquiredTasteLevel": 1
   }),
   starterDish({
+    "cuisineId": "chinese",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
     "id": "salt-pepper-squid",
     "metadataCode": "111015",
-    "cuisineId": "chinese",
     "names": {
       "en": "Salt and Pepper Squid",
       "zh": "椒盐鱿鱼",
       "nl": "Zout-peper inktvis",
       "local": "椒盐鱿鱼"
     },
-    "category": "seafood",
+    "category": "fried-snack",
     "cookingMethods": [
-      "assembled"
+      "fried"
     ],
+    "goodForSharing": true,
     "shortDescription": {
-      "en": "Fried squid with salt, pepper, chili, and garlic-style aromatics.",
-      "zh": "椒盐鱿鱼 是常见中国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Zout-peper inktvis is een veelvoorkomend gerecht in de chinees keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Crisp fried squid tossed with salt, pepper, chili, scallions, and sometimes garlic.",
+      "zh": "鱿鱼炸至外脆后拌椒盐、辣椒和葱蒜，咸香带微辣。",
+      "nl": "Krokant gefrituurde inktvis met zout, peper, chili, lente-ui en soms knoflook."
     },
     "cookingProfile": {
-      "en": "Usually served as a seafood with a tender seafood, fresh finish feel.",
-      "zh": "通常以seafood形式上桌，重点体验是tender seafood。",
-      "nl": "Meestal geserveerd als seafood met een tender seafood gevoel."
+      "en": "Frying gives a crisp coating around springy squid, so it is best eaten hot.",
+      "zh": "外层炸得酥脆，里面是弹牙鱿鱼，趁热口感最好。",
+      "nl": "Frituren geeft krokant laagje rond veerkrachtige inktvis; warm het beste."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item"
+        "fried-snack",
+        "shareable",
+        "shellfish"
       ],
       "description": {
-        "en": "A high-frequency Chinese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频中国菜菜品。",
-        "nl": "Een vaak voorkomend chinees menu-item voor bredere restaurantdekking."
+        "en": "A Chinese menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按中餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Chinees menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
       }
     },
     "composition": [
       [
-        "raw-fish",
-        45,
-        "main"
+        "squid",
+        60,
+        "main seafood"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "side"
-      ],
-      [
-        "steamed-rice",
-        20,
-        "base"
-      ],
-      [
-        "lemon",
-        10,
-        "finish"
-      ],
-      [
-        "olive-oil",
-        5,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "soy-sauce",
-      "doubanjiang",
-      "sichuan-pepper"
-    ],
-    "basicTaste": [
-      "briny",
-      "fresh",
-      "savory"
-    ],
-    "textureProfile": [
-      "tender seafood",
-      "fresh finish"
-    ],
-    "riskFlags": [
-      "contains-fish",
-      "contains-gluten"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "common-menu-item"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Good crispy seafood starter if shellfish/seafood is fine.",
-      "zh": "如果你接受这类口味和风险，椒盐鱿鱼 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
-    },
-    "spiceLevel": 2,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
-  }),
-  starterDish({
-    "id": "twice-cooked-pork",
-    "metadataCode": "111016",
-    "cuisineId": "chinese",
-    "names": {
-      "en": "Twice-Cooked Pork",
-      "zh": "回锅肉",
-      "nl": "Dubbelgebakken varkensvlees",
-      "local": "回锅肉"
-    },
-    "category": "meat",
-    "cookingMethods": [
-      "braised"
-    ],
-    "shortDescription": {
-      "en": "Sichuan pork slices stir-fried with fermented chili bean paste and vegetables.",
-      "zh": "回锅肉 是常见中国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Dubbelgebakken varkensvlees is een veelvoorkomend gerecht in de chinees keuken, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served as a meat with a tender meat, rich sauce feel.",
-      "zh": "通常以meat形式上桌，重点体验是tender meat。",
-      "nl": "Meestal geserveerd als meat met een tender meat gevoel."
-    },
-    "cuisineRole": {
-      "level": "common",
-      "tags": [
-        "common-menu-item"
-      ],
-      "description": {
-        "en": "A high-frequency Chinese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频中国菜菜品。",
-        "nl": "Een vaak voorkomend chinees menu-item voor bredere restaurantdekking."
-      }
-    },
-    "composition": [
-      [
-        "beef",
-        55,
-        "main"
-      ],
-      [
-        "potato",
-        20,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
+        "potato-starch",
         15,
-        "side"
+        "light coating"
       ],
       [
-        "butter",
-        5,
-        "richness"
+        "green-onion",
+        10,
+        "aroma"
       ],
       [
         "black-pepper",
         5,
+        "pepper bite",
+        "seasoning"
+      ],
+      [
+        "sea-salt",
+        5,
         "seasoning",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "optional heat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "soy-sauce",
+      "squid",
+      "black-pepper",
+      "chili"
+    ],
+    "basicTaste": [
+      "salty",
+      "peppery",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "crisp coating",
+      "springy squid",
+      "dry seasoning"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "shareable",
+      "fried-snack",
+      "seafood-lover"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "spice-sensitive",
+      "low-fried-food-preference"
+    ],
+    "orderVerdict": {
+      "en": "Great as a shared fried seafood starter if you enjoy peppery, springy squid.",
+      "zh": "适合喜欢椒盐香和弹牙鱿鱼的人共享；怕海鲜或油炸则避开。",
+      "nl": "Mooi gedeeld gefrituurd zeevruchtengerecht als je peperige inktvis lekker vindt."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2
+  }),
+  starterDish({
+    "cuisineId": "chinese",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "id": "twice-cooked-pork",
+    "metadataCode": "111016",
+    "names": {
+      "en": "Twice-Cooked Pork",
+      "zh": "回锅肉",
+      "nl": "Tweemaal gegaard varkensvlees",
+      "local": "回锅肉"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "simmered",
+      "stir-fried"
+    ],
+    "shortDescription": {
+      "en": "Sichuan pork belly slices cooked first, then stir-fried with leeks or peppers and fermented chili bean paste.",
+      "zh": "五花肉先煮再回锅炒，常配蒜苗或青椒和豆瓣酱，咸香微辣。",
+      "nl": "Sichuan buikspek eerst gegaard, daarna gewokt met prei of paprika en gefermenteerde chilibonensaus."
+    },
+    "cookingProfile": {
+      "en": "The two-step cooking makes the pork chewy-fatty while the bean paste clings to the slices.",
+      "zh": "先煮后炒让肉片肥润有嚼劲，豆瓣酱会裹在肉片上。",
+      "nl": "Dubbele bereiding maakt spek vet-mals; bonenpasta kleeft aan de plakjes."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "regional-dish",
+        "spicy",
+        "contains-pork"
+      ],
+      "description": {
+        "en": "A Chinese menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按中餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Chinees menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
+      }
+    },
+    "composition": [
+      [
+        "pork-belly",
+        55,
+        "main"
+      ],
+      [
+        "green-onion",
+        15,
+        "leek-style vegetable"
+      ],
+      [
+        "bell-pepper",
+        10,
+        "vegetable"
+      ],
+      [
+        "doubanjiang",
+        10,
+        "fermented chili sauce",
+        "seasoning"
+      ],
+      [
+        "soy-sauce",
+        5,
+        "seasoning",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "pork-belly",
       "doubanjiang",
-      "sichuan-pepper"
+      "chili"
     ],
     "basicTaste": [
       "savory",
-      "rich",
-      "umami"
+      "spicy",
+      "fermented",
+      "fatty"
     ],
     "textureProfile": [
-      "tender meat",
-      "rich sauce"
+      "chewy fatty pork slices",
+      "glossy bean paste coating",
+      "soft vegetables"
     ],
     "riskFlags": [
       "contains-pork",
-      "contains-soy"
+      "contains-soy",
+      "contains-gluten",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item"
+      "rice-friendly",
+      "spicy",
+      "meat-lover"
     ],
     "avoidIfTags": [
-      "spice-sensitive"
+      "pork-avoidant",
+      "soy-allergy",
+      "gluten-allergy",
+      "spice-sensitive",
+      "low-fat-preference"
     ],
     "orderVerdict": {
-      "en": "Bold, savory, and pork-heavy; good for spicy-food fans.",
-      "zh": "如果你接受这类口味和风险，回锅肉 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A rich rice-friendly Sichuan pork dish; skip it if fatty pork or fermented chili paste is not your thing.",
+      "zh": "很下饭的川味猪肉菜；不喜欢肥肉或豆瓣酱风味则慎点。",
+      "nl": "Rijk Sichuan-varkensgerecht voor bij rijst; sla over bij vet varkensvlees of chilibonensaus."
     },
-    "spiceLevel": 3,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "spiceLevel": 2,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2
   }),
   starterDish({
+    "cuisineId": "chinese",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
     "id": "sichuan-boiled-fish",
     "metadataCode": "111017",
-    "cuisineId": "chinese",
     "names": {
       "en": "Sichuan Boiled Fish",
       "zh": "水煮鱼",
@@ -5175,93 +5379,112 @@ export const expandedDishes = [
     },
     "category": "seafood",
     "cookingMethods": [
-      "assembled"
+      "simmered",
+      "sauce-tossed"
     ],
+    "goodForSharing": true,
     "shortDescription": {
-      "en": "Fish served in chili oil broth with Sichuan pepper numbing aroma.",
-      "zh": "水煮鱼 是常见中国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Sichuan gekookte vis is een veelvoorkomend gerecht in de chinees keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Tender fish fillets in a fiery red broth with chili oil, Sichuan pepper, bean sprouts, and aromatics.",
+      "zh": "鱼片在红油辣汤中滑熟，配花椒、辣椒和豆芽，麻辣感强。",
+      "nl": "Malse visfilet in vurige rode bouillon met chiliolie, szechuanpeper, taugé en aromaten."
     },
     "cookingProfile": {
-      "en": "Usually served as a seafood with a tender seafood, fresh finish feel.",
-      "zh": "通常以seafood形式上桌，重点体验是tender seafood。",
-      "nl": "Meestal geserveerd als seafood met een tender seafood gevoel."
+      "en": "The fish is poached until soft, then covered with hot chili oil, so the dish is brothy, oily, and numbing.",
+      "zh": "鱼片滑熟后浇热辣油，整体多汤、多油、麻辣明显。",
+      "nl": "Vis wordt zacht gepocheerd en met hete chiliolie overgoten: bouillonrijk, olieachtig en tintelend."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item"
+        "regional-dish",
+        "spicy",
+        "shareable"
       ],
       "description": {
-        "en": "A high-frequency Chinese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频中国菜菜品。",
-        "nl": "Een vaak voorkomend chinees menu-item voor bredere restaurantdekking."
+        "en": "A Chinese menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按中餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Chinees menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
       }
     },
     "composition": [
       [
-        "raw-fish",
+        "fish-fillet",
         45,
         "main"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "side"
+        "broth",
+        25,
+        "spicy broth"
       ],
       [
-        "steamed-rice",
-        20,
-        "base"
-      ],
-      [
-        "lemon",
+        "bean-sprouts",
         10,
-        "finish"
+        "vegetable bed"
       ],
       [
-        "olive-oil",
+        "chili-oil",
+        10,
+        "red oil",
+        "seasoning"
+      ],
+      [
+        "sichuan-pepper",
         5,
-        "finish",
+        "numbing aroma",
+        "seasoning"
+      ],
+      [
+        "doubanjiang",
+        5,
+        "fermented chili base",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "soy-sauce",
+      "chili-oil",
+      "sichuan-pepper",
       "doubanjiang",
-      "sichuan-pepper"
+      "fish-fillet"
     ],
     "basicTaste": [
-      "briny",
-      "fresh",
-      "savory"
+      "spicy",
+      "numbing",
+      "savory",
+      "oily"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "soft fish slices",
+      "hot red broth",
+      "crunchy bean sprouts"
     ],
     "riskFlags": [
       "contains-fish",
+      "contains-soy",
       "can-be-spicy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "common-menu-item"
+      "shareable",
+      "spicy",
+      "seafood-lover"
     ],
     "avoidIfTags": [
+      "fish-allergy",
+      "soy-allergy",
       "spice-sensitive",
-      "wants-light-food"
+      "low-oil-preference"
     ],
     "orderVerdict": {
-      "en": "Order only if you want serious spice, oil, and numbing heat.",
-      "zh": "如果你接受这类口味和风险，水煮鱼 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Order for a shared spicy Sichuan centerpiece; avoid it if you want mild or low-oil fish.",
+      "zh": "适合多人分享的川味麻辣主菜；想吃清淡鱼就不要点。",
+      "nl": "Bestel als gedeeld pittig Sichuan-hoofdgerecht; vermijd bij milde of vetarme viswens."
     },
-    "spiceLevel": 5,
+    "spiceLevel": 4,
     "weightLevel": 4,
-    "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "acquiredTasteLevel": 3
   }),
   starterDish({
     "id": "cacio-e-pepe",

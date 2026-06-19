@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 396
-- Total aliases: 1303
+- Total verified dishes: 421
+- Total aliases: 1382
 - Total cuisines: 14
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -73,13 +73,38 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 123029 - `bread-and-butter-pudding` - Bread and Butter Pudding / 英式黄油面包布丁 / Bread and butter pudding
 30. 123030 - `crumpets` - Crumpets / 英式烤松饼 / Crumpets
 
-## Chinese (chinese) - 5
+## Chinese (chinese) - 30
 
 1. 111001 - `mapo-tofu` - Mapo Tofu / 麻婆豆腐 / 麻婆豆腐
 2. 111002 - `peking-duck` - Peking Duck / 北京烤鸭 / 北京烤鸭
 3. 111003 - `xiao-long-bao` - Xiao Long Bao / 小笼包 / 小笼包
 4. 111004 - `chow-mein` - Chow Mein / 炒面 / 炒面
 5. 111005 - `hot-pot` - Hot Pot / 火锅 / 火锅
+6. 111006 - `kung-pao-chicken` - Kung Pao Chicken / 宫保鸡丁 / 宫保鸡丁
+7. 111007 - `sweet-and-sour-pork` - Sweet and Sour Pork / 糖醋猪肉 / 咕噜肉 / 糖醋里脊
+8. 111008 - `dan-dan-noodles` - Dan Dan Noodles / 担担面 / 担担面
+9. 111009 - `wonton-soup` - Wonton Soup / 馄饨汤 / 馄饨汤 / 云吞汤
+10. 111010 - `jiaozi` - Jiaozi Dumplings / 饺子 / 饺子
+11. 111011 - `yangzhou-fried-rice` - Yangzhou Fried Rice / 扬州炒饭 / 扬州炒饭
+12. 111012 - `char-siu` - Char Siu / 叉烧 / 叉烧
+13. 111013 - `spring-rolls` - Spring Rolls / 春卷 / 春卷
+14. 111014 - `beef-chow-fun` - Beef Chow Fun / 干炒牛河 / 干炒牛河
+15. 111015 - `salt-pepper-squid` - Salt and Pepper Squid / 椒盐鱿鱼 / 椒盐鱿鱼
+16. 111016 - `twice-cooked-pork` - Twice-Cooked Pork / 回锅肉 / 回锅肉
+17. 111017 - `sichuan-boiled-fish` - Sichuan Boiled Fish / 水煮鱼 / 水煮鱼
+18. 111018 - `hainanese-chicken-chinese` - Hainanese Chicken Rice / 海南鸡饭 / 海南鸡饭
+19. 111019 - `lo-mein` - Lo Mein / 捞面 / 捞面
+20. 111020 - `egg-fried-rice` - Egg Fried Rice / 鸡蛋炒饭 / 鸡蛋炒饭
+21. 111021 - `hot-and-sour-soup` - Hot and Sour Soup / 酸辣汤 / 酸辣汤
+22. 111022 - `char-siu-bao` - Char Siu Bao / 叉烧包 / 叉烧包
+23. 111023 - `siu-mai` - Siu Mai / 烧卖 / 烧卖
+24. 111024 - `har-gow` - Har Gow / 虾饺 / 虾饺
+25. 111025 - `congee` - Congee / 粥 / 粥
+26. 111026 - `wonton-noodles` - Wonton Noodles / 云吞面 / 云吞面
+27. 111027 - `cumin-lamb` - Cumin Lamb / 孜然羊肉 / 孜然羊肉
+28. 111028 - `tomato-egg` - Tomato Egg Stir-Fry / 番茄炒蛋 / 番茄炒蛋
+29. 111029 - `yu-xiang-eggplant` - Yu Xiang Eggplant / 鱼香茄子 / 鱼香茄子
+30. 111030 - `scallion-pancake` - Scallion Pancake / 葱油饼 / 葱油饼
 
 ## Dutch (dutch) - 30
 

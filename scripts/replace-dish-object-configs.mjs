@@ -14,7 +14,8 @@ let output = source;
 const seen = [];
 
 for (const config of configs) {
-  const idMarker = `"id": "${config.id}"`;
+  const targetId = config.targetId || config.id;
+  const idMarker = `"id": "${targetId}"`;
   const idIndex = output.indexOf(idMarker);
   if (idIndex === -1) {
     continue;
@@ -23,13 +24,14 @@ for (const config of configs) {
   const objectStart = findObjectStart(output, idIndex);
   const objectEnd = findMatchingBrace(output, objectStart);
   const indent = lineIndent(output, objectStart);
-  const replacement = formatObject(config, indent);
+  const { targetId: _targetId, ...replacementConfig } = config;
+  const replacement = formatObject(replacementConfig, indent);
 
   output = `${output.slice(0, objectStart)}${replacement}${output.slice(objectEnd + 1)}`;
-  seen.push(config.id);
+  seen.push(targetId);
 }
 
-const missing = configs.map((config) => config.id).filter((id) => !seen.includes(id));
+const missing = configs.map((config) => config.targetId || config.id).filter((id) => !seen.includes(id));
 if (missing.length) {
   console.error(`Missing dish blocks: ${missing.join(", ")}`);
   process.exit(1);

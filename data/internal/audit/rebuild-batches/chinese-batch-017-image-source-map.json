@@ -1,0 +1,106 @@
+[
+  {
+    "file": "111018-hainanese-chicken-chinese.png",
+    "metadataCode": "111018",
+    "dishId": "hainanese-chicken-chinese",
+    "sourcePath": "data/internal/audit/rebuild-batches/chinese-batch-017-image-sources/111018-hainanese-chicken-chinese.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "77f85e1ff476ba982ecaea69631640dae4acf1f642cdbc047fe2f4e5b8555c3f"
+  },
+  {
+    "file": "111019-lo-mein.png",
+    "metadataCode": "111019",
+    "dishId": "lo-mein",
+    "sourcePath": "data/internal/audit/rebuild-batches/chinese-batch-017-image-sources/111019-lo-mein.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "ccbc8196ae0676795f8fa5bcfeddea9550f4115fb19119f7545139d644f0a80b"
+  },
+  {
+    "file": "111020-egg-fried-rice.png",
+    "metadataCode": "111020",
+    "dishId": "egg-fried-rice",
+    "sourcePath": "data/internal/audit/rebuild-batches/chinese-batch-017-image-sources/111020-egg-fried-rice.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "b21cf73c4ee33217fe0565ec7bf86dba286e2d139fcb6b5126cf339d3c9d99dc"
+  },
+  {
+    "file": "111021-hot-and-sour-soup.png",
+    "metadataCode": "111021",
+    "dishId": "hot-and-sour-soup",
+    "sourcePath": "data/internal/audit/rebuild-batches/chinese-batch-017-image-sources/111021-hot-and-sour-soup.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "37b380be46f9364a8b496df9a6d2c5fdd5892f8ad5db89e2d5d35435a06a1d8d"
+  },
+  {
+    "file": "111022-char-siu-bao.png",
+    "metadataCode": "111022",
+    "dishId": "char-siu-bao",
+    "sourcePath": "data/internal/audit/rebuild-batches/chinese-batch-017-image-sources/111022-char-siu-bao.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "55383e1ef9be0ae68d2eeab22de16ca39e298421cb89f9f3f1e1c2959fdf8e4d"
+  },
+  {
+    "file": "111023-siu-mai.png",
+    "metadataCode": "111023",
+    "dishId": "siu-mai",
+    "sourcePath": "data/internal/audit/rebuild-batches/chinese-batch-017-image-sources/111023-siu-mai.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "815dcc6ee728f48a7ee46c45ae6f0ec69cd2d95095187d745f36360fa86286a7"
+  },
+  {
+    "file": "111024-har-gow.png",
+    "metadataCode": "111024",
+    "dishId": "har-gow",
+    "sourcePath": "data/internal/audit/rebuild-batches/chinese-batch-017-image-sources/111024-har-gow.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "7a71e5c455bc61d7ef4e14f1adb837bffccd69ef3596b5eb5f5d98d6834cd719"
+  },
+  {
+    "file": "111025-congee.png",
+    "metadataCode": "111025",
+    "dishId": "congee",
+    "sourcePath": "data/internal/audit/rebuild-batches/chinese-batch-017-image-sources/111025-congee.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "a4d5f6ab928e1e8cebd16cb5ceba3e162c492cad26379880254361357c0dbfe0"
+  },
+  {
+    "file": "111026-wonton-noodles.png",
+    "metadataCode": "111026",
+    "dishId": "wonton-noodles",
+    "sourcePath": "data/internal/audit/rebuild-batches/chinese-batch-017-image-sources/111026-wonton-noodles.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "adee88c3fe2dda50d4724ca66b676934c6c17ab96e1cfcc2a61c1061fd27f580"
+  },
+  {
+    "file": "111027-cumin-lamb.png",
+    "metadataCode": "111027",
+    "dishId": "cumin-lamb",
+    "sourcePath": "data/internal/audit/rebuild-batches/chinese-batch-017-image-sources/111027-cumin-lamb.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "2d7e87130dde5b7308309695a691f93777a446f3953c5ba1a411f91bd72469c9"
+  },
+  {
+    "file": "111028-tomato-egg.png",
+    "metadataCode": "111028",
+    "dishId": "tomato-egg",
+    "sourcePath": "data/internal/audit/rebuild-batches/chinese-batch-017-image-sources/111028-tomato-egg.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "3ab1cd3798ae22591f8527e569747004a54763f36de6ba03dd0674bdafd4c8da"
+  },
+  {
+    "file": "111029-yu-xiang-eggplant.png",
+    "metadataCode": "111029",
+    "dishId": "yu-xiang-eggplant",
+    "sourcePath": "data/internal/audit/rebuild-batches/chinese-batch-017-image-sources/111029-yu-xiang-eggplant.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "22b1b4b1f1ba9f6a147849382f06feff4d4eb301e67a28566402ddb141529932"
+  },
+  {
+    "file": "111030-scallion-pancake.png",
+    "metadataCode": "111030",
+    "dishId": "scallion-pancake",
+    "sourcePath": "data/internal/audit/rebuild-batches/chinese-batch-017-image-sources/111030-scallion-pancake.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "6ecebff3689d1cf313cc2e0363541a7dd00916368c31e0ad169299e116916735"
+  }
+]

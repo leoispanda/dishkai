@@ -1,0 +1,254 @@
+[
+  {
+    "dishId": "kung-pao-chicken",
+    "metadataCode": "111006",
+    "cuisineId": "chinese",
+    "source": "expanded",
+    "name": "Kung Pao Chicken",
+    "imagePath": "/assets/dishes/main/111006-kung-pao-chicken.webp",
+    "thumbPath": "/assets/dishes/thumb/111006-kung-pao-chicken.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "sweet-and-sour-pork",
+    "metadataCode": "111007",
+    "cuisineId": "chinese",
+    "source": "expanded",
+    "name": "Sweet and Sour Pork",
+    "imagePath": "/assets/dishes/main/111007-sweet-and-sour-pork.webp",
+    "thumbPath": "/assets/dishes/thumb/111007-sweet-and-sour-pork.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "dan-dan-noodles",
+    "metadataCode": "111008",
+    "cuisineId": "chinese",
+    "source": "expanded",
+    "name": "Dan Dan Noodles",
+    "imagePath": "/assets/dishes/main/111008-dan-dan-noodles.webp",
+    "thumbPath": "/assets/dishes/thumb/111008-dan-dan-noodles.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "wonton-soup",
+    "metadataCode": "111009",
+    "cuisineId": "chinese",
+    "source": "expanded",
+    "name": "Wonton Soup",
+    "imagePath": "/assets/dishes/main/111009-wonton-soup.webp",
+    "thumbPath": "/assets/dishes/thumb/111009-wonton-soup.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "jiaozi",
+    "metadataCode": "111010",
+    "cuisineId": "chinese",
+    "source": "expanded",
+    "name": "Jiaozi Dumplings",
+    "imagePath": "/assets/dishes/main/111010-jiaozi.webp",
+    "thumbPath": "/assets/dishes/thumb/111010-jiaozi.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "yangzhou-fried-rice",
+    "metadataCode": "111011",
+    "cuisineId": "chinese",
+    "source": "expanded",
+    "name": "Yangzhou Fried Rice",
+    "imagePath": "/assets/dishes/main/111011-yangzhou-fried-rice.webp",
+    "thumbPath": "/assets/dishes/thumb/111011-yangzhou-fried-rice.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "char-siu",
+    "metadataCode": "111012",
+    "cuisineId": "chinese",
+    "source": "expanded",
+    "name": "Char Siu",
+    "imagePath": "/assets/dishes/main/111012-char-siu.webp",
+    "thumbPath": "/assets/dishes/thumb/111012-char-siu.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "spring-rolls",
+    "metadataCode": "111013",
+    "cuisineId": "chinese",
+    "source": "expanded",
+    "name": "Spring Rolls",
+    "imagePath": "/assets/dishes/main/111013-spring-rolls.webp",
+    "thumbPath": "/assets/dishes/thumb/111013-spring-rolls.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "beef-chow-fun",
+    "metadataCode": "111014",
+    "cuisineId": "chinese",
+    "source": "expanded",
+    "name": "Beef Chow Fun",
+    "imagePath": "/assets/dishes/main/111014-beef-chow-fun.webp",
+    "thumbPath": "/assets/dishes/thumb/111014-beef-chow-fun.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "salt-pepper-squid",
+    "metadataCode": "111015",
+    "cuisineId": "chinese",
+    "source": "expanded",
+    "name": "Salt and Pepper Squid",
+    "imagePath": "/assets/dishes/main/111015-salt-pepper-squid.webp",
+    "thumbPath": "/assets/dishes/thumb/111015-salt-pepper-squid.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "twice-cooked-pork",
+    "metadataCode": "111016",
+    "cuisineId": "chinese",
+    "source": "expanded",
+    "name": "Twice-Cooked Pork",
+    "imagePath": "/assets/dishes/main/111016-twice-cooked-pork.webp",
+    "thumbPath": "/assets/dishes/thumb/111016-twice-cooked-pork.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "sichuan-boiled-fish",
+    "metadataCode": "111017",
+    "cuisineId": "chinese",
+    "source": "expanded",
+    "name": "Sichuan Boiled Fish",
+    "imagePath": "/assets/dishes/main/111017-sichuan-boiled-fish.webp",
+    "thumbPath": "/assets/dishes/thumb/111017-sichuan-boiled-fish.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "hainanese-chicken-chinese",
+    "metadataCode": "111018",
+    "cuisineId": "chinese",
+    "source": "global-depth",
+    "name": "Hainanese Chicken Rice",
+    "imagePath": "/assets/dishes/main/111018-hainanese-chicken-chinese.webp",
+    "thumbPath": "/assets/dishes/thumb/111018-hainanese-chicken-chinese.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "lo-mein",
+    "metadataCode": "111019",
+    "cuisineId": "chinese",
+    "source": "global-depth",
+    "name": "Lo Mein",
+    "imagePath": "/assets/dishes/main/111019-lo-mein.webp",
+    "thumbPath": "/assets/dishes/thumb/111019-lo-mein.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "egg-fried-rice",
+    "metadataCode": "111020",
+    "cuisineId": "chinese",
+    "source": "global-depth",
+    "name": "Egg Fried Rice",
+    "imagePath": "/assets/dishes/main/111020-egg-fried-rice.webp",
+    "thumbPath": "/assets/dishes/thumb/111020-egg-fried-rice.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "hot-and-sour-soup",
+    "metadataCode": "111021",
+    "cuisineId": "chinese",
+    "source": "global-depth",
+    "name": "Hot and Sour Soup",
+    "imagePath": "/assets/dishes/main/111021-hot-and-sour-soup.webp",
+    "thumbPath": "/assets/dishes/thumb/111021-hot-and-sour-soup.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "char-siu-bao",
+    "metadataCode": "111022",
+    "cuisineId": "chinese",
+    "source": "global-depth",
+    "name": "Char Siu Bao",
+    "imagePath": "/assets/dishes/main/111022-char-siu-bao.webp",
+    "thumbPath": "/assets/dishes/thumb/111022-char-siu-bao.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "siu-mai",
+    "metadataCode": "111023",
+    "cuisineId": "chinese",
+    "source": "global-depth",
+    "name": "Siu Mai",
+    "imagePath": "/assets/dishes/main/111023-siu-mai.webp",
+    "thumbPath": "/assets/dishes/thumb/111023-siu-mai.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "har-gow",
+    "metadataCode": "111024",
+    "cuisineId": "chinese",
+    "source": "global-depth",
+    "name": "Har Gow",
+    "imagePath": "/assets/dishes/main/111024-har-gow.webp",
+    "thumbPath": "/assets/dishes/thumb/111024-har-gow.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "congee",
+    "metadataCode": "111025",
+    "cuisineId": "chinese",
+    "source": "global-depth",
+    "name": "Congee",
+    "imagePath": "/assets/dishes/main/111025-congee.webp",
+    "thumbPath": "/assets/dishes/thumb/111025-congee.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "wonton-noodles",
+    "metadataCode": "111026",
+    "cuisineId": "chinese",
+    "source": "global-depth",
+    "name": "Wonton Noodles",
+    "imagePath": "/assets/dishes/main/111026-wonton-noodles.webp",
+    "thumbPath": "/assets/dishes/thumb/111026-wonton-noodles.webp",
+    "auditStatus": "candidate",
+    "auditNote": "Renamed from hainanese-wonton-noodles because the dish is Cantonese-style wonton noodles, not Hainanese."
+  },
+  {
+    "dishId": "cumin-lamb",
+    "metadataCode": "111027",
+    "cuisineId": "chinese",
+    "source": "global-depth",
+    "name": "Cumin Lamb",
+    "imagePath": "/assets/dishes/main/111027-cumin-lamb.webp",
+    "thumbPath": "/assets/dishes/thumb/111027-cumin-lamb.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "tomato-egg",
+    "metadataCode": "111028",
+    "cuisineId": "chinese",
+    "source": "global-depth",
+    "name": "Tomato Egg Stir-Fry",
+    "imagePath": "/assets/dishes/main/111028-tomato-egg.webp",
+    "thumbPath": "/assets/dishes/thumb/111028-tomato-egg.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "yu-xiang-eggplant",
+    "metadataCode": "111029",
+    "cuisineId": "chinese",
+    "source": "global-depth",
+    "name": "Yu Xiang Eggplant",
+    "imagePath": "/assets/dishes/main/111029-yu-xiang-eggplant.webp",
+    "thumbPath": "/assets/dishes/thumb/111029-yu-xiang-eggplant.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "scallion-pancake",
+    "metadataCode": "111030",
+    "cuisineId": "chinese",
+    "source": "global-depth",
+    "name": "Scallion Pancake",
+    "imagePath": "/assets/dishes/main/111030-scallion-pancake.webp",
+    "thumbPath": "/assets/dishes/thumb/111030-scallion-pancake.webp",
+    "auditStatus": "candidate",
+    "auditNote": "Replaces duplicate shumai-dim-sum candidate; siu-mai already covers that dish."
+  }
+]

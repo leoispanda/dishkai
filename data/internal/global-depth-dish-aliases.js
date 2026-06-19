@@ -1926,21 +1926,21 @@ export const globalDepthDishAliases = [
   },
   {
     "alias": "Wonton Noodles",
-    "dishId": "hainanese-wonton-noodles",
+    "dishId": "wonton-noodles",
     "language": "menu",
     "matchType": "canonical",
     "confidence": 1
   },
   {
     "alias": "云吞面",
-    "dishId": "hainanese-wonton-noodles",
+    "dishId": "wonton-noodles",
     "language": "menu",
     "matchType": "canonical",
     "confidence": 1
   },
   {
     "alias": "Wontonnoedels",
-    "dishId": "hainanese-wonton-noodles",
+    "dishId": "wonton-noodles",
     "language": "menu",
     "matchType": "translated-name",
     "confidence": 0.94
@@ -2009,18 +2009,25 @@ export const globalDepthDishAliases = [
     "confidence": 0.94
   },
   {
-    "alias": "Shumai Dim Sum",
-    "dishId": "shumai-dim-sum",
+    "alias": "Scallion Pancake",
+    "dishId": "scallion-pancake",
     "language": "menu",
     "matchType": "canonical",
     "confidence": 1
   },
   {
-    "alias": "干蒸烧卖",
-    "dishId": "shumai-dim-sum",
+    "alias": "葱油饼",
+    "dishId": "scallion-pancake",
     "language": "menu",
     "matchType": "canonical",
     "confidence": 1
+  },
+  {
+    "alias": "Lente-ui-pannenkoek",
+    "dishId": "scallion-pancake",
+    "language": "menu",
+    "matchType": "translated-name",
+    "confidence": 0.94
   },
   {
     "alias": "Toad in the Hole",
