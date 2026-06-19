@@ -1,0 +1,2031 @@
+[
+  {
+    "id": "kip-kerrie",
+    "metadataCode": "126013",
+    "cuisineId": "surinamese",
+    "names": {
+      "canonical": "Kip Kerrie",
+      "local": "kip kerrie",
+      "en": "Kip Kerrie",
+      "zh": "苏里南咖喱鸡",
+      "nl": "Kip kerrie"
+    },
+    "category": "curry",
+    "cookingMethods": [
+      "braised"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Surinamese chicken curry with masala spices, often served with rice, roti, potato, and long beans.",
+      "zh": "苏里南咖喱鸡，使用 masala 香料，常配米饭、roti、土豆和长豇豆。",
+      "nl": "Surinaamse kipkerrie met masalakruiden, vaak met rijst, roti, aardappel en kousenband."
+    },
+    "cookingProfile": {
+      "en": "Expect warm curry spice and tender chicken rather than a Thai-style coconut curry.",
+      "zh": "会是暖香料咖喱鸡，不是泰式椰奶咖喱。",
+      "nl": "Verwacht warme kerriekruiden en malse kip, geen Thaise kokos-curry."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "Kip Kerrie is kept as a verified surinamese reference because its ordering cues are specific: Surinamese masala, chicken, potato.",
+        "zh": "苏里南咖喱鸡 被保留为 verified，是因为点餐识别点明确：Surinamese masala、chicken、potato。",
+        "nl": "Kip kerrie blijft verified omdat de bestelkenmerken specifiek zijn: Surinamese masala, chicken, potato."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        45,
+        "curried-chicken"
+      ],
+      [
+        "curry-masala",
+        15,
+        "masala-curry",
+        "seasoning"
+      ],
+      [
+        "potato",
+        15,
+        "curry-potato"
+      ],
+      [
+        "yardlong-beans",
+        10,
+        "green-side"
+      ],
+      [
+        "roti-flatbread",
+        10,
+        "serving"
+      ],
+      [
+        "madame-jeanette-chili",
+        5,
+        "optional-heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "Surinamese masala",
+      "chicken",
+      "potato",
+      "Madame Jeanette"
+    ],
+    "basicTaste": [
+      "savory",
+      "warm-spiced",
+      "mildly-spicy",
+      "hearty"
+    ],
+    "textureProfile": [
+      "tender chicken",
+      "soft potato",
+      "saucy curry"
+    ],
+    "riskFlags": [
+      "can-be-spicy",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "classic-dish",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "avoids-spice"
+    ],
+    "orderVerdict": {
+      "en": "A dependable Surinamese curry choice; ask about Madame Jeanette heat if sensitive to spice.",
+      "zh": "这是很稳的苏里南咖喱选择；怕辣要先问是否加黄灯笼椒。",
+      "nl": "Een betrouwbare Surinaamse curry; vraag naar Madame Jeanette als je gevoelig bent voor pittigheid."
+    },
+    "confidenceTag": "audited-global-truth-batch-031",
+    "spiceLevel": 2,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "bruine-bonen-met-rijst",
+    "metadataCode": "126014",
+    "cuisineId": "surinamese",
+    "names": {
+      "canonical": "Bruine Bonen met Rijst",
+      "local": "bruine bonen met rijst",
+      "en": "Bruine Bonen met Rijst",
+      "zh": "红豆米饭",
+      "nl": "Bruine bonen met rijst"
+    },
+    "category": "rice",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Surinamese brown beans with rice, often cooked with meat, tomato, spice, and a slightly sweet-savory sauce.",
+      "zh": "苏里南棕豆饭，常和肉、番茄、香料一起煮，味道甜咸浓郁。",
+      "nl": "Surinaamse bruine bonen met rijst, vaak met vlees, tomaat, specerijen en licht zoet-hartige saus."
+    },
+    "cookingProfile": {
+      "en": "A hearty bean-and-rice plate, softer and saucier than plain rice with beans.",
+      "zh": "这是有饱腹感的豆饭盘，比普通豆配饭更软更多汁。",
+      "nl": "Een stevig bonen-rijstbord, zachter en sausachtiger dan gewone bonen met rijst."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "Bruine Bonen met Rijst is kept as a verified surinamese reference because its ordering cues are specific: brown beans, rice, ketjap manis.",
+        "zh": "红豆米饭 被保留为 verified，是因为点餐识别点明确：brown beans、rice、ketjap manis。",
+        "nl": "Bruine bonen met rijst blijft verified omdat de bestelkenmerken specifiek zijn: brown beans, rice, ketjap manis."
+      }
+    },
+    "composition": [
+      [
+        "red-kidney-beans",
+        40,
+        "brown-beans"
+      ],
+      [
+        "steamed-rice",
+        35,
+        "rice"
+      ],
+      [
+        "pork",
+        10,
+        "optional-meat"
+      ],
+      [
+        "tomato-sauce",
+        10,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "ketjap-manis",
+        5,
+        "sweet-savory-depth",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "brown beans",
+      "rice",
+      "ketjap manis",
+      "tomato"
+    ],
+    "basicTaste": [
+      "savory",
+      "slightly-sweet",
+      "earthy",
+      "hearty"
+    ],
+    "textureProfile": [
+      "soft beans",
+      "fluffy rice",
+      "saucy finish"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-soy",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "filling-choice"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "soy-allergy",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Good for a filling bean-and-rice meal; ask if pork is used if you avoid it.",
+      "zh": "想吃饱腹豆饭很适合；不吃猪肉要先问是否加肉。",
+      "nl": "Goed voor een vullende bonen-rijstmaaltijd; vraag naar varkensvlees als je dat vermijdt."
+    },
+    "confidenceTag": "audited-global-truth-batch-031",
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "pastei-surinamese",
+    "metadataCode": "126015",
+    "cuisineId": "surinamese",
+    "names": {
+      "canonical": "Surinamese Pastei",
+      "local": "pastei",
+      "en": "Surinamese Pastei",
+      "zh": "苏里南鸡肉派",
+      "nl": "Surinaamse pastei"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Surinamese chicken pot pie with a pastry crust, creamy chicken filling, vegetables, and sometimes egg.",
+      "zh": "苏里南鸡肉派，酥皮里是奶油感鸡肉馅、蔬菜，有时有鸡蛋。",
+      "nl": "Surinaamse kippastei met deegkorst, romige kipvulling, groente en soms ei."
+    },
+    "cookingProfile": {
+      "en": "Served as a baked pie portion with soft savory filling under pastry.",
+      "zh": "以烤派形式上桌，酥皮下是柔软咸香馅料。",
+      "nl": "Geserveerd als gebakken pasteiportie met zachte hartige vulling onder deeg."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "Surinamese Pastei is kept as a verified surinamese reference because its ordering cues are specific: pastry crust, chicken filling, creamy sauce.",
+        "zh": "苏里南鸡肉派 被保留为 verified，是因为点餐识别点明确：pastry crust、chicken filling、creamy sauce。",
+        "nl": "Surinaamse pastei blijft verified omdat de bestelkenmerken specifiek zijn: pastry crust, chicken filling, creamy sauce."
+      }
+    },
+    "composition": [
+      [
+        "pastry-crust",
+        35,
+        "pie-crust"
+      ],
+      [
+        "chicken",
+        35,
+        "filling"
+      ],
+      [
+        "mixed-vegetables",
+        15,
+        "vegetables"
+      ],
+      [
+        "bechamel-sauce",
+        10,
+        "creamy-sauce"
+      ],
+      [
+        "egg",
+        5,
+        "optional-garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "pastry crust",
+      "chicken filling",
+      "creamy sauce",
+      "vegetables"
+    ],
+    "basicTaste": [
+      "savory",
+      "creamy",
+      "mild",
+      "buttery"
+    ],
+    "textureProfile": [
+      "flaky crust",
+      "soft filling",
+      "warm pie"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "dairy-allergy",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "A friendly comfort choice if you like chicken pie; avoid with gluten, dairy, or egg concerns.",
+      "zh": "喜欢鸡肉派会很稳；麸质、奶制品或鸡蛋过敏要避开。",
+      "nl": "Een toegankelijke comfortkeuze als je kippastei lust; vermijd bij gluten, zuivel of ei."
+    },
+    "confidenceTag": "audited-global-truth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "doksa",
+    "metadataCode": "126016",
+    "cuisineId": "surinamese",
+    "names": {
+      "canonical": "Doksa",
+      "local": "doksa",
+      "en": "Doksa",
+      "zh": "苏里南鸭肉咖喱",
+      "nl": "Doksa"
+    },
+    "category": "curry",
+    "cookingMethods": [
+      "braised"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Surinamese duck curry, usually made with masala, pepper, and a rich sauce served with rice or roti.",
+      "zh": "苏里南鸭肉咖喱，通常有 masala、辣椒和浓郁酱汁，配米饭或 roti。",
+      "nl": "Surinaamse eendencurry met masala, peper en rijke saus, geserveerd met rijst of roti."
+    },
+    "cookingProfile": {
+      "en": "Richer and gamier than chicken curry, with tender duck pieces in curry sauce.",
+      "zh": "比鸡肉咖喱更浓郁更有禽类风味，鸭肉块浸在咖喱汁里。",
+      "nl": "Rijker en wildachtiger dan kipkerrie, met zachte eend in currysaus."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Doksa is kept as a verified surinamese reference because its ordering cues are specific: duck, masala curry, Madame Jeanette.",
+        "zh": "苏里南鸭肉咖喱 被保留为 verified，是因为点餐识别点明确：duck、masala curry、Madame Jeanette。",
+        "nl": "Doksa blijft verified omdat de bestelkenmerken specifiek zijn: duck, masala curry, Madame Jeanette."
+      }
+    },
+    "composition": [
+      [
+        "duck",
+        55,
+        "duck"
+      ],
+      [
+        "curry-masala",
+        15,
+        "curry-spice",
+        "seasoning"
+      ],
+      [
+        "potato",
+        10,
+        "potato"
+      ],
+      [
+        "steamed-rice",
+        10,
+        "serving"
+      ],
+      [
+        "madame-jeanette-chili",
+        5,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "aromatic",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "duck",
+      "masala curry",
+      "Madame Jeanette",
+      "garlic"
+    ],
+    "basicTaste": [
+      "savory",
+      "rich",
+      "warm-spiced",
+      "can-be-spicy"
+    ],
+    "textureProfile": [
+      "tender duck",
+      "saucy curry",
+      "soft potato"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "regional-dish",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "dislikes-duck",
+      "avoids-spice"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a richer duck curry; skip if you prefer mild chicken or lean meat.",
+      "zh": "想吃更浓郁的鸭肉咖喱时适合；偏好温和鸡肉或瘦肉则跳过。",
+      "nl": "Kies dit voor rijkere eendencurry; vermijd als je milde kip of mager vlees wilt."
+    },
+    "confidenceTag": "audited-global-truth-batch-031",
+    "spiceLevel": 2,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "herheri",
+    "metadataCode": "126017",
+    "cuisineId": "surinamese",
+    "names": {
+      "canonical": "Herheri",
+      "local": "herheri",
+      "en": "Herheri",
+      "zh": "苏里南根茎鱼盘",
+      "nl": "Herheri"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "boiled",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Surinamese boiled root-vegetable plate often served with salt cod, plantain, cassava, sweet potato, and egg.",
+      "zh": "苏里南根茎拼盘，常配盐鳕鱼、大蕉、木薯、红薯和鸡蛋。",
+      "nl": "Surinaams bord met gekookte knollen, vaak met bakkeljauw, bakbanaan, cassave, zoete aardappel en ei."
+    },
+    "cookingProfile": {
+      "en": "Expect a plain-looking but hearty plate of boiled starches with salty fish contrast.",
+      "zh": "外观看起来朴实，但很有饱腹感，根茎淀粉配咸鱼形成对比。",
+      "nl": "Verwacht een eenvoudig maar stevig bord gekookte zetmelen met zoute vis als contrast."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "seafood"
+      ],
+      "description": {
+        "en": "Herheri is kept as a verified surinamese reference because its ordering cues are specific: salt cod, boiled roots, plantain.",
+        "zh": "苏里南根茎鱼盘 被保留为 verified，是因为点餐识别点明确：salt cod、boiled roots、plantain。",
+        "nl": "Herheri blijft verified omdat de bestelkenmerken specifiek zijn: salt cod, boiled roots, plantain."
+      }
+    },
+    "composition": [
+      [
+        "cassava",
+        25,
+        "boiled-root"
+      ],
+      [
+        "sweet-potato",
+        20,
+        "boiled-root"
+      ],
+      [
+        "plantain",
+        20,
+        "boiled-plantain"
+      ],
+      [
+        "salt-cod",
+        20,
+        "salt-fish"
+      ],
+      [
+        "egg",
+        10,
+        "boiled-egg"
+      ],
+      [
+        "madame-jeanette-chili",
+        5,
+        "pepper-sauce",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "salt cod",
+      "boiled roots",
+      "plantain",
+      "pepper sauce"
+    ],
+    "basicTaste": [
+      "salty",
+      "starchy",
+      "savory",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "firm roots",
+      "soft plantain",
+      "flaky salt fish"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-egg",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "regional-dish",
+      "filling-choice"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "egg-allergy",
+      "wants-saucy-food"
+    ],
+    "orderVerdict": {
+      "en": "Good for a traditional filling plate; skip if salty fish or boiled starches do not appeal.",
+      "zh": "想吃传统饱腹拼盘时适合；不喜欢咸鱼或水煮根茎则跳过。",
+      "nl": "Goed voor een traditioneel vullend bord; vermijd als zoute vis of gekookte zetmelen niet aanspreken."
+    },
+    "confidenceTag": "audited-global-truth-batch-031",
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "pepre-watra",
+    "metadataCode": "126018",
+    "cuisineId": "surinamese",
+    "names": {
+      "canonical": "Pepre Watra",
+      "local": "pepre watra",
+      "en": "Pepre Watra",
+      "zh": "苏里南辣鱼汤",
+      "nl": "Pepre watra"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Surinamese peppery fish soup, usually spicy and aromatic with fish, herbs, and Madame Jeanette chili.",
+      "zh": "苏里南胡椒鱼汤，通常用鱼、香草和黄灯笼椒，辛香偏辣。",
+      "nl": "Surinaamse peperige vissoep, meestal pittig en aromatisch met vis, kruiden en Madame Jeanette."
+    },
+    "cookingProfile": {
+      "en": "A hot broth soup with strong pepper aroma, not a creamy seafood chowder.",
+      "zh": "是热汤底，胡椒和辣椒香明显，不是奶油海鲜浓汤。",
+      "nl": "Een hete bouillonsoep met duidelijke pepergeur, geen romige zeevruchtensoep."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "seafood"
+      ],
+      "description": {
+        "en": "Pepre Watra is kept as a verified surinamese reference because its ordering cues are specific: fish broth, Madame Jeanette, lime.",
+        "zh": "苏里南辣鱼汤 被保留为 verified，是因为点餐识别点明确：fish broth、Madame Jeanette、lime。",
+        "nl": "Pepre watra blijft verified omdat de bestelkenmerken specifiek zijn: fish broth, Madame Jeanette, lime."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        45,
+        "fish"
+      ],
+      [
+        "fish-sauce",
+        10,
+        "savory-depth",
+        "seasoning"
+      ],
+      [
+        "madame-jeanette-chili",
+        15,
+        "pepper-heat",
+        "seasoning"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "soup-vegetables"
+      ],
+      [
+        "cassava",
+        10,
+        "starchy-side"
+      ],
+      [
+        "lime",
+        5,
+        "fresh-finish"
+      ],
+      [
+        "parsley",
+        5,
+        "herb",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fish broth",
+      "Madame Jeanette",
+      "lime",
+      "herbs"
+    ],
+    "basicTaste": [
+      "spicy",
+      "savory",
+      "brothy",
+      "fresh"
+    ],
+    "textureProfile": [
+      "clear hot broth",
+      "flaky fish",
+      "peppery finish"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-fish-sauce",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "seafood",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "avoids-spicy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it if you want a spicy fish soup; skip if pepper heat or fish broth is a concern.",
+      "zh": "想喝偏辣鱼汤时适合；怕辣或不喜欢鱼汤则不推荐。",
+      "nl": "Kies dit als je pittige vissoep wilt; vermijd bij peperhitte of als visbouillon niet trekt."
+    },
+    "confidenceTag": "audited-global-truth-batch-031",
+    "spiceLevel": 3,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "goedangan",
+    "metadataCode": "126019",
+    "cuisineId": "surinamese",
+    "names": {
+      "canonical": "Goedangan",
+      "local": "goedangan",
+      "en": "Goedangan",
+      "zh": "苏里南椰丝蔬菜沙拉",
+      "nl": "Goedangan"
+    },
+    "category": "salad",
+    "cookingMethods": [
+      "boiled",
+      "assembled"
+    ],
+    "servingTemperature": "room-temperature",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Surinamese-Javanese mixed vegetable salad with spiced grated coconut dressing.",
+      "zh": "苏里南爪哇风格混合蔬菜沙拉，拌香料椰丝酱。",
+      "nl": "Surinaams-Javaanse groentesalade met gekruide geraspte kokos."
+    },
+    "cookingProfile": {
+      "en": "Usually served cool or room temperature, with crunchy vegetables and dry coconut seasoning.",
+      "zh": "通常冷食或常温，蔬菜有脆感，椰丝调味偏干香。",
+      "nl": "Meestal koel of op kamertemperatuur, met knapperige groente en droge kokoskruiding."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "vegetable"
+      ],
+      "description": {
+        "en": "Goedangan is kept as a verified surinamese reference because its ordering cues are specific: spiced coconut, blanched vegetables, chili.",
+        "zh": "苏里南椰丝蔬菜沙拉 被保留为 verified，是因为点餐识别点明确：spiced coconut、blanched vegetables、chili。",
+        "nl": "Goedangan blijft verified omdat de bestelkenmerken specifiek zijn: spiced coconut, blanched vegetables, chili."
+      }
+    },
+    "composition": [
+      [
+        "mixed-vegetables",
+        55,
+        "blanched-vegetables"
+      ],
+      [
+        "toasted-coconut",
+        25,
+        "spiced-coconut"
+      ],
+      [
+        "yardlong-beans",
+        10,
+        "green-beans"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "lime",
+        5,
+        "freshness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "spiced coconut",
+      "blanched vegetables",
+      "chili",
+      "lime"
+    ],
+    "basicTaste": [
+      "fresh",
+      "nutty",
+      "mildly-spicy",
+      "savory"
+    ],
+    "textureProfile": [
+      "crisp vegetables",
+      "grated coconut",
+      "cool salad"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegan"
+    ],
+    "goodForTags": [
+      "vegetable",
+      "lighter-choice"
+    ],
+    "avoidIfTags": [
+      "dislikes-coconut",
+      "wants-hot-food"
+    ],
+    "orderVerdict": {
+      "en": "A good vegetable side if you like coconut; skip if you want a hot saucy dish.",
+      "zh": "喜欢椰香蔬菜配菜时适合；想吃热的带汁主菜则不够。",
+      "nl": "Goed als groentebijgerecht met kokos; sla over als je een warm sausgerecht wilt."
+    },
+    "confidenceTag": "audited-global-truth-batch-031",
+    "spiceLevel": 1,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "pitjel",
+    "metadataCode": "126020",
+    "cuisineId": "surinamese",
+    "names": {
+      "canonical": "Pitjel",
+      "local": "pitjel",
+      "en": "Pitjel",
+      "zh": "苏里南花生蔬菜",
+      "nl": "Pitjel"
+    },
+    "category": "salad",
+    "cookingMethods": [
+      "boiled",
+      "assembled"
+    ],
+    "servingTemperature": "room-temperature",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Surinamese-Javanese vegetable salad with peanut sauce, related to Indonesian pecel.",
+      "zh": "苏里南爪哇风格蔬菜沙拉，配花生酱，类似印尼 pecel。",
+      "nl": "Surinaams-Javaanse groentesalade met pindasaus, verwant aan Indonesische pecel."
+    },
+    "cookingProfile": {
+      "en": "Cool vegetables meet a thick peanut sauce, so it is nutty and saucy rather than leafy-light.",
+      "zh": "冷蔬菜配厚花生酱，坚果感和酱汁感明显，不是单纯清爽叶菜。",
+      "nl": "Koele groente met dikke pindasaus, dus nootachtig en sausachtig in plaats van heel licht."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "vegetable"
+      ],
+      "description": {
+        "en": "Pitjel is kept as a verified surinamese reference because its ordering cues are specific: peanut sauce, blanched vegetables, bean sprouts.",
+        "zh": "苏里南花生蔬菜 被保留为 verified，是因为点餐识别点明确：peanut sauce、blanched vegetables、bean sprouts。",
+        "nl": "Pitjel blijft verified omdat de bestelkenmerken specifiek zijn: peanut sauce, blanched vegetables, bean sprouts."
+      }
+    },
+    "composition": [
+      [
+        "mixed-vegetables",
+        50,
+        "vegetables"
+      ],
+      [
+        "satay-sauce",
+        30,
+        "peanut-sauce",
+        "seasoning"
+      ],
+      [
+        "yardlong-beans",
+        10,
+        "green-beans"
+      ],
+      [
+        "bean-sprouts",
+        5,
+        "crunch"
+      ],
+      [
+        "chili",
+        5,
+        "optional-heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "peanut sauce",
+      "blanched vegetables",
+      "bean sprouts"
+    ],
+    "basicTaste": [
+      "nutty",
+      "savory",
+      "mildly-sweet",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "crisp vegetables",
+      "thick peanut sauce",
+      "cool salad"
+    ],
+    "riskFlags": [
+      "contains-peanut",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "vegetable",
+      "street-food"
+    ],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "wants-hot-food"
+    ],
+    "orderVerdict": {
+      "en": "Good if you like peanut sauce with vegetables; avoid completely with peanut allergy.",
+      "zh": "喜欢花生酱配蔬菜时适合；花生过敏必须避开。",
+      "nl": "Goed als je pindasaus met groente lekker vindt; volledig vermijden bij pinda-allergie."
+    },
+    "confidenceTag": "audited-global-truth-batch-031",
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "bakabana",
+    "metadataCode": "126021",
+    "cuisineId": "surinamese",
+    "names": {
+      "canonical": "Bakabana",
+      "local": "bakabana",
+      "en": "Bakabana",
+      "zh": "炸香蕉",
+      "nl": "Bakabana"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "fried"
+    ],
+    "servingTemperature": "hot-or-warm",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Fried ripe plantain, often served with peanut sauce in Surinamese snack shops.",
+      "zh": "炸熟大蕉，苏里南小吃店常配花生酱。",
+      "nl": "Gefrituurde rijpe bakbanaan, vaak met pindasaus in Surinaamse snackbars."
+    },
+    "cookingProfile": {
+      "en": "Sweet, soft plantain in a crisp batter or fried edge, usually eaten as a snack.",
+      "zh": "甜软大蕉带酥脆外层或焦边，通常当小食吃。",
+      "nl": "Zoete zachte bakbanaan met krokant beslag of rand, meestal als snack."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "dessert"
+      ],
+      "description": {
+        "en": "Bakabana is kept as a verified surinamese reference because its ordering cues are specific: ripe plantain, fried batter, peanut sauce.",
+        "zh": "炸香蕉 被保留为 verified，是因为点餐识别点明确：ripe plantain、fried batter、peanut sauce。",
+        "nl": "Bakabana blijft verified omdat de bestelkenmerken specifiek zijn: ripe plantain, fried batter, peanut sauce."
+      }
+    },
+    "composition": [
+      [
+        "plantain",
+        70,
+        "ripe-plantain"
+      ],
+      [
+        "wheat-flour",
+        15,
+        "batter"
+      ],
+      [
+        "satay-sauce",
+        10,
+        "peanut-sauce",
+        "seasoning"
+      ],
+      [
+        "sugar",
+        5,
+        "sweetness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "ripe plantain",
+      "fried batter",
+      "peanut sauce"
+    ],
+    "basicTaste": [
+      "sweet",
+      "starchy",
+      "nutty",
+      "fried"
+    ],
+    "textureProfile": [
+      "crisp outside",
+      "soft banana-like center",
+      "sticky sauce"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-peanut"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "gluten-allergy",
+      "wants-savory-food"
+    ],
+    "orderVerdict": {
+      "en": "Great for a sweet fried snack; avoid with peanut allergy if served with peanut sauce.",
+      "zh": "想吃甜口炸小食很适合；若配花生酱，花生过敏要避开。",
+      "nl": "Goed voor een zoete gefrituurde snack; vermijd bij pinda-allergie als er pindasaus bij zit."
+    },
+    "confidenceTag": "audited-global-truth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "dawet",
+    "metadataCode": "126022",
+    "cuisineId": "surinamese",
+    "names": {
+      "canonical": "Dawet",
+      "local": "dawet",
+      "en": "Dawet",
+      "zh": "苏里南椰奶饮甜品",
+      "nl": "Dawet"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "chilled",
+      "assembled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Sweet Surinamese-Javanese coconut drink or dessert with green jelly, syrup, and milk or coconut milk.",
+      "zh": "苏里南爪哇风格甜饮/甜品，含绿色粉冻、糖浆、牛奶或椰奶。",
+      "nl": "Zoete Surinaams-Javaanse drank of dessert met groene gelei, siroop en melk of kokosmelk."
+    },
+    "cookingProfile": {
+      "en": "Served cold and spoonable or drinkable, closer to a sweet iced dessert than a solid dish.",
+      "zh": "冷食，可喝也可用勺吃，更像冰甜品而不是固体菜。",
+      "nl": "Koud geserveerd, lepelbaar of drinkbaar, meer ijsdessert dan vast gerecht."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "dessert",
+        "drink"
+      ],
+      "description": {
+        "en": "Dawet is kept as a verified surinamese reference because its ordering cues are specific: green jelly, coconut milk, palm sugar syrup.",
+        "zh": "苏里南椰奶饮甜品 被保留为 verified，是因为点餐识别点明确：green jelly、coconut milk、palm sugar syrup。",
+        "nl": "Dawet blijft verified omdat de bestelkenmerken specifiek zijn: green jelly, coconut milk, palm sugar syrup."
+      }
+    },
+    "composition": [
+      [
+        "cendol-jelly",
+        35,
+        "green-jelly"
+      ],
+      [
+        "coconut-milk",
+        25,
+        "creamy-liquid",
+        "seasoning"
+      ],
+      [
+        "palm-sugar",
+        20,
+        "syrup",
+        "seasoning"
+      ],
+      [
+        "milk-solids",
+        15,
+        "milk"
+      ],
+      [
+        "shaved-ice",
+        5,
+        "cold-serving"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "green jelly",
+      "coconut milk",
+      "palm sugar syrup"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "cold",
+      "caramel"
+    ],
+    "textureProfile": [
+      "slippery jelly",
+      "cold liquid",
+      "sweet syrup"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "dessert",
+      "cooling-choice"
+    ],
+    "avoidIfTags": [
+      "dairy-allergy",
+      "wants-solid-food"
+    ],
+    "orderVerdict": {
+      "en": "Choose it as a cold sweet drink-dessert; skip if you want a baked or solid dessert.",
+      "zh": "想要冰凉甜饮型甜品时适合；想吃烘焙或固体甜点则不对。",
+      "nl": "Kies dit als koude zoete drank-dessert; sla over als je gebakken of vast dessert wilt."
+    },
+    "confidenceTag": "audited-global-truth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "fiadoe",
+    "metadataCode": "126023",
+    "cuisineId": "surinamese",
+    "names": {
+      "canonical": "Fiadoe",
+      "local": "fiadoe",
+      "en": "Fiadoe",
+      "zh": "苏里南甜面包卷",
+      "nl": "Fiadoe"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "room-temperature",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Surinamese layered sweet bread or cake with raisins, cinnamon, and often a rich buttery dough.",
+      "zh": "苏里南分层甜面包/蛋糕，常有葡萄干、肉桂和较浓郁的黄油面团。",
+      "nl": "Surinaams gelaagd zoet brood of cake met rozijnen, kaneel en vaak rijk boterdeeg."
+    },
+    "cookingProfile": {
+      "en": "More like a dense festive sweet bread than a light sponge cake.",
+      "zh": "更像厚实节庆甜面包，不是轻盈海绵蛋糕。",
+      "nl": "Meer een dicht feestelijk zoetbrood dan een luchtige cake."
+    },
+    "cuisineRole": {
+      "level": "festival",
+      "tags": [
+        "dessert",
+        "festival"
+      ],
+      "description": {
+        "en": "Fiadoe is kept as a verified surinamese reference because its ordering cues are specific: raisins, cinnamon, buttery dough.",
+        "zh": "苏里南甜面包卷 被保留为 verified，是因为点餐识别点明确：raisins、cinnamon、buttery dough。",
+        "nl": "Fiadoe blijft verified omdat de bestelkenmerken specifiek zijn: raisins, cinnamon, buttery dough."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        40,
+        "dough"
+      ],
+      [
+        "raisins",
+        20,
+        "fruit"
+      ],
+      [
+        "butter",
+        15,
+        "richness"
+      ],
+      [
+        "sugar",
+        15,
+        "sweetness"
+      ],
+      [
+        "cinnamon",
+        5,
+        "spice",
+        "seasoning"
+      ],
+      [
+        "egg",
+        5,
+        "dough-richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "raisins",
+      "cinnamon",
+      "buttery dough"
+    ],
+    "basicTaste": [
+      "sweet",
+      "warm-spiced",
+      "bready",
+      "rich"
+    ],
+    "textureProfile": [
+      "dense bread",
+      "chewy raisins",
+      "soft crumb"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "dessert",
+      "festival"
+    ],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "dairy-allergy",
+      "wants-light-dessert"
+    ],
+    "orderVerdict": {
+      "en": "Good for a dense raisin-cinnamon sweet bread; skip if you want a light creamy dessert.",
+      "zh": "适合想吃厚实葡萄干肉桂甜面包；想要轻盈奶油甜点则跳过。",
+      "nl": "Goed voor dicht rozijn-kaneelzoetbrood; vermijd als je een licht romig dessert zoekt."
+    },
+    "confidenceTag": "audited-global-truth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "maizena-koekjes",
+    "metadataCode": "126024",
+    "cuisineId": "surinamese",
+    "names": {
+      "canonical": "Maizena Koekjes",
+      "local": "maizena koekjes",
+      "en": "Maizena Koekjes",
+      "zh": "玉米淀粉小饼干",
+      "nl": "Maïzena koekjes"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "room-temperature",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Surinamese cornstarch cookies that are pale, crumbly, and melt-in-the-mouth.",
+      "zh": "苏里南玉米淀粉小饼干，颜色浅，松散入口即化。",
+      "nl": "Surinaamse maizenakoekjes: bleek, kruimelig en smeltend in de mond."
+    },
+    "cookingProfile": {
+      "en": "Served as small cookies, usually dry and delicate rather than creamy.",
+      "zh": "小饼干形式，通常偏干且细腻，不是奶油甜品。",
+      "nl": "Als kleine koekjes, meestal droog en fijn, niet romig."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "dessert",
+        "snack"
+      ],
+      "description": {
+        "en": "Maizena Koekjes is kept as a verified surinamese reference because its ordering cues are specific: cornstarch, butter, vanilla.",
+        "zh": "玉米淀粉小饼干 被保留为 verified，是因为点餐识别点明确：cornstarch、butter、vanilla。",
+        "nl": "Maïzena koekjes blijft verified omdat de bestelkenmerken specifiek zijn: cornstarch, butter, vanilla."
+      }
+    },
+    "composition": [
+      [
+        "corn",
+        35,
+        "cornstarch-base"
+      ],
+      [
+        "wheat-flour",
+        25,
+        "flour"
+      ],
+      [
+        "butter",
+        20,
+        "short-texture"
+      ],
+      [
+        "sugar",
+        15,
+        "sweetness"
+      ],
+      [
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cornstarch",
+      "butter",
+      "vanilla"
+    ],
+    "basicTaste": [
+      "sweet",
+      "mild",
+      "buttery"
+    ],
+    "textureProfile": [
+      "crumbly cookie",
+      "melting texture",
+      "dry bite"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "dessert",
+      "snack"
+    ],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "dairy-allergy",
+      "wants-moist-dessert"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a delicate crumbly cookie; skip if you want a moist dessert.",
+      "zh": "想吃细腻松散小饼干时适合；想要湿润甜点则不推荐。",
+      "nl": "Kies dit voor een fijn kruimelig koekje; sla over als je een vochtig dessert wilt."
+    },
+    "confidenceTag": "audited-global-truth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "telo-bakkeljauw",
+    "metadataCode": "126025",
+    "cuisineId": "surinamese",
+    "names": {
+      "canonical": "Telo Bakkeljauw",
+      "local": "telo bakkeljauw",
+      "en": "Telo Bakkeljauw",
+      "zh": "炸木薯配咸鱼",
+      "nl": "Telo bakkeljauw"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "fried",
+      "stir-fried"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Fried cassava served with sautéed salt cod, often spicy with pepper and onion.",
+      "zh": "炸木薯配炒盐鳕鱼，常有辣椒和洋葱，咸香明显。",
+      "nl": "Gefrituurde cassave met gebakken bakkeljauw, vaak pittig met peper en ui."
+    },
+    "cookingProfile": {
+      "en": "The contrast is crisp starchy cassava with salty shredded fish.",
+      "zh": "重点是酥脆淀粉感木薯配咸香鱼丝。",
+      "nl": "Het contrast is krokante zetmeelrijke cassave met zoute visvlokken."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "seafood"
+      ],
+      "description": {
+        "en": "Telo Bakkeljauw is kept as a verified surinamese reference because its ordering cues are specific: fried cassava, salt cod, Madame Jeanette.",
+        "zh": "炸木薯配咸鱼 被保留为 verified，是因为点餐识别点明确：fried cassava、salt cod、Madame Jeanette。",
+        "nl": "Telo bakkeljauw blijft verified omdat de bestelkenmerken specifiek zijn: fried cassava, salt cod, Madame Jeanette."
+      }
+    },
+    "composition": [
+      [
+        "cassava",
+        50,
+        "fried-cassava"
+      ],
+      [
+        "salt-cod",
+        30,
+        "bakkeljauw"
+      ],
+      [
+        "onion",
+        10,
+        "sauteed-onion"
+      ],
+      [
+        "madame-jeanette-chili",
+        5,
+        "pepper-heat",
+        "seasoning"
+      ],
+      [
+        "lime",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fried cassava",
+      "salt cod",
+      "Madame Jeanette",
+      "lime"
+    ],
+    "basicTaste": [
+      "salty",
+      "starchy",
+      "spicy",
+      "savory"
+    ],
+    "textureProfile": [
+      "crisp cassava",
+      "flaky salt fish",
+      "sharp pepper"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "filling-snack"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "avoids-spicy",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "A strong snack if you like salty fish and fried cassava; skip if salt cod sounds too intense.",
+      "zh": "喜欢咸鱼和炸木薯会很对味；觉得盐鳕鱼太重口则不推荐。",
+      "nl": "Een stevige snack als je zoute vis en gefrituurde cassave lust; vermijd als bakkeljauw te intens klinkt."
+    },
+    "confidenceTag": "audited-global-truth-batch-031",
+    "spiceLevel": 3,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "kip-sate-surinamese",
+    "metadataCode": "126026",
+    "cuisineId": "surinamese",
+    "names": {
+      "canonical": "Surinamese Kip Saté",
+      "local": "kip saté",
+      "en": "Surinamese Kip Saté",
+      "zh": "苏里南鸡肉沙爹",
+      "nl": "Surinaamse kip saté"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Surinamese chicken satay skewers with peanut sauce, often sweeter and spicier than plain grilled chicken.",
+      "zh": "苏里南鸡肉沙嗲串配花生酱，通常比普通烤鸡更甜、更香辣。",
+      "nl": "Surinaamse kipsate met pindasaus, vaak zoeter en pittiger dan gewone gegrilde kip."
+    },
+    "cookingProfile": {
+      "en": "Served hot on skewers with a thick peanut sauce.",
+      "zh": "热串上桌，配厚花生酱。",
+      "nl": "Warm aan spiesjes met dikke pindasaus."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Surinamese Kip Saté is kept as a verified surinamese reference because its ordering cues are specific: peanut sauce, grilled chicken, ketjap manis.",
+        "zh": "苏里南鸡肉沙爹 被保留为 verified，是因为点餐识别点明确：peanut sauce、grilled chicken、ketjap manis。",
+        "nl": "Surinaamse kip saté blijft verified omdat de bestelkenmerken specifiek zijn: peanut sauce, grilled chicken, ketjap manis."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        60,
+        "grilled-skewers"
+      ],
+      [
+        "satay-sauce",
+        25,
+        "peanut-sauce",
+        "seasoning"
+      ],
+      [
+        "ketjap-manis",
+        5,
+        "sweet-marinade",
+        "seasoning"
+      ],
+      [
+        "sambal",
+        5,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "lime",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "peanut sauce",
+      "grilled chicken",
+      "ketjap manis",
+      "sambal"
+    ],
+    "basicTaste": [
+      "savory",
+      "nutty",
+      "sweet",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "juicy skewers",
+      "thick sauce",
+      "charred edges"
+    ],
+    "riskFlags": [
+      "contains-peanut",
+      "contains-soy",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "soy-allergy",
+      "gluten-allergy"
+    ],
+    "orderVerdict": {
+      "en": "A friendly grilled choice if peanut sauce is okay; avoid completely with peanut allergy.",
+      "zh": "能吃花生酱的话是友好的烤串选择；花生过敏必须避开。",
+      "nl": "Een toegankelijke grillkeuze als pindasaus kan; volledig vermijden bij pinda-allergie."
+    },
+    "confidenceTag": "audited-global-truth-batch-031",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "cha-siu-surinamese",
+    "metadataCode": "126027",
+    "cuisineId": "surinamese",
+    "names": {
+      "canonical": "Surinamese Cha Siu",
+      "local": "cha siu",
+      "en": "Surinamese Cha Siu",
+      "zh": "苏里南叉烧",
+      "nl": "Surinaamse cha siu"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Surinamese-Chinese style char siu pork, sweet-red glazed and often served with rice or noodles.",
+      "zh": "苏里南中式叉烧猪肉，红色甜咸酱烤，常配米饭或面。",
+      "nl": "Surinaams-Chinese cha siu van varkensvlees, rood zoet-hartig geglazuurd, vaak met rijst of noedels."
+    },
+    "cookingProfile": {
+      "en": "Expect sweet glazed pork slices, not smoky barbecue ribs.",
+      "zh": "会是甜咸酱汁猪肉片，不是烟熏烤肋排。",
+      "nl": "Verwacht zoet geglazuurde varkensplakken, geen rokerige spareribs."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "common",
+        "meat"
+      ],
+      "description": {
+        "en": "Surinamese Cha Siu is kept as a verified surinamese reference because its ordering cues are specific: char siu glaze, roast pork, soy sweetness.",
+        "zh": "苏里南叉烧 被保留为 verified，是因为点餐识别点明确：char siu glaze、roast pork、soy sweetness。",
+        "nl": "Surinaamse cha siu blijft verified omdat de bestelkenmerken specifiek zijn: char siu glaze, roast pork, soy sweetness."
+      }
+    },
+    "composition": [
+      [
+        "char-siu-pork",
+        65,
+        "glazed-pork"
+      ],
+      [
+        "steamed-rice",
+        20,
+        "serving"
+      ],
+      [
+        "char-siu-glaze",
+        10,
+        "sweet-glaze",
+        "seasoning"
+      ],
+      [
+        "soy-sauce",
+        5,
+        "savory-depth",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "char siu glaze",
+      "roast pork",
+      "soy sweetness"
+    ],
+    "basicTaste": [
+      "sweet",
+      "savory",
+      "umami",
+      "porky"
+    ],
+    "textureProfile": [
+      "tender pork slices",
+      "sticky glaze",
+      "rice side"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-soy",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "common",
+      "filling-choice"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "soy-allergy",
+      "gluten-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Good if you like sweet glazed pork; skip if you avoid pork or sweet meat.",
+      "zh": "喜欢甜咸叉烧猪肉时适合；不吃猪肉或不喜欢甜肉则跳过。",
+      "nl": "Goed als je zoet geglazuurd varkensvlees lust; vermijd bij geen varken of zoet vlees."
+    },
+    "confidenceTag": "audited-global-truth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "pom-sandwich",
+    "metadataCode": "126028",
+    "cuisineId": "surinamese",
+    "names": {
+      "canonical": "Broodje Pom",
+      "local": "broodje pom",
+      "en": "Broodje Pom",
+      "zh": "苏里南 Pom 三明治",
+      "nl": "Broodje pom"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "braised",
+      "assembled"
+    ],
+    "servingTemperature": "hot-or-warm",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "A Surinamese sandwich filled with pom, the citrusy baked tayer-and-chicken casserole.",
+      "zh": "苏里南 pom 三明治，夹的是带柑橘酸香的 tayer 鸡肉烤菜。",
+      "nl": "Surinaams broodje met pom, de citrusachtige ovenschotel van pomtajer en kip."
+    },
+    "cookingProfile": {
+      "en": "The filling is soft, tangy, and savory inside a bread roll.",
+      "zh": "馅料柔软、酸香、咸鲜，夹在面包里。",
+      "nl": "De vulling is zacht, friszuur en hartig in een broodje."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "street-food"
+      ],
+      "description": {
+        "en": "Broodje Pom is kept as a verified surinamese reference because its ordering cues are specific: pom filling, tayer, chicken.",
+        "zh": "苏里南 Pom 三明治 被保留为 verified，是因为点餐识别点明确：pom filling、tayer、chicken。",
+        "nl": "Broodje pom blijft verified omdat de bestelkenmerken specifiek zijn: pom filling, tayer, chicken."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        35,
+        "sandwich-roll"
+      ],
+      [
+        "tayer-root",
+        30,
+        "pom-filling"
+      ],
+      [
+        "chicken",
+        20,
+        "pom-chicken"
+      ],
+      [
+        "orange",
+        10,
+        "citrus-tang"
+      ],
+      [
+        "madame-jeanette-chili",
+        5,
+        "optional-heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "pom filling",
+      "tayer",
+      "chicken",
+      "citrus"
+    ],
+    "basicTaste": [
+      "savory",
+      "tangy",
+      "soft",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "soft filling",
+      "chewy bread",
+      "moist casserole texture"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "wants-crisp-sandwich"
+    ],
+    "orderVerdict": {
+      "en": "A classic Surinamese sandwich if you like tangy soft fillings; skip if you want a dry crisp roll.",
+      "zh": "喜欢酸香柔软馅料时这是经典苏里南三明治；想要干爽脆口面包则不适合。",
+      "nl": "Een klassiek Surinaams broodje als je zachte frisse vulling lust; vermijd als je een droog krokant broodje wilt."
+    },
+    "confidenceTag": "audited-global-truth-batch-031",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "roti-kip-kerrie",
+    "metadataCode": "126029",
+    "cuisineId": "surinamese",
+    "names": {
+      "canonical": "Roti Kip Kerrie",
+      "local": "roti kip kerrie",
+      "en": "Roti Kip Kerrie",
+      "zh": "咖喱鸡薄饼套餐",
+      "nl": "Roti kip kerrie"
+    },
+    "category": "curry",
+    "cookingMethods": [
+      "braised",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Surinamese roti plate with chicken curry, potato, long beans, egg, and soft roti flatbread.",
+      "zh": "苏里南 roti 咖喱鸡盘，含咖喱鸡、土豆、长豇豆、鸡蛋和软 roti 饼。",
+      "nl": "Surinaamse roti met kipkerrie, aardappel, kousenband, ei en zachte rotiplaat."
+    },
+    "cookingProfile": {
+      "en": "A full meal where the roti is used to scoop curry rather than a small wrap.",
+      "zh": "这是完整一餐，roti 用来蘸咖喱，不是小卷饼。",
+      "nl": "Een volledige maaltijd waarbij de roti curry opschept, geen kleine wrap."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Roti Kip Kerrie is kept as a verified surinamese reference because its ordering cues are specific: roti, chicken curry, potato.",
+        "zh": "咖喱鸡薄饼套餐 被保留为 verified，是因为点餐识别点明确：roti、chicken curry、potato。",
+        "nl": "Roti kip kerrie blijft verified omdat de bestelkenmerken specifiek zijn: roti, chicken curry, potato."
+      }
+    },
+    "composition": [
+      [
+        "roti-flatbread",
+        30,
+        "flatbread"
+      ],
+      [
+        "chicken",
+        30,
+        "curried-chicken"
+      ],
+      [
+        "potato",
+        15,
+        "curry-potato"
+      ],
+      [
+        "yardlong-beans",
+        10,
+        "beans"
+      ],
+      [
+        "egg",
+        10,
+        "boiled-egg"
+      ],
+      [
+        "curry-masala",
+        5,
+        "curry-spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "roti",
+      "chicken curry",
+      "potato",
+      "long beans"
+    ],
+    "basicTaste": [
+      "savory",
+      "warm-spiced",
+      "hearty",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "soft roti",
+      "saucy chicken",
+      "soft potato"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "signature-dish",
+      "filling-choice"
+    ],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "egg-allergy",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "One of the strongest Surinamese first choices; skip if you need gluten-free or very light food.",
+      "zh": "这是最稳的苏里南首选之一；需要无麸质或想吃很轻的人不适合。",
+      "nl": "Een van de sterkste Surinaamse eerste keuzes; vermijd bij glutenvrij of als je heel licht wilt eten."
+    },
+    "confidenceTag": "audited-global-truth-batch-031",
+    "spiceLevel": 2,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "nasi-moksi-meti",
+    "metadataCode": "126030",
+    "cuisineId": "surinamese",
+    "names": {
+      "canonical": "Nasi Moksi Meti",
+      "local": "nasi moksi meti",
+      "en": "Nasi Moksi Meti",
+      "zh": "混肉炒饭",
+      "nl": "Nasi moksi meti"
+    },
+    "category": "rice",
+    "cookingMethods": [
+      "stir-fried",
+      "grilled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Surinamese fried rice with mixed roasted meats, often including chicken, pork, char siu, or other moksi meti meats.",
+      "zh": "苏里南炒饭配混合烤肉，常有鸡肉、猪肉、叉烧或其他 moksi meti 肉类。",
+      "nl": "Surinaamse nasi met gemengd geroosterd vlees, vaak kip, varken, cha siu of ander moksi meti vlees."
+    },
+    "cookingProfile": {
+      "en": "Expect a hearty rice plate with sweet-savory roasted meat rather than plain vegetable fried rice.",
+      "zh": "会是有饱腹感的肉类炒饭，不是普通蔬菜炒饭。",
+      "nl": "Verwacht een stevig rijstbord met zoet-hartig geroosterd vlees, geen gewone groenterijst."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "filling-choice"
+      ],
+      "description": {
+        "en": "Nasi Moksi Meti is kept as a verified surinamese reference because its ordering cues are specific: fried rice, moksi meti meats, ketjap manis.",
+        "zh": "混肉炒饭 被保留为 verified，是因为点餐识别点明确：fried rice、moksi meti meats、ketjap manis。",
+        "nl": "Nasi moksi meti blijft verified omdat de bestelkenmerken specifiek zijn: fried rice, moksi meti meats, ketjap manis."
+      }
+    },
+    "composition": [
+      [
+        "steamed-rice",
+        45,
+        "fried-rice"
+      ],
+      [
+        "char-siu-pork",
+        20,
+        "roast-pork"
+      ],
+      [
+        "chicken",
+        15,
+        "roast-chicken"
+      ],
+      [
+        "egg",
+        10,
+        "fried-egg-bits"
+      ],
+      [
+        "ketjap-manis",
+        5,
+        "sweet-soy",
+        "seasoning"
+      ],
+      [
+        "sambal",
+        5,
+        "heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fried rice",
+      "moksi meti meats",
+      "ketjap manis",
+      "sambal"
+    ],
+    "basicTaste": [
+      "savory",
+      "sweet",
+      "umami",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "separate rice grains",
+      "roasted meat pieces",
+      "soft egg"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-egg",
+      "contains-soy",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "filling-choice",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "egg-allergy",
+      "soy-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Good for a filling mixed-meat rice plate; ask about the meats if avoiding pork.",
+      "zh": "想吃饱腹混合肉炒饭很适合；不吃猪肉要先问肉类组成。",
+      "nl": "Goed voor een vullend rijstbord met gemengd vlees; vraag naar het vlees als je varken vermijdt."
+    },
+    "confidenceTag": "audited-global-truth-batch-031",
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  }
+]

@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 679
-- Total aliases: 2060
+- Total verified dishes: 769
+- Total aliases: 2280
 - Total cuisines: 27
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -55,7 +55,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 107026 - `crepe-mikado` - Crêpe Mikado / 巧克力冰淇淋薄饼 / Crêpe Mikado
 30. 107027 - `rijsttaart` - Rijsttaart / 比利时米布丁塔 / Rijsttaart
 
-## Brazilian (brazilian) - 12
+## Brazilian (brazilian) - 29
 
 1. 130001 - `feijoada` - Feijoada / 巴西黑豆猪肉炖菜 / feijoada
 2. 130002 - `pao-de-queijo` - Pão de Queijo / 巴西芝士面包球 / pão de queijo
@@ -69,6 +69,23 @@ Generated from data/internal/index.js after the verified database quarantine aud
 10. 130010 - `vatapa` - Vatapá / 巴西虾椰奶花生浓酱 / vatapá
 11. 130011 - `bobó-de-camarão` - Bobó de Camarão / 巴西木薯椰奶虾浓汤 / bobó de camarão
 12. 130012 - `quindim` - Quindim / 巴西椰香蛋黄布丁 / quindim
+13. 130014 - `picanha` - Picanha / 巴西烤牛臀肉 / picanha
+14. 130015 - `escondidinho` - Escondidinho / 巴西木薯泥焗肉 / escondidinho
+15. 130016 - `carne-de-sol` - Carne de Sol / 巴西风干牛肉 / carne de sol
+16. 130017 - `xinxim-de-galinha` - Xinxim de Galinha / 巴西花生椰香鸡 / xinxim de galinha
+17. 130018 - `caldinho-de-feijao` - Caldinho de Feijão / 巴西黑豆汤 / caldinho de feijão
+18. 130019 - `empada` - Empada / 巴西小馅饼 / empada
+19. 130020 - `kibe-brazilian` - Brazilian Kibe / 巴西炸小麦肉球 / kibe
+20. 130021 - `tapioca-crepe` - Tapioca Crepe / 巴西木薯粉煎饼 / tapioca
+21. 130022 - `moqueca-baiana` - Moqueca Baiana / 巴伊亚椰奶海鲜锅 / moqueca baiana
+22. 130023 - `moqueca-capixaba` - Moqueca Capixaba / 番茄海鲜炖锅 / moqueca capixaba
+23. 130024 - `camarao-na-moranga` - Camarão na Moranga / 南瓜奶油虾 / camarão na moranga
+24. 130025 - `salpicao` - Salpicão / 巴西鸡肉沙拉 / salpicão
+25. 130026 - `canjica` - Canjica / 巴西玉米椰奶甜粥 / canjica
+26. 130027 - `cocada` - Cocada / 巴西椰子糖 / cocada
+27. 130028 - `beijinho` - Beijinho / 巴西椰子奶糖球 / beijinho
+28. 130029 - `mousse-de-maracuja` - Mousse de Maracujá / 百香果慕斯 / mousse de maracujá
+29. 130030 - `tapioca-pudding-brazilian` - Brazilian Tapioca Pudding / 巴西木薯布丁 / pudim de tapioca
 
 ## British Irish (british-irish) - 30
 
@@ -494,7 +511,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 118029 - `kuih-lapis` - Kuih Lapis / 九层糕 / kuih lapis
 30. 118030 - `pulut-hitam` - Pulut Hitam / 黑糯米椰奶甜品 / pulut hitam
 
-## Mexican (mexican) - 12
+## Mexican (mexican) - 30
 
 1. 121001 - `tacos` - Tacos / 墨西哥玉米卷 / tacos
 2. 121002 - `quesadilla` - Quesadilla / 墨西哥奶酪饼 / quesadilla
@@ -508,8 +525,26 @@ Generated from data/internal/index.js after the verified database quarantine aud
 10. 121010 - `mole-poblano` - Mole Poblano / 摩雷鸡肉 / mole poblano
 11. 121011 - `ceviche-mexican` - Ceviche / 墨西哥酸橘汁腌鱼 / ceviche
 12. 121012 - `flan` - Flan / 焦糖布丁 / flan
+13. 121013 - `fajitas` - Fajitas / 墨西哥铁板肉菜 / fajitas
+14. 121014 - `tostadas` - Tostadas / 墨西哥脆玉米饼 / tostadas
+15. 121015 - `sopes` - Sopes / 墨西哥厚玉米饼 / sopes
+16. 121016 - `gorditas` - Gorditas / 墨西哥夹馅玉米饼 / gorditas
+17. 121017 - `elote` - Elote / 墨西哥街头玉米 / elote
+18. 121018 - `esquites` - Esquites / 墨西哥杯装玉米 / esquites
+19. 121019 - `chilaquiles` - Chilaquiles / 墨西哥玉米片早餐 / chilaquiles
+20. 121020 - `huevos-rancheros` - Huevos Rancheros / 牧场鸡蛋 / huevos rancheros
+21. 121021 - `birria` - Birria / 墨西哥慢炖肉汤 / birria
+22. 121022 - `birria-tacos` - Birria Tacos / 比利亚蘸汁塔可 / tacos de birria
+23. 121023 - `barbacoa` - Barbacoa / 墨西哥慢烤肉 / barbacoa
+24. 121024 - `carnitas` - Carnitas / 墨西哥慢炖猪肉 / carnitas
+25. 121025 - `al-pastor` - Tacos al Pastor / 牧羊人猪肉塔可 / tacos al pastor
+26. 121026 - `cochinita-pibil` - Cochinita Pibil / 尤卡坦胭脂猪肉 / cochinita pibil
+27. 121027 - `sopa-de-lima` - Sopa de Lima / 尤卡坦青柠鸡汤 / sopa de lima
+28. 121028 - `aguachile` - Aguachile / 墨西哥辣青柠生虾 / aguachile
+29. 121029 - `tres-leches-cake` - Tres Leches Cake / 三奶蛋糕 / pastel tres leches
+30. 121030 - `arroz-con-leche-mexican` - Mexican Arroz con Leche / 墨西哥米布丁 / arroz con leche
 
-## Middle Eastern (middle-eastern) - 12
+## Middle Eastern (middle-eastern) - 13
 
 1. 120001 - `hummus` - Hummus / 鹰嘴豆泥 / hummus
 2. 120002 - `falafel` - Falafel / 炸鹰嘴豆丸 / falafel
@@ -523,8 +558,9 @@ Generated from data/internal/index.js after the verified database quarantine aud
 10. 120010 - `mujadara` - Mujadara / 扁豆洋葱饭 / mujadara
 11. 120011 - `baklava-middle-eastern` - Baklava / 中东果仁蜜酥 / baklava
 12. 120012 - `labneh` - Labneh / 浓缩酸奶酱 / labneh
+13. 120018 - `foul-medames` - Foul Medames / 中东蚕豆泥 / فول مدمس
 
-## Moroccan (moroccan) - 12
+## Moroccan (moroccan) - 30
 
 1. 124001 - `tagine-lamb` - Lamb Tagine / 摩洛哥塔吉锅羊肉 / طاجين
 2. 124002 - `chicken-tagine` - Chicken Tagine / 摩洛哥塔吉锅鸡 / طاجين الدجاج
@@ -538,8 +574,26 @@ Generated from data/internal/index.js after the verified database quarantine aud
 10. 124010 - `moroccan-salad` - Moroccan Salad / 摩洛哥沙拉 / salade marocaine
 11. 124011 - `seffa` - Seffa / 摩洛哥甜库斯库斯 / seffa
 12. 124012 - `mint-tea-dessert` - Mint Tea Sweets / 薄荷茶甜点拼盘 / حلويات مغربية
+13. 124013 - `lamb-brochettes` - Lamb Brochettes / 摩洛哥羊肉串 / brochettes d’agneau
+14. 124014 - `kefta-brochettes` - Kefta Brochettes / 摩洛哥肉末烤串 / brochettes kefta
+15. 124015 - `rfissa` - Rfissa / 摩洛哥鸡肉扁豆面饼 / rfissa
+16. 124016 - `tanjia` - Tanjia / 马拉喀什慢炖肉 / tanjia
+17. 124017 - `bissara` - Bissara / 摩洛哥蚕豆汤 / bissara
+18. 124018 - `loubia` - Loubia / 摩洛哥白豆炖菜 / loubia
+19. 124019 - `maakouda` - Maakouda / 摩洛哥炸土豆饼 / maakouda
+20. 124020 - `batbout` - Batbout / 摩洛哥小圆面包 / batbout
+21. 124021 - `msemen` - Msemen / 摩洛哥方形煎饼 / msemen
+22. 124022 - `baghrir` - Baghrir / 千孔薄饼 / baghrir
+23. 124023 - `khobz` - Khobz / 摩洛哥圆面包 / khobz
+24. 124024 - `sardines-chermoula` - Sardines Chermoula / 香草腌沙丁鱼 / sardines chermoula
+25. 124025 - `fish-tagine` - Fish Tagine / 摩洛哥鱼塔吉锅 / tagine de poisson
+26. 124026 - `chicken-bastilla` - Chicken Bastilla / 鸡肉酥皮派 / bastilla au poulet
+27. 124027 - `almond-briouat` - Almond Briouat / 杏仁三角酥 / briouat aux amandes
+28. 124028 - `chebakia` - Chebakia / 蜂蜜芝麻花结 / chebakia
+29. 124029 - `mhancha` - M’hanncha / 蛇形杏仁酥 / m’hanncha
+30. 124030 - `sellou` - Sellou / 摩洛哥坚果芝麻甜粉 / sellou
 
-## Peruvian (peruvian) - 12
+## Peruvian (peruvian) - 30
 
 1. 129001 - `ceviche-peruvian` - Peruvian Ceviche / 秘鲁酸橘汁腌鱼 / ceviche peruano
 2. 129002 - `lomo-saltado` - Lomo Saltado / 秘鲁牛肉薯条炒饭 / lomo saltado
@@ -553,6 +607,24 @@ Generated from data/internal/index.js after the verified database quarantine aud
 10. 129010 - `tiradito` - Tiradito / 秘鲁生鱼薄片 / tiradito
 11. 129011 - `picarones` - Picarones / 秘鲁南瓜红薯甜甜圈 / picarones
 12. 129012 - `suspiro-limeno` - Suspiro Limeño / 秘鲁焦糖蛋奶甜点 / suspiro limeño
+13. 129013 - `ajiaco-peruvian` - Ajiaco / 秘鲁土豆奶酪炖菜 / ajiaco
+14. 129014 - `seco-de-res` - Seco de Res / 秘鲁香菜炖牛肉 / seco de res
+15. 129015 - `seco-de-cordero` - Seco de Cordero / 秘鲁香菜炖羊肉 / seco de cordero
+16. 129016 - `tacu-tacu` - Tacu Tacu / 秘鲁豆饭煎饼 / tacu tacu
+17. 129017 - `arroz-con-mariscos` - Arroz con Mariscos / 秘鲁海鲜饭 / arroz con mariscos
+18. 129018 - `jalea` - Jalea / 秘鲁炸海鲜拼盘 / jalea
+19. 129019 - `choritos-a-la-chalaca` - Choritos a la Chalaca / 秘鲁贻贝沙拉 / choritos a la chalaca
+20. 129020 - `leche-de-tigre` - Leche de Tigre / 虎奶酸辣海鲜汁 / leche de tigre
+21. 129021 - `causa-limena` - Causa Limeña / 利马土豆冷盘 / causa limeña
+22. 129022 - `ocopa` - Ocopa / 秘鲁香草花生土豆 / ocopa
+23. 129023 - `solterito` - Solterito / 秘鲁豆奶酪沙拉 / solterito
+24. 129024 - `sopa-criolla` - Sopa Criolla / 秘鲁牛肉面汤 / sopa criolla
+25. 129025 - `chupe-de-camarones` - Chupe de Camarones / 秘鲁奶香虾汤 / chupe de camarones
+26. 129026 - `carapulcra` - Carapulcra / 秘鲁干土豆炖肉 / carapulcra
+27. 129027 - `adobo-arequipeno` - Adobo Arequipeño / 阿雷基帕腌炖猪肉 / adobo arequipeño
+28. 129028 - `pachamanca` - Pachamanca / 秘鲁土炉烤肉 / pachamanca
+29. 129029 - `mazamorra-morada` - Mazamorra Morada / 紫玉米甜羹 / mazamorra morada
+30. 129030 - `alfajores-peruvian` - Peruvian Alfajores / 秘鲁焦糖夹心饼 / alfajores
 
 ## Portuguese (portuguese) - 30
 
@@ -654,7 +726,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 105029 - `spanish-flan` - Flan / 西班牙焦糖布丁 / Flan
 30. 105030 - `bocadillo-de-calamares` - Bocadillo de Calamares / 炸鱿鱼圈长棍三明治 / Bocadillo de calamares
 
-## Surinamese (surinamese) - 11
+## Surinamese (surinamese) - 29
 
 1. 126001 - `roti-roll` - Surinamese Roti / 苏里南咖喱 roti / roti
 2. 126003 - `saoto-soep` - Saoto Soup / 苏里南 Saoto 鸡汤 / saoto soep
@@ -667,6 +739,24 @@ Generated from data/internal/index.js after the verified database quarantine aud
 9. 126010 - `bami-surinamese` - Surinamese Bami / 苏里南炒面 / bami
 10. 126011 - `peanut-soup-surinamese` - Surinamese Peanut Soup / 苏里南花生汤 / pindasoep
 11. 126012 - `bojo` - Bojo / 苏里南椰香木薯糕 / bojo
+12. 126013 - `kip-kerrie` - Kip Kerrie / 苏里南咖喱鸡 / kip kerrie
+13. 126014 - `bruine-bonen-met-rijst` - Bruine Bonen met Rijst / 红豆米饭 / bruine bonen met rijst
+14. 126015 - `pastei-surinamese` - Surinamese Pastei / 苏里南鸡肉派 / pastei
+15. 126016 - `doksa` - Doksa / 苏里南鸭肉咖喱 / doksa
+16. 126017 - `herheri` - Herheri / 苏里南根茎鱼盘 / herheri
+17. 126018 - `pepre-watra` - Pepre Watra / 苏里南辣鱼汤 / pepre watra
+18. 126019 - `goedangan` - Goedangan / 苏里南椰丝蔬菜沙拉 / goedangan
+19. 126020 - `pitjel` - Pitjel / 苏里南花生蔬菜 / pitjel
+20. 126021 - `bakabana` - Bakabana / 炸香蕉 / bakabana
+21. 126022 - `dawet` - Dawet / 苏里南椰奶饮甜品 / dawet
+22. 126023 - `fiadoe` - Fiadoe / 苏里南甜面包卷 / fiadoe
+23. 126024 - `maizena-koekjes` - Maizena Koekjes / 玉米淀粉小饼干 / maizena koekjes
+24. 126025 - `telo-bakkeljauw` - Telo Bakkeljauw / 炸木薯配咸鱼 / telo bakkeljauw
+25. 126026 - `kip-sate-surinamese` - Surinamese Kip Saté / 苏里南鸡肉沙爹 / kip saté
+26. 126027 - `cha-siu-surinamese` - Surinamese Cha Siu / 苏里南叉烧 / cha siu
+27. 126028 - `pom-sandwich` - Broodje Pom / 苏里南 Pom 三明治 / broodje pom
+28. 126029 - `roti-kip-kerrie` - Roti Kip Kerrie / 咖喱鸡薄饼套餐 / roti kip kerrie
+29. 126030 - `nasi-moksi-meti` - Nasi Moksi Meti / 混肉炒饭 / nasi moksi meti
 
 ## Thai (thai) - 30
 

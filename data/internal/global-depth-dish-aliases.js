@@ -2933,7 +2933,7 @@ export const globalDepthDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "kibe",
+    "alias": "kibe brasileiro",
     "dishId": "kibe-brazilian",
     "language": "menu",
     "matchType": "canonical",
@@ -2961,7 +2961,7 @@ export const globalDepthDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "tapioca",
+    "alias": "Brazilian tapioca crepe",
     "dishId": "tapioca-crepe",
     "language": "menu",
     "matchType": "canonical",
@@ -5012,7 +5012,7 @@ export const globalDepthDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "arroz con leche",
+    "alias": "arroz con leche mexicano",
     "dishId": "arroz-con-leche-mexican",
     "language": "menu",
     "matchType": "canonical",
@@ -6622,7 +6622,7 @@ export const globalDepthDishAliases = [
     "confidence": 0.94
   },
   {
-    "alias": "Ajiaco",
+    "alias": "Ajiaco Peruano",
     "dishId": "ajiaco-peruvian",
     "language": "menu",
     "matchType": "canonical",
@@ -6692,7 +6692,7 @@ export const globalDepthDishAliases = [
     "confidence": 0.94
   },
   {
-    "alias": "Jalea",
+    "alias": "Jalea Peruana",
     "dishId": "jalea",
     "language": "menu",
     "matchType": "canonical",

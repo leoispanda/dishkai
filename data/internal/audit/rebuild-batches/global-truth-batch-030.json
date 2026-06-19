@@ -1,0 +1,164 @@
+[
+  {
+    "dishId": "lamb-brochettes",
+    "metadataCode": "124013",
+    "cuisineId": "moroccan",
+    "name": "Lamb Brochettes",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "kefta-brochettes",
+    "metadataCode": "124014",
+    "cuisineId": "moroccan",
+    "name": "Kefta Brochettes",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "rfissa",
+    "metadataCode": "124015",
+    "cuisineId": "moroccan",
+    "name": "Rfissa",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "tanjia",
+    "metadataCode": "124016",
+    "cuisineId": "moroccan",
+    "name": "Tanjia",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "bissara",
+    "metadataCode": "124017",
+    "cuisineId": "moroccan",
+    "name": "Bissara",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "loubia",
+    "metadataCode": "124018",
+    "cuisineId": "moroccan",
+    "name": "Loubia",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "maakouda",
+    "metadataCode": "124019",
+    "cuisineId": "moroccan",
+    "name": "Maakouda",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "batbout",
+    "metadataCode": "124020",
+    "cuisineId": "moroccan",
+    "name": "Batbout",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "msemen",
+    "metadataCode": "124021",
+    "cuisineId": "moroccan",
+    "name": "Msemen",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "baghrir",
+    "metadataCode": "124022",
+    "cuisineId": "moroccan",
+    "name": "Baghrir",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "khobz",
+    "metadataCode": "124023",
+    "cuisineId": "moroccan",
+    "name": "Khobz",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "sardines-chermoula",
+    "metadataCode": "124024",
+    "cuisineId": "moroccan",
+    "name": "Sardines Chermoula",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "fish-tagine",
+    "metadataCode": "124025",
+    "cuisineId": "moroccan",
+    "name": "Fish Tagine",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "chicken-bastilla",
+    "metadataCode": "124026",
+    "cuisineId": "moroccan",
+    "name": "Chicken Bastilla",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "almond-briouat",
+    "metadataCode": "124027",
+    "cuisineId": "moroccan",
+    "name": "Almond Briouat",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "chebakia",
+    "metadataCode": "124028",
+    "cuisineId": "moroccan",
+    "name": "Chebakia",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "mhancha",
+    "metadataCode": "124029",
+    "cuisineId": "moroccan",
+    "name": "M’hanncha",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "sellou",
+    "metadataCode": "124030",
+    "cuisineId": "moroccan",
+    "name": "Sellou",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  }
+]

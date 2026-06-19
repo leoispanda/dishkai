@@ -1,0 +1,164 @@
+[
+  {
+    "dishId": "fajitas",
+    "metadataCode": "121013",
+    "cuisineId": "mexican",
+    "name": "Fajitas",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "tostadas",
+    "metadataCode": "121014",
+    "cuisineId": "mexican",
+    "name": "Tostadas",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "sopes",
+    "metadataCode": "121015",
+    "cuisineId": "mexican",
+    "name": "Sopes",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "gorditas",
+    "metadataCode": "121016",
+    "cuisineId": "mexican",
+    "name": "Gorditas",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "elote",
+    "metadataCode": "121017",
+    "cuisineId": "mexican",
+    "name": "Elote",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "esquites",
+    "metadataCode": "121018",
+    "cuisineId": "mexican",
+    "name": "Esquites",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "chilaquiles",
+    "metadataCode": "121019",
+    "cuisineId": "mexican",
+    "name": "Chilaquiles",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "huevos-rancheros",
+    "metadataCode": "121020",
+    "cuisineId": "mexican",
+    "name": "Huevos Rancheros",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "birria",
+    "metadataCode": "121021",
+    "cuisineId": "mexican",
+    "name": "Birria",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "birria-tacos",
+    "metadataCode": "121022",
+    "cuisineId": "mexican",
+    "name": "Birria Tacos",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "barbacoa",
+    "metadataCode": "121023",
+    "cuisineId": "mexican",
+    "name": "Barbacoa",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "carnitas",
+    "metadataCode": "121024",
+    "cuisineId": "mexican",
+    "name": "Carnitas",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "al-pastor",
+    "metadataCode": "121025",
+    "cuisineId": "mexican",
+    "name": "Tacos al Pastor",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "cochinita-pibil",
+    "metadataCode": "121026",
+    "cuisineId": "mexican",
+    "name": "Cochinita Pibil",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "sopa-de-lima",
+    "metadataCode": "121027",
+    "cuisineId": "mexican",
+    "name": "Sopa de Lima",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "aguachile",
+    "metadataCode": "121028",
+    "cuisineId": "mexican",
+    "name": "Aguachile",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "tres-leches-cake",
+    "metadataCode": "121029",
+    "cuisineId": "mexican",
+    "name": "Tres Leches Cake",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "arroz-con-leche-mexican",
+    "metadataCode": "121030",
+    "cuisineId": "mexican",
+    "name": "Mexican Arroz con Leche",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  }
+]

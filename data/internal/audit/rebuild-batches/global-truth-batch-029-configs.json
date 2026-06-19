@@ -1,0 +1,2045 @@
+[
+  {
+    "id": "fajitas",
+    "metadataCode": "121013",
+    "cuisineId": "mexican",
+    "names": {
+      "canonical": "Fajitas",
+      "local": "fajitas",
+      "en": "Fajitas",
+      "zh": "墨西哥铁板肉菜",
+      "nl": "Fajitas"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Sizzling grilled meat with peppers and onions, served with tortillas and toppings to assemble at the table.",
+      "zh": "铁板烤肉配甜椒、洋葱和饼皮上桌，通常自己包成卷吃。",
+      "nl": "Sissend gegrild vlees met paprika en ui, geserveerd met tortilla's en toppings om zelf te vullen."
+    },
+    "cookingProfile": {
+      "en": "Expect hot strips of meat and vegetables, plus soft tortillas rather than a pre-built taco.",
+      "zh": "通常是热的肉条和蔬菜，旁边配软饼，不是已经卷好的 taco。",
+      "nl": "Verwacht warme reepjes vlees en groente met zachte tortilla's, niet een kant-en-klare taco."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "first-timer-friendly"
+      ],
+      "description": {
+        "en": "Fajitas is kept as a verified mexican reference because its ordering cues are specific: grilled meat, peppers and onions, warm tortillas.",
+        "zh": "墨西哥铁板肉菜 被保留为 verified，是因为点餐识别点明确：grilled meat、peppers and onions、warm tortillas。",
+        "nl": "Fajitas blijft verified omdat de bestelkenmerken specifiek zijn: grilled meat, peppers and onions, warm tortillas."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        35,
+        "grilled-meat"
+      ],
+      [
+        "bell-pepper",
+        20,
+        "pepper-strips"
+      ],
+      [
+        "onion",
+        15,
+        "grilled-onion"
+      ],
+      [
+        "corn-tortilla",
+        20,
+        "wrapping"
+      ],
+      [
+        "salsa",
+        5,
+        "table-sauce",
+        "seasoning"
+      ],
+      [
+        "lime",
+        5,
+        "fresh-finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "grilled meat",
+      "peppers and onions",
+      "warm tortillas",
+      "salsa"
+    ],
+    "basicTaste": [
+      "savory",
+      "smoky",
+      "fresh",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "juicy meat strips",
+      "soft tortillas",
+      "sweet peppers"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "first-timer-friendly",
+      "sharing-friendly"
+    ],
+    "avoidIfTags": [
+      "no-meat",
+      "wants-saucy-dish"
+    ],
+    "orderVerdict": {
+      "en": "Good for sharing and easy customization; skip if you want a saucy plated dish instead of assembling bites.",
+      "zh": "适合分享，也方便自己调整配料；如果想要一盘带酱汁的成品菜，可以跳过。",
+      "nl": "Goed om te delen en zelf samen te stellen; sla over als je liever een sausachtig bordgerecht wilt."
+    },
+    "confidenceTag": "audited-global-truth-batch-029",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "tostadas",
+    "metadataCode": "121014",
+    "cuisineId": "mexican",
+    "names": {
+      "canonical": "Tostadas",
+      "local": "tostadas",
+      "en": "Tostadas",
+      "zh": "墨西哥脆玉米饼",
+      "nl": "Tostadas"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "fried",
+      "assembled"
+    ],
+    "servingTemperature": "hot-or-warm",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Crisp flat tortillas topped with beans, meat or seafood, salsa, lettuce, crema, and cheese.",
+      "zh": "炸脆的平玉米饼上铺豆泥、肉或海鲜、莎莎、生菜、酸奶油和奶酪。",
+      "nl": "Knapperige platte tortilla's met bonen, vlees of zeevruchten, salsa, sla, crema en kaas."
+    },
+    "cookingProfile": {
+      "en": "Served as crunchy open-faced shells; they can be messy but should feel fresh and crisp.",
+      "zh": "像开放式脆饼上桌，吃起来容易掉料，但重点是清爽和酥脆。",
+      "nl": "Geserveerd als open krokante schelpen; wat rommelig, maar fris en knapperig."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Tostadas is kept as a verified mexican reference because its ordering cues are specific: crisp tortilla, beans, salsa.",
+        "zh": "墨西哥脆玉米饼 被保留为 verified，是因为点餐识别点明确：crisp tortilla、beans、salsa。",
+        "nl": "Tostadas blijft verified omdat de bestelkenmerken specifiek zijn: crisp tortilla, beans, salsa."
+      }
+    },
+    "composition": [
+      [
+        "corn-tortilla",
+        35,
+        "crisp-base"
+      ],
+      [
+        "black-beans",
+        20,
+        "bean-layer"
+      ],
+      [
+        "chicken",
+        15,
+        "topping"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "lettuce-garnish"
+      ],
+      [
+        "cheese",
+        10,
+        "crumbly-topping"
+      ],
+      [
+        "salsa",
+        10,
+        "bright-sauce",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "crisp tortilla",
+      "beans",
+      "salsa",
+      "crema or cheese"
+    ],
+    "basicTaste": [
+      "savory",
+      "crunchy",
+      "fresh",
+      "tangy"
+    ],
+    "textureProfile": [
+      "crisp shell",
+      "soft beans",
+      "cool toppings"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "lighter-choice"
+    ],
+    "avoidIfTags": [
+      "dairy-allergy",
+      "wants-soft-food"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a crunchy, fresh snack or light meal; avoid if you dislike messy open-faced dishes.",
+      "zh": "想吃清爽酥脆的小食或轻餐可以点；不喜欢开放式易掉料的菜则不推荐。",
+      "nl": "Kies dit voor een frisse, knapperige snack of lichte maaltijd; vermijd als rommelige open gerechten je niet liggen."
+    },
+    "confidenceTag": "audited-global-truth-batch-029",
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "sopes",
+    "metadataCode": "121015",
+    "cuisineId": "mexican",
+    "names": {
+      "canonical": "Sopes",
+      "local": "sopes",
+      "en": "Sopes",
+      "zh": "墨西哥厚玉米饼",
+      "nl": "Sopes"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "servingTemperature": "hot-or-warm",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Thick masa cakes with raised edges, usually topped with beans, meat, salsa, lettuce, crema, and cheese.",
+      "zh": "厚玉米 masa 小饼边缘略高，上面常放豆泥、肉、莎莎、生菜、酸奶油和奶酪。",
+      "nl": "Dikke masakoekjes met opstaande rand, vaak met bonen, vlees, salsa, sla, crema en kaas."
+    },
+    "cookingProfile": {
+      "en": "The base is thicker and softer than a tostada, with toppings sitting in the shallow rim.",
+      "zh": "底部比 tostada 更厚更软，配料会放在浅浅的边缘内。",
+      "nl": "De bodem is dikker en zachter dan een tostada, met toppings in de lage rand."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "regional-dish"
+      ],
+      "description": {
+        "en": "Sopes is kept as a verified mexican reference because its ordering cues are specific: masa base, beans, salsa.",
+        "zh": "墨西哥厚玉米饼 被保留为 verified，是因为点餐识别点明确：masa base、beans、salsa。",
+        "nl": "Sopes blijft verified omdat de bestelkenmerken specifiek zijn: masa base, beans, salsa."
+      }
+    },
+    "composition": [
+      [
+        "masa-dough",
+        45,
+        "thick-corn-base"
+      ],
+      [
+        "black-beans",
+        20,
+        "bean-spread"
+      ],
+      [
+        "pork",
+        15,
+        "meat-topping"
+      ],
+      [
+        "salsa",
+        10,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "cheese",
+        5,
+        "crumbly-topping"
+      ],
+      [
+        "mixed-vegetables",
+        5,
+        "fresh-garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "masa base",
+      "beans",
+      "salsa",
+      "crema"
+    ],
+    "basicTaste": [
+      "savory",
+      "corny",
+      "tangy",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "thick soft base",
+      "creamy beans",
+      "fresh topping"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "filling-snack"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "dairy-allergy"
+    ],
+    "orderVerdict": {
+      "en": "A good choice if you want a filling corn-based street-food bite; ask about the topping if avoiding pork or dairy.",
+      "zh": "想要有饱腹感的玉米小食时适合点；不吃猪肉或奶制品要先问配料。",
+      "nl": "Goed als je een vullende maissnack wilt; vraag naar de topping bij geen varken of zuivel."
+    },
+    "confidenceTag": "audited-global-truth-batch-029",
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "gorditas",
+    "metadataCode": "121016",
+    "cuisineId": "mexican",
+    "names": {
+      "canonical": "Gorditas",
+      "local": "gorditas",
+      "en": "Gorditas",
+      "zh": "墨西哥夹馅玉米饼",
+      "nl": "Gorditas"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Thick split masa pockets filled with meat, beans, cheese, salsa, or other savory fillings.",
+      "zh": "厚玉米 masa 饼切开后夹肉、豆、奶酪、莎莎或其他咸味馅。",
+      "nl": "Dikke opengesneden masapockets gevuld met vlees, bonen, kaas, salsa of andere hartige vulling."
+    },
+    "cookingProfile": {
+      "en": "More like a stuffed corn pocket than a taco, with a soft, dense bite.",
+      "zh": "更像夹馅玉米口袋饼，不是薄 taco，口感更厚实柔软。",
+      "nl": "Meer een gevulde maispocket dan een taco, met een zachte, compacte beet."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Gorditas is kept as a verified mexican reference because its ordering cues are specific: thick masa, savory filling, salsa.",
+        "zh": "墨西哥夹馅玉米饼 被保留为 verified，是因为点餐识别点明确：thick masa、savory filling、salsa。",
+        "nl": "Gorditas blijft verified omdat de bestelkenmerken specifiek zijn: thick masa, savory filling, salsa."
+      }
+    },
+    "composition": [
+      [
+        "masa-dough",
+        50,
+        "corn-pocket"
+      ],
+      [
+        "pork",
+        20,
+        "filling"
+      ],
+      [
+        "black-beans",
+        15,
+        "bean-filling"
+      ],
+      [
+        "cheese",
+        10,
+        "melty-or-crumbly"
+      ],
+      [
+        "salsa",
+        5,
+        "sauce",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "thick masa",
+      "savory filling",
+      "salsa"
+    ],
+    "basicTaste": [
+      "savory",
+      "corny",
+      "hearty",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "dense corn pocket",
+      "soft filling",
+      "saucy edge"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "filling-choice"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "dairy-allergy",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Good when you want a hearty handheld corn dish; skip if you prefer a thin crispy shell.",
+      "zh": "想吃厚实手拿玉米夹馅饼时很合适；偏好薄脆饼壳则不推荐。",
+      "nl": "Goed voor een stevige handzame maisvulling; sla over als je een dunne krokante schelp zoekt."
+    },
+    "confidenceTag": "audited-global-truth-batch-029",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "elote",
+    "metadataCode": "121017",
+    "cuisineId": "mexican",
+    "names": {
+      "canonical": "Elote",
+      "local": "elote",
+      "en": "Elote",
+      "zh": "墨西哥街头玉米",
+      "nl": "Elote"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Mexican street corn on the cob, usually coated with mayo or crema, cheese, chili, and lime.",
+      "zh": "墨西哥街头烤玉米棒，常抹蛋黄酱或酸奶油，撒奶酪、辣椒和青柠。",
+      "nl": "Mexicaanse straatmais aan de kolf, vaak met mayo of crema, kaas, chili en limoen."
+    },
+    "cookingProfile": {
+      "en": "Served hot as a whole cob, with creamy, salty, tangy coating rather than a plain vegetable side.",
+      "zh": "通常整根热玉米上桌，外层是奶香、咸香和酸辣，不是普通蔬菜配菜。",
+      "nl": "Warm als hele kolf geserveerd, met romige zoute frisse laag in plaats van gewone groente."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "classic-dish",
+        "first-timer-friendly"
+      ],
+      "description": {
+        "en": "Elote is kept as a verified mexican reference because its ordering cues are specific: grilled corn, crema or mayo, chili.",
+        "zh": "墨西哥街头玉米 被保留为 verified，是因为点餐识别点明确：grilled corn、crema or mayo、chili。",
+        "nl": "Elote blijft verified omdat de bestelkenmerken specifiek zijn: grilled corn, crema or mayo, chili."
+      }
+    },
+    "composition": [
+      [
+        "corn",
+        65,
+        "corn-cob"
+      ],
+      [
+        "mayonnaise",
+        15,
+        "creamy-coating"
+      ],
+      [
+        "cheese",
+        10,
+        "salty-cheese"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "lime",
+        5,
+        "fresh-finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "grilled corn",
+      "crema or mayo",
+      "chili",
+      "lime"
+    ],
+    "basicTaste": [
+      "sweet",
+      "salty",
+      "creamy",
+      "tangy"
+    ],
+    "textureProfile": [
+      "juicy kernels",
+      "creamy coating",
+      "crumbly cheese"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "dairy-allergy",
+      "wants-non-messy-food"
+    ],
+    "orderVerdict": {
+      "en": "A friendly sweet-salty street snack; skip if mayo, dairy, or messy corn on the cob is a problem.",
+      "zh": "甜咸奶香的友好街头小食；如果介意蛋黄酱、奶制品或啃玉米棒会弄脏手，就不推荐。",
+      "nl": "Een toegankelijke zoet-zoute straatsnack; vermijd bij mayo, zuivel of als kluiven aan mais niet handig is."
+    },
+    "confidenceTag": "audited-global-truth-batch-029",
+    "spiceLevel": 1,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "esquites",
+    "metadataCode": "121018",
+    "cuisineId": "mexican",
+    "names": {
+      "canonical": "Esquites",
+      "local": "esquites",
+      "en": "Esquites",
+      "zh": "墨西哥杯装玉米",
+      "nl": "Esquites"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "simmered",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Mexican corn kernels served in a cup with mayo or crema, cheese, chili, lime, and cooking liquid.",
+      "zh": "杯装墨西哥玉米粒，拌蛋黄酱或酸奶油、奶酪、辣椒、青柠和少量汤汁。",
+      "nl": "Mexicaanse maiskorrels in een beker met mayo of crema, kaas, chili, limoen en wat kookvocht."
+    },
+    "cookingProfile": {
+      "en": "It has elote flavors but is spoonable and softer, often warm and juicy.",
+      "zh": "风味像 elote，但用勺吃，口感更软且多汁，通常热食。",
+      "nl": "Het smaakt als elote maar is lepelbaar, zachter en vaak warm en sappig."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Esquites is kept as a verified mexican reference because its ordering cues are specific: sweet corn, lime, chili.",
+        "zh": "墨西哥杯装玉米 被保留为 verified，是因为点餐识别点明确：sweet corn、lime、chili。",
+        "nl": "Esquites blijft verified omdat de bestelkenmerken specifiek zijn: sweet corn, lime, chili."
+      }
+    },
+    "composition": [
+      [
+        "corn",
+        70,
+        "corn-kernels"
+      ],
+      [
+        "mayonnaise",
+        10,
+        "creamy-mix"
+      ],
+      [
+        "cheese",
+        10,
+        "salty-cheese"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "lime",
+        5,
+        "fresh-finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "sweet corn",
+      "lime",
+      "chili",
+      "crema"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "tangy",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "juicy kernels",
+      "creamy dressing",
+      "spoonable cup"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "easy-snack"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "dairy-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it if you want elote flavor without eating from the cob; skip if creamy corn sounds too rich.",
+      "zh": "想要 elote 风味但不想啃玉米棒时适合；不喜欢奶香玉米则跳过。",
+      "nl": "Kies dit voor elote-smaak zonder kolf; sla over als romige mais te zwaar klinkt."
+    },
+    "confidenceTag": "audited-global-truth-batch-029",
+    "spiceLevel": 1,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "chilaquiles",
+    "metadataCode": "121019",
+    "cuisineId": "mexican",
+    "names": {
+      "canonical": "Chilaquiles",
+      "local": "chilaquiles",
+      "en": "Chilaquiles",
+      "zh": "墨西哥玉米片早餐",
+      "nl": "Chilaquiles"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "simmered",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Tortilla chips simmered in red or green salsa, often topped with crema, cheese, onion, and egg or chicken.",
+      "zh": "玉米脆片浸煮在红或绿莎莎里，常加酸奶油、奶酪、洋葱，以及鸡蛋或鸡肉。",
+      "nl": "Tortillachips gestoofd in rode of groene salsa, vaak met crema, kaas, ui en ei of kip."
+    },
+    "cookingProfile": {
+      "en": "The chips soften in sauce but should still have some edges; it is a saucy breakfast or brunch plate.",
+      "zh": "脆片会被酱汁泡软但仍有边缘口感，是带酱的早餐或早午餐菜。",
+      "nl": "De chips worden zachter in de saus maar houden wat rand; een sausachtig ontbijt- of brunchbord."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "breakfast"
+      ],
+      "description": {
+        "en": "Chilaquiles is kept as a verified mexican reference because its ordering cues are specific: salsa-soaked chips, crema, cheese.",
+        "zh": "墨西哥玉米片早餐 被保留为 verified，是因为点餐识别点明确：salsa-soaked chips、crema、cheese。",
+        "nl": "Chilaquiles blijft verified omdat de bestelkenmerken specifiek zijn: salsa-soaked chips, crema, cheese."
+      }
+    },
+    "composition": [
+      [
+        "tortilla-chips",
+        45,
+        "sauced-chips"
+      ],
+      [
+        "salsa",
+        25,
+        "red-or-green-sauce",
+        "seasoning"
+      ],
+      [
+        "egg",
+        10,
+        "optional-topping"
+      ],
+      [
+        "chicken",
+        10,
+        "optional-topping"
+      ],
+      [
+        "cheese",
+        5,
+        "crumbly-topping"
+      ],
+      [
+        "sour-cream",
+        5,
+        "crema"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "salsa-soaked chips",
+      "crema",
+      "cheese",
+      "egg or chicken"
+    ],
+    "basicTaste": [
+      "savory",
+      "tangy",
+      "saucy",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "soft-crisp chips",
+      "saucy base",
+      "creamy topping"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "breakfast",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "dairy-allergy",
+      "wants-crispy-dry-food"
+    ],
+    "orderVerdict": {
+      "en": "Great for a saucy Mexican breakfast plate; skip if you expect dry crunchy nachos.",
+      "zh": "适合想吃带酱的墨西哥早餐；如果期待干脆 nachos 口感，不要点错。",
+      "nl": "Goed voor een sausachtig Mexicaans ontbijtbord; verwacht geen droge knapperige nacho's."
+    },
+    "confidenceTag": "audited-global-truth-batch-029",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "huevos-rancheros",
+    "metadataCode": "121020",
+    "cuisineId": "mexican",
+    "names": {
+      "canonical": "Huevos Rancheros",
+      "local": "huevos rancheros",
+      "en": "Huevos Rancheros",
+      "zh": "牧场鸡蛋",
+      "nl": "Huevos rancheros"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "fried",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Fried eggs on tortillas with tomato-chili salsa, beans, and sometimes avocado or cheese.",
+      "zh": "煎蛋铺在玉米饼上，配番茄辣椒莎莎、豆类，有时加牛油果或奶酪。",
+      "nl": "Gebakken eieren op tortilla's met tomaat-chilisalsa, bonen en soms avocado of kaas."
+    },
+    "cookingProfile": {
+      "en": "Usually served hot as a breakfast plate, with runny or set eggs depending on the kitchen.",
+      "zh": "通常作为热早餐盘上桌，蛋黄流心或全熟取决于餐厅。",
+      "nl": "Meestal warm als ontbijtbord, met lopende of gestolde eieren afhankelijk van de keuken."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "breakfast"
+      ],
+      "description": {
+        "en": "Huevos Rancheros is kept as a verified mexican reference because its ordering cues are specific: fried eggs, tomato-chili salsa, beans.",
+        "zh": "牧场鸡蛋 被保留为 verified，是因为点餐识别点明确：fried eggs、tomato-chili salsa、beans。",
+        "nl": "Huevos rancheros blijft verified omdat de bestelkenmerken specifiek zijn: fried eggs, tomato-chili salsa, beans."
+      }
+    },
+    "composition": [
+      [
+        "egg",
+        35,
+        "fried-eggs"
+      ],
+      [
+        "corn-tortilla",
+        25,
+        "base"
+      ],
+      [
+        "salsa",
+        20,
+        "tomato-chili-sauce",
+        "seasoning"
+      ],
+      [
+        "black-beans",
+        15,
+        "side-or-base"
+      ],
+      [
+        "avocado",
+        5,
+        "optional-garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fried eggs",
+      "tomato-chili salsa",
+      "beans",
+      "tortilla"
+    ],
+    "basicTaste": [
+      "savory",
+      "tangy",
+      "mildly-spicy",
+      "hearty"
+    ],
+    "textureProfile": [
+      "runny or firm egg",
+      "soft tortilla",
+      "saucy beans"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "breakfast",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "A strong breakfast choice if you like eggs with salsa and beans; skip if eggs are not your thing.",
+      "zh": "喜欢鸡蛋配莎莎和豆类早餐的话很稳；不吃鸡蛋就不适合。",
+      "nl": "Een stevige ontbijtkeuze als je eieren met salsa en bonen lekker vindt; vermijd als ei niets voor je is."
+    },
+    "confidenceTag": "audited-global-truth-batch-029",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "birria",
+    "metadataCode": "121021",
+    "cuisineId": "mexican",
+    "names": {
+      "canonical": "Birria",
+      "local": "birria",
+      "en": "Birria",
+      "zh": "墨西哥慢炖肉汤",
+      "nl": "Birria"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "braised",
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Slow-braised meat in a chile-spiced broth, often served as a stew with consommé, onion, cilantro, and lime.",
+      "zh": "辣椒香料汤汁慢炖肉，常以炖菜形式配清汤、洋葱、香菜和青柠上桌。",
+      "nl": "Langzaam gestoofd vlees in chili-bouillon, vaak als stoofgerecht met consomme, ui, koriander en limoen."
+    },
+    "cookingProfile": {
+      "en": "Expect tender shredded meat and a deep red broth, not a dry grilled meat plate.",
+      "zh": "会是软烂肉丝和深红汤汁，不是干烤肉盘。",
+      "nl": "Verwacht zacht draadjesvlees en diepe rode bouillon, geen droog grillbord."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Birria is kept as a verified mexican reference because its ordering cues are specific: chile broth, slow-braised meat, cumin.",
+        "zh": "墨西哥慢炖肉汤 被保留为 verified，是因为点餐识别点明确：chile broth、slow-braised meat、cumin。",
+        "nl": "Birria blijft verified omdat de bestelkenmerken specifiek zijn: chile broth, slow-braised meat, cumin."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        55,
+        "braised-meat"
+      ],
+      [
+        "chili",
+        15,
+        "chile-broth",
+        "seasoning"
+      ],
+      [
+        "cumin",
+        10,
+        "warm-spice",
+        "seasoning"
+      ],
+      [
+        "cilantro",
+        5,
+        "fresh-garnish",
+        "seasoning"
+      ],
+      [
+        "onion",
+        5,
+        "garnish"
+      ],
+      [
+        "lime",
+        5,
+        "finish"
+      ],
+      [
+        "corn-tortilla",
+        5,
+        "side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "chile broth",
+      "slow-braised meat",
+      "cumin",
+      "lime"
+    ],
+    "basicTaste": [
+      "savory",
+      "deep",
+      "spiced",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "tender shredded meat",
+      "brothy consommé",
+      "fresh garnish"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "wants-light-food",
+      "avoids-chili"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for rich slow-braised meat and broth; skip if you want something light or not chile-based.",
+      "zh": "想吃浓郁慢炖肉和汤汁时很适合；想清淡或不吃辣椒底味则跳过。",
+      "nl": "Kies dit voor rijk langzaam gestoofd vlees met bouillon; sla over als je licht of zonder chili wilt eten."
+    },
+    "confidenceTag": "audited-global-truth-batch-029",
+    "spiceLevel": 2,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "birria-tacos",
+    "metadataCode": "121022",
+    "cuisineId": "mexican",
+    "names": {
+      "canonical": "Birria Tacos",
+      "local": "tacos de birria",
+      "en": "Birria Tacos",
+      "zh": "比利亚蘸汁塔可",
+      "nl": "Birria taco’s"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled",
+      "braised",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Tacos filled with birria meat, often griddled until crisp and served with consommé for dipping.",
+      "zh": "玉米饼夹 birria 炖肉，常煎到外层微脆，并配炖汤蘸着吃。",
+      "nl": "Taco's gevuld met birriavlees, vaak krokant gebakken en geserveerd met consomme om te dippen."
+    },
+    "cookingProfile": {
+      "en": "The key cue is juicy braised meat plus a broth dip; they are richer than ordinary soft tacos.",
+      "zh": "识别重点是多汁炖肉和蘸汤，比普通软 taco 更浓郁。",
+      "nl": "Het herkenningspunt is sappig stoofvlees met dipbouillon; rijker dan gewone zachte taco's."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "regional-dish"
+      ],
+      "description": {
+        "en": "Birria Tacos is kept as a verified mexican reference because its ordering cues are specific: birria meat, consommé dip, corn tortilla.",
+        "zh": "比利亚蘸汁塔可 被保留为 verified，是因为点餐识别点明确：birria meat、consommé dip、corn tortilla。",
+        "nl": "Birria taco’s blijft verified omdat de bestelkenmerken specifiek zijn: birria meat, consommé dip, corn tortilla."
+      }
+    },
+    "composition": [
+      [
+        "corn-tortilla",
+        35,
+        "taco-shell"
+      ],
+      [
+        "beef",
+        40,
+        "birria-filling"
+      ],
+      [
+        "cheese",
+        10,
+        "optional-melt"
+      ],
+      [
+        "chili",
+        5,
+        "broth-spice",
+        "seasoning"
+      ],
+      [
+        "cilantro",
+        5,
+        "fresh-garnish",
+        "seasoning"
+      ],
+      [
+        "lime",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "birria meat",
+      "consommé dip",
+      "corn tortilla",
+      "cilantro"
+    ],
+    "basicTaste": [
+      "savory",
+      "rich",
+      "spiced",
+      "juicy"
+    ],
+    "textureProfile": [
+      "crisp-edged tortilla",
+      "tender meat",
+      "brothy dip"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "dairy-allergy",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "A rich, popular taco choice if you like dipping and juicy meat; skip if you want a clean, light taco.",
+      "zh": "喜欢蘸汤和多汁肉馅时很值得点；想吃清爽不油的 taco 则不适合。",
+      "nl": "Een rijke populaire taco als je van dippen en sappig vlees houdt; vermijd voor een lichte schone taco."
+    },
+    "confidenceTag": "audited-global-truth-batch-029",
+    "spiceLevel": 2,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "barbacoa",
+    "metadataCode": "121023",
+    "cuisineId": "mexican",
+    "names": {
+      "canonical": "Barbacoa",
+      "local": "barbacoa",
+      "en": "Barbacoa",
+      "zh": "墨西哥慢烤肉",
+      "nl": "Barbacoa"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "braised"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Slow-cooked Mexican meat, commonly beef, lamb, or goat, served tender with tortillas, salsa, onion, and cilantro.",
+      "zh": "墨西哥慢熟肉，常见牛、羊或山羊肉，肉质软烂，配饼、莎莎、洋葱和香菜。",
+      "nl": "Langzaam gegaard Mexicaans vlees, vaak rund, lam of geit, met tortilla's, salsa, ui en koriander."
+    },
+    "cookingProfile": {
+      "en": "Usually tender and shreddable, with seasoning depth rather than grill char.",
+      "zh": "通常软烂可撕，重点是香料和慢煮风味，不是炭烤焦香。",
+      "nl": "Meestal mals en draadjesachtig, met kruidige diepte in plaats van grillschroeisel."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Barbacoa is kept as a verified mexican reference because its ordering cues are specific: slow-cooked meat, smoky chile, cilantro.",
+        "zh": "墨西哥慢烤肉 被保留为 verified，是因为点餐识别点明确：slow-cooked meat、smoky chile、cilantro。",
+        "nl": "Barbacoa blijft verified omdat de bestelkenmerken specifiek zijn: slow-cooked meat, smoky chile, cilantro."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        45,
+        "slow-cooked-meat"
+      ],
+      [
+        "beef",
+        25,
+        "possible-meat"
+      ],
+      [
+        "corn-tortilla",
+        15,
+        "serving"
+      ],
+      [
+        "chipotle",
+        5,
+        "smoky-chile",
+        "seasoning"
+      ],
+      [
+        "cilantro",
+        5,
+        "fresh-garnish",
+        "seasoning"
+      ],
+      [
+        "lime",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "slow-cooked meat",
+      "smoky chile",
+      "cilantro",
+      "lime"
+    ],
+    "basicTaste": [
+      "savory",
+      "deep",
+      "smoky",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "tender meat",
+      "soft tortilla",
+      "fresh garnish"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "regional-dish",
+      "filling-choice"
+    ],
+    "avoidIfTags": [
+      "no-red-meat",
+      "wants-crispy-food"
+    ],
+    "orderVerdict": {
+      "en": "Good if you want tender, deeply seasoned meat; ask which meat is used if you avoid lamb or beef.",
+      "zh": "想吃软烂香料肉时适合；如果不吃羊肉或牛肉，要先问具体肉类。",
+      "nl": "Goed voor mals diep gekruid vlees; vraag welk vlees wordt gebruikt als je lam of rund vermijdt."
+    },
+    "confidenceTag": "audited-global-truth-batch-029",
+    "spiceLevel": 2,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "carnitas",
+    "metadataCode": "121024",
+    "cuisineId": "mexican",
+    "names": {
+      "canonical": "Carnitas",
+      "local": "carnitas",
+      "en": "Carnitas",
+      "zh": "墨西哥慢炖猪肉",
+      "nl": "Carnitas"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "braised",
+      "fried"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Slow-cooked pork finished with crisp edges, usually served in tacos or as a filling with salsa and lime.",
+      "zh": "慢煮猪肉最后煎出微脆边缘，常作为 taco 或馅料配莎莎和青柠。",
+      "nl": "Langzaam gegaard varkensvlees met krokante randjes, vaak in taco's of als vulling met salsa en limoen."
+    },
+    "cookingProfile": {
+      "en": "Expect juicy pulled pork with browned edges, not a saucy stew.",
+      "zh": "会是多汁猪肉丝带焦脆边，不是带汤汁的炖菜。",
+      "nl": "Verwacht sappig draadjesvarkensvlees met gebruinde rand, geen stoofsaus."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "street-food"
+      ],
+      "description": {
+        "en": "Carnitas is kept as a verified mexican reference because its ordering cues are specific: slow-cooked pork, crisp edges, salsa.",
+        "zh": "墨西哥慢炖猪肉 被保留为 verified，是因为点餐识别点明确：slow-cooked pork、crisp edges、salsa。",
+        "nl": "Carnitas blijft verified omdat de bestelkenmerken specifiek zijn: slow-cooked pork, crisp edges, salsa."
+      }
+    },
+    "composition": [
+      [
+        "pork",
+        65,
+        "slow-cooked-pork"
+      ],
+      [
+        "corn-tortilla",
+        15,
+        "serving"
+      ],
+      [
+        "salsa",
+        10,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "onion",
+        5,
+        "garnish"
+      ],
+      [
+        "lime",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "slow-cooked pork",
+      "crisp edges",
+      "salsa",
+      "lime"
+    ],
+    "basicTaste": [
+      "savory",
+      "rich",
+      "porky",
+      "fresh"
+    ],
+    "textureProfile": [
+      "juicy shredded pork",
+      "crisp edges",
+      "soft tortilla"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "filling-choice"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "wants-lean-food"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for rich pork with crisp edges; skip if you avoid pork or want a leaner filling.",
+      "zh": "想吃带焦脆边的浓郁猪肉很适合；不吃猪肉或想清淡则跳过。",
+      "nl": "Kies dit voor rijk varkensvlees met krokante randjes; vermijd bij geen varken of als je mager wilt eten."
+    },
+    "confidenceTag": "audited-global-truth-batch-029",
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "al-pastor",
+    "metadataCode": "121025",
+    "cuisineId": "mexican",
+    "names": {
+      "canonical": "Tacos al Pastor",
+      "local": "tacos al pastor",
+      "en": "Tacos al Pastor",
+      "zh": "牧羊人猪肉塔可",
+      "nl": "Taco’s al pastor"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Marinated pork cooked on a vertical spit, usually served in tacos with pineapple, onion, cilantro, and salsa.",
+      "zh": "腌制猪肉在立式烤架上烤熟，常做成 taco，配菠萝、洋葱、香菜和莎莎。",
+      "nl": "Gemarineerd varkensvlees van een verticale spit, vaak in taco's met ananas, ui, koriander en salsa."
+    },
+    "cookingProfile": {
+      "en": "The cue is thin sliced pork with sweet pineapple and chile marinade, not generic grilled pork.",
+      "zh": "关键是薄切猪肉、甜菠萝和辣椒腌料，不是普通烤猪肉。",
+      "nl": "Het herkenningspunt is dun gesneden varken met zoete ananas en chilimarinade, geen gewone grillvarkenslap."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "signature-dish"
+      ],
+      "description": {
+        "en": "Tacos al Pastor is kept as a verified mexican reference because its ordering cues are specific: achiote-chile marinade, spit-roasted pork, pineapple.",
+        "zh": "牧羊人猪肉塔可 被保留为 verified，是因为点餐识别点明确：achiote-chile marinade、spit-roasted pork、pineapple。",
+        "nl": "Taco’s al pastor blijft verified omdat de bestelkenmerken specifiek zijn: achiote-chile marinade, spit-roasted pork, pineapple."
+      }
+    },
+    "composition": [
+      [
+        "pork",
+        55,
+        "spit-roasted-pork"
+      ],
+      [
+        "corn-tortilla",
+        20,
+        "taco"
+      ],
+      [
+        "pineapple",
+        10,
+        "sweet-topping"
+      ],
+      [
+        "achiote",
+        5,
+        "red-marinade",
+        "seasoning"
+      ],
+      [
+        "cilantro",
+        5,
+        "fresh-garnish",
+        "seasoning"
+      ],
+      [
+        "salsa",
+        5,
+        "sauce",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "achiote-chile marinade",
+      "spit-roasted pork",
+      "pineapple",
+      "cilantro"
+    ],
+    "basicTaste": [
+      "savory",
+      "sweet",
+      "spiced",
+      "fresh"
+    ],
+    "textureProfile": [
+      "thin pork slices",
+      "soft tortilla",
+      "juicy pineapple"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "signature-dish"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "dislikes-sweet-savory"
+    ],
+    "orderVerdict": {
+      "en": "A classic taco choice if you like pork with pineapple and chile marinade; skip if sweet-savory meat is not appealing.",
+      "zh": "喜欢猪肉、菠萝和辣椒腌料的话很经典；不喜欢甜咸肉类则不推荐。",
+      "nl": "Een klassieke taco als je varken met ananas en chilimarinade lekker vindt; vermijd als zoet-hartig vlees niet trekt."
+    },
+    "confidenceTag": "audited-global-truth-batch-029",
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "cochinita-pibil",
+    "metadataCode": "121026",
+    "cuisineId": "mexican",
+    "names": {
+      "canonical": "Cochinita Pibil",
+      "local": "cochinita pibil",
+      "en": "Cochinita Pibil",
+      "zh": "尤卡坦胭脂猪肉",
+      "nl": "Cochinita pibil"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "braised"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Yucatecan achiote-citrus pork, slow-cooked until tender and often served with pickled onion and tortillas.",
+      "zh": "尤卡坦风格胭脂树红柑橘猪肉，慢煮到软烂，常配腌洋葱和玉米饼。",
+      "nl": "Yucataans achiote-citrusvarkensvlees, langzaam gaar met ingelegde ui en tortilla's."
+    },
+    "cookingProfile": {
+      "en": "It should taste tangy, earthy, and deeply porky, with achiote giving the red color.",
+      "zh": "风味应带酸香、土香和浓郁猪肉味，红色主要来自 achiote。",
+      "nl": "Het hoort friszuur, aards en rijk varkensachtig te smaken, met rode kleur door achiote."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Cochinita Pibil is kept as a verified mexican reference because its ordering cues are specific: achiote, citrus marinade, slow-cooked pork.",
+        "zh": "尤卡坦胭脂猪肉 被保留为 verified，是因为点餐识别点明确：achiote、citrus marinade、slow-cooked pork。",
+        "nl": "Cochinita pibil blijft verified omdat de bestelkenmerken specifiek zijn: achiote, citrus marinade, slow-cooked pork."
+      }
+    },
+    "composition": [
+      [
+        "pork",
+        65,
+        "slow-cooked-pork"
+      ],
+      [
+        "achiote",
+        10,
+        "red-seasoning",
+        "seasoning"
+      ],
+      [
+        "orange",
+        10,
+        "citrus-marinade"
+      ],
+      [
+        "corn-tortilla",
+        10,
+        "serving"
+      ],
+      [
+        "onion",
+        5,
+        "pickled-garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "achiote",
+      "citrus marinade",
+      "slow-cooked pork",
+      "pickled onion"
+    ],
+    "basicTaste": [
+      "savory",
+      "tangy",
+      "earthy",
+      "rich"
+    ],
+    "textureProfile": [
+      "soft shredded pork",
+      "bright pickled onion",
+      "soft tortilla"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "regional-dish",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "wants-mild-neutral-food"
+    ],
+    "orderVerdict": {
+      "en": "Excellent if you want tender citrusy pork; skip if you avoid pork or dislike earthy achiote flavor.",
+      "zh": "想吃柑橘酸香的软烂猪肉很适合；不吃猪肉或不喜欢 achiote 土香则跳过。",
+      "nl": "Uitstekend voor mals citrusachtig varkensvlees; vermijd bij geen varken of als achiote-aardsheid niet bevalt."
+    },
+    "confidenceTag": "audited-global-truth-batch-029",
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "sopa-de-lima",
+    "metadataCode": "121027",
+    "cuisineId": "mexican",
+    "names": {
+      "canonical": "Sopa de Lima",
+      "local": "sopa de lima",
+      "en": "Sopa de Lima",
+      "zh": "尤卡坦青柠鸡汤",
+      "nl": "Sopa de lima"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Yucatecan lime soup with chicken, tomato, chile, herbs, and crisp tortilla strips.",
+      "zh": "尤卡坦青柠鸡汤，常有鸡肉、番茄、辣椒、香草和炸玉米饼条。",
+      "nl": "Yucataanse limoensoep met kip, tomaat, chili, kruiden en krokante tortillareepjes."
+    },
+    "cookingProfile": {
+      "en": "Expect a clear, citrusy soup with chicken rather than a creamy or heavy broth.",
+      "zh": "会是清爽柑橘感鸡汤，不是奶油浓汤或厚重汤底。",
+      "nl": "Verwacht een heldere citrusachtige kippensoep, geen romige of zware bouillon."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "lighter-choice"
+      ],
+      "description": {
+        "en": "Sopa de Lima is kept as a verified mexican reference because its ordering cues are specific: lime, chicken broth, tortilla strips.",
+        "zh": "尤卡坦青柠鸡汤 被保留为 verified，是因为点餐识别点明确：lime、chicken broth、tortilla strips。",
+        "nl": "Sopa de lima blijft verified omdat de bestelkenmerken specifiek zijn: lime, chicken broth, tortilla strips."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        35,
+        "shredded-chicken"
+      ],
+      [
+        "tomato",
+        15,
+        "broth-base"
+      ],
+      [
+        "lime",
+        15,
+        "citrus"
+      ],
+      [
+        "tortilla-chips",
+        15,
+        "crisp-strips"
+      ],
+      [
+        "chili",
+        10,
+        "gentle-heat",
+        "seasoning"
+      ],
+      [
+        "cilantro",
+        10,
+        "herbal-finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lime",
+      "chicken broth",
+      "tortilla strips",
+      "cilantro"
+    ],
+    "basicTaste": [
+      "sour",
+      "savory",
+      "fresh",
+      "light"
+    ],
+    "textureProfile": [
+      "clear broth",
+      "tender chicken",
+      "crisp strips"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "lighter-choice",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "avoids-citrus",
+      "wants-creamy-soup"
+    ],
+    "orderVerdict": {
+      "en": "Good for a bright, lighter soup; skip if sharp lime in broth is not your style.",
+      "zh": "想要明亮清爽汤品时适合；不喜欢汤里明显青柠酸味则跳过。",
+      "nl": "Goed voor een frisse lichte soep; sla over als duidelijke limoen in bouillon je niet ligt."
+    },
+    "confidenceTag": "audited-global-truth-batch-029",
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "aguachile",
+    "metadataCode": "121028",
+    "cuisineId": "mexican",
+    "names": {
+      "canonical": "Aguachile",
+      "local": "aguachile",
+      "en": "Aguachile",
+      "zh": "墨西哥辣青柠生虾",
+      "nl": "Aguachile"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "raw",
+      "assembled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "raw-or-cured",
+    "shortDescription": {
+      "en": "Raw shrimp or seafood cured in lime, chile, cucumber, and onion, served very fresh and spicy.",
+      "zh": "生虾或海鲜用青柠、辣椒、黄瓜和洋葱腌渍，通常非常清爽也偏辣。",
+      "nl": "Rauwe garnaal of zeevruchten gemarineerd in limoen, chili, komkommer en ui, heel fris en pittig."
+    },
+    "cookingProfile": {
+      "en": "It is closer to a raw cured seafood plate than a cooked shrimp dish.",
+      "zh": "它更接近生腌海鲜冷盘，不是熟虾热菜。",
+      "nl": "Het lijkt meer op rauw gemarineerde zeevruchten dan op een gaar garnalengerecht."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "seafood"
+      ],
+      "description": {
+        "en": "Aguachile is kept as a verified mexican reference because its ordering cues are specific: lime cure, fresh chile, raw shrimp.",
+        "zh": "墨西哥辣青柠生虾 被保留为 verified，是因为点餐识别点明确：lime cure、fresh chile、raw shrimp。",
+        "nl": "Aguachile blijft verified omdat de bestelkenmerken specifiek zijn: lime cure, fresh chile, raw shrimp."
+      }
+    },
+    "composition": [
+      [
+        "shrimp",
+        45,
+        "raw-or-cured-shrimp"
+      ],
+      [
+        "lime",
+        25,
+        "curing-acid"
+      ],
+      [
+        "cucumber",
+        10,
+        "crisp-garnish"
+      ],
+      [
+        "chili",
+        10,
+        "green-or-red-heat",
+        "seasoning"
+      ],
+      [
+        "onion",
+        5,
+        "sharp-garnish"
+      ],
+      [
+        "cilantro",
+        5,
+        "fresh-herb",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lime cure",
+      "fresh chile",
+      "raw shrimp",
+      "cucumber"
+    ],
+    "basicTaste": [
+      "sour",
+      "spicy",
+      "fresh",
+      "briny"
+    ],
+    "textureProfile": [
+      "firm raw-cured shrimp",
+      "crisp cucumber",
+      "sharp lime juice"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-raw-fish",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "seafood",
+      "acquired-taste"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "pregnant-or-raw-avoidance",
+      "avoids-spicy"
+    ],
+    "orderVerdict": {
+      "en": "Choose only if you enjoy raw-cured seafood and bright heat; avoid for shellfish allergy or raw-food concerns.",
+      "zh": "只有喜欢生腌海鲜和明亮辣味时才推荐；甲壳类过敏或避开生食时不要点。",
+      "nl": "Kies alleen als je rauw gemarineerde zeevruchten en felle pit lekker vindt; vermijd bij schaaldiersallergie of rauw-eten-zorg."
+    },
+    "confidenceTag": "audited-global-truth-batch-029",
+    "spiceLevel": 3,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 4,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "tres-leches-cake",
+    "metadataCode": "121029",
+    "cuisineId": "mexican",
+    "names": {
+      "canonical": "Tres Leches Cake",
+      "local": "pastel tres leches",
+      "en": "Tres Leches Cake",
+      "zh": "三奶蛋糕",
+      "nl": "Tres leches cake"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Sponge cake soaked with three milks, usually topped with whipped cream and sometimes cinnamon or fruit.",
+      "zh": "海绵蛋糕浸三种奶，通常覆打发奶油，有时加肉桂或水果。",
+      "nl": "Sponscake gedrenkt in drie soorten melk, meestal met slagroom en soms kaneel of fruit."
+    },
+    "cookingProfile": {
+      "en": "Served cool and very moist, with milk soaking through the cake rather than a dry crumb.",
+      "zh": "冷食，蛋糕非常湿润，奶液会渗透蛋糕体，不是干松蛋糕。",
+      "nl": "Koel geserveerd en heel vochtig, met melk door de cake in plaats van droge kruim."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "Tres Leches Cake is kept as a verified mexican reference because its ordering cues are specific: milk soak, cream, soft sponge.",
+        "zh": "三奶蛋糕 被保留为 verified，是因为点餐识别点明确：milk soak、cream、soft sponge。",
+        "nl": "Tres leches cake blijft verified omdat de bestelkenmerken specifiek zijn: milk soak, cream, soft sponge."
+      }
+    },
+    "composition": [
+      [
+        "sponge-cake",
+        45,
+        "cake-base"
+      ],
+      [
+        "milk-solids",
+        30,
+        "milk-soak"
+      ],
+      [
+        "cream",
+        15,
+        "topping"
+      ],
+      [
+        "sugar",
+        5,
+        "sweetness"
+      ],
+      [
+        "cinnamon",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "milk soak",
+      "cream",
+      "soft sponge",
+      "cinnamon"
+    ],
+    "basicTaste": [
+      "sweet",
+      "milky",
+      "creamy",
+      "mild"
+    ],
+    "textureProfile": [
+      "soaked cake",
+      "soft cream",
+      "cool dessert"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-egg",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "dessert",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "dairy-allergy",
+      "egg-allergy",
+      "wants-light-dessert"
+    ],
+    "orderVerdict": {
+      "en": "A safe choice for a soft milky dessert; skip if you dislike very moist cake.",
+      "zh": "想要柔软奶香甜点时很稳；不喜欢湿润蛋糕就不适合。",
+      "nl": "Een veilige keuze voor een zachte melkachtige dessert; vermijd als je erg vochtige cake niet lekker vindt."
+    },
+    "confidenceTag": "audited-global-truth-batch-029",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "arroz-con-leche-mexican",
+    "metadataCode": "121030",
+    "cuisineId": "mexican",
+    "names": {
+      "canonical": "Mexican Arroz con Leche",
+      "local": "arroz con leche",
+      "en": "Mexican Arroz con Leche",
+      "zh": "墨西哥米布丁",
+      "nl": "Mexicaanse rijstpudding"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "simmered",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Mexican rice pudding simmered with milk, sugar, cinnamon, and sometimes raisins.",
+      "zh": "墨西哥米布丁，用牛奶、糖、肉桂慢煮，有时加葡萄干。",
+      "nl": "Mexicaanse rijstpudding met melk, suiker, kaneel en soms rozijnen."
+    },
+    "cookingProfile": {
+      "en": "Usually creamy and spoonable, served warm or chilled depending on the restaurant.",
+      "zh": "通常奶香浓稠，用勺吃，餐厅可能热食也可能冷食。",
+      "nl": "Meestal romig en lepelbaar, warm of gekoeld afhankelijk van het restaurant."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "Mexican Arroz con Leche is kept as a verified mexican reference because its ordering cues are specific: cinnamon, milk, soft rice.",
+        "zh": "墨西哥米布丁 被保留为 verified，是因为点餐识别点明确：cinnamon、milk、soft rice。",
+        "nl": "Mexicaanse rijstpudding blijft verified omdat de bestelkenmerken specifiek zijn: cinnamon, milk, soft rice."
+      }
+    },
+    "composition": [
+      [
+        "short-grain-rice",
+        45,
+        "rice-base"
+      ],
+      [
+        "milk-solids",
+        30,
+        "milk-pudding"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
+      ],
+      [
+        "raisins",
+        10,
+        "optional-fruit"
+      ],
+      [
+        "cinnamon",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cinnamon",
+      "milk",
+      "soft rice",
+      "raisins"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "warm-spiced",
+      "mild"
+    ],
+    "textureProfile": [
+      "soft rice grains",
+      "creamy pudding",
+      "chewy raisins"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "dessert",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "dairy-allergy",
+      "dislikes-rice-pudding"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a gentle cinnamon rice pudding; skip if creamy rice desserts are not appealing.",
+      "zh": "想吃温和肉桂米布丁时适合；不喜欢奶香米类甜点则跳过。",
+      "nl": "Kies dit voor zachte kaneel-rijstpudding; vermijd als romige rijstdesserts je niet aanspreken."
+    },
+    "confidenceTag": "audited-global-truth-batch-029",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  }
+]

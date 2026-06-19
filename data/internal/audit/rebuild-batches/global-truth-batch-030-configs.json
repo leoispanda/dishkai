@@ -1,0 +1,2022 @@
+[
+  {
+    "id": "lamb-brochettes",
+    "metadataCode": "124013",
+    "cuisineId": "moroccan",
+    "names": {
+      "canonical": "Lamb Brochettes",
+      "local": "brochettes d’agneau",
+      "en": "Lamb Brochettes",
+      "zh": "摩洛哥羊肉串",
+      "nl": "Lamsbrochettes"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Moroccan lamb skewers seasoned with cumin, paprika, herbs, and charcoal grill flavor.",
+      "zh": "摩洛哥羊肉串，以孜然、红椒粉和香草调味，带炭烤香。",
+      "nl": "Marokkaanse lamsspiesen met komijn, paprika, kruiden en houtskoolgrillgeur."
+    },
+    "cookingProfile": {
+      "en": "Served hot as skewered grilled meat, often with bread, salad, or fries.",
+      "zh": "热的烤肉串上桌，常配面包、沙拉或薯条。",
+      "nl": "Warm als gegrilde spiesen, vaak met brood, salade of friet."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "grill"
+      ],
+      "description": {
+        "en": "Lamb Brochettes is kept as a verified moroccan reference because its ordering cues are specific: lamb, cumin, char grill.",
+        "zh": "摩洛哥羊肉串 被保留为 verified，是因为点餐识别点明确：lamb、cumin、char grill。",
+        "nl": "Lamsbrochettes blijft verified omdat de bestelkenmerken specifiek zijn: lamb, cumin, char grill."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        70,
+        "skewered-meat"
+      ],
+      [
+        "cumin",
+        10,
+        "earthy-spice",
+        "seasoning"
+      ],
+      [
+        "paprika",
+        10,
+        "red-spice",
+        "seasoning"
+      ],
+      [
+        "parsley",
+        5,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "bread",
+        5,
+        "side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lamb",
+      "cumin",
+      "char grill",
+      "parsley"
+    ],
+    "basicTaste": [
+      "savory",
+      "smoky",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "juicy meat cubes",
+      "charred edges",
+      "simple sides"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "grill",
+      "filling-choice"
+    ],
+    "avoidIfTags": [
+      "no-red-meat",
+      "dislikes-lamb"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for straightforward grilled lamb; skip if you dislike lamb's stronger flavor.",
+      "zh": "想吃直接的烤羊肉很合适；不喜欢羊肉膻香则跳过。",
+      "nl": "Kies dit voor direct gegrild lamsvlees; vermijd als je de sterke lamssmaak niet lekker vindt."
+    },
+    "confidenceTag": "audited-global-truth-batch-030",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "kefta-brochettes",
+    "metadataCode": "124014",
+    "cuisineId": "moroccan",
+    "names": {
+      "canonical": "Kefta Brochettes",
+      "local": "brochettes kefta",
+      "en": "Kefta Brochettes",
+      "zh": "摩洛哥肉末烤串",
+      "nl": "Kefta brochettes"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Ground meat skewers mixed with onion, parsley, cumin, paprika, and warm Moroccan spices.",
+      "zh": "肉末串混合洋葱、欧芹、孜然、红椒粉和摩洛哥暖香料。",
+      "nl": "Gehaktspiesen met ui, peterselie, komijn, paprika en warme Marokkaanse specerijen."
+    },
+    "cookingProfile": {
+      "en": "More tender and seasoned than plain meat cubes, usually grilled and served hot.",
+      "zh": "比普通肉块更软更多香料，通常热烤上桌。",
+      "nl": "Zachter en kruidiger dan vleesblokjes, meestal warm gegrild."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "grill"
+      ],
+      "description": {
+        "en": "Kefta Brochettes is kept as a verified moroccan reference because its ordering cues are specific: ground meat, cumin, parsley.",
+        "zh": "摩洛哥肉末烤串 被保留为 verified，是因为点餐识别点明确：ground meat、cumin、parsley。",
+        "nl": "Kefta brochettes blijft verified omdat de bestelkenmerken specifiek zijn: ground meat, cumin, parsley."
+      }
+    },
+    "composition": [
+      [
+        "ground-meat",
+        70,
+        "kefta-meat"
+      ],
+      [
+        "onion",
+        10,
+        "minced-aromatic"
+      ],
+      [
+        "parsley",
+        10,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "cumin",
+        5,
+        "spice",
+        "seasoning"
+      ],
+      [
+        "paprika",
+        5,
+        "spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "ground meat",
+      "cumin",
+      "parsley",
+      "grill smoke"
+    ],
+    "basicTaste": [
+      "savory",
+      "spiced",
+      "juicy"
+    ],
+    "textureProfile": [
+      "soft minced-meat texture",
+      "charred outside",
+      "herby aroma"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "grill",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "no-red-meat",
+      "wants-plain-meat"
+    ],
+    "orderVerdict": {
+      "en": "Good if you like juicy spiced minced-meat skewers; skip if you want a very plain grill.",
+      "zh": "喜欢多汁香料肉末串时适合；想要极简原味烤肉则不推荐。",
+      "nl": "Goed voor sappige kruidige gehaktspiesen; sla over als je heel simpele grill wilt."
+    },
+    "confidenceTag": "audited-global-truth-batch-030",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "rfissa",
+    "metadataCode": "124015",
+    "cuisineId": "moroccan",
+    "names": {
+      "canonical": "Rfissa",
+      "local": "rfissa",
+      "en": "Rfissa",
+      "zh": "摩洛哥鸡肉扁豆面饼",
+      "nl": "Rfissa"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "braised",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Moroccan chicken with lentils and fenugreek served over shredded msemen or thin bread.",
+      "zh": "摩洛哥鸡肉扁豆葫芦巴炖菜，铺在撕碎的 msemen 或薄饼上。",
+      "nl": "Marokkaanse kip met linzen en fenegriek over gescheurde msemen of dun brood."
+    },
+    "cookingProfile": {
+      "en": "Expect a saucy, aromatic chicken dish where bread soaks up the broth.",
+      "zh": "会是带汤汁的香料鸡肉，下面的饼会吸收汤汁。",
+      "nl": "Verwacht een sausachtig aromatisch kipgerecht waarbij brood de bouillon opneemt."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "Rfissa is kept as a verified moroccan reference because its ordering cues are specific: fenugreek, saffron, braised chicken.",
+        "zh": "摩洛哥鸡肉扁豆面饼 被保留为 verified，是因为点餐识别点明确：fenugreek、saffron、braised chicken。",
+        "nl": "Rfissa blijft verified omdat de bestelkenmerken specifiek zijn: fenugreek, saffron, braised chicken."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        40,
+        "braised-chicken"
+      ],
+      [
+        "thin-pancakes",
+        30,
+        "shredded-msemen"
+      ],
+      [
+        "lentils",
+        15,
+        "lentils"
+      ],
+      [
+        "fenugreek",
+        5,
+        "distinctive-spice",
+        "seasoning"
+      ],
+      [
+        "saffron",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "onion",
+        5,
+        "aromatic-base"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fenugreek",
+      "saffron",
+      "braised chicken",
+      "soaked bread"
+    ],
+    "basicTaste": [
+      "savory",
+      "warm-spiced",
+      "earthy",
+      "rich"
+    ],
+    "textureProfile": [
+      "soft soaked bread",
+      "tender chicken",
+      "saucy lentils"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "dislikes-fenugreek"
+    ],
+    "orderVerdict": {
+      "en": "A hearty regional comfort dish; skip if you dislike bread soaked in sauce or fenugreek aroma.",
+      "zh": "这是很有饱腹感的地方家常菜；不喜欢泡汤饼或葫芦巴香气则跳过。",
+      "nl": "Een stevig regionaal comfortgerecht; vermijd als je geweekt brood of fenegriekaroma niet lekker vindt."
+    },
+    "confidenceTag": "audited-global-truth-batch-030",
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "tanjia",
+    "metadataCode": "124016",
+    "cuisineId": "moroccan",
+    "names": {
+      "canonical": "Tanjia",
+      "local": "tanjia",
+      "en": "Tanjia",
+      "zh": "马拉喀什慢炖肉",
+      "nl": "Tanjia"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "braised"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Marrakesh-style slow-cooked meat, usually lamb or beef, with preserved lemon, cumin, garlic, and saffron.",
+      "zh": "马拉喀什风格慢炖肉，常用羊或牛，配腌柠檬、孜然、蒜和藏红花。",
+      "nl": "Marrakesh-stijl langzaam gegaard vlees, vaak lam of rund, met ingelegde citroen, komijn, knoflook en saffraan."
+    },
+    "cookingProfile": {
+      "en": "It should be very tender and deeply savory, with citrus-spice depth rather than a thick tomato sauce.",
+      "zh": "肉应非常软烂，咸鲜中带柑橘香料深度，不是厚番茄酱炖肉。",
+      "nl": "Het hoort zeer mals en diep hartig te zijn, met citrus-kruiddiepte in plaats van dikke tomatensaus."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Tanjia is kept as a verified moroccan reference because its ordering cues are specific: preserved lemon, slow-cooked lamb, cumin.",
+        "zh": "马拉喀什慢炖肉 被保留为 verified，是因为点餐识别点明确：preserved lemon、slow-cooked lamb、cumin。",
+        "nl": "Tanjia blijft verified omdat de bestelkenmerken specifiek zijn: preserved lemon, slow-cooked lamb, cumin."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        60,
+        "slow-cooked-meat"
+      ],
+      [
+        "lemon",
+        15,
+        "preserved-lemon"
+      ],
+      [
+        "garlic",
+        10,
+        "aromatic",
+        "seasoning"
+      ],
+      [
+        "cumin",
+        5,
+        "spice",
+        "seasoning"
+      ],
+      [
+        "saffron",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "richness",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "preserved lemon",
+      "slow-cooked lamb",
+      "cumin",
+      "saffron"
+    ],
+    "basicTaste": [
+      "savory",
+      "rich",
+      "citrusy",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "fall-apart meat",
+      "glossy sauce",
+      "soft aromatics"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "regional-dish",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "dislikes-lamb",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for tender slow-cooked meat with preserved-lemon depth; skip if lamb or rich stews are not appealing.",
+      "zh": "想吃腌柠檬香的软烂慢炖肉时适合；不喜欢羊肉或浓炖菜则跳过。",
+      "nl": "Kies dit voor mals stoofvlees met ingelegde-citroendiepte; vermijd als lam of rijke stoof niet aanspreekt."
+    },
+    "confidenceTag": "audited-global-truth-batch-030",
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "bissara",
+    "metadataCode": "124017",
+    "cuisineId": "moroccan",
+    "names": {
+      "canonical": "Bissara",
+      "local": "bissara",
+      "en": "Bissara",
+      "zh": "摩洛哥蚕豆汤",
+      "nl": "Bissara"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Moroccan fava bean soup or puree, often finished with olive oil, cumin, paprika, and bread.",
+      "zh": "摩洛哥蚕豆浓汤或豆泥，常淋橄榄油，撒孜然和红椒粉，配面包。",
+      "nl": "Marokkaanse tuinbonensoep of puree met olijfolie, komijn, paprika en brood."
+    },
+    "cookingProfile": {
+      "en": "It is humble, thick, and beany, closer to a dip-soup than a clear broth.",
+      "zh": "朴实浓稠豆香，更像豆泥汤，不是清汤。",
+      "nl": "Bescheiden, dik en bonig, meer dip-soep dan heldere bouillon."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "common",
+        "lighter-choice"
+      ],
+      "description": {
+        "en": "Bissara is kept as a verified moroccan reference because its ordering cues are specific: fava beans, olive oil, cumin.",
+        "zh": "摩洛哥蚕豆汤 被保留为 verified，是因为点餐识别点明确：fava beans、olive oil、cumin。",
+        "nl": "Bissara blijft verified omdat de bestelkenmerken specifiek zijn: fava beans, olive oil, cumin."
+      }
+    },
+    "composition": [
+      [
+        "fava-beans",
+        70,
+        "bean-base"
+      ],
+      [
+        "olive-oil",
+        10,
+        "finish",
+        "seasoning"
+      ],
+      [
+        "cumin",
+        10,
+        "spice",
+        "seasoning"
+      ],
+      [
+        "paprika",
+        5,
+        "spice",
+        "seasoning"
+      ],
+      [
+        "bread",
+        5,
+        "side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fava beans",
+      "olive oil",
+      "cumin",
+      "paprika"
+    ],
+    "basicTaste": [
+      "earthy",
+      "savory",
+      "mild",
+      "nutty"
+    ],
+    "textureProfile": [
+      "thick puree",
+      "soft beans",
+      "oily finish"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegan"
+    ],
+    "goodForTags": [
+      "lighter-choice",
+      "vegan-friendly"
+    ],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "wants-meat"
+    ],
+    "orderVerdict": {
+      "en": "Good for a simple earthy bean soup; skip if you want a complex meat dish.",
+      "zh": "想吃朴实豆香汤/豆泥时适合；想要复杂肉菜则不推荐。",
+      "nl": "Goed voor een eenvoudige aardse bonensoep; sla over als je een complex vleesgerecht wilt."
+    },
+    "confidenceTag": "audited-global-truth-batch-030",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "low"
+  },
+  {
+    "id": "loubia",
+    "metadataCode": "124018",
+    "cuisineId": "moroccan",
+    "names": {
+      "canonical": "Loubia",
+      "local": "loubia",
+      "en": "Loubia",
+      "zh": "摩洛哥白豆炖菜",
+      "nl": "Loubia"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Moroccan white bean stew in tomato sauce with garlic, cumin, paprika, and olive oil.",
+      "zh": "摩洛哥白豆番茄炖菜，带蒜、孜然、红椒粉和橄榄油。",
+      "nl": "Marokkaanse wittebonenstoof in tomatensaus met knoflook, komijn, paprika en olijfolie."
+    },
+    "cookingProfile": {
+      "en": "Expect soft beans in a warm tomato-spice sauce, often eaten with bread.",
+      "zh": "会是软白豆配温暖番茄香料汁，常用面包蘸着吃。",
+      "nl": "Verwacht zachte bonen in warme tomaat-kruidensaus, vaak met brood gegeten."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "common",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "Loubia is kept as a verified moroccan reference because its ordering cues are specific: white beans, tomato sauce, cumin.",
+        "zh": "摩洛哥白豆炖菜 被保留为 verified，是因为点餐识别点明确：white beans、tomato sauce、cumin。",
+        "nl": "Loubia blijft verified omdat de bestelkenmerken specifiek zijn: white beans, tomato sauce, cumin."
+      }
+    },
+    "composition": [
+      [
+        "white-beans",
+        60,
+        "beans"
+      ],
+      [
+        "tomato-sauce",
+        20,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "aromatic",
+        "seasoning"
+      ],
+      [
+        "cumin",
+        5,
+        "spice",
+        "seasoning"
+      ],
+      [
+        "paprika",
+        5,
+        "spice",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "white beans",
+      "tomato sauce",
+      "cumin",
+      "olive oil"
+    ],
+    "basicTaste": [
+      "savory",
+      "earthy",
+      "tomato-rich",
+      "mild"
+    ],
+    "textureProfile": [
+      "soft beans",
+      "thick sauce",
+      "bread-friendly"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegan"
+    ],
+    "goodForTags": [
+      "comfort-food",
+      "vegan-friendly"
+    ],
+    "avoidIfTags": [
+      "wants-meat",
+      "avoids-beans"
+    ],
+    "orderVerdict": {
+      "en": "A comforting bean stew and a solid vegetarian-style choice; skip if beans feel too heavy.",
+      "zh": "这是舒服的豆类炖菜，也是不错的素食型选择；觉得豆子太撑就跳过。",
+      "nl": "Een troostrijke bonenstoof en goede vegetarische keuze; vermijd als bonen te zwaar voelen."
+    },
+    "confidenceTag": "audited-global-truth-batch-030",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "low"
+  },
+  {
+    "id": "maakouda",
+    "metadataCode": "124019",
+    "cuisineId": "moroccan",
+    "names": {
+      "canonical": "Maakouda",
+      "local": "maakouda",
+      "en": "Maakouda",
+      "zh": "摩洛哥炸土豆饼",
+      "nl": "Maakouda"
+    },
+    "category": "fried-snack",
+    "cookingMethods": [
+      "fried"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Moroccan fried potato patties, often seasoned with herbs and spices and served as a snack or sandwich filling.",
+      "zh": "摩洛哥炸土豆饼，常加香草香料，可作小食或夹进三明治。",
+      "nl": "Marokkaanse gefrituurde aardappelkoekjes met kruiden, als snack of broodvulling."
+    },
+    "cookingProfile": {
+      "en": "Served hot and crisp outside with a soft potato center.",
+      "zh": "热食上桌，外脆内软，是土豆馅心。",
+      "nl": "Warm geserveerd, krokant buiten en zacht aardappelig binnen."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "fried-snack"
+      ],
+      "description": {
+        "en": "Maakouda is kept as a verified moroccan reference because its ordering cues are specific: potato, cumin, parsley.",
+        "zh": "摩洛哥炸土豆饼 被保留为 verified，是因为点餐识别点明确：potato、cumin、parsley。",
+        "nl": "Maakouda blijft verified omdat de bestelkenmerken specifiek zijn: potato, cumin, parsley."
+      }
+    },
+    "composition": [
+      [
+        "potato",
+        70,
+        "mashed-potato"
+      ],
+      [
+        "egg",
+        10,
+        "binder"
+      ],
+      [
+        "parsley",
+        5,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "cumin",
+        5,
+        "spice",
+        "seasoning"
+      ],
+      [
+        "bread",
+        5,
+        "sandwich-optional"
+      ],
+      [
+        "chili",
+        5,
+        "optional-heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "potato",
+      "cumin",
+      "parsley",
+      "fried crust"
+    ],
+    "basicTaste": [
+      "savory",
+      "starchy",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "crisp crust",
+      "soft potato",
+      "snack-size"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "fried-snack"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "gluten-allergy",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Good as a warm fried potato snack; skip if you avoid fried food or egg binders.",
+      "zh": "想吃热的炸土豆小食时适合；避开油炸或鸡蛋时不推荐。",
+      "nl": "Goed als warme gefrituurde aardappelsnack; vermijd bij gefrituurd eten of ei."
+    },
+    "confidenceTag": "audited-global-truth-batch-030",
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "batbout",
+    "metadataCode": "124020",
+    "cuisineId": "moroccan",
+    "names": {
+      "canonical": "Batbout",
+      "local": "batbout",
+      "en": "Batbout",
+      "zh": "摩洛哥小圆面包",
+      "nl": "Batbout"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "grilled",
+      "baked"
+    ],
+    "servingTemperature": "hot-or-warm",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Small Moroccan semolina-wheat pocket bread, often served with dips or filled as a sandwich.",
+      "zh": "小号摩洛哥粗粒麦粉口袋面包，常配蘸酱或夹馅吃。",
+      "nl": "Klein Marokkaans griesmeel-tarwebroodje, met dips of gevuld als sandwich."
+    },
+    "cookingProfile": {
+      "en": "Soft and bready rather than crisp, usually a supporting bread item.",
+      "zh": "口感柔软像面包，不是脆饼，通常是配菜或夹馅载体。",
+      "nl": "Zacht en broodachtig, niet krokant; meestal ondersteunend brood."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "bread",
+        "common"
+      ],
+      "description": {
+        "en": "Batbout is kept as a verified moroccan reference because its ordering cues are specific: semolina, soft bread, olive oil.",
+        "zh": "摩洛哥小圆面包 被保留为 verified，是因为点餐识别点明确：semolina、soft bread、olive oil。",
+        "nl": "Batbout blijft verified omdat de bestelkenmerken specifiek zijn: semolina, soft bread, olive oil."
+      }
+    },
+    "composition": [
+      [
+        "semolina",
+        40,
+        "bread-dough"
+      ],
+      [
+        "wheat-flour",
+        40,
+        "bread-dough"
+      ],
+      [
+        "olive-oil",
+        10,
+        "softness",
+        "seasoning"
+      ],
+      [
+        "honey",
+        5,
+        "optional-sweetness"
+      ],
+      [
+        "sea-salt",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "semolina",
+      "soft bread",
+      "olive oil"
+    ],
+    "basicTaste": [
+      "mild",
+      "bready",
+      "slightly-sweet"
+    ],
+    "textureProfile": [
+      "soft pocket",
+      "light chew",
+      "warm bread"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "bread",
+      "sharing-friendly"
+    ],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "wants-main-dish"
+    ],
+    "orderVerdict": {
+      "en": "Order it as soft bread for dips or fillings; skip if you need a full main course.",
+      "zh": "适合作为配蘸酱或夹馅的软面包；想要完整主菜则不够。",
+      "nl": "Bestel als zacht brood voor dips of vulling; sla over als je een volwaardig hoofdgerecht zoekt."
+    },
+    "confidenceTag": "audited-global-truth-batch-030",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "low"
+  },
+  {
+    "id": "msemen",
+    "metadataCode": "124021",
+    "cuisineId": "moroccan",
+    "names": {
+      "canonical": "Msemen",
+      "local": "msemen",
+      "en": "Msemen",
+      "zh": "摩洛哥方形煎饼",
+      "nl": "Msemen"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "servingTemperature": "hot-or-warm",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Layered Moroccan square flatbread, flaky and chewy, eaten plain, with honey, or with savory fillings.",
+      "zh": "摩洛哥方形分层煎饼，带韧性和层次，可配蜂蜜或咸馅。",
+      "nl": "Gelaagd Marokkaans vierkant platbrood, vlokkig en taai, naturel, met honing of hartige vulling."
+    },
+    "cookingProfile": {
+      "en": "Usually griddled with oil, so it is richer than plain bread.",
+      "zh": "通常用油煎，油润感比普通面包更强。",
+      "nl": "Meestal met olie gebakken, dus rijker dan gewoon brood."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "bread",
+        "breakfast"
+      ],
+      "description": {
+        "en": "Msemen is kept as a verified moroccan reference because its ordering cues are specific: layered dough, griddled oil, honey optional.",
+        "zh": "摩洛哥方形煎饼 被保留为 verified，是因为点餐识别点明确：layered dough、griddled oil、honey optional。",
+        "nl": "Msemen blijft verified omdat de bestelkenmerken specifiek zijn: layered dough, griddled oil, honey optional."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        45,
+        "dough"
+      ],
+      [
+        "semolina",
+        25,
+        "layering"
+      ],
+      [
+        "olive-oil",
+        15,
+        "griddling-fat",
+        "seasoning"
+      ],
+      [
+        "honey",
+        10,
+        "optional-sweet-side"
+      ],
+      [
+        "sea-salt",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "layered dough",
+      "griddled oil",
+      "honey optional"
+    ],
+    "basicTaste": [
+      "bready",
+      "rich",
+      "mild",
+      "slightly-sweet"
+    ],
+    "textureProfile": [
+      "flaky layers",
+      "chewy center",
+      "oily edge"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "breakfast",
+      "bread"
+    ],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Good for a flaky breakfast bread or side; skip if oily flatbread sounds too heavy.",
+      "zh": "适合作为分层早餐饼或配菜；不喜欢油润煎饼则跳过。",
+      "nl": "Goed als vlokkig ontbijtbrood of bijgerecht; vermijd als olieachtig platbrood te zwaar klinkt."
+    },
+    "confidenceTag": "audited-global-truth-batch-030",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "baghrir",
+    "metadataCode": "124022",
+    "cuisineId": "moroccan",
+    "names": {
+      "canonical": "Baghrir",
+      "local": "baghrir",
+      "en": "Baghrir",
+      "zh": "千孔薄饼",
+      "nl": "Baghrir"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "servingTemperature": "hot-or-warm",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Spongy Moroccan semolina pancakes with many tiny holes, usually served with honey-butter syrup.",
+      "zh": "多孔海绵状摩洛哥粗粒麦粉薄饼，通常配蜂蜜黄油糖浆。",
+      "nl": "Sponzige Marokkaanse griesmeelpannenkoekjes met veel gaatjes, vaak met honing-botersiroop."
+    },
+    "cookingProfile": {
+      "en": "Soft and absorbent, made to soak up honey or butter rather than to be crisp.",
+      "zh": "口感柔软吸汁，重点是吸收蜂蜜或黄油，不追求酥脆。",
+      "nl": "Zacht en absorberend, bedoeld voor honing of boter, niet krokant."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "breakfast",
+        "dessert"
+      ],
+      "description": {
+        "en": "Baghrir is kept as a verified moroccan reference because its ordering cues are specific: semolina pancake, honey, butter.",
+        "zh": "千孔薄饼 被保留为 verified，是因为点餐识别点明确：semolina pancake、honey、butter。",
+        "nl": "Baghrir blijft verified omdat de bestelkenmerken specifiek zijn: semolina pancake, honey, butter."
+      }
+    },
+    "composition": [
+      [
+        "semolina",
+        50,
+        "pancake-base"
+      ],
+      [
+        "wheat-flour",
+        20,
+        "batter"
+      ],
+      [
+        "honey",
+        15,
+        "syrup"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "sugar",
+        5,
+        "sweetness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "semolina pancake",
+      "honey",
+      "butter"
+    ],
+    "basicTaste": [
+      "sweet",
+      "mild",
+      "buttery"
+    ],
+    "textureProfile": [
+      "spongy holes",
+      "soft pancake",
+      "syrup-soaked"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "breakfast",
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "dairy-allergy",
+      "wants-savory-food"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a gentle honeyed breakfast sweet; skip if you want savory or crisp food.",
+      "zh": "想吃温和蜂蜜早餐甜点时适合；想吃咸味或酥脆口感则跳过。",
+      "nl": "Kies dit voor een zachte honingzoete ontbijtoptie; vermijd als je hartig of krokant wilt."
+    },
+    "confidenceTag": "audited-global-truth-batch-030",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "khobz",
+    "metadataCode": "124023",
+    "cuisineId": "moroccan",
+    "names": {
+      "canonical": "Khobz",
+      "local": "khobz",
+      "en": "Khobz",
+      "zh": "摩洛哥圆面包",
+      "nl": "Khobz"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "hot-or-warm",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Round Moroccan bread used for scooping tagines, salads, dips, and stews.",
+      "zh": "圆形摩洛哥面包，常用来蘸塔吉锅、沙拉、蘸酱和炖菜。",
+      "nl": "Rond Marokkaans brood om tajines, salades, dips en stoofgerechten mee te scheppen."
+    },
+    "cookingProfile": {
+      "en": "A staple side bread with a chewy crust and soft interior.",
+      "zh": "是基础配面包，外皮有嚼劲，内部柔软。",
+      "nl": "Een basisbrood met taaie korst en zachte binnenkant."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "bread",
+        "common"
+      ],
+      "description": {
+        "en": "Khobz is kept as a verified moroccan reference because its ordering cues are specific: wheat bread, semolina, sesame.",
+        "zh": "摩洛哥圆面包 被保留为 verified，是因为点餐识别点明确：wheat bread、semolina、sesame。",
+        "nl": "Khobz blijft verified omdat de bestelkenmerken specifiek zijn: wheat bread, semolina, sesame."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        60,
+        "bread-base"
+      ],
+      [
+        "semolina",
+        25,
+        "crumb-texture"
+      ],
+      [
+        "olive-oil",
+        5,
+        "softness",
+        "seasoning"
+      ],
+      [
+        "sea-salt",
+        5,
+        "seasoning",
+        "seasoning"
+      ],
+      [
+        "sesame-seeds",
+        5,
+        "optional-top"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "wheat bread",
+      "semolina",
+      "sesame"
+    ],
+    "basicTaste": [
+      "mild",
+      "bready",
+      "savory"
+    ],
+    "textureProfile": [
+      "chewy crust",
+      "soft crumb",
+      "tearable"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-sesame"
+    ],
+    "dietaryFlags": [
+      "vegan"
+    ],
+    "goodForTags": [
+      "bread",
+      "sharing-friendly"
+    ],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "wants-standalone-main"
+    ],
+    "orderVerdict": {
+      "en": "Order it to scoop sauces and stews; skip if you are looking for a dish by itself.",
+      "zh": "适合用来蘸酱汁和炖菜；如果想点一道独立菜，它不够。",
+      "nl": "Bestel om sauzen en stoof te scheppen; sla over als je een zelfstandig gerecht zoekt."
+    },
+    "confidenceTag": "audited-global-truth-batch-030",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "low"
+  },
+  {
+    "id": "sardines-chermoula",
+    "metadataCode": "124024",
+    "cuisineId": "moroccan",
+    "names": {
+      "canonical": "Sardines Chermoula",
+      "local": "sardines chermoula",
+      "en": "Sardines Chermoula",
+      "zh": "香草腌沙丁鱼",
+      "nl": "Sardines chermoula"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Sardines marinated with chermoula herbs, garlic, cumin, lemon, and paprika, then grilled or fried.",
+      "zh": "沙丁鱼用 chermoula 香草蒜孜然柠檬红椒腌过后烤或炸。",
+      "nl": "Sardines gemarineerd met chermoula, knoflook, komijn, citroen en paprika, daarna gegrild of gebakken."
+    },
+    "cookingProfile": {
+      "en": "Expect bold oily fish with herb-lemon spice, not a mild white fish fillet.",
+      "zh": "会是味道明显的油脂感鱼，带香草柠檬香料，不是温和白鱼柳。",
+      "nl": "Verwacht uitgesproken vette vis met kruid-citroen-specerij, geen milde witte visfilet."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "seafood"
+      ],
+      "description": {
+        "en": "Sardines Chermoula is kept as a verified moroccan reference because its ordering cues are specific: sardines, chermoula, lemon.",
+        "zh": "香草腌沙丁鱼 被保留为 verified，是因为点餐识别点明确：sardines、chermoula、lemon。",
+        "nl": "Sardines chermoula blijft verified omdat de bestelkenmerken specifiek zijn: sardines, chermoula, lemon."
+      }
+    },
+    "composition": [
+      [
+        "sardines",
+        65,
+        "fish"
+      ],
+      [
+        "chermoula",
+        15,
+        "marinade",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        10,
+        "citrus"
+      ],
+      [
+        "paprika",
+        5,
+        "spice",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "grilling",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "sardines",
+      "chermoula",
+      "lemon",
+      "cumin"
+    ],
+    "basicTaste": [
+      "savory",
+      "briny",
+      "herbal",
+      "citrusy"
+    ],
+    "textureProfile": [
+      "oily fish",
+      "grilled skin",
+      "herb marinade"
+    ],
+    "riskFlags": [
+      "contains-fish"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "seafood",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "dislikes-oily-fish"
+    ],
+    "orderVerdict": {
+      "en": "Great if you like bold oily fish; skip if you prefer mild boneless fillets.",
+      "zh": "喜欢味道明显的油脂鱼很适合；偏好温和无刺鱼柳则不推荐。",
+      "nl": "Goed als je stevige vette vis lekker vindt; vermijd als je milde graatloze filets zoekt."
+    },
+    "confidenceTag": "audited-global-truth-batch-030",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "fish-tagine",
+    "metadataCode": "124025",
+    "cuisineId": "moroccan",
+    "names": {
+      "canonical": "Fish Tagine",
+      "local": "tagine de poisson",
+      "en": "Fish Tagine",
+      "zh": "摩洛哥鱼塔吉锅",
+      "nl": "Vistagine"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "braised"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Moroccan fish cooked in a tagine-style sauce with vegetables, chermoula, preserved lemon, and olives.",
+      "zh": "摩洛哥塔吉风格炖鱼，配蔬菜、chermoula、腌柠檬和橄榄。",
+      "nl": "Marokkaanse vis in tajine-stijl met groente, chermoula, ingelegde citroen en olijven."
+    },
+    "cookingProfile": {
+      "en": "Served hot and saucy, with tender fish absorbing herb-citrus flavors.",
+      "zh": "热的带汁鱼菜，鱼肉会吸收香草柑橘风味。",
+      "nl": "Warm en sausachtig, met zachte vis die kruid-citrussmaak opneemt."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "seafood"
+      ],
+      "description": {
+        "en": "Fish Tagine is kept as a verified moroccan reference because its ordering cues are specific: chermoula, preserved lemon, olives.",
+        "zh": "摩洛哥鱼塔吉锅 被保留为 verified，是因为点餐识别点明确：chermoula、preserved lemon、olives。",
+        "nl": "Vistagine blijft verified omdat de bestelkenmerken specifiek zijn: chermoula, preserved lemon, olives."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        50,
+        "fish"
+      ],
+      [
+        "mixed-vegetables",
+        20,
+        "vegetable-bed"
+      ],
+      [
+        "chermoula",
+        10,
+        "marinade",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        10,
+        "preserved-lemon"
+      ],
+      [
+        "olives",
+        5,
+        "briny-accent"
+      ],
+      [
+        "olive-oil",
+        5,
+        "sauce",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "chermoula",
+      "preserved lemon",
+      "olives",
+      "fish"
+    ],
+    "basicTaste": [
+      "savory",
+      "citrusy",
+      "herbal",
+      "briny"
+    ],
+    "textureProfile": [
+      "tender fish",
+      "soft vegetables",
+      "saucy tagine"
+    ],
+    "riskFlags": [
+      "contains-fish"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "seafood",
+      "lighter-choice"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "dislikes-briny-olive"
+    ],
+    "orderVerdict": {
+      "en": "Good for a saucy fish dish with citrus and olives; skip if you want crisp fried seafood.",
+      "zh": "想吃带柑橘和橄榄的酱汁鱼菜时适合；想吃酥炸海鲜则不对。",
+      "nl": "Goed voor sausachtige vis met citrus en olijven; sla over als je krokant gefrituurde zeevruchten wilt."
+    },
+    "confidenceTag": "audited-global-truth-batch-030",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "chicken-bastilla",
+    "metadataCode": "124026",
+    "cuisineId": "moroccan",
+    "names": {
+      "canonical": "Chicken Bastilla",
+      "local": "bastilla au poulet",
+      "en": "Chicken Bastilla",
+      "zh": "鸡肉酥皮派",
+      "nl": "Kipbastilla"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "baked",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Sweet-savory Moroccan pie with spiced chicken, eggs, almonds, crisp pastry, cinnamon, and powdered sugar.",
+      "zh": "摩洛哥甜咸鸡肉派，含香料鸡肉、鸡蛋、杏仁、酥皮、肉桂和糖粉。",
+      "nl": "Zoet-hartige Marokkaanse pastei met kruidige kip, ei, amandel, krokant deeg, kaneel en poedersuiker."
+    },
+    "cookingProfile": {
+      "en": "It is flaky and aromatic, with sweetness on a savory chicken filling.",
+      "zh": "口感酥脆香料感强，咸鸡肉馅上会有明显甜味。",
+      "nl": "Vlokkig en aromatisch, met zoetheid bovenop hartige kipvulling."
+    },
+    "cuisineRole": {
+      "level": "festival",
+      "tags": [
+        "festival",
+        "regional-dish"
+      ],
+      "description": {
+        "en": "Chicken Bastilla is kept as a verified moroccan reference because its ordering cues are specific: cinnamon sugar, almonds, spiced chicken.",
+        "zh": "鸡肉酥皮派 被保留为 verified，是因为点餐识别点明确：cinnamon sugar、almonds、spiced chicken。",
+        "nl": "Kipbastilla blijft verified omdat de bestelkenmerken specifiek zijn: cinnamon sugar, almonds, spiced chicken."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        35,
+        "spiced-filling"
+      ],
+      [
+        "phyllo-pastry",
+        25,
+        "crisp-shell"
+      ],
+      [
+        "egg",
+        15,
+        "binding-filling"
+      ],
+      [
+        "almonds",
+        10,
+        "nut-layer"
+      ],
+      [
+        "cinnamon",
+        10,
+        "sweet-spice",
+        "seasoning"
+      ],
+      [
+        "sugar",
+        5,
+        "dusting"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cinnamon sugar",
+      "almonds",
+      "spiced chicken",
+      "crisp pastry"
+    ],
+    "basicTaste": [
+      "sweet",
+      "savory",
+      "warm-spiced",
+      "rich"
+    ],
+    "textureProfile": [
+      "crisp pastry",
+      "soft filling",
+      "nutty crunch"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "festival",
+      "acquired-taste"
+    ],
+    "avoidIfTags": [
+      "tree-nut-allergy",
+      "egg-allergy",
+      "dislikes-sweet-savory"
+    ],
+    "orderVerdict": {
+      "en": "Memorable if you like sweet-savory pastry; avoid with nut allergy or if sugar on chicken sounds wrong.",
+      "zh": "喜欢甜咸酥皮会很有记忆点；坚果过敏或不能接受鸡肉配糖粉则不要点。",
+      "nl": "Bijzonder als je zoet-hartige pastei waardeert; vermijd bij notenallergie of als suiker op kip vreemd klinkt."
+    },
+    "confidenceTag": "audited-global-truth-batch-030",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "almond-briouat",
+    "metadataCode": "124027",
+    "cuisineId": "moroccan",
+    "names": {
+      "canonical": "Almond Briouat",
+      "local": "briouat aux amandes",
+      "en": "Almond Briouat",
+      "zh": "杏仁三角酥",
+      "nl": "Amandelbriouat"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "fried",
+      "chilled"
+    ],
+    "servingTemperature": "hot-or-warm",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Small fried pastry triangles filled with almond paste and scented with honey and orange blossom water.",
+      "zh": "小三角炸酥皮，内馅是杏仁膏，带蜂蜜和橙花水香。",
+      "nl": "Kleine gefrituurde driehoekjes met amandelvulling, honing en oranjebloesemwater."
+    },
+    "cookingProfile": {
+      "en": "Sticky, crisp, and nutty, often served as a sweet pastry rather than a plated dessert.",
+      "zh": "粘甜、酥脆、坚果香，通常是甜点心而非盘装甜品。",
+      "nl": "Kleverig, krokant en nootachtig, meer zoet gebakje dan borddessert."
+    },
+    "cuisineRole": {
+      "level": "festival",
+      "tags": [
+        "dessert",
+        "festival"
+      ],
+      "description": {
+        "en": "Almond Briouat is kept as a verified moroccan reference because its ordering cues are specific: almond paste, honey, orange blossom water.",
+        "zh": "杏仁三角酥 被保留为 verified，是因为点餐识别点明确：almond paste、honey、orange blossom water。",
+        "nl": "Amandelbriouat blijft verified omdat de bestelkenmerken specifiek zijn: almond paste, honey, orange blossom water."
+      }
+    },
+    "composition": [
+      [
+        "phyllo-pastry",
+        35,
+        "crisp-wrapper"
+      ],
+      [
+        "almond-paste",
+        35,
+        "nut-filling"
+      ],
+      [
+        "honey",
+        15,
+        "syrup"
+      ],
+      [
+        "orange-blossom-water",
+        10,
+        "floral-aroma",
+        "seasoning"
+      ],
+      [
+        "sesame-seeds",
+        5,
+        "garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "almond paste",
+      "honey",
+      "orange blossom water",
+      "fried pastry"
+    ],
+    "basicTaste": [
+      "sweet",
+      "nutty",
+      "floral",
+      "rich"
+    ],
+    "textureProfile": [
+      "crisp shell",
+      "dense nut filling",
+      "sticky syrup"
+    ],
+    "riskFlags": [
+      "contains-tree-nut",
+      "contains-gluten",
+      "contains-sesame"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "dessert",
+      "sharing-friendly"
+    ],
+    "avoidIfTags": [
+      "tree-nut-allergy",
+      "gluten-allergy",
+      "wants-light-dessert"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a crisp honeyed almond pastry; skip with nut allergy or if floral sweets are too much.",
+      "zh": "想吃蜂蜜杏仁酥点时适合；坚果过敏或不喜欢花香甜点则跳过。",
+      "nl": "Kies voor krokant honing-amandelgebak; vermijd bij notenallergie of als bloemige zoetheid te veel is."
+    },
+    "confidenceTag": "audited-global-truth-batch-030",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "chebakia",
+    "metadataCode": "124028",
+    "cuisineId": "moroccan",
+    "names": {
+      "canonical": "Chebakia",
+      "local": "chebakia",
+      "en": "Chebakia",
+      "zh": "蜂蜜芝麻花结",
+      "nl": "Chebakia"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "fried",
+      "chilled"
+    ],
+    "servingTemperature": "room-temperature",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Flower-shaped Moroccan fried sesame pastry soaked in honey and scented with anise or orange blossom.",
+      "zh": "花形摩洛哥芝麻炸点心，浸蜂蜜，常带茴香或橙花香。",
+      "nl": "Bloemvormig Marokkaans sesamgebak, gefrituurd en in honing gedrenkt met anijs of oranjebloesem."
+    },
+    "cookingProfile": {
+      "en": "Very sweet, sticky, and chewy-crisp, usually eaten in small pieces.",
+      "zh": "非常甜且粘，外脆内韧，通常少量吃。",
+      "nl": "Zeer zoet, kleverig en krokant-taai, meestal in kleine stukjes gegeten."
+    },
+    "cuisineRole": {
+      "level": "festival",
+      "tags": [
+        "dessert",
+        "festival"
+      ],
+      "description": {
+        "en": "Chebakia is kept as a verified moroccan reference because its ordering cues are specific: honey, sesame, orange blossom.",
+        "zh": "蜂蜜芝麻花结 被保留为 verified，是因为点餐识别点明确：honey、sesame、orange blossom。",
+        "nl": "Chebakia blijft verified omdat de bestelkenmerken specifiek zijn: honey, sesame, orange blossom."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        35,
+        "pastry-dough"
+      ],
+      [
+        "honey",
+        30,
+        "syrup"
+      ],
+      [
+        "sesame-seeds",
+        20,
+        "sesame"
+      ],
+      [
+        "cinnamon",
+        5,
+        "warm-spice",
+        "seasoning"
+      ],
+      [
+        "orange-blossom-water",
+        5,
+        "floral-aroma",
+        "seasoning"
+      ],
+      [
+        "sugar",
+        5,
+        "sweetness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "honey",
+      "sesame",
+      "orange blossom",
+      "fried pastry"
+    ],
+    "basicTaste": [
+      "very-sweet",
+      "nutty",
+      "floral",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "sticky syrup",
+      "crisp edges",
+      "chewy pastry"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-sesame"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "dessert",
+      "festival"
+    ],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "sesame-allergy",
+      "wants-not-too-sweet"
+    ],
+    "orderVerdict": {
+      "en": "Good for a very sweet honey-sesame pastry; skip if you prefer light or low-sugar desserts.",
+      "zh": "适合想吃很甜的蜂蜜芝麻点心；偏好清淡低甜甜点就不要点。",
+      "nl": "Goed voor heel zoet honing-sesamgebak; vermijd als je lichte of minder zoete desserts wilt."
+    },
+    "confidenceTag": "audited-global-truth-batch-030",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "mhancha",
+    "metadataCode": "124029",
+    "cuisineId": "moroccan",
+    "names": {
+      "canonical": "M’hanncha",
+      "local": "m’hanncha",
+      "en": "M’hanncha",
+      "zh": "蛇形杏仁酥",
+      "nl": "M’hanncha"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "room-temperature",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Coiled Moroccan pastry filled with almond paste, usually scented with cinnamon and orange blossom water.",
+      "zh": "盘蛇形摩洛哥杏仁酥皮，常有肉桂和橙花水香。",
+      "nl": "Opgerolde Marokkaanse amandelpastei met kaneel en oranjebloesemwater."
+    },
+    "cookingProfile": {
+      "en": "It eats like a crisp almond pastry, not a soft cake.",
+      "zh": "吃起来是酥脆杏仁点心，不是松软蛋糕。",
+      "nl": "Het eet als krokant amandelgebak, niet als zachte cake."
+    },
+    "cuisineRole": {
+      "level": "festival",
+      "tags": [
+        "dessert",
+        "festival"
+      ],
+      "description": {
+        "en": "M’hanncha is kept as a verified moroccan reference because its ordering cues are specific: almond paste, cinnamon, orange blossom.",
+        "zh": "蛇形杏仁酥 被保留为 verified，是因为点餐识别点明确：almond paste、cinnamon、orange blossom。",
+        "nl": "M’hanncha blijft verified omdat de bestelkenmerken specifiek zijn: almond paste, cinnamon, orange blossom."
+      }
+    },
+    "composition": [
+      [
+        "phyllo-pastry",
+        35,
+        "coiled-pastry"
+      ],
+      [
+        "almond-paste",
+        40,
+        "filling"
+      ],
+      [
+        "cinnamon",
+        10,
+        "spice",
+        "seasoning"
+      ],
+      [
+        "orange-blossom-water",
+        10,
+        "floral-aroma",
+        "seasoning"
+      ],
+      [
+        "sugar",
+        5,
+        "dusting"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "almond paste",
+      "cinnamon",
+      "orange blossom",
+      "crisp pastry"
+    ],
+    "basicTaste": [
+      "sweet",
+      "nutty",
+      "floral",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "crisp layers",
+      "dense almond filling",
+      "powdered sugar"
+    ],
+    "riskFlags": [
+      "contains-tree-nut",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "dessert",
+      "sharing-friendly"
+    ],
+    "avoidIfTags": [
+      "tree-nut-allergy",
+      "gluten-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for almond-forward pastry; skip if nuts or floral aromas are not welcome.",
+      "zh": "想吃杏仁主导的酥点时适合；不吃坚果或不喜欢花香则跳过。",
+      "nl": "Kies dit voor amandelrijk gebak; vermijd als noten of bloemige aroma's niet welkom zijn."
+    },
+    "confidenceTag": "audited-global-truth-batch-030",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "sellou",
+    "metadataCode": "124030",
+    "cuisineId": "moroccan",
+    "names": {
+      "canonical": "Sellou",
+      "local": "sellou",
+      "en": "Sellou",
+      "zh": "摩洛哥坚果芝麻甜粉",
+      "nl": "Sellou"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "toasted",
+      "assembled"
+    ],
+    "servingTemperature": "room-temperature",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Dense Moroccan sweet made from toasted flour, sesame, almonds, honey, butter, and warm spices.",
+      "zh": "摩洛哥浓厚甜点，由炒面粉、芝麻、杏仁、蜂蜜、黄油和暖香料制成。",
+      "nl": "Dichte Marokkaanse zoetigheid van geroosterd meel, sesam, amandel, honing, boter en warme specerijen."
+    },
+    "cookingProfile": {
+      "en": "It is crumbly, nutty, and very rich, usually eaten in small spoonfuls.",
+      "zh": "口感松散粉糯、坚果香且很厚重，通常少量吃。",
+      "nl": "Kruimelig, nootachtig en heel rijk, meestal in kleine lepeltjes gegeten."
+    },
+    "cuisineRole": {
+      "level": "festival",
+      "tags": [
+        "dessert",
+        "festival"
+      ],
+      "description": {
+        "en": "Sellou is kept as a verified moroccan reference because its ordering cues are specific: toasted flour, sesame, almonds.",
+        "zh": "摩洛哥坚果芝麻甜粉 被保留为 verified，是因为点餐识别点明确：toasted flour、sesame、almonds。",
+        "nl": "Sellou blijft verified omdat de bestelkenmerken specifiek zijn: toasted flour, sesame, almonds."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        30,
+        "toasted-flour"
+      ],
+      [
+        "sesame-seeds",
+        25,
+        "sesame"
+      ],
+      [
+        "almonds",
+        20,
+        "nuts"
+      ],
+      [
+        "honey",
+        10,
+        "sweetener"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "cinnamon",
+        5,
+        "spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "toasted flour",
+      "sesame",
+      "almonds",
+      "honey"
+    ],
+    "basicTaste": [
+      "sweet",
+      "nutty",
+      "toasty",
+      "rich"
+    ],
+    "textureProfile": [
+      "crumbly powder",
+      "dense spoonful",
+      "buttery finish"
+    ],
+    "riskFlags": [
+      "contains-tree-nut",
+      "contains-sesame",
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "dessert",
+      "festival"
+    ],
+    "avoidIfTags": [
+      "tree-nut-allergy",
+      "sesame-allergy",
+      "wants-light-dessert"
+    ],
+    "orderVerdict": {
+      "en": "A rich nutty sweet for small portions; skip if you want a juicy or light dessert.",
+      "zh": "适合少量品尝的浓郁坚果甜点；想要多汁或清爽甜点则跳过。",
+      "nl": "Een rijke nootachtige zoetigheid voor kleine porties; vermijd als je sappig of licht dessert wilt."
+    },
+    "confidenceTag": "audited-global-truth-batch-030",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  }
+]

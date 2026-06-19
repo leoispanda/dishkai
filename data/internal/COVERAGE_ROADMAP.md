@@ -8,20 +8,21 @@ Verified metadata is the source of truth. It should be curated for high-frequenc
 
 Current verified starter database:
 
-- 679 verified dishes
+- 769 verified dishes
 - 27 cuisines
-- 2060 verified aliases
+- 2280 verified aliases
 
 Recent depth progress:
 
 - Generated expansion layers were quarantined after strict audit; verified counts only reflect rows rebuilt through manual <=30-dish batches.
 - All registered European cuisines remain at least 30 verified dishes after strict audit.
 - Indian, Vietnamese, Indonesian, Malaysian/Singaporean, and Turkish now have 30 verified dishes each after Global Truth Batches 024-028.
-- Middle Eastern, Mexican, American, Moroccan, Surinamese, Ethiopian, Peruvian, and Brazilian still need future strict depth passes.
+- Global Truth Batches 029-033 rebuilt 90 verified dishes across Mexican, Moroccan, Surinamese, Peruvian, Brazilian, and Middle Eastern coverage, with old shifted global-depth images rejected and replaced after contact-sheet review.
+- Mexican, Moroccan, and Peruvian now have 30 verified dishes. Surinamese and Brazilian have 29 each, and Middle Eastern now has 13.
 
 Next verified coverage targets:
 
-1. Continue rebuilding quarantined global-depth cuisines in <=30-dish batches, prioritizing Middle Eastern, Mexican, American, Moroccan, or real-menu misses.
+1. Continue rebuilding quarantined global-depth cuisines in <=30-dish batches, prioritizing Middle Eastern, American, Ethiopian, Surinamese, Brazilian, or real-menu misses.
 2. Use semantic replacement images or generated clean images only after contact-sheet review; do not reuse shifted global-depth assets.
 3. Re-audit European depth only when real menu misses justify going beyond 30.
 

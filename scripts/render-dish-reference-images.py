@@ -65,11 +65,15 @@ ITEM_COLORS = {
     "mussels": "sauce_dark",
     "rice-vermicelli": "rice_noodle",
     "rice-noodles": "rice_noodle",
+    "corn-tortilla": "bread",
+    "tortilla-chips": "fried",
+    "masa-dough": "bread",
     "yellow-noodles": "noodle",
     "egg-noodles": "noodle",
     "steamed-rice": "rice",
     "sticky-rice": "rice",
     "black-glutinous-rice": "purple",
+    "purple-corn": "purple",
     "lontong-rice-cakes": "rice",
     "rice-flour-batter": "rice",
     "rice-lentil-batter": "rice",
@@ -77,6 +81,7 @@ ITEM_COLORS = {
     "potato": "potato",
     "sweet-potato": "potato",
     "cauliflower": "rice",
+    "fava-beans": "bean",
     "lentils": "sauce_yellow",
     "red-kidney-beans": "bean",
     "mung-beans": "green",
@@ -92,12 +97,14 @@ ITEM_COLORS = {
     "pancake-batter": "bread",
     "thin-pancakes": "bread",
     "bread": "bread",
+    "semolina": "bread",
     "flatbread-lavash": "bread",
     "pide-bread": "bread",
     "phyllo-pastry": "bread",
     "sesame-seeds": "rice",
     "tapioca-starch": "rice",
     "cendol-jelly": "green",
+    "shaved-ice": "rice",
     "sugar": "rice",
     "milk-solids": "cream",
     "cream": "cream",
@@ -110,6 +117,8 @@ ITEM_COLORS = {
     "almonds": "potato",
     "toasted-coconut": "rice",
     "palm-sugar": "sauce_dark",
+    "passion-fruit": "sauce_yellow",
+    "farofa": "potato",
     "chocolate": "sauce_dark",
 }
 
@@ -132,6 +141,7 @@ SAUCE_COLORS = {
     "mint": "herb",
     "dill": "herb",
     "parsley": "herb",
+    "cilantro": "herb",
     "lemongrass": "herb",
     "lime": "green",
     "lemon": "sauce_yellow",
@@ -139,6 +149,12 @@ SAUCE_COLORS = {
     "vanilla": "cream",
     "cardamom": "sauce_yellow",
     "rosewater": "sweet",
+    "orange-blossom-water": "sweet",
+    "achiote": "sauce_red",
+    "chipotle": "sauce_red",
+    "chermoula": "herb",
+    "aji-panca": "sauce_red",
+    "huacatay": "herb",
 }
 
 
@@ -620,10 +636,159 @@ def special_lokum(draw, config, rnd):
             draw.ellipse((x - 8, y - 8, x + 8, y + 8), fill="#f9f1e5")
 
 
+def special_elote(draw, config, rnd):
+    inner = draw_plate(draw)
+    draw.rounded_rectangle((230, 315, 570, 475), radius=72, fill="#d8a23a", outline="#a86b24", width=5)
+    for row in range(5):
+        for col in range(10):
+            x = 270 + col * 28 + (row % 2) * 11
+            y = 340 + row * 24
+            draw.ellipse((x - 8, y - 6, x + 8, y + 6), fill="#f1c85d", outline="#b98025")
+    for y in [345, 390, 435]:
+        draw.arc((245, y - 25, 555, y + 25), 5, 175, fill="#fff7e5", width=9)
+    draw.line((210, 400, 245, 365), fill=PALETTE["green"], width=18)
+    draw.line((555, 365, 600, 340), fill=PALETTE["green"], width=18)
+    for _ in range(22):
+        x = rnd.randint(255, 545)
+        y = rnd.randint(330, 455)
+        draw.ellipse((x - 4, y - 4, x + 4, y + 4), fill=PALETTE["sauce_red"])
+    draw_herbs(draw, rnd, inner, 8)
+
+
+def special_esquites(draw, config, rnd):
+    inner = draw_bowl_base(draw)
+    draw.ellipse(inner, fill="#e7b947")
+    for _ in range(120):
+        x, y = random_point_in_ellipse(rnd, inner, pad=42)
+        draw.ellipse((x - 5, y - 4, x + 5, y + 4), fill=rnd.choice(["#f5d36a", "#d99e32", "#fff1a8"]))
+    for y in [345, 405, 465]:
+        draw.arc((240, y - 30, 560, y + 30), 0, 180, fill="#fff7e5", width=8)
+    for _ in range(24):
+        x, y = random_point_in_ellipse(rnd, inner, pad=55)
+        draw.ellipse((x - 4, y - 4, x + 4, y + 4), fill=PALETTE["sauce_red"])
+    draw_herbs(draw, rnd, inner, 10)
+
+
+def special_huevos_rancheros(draw, config, rnd):
+    inner = draw_plate(draw)
+    for x, y in [(320, 390), (480, 390)]:
+        draw.ellipse((x - 98, y - 68, x + 98, y + 68), fill=PALETTE["bread"], outline="#b87433", width=4)
+        draw.ellipse((x - 62, y - 42, x + 62, y + 42), fill=PALETTE["sauce_red"])
+        draw_component(draw, rnd, "egg", x, y - 4, 1.05)
+    for x, y in [(255, 515), (310, 540), (540, 525)]:
+        draw_component(draw, rnd, "black-beans", x, y, 1.1)
+    draw_herbs(draw, rnd, inner, 14)
+
+
+def special_tres_leches(draw, config, rnd):
+    inner = draw_plate(draw)
+    draw.rounded_rectangle((245, 265, 555, 530), radius=30, fill="#ead39f", outline="#c69b5b", width=5)
+    draw.rounded_rectangle((270, 235, 530, 330), radius=28, fill="#fff7ea", outline="#ead8c1", width=3)
+    for _ in range(70):
+        x = rnd.randint(275, 525)
+        y = rnd.randint(345, 505)
+        draw.ellipse((x - 3, y - 2, x + 3, y + 2), fill="#f8e6bb")
+    for _ in range(18):
+        x, y = random_point_in_ellipse(rnd, inner, pad=95)
+        draw.ellipse((x - 5, y - 3, x + 5, y + 3), fill="#8b5a31")
+
+
+def special_arroz_con_leche(draw, config, rnd):
+    inner = draw_bowl_base(draw)
+    draw.ellipse(inner, fill=PALETTE["cream"])
+    for _ in range(120):
+        x, y = random_point_in_ellipse(rnd, inner, pad=38)
+        draw.ellipse((x - 4, y - 2, x + 4, y + 2), fill="#fffaf0")
+    for _ in range(35):
+        x, y = random_point_in_ellipse(rnd, inner, pad=70)
+        draw.ellipse((x - 5, y - 3, x + 5, y + 3), fill="#8b5a31")
+
+
+def special_bruine_bonen(draw, config, rnd):
+    inner = draw_plate(draw)
+    draw.ellipse((230, 250, 430, 535), fill=PALETTE["rice"], outline="#d6c9b9", width=3)
+    draw.ellipse((370, 240, 595, 545), fill="#7a3f30", outline="#5c2f23", width=4)
+    for _ in range(70):
+        x, y = random_point_in_ellipse(rnd, (385, 255, 580, 530), pad=10)
+        draw.ellipse((x - 9, y - 6, x + 9, y + 6), fill=rnd.choice(["#8d513d", "#6f392e", "#9b5b43"]))
+    draw_herbs(draw, rnd, inner, 8)
+
+
+def special_bakabana(draw, config, rnd):
+    inner = draw_plate(draw)
+    for x, y, angle_offset in [(290, 335, 0), (395, 310, 1), (500, 370, 0), (335, 485, 1), (470, 505, 0)]:
+        draw.rounded_rectangle((x - 70, y - 32, x + 70, y + 32), radius=28, fill="#d99a2d", outline="#9f621e", width=4)
+        draw.line((x - 46, y - 6 + angle_offset * 5, x + 45, y + 4), fill="#f2c75a", width=8)
+    draw.ellipse((505, 245, 620, 350), fill=PALETTE["sauce_orange"], outline="#b8732d", width=4)
+    draw.ellipse((530, 270, 595, 330), fill="#c88431")
+    draw_herbs(draw, rnd, inner, 4)
+
+
+def special_dawet(draw, config, rnd):
+    inner = draw_bowl_base(draw)
+    draw.ellipse(inner, fill=PALETTE["cream"])
+    draw.ellipse(shrink_box(inner, 45), fill="#f4e4c5", outline="#ffffff", width=4)
+    for _ in range(42):
+        x, y = random_point_in_ellipse(rnd, inner, pad=55)
+        draw.rounded_rectangle((x - 18, y - 6, x + 18, y + 6), radius=6, fill=PALETTE["green"])
+    for _ in range(20):
+        x, y = random_point_in_ellipse(rnd, inner, pad=70)
+        draw.ellipse((x - 6, y - 5, x + 6, y + 5), fill=PALETTE["sauce_dark"])
+
+
+def special_alfajores(draw, config, rnd):
+    inner = draw_plate(draw)
+    for x, y in [(285, 330), (420, 300), (520, 395), (340, 500), (475, 525)]:
+        draw.ellipse((x - 58, y - 42, x + 58, y + 42), fill="#e5c48a", outline="#c59a55", width=4)
+        draw.ellipse((x - 44, y - 29, x + 44, y + 29), fill="#f7e1aa")
+        draw.rectangle((x - 43, y - 7, x + 43, y + 8), fill="#a86a36")
+        for _ in range(8):
+            dx, dy = rnd.randint(-32, 32), rnd.randint(-24, 24)
+            draw.ellipse((x + dx - 3, y + dy - 2, x + dx + 3, y + dy + 2), fill="#fff8ec")
+
+
+def special_tapioca_crepe(draw, config, rnd):
+    inner = draw_plate(draw)
+    draw.pieslice((195, 220, 605, 620), 15, 195, fill="#f7f1e4", outline="#d7c7af", width=5)
+    draw.arc((225, 255, 575, 590), 15, 195, fill="#eee1cc", width=4)
+    for x, y in [(335, 410), (395, 455), (465, 405)]:
+        draw_component(draw, rnd, "cheese", x, y, 0.8)
+    for _ in range(18):
+        x, y = random_point_in_ellipse(rnd, inner, pad=95)
+        draw.ellipse((x - 4, y - 3, x + 4, y + 3), fill="#e8d9bd")
+
+
+def special_foul_medames(draw, config, rnd):
+    inner = draw_bowl_base(draw)
+    draw.ellipse(inner, fill="#7a4d35")
+    for _ in range(90):
+        x, y = random_point_in_ellipse(rnd, inner, pad=38)
+        draw.ellipse((x - 9, y - 6, x + 9, y + 6), fill=rnd.choice(["#8b5a3c", "#6f442f", "#a46b47"]))
+    draw.ellipse((320, 330, 470, 455), fill="#d6a13b")
+    draw.pieslice((500, 250, 620, 370), 280, 80, fill=PALETTE["sauce_yellow"], outline="#b98a2f", width=3)
+    draw_herbs(draw, rnd, inner, 18)
+
+
+def special_picanha(draw, config, rnd):
+    inner = draw_plate(draw)
+    for i, y in enumerate([285, 335, 385, 435, 485]):
+        x1 = 245 + i * 10
+        x2 = 555 + i * 10
+        draw.rounded_rectangle((x1, y - 27, x2, y + 27), radius=24, fill=PALETTE["meat"], outline="#5b2d20", width=4)
+        draw.line((x1 + 18, y - 16, x2 - 18, y - 16), fill="#f1d8b8", width=9)
+        draw.line((x1 + 25, y + 4, x2 - 25, y + 12), fill="#6a3225", width=3)
+    draw_herbs(draw, rnd, inner, 8)
+
+
 SPECIAL_RENDERERS = {
     "dosa": special_dosa,
     "idli": special_idli,
     "vada": special_vada,
+    "elote": special_elote,
+    "esquites": special_esquites,
+    "huevos-rancheros": special_huevos_rancheros,
+    "tres-leches-cake": special_tres_leches,
+    "arroz-con-leche-mexican": special_arroz_con_leche,
     "banh-khot": special_banh_khot,
     "banh-cuon": special_banh_cuon,
     "banh-beo": special_banh_beo,
@@ -634,6 +799,13 @@ SPECIAL_RENDERERS = {
     "simit": special_simit,
     "lokum": special_lokum,
     "sutlac": special_sutlac,
+    "bruine-bonen-met-rijst": special_bruine_bonen,
+    "bakabana": special_bakabana,
+    "dawet": special_dawet,
+    "alfajores-peruvian": special_alfajores,
+    "picanha": special_picanha,
+    "tapioca-crepe": special_tapioca_crepe,
+    "foul-medames": special_foul_medames,
 }
 
 

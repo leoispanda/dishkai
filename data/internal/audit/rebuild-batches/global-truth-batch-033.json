@@ -1,0 +1,164 @@
+[
+  {
+    "dishId": "picanha",
+    "metadataCode": "130014",
+    "cuisineId": "brazilian",
+    "name": "Picanha",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "escondidinho",
+    "metadataCode": "130015",
+    "cuisineId": "brazilian",
+    "name": "Escondidinho",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "carne-de-sol",
+    "metadataCode": "130016",
+    "cuisineId": "brazilian",
+    "name": "Carne de Sol",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "xinxim-de-galinha",
+    "metadataCode": "130017",
+    "cuisineId": "brazilian",
+    "name": "Xinxim de Galinha",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "caldinho-de-feijao",
+    "metadataCode": "130018",
+    "cuisineId": "brazilian",
+    "name": "Caldinho de Feijão",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "empada",
+    "metadataCode": "130019",
+    "cuisineId": "brazilian",
+    "name": "Empada",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "kibe-brazilian",
+    "metadataCode": "130020",
+    "cuisineId": "brazilian",
+    "name": "Brazilian Kibe",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "tapioca-crepe",
+    "metadataCode": "130021",
+    "cuisineId": "brazilian",
+    "name": "Tapioca Crepe",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "moqueca-baiana",
+    "metadataCode": "130022",
+    "cuisineId": "brazilian",
+    "name": "Moqueca Baiana",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "moqueca-capixaba",
+    "metadataCode": "130023",
+    "cuisineId": "brazilian",
+    "name": "Moqueca Capixaba",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "camarao-na-moranga",
+    "metadataCode": "130024",
+    "cuisineId": "brazilian",
+    "name": "Camarão na Moranga",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "salpicao",
+    "metadataCode": "130025",
+    "cuisineId": "brazilian",
+    "name": "Salpicão",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "canjica",
+    "metadataCode": "130026",
+    "cuisineId": "brazilian",
+    "name": "Canjica",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "cocada",
+    "metadataCode": "130027",
+    "cuisineId": "brazilian",
+    "name": "Cocada",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "beijinho",
+    "metadataCode": "130028",
+    "cuisineId": "brazilian",
+    "name": "Beijinho",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "mousse-de-maracuja",
+    "metadataCode": "130029",
+    "cuisineId": "brazilian",
+    "name": "Mousse de Maracujá",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "tapioca-pudding-brazilian",
+    "metadataCode": "130030",
+    "cuisineId": "brazilian",
+    "name": "Brazilian Tapioca Pudding",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "foul-medames",
+    "metadataCode": "120018",
+    "cuisineId": "middle-eastern",
+    "name": "Foul Medames",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset reviewed as unsafe for strict verified use; replaced with deterministic semantic visual-reference render and exact code stamp."
+  }
+]
