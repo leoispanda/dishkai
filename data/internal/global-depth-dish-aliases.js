@@ -2933,7 +2933,7 @@ export const globalDepthDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "kibe brasileiro",
+    "alias": "kibe",
     "dishId": "kibe-brazilian",
     "language": "menu",
     "matchType": "canonical",
@@ -2961,7 +2961,7 @@ export const globalDepthDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "Brazilian tapioca crepe",
+    "alias": "tapioca",
     "dishId": "tapioca-crepe",
     "language": "menu",
     "matchType": "canonical",
@@ -3318,7 +3318,7 @@ export const globalDepthDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "indian prawn curry",
+    "alias": "prawn curry",
     "dishId": "prawn-curry-indian",
     "language": "menu",
     "matchType": "canonical",
@@ -3346,7 +3346,7 @@ export const globalDepthDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "indian fish curry",
+    "alias": "fish curry",
     "dishId": "fish-curry-indian",
     "language": "menu",
     "matchType": "canonical",
@@ -4200,7 +4200,7 @@ export const globalDepthDishAliases = [
     "confidence": 0.94
   },
   {
-    "alias": "Malaysian Beef Rendang",
+    "alias": "Beef Rendang",
     "dishId": "beef-rendang-malaysian",
     "language": "menu",
     "matchType": "canonical",
@@ -5012,7 +5012,7 @@ export const globalDepthDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "arroz con leche mexicano",
+    "alias": "arroz con leche",
     "dishId": "arroz-con-leche-mexican",
     "language": "menu",
     "matchType": "canonical",
@@ -6622,7 +6622,7 @@ export const globalDepthDishAliases = [
     "confidence": 0.94
   },
   {
-    "alias": "Ajiaco Peruano",
+    "alias": "Ajiaco",
     "dishId": "ajiaco-peruvian",
     "language": "menu",
     "matchType": "canonical",
@@ -6692,7 +6692,7 @@ export const globalDepthDishAliases = [
     "confidence": 0.94
   },
   {
-    "alias": "Jalea Peruana",
+    "alias": "Jalea",
     "dishId": "jalea",
     "language": "menu",
     "matchType": "canonical",

@@ -8,22 +8,21 @@ Verified metadata is the source of truth. It should be curated for high-frequenc
 
 Current verified starter database:
 
-- 769 verified dishes
+- 589 verified dishes
 - 27 cuisines
-- 2280 verified aliases
+- 1834 verified aliases
 
 Recent depth progress:
 
 - Generated expansion layers were quarantined after strict audit; verified counts only reflect rows rebuilt through manual <=30-dish batches.
 - All registered European cuisines remain at least 30 verified dishes after strict audit.
-- Indian, Vietnamese, Indonesian, Malaysian/Singaporean, and Turkish now have 30 verified dishes each after Global Truth Batches 024-028.
-- Global Truth Batches 029-033 rebuilt 90 verified dishes across Mexican, Moroccan, Surinamese, Peruvian, Brazilian, and Middle Eastern coverage, with old shifted global-depth images rejected and replaced after contact-sheet review.
-- Mexican, Moroccan, and Peruvian now have 30 verified dishes. Surinamese and Brazilian have 29 each, and Middle Eastern now has 13.
+- World Layer Batches 018-021 and World Truth Batches 022-023 brought verified coverage to 589 dishes / 1834 aliases.
+- Global Truth Batches 024-033 were reverted because their abstract deterministic schematic images were too crude to identify dishes at a glance. Those rows need replacement-quality, clearly recognizable images before they can return to verified.
 
 Next verified coverage targets:
 
-1. Continue rebuilding quarantined global-depth cuisines in <=30-dish batches, prioritizing Middle Eastern, American, Ethiopian, Surinamese, Brazilian, or real-menu misses.
-2. Use semantic replacement images or generated clean images only after contact-sheet review; do not reuse shifted global-depth assets.
+1. Rebuild quarantined global-depth cuisines in <=30-dish batches only when replacement-quality images are available.
+2. Prioritize real-menu misses and cuisines below 30 verified dishes, but do not accept abstract schematic/cartoon plate renders as verified images.
 3. Re-audit European depth only when real menu misses justify going beyond 30.
 
 Verified metadata should stay concise and ordering-focused. Do not turn cards into recipes.
