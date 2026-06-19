@@ -1,0 +1,114 @@
+[
+  {
+    "file": "110007-samgyeopsal.png",
+    "metadataCode": "110007",
+    "dishId": "samgyeopsal",
+    "sourcePath": "data/internal/audit/rebuild-batches/korean-batch-016-image-sources/110007-samgyeopsal.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "771766ddb86674924f47febbef56c07a2ab18896e78a8cdb896d04cc1f47f8c4"
+  },
+  {
+    "file": "110018-dak-galbi.png",
+    "metadataCode": "110018",
+    "dishId": "dak-galbi",
+    "sourcePath": "data/internal/audit/rebuild-batches/korean-batch-016-image-sources/110018-dak-galbi.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "b5dd536cfad31b4fbb157e06a9bc0340027ebfc68f42242b3d47d3be22149ea0"
+  },
+  {
+    "file": "110019-galbitang.png",
+    "metadataCode": "110019",
+    "dishId": "galbitang",
+    "sourcePath": "data/internal/audit/rebuild-batches/korean-batch-016-image-sources/110019-galbitang.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "7acbe13082e7c1721923056d6b0225ab109c3fa51306c0495d9cf7f659c82087"
+  },
+  {
+    "file": "110020-seolleongtang.png",
+    "metadataCode": "110020",
+    "dishId": "seolleongtang",
+    "sourcePath": "data/internal/audit/rebuild-batches/korean-batch-016-image-sources/110020-seolleongtang.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "fa53632b80e3e7ade1bf558e0b6459094ce24c7dc07e573149965967746270bc"
+  },
+  {
+    "file": "110021-yukgaejang.png",
+    "metadataCode": "110021",
+    "dishId": "yukgaejang",
+    "sourcePath": "data/internal/audit/rebuild-batches/korean-batch-016-image-sources/110021-yukgaejang.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "277a0f24313571094cf16b6dd7712cf083e0f21897734cc600943c9ffc8b2f1a"
+  },
+  {
+    "file": "110022-budae-jjigae.png",
+    "metadataCode": "110022",
+    "dishId": "budae-jjigae",
+    "sourcePath": "data/internal/audit/rebuild-batches/korean-batch-016-image-sources/110022-budae-jjigae.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "6bc2d38023ae3e626c1a9c966e99201d74bc40ae3b40d0a54ff00b1a80161bcf"
+  },
+  {
+    "file": "110023-jjolmyeon.png",
+    "metadataCode": "110023",
+    "dishId": "jjolmyeon",
+    "sourcePath": "data/internal/audit/rebuild-batches/korean-batch-016-image-sources/110023-jjolmyeon.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "2f263dc2836a849a104263cd7d8d6ef19ef64dd6b07957493433380ca6d5320b"
+  },
+  {
+    "file": "110024-bibim-naengmyeon.png",
+    "metadataCode": "110024",
+    "dishId": "bibim-naengmyeon",
+    "sourcePath": "data/internal/audit/rebuild-batches/korean-batch-016-image-sources/110024-bibim-naengmyeon.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "efffa5c59adc010532db9b3276bd3c3c1bed20af45455b7037b3517591881574"
+  },
+  {
+    "file": "110025-dakgangjeong.png",
+    "metadataCode": "110025",
+    "dishId": "dakgangjeong",
+    "sourcePath": "data/internal/audit/rebuild-batches/korean-batch-016-image-sources/110025-dakgangjeong.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "3246cdaf54e5bc1d4658999d9156142c213bc14a22d483d3529219cedc3515ce"
+  },
+  {
+    "file": "110026-godeungeo-gui.png",
+    "metadataCode": "110026",
+    "dishId": "godeungeo-gui",
+    "sourcePath": "data/internal/audit/rebuild-batches/korean-batch-016-image-sources/110026-godeungeo-gui.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "cfe485dcce40e33a72cf6bb5e4212cee921801da36a8d00a97176eef1cf2b3a0"
+  },
+  {
+    "file": "110027-ojingeo-bokkeum.png",
+    "metadataCode": "110027",
+    "dishId": "ojingeo-bokkeum",
+    "sourcePath": "data/internal/audit/rebuild-batches/korean-batch-016-image-sources/110027-ojingeo-bokkeum.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "7fdf2b82c29cdbdb7aa9dfe02e58e52f3e581f84b8f7441af473a8d0bb5c54cc"
+  },
+  {
+    "file": "110028-gyeran-jjim.png",
+    "metadataCode": "110028",
+    "dishId": "gyeran-jjim",
+    "sourcePath": "data/internal/audit/rebuild-batches/korean-batch-016-image-sources/110028-gyeran-jjim.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "555cdd8611002c7ed74c86d695ba56f60e9100785eab7742939d99e409fc7a5c"
+  },
+  {
+    "file": "110029-hotteok.png",
+    "metadataCode": "110029",
+    "dishId": "hotteok",
+    "sourcePath": "data/internal/audit/rebuild-batches/korean-batch-016-image-sources/110029-hotteok.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "feba10bfeb61a8bfa61f9374efdc1cfa5ae49f13d45e4f7e3fc08cc8fa673b01"
+  },
+  {
+    "file": "110030-bingsu.png",
+    "metadataCode": "110030",
+    "dishId": "bingsu",
+    "sourcePath": "data/internal/audit/rebuild-batches/korean-batch-016-image-sources/110030-bingsu.png",
+    "generatedImagesDir": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e",
+    "sha256": "8242b78f02be7d2ddc3be31b4babf078a0263d012962b505dfacb23065eb2e41"
+  }
+]

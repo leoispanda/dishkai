@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 371
-- Total aliases: 1214
+- Total verified dishes: 396
+- Total aliases: 1303
 - Total cuisines: 14
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -280,13 +280,38 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 109029 - `matcha-ice-cream` - Matcha Ice Cream / 抹茶冰淇淋 / 抹茶アイス
 30. 109030 - `dorayaki` - Dorayaki / 铜锣烧 / どら焼き
 
-## Korean (korean) - 5
+## Korean (korean) - 30
 
 1. 110001 - `bibimbap` - Bibimbap / 韩式拌饭 / 비빔밥
 2. 110002 - `kimchi-jjigae` - Kimchi Jjigae / 泡菜汤 / 김치찌개
 3. 110003 - `bulgogi` - Bulgogi / 韩式烤牛肉 / 불고기
 4. 110004 - `tteokbokki` - Tteokbokki / 韩式辣炒年糕 / 떡볶이
 5. 110005 - `korean-fried-chicken` - Korean Fried Chicken / 韩式炸鸡 / 치킨
+6. 110006 - `japchae` - Japchae / 韩式杂菜粉丝 / 잡채
+7. 110007 - `samgyeopsal` - Samgyeopsal / 韩式烤五花肉 / 삼겹살
+8. 110008 - `galbi` - Galbi / 韩式烤牛小排 / 갈비
+9. 110009 - `kimchi-fried-rice` - Kimchi Fried Rice / 泡菜炒饭 / 김치볶음밥
+10. 110010 - `sundubu-jjigae` - Sundubu-jjigae / 韩式嫩豆腐锅 / 순두부찌개
+11. 110011 - `doenjang-jjigae` - Doenjang-jjigae / 韩式大酱汤 / 된장찌개
+12. 110012 - `jajangmyeon` - Jajangmyeon / 韩式炸酱面 / 짜장면
+13. 110013 - `naengmyeon` - Naengmyeon / 韩式冷面 / 냉면
+14. 110014 - `mandu` - Mandu / 韩式饺子 / 만두
+15. 110015 - `bossam` - Bossam / 韩式包肉 / 보쌈
+16. 110016 - `haemul-pajeon` - Haemul Pajeon / 韩式海鲜葱饼 / 해물파전
+17. 110017 - `kimbap` - Kimbap / 韩式紫菜包饭 / 김밥
+18. 110018 - `dak-galbi` - Dak Galbi / 韩式辣炒鸡排 / 닭갈비
+19. 110019 - `galbitang` - Galbitang / 牛排骨清汤 / 갈비탕
+20. 110020 - `seolleongtang` - Seolleongtang / 韩式牛骨汤 / 설렁탕
+21. 110021 - `yukgaejang` - Yukgaejang / 韩式辣牛肉汤 / 육개장
+22. 110022 - `budae-jjigae` - Budae-jjigae / 韩式部队锅 / 부대찌개
+23. 110023 - `jjolmyeon` - Jjolmyeon / 韩式辣拌冷面 / 쫄면
+24. 110024 - `bibim-naengmyeon` - Bibim Naengmyeon / 韩式辣拌冷面 / 비빔냉면
+25. 110025 - `dakgangjeong` - Dakgangjeong / 韩式甜辣炸鸡块 / 닭강정
+26. 110026 - `godeungeo-gui` - Godeungeo-gui / 韩式烤鲭鱼 / 고등어구이
+27. 110027 - `ojingeo-bokkeum` - Ojingeo-bokkeum / 韩式辣炒鱿鱼 / 오징어볶음
+28. 110028 - `gyeran-jjim` - Gyeran-jjim / 韩式蒸蛋 / 계란찜
+29. 110029 - `hotteok` - Hotteok / 韩式糖饼 / 호떡
+30. 110030 - `bingsu` - Bingsu / 韩式刨冰 / 빙수
 
 ## Portuguese (portuguese) - 30
 

@@ -1,0 +1,177 @@
+[
+  {
+    "dishId": "japchae",
+    "metadataCode": "110006",
+    "imagePath": "/assets/dishes/main/110006-japchae.webp",
+    "name": "Japchae",
+    "source": "expanded"
+  },
+  {
+    "dishId": "samgyeopsal",
+    "metadataCode": "110007",
+    "imagePath": "/assets/dishes/main/110007-samgyeopsal.webp",
+    "name": "Samgyeopsal",
+    "source": "expanded"
+  },
+  {
+    "dishId": "galbi",
+    "metadataCode": "110008",
+    "imagePath": "/assets/dishes/main/110008-galbi.webp",
+    "name": "Galbi",
+    "source": "expanded"
+  },
+  {
+    "dishId": "kimchi-fried-rice",
+    "metadataCode": "110009",
+    "imagePath": "/assets/dishes/main/110009-kimchi-fried-rice.webp",
+    "name": "Kimchi Fried Rice",
+    "source": "expanded"
+  },
+  {
+    "dishId": "sundubu-jjigae",
+    "metadataCode": "110010",
+    "imagePath": "/assets/dishes/main/110010-sundubu-jjigae.webp",
+    "name": "Sundubu-jjigae",
+    "source": "expanded"
+  },
+  {
+    "dishId": "doenjang-jjigae",
+    "metadataCode": "110011",
+    "imagePath": "/assets/dishes/main/110011-doenjang-jjigae.webp",
+    "name": "Doenjang-jjigae",
+    "source": "expanded"
+  },
+  {
+    "dishId": "jajangmyeon",
+    "metadataCode": "110012",
+    "imagePath": "/assets/dishes/main/110012-jajangmyeon.webp",
+    "name": "Jajangmyeon",
+    "source": "expanded"
+  },
+  {
+    "dishId": "naengmyeon",
+    "metadataCode": "110013",
+    "imagePath": "/assets/dishes/main/110013-naengmyeon.webp",
+    "name": "Naengmyeon",
+    "source": "expanded"
+  },
+  {
+    "dishId": "mandu",
+    "metadataCode": "110014",
+    "imagePath": "/assets/dishes/main/110014-mandu.webp",
+    "name": "Mandu",
+    "source": "expanded"
+  },
+  {
+    "dishId": "bossam",
+    "metadataCode": "110015",
+    "imagePath": "/assets/dishes/main/110015-bossam.webp",
+    "name": "Bossam",
+    "source": "expanded"
+  },
+  {
+    "dishId": "haemul-pajeon",
+    "metadataCode": "110016",
+    "imagePath": "/assets/dishes/main/110016-haemul-pajeon.webp",
+    "name": "Haemul Pajeon",
+    "source": "expanded"
+  },
+  {
+    "dishId": "kimbap",
+    "metadataCode": "110017",
+    "imagePath": "/assets/dishes/main/110017-kimbap.webp",
+    "name": "Kimbap",
+    "source": "expanded"
+  },
+  {
+    "dishId": "dak-galbi",
+    "metadataCode": "110018",
+    "imagePath": "/assets/dishes/main/110018-dak-galbi.webp",
+    "name": "Dak Galbi",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "galbitang",
+    "metadataCode": "110019",
+    "imagePath": "/assets/dishes/main/110019-galbitang.webp",
+    "name": "Galbitang",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "seolleongtang",
+    "metadataCode": "110020",
+    "imagePath": "/assets/dishes/main/110020-seolleongtang.webp",
+    "name": "Seolleongtang",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "yukgaejang",
+    "metadataCode": "110021",
+    "imagePath": "/assets/dishes/main/110021-yukgaejang.webp",
+    "name": "Yukgaejang",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "budae-jjigae",
+    "metadataCode": "110022",
+    "imagePath": "/assets/dishes/main/110022-budae-jjigae.webp",
+    "name": "Budae-jjigae",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "jjolmyeon",
+    "metadataCode": "110023",
+    "imagePath": "/assets/dishes/main/110023-jjolmyeon.webp",
+    "name": "Jjolmyeon",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "bibim-naengmyeon",
+    "metadataCode": "110024",
+    "imagePath": "/assets/dishes/main/110024-bibim-naengmyeon.webp",
+    "name": "Bibim Naengmyeon",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "dakgangjeong",
+    "metadataCode": "110025",
+    "imagePath": "/assets/dishes/main/110025-dakgangjeong.webp",
+    "name": "Dakgangjeong",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "godeungeo-gui",
+    "metadataCode": "110026",
+    "imagePath": "/assets/dishes/main/110026-godeungeo-gui.webp",
+    "name": "Godeungeo-gui",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "ojingeo-bokkeum",
+    "metadataCode": "110027",
+    "imagePath": "/assets/dishes/main/110027-ojingeo-bokkeum.webp",
+    "name": "Ojingeo-bokkeum",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "gyeran-jjim",
+    "metadataCode": "110028",
+    "imagePath": "/assets/dishes/main/110028-gyeran-jjim.webp",
+    "name": "Gyeran-jjim",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "hotteok",
+    "metadataCode": "110029",
+    "imagePath": "/assets/dishes/main/110029-hotteok.webp",
+    "name": "Hotteok",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "bingsu",
+    "metadataCode": "110030",
+    "imagePath": "/assets/dishes/main/110030-bingsu.webp",
+    "name": "Bingsu",
+    "source": "global-depth"
+  }
+]

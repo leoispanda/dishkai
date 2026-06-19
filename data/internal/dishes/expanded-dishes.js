@@ -2737,32 +2737,34 @@ export const expandedDishes = [
     "cookingMethods": [
       "stir-fried"
     ],
+    "servingTemperature": "warm-or-room-temperature",
     "shortDescription": {
-      "en": "Glass noodles stir-fried with vegetables, sesame oil, and sometimes beef.",
-      "zh": "韩式杂菜粉丝 是常见韩国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Japchae is een veelvoorkomend gerecht in de koreaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Stir-fried sweet potato glass noodles with vegetables, sesame oil, soy seasoning, and often beef.",
+      "zh": "红薯粉条与蔬菜、芝麻油和酱油调味拌炒，常加牛肉，口感滑弹。",
+      "nl": "Geroerbakte zoete-aardappelglasnoedels met groenten, sesamolie, soja en vaak rundvlees."
     },
     "cookingProfile": {
-      "en": "Usually served as a noodle with a springy noodles, glossy sauce feel.",
-      "zh": "通常以noodle形式上桌，重点体验是springy noodles。",
-      "nl": "Meestal geserveerd als noodle met een springy noodles gevoel."
+      "en": "The glass noodles are tossed until glossy, so it feels slippery, lightly sweet, and springy rather than soupy.",
+      "zh": "粉条拌炒到油亮，入口滑弹微甜，不是汤面。",
+      "nl": "De glasnoedels worden glanzend gemengd: glad, lichtzoet en veerkrachtig, niet soepig."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "noodle",
+        "shareable"
       ],
       "description": {
-        "en": "A high-frequency Korean menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频韩国菜菜品。",
-        "nl": "Een vaak voorkomend koreaans menu-item voor bredere restaurantdekking."
+        "en": "A Korean menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按韩餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Koreaans menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
       }
     },
     "composition": [
       [
-        "wheat-noodles",
-        45,
+        "sweet-potato-noodles",
+        50,
         "base"
       ],
       [
@@ -2771,9 +2773,9 @@ export const expandedDishes = [
         "body"
       ],
       [
-        "chicken",
-        20,
-        "protein"
+        "beef",
+        10,
+        "common protein"
       ],
       [
         "soy-sauce",
@@ -2782,43 +2784,54 @@ export const expandedDishes = [
         "seasoning"
       ],
       [
-        "green-onion",
-        5,
-        "finish"
+        "sesame-oil",
+        10,
+        "aroma",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "gochujang",
       "sesame-oil",
-      "soy-sauce"
+      "soy-sauce",
+      "sweet-potato-noodles"
     ],
     "basicTaste": [
       "savory",
-      "umami"
+      "mildly-sweet",
+      "nutty"
     ],
     "textureProfile": [
-      "springy noodles",
-      "glossy sauce"
+      "slippery springy noodles",
+      "glossy coating",
+      "soft vegetables"
     ],
     "riskFlags": [
-      "contains-gluten"
+      "contains-soy",
+      "contains-gluten",
+      "contains-sesame"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "protein-varies-by-restaurant"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+      "shareable",
+      "noodle-lover",
+      "mild-flavor"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "soy-allergy",
+      "gluten-allergy",
+      "sesame-allergy"
+    ],
     "orderVerdict": {
-      "en": "A mild, chewy Korean noodle dish if you want less chili.",
-      "zh": "如果你接受这类口味和风险，韩式杂菜粉丝 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A mild, shareable noodle side if you want sesame-soy flavor without much heat.",
+      "zh": "想吃不太辣、芝麻酱油香、适合分享的粉丝菜时很稳。",
+      "nl": "Een milde deelbare noedel-side met sesam-sojasmaak en weinig pit."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -2833,92 +2846,108 @@ export const expandedDishes = [
     },
     "category": "meat",
     "cookingMethods": [
-      "braised"
+      "grilled"
     ],
+    "goodForSharing": true,
     "shortDescription": {
-      "en": "Grilled pork belly eaten with wraps, sauces, garlic, and side dishes.",
-      "zh": "韩式烤五花肉 是常见韩国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Samgyeopsal is een veelvoorkomend gerecht in de koreaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Thick pork belly slices grilled at the table, usually wrapped in lettuce or perilla with garlic and ssamjang.",
+      "zh": "厚切五花肉在桌边烤熟，常用生菜或紫苏叶包着蒜片和包饭酱一起吃。",
+      "nl": "Dikke plakken buikspek aan tafel gegrild, vaak gewikkeld in sla of perilla met knoflook en ssamjang."
     },
     "cookingProfile": {
-      "en": "Usually served as a meat with a tender meat, rich sauce feel.",
-      "zh": "通常以meat形式上桌，重点体验是tender meat。",
-      "nl": "Meestal geserveerd als meat met een tender meat gevoel."
+      "en": "Grilled on a tabletop plate, so the edges get crisp while the center stays fatty and rich.",
+      "zh": "桌边烤盘加热，边缘会焦脆，中间肥润厚重。",
+      "nl": "Aan tafel gegrild: randjes worden krokant, binnenin blijft het vet en rijk."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "bbq",
+        "shareable"
       ],
       "description": {
-        "en": "A high-frequency Korean menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频韩国菜菜品。",
-        "nl": "Een vaak voorkomend koreaans menu-item voor bredere restaurantdekking."
+        "en": "A Korean menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按韩餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Koreaans menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
       }
     },
     "composition": [
       [
-        "beef",
-        55,
+        "pork-belly",
+        60,
         "main"
       ],
       [
-        "potato",
-        20,
-        "side"
+        "perilla-leaves",
+        10,
+        "wrap"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "side"
+        "cabbage",
+        10,
+        "lettuce-style wrap"
       ],
       [
-        "butter",
-        5,
-        "richness"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
+        "ssamjang",
+        10,
+        "dip",
         "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "kimchi",
+        5,
+        "side"
       ]
     ],
     "distinctiveFlavorSources": [
-      "gochujang",
-      "sesame-oil",
-      "soy-sauce"
+      "pork-belly",
+      "ssamjang",
+      "garlic"
     ],
     "basicTaste": [
       "savory",
-      "rich",
-      "umami"
+      "fatty",
+      "smoky",
+      "salty"
     ],
     "textureProfile": [
-      "tender meat",
-      "rich sauce"
+      "crisp grilled edges",
+      "fatty pork belly",
+      "fresh wraps"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-soy",
+      "contains-sesame"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "shareable",
+      "bbq",
+      "meat-lover"
     ],
     "avoidIfTags": [
-      "wants-light-food"
+      "pork-avoidant",
+      "soy-allergy",
+      "sesame-allergy",
+      "low-fat-preference"
     ],
     "orderVerdict": {
-      "en": "Great for sharing if pork and richer meat are welcome.",
-      "zh": "如果你接受这类口味和风险，韩式烤五花肉 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Best for a shared BBQ meal when rich pork belly sounds good; not a light dish.",
+      "zh": "适合想吃共享烤肉、能接受肥润五花肉的人；这不是清淡选择。",
+      "nl": "Ideaal voor gedeelde BBQ als rijk buikspek goed klinkt; geen lichte keuze."
     },
     "spiceLevel": 1,
     "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -2927,94 +2956,114 @@ export const expandedDishes = [
     "cuisineId": "korean",
     "names": {
       "en": "Galbi",
-      "zh": "韩式烤牛肋排",
+      "zh": "韩式烤牛小排",
       "nl": "Galbi",
       "local": "갈비"
     },
     "category": "meat",
     "cookingMethods": [
-      "braised"
+      "grilled"
     ],
+    "goodForSharing": true,
     "shortDescription": {
-      "en": "Marinated grilled beef short ribs with sweet-savory soy and garlic flavors.",
-      "zh": "韩式烤牛肋排 是常见韩国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Galbi is een veelvoorkomend gerecht in de koreaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Marinated beef short ribs grilled until smoky, tender, and sweet-savory.",
+      "zh": "牛小排用甜咸酱油风味腌制后烤制，肉香浓、边缘微焦。",
+      "nl": "Gemarineerde rundershortribs, gegrild tot rokerig, mals en zoet-hartig."
     },
     "cookingProfile": {
-      "en": "Usually served as a meat with a tender meat, rich sauce feel.",
-      "zh": "通常以meat形式上桌，重点体验是tender meat。",
-      "nl": "Meestal geserveerd als meat met een tender meat gevoel."
+      "en": "The marinade caramelizes on the grill, giving charred edges and a sweeter profile than plain steak.",
+      "zh": "腌汁在烤架上焦糖化，形成焦香边缘，比普通牛排更甜咸。",
+      "nl": "De marinade karamelliseert op de grill, met geschroeide randjes en meer zoetheid dan gewone steak."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "bbq",
+        "shareable"
       ],
       "description": {
-        "en": "A high-frequency Korean menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频韩国菜菜品。",
-        "nl": "Een vaak voorkomend koreaans menu-item voor bredere restaurantdekking."
+        "en": "A Korean menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按韩餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Koreaans menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
       }
     },
     "composition": [
       [
-        "beef",
-        55,
+        "beef-short-ribs",
+        70,
         "main"
       ],
       [
-        "potato",
-        20,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
-        15,
-        "side"
-      ],
-      [
-        "butter",
-        5,
-        "richness"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
+        "soy-sauce",
+        10,
+        "marinade",
         "seasoning"
+      ],
+      [
+        "sesame-oil",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "marinade aroma",
+        "seasoning"
+      ],
+      [
+        "green-onion",
+        5,
+        "garnish"
+      ],
+      [
+        "steamed-rice",
+        5,
+        "side"
       ]
     ],
     "distinctiveFlavorSources": [
-      "gochujang",
-      "sesame-oil",
-      "soy-sauce"
+      "beef-short-ribs",
+      "soy-sauce",
+      "sesame-oil"
     ],
     "basicTaste": [
+      "sweet",
       "savory",
-      "rich",
+      "smoky",
       "umami"
     ],
     "textureProfile": [
-      "tender meat",
-      "rich sauce"
+      "tender rib meat",
+      "charred edges",
+      "glossy marinade"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-soy",
+      "contains-gluten",
+      "contains-sesame"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "bbq",
+      "shareable",
+      "meat-lover"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "soy-allergy",
+      "gluten-allergy",
+      "sesame-allergy"
+    ],
     "orderVerdict": {
-      "en": "Order this for a rich Korean BBQ meat experience.",
-      "zh": "如果你接受这类口味和风险，韩式烤牛肋排 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A strong BBQ choice if you want sweet-savory beef ribs rather than spicy stew.",
+      "zh": "想吃甜咸烤牛小排而不是辣汤锅时很适合。",
+      "nl": "Een sterke BBQ-keuze als je zoet-hartige runderribs wilt in plaats van pittige stoof."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -3032,84 +3081,101 @@ export const expandedDishes = [
       "stir-fried"
     ],
     "shortDescription": {
-      "en": "Fried rice with kimchi, often egg, pork, or tuna, and a tangy spicy finish.",
-      "zh": "泡菜炒饭 是常见韩国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Kimchi gebakken rijst is een veelvoorkomend gerecht in de koreaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Fried rice with chopped kimchi, gochujang or kimchi juice, often topped with a fried egg.",
+      "zh": "用切碎泡菜、泡菜汁或辣酱炒饭，常加煎蛋，酸辣咸香。",
+      "nl": "Gebakken rijst met gehakte kimchi, kimchisap of gochujang, vaak met gebakken ei."
     },
     "cookingProfile": {
-      "en": "Usually served as a rice with a soft rice, mixed toppings feel.",
-      "zh": "通常以rice形式上桌，重点体验是soft rice。",
-      "nl": "Meestal geserveerd als rice met een soft rice gevoel."
+      "en": "Stir-fried until the rice is coated and slightly dry, so it feels tangy, spicy, and filling.",
+      "zh": "米饭炒到被泡菜汁包裹且略干爽，酸辣、咸香、饱腹。",
+      "nl": "Geroerbakt tot de rijst bedekt en iets droog is: zuur, pittig en vullend."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item"
+        "rice",
+        "comforting"
       ],
       "description": {
-        "en": "A high-frequency Korean menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频韩国菜菜品。",
-        "nl": "Een vaak voorkomend koreaans menu-item voor bredere restaurantdekking."
+        "en": "A Korean menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按韩餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Koreaans menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
       }
     },
     "composition": [
       [
         "steamed-rice",
-        55,
+        50,
         "base"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
+        "kimchi",
+        25,
+        "flavor base"
       ],
       [
         "egg",
         10,
-        "topping"
+        "fried topping"
       ],
       [
-        "soy-sauce",
+        "gochujang",
         10,
-        "seasoning",
+        "heat and color",
         "seasoning"
       ],
       [
-        "green-onion",
+        "sesame-oil",
         5,
-        "finish"
+        "aroma",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
+      "kimchi",
       "gochujang",
-      "sesame-oil",
-      "soy-sauce"
+      "sesame-oil"
     ],
     "basicTaste": [
+      "sour",
+      "spicy",
       "savory",
-      "mild"
+      "umami"
     ],
     "textureProfile": [
-      "soft rice",
-      "mixed toppings"
+      "separate fried rice grains",
+      "soft kimchi pieces",
+      "runny or set egg topping"
     ],
     "riskFlags": [
-      "contains-egg"
+      "contains-egg",
+      "contains-soy",
+      "contains-sesame",
+      "can-be-spicy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "protein-varies-by-restaurant"
+    ],
     "goodForTags": [
-      "common-menu-item"
+      "rice",
+      "comforting",
+      "filling"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "soy-allergy",
+      "sesame-allergy",
+      "spice-sensitive"
+    ],
     "orderVerdict": {
-      "en": "Good comfort dish if you like kimchi heat; ask about pork.",
-      "zh": "如果你接受这类口味和风险，泡菜炒饭 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good when you want a filling rice dish with sour-spicy kimchi flavor.",
+      "zh": "想吃饱腹、酸辣泡菜味明显的饭类时很适合。",
+      "nl": "Goed als je een vullende rijstschotel met zuur-pittige kimchismaak wilt."
     },
     "spiceLevel": 2,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -3117,9 +3183,9 @@ export const expandedDishes = [
     "metadataCode": "110010",
     "cuisineId": "korean",
     "names": {
-      "en": "Sundubu Jjigae",
-      "zh": "嫩豆腐锅",
-      "nl": "Sundubu jjigae",
+      "en": "Sundubu-jjigae",
+      "zh": "韩式嫩豆腐锅",
+      "nl": "Sundubu-jjigae",
       "local": "순두부찌개"
     },
     "category": "soup",
@@ -3127,99 +3193,118 @@ export const expandedDishes = [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Spicy soft tofu stew often with seafood, pork, or egg.",
-      "zh": "嫩豆腐锅 是常见韩国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Sundubu jjigae is een veelvoorkomend gerecht in de koreaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Spicy soft tofu stew served bubbling hot, often with egg, seafood, pork, or beef.",
+      "zh": "滚烫上桌的辣嫩豆腐锅，常加鸡蛋、海鲜、猪肉或牛肉。",
+      "nl": "Pittige zachte-tofustoof, kokend heet geserveerd, vaak met ei, zeevruchten, varken of rund."
     },
     "cookingProfile": {
-      "en": "Usually served as a soup with a hot broth, soft pieces feel.",
-      "zh": "通常以soup形式上桌，重点体验是hot broth。",
-      "nl": "Meestal geserveerd als soup met een hot broth gevoel."
+      "en": "Served in a hot stone bowl, so the tofu is silky and the broth stays bubbling at the table.",
+      "zh": "石锅滚烫上桌，嫩豆腐滑软，汤汁在桌上仍会冒泡。",
+      "nl": "In hete stenen kom; de tofu is zijdezacht en de bouillon blijft borrelen."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "lighter-choice"
+        "classic-dish",
+        "spicy",
+        "soup"
       ],
       "description": {
-        "en": "A high-frequency Korean menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频韩国菜菜品。",
-        "nl": "Een vaak voorkomend koreaans menu-item voor bredere restaurantdekking."
+        "en": "A Korean menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按韩餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Koreaans menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
       }
     },
     "composition": [
       [
-        "broth",
+        "tofu",
         45,
-        "soup-base"
+        "main"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
+        "broth",
+        25,
+        "soup base"
       ],
       [
-        "chicken",
-        20,
-        "protein"
-      ],
-      [
-        "green-onion",
-        5,
-        "finish"
-      ],
-      [
-        "soy-sauce",
+        "egg",
         10,
-        "seasoning",
+        "topping"
+      ],
+      [
+        "seafood-mix",
+        10,
+        "common protein"
+      ],
+      [
+        "gochugaru",
+        5,
+        "chili warmth",
+        "seasoning"
+      ],
+      [
+        "gochujang",
+        5,
+        "depth",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "gochujang",
-      "sesame-oil",
-      "soy-sauce"
+      "tofu",
+      "gochugaru",
+      "seafood-mix"
     ],
     "basicTaste": [
+      "spicy",
       "savory",
-      "brothy"
+      "umami"
     ],
     "textureProfile": [
-      "hot broth",
-      "soft pieces"
+      "silky soft tofu",
+      "bubbling hot broth",
+      "soft egg"
     ],
     "riskFlags": [
       "contains-soy",
-      "contains-egg"
+      "contains-egg",
+      "contains-shellfish",
+      "contains-fish",
+      "can-be-spicy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "protein-varies-by-restaurant"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "lighter-choice"
+      "soup",
+      "spicy",
+      "comforting"
     ],
     "avoidIfTags": [
+      "soy-allergy",
+      "egg-allergy",
+      "shellfish-allergy",
+      "fish-allergy",
       "spice-sensitive"
     ],
     "orderVerdict": {
-      "en": "Warm and spicy; check seafood or pork depending on the restaurant.",
-      "zh": "如果你接受这类口味和风险，嫩豆腐锅 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A warming spicy stew if you like silky tofu; ask about seafood if allergies matter.",
+      "zh": "喜欢嫩豆腐和热辣汤锅时很适合；有海鲜过敏要先确认。",
+      "nl": "Een verwarmende pittige stoof als je zijdezachte tofu wilt; vraag naar zeevruchten bij allergie."
     },
     "spiceLevel": 3,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   }),
   starterDish({
     "id": "doenjang-jjigae",
     "metadataCode": "110011",
     "cuisineId": "korean",
     "names": {
-      "en": "Doenjang Jjigae",
+      "en": "Doenjang-jjigae",
       "zh": "韩式大酱汤",
-      "nl": "Doenjang jjigae",
+      "nl": "Doenjang-jjigae",
       "local": "된장찌개"
     },
     "category": "soup",
@@ -3227,32 +3312,37 @@ export const expandedDishes = [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Korean soybean paste stew with tofu, vegetables, and deep fermented savoriness.",
-      "zh": "韩式大酱汤 是常见韩国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Doenjang jjigae is een veelvoorkomend gerecht in de koreaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Soybean-paste stew with tofu, vegetables, and sometimes beef, seafood, or clams.",
+      "zh": "以韩式大酱为底的汤锅，常有豆腐、蔬菜，也可能加牛肉、海鲜或蛤蜊。",
+      "nl": "Stoofsoep met Koreaanse sojabonenpasta, tofu, groenten en soms rund, zeevruchten of schelpen."
     },
     "cookingProfile": {
-      "en": "Usually served as a soup with a hot broth, soft pieces feel.",
-      "zh": "通常以soup形式上桌，重点体验是hot broth。",
-      "nl": "Meestal geserveerd als soup met een hot broth gevoel."
+      "en": "The paste makes the broth earthy and salty, less sweet and less red than gochujang stews.",
+      "zh": "大酱让汤底有发酵豆香和咸鲜感，通常不如辣酱锅甜红。",
+      "nl": "De pasta maakt de bouillon aards en zout, minder zoet en rood dan gochujangstoof."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "soup"
       ],
       "description": {
-        "en": "A high-frequency Korean menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频韩国菜菜品。",
-        "nl": "Een vaak voorkomend koreaans menu-item voor bredere restaurantdekking."
+        "en": "A Korean menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按韩餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Koreaans menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
       }
     },
     "composition": [
       [
         "broth",
-        45,
-        "soup-base"
+        35,
+        "soup base"
+      ],
+      [
+        "tofu",
+        25,
+        "body"
       ],
       [
         "mixed-vegetables",
@@ -3260,54 +3350,56 @@ export const expandedDishes = [
         "body"
       ],
       [
-        "chicken",
-        20,
-        "protein"
+        "doenjang",
+        15,
+        "fermented base",
+        "seasoning"
       ],
       [
         "green-onion",
         5,
         "finish"
-      ],
-      [
-        "soy-sauce",
-        10,
-        "seasoning",
-        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "gochujang",
-      "sesame-oil",
-      "soy-sauce"
+      "doenjang",
+      "tofu"
     ],
     "basicTaste": [
-      "savory",
-      "brothy"
+      "salty",
+      "earthy",
+      "umami",
+      "savory"
     ],
     "textureProfile": [
       "hot broth",
-      "soft pieces"
+      "soft tofu",
+      "tender vegetables"
     ],
     "riskFlags": [
       "contains-soy"
     ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+    "dietaryFlags": [
+      "protein-varies-by-restaurant"
     ],
-    "avoidIfTags": [],
+    "goodForTags": [
+      "soup",
+      "fermented-flavor",
+      "comforting"
+    ],
+    "avoidIfTags": [
+      "soy-allergy",
+      "fermented-flavor-avoidant"
+    ],
     "orderVerdict": {
-      "en": "Good if you like miso-like fermented flavors; not for soy avoiders.",
-      "zh": "如果你接受这类口味和风险，韩式大酱汤 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Choose it for fermented soybean depth rather than bright chili heat.",
+      "zh": "想要发酵豆香和咸鲜汤感时适合，不是主打鲜红辣味。",
+      "nl": "Kies dit voor gefermenteerde sojadiepte, niet voor felle chilihitte."
     },
     "spiceLevel": 1,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -3316,95 +3408,103 @@ export const expandedDishes = [
     "cuisineId": "korean",
     "names": {
       "en": "Jajangmyeon",
-      "zh": "炸酱面",
+      "zh": "韩式炸酱面",
       "nl": "Jajangmyeon",
       "local": "짜장면"
     },
     "category": "noodle",
     "cookingMethods": [
-      "stir-fried"
+      "sauce-tossed"
     ],
     "shortDescription": {
-      "en": "Noodles with thick black bean sauce, usually savory-sweet and not very spicy.",
-      "zh": "炸酱面 是常见韩国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Jajangmyeon is een veelvoorkomend gerecht in de koreaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Korean-Chinese wheat noodles topped with thick black bean sauce, onion, and usually pork.",
+      "zh": "韩式中餐黑豆酱拌面，粗小麦面配浓稠春酱、洋葱，常含猪肉。",
+      "nl": "Koreaans-Chinese tarwenoedels met dikke zwartebonensaus, ui en meestal varkensvlees."
     },
     "cookingProfile": {
-      "en": "Usually served as a noodle with a springy noodles, glossy sauce feel.",
-      "zh": "通常以noodle形式上桌，重点体验是springy noodles。",
-      "nl": "Meestal geserveerd als noodle met een springy noodles gevoel."
+      "en": "The sauce is ladled over boiled noodles and mixed before eating, so it feels thick, glossy, and mildly sweet.",
+      "zh": "煮好的面上盖黑豆酱，吃前拌匀，口感浓稠油亮、微甜咸。",
+      "nl": "Saus over gekookte noedels, gemengd voor het eten: dik, glanzend en lichtzoet."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "noodle",
+        "korean-chinese"
       ],
       "description": {
-        "en": "A high-frequency Korean menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频韩国菜菜品。",
-        "nl": "Een vaak voorkomend koreaans menu-item voor bredere restaurantdekking."
+        "en": "A Korean menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按韩餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Koreaans menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
       }
     },
     "composition": [
       [
         "wheat-noodles",
-        45,
+        55,
         "base"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "chicken",
-        20,
-        "protein"
-      ],
-      [
-        "soy-sauce",
-        10,
-        "seasoning",
+        "chunjang",
+        25,
+        "black bean sauce",
         "seasoning"
       ],
       [
-        "green-onion",
+        "pork",
+        10,
+        "common protein"
+      ],
+      [
+        "onion",
         5,
-        "finish"
+        "sauce body"
+      ],
+      [
+        "cucumber",
+        5,
+        "fresh garnish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "gochujang",
-      "sesame-oil",
-      "soy-sauce"
+      "chunjang",
+      "onion"
     ],
     "basicTaste": [
       "savory",
-      "umami"
+      "slightly-sweet",
+      "earthy"
     ],
     "textureProfile": [
-      "springy noodles",
-      "glossy sauce"
+      "thick black sauce",
+      "chewy noodles",
+      "soft onion pieces"
     ],
     "riskFlags": [
-      "contains-gluten"
+      "contains-gluten",
+      "contains-soy",
+      "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "noodle-lover",
+      "mild-flavor",
+      "comforting"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "soy-allergy",
+      "pork-avoidant"
+    ],
     "orderVerdict": {
-      "en": "Comforting and filling if you want Korean-Chinese noodles without chili heat.",
-      "zh": "如果你接受这类口味和风险，炸酱面 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A mild saucy noodle order; pick something else if you want bright spicy Korean flavors.",
+      "zh": "这是温和浓酱拌面；如果想吃鲜明辣味韩餐，可以选别的。",
+      "nl": "Een milde sauzige noedelkeuze; kies iets anders als je felle Koreaanse pit wilt."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -3413,96 +3513,112 @@ export const expandedDishes = [
     "cuisineId": "korean",
     "names": {
       "en": "Naengmyeon",
-      "zh": "冷面",
+      "zh": "韩式冷面",
       "nl": "Naengmyeon",
       "local": "냉면"
     },
     "category": "noodle",
     "cookingMethods": [
-      "stir-fried"
+      "boiled",
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Cold chewy noodles in chilled broth or spicy sauce.",
-      "zh": "冷面 是常见韩国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Naengmyeon is een veelvoorkomend gerecht in de koreaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Cold chewy noodles, often in icy tangy broth with cucumber, pear, beef slices, and boiled egg.",
+      "zh": "冷食筋道面，常在冰凉酸鲜汤里，配黄瓜、梨、牛肉片和水煮蛋。",
+      "nl": "Koude taaie noedels, vaak in ijskoude zure bouillon met komkommer, peer, rund en ei."
     },
     "cookingProfile": {
-      "en": "Usually served as a noodle with a springy noodles, glossy sauce feel.",
-      "zh": "通常以noodle形式上桌，重点体验是springy noodles。",
-      "nl": "Meestal geserveerd als noodle met een springy noodles gevoel."
+      "en": "Noodles are cooked then chilled, so the dish feels refreshing, slippery, and firmer than hot noodle soup.",
+      "zh": "面煮熟后冷却上桌，清爽滑弹，比热汤面更筋道。",
+      "nl": "Noedels worden gekookt en gekoeld: verfrissend, glad en steviger dan warme noedelsoep."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "cold-noodle"
       ],
       "description": {
-        "en": "A high-frequency Korean menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频韩国菜菜品。",
-        "nl": "Een vaak voorkomend koreaans menu-item voor bredere restaurantdekking."
+        "en": "A Korean menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按韩餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Koreaans menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
       }
     },
     "composition": [
       [
-        "wheat-noodles",
-        45,
+        "naengmyeon-noodles",
+        55,
         "base"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "chicken",
-        20,
-        "protein"
-      ],
-      [
-        "soy-sauce",
-        10,
-        "seasoning",
+        "cold-naengmyeon-broth",
+        25,
+        "cold broth",
         "seasoning"
       ],
       [
-        "green-onion",
+        "egg",
         5,
-        "finish"
+        "topping"
+      ],
+      [
+        "cucumber",
+        5,
+        "fresh garnish"
+      ],
+      [
+        "beef",
+        5,
+        "topping"
+      ],
+      [
+        "vinegar",
+        5,
+        "table seasoning",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "gochujang",
-      "sesame-oil",
-      "soy-sauce"
+      "cold-naengmyeon-broth",
+      "vinegar",
+      "naengmyeon-noodles"
     ],
     "basicTaste": [
+      "cold",
+      "sour",
       "savory",
-      "umami"
+      "refreshing"
     ],
     "textureProfile": [
-      "springy noodles",
-      "glossy sauce"
+      "chewy cold noodles",
+      "icy broth",
+      "crisp garnish"
     ],
     "riskFlags": [
-      "contains-gluten"
+      "contains-gluten",
+      "contains-egg"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+      "cold-noodle",
+      "lighter-choice",
+      "summer-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "egg-allergy",
+      "cold-food-avoidant"
+    ],
     "orderVerdict": {
-      "en": "Best if you want something refreshing and chewy rather than hot.",
-      "zh": "如果你接受这类口味和风险，冷面 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Best when you want a cold, tangy noodle bowl; it can feel unusual if you expected hot soup.",
+      "zh": "想吃冰凉酸爽面时很适合；如果预期热汤面，可能会觉得反差大。",
+      "nl": "Goed als je koude friszure noedels wilt; opvallend anders als je warme soep verwacht."
     },
-    "spiceLevel": 1,
-    "weightLevel": 1,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -3517,28 +3633,30 @@ export const expandedDishes = [
     },
     "category": "dumpling",
     "cookingMethods": [
-      "steamed"
+      "steamed",
+      "fried"
     ],
+    "goodForSharing": true,
     "shortDescription": {
-      "en": "Korean dumplings with meat, tofu, kimchi, or vegetable filling.",
-      "zh": "韩式饺子 是常见韩国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Mandu is een veelvoorkomend gerecht in de koreaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Korean dumplings with meat, tofu, kimchi, or vegetable filling, served steamed, boiled, or pan-fried.",
+      "zh": "韩式饺子，内馅可能是肉、豆腐、泡菜或蔬菜，可蒸、煮或煎。",
+      "nl": "Koreaanse dumplings met vlees, tofu, kimchi of groente, gestoomd, gekookt of gebakken."
     },
     "cookingProfile": {
-      "en": "Usually served as a dumpling with a soft wrapper, juicy filling feel.",
-      "zh": "通常以dumpling形式上桌，重点体验是soft wrapper。",
-      "nl": "Meestal geserveerd als dumpling met een soft wrapper gevoel."
+      "en": "Preparation changes the texture: steamed is soft, pan-fried has a crisp bottom, boiled is lighter.",
+      "zh": "做法决定口感：蒸的柔软、煎的底部脆、煮的更清淡。",
+      "nl": "Bereiding bepaalt textuur: gestoomd zacht, gebakken krokante bodem, gekookt lichter."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "dumpling",
+        "shareable"
       ],
       "description": {
-        "en": "A high-frequency Korean menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频韩国菜菜品。",
-        "nl": "Een vaak voorkomend koreaans menu-item voor bredere restaurantdekking."
+        "en": "A Korean menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按韩餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Koreaans menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
       }
     },
     "composition": [
@@ -3549,13 +3667,18 @@ export const expandedDishes = [
       ],
       [
         "minced-pork",
-        25,
+        20,
+        "common filling"
+      ],
+      [
+        "tofu",
+        10,
         "filling"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "filling"
+        "kimchi",
+        10,
+        "optional filling"
       ],
       [
         "soy-sauce",
@@ -3571,38 +3694,49 @@ export const expandedDishes = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "gochujang",
+      "soy-sauce",
       "sesame-oil",
-      "soy-sauce"
+      "kimchi"
     ],
     "basicTaste": [
       "savory",
-      "umami"
+      "umami",
+      "mildly-tangy"
     ],
     "textureProfile": [
       "soft wrapper",
-      "juicy filling"
+      "juicy filling",
+      "optional crisp bottom"
     ],
     "riskFlags": [
       "contains-gluten",
+      "contains-soy",
+      "contains-sesame",
       "contains-pork"
     ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+    "dietaryFlags": [
+      "filling-varies-by-restaurant"
     ],
-    "avoidIfTags": [],
+    "goodForTags": [
+      "shareable",
+      "starter",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "soy-allergy",
+      "sesame-allergy",
+      "pork-avoidant"
+    ],
     "orderVerdict": {
-      "en": "Good side or starter; filling decides the risk profile.",
-      "zh": "如果你接受这类口味和风险，韩式饺子 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A dependable shared starter; check filling if you avoid pork or kimchi.",
+      "zh": "很稳的共享前菜；避猪肉或泡菜的人要确认内馅。",
+      "nl": "Een betrouwbare deelstarter; check vulling als je varken of kimchi mijdt."
     },
     "spiceLevel": 1,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "high"
   }),
   starterDish({
@@ -3617,90 +3751,101 @@ export const expandedDishes = [
     },
     "category": "meat",
     "cookingMethods": [
-      "braised"
+      "boiled"
     ],
+    "goodForSharing": true,
     "shortDescription": {
-      "en": "Boiled pork slices eaten with wraps, kimchi, garlic, and sauces.",
-      "zh": "韩式包肉 是常见韩国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Bossam is een veelvoorkomend gerecht in de koreaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Tender boiled pork slices served with cabbage or lettuce wraps, kimchi, garlic, and ssamjang.",
+      "zh": "水煮或卤煮猪肉切片，配白菜/生菜包、泡菜、蒜片和包饭酱。",
+      "nl": "Malse gekookte varkensplakken met kool- of slawraps, kimchi, knoflook en ssamjang."
     },
     "cookingProfile": {
-      "en": "Usually served as a meat with a tender meat, rich sauce feel.",
-      "zh": "通常以meat形式上桌，重点体验是tender meat。",
-      "nl": "Meestal geserveerd als meat met een tender meat gevoel."
+      "en": "The pork is boiled rather than grilled, so it feels softer and cleaner than samgyeopsal.",
+      "zh": "猪肉是煮熟切片，不是烤的；比烤五花肉更柔软、油烟感更少。",
+      "nl": "Het varken is gekookt, niet gegrild; zachter en schoner dan samgyeopsal."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "shareable"
       ],
       "description": {
-        "en": "A high-frequency Korean menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频韩国菜菜品。",
-        "nl": "Een vaak voorkomend koreaans menu-item voor bredere restaurantdekking."
+        "en": "A Korean menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按韩餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Koreaans menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
       }
     },
     "composition": [
       [
-        "beef",
+        "pork-belly",
         55,
-        "main"
+        "boiled pork"
       ],
       [
-        "potato",
-        20,
-        "side"
+        "cabbage",
+        15,
+        "wrap"
       ],
       [
-        "mixed-vegetables",
+        "kimchi",
         15,
         "side"
       ],
       [
-        "butter",
-        5,
-        "richness"
+        "ssamjang",
+        10,
+        "dip",
+        "seasoning"
       ],
       [
-        "black-pepper",
+        "garlic",
         5,
-        "seasoning",
+        "aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "gochujang",
-      "sesame-oil",
-      "soy-sauce"
+      "pork-belly",
+      "kimchi",
+      "ssamjang"
     ],
     "basicTaste": [
       "savory",
-      "rich",
-      "umami"
+      "fatty",
+      "tangy",
+      "salty"
     ],
     "textureProfile": [
-      "tender meat",
-      "rich sauce"
+      "soft pork slices",
+      "fresh wraps",
+      "crunchy kimchi"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-soy",
+      "contains-sesame"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "shareable",
+      "meat-lover",
+      "less-smoky-than-bbq"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "pork-avoidant",
+      "soy-allergy",
+      "sesame-allergy"
+    ],
     "orderVerdict": {
-      "en": "A pork-heavy sharing dish with clean, tender texture.",
-      "zh": "如果你接受这类口味和风险，韩式包肉 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Choose bossam over samgyeopsal if you want soft wrapped pork without grill smoke.",
+      "zh": "想吃包肉但不想要烤肉烟熏感时，bossam 比烤五花肉更合适。",
+      "nl": "Kies bossam boven samgyeopsal als je zachte wraps met varken wilt zonder grillsmaak."
     },
     "spiceLevel": 1,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -3709,97 +3854,112 @@ export const expandedDishes = [
     "cuisineId": "korean",
     "names": {
       "en": "Haemul Pajeon",
-      "zh": "海鲜葱饼",
+      "zh": "韩式海鲜葱饼",
       "nl": "Haemul pajeon",
       "local": "해물파전"
     },
     "category": "starter",
     "cookingMethods": [
-      "assembled"
+      "fried"
     ],
+    "goodForSharing": true,
     "shortDescription": {
-      "en": "Savory scallion pancake with seafood, crisp edges, and chewy center.",
-      "zh": "海鲜葱饼 是常见韩国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Haemul pajeon is een veelvoorkomend gerecht in de koreaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Savory Korean pancake with green onions and mixed seafood, usually served with soy dipping sauce.",
+      "zh": "韩式咸煎饼，里面有大量葱和混合海鲜，常配酱油蘸汁。",
+      "nl": "Hartige Koreaanse pannenkoek met bosui en zeevruchten, meestal met sojadip."
     },
     "cookingProfile": {
-      "en": "Usually served as a starter with a small bites, contrasting textures feel.",
-      "zh": "通常以starter形式上桌，重点体验是small bites。",
-      "nl": "Meestal geserveerd als starter met een small bites gevoel."
+      "en": "Pan-fried into a large pancake, so edges are crisp while the center stays tender and seafood-studded.",
+      "zh": "煎成大饼状，边缘酥脆，中间柔软并有海鲜颗粒。",
+      "nl": "Als grote pannenkoek gebakken: krokante rand, zachte kern met zeevruchten."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "shareable",
+        "seafood"
       ],
       "description": {
-        "en": "A high-frequency Korean menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频韩国菜菜品。",
-        "nl": "Een vaak voorkomend koreaans menu-item voor bredere restaurantdekking."
+        "en": "A Korean menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按韩餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Koreaans menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
       }
     },
     "composition": [
       [
-        "bread",
+        "wheat-flour",
         35,
-        "base"
+        "batter"
       ],
       [
-        "mixed-vegetables",
+        "green-onion",
         25,
-        "topping"
+        "main vegetable"
       ],
       [
-        "cheese",
+        "seafood-mix",
         20,
-        "richness"
+        "seafood"
       ],
       [
-        "garlic",
+        "egg",
         10,
-        "aroma",
-        "seasoning"
+        "binder"
       ],
       [
-        "olive-oil",
+        "soy-sauce",
         10,
-        "finish",
+        "dip",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "gochujang",
-      "sesame-oil",
+      "green-onion",
+      "seafood-mix",
       "soy-sauce"
     ],
     "basicTaste": [
       "savory",
+      "briny",
       "mild"
     ],
     "textureProfile": [
-      "small bites",
-      "contrasting textures"
+      "crisp pancake edges",
+      "soft center",
+      "tender seafood pieces"
     ],
     "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
       "contains-shellfish",
-      "contains-gluten"
+      "contains-fish",
+      "contains-soy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "shareable",
+      "starter",
+      "seafood-lover"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "fish-allergy",
+      "gluten-allergy",
+      "egg-allergy",
+      "soy-allergy"
+    ],
     "orderVerdict": {
-      "en": "Good sharing plate if seafood and wheat are okay.",
-      "zh": "如果你接受这类口味和风险，海鲜葱饼 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A good sharing pancake if seafood is welcome; not safe for shellfish allergies.",
+      "zh": "适合喜欢海鲜的人分享；甲壳类或鱼类过敏者不适合。",
+      "nl": "Een goede deelpannenkoek als zeevruchten welkom zijn; niet veilig bij schaaldierallergie."
     },
-    "spiceLevel": 1,
-    "weightLevel": 3,
+    "spiceLevel": 0,
+    "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -3808,97 +3968,115 @@ export const expandedDishes = [
     "cuisineId": "korean",
     "names": {
       "en": "Kimbap",
-      "zh": "紫菜包饭",
+      "zh": "韩式紫菜包饭",
       "nl": "Kimbap",
       "local": "김밥"
     },
     "category": "rice",
     "cookingMethods": [
-      "stir-fried"
+      "assembled"
     ],
+    "servingTemperature": "room-temperature-or-cool",
+    "goodForSharing": true,
     "shortDescription": {
-      "en": "Seaweed rice rolls filled with vegetables, egg, and sometimes meat or fish cake.",
-      "zh": "紫菜包饭 是常见韩国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Kimbap is een veelvoorkomend gerecht in de koreaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Seaweed rice rolls filled with vegetables, egg, pickles, and often ham, tuna, beef, or fish cake.",
+      "zh": "海苔包米饭卷，内馅常有蔬菜、蛋、腌菜，也可能有火腿、金枪鱼、牛肉或鱼饼。",
+      "nl": "Zeewierrijstrollen met groenten, ei, pickles en vaak ham, tonijn, rund of viscake."
     },
     "cookingProfile": {
-      "en": "Usually served as a rice with a soft rice, mixed toppings feel.",
-      "zh": "通常以rice形式上桌，重点体验是soft rice。",
-      "nl": "Meestal geserveerd als rice met een soft rice gevoel."
+      "en": "Assembled and sliced, so it is compact, mild, and less vinegary than sushi for many diners.",
+      "zh": "卷好后切片上桌，口味温和紧实，对很多人来说比寿司醋味更弱。",
+      "nl": "Samengesteld en gesneden: compact, mild en voor velen minder azijnig dan sushi."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
+        "rice",
+        "shareable",
         "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Korean menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频韩国菜菜品。",
-        "nl": "Een vaak voorkomend koreaans menu-item voor bredere restaurantdekking."
+        "en": "A Korean menu item rebuilt with concrete ordering cues for sauce, texture, heat, portion feel, and common watch-outs.",
+        "zh": "按韩餐点餐场景重建的菜品信息，重点说明酱汁、口感、辣度、分量和常见风险。",
+        "nl": "Een Koreaans menu-item met concrete bestelinformatie over saus, textuur, pit, portiegevoel en aandachtspunten."
       }
     },
     "composition": [
       [
         "steamed-rice",
-        55,
+        45,
         "base"
       ],
       [
+        "seaweed",
+        15,
+        "wrap"
+      ],
+      [
         "mixed-vegetables",
-        20,
-        "body"
+        15,
+        "filling"
       ],
       [
         "egg",
         10,
-        "topping"
+        "filling"
       ],
       [
-        "soy-sauce",
+        "fish-cake",
         10,
-        "seasoning",
-        "seasoning"
+        "common filling"
       ],
       [
-        "green-onion",
+        "sesame-oil",
         5,
-        "finish"
+        "rice aroma",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "gochujang",
+      "seaweed",
       "sesame-oil",
-      "soy-sauce"
+      "pickles"
     ],
     "basicTaste": [
+      "mild",
       "savory",
-      "mild"
+      "nutty"
     ],
     "textureProfile": [
-      "soft rice",
-      "mixed toppings"
+      "compact rice roll",
+      "crisp vegetables",
+      "soft sliced pieces"
     ],
     "riskFlags": [
-      "contains-egg"
+      "contains-egg",
+      "contains-fish",
+      "contains-sesame"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "filling-varies-by-restaurant"
+    ],
     "goodForTags": [
-      "common-menu-item",
+      "shareable",
       "first-timer-friendly",
-      "lighter-choice"
+      "snack"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "fish-allergy",
+      "sesame-allergy"
+    ],
     "orderVerdict": {
-      "en": "A portable, mild choice; fillings vary by restaurant.",
-      "zh": "如果你接受这类口味和风险，紫菜包饭 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A mild snack or shared plate; check fillings because tuna, ham, beef, egg, or fish cake are common.",
+      "zh": "适合当温和小食或分享盘；内馅常有鱼、火腿、牛肉、蛋或鱼饼，要看清。",
+      "nl": "Een milde snack of deelhap; check vulling door tonijn, ham, rund, ei of viscake."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   }),
   starterDish({
     "id": "kung-pao-chicken",
