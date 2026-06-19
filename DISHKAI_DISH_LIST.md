@@ -2,9 +2,9 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 231
-- Total aliases: 818
-- Total cuisines: 11
+- Total verified dishes: 261
+- Total aliases: 890
+- Total cuisines: 12
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
 ## Belgian (belgian) - 30
@@ -39,6 +39,39 @@ Generated from data/internal/index.js after the verified database quarantine aud
 28. 107025 - `boulets-sauce-tomate` - Boulets Sauce Tomate / 番茄酱肉丸 / Boulets sauce tomate
 29. 107026 - `crepe-mikado` - Crêpe Mikado / 巧克力冰淇淋薄饼 / Crêpe Mikado
 30. 107027 - `rijsttaart` - Rijsttaart / 比利时米布丁塔 / Rijsttaart
+
+## British Irish (british-irish) - 30
+
+1. 123033 - `sausage-roll` - Sausage Roll / 英式香肠酥卷 / Sausage roll
+2. 123001 - `fish-and-chips` - Fish and Chips / 炸鱼薯条 / Fish and chips
+3. 123002 - `shepherds-pie` - Shepherd's Pie / 牧羊人派 / Shepherd's pie
+4. 123003 - `bangers-and-mash` - Bangers and Mash / 香肠土豆泥 / Bangers and mash
+5. 123004 - `full-english-breakfast` - Full English Breakfast / 英式早餐 / Full English breakfast
+6. 123005 - `steak-and-ale-pie` - Steak and Ale Pie / 啤酒牛肉派 / Steak and ale pie
+7. 123006 - `irish-stew` - Irish Stew / 爱尔兰炖肉 / Irish stew
+8. 123007 - `cornish-pasty` - Cornish Pasty / 康沃尔馅饼 / Cornish pasty
+9. 123008 - `scotch-egg` - Scotch Egg / 苏格兰蛋 / Scotch egg
+10. 123009 - `ploughmans-lunch` - Ploughman's Lunch / 农夫冷盘 / Ploughman's lunch
+11. 123010 - `beef-wellington` - Beef Wellington / 威灵顿牛排 / Beef Wellington
+12. 123011 - `sticky-toffee-pudding` - Sticky Toffee Pudding / 太妃糖布丁蛋糕 / Sticky toffee pudding
+13. 123012 - `scones` - Scones / 英式司康 / Scones
+14. 123014 - `toad-in-the-hole` - Toad in the Hole / 英式香肠约克郡布丁 / Toad in the hole
+15. 123015 - `yorkshire-pudding` - Yorkshire Pudding / 约克郡布丁 / Yorkshire pudding
+16. 123016 - `sunday-roast` - Sunday Roast / 英式周日烤肉餐 / Sunday roast
+17. 123017 - `roast-beef` - Roast Beef / 英式烤牛肉 / Roast beef
+18. 123018 - `chicken-tikka-masala-british` - British Chicken Tikka Masala / 英式咖喱烤鸡块 / Chicken tikka masala
+19. 123019 - `welsh-rarebit` - Welsh Rarebit / 威尔士奶酪吐司 / Welsh rarebit
+20. 123020 - `bubble-and-squeak` - Bubble and Squeak / 英式土豆卷心菜煎饼 / Bubble and squeak
+21. 123021 - `mushy-peas` - Mushy Peas / 英式压碎豌豆泥 / Mushy peas
+22. 123022 - `pea-and-ham-soup` - Pea and Ham Soup / 豌豆火腿汤 / Pea and ham soup
+23. 123023 - `cock-a-leekie` - Cock-a-Leekie Soup / 苏格兰鸡肉韭葱汤 / Cock-a-leekie
+24. 123024 - `cullen-skink` - Cullen Skink / 苏格兰烟熏黑线鳕浓汤 / Cullen skink
+25. 123025 - `haggis` - Haggis / 哈吉斯羊杂馅 / Haggis
+26. 123026 - `black-pudding` - Black Pudding / 英式血肠 / Black pudding
+27. 123027 - `trifle` - Trifle / 英式酒冻奶油层次甜点 / Trifle
+28. 123028 - `eton-mess` - Eton Mess / 伊顿莓果蛋白霜 / Eton mess
+29. 123029 - `bread-and-butter-pudding` - Bread and Butter Pudding / 英式黄油面包布丁 / Bread and butter pudding
+30. 123030 - `crumpets` - Crumpets / 英式烤松饼 / Crumpets
 
 ## Chinese (chinese) - 5
 

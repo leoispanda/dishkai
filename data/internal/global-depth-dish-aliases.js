@@ -2093,13 +2093,6 @@ export const globalDepthDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "chicken tikka masala",
-    "dishId": "chicken-tikka-masala-british",
-    "language": "menu",
-    "matchType": "canonical",
-    "confidence": 1
-  },
-  {
     "alias": "英式咖喱鸡",
     "dishId": "chicken-tikka-masala-british",
     "language": "menu",

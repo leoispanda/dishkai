@@ -1,0 +1,146 @@
+[
+  {
+    "dishId": "toad-in-the-hole",
+    "metadataCode": "123014",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_03c6bc50a83a8ed9016a348c1d544881918aa76bb416c98424.png",
+    "auditCopy": "/Users/leoyang/Documents/dishkai/data/internal/audit/rebuild-batches/british-irish-batch-011-image-sources/123014-toad-in-the-hole.png",
+    "mainPath": "/assets/dishes/main/123014-toad-in-the-hole.webp",
+    "thumbPath": "/assets/dishes/thumb/123014-toad-in-the-hole.webp"
+  },
+  {
+    "dishId": "yorkshire-pudding",
+    "metadataCode": "123015",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_03c6bc50a83a8ed9016a348c5f5b708191a52bd00217f94c06.png",
+    "auditCopy": "/Users/leoyang/Documents/dishkai/data/internal/audit/rebuild-batches/british-irish-batch-011-image-sources/123015-yorkshire-pudding.png",
+    "mainPath": "/assets/dishes/main/123015-yorkshire-pudding.webp",
+    "thumbPath": "/assets/dishes/thumb/123015-yorkshire-pudding.webp"
+  },
+  {
+    "dishId": "sunday-roast",
+    "metadataCode": "123016",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_03c6bc50a83a8ed9016a348c990c648191b9b64e7e0574cb87.png",
+    "auditCopy": "/Users/leoyang/Documents/dishkai/data/internal/audit/rebuild-batches/british-irish-batch-011-image-sources/123016-sunday-roast.png",
+    "mainPath": "/assets/dishes/main/123016-sunday-roast.webp",
+    "thumbPath": "/assets/dishes/thumb/123016-sunday-roast.webp"
+  },
+  {
+    "dishId": "roast-beef",
+    "metadataCode": "123017",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_03c6bc50a83a8ed9016a348cdb85dc81919161f7619dc99a8c.png",
+    "auditCopy": "/Users/leoyang/Documents/dishkai/data/internal/audit/rebuild-batches/british-irish-batch-011-image-sources/123017-roast-beef.png",
+    "mainPath": "/assets/dishes/main/123017-roast-beef.webp",
+    "thumbPath": "/assets/dishes/thumb/123017-roast-beef.webp"
+  },
+  {
+    "dishId": "chicken-tikka-masala-british",
+    "metadataCode": "123018",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_03c6bc50a83a8ed9016a348d23e69481918363102c7395c609.png",
+    "auditCopy": "/Users/leoyang/Documents/dishkai/data/internal/audit/rebuild-batches/british-irish-batch-011-image-sources/123018-chicken-tikka-masala-british.png",
+    "mainPath": "/assets/dishes/main/123018-chicken-tikka-masala-british.webp",
+    "thumbPath": "/assets/dishes/thumb/123018-chicken-tikka-masala-british.webp"
+  },
+  {
+    "dishId": "welsh-rarebit",
+    "metadataCode": "123019",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_03c6bc50a83a8ed9016a348d698a508191b5e6950383ee659d.png",
+    "auditCopy": "/Users/leoyang/Documents/dishkai/data/internal/audit/rebuild-batches/british-irish-batch-011-image-sources/123019-welsh-rarebit.png",
+    "mainPath": "/assets/dishes/main/123019-welsh-rarebit.webp",
+    "thumbPath": "/assets/dishes/thumb/123019-welsh-rarebit.webp"
+  },
+  {
+    "dishId": "bubble-and-squeak",
+    "metadataCode": "123020",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_03c6bc50a83a8ed9016a348db169d081919a97b0d855230a8b.png",
+    "auditCopy": "/Users/leoyang/Documents/dishkai/data/internal/audit/rebuild-batches/british-irish-batch-011-image-sources/123020-bubble-and-squeak.png",
+    "mainPath": "/assets/dishes/main/123020-bubble-and-squeak.webp",
+    "thumbPath": "/assets/dishes/thumb/123020-bubble-and-squeak.webp"
+  },
+  {
+    "dishId": "mushy-peas",
+    "metadataCode": "123021",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_03c6bc50a83a8ed9016a348dfc5c948191a300b8e0e1c90c6f.png",
+    "auditCopy": "/Users/leoyang/Documents/dishkai/data/internal/audit/rebuild-batches/british-irish-batch-011-image-sources/123021-mushy-peas.png",
+    "mainPath": "/assets/dishes/main/123021-mushy-peas.webp",
+    "thumbPath": "/assets/dishes/thumb/123021-mushy-peas.webp"
+  },
+  {
+    "dishId": "pea-and-ham-soup",
+    "metadataCode": "123022",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_03c6bc50a83a8ed9016a348e4401648191a71915c9685113b9.png",
+    "auditCopy": "/Users/leoyang/Documents/dishkai/data/internal/audit/rebuild-batches/british-irish-batch-011-image-sources/123022-pea-and-ham-soup.png",
+    "mainPath": "/assets/dishes/main/123022-pea-and-ham-soup.webp",
+    "thumbPath": "/assets/dishes/thumb/123022-pea-and-ham-soup.webp"
+  },
+  {
+    "dishId": "cock-a-leekie",
+    "metadataCode": "123023",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_03c6bc50a83a8ed9016a348e7253b08191b6d571e0be214eda.png",
+    "auditCopy": "/Users/leoyang/Documents/dishkai/data/internal/audit/rebuild-batches/british-irish-batch-011-image-sources/123023-cock-a-leekie.png",
+    "mainPath": "/assets/dishes/main/123023-cock-a-leekie.webp",
+    "thumbPath": "/assets/dishes/thumb/123023-cock-a-leekie.webp"
+  },
+  {
+    "dishId": "cullen-skink",
+    "metadataCode": "123024",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_03c6bc50a83a8ed9016a348ec2dbd48191b286c87edd32c35f.png",
+    "auditCopy": "/Users/leoyang/Documents/dishkai/data/internal/audit/rebuild-batches/british-irish-batch-011-image-sources/123024-cullen-skink.png",
+    "mainPath": "/assets/dishes/main/123024-cullen-skink.webp",
+    "thumbPath": "/assets/dishes/thumb/123024-cullen-skink.webp"
+  },
+  {
+    "dishId": "haggis",
+    "metadataCode": "123025",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_03c6bc50a83a8ed9016a348f1654088191ac286d06534ce462.png",
+    "auditCopy": "/Users/leoyang/Documents/dishkai/data/internal/audit/rebuild-batches/british-irish-batch-011-image-sources/123025-haggis.png",
+    "mainPath": "/assets/dishes/main/123025-haggis.webp",
+    "thumbPath": "/assets/dishes/thumb/123025-haggis.webp"
+  },
+  {
+    "dishId": "black-pudding",
+    "metadataCode": "123026",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_03c6bc50a83a8ed9016a348f98136081919616385e171abbd5.png",
+    "auditCopy": "/Users/leoyang/Documents/dishkai/data/internal/audit/rebuild-batches/british-irish-batch-011-image-sources/123026-black-pudding.png",
+    "mainPath": "/assets/dishes/main/123026-black-pudding.webp",
+    "thumbPath": "/assets/dishes/thumb/123026-black-pudding.webp"
+  },
+  {
+    "dishId": "trifle",
+    "metadataCode": "123027",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_03c6bc50a83a8ed9016a348fde9b6881919e8902a6ef5abced.png",
+    "auditCopy": "/Users/leoyang/Documents/dishkai/data/internal/audit/rebuild-batches/british-irish-batch-011-image-sources/123027-trifle.png",
+    "mainPath": "/assets/dishes/main/123027-trifle.webp",
+    "thumbPath": "/assets/dishes/thumb/123027-trifle.webp"
+  },
+  {
+    "dishId": "eton-mess",
+    "metadataCode": "123028",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_03c6bc50a83a8ed9016a34902ed2fc8191aba8aaad00a39a48.png",
+    "auditCopy": "/Users/leoyang/Documents/dishkai/data/internal/audit/rebuild-batches/british-irish-batch-011-image-sources/123028-eton-mess.png",
+    "mainPath": "/assets/dishes/main/123028-eton-mess.webp",
+    "thumbPath": "/assets/dishes/thumb/123028-eton-mess.webp"
+  },
+  {
+    "dishId": "bread-and-butter-pudding",
+    "metadataCode": "123029",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_03c6bc50a83a8ed9016a34907b1cc481919829e6c5ec30c30e.png",
+    "auditCopy": "/Users/leoyang/Documents/dishkai/data/internal/audit/rebuild-batches/british-irish-batch-011-image-sources/123029-bread-and-butter-pudding.png",
+    "mainPath": "/assets/dishes/main/123029-bread-and-butter-pudding.webp",
+    "thumbPath": "/assets/dishes/thumb/123029-bread-and-butter-pudding.webp"
+  },
+  {
+    "dishId": "crumpets",
+    "metadataCode": "123030",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_03c6bc50a83a8ed9016a3490c9da908191b604cfa398399d35.png",
+    "auditCopy": "/Users/leoyang/Documents/dishkai/data/internal/audit/rebuild-batches/british-irish-batch-011-image-sources/123030-crumpets.png",
+    "mainPath": "/assets/dishes/main/123030-crumpets.webp",
+    "thumbPath": "/assets/dishes/thumb/123030-crumpets.webp"
+  },
+  {
+    "dishId": "sausage-roll",
+    "metadataCode": "123033",
+    "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_03c6bc50a83a8ed9016a3490fea318819186f0d473c1755745.png",
+    "auditCopy": "/Users/leoyang/Documents/dishkai/data/internal/audit/rebuild-batches/british-irish-batch-011-image-sources/123033-sausage-roll.png",
+    "mainPath": "/assets/dishes/main/123033-sausage-roll.webp",
+    "thumbPath": "/assets/dishes/thumb/123033-sausage-roll.webp"
+  }
+]

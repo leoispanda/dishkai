@@ -1,0 +1,1789 @@
+[
+  {
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "toad-in-the-hole",
+    "metadataCode": "123014",
+    "names": {
+      "en": "Toad in the Hole",
+      "zh": "英式香肠约克郡布丁",
+      "nl": "Toad in the hole",
+      "local": "Toad in the hole"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Sausages baked into Yorkshire pudding batter, usually served with onion gravy.",
+      "zh": "香肠嵌在约克郡布丁面糊中烘烤，通常配洋葱肉汁。",
+      "nl": "Worsten gebakken in Yorkshire-puddingbeslag, meestal met uienjus."
+    },
+    "cookingProfile": {
+      "en": "It combines crisp airy batter with browned sausages and gravy.",
+      "zh": "蓬松酥脆的面糊包住上色香肠，再配肉汁。",
+      "nl": "Het combineert luchtig krokant beslag met gebruinde worst en jus."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "comfort-food",
+        "pub-food"
+      ],
+      "description": {
+        "en": "A homestyle British comfort dish that reads like sausages plus Yorkshire pudding.",
+        "zh": "家常英式舒适菜，可理解为香肠加约克郡布丁。",
+        "nl": "Een huiselijk Brits comfortgerecht: worst met Yorkshire pudding."
+      }
+    },
+    "composition": [
+      [
+        "yorkshire-pudding-batter",
+        50,
+        "baked batter"
+      ],
+      [
+        "sausage-global",
+        30,
+        "sausages"
+      ],
+      [
+        "onion",
+        10,
+        "onion gravy"
+      ],
+      [
+        "broth",
+        5,
+        "gravy base"
+      ],
+      [
+        "black-pepper",
+        5,
+        "peppery finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "sausage",
+      "Yorkshire batter",
+      "onion gravy"
+    ],
+    "basicTaste": [
+      "savory",
+      "rich",
+      "mild"
+    ],
+    "textureProfile": [
+      "airy crisp batter",
+      "juicy sausage",
+      "gravy-soaked edges"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "pub-food"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "gluten-free",
+      "egg-allergy",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Good if sausages and gravy sound appealing; it is heavier than the name suggests.",
+      "zh": "喜欢香肠和肉汁可选；它比名字听起来更顶饱。",
+      "nl": "Goed als worst en jus aantrekkelijk klinken; zwaarder dan de naam doet vermoeden."
+    },
+    "weightLevel": 4,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "yorkshire-pudding",
+    "metadataCode": "123015",
+    "names": {
+      "en": "Yorkshire Pudding",
+      "zh": "约克郡布丁",
+      "nl": "Yorkshire pudding",
+      "local": "Yorkshire pudding"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Puffy baked batter side dish, often served with roast meat and gravy.",
+      "zh": "蓬松烘烤面糊配菜，常搭配烤肉和肉汁。",
+      "nl": "Luchtig gebakken beslagbijgerecht, vaak met geroosterd vlees en jus."
+    },
+    "cookingProfile": {
+      "en": "It is crisp at the edges and hollow-soft inside, built to catch gravy.",
+      "zh": "边缘酥脆，中间空心柔软，适合吸收肉汁。",
+      "nl": "Krokant aan de randen en hol-zacht vanbinnen, gemaakt voor jus."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "roast-dinner",
+        "side"
+      ],
+      "description": {
+        "en": "A core roast-dinner side, not a sweet pudding.",
+        "zh": "烤肉餐的核心配菜，不是甜布丁。",
+        "nl": "Een essentieel bijgerecht bij roast dinner, geen zoete pudding."
+      }
+    },
+    "composition": [
+      [
+        "yorkshire-pudding-batter",
+        80,
+        "baked batter"
+      ],
+      [
+        "broth",
+        10,
+        "gravy pairing"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
+      ],
+      [
+        "black-pepper",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "browned batter",
+      "gravy",
+      "roast drippings"
+    ],
+    "basicTaste": [
+      "savory",
+      "mild",
+      "buttery"
+    ],
+    "textureProfile": [
+      "crisp rim",
+      "airy center",
+      "gravy-soaking hollow"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "side",
+      "roast-dinner"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Order as a roast side if you want something airy that carries gravy.",
+      "zh": "想要能吸肉汁的蓬松配菜时可点。",
+      "nl": "Bestel als roast-bijgerecht als je iets luchtigs voor jus wilt."
+    },
+    "weightLevel": 2,
+    "restaurantVariationLevel": "low"
+  },
+  {
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "sunday-roast",
+    "metadataCode": "123016",
+    "names": {
+      "en": "Sunday Roast",
+      "zh": "英式周日烤肉餐",
+      "nl": "Sunday roast",
+      "local": "Sunday roast"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "baked",
+      "assembled"
+    ],
+    "goodForSharing": true,
+    "shortDescription": {
+      "en": "Roast meat plate with roast potatoes, vegetables, gravy, and often Yorkshire pudding.",
+      "zh": "烤肉餐盘，配烤土豆、蔬菜、肉汁，常有约克郡布丁。",
+      "nl": "Bord met geroosterd vlees, aardappelen, groenten, jus en vaak Yorkshire pudding."
+    },
+    "cookingProfile": {
+      "en": "It is a full plate with many sides, so portion size and meat choice matter.",
+      "zh": "这是配菜很多的完整餐盘，分量和肉类选择很重要。",
+      "nl": "Een volledig bord met veel bijgerechten; portie en vleeskeuze tellen."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "sharing"
+      ],
+      "description": {
+        "en": "A British roast-dinner format rather than one fixed recipe.",
+        "zh": "英式烤肉餐形式，不是单一固定配方。",
+        "nl": "Een Britse roast-dinner-vorm, geen vast recept."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        30,
+        "roast meat"
+      ],
+      [
+        "potato",
+        25,
+        "roast potatoes"
+      ],
+      [
+        "yorkshire-pudding-batter",
+        15,
+        "Yorkshire pudding"
+      ],
+      [
+        "carrot",
+        10,
+        "vegetable side"
+      ],
+      [
+        "green-beans",
+        10,
+        "vegetable side"
+      ],
+      [
+        "broth",
+        5,
+        "gravy"
+      ],
+      [
+        "black-pepper",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "roast meat",
+      "gravy",
+      "Yorkshire pudding"
+    ],
+    "basicTaste": [
+      "savory",
+      "roasty",
+      "rich"
+    ],
+    "textureProfile": [
+      "sliced roast meat",
+      "crisp potatoes",
+      "soft vegetables"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "classic-dish",
+      "very-filling"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Good when you want a full British roast plate; ask which meat is served.",
+      "zh": "想吃完整英式烤肉餐时可选；先问当天是哪种肉。",
+      "nl": "Goed voor een volledig Brits roastbord; vraag welk vlees wordt geserveerd."
+    },
+    "weightLevel": 5,
+    "restaurantVariationLevel": "high"
+  },
+  {
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "roast-beef",
+    "metadataCode": "123017",
+    "names": {
+      "en": "Roast Beef",
+      "zh": "英式烤牛肉",
+      "nl": "Roast beef",
+      "local": "Roast beef"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Sliced roast beef usually served with gravy, potatoes, vegetables, and sometimes Yorkshire pudding.",
+      "zh": "切片烤牛肉，通常配肉汁、土豆、蔬菜，有时配约克郡布丁。",
+      "nl": "Gesneden rosbief, meestal met jus, aardappelen, groenten en soms Yorkshire pudding."
+    },
+    "cookingProfile": {
+      "en": "The key is beef doneness and gravy; it should not be wrapped in pastry.",
+      "zh": "重点是牛肉熟度和肉汁；它不应包在酥皮里。",
+      "nl": "De garing en jus zijn belangrijk; het zit niet in deeg verpakt."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "roast-dinner",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A roast-dinner meat option often ordered for familiar beef flavor.",
+        "zh": "烤肉餐里的牛肉选择，适合想吃熟悉牛肉味。",
+        "nl": "Een roast-dinner-vleesoptie voor vertrouwde rundvleessmaak."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        55,
+        "roast beef"
+      ],
+      [
+        "potato",
+        20,
+        "roast potato side"
+      ],
+      [
+        "green-beans",
+        10,
+        "vegetable side"
+      ],
+      [
+        "carrot",
+        10,
+        "vegetable side"
+      ],
+      [
+        "broth",
+        5,
+        "gravy"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "roast beef",
+      "gravy",
+      "roast potatoes"
+    ],
+    "basicTaste": [
+      "savory",
+      "meaty",
+      "mild"
+    ],
+    "textureProfile": [
+      "sliced beef",
+      "gravy gloss",
+      "roast sides"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "classic-dish",
+      "safe-choice"
+    ],
+    "avoidIfTags": [
+      "no-beef",
+      "wants-vegetarian"
+    ],
+    "orderVerdict": {
+      "en": "A straightforward choice if you want beef without pastry or heavy cream.",
+      "zh": "想吃不带酥皮、不带奶油酱的牛肉时很直接。",
+      "nl": "Een duidelijke keuze voor rundvlees zonder deeg of roomsaus."
+    },
+    "weightLevel": 4,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 1,
+    "acquiredTasteLevel": 1,
+    "id": "chicken-tikka-masala-british",
+    "metadataCode": "123018",
+    "names": {
+      "en": "British Chicken Tikka Masala",
+      "zh": "英式咖喱烤鸡块",
+      "nl": "Britse chicken tikka masala",
+      "local": "Chicken tikka masala"
+    },
+    "category": "curry",
+    "cookingMethods": [
+      "simmered",
+      "grilled"
+    ],
+    "shortDescription": {
+      "en": "Chicken pieces in a creamy orange tomato-spice sauce, a British-Indian restaurant staple.",
+      "zh": "鸡肉块配橙红色番茄奶油香料酱，是英式印度餐厅常见菜。",
+      "nl": "Kipstukken in romige oranje tomaat-kruidensaus, een Brits-Indiase restaurantklassieker."
+    },
+    "cookingProfile": {
+      "en": "It is creamy and mildly spiced, usually richer and sweeter than a sharp curry.",
+      "zh": "口感奶滑，香料感温和，通常比辛辣咖喱更甜润厚实。",
+      "nl": "Romig en mild gekruid, meestal rijker en zoeter dan een scherpe curry."
+    },
+    "cuisineRole": {
+      "level": "modern",
+      "tags": [
+        "internationally-known",
+        "first-timer-friendly"
+      ],
+      "description": {
+        "en": "A British-Indian menu fixture included because it appears widely in UK restaurants.",
+        "zh": "英式印度餐厅高频菜，因在英国菜单中非常常见而收录。",
+        "nl": "Een Brits-Indiase menuklassieker die veel in Britse restaurants voorkomt."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        45,
+        "chicken pieces"
+      ],
+      [
+        "tomato-sauce",
+        20,
+        "tomato curry sauce",
+        "seasoning"
+      ],
+      [
+        "cream",
+        15,
+        "creamy body"
+      ],
+      [
+        "steamed-rice",
+        15,
+        "rice side"
+      ],
+      [
+        "garam-masala",
+        5,
+        "warm spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "garam masala",
+      "tomato cream sauce",
+      "charred chicken"
+    ],
+    "basicTaste": [
+      "creamy",
+      "savory",
+      "mildly spicy"
+    ],
+    "textureProfile": [
+      "tender chicken",
+      "smooth sauce",
+      "soft rice"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "first-timer-friendly",
+      "curry"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "wants-dry-food"
+    ],
+    "orderVerdict": {
+      "en": "A friendly curry choice if you want creamy and mild rather than very hot.",
+      "zh": "想吃奶滑温和、不太辣的咖喱时很合适。",
+      "nl": "Een toegankelijke curry als je romig en mild wilt, niet heel heet."
+    },
+    "weightLevel": 4,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "welsh-rarebit",
+    "metadataCode": "123019",
+    "names": {
+      "en": "Welsh Rarebit",
+      "zh": "威尔士奶酪吐司",
+      "nl": "Welsh rarebit",
+      "local": "Welsh rarebit"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "toasted"
+    ],
+    "shortDescription": {
+      "en": "Toast covered with a hot cheese sauce often flavored with mustard, ale, or Worcestershire-style tang.",
+      "zh": "吐司覆盖热奶酪酱，常用芥末、啤酒或酸鲜调味。",
+      "nl": "Toast met warme kaassaus, vaak met mosterd, bier of hartige zurigheid."
+    },
+    "cookingProfile": {
+      "en": "It is more like cheese sauce on toast than a plain grilled-cheese sandwich.",
+      "zh": "更像奶酪酱覆盖吐司，不是普通夹心烤奶酪三明治。",
+      "nl": "Eerder kaassaus op toast dan een gewone tosti."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "regional-dish",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "A Welsh cheese-on-toast classic where mustard and ale give the flavor lift.",
+        "zh": "威尔士奶酪吐司经典，芥末和啤酒带来风味层次。",
+        "nl": "Een Welshe cheese-on-toastklassieker met mosterd en bier als smaakmakers."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        45,
+        "toast base"
+      ],
+      [
+        "cheddar",
+        35,
+        "cheese sauce"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "mustard",
+        5,
+        "sharpness",
+        "seasoning"
+      ],
+      [
+        "beer",
+        5,
+        "ale note",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cheddar",
+      "mustard",
+      "ale"
+    ],
+    "basicTaste": [
+      "savory",
+      "cheesy",
+      "tangy"
+    ],
+    "textureProfile": [
+      "crisp toast",
+      "molten cheese sauce",
+      "browned top"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-alcohol"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "comfort-food",
+      "snack"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "no-alcohol"
+    ],
+    "orderVerdict": {
+      "en": "Good for a rich cheese snack; not a light toast.",
+      "zh": "适合想吃浓厚奶酪小食；不是清淡吐司。",
+      "nl": "Goed als rijke kaassnack; geen lichte toast."
+    },
+    "weightLevel": 3,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "bubble-and-squeak",
+    "metadataCode": "123020",
+    "names": {
+      "en": "Bubble and Squeak",
+      "zh": "英式土豆卷心菜煎饼",
+      "nl": "Bubble and squeak",
+      "local": "Bubble and squeak"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "fried"
+    ],
+    "shortDescription": {
+      "en": "Pan-fried potato and cabbage hash, often made as a browned cake or rough patty.",
+      "zh": "土豆和卷心菜煎成的杂蔬土豆饼，常有焦香表面。",
+      "nl": "Gebakken aardappel-koolhash, vaak als gebruinde koek of ruwe patty."
+    },
+    "cookingProfile": {
+      "en": "It is mostly potato, with cabbage sweetness and crisp browned edges.",
+      "zh": "以土豆为主，带卷心菜甜味和煎香边缘。",
+      "nl": "Vooral aardappel, met koolzoetheid en krokant gebruinde randen."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "comfort-food",
+        "side"
+      ],
+      "description": {
+        "en": "A leftover-style British side that works as a simple comfort plate.",
+        "zh": "英式剩菜风格配菜，也可作为简单舒适小盘。",
+        "nl": "Een Brits bijgerecht in restjesstijl, eenvoudig en huiselijk."
+      }
+    },
+    "composition": [
+      [
+        "potato",
+        50,
+        "mash or hash base"
+      ],
+      [
+        "cabbage",
+        25,
+        "cabbage"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "leftover vegetables"
+      ],
+      [
+        "butter",
+        10,
+        "pan richness"
+      ],
+      [
+        "black-pepper",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fried potato",
+      "cabbage",
+      "butter"
+    ],
+    "basicTaste": [
+      "savory",
+      "mild",
+      "buttery"
+    ],
+    "textureProfile": [
+      "crisp browned edges",
+      "soft potato center",
+      "cabbage pieces"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "side",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "wants-protein-heavy"
+    ],
+    "orderVerdict": {
+      "en": "Good as a mild potato side; do not expect a meat main.",
+      "zh": "适合作温和土豆配菜；不要期待肉类主菜感。",
+      "nl": "Goed als mild aardappelbijgerecht; verwacht geen vleeshoofdgerecht."
+    },
+    "weightLevel": 2,
+    "restaurantVariationLevel": "high"
+  },
+  {
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "mushy-peas",
+    "metadataCode": "123021",
+    "names": {
+      "en": "Mushy Peas",
+      "zh": "英式压碎豌豆泥",
+      "nl": "Mushy peas",
+      "local": "Mushy peas"
+    },
+    "category": "side",
+    "cookingMethods": [
+      "boiled"
+    ],
+    "shortDescription": {
+      "en": "Thick mashed green peas, often served with fish and chips or pies.",
+      "zh": "浓稠的压碎青豌豆泥，常配炸鱼薯条或肉派。",
+      "nl": "Dikke geprakte groene erwten, vaak bij fish and chips of pastei."
+    },
+    "cookingProfile": {
+      "en": "It is soft, earthy, and mildly sweet, more side dish than sauce.",
+      "zh": "口感柔软、豆香微甜，更像配菜而不是酱汁。",
+      "nl": "Zacht, aards en licht zoet; eerder bijgerecht dan saus."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "side",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A classic British side that changes the plate with earthy pea sweetness.",
+        "zh": "英式经典配菜，用豌豆的泥感和微甜平衡主菜。",
+        "nl": "Een klassiek Brits bijgerecht met aardse erwtzoetheid."
+      }
+    },
+    "composition": [
+      [
+        "peas",
+        85,
+        "mashed peas"
+      ],
+      [
+        "mint",
+        5,
+        "fresh lift",
+        "seasoning"
+      ],
+      [
+        "vinegar",
+        5,
+        "tang",
+        "seasoning"
+      ],
+      [
+        "sea-salt",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "split peas",
+      "mint",
+      "vinegar"
+    ],
+    "basicTaste": [
+      "earthy",
+      "mildly sweet",
+      "savory"
+    ],
+    "textureProfile": [
+      "thick mash",
+      "soft peas",
+      "slightly coarse"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegan"
+    ],
+    "goodForTags": [
+      "side",
+      "vegan"
+    ],
+    "avoidIfTags": [
+      "wants-crisp-food"
+    ],
+    "orderVerdict": {
+      "en": "Order as a classic side, especially with fried fish or pies.",
+      "zh": "适合作经典配菜，尤其搭配炸鱼或肉派。",
+      "nl": "Bestel als klassiek bijgerecht, vooral bij gefrituurde vis of pastei."
+    },
+    "weightLevel": 1,
+    "restaurantVariationLevel": "low"
+  },
+  {
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "pea-and-ham-soup",
+    "metadataCode": "123022",
+    "names": {
+      "en": "Pea and Ham Soup",
+      "zh": "豌豆火腿汤",
+      "nl": "Erwten-hamsoep",
+      "local": "Pea and ham soup"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Thick split pea soup with ham pieces, usually hearty and smoky-salty.",
+      "zh": "浓稠豌豆汤配火腿块，通常厚实并带烟熏咸香。",
+      "nl": "Dikke spliterwtensoep met ham, meestal stevig en rokerig-zout."
+    },
+    "cookingProfile": {
+      "en": "It is closer to a filling stew-like soup than a clear broth.",
+      "zh": "更接近顶饱的浓汤，不是清汤。",
+      "nl": "Eerder een vullende dikke soep dan een heldere bouillon."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "soup",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "A pub and cafe soup where ham makes the pea base richer.",
+        "zh": "酒吧和咖啡馆常见汤品，火腿让豌豆汤底更浓。",
+        "nl": "Een pub- en caféssoep waarin ham de erwtenbasis rijker maakt."
+      }
+    },
+    "composition": [
+      [
+        "peas",
+        55,
+        "split pea base"
+      ],
+      [
+        "ham",
+        20,
+        "ham pieces"
+      ],
+      [
+        "carrot",
+        10,
+        "vegetable sweetness"
+      ],
+      [
+        "onion",
+        10,
+        "aromatic base"
+      ],
+      [
+        "broth",
+        5,
+        "soup base"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "ham",
+      "split peas",
+      "slow-simmered broth"
+    ],
+    "basicTaste": [
+      "savory",
+      "smoky",
+      "earthy"
+    ],
+    "textureProfile": [
+      "thick soup",
+      "soft pea body",
+      "small ham pieces"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "soup",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "wants-light-broth"
+    ],
+    "orderVerdict": {
+      "en": "Good when you want a filling soup; skip if you want vegetarian.",
+      "zh": "想喝能顶饱的浓汤时合适；素食者不适合。",
+      "nl": "Goed als vullende soep; overslaan als je vegetarisch wilt."
+    },
+    "weightLevel": 3,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "cock-a-leekie",
+    "metadataCode": "123023",
+    "names": {
+      "en": "Cock-a-Leekie Soup",
+      "zh": "苏格兰鸡肉韭葱汤",
+      "nl": "Cock-a-leekiesoep",
+      "local": "Cock-a-leekie"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Scottish chicken and leek soup, sometimes with prunes for gentle sweetness.",
+      "zh": "苏格兰鸡肉韭葱汤，有时加入西梅带一点甜味。",
+      "nl": "Schotse kip-preisoep, soms met pruimen voor zachte zoetheid."
+    },
+    "cookingProfile": {
+      "en": "It is brothy and leek-sweet, lighter than cream soups or stews.",
+      "zh": "汤感明显、韭葱带甜，比奶油汤或炖菜更轻。",
+      "nl": "Bouillonachtig en preizoet, lichter dan roomsoep of stoofpot."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "soup",
+        "regional-dish"
+      ],
+      "description": {
+        "en": "A Scottish soup recognizable by chicken, leek, and a gentle broth.",
+        "zh": "苏格兰汤品，鸡肉、韭葱和清润汤底是识别点。",
+        "nl": "Een Schotse soep herkenbaar aan kip, prei en zachte bouillon."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        35,
+        "chicken pieces"
+      ],
+      [
+        "leek",
+        30,
+        "leek"
+      ],
+      [
+        "broth",
+        20,
+        "broth"
+      ],
+      [
+        "carrot",
+        10,
+        "vegetable sweetness"
+      ],
+      [
+        "parsley",
+        5,
+        "herb finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "leek",
+      "chicken broth",
+      "parsley"
+    ],
+    "basicTaste": [
+      "brothy",
+      "mild",
+      "savory"
+    ],
+    "textureProfile": [
+      "light broth",
+      "soft leeks",
+      "tender chicken"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "soup",
+      "lighter-choice"
+    ],
+    "avoidIfTags": [
+      "wants-creamy-soup"
+    ],
+    "orderVerdict": {
+      "en": "A good lighter soup if chicken and leek sound appealing.",
+      "zh": "想喝较轻的鸡肉韭葱汤时可选。",
+      "nl": "Een goede lichtere soep als kip en prei aantrekkelijk klinken."
+    },
+    "weightLevel": 2,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 2,
+    "id": "cullen-skink",
+    "metadataCode": "123024",
+    "names": {
+      "en": "Cullen Skink",
+      "zh": "苏格兰烟熏黑线鳕浓汤",
+      "nl": "Cullen skink",
+      "local": "Cullen skink"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Creamy Scottish smoked haddock soup with potato and leek.",
+      "zh": "苏格兰奶油烟熏黑线鳕汤，配土豆和韭葱。",
+      "nl": "Romige Schotse soep van gerookte schelvis met aardappel en prei."
+    },
+    "cookingProfile": {
+      "en": "It is creamy and smoky, with fish flakes rather than chunks of meat.",
+      "zh": "奶滑并带烟熏鱼香，主要是鱼肉碎片而不是肉块。",
+      "nl": "Romig en rokerig, met visvlokken in plaats van vleesstukken."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "soup"
+      ],
+      "description": {
+        "en": "A Scottish coastal soup where smoked haddock is the defining ingredient.",
+        "zh": "苏格兰海岸风格汤品，烟熏黑线鳕是核心。",
+        "nl": "Een Schotse kustsoep waarin gerookte schelvis centraal staat."
+      }
+    },
+    "composition": [
+      [
+        "smoked-haddock",
+        35,
+        "smoked fish"
+      ],
+      [
+        "potato",
+        25,
+        "body"
+      ],
+      [
+        "cream",
+        20,
+        "creamy base"
+      ],
+      [
+        "leek",
+        15,
+        "aromatic vegetable"
+      ],
+      [
+        "parsley",
+        5,
+        "herb finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "smoked haddock",
+      "cream",
+      "leek"
+    ],
+    "basicTaste": [
+      "smoky",
+      "creamy",
+      "savory"
+    ],
+    "textureProfile": [
+      "creamy soup",
+      "flaky fish",
+      "soft potato"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "soup",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it if smoky fish and creamy soup sound good.",
+      "zh": "喜欢烟熏鱼香和奶油浓汤时很适合。",
+      "nl": "Kies dit als rokerige vis en romige soep aantrekkelijk klinken."
+    },
+    "weightLevel": 3,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 4,
+    "id": "haggis",
+    "metadataCode": "123025",
+    "names": {
+      "en": "Haggis",
+      "zh": "哈吉斯羊杂馅",
+      "nl": "Haggis",
+      "local": "Haggis"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "boiled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Scottish savory oat-and-offal mixture, often served with mashed turnip and potato.",
+      "zh": "苏格兰咸香羊杂燕麦馅，常配芜菁泥和土豆泥。",
+      "nl": "Schotse hartige mix van haver en orgaanvlees, vaak met raap- en aardappelpuree."
+    },
+    "cookingProfile": {
+      "en": "It is crumbly, peppery, and earthy; the offal element is the main watch-out.",
+      "zh": "质地松散，胡椒感和内脏风味明显，主要注意点是羊杂。",
+      "nl": "Kruimelig, peperig en aards; orgaanvlees is het belangrijkste aandachtspunt."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish",
+        "regional-dish"
+      ],
+      "description": {
+        "en": "A Scottish signature dish that is representative but can be an acquired taste.",
+        "zh": "苏格兰代表菜，很有地域性，但可能需要适应。",
+        "nl": "Een Schots signatuurgerecht, representatief maar soms wennen."
+      }
+    },
+    "composition": [
+      [
+        "haggis",
+        45,
+        "haggis slices"
+      ],
+      [
+        "potato",
+        25,
+        "tatties"
+      ],
+      [
+        "turnip",
+        20,
+        "neeps"
+      ],
+      [
+        "broth",
+        5,
+        "gravy"
+      ],
+      [
+        "black-pepper",
+        5,
+        "peppery seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "haggis",
+      "black pepper",
+      "neeps and tatties"
+    ],
+    "basicTaste": [
+      "savory",
+      "peppery",
+      "earthy"
+    ],
+    "textureProfile": [
+      "crumbly slices",
+      "soft mash",
+      "gravy"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "signature-dish",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "avoids-offal",
+      "wants-mild-flavors"
+    ],
+    "orderVerdict": {
+      "en": "Worth trying for Scottish identity; avoid if offal flavors sound unpleasant.",
+      "zh": "想体验苏格兰特色值得尝试；不喜欢内脏风味则避开。",
+      "nl": "Het proberen waard voor Schotse identiteit; vermijd als orgaansmaak niet aanspreekt."
+    },
+    "weightLevel": 4,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 4,
+    "id": "black-pudding",
+    "metadataCode": "123026",
+    "names": {
+      "en": "Black Pudding",
+      "zh": "英式血肠",
+      "nl": "Black pudding",
+      "local": "Black pudding"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "fried"
+    ],
+    "shortDescription": {
+      "en": "Fried slices of British blood sausage, often served with breakfast.",
+      "zh": "煎制英式血肠切片，常见于早餐盘。",
+      "nl": "Gebakken plakken Britse bloedworst, vaak bij ontbijt."
+    },
+    "cookingProfile": {
+      "en": "It is dense, dark, iron-rich, and more intense than ordinary sausage.",
+      "zh": "质地紧实、颜色深、铁质风味明显，比普通香肠更强烈。",
+      "nl": "Dicht, donker en ijzerrijk; intenser dan gewone worst."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "breakfast",
+        "acquired-taste"
+      ],
+      "description": {
+        "en": "A traditional breakfast component and clear watch-out for diners avoiding blood sausage.",
+        "zh": "传统早餐组成之一，也是回避血肠者需要注意的菜。",
+        "nl": "Een traditioneel ontbijtdeel en duidelijk aandachtspunt voor wie bloedworst vermijdt."
+      }
+    },
+    "composition": [
+      [
+        "black-pudding",
+        50,
+        "blood sausage slices"
+      ],
+      [
+        "egg",
+        15,
+        "breakfast pairing"
+      ],
+      [
+        "tomato",
+        10,
+        "grilled tomato"
+      ],
+      [
+        "mushrooms",
+        10,
+        "breakfast side"
+      ],
+      [
+        "bread",
+        10,
+        "toast"
+      ],
+      [
+        "mustard",
+        5,
+        "condiment",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "blood sausage",
+      "fried crust",
+      "breakfast sides"
+    ],
+    "basicTaste": [
+      "savory",
+      "earthy",
+      "salty"
+    ],
+    "textureProfile": [
+      "dense slices",
+      "crisp edge",
+      "soft interior"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-egg",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "breakfast",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "avoids-blood-sausage",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Try it if you like strong breakfast meats; skip if blood sausage is off-putting.",
+      "zh": "喜欢风味强的早餐肉类可尝试；介意血肠就避开。",
+      "nl": "Probeer als je sterke ontbijt-vleeswaren waardeert; overslaan als bloedworst afschrikt."
+    },
+    "weightLevel": 3,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "trifle",
+    "metadataCode": "123027",
+    "names": {
+      "en": "Trifle",
+      "zh": "英式酒冻奶油层次甜点",
+      "nl": "Trifle",
+      "local": "Trifle"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "layered",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Layered chilled dessert with sponge, fruit or jelly, custard, and whipped cream.",
+      "zh": "冷藏层次甜点，含海绵蛋糕、水果或果冻、卡仕达和打发奶油。",
+      "nl": "Gelaagd gekoeld dessert met cake, fruit of jelly, custard en slagroom."
+    },
+    "cookingProfile": {
+      "en": "It is soft and creamy with fruit layers, more spoon dessert than cake slice.",
+      "zh": "质地柔软奶滑，有水果层，更像勺食甜点而不是切片蛋糕。",
+      "nl": "Zacht en romig met fruitlagen; eerder lepeldessert dan cakepunt."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "dessert",
+        "sharing"
+      ],
+      "description": {
+        "en": "A classic British layered dessert often served from a glass bowl.",
+        "zh": "英式经典层次甜点，常装在透明大碗中分食。",
+        "nl": "Een klassiek Brits laagjesdessert, vaak uit een glazen schaal geserveerd."
+      }
+    },
+    "composition": [
+      [
+        "sponge-cake",
+        25,
+        "sponge layer"
+      ],
+      [
+        "vanilla-custard",
+        25,
+        "custard layer"
+      ],
+      [
+        "berries",
+        20,
+        "fruit layer"
+      ],
+      [
+        "cream",
+        20,
+        "whipped cream"
+      ],
+      [
+        "sugar",
+        5,
+        "sweetness"
+      ],
+      [
+        "gelatin",
+        5,
+        "jelly set"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "custard",
+      "berries",
+      "cream"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "fruity"
+    ],
+    "textureProfile": [
+      "soft sponge",
+      "smooth custard",
+      "whipped cream"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Good if you want a cold creamy dessert with fruit, not a crisp pastry.",
+      "zh": "想吃冷的奶滑水果甜点时合适，不是酥皮类甜点。",
+      "nl": "Goed voor een koud romig fruitdessert, niet voor krokant gebak."
+    },
+    "weightLevel": 3,
+    "restaurantVariationLevel": "high"
+  },
+  {
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "eton-mess",
+    "metadataCode": "123028",
+    "names": {
+      "en": "Eton Mess",
+      "zh": "伊顿莓果蛋白霜",
+      "nl": "Eton mess",
+      "local": "Eton mess"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "assembled",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Loose dessert of broken meringue, whipped cream, strawberries, and berry sauce.",
+      "zh": "碎蛋白霜、打发奶油、草莓和莓果酱拌成的冷甜点。",
+      "nl": "Los dessert van gebroken meringue, slagroom, aardbeien en bessensaus."
+    },
+    "cookingProfile": {
+      "en": "It is intentionally messy, airy, creamy, and fruit-sweet.",
+      "zh": "本来就是松散混合的甜点，空气感、奶油感和莓果甜味明显。",
+      "nl": "Bewust rommelig, luchtig, romig en fruitzoet."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "dessert",
+        "summer"
+      ],
+      "description": {
+        "en": "A British summer dessert where the contrast is crisp meringue against cream and berries.",
+        "zh": "英式夏季甜点，重点是脆蛋白霜、奶油和莓果的对比。",
+        "nl": "Een Brits zomerdessert met contrast tussen meringue, room en bessen."
+      }
+    },
+    "composition": [
+      [
+        "meringue",
+        35,
+        "broken meringue"
+      ],
+      [
+        "cream",
+        35,
+        "whipped cream"
+      ],
+      [
+        "berries",
+        25,
+        "strawberries and sauce"
+      ],
+      [
+        "sugar",
+        5,
+        "sweetness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "meringue",
+      "strawberries",
+      "whipped cream"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "fruity"
+    ],
+    "textureProfile": [
+      "crisp meringue pieces",
+      "soft cream",
+      "juicy berries"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "sweet-tooth"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a lighter-feeling creamy berry dessert.",
+      "zh": "想吃相对轻盈的奶油莓果甜点时可选。",
+      "nl": "Kies dit voor een relatief luchtig room-bessendessert."
+    },
+    "weightLevel": 2,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "bread-and-butter-pudding",
+    "metadataCode": "123029",
+    "names": {
+      "en": "Bread and Butter Pudding",
+      "zh": "英式黄油面包布丁",
+      "nl": "Bread-and-butterpudding",
+      "local": "Bread and butter pudding"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Baked custard dessert made from buttered bread slices, raisins, and warm spice.",
+      "zh": "用黄油面包片、葡萄干和暖香料烤成的卡仕达甜点。",
+      "nl": "Gebakken custarddessert van beboterde boterhammen, rozijnen en warme specerij."
+    },
+    "cookingProfile": {
+      "en": "It is soft and custardy inside with browned bread edges on top.",
+      "zh": "内部柔软奶蛋感强，表面面包边会烤到焦香。",
+      "nl": "Vanbinnen zacht en custardachtig, bovenop bruine broodranden."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "dessert",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "A British comfort dessert built from bread, custard, and raisins.",
+        "zh": "英式舒适甜点，以面包、卡仕达和葡萄干为核心。",
+        "nl": "Een Brits comfortdessert van brood, custard en rozijnen."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        45,
+        "buttered bread slices"
+      ],
+      [
+        "vanilla-custard",
+        25,
+        "custard base"
+      ],
+      [
+        "raisins",
+        15,
+        "fruit"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "cinnamon",
+        5,
+        "warm spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "buttered bread",
+      "custard",
+      "raisins"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "soft custard center",
+      "browned bread top",
+      "chewy raisins"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Good warm comfort dessert if custard and raisins sound appealing.",
+      "zh": "喜欢温热卡仕达和葡萄干时是舒适甜点选择。",
+      "nl": "Goed warm comfortdessert als custard en rozijnen aanspreken."
+    },
+    "weightLevel": 3,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "crumpets",
+    "metadataCode": "123030",
+    "names": {
+      "en": "Crumpets",
+      "zh": "英式烤松饼",
+      "nl": "Crumpets",
+      "local": "Crumpets"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "toasted"
+    ],
+    "shortDescription": {
+      "en": "Round spongy griddle breads with holes, usually toasted and served with butter.",
+      "zh": "圆形多孔英式松饼，通常烤热后配黄油。",
+      "nl": "Ronde sponsachtige broodjes met gaatjes, meestal geroosterd met boter."
+    },
+    "cookingProfile": {
+      "en": "The holes soak up butter, giving a chewy-soft and lightly crisp bite.",
+      "zh": "表面孔洞会吸收黄油，口感软韧并带轻微焦脆。",
+      "nl": "De gaatjes nemen boter op, met een zacht-kauwende en licht krokante beet."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "breakfast",
+        "tea-time"
+      ],
+      "description": {
+        "en": "A British breakfast or tea item recognized by its holey surface.",
+        "zh": "英式早餐或茶点，标志是表面的多孔结构。",
+        "nl": "Een Brits ontbijt- of thee-item, herkenbaar aan het gaatjesoppervlak."
+      }
+    },
+    "composition": [
+      [
+        "crumpet",
+        70,
+        "toasted crumpets"
+      ],
+      [
+        "butter",
+        20,
+        "melting topping"
+      ],
+      [
+        "fruit-sauce-or-caramel",
+        10,
+        "jam or sweet topping"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "toasted crumpet",
+      "butter",
+      "jam"
+    ],
+    "basicTaste": [
+      "mild",
+      "buttery",
+      "slightly sweet"
+    ],
+    "textureProfile": [
+      "spongy holes",
+      "toasted edge",
+      "melting butter"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "breakfast",
+      "tea-time"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "A simple breakfast or tea choice, lighter than a full dessert.",
+      "zh": "简单早餐或茶点选择，比完整甜点更轻。",
+      "nl": "Een eenvoudige ontbijt- of theekeuze, lichter dan een volledig dessert."
+    },
+    "weightLevel": 2,
+    "restaurantVariationLevel": "low"
+  }
+]

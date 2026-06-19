@@ -13963,280 +13963,309 @@ export const worldDishes = [
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "fish-and-chips",
     "metadataCode": "123001",
-    "cuisineId": "british-irish",
     "names": {
       "en": "Fish and Chips",
       "zh": "炸鱼薯条",
       "nl": "Fish and chips",
-      "local": "fish and chips"
+      "local": "Fish and chips"
     },
     "category": "seafood",
     "cookingMethods": [
-      "assembled"
+      "deep-fried"
     ],
     "shortDescription": {
-      "en": "Battered fried fish with fries, usually served with tartar sauce or vinegar.",
-      "zh": "炸鱼薯条 是常见英式/爱尔兰菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Fish and chips is een veelvoorkomend gerecht in de brits en iers keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Battered white fish served with thick-cut fries, usually with tartar sauce, lemon, or malt vinegar.",
+      "zh": "裹浆油炸白鱼配粗薯条，常搭配塔塔酱、柠檬或麦芽醋。",
+      "nl": "Gefrituurde witvis in beslag met dikke friet, vaak met tartaarsaus, citroen of moutazijn."
     },
     "cookingProfile": {
-      "en": "Usually served with tender seafood, fresh finish, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender seafood，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender seafood; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Expect a crisp fried coating, flaky fish, and a heavy potato side.",
+      "zh": "外层酥脆，鱼肉片状柔嫩，薯条分量通常很足。",
+      "nl": "Verwacht krokant beslag, vlokkige vis en een stevige portie friet."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "first-timer-friendly",
+        "street-food"
       ],
       "description": {
-        "en": "A high-frequency British & Irish menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频英式/爱尔兰菜菜品。",
-        "nl": "Een vaak voorkomend brits en iers menu-item voor brede DishKAI restaurantdekking."
+        "en": "A defining British chippy and pub order where batter quality and freshness matter.",
+        "zh": "英国炸鱼店和酒吧代表菜，关键看面衣酥度和鱼的新鲜度。",
+        "nl": "Een kenmerkende Britse chippy- en pubbestelling waarbij beslag en versheid tellen."
       }
     },
     "composition": [
       [
         "fish-fillet",
-        50,
-        "main"
+        35,
+        "fried fish"
       ],
       [
-        "steamed-rice",
-        20,
-        "base"
+        "fries",
+        40,
+        "potato side"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "side"
-      ],
-      [
-        "lime",
+        "wheat-flour",
         10,
-        "finish"
+        "batter"
       ],
       [
-        "parsley",
+        "egg",
         5,
-        "aroma",
+        "batter binder"
+      ],
+      [
+        "remoulade-sauce",
+        5,
+        "tartar-style sauce",
+        "seasoning"
+      ],
+      [
+        "vinegar",
+        5,
+        "malt vinegar tang",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "butter",
-      "mustard",
-      "black-pepper"
+      "fried batter",
+      "malt vinegar",
+      "tartar sauce"
     ],
     "basicTaste": [
-      "fresh",
-      "briny"
+      "salty",
+      "savory",
+      "tangy"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "crisp batter",
+      "flaky fish",
+      "fluffy fries"
     ],
     "riskFlags": [
       "contains-fish",
-      "contains-gluten"
+      "contains-gluten",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "classic-dish",
+      "safe-choice"
     ],
     "avoidIfTags": [
+      "fish-allergy",
+      "gluten-free",
       "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Classic filling order; fried and gluten-heavy.",
-      "zh": "如果你接受这类口味和风险，炸鱼薯条 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A safe classic if you want something filling and familiar; avoid if you want a light meal.",
+      "zh": "想吃熟悉、顶饱的经典选择可以点；想吃清淡就不太适合。",
+      "nl": "Een veilige klassieker als je iets vullends en herkenbaars wilt; minder geschikt als je licht wilt eten."
     },
-    "spiceLevel": 0,
     "weightLevel": 4,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "shepherds-pie",
     "metadataCode": "123002",
-    "cuisineId": "british-irish",
     "names": {
-      "en": "Shepherd’s Pie",
+      "en": "Shepherd's Pie",
       "zh": "牧羊人派",
-      "nl": "Shepherd’s pie",
-      "local": "shepherd’s pie"
+      "nl": "Shepherd's pie",
+      "local": "Shepherd's pie"
     },
     "category": "meat",
     "cookingMethods": [
-      "grilled"
+      "baked",
+      "layered"
     ],
     "shortDescription": {
-      "en": "Minced lamb or beef under mashed potato, baked until hearty.",
-      "zh": "牧羊人派 是常见英式/爱尔兰菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Shepherd’s pie is een veelvoorkomend gerecht in de brits en iers keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Minced lamb and vegetables under a browned mashed-potato topping.",
+      "zh": "羊肉末和蔬菜铺底，上面覆盖烤到微焦的土豆泥。",
+      "nl": "Lamsgehakt en groenten onder een gebruinde laag aardappelpuree."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "It is soft, saucy, and very filling, with browned potato rather than pastry.",
+      "zh": "整体柔软多汁、很顶饱，顶部是烤土豆泥而不是酥皮。",
+      "nl": "Zacht, sauzig en erg vullend, met gebruinde puree in plaats van deeg."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency British & Irish menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频英式/爱尔兰菜菜品。",
-        "nl": "Een vaak voorkomend brits en iers menu-item voor brede DishKAI restaurantdekking."
+        "en": "A home-style British and Irish comfort dish often chosen for meat-and-potato richness.",
+        "zh": "英式和爱尔兰家常舒适菜，适合想吃肉和土豆的浓厚口感。",
+        "nl": "Een huiselijk Brits-Iers comfortgerecht voor wie vlees en aardappelrijkdom zoekt."
       }
     },
     "composition": [
       [
         "lamb",
-        45,
-        "main"
+        40,
+        "minced lamb filling"
       ],
       [
-        "steamed-rice",
-        25,
-        "base"
+        "potato",
+        35,
+        "mashed topping"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "side"
+        "carrot",
+        10,
+        "vegetable filling"
       ],
       [
-        "cumin",
+        "peas",
         5,
-        "aroma",
-        "seasoning"
+        "vegetable filling"
       ],
       [
-        "black-pepper",
+        "onion",
         5,
-        "seasoning",
-        "seasoning"
+        "aromatic base"
+      ],
+      [
+        "broth",
+        5,
+        "sauce base"
       ]
     ],
     "distinctiveFlavorSources": [
-      "butter",
-      "mustard",
-      "black-pepper"
+      "lamb",
+      "gravy-style filling",
+      "browned potato"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "rich",
+      "mild"
     ],
     "textureProfile": [
-      "tender meat",
-      "charred or saucy edges"
+      "soft mash",
+      "saucy minced meat",
+      "small vegetables"
     ],
     "riskFlags": [],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "comfort-food",
+      "cold-weather"
     ],
     "avoidIfTags": [
-      "wants-light-food"
+      "wants-light-food",
+      "no-lamb"
     ],
     "orderVerdict": {
-      "en": "Comfort food if you want meat and potato richness.",
-      "zh": "如果你接受这类口味和风险，牧羊人派 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Order when you want a mild, hearty meat-and-potato plate.",
+      "zh": "想吃温和、厚实的肉和土豆类主菜时很合适。",
+      "nl": "Kies dit voor een milde, stevige vlees-en-aardappelschotel."
     },
-    "spiceLevel": 0,
     "weightLevel": 4,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "bangers-and-mash",
     "metadataCode": "123003",
-    "cuisineId": "british-irish",
     "names": {
       "en": "Bangers and Mash",
       "zh": "香肠土豆泥",
       "nl": "Worst met puree",
-      "local": "bangers and mash"
+      "local": "Bangers and mash"
     },
     "category": "meat",
     "cookingMethods": [
-      "grilled"
+      "grilled",
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Sausages with mashed potatoes and gravy.",
-      "zh": "香肠土豆泥 是常见英式/爱尔兰菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Worst met puree is een veelvoorkomend gerecht in de brits en iers keuken, beschreven voor snelle bestelkeuzes."
+      "en": "British sausages served over mashed potatoes with onion gravy.",
+      "zh": "英式香肠配土豆泥和洋葱肉汁。",
+      "nl": "Britse worsten met aardappelpuree en uienjus."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "The sausages are browned, the mash is soft, and the gravy makes it heavier.",
+      "zh": "香肠煎烤上色，土豆泥柔软，肉汁让整体更厚重。",
+      "nl": "De worst is bruin gebakken, de puree zacht en de jus maakt het zwaarder."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "pub-food",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency British & Irish menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频英式/爱尔兰菜菜品。",
-        "nl": "Een vaak voorkomend brits en iers menu-item voor brede DishKAI restaurantdekking."
+        "en": "A pub staple where sausage quality and gravy decide the experience.",
+        "zh": "酒吧常见主菜，体验主要取决于香肠品质和肉汁。",
+        "nl": "Een pubklassieker waarbij worstkwaliteit en jus de ervaring bepalen."
       }
     },
     "composition": [
       [
-        "lamb",
+        "sausage-global",
         45,
-        "main"
+        "sausages"
       ],
       [
-        "steamed-rice",
-        25,
-        "base"
+        "potato",
+        35,
+        "mash"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "side"
+        "onion",
+        10,
+        "onion gravy"
       ],
       [
-        "cumin",
+        "broth",
         5,
-        "aroma",
-        "seasoning"
+        "gravy base"
       ],
       [
-        "black-pepper",
+        "mustard",
         5,
-        "seasoning",
+        "sharp condiment",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "butter",
-      "mustard",
-      "black-pepper"
+      "pork sausage",
+      "onion gravy",
+      "mustard"
     ],
     "basicTaste": [
       "savory",
+      "salty",
       "rich"
     ],
     "textureProfile": [
-      "tender meat",
-      "charred or saucy edges"
+      "snappy sausage",
+      "soft mash",
+      "glossy gravy"
     ],
     "riskFlags": [
       "contains-pork",
@@ -14244,100 +14273,120 @@ export const worldDishes = [
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "pub-food",
+      "comfort-food"
     ],
     "avoidIfTags": [
+      "no-pork",
+      "gluten-free",
       "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Hearty pub classic; sausage may include pork and gluten.",
-      "zh": "如果你接受这类口味和风险，香肠土豆泥 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good pub comfort food; ask if the sausage is pork if that matters.",
+      "zh": "适合想吃酒吧舒适菜；介意猪肉时先问香肠成分。",
+      "nl": "Goed pub-comfortfood; vraag naar varkensvlees als dat belangrijk is."
     },
-    "spiceLevel": 0,
     "weightLevel": 4,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "full-english-breakfast",
     "metadataCode": "123004",
-    "cuisineId": "british-irish",
     "names": {
       "en": "Full English Breakfast",
       "zh": "英式早餐",
       "nl": "Full English breakfast",
-      "local": "full English breakfast"
+      "local": "Full English breakfast"
     },
-    "category": "meat",
+    "category": "breakfast",
     "cookingMethods": [
-      "grilled"
+      "fried",
+      "grilled",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Eggs, bacon, sausage, beans, tomato, mushrooms, and toast.",
-      "zh": "英式早餐 是常见英式/爱尔兰菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Full English breakfast is een veelvoorkomend gerecht in de brits en iers keuken, beschreven voor snelle bestelkeuzes."
+      "en": "A cooked breakfast plate with eggs, bacon, sausage, beans, tomato, mushrooms, toast, and sometimes black pudding.",
+      "zh": "熟食早餐拼盘，常有鸡蛋、培根、香肠、焗豆、番茄、蘑菇、吐司，有时加血肠。",
+      "nl": "Een warm ontbijtbord met ei, bacon, worst, bonen, tomaat, champignons, toast en soms black pudding."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "It is salty, oily, and very filling, more like a full meal than a light breakfast.",
+      "zh": "咸香油润、分量很大，更像完整一餐而不是轻早餐。",
+      "nl": "Zout, vet en zeer vullend; eerder een volledige maaltijd dan een licht ontbijt."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "breakfast",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency British & Irish menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频英式/爱尔兰菜菜品。",
-        "nl": "Een vaak voorkomend brits en iers menu-item voor brede DishKAI restaurantdekking."
+        "en": "A recognizable British breakfast plate with many pork, egg, and bread components.",
+        "zh": "辨识度很高的英式早餐盘，常同时包含猪肉、鸡蛋和面包。",
+        "nl": "Een herkenbaar Brits ontbijtbord met vaak varkensvlees, ei en brood."
       }
     },
     "composition": [
       [
-        "lamb",
-        45,
-        "main"
-      ],
-      [
-        "steamed-rice",
-        25,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
+        "baked-beans",
         20,
-        "side"
+        "bean side"
       ],
       [
-        "cumin",
-        5,
-        "aroma",
-        "seasoning"
+        "egg",
+        15,
+        "fried egg"
       ],
       [
-        "black-pepper",
+        "bacon",
+        15,
+        "pork component"
+      ],
+      [
+        "sausage-global",
+        15,
+        "sausage"
+      ],
+      [
+        "mushrooms",
+        10,
+        "vegetable side"
+      ],
+      [
+        "tomato",
+        10,
+        "grilled tomato"
+      ],
+      [
+        "black-pudding",
+        10,
+        "optional blood sausage"
+      ],
+      [
+        "bread",
         5,
-        "seasoning",
-        "seasoning"
+        "toast"
       ]
     ],
     "distinctiveFlavorSources": [
-      "butter",
-      "mustard",
-      "black-pepper"
+      "fried egg",
+      "bacon",
+      "baked beans"
     ],
     "basicTaste": [
+      "salty",
       "savory",
       "rich"
     ],
     "textureProfile": [
-      "tender meat",
-      "charred or saucy edges"
+      "mixed fried items",
+      "soft beans",
+      "crisp toast"
     ],
     "riskFlags": [
       "contains-pork",
@@ -14346,100 +14395,112 @@ export const worldDishes = [
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "breakfast",
+      "very-filling"
     ],
     "avoidIfTags": [
+      "no-pork",
+      "egg-allergy",
+      "gluten-free",
       "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Very filling; pork, egg, and gluten are common.",
-      "zh": "如果你接受这类口味和风险，英式早餐 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Order only when you want a heavy breakfast or brunch plate.",
+      "zh": "只有想吃厚重早餐或早午餐拼盘时才推荐。",
+      "nl": "Bestel dit vooral als je een zwaar ontbijt- of brunchbord wilt."
     },
-    "spiceLevel": 0,
     "weightLevel": 5,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "restaurantVariationLevel": "high"
   }),
   starterDish({
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "steak-and-ale-pie",
     "metadataCode": "123005",
-    "cuisineId": "british-irish",
     "names": {
       "en": "Steak and Ale Pie",
       "zh": "啤酒牛肉派",
       "nl": "Steak and ale pie",
-      "local": "steak and ale pie"
+      "local": "Steak and ale pie"
     },
     "category": "meat",
     "cookingMethods": [
-      "grilled"
+      "baked",
+      "braised"
     ],
     "shortDescription": {
-      "en": "Beef and ale filling in pastry.",
-      "zh": "啤酒牛肉派 是常见英式/爱尔兰菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Steak and ale pie is een veelvoorkomend gerecht in de brits en iers keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Pastry pie filled with slow-cooked beef in ale gravy.",
+      "zh": "酥皮派里包慢炖牛肉和啤酒肉汁。",
+      "nl": "Pastei met deegkorst en langzaam gegaard rundvlees in bierjus."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Expect a flaky crust and rich beef filling; it is usually heavy.",
+      "zh": "外层酥皮松脆，内馅是浓郁牛肉，通常很厚重。",
+      "nl": "Verwacht een bladerige korst en rijke rundvulling; meestal zwaar."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "pub-food",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency British & Irish menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频英式/爱尔兰菜菜品。",
-        "nl": "Een vaak voorkomend brits en iers menu-item voor brede DishKAI restaurantdekking."
+        "en": "A classic pub pie where ale gravy and pastry are the key ordering signals.",
+        "zh": "经典酒吧派，点餐重点是啤酒肉汁和酥皮。",
+        "nl": "Een klassieke pubpastei waarbij bierjus en deeg de kern zijn."
       }
     },
     "composition": [
       [
-        "lamb",
+        "beef",
         45,
-        "main"
+        "braised steak"
       ],
       [
-        "steamed-rice",
-        25,
-        "base"
+        "pastry-crust",
+        30,
+        "pie crust"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "side"
+        "mushrooms",
+        10,
+        "filling body"
       ],
       [
-        "cumin",
+        "onion",
         5,
-        "aroma",
+        "aromatic base"
+      ],
+      [
+        "beer",
+        5,
+        "ale gravy",
         "seasoning"
       ],
       [
         "black-pepper",
         5,
-        "seasoning",
+        "peppery seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "butter",
-      "mustard",
-      "black-pepper"
+      "ale gravy",
+      "beef",
+      "pastry crust"
     ],
     "basicTaste": [
       "savory",
+      "malty",
       "rich"
     ],
     "textureProfile": [
-      "tender meat",
-      "charred or saucy edges"
+      "flaky crust",
+      "tender beef",
+      "thick gravy"
     ],
     "riskFlags": [
       "contains-gluten",
@@ -14447,27 +14508,30 @@ export const worldDishes = [
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "pub-food",
+      "comfort-food"
     ],
     "avoidIfTags": [
+      "gluten-free",
+      "no-alcohol",
       "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Rich pub dish; gluten and alcohol used.",
-      "zh": "如果你接受这类口味和风险，啤酒牛肉派 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A good cold-weather pub choice if you are comfortable with pastry and ale gravy.",
+      "zh": "适合冷天或酒吧场景；不介意酥皮和啤酒肉汁时可选。",
+      "nl": "Een goede pubkeuze bij koud weer als deeg en bierjus welkom zijn."
     },
-    "spiceLevel": 0,
-    "weightLevel": 4,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 5,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "irish-stew",
     "metadataCode": "123006",
-    "cuisineId": "british-irish",
     "names": {
       "en": "Irish Stew",
       "zh": "爱尔兰炖肉",
@@ -14476,96 +14540,98 @@ export const worldDishes = [
     },
     "category": "meat",
     "cookingMethods": [
-      "grilled"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Lamb or beef stew with potatoes and vegetables.",
-      "zh": "爱尔兰炖肉 是常见英式/爱尔兰菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Ierse stoofpot is een veelvoorkomend gerecht in de brits en iers keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Mild lamb or mutton stew with potatoes, onions, carrots, and broth.",
+      "zh": "温和的羊肉炖菜，配土豆、洋葱、胡萝卜和汤汁。",
+      "nl": "Milde stoofpot van lam of schaap met aardappel, ui, wortel en bouillon."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "It is brothy and warming rather than spicy or heavily sauced.",
+      "zh": "偏汤感和暖胃，不是辛辣或重酱汁风格。",
+      "nl": "Bouillonachtig en verwarmend, niet pittig of zwaar met saus."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency British & Irish menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频英式/爱尔兰菜菜品。",
-        "nl": "Een vaak voorkomend brits en iers menu-item voor brede DishKAI restaurantdekking."
+        "en": "A simple Irish classic where lamb, potato, and broth define the plate.",
+        "zh": "爱尔兰经典炖菜，核心是羊肉、土豆和清炖汤汁。",
+        "nl": "Een eenvoudige Ierse klassieker met lam, aardappel en bouillon."
       }
     },
     "composition": [
       [
         "lamb",
-        45,
-        "main"
+        40,
+        "stew meat"
       ],
       [
-        "steamed-rice",
-        25,
-        "base"
+        "potato",
+        30,
+        "starchy body"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "side"
+        "carrot",
+        15,
+        "vegetable sweetness"
       ],
       [
-        "cumin",
+        "onion",
+        10,
+        "aromatic base"
+      ],
+      [
+        "broth",
         5,
-        "aroma",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
+        "brothy base"
       ]
     ],
     "distinctiveFlavorSources": [
-      "butter",
-      "mustard",
-      "black-pepper"
+      "lamb broth",
+      "potato",
+      "onion"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "mild",
+      "brothy"
     ],
     "textureProfile": [
       "tender meat",
-      "charred or saucy edges"
+      "soft potato",
+      "light broth"
     ],
     "riskFlags": [],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "comfort-food",
+      "mild-choice"
     ],
     "avoidIfTags": [
-      "wants-light-food"
+      "no-lamb",
+      "wants-crisp-food"
     ],
     "orderVerdict": {
-      "en": "Good hearty stew, usually mild and warming.",
-      "zh": "如果你接受这类口味和风险，爱尔兰炖肉 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Choose it for a mild, warming stew rather than a flashy dish.",
+      "zh": "想吃温和暖胃的炖菜时可选；它不是重口味菜。",
+      "nl": "Kies dit voor een milde, verwarmende stoof, niet voor iets uitgesproken pittigs."
     },
-    "spiceLevel": 0,
     "weightLevel": 4,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "cornish-pasty",
     "metadataCode": "123007",
-    "cuisineId": "british-irish",
     "names": {
       "en": "Cornish Pasty",
       "zh": "康沃尔馅饼",
@@ -14577,93 +14643,98 @@ export const worldDishes = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Hand pie filled with meat, potato, and vegetables.",
-      "zh": "康沃尔馅饼 是常见英式/爱尔兰菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Cornish pasty is een veelvoorkomend gerecht in de brits en iers keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Crimped hand pie filled with beef, potato, onion, and swede or turnip.",
+      "zh": "带卷边的手持馅饼，内馅常是牛肉、土豆、洋葱和芜菁。",
+      "nl": "Handpastei met geribbelde rand, gevuld met rundvlees, aardappel, ui en koolraap of raap."
     },
     "cookingProfile": {
-      "en": "Usually served with bready, chewy or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为bready，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met bready; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "It is portable, pastry-heavy, and more filling than it looks.",
+      "zh": "方便手拿，酥皮比例高，比看起来更顶饱。",
+      "nl": "Makkelijk uit de hand, deegzwaar en vullender dan het lijkt."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "regional-dish",
+        "street-food"
       ],
       "description": {
-        "en": "A high-frequency British & Irish menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频英式/爱尔兰菜菜品。",
-        "nl": "Een vaak voorkomend brits en iers menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Cornish regional staple often seen as a portable lunch item.",
+        "zh": "康沃尔地区代表性小吃，常作为便携午餐。",
+        "nl": "Een Cornish streekklassieker, vaak als draagbare lunch."
       }
     },
     "composition": [
       [
-        "pita",
-        55,
-        "base"
+        "pastry-crust",
+        40,
+        "crimped crust"
       ],
       [
-        "mixed-vegetables",
+        "beef",
+        25,
+        "meat filling"
+      ],
+      [
+        "potato",
         20,
-        "freshness"
+        "starchy filling"
       ],
       [
-        "tomato",
+        "onion",
         10,
-        "body"
+        "aromatic filling"
       ],
       [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "mint",
+        "turnip",
         5,
-        "finish",
-        "seasoning"
+        "swede or turnip"
       ]
     ],
     "distinctiveFlavorSources": [
-      "butter",
-      "mustard",
-      "black-pepper"
+      "pastry crust",
+      "beef filling",
+      "pepper"
     ],
     "basicTaste": [
       "savory",
-      "bready"
+      "mild",
+      "buttery"
     ],
     "textureProfile": [
-      "bready",
-      "chewy or crisp"
+      "firm pastry",
+      "soft filling",
+      "crimped edge"
     ],
     "riskFlags": [
-      "contains-gluten"
+      "contains-gluten",
+      "contains-dairy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "regional-dish",
+      "portable-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "wants-light-food"
+    ],
     "orderVerdict": {
-      "en": "Portable filling pastry; gluten-heavy.",
-      "zh": "如果你接受这类口味和风险，康沃尔馅饼 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A filling handheld option; less saucy than a pie.",
+      "zh": "适合想要顶饱的手持食物；比肉派更干爽。",
+      "nl": "Een vullende handhap; minder sauzig dan een pastei."
     },
-    "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "high"
+    "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "scotch-egg",
     "metadataCode": "123008",
-    "cuisineId": "british-irish",
     "names": {
       "en": "Scotch Egg",
       "zh": "苏格兰蛋",
@@ -14675,73 +14746,69 @@ export const worldDishes = [
       "deep-fried"
     ],
     "shortDescription": {
-      "en": "Boiled egg wrapped in sausage meat and breadcrumbs.",
-      "zh": "苏格兰蛋 是常见英式/爱尔兰菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Scotch egg is een veelvoorkomend gerecht in de brits en iers keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Boiled egg wrapped in sausage meat and breadcrumbs, often served with mustard.",
+      "zh": "水煮蛋外包香肠肉和面包屑，常搭配芥末酱。",
+      "nl": "Gekookt ei omwikkeld met worstvlees en paneermeel, vaak met mosterd."
     },
     "cookingProfile": {
-      "en": "Usually served with crisp outside, savory center, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为crisp outside，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met crisp outside; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Expect a crisp shell, savory meat layer, and a firm or runny egg center.",
+      "zh": "外层酥脆，中间是咸香肉层，蛋心可能全熟或流心。",
+      "nl": "Verwacht een krokante buitenkant, hartige vleeslaag en stevig of lopend eicentrum."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "pub-food",
+        "snack"
       ],
       "description": {
-        "en": "A high-frequency British & Irish menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频英式/爱尔兰菜菜品。",
-        "nl": "Een vaak voorkomend brits en iers menu-item voor brede DishKAI restaurantdekking."
+        "en": "A pub and picnic snack where egg doneness changes the appeal.",
+        "zh": "酒吧和野餐常见小吃，蛋心熟度会影响口感。",
+        "nl": "Een pub- en picknicksnack waarbij de gaarheid van het ei veel uitmaakt."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "coating"
-      ],
-      [
-        "chicken",
-        25,
-        "protein"
-      ],
-      [
-        "potato",
-        20,
-        "body"
-      ],
-      [
         "egg",
-        10,
-        "binder"
+        35,
+        "center"
+      ],
+      [
+        "sausage-global",
+        35,
+        "sausage meat layer"
+      ],
+      [
+        "bread",
+        20,
+        "breadcrumb coating"
+      ],
+      [
+        "wheat-flour",
+        5,
+        "coating support"
       ],
       [
         "mustard",
-        10,
+        5,
         "dip",
-        "seasoning"
-      ],
-      [
-        "chili",
-        10,
-        "heat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "butter",
-      "mustard",
-      "black-pepper"
+      "sausage meat",
+      "fried breadcrumb",
+      "mustard"
     ],
     "basicTaste": [
+      "savory",
       "salty",
-      "savory"
+      "rich"
     ],
     "textureProfile": [
-      "crisp outside",
-      "savory center"
+      "crisp crumb",
+      "firm meat layer",
+      "soft egg"
     ],
     "riskFlags": [
       "contains-gluten",
@@ -14750,428 +14817,452 @@ export const worldDishes = [
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "pub-food",
+      "snack"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "no-pork",
+      "gluten-free"
+    ],
     "orderVerdict": {
-      "en": "Snacky but heavy; egg, pork, and gluten common.",
-      "zh": "如果你接受这类口味和风险，苏格兰蛋 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good as a snack or starter, but richer than a plain egg.",
+      "zh": "适合作小吃或前菜，但比普通鸡蛋厚重很多。",
+      "nl": "Goed als snack of voorgerecht, maar rijker dan een gewoon ei."
     },
-    "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "ploughmans-lunch",
     "metadataCode": "123009",
-    "cuisineId": "british-irish",
     "names": {
-      "en": "Ploughman’s Lunch",
+      "en": "Ploughman's Lunch",
       "zh": "农夫冷盘",
-      "nl": "Ploughman’s lunch",
-      "local": "ploughman’s lunch"
+      "nl": "Ploughman's lunch",
+      "local": "Ploughman's lunch"
     },
     "category": "starter",
     "cookingMethods": [
       "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
+    "goodForSharing": true,
     "shortDescription": {
-      "en": "Cold plate with cheese, bread, pickles, and sometimes ham.",
-      "zh": "农夫冷盘 是常见英式/爱尔兰菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Ploughman’s lunch is een veelvoorkomend gerecht in de brits en iers keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Cold pub plate of cheese, bread, pickles, chutney, fruit, and sometimes ham.",
+      "zh": "酒吧冷盘，通常有奶酪、面包、腌菜、酸甜酱、水果，有时加火腿。",
+      "nl": "Koud pubbord met kaas, brood, pickles, chutney, fruit en soms ham."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, fresh or creamy dip, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为small bites，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met small bites; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "It is assembled cold and depends on cheese sharpness, bread, and pickles.",
+      "zh": "冷食组合盘，体验取决于奶酪咸香度、面包和腌菜。",
+      "nl": "Koud samengesteld; kaas, brood en pickles bepalen de ervaring."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "pub-food",
+        "sharing"
       ],
       "description": {
-        "en": "A high-frequency British & Irish menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频英式/爱尔兰菜菜品。",
-        "nl": "Een vaak voorkomend brits en iers menu-item voor brede DishKAI restaurantdekking."
+        "en": "A traditional pub lunch plate for grazing rather than a hot main.",
+        "zh": "传统酒吧午餐冷盘，适合慢慢吃，不是热主菜。",
+        "nl": "Een traditioneel pub-lunchbord om te grazen, geen warm hoofdgerecht."
       }
     },
     "composition": [
       [
-        "chickpeas",
-        35,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
+        "cheddar",
         30,
-        "freshness"
+        "cheese"
       ],
       [
-        "tomato",
-        15,
-        "body"
+        "bread",
+        25,
+        "bread"
       ],
       [
-        "olive-oil",
+        "pickles",
+        20,
+        "pickle and chutney side"
+      ],
+      [
+        "apple",
         10,
-        "finish",
-        "seasoning"
+        "fresh fruit"
       ],
       [
-        "parsley",
+        "ham",
         10,
-        "aroma",
+        "optional cold meat"
+      ],
+      [
+        "mustard",
+        5,
+        "sharp condiment",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "butter",
-      "mustard",
-      "black-pepper"
+      "cheddar",
+      "pickles",
+      "chutney"
     ],
     "basicTaste": [
       "savory",
-      "fresh"
+      "tangy",
+      "mildly sweet"
     ],
     "textureProfile": [
-      "small bites",
-      "fresh or creamy dip"
+      "firm cheese",
+      "crusty bread",
+      "crisp pickles"
     ],
     "riskFlags": [
       "contains-dairy",
-      "contains-gluten"
+      "contains-gluten",
+      "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "pub-food",
+      "sharing"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "dairy-free",
+      "gluten-free",
+      "no-pork"
+    ],
     "orderVerdict": {
-      "en": "Good simple plate; dairy/gluten and possible pork.",
-      "zh": "如果你接受这类口味和风险，农夫冷盘 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good if you want a cold grazing plate; not a hot cooked meal.",
+      "zh": "想吃冷盘慢慢分享时适合；它不是热菜主餐。",
+      "nl": "Goed voor een koud deelbord; geen warme bereide maaltijd."
     },
-    "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "high"
   }),
   starterDish({
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "beef-wellington",
     "metadataCode": "123010",
-    "cuisineId": "british-irish",
     "names": {
       "en": "Beef Wellington",
       "zh": "威灵顿牛排",
       "nl": "Beef Wellington",
-      "local": "beef Wellington"
+      "local": "Beef Wellington"
     },
     "category": "meat",
     "cookingMethods": [
-      "grilled"
+      "baked"
     ],
     "shortDescription": {
-      "en": "Beef wrapped with mushroom layer and pastry.",
-      "zh": "威灵顿牛排 是常见英式/爱尔兰菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Beef Wellington is een veelvoorkomend gerecht in de brits en iers keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Beef fillet wrapped with mushroom duxelles and pastry, usually sliced to show the center.",
+      "zh": "牛柳包裹蘑菇馅和酥皮烘烤，通常切片露出中心。",
+      "nl": "Runderfilet met paddenstoelenvulling en deegkorst, meestal in plakken geserveerd."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "It is rich and pastry-heavy, with doneness of the beef as the main risk.",
+      "zh": "口感浓厚且酥皮感重，主要风险是牛肉熟度是否合口味。",
+      "nl": "Rijk en deegzwaar, waarbij de garing van het rundvlees het belangrijkste risico is."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "special-occasion",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency British & Irish menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频英式/爱尔兰菜菜品。",
-        "nl": "Een vaak voorkomend brits en iers menu-item voor brede DishKAI restaurantdekking."
+        "en": "A British special-occasion dish often priced higher because of beef fillet and pastry work.",
+        "zh": "英式宴席感菜品，因牛柳和酥皮工序通常价格更高。",
+        "nl": "Een Brits gerecht voor speciale gelegenheden, vaak duurder door filet en deegwerk."
       }
     },
     "composition": [
       [
-        "lamb",
+        "beef",
         45,
-        "main"
+        "beef fillet"
       ],
       [
-        "steamed-rice",
-        25,
-        "base"
+        "pastry-crust",
+        30,
+        "pastry wrap"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "side"
+        "mushrooms",
+        15,
+        "duxelles layer"
       ],
       [
-        "cumin",
+        "mustard",
         5,
-        "aroma",
+        "thin sharp layer",
         "seasoning"
       ],
       [
-        "black-pepper",
+        "egg",
         5,
-        "seasoning",
-        "seasoning"
+        "pastry glaze"
       ]
     ],
     "distinctiveFlavorSources": [
-      "butter",
-      "mustard",
-      "black-pepper"
+      "beef fillet",
+      "mushroom duxelles",
+      "buttery pastry"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "rich",
+      "earthy"
     ],
     "textureProfile": [
-      "tender meat",
-      "charred or saucy edges"
+      "tender beef",
+      "flaky pastry",
+      "soft mushroom layer"
     ],
     "riskFlags": [
-      "contains-gluten"
+      "contains-gluten",
+      "contains-dairy",
+      "contains-egg"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "special-occasion",
+      "rich-main"
     ],
     "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
       "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Luxurious and heavy; pastry adds gluten.",
-      "zh": "如果你接受这类口味和风险，威灵顿牛排 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Choose it for a rich centerpiece dish; ask about beef doneness if you care.",
+      "zh": "想吃浓厚、有仪式感的主菜时可选；在意熟度要先问。",
+      "nl": "Kies dit als rijk hoofdgerecht; vraag naar de garing als dat belangrijk is."
     },
-    "spiceLevel": 0,
     "weightLevel": 5,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "sticky-toffee-pudding",
     "metadataCode": "123011",
-    "cuisineId": "british-irish",
     "names": {
       "en": "Sticky Toffee Pudding",
       "zh": "太妃糖布丁蛋糕",
       "nl": "Sticky toffee pudding",
-      "local": "sticky toffee pudding"
+      "local": "Sticky toffee pudding"
     },
     "category": "dessert",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Warm date cake with toffee sauce.",
-      "zh": "太妃糖布丁蛋糕 是常见英式/爱尔兰菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Sticky toffee pudding is een veelvoorkomend gerecht in de brits en iers keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Warm date sponge cake served with sticky toffee sauce, often with cream or ice cream.",
+      "zh": "温热枣香海绵蛋糕配黏稠太妃糖酱，常加奶油或冰淇淋。",
+      "nl": "Warme dadelsponscake met kleverige toffeesaus, vaak met room of ijs."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet, soft or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为sweet，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met sweet; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "It is soft, very sweet, and sauce-heavy rather than pudding in the custard sense.",
+      "zh": "质地柔软、很甜、酱汁多，不是卡仕达布丁那类甜点。",
+      "nl": "Zacht, erg zoet en sausachtig; geen pudding zoals custard."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "dessert",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency British & Irish menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频英式/爱尔兰菜菜品。",
-        "nl": "Een vaak voorkomend brits en iers menu-item voor brede DishKAI restaurantdekking."
+        "en": "A beloved British dessert where warm sauce and sponge texture define the order.",
+        "zh": "受欢迎的英式甜点，温热酱汁和蛋糕质地是核心。",
+        "nl": "Een geliefd Brits dessert waarin warme saus en cake-textuur centraal staan."
       }
     },
     "composition": [
       [
-        "sugar",
+        "sponge-cake",
+        45,
+        "date sponge"
+      ],
+      [
+        "toffee-sauce",
         30,
-        "sweetener"
+        "warm sauce"
+      ],
+      [
+        "vanilla-custard",
+        15,
+        "custard or ice cream side"
       ],
       [
         "cream",
-        25,
-        "base"
-      ],
-      [
-        "wheat-flour",
-        20,
-        "base"
-      ],
-      [
-        "egg",
-        10,
-        "binder"
-      ],
-      [
-        "vanilla",
-        10,
-        "aroma",
-        "seasoning"
-      ],
-      [
-        "butter",
         5,
         "richness"
+      ],
+      [
+        "sugar",
+        5,
+        "sweetness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "butter",
-      "mustard",
-      "black-pepper"
+      "toffee sauce",
+      "date sponge",
+      "vanilla custard"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "caramel",
+      "rich"
     ],
     "textureProfile": [
-      "sweet",
-      "soft or crisp"
+      "soft sponge",
+      "sticky sauce",
+      "creamy side"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "dessert",
+      "sweet-tooth"
     ],
     "avoidIfTags": [
-      "wants-light-food"
+      "gluten-free",
+      "dairy-free",
+      "wants-light-dessert"
     ],
     "orderVerdict": {
-      "en": "Rich sweet dessert; heavy but comforting.",
-      "zh": "如果你接受这类口味和风险，太妃糖布丁蛋糕 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Great if you want a warm, very sweet dessert; heavy after a big main.",
+      "zh": "想吃温热、很甜的甜点很合适；大餐后会偏厚重。",
+      "nl": "Heerlijk voor een warm, erg zoet dessert; zwaar na een groot hoofdgerecht."
     },
-    "spiceLevel": 0,
     "weightLevel": 4,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "scones",
     "metadataCode": "123012",
-    "cuisineId": "british-irish",
     "names": {
       "en": "Scones",
       "zh": "英式司康",
       "nl": "Scones",
-      "local": "scones"
+      "local": "Scones"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "baked",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Small baked cakes served with cream and jam.",
-      "zh": "英式司康 是常见英式/爱尔兰菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Scones is een veelvoorkomend gerecht in de brits en iers keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Small baked scones usually served with clotted cream and jam.",
+      "zh": "小份烘烤司康，通常配凝脂奶油和果酱。",
+      "nl": "Kleine gebakken scones, meestal met clotted cream en jam."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet, soft or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为sweet，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met sweet; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "They are crumbly and mildly sweet; the cream and jam make them richer.",
+      "zh": "质地松散微甜，奶油和果酱会让整体更浓厚。",
+      "nl": "Kruimelig en licht zoet; room en jam maken ze rijker."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "tea-time",
+        "dessert"
       ],
       "description": {
-        "en": "A high-frequency British & Irish menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频英式/爱尔兰菜菜品。",
-        "nl": "Een vaak voorkomend brits en iers menu-item voor brede DishKAI restaurantdekking."
+        "en": "A tea-time classic where the cream-and-jam topping is part of the identity.",
+        "zh": "下午茶经典，凝脂奶油和果酱是标志搭配。",
+        "nl": "Een teatimeklassieker waarbij room en jam bij de identiteit horen."
       }
     },
     "composition": [
       [
-        "sugar",
-        30,
-        "sweetener"
-      ],
-      [
-        "cream",
-        25,
-        "base"
-      ],
-      [
         "wheat-flour",
-        20,
-        "base"
-      ],
-      [
-        "egg",
-        10,
-        "binder"
-      ],
-      [
-        "vanilla",
-        10,
-        "aroma",
-        "seasoning"
+        40,
+        "scone base"
       ],
       [
         "butter",
-        5,
-        "richness"
+        20,
+        "buttery crumb"
+      ],
+      [
+        "clotted-cream",
+        20,
+        "topping"
+      ],
+      [
+        "fruit-sauce-or-caramel",
+        10,
+        "jam"
+      ],
+      [
+        "sugar",
+        10,
+        "mild sweetness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "butter",
-      "mustard",
-      "black-pepper"
+      "clotted cream",
+      "jam",
+      "buttery crumb"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "buttery",
+      "mild"
     ],
     "textureProfile": [
-      "sweet",
-      "soft or crisp"
+      "crumbly scone",
+      "thick cream",
+      "jammy topping"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+    "dietaryFlags": [
+      "vegetarian"
     ],
-    "avoidIfTags": [],
+    "goodForTags": [
+      "tea-time",
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
     "orderVerdict": {
-      "en": "Good tea snack; gluten and dairy common.",
-      "zh": "如果你接受这类口味和风险，英式司康 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good with tea or coffee; not as sweet as cake unless loaded with jam.",
+      "zh": "适合配茶或咖啡；不加很多果酱时没有蛋糕那么甜。",
+      "nl": "Goed bij thee of koffie; minder zoet dan cake tenzij er veel jam op zit."
     },
-    "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({

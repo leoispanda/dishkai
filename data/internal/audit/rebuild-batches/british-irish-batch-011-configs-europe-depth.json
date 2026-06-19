@@ -1,0 +1,110 @@
+[
+  {
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
+    "id": "sausage-roll",
+    "metadataCode": "123033",
+    "names": {
+      "en": "Sausage Roll",
+      "zh": "英式香肠酥卷",
+      "nl": "Sausage roll",
+      "local": "Sausage roll"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Seasoned sausage meat wrapped in golden puff pastry.",
+      "zh": "调味香肠肉包在金黄酥皮中烘烤。",
+      "nl": "Gekruid worstvlees verpakt in goudbruin bladerdeeg."
+    },
+    "cookingProfile": {
+      "en": "It is flaky outside and meaty inside, usually eaten as a snack or quick lunch.",
+      "zh": "外层酥松、内里肉馅扎实，常作小吃或快捷午餐。",
+      "nl": "Bladerig van buiten en vlezig vanbinnen, vaak als snack of snelle lunch."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "snack",
+        "street-food"
+      ],
+      "description": {
+        "en": "A bakery and cafe staple where pastry quality and sausage filling matter.",
+        "zh": "烘焙店和咖啡馆常见小食，重点是酥皮和香肠肉馅。",
+        "nl": "Een bakkerij- en cafénietje waarbij deeg en worstvulling tellen."
+      }
+    },
+    "composition": [
+      [
+        "pastry-crust",
+        45,
+        "puff pastry"
+      ],
+      [
+        "sausage-global",
+        40,
+        "sausage meat"
+      ],
+      [
+        "egg",
+        5,
+        "glaze"
+      ],
+      [
+        "mustard",
+        5,
+        "condiment",
+        "seasoning"
+      ],
+      [
+        "black-pepper",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "sausage meat",
+      "buttery pastry",
+      "mustard"
+    ],
+    "basicTaste": [
+      "savory",
+      "salty",
+      "buttery"
+    ],
+    "textureProfile": [
+      "flaky pastry",
+      "dense sausage filling",
+      "crisp edge"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "snack",
+      "portable-food"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "gluten-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Good as a quick savory snack; heavier than a plain pastry.",
+      "zh": "适合作快速咸味小吃；比普通酥皮点心更厚重。",
+      "nl": "Goed als snelle hartige snack; zwaarder dan gewoon gebak."
+    },
+    "weightLevel": 3,
+    "restaurantVariationLevel": "medium"
+  }
+]

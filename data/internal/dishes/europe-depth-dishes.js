@@ -19133,66 +19133,66 @@ const europeDepthDishConfigs = [
     "restaurantVariationLevel": "medium"
   },
   {
+    "cuisineId": "british-irish",
+    "confidenceTag": "audited-british-irish-batch-011",
+    "metadataConfidence": 0.82,
+    "spiceLevel": 0,
+    "acquiredTasteLevel": 1,
     "id": "sausage-roll",
     "metadataCode": "123033",
-    "cuisineId": "british-irish",
     "names": {
       "en": "Sausage Roll",
-      "zh": "英式香肠卷",
-      "nl": "Sausage Roll",
-      "local": "Sausage Roll"
+      "zh": "英式香肠酥卷",
+      "nl": "Sausage roll",
+      "local": "Sausage roll"
     },
-    "category": "pastry",
+    "category": "bread",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Sausage Roll is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "英式香肠卷是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Sausage Roll is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Seasoned sausage meat wrapped in golden puff pastry.",
+      "zh": "调味香肠肉包在金黄酥皮中烘烤。",
+      "nl": "Gekruid worstvlees verpakt in goudbruin bladerdeeg."
     },
     "cookingProfile": {
-      "en": "Usually served with savory pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现savory pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met savory pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is flaky outside and meaty inside, usually eaten as a snack or quick lunch.",
+      "zh": "外层酥松、内里肉馅扎实，常作小吃或快捷午餐。",
+      "nl": "Bladerig van buiten en vlezig vanbinnen, vaak als snack of snelle lunch."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "snack",
+        "street-food"
       ],
       "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A bakery and cafe staple where pastry quality and sausage filling matter.",
+        "zh": "烘焙店和咖啡馆常见小食，重点是酥皮和香肠肉馅。",
+        "nl": "Een bakkerij- en cafénietje waarbij deeg en worstvulling tellen."
       }
     },
     "composition": [
       [
         "pastry-crust",
-        40,
-        "base"
+        45,
+        "puff pastry"
       ],
       [
-        "cheese",
-        20,
-        "filling"
+        "sausage-global",
+        40,
+        "sausage meat"
       ],
       [
         "egg",
-        15,
-        "binder"
+        5,
+        "glaze"
       ],
       [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "butter",
-        10,
-        "richness"
+        "mustard",
+        5,
+        "condiment",
+        "seasoning"
       ],
       [
         "black-pepper",
@@ -19202,40 +19202,42 @@ const europeDepthDishConfigs = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "sausage meat",
+      "buttery pastry",
+      "mustard"
     ],
     "basicTaste": [
       "savory",
+      "salty",
       "buttery"
     ],
     "textureProfile": [
       "flaky pastry",
-      "soft filling"
+      "dense sausage filling",
+      "crisp edge"
     ],
     "riskFlags": [
+      "contains-pork",
       "contains-gluten",
-      "contains-dairy",
-      "contains-egg"
+      "contains-egg",
+      "contains-dairy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pastry"
+      "snack",
+      "portable-food"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "no-pork",
+      "gluten-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, buttery profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、buttery的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, buttery je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good as a quick savory snack; heavier than a plain pastry.",
+      "zh": "适合作快速咸味小吃；比普通酥皮点心更厚重。",
+      "nl": "Goed als snelle hartige snack; zwaarder dan gewoon gebak."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 3,
     "restaurantVariationLevel": "medium"
   },
   {
