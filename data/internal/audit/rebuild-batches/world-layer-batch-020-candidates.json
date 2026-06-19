@@ -1,0 +1,302 @@
+[
+  {
+    "dishId": "doner-kebab",
+    "metadataCode": "119001",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Döner Kebab",
+    "imagePath": "/assets/dishes/main/119001-doner-kebab.webp",
+    "thumbPath": "/assets/dishes/thumb/119001-doner-kebab.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "adana-kebab",
+    "metadataCode": "119002",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Adana Kebab",
+    "imagePath": "/assets/dishes/main/119002-adana-kebab.webp",
+    "thumbPath": "/assets/dishes/thumb/119002-adana-kebab.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "lahmacun",
+    "metadataCode": "119003",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Lahmacun",
+    "imagePath": "/assets/dishes/main/119003-lahmacun.webp",
+    "thumbPath": "/assets/dishes/thumb/119003-lahmacun.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "pide",
+    "metadataCode": "119004",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Pide",
+    "imagePath": "/assets/dishes/main/119004-pide.webp",
+    "thumbPath": "/assets/dishes/thumb/119004-pide.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "menemen",
+    "metadataCode": "119005",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Menemen",
+    "imagePath": "/assets/dishes/main/119005-menemen.webp",
+    "thumbPath": "/assets/dishes/thumb/119005-menemen.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "manti",
+    "metadataCode": "119006",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Manti",
+    "imagePath": "/assets/dishes/main/119006-manti.webp",
+    "thumbPath": "/assets/dishes/thumb/119006-manti.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "imam-bayildi",
+    "metadataCode": "119007",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Imam Bayildi",
+    "imagePath": "/assets/dishes/main/119007-imam-bayildi.webp",
+    "thumbPath": "/assets/dishes/thumb/119007-imam-bayildi.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "mercimek-corbasi",
+    "metadataCode": "119008",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Mercimek Çorbası",
+    "imagePath": "/assets/dishes/main/119008-mercimek-corbasi.webp",
+    "thumbPath": "/assets/dishes/thumb/119008-mercimek-corbasi.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "borek",
+    "metadataCode": "119009",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Börek",
+    "imagePath": "/assets/dishes/main/119009-borek.webp",
+    "thumbPath": "/assets/dishes/thumb/119009-borek.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "kofte",
+    "metadataCode": "119010",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Köfte",
+    "imagePath": "/assets/dishes/main/119010-kofte.webp",
+    "thumbPath": "/assets/dishes/thumb/119010-kofte.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "baklava-turkish",
+    "metadataCode": "119011",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Baklava",
+    "imagePath": "/assets/dishes/main/119011-baklava-turkish.webp",
+    "thumbPath": "/assets/dishes/thumb/119011-baklava-turkish.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "kunefe",
+    "metadataCode": "119012",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Künefe",
+    "imagePath": "/assets/dishes/main/119012-kunefe.webp",
+    "thumbPath": "/assets/dishes/thumb/119012-kunefe.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "hummus",
+    "metadataCode": "120001",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Hummus",
+    "imagePath": "/assets/dishes/main/120001-hummus.webp",
+    "thumbPath": "/assets/dishes/thumb/120001-hummus.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "falafel",
+    "metadataCode": "120002",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Falafel",
+    "imagePath": "/assets/dishes/main/120002-falafel.webp",
+    "thumbPath": "/assets/dishes/thumb/120002-falafel.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "shawarma",
+    "metadataCode": "120003",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Shawarma",
+    "imagePath": "/assets/dishes/main/120003-shawarma.webp",
+    "thumbPath": "/assets/dishes/thumb/120003-shawarma.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "tabbouleh",
+    "metadataCode": "120004",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Tabbouleh",
+    "imagePath": "/assets/dishes/main/120004-tabbouleh.webp",
+    "thumbPath": "/assets/dishes/thumb/120004-tabbouleh.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "fattoush",
+    "metadataCode": "120005",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Fattoush",
+    "imagePath": "/assets/dishes/main/120005-fattoush.webp",
+    "thumbPath": "/assets/dishes/thumb/120005-fattoush.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "baba-ganoush",
+    "metadataCode": "120006",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Baba Ganoush",
+    "imagePath": "/assets/dishes/main/120006-baba-ganoush.webp",
+    "thumbPath": "/assets/dishes/thumb/120006-baba-ganoush.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "kibbeh",
+    "metadataCode": "120007",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Kibbeh",
+    "imagePath": "/assets/dishes/main/120007-kibbeh.webp",
+    "thumbPath": "/assets/dishes/thumb/120007-kibbeh.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "kofta",
+    "metadataCode": "120008",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Kofta",
+    "imagePath": "/assets/dishes/main/120008-kofta.webp",
+    "thumbPath": "/assets/dishes/thumb/120008-kofta.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "mansaf",
+    "metadataCode": "120009",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Mansaf",
+    "imagePath": "/assets/dishes/main/120009-mansaf.webp",
+    "thumbPath": "/assets/dishes/thumb/120009-mansaf.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "mujadara",
+    "metadataCode": "120010",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Mujadara",
+    "imagePath": "/assets/dishes/main/120010-mujadara.webp",
+    "thumbPath": "/assets/dishes/thumb/120010-mujadara.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "baklava-middle-eastern",
+    "metadataCode": "120011",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Baklava",
+    "imagePath": "/assets/dishes/main/120011-baklava-middle-eastern.webp",
+    "thumbPath": "/assets/dishes/thumb/120011-baklava-middle-eastern.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "labneh",
+    "metadataCode": "120012",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Labneh",
+    "imagePath": "/assets/dishes/main/120012-labneh.webp",
+    "thumbPath": "/assets/dishes/thumb/120012-labneh.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "tacos",
+    "metadataCode": "121001",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Tacos",
+    "imagePath": "/assets/dishes/main/121001-tacos.webp",
+    "thumbPath": "/assets/dishes/thumb/121001-tacos.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "quesadilla",
+    "metadataCode": "121002",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Quesadilla",
+    "imagePath": "/assets/dishes/main/121002-quesadilla.webp",
+    "thumbPath": "/assets/dishes/thumb/121002-quesadilla.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "enchiladas",
+    "metadataCode": "121003",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Enchiladas",
+    "imagePath": "/assets/dishes/main/121003-enchiladas.webp",
+    "thumbPath": "/assets/dishes/thumb/121003-enchiladas.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "burrito",
+    "metadataCode": "121004",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Burrito",
+    "imagePath": "/assets/dishes/main/121004-burrito.webp",
+    "thumbPath": "/assets/dishes/thumb/121004-burrito.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "guacamole",
+    "metadataCode": "121005",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Guacamole",
+    "imagePath": "/assets/dishes/main/121005-guacamole.webp",
+    "thumbPath": "/assets/dishes/thumb/121005-guacamole.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "nachos",
+    "metadataCode": "121006",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Nachos",
+    "imagePath": "/assets/dishes/main/121006-nachos.webp",
+    "thumbPath": "/assets/dishes/thumb/121006-nachos.webp",
+    "auditStatus": "candidate"
+  }
+]

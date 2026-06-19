@@ -1,0 +1,302 @@
+[
+  {
+    "dishId": "moussaka",
+    "metadataCode": "104001",
+    "cuisineId": "greek",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Moussaka",
+    "imagePath": "/assets/dishes/main/104001-moussaka.webp",
+    "thumbPath": "/assets/dishes/thumb/104001-moussaka.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "souvlaki",
+    "metadataCode": "104002",
+    "cuisineId": "greek",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Souvlaki",
+    "imagePath": "/assets/dishes/main/104002-souvlaki.webp",
+    "thumbPath": "/assets/dishes/thumb/104002-souvlaki.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "gyros",
+    "metadataCode": "104003",
+    "cuisineId": "greek",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Gyros",
+    "imagePath": "/assets/dishes/main/104003-gyros.webp",
+    "thumbPath": "/assets/dishes/thumb/104003-gyros.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "greek-salad",
+    "metadataCode": "104004",
+    "cuisineId": "greek",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Greek Salad",
+    "imagePath": "/assets/dishes/main/104004-greek-salad.webp",
+    "thumbPath": "/assets/dishes/thumb/104004-greek-salad.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "spanakopita",
+    "metadataCode": "104005",
+    "cuisineId": "greek",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Spanakopita",
+    "imagePath": "/assets/dishes/main/104005-spanakopita.webp",
+    "thumbPath": "/assets/dishes/thumb/104005-spanakopita.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "tzatziki",
+    "metadataCode": "104006",
+    "cuisineId": "greek",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Tzatziki",
+    "imagePath": "/assets/dishes/main/104006-tzatziki.webp",
+    "thumbPath": "/assets/dishes/thumb/104006-tzatziki.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "dolmades",
+    "metadataCode": "104007",
+    "cuisineId": "greek",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Dolmades",
+    "imagePath": "/assets/dishes/main/104007-dolmades.webp",
+    "thumbPath": "/assets/dishes/thumb/104007-dolmades.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "pastitsio",
+    "metadataCode": "104008",
+    "cuisineId": "greek",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Pastitsio",
+    "imagePath": "/assets/dishes/main/104008-pastitsio.webp",
+    "thumbPath": "/assets/dishes/thumb/104008-pastitsio.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "kleftiko",
+    "metadataCode": "104009",
+    "cuisineId": "greek",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Kleftiko",
+    "imagePath": "/assets/dishes/main/104009-kleftiko.webp",
+    "thumbPath": "/assets/dishes/thumb/104009-kleftiko.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "saganaki",
+    "metadataCode": "104010",
+    "cuisineId": "greek",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Saganaki",
+    "imagePath": "/assets/dishes/main/104010-saganaki.webp",
+    "thumbPath": "/assets/dishes/thumb/104010-saganaki.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "baklava",
+    "metadataCode": "104011",
+    "cuisineId": "greek",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Baklava",
+    "imagePath": "/assets/dishes/main/104011-baklava.webp",
+    "thumbPath": "/assets/dishes/thumb/104011-baklava.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "loukoumades",
+    "metadataCode": "104012",
+    "cuisineId": "greek",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Loukoumades",
+    "imagePath": "/assets/dishes/main/104012-loukoumades.webp",
+    "thumbPath": "/assets/dishes/thumb/104012-loukoumades.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "butter-chicken",
+    "metadataCode": "115001",
+    "cuisineId": "indian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Butter Chicken",
+    "imagePath": "/assets/dishes/main/115001-butter-chicken.webp",
+    "thumbPath": "/assets/dishes/thumb/115001-butter-chicken.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "chicken-tikka-masala",
+    "metadataCode": "115002",
+    "cuisineId": "indian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Chicken Tikka Masala",
+    "imagePath": "/assets/dishes/main/115002-chicken-tikka-masala.webp",
+    "thumbPath": "/assets/dishes/thumb/115002-chicken-tikka-masala.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "biryani",
+    "metadataCode": "115003",
+    "cuisineId": "indian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Biryani",
+    "imagePath": "/assets/dishes/main/115003-biryani.webp",
+    "thumbPath": "/assets/dishes/thumb/115003-biryani.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "palak-paneer",
+    "metadataCode": "115004",
+    "cuisineId": "indian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Palak Paneer",
+    "imagePath": "/assets/dishes/main/115004-palak-paneer.webp",
+    "thumbPath": "/assets/dishes/thumb/115004-palak-paneer.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "dal-makhani",
+    "metadataCode": "115005",
+    "cuisineId": "indian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Dal Makhani",
+    "imagePath": "/assets/dishes/main/115005-dal-makhani.webp",
+    "thumbPath": "/assets/dishes/thumb/115005-dal-makhani.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "chana-masala",
+    "metadataCode": "115006",
+    "cuisineId": "indian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Chana Masala",
+    "imagePath": "/assets/dishes/main/115006-chana-masala.webp",
+    "thumbPath": "/assets/dishes/thumb/115006-chana-masala.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "samosa",
+    "metadataCode": "115007",
+    "cuisineId": "indian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Samosa",
+    "imagePath": "/assets/dishes/main/115007-samosa.webp",
+    "thumbPath": "/assets/dishes/thumb/115007-samosa.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "naan",
+    "metadataCode": "115008",
+    "cuisineId": "indian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Naan",
+    "imagePath": "/assets/dishes/main/115008-naan.webp",
+    "thumbPath": "/assets/dishes/thumb/115008-naan.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "tandoori-chicken",
+    "metadataCode": "115009",
+    "cuisineId": "indian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Tandoori Chicken",
+    "imagePath": "/assets/dishes/main/115009-tandoori-chicken.webp",
+    "thumbPath": "/assets/dishes/thumb/115009-tandoori-chicken.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "vindaloo",
+    "metadataCode": "115010",
+    "cuisineId": "indian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Vindaloo",
+    "imagePath": "/assets/dishes/main/115010-vindaloo.webp",
+    "thumbPath": "/assets/dishes/thumb/115010-vindaloo.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "rogan-josh",
+    "metadataCode": "115011",
+    "cuisineId": "indian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Rogan Josh",
+    "imagePath": "/assets/dishes/main/115011-rogan-josh.webp",
+    "thumbPath": "/assets/dishes/thumb/115011-rogan-josh.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "gulab-jamun",
+    "metadataCode": "115012",
+    "cuisineId": "indian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Gulab Jamun",
+    "imagePath": "/assets/dishes/main/115012-gulab-jamun.webp",
+    "thumbPath": "/assets/dishes/thumb/115012-gulab-jamun.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "pho-bo",
+    "metadataCode": "116001",
+    "cuisineId": "vietnamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Phở Bò",
+    "imagePath": "/assets/dishes/main/116001-pho-bo.webp",
+    "thumbPath": "/assets/dishes/thumb/116001-pho-bo.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "pho-ga",
+    "metadataCode": "116002",
+    "cuisineId": "vietnamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Phở Gà",
+    "imagePath": "/assets/dishes/main/116002-pho-ga.webp",
+    "thumbPath": "/assets/dishes/thumb/116002-pho-ga.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "banh-mi",
+    "metadataCode": "116003",
+    "cuisineId": "vietnamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Bánh Mì",
+    "imagePath": "/assets/dishes/main/116003-banh-mi.webp",
+    "thumbPath": "/assets/dishes/thumb/116003-banh-mi.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "goi-cuon",
+    "metadataCode": "116004",
+    "cuisineId": "vietnamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Gỏi Cuốn",
+    "imagePath": "/assets/dishes/main/116004-goi-cuon.webp",
+    "thumbPath": "/assets/dishes/thumb/116004-goi-cuon.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "cha-gio",
+    "metadataCode": "116005",
+    "cuisineId": "vietnamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Chả Giò",
+    "imagePath": "/assets/dishes/main/116005-cha-gio.webp",
+    "thumbPath": "/assets/dishes/thumb/116005-cha-gio.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "bun-cha",
+    "metadataCode": "116006",
+    "cuisineId": "vietnamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Bún Chả",
+    "imagePath": "/assets/dishes/main/116006-bun-cha.webp",
+    "thumbPath": "/assets/dishes/thumb/116006-bun-cha.webp",
+    "auditStatus": "candidate"
+  }
+]

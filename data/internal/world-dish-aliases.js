@@ -1582,11 +1582,11 @@ export const worldDishAliases = [
     "confidence": 0.96
   },
   {
-    "alias": "baklava",
+    "alias": "turkish baklava",
     "dishId": "baklava-turkish",
     "language": "menu",
-    "matchType": "canonical",
-    "confidence": 1
+    "matchType": "qualified-name",
+    "confidence": 0.97
   },
   {
     "alias": "土耳其果仁蜜酥",
@@ -1771,11 +1771,11 @@ export const worldDishAliases = [
     "confidence": 0.96
   },
   {
-    "alias": "baklava",
+    "alias": "middle eastern baklava",
     "dishId": "baklava-middle-eastern",
     "language": "menu",
-    "matchType": "canonical",
-    "confidence": 1
+    "matchType": "qualified-name",
+    "confidence": 0.97
   },
   {
     "alias": "中东果仁蜜酥",
@@ -1946,11 +1946,11 @@ export const worldDishAliases = [
     "confidence": 0.96
   },
   {
-    "alias": "ceviche",
+    "alias": "mexican ceviche",
     "dishId": "ceviche-mexican",
     "language": "menu",
-    "matchType": "canonical",
-    "confidence": 1
+    "matchType": "qualified-name",
+    "confidence": 0.97
   },
   {
     "alias": "墨西哥酸橘汁腌鱼",

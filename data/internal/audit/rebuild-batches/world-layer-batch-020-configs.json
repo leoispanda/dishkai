@@ -1,0 +1,3450 @@
+[
+  {
+    "id": "doner-kebab",
+    "metadataCode": "119001",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Döner Kebab",
+      "zh": "土耳其旋转烤肉",
+      "nl": "Döner kebab",
+      "local": "döner kebab"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Thinly shaved rotisserie meat in bread or on a plate with salad and sauces; filling and street-food friendly.",
+      "zh": "土耳其旋转烤肉：旋转烤肉薄片配面包、沙拉和酱汁，饱腹感强，是常见街头餐。",
+      "nl": "Döner kebab: dun geschaafd spitvlees in brood of op bord met salade en sauzen; vullend streetfood."
+    },
+    "cookingProfile": {
+      "en": "grilled over high heat and assembled to order; expect shaved meat, soft bread and crisp salad.",
+      "zh": "通常高温烤制并现拌或组合后上桌，点餐时可预期：旋转烤肉薄片配面包、沙拉和酱汁，饱腹感强，是常见街头餐。",
+      "nl": "Meestal op hoge hitte gegrild en samengesteld; verwacht vooral: dun geschaafd spitvlees in brood of op bord met salade en sauzen; vullend streetfood."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "street-food",
+        "filling"
+      ],
+      "description": {
+        "en": "A street-food style menu reference; the verified card explains the usual handheld or casual format and common risks.",
+        "zh": "街头小吃风格的菜单项；已审核卡片说明常见食用形式和风险。",
+        "nl": "Een streetfoodachtig menu-item; de geverifieerde kaart legt vorm en risico's uit."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        30,
+        "rotisserie meat"
+      ],
+      [
+        "beef",
+        20,
+        "rotisserie meat blend"
+      ],
+      [
+        "pita",
+        20,
+        "bread or wrap"
+      ],
+      [
+        "mixed-vegetables",
+        12,
+        "salad filling"
+      ],
+      [
+        "garlic-sauce",
+        10,
+        "sauce"
+      ],
+      [
+        "chili",
+        5,
+        "optional sauce",
+        "seasoning"
+      ],
+      [
+        "cumin",
+        3,
+        "warm aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "rotisserie meat",
+      "garlic sauce",
+      "warm spices"
+    ],
+    "basicTaste": [
+      "savory",
+      "garlicky",
+      "spiced"
+    ],
+    "textureProfile": [
+      "shaved meat",
+      "soft bread",
+      "crisp salad"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "filling"
+    ],
+    "avoidIfTags": [
+      "wants-light-food",
+      "avoids-gluten"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a filling meat wrap or plate with sauces; avoid if garlic sauce, bread, or heavy meat is not wanted.",
+      "zh": "想要旋转烤肉薄片配面包、沙拉和酱汁，饱腹感强，是常见街头餐时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je dun geschaafd spitvlees in brood of op bord met salade en sauzen; vullend streetfood wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "adana-kebab",
+    "metadataCode": "119002",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Adana Kebab",
+      "zh": "阿达纳辣肉串",
+      "nl": "Adana kebab",
+      "local": "Adana kebabı"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "shortDescription": {
+      "en": "Spicy minced lamb kebab grilled on a flat skewer, usually served with bread, onion, and grilled vegetables.",
+      "zh": "阿达纳辣肉串：辣味羊肉末扁签烤串，常配面包、洋葱和烤蔬菜，肉香和辣椒香明显。",
+      "nl": "Adana kebab: pittige gehakte lamskebab aan platte spies, met brood, ui en gegrilde groente."
+    },
+    "cookingProfile": {
+      "en": "grilled over high heat; expect juicy minced skewer and charred edges.",
+      "zh": "通常高温烤制后上桌，点餐时可预期：辣味羊肉末扁签烤串，常配面包、洋葱和烤蔬菜，肉香和辣椒香明显。",
+      "nl": "Meestal op hoge hitte gegrild; verwacht vooral: pittige gehakte lamskebab aan platte spies, met brood, ui en gegrilde groente."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional",
+        "spicy",
+        "meat-lover"
+      ],
+      "description": {
+        "en": "A regional menu reference; the verified card captures the expected preparation style and common ordering risks.",
+        "zh": "带地区特点的菜单项；已审核卡片说明常见做法和点餐风险。",
+        "nl": "Een regionaal menu-item; de geverifieerde kaart beschrijft bereidingsstijl en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        60,
+        "minced lamb skewer"
+      ],
+      [
+        "pita",
+        15,
+        "serving bread"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "grilled vegetables"
+      ],
+      [
+        "chili",
+        7,
+        "signature heat",
+        "seasoning"
+      ],
+      [
+        "cumin",
+        4,
+        "earthy spice",
+        "seasoning"
+      ],
+      [
+        "paprika",
+        4,
+        "red warmth",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "charred minced lamb",
+      "red pepper",
+      "cumin"
+    ],
+    "basicTaste": [
+      "savory",
+      "spicy",
+      "smoky"
+    ],
+    "textureProfile": [
+      "juicy minced skewer",
+      "charred edges"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "spicy",
+      "meat-lover"
+    ],
+    "avoidIfTags": [
+      "avoids-lamb",
+      "avoids-heat"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a spicy char-grilled lamb skewer; avoid if lamb flavor or chili heat is too strong.",
+      "zh": "想要辣味羊肉末扁签烤串，常配面包、洋葱和烤蔬菜，肉香和辣椒香明显时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je pittige gehakte lamskebab aan platte spies, met brood, ui en gegrilde groente wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 3,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "lahmacun",
+    "metadataCode": "119003",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Lahmacun",
+      "zh": "土耳其薄肉饼",
+      "nl": "Lahmacun",
+      "local": "lahmacun"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "baked",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Thin Turkish flatbread spread with spiced minced meat and vegetables, often rolled with lemon and parsley.",
+      "zh": "土耳其薄肉饼：土耳其薄饼抹香料肉末和蔬菜，常加柠檬香草卷起吃，不是奶酪披萨。",
+      "nl": "Lahmacun: dun Turks platbrood met gekruid gehakt en groente, vaak opgerold met citroen en peterselie."
+    },
+    "cookingProfile": {
+      "en": "baked and assembled to order; expect thin crisp-chewy base, fine meat topping and fresh garnish.",
+      "zh": "通常烘烤并现拌或组合后上桌，点餐时可预期：土耳其薄饼抹香料肉末和蔬菜，常加柠檬香草卷起吃，不是奶酪披萨。",
+      "nl": "Meestal gebakken in de oven en samengesteld; verwacht vooral: dun Turks platbrood met gekruid gehakt en groente, vaak opgerold met citroen en peterselie."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "street-food",
+        "shareable"
+      ],
+      "description": {
+        "en": "A street-food style menu reference; the verified card explains the usual handheld or casual format and common risks.",
+        "zh": "街头小吃风格的菜单项；已审核卡片说明常见食用形式和风险。",
+        "nl": "Een streetfoodachtig menu-item; de geverifieerde kaart legt vorm en risico's uit."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        45,
+        "thin flatbread"
+      ],
+      [
+        "ground-meat",
+        25,
+        "spiced meat topping"
+      ],
+      [
+        "tomato",
+        10,
+        "topping base"
+      ],
+      [
+        "mixed-vegetables",
+        8,
+        "fresh garnish"
+      ],
+      [
+        "paprika",
+        5,
+        "red pepper warmth",
+        "seasoning"
+      ],
+      [
+        "cumin",
+        4,
+        "earthy spice",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        3,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "thin crisp bread",
+      "spiced meat",
+      "lemon parsley garnish"
+    ],
+    "basicTaste": [
+      "savory",
+      "lightly spicy",
+      "fresh"
+    ],
+    "textureProfile": [
+      "thin crisp-chewy base",
+      "fine meat topping",
+      "fresh garnish"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "shareable"
+    ],
+    "avoidIfTags": [
+      "avoids-gluten",
+      "wants-cheesy-pizza"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a thin meat-topped flatbread; avoid if you expect a cheesy pizza or need gluten-free food.",
+      "zh": "想要土耳其薄饼抹香料肉末和蔬菜，常加柠檬香草卷起吃，不是奶酪披萨时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je dun Turks platbrood met gekruid gehakt en groente, vaak opgerold met citroen en peterselie wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "pide",
+    "metadataCode": "119004",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Pide",
+      "zh": "土耳其船形披萨",
+      "nl": "Pide",
+      "local": "pide"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Boat-shaped Turkish baked flatbread filled with cheese, minced meat, vegetables, or egg.",
+      "zh": "土耳其船形披萨：船形土耳其烤饼，常填奶酪、肉末、蔬菜或鸡蛋，面包边有嚼劲。",
+      "nl": "Pide: bootvormig Turks platbrood uit de oven met kaas, gehakt, groente of ei."
+    },
+    "cookingProfile": {
+      "en": "baked; expect chewy bread edges, soft filling and browned top.",
+      "zh": "通常烘烤后上桌，点餐时可预期：船形土耳其烤饼，常填奶酪、肉末、蔬菜或鸡蛋，面包边有嚼劲。",
+      "nl": "Meestal gebakken in de oven; verwacht vooral: bootvormig Turks platbrood uit de oven met kaas, gehakt, groente of ei."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "shareable",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        45,
+        "boat-shaped dough"
+      ],
+      [
+        "cheese",
+        20,
+        "filling"
+      ],
+      [
+        "ground-meat",
+        20,
+        "meat topping"
+      ],
+      [
+        "egg",
+        5,
+        "optional topping"
+      ],
+      [
+        "paprika",
+        5,
+        "warm spice",
+        "seasoning"
+      ],
+      [
+        "cumin",
+        3,
+        "earthy note",
+        "seasoning"
+      ],
+      [
+        "sea-salt",
+        2,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "baked bread",
+      "cheese or minced meat",
+      "warm spices"
+    ],
+    "basicTaste": [
+      "savory",
+      "bready",
+      "rich"
+    ],
+    "textureProfile": [
+      "chewy bread edges",
+      "soft filling",
+      "browned top"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "shareable",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "avoids-gluten",
+      "avoids-dairy"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a shareable baked bread with savory filling; avoid if gluten or dairy filling is a problem.",
+      "zh": "想要船形土耳其烤饼，常填奶酪、肉末、蔬菜或鸡蛋，面包边有嚼劲时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je bootvormig Turks platbrood uit de oven met kaas, gehakt, groente of ei wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "menemen",
+    "metadataCode": "119005",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Menemen",
+      "zh": "土耳其番茄炒蛋",
+      "nl": "Menemen",
+      "local": "menemen"
+    },
+    "category": "egg",
+    "cookingMethods": [
+      "stirred",
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Soft Turkish eggs cooked with tomato, peppers, and olive oil; saucy and scoopable, not a firm omelette.",
+      "zh": "土耳其番茄炒蛋：土耳其番茄青椒炒软蛋，带酱汁感，适合蘸面包，不是成型煎蛋。",
+      "nl": "Menemen: zachte Turkse eieren met tomaat, paprika en olijfolie; sauzig en lepelbaar, geen stevige omelet."
+    },
+    "cookingProfile": {
+      "en": "soft-stirred and simmered; expect soft eggs, juicy tomato and scoopable sauce.",
+      "zh": "通常搅拌成柔软状态并慢煮后上桌，点餐时可预期：土耳其番茄青椒炒软蛋，带酱汁感，适合蘸面包，不是成型煎蛋。",
+      "nl": "Meestal zacht geroerd en zacht gestoofd; verwacht vooral: zachte Turkse eieren met tomaat, paprika en olijfolie; sauzig en lepelbaar, geen stevige omelet."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "breakfast",
+        "vegetarian-friendly"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "egg",
+        40,
+        "soft scrambled base"
+      ],
+      [
+        "tomato",
+        25,
+        "sauce base"
+      ],
+      [
+        "bell-pepper",
+        15,
+        "pepper body"
+      ],
+      [
+        "olive-oil",
+        8,
+        "richness",
+        "seasoning"
+      ],
+      [
+        "paprika",
+        5,
+        "warmth",
+        "seasoning"
+      ],
+      [
+        "chili",
+        4,
+        "optional heat",
+        "seasoning"
+      ],
+      [
+        "black-pepper",
+        3,
+        "pepper bite",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "tomato pepper sauce",
+      "soft eggs",
+      "olive oil"
+    ],
+    "basicTaste": [
+      "savory",
+      "tomato-rich",
+      "mildly spicy"
+    ],
+    "textureProfile": [
+      "soft eggs",
+      "juicy tomato",
+      "scoopable sauce"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "breakfast",
+      "vegetarian-friendly"
+    ],
+    "avoidIfTags": [
+      "avoids-egg",
+      "wants-firm-omelette"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want soft saucy eggs with tomato and peppers; avoid if runny-soft eggs are not appealing.",
+      "zh": "想要土耳其番茄青椒炒软蛋，带酱汁感，适合蘸面包，不是成型煎蛋时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je zachte Turkse eieren met tomaat, paprika en olijfolie; sauzig en lepelbaar, geen stevige omelet wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "manti",
+    "metadataCode": "119006",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Manti",
+      "zh": "土耳其小饺子",
+      "nl": "Manti",
+      "local": "mantı"
+    },
+    "category": "dumpling",
+    "cookingMethods": [
+      "boiled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Small Turkish meat dumplings topped with garlic yogurt and spiced butter; tangy, rich, and filling.",
+      "zh": "土耳其小饺子：土耳其小肉饺配蒜味酸奶和香料黄油，酸香浓郁，很有饱腹感。",
+      "nl": "Manti: kleine Turkse vleesdumplings met knoflookyoghurt en gekruide boter; friszuur, rijk en vullend."
+    },
+    "cookingProfile": {
+      "en": "boiled or poached and assembled to order; expect small soft dumplings, creamy sauce and meaty filling.",
+      "zh": "通常水煮或汆熟并现拌或组合后上桌，点餐时可预期：土耳其小肉饺配蒜味酸奶和香料黄油，酸香浓郁，很有饱腹感。",
+      "nl": "Meestal gekookt of gepocheerd en samengesteld; verwacht vooral: kleine Turkse vleesdumplings met knoflookyoghurt en gekruide boter; friszuur, rijk en vullend."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "comfort-food",
+        "dumpling"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "dumpling-wrapper",
+        35,
+        "small wrappers"
+      ],
+      [
+        "ground-meat",
+        30,
+        "meat filling"
+      ],
+      [
+        "yogurt",
+        20,
+        "garlic yogurt sauce"
+      ],
+      [
+        "paprika",
+        5,
+        "butter-chili topping",
+        "seasoning"
+      ],
+      [
+        "butter",
+        5,
+        "sauce richness"
+      ],
+      [
+        "mint",
+        3,
+        "dried herb",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        2,
+        "sauce aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "garlic yogurt",
+      "butter paprika",
+      "meat dumplings"
+    ],
+    "basicTaste": [
+      "savory",
+      "tangy",
+      "rich"
+    ],
+    "textureProfile": [
+      "small soft dumplings",
+      "creamy sauce",
+      "meaty filling"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "dumpling"
+    ],
+    "avoidIfTags": [
+      "avoids-dairy",
+      "avoids-gluten"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want tiny meat dumplings with garlic yogurt; avoid if dairy sauce or wheat wrappers are an issue.",
+      "zh": "想要土耳其小肉饺配蒜味酸奶和香料黄油，酸香浓郁，很有饱腹感时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je kleine Turkse vleesdumplings met knoflookyoghurt en gekruide boter; friszuur, rijk en vullend wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "imam-bayildi",
+    "metadataCode": "119007",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Imam Bayildi",
+      "zh": "橄榄油炖茄子",
+      "nl": "Imam bayıldı",
+      "local": "imam bayıldı"
+    },
+    "category": "vegetarian-main",
+    "cookingMethods": [
+      "braised",
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Olive-oil-braised eggplant stuffed with onion and tomato; silky, vegetable-forward, and often served cool or warm.",
+      "zh": "橄榄油炖茄子：橄榄油焖茄子填洋葱番茄，质地丝滑，蔬菜感强，可温食或凉食。",
+      "nl": "Imam bayıldı: aubergine gestoofd in olijfolie, gevuld met ui en tomaat; zijdezacht en groenterijk."
+    },
+    "cookingProfile": {
+      "en": "slow-braised and baked; expect silky eggplant and soft vegetable filling.",
+      "zh": "通常慢炖并烘烤后上桌，点餐时可预期：橄榄油焖茄子填洋葱番茄，质地丝滑，蔬菜感强，可温食或凉食。",
+      "nl": "Meestal langzaam gestoofd en gebakken in de oven; verwacht vooral: aubergine gestoofd in olijfolie, gevuld met ui en tomaat; zijdezacht en groenterijk."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "vegetarian-friendly",
+        "vegan-friendly"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "eggplant-global",
+        45,
+        "soft eggplant"
+      ],
+      [
+        "tomato",
+        20,
+        "filling"
+      ],
+      [
+        "onion",
+        15,
+        "sweet filling"
+      ],
+      [
+        "olive-oil",
+        12,
+        "signature richness",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        4,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "parsley",
+        2,
+        "freshness",
+        "seasoning"
+      ],
+      [
+        "sea-salt",
+        2,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "olive oil",
+      "sweet onion tomato",
+      "soft eggplant"
+    ],
+    "basicTaste": [
+      "savory",
+      "sweet",
+      "olive-oil-rich"
+    ],
+    "textureProfile": [
+      "silky eggplant",
+      "soft vegetable filling"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegan"
+    ],
+    "goodForTags": [
+      "vegetarian-friendly",
+      "vegan-friendly"
+    ],
+    "avoidIfTags": [
+      "dislikes-soft-eggplant",
+      "wants-high-protein-main"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want silky olive-oil eggplant rather than a meat main; avoid if soft eggplant texture is not appealing.",
+      "zh": "想要橄榄油焖茄子填洋葱番茄，质地丝滑，蔬菜感强，可温食或凉食时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je aubergine gestoofd in olijfolie, gevuld met ui en tomaat; zijdezacht en groenterijk wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "mercimek-corbasi",
+    "metadataCode": "119008",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Mercimek Çorbası",
+      "zh": "土耳其红扁豆汤",
+      "nl": "Linzensoep",
+      "local": "mercimek çorbası"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Turkish red lentil soup, usually smooth and finished with lemon and cumin; mild, warm, and comforting.",
+      "zh": "土耳其红扁豆汤：土耳其红扁豆汤，多为顺滑浓汤，配柠檬和孜然，温和暖胃。",
+      "nl": "Linzensoep: Turkse rode-linzensoep, meestal glad, met citroen en komijn; mild, warm en troostend."
+    },
+    "cookingProfile": {
+      "en": "simmered; expect smooth thick soup and soft lentil body.",
+      "zh": "通常慢煮后上桌，点餐时可预期：土耳其红扁豆汤，多为顺滑浓汤，配柠檬和孜然，温和暖胃。",
+      "nl": "Meestal zacht gestoofd; verwacht vooral: Turkse rode-linzensoep, meestal glad, met citroen en komijn; mild, warm en troostend."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "soup",
+        "vegetarian-friendly"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "lentils",
+        50,
+        "red lentil base"
+      ],
+      [
+        "carrot",
+        15,
+        "sweet body"
+      ],
+      [
+        "potato",
+        12,
+        "thickness"
+      ],
+      [
+        "cumin",
+        7,
+        "earthy aroma",
+        "seasoning"
+      ],
+      [
+        "paprika",
+        5,
+        "warm topping",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        6,
+        "finish",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "brightness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "red lentils",
+      "cumin",
+      "lemon"
+    ],
+    "basicTaste": [
+      "savory",
+      "earthy",
+      "mild"
+    ],
+    "textureProfile": [
+      "smooth thick soup",
+      "soft lentil body"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegan"
+    ],
+    "goodForTags": [
+      "soup",
+      "vegetarian-friendly"
+    ],
+    "avoidIfTags": [
+      "wants-chunky-soup"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a mild smooth lentil soup; avoid if you want a chunky or meaty soup.",
+      "zh": "想要土耳其红扁豆汤，多为顺滑浓汤，配柠檬和孜然，温和暖胃时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je Turkse rode-linzensoep, meestal glad, met citroen en komijn; mild, warm en troostend wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "borek",
+    "metadataCode": "119009",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Börek",
+      "zh": "土耳其酥皮馅饼",
+      "nl": "Börek",
+      "local": "börek"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "baked",
+      "layered"
+    ],
+    "shortDescription": {
+      "en": "Layered or rolled pastry filled with cheese, spinach, or meat; flaky, salty, and often eaten as a snack.",
+      "zh": "土耳其酥皮馅饼：层叠或卷起的酥皮点心，常填奶酪、菠菜或肉，咸香酥脆。",
+      "nl": "Börek: gelaagd of gerold deeg met kaas, spinazie of vlees; vlokkig, zoutig en vaak snackachtig."
+    },
+    "cookingProfile": {
+      "en": "baked and built in layers; expect flaky layers and soft filling.",
+      "zh": "通常烘烤并层叠制作后上桌，点餐时可预期：层叠或卷起的酥皮点心，常填奶酪、菠菜或肉，咸香酥脆。",
+      "nl": "Meestal gebakken in de oven en in lagen opgebouwd; verwacht vooral: gelaagd of gerold deeg met kaas, spinazie of vlees; vlokkig, zoutig en vaak snackachtig."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "starter",
+        "shareable"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "phyllo-pastry",
+        45,
+        "flaky pastry"
+      ],
+      [
+        "feta",
+        20,
+        "cheese filling"
+      ],
+      [
+        "spinach",
+        15,
+        "common filling"
+      ],
+      [
+        "egg",
+        8,
+        "binder and glaze"
+      ],
+      [
+        "butter",
+        7,
+        "rich layers"
+      ],
+      [
+        "dill",
+        5,
+        "herbal note",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "flaky pastry",
+      "salty cheese",
+      "herbs"
+    ],
+    "basicTaste": [
+      "savory",
+      "salty",
+      "buttery"
+    ],
+    "textureProfile": [
+      "flaky layers",
+      "soft filling"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "starter",
+      "shareable"
+    ],
+    "avoidIfTags": [
+      "avoids-gluten",
+      "avoids-dairy"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a flaky savory pastry; avoid if gluten, dairy, or egg is off-limits.",
+      "zh": "想要层叠或卷起的酥皮点心，常填奶酪、菠菜或肉，咸香酥脆时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je gelaagd of gerold deeg met kaas, spinazie of vlees; vlokkig, zoutig en vaak snackachtig wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "kofte",
+    "metadataCode": "119010",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Köfte",
+      "zh": "土耳其肉丸",
+      "nl": "Köfte",
+      "local": "köfte"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled",
+      "fried"
+    ],
+    "shortDescription": {
+      "en": "Turkish spiced meatballs or patties, grilled or fried and served with bread, salad, or rice.",
+      "zh": "土耳其肉丸：土耳其香料肉丸或肉饼，可烤可煎，常配面包、沙拉或米饭。",
+      "nl": "Köfte: Turkse gekruide gehaktballen of burgers, gegrild of gebakken met brood, salade of rijst."
+    },
+    "cookingProfile": {
+      "en": "grilled over high heat and fried; expect juicy patties and browned edges.",
+      "zh": "通常高温烤制并煎炸后上桌，点餐时可预期：土耳其香料肉丸或肉饼，可烤可煎，常配面包、沙拉或米饭。",
+      "nl": "Meestal op hoge hitte gegrild en gebakken in vet; verwacht vooral: Turkse gekruide gehaktballen of burgers, gegrild of gebakken met brood, salade of rijst."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "meat-lover",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "ground-meat",
+        55,
+        "meatballs or patties"
+      ],
+      [
+        "pita",
+        15,
+        "bread side"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "salad side"
+      ],
+      [
+        "cumin",
+        7,
+        "earthy spice",
+        "seasoning"
+      ],
+      [
+        "paprika",
+        5,
+        "warm spice",
+        "seasoning"
+      ],
+      [
+        "parsley",
+        5,
+        "fresh herb",
+        "seasoning"
+      ],
+      [
+        "black-pepper",
+        3,
+        "pepper bite",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "spiced minced meat",
+      "cumin",
+      "parsley"
+    ],
+    "basicTaste": [
+      "savory",
+      "herbal",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "juicy patties",
+      "browned edges"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "meat-lover",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "avoids-red-meat"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want spiced grilled meat patties; avoid if you do not want minced red meat.",
+      "zh": "想要土耳其香料肉丸或肉饼，可烤可煎，常配面包、沙拉或米饭时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je Turkse gekruide gehaktballen of burgers, gegrild of gebakken met brood, salade of rijst wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "baklava-turkish",
+    "metadataCode": "119011",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Baklava",
+      "zh": "土耳其果仁蜜酥",
+      "nl": "Baklava",
+      "local": "baklava"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked",
+      "layered"
+    ],
+    "shortDescription": {
+      "en": "Turkish-style layered phyllo pastry with nuts and syrup; intensely sweet, crisp, and sticky.",
+      "zh": "土耳其果仁蜜酥：土耳其风格果仁糖浆酥皮，甜度很高，层次酥脆且带黏润感。",
+      "nl": "Baklava: Turkse filodeeglaagjes met noten en siroop; intens zoet, krokant en kleverig."
+    },
+    "cookingProfile": {
+      "en": "baked and built in layers; expect flaky pastry, sticky syrup and crunchy nuts.",
+      "zh": "通常烘烤并层叠制作后上桌，点餐时可预期：土耳其风格果仁糖浆酥皮，甜度很高，层次酥脆且带黏润感。",
+      "nl": "Meestal gebakken in de oven en in lagen opgebouwd; verwacht vooral: Turkse filodeeglaagjes met noten en siroop; intens zoet, krokant en kleverig."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "dessert",
+        "sweet-tooth"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "phyllo-pastry",
+        35,
+        "flaky layers"
+      ],
+      [
+        "walnuts",
+        22,
+        "nut filling"
+      ],
+      [
+        "honey",
+        18,
+        "syrup"
+      ],
+      [
+        "sugar",
+        12,
+        "sweet syrup"
+      ],
+      [
+        "butter",
+        8,
+        "pastry richness"
+      ],
+      [
+        "cinnamon",
+        5,
+        "warm aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "syrup",
+      "nuts",
+      "buttered pastry"
+    ],
+    "basicTaste": [
+      "very sweet",
+      "nutty",
+      "buttery"
+    ],
+    "textureProfile": [
+      "flaky pastry",
+      "sticky syrup",
+      "crunchy nuts"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "sweet-tooth"
+    ],
+    "avoidIfTags": [
+      "avoids-nuts",
+      "dislikes-very-sweet-desserts"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a small intensely sweet nut pastry; avoid if nuts or syrupy desserts are a problem.",
+      "zh": "想要土耳其风格果仁糖浆酥皮，甜度很高，层次酥脆且带黏润感时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je Turkse filodeeglaagjes met noten en siroop; intens zoet, krokant en kleverig wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "kunefe",
+    "metadataCode": "119012",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Künefe",
+      "zh": "土耳其奶酪甜点",
+      "nl": "Künefe",
+      "local": "künefe"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Hot shredded pastry dessert filled with stretchy cheese and soaked in syrup; sweet, buttery, and dramatic.",
+      "zh": "土耳其奶酪甜点：热食细丝酥皮甜点，中间是可拉丝奶酪并浇糖浆，甜咸奶香明显。",
+      "nl": "Künefe: warm dessert van draadjesdeeg met rekbare kaas en siroop; zoet, boterig en opvallend."
+    },
+    "cookingProfile": {
+      "en": "baked; expect crisp shredded pastry, stretchy cheese and sticky syrup.",
+      "zh": "通常烘烤后上桌，点餐时可预期：热食细丝酥皮甜点，中间是可拉丝奶酪并浇糖浆，甜咸奶香明显。",
+      "nl": "Meestal gebakken in de oven; verwacht vooral: warm dessert van draadjesdeeg met rekbare kaas en siroop; zoet, boterig en opvallend."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "dessert",
+        "cheese-lover"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        35,
+        "shredded pastry"
+      ],
+      [
+        "cheese",
+        25,
+        "melty filling"
+      ],
+      [
+        "sugar",
+        20,
+        "syrup"
+      ],
+      [
+        "butter",
+        10,
+        "browned richness"
+      ],
+      [
+        "honey",
+        5,
+        "syrup depth"
+      ],
+      [
+        "walnuts",
+        5,
+        "optional nut topping"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "toasted pastry",
+      "melted cheese",
+      "sugar syrup"
+    ],
+    "basicTaste": [
+      "sweet",
+      "buttery",
+      "mildly salty"
+    ],
+    "textureProfile": [
+      "crisp shredded pastry",
+      "stretchy cheese",
+      "sticky syrup"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "cheese-lover"
+    ],
+    "avoidIfTags": [
+      "avoids-dairy",
+      "dislikes-sweet-cheese"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a hot sweet cheese pastry; avoid if sweet melted cheese or dairy is not appealing.",
+      "zh": "想要热食细丝酥皮甜点，中间是可拉丝奶酪并浇糖浆，甜咸奶香明显时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je warm dessert van draadjesdeeg met rekbare kaas en siroop; zoet, boterig en opvallend wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "hummus",
+    "metadataCode": "120001",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Hummus",
+      "zh": "鹰嘴豆泥",
+      "nl": "Hummus",
+      "local": "hummus"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Chickpea and tahini dip with lemon, garlic, and olive oil; creamy, nutty, and usually served with bread.",
+      "zh": "鹰嘴豆泥：鹰嘴豆芝麻酱蘸酱，带柠檬、蒜和橄榄油，绵密坚果香明显。",
+      "nl": "Hummus: kikkererwten-tahinidip met citroen, knoflook en olijfolie; romig, nootachtig en vaak met brood."
+    },
+    "cookingProfile": {
+      "en": "assembled to order; expect smooth thick dip and creamy spread.",
+      "zh": "通常现拌或组合后上桌，点餐时可预期：鹰嘴豆芝麻酱蘸酱，带柠檬、蒜和橄榄油，绵密坚果香明显。",
+      "nl": "Meestal samengesteld; verwacht vooral: kikkererwten-tahinidip met citroen, knoflook en olijfolie; romig, nootachtig en vaak met brood."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "dip",
+        "vegan-friendly"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "chickpeas",
+        55,
+        "puree base"
+      ],
+      [
+        "tahini",
+        18,
+        "sesame richness",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        10,
+        "finish",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        7,
+        "brightness"
+      ],
+      [
+        "garlic",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "cumin",
+        3,
+        "earthy spice",
+        "seasoning"
+      ],
+      [
+        "sea-salt",
+        2,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "tahini",
+      "lemon",
+      "olive oil"
+    ],
+    "basicTaste": [
+      "nutty",
+      "tangy",
+      "savory"
+    ],
+    "textureProfile": [
+      "smooth thick dip",
+      "creamy spread"
+    ],
+    "riskFlags": [
+      "contains-sesame"
+    ],
+    "dietaryFlags": [
+      "vegan"
+    ],
+    "goodForTags": [
+      "dip",
+      "vegan-friendly"
+    ],
+    "avoidIfTags": [
+      "sesame-allergy",
+      "dislikes-garlic"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a creamy sesame-chickpea dip; avoid if sesame or garlic is a problem.",
+      "zh": "想要鹰嘴豆芝麻酱蘸酱，带柠檬、蒜和橄榄油，绵密坚果香明显时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je kikkererwten-tahinidip met citroen, knoflook en olijfolie; romig, nootachtig en vaak met brood wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "falafel",
+    "metadataCode": "120002",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Falafel",
+      "zh": "炸鹰嘴豆丸",
+      "nl": "Falafel",
+      "local": "falafel"
+    },
+    "category": "fried-snack",
+    "cookingMethods": [
+      "deep-fried"
+    ],
+    "shortDescription": {
+      "en": "Fried chickpea or fava patties with herbs and spices, often served in pita with tahini sauce.",
+      "zh": "炸鹰嘴豆丸：鹰嘴豆或蚕豆香草丸子炸至外脆内松，常夹皮塔配芝麻酱。",
+      "nl": "Falafel: gefrituurde kikkererwten- of favaballetjes met kruiden en specerijen, vaak in pita met tahini."
+    },
+    "cookingProfile": {
+      "en": "deep-fried; expect crisp crust, crumbly soft center and creamy sauce.",
+      "zh": "通常油炸后上桌，点餐时可预期：鹰嘴豆或蚕豆香草丸子炸至外脆内松，常夹皮塔配芝麻酱。",
+      "nl": "Meestal gefrituurd; verwacht vooral: gefrituurde kikkererwten- of favaballetjes met kruiden en specerijen, vaak in pita met tahini."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "vegan-friendly",
+        "street-food"
+      ],
+      "description": {
+        "en": "A street-food style menu reference; the verified card explains the usual handheld or casual format and common risks.",
+        "zh": "街头小吃风格的菜单项；已审核卡片说明常见食用形式和风险。",
+        "nl": "Een streetfoodachtig menu-item; de geverifieerde kaart legt vorm en risico's uit."
+      }
+    },
+    "composition": [
+      [
+        "chickpeas",
+        50,
+        "ground legume base"
+      ],
+      [
+        "mixed-vegetables",
+        12,
+        "herb mix"
+      ],
+      [
+        "cumin",
+        8,
+        "earthy spice",
+        "seasoning"
+      ],
+      [
+        "coriander",
+        8,
+        "citrus spice",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        7,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "tahini",
+        10,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "pita",
+        5,
+        "serving bread"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fried chickpeas",
+      "cumin coriander",
+      "tahini"
+    ],
+    "basicTaste": [
+      "savory",
+      "herbal",
+      "nutty"
+    ],
+    "textureProfile": [
+      "crisp crust",
+      "crumbly soft center",
+      "creamy sauce"
+    ],
+    "riskFlags": [
+      "contains-sesame",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegan"
+    ],
+    "goodForTags": [
+      "vegan-friendly",
+      "street-food"
+    ],
+    "avoidIfTags": [
+      "avoids-fried-food",
+      "sesame-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want crisp vegetarian patties with tahini; avoid if fried food, sesame, or pita bread is an issue.",
+      "zh": "想要鹰嘴豆或蚕豆香草丸子炸至外脆内松，常夹皮塔配芝麻酱时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je gefrituurde kikkererwten- of favaballetjes met kruiden en specerijen, vaak in pita met tahini wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "shawarma",
+    "metadataCode": "120003",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Shawarma",
+      "zh": "中东烤肉卷",
+      "nl": "Shoarma",
+      "local": "shawarma"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Spiced rotisserie-style shaved meat in pita or on a plate with vegetables and garlic-tahini sauces.",
+      "zh": "中东烤肉卷：香料旋转烤肉薄片，夹皮塔或做饭盘，常配蔬菜和蒜香芝麻酱。",
+      "nl": "Shoarma: gekruid geschaafd spitvlees in pita of op bord met groente en knoflook-tahinisaus."
+    },
+    "cookingProfile": {
+      "en": "grilled over high heat and assembled to order; expect juicy meat, soft pita and fresh salad.",
+      "zh": "通常高温烤制并现拌或组合后上桌，点餐时可预期：香料旋转烤肉薄片，夹皮塔或做饭盘，常配蔬菜和蒜香芝麻酱。",
+      "nl": "Meestal op hoge hitte gegrild en samengesteld; verwacht vooral: gekruid geschaafd spitvlees in pita of op bord met groente en knoflook-tahinisaus."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "street-food",
+        "filling"
+      ],
+      "description": {
+        "en": "A street-food style menu reference; the verified card explains the usual handheld or casual format and common risks.",
+        "zh": "街头小吃风格的菜单项；已审核卡片说明常见食用形式和风险。",
+        "nl": "Een streetfoodachtig menu-item; de geverifieerde kaart legt vorm en risico's uit."
+      }
+    },
+    "composition": [
+      [
+        "shawarma-meat",
+        45,
+        "spiced shaved meat"
+      ],
+      [
+        "pita",
+        22,
+        "wrap bread"
+      ],
+      [
+        "mixed-vegetables",
+        12,
+        "salad filling"
+      ],
+      [
+        "tahini",
+        8,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "sauce aroma",
+        "seasoning"
+      ],
+      [
+        "cumin",
+        4,
+        "warm spice",
+        "seasoning"
+      ],
+      [
+        "chili",
+        4,
+        "optional heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "spiced shaved meat",
+      "garlic sauce",
+      "tahini"
+    ],
+    "basicTaste": [
+      "savory",
+      "garlicky",
+      "spiced"
+    ],
+    "textureProfile": [
+      "juicy meat",
+      "soft pita",
+      "fresh salad"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-sesame",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "filling"
+    ],
+    "avoidIfTags": [
+      "sesame-allergy",
+      "avoids-garlic"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a filling wrap or plate of spiced shaved meat; avoid if garlic, sesame sauce, or bread is a concern.",
+      "zh": "想要香料旋转烤肉薄片，夹皮塔或做饭盘，常配蔬菜和蒜香芝麻酱时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je gekruid geschaafd spitvlees in pita of op bord met groente en knoflook-tahinisaus wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "tabbouleh",
+    "metadataCode": "120004",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Tabbouleh",
+      "zh": "塔布勒沙拉",
+      "nl": "Tabouleh",
+      "local": "tabbouleh"
+    },
+    "category": "salad",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Parsley-heavy salad with tomato, bulgur, lemon, mint, and olive oil; bright and herb-forward.",
+      "zh": "塔布勒沙拉：以欧芹为主的酸香沙拉，配番茄、碎麦、柠檬、薄荷和橄榄油，草本感强。",
+      "nl": "Tabouleh: peterselierijke salade met tomaat, bulgur, citroen, munt en olijfolie; fris en kruidig."
+    },
+    "cookingProfile": {
+      "en": "assembled to order; expect finely chopped herbs, juicy tomato and tiny grain chew.",
+      "zh": "通常现拌或组合后上桌，点餐时可预期：以欧芹为主的酸香沙拉，配番茄、碎麦、柠檬、薄荷和橄榄油，草本感强。",
+      "nl": "Meestal samengesteld; verwacht vooral: peterselierijke salade met tomaat, bulgur, citroen, munt en olijfolie; fris en kruidig."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "fresh",
+        "vegan-friendly"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "parsley",
+        35,
+        "main herb",
+        "seasoning"
+      ],
+      [
+        "tomato",
+        20,
+        "juicy vegetable"
+      ],
+      [
+        "couscous",
+        15,
+        "bulgur-style grain"
+      ],
+      [
+        "lemon",
+        12,
+        "acid"
+      ],
+      [
+        "olive-oil",
+        10,
+        "dressing",
+        "seasoning"
+      ],
+      [
+        "mint",
+        5,
+        "fresh herb",
+        "seasoning"
+      ],
+      [
+        "sea-salt",
+        3,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "parsley",
+      "lemon",
+      "olive oil"
+    ],
+    "basicTaste": [
+      "fresh",
+      "tangy",
+      "herbal"
+    ],
+    "textureProfile": [
+      "finely chopped herbs",
+      "juicy tomato",
+      "tiny grain chew"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegan"
+    ],
+    "goodForTags": [
+      "fresh",
+      "vegan-friendly"
+    ],
+    "avoidIfTags": [
+      "avoids-parsley",
+      "avoids-gluten"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a very fresh lemon-herb salad; avoid if parsley-heavy salads or gluten grains are not wanted.",
+      "zh": "想要以欧芹为主的酸香沙拉，配番茄、碎麦、柠檬、薄荷和橄榄油，草本感强时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je peterselierijke salade met tomaat, bulgur, citroen, munt en olijfolie; fris en kruidig wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "fattoush",
+    "metadataCode": "120005",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Fattoush",
+      "zh": "炸面包蔬菜沙拉",
+      "nl": "Fattoush",
+      "local": "fattoush"
+    },
+    "category": "salad",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Levantine chopped salad with toasted or fried pita chips and lemony dressing; fresher than it is heavy.",
+      "zh": "炸面包蔬菜沙拉：黎凡特碎蔬菜沙拉配烤或炸皮塔脆片和柠檬酱汁，清爽且有脆感。",
+      "nl": "Fattoush: Levantijnse gehakte salade met geroosterde of gefrituurde pitachips en citroendressing."
+    },
+    "cookingProfile": {
+      "en": "assembled to order; expect crisp vegetables and crunchy pita chips.",
+      "zh": "通常现拌或组合后上桌，点餐时可预期：黎凡特碎蔬菜沙拉配烤或炸皮塔脆片和柠檬酱汁，清爽且有脆感。",
+      "nl": "Meestal samengesteld; verwacht vooral: Levantijnse gehakte salade met geroosterde of gefrituurde pitachips en citroendressing."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "fresh",
+        "salad"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "mixed-vegetables",
+        35,
+        "fresh vegetable base"
+      ],
+      [
+        "pita",
+        20,
+        "toasted bread chips"
+      ],
+      [
+        "tomato",
+        15,
+        "juicy vegetable"
+      ],
+      [
+        "cucumber",
+        12,
+        "crunch"
+      ],
+      [
+        "lemon",
+        8,
+        "dressing acid"
+      ],
+      [
+        "olive-oil",
+        7,
+        "dressing",
+        "seasoning"
+      ],
+      [
+        "mint",
+        3,
+        "fresh herb",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lemon dressing",
+      "toasted pita",
+      "fresh herbs"
+    ],
+    "basicTaste": [
+      "tangy",
+      "fresh",
+      "toasty"
+    ],
+    "textureProfile": [
+      "crisp vegetables",
+      "crunchy pita chips"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegan"
+    ],
+    "goodForTags": [
+      "fresh",
+      "salad"
+    ],
+    "avoidIfTags": [
+      "avoids-gluten",
+      "dislikes-sour-dressing"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a crunchy lemony salad with pita chips; avoid if bread chips or sour dressing are not wanted.",
+      "zh": "想要黎凡特碎蔬菜沙拉配烤或炸皮塔脆片和柠檬酱汁，清爽且有脆感时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je Levantijnse gehakte salade met geroosterde of gefrituurde pitachips en citroendressing wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "baba-ganoush",
+    "metadataCode": "120006",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Baba Ganoush",
+      "zh": "烤茄子芝麻酱泥",
+      "nl": "Baba ganoush",
+      "local": "baba ganoush"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Smoky roasted eggplant dip with tahini, lemon, garlic, and olive oil; softer and smokier than hummus.",
+      "zh": "烤茄子芝麻酱泥：烟熏烤茄子芝麻酱蘸酱，配柠檬、蒜和橄榄油，比鹰嘴豆泥更柔软烟熏。",
+      "nl": "Baba ganoush: rokerige geroosterde-auberginedip met tahini, citroen, knoflook en olijfolie; zachter en rokeriger dan hummus."
+    },
+    "cookingProfile": {
+      "en": "grilled over high heat and assembled to order; expect creamy dip and soft smoky eggplant.",
+      "zh": "通常高温烤制并现拌或组合后上桌，点餐时可预期：烟熏烤茄子芝麻酱蘸酱，配柠檬、蒜和橄榄油，比鹰嘴豆泥更柔软烟熏。",
+      "nl": "Meestal op hoge hitte gegrild en samengesteld; verwacht vooral: rokerige geroosterde-auberginedip met tahini, citroen, knoflook en olijfolie; zachter en rokeriger dan hummus."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "dip",
+        "vegan-friendly"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "eggplant-global",
+        50,
+        "smoked eggplant puree"
+      ],
+      [
+        "tahini",
+        18,
+        "sesame richness",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        12,
+        "finish",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        8,
+        "brightness"
+      ],
+      [
+        "garlic",
+        6,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "cumin",
+        3,
+        "earthy note",
+        "seasoning"
+      ],
+      [
+        "sea-salt",
+        3,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "smoky eggplant",
+      "tahini",
+      "lemon garlic"
+    ],
+    "basicTaste": [
+      "smoky",
+      "nutty",
+      "tangy"
+    ],
+    "textureProfile": [
+      "creamy dip",
+      "soft smoky eggplant"
+    ],
+    "riskFlags": [
+      "contains-sesame"
+    ],
+    "dietaryFlags": [
+      "vegan"
+    ],
+    "goodForTags": [
+      "dip",
+      "vegan-friendly"
+    ],
+    "avoidIfTags": [
+      "sesame-allergy",
+      "dislikes-smoky-eggplant"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a smoky eggplant dip; avoid if sesame or soft smoky eggplant is not appealing.",
+      "zh": "想要烟熏烤茄子芝麻酱蘸酱，配柠檬、蒜和橄榄油，比鹰嘴豆泥更柔软烟熏时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je rokerige geroosterde-auberginedip met tahini, citroen, knoflook en olijfolie; zachter en rokeriger dan hummus wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "kibbeh",
+    "metadataCode": "120007",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Kibbeh",
+      "zh": "中东炸肉麦丸",
+      "nl": "Kibbeh",
+      "local": "kibbeh"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "fried",
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Spiced meat and bulgur croquettes or baked layers, often with lamb or beef; meaty and warmly spiced.",
+      "zh": "中东炸肉麦丸：香料肉和碎麦做成炸球或烤层，常用羊肉或牛肉，肉香和温香料明显。",
+      "nl": "Kibbeh: gekruid vlees met bulgur als kroketten of ovenschotel, vaak met lam of rund; vlezig en warm gekruid."
+    },
+    "cookingProfile": {
+      "en": "fried and baked; expect crisp shell, tender meat filling and grainy bite.",
+      "zh": "通常煎炸并烘烤后上桌，点餐时可预期：香料肉和碎麦做成炸球或烤层，常用羊肉或牛肉，肉香和温香料明显。",
+      "nl": "Meestal gebakken in vet en gebakken in de oven; verwacht vooral: gekruid vlees met bulgur als kroketten of ovenschotel, vaak met lam of rund; vlezig en warm gekruid."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "meat-lover",
+        "starter"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "ground-meat",
+        45,
+        "meat shell and filling"
+      ],
+      [
+        "couscous",
+        20,
+        "bulgur-style grain shell"
+      ],
+      [
+        "onion",
+        10,
+        "filling sweetness"
+      ],
+      [
+        "cumin",
+        7,
+        "warm spice",
+        "seasoning"
+      ],
+      [
+        "cinnamon",
+        5,
+        "warm aroma",
+        "seasoning"
+      ],
+      [
+        "mint",
+        5,
+        "herbal lift",
+        "seasoning"
+      ],
+      [
+        "pita",
+        8,
+        "serving bread"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "spiced lamb or beef",
+      "bulgur",
+      "warm spices"
+    ],
+    "basicTaste": [
+      "savory",
+      "warm-spiced",
+      "meaty"
+    ],
+    "textureProfile": [
+      "crisp shell",
+      "tender meat filling",
+      "grainy bite"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "meat-lover",
+      "starter"
+    ],
+    "avoidIfTags": [
+      "avoids-red-meat",
+      "avoids-gluten"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want spiced meat croquettes or baked meat-grain layers; avoid if red meat or gluten grains are not wanted.",
+      "zh": "想要香料肉和碎麦做成炸球或烤层，常用羊肉或牛肉，肉香和温香料明显时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je gekruid vlees met bulgur als kroketten of ovenschotel, vaak met lam of rund; vlezig en warm gekruid wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "kofta",
+    "metadataCode": "120008",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Kofta",
+      "zh": "中东香料肉丸",
+      "nl": "Kofta",
+      "local": "kofta"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "shortDescription": {
+      "en": "Middle Eastern minced meat skewers or patties seasoned with herbs and warm spices.",
+      "zh": "中东香料肉丸：中东香草香料肉末串或肉饼，通常烤制，肉汁和炭烤边缘明显。",
+      "nl": "Kofta: Midden-Oosterse gehaktspiesen of burgers met kruiden en warme specerijen."
+    },
+    "cookingProfile": {
+      "en": "grilled over high heat; expect juicy minced meat and charred edges.",
+      "zh": "通常高温烤制后上桌，点餐时可预期：中东香草香料肉末串或肉饼，通常烤制，肉汁和炭烤边缘明显。",
+      "nl": "Meestal op hoge hitte gegrild; verwacht vooral: Midden-Oosterse gehaktspiesen of burgers met kruiden en warme specerijen."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "meat-lover",
+        "grilled"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "ground-meat",
+        60,
+        "minced meat skewer"
+      ],
+      [
+        "pita",
+        15,
+        "serving bread"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "salad side"
+      ],
+      [
+        "cumin",
+        5,
+        "earthy spice",
+        "seasoning"
+      ],
+      [
+        "coriander",
+        4,
+        "warm spice",
+        "seasoning"
+      ],
+      [
+        "parsley",
+        3,
+        "fresh herb",
+        "seasoning"
+      ],
+      [
+        "black-pepper",
+        3,
+        "pepper bite",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "grilled minced meat",
+      "cumin coriander",
+      "parsley"
+    ],
+    "basicTaste": [
+      "savory",
+      "herbal",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "juicy minced meat",
+      "charred edges"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "meat-lover",
+      "grilled"
+    ],
+    "avoidIfTags": [
+      "avoids-red-meat"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want juicy grilled minced meat with warm spices; avoid if red meat or grilled meat is not desired.",
+      "zh": "想要中东香草香料肉末串或肉饼，通常烤制，肉汁和炭烤边缘明显时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je Midden-Oosterse gehaktspiesen of burgers met kruiden en warme specerijen wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "mansaf",
+    "metadataCode": "120009",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Mansaf",
+      "zh": "约旦酸奶羊肉饭",
+      "nl": "Mansaf",
+      "local": "mansaf"
+    },
+    "category": "rice",
+    "cookingMethods": [
+      "braised",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Jordanian lamb and rice with tangy dried-yogurt sauce, often served as a generous platter.",
+      "zh": "约旦酸奶羊肉饭：约旦羊肉米饭配酸香干酸奶酱，常以大盘形式上桌，分量感强。",
+      "nl": "Mansaf: Jordaanse lamsrijst met zurige gedroogde-yoghurtsaus, vaak als royale schaal geserveerd."
+    },
+    "cookingProfile": {
+      "en": "slow-braised and assembled to order; expect tender lamb, sauced rice and nut garnish.",
+      "zh": "通常慢炖并现拌或组合后上桌，点餐时可预期：约旦羊肉米饭配酸香干酸奶酱，常以大盘形式上桌，分量感强。",
+      "nl": "Meestal langzaam gestoofd en samengesteld; verwacht vooral: Jordaanse lamsrijst met zurige gedroogde-yoghurtsaus, vaak als royale schaal geserveerd."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature",
+        "signature-dish",
+        "sharing"
+      ],
+      "description": {
+        "en": "A signature menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的代表性菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een kenmerkend menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        40,
+        "braised meat"
+      ],
+      [
+        "steamed-rice",
+        35,
+        "rice base"
+      ],
+      [
+        "yogurt",
+        15,
+        "jameed-style sauce"
+      ],
+      [
+        "almonds",
+        5,
+        "nut garnish"
+      ],
+      [
+        "cardamom",
+        3,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "black-pepper",
+        2,
+        "warmth",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lamb",
+      "tangy yogurt sauce",
+      "cardamom"
+    ],
+    "basicTaste": [
+      "savory",
+      "tangy",
+      "rich"
+    ],
+    "textureProfile": [
+      "tender lamb",
+      "sauced rice",
+      "nut garnish"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "signature-dish",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "avoids-lamb",
+      "avoids-dairy"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a generous lamb-and-rice platter with tangy dairy sauce; avoid if lamb or dairy sauce is not wanted.",
+      "zh": "想要约旦羊肉米饭配酸香干酸奶酱，常以大盘形式上桌，分量感强时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je Jordaanse lamsrijst met zurige gedroogde-yoghurtsaus, vaak als royale schaal geserveerd wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "mujadara",
+    "metadataCode": "120010",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Mujadara",
+      "zh": "扁豆洋葱饭",
+      "nl": "Mujadara",
+      "local": "mujadara"
+    },
+    "category": "vegetarian-main",
+    "cookingMethods": [
+      "simmered",
+      "fried"
+    ],
+    "shortDescription": {
+      "en": "Lentils and rice topped with fried onions; simple, earthy, and more comforting than flashy.",
+      "zh": "扁豆洋葱饭：扁豆米饭配炸洋葱，朴实、土香、饱腹，不是重酱菜。",
+      "nl": "Mujadara: linzen en rijst met gebakken uien; eenvoudig, aards en troostend."
+    },
+    "cookingProfile": {
+      "en": "simmered and fried; expect soft lentils and rice and crisp onions.",
+      "zh": "通常慢煮并煎炸后上桌，点餐时可预期：扁豆米饭配炸洋葱，朴实、土香、饱腹，不是重酱菜。",
+      "nl": "Meestal zacht gestoofd en gebakken in vet; verwacht vooral: linzen en rijst met gebakken uien; eenvoudig, aards en troostend."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "vegan-friendly",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "lentils",
+        40,
+        "lentil base"
+      ],
+      [
+        "steamed-rice",
+        30,
+        "grain base"
+      ],
+      [
+        "onion",
+        18,
+        "fried onion topping"
+      ],
+      [
+        "cumin",
+        5,
+        "earthy spice",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "richness",
+        "seasoning"
+      ],
+      [
+        "black-pepper",
+        2,
+        "warm bite",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lentils",
+      "caramelized onions",
+      "cumin"
+    ],
+    "basicTaste": [
+      "savory",
+      "earthy",
+      "slightly sweet"
+    ],
+    "textureProfile": [
+      "soft lentils and rice",
+      "crisp onions"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegan"
+    ],
+    "goodForTags": [
+      "vegan-friendly",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "wants-meat-main"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a simple vegan lentil-rice dish; avoid if you are looking for meat or bold sauce.",
+      "zh": "想要扁豆米饭配炸洋葱，朴实、土香、饱腹，不是重酱菜时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je linzen en rijst met gebakken uien; eenvoudig, aards en troostend wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "baklava-middle-eastern",
+    "metadataCode": "120011",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Baklava",
+      "zh": "中东果仁蜜酥",
+      "nl": "Baklava",
+      "local": "baklava"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked",
+      "layered"
+    ],
+    "shortDescription": {
+      "en": "Layered phyllo pastry with nuts and syrup; intensely sweet and usually served in small pieces.",
+      "zh": "中东果仁蜜酥：中东果仁糖浆酥皮，层次酥脆，糖浆黏润，通常小块食用。",
+      "nl": "Baklava: filodeeglaagjes met noten en siroop; intens zoet en meestal in kleine stukken."
+    },
+    "cookingProfile": {
+      "en": "baked and built in layers; expect flaky layers, sticky syrup and crunchy nuts.",
+      "zh": "通常烘烤并层叠制作后上桌，点餐时可预期：中东果仁糖浆酥皮，层次酥脆，糖浆黏润，通常小块食用。",
+      "nl": "Meestal gebakken in de oven en in lagen opgebouwd; verwacht vooral: filodeeglaagjes met noten en siroop; intens zoet en meestal in kleine stukken."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "dessert",
+        "sweet-tooth"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "phyllo-pastry",
+        35,
+        "flaky layers"
+      ],
+      [
+        "walnuts",
+        20,
+        "nut filling"
+      ],
+      [
+        "almonds",
+        12,
+        "nut filling"
+      ],
+      [
+        "honey",
+        18,
+        "syrup"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
+      ],
+      [
+        "cinnamon",
+        5,
+        "warm spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "syrup",
+      "mixed nuts",
+      "flaky pastry"
+    ],
+    "basicTaste": [
+      "very sweet",
+      "nutty",
+      "aromatic"
+    ],
+    "textureProfile": [
+      "flaky layers",
+      "sticky syrup",
+      "crunchy nuts"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "sweet-tooth"
+    ],
+    "avoidIfTags": [
+      "avoids-nuts",
+      "dislikes-syrup"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a small syrupy nut pastry; avoid if nuts or very sweet syrup are not wanted.",
+      "zh": "想要中东果仁糖浆酥皮，层次酥脆，糖浆黏润，通常小块食用时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je filodeeglaagjes met noten en siroop; intens zoet en meestal in kleine stukken wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "labneh",
+    "metadataCode": "120012",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Labneh",
+      "zh": "浓缩酸奶酱",
+      "nl": "Labneh",
+      "local": "labneh"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "chilled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Thick strained yogurt served as a dip with olive oil and herbs; tangy, cool, and creamy.",
+      "zh": "浓缩酸奶酱：浓缩酸奶蘸酱，配橄榄油和香草，酸香、冷食、口感绵密。",
+      "nl": "Labneh: dikke uitgelekte yoghurt als dip met olijfolie en kruiden; friszuur, koel en romig."
+    },
+    "cookingProfile": {
+      "en": "served cold and assembled to order; expect thick creamy spread and cool temperature.",
+      "zh": "通常冷食并现拌或组合后上桌，点餐时可预期：浓缩酸奶蘸酱，配橄榄油和香草，酸香、冷食、口感绵密。",
+      "nl": "Meestal koud geserveerd en samengesteld; verwacht vooral: dikke uitgelekte yoghurt als dip met olijfolie en kruiden; friszuur, koel en romig."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "dip",
+        "cooling"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "yogurt",
+        70,
+        "strained yogurt base"
+      ],
+      [
+        "olive-oil",
+        12,
+        "finish",
+        "seasoning"
+      ],
+      [
+        "pita",
+        8,
+        "serving bread"
+      ],
+      [
+        "mint",
+        4,
+        "herbal topping",
+        "seasoning"
+      ],
+      [
+        "sea-salt",
+        3,
+        "seasoning",
+        "seasoning"
+      ],
+      [
+        "black-pepper",
+        3,
+        "warm bite",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "strained yogurt tang",
+      "olive oil",
+      "mint"
+    ],
+    "basicTaste": [
+      "tangy",
+      "creamy",
+      "salty"
+    ],
+    "textureProfile": [
+      "thick creamy spread",
+      "cool temperature"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dip",
+      "cooling"
+    ],
+    "avoidIfTags": [
+      "avoids-dairy",
+      "wants-hot-food"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a cool tangy dairy dip; avoid if dairy or cold dips are not wanted.",
+      "zh": "想要浓缩酸奶蘸酱，配橄榄油和香草，酸香、冷食、口感绵密时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je dikke uitgelekte yoghurt als dip met olijfolie en kruiden; friszuur, koel en romig wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "tacos",
+    "metadataCode": "121001",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Tacos",
+      "zh": "墨西哥玉米卷",
+      "nl": "Taco’s",
+      "local": "tacos"
+    },
+    "category": "street-food",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Small tortillas filled with meat, vegetables, salsa, and lime; handheld, fresh, and highly variable by filling.",
+      "zh": "墨西哥玉米卷：小玉米或小麦饼夹肉、蔬菜、莎莎和青柠，手持食用，馅料变化很大。",
+      "nl": "Taco’s: kleine tortilla's gevuld met vlees, groente, salsa en limoen; handzaam, fris en sterk afhankelijk van vulling."
+    },
+    "cookingProfile": {
+      "en": "assembled to order; expect soft tortilla, juicy filling and crisp garnish.",
+      "zh": "通常现拌或组合后上桌，点餐时可预期：小玉米或小麦饼夹肉、蔬菜、莎莎和青柠，手持食用，馅料变化很大。",
+      "nl": "Meestal samengesteld; verwacht vooral: kleine tortilla's gevuld met vlees, groente, salsa en limoen; handzaam, fris en sterk afhankelijk van vulling."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature",
+        "street-food",
+        "shareable"
+      ],
+      "description": {
+        "en": "A signature menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的代表性菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een kenmerkend menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "tortilla",
+        35,
+        "small tortilla"
+      ],
+      [
+        "beef",
+        25,
+        "common filling"
+      ],
+      [
+        "mixed-vegetables",
+        12,
+        "onion cilantro garnish"
+      ],
+      [
+        "salsa",
+        10,
+        "fresh sauce",
+        "seasoning"
+      ],
+      [
+        "lime",
+        8,
+        "finish"
+      ],
+      [
+        "avocado",
+        5,
+        "optional creaminess"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "corn tortilla",
+      "salsa",
+      "lime"
+    ],
+    "basicTaste": [
+      "savory",
+      "fresh",
+      "spicy"
+    ],
+    "textureProfile": [
+      "soft tortilla",
+      "juicy filling",
+      "crisp garnish"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "shareable"
+    ],
+    "avoidIfTags": [
+      "avoids-heat",
+      "wants-knife-and-fork"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want handheld tortillas with bright salsa and lime; avoid if messy hand food or chili salsa is not welcome.",
+      "zh": "想要小玉米或小麦饼夹肉、蔬菜、莎莎和青柠，手持食用，馅料变化很大时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je kleine tortilla's gevuld met vlees, groente, salsa en limoen; handzaam, fris en sterk afhankelijk van vulling wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "quesadilla",
+    "metadataCode": "121002",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Quesadilla",
+      "zh": "墨西哥奶酪饼",
+      "nl": "Quesadilla",
+      "local": "quesadilla"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "fried",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Toasted tortilla filled with melted cheese, sometimes meat or vegetables; mild, melty, and easy to share.",
+      "zh": "墨西哥奶酪饼：烤煎玉米饼夹融化奶酪，可加肉或蔬菜，口味温和，奶酪拉丝明显。",
+      "nl": "Quesadilla: getoaste tortilla met gesmolten kaas, soms vlees of groente; mild, smeuig en deelbaar."
+    },
+    "cookingProfile": {
+      "en": "fried and assembled to order; expect crisp tortilla and melted cheese pull.",
+      "zh": "通常煎炸并现拌或组合后上桌，点餐时可预期：烤煎玉米饼夹融化奶酪，可加肉或蔬菜，口味温和，奶酪拉丝明显。",
+      "nl": "Meestal gebakken in vet en samengesteld; verwacht vooral: getoaste tortilla met gesmolten kaas, soms vlees of groente; mild, smeuig en deelbaar."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "first-timer-friendly",
+        "cheese-lover"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "tortilla",
+        45,
+        "folded tortilla"
+      ],
+      [
+        "cheese",
+        35,
+        "melted filling"
+      ],
+      [
+        "chicken",
+        10,
+        "optional protein"
+      ],
+      [
+        "salsa",
+        5,
+        "dip",
+        "seasoning"
+      ],
+      [
+        "avocado",
+        3,
+        "side"
+      ],
+      [
+        "chili",
+        2,
+        "optional heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "toasted tortilla",
+      "melted cheese",
+      "salsa"
+    ],
+    "basicTaste": [
+      "savory",
+      "cheesy",
+      "mild"
+    ],
+    "textureProfile": [
+      "crisp tortilla",
+      "melted cheese pull"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "first-timer-friendly",
+      "cheese-lover"
+    ],
+    "avoidIfTags": [
+      "avoids-dairy",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a melty cheese-filled tortilla; avoid if dairy or gluten is a problem.",
+      "zh": "想要烤煎玉米饼夹融化奶酪，可加肉或蔬菜，口味温和，奶酪拉丝明显时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je getoaste tortilla met gesmolten kaas, soms vlees of groente; mild, smeuig en deelbaar wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "enchiladas",
+    "metadataCode": "121003",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Enchiladas",
+      "zh": "墨西哥酱焗卷饼",
+      "nl": "Enchiladas",
+      "local": "enchiladas"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "baked",
+      "sauce-tossed"
+    ],
+    "shortDescription": {
+      "en": "Rolled tortillas filled with meat, cheese, or beans and baked under chili sauce; soft, saucy, and filling.",
+      "zh": "墨西哥酱焗卷饼：卷起的玉米饼填肉、奶酪或豆类，再淋辣椒酱烘烤，柔软多酱且饱腹。",
+      "nl": "Enchiladas: opgerolde tortilla's met vlees, kaas of bonen, gebakken onder chilisaus; zacht, sauzig en vullend."
+    },
+    "cookingProfile": {
+      "en": "baked and coated in sauce; expect soft sauced tortillas, melted cheese and tender filling.",
+      "zh": "通常烘烤并裹酱后上桌，点餐时可预期：卷起的玉米饼填肉、奶酪或豆类，再淋辣椒酱烘烤，柔软多酱且饱腹。",
+      "nl": "Meestal gebakken in de oven en met saus omhuld; verwacht vooral: opgerolde tortilla's met vlees, kaas of bonen, gebakken onder chilisaus; zacht, sauzig en vullend."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "comfort-food",
+        "saucy"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "tortilla",
+        35,
+        "rolled tortillas"
+      ],
+      [
+        "chicken",
+        25,
+        "common filling"
+      ],
+      [
+        "salsa",
+        15,
+        "chili tomato sauce",
+        "seasoning"
+      ],
+      [
+        "cheese",
+        15,
+        "melted topping"
+      ],
+      [
+        "black-beans",
+        5,
+        "side or filling"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "chili sauce",
+      "corn tortilla",
+      "melted cheese"
+    ],
+    "basicTaste": [
+      "savory",
+      "saucy",
+      "spicy"
+    ],
+    "textureProfile": [
+      "soft sauced tortillas",
+      "melted cheese",
+      "tender filling"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "saucy"
+    ],
+    "avoidIfTags": [
+      "wants-crisp-tacos",
+      "avoids-dairy"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want soft sauced tortilla rolls; avoid if you want crisp tacos or avoid cheese.",
+      "zh": "想要卷起的玉米饼填肉、奶酪或豆类，再淋辣椒酱烘烤，柔软多酱且饱腹时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je opgerolde tortilla's met vlees, kaas of bonen, gebakken onder chilisaus; zacht, sauzig en vullend wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 2,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "burrito",
+    "metadataCode": "121004",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Burrito",
+      "zh": "墨西哥大卷饼",
+      "nl": "Burrito",
+      "local": "burrito"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Large tortilla wrap packed with rice, beans, meat or vegetables, salsa, and often cheese; dense and filling.",
+      "zh": "墨西哥大卷饼：大号卷饼包米饭、豆类、肉或蔬菜、莎莎和常见奶酪，分量密实。",
+      "nl": "Burrito: grote tortilla gevuld met rijst, bonen, vlees of groente, salsa en vaak kaas; stevig en vullend."
+    },
+    "cookingProfile": {
+      "en": "assembled to order; expect soft wrap, dense filling and creamy beans.",
+      "zh": "通常现拌或组合后上桌，点餐时可预期：大号卷饼包米饭、豆类、肉或蔬菜、莎莎和常见奶酪，分量密实。",
+      "nl": "Meestal samengesteld; verwacht vooral: grote tortilla gevuld met rijst, bonen, vlees of groente, salsa en vaak kaas; stevig en vullend."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "internationally-known",
+        "filling",
+        "portable"
+      ],
+      "description": {
+        "en": "A widely recognized restaurant menu item; the verified card keeps the expected format and common risks concrete.",
+        "zh": "国际餐厅菜单中常见的菜品；已审核卡片明确其常见形态和风险。",
+        "nl": "Een breed herkenbaar restaurantgerecht; de geverifieerde kaart houdt vorm en risico's concreet."
+      }
+    },
+    "composition": [
+      [
+        "tortilla",
+        35,
+        "large wrap"
+      ],
+      [
+        "steamed-rice",
+        20,
+        "rice filling"
+      ],
+      [
+        "black-beans",
+        15,
+        "bean filling"
+      ],
+      [
+        "beef",
+        15,
+        "common protein"
+      ],
+      [
+        "cheese",
+        8,
+        "richness"
+      ],
+      [
+        "salsa",
+        5,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "chili",
+        2,
+        "optional heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "large tortilla",
+      "beans and rice",
+      "salsa"
+    ],
+    "basicTaste": [
+      "savory",
+      "hearty",
+      "mildly spicy"
+    ],
+    "textureProfile": [
+      "soft wrap",
+      "dense filling",
+      "creamy beans"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "filling",
+      "portable"
+    ],
+    "avoidIfTags": [
+      "wants-light-food",
+      "avoids-gluten"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a dense all-in-one wrap; avoid if you want a light snack or gluten-free option.",
+      "zh": "想要大号卷饼包米饭、豆类、肉或蔬菜、莎莎和常见奶酪，分量密实时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je grote tortilla gevuld met rijst, bonen, vlees of groente, salsa en vaak kaas; stevig en vullend wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "guacamole",
+    "metadataCode": "121005",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Guacamole",
+      "zh": "鳄梨酱",
+      "nl": "Guacamole",
+      "local": "guacamole"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Mashed avocado dip with lime, onion, cilantro, tomato, and chili; creamy and fresh.",
+      "zh": "鳄梨酱：牛油果泥蘸酱，加入青柠、洋葱、香菜、番茄和辣椒，绵密清爽。",
+      "nl": "Guacamole: geprakte avocadodip met limoen, ui, koriander, tomaat en chili; romig en fris."
+    },
+    "cookingProfile": {
+      "en": "assembled to order; expect chunky creamy dip and fresh dice.",
+      "zh": "通常现拌或组合后上桌，点餐时可预期：牛油果泥蘸酱，加入青柠、洋葱、香菜、番茄和辣椒，绵密清爽。",
+      "nl": "Meestal samengesteld; verwacht vooral: geprakte avocadodip met limoen, ui, koriander, tomaat en chili; romig en fris."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "dip",
+        "vegan-friendly"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "avocado",
+        65,
+        "mashed base"
+      ],
+      [
+        "lime",
+        12,
+        "acid"
+      ],
+      [
+        "tomato",
+        8,
+        "fresh dice"
+      ],
+      [
+        "onion",
+        6,
+        "sharpness"
+      ],
+      [
+        "coriander",
+        4,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "chili",
+        3,
+        "optional heat",
+        "seasoning"
+      ],
+      [
+        "sea-salt",
+        2,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "avocado",
+      "lime",
+      "cilantro"
+    ],
+    "basicTaste": [
+      "creamy",
+      "fresh",
+      "tangy"
+    ],
+    "textureProfile": [
+      "chunky creamy dip",
+      "fresh dice"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegan"
+    ],
+    "goodForTags": [
+      "dip",
+      "vegan-friendly"
+    ],
+    "avoidIfTags": [
+      "dislikes-avocado",
+      "dislikes-cilantro"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a creamy fresh avocado dip; avoid if avocado or cilantro is not appealing.",
+      "zh": "想要牛油果泥蘸酱，加入青柠、洋葱、香菜、番茄和辣椒，绵密清爽时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je geprakte avocadodip met limoen, ui, koriander, tomaat en chili; romig en fris wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "nachos",
+    "metadataCode": "121006",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Nachos",
+      "zh": "玉米片配料盘",
+      "nl": "Nachos",
+      "local": "nachos"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "assembled",
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Tortilla chips topped with melted cheese, salsa, beans, jalapenos, sour cream, or guacamole; best shared.",
+      "zh": "玉米片配料盘：玉米片铺奶酪、莎莎、豆类、辣椒、酸奶油或牛油果酱，适合分享。",
+      "nl": "Nachos: tortillachips met gesmolten kaas, salsa, bonen, jalapeno, zure room of guacamole; ideaal om te delen."
+    },
+    "cookingProfile": {
+      "en": "assembled to order and baked; expect crunchy chips, melty cheese and creamy toppings.",
+      "zh": "通常现拌或组合并烘烤后上桌，点餐时可预期：玉米片铺奶酪、莎莎、豆类、辣椒、酸奶油或牛油果酱，适合分享。",
+      "nl": "Meestal samengesteld en gebakken in de oven; verwacht vooral: tortillachips met gesmolten kaas, salsa, bonen, jalapeno, zure room of guacamole; ideaal om te delen."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "internationally-known",
+        "shareable",
+        "snack"
+      ],
+      "description": {
+        "en": "A widely recognized restaurant menu item; the verified card keeps the expected format and common risks concrete.",
+        "zh": "国际餐厅菜单中常见的菜品；已审核卡片明确其常见形态和风险。",
+        "nl": "Een breed herkenbaar restaurantgerecht; de geverifieerde kaart houdt vorm en risico's concreet."
+      }
+    },
+    "composition": [
+      [
+        "tortilla",
+        40,
+        "corn chips"
+      ],
+      [
+        "cheese",
+        20,
+        "melted topping"
+      ],
+      [
+        "black-beans",
+        10,
+        "topping"
+      ],
+      [
+        "salsa",
+        10,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "avocado",
+        8,
+        "guacamole"
+      ],
+      [
+        "chili",
+        5,
+        "jalapeno heat",
+        "seasoning"
+      ],
+      [
+        "sour-cream",
+        7,
+        "cool topping"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "corn chips",
+      "melted cheese",
+      "salsa"
+    ],
+    "basicTaste": [
+      "salty",
+      "cheesy",
+      "spicy"
+    ],
+    "textureProfile": [
+      "crunchy chips",
+      "melty cheese",
+      "creamy toppings"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "shareable",
+      "snack"
+    ],
+    "avoidIfTags": [
+      "wants-main-course",
+      "avoids-dairy"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a crunchy shared snack with cheese and salsa; avoid if you need a neat main course or avoid dairy.",
+      "zh": "想要玉米片铺奶酪、莎莎、豆类、辣椒、酸奶油或牛油果酱，适合分享时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je tortillachips met gesmolten kaas, salsa, bonen, jalapeno, zure room of guacamole; ideaal om te delen wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  }
+]

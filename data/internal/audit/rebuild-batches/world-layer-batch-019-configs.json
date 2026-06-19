@@ -1,0 +1,3494 @@
+[
+  {
+    "id": "bun-bo-hue",
+    "metadataCode": "116007",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Bún Bò Huế",
+      "zh": "顺化牛肉粉",
+      "nl": "Bún bò Huế",
+      "local": "bún bò Huế"
+    },
+    "category": "noodle-soup",
+    "cookingMethods": [
+      "simmered",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Hue-style spicy beef noodle soup with lemongrass broth, chili oil, and thicker rice noodles.",
+      "zh": "顺化牛肉粉：顺化风味辣牛肉米粉，香茅汤底和红油明显，河粉更粗更有弹性。",
+      "nl": "Bún bò Huế: pittige rundernoedelsoep uit Hue met citroengrasbouillon, chiliolie en dikkere rijstnoedels."
+    },
+    "cookingProfile": {
+      "en": "simmered and assembled to order; expect springy rice noodles, meaty broth and tender slices.",
+      "zh": "通常慢煮并现拌或组合后上桌，点餐时可预期：顺化风味辣牛肉米粉，香茅汤底和红油明显，河粉更粗更有弹性。",
+      "nl": "Meestal zacht gestoofd en samengesteld; verwacht vooral: pittige rundernoedelsoep uit Hue met citroengrasbouillon, chiliolie en dikkere rijstnoedels."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional",
+        "spicy",
+        "regional-dish"
+      ],
+      "description": {
+        "en": "A regional menu reference; the verified card captures the expected preparation style and common ordering risks.",
+        "zh": "带地区特点的菜单项；已审核卡片说明常见做法和点餐风险。",
+        "nl": "Een regionaal menu-item; de geverifieerde kaart beschrijft bereidingsstijl en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "rice-noodles",
+        35,
+        "thick rice noodles"
+      ],
+      [
+        "beef",
+        25,
+        "sliced beef"
+      ],
+      [
+        "pork",
+        10,
+        "pork variation"
+      ],
+      [
+        "broth",
+        18,
+        "lemongrass broth"
+      ],
+      [
+        "lemongrass",
+        5,
+        "signature aroma",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "red heat",
+        "seasoning"
+      ],
+      [
+        "fish-sauce",
+        2,
+        "umami",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lemongrass",
+      "chili oil",
+      "beef-pork broth"
+    ],
+    "basicTaste": [
+      "spicy",
+      "savory",
+      "aromatic"
+    ],
+    "textureProfile": [
+      "springy rice noodles",
+      "meaty broth",
+      "tender slices"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-fish-sauce",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "spicy",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "avoids-heat",
+      "avoids-pork"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a spicier, deeper pho-like noodle soup; avoid if you need mild broth or avoid pork-based variations.",
+      "zh": "想要顺化风味辣牛肉米粉，香茅汤底和红油明显，河粉更粗更有弹性时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je pittige rundernoedelsoep uit Hue met citroengrasbouillon, chiliolie en dikkere rijstnoedels wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 3,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "com-tam",
+    "metadataCode": "116008",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Cơm Tấm",
+      "zh": "越南碎米饭",
+      "nl": "Cơm tấm",
+      "local": "cơm tấm"
+    },
+    "category": "rice",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Broken rice plate with grilled pork, egg, pickles, and fish sauce dressing; a filling Vietnamese rice meal.",
+      "zh": "越南碎米饭：碎米饭配烤猪排、鸡蛋、腌菜和鱼露酱汁，是饱足的越南饭盘。",
+      "nl": "Cơm tấm: gebroken rijst met gegrild varkensvlees, ei, pickles en vissausdressing; een vullende Vietnamese rijstmaaltijd."
+    },
+    "cookingProfile": {
+      "en": "grilled over high heat and assembled to order; expect soft broken rice, charred pork and fresh garnish.",
+      "zh": "通常高温烤制并现拌或组合后上桌，点餐时可预期：碎米饭配烤猪排、鸡蛋、腌菜和鱼露酱汁，是饱足的越南饭盘。",
+      "nl": "Meestal op hoge hitte gegrild en samengesteld; verwacht vooral: gebroken rijst met gegrild varkensvlees, ei, pickles en vissausdressing; een vullende Vietnamese rijstmaaltijd."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "rice",
+        "street-food"
+      ],
+      "description": {
+        "en": "A street-food style menu reference; the verified card explains the usual handheld or casual format and common risks.",
+        "zh": "街头小吃风格的菜单项；已审核卡片说明常见食用形式和风险。",
+        "nl": "Een streetfoodachtig menu-item; de geverifieerde kaart legt vorm en risico's uit."
+      }
+    },
+    "composition": [
+      [
+        "steamed-rice",
+        40,
+        "broken rice base"
+      ],
+      [
+        "pork",
+        30,
+        "grilled pork chop"
+      ],
+      [
+        "egg",
+        10,
+        "fried egg or egg meatloaf"
+      ],
+      [
+        "cucumber",
+        8,
+        "fresh garnish"
+      ],
+      [
+        "fish-sauce",
+        7,
+        "dressing",
+        "seasoning"
+      ],
+      [
+        "chili",
+        3,
+        "optional heat",
+        "seasoning"
+      ],
+      [
+        "palm-sugar",
+        2,
+        "sweet balance",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "grilled pork",
+      "fish sauce dressing",
+      "pickled freshness"
+    ],
+    "basicTaste": [
+      "savory",
+      "sweet-salty",
+      "grilled"
+    ],
+    "textureProfile": [
+      "soft broken rice",
+      "charred pork",
+      "fresh garnish"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-egg",
+      "contains-fish-sauce",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "rice",
+      "street-food"
+    ],
+    "avoidIfTags": [
+      "avoids-pork",
+      "avoids-fish-sauce"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a full rice plate with grilled pork; avoid if pork, egg, or fish sauce is an issue.",
+      "zh": "想要碎米饭配烤猪排、鸡蛋、腌菜和鱼露酱汁，是饱足的越南饭盘时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je gebroken rijst met gegrild varkensvlees, ei, pickles en vissausdressing; een vullende Vietnamese rijstmaaltijd wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "banh-xeo",
+    "metadataCode": "116009",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Bánh Xèo",
+      "zh": "越南煎饼",
+      "nl": "Bánh xèo",
+      "local": "bánh xèo"
+    },
+    "category": "pancake",
+    "cookingMethods": [
+      "fried",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Crisp turmeric rice pancake filled with shrimp, pork, and bean sprouts, eaten with herbs and dipping sauce.",
+      "zh": "越南煎饼：姜黄米浆煎成薄脆饼，包虾、猪肉和豆芽，配香草与鱼露蘸汁。",
+      "nl": "Bánh xèo: krokante rijstpannenkoek met kurkuma, garnaal, varkensvlees en taugé, gegeten met kruiden en dipsaus."
+    },
+    "cookingProfile": {
+      "en": "fried and assembled to order; expect crisp pancake edge, juicy filling and fresh herbs.",
+      "zh": "通常煎炸并现拌或组合后上桌，点餐时可预期：姜黄米浆煎成薄脆饼，包虾、猪肉和豆芽，配香草与鱼露蘸汁。",
+      "nl": "Meestal gebakken in vet en samengesteld; verwacht vooral: krokante rijstpannenkoek met kurkuma, garnaal, varkensvlees en taugé, gegeten met kruiden en dipsaus."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional",
+        "shareable",
+        "regional-dish"
+      ],
+      "description": {
+        "en": "A regional menu reference; the verified card captures the expected preparation style and common ordering risks.",
+        "zh": "带地区特点的菜单项；已审核卡片说明常见做法和点餐风险。",
+        "nl": "Een regionaal menu-item; de geverifieerde kaart beschrijft bereidingsstijl en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "rice-flour-batter",
+        35,
+        "crisp turmeric pancake"
+      ],
+      [
+        "shrimp",
+        20,
+        "seafood filling"
+      ],
+      [
+        "pork",
+        15,
+        "meat filling"
+      ],
+      [
+        "bean-sprouts",
+        15,
+        "crunch"
+      ],
+      [
+        "mixed-vegetables",
+        8,
+        "lettuce and herbs"
+      ],
+      [
+        "turmeric",
+        4,
+        "golden color",
+        "seasoning"
+      ],
+      [
+        "fish-sauce",
+        3,
+        "dip",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "crispy rice batter",
+      "turmeric",
+      "fish sauce dip"
+    ],
+    "basicTaste": [
+      "savory",
+      "fresh",
+      "lightly oily"
+    ],
+    "textureProfile": [
+      "crisp pancake edge",
+      "juicy filling",
+      "fresh herbs"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-pork",
+      "contains-fish-sauce"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "shareable",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "avoids-pork"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a crisp savory pancake with fresh herbs; avoid if shellfish, pork, or fish sauce is unsafe.",
+      "zh": "想要姜黄米浆煎成薄脆饼，包虾、猪肉和豆芽，配香草与鱼露蘸汁时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je krokante rijstpannenkoek met kurkuma, garnaal, varkensvlees en taugé, gegeten met kruiden en dipsaus wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "cao-lau",
+    "metadataCode": "116010",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Cao Lầu",
+      "zh": "会安高楼面",
+      "nl": "Cao lầu",
+      "local": "cao lầu"
+    },
+    "category": "noodle",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Hoi An-style chewy noodles with pork, herbs, a little sauce, and crisp crackers; less brothy than pho.",
+      "zh": "会安高楼面：会安风味韧性面条配猪肉、香草、少量酱汁和脆片，比越南粉更干拌。",
+      "nl": "Cao lầu: Hoi An-noedels met stevige beet, varkensvlees, kruiden, weinig saus en krokante crackers; droger dan pho."
+    },
+    "cookingProfile": {
+      "en": "assembled to order; expect chewy noodles, crisp crackers and tender pork.",
+      "zh": "通常现拌或组合后上桌，点餐时可预期：会安风味韧性面条配猪肉、香草、少量酱汁和脆片，比越南粉更干拌。",
+      "nl": "Meestal samengesteld; verwacht vooral: Hoi An-noedels met stevige beet, varkensvlees, kruiden, weinig saus en krokante crackers; droger dan pho."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional",
+        "regional-dish",
+        "noodle"
+      ],
+      "description": {
+        "en": "A regional menu reference; the verified card captures the expected preparation style and common ordering risks.",
+        "zh": "带地区特点的菜单项；已审核卡片说明常见做法和点餐风险。",
+        "nl": "Een regionaal menu-item; de geverifieerde kaart beschrijft bereidingsstijl en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "wheat-noodles",
+        35,
+        "chewy noodles"
+      ],
+      [
+        "pork",
+        25,
+        "char siu-style pork"
+      ],
+      [
+        "mixed-vegetables",
+        15,
+        "herbs and greens"
+      ],
+      [
+        "prawn-crackers",
+        10,
+        "crisp topping"
+      ],
+      [
+        "soy-sauce",
+        7,
+        "savory sauce",
+        "seasoning"
+      ],
+      [
+        "chili",
+        4,
+        "optional heat",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        4,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "chewy noodles",
+      "roasted pork",
+      "soy-garlic sauce"
+    ],
+    "basicTaste": [
+      "savory",
+      "herbal",
+      "lightly sweet"
+    ],
+    "textureProfile": [
+      "chewy noodles",
+      "crisp crackers",
+      "tender pork"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-pork",
+      "contains-soy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "regional-dish",
+      "noodle"
+    ],
+    "avoidIfTags": [
+      "avoids-pork",
+      "avoids-gluten"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a regional dry noodle bowl with pork and herbs; avoid if you need gluten-free noodles or no pork.",
+      "zh": "想要会安风味韧性面条配猪肉、香草、少量酱汁和脆片，比越南粉更干拌时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je Hoi An-noedels met stevige beet, varkensvlees, kruiden, weinig saus en krokante crackers; droger dan pho wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "bo-luc-lac",
+    "metadataCode": "116011",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Bò Lúc Lắc",
+      "zh": "越式摇牛肉",
+      "nl": "Bò lúc lắc",
+      "local": "bò lúc lắc"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "stir-fried"
+    ],
+    "shortDescription": {
+      "en": "Vietnamese shaking beef: seared beef cubes tossed with garlic, pepper, and soy-style seasoning.",
+      "zh": "越式摇牛肉：越南摇牛肉，牛肉块快炒至外焦内嫩，蒜香、黑胡椒和酱油鲜味明显。",
+      "nl": "Bò lúc lắc: Vietnamese shaking beef: kort gebakken rundblokjes met knoflook, peper en sojachtige marinade."
+    },
+    "cookingProfile": {
+      "en": "stir-fried; expect seared beef cubes, juicy center and fresh salad.",
+      "zh": "通常快炒后上桌，点餐时可预期：越南摇牛肉，牛肉块快炒至外焦内嫩，蒜香、黑胡椒和酱油鲜味明显。",
+      "nl": "Meestal geroerbakt; verwacht vooral: Vietnamese shaking beef: kort gebakken rundblokjes met knoflook, peper en sojachtige marinade."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "beef",
+        "first-timer-friendly"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        45,
+        "seared cubes"
+      ],
+      [
+        "steamed-rice",
+        25,
+        "rice or side"
+      ],
+      [
+        "mixed-vegetables",
+        15,
+        "salad bed"
+      ],
+      [
+        "soy-sauce",
+        6,
+        "savory marinade",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "black-pepper",
+        4,
+        "pepper bite",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "garlic beef",
+      "black pepper",
+      "soy marinade"
+    ],
+    "basicTaste": [
+      "savory",
+      "peppery",
+      "slightly sweet"
+    ],
+    "textureProfile": [
+      "seared beef cubes",
+      "juicy center",
+      "fresh salad"
+    ],
+    "riskFlags": [
+      "contains-soy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "beef",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "avoids-red-meat"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want tender seared beef with peppery garlic flavor; avoid if you do not want red meat.",
+      "zh": "想要越南摇牛肉，牛肉块快炒至外焦内嫩，蒜香、黑胡椒和酱油鲜味明显时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je Vietnamese shaking beef: kort gebakken rundblokjes met knoflook, peper en sojachtige marinade wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "che",
+    "metadataCode": "116012",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Chè",
+      "zh": "越南甜品羹",
+      "nl": "Chè",
+      "local": "chè"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "assembled",
+      "chilled"
+    ],
+    "shortDescription": {
+      "en": "Vietnamese sweet dessert soup or cup with beans, jellies, fruit, coconut milk, and ice; textures vary a lot.",
+      "zh": "越南甜品羹：越南甜品杯或甜汤，常有豆类、冻、果料、椰奶和冰，口感层次很多。",
+      "nl": "Chè: Vietnamese zoete dessertsoep of beker met bonen, jelly, fruit, kokosmelk en ijs; veel textuurvariatie."
+    },
+    "cookingProfile": {
+      "en": "assembled to order and served cold; expect icy, chewy bits and soft beans.",
+      "zh": "通常现拌或组合并冷食后上桌，点餐时可预期：越南甜品杯或甜汤，常有豆类、冻、果料、椰奶和冰，口感层次很多。",
+      "nl": "Meestal samengesteld en koud geserveerd; verwacht vooral: Vietnamese zoete dessertsoep of beker met bonen, jelly, fruit, kokosmelk en ijs; veel textuurvariatie."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "dessert",
+        "refreshing"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "beans",
+        25,
+        "sweet beans or jelly mix"
+      ],
+      [
+        "shaved-ice",
+        20,
+        "cold base"
+      ],
+      [
+        "coconut-milk",
+        20,
+        "creamy liquid",
+        "seasoning"
+      ],
+      [
+        "fruit-sauce-or-caramel",
+        15,
+        "sweet syrup"
+      ],
+      [
+        "sticky-rice",
+        10,
+        "chewy element"
+      ],
+      [
+        "toasted-coconut",
+        5,
+        "topping"
+      ],
+      [
+        "palm-sugar",
+        5,
+        "sweetness",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "coconut milk",
+      "sweet beans",
+      "palm sugar"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "refreshing"
+    ],
+    "textureProfile": [
+      "icy",
+      "chewy bits",
+      "soft beans"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "refreshing"
+    ],
+    "avoidIfTags": [
+      "dislikes-mixed-texture-desserts"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a cold sweet dessert with mixed chewy and creamy textures; avoid if mixed jelly-bean textures are not appealing.",
+      "zh": "想要越南甜品杯或甜汤，常有豆类、冻、果料、椰奶和冰，口感层次很多时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je Vietnamese zoete dessertsoep of beker met bonen, jelly, fruit, kokosmelk en ijs; veel textuurvariatie wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "nasi-goreng",
+    "metadataCode": "117001",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Nasi Goreng",
+      "zh": "印尼炒饭",
+      "nl": "Nasi goreng",
+      "local": "nasi goreng"
+    },
+    "category": "rice",
+    "cookingMethods": [
+      "stir-fried"
+    ],
+    "shortDescription": {
+      "en": "Indonesian fried rice with sweet soy, sambal, egg, and often chicken or shrimp; darker and sweeter than plain fried rice.",
+      "zh": "印尼炒饭：印尼炒饭用甜酱油和参巴调味，常配蛋和肉，颜色较深，甜咸微辣。",
+      "nl": "Nasi goreng: Indonesische gebakken rijst met ketjap, sambal, ei en vaak kip of garnaal; donkerder en zoeter dan gewone fried rice."
+    },
+    "cookingProfile": {
+      "en": "stir-fried; expect separate fried rice, soft egg and lightly oily grains.",
+      "zh": "通常快炒后上桌，点餐时可预期：印尼炒饭用甜酱油和参巴调味，常配蛋和肉，颜色较深，甜咸微辣。",
+      "nl": "Meestal geroerbakt; verwacht vooral: Indonesische gebakken rijst met ketjap, sambal, ei en vaak kip of garnaal; donkerder en zoeter dan gewone fried rice."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature",
+        "rice",
+        "signature-dish"
+      ],
+      "description": {
+        "en": "A signature menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的代表性菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een kenmerkend menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "steamed-rice",
+        45,
+        "fried rice base"
+      ],
+      [
+        "egg",
+        15,
+        "topping or mix-in"
+      ],
+      [
+        "chicken",
+        15,
+        "common protein"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "vegetable mix"
+      ],
+      [
+        "ketjap-manis",
+        8,
+        "sweet soy depth",
+        "seasoning"
+      ],
+      [
+        "sambal",
+        4,
+        "chili heat",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        3,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "sweet soy",
+      "sambal",
+      "wok-fried rice"
+    ],
+    "basicTaste": [
+      "savory",
+      "sweet",
+      "spicy"
+    ],
+    "textureProfile": [
+      "separate fried rice",
+      "soft egg",
+      "lightly oily grains"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-soy",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "rice",
+      "signature-dish"
+    ],
+    "avoidIfTags": [
+      "avoids-egg",
+      "avoids-sweet-soy"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want fried rice with sweet soy and chili aroma; avoid if egg, soy, or mild sweetness is unwanted.",
+      "zh": "想要印尼炒饭用甜酱油和参巴调味，常配蛋和肉，颜色较深，甜咸微辣时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je Indonesische gebakken rijst met ketjap, sambal, ei en vaak kip of garnaal; donkerder en zoeter dan gewone fried rice wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "mie-goreng",
+    "metadataCode": "117002",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Mie Goreng",
+      "zh": "印尼炒面",
+      "nl": "Mie goreng",
+      "local": "mie goreng"
+    },
+    "category": "noodle",
+    "cookingMethods": [
+      "stir-fried"
+    ],
+    "shortDescription": {
+      "en": "Indonesian stir-fried noodles with sweet soy, sambal, egg, vegetables, and often chicken.",
+      "zh": "印尼炒面：印尼炒面用甜酱油、参巴、鸡蛋和蔬菜快炒，面条油润带甜辣。",
+      "nl": "Mie goreng: Indonesische gebakken noedels met ketjap, sambal, ei, groente en vaak kip."
+    },
+    "cookingProfile": {
+      "en": "stir-fried; expect springy noodles, glossy sauce and soft egg.",
+      "zh": "通常快炒后上桌，点餐时可预期：印尼炒面用甜酱油、参巴、鸡蛋和蔬菜快炒，面条油润带甜辣。",
+      "nl": "Meestal geroerbakt; verwacht vooral: Indonesische gebakken noedels met ketjap, sambal, ei, groente en vaak kip."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "noodle",
+        "street-food"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "wheat-noodles",
+        45,
+        "fried noodle base"
+      ],
+      [
+        "egg",
+        15,
+        "mix-in"
+      ],
+      [
+        "chicken",
+        15,
+        "common protein"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "vegetables"
+      ],
+      [
+        "ketjap-manis",
+        8,
+        "sweet soy sauce",
+        "seasoning"
+      ],
+      [
+        "sambal",
+        4,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        3,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "sweet soy",
+      "sambal",
+      "fried noodles"
+    ],
+    "basicTaste": [
+      "savory",
+      "sweet",
+      "spicy"
+    ],
+    "textureProfile": [
+      "springy noodles",
+      "glossy sauce",
+      "soft egg"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-soy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "noodle",
+      "street-food"
+    ],
+    "avoidIfTags": [
+      "avoids-gluten",
+      "avoids-sweet-soy"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want glossy sweet-spicy fried noodles; avoid if wheat noodles, egg, or soy are a problem.",
+      "zh": "想要印尼炒面用甜酱油、参巴、鸡蛋和蔬菜快炒，面条油润带甜辣时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je Indonesische gebakken noedels met ketjap, sambal, ei, groente en vaak kip wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "rendang",
+    "metadataCode": "117003",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Rendang",
+      "zh": "仁当牛肉",
+      "nl": "Rendang",
+      "local": "rendang"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "braised",
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Slow-cooked beef in coconut and spice paste reduced until dark, rich, and intensely aromatic.",
+      "zh": "仁当牛肉：牛肉在椰奶和香料酱中慢炖收浓，颜色深，香气厚重，通常不是水汤咖喱。",
+      "nl": "Rendang: rundvlees langzaam gestoofd in kokos en specerijenpasta tot donker, rijk en zeer aromatisch."
+    },
+    "cookingProfile": {
+      "en": "slow-braised and simmered; expect tender beef, dry-ish thick coating and fibrous sauce.",
+      "zh": "通常慢炖并慢煮后上桌，点餐时可预期：牛肉在椰奶和香料酱中慢炖收浓，颜色深，香气厚重，通常不是水汤咖喱。",
+      "nl": "Meestal langzaam gestoofd en zacht gestoofd; verwacht vooral: rundvlees langzaam gestoofd in kokos en specerijenpasta tot donker, rijk en zeer aromatisch."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature",
+        "signature-dish",
+        "meat-lover"
+      ],
+      "description": {
+        "en": "A signature menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的代表性菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een kenmerkend menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        45,
+        "slow-cooked meat"
+      ],
+      [
+        "coconut-milk",
+        20,
+        "reduced sauce",
+        "seasoning"
+      ],
+      [
+        "coconut-curry",
+        12,
+        "spice paste",
+        "seasoning"
+      ],
+      [
+        "lemongrass",
+        6,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "chili",
+        6,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "turmeric",
+        5,
+        "earthy color",
+        "seasoning"
+      ],
+      [
+        "toasted-coconut",
+        6,
+        "toasty body"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "reduced coconut spice paste",
+      "lemongrass",
+      "toasted coconut"
+    ],
+    "basicTaste": [
+      "rich",
+      "spicy",
+      "aromatic"
+    ],
+    "textureProfile": [
+      "tender beef",
+      "dry-ish thick coating",
+      "fibrous sauce"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "signature-dish",
+      "meat-lover"
+    ],
+    "avoidIfTags": [
+      "wants-light-food",
+      "avoids-heat"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want deeply spiced tender beef with reduced coconut richness; avoid if you want a light or very saucy curry.",
+      "zh": "想要牛肉在椰奶和香料酱中慢炖收浓，颜色深，香气厚重，通常不是水汤咖喱时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je rundvlees langzaam gestoofd in kokos en specerijenpasta tot donker, rijk en zeer aromatisch wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 3,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "gado-gado",
+    "metadataCode": "117004",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Gado-Gado",
+      "zh": "印尼花生酱沙拉",
+      "nl": "Gado-gado",
+      "local": "gado-gado"
+    },
+    "category": "salad",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Indonesian vegetable salad with tofu, egg, potatoes, and thick peanut dressing; filling for a salad.",
+      "zh": "印尼花生酱沙拉：印尼蔬菜沙拉，配豆腐、鸡蛋、土豆和浓花生酱，作为沙拉也很有饱腹感。",
+      "nl": "Gado-gado: Indonesische groentesalade met tofu, ei, aardappel en dikke pindasaus; vullend voor een salade."
+    },
+    "cookingProfile": {
+      "en": "assembled to order; expect crisp-soft vegetables, creamy peanut dressing and crunchy crackers.",
+      "zh": "通常现拌或组合后上桌，点餐时可预期：印尼蔬菜沙拉，配豆腐、鸡蛋、土豆和浓花生酱，作为沙拉也很有饱腹感。",
+      "nl": "Meestal samengesteld; verwacht vooral: Indonesische groentesalade met tofu, ei, aardappel en dikke pindasaus; vullend voor een salade."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "vegetarian-friendly",
+        "salad"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "mixed-vegetables",
+        35,
+        "blanched vegetables"
+      ],
+      [
+        "tofu",
+        15,
+        "protein"
+      ],
+      [
+        "egg",
+        15,
+        "boiled egg"
+      ],
+      [
+        "potato",
+        10,
+        "starchy bite"
+      ],
+      [
+        "satay-sauce",
+        20,
+        "peanut dressing",
+        "seasoning"
+      ],
+      [
+        "prawn-crackers",
+        5,
+        "crisp garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "peanut sauce",
+      "blanched vegetables",
+      "crackers"
+    ],
+    "basicTaste": [
+      "nutty",
+      "savory",
+      "mildly sweet"
+    ],
+    "textureProfile": [
+      "crisp-soft vegetables",
+      "creamy peanut dressing",
+      "crunchy crackers"
+    ],
+    "riskFlags": [
+      "contains-peanut",
+      "contains-egg",
+      "contains-soy",
+      "contains-shellfish"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "vegetarian-friendly",
+      "salad"
+    ],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "avoids-egg"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a peanut-sauced vegetable plate; avoid if peanut sauce or egg is unsafe.",
+      "zh": "想要印尼蔬菜沙拉，配豆腐、鸡蛋、土豆和浓花生酱，作为沙拉也很有饱腹感时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je Indonesische groentesalade met tofu, ei, aardappel en dikke pindasaus; vullend voor een salade wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "satay-ayam",
+    "metadataCode": "117005",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Satay Ayam",
+      "zh": "印尼鸡肉沙爹",
+      "nl": "Saté ayam",
+      "local": "sate ayam"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "shortDescription": {
+      "en": "Chicken skewers grilled and served with peanut sauce and sweet soy; nutty, smoky, and easy to share.",
+      "zh": "印尼鸡肉沙爹：鸡肉串炭烤后配花生酱和甜酱油，坚果香、烟熏感和甜咸味明显。",
+      "nl": "Saté ayam: kipspiesjes gegrild en geserveerd met pindasaus en ketjap; nootachtig, rokerig en deelbaar."
+    },
+    "cookingProfile": {
+      "en": "grilled over high heat; expect grilled chicken and creamy sauce.",
+      "zh": "通常高温烤制后上桌，点餐时可预期：鸡肉串炭烤后配花生酱和甜酱油，坚果香、烟熏感和甜咸味明显。",
+      "nl": "Meestal op hoge hitte gegrild; verwacht vooral: kipspiesjes gegrild en geserveerd met pindasaus en ketjap; nootachtig, rokerig en deelbaar."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "street-food",
+        "shareable"
+      ],
+      "description": {
+        "en": "A street-food style menu reference; the verified card explains the usual handheld or casual format and common risks.",
+        "zh": "街头小吃风格的菜单项；已审核卡片说明常见食用形式和风险。",
+        "nl": "Een streetfoodachtig menu-item; de geverifieerde kaart legt vorm en risico's uit."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        55,
+        "skewered meat"
+      ],
+      [
+        "satay-sauce",
+        25,
+        "peanut sauce",
+        "seasoning"
+      ],
+      [
+        "ketjap-manis",
+        8,
+        "sweet soy glaze",
+        "seasoning"
+      ],
+      [
+        "sambal",
+        4,
+        "chili accent",
+        "seasoning"
+      ],
+      [
+        "cucumber",
+        4,
+        "fresh side"
+      ],
+      [
+        "steamed-rice",
+        4,
+        "optional side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "charred chicken",
+      "peanut sauce",
+      "sweet soy"
+    ],
+    "basicTaste": [
+      "savory",
+      "nutty",
+      "sweet"
+    ],
+    "textureProfile": [
+      "grilled chicken",
+      "creamy sauce"
+    ],
+    "riskFlags": [
+      "contains-peanut",
+      "contains-soy",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "shareable"
+    ],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "avoids-sweet-sauces"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want grilled chicken with creamy peanut sauce; avoid if peanuts or sweet soy sauce are a problem.",
+      "zh": "想要鸡肉串炭烤后配花生酱和甜酱油，坚果香、烟熏感和甜咸味明显时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je kipspiesjes gegrild en geserveerd met pindasaus en ketjap; nootachtig, rokerig en deelbaar wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "soto-ayam",
+    "metadataCode": "117006",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Soto Ayam",
+      "zh": "印尼鸡汤",
+      "nl": "Soto ayam",
+      "local": "soto ayam"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Indonesian chicken soup with turmeric-yellow broth, noodles, egg, and herbs; lighter than curry.",
+      "zh": "印尼鸡汤：印尼鸡汤，姜黄色清汤配鸡肉、粉丝、鸡蛋和香草，比咖喱更清爽。",
+      "nl": "Soto ayam: Indonesische kippensoep met kurkuma-gele bouillon, noedels, ei en kruiden; lichter dan curry."
+    },
+    "cookingProfile": {
+      "en": "simmered and assembled to order; expect clear yellow broth, soft chicken and springy noodles.",
+      "zh": "通常慢煮并现拌或组合后上桌，点餐时可预期：印尼鸡汤，姜黄色清汤配鸡肉、粉丝、鸡蛋和香草，比咖喱更清爽。",
+      "nl": "Meestal zacht gestoofd en samengesteld; verwacht vooral: Indonesische kippensoep met kurkuma-gele bouillon, noedels, ei en kruiden; lichter dan curry."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "soup",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        25,
+        "shredded meat"
+      ],
+      [
+        "glass-noodles",
+        20,
+        "noodle element"
+      ],
+      [
+        "broth",
+        25,
+        "yellow broth"
+      ],
+      [
+        "egg",
+        10,
+        "boiled egg"
+      ],
+      [
+        "turmeric",
+        7,
+        "golden aroma",
+        "seasoning"
+      ],
+      [
+        "lemongrass",
+        5,
+        "citrus aroma",
+        "seasoning"
+      ],
+      [
+        "coriander",
+        4,
+        "spice",
+        "seasoning"
+      ],
+      [
+        "chili",
+        4,
+        "optional heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "turmeric broth",
+      "lemongrass",
+      "chicken"
+    ],
+    "basicTaste": [
+      "savory",
+      "aromatic",
+      "lightly spiced"
+    ],
+    "textureProfile": [
+      "clear yellow broth",
+      "soft chicken",
+      "springy noodles"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "soup",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "avoids-egg",
+      "wants-creamy-soup"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a fragrant yellow chicken soup; avoid if you dislike egg garnish or want a thick creamy soup.",
+      "zh": "想要印尼鸡汤，姜黄色清汤配鸡肉、粉丝、鸡蛋和香草，比咖喱更清爽时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je Indonesische kippensoep met kurkuma-gele bouillon, noedels, ei en kruiden; lichter dan curry wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "bakso",
+    "metadataCode": "117007",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Bakso",
+      "zh": "印尼肉丸汤",
+      "nl": "Bakso",
+      "local": "bakso"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "boiled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Indonesian meatball soup with bouncy beef balls, broth, noodles, and optional sambal.",
+      "zh": "印尼肉丸汤：印尼牛肉丸汤，肉丸弹牙，配清汤、面条和可选参巴辣酱。",
+      "nl": "Bakso: Indonesische gehaktballensoep met veerkrachtige rundvleesballetjes, bouillon, noedels en eventueel sambal."
+    },
+    "cookingProfile": {
+      "en": "boiled or poached and assembled to order; expect bouncy meatballs, soft noodles and clear soup.",
+      "zh": "通常水煮或汆熟并现拌或组合后上桌，点餐时可预期：印尼牛肉丸汤，肉丸弹牙，配清汤、面条和可选参巴辣酱。",
+      "nl": "Meestal gekookt of gepocheerd en samengesteld; verwacht vooral: Indonesische gehaktballensoep met veerkrachtige rundvleesballetjes, bouillon, noedels en eventueel sambal."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "street-food",
+        "soup"
+      ],
+      "description": {
+        "en": "A street-food style menu reference; the verified card explains the usual handheld or casual format and common risks.",
+        "zh": "街头小吃风格的菜单项；已审核卡片说明常见食用形式和风险。",
+        "nl": "Een streetfoodachtig menu-item; de geverifieerde kaart legt vorm en risico's uit."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        35,
+        "bouncy meatballs"
+      ],
+      [
+        "broth",
+        30,
+        "clear soup"
+      ],
+      [
+        "wheat-noodles",
+        15,
+        "noodle side"
+      ],
+      [
+        "mixed-vegetables",
+        8,
+        "greens"
+      ],
+      [
+        "soy-sauce",
+        5,
+        "seasoning",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        4,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "sambal",
+        3,
+        "optional heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "beef meatballs",
+      "clear broth",
+      "garlic"
+    ],
+    "basicTaste": [
+      "savory",
+      "mild",
+      "brothy"
+    ],
+    "textureProfile": [
+      "bouncy meatballs",
+      "soft noodles",
+      "clear soup"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-soy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "soup"
+    ],
+    "avoidIfTags": [
+      "avoids-beef",
+      "wants-rich-curry"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a mild brothy bowl with bouncy meatballs; avoid if you do not want beef or wheat noodles.",
+      "zh": "想要印尼牛肉丸汤，肉丸弹牙，配清汤、面条和可选参巴辣酱时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je Indonesische gehaktballensoep met veerkrachtige rundvleesballetjes, bouillon, noedels en eventueel sambal wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "nasi-padang",
+    "metadataCode": "117008",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Nasi Padang",
+      "zh": "巴东饭",
+      "nl": "Nasi Padang",
+      "local": "nasi Padang"
+    },
+    "category": "rice",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Rice served with several Padang-style side dishes such as rendang, curries, vegetables, and sambal.",
+      "zh": "巴东饭：米饭配多种巴东风味小菜，如仁当、咖喱、蔬菜和参巴，口味浓且选择多。",
+      "nl": "Nasi Padang: rijst met meerdere Padang-bijgerechten zoals rendang, curry's, groente en sambal."
+    },
+    "cookingProfile": {
+      "en": "assembled to order; expect rice with multiple saucy sides and varied textures.",
+      "zh": "通常现拌或组合后上桌，点餐时可预期：米饭配多种巴东风味小菜，如仁当、咖喱、蔬菜和参巴，口味浓且选择多。",
+      "nl": "Meestal samengesteld; verwacht vooral: rijst met meerdere Padang-bijgerechten zoals rendang, curry's, groente en sambal."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional",
+        "rice",
+        "variety"
+      ],
+      "description": {
+        "en": "A regional menu reference; the verified card captures the expected preparation style and common ordering risks.",
+        "zh": "带地区特点的菜单项；已审核卡片说明常见做法和点餐风险。",
+        "nl": "Een regionaal menu-item; de geverifieerde kaart beschrijft bereidingsstijl en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "steamed-rice",
+        35,
+        "rice base"
+      ],
+      [
+        "beef",
+        20,
+        "rendang or curry meat"
+      ],
+      [
+        "chicken",
+        15,
+        "side dish option"
+      ],
+      [
+        "mixed-vegetables",
+        12,
+        "vegetable side"
+      ],
+      [
+        "coconut-curry",
+        10,
+        "sauces",
+        "seasoning"
+      ],
+      [
+        "sambal",
+        5,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "egg",
+        3,
+        "side option"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "Padang spice sauces",
+      "coconut curry",
+      "sambal"
+    ],
+    "basicTaste": [
+      "spicy",
+      "savory",
+      "rich"
+    ],
+    "textureProfile": [
+      "rice with multiple saucy sides",
+      "varied textures"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "rice",
+      "variety"
+    ],
+    "avoidIfTags": [
+      "avoids-heat",
+      "wants-one-simple-dish"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a varied rice plate with bold spicy sides; avoid if you want a single mild dish.",
+      "zh": "想要米饭配多种巴东风味小菜，如仁当、咖喱、蔬菜和参巴，口味浓且选择多时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je rijst met meerdere Padang-bijgerechten zoals rendang, curry's, groente en sambal wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 3,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "ayam-penyet",
+    "metadataCode": "117009",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Ayam Penyet",
+      "zh": "印尼捶鸡饭",
+      "nl": "Ayam penyet",
+      "local": "ayam penyet"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "fried"
+    ],
+    "shortDescription": {
+      "en": "Indonesian smashed fried chicken served with rice, raw vegetables, and punchy sambal.",
+      "zh": "印尼捶鸡饭：印尼压扁炸鸡配米饭、生菜和浓烈参巴，外皮香脆，辣味常明显。",
+      "nl": "Ayam penyet: Indonesische platgeslagen gefrituurde kip met rijst, rauwe groente en pittige sambal."
+    },
+    "cookingProfile": {
+      "en": "fried; expect crisp chicken skin, juicy meat and soft rice.",
+      "zh": "通常煎炸后上桌，点餐时可预期：印尼压扁炸鸡配米饭、生菜和浓烈参巴，外皮香脆，辣味常明显。",
+      "nl": "Meestal gebakken in vet; verwacht vooral: Indonesische platgeslagen gefrituurde kip met rijst, rauwe groente en pittige sambal."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "fried-chicken",
+        "street-food"
+      ],
+      "description": {
+        "en": "A street-food style menu reference; the verified card explains the usual handheld or casual format and common risks.",
+        "zh": "街头小吃风格的菜单项；已审核卡片说明常见食用形式和风险。",
+        "nl": "Een streetfoodachtig menu-item; de geverifieerde kaart legt vorm en risico's uit."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        45,
+        "smashed fried chicken"
+      ],
+      [
+        "steamed-rice",
+        25,
+        "rice side"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "fresh sides"
+      ],
+      [
+        "sambal",
+        10,
+        "chili relish",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "marinade aroma",
+        "seasoning"
+      ],
+      [
+        "turmeric",
+        5,
+        "golden seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fried chicken",
+      "sambal",
+      "garlic-turmeric marinade"
+    ],
+    "basicTaste": [
+      "savory",
+      "spicy",
+      "fried"
+    ],
+    "textureProfile": [
+      "crisp chicken skin",
+      "juicy meat",
+      "soft rice"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "fried-chicken",
+      "street-food"
+    ],
+    "avoidIfTags": [
+      "avoids-heat",
+      "avoids-fried-food"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want fried chicken with serious sambal heat; avoid if fried food or chili paste is not wanted.",
+      "zh": "想要印尼压扁炸鸡配米饭、生菜和浓烈参巴，外皮香脆，辣味常明显时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je Indonesische platgeslagen gefrituurde kip met rijst, rauwe groente en pittige sambal wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 3,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "tempeh",
+    "metadataCode": "117010",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Tempeh",
+      "zh": "天贝",
+      "nl": "Tempeh",
+      "local": "tempe"
+    },
+    "category": "vegetarian-main",
+    "cookingMethods": [
+      "fried",
+      "stir-fried"
+    ],
+    "shortDescription": {
+      "en": "Fermented soy cake served fried or sauced; nutty, firm, and often paired with sweet soy or sambal.",
+      "zh": "天贝：天贝是发酵豆制品，常炸或裹酱，坚果香明显，质地结实。",
+      "nl": "Tempeh: gefermenteerde sojakoek, gebakken of in saus; nootachtig, stevig en vaak met ketjap of sambal."
+    },
+    "cookingProfile": {
+      "en": "fried and stir-fried; expect firm soy cake, crisp edges and chewy center.",
+      "zh": "通常煎炸并快炒后上桌，点餐时可预期：天贝是发酵豆制品，常炸或裹酱，坚果香明显，质地结实。",
+      "nl": "Meestal gebakken in vet en geroerbakt; verwacht vooral: gefermenteerde sojakoek, gebakken of in saus; nootachtig, stevig en vaak met ketjap of sambal."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "vegetarian-friendly",
+        "protein"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "tempeh",
+        45,
+        "fermented soy cake"
+      ],
+      [
+        "ketjap-manis",
+        15,
+        "sweet soy glaze",
+        "seasoning"
+      ],
+      [
+        "sambal",
+        10,
+        "chili paste",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        8,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "coriander",
+        5,
+        "spice",
+        "seasoning"
+      ],
+      [
+        "steamed-rice",
+        12,
+        "serving base"
+      ],
+      [
+        "sea-salt",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "nutty fermented soy",
+      "sweet soy",
+      "sambal"
+    ],
+    "basicTaste": [
+      "savory",
+      "nutty",
+      "sweet-spicy"
+    ],
+    "textureProfile": [
+      "firm soy cake",
+      "crisp edges",
+      "chewy center"
+    ],
+    "riskFlags": [
+      "contains-soy",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "vegetarian-friendly",
+      "protein"
+    ],
+    "avoidIfTags": [
+      "soy-allergy",
+      "dislikes-fermented-soy"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a firm vegetarian soy protein with nutty flavor; avoid if soy or fermented flavors are a concern.",
+      "zh": "想要天贝是发酵豆制品，常炸或裹酱，坚果香明显，质地结实时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je gefermenteerde sojakoek, gebakken of in saus; nootachtig, stevig en vaak met ketjap of sambal wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "ikan-bakar",
+    "metadataCode": "117011",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Ikan Bakar",
+      "zh": "印尼烤鱼",
+      "nl": "Ikan bakar",
+      "local": "ikan bakar"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "shortDescription": {
+      "en": "Grilled fish with Indonesian spice paste, sweet soy, sambal, and lime; smoky and often spicy.",
+      "zh": "印尼烤鱼：印尼烤鱼刷香料、甜酱油和参巴，带烟熏焦香，常有辣味。",
+      "nl": "Ikan bakar: gegrilde vis met Indonesische kruidenpasta, ketjap, sambal en limoen; rokerig en vaak pittig."
+    },
+    "cookingProfile": {
+      "en": "grilled over high heat; expect flaky fish, charred edges and sticky glaze.",
+      "zh": "通常高温烤制后上桌，点餐时可预期：印尼烤鱼刷香料、甜酱油和参巴，带烟熏焦香，常有辣味。",
+      "nl": "Meestal op hoge hitte gegrild; verwacht vooral: gegrilde vis met Indonesische kruidenpasta, ketjap, sambal en limoen; rokerig en vaak pittig."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "seafood",
+        "grilled"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        55,
+        "grilled fish"
+      ],
+      [
+        "sambal",
+        12,
+        "chili glaze",
+        "seasoning"
+      ],
+      [
+        "ketjap-manis",
+        10,
+        "sweet soy glaze",
+        "seasoning"
+      ],
+      [
+        "lime",
+        8,
+        "finish"
+      ],
+      [
+        "garlic",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "turmeric",
+        5,
+        "marinade color",
+        "seasoning"
+      ],
+      [
+        "coriander",
+        5,
+        "spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "grilled fish",
+      "sweet soy chili glaze",
+      "lime"
+    ],
+    "basicTaste": [
+      "savory",
+      "smoky",
+      "spicy-sweet"
+    ],
+    "textureProfile": [
+      "flaky fish",
+      "charred edges",
+      "sticky glaze"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-soy",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "seafood",
+      "grilled"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "avoids-heat"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want smoky grilled fish with chili-sweet glaze; avoid if fish or chili heat is a problem.",
+      "zh": "想要印尼烤鱼刷香料、甜酱油和参巴，带烟熏焦香，常有辣味时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je gegrilde vis met Indonesische kruidenpasta, ketjap, sambal en limoen; rokerig en vaak pittig wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 3,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "pisang-goreng",
+    "metadataCode": "117012",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Pisang Goreng",
+      "zh": "炸香蕉",
+      "nl": "Pisang goreng",
+      "local": "pisang goreng"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "deep-fried"
+    ],
+    "shortDescription": {
+      "en": "Indonesian fried banana fritter with crisp batter and soft sweet fruit inside.",
+      "zh": "炸香蕉：印尼炸香蕉，外层面衣酥脆，里面香蕉热软香甜。",
+      "nl": "Pisang goreng: Indonesische gebakken banaanbeignet met krokant beslag en zachte zoete banaan erin."
+    },
+    "cookingProfile": {
+      "en": "deep-fried; expect crisp batter and soft hot banana.",
+      "zh": "通常油炸后上桌，点餐时可预期：印尼炸香蕉，外层面衣酥脆，里面香蕉热软香甜。",
+      "nl": "Meestal gefrituurd; verwacht vooral: Indonesische gebakken banaanbeignet met krokant beslag en zachte zoete banaan erin."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "dessert",
+        "street-food"
+      ],
+      "description": {
+        "en": "A street-food style menu reference; the verified card explains the usual handheld or casual format and common risks.",
+        "zh": "街头小吃风格的菜单项；已审核卡片说明常见食用形式和风险。",
+        "nl": "Een streetfoodachtig menu-item; de geverifieerde kaart legt vorm en risico's uit."
+      }
+    },
+    "composition": [
+      [
+        "banana",
+        50,
+        "sweet banana"
+      ],
+      [
+        "wheat-flour",
+        25,
+        "batter"
+      ],
+      [
+        "rice-flour-batter",
+        10,
+        "crispness"
+      ],
+      [
+        "sugar",
+        8,
+        "sweetness"
+      ],
+      [
+        "cinnamon",
+        4,
+        "optional warmth",
+        "seasoning"
+      ],
+      [
+        "sea-salt",
+        3,
+        "balance",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fried banana",
+      "caramelized sugar",
+      "light batter"
+    ],
+    "basicTaste": [
+      "sweet",
+      "fried",
+      "fruity"
+    ],
+    "textureProfile": [
+      "crisp batter",
+      "soft hot banana"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "street-food"
+    ],
+    "avoidIfTags": [
+      "avoids-fried-food",
+      "avoids-gluten"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a simple warm fried fruit dessert; avoid if fried batter or gluten is unwanted.",
+      "zh": "想要印尼炸香蕉，外层面衣酥脆，里面香蕉热软香甜时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je Indonesische gebakken banaanbeignet met krokant beslag en zachte zoete banaan erin wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "laksa",
+    "metadataCode": "118001",
+    "cuisineId": "malaysian-singaporean",
+    "names": {
+      "en": "Laksa",
+      "zh": "叻沙",
+      "nl": "Laksa",
+      "local": "laksa"
+    },
+    "category": "noodle-soup",
+    "cookingMethods": [
+      "simmered",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Spicy coconut curry noodle soup with rice noodles, seafood or chicken, tofu puffs, and herbs.",
+      "zh": "叻沙：椰香咖喱辣汤面，常配河粉、海鲜或鸡肉、豆腐泡和香草，汤底浓厚。",
+      "nl": "Laksa: pittige kokos-curry noedelsoep met rijstnoedels, zeevruchten of kip, tofu en kruiden."
+    },
+    "cookingProfile": {
+      "en": "simmered and assembled to order; expect slippery noodles, creamy broth and crunchy sprouts.",
+      "zh": "通常慢煮并现拌或组合后上桌，点餐时可预期：椰香咖喱辣汤面，常配河粉、海鲜或鸡肉、豆腐泡和香草，汤底浓厚。",
+      "nl": "Meestal zacht gestoofd en samengesteld; verwacht vooral: pittige kokos-curry noedelsoep met rijstnoedels, zeevruchten of kip, tofu en kruiden."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature",
+        "noodle",
+        "signature-dish"
+      ],
+      "description": {
+        "en": "A signature menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的代表性菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een kenmerkend menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "rice-noodles",
+        35,
+        "noodle base"
+      ],
+      [
+        "coconut-milk",
+        25,
+        "creamy broth",
+        "seasoning"
+      ],
+      [
+        "shrimp",
+        15,
+        "seafood topping"
+      ],
+      [
+        "tofu",
+        8,
+        "puff or cubes"
+      ],
+      [
+        "bean-sprouts",
+        7,
+        "fresh crunch"
+      ],
+      [
+        "coconut-curry",
+        6,
+        "spice paste",
+        "seasoning"
+      ],
+      [
+        "chili",
+        4,
+        "heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "coconut curry broth",
+      "shrimp",
+      "chili paste"
+    ],
+    "basicTaste": [
+      "creamy",
+      "spicy",
+      "savory"
+    ],
+    "textureProfile": [
+      "slippery noodles",
+      "creamy broth",
+      "crunchy sprouts"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-soy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "noodle",
+      "signature-dish"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "wants-clear-broth"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a creamy spicy noodle soup; avoid if you prefer clear broth or cannot eat shellfish.",
+      "zh": "想要椰香咖喱辣汤面，常配河粉、海鲜或鸡肉、豆腐泡和香草，汤底浓厚时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je pittige kokos-curry noedelsoep met rijstnoedels, zeevruchten of kip, tofu en kruiden wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 3,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "hainanese-chicken-rice",
+    "metadataCode": "118002",
+    "cuisineId": "malaysian-singaporean",
+    "names": {
+      "en": "Hainanese Chicken Rice",
+      "zh": "海南鸡饭",
+      "nl": "Hainanese chicken rice",
+      "local": "海南鸡饭"
+    },
+    "category": "rice",
+    "cookingMethods": [
+      "boiled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Poached chicken with fragrant chicken rice, cucumber, broth, and ginger-chili sauces; gentle but deeply savory.",
+      "zh": "海南鸡饭：白切鸡配鸡油香饭、黄瓜、清汤和姜葱辣椒酱，口味温和但很鲜。",
+      "nl": "Hainanese chicken rice: gepocheerde kip met geurige kiprijst, komkommer, bouillon en gember-chilisaus; mild maar hartig."
+    },
+    "cookingProfile": {
+      "en": "boiled or poached and assembled to order; expect silky poached chicken, fragrant rice and cool cucumber.",
+      "zh": "通常水煮或汆熟并现拌或组合后上桌，点餐时可预期：白切鸡配鸡油香饭、黄瓜、清汤和姜葱辣椒酱，口味温和但很鲜。",
+      "nl": "Meestal gekookt of gepocheerd en samengesteld; verwacht vooral: gepocheerde kip met geurige kiprijst, komkommer, bouillon en gember-chilisaus; mild maar hartig."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature",
+        "signature-dish",
+        "safe-choice"
+      ],
+      "description": {
+        "en": "A signature menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的代表性菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een kenmerkend menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "poached-chicken",
+        35,
+        "silky chicken"
+      ],
+      [
+        "steamed-rice",
+        35,
+        "chicken-fat rice"
+      ],
+      [
+        "cucumber",
+        8,
+        "fresh garnish"
+      ],
+      [
+        "ginger-scallion-sauce",
+        8,
+        "ginger sauce",
+        "seasoning"
+      ],
+      [
+        "soy-sauce",
+        7,
+        "savory sauce",
+        "seasoning"
+      ],
+      [
+        "chili",
+        4,
+        "chili dip",
+        "seasoning"
+      ],
+      [
+        "broth",
+        3,
+        "side soup"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "chicken rice",
+      "ginger-scallion sauce",
+      "chili dip"
+    ],
+    "basicTaste": [
+      "savory",
+      "mild",
+      "gingery"
+    ],
+    "textureProfile": [
+      "silky poached chicken",
+      "fragrant rice",
+      "cool cucumber"
+    ],
+    "riskFlags": [
+      "contains-soy",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "signature-dish",
+      "safe-choice"
+    ],
+    "avoidIfTags": [
+      "wants-bold-spicy-main"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a gentle rice-and-chicken plate with aromatic sauces; avoid if you want heavy spices or crispy fried texture.",
+      "zh": "想要白切鸡配鸡油香饭、黄瓜、清汤和姜葱辣椒酱，口味温和但很鲜时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je gepocheerde kip met geurige kiprijst, komkommer, bouillon en gember-chilisaus; mild maar hartig wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "char-kway-teow",
+    "metadataCode": "118003",
+    "cuisineId": "malaysian-singaporean",
+    "names": {
+      "en": "Char Kway Teow",
+      "zh": "炒粿条",
+      "nl": "Char kway teow",
+      "local": "炒粿条"
+    },
+    "category": "noodle",
+    "cookingMethods": [
+      "stir-fried"
+    ],
+    "shortDescription": {
+      "en": "Smoky stir-fried flat rice noodles with egg, shrimp, bean sprouts, and dark soy; oily and wok-charred.",
+      "zh": "炒粿条：镬气炒粿条，宽河粉配蛋、虾、豆芽和黑酱油，油润烟香。",
+      "nl": "Char kway teow: rokerig geroerbakte platte rijstnoedels met ei, garnaal, taugé en donkere soja; vettig en wokgeblakerd."
+    },
+    "cookingProfile": {
+      "en": "stir-fried; expect soft wide noodles, crisp sprouts and juicy shrimp.",
+      "zh": "通常快炒后上桌，点餐时可预期：镬气炒粿条，宽河粉配蛋、虾、豆芽和黑酱油，油润烟香。",
+      "nl": "Meestal geroerbakt; verwacht vooral: rokerig geroerbakte platte rijstnoedels met ei, garnaal, taugé en donkere soja; vettig en wokgeblakerd."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "noodle",
+        "street-food"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "wide-rice-noodles",
+        45,
+        "flat noodles"
+      ],
+      [
+        "shrimp",
+        15,
+        "seafood"
+      ],
+      [
+        "egg",
+        12,
+        "scrambled egg"
+      ],
+      [
+        "bean-sprouts",
+        10,
+        "crunch"
+      ],
+      [
+        "sausage-global",
+        8,
+        "Chinese sausage"
+      ],
+      [
+        "soy-sauce",
+        5,
+        "dark seasoning",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "optional heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "wok hei",
+      "dark soy",
+      "seafood and sausage"
+    ],
+    "basicTaste": [
+      "savory",
+      "smoky",
+      "slightly sweet"
+    ],
+    "textureProfile": [
+      "soft wide noodles",
+      "crisp sprouts",
+      "juicy shrimp"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-egg",
+      "contains-soy",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "noodle",
+      "street-food"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "avoids-oily-noodles"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want smoky wok-fried noodles; avoid if shellfish, egg, or oily noodles are an issue.",
+      "zh": "想要镬气炒粿条，宽河粉配蛋、虾、豆芽和黑酱油，油润烟香时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je rokerig geroerbakte platte rijstnoedels met ei, garnaal, taugé en donkere soja; vettig en wokgeblakerd wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "nasi-lemak",
+    "metadataCode": "118004",
+    "cuisineId": "malaysian-singaporean",
+    "names": {
+      "en": "Nasi Lemak",
+      "zh": "椰浆饭",
+      "nl": "Nasi lemak",
+      "local": "nasi lemak"
+    },
+    "category": "rice",
+    "cookingMethods": [
+      "steamed",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Coconut rice with sambal, egg, peanuts, anchovies, and cucumber; fragrant, spicy-sweet, and salty.",
+      "zh": "椰浆饭：椰浆饭配参巴、鸡蛋、花生、小鱼干和黄瓜，椰香、辣甜和咸鲜并重。",
+      "nl": "Nasi lemak: kokosrijst met sambal, ei, pinda's, ansjovis en komkommer; geurig, pittig-zoet en zoutig."
+    },
+    "cookingProfile": {
+      "en": "steamed and assembled to order; expect soft fragrant rice, crunchy peanuts and crisp anchovies.",
+      "zh": "通常蒸制并现拌或组合后上桌，点餐时可预期：椰浆饭配参巴、鸡蛋、花生、小鱼干和黄瓜，椰香、辣甜和咸鲜并重。",
+      "nl": "Meestal gestoomd en samengesteld; verwacht vooral: kokosrijst met sambal, ei, pinda's, ansjovis en komkommer; geurig, pittig-zoet en zoutig."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature",
+        "signature-dish",
+        "rice"
+      ],
+      "description": {
+        "en": "A signature menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的代表性菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een kenmerkend menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "steamed-rice",
+        40,
+        "coconut rice"
+      ],
+      [
+        "coconut-milk",
+        15,
+        "rice aroma",
+        "seasoning"
+      ],
+      [
+        "egg",
+        12,
+        "boiled egg"
+      ],
+      [
+        "peanuts",
+        10,
+        "crunch"
+      ],
+      [
+        "anchovies",
+        10,
+        "salty ikan bilis"
+      ],
+      [
+        "sambal",
+        8,
+        "chili relish",
+        "seasoning"
+      ],
+      [
+        "cucumber",
+        5,
+        "fresh side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "coconut rice",
+      "sambal",
+      "fried anchovies"
+    ],
+    "basicTaste": [
+      "savory",
+      "spicy",
+      "coconut-sweet"
+    ],
+    "textureProfile": [
+      "soft fragrant rice",
+      "crunchy peanuts",
+      "crisp anchovies"
+    ],
+    "riskFlags": [
+      "contains-peanut",
+      "contains-egg",
+      "contains-fish",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "signature-dish",
+      "rice"
+    ],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "fish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a fragrant coconut rice plate with sambal; avoid if peanuts, egg, or dried fish are unsafe.",
+      "zh": "想要椰浆饭配参巴、鸡蛋、花生、小鱼干和黄瓜，椰香、辣甜和咸鲜并重时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je kokosrijst met sambal, ei, pinda's, ansjovis en komkommer; geurig, pittig-zoet en zoutig wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 3,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "roti-canai",
+    "metadataCode": "118005",
+    "cuisineId": "malaysian-singaporean",
+    "names": {
+      "en": "Roti Canai",
+      "zh": "印度煎饼配咖喱",
+      "nl": "Roti canai",
+      "local": "roti canai"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "fried"
+    ],
+    "shortDescription": {
+      "en": "Flaky pan-fried flatbread served with curry sauce; crisp, chewy, buttery, and great for dipping.",
+      "zh": "印度煎饼配咖喱：煎制多层扁面饼配咖喱蘸汁，边缘酥、中心韧，黄油香明显。",
+      "nl": "Roti canai: vlokkig gebakken platbrood met currysaus; krokant, taai, boterig en goed om te dippen."
+    },
+    "cookingProfile": {
+      "en": "fried; expect flaky crisp edges, chewy center and saucy dip.",
+      "zh": "通常煎炸后上桌，点餐时可预期：煎制多层扁面饼配咖喱蘸汁，边缘酥、中心韧，黄油香明显。",
+      "nl": "Meestal gebakken in vet; verwacht vooral: vlokkig gebakken platbrood met currysaus; krokant, taai, boterig en goed om te dippen."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "bread",
+        "snack"
+      ],
+      "description": {
+        "en": "A street-food style menu reference; the verified card explains the usual handheld or casual format and common risks.",
+        "zh": "街头小吃风格的菜单项；已审核卡片说明常见食用形式和风险。",
+        "nl": "Een streetfoodachtig menu-item; de geverifieerde kaart legt vorm en risico's uit."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        55,
+        "flaky flatbread"
+      ],
+      [
+        "butter",
+        15,
+        "rich layers"
+      ],
+      [
+        "coconut-curry",
+        15,
+        "curry dip",
+        "seasoning"
+      ],
+      [
+        "sea-salt",
+        5,
+        "seasoning",
+        "seasoning"
+      ],
+      [
+        "garam-masala",
+        5,
+        "dip spice",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "optional heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "flaky flatbread",
+      "buttery layers",
+      "curry dip"
+    ],
+    "basicTaste": [
+      "savory",
+      "buttery",
+      "mildly spiced"
+    ],
+    "textureProfile": [
+      "flaky crisp edges",
+      "chewy center",
+      "saucy dip"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "bread",
+      "snack"
+    ],
+    "avoidIfTags": [
+      "avoids-gluten",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want flaky bread with curry dip; avoid if gluten, dairy, or oily bread is unwanted.",
+      "zh": "想要煎制多层扁面饼配咖喱蘸汁，边缘酥、中心韧，黄油香明显时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je vlokkig gebakken platbrood met currysaus; krokant, taai, boterig en goed om te dippen wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "satay",
+    "metadataCode": "118006",
+    "cuisineId": "malaysian-singaporean",
+    "names": {
+      "en": "Satay",
+      "zh": "沙爹串",
+      "nl": "Saté",
+      "local": "satay"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "shortDescription": {
+      "en": "Grilled meat skewers with peanut sauce and sweet soy; common as a snack, starter, or rice-plate protein.",
+      "zh": "沙爹串：烤肉串配花生酱和甜酱油，可作小吃、前菜或饭盘配肉。",
+      "nl": "Saté: gegrilde vleesspiesjes met pindasaus en ketjap; vaak snack, voorgerecht of rijstbord-eiwit."
+    },
+    "cookingProfile": {
+      "en": "grilled over high heat; expect charred meat and creamy sauce.",
+      "zh": "通常高温烤制后上桌，点餐时可预期：烤肉串配花生酱和甜酱油，可作小吃、前菜或饭盘配肉。",
+      "nl": "Meestal op hoge hitte gegrild; verwacht vooral: gegrilde vleesspiesjes met pindasaus en ketjap; vaak snack, voorgerecht of rijstbord-eiwit."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "shareable",
+        "street-food"
+      ],
+      "description": {
+        "en": "A street-food style menu reference; the verified card explains the usual handheld or casual format and common risks.",
+        "zh": "街头小吃风格的菜单项；已审核卡片说明常见食用形式和风险。",
+        "nl": "Een streetfoodachtig menu-item; de geverifieerde kaart legt vorm en risico's uit."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        45,
+        "skewered meat"
+      ],
+      [
+        "beef",
+        15,
+        "alternate skewer meat"
+      ],
+      [
+        "satay-sauce",
+        25,
+        "peanut sauce",
+        "seasoning"
+      ],
+      [
+        "ketjap-manis",
+        7,
+        "sweet soy glaze",
+        "seasoning"
+      ],
+      [
+        "cucumber",
+        5,
+        "fresh side"
+      ],
+      [
+        "sambal",
+        3,
+        "heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "grilled skewers",
+      "peanut sauce",
+      "sweet soy"
+    ],
+    "basicTaste": [
+      "savory",
+      "nutty",
+      "sweet"
+    ],
+    "textureProfile": [
+      "charred meat",
+      "creamy sauce"
+    ],
+    "riskFlags": [
+      "contains-peanut",
+      "contains-soy",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "shareable",
+      "street-food"
+    ],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "avoids-sweet-sauce"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want grilled skewers with peanut sauce; avoid if peanuts or sweet soy sauce are a concern.",
+      "zh": "想要烤肉串配花生酱和甜酱油，可作小吃、前菜或饭盘配肉时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je gegrilde vleesspiesjes met pindasaus en ketjap; vaak snack, voorgerecht of rijstbord-eiwit wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "bak-kut-teh",
+    "metadataCode": "118007",
+    "cuisineId": "malaysian-singaporean",
+    "names": {
+      "en": "Bak Kut Teh",
+      "zh": "肉骨茶",
+      "nl": "Bak kut teh",
+      "local": "肉骨茶"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Peppery herbal pork rib soup, usually served with rice and soy-chili dips; brothy rather than creamy.",
+      "zh": "肉骨茶：胡椒药材猪骨汤，常配米饭和酱油辣椒蘸料，是清汤型而非奶油汤。",
+      "nl": "Bak kut teh: peperige kruidige varkensribsoep, meestal met rijst en soja-chilidips; bouillonachtig, niet romig."
+    },
+    "cookingProfile": {
+      "en": "simmered; expect tender pork ribs and clear hot broth.",
+      "zh": "通常慢煮后上桌，点餐时可预期：胡椒药材猪骨汤，常配米饭和酱油辣椒蘸料，是清汤型而非奶油汤。",
+      "nl": "Meestal zacht gestoofd; verwacht vooral: peperige kruidige varkensribsoep, meestal met rijst en soja-chilidips; bouillonachtig, niet romig."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional",
+        "soup",
+        "pork-lover"
+      ],
+      "description": {
+        "en": "A regional menu reference; the verified card captures the expected preparation style and common ordering risks.",
+        "zh": "带地区特点的菜单项；已审核卡片说明常见做法和点餐风险。",
+        "nl": "Een regionaal menu-item; de geverifieerde kaart beschrijft bereidingsstijl en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "pork",
+        45,
+        "pork ribs"
+      ],
+      [
+        "broth",
+        35,
+        "pepper-herb broth"
+      ],
+      [
+        "mushrooms",
+        8,
+        "optional side"
+      ],
+      [
+        "garlic",
+        5,
+        "broth aroma",
+        "seasoning"
+      ],
+      [
+        "black-pepper",
+        4,
+        "pepper heat",
+        "seasoning"
+      ],
+      [
+        "soy-sauce",
+        3,
+        "savory dip",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "peppery pork broth",
+      "garlic",
+      "herbal soup"
+    ],
+    "basicTaste": [
+      "savory",
+      "peppery",
+      "brothy"
+    ],
+    "textureProfile": [
+      "tender pork ribs",
+      "clear hot broth"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-soy",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "soup",
+      "pork-lover"
+    ],
+    "avoidIfTags": [
+      "avoids-pork",
+      "wants-vegetarian"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a hot peppery pork rib soup; avoid if pork broth is not acceptable.",
+      "zh": "想要胡椒药材猪骨汤，常配米饭和酱油辣椒蘸料，是清汤型而非奶油汤时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je peperige kruidige varkensribsoep, meestal met rijst en soja-chilidips; bouillonachtig, niet romig wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "chili-crab",
+    "metadataCode": "118008",
+    "cuisineId": "malaysian-singaporean",
+    "names": {
+      "en": "Chili Crab",
+      "zh": "辣椒蟹",
+      "nl": "Chili crab",
+      "local": "辣椒蟹"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Singapore-style crab in thick sweet-spicy tomato chili sauce, often eaten messily with fried buns.",
+      "zh": "辣椒蟹：新加坡辣椒蟹，蟹裹浓稠甜辣番茄酱，常配馒头蘸酱，吃法比较“动手”。",
+      "nl": "Chili crab: Singaporese krab in dikke zoet-pittige tomaten-chilisaus, vaak rommelig gegeten met broodjes."
+    },
+    "cookingProfile": {
+      "en": "simmered; expect messy shellfish, thick glossy sauce and soft egg ribbons.",
+      "zh": "通常慢煮后上桌，点餐时可预期：新加坡辣椒蟹，蟹裹浓稠甜辣番茄酱，常配馒头蘸酱，吃法比较“动手”。",
+      "nl": "Meestal zacht gestoofd; verwacht vooral: Singaporese krab in dikke zoet-pittige tomaten-chilisaus, vaak rommelig gegeten met broodjes."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature",
+        "signature-dish",
+        "shareable"
+      ],
+      "description": {
+        "en": "A signature menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的代表性菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een kenmerkend menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "crab",
+        45,
+        "crab meat"
+      ],
+      [
+        "tomato-sauce",
+        20,
+        "sweet chili tomato sauce",
+        "seasoning"
+      ],
+      [
+        "egg",
+        10,
+        "sauce ribbons"
+      ],
+      [
+        "chili",
+        10,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "soy-sauce",
+        5,
+        "umami",
+        "seasoning"
+      ],
+      [
+        "bread",
+        5,
+        "mantou or dipping bread"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "sweet chili tomato sauce",
+      "shellfish",
+      "garlic"
+    ],
+    "basicTaste": [
+      "sweet",
+      "spicy",
+      "savory"
+    ],
+    "textureProfile": [
+      "messy shellfish",
+      "thick glossy sauce",
+      "soft egg ribbons"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-egg",
+      "contains-soy",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "signature-dish",
+      "shareable"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "wants-neat-eating"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a shareable saucy shellfish centerpiece; avoid if shellfish or messy hands-on eating is a problem.",
+      "zh": "想要新加坡辣椒蟹，蟹裹浓稠甜辣番茄酱，常配馒头蘸酱，吃法比较“动手”时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je Singaporese krab in dikke zoet-pittige tomaten-chilisaus, vaak rommelig gegeten met broodjes wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 2,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "hokkien-mee",
+    "metadataCode": "118009",
+    "cuisineId": "malaysian-singaporean",
+    "names": {
+      "en": "Hokkien Mee",
+      "zh": "福建面",
+      "nl": "Hokkien mee",
+      "local": "福建面"
+    },
+    "category": "noodle",
+    "cookingMethods": [
+      "stir-fried",
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Singapore/Malaysian fried prawn noodles braised with seafood stock, usually moist rather than dry.",
+      "zh": "福建面：福建虾面以海鲜高汤焖炒黄面和米粉，通常湿润带汤汁，不是干炒面。",
+      "nl": "Hokkien mee: Singaporese/Maleisische garnalenoedels met zeevruchtenbouillon, meestal vochtig in plaats van droog."
+    },
+    "cookingProfile": {
+      "en": "stir-fried and simmered; expect moist fried noodles, springy seafood and saucy gloss.",
+      "zh": "通常快炒并慢煮后上桌，点餐时可预期：福建虾面以海鲜高汤焖炒黄面和米粉，通常湿润带汤汁，不是干炒面。",
+      "nl": "Meestal geroerbakt en zacht gestoofd; verwacht vooral: Singaporese/Maleisische garnalenoedels met zeevruchtenbouillon, meestal vochtig in plaats van droog."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "noodle",
+        "street-food"
+      ],
+      "description": {
+        "en": "A street-food style menu reference; the verified card explains the usual handheld or casual format and common risks.",
+        "zh": "街头小吃风格的菜单项；已审核卡片说明常见食用形式和风险。",
+        "nl": "Een streetfoodachtig menu-item; de geverifieerde kaart legt vorm en risico's uit."
+      }
+    },
+    "composition": [
+      [
+        "wheat-noodles",
+        35,
+        "yellow noodles"
+      ],
+      [
+        "rice-noodles",
+        20,
+        "rice vermicelli"
+      ],
+      [
+        "shrimp",
+        15,
+        "seafood"
+      ],
+      [
+        "squid",
+        10,
+        "seafood"
+      ],
+      [
+        "pork",
+        8,
+        "pork lard or slices"
+      ],
+      [
+        "broth",
+        7,
+        "seafood stock"
+      ],
+      [
+        "chili",
+        3,
+        "side chili",
+        "seasoning"
+      ],
+      [
+        "lime",
+        2,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "seafood stock",
+      "wok noodles",
+      "lime chili"
+    ],
+    "basicTaste": [
+      "savory",
+      "seafood-umami",
+      "lightly smoky"
+    ],
+    "textureProfile": [
+      "moist fried noodles",
+      "springy seafood",
+      "saucy gloss"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-pork",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "noodle",
+      "street-food"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "avoids-pork"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want moist seafood-rich fried noodles; avoid if shellfish, pork, or wheat noodles are unsafe.",
+      "zh": "想要福建虾面以海鲜高汤焖炒黄面和米粉，通常湿润带汤汁，不是干炒面时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je Singaporese/Maleisische garnalenoedels met zeevruchtenbouillon, meestal vochtig in plaats van droog wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "rendang-chicken",
+    "metadataCode": "118010",
+    "cuisineId": "malaysian-singaporean",
+    "names": {
+      "en": "Chicken Rendang",
+      "zh": "鸡肉仁当",
+      "nl": "Kip rendang",
+      "local": "rendang ayam"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "braised",
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Chicken cooked in rendang-style coconut spice paste until rich, aromatic, and thickly coated.",
+      "zh": "鸡肉仁当：鸡肉以仁当风格椰香香料酱慢煮收浓，香气厚，酱汁包裹感强。",
+      "nl": "Kip rendang: kip in rendang-achtige kokos-specerijenpasta, rijk, aromatisch en dik omhuld."
+    },
+    "cookingProfile": {
+      "en": "slow-braised and simmered; expect tender chicken and thick reduced coating.",
+      "zh": "通常慢炖并慢煮后上桌，点餐时可预期：鸡肉以仁当风格椰香香料酱慢煮收浓，香气厚，酱汁包裹感强。",
+      "nl": "Meestal langzaam gestoofd en zacht gestoofd; verwacht vooral: kip in rendang-achtige kokos-specerijenpasta, rijk, aromatisch en dik omhuld."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "meat",
+        "saucy"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        45,
+        "braised chicken"
+      ],
+      [
+        "coconut-milk",
+        22,
+        "reduced sauce",
+        "seasoning"
+      ],
+      [
+        "coconut-curry",
+        12,
+        "spice paste",
+        "seasoning"
+      ],
+      [
+        "lemongrass",
+        6,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "chili",
+        6,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "turmeric",
+        5,
+        "earthy color",
+        "seasoning"
+      ],
+      [
+        "toasted-coconut",
+        4,
+        "toasty body"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "coconut spice paste",
+      "lemongrass",
+      "chicken"
+    ],
+    "basicTaste": [
+      "rich",
+      "spicy",
+      "aromatic"
+    ],
+    "textureProfile": [
+      "tender chicken",
+      "thick reduced coating"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "meat",
+      "saucy"
+    ],
+    "avoidIfTags": [
+      "avoids-heat",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want rendang flavor with chicken instead of beef; avoid if you want a thin mild curry.",
+      "zh": "想要鸡肉以仁当风格椰香香料酱慢煮收浓，香气厚，酱汁包裹感强时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je kip in rendang-achtige kokos-specerijenpasta, rijk, aromatisch en dik omhuld wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 3,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "kaya-toast",
+    "metadataCode": "118011",
+    "cuisineId": "malaysian-singaporean",
+    "names": {
+      "en": "Kaya Toast",
+      "zh": "咖椰吐司",
+      "nl": "Kaya toast",
+      "local": "kaya toast"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "toasted",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Singapore/Malaysian toast with kaya coconut-egg jam and butter, often served with soft eggs.",
+      "zh": "咖椰吐司：咖椰吐司夹椰香鸡蛋酱和黄油，常配半熟蛋，甜咸早餐感明显。",
+      "nl": "Kaya toast: Singaporese/Maleisische toast met kaya kokos-eijam en boter, vaak met zachte eieren."
+    },
+    "cookingProfile": {
+      "en": "toasted and assembled to order; expect crisp toast, melting butter and sticky kaya.",
+      "zh": "通常烤脆并现拌或组合后上桌，点餐时可预期：咖椰吐司夹椰香鸡蛋酱和黄油，常配半熟蛋，甜咸早餐感明显。",
+      "nl": "Meestal geroosterd en samengesteld; verwacht vooral: Singaporese/Maleisische toast met kaya kokos-eijam en boter, vaak met zachte eieren."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "breakfast",
+        "snack"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        45,
+        "toast"
+      ],
+      [
+        "butter",
+        20,
+        "cold butter slices"
+      ],
+      [
+        "egg",
+        15,
+        "kaya coconut egg jam"
+      ],
+      [
+        "coconut-milk",
+        10,
+        "jam richness",
+        "seasoning"
+      ],
+      [
+        "sugar",
+        7,
+        "sweetness"
+      ],
+      [
+        "soy-sauce",
+        3,
+        "soft-boiled egg side seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "coconut egg jam",
+      "butter",
+      "toast"
+    ],
+    "basicTaste": [
+      "sweet",
+      "buttery",
+      "toasty"
+    ],
+    "textureProfile": [
+      "crisp toast",
+      "melting butter",
+      "sticky kaya"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-egg",
+      "contains-soy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "breakfast",
+      "snack"
+    ],
+    "avoidIfTags": [
+      "avoids-sweet-breakfast",
+      "avoids-egg"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a sweet buttery toast snack or breakfast; avoid if egg, dairy, gluten, or sweet toast is not wanted.",
+      "zh": "想要咖椰吐司夹椰香鸡蛋酱和黄油，常配半熟蛋，甜咸早餐感明显时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je Singaporese/Maleisische toast met kaya kokos-eijam en boter, vaak met zachte eieren wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "ice-kacang",
+    "metadataCode": "118012",
+    "cuisineId": "malaysian-singaporean",
+    "names": {
+      "en": "Ice Kacang",
+      "zh": "红豆刨冰",
+      "nl": "Ice kacang",
+      "local": "ais kacang"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "assembled",
+      "chilled"
+    ],
+    "shortDescription": {
+      "en": "Shaved ice dessert with syrups, beans, corn, jelly-like toppings, and condensed milk; colorful and very sweet.",
+      "zh": "红豆刨冰：红豆冰刨冰甜品，配糖浆、豆类、玉米、冻类和炼乳，颜色鲜艳且很甜。",
+      "nl": "Ice kacang: geschaafd ijs met siropen, bonen, mais, jelly-achtige toppings en gecondenseerde melk; kleurrijk en heel zoet."
+    },
+    "cookingProfile": {
+      "en": "assembled to order and served cold; expect icy, soft beans and chewy mixed toppings.",
+      "zh": "通常现拌或组合并冷食后上桌，点餐时可预期：红豆冰刨冰甜品，配糖浆、豆类、玉米、冻类和炼乳，颜色鲜艳且很甜。",
+      "nl": "Meestal samengesteld en koud geserveerd; verwacht vooral: geschaafd ijs met siropen, bonen, mais, jelly-achtige toppings en gecondenseerde melk; kleurrijk en heel zoet."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "dessert",
+        "cooling"
+      ],
+      "description": {
+        "en": "A classic menu reference for this cuisine; the verified card focuses on its usual format, texture, and ordering risks.",
+        "zh": "该菜系的经典菜单项；已审核卡片聚焦常见形态、口感和点餐风险。",
+        "nl": "Een klassiek menu-item voor deze keuken; de geverifieerde kaart focust op vorm, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "shaved-ice",
+        40,
+        "ice base"
+      ],
+      [
+        "beans",
+        18,
+        "sweet beans"
+      ],
+      [
+        "corn",
+        10,
+        "sweet corn"
+      ],
+      [
+        "fruit-sauce-or-caramel",
+        15,
+        "colored syrups"
+      ],
+      [
+        "condensed-milk",
+        10,
+        "milky sweetness",
+        "seasoning"
+      ],
+      [
+        "peanuts",
+        4,
+        "optional crunch"
+      ],
+      [
+        "palm-sugar",
+        3,
+        "syrup depth",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "shaved ice",
+      "sweet syrups",
+      "condensed milk"
+    ],
+    "basicTaste": [
+      "very sweet",
+      "milky",
+      "refreshing"
+    ],
+    "textureProfile": [
+      "icy",
+      "soft beans",
+      "chewy mixed toppings"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-peanut"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "cooling"
+    ],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "dislikes-mixed-texture-desserts"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a cold colorful dessert with many textures; avoid if beans, peanuts, dairy, or mixed textures are not appealing.",
+      "zh": "想要红豆冰刨冰甜品，配糖浆、豆类、玉米、冻类和炼乳，颜色鲜艳且很甜时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
+      "nl": "Neem dit als je geschaafd ijs met siropen, bonen, mais, jelly-achtige toppings en gecondenseerde melk; kleurrijk en heel zoet wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  }
+]

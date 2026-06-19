@@ -2,10 +2,25 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 421
-- Total aliases: 1382
-- Total cuisines: 14
+- Total verified dishes: 541
+- Total aliases: 1716
+- Total cuisines: 23
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
+
+## American (american) - 12
+
+1. 122001 - `burger` - Burger / 汉堡 / burger
+2. 122002 - `bbq-ribs` - BBQ Ribs / 美式烤肋排 / bbq ribs
+3. 122003 - `mac-and-cheese` - Mac and Cheese / 奶酪通心粉 / mac and cheese
+4. 122004 - `fried-chicken-american` - Fried Chicken / 美式炸鸡 / fried chicken
+5. 122005 - `caesar-salad` - Caesar Salad / 凯撒沙拉 / Caesar salad
+6. 122006 - `clam-chowder` - Clam Chowder / 蛤蜊浓汤 / clam chowder
+7. 122007 - `buffalo-wings` - Buffalo Wings / 水牛城鸡翅 / buffalo wings
+8. 122008 - `pancakes` - Pancakes / 美式松饼 / pancakes
+9. 122009 - `hot-dog` - Hot Dog / 热狗 / hot dog
+10. 122010 - `apple-pie` - Apple Pie / 苹果派 / apple pie
+11. 122011 - `cobb-salad` - Cobb Salad / 科布沙拉 / Cobb salad
+12. 122012 - `lobster-roll` - Lobster Roll / 龙虾卷 / lobster roll
 
 ## Belgian (belgian) - 30
 
@@ -205,7 +220,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 106027 - `kaiserschmarrn` - Kaiserschmarrn / 皇帝煎饼 / Kaiserschmarrn
 30. 106030 - `kartoffelsuppe` - Kartoffelsuppe / 德式土豆汤 / Kartoffelsuppe
 
-## Greek (greek) - 31
+## Greek (greek) - 43
 
 1. 104013 - `fava` - Fava / 希腊黄豌豆泥 / φάβα
 2. 104014 - `melitzanosalata` - Melitzanosalata / 希腊烤茄子酱 / μελιτζανοσαλάτα
@@ -238,6 +253,48 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 104041 - `bougatsa` - Bougatsa / 希腊奶油酥皮派 / μπουγάτσα
 30. 104042 - `portokalopita` - Portokalopita / 希腊橙香糖浆蛋糕 / πορτοκαλόπιτα
 31. 104046 - `lavraki` - Lavraki / 希腊烤海鲈鱼 / λαβράκι
+32. 104001 - `moussaka` - Moussaka / 希腊肉酱茄子烤菜 / μουσακάς
+33. 104002 - `souvlaki` - Souvlaki / 希腊烤肉串 / σουβλάκι
+34. 104003 - `gyros` - Gyros / 希腊旋转烤肉卷 / γύρος
+35. 104004 - `greek-salad` - Greek Salad / 希腊沙拉 / χωριάτικη σαλάτα
+36. 104005 - `spanakopita` - Spanakopita / 希腊菠菜奶酪派 / σπανακόπιτα
+37. 104006 - `tzatziki` - Tzatziki / 希腊酸奶黄瓜酱 / τζατζίκι
+38. 104007 - `dolmades` - Dolmades / 葡萄叶米卷 / ντολμάδες
+39. 104008 - `pastitsio` - Pastitsio / 希腊烤通心粉 / παστίτσιο
+40. 104009 - `kleftiko` - Kleftiko / 希腊慢烤羊肉 / κλέφτικο
+41. 104010 - `saganaki` - Saganaki / 煎奶酪 / σαγανάκι
+42. 104011 - `baklava` - Baklava / 果仁蜜酥 / μπακλαβάς
+43. 104012 - `loukoumades` - Loukoumades / 希腊蜂蜜小炸球 / λουκουμάδες
+
+## Indian (indian) - 12
+
+1. 115001 - `butter-chicken` - Butter Chicken / 黄油鸡 / murgh makhani
+2. 115002 - `chicken-tikka-masala` - Chicken Tikka Masala / 马萨拉烤鸡咖喱 / chicken tikka masala
+3. 115003 - `biryani` - Biryani / 印度香料饭 / biryani
+4. 115004 - `palak-paneer` - Palak Paneer / 菠菜奶酪咖喱 / palak paneer
+5. 115005 - `dal-makhani` - Dal Makhani / 奶油黑扁豆咖喱 / dal makhani
+6. 115006 - `chana-masala` - Chana Masala / 鹰嘴豆马萨拉 / chana masala
+7. 115007 - `samosa` - Samosa / 印度咖喱角 / samosa
+8. 115008 - `naan` - Naan / 印度烤饼 / naan
+9. 115009 - `tandoori-chicken` - Tandoori Chicken / 印度泥炉烤鸡 / tandoori chicken
+10. 115010 - `vindaloo` - Vindaloo / 辛辣酸香咖喱 / vindaloo
+11. 115011 - `rogan-josh` - Rogan Josh / 克什米尔羊肉咖喱 / rogan josh
+12. 115012 - `gulab-jamun` - Gulab Jamun / 玫瑰糖浆奶球 / gulab jamun
+
+## Indonesian (indonesian) - 12
+
+1. 117001 - `nasi-goreng` - Nasi Goreng / 印尼炒饭 / nasi goreng
+2. 117002 - `mie-goreng` - Mie Goreng / 印尼炒面 / mie goreng
+3. 117003 - `rendang` - Rendang / 仁当牛肉 / rendang
+4. 117004 - `gado-gado` - Gado-Gado / 印尼花生酱沙拉 / gado-gado
+5. 117005 - `satay-ayam` - Satay Ayam / 印尼鸡肉沙爹 / sate ayam
+6. 117006 - `soto-ayam` - Soto Ayam / 印尼鸡汤 / soto ayam
+7. 117007 - `bakso` - Bakso / 印尼肉丸汤 / bakso
+8. 117008 - `nasi-padang` - Nasi Padang / 巴东饭 / nasi Padang
+9. 117009 - `ayam-penyet` - Ayam Penyet / 印尼捶鸡饭 / ayam penyet
+10. 117010 - `tempeh` - Tempeh / 天贝 / tempe
+11. 117011 - `ikan-bakar` - Ikan Bakar / 印尼烤鱼 / ikan bakar
+12. 117012 - `pisang-goreng` - Pisang Goreng / 炸香蕉 / pisang goreng
 
 ## Italian (italian) - 30
 
@@ -337,6 +394,66 @@ Generated from data/internal/index.js after the verified database quarantine aud
 28. 110028 - `gyeran-jjim` - Gyeran-jjim / 韩式蒸蛋 / 계란찜
 29. 110029 - `hotteok` - Hotteok / 韩式糖饼 / 호떡
 30. 110030 - `bingsu` - Bingsu / 韩式刨冰 / 빙수
+
+## Malaysian Singaporean (malaysian-singaporean) - 12
+
+1. 118001 - `laksa` - Laksa / 叻沙 / laksa
+2. 118002 - `hainanese-chicken-rice` - Hainanese Chicken Rice / 海南鸡饭 / 海南鸡饭
+3. 118003 - `char-kway-teow` - Char Kway Teow / 炒粿条 / 炒粿条
+4. 118004 - `nasi-lemak` - Nasi Lemak / 椰浆饭 / nasi lemak
+5. 118005 - `roti-canai` - Roti Canai / 印度煎饼配咖喱 / roti canai
+6. 118006 - `satay` - Satay / 沙爹串 / satay
+7. 118007 - `bak-kut-teh` - Bak Kut Teh / 肉骨茶 / 肉骨茶
+8. 118008 - `chili-crab` - Chili Crab / 辣椒蟹 / 辣椒蟹
+9. 118009 - `hokkien-mee` - Hokkien Mee / 福建面 / 福建面
+10. 118010 - `rendang-chicken` - Chicken Rendang / 鸡肉仁当 / rendang ayam
+11. 118011 - `kaya-toast` - Kaya Toast / 咖椰吐司 / kaya toast
+12. 118012 - `ice-kacang` - Ice Kacang / 红豆刨冰 / ais kacang
+
+## Mexican (mexican) - 12
+
+1. 121001 - `tacos` - Tacos / 墨西哥玉米卷 / tacos
+2. 121002 - `quesadilla` - Quesadilla / 墨西哥奶酪饼 / quesadilla
+3. 121003 - `enchiladas` - Enchiladas / 墨西哥酱焗卷饼 / enchiladas
+4. 121004 - `burrito` - Burrito / 墨西哥大卷饼 / burrito
+5. 121005 - `guacamole` - Guacamole / 鳄梨酱 / guacamole
+6. 121006 - `nachos` - Nachos / 玉米片配料盘 / nachos
+7. 121007 - `chiles-rellenos` - Chiles Rellenos / 酿辣椒 / chiles rellenos
+8. 121008 - `pozole` - Pozole / 墨西哥玉米肉汤 / pozole
+9. 121009 - `tamales` - Tamales / 墨西哥玉米粽 / tamales
+10. 121010 - `mole-poblano` - Mole Poblano / 摩雷鸡肉 / mole poblano
+11. 121011 - `ceviche-mexican` - Ceviche / 墨西哥酸橘汁腌鱼 / ceviche
+12. 121012 - `flan` - Flan / 焦糖布丁 / flan
+
+## Middle Eastern (middle-eastern) - 12
+
+1. 120001 - `hummus` - Hummus / 鹰嘴豆泥 / hummus
+2. 120002 - `falafel` - Falafel / 炸鹰嘴豆丸 / falafel
+3. 120003 - `shawarma` - Shawarma / 中东烤肉卷 / shawarma
+4. 120004 - `tabbouleh` - Tabbouleh / 塔布勒沙拉 / tabbouleh
+5. 120005 - `fattoush` - Fattoush / 炸面包蔬菜沙拉 / fattoush
+6. 120006 - `baba-ganoush` - Baba Ganoush / 烤茄子芝麻酱泥 / baba ganoush
+7. 120007 - `kibbeh` - Kibbeh / 中东炸肉麦丸 / kibbeh
+8. 120008 - `kofta` - Kofta / 中东香料肉丸 / kofta
+9. 120009 - `mansaf` - Mansaf / 约旦酸奶羊肉饭 / mansaf
+10. 120010 - `mujadara` - Mujadara / 扁豆洋葱饭 / mujadara
+11. 120011 - `baklava-middle-eastern` - Baklava / 中东果仁蜜酥 / baklava
+12. 120012 - `labneh` - Labneh / 浓缩酸奶酱 / labneh
+
+## Moroccan (moroccan) - 12
+
+1. 124001 - `tagine-lamb` - Lamb Tagine / 摩洛哥塔吉锅羊肉 / طاجين
+2. 124002 - `chicken-tagine` - Chicken Tagine / 摩洛哥塔吉锅鸡 / طاجين الدجاج
+3. 124003 - `couscous-royal` - Couscous Royal / 摩洛哥库斯库斯拼盘 / couscous royal
+4. 124004 - `harira` - Harira / 摩洛哥番茄豆汤 / حريرة
+5. 124005 - `pastilla` - Pastilla / 摩洛哥甜咸酥皮派 / بسطيلة
+6. 124006 - `zaalouk` - Zaalouk / 摩洛哥茄子番茄泥 / zaalouk
+7. 124007 - `kefta-tagine` - Kefta Tagine / 摩洛哥肉丸塔吉锅 / kefta tajine
+8. 124008 - `moroccan-briouat` - Briouat / 摩洛哥小酥角 / briouat
+9. 124009 - `mechoui` - Mechoui / 摩洛哥烤羊肉 / mechoui
+10. 124010 - `moroccan-salad` - Moroccan Salad / 摩洛哥沙拉 / salade marocaine
+11. 124011 - `seffa` - Seffa / 摩洛哥甜库斯库斯 / seffa
+12. 124012 - `mint-tea-dessert` - Mint Tea Sweets / 薄荷茶甜点拼盘 / حلويات مغربية
 
 ## Portuguese (portuguese) - 30
 
@@ -469,3 +586,33 @@ Generated from data/internal/index.js after the verified database quarantine aud
 28. 108028 - `tod-mun-pla` - Tod Mun Pla / 泰式炸鱼饼 / ทอดมันปลา
 29. 108029 - `nam-tok` - Nam Tok / 泰式酸辣烤肉沙拉 / น้ำตก
 30. 108030 - `kanom-krok` - Kanom Krok / 泰式椰奶小煎糕 / ขนมครก
+
+## Turkish (turkish) - 12
+
+1. 119001 - `doner-kebab` - Döner Kebab / 土耳其旋转烤肉 / döner kebab
+2. 119002 - `adana-kebab` - Adana Kebab / 阿达纳辣肉串 / Adana kebabı
+3. 119003 - `lahmacun` - Lahmacun / 土耳其薄肉饼 / lahmacun
+4. 119004 - `pide` - Pide / 土耳其船形披萨 / pide
+5. 119005 - `menemen` - Menemen / 土耳其番茄炒蛋 / menemen
+6. 119006 - `manti` - Manti / 土耳其小饺子 / mantı
+7. 119007 - `imam-bayildi` - Imam Bayildi / 橄榄油炖茄子 / imam bayıldı
+8. 119008 - `mercimek-corbasi` - Mercimek Çorbası / 土耳其红扁豆汤 / mercimek çorbası
+9. 119009 - `borek` - Börek / 土耳其酥皮馅饼 / börek
+10. 119010 - `kofte` - Köfte / 土耳其肉丸 / köfte
+11. 119011 - `baklava-turkish` - Baklava / 土耳其果仁蜜酥 / baklava
+12. 119012 - `kunefe` - Künefe / 土耳其奶酪甜点 / künefe
+
+## Vietnamese (vietnamese) - 12
+
+1. 116001 - `pho-bo` - Phở Bò / 越南牛肉粉 / phở bò
+2. 116002 - `pho-ga` - Phở Gà / 越南鸡肉粉 / phở gà
+3. 116003 - `banh-mi` - Bánh Mì / 越南法棍三明治 / bánh mì
+4. 116004 - `goi-cuon` - Gỏi Cuốn / 越南鲜春卷 / gỏi cuốn
+5. 116005 - `cha-gio` - Chả Giò / 越南炸春卷 / chả giò
+6. 116006 - `bun-cha` - Bún Chả / 越南烤肉米粉 / bún chả
+7. 116007 - `bun-bo-hue` - Bún Bò Huế / 顺化牛肉粉 / bún bò Huế
+8. 116008 - `com-tam` - Cơm Tấm / 越南碎米饭 / cơm tấm
+9. 116009 - `banh-xeo` - Bánh Xèo / 越南煎饼 / bánh xèo
+10. 116010 - `cao-lau` - Cao Lầu / 会安高楼面 / cao lầu
+11. 116011 - `bo-luc-lac` - Bò Lúc Lắc / 越式摇牛肉 / bò lúc lắc
+12. 116012 - `che` - Chè / 越南甜品羹 / chè

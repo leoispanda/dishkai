@@ -1,0 +1,302 @@
+[
+  {
+    "dishId": "bun-bo-hue",
+    "metadataCode": "116007",
+    "cuisineId": "vietnamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Bún Bò Huế",
+    "imagePath": "/assets/dishes/main/116007-bun-bo-hue.webp",
+    "thumbPath": "/assets/dishes/thumb/116007-bun-bo-hue.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "com-tam",
+    "metadataCode": "116008",
+    "cuisineId": "vietnamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Cơm Tấm",
+    "imagePath": "/assets/dishes/main/116008-com-tam.webp",
+    "thumbPath": "/assets/dishes/thumb/116008-com-tam.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "banh-xeo",
+    "metadataCode": "116009",
+    "cuisineId": "vietnamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Bánh Xèo",
+    "imagePath": "/assets/dishes/main/116009-banh-xeo.webp",
+    "thumbPath": "/assets/dishes/thumb/116009-banh-xeo.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "cao-lau",
+    "metadataCode": "116010",
+    "cuisineId": "vietnamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Cao Lầu",
+    "imagePath": "/assets/dishes/main/116010-cao-lau.webp",
+    "thumbPath": "/assets/dishes/thumb/116010-cao-lau.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "bo-luc-lac",
+    "metadataCode": "116011",
+    "cuisineId": "vietnamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Bò Lúc Lắc",
+    "imagePath": "/assets/dishes/main/116011-bo-luc-lac.webp",
+    "thumbPath": "/assets/dishes/thumb/116011-bo-luc-lac.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "che",
+    "metadataCode": "116012",
+    "cuisineId": "vietnamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Chè",
+    "imagePath": "/assets/dishes/main/116012-che.webp",
+    "thumbPath": "/assets/dishes/thumb/116012-che.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "nasi-goreng",
+    "metadataCode": "117001",
+    "cuisineId": "indonesian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Nasi Goreng",
+    "imagePath": "/assets/dishes/main/117001-nasi-goreng.webp",
+    "thumbPath": "/assets/dishes/thumb/117001-nasi-goreng.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "mie-goreng",
+    "metadataCode": "117002",
+    "cuisineId": "indonesian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Mie Goreng",
+    "imagePath": "/assets/dishes/main/117002-mie-goreng.webp",
+    "thumbPath": "/assets/dishes/thumb/117002-mie-goreng.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "rendang",
+    "metadataCode": "117003",
+    "cuisineId": "indonesian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Rendang",
+    "imagePath": "/assets/dishes/main/117003-rendang.webp",
+    "thumbPath": "/assets/dishes/thumb/117003-rendang.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "gado-gado",
+    "metadataCode": "117004",
+    "cuisineId": "indonesian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Gado-Gado",
+    "imagePath": "/assets/dishes/main/117004-gado-gado.webp",
+    "thumbPath": "/assets/dishes/thumb/117004-gado-gado.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "satay-ayam",
+    "metadataCode": "117005",
+    "cuisineId": "indonesian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Satay Ayam",
+    "imagePath": "/assets/dishes/main/117005-satay-ayam.webp",
+    "thumbPath": "/assets/dishes/thumb/117005-satay-ayam.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "soto-ayam",
+    "metadataCode": "117006",
+    "cuisineId": "indonesian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Soto Ayam",
+    "imagePath": "/assets/dishes/main/117006-soto-ayam.webp",
+    "thumbPath": "/assets/dishes/thumb/117006-soto-ayam.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "bakso",
+    "metadataCode": "117007",
+    "cuisineId": "indonesian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Bakso",
+    "imagePath": "/assets/dishes/main/117007-bakso.webp",
+    "thumbPath": "/assets/dishes/thumb/117007-bakso.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "nasi-padang",
+    "metadataCode": "117008",
+    "cuisineId": "indonesian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Nasi Padang",
+    "imagePath": "/assets/dishes/main/117008-nasi-padang.webp",
+    "thumbPath": "/assets/dishes/thumb/117008-nasi-padang.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "ayam-penyet",
+    "metadataCode": "117009",
+    "cuisineId": "indonesian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Ayam Penyet",
+    "imagePath": "/assets/dishes/main/117009-ayam-penyet.webp",
+    "thumbPath": "/assets/dishes/thumb/117009-ayam-penyet.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "tempeh",
+    "metadataCode": "117010",
+    "cuisineId": "indonesian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Tempeh",
+    "imagePath": "/assets/dishes/main/117010-tempeh.webp",
+    "thumbPath": "/assets/dishes/thumb/117010-tempeh.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "ikan-bakar",
+    "metadataCode": "117011",
+    "cuisineId": "indonesian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Ikan Bakar",
+    "imagePath": "/assets/dishes/main/117011-ikan-bakar.webp",
+    "thumbPath": "/assets/dishes/thumb/117011-ikan-bakar.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "pisang-goreng",
+    "metadataCode": "117012",
+    "cuisineId": "indonesian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Pisang Goreng",
+    "imagePath": "/assets/dishes/main/117012-pisang-goreng.webp",
+    "thumbPath": "/assets/dishes/thumb/117012-pisang-goreng.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "laksa",
+    "metadataCode": "118001",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Laksa",
+    "imagePath": "/assets/dishes/main/118001-laksa.webp",
+    "thumbPath": "/assets/dishes/thumb/118001-laksa.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "hainanese-chicken-rice",
+    "metadataCode": "118002",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Hainanese Chicken Rice",
+    "imagePath": "/assets/dishes/main/118002-hainanese-chicken-rice.webp",
+    "thumbPath": "/assets/dishes/thumb/118002-hainanese-chicken-rice.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "char-kway-teow",
+    "metadataCode": "118003",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Char Kway Teow",
+    "imagePath": "/assets/dishes/main/118003-char-kway-teow.webp",
+    "thumbPath": "/assets/dishes/thumb/118003-char-kway-teow.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "nasi-lemak",
+    "metadataCode": "118004",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Nasi Lemak",
+    "imagePath": "/assets/dishes/main/118004-nasi-lemak.webp",
+    "thumbPath": "/assets/dishes/thumb/118004-nasi-lemak.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "roti-canai",
+    "metadataCode": "118005",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Roti Canai",
+    "imagePath": "/assets/dishes/main/118005-roti-canai.webp",
+    "thumbPath": "/assets/dishes/thumb/118005-roti-canai.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "satay",
+    "metadataCode": "118006",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Satay",
+    "imagePath": "/assets/dishes/main/118006-satay.webp",
+    "thumbPath": "/assets/dishes/thumb/118006-satay.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "bak-kut-teh",
+    "metadataCode": "118007",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Bak Kut Teh",
+    "imagePath": "/assets/dishes/main/118007-bak-kut-teh.webp",
+    "thumbPath": "/assets/dishes/thumb/118007-bak-kut-teh.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "chili-crab",
+    "metadataCode": "118008",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Chili Crab",
+    "imagePath": "/assets/dishes/main/118008-chili-crab.webp",
+    "thumbPath": "/assets/dishes/thumb/118008-chili-crab.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "hokkien-mee",
+    "metadataCode": "118009",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Hokkien Mee",
+    "imagePath": "/assets/dishes/main/118009-hokkien-mee.webp",
+    "thumbPath": "/assets/dishes/thumb/118009-hokkien-mee.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "rendang-chicken",
+    "metadataCode": "118010",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Chicken Rendang",
+    "imagePath": "/assets/dishes/main/118010-rendang-chicken.webp",
+    "thumbPath": "/assets/dishes/thumb/118010-rendang-chicken.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "kaya-toast",
+    "metadataCode": "118011",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Kaya Toast",
+    "imagePath": "/assets/dishes/main/118011-kaya-toast.webp",
+    "thumbPath": "/assets/dishes/thumb/118011-kaya-toast.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "ice-kacang",
+    "metadataCode": "118012",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Ice Kacang",
+    "imagePath": "/assets/dishes/main/118012-ice-kacang.webp",
+    "thumbPath": "/assets/dishes/thumb/118012-ice-kacang.webp",
+    "auditStatus": "candidate"
+  }
+]

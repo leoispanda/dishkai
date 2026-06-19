@@ -1,0 +1,302 @@
+[
+  {
+    "dishId": "chiles-rellenos",
+    "metadataCode": "121007",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Chiles Rellenos",
+    "imagePath": "/assets/dishes/main/121007-chiles-rellenos.webp",
+    "thumbPath": "/assets/dishes/thumb/121007-chiles-rellenos.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "pozole",
+    "metadataCode": "121008",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Pozole",
+    "imagePath": "/assets/dishes/main/121008-pozole.webp",
+    "thumbPath": "/assets/dishes/thumb/121008-pozole.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "tamales",
+    "metadataCode": "121009",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Tamales",
+    "imagePath": "/assets/dishes/main/121009-tamales.webp",
+    "thumbPath": "/assets/dishes/thumb/121009-tamales.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "mole-poblano",
+    "metadataCode": "121010",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Mole Poblano",
+    "imagePath": "/assets/dishes/main/121010-mole-poblano.webp",
+    "thumbPath": "/assets/dishes/thumb/121010-mole-poblano.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "ceviche-mexican",
+    "metadataCode": "121011",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Ceviche",
+    "imagePath": "/assets/dishes/main/121011-ceviche-mexican.webp",
+    "thumbPath": "/assets/dishes/thumb/121011-ceviche-mexican.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "flan",
+    "metadataCode": "121012",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Flan",
+    "imagePath": "/assets/dishes/main/121012-flan.webp",
+    "thumbPath": "/assets/dishes/thumb/121012-flan.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "burger",
+    "metadataCode": "122001",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Burger",
+    "imagePath": "/assets/dishes/main/122001-burger.webp",
+    "thumbPath": "/assets/dishes/thumb/122001-burger.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "bbq-ribs",
+    "metadataCode": "122002",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "BBQ Ribs",
+    "imagePath": "/assets/dishes/main/122002-bbq-ribs.webp",
+    "thumbPath": "/assets/dishes/thumb/122002-bbq-ribs.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "mac-and-cheese",
+    "metadataCode": "122003",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Mac and Cheese",
+    "imagePath": "/assets/dishes/main/122003-mac-and-cheese.webp",
+    "thumbPath": "/assets/dishes/thumb/122003-mac-and-cheese.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "fried-chicken-american",
+    "metadataCode": "122004",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Fried Chicken",
+    "imagePath": "/assets/dishes/main/122004-fried-chicken-american.webp",
+    "thumbPath": "/assets/dishes/thumb/122004-fried-chicken-american.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "caesar-salad",
+    "metadataCode": "122005",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Caesar Salad",
+    "imagePath": "/assets/dishes/main/122005-caesar-salad.webp",
+    "thumbPath": "/assets/dishes/thumb/122005-caesar-salad.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "clam-chowder",
+    "metadataCode": "122006",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Clam Chowder",
+    "imagePath": "/assets/dishes/main/122006-clam-chowder.webp",
+    "thumbPath": "/assets/dishes/thumb/122006-clam-chowder.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "buffalo-wings",
+    "metadataCode": "122007",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Buffalo Wings",
+    "imagePath": "/assets/dishes/main/122007-buffalo-wings.webp",
+    "thumbPath": "/assets/dishes/thumb/122007-buffalo-wings.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "pancakes",
+    "metadataCode": "122008",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Pancakes",
+    "imagePath": "/assets/dishes/main/122008-pancakes.webp",
+    "thumbPath": "/assets/dishes/thumb/122008-pancakes.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "hot-dog",
+    "metadataCode": "122009",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Hot Dog",
+    "imagePath": "/assets/dishes/main/122009-hot-dog.webp",
+    "thumbPath": "/assets/dishes/thumb/122009-hot-dog.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "apple-pie",
+    "metadataCode": "122010",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Apple Pie",
+    "imagePath": "/assets/dishes/main/122010-apple-pie.webp",
+    "thumbPath": "/assets/dishes/thumb/122010-apple-pie.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "cobb-salad",
+    "metadataCode": "122011",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Cobb Salad",
+    "imagePath": "/assets/dishes/main/122011-cobb-salad.webp",
+    "thumbPath": "/assets/dishes/thumb/122011-cobb-salad.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "lobster-roll",
+    "metadataCode": "122012",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Lobster Roll",
+    "imagePath": "/assets/dishes/main/122012-lobster-roll.webp",
+    "thumbPath": "/assets/dishes/thumb/122012-lobster-roll.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "tagine-lamb",
+    "metadataCode": "124001",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Lamb Tagine",
+    "imagePath": "/assets/dishes/main/124001-tagine-lamb.webp",
+    "thumbPath": "/assets/dishes/thumb/124001-tagine-lamb.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "chicken-tagine",
+    "metadataCode": "124002",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Chicken Tagine",
+    "imagePath": "/assets/dishes/main/124002-chicken-tagine.webp",
+    "thumbPath": "/assets/dishes/thumb/124002-chicken-tagine.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "couscous-royal",
+    "metadataCode": "124003",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Couscous Royal",
+    "imagePath": "/assets/dishes/main/124003-couscous-royal.webp",
+    "thumbPath": "/assets/dishes/thumb/124003-couscous-royal.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "harira",
+    "metadataCode": "124004",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Harira",
+    "imagePath": "/assets/dishes/main/124004-harira.webp",
+    "thumbPath": "/assets/dishes/thumb/124004-harira.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "pastilla",
+    "metadataCode": "124005",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Pastilla",
+    "imagePath": "/assets/dishes/main/124005-pastilla.webp",
+    "thumbPath": "/assets/dishes/thumb/124005-pastilla.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "zaalouk",
+    "metadataCode": "124006",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Zaalouk",
+    "imagePath": "/assets/dishes/main/124006-zaalouk.webp",
+    "thumbPath": "/assets/dishes/thumb/124006-zaalouk.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "kefta-tagine",
+    "metadataCode": "124007",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Kefta Tagine",
+    "imagePath": "/assets/dishes/main/124007-kefta-tagine.webp",
+    "thumbPath": "/assets/dishes/thumb/124007-kefta-tagine.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "moroccan-briouat",
+    "metadataCode": "124008",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Briouat",
+    "imagePath": "/assets/dishes/main/124008-moroccan-briouat.webp",
+    "thumbPath": "/assets/dishes/thumb/124008-moroccan-briouat.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "mechoui",
+    "metadataCode": "124009",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Mechoui",
+    "imagePath": "/assets/dishes/main/124009-mechoui.webp",
+    "thumbPath": "/assets/dishes/thumb/124009-mechoui.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "moroccan-salad",
+    "metadataCode": "124010",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Moroccan Salad",
+    "imagePath": "/assets/dishes/main/124010-moroccan-salad.webp",
+    "thumbPath": "/assets/dishes/thumb/124010-moroccan-salad.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "seffa",
+    "metadataCode": "124011",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Seffa",
+    "imagePath": "/assets/dishes/main/124011-seffa.webp",
+    "thumbPath": "/assets/dishes/thumb/124011-seffa.webp",
+    "auditStatus": "candidate"
+  },
+  {
+    "dishId": "mint-tea-dessert",
+    "metadataCode": "124012",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Mint Tea Sweets",
+    "imagePath": "/assets/dishes/main/124012-mint-tea-dessert.webp",
+    "thumbPath": "/assets/dishes/thumb/124012-mint-tea-dessert.webp",
+    "auditStatus": "candidate"
+  }
+]
