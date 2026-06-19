@@ -1,0 +1,41 @@
+# Japanese Batch 015 Audit
+
+Date: 2026-06-19
+
+Scope: 25 Japanese dishes restored from previously untrusted generated layers after dish-by-dish metadata, alias, and image review.
+
+Result: 25 keep-verified. Metadata was rebuilt with Japanese-specific reusable ingredients/seasonings, concrete estimated composition, diner-facing flavor/texture guidance, and confidence values above the verified threshold. 12 existing images were accepted after manual contact-sheet review; 13 mismatched duplicate images were replaced, code-stamped, and re-reviewed. The 5 base Japanese core images were also code-stamped so all 30 Japanese verified dish images now show the matching 109xxx metadataCode.
+
+Image overviews:
+- data/internal/audit/rebuild-batches/japanese-batch-015-candidates-images.png
+- data/internal/audit/rebuild-batches/japanese-batch-015-final-images.png
+
+Alias decision: selected Japanese aliases are exact dish names, translated names, or local Japanese names. No broad generic aliases such as plain `noodles`, `soup`, `rice`, `dumplings`, or `hot pot` were added to the verified export for this batch. Existing local aliases were kept only where they directly name the dish family shown in the metadata.
+
+| Dish ID | Code | Source | Audit Status | Image Status | Notes |
+| --- | --- | --- | --- | --- | --- |
+| sashimi | 109006 | expanded | keep-verified | accepted-existing/code-stamped | Real raw-fish dish; metadata rebuilt around raw fish, daikon, soy, wasabi, raw-fish watch-outs, and a clear sashimi-vs-sushi ordering distinction. Existing image clearly shows sliced raw fish. |
+| gyoza | 109007 | expanded | keep-verified | accepted-existing/code-stamped | Real Japanese dumpling; metadata rebuilt with wrapper, pork/cabbage filling, soy-sesame dipping risk, and sharing guidance. Existing image clearly shows pan-fried dumplings. |
+| yakitori | 109008 | expanded | keep-verified | accepted-existing/code-stamped | Real grilled chicken skewer dish; metadata rebuilt with chicken, tare/salt, charred skewer texture, and sweet-sauce ordering note. Existing image clearly shows chicken skewers. |
+| udon | 109009 | expanded | keep-verified | accepted-existing/code-stamped | Real Japanese noodle dish; metadata rebuilt with thick wheat udon, dashi broth, soy/fish/gluten risks, and mild hot-noodle guidance. Existing image clearly shows udon in broth. |
+| soba | 109010 | expanded | keep-verified | accepted-existing/code-stamped | Real buckwheat-style noodle dish; metadata rebuilt with soba noodles, mentsuyu, wasabi, and gluten caveat. Existing image clearly shows soba with dipping setup. |
+| teriyaki-chicken | 109011 | expanded | keep-verified | accepted-existing/code-stamped | Real sweet-soy glazed chicken dish; metadata rebuilt with chicken, rice, teriyaki sauce, sesame/soy/gluten risks, and safe low-spice guidance. Existing image clearly shows glazed chicken over rice. |
+| karaage | 109012 | expanded | keep-verified | accepted-existing/code-stamped | Real Japanese fried chicken; metadata rebuilt with soy marinade, potato-starch coating, crisp/juicy texture, and fried-food weight note. Existing image clearly shows fried chicken pieces. |
+| tonkatsu | 109013 | expanded | keep-verified | accepted-existing/code-stamped | Real breaded pork cutlet; metadata rebuilt with pork cutlet, panko, cabbage, tonkatsu sauce, and pork/gluten/egg risks. Existing image clearly shows sliced fried cutlet. |
+| okonomiyaki | 109014 | expanded | keep-verified | accepted-existing/code-stamped | Real savory cabbage pancake; metadata rebuilt with cabbage batter, pork variation, okonomiyaki sauce, mayo, bonito, and topping variation warnings. Existing image clearly shows sauced pancake. |
+| takoyaki | 109015 | expanded | keep-verified | accepted-existing/code-stamped | Real octopus batter-ball snack; metadata rebuilt with octopus, dashi batter, sauce, mayo, bonito, shellfish/fish/gluten/egg risks, and hot soft-center note. Existing image clearly shows takoyaki. |
+| chirashi | 109016 | expanded | keep-verified | accepted-existing/code-stamped | Real sushi rice bowl; metadata rebuilt with sushi rice, raw fish, egg, seaweed, raw-fish watch-outs, and fuller-than-sashimi guidance. Existing image clearly shows mixed raw-fish rice bowl. |
+| edamame | 109017 | expanded | keep-verified | accepted-existing/code-stamped | Real soy-bean starter; metadata rebuilt with edamame beans, sea salt, soy risk, vegan-friendly guidance, and snack-not-main portion note. Existing image clearly shows salted edamame pods. |
+| donburi | 109018 | global-depth | keep-verified | accepted-replacement | Real Japanese rice-bowl family; metadata rebuilt as a generic donburi explainer with protein variation caution. Previous image duplicated okonomiyaki; replacement clearly shows a sauced rice bowl. |
+| oyakodon | 109019 | global-depth | keep-verified | accepted-replacement | Real chicken-and-egg rice bowl; metadata rebuilt with chicken, soft egg, soy-dashi sauce, and gentle comfort-food guidance. Previous image duplicated tonkatsu; replacement clearly shows egg/chicken over rice. |
+| unadon | 109020 | global-depth | keep-verified | accepted-replacement | Real grilled eel rice bowl; metadata rebuilt with eel, kabayaki sauce, rice, fish/soy/gluten risks, and rich sweet-glaze guidance. Previous image duplicated edamame; replacement clearly shows glazed eel over rice. |
+| omurice | 109021 | global-depth | keep-verified | accepted-replacement | Real omelette rice; metadata rebuilt with ketchup-style fried rice, soft egg, tomato sauce, and egg watch-out. Previous image duplicated chirashi; replacement clearly shows omelette over rice. |
+| onigiri | 109022 | global-depth | keep-verified | accepted-replacement | Real rice-ball snack; metadata rebuilt with rice, nori, filling variation, fish caution, and compact snack guidance. Previous image duplicated soba; replacement clearly shows triangular rice balls. |
+| shabu-shabu | 109023 | global-depth | keep-verified | accepted-replacement | Real Japanese hot pot; metadata rebuilt with thin meat, light broth, tofu, vegetables, ponzu, and table-cooking expectation. Previous image duplicated gyoza; replacement clearly shows hot pot setup with sliced meat. |
+| sukiyaki | 109024 | global-depth | keep-verified | accepted-replacement | Real sweet-soy hot pot; metadata rebuilt with beef, tofu, cabbage, shirataki, egg dip, and richer-than-shabu-shabu guidance. Previous image duplicated karaage; replacement clearly shows sukiyaki-style pot. |
+| yakisoba | 109025 | global-depth | keep-verified | accepted-replacement | Real Japanese stir-fried noodles; metadata rebuilt with wheat noodles, cabbage, pork variation, yakisoba sauce, bonito, and broth-vs-fried distinction. Previous image duplicated katsu curry; replacement clearly shows sauced fried noodles. |
+| agedashi-tofu | 109026 | global-depth | keep-verified | accepted-replacement | Real fried tofu in dashi sauce; metadata rebuilt with tofu, potato-starch coating, tentsuyu, fish-dashi caveat, and soft-in-sauce texture. Previous image duplicated miso soup; replacement clearly shows fried tofu cubes in sauce. |
+| chawanmushi | 109027 | global-depth | keep-verified | accepted-replacement | Real savory steamed egg custard; metadata rebuilt with egg, dashi, shrimp/chicken/mushroom variation, and hidden seafood risk. Previous image duplicated udon; replacement clearly shows custard cup with toppings. |
+| tamago-yaki | 109028 | global-depth | keep-verified | accepted-replacement | Real rolled Japanese omelette; metadata rebuilt with egg, dashi, soy, sugar, fish-stock caveat, and soft layered texture. Previous image duplicated takoyaki; replacement clearly shows sliced rolled omelette. |
+| matcha-ice-cream | 109029 | global-depth | keep-verified | accepted-replacement | Real Japanese dessert; metadata rebuilt with cream, sugar, egg, matcha, red bean topping, dairy/egg risks, and green-tea bitterness guidance. Previous image duplicated ramen; replacement clearly shows green matcha ice cream. |
+| dorayaki | 109030 | global-depth | keep-verified | accepted-replacement | Real wagashi-style dessert; metadata rebuilt with pancake cakes, red bean paste, sugar, honey, gluten/egg risks, and red-bean ordering guidance. Previous image duplicated yakitori; replacement clearly shows red-bean pancake sandwich. |

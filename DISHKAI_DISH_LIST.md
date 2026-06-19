@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 346
-- Total aliases: 1132
+- Total verified dishes: 371
+- Total aliases: 1214
 - Total cuisines: 14
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -247,13 +247,38 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 101029 - `vitello-tonnato` - Vitello Tonnato / 金枪鱼酱小牛肉 / Vitello tonnato
 30. 101030 - `affogato` - Affogato / 意式冰淇淋咖啡 / Affogato
 
-## Japanese (japanese) - 5
+## Japanese (japanese) - 30
 
 1. 109001 - `sushi` - Sushi / 寿司 / 寿司
 2. 109002 - `ramen` - Ramen / 拉面 / ラーメン
 3. 109003 - `tempura` - Tempura / 天妇罗 / 天ぷら
 4. 109004 - `katsu-curry` - Katsu Curry / 日式炸猪排咖喱饭 / カツカレー
 5. 109005 - `miso-soup` - Miso Soup / 味噌汤 / 味噌汁
+6. 109006 - `sashimi` - Sashimi / 刺身 / 刺身
+7. 109007 - `gyoza` - Gyoza / 日式煎饺 / 餃子
+8. 109008 - `yakitori` - Yakitori / 日式烤鸡串 / 焼き鳥
+9. 109009 - `udon` - Udon / 乌冬面 / うどん
+10. 109010 - `soba` - Soba / 荞麦面 / そば
+11. 109011 - `teriyaki-chicken` - Teriyaki Chicken / 照烧鸡 / 照り焼きチキン
+12. 109012 - `karaage` - Karaage / 日式炸鸡 / 唐揚げ
+13. 109013 - `tonkatsu` - Tonkatsu / 日式炸猪排 / とんかつ
+14. 109014 - `okonomiyaki` - Okonomiyaki / 大阪烧 / お好み焼き
+15. 109015 - `takoyaki` - Takoyaki / 章鱼烧 / たこ焼き
+16. 109016 - `chirashi` - Chirashi Sushi / 散寿司饭 / ちらし寿司
+17. 109017 - `edamame` - Edamame / 毛豆 / 枝豆
+18. 109018 - `donburi` - Donburi / 日式盖饭 / 丼
+19. 109019 - `oyakodon` - Oyakodon / 亲子鸡蛋盖饭 / 親子丼
+20. 109020 - `unadon` - Unadon / 鳗鱼饭 / うな丼
+21. 109021 - `omurice` - Omurice / 蛋包饭 / オムライス
+22. 109022 - `onigiri` - Onigiri / 饭团 / おにぎり
+23. 109023 - `shabu-shabu` - Shabu-shabu / 日式涮涮锅 / しゃぶしゃぶ
+24. 109024 - `sukiyaki` - Sukiyaki / 寿喜烧 / すき焼き
+25. 109025 - `yakisoba` - Yakisoba / 日式炒面 / 焼きそば
+26. 109026 - `agedashi-tofu` - Agedashi Tofu / 日式炸豆腐 / 揚げ出し豆腐
+27. 109027 - `chawanmushi` - Chawanmushi / 茶碗蒸 / 茶碗蒸し
+28. 109028 - `tamago-yaki` - Tamagoyaki / 日式玉子烧 / 卵焼き
+29. 109029 - `matcha-ice-cream` - Matcha Ice Cream / 抹茶冰淇淋 / 抹茶アイス
+30. 109030 - `dorayaki` - Dorayaki / 铜锣烧 / どら焼き
 
 ## Korean (korean) - 5
 

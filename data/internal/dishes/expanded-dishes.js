@@ -1416,92 +1416,100 @@ export const expandedDishes = [
     },
     "category": "seafood",
     "cookingMethods": [
-      "assembled"
+      "assembled",
+      "raw"
     ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "raw",
     "shortDescription": {
-      "en": "Slices of raw fish served without rice, focused on freshness and texture.",
-      "zh": "刺身 是常见日本菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Sashimi is een veelvoorkomend gerecht in de japans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Slices of raw fish served without rice, usually with soy sauce, wasabi, and shredded daikon.",
+      "zh": "不配寿司饭的生鱼片，通常搭配酱油、芥末和萝卜丝，重点是鱼的新鲜度和口感。",
+      "nl": "Plakjes rauwe vis zonder rijst, meestal met sojasaus, wasabi en fijngesneden daikon."
     },
     "cookingProfile": {
-      "en": "Usually served as a seafood with a tender seafood, fresh finish feel.",
-      "zh": "通常以seafood形式上桌，重点体验是tender seafood。",
-      "nl": "Meestal geserveerd als seafood met een tender seafood gevoel."
+      "en": "Served cool and uncooked, so it feels clean, delicate, and very dependent on fish quality.",
+      "zh": "冷食且不加热，口感清爽细腻，非常依赖鱼肉品质。",
+      "nl": "Koel en rauw geserveerd; schoon, delicaat en sterk afhankelijk van de viskwaliteit."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "raw-seafood"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频日本菜菜品。",
-        "nl": "Een vaak voorkomend japans menu-item voor bredere restaurantdekking."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
         "raw-fish",
-        45,
+        80,
         "main"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "side"
-      ],
-      [
-        "steamed-rice",
-        20,
-        "base"
-      ],
-      [
-        "lemon",
+        "daikon",
         10,
-        "finish"
+        "garnish"
       ],
       [
-        "olive-oil",
+        "soy-sauce",
         5,
-        "finish",
+        "dip",
+        "seasoning"
+      ],
+      [
+        "wasabi",
+        5,
+        "sharp heat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "soy-sauce",
-      "miso",
-      "wasabi"
+      "raw-fish",
+      "wasabi",
+      "soy-sauce"
     ],
     "basicTaste": [
+      "clean",
       "briny",
-      "fresh",
-      "savory"
+      "umami",
+      "mildly-sharp"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "silky raw fish",
+      "cool temperature",
+      "crisp daikon garnish"
     ],
     "riskFlags": [
+      "contains-raw-fish",
       "contains-fish",
-      "contains-raw-fish"
+      "contains-soy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+      "classic-dish",
+      "lighter-choice",
+      "seafood-lover"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "raw-fish-avoidant",
+      "fish-allergy",
+      "soy-allergy"
+    ],
     "orderVerdict": {
-      "en": "Order only if you are comfortable with raw seafood.",
-      "zh": "如果你接受这类口味和风险，刺身 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Best for diners who actively want raw fish; choose sushi or grilled fish if raw texture worries you.",
+      "zh": "适合明确想吃生鱼的人；如果担心生食口感，选寿司熟食款或烤鱼更稳。",
+      "nl": "Voor wie bewust rauwe vis wil; kies sushi met gegaarde topping of gegrilde vis als rauwe textuur spannend is."
     },
-    "spiceLevel": 0,
+    "spiceLevel": 1,
     "weightLevel": 1,
-    "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.74,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.85,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -1516,34 +1524,35 @@ export const expandedDishes = [
     },
     "category": "dumpling",
     "cookingMethods": [
+      "fried",
       "steamed"
     ],
     "shortDescription": {
-      "en": "Japanese dumplings, usually pan-fried with pork or vegetable filling and dipping sauce.",
-      "zh": "日式煎饺 是常见日本菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Gyoza is een veelvoorkomend gerecht in de japans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Japanese dumplings, often pork and cabbage inside a thin wrapper, pan-fried with a crisp bottom and served with dipping sauce.",
+      "zh": "薄皮饺子，常见内馅是猪肉和卷心菜，底部煎脆，配酱油醋类蘸汁。",
+      "nl": "Japanse dumplings, vaak met varken en kool, in een dun vel en gebakken met een krokante onderkant."
     },
     "cookingProfile": {
-      "en": "Usually served as a dumpling with a soft wrapper, juicy filling feel.",
-      "zh": "通常以dumpling形式上桌，重点体验是soft wrapper。",
-      "nl": "Meestal geserveerd als dumpling met een soft wrapper gevoel."
+      "en": "Usually steamed then browned in a pan, giving a soft top, crisp base, and juicy filling.",
+      "zh": "通常先焖后煎，顶部柔软、底部脆，内馅多汁。",
+      "nl": "Meestal gestoomd en daarna gebakken: zachte bovenkant, krokante bodem en sappige vulling."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "first-timer-friendly",
+        "shareable"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频日本菜菜品。",
-        "nl": "Een vaak voorkomend japans menu-item voor bredere restaurantdekking."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
         "dumpling-wrapper",
-        45,
+        40,
         "wrapper"
       ],
       [
@@ -1552,8 +1561,13 @@ export const expandedDishes = [
         "filling"
       ],
       [
-        "mixed-vegetables",
+        "cabbage",
         15,
+        "filling"
+      ],
+      [
+        "green-onion",
+        5,
         "filling"
       ],
       [
@@ -1571,37 +1585,46 @@ export const expandedDishes = [
     ],
     "distinctiveFlavorSources": [
       "soy-sauce",
-      "miso",
-      "wasabi"
+      "sesame-oil",
+      "minced-pork"
     ],
     "basicTaste": [
       "savory",
-      "umami"
+      "umami",
+      "lightly-nutty"
     ],
     "textureProfile": [
+      "crisp browned base",
       "soft wrapper",
       "juicy filling"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-pork"
+      "contains-pork",
+      "contains-soy",
+      "contains-sesame"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
+      "shareable",
       "first-timer-friendly",
-      "lighter-choice"
+      "starter"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "pork-avoidant",
+      "gluten-allergy",
+      "soy-allergy",
+      "sesame-allergy"
+    ],
     "orderVerdict": {
-      "en": "A good sharing side, but check pork if that matters.",
-      "zh": "如果你接受这类口味和风险，日式煎饺 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A reliable sharing side if pork, wheat, soy, and sesame are fine for you.",
+      "zh": "想点一份稳妥小食很合适；避猪肉、麸质、大豆或芝麻的人要先确认。",
+      "nl": "Een betrouwbare deelbare side als varken, tarwe, soja en sesam voor jou oké zijn."
     },
-    "spiceLevel": 1,
+    "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -1616,89 +1639,95 @@ export const expandedDishes = [
     },
     "category": "starter",
     "cookingMethods": [
-      "assembled"
+      "grilled"
     ],
+    "goodForSharing": true,
     "shortDescription": {
-      "en": "Grilled chicken skewers with salt or sweet-savory tare sauce.",
-      "zh": "日式烤鸡串 是常见日本菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Yakitori is een veelvoorkomend gerecht in de japans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Small grilled chicken skewers seasoned with salt or sweet-savory tare sauce.",
+      "zh": "小份炭烤或明火烤鸡串，常见调味是盐烤或甜咸酱汁。",
+      "nl": "Kleine gegrilde kipspiesen met zout of zoet-hartige tare-saus."
     },
     "cookingProfile": {
-      "en": "Usually served as a starter with a small bites, contrasting textures feel.",
-      "zh": "通常以starter形式上桌，重点体验是small bites。",
-      "nl": "Meestal geserveerd als starter met een small bites gevoel."
+      "en": "Grilled quickly over direct heat, so the best versions taste smoky with lightly charred edges.",
+      "zh": "直接高温烤制，好的版本会有轻微焦香和烟熏感。",
+      "nl": "Kort boven directe hitte gegrild, met rokerige smaak en licht geschroeide randjes."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "street-food",
+        "shareable"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频日本菜菜品。",
-        "nl": "Een vaak voorkomend japans menu-item voor bredere restaurantdekking."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
-        "bread",
-        35,
-        "base"
+        "chicken",
+        75,
+        "skewered protein"
       ],
       [
-        "mixed-vegetables",
-        25,
-        "topping"
-      ],
-      [
-        "cheese",
-        20,
-        "richness"
-      ],
-      [
-        "garlic",
-        10,
-        "aroma",
+        "tare-sauce",
+        15,
+        "glaze",
         "seasoning"
       ],
       [
-        "olive-oil",
-        10,
-        "finish",
+        "green-onion",
+        5,
+        "aromatic skewer element"
+      ],
+      [
+        "sea-salt",
+        5,
+        "seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "soy-sauce",
-      "miso",
-      "wasabi"
+      "tare-sauce",
+      "grilled chicken",
+      "sea-salt"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "lightly-sweet",
+      "smoky"
     ],
     "textureProfile": [
-      "small bites",
-      "contrasting textures"
+      "small skewered bites",
+      "charred edges",
+      "tender chicken"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-soy",
+      "contains-gluten"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+      "shareable",
+      "street-food",
+      "classic-dish"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "soy-allergy",
+      "gluten-allergy",
+      "no-chicken"
+    ],
     "orderVerdict": {
-      "en": "Reliable small plate if you like grilled chicken and light smoke.",
-      "zh": "如果你接受这类口味和风险，日式烤鸡串 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good when you want a light grilled small plate; ask salt-only if sweet tare sauce is not your thing.",
+      "zh": "想吃轻量烤物小盘时很适合；不喜欢甜咸酱可问是否能盐烤。",
+      "nl": "Goed voor een lichte gegrilde kleine hap; vraag om zout-only als zoete tare je minder ligt."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -1713,90 +1742,105 @@ export const expandedDishes = [
     },
     "category": "noodle",
     "cookingMethods": [
-      "stir-fried"
+      "boiled",
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Thick wheat noodles in broth or sauce, usually soft, chewy, and comforting.",
-      "zh": "乌冬面 是常见日本菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Udon is een veelvoorkomend gerecht in de japans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Thick wheat noodles usually served in hot dashi-based broth or a light sauce, with simple toppings.",
+      "zh": "粗小麦面条，常见为热高汤面或清淡拌汁面，配葱、鱼板或天妇罗等简单配料。",
+      "nl": "Dikke tarwenoedels, meestal in warme dashi-bouillon of lichte saus met eenvoudige toppings."
     },
     "cookingProfile": {
-      "en": "Usually served as a noodle with a springy noodles, glossy sauce feel.",
-      "zh": "通常以noodle形式上桌，重点体验是springy noodles。",
-      "nl": "Meestal geserveerd als noodle met een springy noodles gevoel."
+      "en": "The noodles are boiled and served soft-chewy, often in a warm broth that keeps the dish gentle and filling.",
+      "zh": "面条水煮后软中带弹，常泡在热汤里，整体温和又有饱腹感。",
+      "nl": "De noedels worden gekookt en zacht-taai geserveerd, vaak in warme bouillon."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
+        "classic-dish",
+        "noodle",
         "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频日本菜菜品。",
-        "nl": "Een vaak voorkomend japans menu-item voor bredere restaurantdekking."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
-        "wheat-noodles",
-        45,
+        "udon-noodles",
+        50,
         "base"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
+        "dashi-broth",
+        30,
+        "broth"
       ],
       [
-        "chicken",
-        20,
-        "protein"
-      ],
-      [
-        "soy-sauce",
-        10,
-        "seasoning",
-        "seasoning"
+        "fish-cake",
+        5,
+        "topping"
       ],
       [
         "green-onion",
         5,
         "finish"
+      ],
+      [
+        "soy-sauce",
+        5,
+        "broth seasoning",
+        "seasoning"
+      ],
+      [
+        "seaweed",
+        5,
+        "garnish"
       ]
     ],
     "distinctiveFlavorSources": [
+      "dashi-broth",
       "soy-sauce",
-      "miso",
-      "wasabi"
+      "green-onion"
     ],
     "basicTaste": [
+      "mild",
       "savory",
       "umami"
     ],
     "textureProfile": [
-      "springy noodles",
-      "glossy sauce"
+      "thick chewy noodles",
+      "warm light broth",
+      "soft toppings"
     ],
     "riskFlags": [
-      "contains-gluten"
+      "contains-gluten",
+      "contains-fish",
+      "contains-soy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
+      "noodle-lover",
       "first-timer-friendly",
-      "lighter-choice"
+      "comforting"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "fish-allergy",
+      "soy-allergy"
+    ],
     "orderVerdict": {
-      "en": "Choose this for a mild, filling noodle option.",
-      "zh": "如果你接受这类口味和风险，乌冬面 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A gentle noodle choice when you want something warm and filling without much spice.",
+      "zh": "想吃温热、温和、不辣又有饱腹感的面食时很稳。",
+      "nl": "Een milde noedelkeuze als je iets warms en vullends zonder veel pit wilt."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -1811,90 +1855,102 @@ export const expandedDishes = [
     },
     "category": "noodle",
     "cookingMethods": [
-      "stir-fried"
+      "boiled",
+      "chilled"
     ],
+    "servingTemperature": "hot-or-cold",
     "shortDescription": {
-      "en": "Buckwheat-style noodles served chilled with dip or warm in broth.",
-      "zh": "荞麦面 是常见日本菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Soba is een veelvoorkomend gerecht in de japans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Buckwheat-style noodles served chilled with dipping sauce or warm in broth; many versions still contain wheat.",
+      "zh": "荞麦风味面，可冷食蘸汁或热汤上桌；很多店的面仍含小麦。",
+      "nl": "Boekweitachtige noedels, koud met dipsaus of warm in bouillon; vaak zit er toch tarwe in."
     },
     "cookingProfile": {
-      "en": "Usually served as a noodle with a springy noodles, glossy sauce feel.",
-      "zh": "通常以noodle形式上桌，重点体验是springy noodles。",
-      "nl": "Meestal geserveerd als noodle met een springy noodles gevoel."
+      "en": "Boiled noodles are rinsed for a firm, clean bite when cold, or served softer in warm broth.",
+      "zh": "冷荞麦面会冲洗后更紧实清爽，热汤版本则更柔软。",
+      "nl": "Gekookte noedels worden koud afgespoeld voor een stevige beet, of zachter in warme bouillon geserveerd."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "noodle",
+        "lighter-choice"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频日本菜菜品。",
-        "nl": "Een vaak voorkomend japans menu-item voor bredere restaurantdekking."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
-        "wheat-noodles",
-        45,
+        "soba-noodles",
+        60,
         "base"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "chicken",
-        20,
-        "protein"
-      ],
-      [
-        "soy-sauce",
-        10,
-        "seasoning",
+        "mentsuyu",
+        25,
+        "dip or broth seasoning",
         "seasoning"
       ],
       [
         "green-onion",
         5,
-        "finish"
+        "garnish"
+      ],
+      [
+        "seaweed",
+        5,
+        "garnish"
+      ],
+      [
+        "wasabi",
+        5,
+        "optional sharpness",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "soy-sauce",
-      "miso",
+      "soba-noodles",
+      "mentsuyu",
       "wasabi"
     ],
     "basicTaste": [
       "savory",
-      "umami"
+      "nutty",
+      "umami",
+      "mildly-sharp"
     ],
     "textureProfile": [
-      "springy noodles",
-      "glossy sauce"
+      "firm noodles when cold",
+      "clean dipping sauce",
+      "light finish"
     ],
     "riskFlags": [
-      "contains-gluten"
+      "contains-gluten",
+      "contains-fish",
+      "contains-soy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+      "lighter-choice",
+      "noodle-lover"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "fish-allergy",
+      "soy-allergy"
+    ],
     "orderVerdict": {
-      "en": "Good for a lighter noodle choice, but still ask about gluten.",
-      "zh": "如果你接受这类口味和风险，荞麦面 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good for a lighter noodle order, but do not assume it is gluten-free unless the restaurant confirms.",
+      "zh": "想吃清爽面食时合适，但不要默认无麸质，需让餐厅确认。",
+      "nl": "Goed als lichtere noedelkeuze, maar ga niet uit van glutenvrij zonder bevestiging."
     },
     "spiceLevel": 0,
     "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -1909,88 +1965,94 @@ export const expandedDishes = [
     },
     "category": "rice",
     "cookingMethods": [
-      "stir-fried"
+      "grilled",
+      "fried"
     ],
     "shortDescription": {
-      "en": "Chicken glazed with sweet-savory soy sauce, often served with rice.",
-      "zh": "照烧鸡 是常见日本菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Teriyaki kip is een veelvoorkomend gerecht in de japans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Chicken glazed with sweet-savory soy-based teriyaki sauce, often served with rice or vegetables.",
+      "zh": "鸡肉裹照烧酱，味道偏甜咸酱油风，常配米饭或蔬菜。",
+      "nl": "Kip met zoet-hartige sojagebaseerde teriyakisaus, vaak met rijst of groenten."
     },
     "cookingProfile": {
-      "en": "Usually served as a rice with a soft rice, mixed toppings feel.",
-      "zh": "通常以rice形式上桌，重点体验是soft rice。",
-      "nl": "Meestal geserveerd als rice met een soft rice gevoel."
+      "en": "Chicken is grilled or pan-seared then glazed, so the surface is glossy and sweeter than plain grilled chicken.",
+      "zh": "鸡肉煎烤后刷酱，表面油亮，甜咸感比普通烤鸡明显。",
+      "nl": "Kip wordt gegrild of gebakken en geglaceerd, met een glanzend en zoeter oppervlak."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
+        "safe-choice",
         "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频日本菜菜品。",
-        "nl": "Een vaak voorkomend japans menu-item voor bredere restaurantdekking."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
-        "steamed-rice",
+        "chicken",
         55,
+        "main"
+      ],
+      [
+        "steamed-rice",
+        25,
         "base"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "egg",
-        10,
-        "topping"
-      ],
-      [
-        "soy-sauce",
-        10,
-        "seasoning",
+        "teriyaki-sauce",
+        15,
+        "glaze",
         "seasoning"
       ],
       [
-        "green-onion",
+        "sesame-oil",
         5,
-        "finish"
+        "aroma",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
+      "teriyaki-sauce",
       "soy-sauce",
-      "miso",
-      "wasabi"
+      "sesame-oil"
     ],
     "basicTaste": [
+      "sweet",
       "savory",
-      "mild"
+      "umami"
     ],
     "textureProfile": [
-      "soft rice",
-      "mixed toppings"
+      "glossy glaze",
+      "tender chicken",
+      "soft rice"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-soy",
+      "contains-gluten",
+      "contains-sesame"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+      "safe-choice",
+      "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "soy-allergy",
+      "gluten-allergy",
+      "sesame-allergy"
+    ],
     "orderVerdict": {
-      "en": "A safe familiar order if you like sweet soy flavor.",
-      "zh": "如果你接受这类口味和风险，照烧鸡 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A familiar, low-spice order if you like sweet soy glaze; skip it if you dislike sweet sauces.",
+      "zh": "喜欢甜咸酱油汁、又不想吃辣时很稳；不爱甜酱的人可避开。",
+      "nl": "Een vertrouwde milde keuze als je zoete sojaglazuur lekker vindt; minder goed als je zoete sauzen mijdt."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -2007,87 +2069,97 @@ export const expandedDishes = [
     "cookingMethods": [
       "deep-fried"
     ],
+    "goodForSharing": true,
     "shortDescription": {
-      "en": "Japanese fried chicken pieces with a crisp coating and juicy center.",
-      "zh": "日式炸鸡 是常见日本菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Karaage is een veelvoorkomend gerecht in de japans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Japanese fried chicken pieces, usually soy-marinated and fried with a crisp potato-starch coating.",
+      "zh": "日式炸鸡块，常用酱油风味腌制，再裹粉炸到外脆内多汁。",
+      "nl": "Japanse gefrituurde kipstukjes, vaak sojagemarineerd en krokant door aardappelzetmeel."
     },
     "cookingProfile": {
-      "en": "Usually served as a fried snack with a crisp outside, savory center feel.",
-      "zh": "通常以fried-snack形式上桌，重点体验是crisp outside。",
-      "nl": "Meestal geserveerd als fried snack met een crisp outside gevoel."
+      "en": "Deep-fried in small pieces, so it eats as juicy, salty bites rather than a large breaded cutlet.",
+      "zh": "小块油炸，入口是多汁咸香的炸鸡块，不是整片厚炸排。",
+      "nl": "In kleine stukken gefrituurd: sappige, zoute hapjes in plaats van een grote schnitzel."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "street-food",
+        "shareable"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频日本菜菜品。",
-        "nl": "Een vaak voorkomend japans menu-item voor bredere restaurantdekking."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
-        "fried-chicken",
-        45,
+        "chicken",
+        65,
         "main"
       ],
       [
-        "wheat-flour",
-        25,
-        "coating"
+        "potato-starch",
+        15,
+        "crisp coating"
       ],
       [
-        "egg",
+        "soy-sauce",
         10,
-        "binder"
-      ],
-      [
-        "mustard",
-        10,
-        "dip",
+        "marinade",
         "seasoning"
       ],
       [
-        "fries",
-        10,
-        "side"
+        "garlic",
+        5,
+        "marinade aroma",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
       "soy-sauce",
-      "miso",
-      "wasabi"
+      "garlic",
+      "lemon"
     ],
     "basicTaste": [
       "savory",
-      "salty"
+      "salty",
+      "lightly-garlicky"
     ],
     "textureProfile": [
-      "crisp outside",
-      "savory center"
+      "crisp coating",
+      "juicy chicken",
+      "small bite-size pieces"
     ],
     "riskFlags": [
+      "contains-soy",
       "contains-gluten"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "shareable",
+      "fried-snack",
+      "street-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "soy-allergy",
+      "gluten-allergy",
+      "fried-food-avoidant"
+    ],
     "orderVerdict": {
-      "en": "Great snack or side if you want something crispy and savory.",
-      "zh": "如果你接受这类口味和风险，日式炸鸡 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Great as a crisp side or snack; it is heavier than it looks because the pieces are fried.",
+      "zh": "适合当酥脆小食或配菜；因为是油炸，实际会比看起来更厚重。",
+      "nl": "Lekker als krokante snack of side; zwaarder dan het lijkt door het frituren."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -2105,88 +2177,90 @@ export const expandedDishes = [
       "deep-fried"
     ],
     "shortDescription": {
-      "en": "Breaded fried pork cutlet, usually served with sweet-savory sauce.",
-      "zh": "日式炸猪排 是常见日本菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Tonkatsu is een veelvoorkomend gerecht in de japans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Breaded fried pork cutlet, usually sliced and served with shredded cabbage and sweet-savory tonkatsu sauce.",
+      "zh": "裹面包糠油炸的猪排，通常切片，配卷心菜丝和甜咸猪排酱。",
+      "nl": "Gepaneerde gefrituurde varkenskotelet, meestal gesneden met kool en zoet-hartige tonkatsusaus."
     },
     "cookingProfile": {
-      "en": "Usually served as a fried snack with a crisp outside, savory center feel.",
-      "zh": "通常以fried-snack形式上桌，重点体验是crisp outside。",
-      "nl": "Meestal geserveerd als fried snack met een crisp outside gevoel."
+      "en": "The panko crust makes it crisp outside and meaty inside, with sauce added at the table or on the plate.",
+      "zh": "面包糠外层酥脆，内部是厚实猪肉，酱汁通常上桌后蘸或淋。",
+      "nl": "De panko-korst is krokant, binnenin blijft het vlezig; saus komt erbij of erover."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "fried"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频日本菜菜品。",
-        "nl": "Een vaak voorkomend japans menu-item voor bredere restaurantdekking."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
-        "fried-chicken",
-        45,
+        "pork-cutlet",
+        55,
         "main"
       ],
       [
-        "wheat-flour",
-        25,
-        "coating"
+        "panko-breadcrumbs",
+        20,
+        "crisp coating"
       ],
       [
-        "egg",
-        10,
-        "binder"
-      ],
-      [
-        "mustard",
-        10,
-        "dip",
-        "seasoning"
-      ],
-      [
-        "fries",
-        10,
+        "cabbage",
+        15,
         "side"
+      ],
+      [
+        "tonkatsu-sauce",
+        10,
+        "sauce",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "soy-sauce",
-      "miso",
-      "wasabi"
+      "panko-breadcrumbs",
+      "tonkatsu-sauce",
+      "pork-cutlet"
     ],
     "basicTaste": [
       "savory",
-      "salty"
+      "sweet-sauce",
+      "fried"
     ],
     "textureProfile": [
-      "crisp outside",
-      "savory center"
+      "crisp crumb coating",
+      "firm pork cutlet",
+      "fresh shredded cabbage"
     ],
     "riskFlags": [
+      "contains-pork",
       "contains-gluten",
-      "contains-pork"
+      "contains-egg"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "fried-food",
+      "hearty-main"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "pork-avoidant",
+      "gluten-allergy",
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "Order if you want a hearty crispy pork main; avoid if no pork or gluten.",
-      "zh": "如果你接受这类口味和风险，日式炸猪排 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Choose it for a hearty crispy pork main; it is not a light order.",
+      "zh": "想吃厚实酥脆猪排时适合；这不是清淡选择。",
+      "nl": "Kies dit voor een stevige krokante varkensmaaltijd; het is geen lichte keuze."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "low"
   }),
   starterDish({
     "id": "okonomiyaki",
@@ -2200,105 +2274,121 @@ export const expandedDishes = [
     },
     "category": "starter",
     "cookingMethods": [
-      "assembled"
+      "fried"
     ],
+    "goodForSharing": true,
     "shortDescription": {
-      "en": "Savory cabbage pancake with sauce, mayo, and toppings such as pork or seafood.",
-      "zh": "大阪烧 是常见日本菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Okonomiyaki is een veelvoorkomend gerecht in de japans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Savory cabbage pancake cooked on a griddle, topped with sweet sauce, mayonnaise, seaweed, and bonito flakes.",
+      "zh": "铁板煎的咸味卷心菜面糊饼，常加甜酱、美乃滋、海苔粉和柴鱼片。",
+      "nl": "Hartige koolpannenkoek van de bakplaat, met zoete saus, mayo, zeewier en bonitovlokken."
     },
     "cookingProfile": {
-      "en": "Usually served as a starter with a small bites, contrasting textures feel.",
-      "zh": "通常以starter形式上桌，重点体验是small bites。",
-      "nl": "Meestal geserveerd als starter met een small bites gevoel."
+      "en": "Cooked as a thick griddle pancake, so bites are soft inside, browned outside, and sauce-heavy on top.",
+      "zh": "厚饼状铁板煎制，内部柔软、外层微焦，上层酱汁存在感强。",
+      "nl": "Als dikke bakplaatpannenkoek: zacht vanbinnen, gebruind vanbuiten en rijk belegd met saus."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "street-food",
+        "shareable",
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频日本菜菜品。",
-        "nl": "Een vaak voorkomend japans menu-item voor bredere restaurantdekking."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
-        "bread",
+        "cabbage",
         35,
-        "base"
+        "main vegetable"
       ],
       [
-        "mixed-vegetables",
-        25,
-        "topping"
+        "wheat-flour",
+        15,
+        "batter"
       ],
       [
-        "cheese",
-        20,
-        "richness"
-      ],
-      [
-        "garlic",
+        "egg",
         10,
-        "aroma",
+        "binder"
+      ],
+      [
+        "pork",
+        15,
+        "common topping"
+      ],
+      [
+        "okonomiyaki-sauce",
+        10,
+        "sauce",
         "seasoning"
       ],
       [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
+        "mayonnaise",
+        5,
+        "creamy topping"
+      ],
+      [
+        "bonito-flakes",
+        5,
+        "fish garnish"
+      ],
+      [
+        "seaweed",
+        5,
+        "garnish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "soy-sauce",
-      "miso",
-      "wasabi"
+      "okonomiyaki-sauce",
+      "mayonnaise",
+      "bonito-flakes"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "sweet-sauce",
+      "umami",
+      "creamy"
     ],
     "textureProfile": [
-      "small bites",
-      "contrasting textures"
+      "soft thick pancake",
+      "crisp browned surface",
+      "saucy topping"
     ],
     "riskFlags": [
-      "contains-egg"
+      "contains-egg",
+      "contains-gluten",
+      "contains-fish",
+      "contains-pork"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "toppings-vary-by-restaurant"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "shareable",
+      "street-food",
+      "regional-dish"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "gluten-allergy",
+      "fish-allergy",
+      "pork-avoidant"
+    ],
     "orderVerdict": {
-      "en": "Fun sharing dish, but toppings and allergens vary a lot.",
-      "zh": "如果你接受这类口味和风险，大阪烧 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Fun to share if you want saucy, rich street-food texture; check toppings because pork and seafood vary.",
+      "zh": "想吃酱汁浓、口感丰富的街头小吃时适合分享；猪肉和海鲜配料需确认。",
+      "nl": "Leuk om te delen als je saucy streetfood wilt; check toppings omdat varken en zeevruchten verschillen."
     },
-    "spiceLevel": 1,
+    "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "high",
-    "commonVariations": [
-      {
-        "label": {
-          "en": "restaurant variation",
-          "zh": "常见变体",
-          "nl": "restaurantvariant"
-        },
-        "note": {
-          "en": "Toppings can include pork, seafood, cheese, mayo, bonito flakes, or vegetarian options.",
-          "zh": "配料可能有猪肉、海鲜、奶酪、美乃滋、柴鱼片，也可能有素食版本。",
-          "nl": "Toppings kunnen varkensvlees, zeevruchten, kaas, mayo, bonitovlokken of vegetarische opties zijn."
-        }
-      }
-    ]
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   }),
   starterDish({
     "id": "takoyaki",
@@ -2312,40 +2402,41 @@ export const expandedDishes = [
     },
     "category": "fried-snack",
     "cookingMethods": [
-      "deep-fried"
+      "fried"
     ],
+    "goodForSharing": true,
     "shortDescription": {
-      "en": "Round battered bites with octopus, sauce, mayo, and bonito-style toppings.",
-      "zh": "章鱼烧 是常见日本菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Takoyaki is een veelvoorkomend gerecht in de japans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Round griddle-cooked batter balls with octopus inside, usually topped with sauce, mayonnaise, bonito flakes, and seaweed.",
+      "zh": "圆形面糊小球，里面有章鱼块，通常加酱汁、美乃滋、柴鱼片和海苔粉。",
+      "nl": "Ronde beslagballetjes van de bakplaat met octopus, saus, mayo, bonitovlokken en zeewier."
     },
     "cookingProfile": {
-      "en": "Usually served as a fried snack with a crisp outside, savory center feel.",
-      "zh": "通常以fried-snack形式上桌，重点体验是crisp outside。",
-      "nl": "Meestal geserveerd als fried snack met een crisp outside gevoel."
+      "en": "Cooked in round molds, so the outside is browned while the center stays very soft and hot.",
+      "zh": "模具中煎制，外层微焦，内部通常非常软且烫口。",
+      "nl": "In ronde vormen gebakken: buiten gebruind, binnen heel zacht en heet."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "street-food",
+        "shareable"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频日本菜菜品。",
-        "nl": "Een vaak voorkomend japans menu-item voor bredere restaurantdekking."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
-        "fried-chicken",
-        45,
-        "main"
+        "wheat-flour",
+        35,
+        "batter"
       ],
       [
-        "wheat-flour",
-        25,
-        "coating"
+        "octopus",
+        15,
+        "filling"
       ],
       [
         "egg",
@@ -2353,51 +2444,80 @@ export const expandedDishes = [
         "binder"
       ],
       [
-        "mustard",
+        "dashi-broth",
         10,
-        "dip",
+        "batter liquid"
+      ],
+      [
+        "takoyaki-sauce",
+        10,
+        "sauce",
         "seasoning"
       ],
       [
-        "fries",
-        10,
-        "side"
+        "mayonnaise",
+        5,
+        "creamy topping"
+      ],
+      [
+        "bonito-flakes",
+        5,
+        "fish garnish"
+      ],
+      [
+        "seaweed",
+        5,
+        "garnish"
+      ],
+      [
+        "pickled-ginger",
+        5,
+        "bright bits"
       ]
     ],
     "distinctiveFlavorSources": [
-      "soy-sauce",
-      "miso",
-      "wasabi"
+      "octopus",
+      "takoyaki-sauce",
+      "bonito-flakes"
     ],
     "basicTaste": [
       "savory",
-      "salty"
+      "sweet-sauce",
+      "umami",
+      "creamy"
     ],
     "textureProfile": [
-      "crisp outside",
-      "savory center"
+      "soft molten center",
+      "lightly browned outside",
+      "saucy topping"
     ],
     "riskFlags": [
       "contains-gluten",
+      "contains-egg",
       "contains-fish",
-      "contains-egg"
+      "contains-shellfish"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+      "street-food",
+      "shareable",
+      "snack"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "fish-allergy",
+      "egg-allergy",
+      "gluten-allergy"
+    ],
     "orderVerdict": {
-      "en": "Good street-food bite if seafood and wheat are okay.",
-      "zh": "如果你接受这类口味和风险，章鱼烧 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good as a snack if octopus and very soft hot centers sound appealing.",
+      "zh": "能接受章鱼和非常软烫的内馅时很适合作小吃。",
+      "nl": "Lekker als snack als octopus en een heel zachte hete binnenkant je aanspreken."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -2412,40 +2532,44 @@ export const expandedDishes = [
     },
     "category": "rice",
     "cookingMethods": [
-      "stir-fried"
+      "assembled",
+      "raw"
     ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "raw-or-cooked-variant",
     "shortDescription": {
-      "en": "Sushi rice bowl topped with assorted raw fish and garnishes.",
-      "zh": "散寿司饭 是常见日本菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Chirashi sushi is een veelvoorkomend gerecht in de japans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "A bowl or box of sushi rice topped with assorted raw fish, egg, seaweed, and garnishes.",
+      "zh": "寿司饭上铺多种生鱼片、蛋、海苔和配菜，像一碗展开的寿司。",
+      "nl": "Een kom of box sushirijst met verschillende rauwe vis, ei, zeewier en garnituren."
     },
     "cookingProfile": {
-      "en": "Usually served as a rice with a soft rice, mixed toppings feel.",
-      "zh": "通常以rice形式上桌，重点体验是soft rice。",
-      "nl": "Meestal geserveerd als rice met een soft rice gevoel."
+      "en": "Assembled cool like sushi, but served as a fuller rice bowl rather than individual pieces.",
+      "zh": "像寿司一样冷食组合，但以饭碗形式上桌，比单片寿司更有饱腹感。",
+      "nl": "Koel samengesteld zoals sushi, maar als vollere rijstkom in plaats van losse stukken."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic-dish",
+        "raw-seafood",
+        "rice"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频日本菜菜品。",
-        "nl": "Een vaak voorkomend japans menu-item voor bredere restaurantdekking."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
-        "steamed-rice",
-        55,
+        "sushi-rice",
+        45,
         "base"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
+        "raw-fish",
+        35,
+        "topping"
       ],
       [
         "egg",
@@ -2453,50 +2577,59 @@ export const expandedDishes = [
         "topping"
       ],
       [
-        "soy-sauce",
-        10,
-        "seasoning",
-        "seasoning"
+        "seaweed",
+        5,
+        "garnish"
       ],
       [
-        "green-onion",
+        "wasabi",
         5,
-        "finish"
+        "optional sharpness",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "soy-sauce",
-      "miso",
+      "raw-fish",
+      "sushi-rice",
       "wasabi"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "clean",
+      "umami",
+      "mildly-sour",
+      "briny"
     ],
     "textureProfile": [
-      "soft rice",
-      "mixed toppings"
+      "sticky seasoned rice",
+      "silky fish",
+      "cool mixed toppings"
     ],
     "riskFlags": [
       "contains-raw-fish",
-      "contains-fish"
+      "contains-fish",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+      "rice",
+      "seafood-lover"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "raw-fish-avoidant",
+      "fish-allergy",
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "A fuller raw-fish option than sashimi because it includes rice.",
-      "zh": "如果你接受这类口味和风险，散寿司饭 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A good fuller option for raw-fish lovers who want rice, not just sashimi.",
+      "zh": "适合想吃生鱼又想有米饭饱腹感的人，比刺身更像正餐。",
+      "nl": "Een vollere keuze voor liefhebbers van rauwe vis die rijst erbij willen."
     },
-    "spiceLevel": 0,
+    "spiceLevel": 1,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -2511,92 +2644,84 @@ export const expandedDishes = [
     },
     "category": "starter",
     "cookingMethods": [
-      "assembled"
+      "boiled"
     ],
+    "servingTemperature": "hot-or-cold",
+    "goodForSharing": true,
     "shortDescription": {
-      "en": "Salted young soybeans served as a simple snack or side.",
-      "zh": "毛豆 是常见日本菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Edamame is een veelvoorkomend gerecht in de japans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Young soybeans in the pod, usually boiled or steamed and sprinkled with salt.",
+      "zh": "带豆荚的年轻大豆，通常水煮或蒸熟后撒盐，作为小食或配菜。",
+      "nl": "Jonge sojabonen in de peul, meestal gekookt of gestoomd en met zout bestrooid."
     },
     "cookingProfile": {
-      "en": "Usually served as a starter with a small bites, contrasting textures feel.",
-      "zh": "通常以starter形式上桌，重点体验是small bites。",
-      "nl": "Meestal geserveerd als starter met een small bites gevoel."
+      "en": "Served as pods you squeeze for the beans, so it is simple, salty, and snack-like rather than saucy.",
+      "zh": "通常挤出豆荚里的豆子吃，简单咸香，是零食感小菜而不是酱汁菜。",
+      "nl": "Geserveerd als peulen waar je de boontjes uit drukt: simpel, zout en snackachtig."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "starter",
+        "vegan-friendly",
+        "shareable"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频日本菜菜品。",
-        "nl": "Een vaak voorkomend japans menu-item voor bredere restaurantdekking."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
-        "bread",
-        35,
-        "base"
+        "edamame-beans",
+        90,
+        "main"
       ],
       [
-        "mixed-vegetables",
-        25,
-        "topping"
-      ],
-      [
-        "cheese",
-        20,
-        "richness"
-      ],
-      [
-        "garlic",
+        "sea-salt",
         10,
-        "aroma",
-        "seasoning"
-      ],
-      [
-        "olive-oil",
-        10,
-        "finish",
+        "seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "soy-sauce",
-      "miso",
-      "wasabi"
+      "edamame-beans",
+      "sea-salt"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "salty",
+      "mild",
+      "green"
     ],
     "textureProfile": [
-      "small bites",
-      "contrasting textures"
+      "firm beans",
+      "salty pods",
+      "light snack"
     ],
     "riskFlags": [
       "contains-soy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegan"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
+      "vegan-friendly",
+      "shareable",
       "lighter-choice"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "soy-allergy"
+    ],
     "orderVerdict": {
-      "en": "A light, easy starter unless you avoid soy.",
-      "zh": "如果你接受这类口味和风险，毛豆 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A safe light starter if soy is okay; it is more of a snack than a main dish.",
+      "zh": "不避大豆的话是很稳的清淡前菜；它更像小食，不是主菜。",
+      "nl": "Een lichte veilige starter als soja oké is; meer snack dan hoofdgerecht."
     },
     "spiceLevel": 0,
     "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.85,
+    "restaurantVariationLevel": "low"
   }),
   starterDish({
     "id": "japchae",

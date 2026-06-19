@@ -6677,25 +6677,25 @@ const globalDepthDishConfigs = [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Donburi is a common Japanese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "日式盖饭是常见日本菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Donburi is een veelvoorkomend Japans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A Japanese rice bowl topped with meat, seafood, egg, or vegetables in a savory sauce.",
+      "zh": "日式盖饭，米饭上盖肉类、海鲜、鸡蛋或蔬菜，通常带咸鲜酱汁。",
+      "nl": "Japanse rijstkom met vlees, vis, ei of groenten in een hartige saus."
     },
     "cookingProfile": {
-      "en": "Usually served with soft rice, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft rice，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft rice; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served as toppings over hot rice, so sauce and juices soak into the bowl rather than staying separate.",
+      "zh": "热米饭上直接盖浇配料，酱汁会渗进饭里，整体是一碗式主食。",
+      "nl": "Toppings op warme rijst; saus en sappen trekken in de kom."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "rice",
+        "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将日本菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Japans menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
@@ -6705,56 +6705,70 @@ const globalDepthDishConfigs = [
         "base"
       ],
       [
-        "chicken",
-        25,
-        "main"
+        "beef",
+        20,
+        "common topping"
+      ],
+      [
+        "egg",
+        10,
+        "common topping"
       ],
       [
         "mixed-vegetables",
-        15,
+        10,
         "body"
       ],
       [
         "soy-sauce",
-        5,
-        "seasoning",
+        10,
+        "sauce seasoning",
         "seasoning"
-      ],
-      [
-        "green-onion",
-        5,
-        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "seasoned rice",
-      "aromatics"
+      "soy-sauce",
+      "steamed-rice",
+      "egg"
     ],
     "basicTaste": [
       "savory",
-      "filling"
+      "umami",
+      "mildly-sweet"
     ],
     "textureProfile": [
       "soft rice",
-      "mixed toppings"
+      "saucy toppings",
+      "single-bowl portion"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-soy",
+      "contains-gluten",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "protein-varies-by-restaurant"
+    ],
     "goodForTags": [
-      "restaurant-coverage"
+      "rice",
+      "safe-choice",
+      "filling"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "soy-allergy",
+      "gluten-allergy",
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, filling profile sounds appealing.",
-      "zh": "如果你想要savory、filling的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, filling je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A practical rice-bowl order; check the topping name because beef, chicken, pork, eel, or tempura versions feel very different.",
+      "zh": "是很实用的盖饭类选择；要看具体浇头，牛肉、鸡肉、猪肉、鳗鱼或天妇罗版本差异很大。",
+      "nl": "Een praktische rijstkom; check de topping, want rund, kip, varken, paling of tempura voelt heel anders."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "oyakodon",
@@ -6771,31 +6785,32 @@ const globalDepthDishConfigs = [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Oyakodon is a common Japanese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "亲子鸡蛋盖饭是常见日本菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Oyakodon is een veelvoorkomend Japans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A chicken-and-egg rice bowl simmered in a mild soy-dashi sauce with onions.",
+      "zh": "鸡肉和鸡蛋用酱油高汤与洋葱轻煮后盖在米饭上，口味温和咸甜。",
+      "nl": "Rijstkom met kip en ei, zacht gestoofd in milde soja-dashi met ui."
     },
     "cookingProfile": {
-      "en": "Usually served with soft rice, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft rice，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft rice; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Chicken and egg are gently set over rice, so the texture is soft, saucy, and comforting.",
+      "zh": "鸡肉和蛋液轻轻凝在米饭上，口感柔软、有汁水、很家常。",
+      "nl": "Kip en ei stollen zacht op rijst; de textuur is zacht, sauzig en comfortabel."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "rice",
+        "comforting"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将日本菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Japans menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
         "steamed-rice",
-        50,
+        45,
         "base"
       ],
       [
@@ -6804,50 +6819,64 @@ const globalDepthDishConfigs = [
         "main"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "body"
+        "egg",
+        20,
+        "soft topping"
+      ],
+      [
+        "dashi-broth",
+        5,
+        "simmering liquid"
       ],
       [
         "soy-sauce",
         5,
-        "seasoning",
+        "sauce seasoning",
         "seasoning"
-      ],
-      [
-        "green-onion",
-        5,
-        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "seasoned rice",
-      "aromatics"
+      "egg",
+      "dashi-broth",
+      "soy-sauce"
     ],
     "basicTaste": [
       "savory",
-      "filling"
+      "mildly-sweet",
+      "umami"
     ],
     "textureProfile": [
-      "soft rice",
-      "mixed toppings"
+      "soft egg",
+      "tender chicken",
+      "sauced rice"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-egg",
+      "contains-soy",
+      "contains-gluten",
+      "contains-fish"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "rice",
+      "comforting",
+      "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "soy-allergy",
+      "gluten-allergy",
+      "fish-allergy"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, filling profile sounds appealing.",
-      "zh": "如果你想要savory、filling的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, filling je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A gentle, comforting rice bowl if you like soft egg and mild sweet-savory sauce.",
+      "zh": "喜欢嫩蛋和温和甜咸酱汁时很稳，是柔和饱腹的盖饭。",
+      "nl": "Een zachte comfortabele rijstkom als je zacht ei en milde zoet-hartige saus lekker vindt."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -6862,28 +6891,29 @@ const globalDepthDishConfigs = [
     },
     "category": "rice",
     "cookingMethods": [
-      "simmered"
+      "grilled"
     ],
     "shortDescription": {
-      "en": "Unadon is a common Japanese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "鳗鱼饭是常见日本菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Unadon is een veelvoorkomend Japans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Grilled eel glazed with sweet kabayaki sauce over rice.",
+      "zh": "烤鳗鱼刷甜咸蒲烧酱后盖在米饭上，风味浓郁、口感软嫩。",
+      "nl": "Gegrilde paling met zoete kabayakisaus op rijst."
     },
     "cookingProfile": {
-      "en": "Usually served with soft rice, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft rice，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft rice; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The eel is grilled and glazed, so it feels rich, soft, and sweet-savory over plain rice.",
+      "zh": "鳗鱼烤后刷酱，口感软润浓郁，甜咸酱汁和白饭搭配明显。",
+      "nl": "De paling wordt gegrild en geglaceerd: rijk, zacht en zoet-hartig op rijst."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "rice",
+        "seafood"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将日本菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Japans menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
@@ -6893,62 +6923,65 @@ const globalDepthDishConfigs = [
         "base"
       ],
       [
-        "fish-fillet",
-        25,
+        "eel",
+        35,
         "main"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "body"
-      ],
-      [
-        "soy-sauce",
-        5,
-        "seasoning",
+        "kabayaki-sauce",
+        10,
+        "glaze",
         "seasoning"
       ],
       [
-        "green-onion",
+        "seaweed",
         5,
-        "finish"
+        "garnish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-fillet",
-      "seasoned rice",
-      "aromatics"
+      "eel",
+      "kabayaki-sauce"
     ],
     "basicTaste": [
+      "sweet",
       "savory",
-      "filling"
+      "rich",
+      "umami"
     ],
     "textureProfile": [
-      "soft rice",
-      "mixed toppings"
+      "soft grilled eel",
+      "sticky glaze",
+      "soft rice"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-soy",
+      "contains-gluten"
     ],
     "dietaryFlags": [
       "pescatarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "rice",
+      "seafood-lover",
+      "rich-sauce"
     ],
     "avoidIfTags": [
-      "avoids-fish"
+      "fish-allergy",
+      "soy-allergy",
+      "gluten-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, filling profile sounds appealing; check fish if that matters.",
-      "zh": "如果你想要savory、filling的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, filling je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A rich seafood rice bowl; choose it if sweet glaze and soft eel sound good.",
+      "zh": "偏浓郁的海鲜盖饭；喜欢甜咸酱和软嫩鳗鱼的人会更适合。",
+      "nl": "Een rijke visrijstkom; kies dit als zoete glaze en zachte paling je aanspreken."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "low"
   },
   {
     "id": "omurice",
@@ -6962,88 +6995,91 @@ const globalDepthDishConfigs = [
     },
     "category": "rice",
     "cookingMethods": [
-      "simmered"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Omurice is a common Japanese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "蛋包饭是常见日本菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Omurice is een veelvoorkomend Japans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Ketchup-seasoned fried rice wrapped or covered with a soft omelette, often finished with ketchup or demi-glace.",
+      "zh": "番茄酱风味炒饭外包或上盖嫩蛋，常再淋番茄酱或日式 demi-glace。",
+      "nl": "Gebakken rijst met ketchup, omhuld of bedekt met zachte omelet en vaak ketchup of demi-glace."
     },
     "cookingProfile": {
-      "en": "Usually served with soft rice, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft rice，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft rice; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Fried rice is paired with a soft egg layer, so it feels sweet-savory, homey, and quite filling.",
+      "zh": "炒饭搭配柔软蛋皮，整体甜咸、家常、饱腹感明显。",
+      "nl": "Gebakken rijst met zachte eilaag: zoet-hartig, huiselijk en behoorlijk vullend."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "rice",
+        "comforting",
+        "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将日本菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Japans menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
         "steamed-rice",
-        50,
-        "base"
+        45,
+        "fried-rice base"
+      ],
+      [
+        "egg",
+        35,
+        "omelette cover"
       ],
       [
         "chicken",
-        25,
-        "main"
+        10,
+        "common filling"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "body"
-      ],
-      [
-        "soy-sauce",
-        5,
-        "seasoning",
+        "tomato-sauce",
+        10,
+        "ketchup-style sauce",
         "seasoning"
-      ],
-      [
-        "green-onion",
-        5,
-        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "seasoned rice",
-      "aromatics"
+      "egg",
+      "tomato-sauce"
     ],
     "basicTaste": [
+      "sweet",
       "savory",
-      "filling"
+      "mild"
     ],
     "textureProfile": [
-      "soft rice",
-      "mixed toppings"
+      "soft omelette",
+      "tender fried rice",
+      "saucy top"
     ],
     "riskFlags": [
       "contains-egg"
     ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "restaurant-coverage"
+    "dietaryFlags": [
+      "protein-varies-by-restaurant"
     ],
-    "avoidIfTags": [],
+    "goodForTags": [
+      "comforting",
+      "rice",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, filling profile sounds appealing; check egg if that matters.",
-      "zh": "如果你想要savory、filling的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, filling je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A friendly comfort-food choice if you like egg and slightly sweet tomato flavor.",
+      "zh": "喜欢鸡蛋和微甜番茄味时很友好，是偏舒适的饭类。",
+      "nl": "Een toegankelijke comfort-keuze als je ei en lichtzoete tomatensmaak lekker vindt."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -7058,93 +7094,99 @@ const globalDepthDishConfigs = [
     },
     "category": "rice",
     "cookingMethods": [
-      "simmered"
+      "assembled"
     ],
+    "servingTemperature": "room-temperature-or-cool",
     "shortDescription": {
-      "en": "Onigiri is a common Japanese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "饭团是常见日本菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Onigiri is een veelvoorkomend Japans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Hand-shaped rice balls, often wrapped with nori and filled with salmon, pickled plum, tuna mayo, or other small fillings.",
+      "zh": "手捏饭团，常包海苔，内馅可能是三文鱼、梅子、金枪鱼美乃滋等。",
+      "nl": "Handgevormde rijstballen, vaak met nori en vulling zoals zalm, umeboshi of tonijnmayo."
     },
     "cookingProfile": {
-      "en": "Usually served with soft rice, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft rice，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft rice; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Assembled from cooked rice and filling, so it is compact, portable, and less saucy than a rice bowl.",
+      "zh": "熟米饭包内馅成形，紧实方便，比盖饭更干爽少酱。",
+      "nl": "Gemaakt van gekookte rijst en vulling; compact, draagbaar en minder sauzig dan een rijstkom."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "rice",
+        "snack",
+        "street-food"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将日本菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Japans menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
         "steamed-rice",
-        50,
+        65,
         "base"
       ],
       [
-        "fish-fillet",
-        25,
-        "main"
-      ],
-      [
-        "mixed-vegetables",
+        "seaweed",
         15,
-        "body"
+        "wrap"
       ],
       [
-        "soy-sauce",
+        "salmon",
+        10,
+        "common filling"
+      ],
+      [
+        "pickles",
+        5,
+        "side or filling"
+      ],
+      [
+        "sea-salt",
         5,
         "seasoning",
         "seasoning"
-      ],
-      [
-        "green-onion",
-        5,
-        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-fillet",
-      "seasoned rice",
-      "aromatics"
+      "seaweed",
+      "salmon",
+      "sea-salt"
     ],
     "basicTaste": [
-      "savory",
-      "filling"
+      "mild",
+      "salty",
+      "briny"
     ],
     "textureProfile": [
-      "soft rice",
-      "mixed toppings"
+      "compact rice",
+      "crisp seaweed when fresh",
+      "small filling pocket"
     ],
     "riskFlags": [
       "contains-fish"
     ],
     "dietaryFlags": [
-      "pescatarian"
+      "filling-varies-by-restaurant"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "snack",
+      "rice",
+      "lighter-choice"
     ],
     "avoidIfTags": [
-      "avoids-fish"
+      "fish-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, filling profile sounds appealing; check fish if that matters.",
-      "zh": "如果你想要savory、filling的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, filling je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good as a light snack or add-on; check the filling because names often hide fish, mayo, or pickles.",
+      "zh": "适合当轻量小食或加点；要看内馅，常可能有鱼、美乃滋或腌菜。",
+      "nl": "Goed als lichte snack; check de vulling, want er kan vis, mayo of pickles in zitten."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "shabu-shabu",
@@ -7160,90 +7202,102 @@ const globalDepthDishConfigs = [
     "cookingMethods": [
       "simmered"
     ],
+    "goodForSharing": true,
     "shortDescription": {
-      "en": "Shabu-shabu is a common Japanese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "日式涮涮锅是常见日本菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Shabu-shabu is een veelvoorkomend Japans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Japanese hot pot where very thin slices of meat and vegetables are swished in light broth and dipped in sauces.",
+      "zh": "日式涮锅，把薄切肉片和蔬菜在清汤里涮熟，再蘸芝麻酱或柑橘酱油类酱汁。",
+      "nl": "Japanse hotpot waarbij dunne plakjes vlees en groenten kort in lichte bouillon garen en in saus worden gedipt."
     },
     "cookingProfile": {
-      "en": "Usually served with warm broth, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现warm broth，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met warm broth; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Often cooked at the table, so the meat stays delicate and the broth is lighter than rich stew.",
+      "zh": "常在桌边涮煮，肉片很薄，汤底比浓炖锅更清淡。",
+      "nl": "Vaak aan tafel bereid; het vlees blijft delicaat en de bouillon is lichter dan stoofpot."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "hot-pot",
+        "shareable"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将日本菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Japans menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
-        "broth",
-        45,
-        "soup base"
-      ],
-      [
-        "chicken",
-        25,
+        "sliced-meat",
+        35,
         "main"
       ],
       [
-        "mixed-vegetables",
+        "hot-pot-broth",
+        25,
+        "broth"
+      ],
+      [
+        "cabbage",
         15,
+        "vegetable"
+      ],
+      [
+        "tofu",
+        10,
         "body"
       ],
       [
-        "potato",
-        5,
-        "body"
+        "mushrooms",
+        10,
+        "vegetable"
       ],
       [
-        "parsley",
+        "ponzu",
         5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
+        "dip",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "broth",
-      "herbs"
+      "ponzu",
+      "hot-pot-broth",
+      "sliced-meat"
     ],
     "basicTaste": [
-      "brothy",
-      "savory"
+      "light",
+      "savory",
+      "citrusy",
+      "umami"
     ],
     "textureProfile": [
-      "warm broth",
-      "soft pieces"
+      "thin tender meat",
+      "light broth",
+      "soft tofu and vegetables"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-soy"
+    ],
+    "dietaryFlags": [
+      "protein-varies-by-restaurant"
+    ],
     "goodForTags": [
-      "restaurant-coverage"
+      "shareable",
+      "hot-pot",
+      "lighter-choice"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "soy-allergy"
+    ],
     "orderVerdict": {
-      "en": "Order if this brothy, savory profile sounds appealing.",
-      "zh": "如果你想要brothy、savory的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van brothy, savory je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose this for a lighter shared hot pot; it is about delicate meat and dips, not a heavy broth.",
+      "zh": "想吃较清爽的共享火锅时适合；重点是薄肉片和蘸汁，不是浓汤底。",
+      "nl": "Kies dit voor een lichtere gedeelde hotpot; het draait om dun vlees en dips, niet om zware bouillon."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -7258,93 +7312,111 @@ const globalDepthDishConfigs = [
     },
     "category": "meat",
     "cookingMethods": [
-      "braised"
+      "simmered"
     ],
+    "goodForSharing": true,
     "shortDescription": {
-      "en": "Sukiyaki is a common Japanese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "寿喜烧是常见日本菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Sukiyaki is een veelvoorkomend Japans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Sweet-savory Japanese hot pot with thin beef, tofu, vegetables, shirataki noodles, and soy-sugar sauce.",
+      "zh": "甜咸日式锅物，常有薄切牛肉、豆腐、蔬菜、魔芋丝和酱油糖汁。",
+      "nl": "Zoet-hartige Japanse hotpot met dun rundvlees, tofu, groenten, shirataki en soja-suikersaus."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Simmered in a stronger sweet soy sauce than shabu-shabu, so it tastes richer and more seasoned.",
+      "zh": "比涮涮锅酱汁更浓更甜咸，整体调味感和厚度更强。",
+      "nl": "Gestoofd in sterkere zoete sojasaus dan shabu-shabu; rijker en duidelijker gekruid."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "hot-pot",
+        "shareable"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将日本菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Japans menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
-        "chicken",
-        60,
+        "beef",
+        35,
         "main"
       ],
       [
-        "potato",
-        15,
-        "side"
+        "warishita-sauce",
+        20,
+        "sweet soy simmering sauce",
+        "seasoning"
       ],
       [
-        "mixed-vegetables",
-        10,
+        "tofu",
+        15,
         "body"
       ],
       [
-        "tomato-sauce",
-        5,
-        "sauce",
-        "seasoning"
+        "cabbage",
+        10,
+        "vegetable"
       ],
       [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
+        "mushrooms",
+        10,
+        "vegetable"
       ],
       [
-        "parsley",
+        "shirataki-noodles",
         5,
-        "finish",
-        "seasoning"
+        "noodle"
+      ],
+      [
+        "egg",
+        5,
+        "optional dip"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "sauce",
-      "herbs"
+      "warishita-sauce",
+      "beef",
+      "egg"
     ],
     "basicTaste": [
+      "sweet",
       "savory",
-      "rich"
+      "rich",
+      "umami"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "thin beef",
+      "sweet glossy sauce",
+      "soft tofu and noodles"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-soy",
+      "contains-gluten",
+      "contains-egg"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "shareable",
+      "hot-pot",
+      "rich-sauce"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "soy-allergy",
+      "gluten-allergy",
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Better than shabu-shabu if you want sweeter, richer sauce; skip it if you prefer very light broth.",
+      "zh": "想吃更甜咸、更浓郁锅物时比涮涮锅更适合；偏爱清汤的人可能会觉得重。",
+      "nl": "Beter dan shabu-shabu als je zoetere rijkere saus wilt; minder geschikt als je lichte bouillon zoekt."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -7362,25 +7434,25 @@ const globalDepthDishConfigs = [
       "stir-fried"
     ],
     "shortDescription": {
-      "en": "Yakisoba is a common Japanese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "日式炒面是常见日本菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Yakisoba is een veelvoorkomend Japans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Japanese stir-fried wheat noodles with cabbage, pork or seafood, and tangy-sweet brown yakisoba sauce.",
+      "zh": "日式炒小麦面，常配卷心菜和猪肉或海鲜，酱汁棕色、偏甜咸微酸。",
+      "nl": "Japanse geroerbakte tarwenoedels met kool, varken of zeevruchten en zoet-zure bruine yakisobasaus."
     },
     "cookingProfile": {
-      "en": "Usually served with springy noodles, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现springy noodles，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met springy noodles; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Stir-fried on a hot surface, so the noodles are glossy, sauced, and lightly oily.",
+      "zh": "热锅或铁板快炒，面条油润有酱汁包裹，通常不是汤面。",
+      "nl": "Op hete plaat of pan geroerbakt; glanzende, sauzige en licht olieachtige noedels."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "street-food",
+        "noodle"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将日本菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Japans menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
@@ -7390,68 +7462,76 @@ const globalDepthDishConfigs = [
         "base"
       ],
       [
+        "cabbage",
+        20,
+        "vegetable"
+      ],
+      [
         "pork",
-        25,
-        "main"
-      ],
-      [
-        "mixed-vegetables",
         15,
-        "body"
+        "common protein"
       ],
       [
-        "soy-sauce",
-        5,
-        "seasoning",
+        "yakisoba-sauce",
+        10,
+        "sauce",
         "seasoning"
       ],
       [
-        "sesame-oil",
+        "pickled-ginger",
         5,
-        "aroma",
-        "seasoning"
+        "bright garnish"
       ],
       [
-        "green-onion",
+        "bonito-flakes",
         5,
-        "finish"
+        "fish garnish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "soy-sauce",
-      "aromatics"
+      "yakisoba-sauce",
+      "pickled-ginger",
+      "bonito-flakes"
     ],
     "basicTaste": [
       "savory",
-      "aromatic"
+      "sweet-sour",
+      "umami"
     ],
     "textureProfile": [
-      "springy noodles",
-      "glossy sauce"
+      "springy fried noodles",
+      "glossy sauce coating",
+      "soft cabbage"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-soy",
-      "contains-pork"
+      "contains-pork",
+      "contains-fish"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "protein-varies-by-restaurant"
+    ],
     "goodForTags": [
-      "restaurant-coverage"
+      "noodle-lover",
+      "street-food",
+      "filling"
     ],
     "avoidIfTags": [
-      "no-pork",
-      "gluten-free"
+      "gluten-allergy",
+      "soy-allergy",
+      "pork-avoidant",
+      "fish-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, aromatic profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要savory、aromatic的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, aromatic je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good choice for saucy fried noodles; not ideal if you want a light broth noodle dish.",
+      "zh": "想吃有酱汁的炒面时合适；如果想要清汤面就不要选它。",
+      "nl": "Goed voor sauzige gebakken noedels; niet ideaal als je lichte bouillonnoedels zoekt."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -7466,95 +7546,99 @@ const globalDepthDishConfigs = [
     },
     "category": "starter",
     "cookingMethods": [
-      "assembled"
+      "deep-fried",
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Agedashi Tofu is a common Japanese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "日式炸豆腐是常见日本菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Agedashi tofu is een veelvoorkomend Japans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Lightly fried tofu cubes served in warm dashi-based tentsuyu sauce with grated daikon or green onion.",
+      "zh": "豆腐裹薄粉轻炸后泡在温热天汁里，常配萝卜泥和葱。",
+      "nl": "Licht gefrituurde tofublokjes in warme dashi-tentsuyusaus met geraspte daikon of lente-ui."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small bites，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small bites; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The tofu is fried but served in sauce, so edges soften while the center stays silky.",
+      "zh": "豆腐先炸后入汁，外层会被汤汁浸软，内部仍然嫩滑。",
+      "nl": "Tofu wordt gefrituurd maar in saus geserveerd; randjes worden zacht, binnenin blijft het zijdezacht."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "starter",
+        "vegetarian-friendly"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将日本菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Japans menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
-        "chicken",
-        40,
+        "tofu",
+        55,
         "main"
       ],
       [
-        "mixed-vegetables",
-        25,
-        "body"
-      ],
-      [
-        "potato",
+        "potato-starch",
         15,
-        "richness"
+        "light coating"
       ],
       [
-        "olive-oil",
+        "dashi-broth",
+        15,
+        "sauce base"
+      ],
+      [
+        "tentsuyu",
         10,
-        "finish",
+        "sauce seasoning",
         "seasoning"
       ],
       [
-        "sea-salt",
+        "green-onion",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
+        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "olive-oil",
-      "herbs"
+      "tentsuyu",
+      "dashi-broth",
+      "tofu"
     ],
     "basicTaste": [
       "savory",
+      "umami",
       "mild"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "silky tofu center",
+      "softened fried edges",
+      "warm sauce"
     ],
     "riskFlags": [
-      "contains-soy"
+      "contains-soy",
+      "contains-fish"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "often-vegetarian-but-dashi-may-contain-fish"
+    ],
     "goodForTags": [
-      "restaurant-coverage"
+      "starter",
+      "lighter-choice",
+      "tofu-lover"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "soy-allergy",
+      "fish-allergy"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check soy if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A gentle tofu starter; ask about dashi if you need fully vegetarian food.",
+      "zh": "温和的豆腐前菜；如果需要严格素食，要确认高汤是否含鱼。",
+      "nl": "Een zachte tofu-starter; vraag naar dashi als je strikt vegetarisch eet."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -7569,95 +7653,104 @@ const globalDepthDishConfigs = [
     },
     "category": "starter",
     "cookingMethods": [
-      "assembled"
+      "steamed",
+      "set"
     ],
     "shortDescription": {
-      "en": "Chawanmushi is a common Japanese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "茶碗蒸是常见日本菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Chawanmushi is een veelvoorkomend Japans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Savory steamed egg custard in a cup, often with dashi, shrimp, chicken, mushrooms, or ginkgo.",
+      "zh": "杯装咸味蒸蛋羹，常有高汤、虾、鸡肉、蘑菇或银杏，口感很滑。",
+      "nl": "Hartige gestoomde eivla in een kopje, vaak met dashi, garnaal, kip, paddenstoel of ginkgo."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small bites，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small bites; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Steamed gently until just set, so it is smooth and spoonable rather than firm like an omelette.",
+      "zh": "轻蒸至刚凝固，入口顺滑，可用勺吃，不像煎蛋那样结实。",
+      "nl": "Zacht gestoomd tot net gezet; glad en lepelbaar, niet stevig als omelet."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "starter"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将日本菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Japans menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
+        "egg",
+        45,
+        "custard base"
+      ],
+      [
+        "dashi-broth",
+        35,
+        "custard liquid"
+      ],
+      [
+        "shrimp",
+        5,
+        "common insert"
+      ],
+      [
         "chicken",
-        40,
-        "main"
-      ],
-      [
-        "mixed-vegetables",
-        25,
-        "body"
-      ],
-      [
-        "potato",
-        15,
-        "richness"
-      ],
-      [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "sea-salt",
         5,
-        "seasoning",
-        "seasoning"
+        "common insert"
       ],
       [
-        "parsley",
+        "mushrooms",
         5,
-        "finish",
-        "seasoning"
+        "aroma"
+      ],
+      [
+        "green-onion",
+        5,
+        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "olive-oil",
-      "herbs"
+      "egg",
+      "dashi-broth",
+      "mushrooms"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "umami",
+      "delicate"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "silky set custard",
+      "small hidden pieces",
+      "warm spoonable texture"
     ],
     "riskFlags": [
-      "contains-egg"
+      "contains-egg",
+      "contains-fish",
+      "contains-shellfish"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "fillings-vary-by-restaurant"
+    ],
     "goodForTags": [
-      "restaurant-coverage"
+      "starter",
+      "delicate-texture"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "fish-allergy",
+      "shellfish-allergy"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check egg if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Great if you like silky savory custard; avoid it if egg texture or hidden seafood is a concern.",
+      "zh": "喜欢滑嫩咸蛋羹的人会很适合；介意蛋感或隐藏海鲜就要谨慎。",
+      "nl": "Mooi als je zijdezachte hartige custard wilt; let op ei en verborgen zeevruchten."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -7672,95 +7765,102 @@ const globalDepthDishConfigs = [
     },
     "category": "starter",
     "cookingMethods": [
-      "assembled"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Tamagoyaki is a common Japanese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "日式玉子烧是常见日本菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Tamagoyaki is een veelvoorkomend Japans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Rolled Japanese omelette, lightly sweet and savory, sliced into soft layered pieces.",
+      "zh": "卷起来的日式蛋卷，通常微甜微咸，切片后能看到柔软层次。",
+      "nl": "Gerolde Japanse omelet, licht zoet en hartig, in zachte laagjes gesneden."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small bites，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small bites; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Cooked in thin layers and rolled, so the texture is tender, layered, and more delicate than a regular omelette.",
+      "zh": "薄层加热后卷起，口感柔软有层次，比普通煎蛋更细腻。",
+      "nl": "In dunne laagjes gebakken en gerold; zacht, gelaagd en delicater dan gewone omelet."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "starter"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将日本菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Japans menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
-        "chicken",
-        40,
-        "main"
+        "egg",
+        75,
+        "base"
       ],
       [
-        "mixed-vegetables",
-        25,
-        "body"
-      ],
-      [
-        "potato",
-        15,
-        "richness"
-      ],
-      [
-        "olive-oil",
+        "dashi-broth",
         10,
-        "finish",
+        "seasoning liquid"
+      ],
+      [
+        "soy-sauce",
+        5,
+        "seasoning",
         "seasoning"
+      ],
+      [
+        "sugar",
+        5,
+        "light sweetness"
       ],
       [
         "sea-salt",
         5,
         "seasoning",
         "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "olive-oil",
-      "herbs"
+      "egg",
+      "dashi-broth",
+      "soy-sauce"
     ],
     "basicTaste": [
+      "mildly-sweet",
       "savory",
-      "mild"
+      "eggy"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "soft rolled layers",
+      "moist omelette",
+      "neat slices"
     ],
     "riskFlags": [
-      "contains-egg"
+      "contains-egg",
+      "contains-soy",
+      "contains-gluten",
+      "contains-fish"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian-if-dashi-is-vegetable-based"
+    ],
     "goodForTags": [
-      "restaurant-coverage"
+      "starter",
+      "mild-flavor",
+      "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "soy-allergy",
+      "fish-allergy"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check egg if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A mild egg side for diners who like soft sweetness; ask about dashi if fish stock matters.",
+      "zh": "适合喜欢柔软微甜蛋类小菜的人；介意鱼高汤要先问。",
+      "nl": "Een milde ei-side met zachte zoetheid; vraag naar dashi als visbouillon uitmaakt."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -7775,99 +7875,100 @@ const globalDepthDishConfigs = [
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Matcha Ice Cream is a common Japanese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "抹茶冰淇淋是常见日本菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Matcha-ijs is een veelvoorkomend Japans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Green tea ice cream with matcha bitterness balanced by dairy richness and sugar.",
+      "zh": "抹茶口味冰淇淋，用奶香和糖平衡绿茶微苦，通常冷食。",
+      "nl": "Groene-thee-ijs met matchabitterheid, afgerond door zuivelrijkdom en suiker."
     },
     "cookingProfile": {
-      "en": "Usually served with soft dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served frozen, so the flavor starts creamy and sweet, then finishes with a mild tea bitterness.",
+      "zh": "冷冻上桌，入口先是奶香甜味，后段有轻微茶苦。",
+      "nl": "Bevroren geserveerd; eerst romig en zoet, daarna lichte theebitterheid."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "dessert",
+        "internationally-known"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将日本菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Japans menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
-        "sugar",
-        30,
-        "sweetness"
+        "cream",
+        45,
+        "dairy base"
       ],
       [
-        "cream",
-        25,
-        "base"
+        "sugar",
+        20,
+        "sweetness"
       ],
       [
         "egg",
         15,
-        "richness"
+        "custard richness"
       ],
       [
-        "wheat-flour",
-        15,
-        "structure"
-      ],
-      [
-        "vanilla",
+        "matcha",
         10,
-        "aroma",
+        "tea flavor",
         "seasoning"
       ],
       [
-        "fruit-sauce-or-caramel",
-        5,
-        "finish"
+        "red-bean-paste",
+        10,
+        "common topping"
       ]
     ],
     "distinctiveFlavorSources": [
-      "vanilla",
+      "matcha",
       "cream",
-      "sweet finish"
+      "red-bean-paste"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "mildly-bitter"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "cold creamy scoops",
+      "smooth dairy base",
+      "optional bean paste chew"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg"
     ],
     "dietaryFlags": [
       "vegetarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "dessert",
+      "sweet",
+      "tea-flavor"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "dairy-allergy",
+      "egg-allergy",
+      "not-for-low-sugar"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good dessert if you like creamy sweets with a gentle green-tea bitterness.",
+      "zh": "喜欢奶香甜点、又能接受一点绿茶苦味时很适合。",
+      "nl": "Een goed dessert als je romige zoetigheid met lichte groene-theebitterheid wilt."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -7882,98 +7983,94 @@ const globalDepthDishConfigs = [
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "fried"
     ],
+    "servingTemperature": "room-temperature-or-warm",
     "shortDescription": {
-      "en": "Dorayaki is a common Japanese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "铜锣烧是常见日本菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Dorayaki is een veelvoorkomend Japans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Two small pancake-like cakes sandwiching sweet red bean paste.",
+      "zh": "两片松软小饼夹甜红豆馅，常温或微温食用。",
+      "nl": "Twee kleine pannenkoekachtige cakejes met zoete rodebonenpasta ertussen."
     },
     "cookingProfile": {
-      "en": "Usually served with soft dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The cakes are griddle-cooked and filled, so it feels soft, cakey, and sweeter than a bread roll.",
+      "zh": "小饼煎烤后夹馅，口感松软像蛋糕，比面包更甜。",
+      "nl": "De cakejes worden op de plaat gebakken en gevuld: zacht, cakeachtig en zoeter dan brood."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "dessert",
+        "wagashi"
       ],
       "description": {
-        "en": "A high-frequency Japanese menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将日本菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Japans menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A recognizable Japanese menu item with specific ordering cues for texture, sauce, portion feel, and common allergens.",
+        "zh": "有明确日料点餐语境的菜品，可帮助判断口感、酱汁、分量和常见过敏风险。",
+        "nl": "Een herkenbaar Japans menu-item met concrete bestelinformatie over textuur, saus, portiegevoel en allergenen."
       }
     },
     "composition": [
       [
+        "dorayaki-pancake",
+        45,
+        "cake shell"
+      ],
+      [
+        "red-bean-paste",
+        40,
+        "filling"
+      ],
+      [
         "sugar",
-        30,
+        10,
         "sweetness"
       ],
       [
-        "cream",
-        25,
-        "base"
-      ],
-      [
-        "egg",
-        15,
-        "richness"
-      ],
-      [
-        "wheat-flour",
-        15,
-        "structure"
-      ],
-      [
-        "vanilla",
-        10,
-        "aroma",
-        "seasoning"
-      ],
-      [
-        "fruit-sauce-or-caramel",
+        "honey",
         5,
-        "finish"
+        "aroma"
       ]
     ],
     "distinctiveFlavorSources": [
-      "vanilla",
-      "cream",
-      "sweet finish"
+      "red-bean-paste",
+      "honey",
+      "dorayaki-pancake"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "bean-like",
+      "mild"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft pancake cakes",
+      "dense sweet bean filling",
+      "handheld dessert"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
-      "dessert"
+      "dessert",
+      "sweet",
+      "snack"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-allergy",
+      "egg-allergy",
+      "not-for-low-sugar"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A gentle sweet snack if red bean paste sounds good; less creamy than ice cream or cake desserts.",
+      "zh": "喜欢红豆馅时是温和甜点小食；它没有冰淇淋或奶油蛋糕那么奶香。",
+      "nl": "Een zachte zoete snack als rodebonenpasta je aanspreekt; minder romig dan ijs of cake."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {

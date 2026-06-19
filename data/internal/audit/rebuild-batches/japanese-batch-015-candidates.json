@@ -1,0 +1,177 @@
+[
+  {
+    "dishId": "sashimi",
+    "metadataCode": "109006",
+    "imagePath": "/assets/dishes/main/109006-sashimi.webp",
+    "name": "Sashimi",
+    "source": "expanded"
+  },
+  {
+    "dishId": "gyoza",
+    "metadataCode": "109007",
+    "imagePath": "/assets/dishes/main/109007-gyoza.webp",
+    "name": "Gyoza",
+    "source": "expanded"
+  },
+  {
+    "dishId": "yakitori",
+    "metadataCode": "109008",
+    "imagePath": "/assets/dishes/main/109008-yakitori.webp",
+    "name": "Yakitori",
+    "source": "expanded"
+  },
+  {
+    "dishId": "udon",
+    "metadataCode": "109009",
+    "imagePath": "/assets/dishes/main/109009-udon.webp",
+    "name": "Udon",
+    "source": "expanded"
+  },
+  {
+    "dishId": "soba",
+    "metadataCode": "109010",
+    "imagePath": "/assets/dishes/main/109010-soba.webp",
+    "name": "Soba",
+    "source": "expanded"
+  },
+  {
+    "dishId": "teriyaki-chicken",
+    "metadataCode": "109011",
+    "imagePath": "/assets/dishes/main/109011-teriyaki-chicken.webp",
+    "name": "Teriyaki Chicken",
+    "source": "expanded"
+  },
+  {
+    "dishId": "karaage",
+    "metadataCode": "109012",
+    "imagePath": "/assets/dishes/main/109012-karaage.webp",
+    "name": "Karaage",
+    "source": "expanded"
+  },
+  {
+    "dishId": "tonkatsu",
+    "metadataCode": "109013",
+    "imagePath": "/assets/dishes/main/109013-tonkatsu.webp",
+    "name": "Tonkatsu",
+    "source": "expanded"
+  },
+  {
+    "dishId": "okonomiyaki",
+    "metadataCode": "109014",
+    "imagePath": "/assets/dishes/main/109014-okonomiyaki.webp",
+    "name": "Okonomiyaki",
+    "source": "expanded"
+  },
+  {
+    "dishId": "takoyaki",
+    "metadataCode": "109015",
+    "imagePath": "/assets/dishes/main/109015-takoyaki.webp",
+    "name": "Takoyaki",
+    "source": "expanded"
+  },
+  {
+    "dishId": "chirashi",
+    "metadataCode": "109016",
+    "imagePath": "/assets/dishes/main/109016-chirashi.webp",
+    "name": "Chirashi Sushi",
+    "source": "expanded"
+  },
+  {
+    "dishId": "edamame",
+    "metadataCode": "109017",
+    "imagePath": "/assets/dishes/main/109017-edamame.webp",
+    "name": "Edamame",
+    "source": "expanded"
+  },
+  {
+    "dishId": "donburi",
+    "metadataCode": "109018",
+    "imagePath": "/assets/dishes/main/109018-donburi.webp",
+    "name": "Donburi",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "oyakodon",
+    "metadataCode": "109019",
+    "imagePath": "/assets/dishes/main/109019-oyakodon.webp",
+    "name": "Oyakodon",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "unadon",
+    "metadataCode": "109020",
+    "imagePath": "/assets/dishes/main/109020-unadon.webp",
+    "name": "Unadon",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "omurice",
+    "metadataCode": "109021",
+    "imagePath": "/assets/dishes/main/109021-omurice.webp",
+    "name": "Omurice",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "onigiri",
+    "metadataCode": "109022",
+    "imagePath": "/assets/dishes/main/109022-onigiri.webp",
+    "name": "Onigiri",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "shabu-shabu",
+    "metadataCode": "109023",
+    "imagePath": "/assets/dishes/main/109023-shabu-shabu.webp",
+    "name": "Shabu-shabu",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "sukiyaki",
+    "metadataCode": "109024",
+    "imagePath": "/assets/dishes/main/109024-sukiyaki.webp",
+    "name": "Sukiyaki",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "yakisoba",
+    "metadataCode": "109025",
+    "imagePath": "/assets/dishes/main/109025-yakisoba.webp",
+    "name": "Yakisoba",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "agedashi-tofu",
+    "metadataCode": "109026",
+    "imagePath": "/assets/dishes/main/109026-agedashi-tofu.webp",
+    "name": "Agedashi Tofu",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "chawanmushi",
+    "metadataCode": "109027",
+    "imagePath": "/assets/dishes/main/109027-chawanmushi.webp",
+    "name": "Chawanmushi",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "tamago-yaki",
+    "metadataCode": "109028",
+    "imagePath": "/assets/dishes/main/109028-tamago-yaki.webp",
+    "name": "Tamagoyaki",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "matcha-ice-cream",
+    "metadataCode": "109029",
+    "imagePath": "/assets/dishes/main/109029-matcha-ice-cream.webp",
+    "name": "Matcha Ice Cream",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "dorayaki",
+    "metadataCode": "109030",
+    "imagePath": "/assets/dishes/main/109030-dorayaki.webp",
+    "name": "Dorayaki",
+    "source": "global-depth"
+  }
+]

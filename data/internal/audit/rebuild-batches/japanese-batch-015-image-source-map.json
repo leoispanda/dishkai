@@ -1,0 +1,106 @@
+[
+  {
+    "metadataCode": "109018",
+    "dishId": "donburi",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_093b959804a5e848016a34d58126448191872933b74c54916d.png",
+    "auditSource": "data/internal/audit/rebuild-batches/japanese-batch-015-image-sources/109018-donburi.png",
+    "mainPath": "/assets/dishes/main/109018-donburi.webp",
+    "thumbPath": "/assets/dishes/thumb/109018-donburi.webp"
+  },
+  {
+    "metadataCode": "109019",
+    "dishId": "oyakodon",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_093b959804a5e848016a34d5eb17c88191a14486e8aa30d7bf.png",
+    "auditSource": "data/internal/audit/rebuild-batches/japanese-batch-015-image-sources/109019-oyakodon.png",
+    "mainPath": "/assets/dishes/main/109019-oyakodon.webp",
+    "thumbPath": "/assets/dishes/thumb/109019-oyakodon.webp"
+  },
+  {
+    "metadataCode": "109020",
+    "dishId": "unadon",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_093b959804a5e848016a34d657484c8191b6067c636967d294.png",
+    "auditSource": "data/internal/audit/rebuild-batches/japanese-batch-015-image-sources/109020-unadon.png",
+    "mainPath": "/assets/dishes/main/109020-unadon.webp",
+    "thumbPath": "/assets/dishes/thumb/109020-unadon.webp"
+  },
+  {
+    "metadataCode": "109021",
+    "dishId": "omurice",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_093b959804a5e848016a34d6ca8e44819187f866e02d4daaee.png",
+    "auditSource": "data/internal/audit/rebuild-batches/japanese-batch-015-image-sources/109021-omurice.png",
+    "mainPath": "/assets/dishes/main/109021-omurice.webp",
+    "thumbPath": "/assets/dishes/thumb/109021-omurice.webp"
+  },
+  {
+    "metadataCode": "109022",
+    "dishId": "onigiri",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_093b959804a5e848016a34d725adfc8191aa33392b898ca5d6.png",
+    "auditSource": "data/internal/audit/rebuild-batches/japanese-batch-015-image-sources/109022-onigiri.png",
+    "mainPath": "/assets/dishes/main/109022-onigiri.webp",
+    "thumbPath": "/assets/dishes/thumb/109022-onigiri.webp"
+  },
+  {
+    "metadataCode": "109023",
+    "dishId": "shabu-shabu",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_0c5d8b60d03578ef016a34d7e5451c81919cf7d5a2a773b147.png",
+    "auditSource": "data/internal/audit/rebuild-batches/japanese-batch-015-image-sources/109023-shabu-shabu.png",
+    "mainPath": "/assets/dishes/main/109023-shabu-shabu.webp",
+    "thumbPath": "/assets/dishes/thumb/109023-shabu-shabu.webp"
+  },
+  {
+    "metadataCode": "109024",
+    "dishId": "sukiyaki",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_0c5d8b60d03578ef016a34d826e3708191824a45d1f75fb36c.png",
+    "auditSource": "data/internal/audit/rebuild-batches/japanese-batch-015-image-sources/109024-sukiyaki.png",
+    "mainPath": "/assets/dishes/main/109024-sukiyaki.webp",
+    "thumbPath": "/assets/dishes/thumb/109024-sukiyaki.webp"
+  },
+  {
+    "metadataCode": "109025",
+    "dishId": "yakisoba",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_0c5d8b60d03578ef016a34d88d619c819193f4caf8a3461a7e.png",
+    "auditSource": "data/internal/audit/rebuild-batches/japanese-batch-015-image-sources/109025-yakisoba.png",
+    "mainPath": "/assets/dishes/main/109025-yakisoba.webp",
+    "thumbPath": "/assets/dishes/thumb/109025-yakisoba.webp"
+  },
+  {
+    "metadataCode": "109026",
+    "dishId": "agedashi-tofu",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_0c5d8b60d03578ef016a34d8d4acf88191839a928acb8b6ee2.png",
+    "auditSource": "data/internal/audit/rebuild-batches/japanese-batch-015-image-sources/109026-agedashi-tofu.png",
+    "mainPath": "/assets/dishes/main/109026-agedashi-tofu.webp",
+    "thumbPath": "/assets/dishes/thumb/109026-agedashi-tofu.webp"
+  },
+  {
+    "metadataCode": "109027",
+    "dishId": "chawanmushi",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_0c5d8b60d03578ef016a34d91861a881919c48cbcb31210fe2.png",
+    "auditSource": "data/internal/audit/rebuild-batches/japanese-batch-015-image-sources/109027-chawanmushi.png",
+    "mainPath": "/assets/dishes/main/109027-chawanmushi.webp",
+    "thumbPath": "/assets/dishes/thumb/109027-chawanmushi.webp"
+  },
+  {
+    "metadataCode": "109028",
+    "dishId": "tamago-yaki",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_0c5d8b60d03578ef016a34d948640c8191bb4751b121919680.png",
+    "auditSource": "data/internal/audit/rebuild-batches/japanese-batch-015-image-sources/109028-tamago-yaki.png",
+    "mainPath": "/assets/dishes/main/109028-tamago-yaki.webp",
+    "thumbPath": "/assets/dishes/thumb/109028-tamago-yaki.webp"
+  },
+  {
+    "metadataCode": "109029",
+    "dishId": "matcha-ice-cream",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_0c5d8b60d03578ef016a34d97038488191b3060058af034602.png",
+    "auditSource": "data/internal/audit/rebuild-batches/japanese-batch-015-image-sources/109029-matcha-ice-cream.png",
+    "mainPath": "/assets/dishes/main/109029-matcha-ice-cream.webp",
+    "thumbPath": "/assets/dishes/thumb/109029-matcha-ice-cream.webp"
+  },
+  {
+    "metadataCode": "109030",
+    "dishId": "dorayaki",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_0c5d8b60d03578ef016a34d9a4b3188191a67ccb3b05af6207.png",
+    "auditSource": "data/internal/audit/rebuild-batches/japanese-batch-015-image-sources/109030-dorayaki.png",
+    "mainPath": "/assets/dishes/main/109030-dorayaki.webp",
+    "thumbPath": "/assets/dishes/thumb/109030-dorayaki.webp"
+  }
+]
