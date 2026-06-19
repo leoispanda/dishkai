@@ -1,0 +1,164 @@
+[
+  {
+    "dishId": "ayam-goreng",
+    "metadataCode": "117013",
+    "cuisineId": "indonesian",
+    "name": "Ayam Goreng",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "ayam-bakar",
+    "metadataCode": "117014",
+    "cuisineId": "indonesian",
+    "name": "Ayam Bakar",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "gulai",
+    "metadataCode": "117015",
+    "cuisineId": "indonesian",
+    "name": "Gulai",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "opor-ayam",
+    "metadataCode": "117016",
+    "cuisineId": "indonesian",
+    "name": "Opor Ayam",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "rawon",
+    "metadataCode": "117017",
+    "cuisineId": "indonesian",
+    "name": "Rawon",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "sayur-lodeh",
+    "metadataCode": "117018",
+    "cuisineId": "indonesian",
+    "name": "Sayur Lodeh",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "pecel",
+    "metadataCode": "117019",
+    "cuisineId": "indonesian",
+    "name": "Pecel",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "ketoprak",
+    "metadataCode": "117020",
+    "cuisineId": "indonesian",
+    "name": "Ketoprak",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "lontong-sayur",
+    "metadataCode": "117021",
+    "cuisineId": "indonesian",
+    "name": "Lontong Sayur",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "nasi-uduk",
+    "metadataCode": "117022",
+    "cuisineId": "indonesian",
+    "name": "Nasi Uduk",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "bubur-ayam",
+    "metadataCode": "117023",
+    "cuisineId": "indonesian",
+    "name": "Bubur Ayam",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "pempek",
+    "metadataCode": "117024",
+    "cuisineId": "indonesian",
+    "name": "Pempek",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "siomay-bandung",
+    "metadataCode": "117025",
+    "cuisineId": "indonesian",
+    "name": "Siomay Bandung",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "martabak-telur",
+    "metadataCode": "117026",
+    "cuisineId": "indonesian",
+    "name": "Martabak Telur",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "martabak-manis",
+    "metadataCode": "117027",
+    "cuisineId": "indonesian",
+    "name": "Martabak Manis",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "klepon",
+    "metadataCode": "117028",
+    "cuisineId": "indonesian",
+    "name": "Klepon",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "es-cendol",
+    "metadataCode": "117029",
+    "cuisineId": "indonesian",
+    "name": "Es Cendol",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "sambal-goreng-kentang",
+    "metadataCode": "117030",
+    "cuisineId": "indonesian",
+    "name": "Sambal Goreng Kentang",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  }
+]

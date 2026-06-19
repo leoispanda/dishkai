@@ -1,0 +1,164 @@
+[
+  {
+    "dishId": "mee-rebus",
+    "metadataCode": "118013",
+    "cuisineId": "malaysian-singaporean",
+    "name": "Mee Rebus",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "mee-siam",
+    "metadataCode": "118014",
+    "cuisineId": "malaysian-singaporean",
+    "name": "Mee Siam",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "mee-goreng-mamak",
+    "metadataCode": "118015",
+    "cuisineId": "malaysian-singaporean",
+    "name": "Mee Goreng Mamak",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "curry-laksa",
+    "metadataCode": "118016",
+    "cuisineId": "malaysian-singaporean",
+    "name": "Curry Laksa",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "asam-laksa",
+    "metadataCode": "118017",
+    "cuisineId": "malaysian-singaporean",
+    "name": "Asam Laksa",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "mee-pok",
+    "metadataCode": "118018",
+    "cuisineId": "malaysian-singaporean",
+    "name": "Mee Pok",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "wantan-mee",
+    "metadataCode": "118019",
+    "cuisineId": "malaysian-singaporean",
+    "name": "Wantan Mee",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "fish-head-curry",
+    "metadataCode": "118020",
+    "cuisineId": "malaysian-singaporean",
+    "name": "Fish Head Curry",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "beef-rendang-malaysian",
+    "metadataCode": "118021",
+    "cuisineId": "malaysian-singaporean",
+    "name": "Beef Rendang",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "ayam-masak-merah",
+    "metadataCode": "118022",
+    "cuisineId": "malaysian-singaporean",
+    "name": "Ayam Masak Merah",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "otak-otak",
+    "metadataCode": "118023",
+    "cuisineId": "malaysian-singaporean",
+    "name": "Otak-Otak",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "popiah",
+    "metadataCode": "118024",
+    "cuisineId": "malaysian-singaporean",
+    "name": "Popiah",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "rojak",
+    "metadataCode": "118025",
+    "cuisineId": "malaysian-singaporean",
+    "name": "Rojak",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "tauhu-goreng",
+    "metadataCode": "118026",
+    "cuisineId": "malaysian-singaporean",
+    "name": "Tauhu Goreng",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "carrot-cake-singapore",
+    "metadataCode": "118027",
+    "cuisineId": "malaysian-singaporean",
+    "name": "Singapore Carrot Cake",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "ondeh-ondeh",
+    "metadataCode": "118028",
+    "cuisineId": "malaysian-singaporean",
+    "name": "Ondeh-Ondeh",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "kuih-lapis",
+    "metadataCode": "118029",
+    "cuisineId": "malaysian-singaporean",
+    "name": "Kuih Lapis",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "pulut-hitam",
+    "metadataCode": "118030",
+    "cuisineId": "malaysian-singaporean",
+    "name": "Pulut Hitam",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  }
+]

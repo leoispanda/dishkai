@@ -1,0 +1,2041 @@
+[
+  {
+    "id": "ayam-goreng",
+    "metadataCode": "117013",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Ayam Goreng",
+      "zh": "印尼炸鸡",
+      "nl": "Ayam goreng",
+      "local": "ayam goreng"
+    },
+    "category": "fried-snack",
+    "cookingMethods": [
+      "deep-fried"
+    ],
+    "shortDescription": {
+      "en": "Indonesian fried chicken seasoned with turmeric, coriander, garlic, and other aromatics before frying.",
+      "zh": "印尼炸鸡，炸前常用姜黄、芫荽籽、蒜和香料腌制。",
+      "nl": "Indonesische gefrituurde kip, vooraf gekruid met kurkuma, koriander, knoflook en aromaten."
+    },
+    "cookingProfile": {
+      "en": "Often drier and more spice-fragrant than American fried chicken, usually served with sambal and rice.",
+      "zh": "通常比美式炸鸡更偏干香料味，常配参巴和米饭。",
+      "nl": "Vaak droger en kruidiger dan Amerikaanse fried chicken, meestal met sambal en rijst."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "first-timer-friendly"
+      ],
+      "description": {
+        "en": "An audited Indonesian restaurant reference for recognizing Ayam Goreng by its usual ingredients, texture, and ordering risks.",
+        "zh": "已审核的印尼菜参考项，用于通过常见组成、口感和点餐风险识别「印尼炸鸡」。",
+        "nl": "Een gecontroleerde Indonesian restaurantreferentie om Ayam goreng te herkennen aan ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        60,
+        "fried chicken"
+      ],
+      [
+        "turmeric",
+        10,
+        "golden marinade",
+        "seasoning"
+      ],
+      [
+        "coriander",
+        10,
+        "warm spice",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        10,
+        "marinade aroma",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "sambal heat",
+        "seasoning"
+      ],
+      [
+        "steamed-rice",
+        5,
+        "usual side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "turmeric",
+      "coriander",
+      "fried chicken",
+      "sambal"
+    ],
+    "basicTaste": [
+      "savory",
+      "fried",
+      "aromatic"
+    ],
+    "textureProfile": [
+      "crisp skin",
+      "firm chicken",
+      "dry-spiced surface"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "classic-dish",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "avoids-fried-food",
+      "no-chicken"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want fried chicken with Indonesian spice aroma; be careful if you want a saucy curry or avoid fried food.",
+      "zh": "适合想要带印尼香料味的炸鸡时点；如果想要带汁咖喱，或不吃油炸，建议谨慎。",
+      "nl": "Bestel dit als je gefrituurde kip met Indonesisch specerijaroma; wees voorzichtig als je een sauzige curry zoekt of gefrituurd eten vermijdt."
+    },
+    "confidenceTag": "audited-global-truth-batch-026",
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "ayam-bakar",
+    "metadataCode": "117014",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Ayam Bakar",
+      "zh": "印尼烤鸡",
+      "nl": "Ayam bakar",
+      "local": "ayam bakar"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "shortDescription": {
+      "en": "Indonesian grilled chicken glazed with sweet soy, spices, and often sambal or lime on the side.",
+      "zh": "印尼烤鸡，常刷甜酱油和香料，旁边配参巴或青柠。",
+      "nl": "Indonesische gegrilde kip met ketjap manis, specerijen en vaak sambal of limoen ernaast."
+    },
+    "cookingProfile": {
+      "en": "Expect smoky-sweet grilled chicken rather than a dry plain roast.",
+      "zh": "可预期烟火甜咸的烤鸡，不是清淡白烤。",
+      "nl": "Verwacht rokerig-zoete gegrilde kip, geen gewone droge roast."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "grilled",
+        "first-timer-friendly"
+      ],
+      "description": {
+        "en": "An audited Indonesian restaurant reference for recognizing Ayam Bakar by its usual ingredients, texture, and ordering risks.",
+        "zh": "已审核的印尼菜参考项，用于通过常见组成、口感和点餐风险识别「印尼烤鸡」。",
+        "nl": "Een gecontroleerde Indonesian restaurantreferentie om Ayam bakar te herkennen aan ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        65,
+        "grilled chicken"
+      ],
+      [
+        "ketjap-manis",
+        15,
+        "sweet soy glaze",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "marinade aroma",
+        "seasoning"
+      ],
+      [
+        "coriander",
+        5,
+        "warm spice",
+        "seasoning"
+      ],
+      [
+        "sambal",
+        5,
+        "side heat",
+        "seasoning"
+      ],
+      [
+        "lime",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "sweet soy glaze",
+      "grilled chicken",
+      "sambal",
+      "lime"
+    ],
+    "basicTaste": [
+      "savory",
+      "sweet",
+      "smoky"
+    ],
+    "textureProfile": [
+      "grilled skin",
+      "juicy chicken",
+      "sticky glaze"
+    ],
+    "riskFlags": [
+      "contains-soy",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "grilled",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "soy-allergy",
+      "gluten-free",
+      "no-chicken"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want smoky sweet-soy grilled chicken; be careful if you avoid soy/gluten or want a mild unglazed chicken.",
+      "zh": "适合想要甜酱油焦香烤鸡时点；如果需要避开大豆/麸质，或想要无酱清淡鸡肉，建议谨慎。",
+      "nl": "Bestel dit als je rokerige ketjap-gegrilde kip; wees voorzichtig als je soja/gluten vermijdt of milde ongeglazuurde kip zoekt."
+    },
+    "confidenceTag": "audited-global-truth-batch-026",
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "gulai",
+    "metadataCode": "117015",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Gulai",
+      "zh": "印尼香料咖喱",
+      "nl": "Gulai",
+      "local": "gulai"
+    },
+    "category": "curry",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Indonesian coconut-spice curry or stew, often with meat, fish, or vegetables in a yellow aromatic sauce.",
+      "zh": "印尼椰奶香料咖喱/炖菜，可配肉、鱼或蔬菜，酱汁常偏金黄芳香。",
+      "nl": "Indonesische kokos-specerijencurry of stoof, vaak met vlees, vis of groente in gele aromatische saus."
+    },
+    "cookingProfile": {
+      "en": "Protein varies; the stable cue is coconut richness with turmeric, galangal-like warmth, and chili.",
+      "zh": "主料会变；稳定特征是椰奶浓郁、姜黄暖香和辣椒感。",
+      "nl": "Eiwit wisselt; herkenbaar zijn kokosrijkdom, kurkuma-warmte en chili."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "comfort-food",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "An audited Indonesian restaurant reference for recognizing Gulai by its usual ingredients, texture, and ordering risks.",
+        "zh": "已审核的印尼菜参考项，用于通过常见组成、口感和点餐风险识别「印尼香料咖喱」。",
+        "nl": "Een gecontroleerde Indonesian restaurantreferentie om Gulai te herkennen aan ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        30,
+        "common meat",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "coconut-milk",
+        25,
+        "curry richness",
+        "seasoning"
+      ],
+      [
+        "mixed-vegetables",
+        15,
+        "possible body"
+      ],
+      [
+        "turmeric",
+        10,
+        "golden spice",
+        "seasoning"
+      ],
+      [
+        "coriander",
+        10,
+        "warm spice",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "lemongrass",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "coconut milk",
+      "turmeric",
+      "lemongrass",
+      "chili"
+    ],
+    "basicTaste": [
+      "savory",
+      "creamy",
+      "spiced"
+    ],
+    "textureProfile": [
+      "saucy stew",
+      "tender pieces",
+      "rich broth"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "wants-light-food",
+      "dislikes-coconut"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a coconut-rich Indonesian curry with warm spices; be careful if you dislike coconut or want a light clear dish.",
+      "zh": "适合想要椰奶浓郁、香料暖的印尼咖喱时点；如果不喜欢椰奶，或想吃清爽菜，建议谨慎。",
+      "nl": "Bestel dit als je een kokosrijke Indonesische curry met warme specerijen; wees voorzichtig als je kokos niet lekker vindt of iets lichts en helders zoekt."
+    },
+    "confidenceTag": "audited-global-truth-batch-026",
+    "spiceLevel": 3,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "high"
+  },
+  {
+    "id": "opor-ayam",
+    "metadataCode": "117016",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Opor Ayam",
+      "zh": "印尼椰奶鸡",
+      "nl": "Opor ayam",
+      "local": "opor ayam"
+    },
+    "category": "curry",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Chicken simmered in a mild pale coconut sauce with Indonesian aromatics, often served for festive meals.",
+      "zh": "鸡肉在浅色温和椰奶香料酱中慢煮，印尼节庆和家常都常见。",
+      "nl": "Kip gestoofd in milde lichte kokossaus met Indonesische aromaten, vaak bij feestelijke maaltijden."
+    },
+    "cookingProfile": {
+      "en": "Milder and paler than many sambal-heavy dishes; richness comes from coconut milk.",
+      "zh": "比很多参巴重的菜温和、颜色更浅，浓郁感来自椰奶。",
+      "nl": "Milder en lichter van kleur dan veel sambalgerechten; rijkdom komt van kokosmelk."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "first-timer-friendly",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "An audited Indonesian restaurant reference for recognizing Opor Ayam by its usual ingredients, texture, and ordering risks.",
+        "zh": "已审核的印尼菜参考项，用于通过常见组成、口感和点餐风险识别「印尼椰奶鸡」。",
+        "nl": "Een gecontroleerde Indonesian restaurantreferentie om Opor ayam te herkennen aan ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        55,
+        "main meat"
+      ],
+      [
+        "coconut-milk",
+        25,
+        "mild sauce",
+        "seasoning"
+      ],
+      [
+        "lemongrass",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "turmeric",
+        5,
+        "gentle color",
+        "seasoning"
+      ],
+      [
+        "coriander",
+        5,
+        "warm spice",
+        "seasoning"
+      ],
+      [
+        "steamed-rice",
+        5,
+        "usual side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "coconut milk",
+      "chicken",
+      "lemongrass",
+      "gentle spices"
+    ],
+    "basicTaste": [
+      "savory",
+      "creamy",
+      "mild"
+    ],
+    "textureProfile": [
+      "tender chicken",
+      "thin creamy sauce",
+      "rice-friendly"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "first-timer-friendly",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "dislikes-coconut",
+      "no-chicken"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a mild coconut chicken dish; be careful if you dislike coconut milk or want spicy sambal heat.",
+      "zh": "适合想要温和椰奶鸡肉时点；如果不喜欢椰奶，或想吃明显辣味，建议谨慎。",
+      "nl": "Bestel dit als je een mild kokos-kipgerecht; wees voorzichtig als je kokosmelk niet wilt of scherpe sambalhitte zoekt."
+    },
+    "confidenceTag": "audited-global-truth-batch-026",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "rawon",
+    "metadataCode": "117017",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Rawon",
+      "zh": "印尼黑牛肉汤",
+      "nl": "Rawon",
+      "local": "rawon"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "East Javanese black beef soup colored and flavored by keluak, with a deep earthy-savory broth.",
+      "zh": "东爪哇黑牛肉汤，用黑果香料带来深色和土香鲜味。",
+      "nl": "Oost-Javaanse zwarte rundersoep, gekleurd en gekruid met keluak voor diepe aardse hartigheid."
+    },
+    "cookingProfile": {
+      "en": "The broth is dark and distinctive; it is not burnt, but earthy and nutty from keluak.",
+      "zh": "汤色很深，这是黑果香料，不是焦糊；味道偏土香、坚果感和牛肉鲜味。",
+      "nl": "De bouillon is donker en herkenbaar; niet verbrand maar aards en nootachtig door keluak."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish",
+        "regional-dish"
+      ],
+      "description": {
+        "en": "An audited Indonesian restaurant reference for recognizing Rawon by its usual ingredients, texture, and ordering risks.",
+        "zh": "已审核的印尼菜参考项，用于通过常见组成、口感和点餐风险识别「印尼黑牛肉汤」。",
+        "nl": "Een gecontroleerde Indonesian restaurantreferentie om Rawon te herkennen aan ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        45,
+        "soup meat"
+      ],
+      [
+        "dashi-broth",
+        25,
+        "broth body"
+      ],
+      [
+        "keluak",
+        15,
+        "black earthy flavor",
+        "seasoning"
+      ],
+      [
+        "bean-sprouts",
+        5,
+        "fresh crunch"
+      ],
+      [
+        "chili",
+        5,
+        "sambal side",
+        "seasoning"
+      ],
+      [
+        "steamed-rice",
+        5,
+        "usual side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "keluak",
+      "beef broth",
+      "sambal",
+      "sprouts"
+    ],
+    "basicTaste": [
+      "savory",
+      "earthy",
+      "deep"
+    ],
+    "textureProfile": [
+      "dark broth",
+      "tender beef",
+      "fresh sprout crunch"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "signature-dish",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "no-beef",
+      "dislikes-earthy-flavors"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a distinctive dark beef soup with earthy keluak depth; be careful if you want a light clear soup or dislike earthy flavors.",
+      "zh": "适合想要黑牛肉汤，能接受黑果香料的土香深味时点；如果想要清淡清汤，或不喜欢土香浓味，建议谨慎。",
+      "nl": "Bestel dit als je een uitgesproken donkere rundersoep met aardse keluakdiepte; wees voorzichtig als je een lichte heldere soep wilt of aardse smaken vermijdt."
+    },
+    "confidenceTag": "audited-global-truth-batch-026",
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "sayur-lodeh",
+    "metadataCode": "117018",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Sayur Lodeh",
+      "zh": "印尼椰奶蔬菜汤",
+      "nl": "Sayur lodeh",
+      "local": "sayur lodeh"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Vegetables simmered in a light coconut milk broth, often with tofu, cabbage, beans, or eggplant.",
+      "zh": "蔬菜在椰奶汤中慢煮，常见豆腐、卷心菜、豆类或茄子。",
+      "nl": "Groente gestoofd in lichte kokosmelkbouillon, vaak met tofu, kool, bonen of aubergine."
+    },
+    "cookingProfile": {
+      "en": "Comforting and saucy but usually lighter than meat curries.",
+      "zh": "有汤汁和椰奶安慰感，但通常比肉类咖喱轻。",
+      "nl": "Troostrijk en sauzig, maar meestal lichter dan vleescurry's."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "vegetarian-friendly",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "An audited Indonesian restaurant reference for recognizing Sayur Lodeh by its usual ingredients, texture, and ordering risks.",
+        "zh": "已审核的印尼菜参考项，用于通过常见组成、口感和点餐风险识别「印尼椰奶蔬菜汤」。",
+        "nl": "Een gecontroleerde Indonesian restaurantreferentie om Sayur lodeh te herkennen aan ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "mixed-vegetables",
+        45,
+        "vegetable body"
+      ],
+      [
+        "tofu",
+        20,
+        "soft protein"
+      ],
+      [
+        "coconut-milk",
+        20,
+        "broth richness",
+        "seasoning"
+      ],
+      [
+        "turmeric",
+        5,
+        "golden spice",
+        "seasoning"
+      ],
+      [
+        "lemongrass",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "optional heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "coconut milk",
+      "vegetables",
+      "lemongrass",
+      "turmeric"
+    ],
+    "basicTaste": [
+      "savory",
+      "mild",
+      "coconut-rich"
+    ],
+    "textureProfile": [
+      "soft vegetables",
+      "light creamy broth",
+      "tender tofu"
+    ],
+    "riskFlags": [
+      "contains-soy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegan"
+    ],
+    "goodForTags": [
+      "vegetarian-friendly",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "soy-allergy",
+      "dislikes-coconut"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a mild coconut vegetable stew; be careful if you dislike coconut milk or tofu.",
+      "zh": "适合想要温和椰奶蔬菜汤炖菜时点；如果不喜欢椰奶或豆腐，建议谨慎。",
+      "nl": "Bestel dit als je een milde kokos-groentestoof; wees voorzichtig als je kokosmelk of tofu niet lekker vindt."
+    },
+    "confidenceTag": "audited-global-truth-batch-026",
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "pecel",
+    "metadataCode": "117019",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Pecel",
+      "zh": "印尼花生蔬菜沙拉",
+      "nl": "Pecel",
+      "local": "pecel"
+    },
+    "category": "salad",
+    "cookingMethods": [
+      "assembled",
+      "boiled"
+    ],
+    "servingTemperature": "warm-or-room-temperature",
+    "shortDescription": {
+      "en": "Indonesian boiled-vegetable salad dressed with spicy-sweet peanut sauce.",
+      "zh": "印尼熟蔬菜沙拉，淋甜辣花生酱。",
+      "nl": "Indonesische salade van gekookte groente met pittig-zoete pindasaus."
+    },
+    "cookingProfile": {
+      "en": "Vegetables are usually tender rather than raw-crisp; the peanut sauce is the main flavor.",
+      "zh": "蔬菜多是焯熟的柔软口感，不是生脆沙拉；花生酱是主味。",
+      "nl": "Groente is meestal gaar en zacht, niet rauw-krokant; pindasaus bepaalt de smaak."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "vegetarian-friendly",
+        "salad"
+      ],
+      "description": {
+        "en": "An audited Indonesian restaurant reference for recognizing Pecel by its usual ingredients, texture, and ordering risks.",
+        "zh": "已审核的印尼菜参考项，用于通过常见组成、口感和点餐风险识别「印尼花生蔬菜沙拉」。",
+        "nl": "Een gecontroleerde Indonesian restaurantreferentie om Pecel te herkennen aan ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "mixed-vegetables",
+        50,
+        "boiled vegetables"
+      ],
+      [
+        "satay-sauce",
+        25,
+        "peanut dressing",
+        "seasoning"
+      ],
+      [
+        "bean-sprouts",
+        10,
+        "fresh crunch"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "tamarind",
+        5,
+        "sour note",
+        "seasoning"
+      ],
+      [
+        "prawn-crackers",
+        5,
+        "optional crisp side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "peanut sauce",
+      "tamarind",
+      "chili",
+      "boiled vegetables"
+    ],
+    "basicTaste": [
+      "nutty",
+      "sweet-spicy",
+      "savory"
+    ],
+    "textureProfile": [
+      "soft vegetables",
+      "thick peanut sauce",
+      "occasional cracker crunch"
+    ],
+    "riskFlags": [
+      "contains-peanut",
+      "can-be-spicy",
+      "contains-shellfish"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "vegetarian-friendly",
+      "salad"
+    ],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "shellfish-allergy",
+      "wants-raw-salad"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want vegetables with bold spicy peanut sauce; be careful if you have peanut allergy or want a raw crisp salad.",
+      "zh": "适合想要熟蔬菜配浓郁甜辣花生酱时点；如果花生过敏，或想要生脆沙拉，建议谨慎。",
+      "nl": "Bestel dit als je groente met krachtige pittige pindasaus; wees voorzichtig als je pinda-allergie hebt of een rauwe krokante salade zoekt."
+    },
+    "confidenceTag": "audited-global-truth-batch-026",
+    "spiceLevel": 3,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "ketoprak",
+    "metadataCode": "117020",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Ketoprak",
+      "zh": "印尼花生酱米粉豆腐",
+      "nl": "Ketoprak",
+      "local": "ketoprak"
+    },
+    "category": "salad",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Jakarta-style tofu, rice vermicelli, lontong rice cakes, bean sprouts, and peanut sauce.",
+      "zh": "雅加达街头小食，豆腐、细米粉、lontong 米糕、豆芽和花生酱组合。",
+      "nl": "Jakarta-stijl streetfood met tofu, rijstvermicelli, lontong, taugé en pindasaus."
+    },
+    "cookingProfile": {
+      "en": "More filling than pecel because it includes noodles and rice cakes.",
+      "zh": "比 pecel 更顶饱，因为有米粉和米糕。",
+      "nl": "Vullender dan pecel door noedels en rijstblokjes."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "vegetarian-friendly"
+      ],
+      "description": {
+        "en": "An audited Indonesian restaurant reference for recognizing Ketoprak by its usual ingredients, texture, and ordering risks.",
+        "zh": "已审核的印尼菜参考项，用于通过常见组成、口感和点餐风险识别「印尼花生酱米粉豆腐」。",
+        "nl": "Een gecontroleerde Indonesian restaurantreferentie om Ketoprak te herkennen aan ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "tofu",
+        25,
+        "fried tofu"
+      ],
+      [
+        "rice-vermicelli",
+        25,
+        "noodle body"
+      ],
+      [
+        "lontong-rice-cakes",
+        20,
+        "rice cake body"
+      ],
+      [
+        "satay-sauce",
+        20,
+        "peanut sauce",
+        "seasoning"
+      ],
+      [
+        "bean-sprouts",
+        5,
+        "fresh crunch"
+      ],
+      [
+        "ketjap-manis",
+        5,
+        "sweet soy",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "peanut sauce",
+      "tofu",
+      "sweet soy",
+      "sprouts"
+    ],
+    "basicTaste": [
+      "nutty",
+      "savory",
+      "sweet-spicy"
+    ],
+    "textureProfile": [
+      "soft tofu",
+      "springy vermicelli",
+      "firm rice cakes",
+      "thick sauce"
+    ],
+    "riskFlags": [
+      "contains-peanut",
+      "contains-soy",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "street-food",
+      "vegetarian-friendly"
+    ],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "soy-allergy",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a filling tofu-noodle plate with peanut sauce; be careful if you avoid peanuts, soy, or sweet soy sauce.",
+      "zh": "适合想要豆腐、米粉和米糕配花生酱的饱腹小食时点；如果需要避开花生、大豆或甜酱油，建议谨慎。",
+      "nl": "Bestel dit als je een vullend bord met tofu, noedels, rijstblokjes en pindasaus; wees voorzichtig als je pinda, soja of ketjap vermijdt."
+    },
+    "confidenceTag": "audited-global-truth-batch-026",
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "lontong-sayur",
+    "metadataCode": "117021",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Lontong Sayur",
+      "zh": "印尼米糕椰奶菜",
+      "nl": "Lontong sayur",
+      "local": "lontong sayur"
+    },
+    "category": "rice",
+    "cookingMethods": [
+      "simmered",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Compressed rice cakes served with coconut vegetable curry, often with egg, tofu, or sambal.",
+      "zh": "压实米糕配椰奶蔬菜咖喱，常加鸡蛋、豆腐或参巴。",
+      "nl": "Lontong-rijstblokjes met kokosgroentecurry, vaak met ei, tofu of sambal."
+    },
+    "cookingProfile": {
+      "en": "The rice cakes soak up the coconut sauce, making it filling but softer than fried rice.",
+      "zh": "米糕会吸收椰奶酱汁，口感柔软饱腹，不像炒饭那样干香。",
+      "nl": "Rijstblokjes nemen de kokossaus op: vullend en zacht, niet drooggebakken."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "comfort-food",
+        "rice"
+      ],
+      "description": {
+        "en": "An audited Indonesian restaurant reference for recognizing Lontong Sayur by its usual ingredients, texture, and ordering risks.",
+        "zh": "已审核的印尼菜参考项，用于通过常见组成、口感和点餐风险识别「印尼米糕椰奶菜」。",
+        "nl": "Een gecontroleerde Indonesian restaurantreferentie om Lontong sayur te herkennen aan ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "lontong-rice-cakes",
+        45,
+        "rice cake base"
+      ],
+      [
+        "mixed-vegetables",
+        20,
+        "vegetable curry"
+      ],
+      [
+        "coconut-milk",
+        20,
+        "curry broth",
+        "seasoning"
+      ],
+      [
+        "egg",
+        5,
+        "optional topping"
+      ],
+      [
+        "sambal",
+        5,
+        "side heat",
+        "seasoning"
+      ],
+      [
+        "tofu",
+        5,
+        "optional protein"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "coconut curry",
+      "rice cakes",
+      "sambal",
+      "vegetables"
+    ],
+    "basicTaste": [
+      "savory",
+      "coconut-rich",
+      "mildly spicy"
+    ],
+    "textureProfile": [
+      "soft rice cakes",
+      "creamy broth",
+      "tender vegetables"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-soy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "comfort-food",
+      "rice"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "soy-allergy",
+      "dislikes-coconut"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want soft rice cakes in coconut vegetable curry; be careful if you dislike coconut sauces or soft rice-cake texture.",
+      "zh": "适合想要椰奶蔬菜咖喱泡米糕的柔软饱腹感时点；如果不喜欢椰奶酱，或不喜欢软米糕口感，建议谨慎。",
+      "nl": "Bestel dit als je zachte rijstblokjes in kokos-groentecurry; wees voorzichtig als je kokossaus of zachte rijstcake-textuur niet wilt."
+    },
+    "confidenceTag": "audited-global-truth-batch-026",
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "nasi-uduk",
+    "metadataCode": "117022",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Nasi Uduk",
+      "zh": "印尼椰香饭",
+      "nl": "Nasi uduk",
+      "local": "nasi uduk"
+    },
+    "category": "rice",
+    "cookingMethods": [
+      "steamed",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Indonesian coconut rice served with small sides such as egg, fried shallots, sambal, chicken, tempeh, or crackers.",
+      "zh": "印尼椰香饭，常配鸡蛋、炸葱、参巴、鸡肉、天贝或虾片等小配菜。",
+      "nl": "Indonesische kokosrijst met bijgerechten zoals ei, gefrituurde ui, sambal, kip, tempeh of kroepoek."
+    },
+    "cookingProfile": {
+      "en": "Think of it as fragrant rice plus toppings; the exact side set varies by stall or restaurant.",
+      "zh": "可以理解为香椰米饭配小菜，具体配菜随店变化。",
+      "nl": "Zie het als geurige kokosrijst met toppings; de exacte bijgerechten wisselen."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "rice",
+        "street-food"
+      ],
+      "description": {
+        "en": "An audited Indonesian restaurant reference for recognizing Nasi Uduk by its usual ingredients, texture, and ordering risks.",
+        "zh": "已审核的印尼菜参考项，用于通过常见组成、口感和点餐风险识别「印尼椰香饭」。",
+        "nl": "Een gecontroleerde Indonesian restaurantreferentie om Nasi uduk te herkennen aan ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "steamed-rice",
+        45,
+        "coconut rice base"
+      ],
+      [
+        "coconut-milk",
+        20,
+        "rice fragrance",
+        "seasoning"
+      ],
+      [
+        "egg",
+        10,
+        "common side"
+      ],
+      [
+        "fried-onions",
+        10,
+        "crisp topping"
+      ],
+      [
+        "sambal",
+        10,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "tempeh",
+        5,
+        "possible side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "coconut rice",
+      "fried shallots",
+      "sambal",
+      "side dishes"
+    ],
+    "basicTaste": [
+      "savory",
+      "coconut-aromatic",
+      "spicy"
+    ],
+    "textureProfile": [
+      "soft rice",
+      "crisp shallots",
+      "mixed toppings"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-soy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "rice",
+      "street-food"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "soy-allergy",
+      "low-spice-tolerance"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want fragrant coconut rice with varied savory toppings; be careful if you need a predictable single-protein dish.",
+      "zh": "适合想要椰香米饭和多样咸香小配菜时点；如果你需要非常固定、单一主料的菜，建议谨慎。",
+      "nl": "Bestel dit als je geurige kokosrijst met diverse hartige toppings; wees voorzichtig als je een voorspelbaar gerecht met een enkel eiwit zoekt."
+    },
+    "confidenceTag": "audited-global-truth-batch-026",
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "high"
+  },
+  {
+    "id": "bubur-ayam",
+    "metadataCode": "117023",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Bubur Ayam",
+      "zh": "印尼鸡粥",
+      "nl": "Bubur ayam",
+      "local": "bubur ayam"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Indonesian chicken rice porridge topped with shredded chicken, soy, scallion, fried shallots, and sometimes crackers.",
+      "zh": "印尼鸡粥，常放鸡丝、酱油、葱、炸葱，有时配脆片。",
+      "nl": "Indonesische kiprijstpap met geplukte kip, soja, lente-ui, gefrituurde sjalot en soms crackers."
+    },
+    "cookingProfile": {
+      "en": "Soft and spoonable, more comforting than texturally crisp; toppings add the contrast.",
+      "zh": "整体柔软适合用勺吃，主要靠配料增加脆感和咸香。",
+      "nl": "Zacht en lepelbaar; toppings zorgen voor contrast."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "comfort-food",
+        "first-timer-friendly"
+      ],
+      "description": {
+        "en": "An audited Indonesian restaurant reference for recognizing Bubur Ayam by its usual ingredients, texture, and ordering risks.",
+        "zh": "已审核的印尼菜参考项，用于通过常见组成、口感和点餐风险识别「印尼鸡粥」。",
+        "nl": "Een gecontroleerde Indonesian restaurantreferentie om Bubur ayam te herkennen aan ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "congee-rice-porridge",
+        55,
+        "porridge base"
+      ],
+      [
+        "chicken",
+        20,
+        "shredded topping"
+      ],
+      [
+        "soy-sauce",
+        10,
+        "seasoning",
+        "seasoning"
+      ],
+      [
+        "fried-onions",
+        5,
+        "crisp topping"
+      ],
+      [
+        "green-onion",
+        5,
+        "fresh finish"
+      ],
+      [
+        "prawn-crackers",
+        5,
+        "optional crunch"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "chicken porridge",
+      "soy sauce",
+      "fried shallots"
+    ],
+    "basicTaste": [
+      "savory",
+      "mild",
+      "comforting"
+    ],
+    "textureProfile": [
+      "soft porridge",
+      "shredded chicken",
+      "crisp topping"
+    ],
+    "riskFlags": [
+      "contains-soy",
+      "contains-gluten",
+      "contains-shellfish"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "soy-allergy",
+      "gluten-free",
+      "shellfish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a soft savory chicken porridge; be careful if you dislike porridge texture or need shellfish-free crackers.",
+      "zh": "适合想要柔软咸香鸡粥时点；如果不喜欢粥状口感，或需确认不放虾片，建议谨慎。",
+      "nl": "Bestel dit als je een zachte hartige kiprijstpap; wees voorzichtig als je paptextuur niet wilt of kroepoek zonder schaaldieren nodig hebt."
+    },
+    "confidenceTag": "audited-global-truth-batch-026",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "pempek",
+    "metadataCode": "117024",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Pempek",
+      "zh": "印尼鱼糕",
+      "nl": "Pempek",
+      "local": "pempek"
+    },
+    "category": "fried-snack",
+    "cookingMethods": [
+      "fried",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Palembang fish cakes made from fish paste and starch, served with dark sweet-sour vinegar sauce.",
+      "zh": "巨港鱼糕，用鱼浆和淀粉制成，配深色酸甜醋汁。",
+      "nl": "Palembangse viskoekjes van vispasta en zetmeel, met donkere zoetzure azijnsaus."
+    },
+    "cookingProfile": {
+      "en": "Bouncy fish-cake texture is the main cue; sauce is sharp, sweet, and tangy.",
+      "zh": "重点是鱼糕弹性口感；酱汁酸甜且比较醒味。",
+      "nl": "De kern is veerkrachtige viskoek; saus is scherp, zoet en zuur."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish",
+        "street-food"
+      ],
+      "description": {
+        "en": "An audited Indonesian restaurant reference for recognizing Pempek by its usual ingredients, texture, and ordering risks.",
+        "zh": "已审核的印尼菜参考项，用于通过常见组成、口感和点餐风险识别「印尼鱼糕」。",
+        "nl": "Een gecontroleerde Indonesian restaurantreferentie om Pempek te herkennen aan ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "fish-paste",
+        55,
+        "fish cake base"
+      ],
+      [
+        "tapioca-starch",
+        25,
+        "bouncy binder"
+      ],
+      [
+        "vinegar",
+        10,
+        "cuko sauce tang",
+        "seasoning"
+      ],
+      [
+        "palm-sugar",
+        5,
+        "sauce sweetness",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "sauce heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fish cake",
+      "sweet-sour vinegar sauce",
+      "chili"
+    ],
+    "basicTaste": [
+      "savory",
+      "sweet-sour",
+      "fish-umami"
+    ],
+    "textureProfile": [
+      "bouncy fish cake",
+      "fried edges",
+      "sharp dipping sauce"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "signature-dish",
+      "street-food"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "dislikes-bouncy-textures"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want bouncy fish cakes with sharp sweet-sour sauce; be careful if you avoid fish or dislike springy fish-cake texture.",
+      "zh": "适合想要弹牙鱼糕和酸甜醒味酱汁时点；如果不吃鱼，或不喜欢弹牙鱼糕，建议谨慎。",
+      "nl": "Bestel dit als je veerkrachtige viskoekjes met scherpe zoetzure saus; wees voorzichtig als je vis vermijdt of veerkrachtige viskoek niet wilt."
+    },
+    "confidenceTag": "audited-global-truth-batch-026",
+    "spiceLevel": 2,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "siomay-bandung",
+    "metadataCode": "117025",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Siomay Bandung",
+      "zh": "印尼花生鱼饺",
+      "nl": "Siomay Bandung",
+      "local": "siomay bandung"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "steamed",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Bandung-style steamed fish dumplings with tofu, vegetables, and peanut sauce.",
+      "zh": "万隆风格蒸鱼饺，常配豆腐、蔬菜和花生酱。",
+      "nl": "Bandungse gestoomde visdumplings met tofu, groente en pindasaus."
+    },
+    "cookingProfile": {
+      "en": "Softer and saucier than fried dumplings; peanut sauce is part of the identity.",
+      "zh": "比炸饺更柔软、酱汁更多；花生酱是关键。",
+      "nl": "Zachter en sauziger dan gefrituurde dumplings; pindasaus hoort erbij."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "snack"
+      ],
+      "description": {
+        "en": "An audited Indonesian restaurant reference for recognizing Siomay Bandung by its usual ingredients, texture, and ordering risks.",
+        "zh": "已审核的印尼菜参考项，用于通过常见组成、口感和点餐风险识别「印尼花生鱼饺」。",
+        "nl": "Een gecontroleerde Indonesian restaurantreferentie om Siomay Bandung te herkennen aan ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "fish-paste",
+        35,
+        "dumpling filling"
+      ],
+      [
+        "dumpling-wrapper",
+        20,
+        "wrapper"
+      ],
+      [
+        "tofu",
+        15,
+        "side piece"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "vegetable side"
+      ],
+      [
+        "satay-sauce",
+        15,
+        "peanut sauce",
+        "seasoning"
+      ],
+      [
+        "lime",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fish dumplings",
+      "peanut sauce",
+      "lime",
+      "tofu"
+    ],
+    "basicTaste": [
+      "savory",
+      "nutty",
+      "mildly sweet"
+    ],
+    "textureProfile": [
+      "soft dumplings",
+      "thick peanut sauce",
+      "tender tofu"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-gluten",
+      "contains-soy",
+      "contains-peanut"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "street-food",
+      "snack"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "peanut-allergy",
+      "soy-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want steamed fish dumplings with peanut sauce; be careful if you avoid fish, peanuts, soy, or gluten.",
+      "zh": "适合想要蒸鱼饺配花生酱时点；如果需要避开鱼、花生、大豆或麸质，建议谨慎。",
+      "nl": "Bestel dit als je gestoomde visdumplings met pindasaus; wees voorzichtig als je vis, pinda, soja of gluten vermijdt."
+    },
+    "confidenceTag": "audited-global-truth-batch-026",
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "martabak-telur",
+    "metadataCode": "117026",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Martabak Telur",
+      "zh": "印尼咸蛋饼",
+      "nl": "Martabak telur",
+      "local": "martabak telur"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "fried",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Savory stuffed fried pancake with egg, minced meat or scallion, crisp outside and rich inside.",
+      "zh": "印尼咸味夹馅煎饼，内有鸡蛋、肉末或葱，外层煎脆、内里厚实。",
+      "nl": "Hartige gevulde gebakken pannenkoek met ei, gehakt of lente-ui; krokant buiten en rijk vanbinnen."
+    },
+    "cookingProfile": {
+      "en": "Usually cut into squares and shared; heavier than plain flatbread.",
+      "zh": "通常切块分享，比普通饼更油润厚重。",
+      "nl": "Meestal in stukken gesneden om te delen; zwaarder dan platbrood."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "sharing"
+      ],
+      "description": {
+        "en": "An audited Indonesian restaurant reference for recognizing Martabak Telur by its usual ingredients, texture, and ordering risks.",
+        "zh": "已审核的印尼菜参考项，用于通过常见组成、口感和点餐风险识别「印尼咸蛋饼」。",
+        "nl": "Een gecontroleerde Indonesian restaurantreferentie om Martabak telur te herkennen aan ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "thin-pancakes",
+        35,
+        "fried wrapper"
+      ],
+      [
+        "egg",
+        30,
+        "filling binder"
+      ],
+      [
+        "ground-meat",
+        20,
+        "savory filling"
+      ],
+      [
+        "green-onion",
+        5,
+        "fresh filling"
+      ],
+      [
+        "curry-masala",
+        5,
+        "spice",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "pickle heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fried wrapper",
+      "egg",
+      "savory meat",
+      "spices"
+    ],
+    "basicTaste": [
+      "savory",
+      "fried",
+      "rich"
+    ],
+    "textureProfile": [
+      "crisp edges",
+      "soft egg filling",
+      "shareable squares"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "gluten-free",
+      "avoids-fried-food"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a rich crispy stuffed egg pancake to share; be careful if you avoid egg, gluten, or fried food.",
+      "zh": "适合想要外脆内厚的咸味鸡蛋夹馅煎饼时点；如果需要避开鸡蛋、麸质或油煎食物，建议谨慎。",
+      "nl": "Bestel dit als je een rijke krokante gevulde eipannenkoek om te delen; wees voorzichtig als je ei, gluten of gebakken eten vermijdt."
+    },
+    "confidenceTag": "audited-global-truth-batch-026",
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "martabak-manis",
+    "metadataCode": "117027",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Martabak Manis",
+      "zh": "印尼甜厚煎饼",
+      "nl": "Martabak manis",
+      "local": "martabak manis"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "fried",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "A thick sweet Indonesian pancake filled with chocolate, peanuts, condensed milk, cheese, or other rich toppings.",
+      "zh": "印尼甜厚煎饼，常夹巧克力、花生、炼乳、奶酪等浓甜配料。",
+      "nl": "Dikke zoete Indonesische pannenkoek met chocolade, pinda, gecondenseerde melk, kaas of andere rijke toppings."
+    },
+    "cookingProfile": {
+      "en": "More like a warm dessert pancake than a light crepe; usually very sweet and filling.",
+      "zh": "更像热甜品厚饼，不是清薄可丽饼；通常很甜也很顶饱。",
+      "nl": "Meer een warm dessertpannenkoek dan lichte crepe; meestal erg zoet en vullend."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "dessert",
+        "sharing"
+      ],
+      "description": {
+        "en": "An audited Indonesian restaurant reference for recognizing Martabak Manis by its usual ingredients, texture, and ordering risks.",
+        "zh": "已审核的印尼菜参考项，用于通过常见组成、口感和点餐风险识别「印尼甜厚煎饼」。",
+        "nl": "Een gecontroleerde Indonesian restaurantreferentie om Martabak manis te herkennen aan ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "pancake-batter",
+        45,
+        "thick pancake"
+      ],
+      [
+        "chocolate",
+        15,
+        "sweet filling"
+      ],
+      [
+        "peanuts",
+        15,
+        "crunch"
+      ],
+      [
+        "condensed-milk",
+        10,
+        "sweet drizzle",
+        "seasoning"
+      ],
+      [
+        "cheese",
+        10,
+        "optional salty filling"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "sweet pancake",
+      "chocolate",
+      "peanuts",
+      "condensed milk"
+    ],
+    "basicTaste": [
+      "sweet",
+      "rich",
+      "buttery"
+    ],
+    "textureProfile": [
+      "thick soft pancake",
+      "crunchy nuts",
+      "sticky filling"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy",
+      "contains-peanut"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "avoids-dairy",
+      "wants-light-dessert"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a very sweet thick pancake with rich fillings; be careful if you want a light dessert or avoid peanuts/dairy.",
+      "zh": "适合想要很甜很厚、夹料丰富的甜煎饼时点；如果想吃清爽甜品，或避开花生/奶制品，建议谨慎。",
+      "nl": "Bestel dit als je een heel zoete dikke pannenkoek met rijke vulling; wees voorzichtig als je een licht dessert zoekt of pinda/zuivel vermijdt."
+    },
+    "confidenceTag": "audited-global-truth-batch-026",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "klepon",
+    "metadataCode": "117028",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Klepon",
+      "zh": "印尼椰丝糯米球",
+      "nl": "Klepon",
+      "local": "klepon"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "boiled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Chewy green glutinous rice balls filled with liquid palm sugar and rolled in grated coconut.",
+      "zh": "绿色糯米小球，里面是会流心的棕榈糖，外面裹椰丝。",
+      "nl": "Kleverige groene rijstballetjes gevuld met vloeibare palmsuiker en gerold in kokos."
+    },
+    "cookingProfile": {
+      "en": "Bite carefully: the palm sugar can burst inside the chewy shell.",
+      "zh": "咬的时候小心，里面的棕榈糖浆会爆开。",
+      "nl": "Voorzichtig bijten: palmsuiker kan uit de taaie schil barsten."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "dessert",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "An audited Indonesian restaurant reference for recognizing Klepon by its usual ingredients, texture, and ordering risks.",
+        "zh": "已审核的印尼菜参考项，用于通过常见组成、口感和点餐风险识别「印尼椰丝糯米球」。",
+        "nl": "Een gecontroleerde Indonesian restaurantreferentie om Klepon te herkennen aan ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "sticky-rice",
+        45,
+        "chewy shell"
+      ],
+      [
+        "palm-sugar",
+        25,
+        "liquid filling",
+        "seasoning"
+      ],
+      [
+        "toasted-coconut",
+        20,
+        "coconut coating"
+      ],
+      [
+        "cendol-jelly",
+        5,
+        "green color cue"
+      ],
+      [
+        "sea-salt",
+        5,
+        "salty balance",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "palm sugar",
+      "coconut",
+      "glutinous rice"
+    ],
+    "basicTaste": [
+      "sweet",
+      "coconut",
+      "slightly salty"
+    ],
+    "textureProfile": [
+      "chewy shell",
+      "liquid sugar center",
+      "grated coconut coating"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegan"
+    ],
+    "goodForTags": [
+      "dessert",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "dislikes-chewy-desserts",
+      "wants-cake"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a chewy coconut-coated sweet with palm-sugar center; be careful if you dislike chewy sticky-rice sweets.",
+      "zh": "适合想要椰丝糯米球和棕榈糖流心时点；如果不喜欢糯米甜品的黏弹口感，建议谨慎。",
+      "nl": "Bestel dit als je een taaie kokossnack met palmsuikervulling; wees voorzichtig als je kleverige rijstdesserts niet wilt."
+    },
+    "confidenceTag": "audited-global-truth-batch-026",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "es-cendol",
+    "metadataCode": "117029",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Es Cendol",
+      "zh": "印尼椰奶冰甜品",
+      "nl": "Es cendol",
+      "local": "es cendol"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "assembled",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Iced coconut dessert drink with green cendol jelly, palm sugar syrup, coconut milk, and crushed ice.",
+      "zh": "冰珍多甜品饮，有绿色米粉冻、棕榈糖浆、椰奶和碎冰。",
+      "nl": "IJs-kokosdessertdrank met groene cendolgelei, palmsuikersiroop, kokosmelk en geschaafd ijs."
+    },
+    "cookingProfile": {
+      "en": "Refreshing but sweet; the jelly texture is part of the appeal.",
+      "zh": "清凉但偏甜，绿色粉冻的滑弹口感是重点。",
+      "nl": "Verfrissend maar zoet; de gelei-textuur hoort bij de charme."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "dessert",
+        "cooling"
+      ],
+      "description": {
+        "en": "An audited Indonesian restaurant reference for recognizing Es Cendol by its usual ingredients, texture, and ordering risks.",
+        "zh": "已审核的印尼菜参考项，用于通过常见组成、口感和点餐风险识别「印尼椰奶冰甜品」。",
+        "nl": "Een gecontroleerde Indonesian restaurantreferentie om Es cendol te herkennen aan ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "cendol-jelly",
+        35,
+        "green jelly"
+      ],
+      [
+        "coconut-milk",
+        30,
+        "creamy liquid",
+        "seasoning"
+      ],
+      [
+        "palm-sugar",
+        20,
+        "syrup",
+        "seasoning"
+      ],
+      [
+        "shaved-ice",
+        10,
+        "cold base"
+      ],
+      [
+        "mung-beans",
+        5,
+        "optional bean topping"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "coconut milk",
+      "palm sugar",
+      "cendol jelly"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "refreshing"
+    ],
+    "textureProfile": [
+      "slippery jelly",
+      "crushed ice",
+      "creamy coconut"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegan"
+    ],
+    "goodForTags": [
+      "dessert",
+      "cooling"
+    ],
+    "avoidIfTags": [
+      "dislikes-jelly-texture",
+      "wants-less-sweet"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a cold coconut-palm sugar dessert drink with jelly; be careful if you dislike jelly textures or very sweet drinks.",
+      "zh": "适合想要椰奶棕榈糖冰甜品和粉冻口感时点；如果不喜欢粉冻口感，或不想喝很甜的冰品，建议谨慎。",
+      "nl": "Bestel dit als je een koude kokos-palmsuikerdrank met gelei; wees voorzichtig als je gelei of heel zoete drankjes niet wilt."
+    },
+    "confidenceTag": "audited-global-truth-batch-026",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "sambal-goreng-kentang",
+    "metadataCode": "117030",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Sambal Goreng Kentang",
+      "zh": "印尼辣土豆",
+      "nl": "Sambal goreng kentang",
+      "local": "sambal goreng kentang"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "fried",
+      "stir-fried"
+    ],
+    "shortDescription": {
+      "en": "Fried potato pieces tossed in sambal, often spicy-sweet and served as a side with rice dishes.",
+      "zh": "炸土豆块拌参巴辣酱，常甜辣咸香，作为米饭配菜出现。",
+      "nl": "Gebakken aardappelstukjes in sambal, vaak pittig-zoet en als bijgerecht bij rijst."
+    },
+    "cookingProfile": {
+      "en": "Expect a side dish with potato crunch or firmness plus chili oil, not a creamy curry.",
+      "zh": "这是土豆辣配菜，口感可能脆或紧实，不是奶油咖喱。",
+      "nl": "Verwacht aardappel met bite en chiliolie, geen romige curry."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "side-dish",
+        "spicy"
+      ],
+      "description": {
+        "en": "An audited Indonesian restaurant reference for recognizing Sambal Goreng Kentang by its usual ingredients, texture, and ordering risks.",
+        "zh": "已审核的印尼菜参考项，用于通过常见组成、口感和点餐风险识别「印尼辣土豆」。",
+        "nl": "Een gecontroleerde Indonesian restaurantreferentie om Sambal goreng kentang te herkennen aan ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "potato",
+        60,
+        "fried potato"
+      ],
+      [
+        "sambal",
+        20,
+        "chili sauce",
+        "seasoning"
+      ],
+      [
+        "ketjap-manis",
+        10,
+        "sweet soy balance",
+        "seasoning"
+      ],
+      [
+        "fried-onions",
+        5,
+        "aroma"
+      ],
+      [
+        "chili",
+        5,
+        "extra heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "sambal",
+      "fried potato",
+      "sweet soy",
+      "fried shallots"
+    ],
+    "basicTaste": [
+      "spicy",
+      "savory",
+      "slightly sweet"
+    ],
+    "textureProfile": [
+      "fried potato pieces",
+      "glossy chili coating",
+      "side-dish bite"
+    ],
+    "riskFlags": [
+      "contains-soy",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegan"
+    ],
+    "goodForTags": [
+      "side-dish",
+      "spicy"
+    ],
+    "avoidIfTags": [
+      "low-spice-tolerance",
+      "soy-allergy",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a spicy-sweet potato side for rice dishes; be careful if you cannot handle sambal heat or avoid soy/gluten.",
+      "zh": "适合想要甜辣土豆配饭小菜时点；如果不能吃参巴辣，或避开大豆/麸质，建议谨慎。",
+      "nl": "Bestel dit als je een pittig-zoet aardappelbijgerecht bij rijst; wees voorzichtig als je sambalhitte niet aankunt of soja/gluten vermijdt."
+    },
+    "confidenceTag": "audited-global-truth-batch-026",
+    "spiceLevel": 4,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "medium"
+  }
+]

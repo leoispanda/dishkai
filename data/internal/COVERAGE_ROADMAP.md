@@ -8,21 +8,22 @@ Verified metadata is the source of truth. It should be curated for high-frequenc
 
 Current verified starter database:
 
-- 1110 dishes
+- 679 verified dishes
 - 27 cuisines
-- 3097 aliases
+- 2060 verified aliases
 
 Recent depth progress:
 
-- All registered cuisines now have at least 30 verified dishes with visual-reference assets.
-- European restaurant coverage has been deepened to 60 verified dishes each for Italian, Dutch, French, Greek, Spanish, German, Belgian, British-Irish, Portuguese, and Scandinavian.
-- Non-European registered cuisines remain at 30 verified dishes unless real menu misses indicate a higher-priority depth pass.
+- Generated expansion layers were quarantined after strict audit; verified counts only reflect rows rebuilt through manual <=30-dish batches.
+- All registered European cuisines remain at least 30 verified dishes after strict audit.
+- Indian, Vietnamese, Indonesian, Malaysian/Singaporean, and Turkish now have 30 verified dishes each after Global Truth Batches 024-028.
+- Middle Eastern, Mexican, American, Moroccan, Surinamese, Ethiopian, Peruvian, and Brazilian still need future strict depth passes.
 
 Next verified coverage targets:
 
-1. Quality-audit the European 60 pass, especially raw seafood, pork-heavy dishes, and dishes with strong restaurant variation.
-2. Use the central unmatched-dish backlog and real menu misses to prioritize whether Europe should move next to 90/120 or whether non-European cuisines should be deepened first.
-3. Add new cuisines only when real restaurant menus show repeated unmet demand.
+1. Continue rebuilding quarantined global-depth cuisines in <=30-dish batches, prioritizing Middle Eastern, Mexican, American, Moroccan, or real-menu misses.
+2. Use semantic replacement images or generated clean images only after contact-sheet review; do not reuse shifted global-depth assets.
+3. Re-audit European depth only when real menu misses justify going beyond 30.
 
 Verified metadata should stay concise and ordering-focused. Do not turn cards into recipes.
 

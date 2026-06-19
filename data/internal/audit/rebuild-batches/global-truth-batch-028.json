@@ -1,0 +1,164 @@
+[
+  {
+    "dishId": "iskender-kebab",
+    "metadataCode": "119013",
+    "cuisineId": "turkish",
+    "name": "Iskender Kebab",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "beyti-kebab",
+    "metadataCode": "119014",
+    "cuisineId": "turkish",
+    "name": "Beyti Kebab",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "shish-kebab-turkish",
+    "metadataCode": "119015",
+    "cuisineId": "turkish",
+    "name": "Turkish Shish Kebab",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "sis-tavuk",
+    "metadataCode": "119016",
+    "cuisineId": "turkish",
+    "name": "Şiş Tavuk",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "hunkar-begendi",
+    "metadataCode": "119017",
+    "cuisineId": "turkish",
+    "name": "Hünkar Beğendi",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "karniyarik",
+    "metadataCode": "119018",
+    "cuisineId": "turkish",
+    "name": "Karnıyarık",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "cilbir",
+    "metadataCode": "119019",
+    "cuisineId": "turkish",
+    "name": "Çılbır",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "cacik",
+    "metadataCode": "119020",
+    "cuisineId": "turkish",
+    "name": "Cacık",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "ezogelin-corbasi",
+    "metadataCode": "119021",
+    "cuisineId": "turkish",
+    "name": "Ezogelin Çorbası",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "yayla-corbasi",
+    "metadataCode": "119022",
+    "cuisineId": "turkish",
+    "name": "Yayla Çorbası",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "mercimek-kofte",
+    "metadataCode": "119023",
+    "cuisineId": "turkish",
+    "name": "Mercimek Köfte",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "sigara-boregi",
+    "metadataCode": "119024",
+    "cuisineId": "turkish",
+    "name": "Sigara Böreği",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "midye-dolma",
+    "metadataCode": "119025",
+    "cuisineId": "turkish",
+    "name": "Midye Dolma",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "balik-ekmek",
+    "metadataCode": "119026",
+    "cuisineId": "turkish",
+    "name": "Balık Ekmek",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "gozleme",
+    "metadataCode": "119027",
+    "cuisineId": "turkish",
+    "name": "Gözleme",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "simit",
+    "metadataCode": "119028",
+    "cuisineId": "turkish",
+    "name": "Simit",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "lokum",
+    "metadataCode": "119029",
+    "cuisineId": "turkish",
+    "name": "Turkish Delight",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "sutlac",
+    "metadataCode": "119030",
+    "cuisineId": "turkish",
+    "name": "Sütlaç",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  }
+]

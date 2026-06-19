@@ -1,0 +1,164 @@
+[
+  {
+    "dishId": "iskender-kebab",
+    "metadataCode": "119013",
+    "name": "Iskender Kebab",
+    "cuisineId": "turkish",
+    "category": "meat",
+    "imagePath": "/assets/dishes/main/119013-iskender-kebab.webp",
+    "thumbPath": "/assets/dishes/thumb/119013-iskender-kebab.webp"
+  },
+  {
+    "dishId": "beyti-kebab",
+    "metadataCode": "119014",
+    "name": "Beyti Kebab",
+    "cuisineId": "turkish",
+    "category": "meat",
+    "imagePath": "/assets/dishes/main/119014-beyti-kebab.webp",
+    "thumbPath": "/assets/dishes/thumb/119014-beyti-kebab.webp"
+  },
+  {
+    "dishId": "shish-kebab-turkish",
+    "metadataCode": "119015",
+    "name": "Turkish Shish Kebab",
+    "cuisineId": "turkish",
+    "category": "meat",
+    "imagePath": "/assets/dishes/main/119015-shish-kebab-turkish.webp",
+    "thumbPath": "/assets/dishes/thumb/119015-shish-kebab-turkish.webp"
+  },
+  {
+    "dishId": "sis-tavuk",
+    "metadataCode": "119016",
+    "name": "Şiş Tavuk",
+    "cuisineId": "turkish",
+    "category": "meat",
+    "imagePath": "/assets/dishes/main/119016-sis-tavuk.webp",
+    "thumbPath": "/assets/dishes/thumb/119016-sis-tavuk.webp"
+  },
+  {
+    "dishId": "hunkar-begendi",
+    "metadataCode": "119017",
+    "name": "Hünkar Beğendi",
+    "cuisineId": "turkish",
+    "category": "meat",
+    "imagePath": "/assets/dishes/main/119017-hunkar-begendi.webp",
+    "thumbPath": "/assets/dishes/thumb/119017-hunkar-begendi.webp"
+  },
+  {
+    "dishId": "karniyarik",
+    "metadataCode": "119018",
+    "name": "Karnıyarık",
+    "cuisineId": "turkish",
+    "category": "meat",
+    "imagePath": "/assets/dishes/main/119018-karniyarik.webp",
+    "thumbPath": "/assets/dishes/thumb/119018-karniyarik.webp"
+  },
+  {
+    "dishId": "cilbir",
+    "metadataCode": "119019",
+    "name": "Çılbır",
+    "cuisineId": "turkish",
+    "category": "starter",
+    "imagePath": "/assets/dishes/main/119019-cilbir.webp",
+    "thumbPath": "/assets/dishes/thumb/119019-cilbir.webp"
+  },
+  {
+    "dishId": "cacik",
+    "metadataCode": "119020",
+    "name": "Cacık",
+    "cuisineId": "turkish",
+    "category": "starter",
+    "imagePath": "/assets/dishes/main/119020-cacik.webp",
+    "thumbPath": "/assets/dishes/thumb/119020-cacik.webp"
+  },
+  {
+    "dishId": "ezogelin-corbasi",
+    "metadataCode": "119021",
+    "name": "Ezogelin Çorbası",
+    "cuisineId": "turkish",
+    "category": "soup",
+    "imagePath": "/assets/dishes/main/119021-ezogelin-corbasi.webp",
+    "thumbPath": "/assets/dishes/thumb/119021-ezogelin-corbasi.webp"
+  },
+  {
+    "dishId": "yayla-corbasi",
+    "metadataCode": "119022",
+    "name": "Yayla Çorbası",
+    "cuisineId": "turkish",
+    "category": "soup",
+    "imagePath": "/assets/dishes/main/119022-yayla-corbasi.webp",
+    "thumbPath": "/assets/dishes/thumb/119022-yayla-corbasi.webp"
+  },
+  {
+    "dishId": "mercimek-kofte",
+    "metadataCode": "119023",
+    "name": "Mercimek Köfte",
+    "cuisineId": "turkish",
+    "category": "starter",
+    "imagePath": "/assets/dishes/main/119023-mercimek-kofte.webp",
+    "thumbPath": "/assets/dishes/thumb/119023-mercimek-kofte.webp"
+  },
+  {
+    "dishId": "sigara-boregi",
+    "metadataCode": "119024",
+    "name": "Sigara Böreği",
+    "cuisineId": "turkish",
+    "category": "fried-snack",
+    "imagePath": "/assets/dishes/main/119024-sigara-boregi.webp",
+    "thumbPath": "/assets/dishes/thumb/119024-sigara-boregi.webp"
+  },
+  {
+    "dishId": "midye-dolma",
+    "metadataCode": "119025",
+    "name": "Midye Dolma",
+    "cuisineId": "turkish",
+    "category": "seafood",
+    "imagePath": "/assets/dishes/main/119025-midye-dolma.webp",
+    "thumbPath": "/assets/dishes/thumb/119025-midye-dolma.webp"
+  },
+  {
+    "dishId": "balik-ekmek",
+    "metadataCode": "119026",
+    "name": "Balık Ekmek",
+    "cuisineId": "turkish",
+    "category": "bread",
+    "imagePath": "/assets/dishes/main/119026-balik-ekmek.webp",
+    "thumbPath": "/assets/dishes/thumb/119026-balik-ekmek.webp"
+  },
+  {
+    "dishId": "gozleme",
+    "metadataCode": "119027",
+    "name": "Gözleme",
+    "cuisineId": "turkish",
+    "category": "bread",
+    "imagePath": "/assets/dishes/main/119027-gozleme.webp",
+    "thumbPath": "/assets/dishes/thumb/119027-gozleme.webp"
+  },
+  {
+    "dishId": "simit",
+    "metadataCode": "119028",
+    "name": "Simit",
+    "cuisineId": "turkish",
+    "category": "bread",
+    "imagePath": "/assets/dishes/main/119028-simit.webp",
+    "thumbPath": "/assets/dishes/thumb/119028-simit.webp"
+  },
+  {
+    "dishId": "lokum",
+    "metadataCode": "119029",
+    "name": "Turkish Delight",
+    "cuisineId": "turkish",
+    "category": "dessert",
+    "imagePath": "/assets/dishes/main/119029-lokum.webp",
+    "thumbPath": "/assets/dishes/thumb/119029-lokum.webp"
+  },
+  {
+    "dishId": "sutlac",
+    "metadataCode": "119030",
+    "name": "Sütlaç",
+    "cuisineId": "turkish",
+    "category": "dessert",
+    "imagePath": "/assets/dishes/main/119030-sutlac.webp",
+    "thumbPath": "/assets/dishes/thumb/119030-sutlac.webp"
+  }
+]

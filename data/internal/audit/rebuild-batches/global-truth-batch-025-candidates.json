@@ -1,0 +1,164 @@
+[
+  {
+    "dishId": "bun-thit-nuong",
+    "metadataCode": "116013",
+    "name": "Bún Thịt Nướng",
+    "cuisineId": "vietnamese",
+    "category": "noodle",
+    "imagePath": "/assets/dishes/main/116013-bun-thit-nuong.webp",
+    "thumbPath": "/assets/dishes/thumb/116013-bun-thit-nuong.webp"
+  },
+  {
+    "dishId": "bun-rieu",
+    "metadataCode": "116014",
+    "name": "Bún Riêu",
+    "cuisineId": "vietnamese",
+    "category": "soup",
+    "imagePath": "/assets/dishes/main/116014-bun-rieu.webp",
+    "thumbPath": "/assets/dishes/thumb/116014-bun-rieu.webp"
+  },
+  {
+    "dishId": "bun-mam",
+    "metadataCode": "116015",
+    "name": "Bún Mắm",
+    "cuisineId": "vietnamese",
+    "category": "soup",
+    "imagePath": "/assets/dishes/main/116015-bun-mam.webp",
+    "thumbPath": "/assets/dishes/thumb/116015-bun-mam.webp"
+  },
+  {
+    "dishId": "mi-quang",
+    "metadataCode": "116016",
+    "name": "Mì Quảng",
+    "cuisineId": "vietnamese",
+    "category": "noodle",
+    "imagePath": "/assets/dishes/main/116016-mi-quang.webp",
+    "thumbPath": "/assets/dishes/thumb/116016-mi-quang.webp"
+  },
+  {
+    "dishId": "hu-tieu",
+    "metadataCode": "116017",
+    "name": "Hủ Tiếu",
+    "cuisineId": "vietnamese",
+    "category": "soup",
+    "imagePath": "/assets/dishes/main/116017-hu-tieu.webp",
+    "thumbPath": "/assets/dishes/thumb/116017-hu-tieu.webp"
+  },
+  {
+    "dishId": "banh-cuon",
+    "metadataCode": "116018",
+    "name": "Bánh Cuốn",
+    "cuisineId": "vietnamese",
+    "category": "starter",
+    "imagePath": "/assets/dishes/main/116018-banh-cuon.webp",
+    "thumbPath": "/assets/dishes/thumb/116018-banh-cuon.webp"
+  },
+  {
+    "dishId": "banh-khot",
+    "metadataCode": "116019",
+    "name": "Bánh Khọt",
+    "cuisineId": "vietnamese",
+    "category": "starter",
+    "imagePath": "/assets/dishes/main/116019-banh-khot.webp",
+    "thumbPath": "/assets/dishes/thumb/116019-banh-khot.webp"
+  },
+  {
+    "dishId": "banh-beo",
+    "metadataCode": "116020",
+    "name": "Bánh Bèo",
+    "cuisineId": "vietnamese",
+    "category": "starter",
+    "imagePath": "/assets/dishes/main/116020-banh-beo.webp",
+    "thumbPath": "/assets/dishes/thumb/116020-banh-beo.webp"
+  },
+  {
+    "dishId": "bo-kho",
+    "metadataCode": "116021",
+    "name": "Bò Kho",
+    "cuisineId": "vietnamese",
+    "category": "meat",
+    "imagePath": "/assets/dishes/main/116021-bo-kho.webp",
+    "thumbPath": "/assets/dishes/thumb/116021-bo-kho.webp"
+  },
+  {
+    "dishId": "ga-nuong",
+    "metadataCode": "116022",
+    "name": "Gà Nướng",
+    "cuisineId": "vietnamese",
+    "category": "meat",
+    "imagePath": "/assets/dishes/main/116022-ga-nuong.webp",
+    "thumbPath": "/assets/dishes/thumb/116022-ga-nuong.webp"
+  },
+  {
+    "dishId": "ca-kho-to",
+    "metadataCode": "116023",
+    "name": "Cá Kho Tộ",
+    "cuisineId": "vietnamese",
+    "category": "seafood",
+    "imagePath": "/assets/dishes/main/116023-ca-kho-to.webp",
+    "thumbPath": "/assets/dishes/thumb/116023-ca-kho-to.webp"
+  },
+  {
+    "dishId": "canh-chua",
+    "metadataCode": "116024",
+    "name": "Canh Chua",
+    "cuisineId": "vietnamese",
+    "category": "soup",
+    "imagePath": "/assets/dishes/main/116024-canh-chua.webp",
+    "thumbPath": "/assets/dishes/thumb/116024-canh-chua.webp"
+  },
+  {
+    "dishId": "goi-ga",
+    "metadataCode": "116025",
+    "name": "Gỏi Gà",
+    "cuisineId": "vietnamese",
+    "category": "salad",
+    "imagePath": "/assets/dishes/main/116025-goi-ga.webp",
+    "thumbPath": "/assets/dishes/thumb/116025-goi-ga.webp"
+  },
+  {
+    "dishId": "nom-hoa-chuoi",
+    "metadataCode": "116026",
+    "name": "Nộm Hoa Chuối",
+    "cuisineId": "vietnamese",
+    "category": "salad",
+    "imagePath": "/assets/dishes/main/116026-nom-hoa-chuoi.webp",
+    "thumbPath": "/assets/dishes/thumb/116026-nom-hoa-chuoi.webp"
+  },
+  {
+    "dishId": "cha-ca-la-vong",
+    "metadataCode": "116027",
+    "name": "Chả Cá Lã Vọng",
+    "cuisineId": "vietnamese",
+    "category": "seafood",
+    "imagePath": "/assets/dishes/main/116027-cha-ca-la-vong.webp",
+    "thumbPath": "/assets/dishes/thumb/116027-cha-ca-la-vong.webp"
+  },
+  {
+    "dishId": "xoi-man",
+    "metadataCode": "116028",
+    "name": "Xôi Mặn",
+    "cuisineId": "vietnamese",
+    "category": "rice",
+    "imagePath": "/assets/dishes/main/116028-xoi-man.webp",
+    "thumbPath": "/assets/dishes/thumb/116028-xoi-man.webp"
+  },
+  {
+    "dishId": "banh-flan-vietnamese",
+    "metadataCode": "116029",
+    "name": "Vietnamese Bánh Flan",
+    "cuisineId": "vietnamese",
+    "category": "dessert",
+    "imagePath": "/assets/dishes/main/116029-banh-flan-vietnamese.webp",
+    "thumbPath": "/assets/dishes/thumb/116029-banh-flan-vietnamese.webp"
+  },
+  {
+    "dishId": "che-ba-mau",
+    "metadataCode": "116030",
+    "name": "Chè Ba Màu",
+    "cuisineId": "vietnamese",
+    "category": "dessert",
+    "imagePath": "/assets/dishes/main/116030-che-ba-mau.webp",
+    "thumbPath": "/assets/dishes/thumb/116030-che-ba-mau.webp"
+  }
+]

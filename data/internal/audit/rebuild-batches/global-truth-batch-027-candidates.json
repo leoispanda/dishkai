@@ -1,0 +1,164 @@
+[
+  {
+    "dishId": "mee-rebus",
+    "metadataCode": "118013",
+    "name": "Mee Rebus",
+    "cuisineId": "malaysian-singaporean",
+    "category": "noodle",
+    "imagePath": "/assets/dishes/main/118013-mee-rebus.webp",
+    "thumbPath": "/assets/dishes/thumb/118013-mee-rebus.webp"
+  },
+  {
+    "dishId": "mee-siam",
+    "metadataCode": "118014",
+    "name": "Mee Siam",
+    "cuisineId": "malaysian-singaporean",
+    "category": "noodle",
+    "imagePath": "/assets/dishes/main/118014-mee-siam.webp",
+    "thumbPath": "/assets/dishes/thumb/118014-mee-siam.webp"
+  },
+  {
+    "dishId": "mee-goreng-mamak",
+    "metadataCode": "118015",
+    "name": "Mee Goreng Mamak",
+    "cuisineId": "malaysian-singaporean",
+    "category": "noodle",
+    "imagePath": "/assets/dishes/main/118015-mee-goreng-mamak.webp",
+    "thumbPath": "/assets/dishes/thumb/118015-mee-goreng-mamak.webp"
+  },
+  {
+    "dishId": "curry-laksa",
+    "metadataCode": "118016",
+    "name": "Curry Laksa",
+    "cuisineId": "malaysian-singaporean",
+    "category": "soup",
+    "imagePath": "/assets/dishes/main/118016-curry-laksa.webp",
+    "thumbPath": "/assets/dishes/thumb/118016-curry-laksa.webp"
+  },
+  {
+    "dishId": "asam-laksa",
+    "metadataCode": "118017",
+    "name": "Asam Laksa",
+    "cuisineId": "malaysian-singaporean",
+    "category": "soup",
+    "imagePath": "/assets/dishes/main/118017-asam-laksa.webp",
+    "thumbPath": "/assets/dishes/thumb/118017-asam-laksa.webp"
+  },
+  {
+    "dishId": "mee-pok",
+    "metadataCode": "118018",
+    "name": "Mee Pok",
+    "cuisineId": "malaysian-singaporean",
+    "category": "noodle",
+    "imagePath": "/assets/dishes/main/118018-mee-pok.webp",
+    "thumbPath": "/assets/dishes/thumb/118018-mee-pok.webp"
+  },
+  {
+    "dishId": "wantan-mee",
+    "metadataCode": "118019",
+    "name": "Wantan Mee",
+    "cuisineId": "malaysian-singaporean",
+    "category": "noodle",
+    "imagePath": "/assets/dishes/main/118019-wantan-mee.webp",
+    "thumbPath": "/assets/dishes/thumb/118019-wantan-mee.webp"
+  },
+  {
+    "dishId": "fish-head-curry",
+    "metadataCode": "118020",
+    "name": "Fish Head Curry",
+    "cuisineId": "malaysian-singaporean",
+    "category": "curry",
+    "imagePath": "/assets/dishes/main/118020-fish-head-curry.webp",
+    "thumbPath": "/assets/dishes/thumb/118020-fish-head-curry.webp"
+  },
+  {
+    "dishId": "beef-rendang-malaysian",
+    "metadataCode": "118021",
+    "name": "Beef Rendang",
+    "cuisineId": "malaysian-singaporean",
+    "category": "curry",
+    "imagePath": "/assets/dishes/main/118021-beef-rendang-malaysian.webp",
+    "thumbPath": "/assets/dishes/thumb/118021-beef-rendang-malaysian.webp"
+  },
+  {
+    "dishId": "ayam-masak-merah",
+    "metadataCode": "118022",
+    "name": "Ayam Masak Merah",
+    "cuisineId": "malaysian-singaporean",
+    "category": "meat",
+    "imagePath": "/assets/dishes/main/118022-ayam-masak-merah.webp",
+    "thumbPath": "/assets/dishes/thumb/118022-ayam-masak-merah.webp"
+  },
+  {
+    "dishId": "otak-otak",
+    "metadataCode": "118023",
+    "name": "Otak-Otak",
+    "cuisineId": "malaysian-singaporean",
+    "category": "starter",
+    "imagePath": "/assets/dishes/main/118023-otak-otak.webp",
+    "thumbPath": "/assets/dishes/thumb/118023-otak-otak.webp"
+  },
+  {
+    "dishId": "popiah",
+    "metadataCode": "118024",
+    "name": "Popiah",
+    "cuisineId": "malaysian-singaporean",
+    "category": "starter",
+    "imagePath": "/assets/dishes/main/118024-popiah.webp",
+    "thumbPath": "/assets/dishes/thumb/118024-popiah.webp"
+  },
+  {
+    "dishId": "rojak",
+    "metadataCode": "118025",
+    "name": "Rojak",
+    "cuisineId": "malaysian-singaporean",
+    "category": "salad",
+    "imagePath": "/assets/dishes/main/118025-rojak.webp",
+    "thumbPath": "/assets/dishes/thumb/118025-rojak.webp"
+  },
+  {
+    "dishId": "tauhu-goreng",
+    "metadataCode": "118026",
+    "name": "Tauhu Goreng",
+    "cuisineId": "malaysian-singaporean",
+    "category": "fried-snack",
+    "imagePath": "/assets/dishes/main/118026-tauhu-goreng.webp",
+    "thumbPath": "/assets/dishes/thumb/118026-tauhu-goreng.webp"
+  },
+  {
+    "dishId": "carrot-cake-singapore",
+    "metadataCode": "118027",
+    "name": "Singapore Carrot Cake",
+    "cuisineId": "malaysian-singaporean",
+    "category": "starter",
+    "imagePath": "/assets/dishes/main/118027-carrot-cake-singapore.webp",
+    "thumbPath": "/assets/dishes/thumb/118027-carrot-cake-singapore.webp"
+  },
+  {
+    "dishId": "ondeh-ondeh",
+    "metadataCode": "118028",
+    "name": "Ondeh-Ondeh",
+    "cuisineId": "malaysian-singaporean",
+    "category": "dessert",
+    "imagePath": "/assets/dishes/main/118028-ondeh-ondeh.webp",
+    "thumbPath": "/assets/dishes/thumb/118028-ondeh-ondeh.webp"
+  },
+  {
+    "dishId": "kuih-lapis",
+    "metadataCode": "118029",
+    "name": "Kuih Lapis",
+    "cuisineId": "malaysian-singaporean",
+    "category": "dessert",
+    "imagePath": "/assets/dishes/main/118029-kuih-lapis.webp",
+    "thumbPath": "/assets/dishes/thumb/118029-kuih-lapis.webp"
+  },
+  {
+    "dishId": "pulut-hitam",
+    "metadataCode": "118030",
+    "name": "Pulut Hitam",
+    "cuisineId": "malaysian-singaporean",
+    "category": "dessert",
+    "imagePath": "/assets/dishes/main/118030-pulut-hitam.webp",
+    "thumbPath": "/assets/dishes/thumb/118030-pulut-hitam.webp"
+  }
+]

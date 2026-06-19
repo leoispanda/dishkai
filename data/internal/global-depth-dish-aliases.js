@@ -3318,7 +3318,7 @@ export const globalDepthDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "prawn curry",
+    "alias": "indian prawn curry",
     "dishId": "prawn-curry-indian",
     "language": "menu",
     "matchType": "canonical",
@@ -3346,7 +3346,7 @@ export const globalDepthDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "fish curry",
+    "alias": "indian fish curry",
     "dishId": "fish-curry-indian",
     "language": "menu",
     "matchType": "canonical",
@@ -4200,7 +4200,7 @@ export const globalDepthDishAliases = [
     "confidence": 0.94
   },
   {
-    "alias": "Beef Rendang",
+    "alias": "Malaysian Beef Rendang",
     "dishId": "beef-rendang-malaysian",
     "language": "menu",
     "matchType": "canonical",

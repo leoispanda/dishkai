@@ -1,0 +1,164 @@
+[
+  {
+    "dishId": "paneer-tikka",
+    "metadataCode": "115013",
+    "name": "Paneer Tikka",
+    "cuisineId": "indian",
+    "category": "starter",
+    "imagePath": "/assets/dishes/main/115013-paneer-tikka.webp",
+    "thumbPath": "/assets/dishes/thumb/115013-paneer-tikka.webp"
+  },
+  {
+    "dishId": "aloo-gobi",
+    "metadataCode": "115014",
+    "name": "Aloo Gobi",
+    "cuisineId": "indian",
+    "category": "curry",
+    "imagePath": "/assets/dishes/main/115014-aloo-gobi.webp",
+    "thumbPath": "/assets/dishes/thumb/115014-aloo-gobi.webp"
+  },
+  {
+    "dishId": "saag-paneer",
+    "metadataCode": "115015",
+    "name": "Saag Paneer",
+    "cuisineId": "indian",
+    "category": "curry",
+    "imagePath": "/assets/dishes/main/115015-saag-paneer.webp",
+    "thumbPath": "/assets/dishes/thumb/115015-saag-paneer.webp"
+  },
+  {
+    "dishId": "malai-kofta",
+    "metadataCode": "115016",
+    "name": "Malai Kofta",
+    "cuisineId": "indian",
+    "category": "curry",
+    "imagePath": "/assets/dishes/main/115016-malai-kofta.webp",
+    "thumbPath": "/assets/dishes/thumb/115016-malai-kofta.webp"
+  },
+  {
+    "dishId": "rajma",
+    "metadataCode": "115017",
+    "name": "Rajma",
+    "cuisineId": "indian",
+    "category": "curry",
+    "imagePath": "/assets/dishes/main/115017-rajma.webp",
+    "thumbPath": "/assets/dishes/thumb/115017-rajma.webp"
+  },
+  {
+    "dishId": "dal-tadka",
+    "metadataCode": "115018",
+    "name": "Dal Tadka",
+    "cuisineId": "indian",
+    "category": "curry",
+    "imagePath": "/assets/dishes/main/115018-dal-tadka.webp",
+    "thumbPath": "/assets/dishes/thumb/115018-dal-tadka.webp"
+  },
+  {
+    "dishId": "korma",
+    "metadataCode": "115019",
+    "name": "Korma",
+    "cuisineId": "indian",
+    "category": "curry",
+    "imagePath": "/assets/dishes/main/115019-korma.webp",
+    "thumbPath": "/assets/dishes/thumb/115019-korma.webp"
+  },
+  {
+    "dishId": "madras-curry",
+    "metadataCode": "115020",
+    "name": "Madras Curry",
+    "cuisineId": "indian",
+    "category": "curry",
+    "imagePath": "/assets/dishes/main/115020-madras-curry.webp",
+    "thumbPath": "/assets/dishes/thumb/115020-madras-curry.webp"
+  },
+  {
+    "dishId": "jalfrezi",
+    "metadataCode": "115021",
+    "name": "Jalfrezi",
+    "cuisineId": "indian",
+    "category": "curry",
+    "imagePath": "/assets/dishes/main/115021-jalfrezi.webp",
+    "thumbPath": "/assets/dishes/thumb/115021-jalfrezi.webp"
+  },
+  {
+    "dishId": "bhuna",
+    "metadataCode": "115022",
+    "name": "Bhuna",
+    "cuisineId": "indian",
+    "category": "curry",
+    "imagePath": "/assets/dishes/main/115022-bhuna.webp",
+    "thumbPath": "/assets/dishes/thumb/115022-bhuna.webp"
+  },
+  {
+    "dishId": "dhansak",
+    "metadataCode": "115023",
+    "name": "Dhansak",
+    "cuisineId": "indian",
+    "category": "curry",
+    "imagePath": "/assets/dishes/main/115023-dhansak.webp",
+    "thumbPath": "/assets/dishes/thumb/115023-dhansak.webp"
+  },
+  {
+    "dishId": "prawn-curry-indian",
+    "metadataCode": "115024",
+    "name": "Indian Prawn Curry",
+    "cuisineId": "indian",
+    "category": "curry",
+    "imagePath": "/assets/dishes/main/115024-prawn-curry-indian.webp",
+    "thumbPath": "/assets/dishes/thumb/115024-prawn-curry-indian.webp"
+  },
+  {
+    "dishId": "fish-curry-indian",
+    "metadataCode": "115025",
+    "name": "Indian Fish Curry",
+    "cuisineId": "indian",
+    "category": "curry",
+    "imagePath": "/assets/dishes/main/115025-fish-curry-indian.webp",
+    "thumbPath": "/assets/dishes/thumb/115025-fish-curry-indian.webp"
+  },
+  {
+    "dishId": "dosa",
+    "metadataCode": "115026",
+    "name": "Dosa",
+    "cuisineId": "indian",
+    "category": "bread",
+    "imagePath": "/assets/dishes/main/115026-dosa.webp",
+    "thumbPath": "/assets/dishes/thumb/115026-dosa.webp"
+  },
+  {
+    "dishId": "idli",
+    "metadataCode": "115027",
+    "name": "Idli",
+    "cuisineId": "indian",
+    "category": "starter",
+    "imagePath": "/assets/dishes/main/115027-idli.webp",
+    "thumbPath": "/assets/dishes/thumb/115027-idli.webp"
+  },
+  {
+    "dishId": "vada",
+    "metadataCode": "115028",
+    "name": "Vada",
+    "cuisineId": "indian",
+    "category": "fried-snack",
+    "imagePath": "/assets/dishes/main/115028-vada.webp",
+    "thumbPath": "/assets/dishes/thumb/115028-vada.webp"
+  },
+  {
+    "dishId": "pakora",
+    "metadataCode": "115029",
+    "name": "Pakora",
+    "cuisineId": "indian",
+    "category": "fried-snack",
+    "imagePath": "/assets/dishes/main/115029-pakora.webp",
+    "thumbPath": "/assets/dishes/thumb/115029-pakora.webp"
+  },
+  {
+    "dishId": "kulfi",
+    "metadataCode": "115030",
+    "name": "Kulfi",
+    "cuisineId": "indian",
+    "category": "dessert",
+    "imagePath": "/assets/dishes/main/115030-kulfi.webp",
+    "thumbPath": "/assets/dishes/thumb/115030-kulfi.webp"
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "dishId": "bun-thit-nuong",
+    "metadataCode": "116013",
+    "cuisineId": "vietnamese",
+    "name": "Bún Thịt Nướng",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "bun-rieu",
+    "metadataCode": "116014",
+    "cuisineId": "vietnamese",
+    "name": "Bún Riêu",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "bun-mam",
+    "metadataCode": "116015",
+    "cuisineId": "vietnamese",
+    "name": "Bún Mắm",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "mi-quang",
+    "metadataCode": "116016",
+    "cuisineId": "vietnamese",
+    "name": "Mì Quảng",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "hu-tieu",
+    "metadataCode": "116017",
+    "cuisineId": "vietnamese",
+    "name": "Hủ Tiếu",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "banh-cuon",
+    "metadataCode": "116018",
+    "cuisineId": "vietnamese",
+    "name": "Bánh Cuốn",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "banh-khot",
+    "metadataCode": "116019",
+    "cuisineId": "vietnamese",
+    "name": "Bánh Khọt",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "banh-beo",
+    "metadataCode": "116020",
+    "cuisineId": "vietnamese",
+    "name": "Bánh Bèo",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "bo-kho",
+    "metadataCode": "116021",
+    "cuisineId": "vietnamese",
+    "name": "Bò Kho",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "ga-nuong",
+    "metadataCode": "116022",
+    "cuisineId": "vietnamese",
+    "name": "Gà Nướng",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "ca-kho-to",
+    "metadataCode": "116023",
+    "cuisineId": "vietnamese",
+    "name": "Cá Kho Tộ",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "canh-chua",
+    "metadataCode": "116024",
+    "cuisineId": "vietnamese",
+    "name": "Canh Chua",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "goi-ga",
+    "metadataCode": "116025",
+    "cuisineId": "vietnamese",
+    "name": "Gỏi Gà",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "nom-hoa-chuoi",
+    "metadataCode": "116026",
+    "cuisineId": "vietnamese",
+    "name": "Nộm Hoa Chuối",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "cha-ca-la-vong",
+    "metadataCode": "116027",
+    "cuisineId": "vietnamese",
+    "name": "Chả Cá Lã Vọng",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "xoi-man",
+    "metadataCode": "116028",
+    "cuisineId": "vietnamese",
+    "name": "Xôi Mặn",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "banh-flan-vietnamese",
+    "metadataCode": "116029",
+    "cuisineId": "vietnamese",
+    "name": "Vietnamese Bánh Flan",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  },
+  {
+    "dishId": "che-ba-mau",
+    "metadataCode": "116030",
+    "cuisineId": "vietnamese",
+    "name": "Chè Ba Màu",
+    "status": "accepted-after-rebuild",
+    "metadataAction": "Rebuilt dish-specific composition, flavor, texture, risk, and order guidance.",
+    "imageAction": "Existing generated asset rejected after contact-sheet review; replaced with deterministic semantic visual-reference render and exact code stamp."
+  }
+]
