@@ -2,9 +2,9 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 541
-- Total aliases: 1716
-- Total cuisines: 23
+- Total verified dishes: 589
+- Total aliases: 1834
+- Total cuisines: 27
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
 ## American (american) - 12
@@ -54,6 +54,21 @@ Generated from data/internal/index.js after the verified database quarantine aud
 28. 107025 - `boulets-sauce-tomate` - Boulets Sauce Tomate / 番茄酱肉丸 / Boulets sauce tomate
 29. 107026 - `crepe-mikado` - Crêpe Mikado / 巧克力冰淇淋薄饼 / Crêpe Mikado
 30. 107027 - `rijsttaart` - Rijsttaart / 比利时米布丁塔 / Rijsttaart
+
+## Brazilian (brazilian) - 12
+
+1. 130001 - `feijoada` - Feijoada / 巴西黑豆猪肉炖菜 / feijoada
+2. 130002 - `pao-de-queijo` - Pão de Queijo / 巴西芝士面包球 / pão de queijo
+3. 130003 - `coxinha` - Coxinha / 巴西炸鸡肉酥球 / coxinha
+4. 130004 - `moqueca` - Moqueca / 巴西椰奶海鲜炖菜 / moqueca
+5. 130005 - `churrasco` - Churrasco / 巴西烤肉 / churrasco
+6. 130006 - `acaraje` - Acarajé / 巴西炸黑眼豆虾馅 / acarajé
+7. 130007 - `farofa` - Farofa / 巴西炒木薯粉配菜 / farofa
+8. 130008 - `brigadeiro` - Brigadeiro / 巴西巧克力炼乳糖球 / brigadeiro
+9. 130009 - `pastel-brazilian` - Brazilian Pastel / 巴西炸馅饼 / pastel
+10. 130010 - `vatapa` - Vatapá / 巴西虾椰奶花生浓酱 / vatapá
+11. 130011 - `bobó-de-camarão` - Bobó de Camarão / 巴西木薯椰奶虾浓汤 / bobó de camarão
+12. 130012 - `quindim` - Quindim / 巴西椰香蛋黄布丁 / quindim
 
 ## British Irish (british-irish) - 30
 
@@ -153,6 +168,21 @@ Generated from data/internal/index.js after the verified database quarantine aud
 28. 102026 - `bami-goreng-dutch` - Dutch-Indonesian Bami Goreng / 荷兰印尼炒面 / Bami goreng
 29. 102027 - `loempia` - Loempia / 荷兰炸春卷 / Loempia
 30. 102028 - `oliebol` - Oliebol / 荷兰油炸甜面团 / Oliebol
+
+## Ethiopian (ethiopian) - 12
+
+1. 127001 - `doro-wat` - Doro Wat / 埃塞俄比亚辣鸡炖菜 / doro wat
+2. 127002 - `tibs` - Tibs / 埃塞炒烤肉 / tibs
+3. 127003 - `injera-platter` - Injera Platter / 英吉拉拼盘 / injera platter
+4. 127004 - `shiro` - Shiro / 埃塞鹰嘴豆粉炖酱 / shiro
+5. 127005 - `misir-wat` - Misir Wat / 埃塞辣红扁豆炖菜 / misir wat
+6. 127006 - `gomen` - Gomen / 埃塞炖绿叶菜 / gomen
+7. 127007 - `kitfo` - Kitfo / 埃塞生拌牛肉碎 / kitfo
+8. 127008 - `firfir` - Firfir / 英吉拉拌辣炖菜 / firfir
+9. 127009 - `bayenetu` - Beyaynetu / 埃塞素食拼盘 / beyaynetu
+10. 127010 - `asa-tibs` - Asa Tibs / 埃塞煎鱼块 / asa tibs
+11. 127011 - `sambusa` - Sambusa / 埃塞炸三角饺 / sambusa
+12. 127012 - `ethiopian-coffee-snacks` - Ethiopian Coffee Sweets / 埃塞咖啡小甜点 / buna snacks
 
 ## French (french) - 30
 
@@ -455,6 +485,21 @@ Generated from data/internal/index.js after the verified database quarantine aud
 11. 124011 - `seffa` - Seffa / 摩洛哥甜库斯库斯 / seffa
 12. 124012 - `mint-tea-dessert` - Mint Tea Sweets / 薄荷茶甜点拼盘 / حلويات مغربية
 
+## Peruvian (peruvian) - 12
+
+1. 129001 - `ceviche-peruvian` - Peruvian Ceviche / 秘鲁酸橘汁腌鱼 / ceviche peruano
+2. 129002 - `lomo-saltado` - Lomo Saltado / 秘鲁牛肉薯条炒饭 / lomo saltado
+3. 129003 - `aji-de-gallina` - Ají de Gallina / 秘鲁黄辣椒奶油鸡 / ají de gallina
+4. 129004 - `causa` - Causa / 秘鲁土豆冷盘 / causa
+5. 129005 - `anticuchos` - Anticuchos / 秘鲁烤牛心串 / anticuchos
+6. 129006 - `papa-a-la-huancaina` - Papa a la Huancaína / 秘鲁黄辣椒奶酪土豆 / papa a la huancaína
+7. 129007 - `arroz-chaufa` - Arroz Chaufa / 秘鲁中式炒饭 / arroz chaufa
+8. 129008 - `pollo-a-la-brasa` - Pollo a la Brasa / 秘鲁炭烤鸡 / pollo a la brasa
+9. 129009 - `rocoto-relleno` - Rocoto Relleno / 秘鲁酿辣椒 / rocoto relleno
+10. 129010 - `tiradito` - Tiradito / 秘鲁生鱼薄片 / tiradito
+11. 129011 - `picarones` - Picarones / 秘鲁南瓜红薯甜甜圈 / picarones
+12. 129012 - `suspiro-limeno` - Suspiro Limeño / 秘鲁焦糖蛋奶甜点 / suspiro limeño
+
 ## Portuguese (portuguese) - 30
 
 1. 125031 - `bacalhau-a-lagareiro` - Bacalhau a Lagareiro / 橄榄油烤盐鳕鱼 / Bacalhau à lagareiro
@@ -488,7 +533,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 125029 - `serradura` - Serradura / 木糠布丁 / Serradura
 30. 125030 - `bolo-de-bolacha` - Bolo de Bolacha / 葡式饼干咖啡奶油蛋糕 / Bolo de bolacha
 
-## Scandinavian (scandinavian) - 30
+## Scandinavian (scandinavian) - 31
 
 1. 128035 - `stegt-flaesk` - Stegt Flaesk / 丹麦脆煎五花肉 / Stegt flæsk
 2. 128040 - `raspeballer` - Raspeballer / 挪威土豆团子 / Raspeballer
@@ -504,22 +549,23 @@ Generated from data/internal/index.js after the verified database quarantine aud
 12. 128009 - `kanelbullar` - Kanelbullar / 瑞典肉桂卷 / Kanelbullar
 13. 128010 - `skagen-toast` - Toast Skagen / 瑞典虾仁吐司 / Toast Skagen
 14. 128011 - `lutefisk` - Lutefisk / 碱水鳕鱼 / Lutefisk
-15. 128013 - `frikadeller` - Frikadeller / 丹麦煎肉丸 / Frikadeller
-16. 128014 - `karjalanpiirakka` - Karelian Pie / 卡累利阿米粥派 / Karjalanpiirakka
-17. 128015 - `lohikeitto` - Lohikeitto / 芬兰奶油三文鱼汤 / Lohikeitto
-18. 128016 - `kalops` - Kalops / 瑞典牛肉炖菜 / Kalops
-19. 128017 - `raggmunk` - Raggmunk / 瑞典土豆煎饼 / Raggmunk
-20. 128018 - `janssons-frestelse` - Jansson's Temptation / 瑞典奶油鳀鱼土豆焗菜 / Janssons frestelse
-21. 128019 - `kroppkakor` - Kroppkakor / 瑞典土豆肉馅团子 / Kroppkakor
-22. 128020 - `farikal` - Farikal / 挪威羊肉卷心菜炖菜 / Fårikål
-23. 128021 - `kjottkaker` - Kjottkaker / 挪威肉饼 / Kjøttkaker
-24. 128022 - `leverpostej` - Leverpostej / 丹麦肝酱 / Leverpostej
-25. 128024 - `fish-cakes-scandinavian` - Scandinavian Fish Cakes / 北欧鱼饼 / Fiskekaker
-26. 128025 - `pea-soup-pancakes` - Pea Soup and Pancakes / 豌豆汤配薄饼 / Ärtsoppa och pannkakor
-27. 128026 - `princess-cake` - Princess Cake / 瑞典公主蛋糕 / Prinsesstårta
-28. 128027 - `semla` - Semla / 瑞典奶油杏仁甜面包 / Semla
-29. 128028 - `riskrem` - Riskrem / 挪威奶油米布丁 / Riskrem
-30. 128029 - `aebleskiver` - Aebleskiver / 丹麦圆球小煎饼 / Æbleskiver
+15. 128012 - `cloudberry-dessert` - Cloudberry Dessert / 北欧云莓甜点 / molte dessert
+16. 128013 - `frikadeller` - Frikadeller / 丹麦煎肉丸 / Frikadeller
+17. 128014 - `karjalanpiirakka` - Karelian Pie / 卡累利阿米粥派 / Karjalanpiirakka
+18. 128015 - `lohikeitto` - Lohikeitto / 芬兰奶油三文鱼汤 / Lohikeitto
+19. 128016 - `kalops` - Kalops / 瑞典牛肉炖菜 / Kalops
+20. 128017 - `raggmunk` - Raggmunk / 瑞典土豆煎饼 / Raggmunk
+21. 128018 - `janssons-frestelse` - Jansson's Temptation / 瑞典奶油鳀鱼土豆焗菜 / Janssons frestelse
+22. 128019 - `kroppkakor` - Kroppkakor / 瑞典土豆肉馅团子 / Kroppkakor
+23. 128020 - `farikal` - Farikal / 挪威羊肉卷心菜炖菜 / Fårikål
+24. 128021 - `kjottkaker` - Kjottkaker / 挪威肉饼 / Kjøttkaker
+25. 128022 - `leverpostej` - Leverpostej / 丹麦肝酱 / Leverpostej
+26. 128024 - `fish-cakes-scandinavian` - Scandinavian Fish Cakes / 北欧鱼饼 / Fiskekaker
+27. 128025 - `pea-soup-pancakes` - Pea Soup and Pancakes / 豌豆汤配薄饼 / Ärtsoppa och pannkakor
+28. 128026 - `princess-cake` - Princess Cake / 瑞典公主蛋糕 / Prinsesstårta
+29. 128027 - `semla` - Semla / 瑞典奶油杏仁甜面包 / Semla
+30. 128028 - `riskrem` - Riskrem / 挪威奶油米布丁 / Riskrem
+31. 128029 - `aebleskiver` - Aebleskiver / 丹麦圆球小煎饼 / Æbleskiver
 
 ## Spanish (spanish) - 30
 
@@ -553,6 +599,20 @@ Generated from data/internal/index.js after the verified database quarantine aud
 28. 105028 - `tarta-de-santiago` - Tarta de Santiago / 圣地亚哥杏仁蛋糕 / Tarta de Santiago
 29. 105029 - `spanish-flan` - Flan / 西班牙焦糖布丁 / Flan
 30. 105030 - `bocadillo-de-calamares` - Bocadillo de Calamares / 炸鱿鱼圈长棍三明治 / Bocadillo de calamares
+
+## Surinamese (surinamese) - 11
+
+1. 126001 - `roti-roll` - Surinamese Roti / 苏里南咖喱 roti / roti
+2. 126003 - `saoto-soep` - Saoto Soup / 苏里南 Saoto 鸡汤 / saoto soep
+3. 126004 - `broodje-kip-kerrie` - Broodje Kip Kerrie / 苏里南咖喱鸡三明治 / broodje kip kerrie
+4. 126005 - `broodje-bakkeljauw` - Broodje Bakkeljauw / 苏里南咸鳕鱼三明治 / broodje bakkeljauw
+5. 126006 - `bara` - Bara / 苏里南炸豆饼 / bara
+6. 126007 - `teloh` - Teloh / 炸木薯配咸鳕鱼 / teloh
+7. 126008 - `mokshire-meti` - Moksi Meti / 苏里南混合烤肉 / moksi meti
+8. 126009 - `nasi-surinamese` - Surinamese Nasi / 苏里南炒饭 / nasi
+9. 126010 - `bami-surinamese` - Surinamese Bami / 苏里南炒面 / bami
+10. 126011 - `peanut-soup-surinamese` - Surinamese Peanut Soup / 苏里南花生汤 / pindasoep
+11. 126012 - `bojo` - Bojo / 苏里南椰香木薯糕 / bojo
 
 ## Thai (thai) - 30
 

@@ -19449,103 +19449,103 @@ export const worldDishes = [
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
-    "id": "cataplana",
-    "metadataCode": "125011",
-    "cuisineId": "portuguese",
-    "names": {
-      "en": "Cataplana",
-      "zh": "葡式铜锅海鲜炖菜",
-      "nl": "Cataplana",
-      "local": "cataplana"
-    },
-    "category": "seafood",
-    "cookingMethods": [
-      "assembled"
-    ],
-    "shortDescription": {
-      "en": "Seafood stew cooked in a lidded copper pan with tomato and herbs.",
-      "zh": "葡式铜锅海鲜炖菜 是常见葡萄牙菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Cataplana is een veelvoorkomend gerecht in de portugees keuken, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with tender seafood, fresh finish, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender seafood，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender seafood; saus, vulling en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "common",
-      "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+      "id": "cataplana",
+      "metadataCode": "125011",
+      "cuisineId": "portuguese",
+      "names": {
+        "en": "Cataplana",
+        "zh": "葡式铜锅海鲜炖菜",
+        "nl": "Cataplana",
+        "local": "cataplana"
+      },
+      "category": "seafood",
+      "cookingMethods": [
+        "assembled"
       ],
-      "description": {
-        "en": "A high-frequency Portuguese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频葡萄牙菜菜品。",
-        "nl": "Een vaak voorkomend portugees menu-item voor brede DishKAI restaurantdekking."
-      }
-    },
-    "composition": [
-      [
-        "fish-fillet",
-        50,
-        "main"
+      "shortDescription": {
+        "en": "Seafood stew cooked in a lidded copper pan with tomato and herbs.",
+        "zh": "葡式铜锅海鲜炖菜 是常见葡萄牙菜菜单菜品，重点用于判断口味、分量和点餐风险。",
+        "nl": "Cataplana is een veelvoorkomend gerecht in de portugees keuken, beschreven voor snelle bestelkeuzes."
+      },
+      "cookingProfile": {
+        "en": "Usually served with tender seafood, fresh finish, so the ordering experience depends on sauce, filling, and portion size.",
+        "zh": "通常呈现为tender seafood，点餐时主要看酱汁、馅料和分量。",
+        "nl": "Meestal met tender seafood; saus, vulling en portiegrootte bepalen de ervaring."
+      },
+      "cuisineRole": {
+        "level": "common",
+        "tags": [
+          "common-menu-item",
+          "restaurant-coverage"
+        ],
+        "description": {
+          "en": "A high-frequency Portuguese menu item added for broad DishKAI restaurant coverage.",
+          "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频葡萄牙菜菜品。",
+          "nl": "Een vaak voorkomend portugees menu-item voor brede DishKAI restaurantdekking."
+        }
+      },
+      "composition": [
+        [
+          "fish-fillet",
+          50,
+          "main"
+        ],
+        [
+          "steamed-rice",
+          20,
+          "base"
+        ],
+        [
+          "mixed-vegetables",
+          15,
+          "side"
+        ],
+        [
+          "lime",
+          10,
+          "finish"
+        ],
+        [
+          "parsley",
+          5,
+          "aroma",
+          "seasoning"
+        ]
       ],
-      [
-        "steamed-rice",
-        20,
-        "base"
+      "distinctiveFlavorSources": [
+        "peri-peri",
+        "olive-oil",
+        "paprika"
       ],
-      [
-        "mixed-vegetables",
-        15,
-        "side"
+      "basicTaste": [
+        "fresh",
+        "briny"
       ],
-      [
-        "lime",
-        10,
-        "finish"
+      "textureProfile": [
+        "tender seafood",
+        "fresh finish"
       ],
-      [
-        "parsley",
-        5,
-        "aroma",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "peri-peri",
-      "olive-oil",
-      "paprika"
-    ],
-    "basicTaste": [
-      "fresh",
-      "briny"
-    ],
-    "textureProfile": [
-      "tender seafood",
-      "fresh finish"
-    ],
-    "riskFlags": [
-      "contains-fish",
-      "contains-shellfish"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Great seafood stew; shellfish likely.",
-      "zh": "如果你接受这类口味和风险，葡式铜锅海鲜炖菜 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
-    },
-    "spiceLevel": 1,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  }),
+      "riskFlags": [
+        "contains-fish",
+        "contains-shellfish"
+      ],
+      "dietaryFlags": [],
+      "goodForTags": [
+        "restaurant-coverage",
+        "first-timer-friendly"
+      ],
+      "avoidIfTags": [],
+      "orderVerdict": {
+        "en": "Great seafood stew; shellfish likely.",
+        "zh": "如果你接受这类口味和风险，葡式铜锅海鲜炖菜 是可以考虑的选择。",
+        "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      },
+      "spiceLevel": 1,
+      "weightLevel": 3,
+      "acquiredTasteLevel": 1,
+      "metadataConfidence": 0.72,
+      "restaurantVariationLevel": "medium"
+    }),
   starterDish({
     "cuisineId": "portuguese",
     "confidenceTag": "audited-portuguese-batch-012",
@@ -19661,299 +19661,324 @@ export const worldDishes = [
     "cuisineId": "surinamese",
     "names": {
       "en": "Surinamese Roti",
-      "zh": "苏里南咖喱卷饼",
+      "zh": "苏里南咖喱 roti",
       "nl": "Surinaamse roti",
       "local": "roti"
     },
     "category": "bread",
     "cookingMethods": [
-      "baked"
+      "simmered",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Flatbread with curry chicken, potato, long beans, and egg in many versions.",
-      "zh": "苏里南咖喱卷饼 是常见苏里南菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Surinaamse roti is een veelvoorkomend gerecht in de surinaams keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Surinamese curry plate or wrap with roti flatbread, potato, long beans, and often chicken and boiled egg.",
+      "zh": "苏里南咖喱 roti，常见组合是面饼配咖喱鸡、土豆、长豇豆和水煮蛋，可卷起也可盘装。",
+      "nl": "Surinaamse roti met rotiplaat, aardappel, kousenband en vaak kip kerrie met gekookt ei."
     },
     "cookingProfile": {
-      "en": "Usually served with bready, chewy or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为bready，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met bready; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "The curry filling is saucy and warm while the roti stays soft enough to tear or wrap.",
+      "zh": "咖喱馅料温热多汁，roti 面饼柔软，适合撕着蘸或卷着吃。",
+      "nl": "De kerrievulling is warm en sauzig; de rotiplaat blijft zacht genoeg om te scheuren of te rollen."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency Surinamese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频苏里南菜菜品。",
-        "nl": "Een vaak voorkomend surinaams menu-item voor brede DishKAI restaurantdekking."
+        "en": "A classic Dutch-Surinamese order where bread and curry are the key decision points.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "pita",
-        55,
-        "base"
+        "roti-flatbread",
+        30,
+        "bread base"
       ],
       [
-        "mixed-vegetables",
+        "chicken",
+        25,
+        "curry protein"
+      ],
+      [
+        "potato",
         20,
-        "freshness"
+        "starchy curry body"
       ],
       [
-        "tomato",
+        "yardlong-beans",
         10,
-        "body"
+        "green vegetable"
       ],
       [
-        "olive-oil",
+        "egg",
         10,
-        "finish",
-        "seasoning"
+        "boiled topping"
       ],
       [
-        "mint",
+        "curry-masala",
         5,
-        "finish",
+        "curry spice",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "coconut-curry"
+      "Surinamese curry masala",
+      "Madame Jeanette chili",
+      "soft roti flatbread"
     ],
     "basicTaste": [
       "savory",
-      "bready"
+      "warm-spiced",
+      "mildly spicy",
+      "starchy"
     ],
     "textureProfile": [
-      "bready",
-      "chewy or crisp"
+      "soft flatbread",
+      "saucy potato",
+      "tender chicken"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg"
+      "contains-egg",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
-    ],
-    "avoidIfTags": [
-      "wants-light-food"
-    ],
-    "orderVerdict": {
-      "en": "Very relevant in the Netherlands; filling, curry-like, and hearty.",
-      "zh": "如果你接受这类口味和风险，苏里南咖喱卷饼 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
-    },
-    "spiceLevel": 2,
-    "weightLevel": 4,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "high"
-  }),
-  starterDish({
-    "id": "pom",
-    "metadataCode": "126002",
-    "cuisineId": "surinamese",
-    "names": {
-      "en": "Pom",
-      "zh": "苏里南波姆烤鸡木薯",
-      "nl": "Pom",
-      "local": "pom"
-    },
-    "category": "meat",
-    "cookingMethods": [
-      "grilled"
-    ],
-    "shortDescription": {
-      "en": "Baked tayer/cassava-style casserole with chicken and citrusy savoriness.",
-      "zh": "苏里南波姆烤鸡木薯 是常见苏里南菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Pom is een veelvoorkomend gerecht in de surinaams keuken, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
-      ],
-      "description": {
-        "en": "A high-frequency Surinamese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频苏里南菜菜品。",
-        "nl": "Een vaak voorkomend surinaams menu-item voor brede DishKAI restaurantdekking."
-      }
-    },
-    "composition": [
-      [
-        "lamb",
-        45,
-        "main"
-      ],
-      [
-        "steamed-rice",
-        25,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "side"
-      ],
-      [
-        "cumin",
-        5,
-        "aroma",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "coconut-curry"
-    ],
-    "basicTaste": [
-      "savory",
-      "rich"
-    ],
-    "textureProfile": [
-      "tender meat",
-      "charred or saucy edges"
-    ],
-    "riskFlags": [],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "restaurant-coverage",
+      "comfort-food",
       "first-timer-friendly"
     ],
     "avoidIfTags": [
+      "gluten-free",
+      "egg-free",
       "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Distinctive Surinamese comfort dish; filling and rich.",
-      "zh": "如果你接受这类口味和风险，苏里南波姆烤鸡木薯 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A filling, approachable Dutch-Surinamese choice if you want curry and bread rather than rice.",
+      "zh": "想吃咖喱和面饼、又要有饱腹感时很适合；不想吃重主食则慎选。",
+      "nl": "Een vullende, toegankelijke keuze als je kerrie met brood wilt in plaats van rijst."
     },
-    "spiceLevel": 1,
+    "spiceLevel": 2,
     "weightLevel": 4,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "restaurantVariationLevel": "high",
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
   }),
+  starterDish({
+      "id": "pom",
+      "metadataCode": "126002",
+      "cuisineId": "surinamese",
+      "names": {
+        "en": "Pom",
+        "zh": "苏里南波姆烤鸡木薯",
+        "nl": "Pom",
+        "local": "pom"
+      },
+      "category": "meat",
+      "cookingMethods": [
+        "grilled"
+      ],
+      "shortDescription": {
+        "en": "Baked tayer/cassava-style casserole with chicken and citrusy savoriness.",
+        "zh": "苏里南波姆烤鸡木薯 是常见苏里南菜菜单菜品，重点用于判断口味、分量和点餐风险。",
+        "nl": "Pom is een veelvoorkomend gerecht in de surinaams keuken, beschreven voor snelle bestelkeuzes."
+      },
+      "cookingProfile": {
+        "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
+        "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
+        "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
+      },
+      "cuisineRole": {
+        "level": "classic",
+        "tags": [
+          "common-menu-item",
+          "restaurant-coverage"
+        ],
+        "description": {
+          "en": "A high-frequency Surinamese menu item added for broad DishKAI restaurant coverage.",
+          "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频苏里南菜菜品。",
+          "nl": "Een vaak voorkomend surinaams menu-item voor brede DishKAI restaurantdekking."
+        }
+      },
+      "composition": [
+        [
+          "lamb",
+          45,
+          "main"
+        ],
+        [
+          "steamed-rice",
+          25,
+          "base"
+        ],
+        [
+          "mixed-vegetables",
+          20,
+          "side"
+        ],
+        [
+          "cumin",
+          5,
+          "aroma",
+          "seasoning"
+        ],
+        [
+          "black-pepper",
+          5,
+          "seasoning",
+          "seasoning"
+        ]
+      ],
+      "distinctiveFlavorSources": [
+        "cumin",
+        "chili",
+        "coconut-curry"
+      ],
+      "basicTaste": [
+        "savory",
+        "rich"
+      ],
+      "textureProfile": [
+        "tender meat",
+        "charred or saucy edges"
+      ],
+      "riskFlags": [],
+      "dietaryFlags": [],
+      "goodForTags": [
+        "restaurant-coverage",
+        "first-timer-friendly"
+      ],
+      "avoidIfTags": [
+        "wants-light-food"
+      ],
+      "orderVerdict": {
+        "en": "Distinctive Surinamese comfort dish; filling and rich.",
+        "zh": "如果你接受这类口味和风险，苏里南波姆烤鸡木薯 是可以考虑的选择。",
+        "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      },
+      "spiceLevel": 1,
+      "weightLevel": 4,
+      "acquiredTasteLevel": 1,
+      "metadataConfidence": 0.72,
+      "restaurantVariationLevel": "medium"
+    }),
   starterDish({
     "id": "saoto-soep",
     "metadataCode": "126003",
     "cuisineId": "surinamese",
     "names": {
       "en": "Saoto Soup",
-      "zh": "苏里南鸡汤",
+      "zh": "苏里南 Saoto 鸡汤",
       "nl": "Saoto soep",
       "local": "saoto soep"
     },
     "category": "soup",
     "cookingMethods": [
-      "simmered"
+      "simmered",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Javanese-Surinamese chicken soup with rice, egg, and crispy toppings.",
-      "zh": "苏里南鸡汤 是常见苏里南菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Saoto soep is een veelvoorkomend gerecht in de surinaams keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Javanese-Surinamese chicken soup with rice, bean sprouts, egg, fried potato sticks, and condiments.",
+      "zh": "爪哇裔苏里南鸡汤，常有米饭、豆芽、鸡蛋和炸土豆丝，靠配料带来层次。",
+      "nl": "Javaans-Surinaamse kippensoep met rijst, taugé, ei, gebakken aardappelreepjes en smaakmakers."
     },
     "cookingProfile": {
-      "en": "Usually served with hot broth, soft pieces, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为hot broth，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met hot broth; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Clear hot broth is assembled with crisp toppings, so it eats lighter than creamy soups but still feels complete.",
+      "zh": "清汤热上桌，再加入脆配料，整体比奶油汤轻，但很有饱腹感。",
+      "nl": "Heldere hete bouillon wordt met krokante toppings opgebouwd; lichter dan roomsoep maar toch compleet."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "soup"
       ],
       "description": {
-        "en": "A high-frequency Surinamese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频苏里南菜菜品。",
-        "nl": "Een vaak voorkomend surinaams menu-item voor brede DishKAI restaurantdekking."
+        "en": "A core Surinamese soup order with Indonesian-Javanese roots.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
         "broth",
-        45,
-        "soup-base"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
+        35,
+        "chicken broth"
       ],
       [
         "chicken",
         20,
-        "protein"
+        "shredded meat"
       ],
       [
-        "parsley",
+        "steamed-rice",
+        15,
+        "starch"
+      ],
+      [
+        "bean-sprouts",
+        10,
+        "fresh crunch"
+      ],
+      [
+        "potato",
+        10,
+        "fried sticks"
+      ],
+      [
+        "egg",
         5,
-        "finish",
+        "boiled garnish"
+      ],
+      [
+        "sambal",
+        5,
+        "optional heat",
         "seasoning"
-      ],
-      [
-        "cumin",
-        5,
-        "aroma",
-        "seasoning"
-      ],
-      [
-        "lime",
-        5,
-        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "coconut-curry"
+      "chicken broth",
+      "fried potato crunch",
+      "sambal and soy-style condiments"
     ],
     "basicTaste": [
       "brothy",
-      "savory"
+      "savory",
+      "lightly spicy",
+      "aromatic"
     ],
     "textureProfile": [
-      "hot broth",
-      "soft pieces"
+      "clear broth",
+      "shredded chicken",
+      "crisp toppings"
     ],
     "riskFlags": [
-      "contains-egg"
+      "contains-egg",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
+      "soup",
       "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-free"
+    ],
     "orderVerdict": {
-      "en": "Good warming soup with many textures.",
-      "zh": "如果你接受这类口味和风险，苏里南鸡汤 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good when you want a warm but not heavy soup with lots of toppings and optional heat.",
+      "zh": "想喝热汤又不想太厚重时适合；配料多，辣度通常可由 sambal 调整。",
+      "nl": "Goed als je warme maar niet zware soep wilt met veel toppings en optionele pit."
     },
     "spiceLevel": 1,
     "weightLevel": 3,
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -19962,96 +19987,97 @@ export const worldDishes = [
     "cuisineId": "surinamese",
     "names": {
       "en": "Broodje Kip Kerrie",
-      "zh": "咖喱鸡三明治",
+      "zh": "苏里南咖喱鸡三明治",
       "nl": "Broodje kip kerrie",
       "local": "broodje kip kerrie"
     },
     "category": "bread",
     "cookingMethods": [
-      "baked"
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Surinamese curry chicken sandwich.",
-      "zh": "咖喱鸡三明治 是常见苏里南菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Broodje kip kerrie is een veelvoorkomend gerecht in de surinaams keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Surinamese soft roll filled with yellow curry chicken, often with cucumber or pickled vegetables.",
+      "zh": "苏里南软面包夹黄咖喱鸡，常配黄瓜或酸菜，适合快速点单。",
+      "nl": "Surinaams zacht broodje met gele kip kerrie, vaak met komkommer of zuur."
     },
     "cookingProfile": {
-      "en": "Usually served with bready, chewy or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为bready，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met bready; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Served as a soft filled roll: the filling is the flavor, the bread is the carrier.",
+      "zh": "以软面包夹馅上桌，风味主要来自内馅，面包负责承托。",
+      "nl": "Als zacht gevuld broodje geserveerd: de vulling draagt de smaak, het brood draagt mee."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "sandwich",
+        "street-food"
       ],
       "description": {
-        "en": "A high-frequency Surinamese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频苏里南菜菜品。",
-        "nl": "Een vaak voorkomend surinaams menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Dutch-Surinamese lunch-counter sandwich where filling choice drives the order.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "pita",
-        55,
-        "base"
+        "bread",
+        40,
+        "soft roll"
+      ],
+      [
+        "chicken",
+        45,
+        "main filling"
       ],
       [
         "mixed-vegetables",
-        20,
-        "freshness"
-      ],
-      [
-        "tomato",
         10,
-        "body"
+        "fresh or pickled garnish"
       ],
       [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "mint",
+        "curry-masala",
         5,
-        "finish",
+        "warm spice",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "coconut-curry"
+      "curry masala",
+      "soft roll",
+      "optional Madame Jeanette heat"
     ],
     "basicTaste": [
       "savory",
-      "bready"
+      "bready",
+      "warm-spiced"
     ],
     "textureProfile": [
-      "bready",
-      "chewy or crisp"
+      "soft roll",
+      "moist filling",
+      "small crisp garnish"
     ],
     "riskFlags": [
-      "contains-gluten"
+      "contains-gluten",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "street-food",
+      "quick-lunch"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free"
+    ],
     "orderVerdict": {
-      "en": "Great quick Dutch-Surinamese order; bread-based.",
-      "zh": "如果你接受这类口味和风险，咖喱鸡三明治 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A strong quick lunch choice if you want warm curry chicken in bread.",
+      "zh": "想要热咖喱鸡和面包的快速午餐时很稳。",
+      "nl": "Een sterke snelle lunchkeuze als je warme kip kerrie op brood wilt."
     },
     "spiceLevel": 2,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "high"
+    "restaurantVariationLevel": "high",
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
   }),
   starterDish({
     "id": "broodje-bakkeljauw",
@@ -20059,97 +20085,98 @@ export const worldDishes = [
     "cuisineId": "surinamese",
     "names": {
       "en": "Broodje Bakkeljauw",
-      "zh": "咸鱼三明治",
+      "zh": "苏里南咸鳕鱼三明治",
       "nl": "Broodje bakkeljauw",
       "local": "broodje bakkeljauw"
     },
     "category": "bread",
     "cookingMethods": [
-      "baked"
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Salt cod sandwich with peppery seasoning.",
-      "zh": "咸鱼三明治 是常见苏里南菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Broodje bakkeljauw is een veelvoorkomend gerecht in de surinaams keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Surinamese soft roll with flaked salt cod, peppery seasoning, and often pickled cucumber.",
+      "zh": "苏里南软面包夹炒散的咸鳕鱼，咸鲜明显，常带辣椒和酸爽配菜。",
+      "nl": "Surinaams zacht broodje met geplukte bakkeljauw, pittige kruiding en vaak zuur."
     },
     "cookingProfile": {
-      "en": "Usually served with bready, chewy or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为bready，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met bready; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Served as a soft filled roll: the filling is the flavor, the bread is the carrier.",
+      "zh": "以软面包夹馅上桌，风味主要来自内馅，面包负责承托。",
+      "nl": "Als zacht gevuld broodje geserveerd: de vulling draagt de smaak, het brood draagt mee."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "sandwich",
+        "street-food"
       ],
       "description": {
-        "en": "A high-frequency Surinamese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频苏里南菜菜品。",
-        "nl": "Een vaak voorkomend surinaams menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Dutch-Surinamese lunch-counter sandwich where filling choice drives the order.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "pita",
-        55,
-        "base"
+        "bread",
+        40,
+        "soft roll"
+      ],
+      [
+        "salt-cod",
+        45,
+        "main filling"
       ],
       [
         "mixed-vegetables",
-        20,
-        "freshness"
-      ],
-      [
-        "tomato",
         10,
-        "body"
+        "fresh or pickled garnish"
       ],
       [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "mint",
+        "curry-masala",
         5,
-        "finish",
+        "warm spice",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "coconut-curry"
+      "salt cod",
+      "Madame Jeanette chili",
+      "pickled freshness"
     ],
     "basicTaste": [
       "savory",
-      "bready"
+      "bready",
+      "warm-spiced"
     ],
     "textureProfile": [
-      "bready",
-      "chewy or crisp"
+      "soft roll",
+      "moist filling",
+      "small crisp garnish"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-fish"
+      "contains-fish",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "street-food",
+      "quick-lunch"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free"
+    ],
     "orderVerdict": {
-      "en": "Good if you like salty fish; contains gluten and fish.",
-      "zh": "如果你接受这类口味和风险，咸鱼三明治 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Pick it if you like salty fish and pepper heat; avoid if you want a mild sandwich.",
+      "zh": "喜欢咸鲜鱼味和一点辣可以点；想要温和三明治则不一定合适。",
+      "nl": "Neem dit als je zoute vis en peperige pit lekker vindt; minder geschikt voor een mild broodje."
     },
     "spiceLevel": 2,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "high"
+    "restaurantVariationLevel": "high",
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
   }),
   starterDish({
     "id": "bara",
@@ -20166,92 +20193,103 @@ export const worldDishes = [
       "deep-fried"
     ],
     "shortDescription": {
-      "en": "Fried spiced split-pea dough snack.",
-      "zh": "苏里南炸豆饼 是常见苏里南菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Bara is een veelvoorkomend gerecht in de surinaams keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Spiced fried split-pea or lentil dough snack, often eaten with chutney or filled as a street-food sandwich.",
+      "zh": "苏里南炸豆面团小吃，带香料和绿色叶菜，常蘸 chutney 或剖开夹馅。",
+      "nl": "Gekruid gefrituurd erwten- of linzendeeg, vaak met chutney of gevuld als streetfoodbroodje."
     },
     "cookingProfile": {
-      "en": "Usually served with crisp outside, savory center, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为crisp outside，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met crisp outside; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Deep-fried until crisp outside and soft inside, with warm curry-like spice in the dough.",
+      "zh": "外层炸到酥，里面松软，面团本身有温暖咖喱香料味。",
+      "nl": "Gefrituurd tot krokant buiten en zacht binnen, met warme kerrieachtige kruiding in het deeg."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "street-food",
+        "fried-snack"
       ],
       "description": {
-        "en": "A high-frequency Surinamese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频苏里南菜菜品。",
-        "nl": "Een vaak voorkomend surinaams menu-item voor brede DishKAI restaurantdekking."
+        "en": "A recognizable Surinamese snack where frying and spice level matter more than a saucy filling.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
+        "lentils",
+        40,
+        "pulse dough"
+      ],
+      [
         "wheat-flour",
         25,
-        "coating"
+        "dough structure"
       ],
       [
-        "chicken",
-        25,
-        "protein"
-      ],
-      [
-        "potato",
-        20,
-        "body"
-      ],
-      [
-        "egg",
+        "spinach",
         10,
-        "binder"
-      ],
-      [
-        "mustard",
-        10,
-        "dip",
-        "seasoning"
+        "green flecks"
       ],
       [
         "chili",
         10,
         "heat",
         "seasoning"
+      ],
+      [
+        "cumin",
+        10,
+        "warm spice",
+        "seasoning"
+      ],
+      [
+        "coriander",
+        5,
+        "spice lift",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "coconut-curry"
+      "cumin-coriander dough",
+      "chili heat",
+      "fried pulse aroma"
     ],
     "basicTaste": [
-      "salty",
-      "savory"
+      "savory",
+      "spiced",
+      "fried",
+      "mildly earthy"
     ],
     "textureProfile": [
       "crisp outside",
-      "savory center"
+      "soft dense center",
+      "oily edges"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg"
+      "can-be-spicy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage"
+      "street-food",
+      "fried-snack"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "wants-light-food"
+    ],
     "orderVerdict": {
-      "en": "Good snack; fried and filling.",
-      "zh": "如果你接受这类口味和风险，苏里南炸豆饼 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Great as a fried snack or carrier for fillings; heavier than it looks.",
+      "zh": "适合当炸小吃或夹馅底座；看着小，但油炸感和饱腹感都明显。",
+      "nl": "Sterk als gefrituurde snack of drager voor vulling; zwaarder dan hij lijkt."
     },
     "spiceLevel": 2,
     "weightLevel": 3,
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -20260,103 +20298,104 @@ export const worldDishes = [
     "cuisineId": "surinamese",
     "names": {
       "en": "Teloh",
-      "zh": "炸木薯配咸鱼",
+      "zh": "炸木薯配咸鳕鱼",
       "nl": "Teloh",
       "local": "teloh"
     },
     "category": "fried-snack",
     "cookingMethods": [
-      "deep-fried"
+      "deep-fried",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Fried cassava often served with salted fish.",
-      "zh": "炸木薯配咸鱼 是常见苏里南菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Teloh is een veelvoorkomend gerecht in de surinaams keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Fried cassava served with salty bakkeljauw, often with pepper sauce or pickled vegetables.",
+      "zh": "炸木薯搭配咸鳕鱼碎，常加辣椒酱或酸菜，主打淀粉和咸鲜鱼味。",
+      "nl": "Gefrituurde cassave met zoute bakkeljauw, vaak met pepersaus of zuur."
     },
     "cookingProfile": {
-      "en": "Usually served with crisp outside, savory center, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为crisp outside，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met crisp outside; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "The cassava is crisp-edged and starchy while the salt cod adds concentrated savory bite.",
+      "zh": "木薯边缘微酥、内部粉糯，咸鳕鱼提供很集中的咸鲜味。",
+      "nl": "De cassave is krokant aan de rand en zetmeelrijk; bakkeljauw geeft geconcentreerde hartigheid."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "street-food",
+        "fried-snack"
       ],
       "description": {
-        "en": "A high-frequency Surinamese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频苏里南菜菜品。",
-        "nl": "Een vaak voorkomend surinaams menu-item voor brede DishKAI restaurantdekking."
+        "en": "A common Surinamese snack plate where fish salinity is the main watch-out.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "wheat-flour",
+        "cassava",
+        55,
+        "fried base"
+      ],
+      [
+        "salt-cod",
         25,
-        "coating"
+        "fish topping"
       ],
       [
-        "chicken",
-        25,
-        "protein"
-      ],
-      [
-        "potato",
-        20,
-        "body"
-      ],
-      [
-        "egg",
+        "mixed-vegetables",
         10,
-        "binder"
+        "pickled garnish"
       ],
       [
-        "mustard",
-        10,
-        "dip",
+        "madame-jeanette-chili",
+        5,
+        "pepper heat",
         "seasoning"
       ],
       [
-        "chili",
-        10,
-        "heat",
-        "seasoning"
+        "lime",
+        5,
+        "freshness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "coconut-curry"
+      "fried cassava",
+      "salt cod",
+      "pepper sauce"
     ],
     "basicTaste": [
       "salty",
-      "savory"
+      "starchy",
+      "savory",
+      "spicy"
     ],
     "textureProfile": [
-      "crisp outside",
-      "savory center"
+      "crisp edges",
+      "dense cassava",
+      "flaky fish"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-fish"
+      "contains-fish",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "street-food",
+      "fried-snack"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "fish-allergy",
+      "low-salt"
+    ],
     "orderVerdict": {
-      "en": "Starchy snack; fish topping common.",
-      "zh": "如果你接受这类口味和风险，炸木薯配咸鱼 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Choose it for a filling salty snack; not ideal if you dislike salt cod.",
+      "zh": "想吃咸香、很有饱腹感的小吃可以点；不喜欢咸鳕鱼则避开。",
+      "nl": "Kies dit voor een vullende zoute snack; minder geschikt als je bakkeljauw niet lekker vindt."
     },
-    "spiceLevel": 1,
-    "weightLevel": 3,
+    "spiceLevel": 2,
+    "weightLevel": 4,
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -20371,93 +20410,108 @@ export const worldDishes = [
     },
     "category": "meat",
     "cookingMethods": [
-      "grilled"
+      "grilled",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Mixed roasted meats, often chicken and pork.",
-      "zh": "苏里南混合烤肉 是常见苏里南菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Moksi meti is een veelvoorkomend gerecht in de surinaams keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Surinamese mixed roasted meats, commonly chicken, pork, and sausage served with rice, noodles, or vegetables.",
+      "zh": "苏里南混合烤肉，常见鸡肉、猪肉和香肠组合，可配饭、面或蔬菜。",
+      "nl": "Surinaamse mix van geroosterd vlees, vaak kip, varkensvlees en worst met rijst, bami of groente."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Expect sliced roasted meats with sweet-salty glaze and fatty edges rather than one single cut.",
+      "zh": "通常是多种切片烤肉，带甜咸酱香和脂香，不是一整块单一肉排。",
+      "nl": "Verwacht plakjes geroosterd vlees met zoet-zoute glans en vette randjes, geen enkel stuk vlees."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "meat"
       ],
       "description": {
-        "en": "A high-frequency Surinamese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频苏里南菜菜品。",
-        "nl": "Een vaak voorkomend surinaams menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Dutch-Surinamese meat-counter classic where pork presence must be visible to users.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "lamb",
-        45,
-        "main"
+        "chicken",
+        30,
+        "roast meat"
+      ],
+      [
+        "pork",
+        30,
+        "roast meat"
+      ],
+      [
+        "sausage-global",
+        15,
+        "sausage slices"
       ],
       [
         "steamed-rice",
-        25,
-        "base"
+        15,
+        "common base"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "side"
-      ],
-      [
-        "cumin",
+        "ketjap-manis",
         5,
-        "aroma",
+        "sweet soy glaze",
         "seasoning"
       ],
       [
-        "black-pepper",
+        "sambal",
         5,
-        "seasoning",
+        "optional heat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "coconut-curry"
+      "sweet soy glaze",
+      "roasted mixed meats",
+      "sambal heat"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "sweet-salty",
+      "meaty",
+      "smoky"
     ],
     "textureProfile": [
-      "tender meat",
-      "charred or saucy edges"
+      "mixed meat textures",
+      "glazed edges",
+      "fatty bites"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-soy",
+      "contains-gluten",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "meat-lover",
+      "comfort-food"
     ],
     "avoidIfTags": [
+      "no-pork",
+      "soy-free",
       "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Meat-heavy plate; check pork.",
-      "zh": "如果你接受这类口味和风险，苏里南混合烤肉 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Best for meat lovers; ask before ordering if you avoid pork.",
+      "zh": "适合喜欢多种烤肉的人；不吃猪肉一定要先确认。",
+      "nl": "Vooral goed voor vleesliefhebbers; vraag na als je geen varkensvlees eet."
     },
     "spiceLevel": 1,
-    "weightLevel": 4,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 5,
+    "restaurantVariationLevel": "high",
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
   }),
   starterDish({
     "id": "nasi-surinamese",
@@ -20474,86 +20528,103 @@ export const worldDishes = [
       "stir-fried"
     ],
     "shortDescription": {
-      "en": "Surinamese-Javanese fried rice with soy, meat, and sambal.",
-      "zh": "苏里南炒饭 是常见苏里南菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Surinaamse nasi is een veelvoorkomend gerecht in de surinaams keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Dutch-Surinamese fried rice seasoned with soy, masala-like spices, sambal, vegetables, egg, and often chicken.",
+      "zh": "荷兰苏里南风格炒饭，常用酱油、香料、sambal、蔬菜、鸡蛋和鸡肉调味。",
+      "nl": "Dutch-Surinaamse gebakken rijst met soja, kruiding, sambal, groente, ei en vaak kip."
     },
     "cookingProfile": {
-      "en": "Usually served with soft rice, mixed toppings, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为soft rice，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met soft rice; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Stir-fried with soy-style seasoning and sambal, so it is glossy, savory, and lightly oily.",
+      "zh": "用酱油式调味和 sambal 快炒，整体油润咸香。",
+      "nl": "Gebakken met soja-achtige kruiding en sambal; glanzend, hartig en licht olieachtig."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "comfort-food",
+        "rice"
       ],
       "description": {
-        "en": "A high-frequency Surinamese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频苏里南菜菜品。",
-        "nl": "Een vaak voorkomend surinaams menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Dutch-Surinamese takeaway staple where soy, egg, and heat are the main checks.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
         "steamed-rice",
-        50,
-        "base"
+        55,
+        "stir-fried base"
       ],
       [
         "chicken",
-        20,
-        "protein"
+        15,
+        "common protein"
+      ],
+      [
+        "egg",
+        10,
+        "scrambled egg"
       ],
       [
         "mixed-vegetables",
-        20,
-        "body"
+        10,
+        "vegetables"
       ],
       [
-        "green-onion",
+        "ketjap-manis",
         5,
-        "finish"
+        "sweet soy seasoning",
+        "seasoning"
       ],
       [
-        "sea-salt",
+        "sambal",
         5,
-        "seasoning",
+        "chili heat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "coconut-curry"
+      "ketjap manis",
+      "sambal",
+      "Dutch-Surinamese wok seasoning"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "sweet-salty",
+      "mildly spicy"
     ],
     "textureProfile": [
-      "soft rice",
-      "mixed toppings"
+      "separate fried rice",
+      "small vegetable bits",
+      "light oily gloss"
     ],
     "riskFlags": [
-      "contains-soy"
+      "contains-soy",
+      "contains-gluten",
+      "contains-egg",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "comfort-food",
+      "quick-meal"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "soy-free",
+      "egg-free",
+      "spice-sensitive"
+    ],
     "orderVerdict": {
-      "en": "Familiar rice plate with Surinamese spice.",
-      "zh": "如果你接受这类口味和风险，苏里南炒饭 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A filling, familiar choice; choose nasi for rice texture or bami for springy noodles.",
+      "zh": "这是饱腹且熟悉的选择；想吃米粒选 nasi，想吃弹性面条选 bami。",
+      "nl": "Een vullende vertrouwde keuze; kies nasi voor rijsttextuur of bami voor veerkrachtige noedels."
     },
     "spiceLevel": 2,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 4,
+    "restaurantVariationLevel": "high",
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
   }),
   starterDish({
     "id": "bami-surinamese",
@@ -20567,90 +20638,106 @@ export const worldDishes = [
     },
     "category": "noodle",
     "cookingMethods": [
-      "simmered"
+      "stir-fried"
     ],
     "shortDescription": {
-      "en": "Surinamese-Javanese fried noodles with soy and spices.",
-      "zh": "苏里南炒面 是常见苏里南菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Surinaamse bami is een veelvoorkomend gerecht in de surinaams keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Dutch-Surinamese fried wheat noodles with soy-style seasoning, sambal, vegetables, egg, and often chicken.",
+      "zh": "荷兰苏里南风格炒小麦面，常有酱油式调味、sambal、蔬菜、鸡蛋和鸡肉。",
+      "nl": "Dutch-Surinaamse gebakken tarwenoedels met soja-achtige kruiding, sambal, groente, ei en vaak kip."
     },
     "cookingProfile": {
-      "en": "Usually served with slurpable noodles, warm broth or sauce, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为slurpable noodles，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met slurpable noodles; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Stir-fried with soy-style seasoning and sambal, so it is glossy, savory, and lightly oily.",
+      "zh": "用酱油式调味和 sambal 快炒，整体油润咸香。",
+      "nl": "Gebakken met soja-achtige kruiding en sambal; glanzend, hartig en licht olieachtig."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "comfort-food",
+        "noodle"
       ],
       "description": {
-        "en": "A high-frequency Surinamese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频苏里南菜菜品。",
-        "nl": "Een vaak voorkomend surinaams menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Dutch-Surinamese takeaway staple where soy, egg, and heat are the main checks.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "rice-noodles",
-        50,
-        "base"
+        "wheat-noodles",
+        55,
+        "stir-fried base"
       ],
       [
-        "beef",
-        20,
-        "protein"
+        "chicken",
+        15,
+        "common protein"
+      ],
+      [
+        "egg",
+        10,
+        "scrambled egg"
       ],
       [
         "mixed-vegetables",
-        15,
-        "body"
-      ],
-      [
-        "lime",
         10,
-        "finish"
+        "vegetables"
       ],
       [
-        "chili",
+        "ketjap-manis",
         5,
-        "heat",
+        "sweet soy seasoning",
+        "seasoning"
+      ],
+      [
+        "sambal",
+        5,
+        "chili heat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "coconut-curry"
+      "ketjap manis",
+      "sambal",
+      "Dutch-Surinamese wok seasoning"
     ],
     "basicTaste": [
       "savory",
-      "umami"
+      "sweet-salty",
+      "mildly spicy"
     ],
     "textureProfile": [
-      "slurpable noodles",
-      "warm broth or sauce"
+      "springy fried noodles",
+      "glossy seasoning",
+      "small vegetable bits"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-soy"
+      "contains-soy",
+      "contains-egg",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "comfort-food",
+      "quick-meal"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "soy-free",
+      "egg-free",
+      "spice-sensitive"
+    ],
     "orderVerdict": {
-      "en": "Common takeout dish; gluten and soy.",
-      "zh": "如果你接受这类口味和风险，苏里南炒面 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A filling, familiar choice; choose nasi for rice texture or bami for springy noodles.",
+      "zh": "这是饱腹且熟悉的选择；想吃米粒选 nasi，想吃弹性面条选 bami。",
+      "nl": "Een vullende vertrouwde keuze; kies nasi voor rijsttextuur of bami voor veerkrachtige noedels."
     },
     "spiceLevel": 2,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 4,
+    "restaurantVariationLevel": "high",
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
   }),
   starterDish({
     "id": "peanut-soup-surinamese",
@@ -20659,7 +20746,7 @@ export const worldDishes = [
     "names": {
       "en": "Surinamese Peanut Soup",
       "zh": "苏里南花生汤",
-      "nl": "Pindasoep",
+      "nl": "Surinaamse pindasoep",
       "local": "pindasoep"
     },
     "category": "soup",
@@ -20667,92 +20754,99 @@ export const worldDishes = [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Rich peanut soup, often with chicken or vegetables.",
-      "zh": "苏里南花生汤 是常见苏里南菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Pindasoep is een veelvoorkomend gerecht in de surinaams keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Thick Surinamese peanut soup, often with chicken, rice or plantain, and sometimes salted meat.",
+      "zh": "浓稠苏里南花生汤，常配鸡肉、米饭或大蕉，有些版本会加入咸肉。",
+      "nl": "Dikke Surinaamse pindasoep, vaak met kip, rijst of bakbanaan en soms zout vlees."
     },
     "cookingProfile": {
-      "en": "Usually served with hot broth, soft pieces, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为hot broth，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met hot broth; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Simmered into a creamy, nutty soup that feels closer to a meal than a light starter.",
+      "zh": "慢煮成浓厚花生汤，坚果香明显，更像一餐而不是清淡前菜。",
+      "nl": "Langzaam gekookt tot een romige, nootachtige soep die meer maaltijd dan licht voorgerecht is."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "soup",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency Surinamese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频苏里南菜菜品。",
-        "nl": "Een vaak voorkomend surinaams menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Surinamese comfort soup where peanut allergy is the decisive ordering risk.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "broth",
-        45,
-        "soup-base"
+        "peanuts",
+        35,
+        "peanut base"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
+        "broth",
+        25,
+        "soup liquid"
       ],
       [
         "chicken",
-        20,
+        15,
         "protein"
       ],
       [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
+        "steamed-rice",
+        10,
+        "starch"
       ],
       [
-        "cumin",
-        5,
-        "aroma",
-        "seasoning"
+        "plantain",
+        10,
+        "sweet starchy side"
       ],
       [
-        "lime",
+        "chili",
         5,
-        "finish"
+        "optional heat",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "coconut-curry"
+      "ground peanuts",
+      "chicken broth",
+      "optional chili"
     ],
     "basicTaste": [
-      "brothy",
-      "savory"
+      "nutty",
+      "creamy",
+      "savory",
+      "slightly sweet"
     ],
     "textureProfile": [
-      "hot broth",
-      "soft pieces"
+      "thick soup",
+      "soft starch",
+      "tender chicken"
     ],
     "riskFlags": [
-      "contains-peanut"
+      "contains-peanut",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "comfort-food",
+      "soup"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "wants-light-food"
+    ],
     "orderVerdict": {
-      "en": "Comforting but peanut-heavy.",
-      "zh": "如果你接受这类口味和风险，苏里南花生汤 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Very good if you want a rich soup, but it is a clear no for peanut allergy.",
+      "zh": "想喝浓厚、有饱腹感的汤很适合；花生过敏者不要点。",
+      "nl": "Heel goed als je rijke soep wilt; absoluut vermijden bij pinda-allergie."
     },
     "spiceLevel": 1,
-    "weightLevel": 3,
+    "weightLevel": 4,
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -20761,7 +20855,7 @@ export const worldDishes = [
     "cuisineId": "surinamese",
     "names": {
       "en": "Bojo",
-      "zh": "苏里南椰子木薯糕",
+      "zh": "苏里南椰香木薯糕",
       "nl": "Bojo",
       "local": "bojo"
     },
@@ -20770,52 +20864,53 @@ export const worldDishes = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Cassava coconut cake, dense and sweet.",
-      "zh": "苏里南椰子木薯糕 是常见苏里南菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Bojo is een veelvoorkomend gerecht in de surinaams keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Dense Surinamese cassava-coconut cake, usually sweet, moist, and gently spiced.",
+      "zh": "苏里南木薯椰子糕，质地湿润紧实，甜味和椰香明显。",
+      "nl": "Dichte Surinaamse cassave-kokoscake, meestal zoet, vochtig en licht gekruid."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet, soft or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为sweet，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met sweet; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Baked into a chewy, moist slab rather than a fluffy sponge cake.",
+      "zh": "烤成湿润有嚼感的糕块，不是蓬松海绵蛋糕。",
+      "nl": "Gebakken tot een vochtige, kauwbare plak, niet tot luchtige cake."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "dessert",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency Surinamese menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频苏里南菜菜品。",
-        "nl": "Een vaak voorkomend surinaams menu-item voor brede DishKAI restaurantdekking."
+        "en": "A common Surinamese dessert whose cassava texture should be explained clearly.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "sugar",
-        30,
-        "sweetener"
+        "cassava",
+        45,
+        "grated starch base"
       ],
       [
-        "cream",
-        25,
-        "base"
-      ],
-      [
-        "wheat-flour",
+        "toasted-coconut",
         20,
-        "base"
+        "coconut body"
       ],
       [
-        "egg",
-        10,
-        "binder"
+        "sugar",
+        15,
+        "sweetness"
       ],
       [
-        "vanilla",
+        "coconut-milk",
         10,
-        "aroma",
+        "moisture",
+        "seasoning"
+      ],
+      [
+        "cinnamon",
+        5,
+        "warm spice",
         "seasoning"
       ],
       [
@@ -20825,38 +20920,43 @@ export const worldDishes = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "coconut-curry"
+      "cassava chew",
+      "coconut milk",
+      "cinnamon"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "coconutty",
+      "mildly spiced"
     ],
     "textureProfile": [
-      "sweet",
-      "soft or crisp"
+      "dense",
+      "moist",
+      "chewy"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+    "dietaryFlags": [
+      "vegetarian"
     ],
-    "avoidIfTags": [],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "wants-light-dessert",
+      "dairy-free"
+    ],
     "orderVerdict": {
-      "en": "Good if you like chewy coconut desserts.",
-      "zh": "如果你接受这类口味和风险，苏里南椰子木薯糕 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Order if you like dense coconut-cassava desserts; skip if you expect airy cake.",
+      "zh": "喜欢湿润紧实的木薯椰子甜点可以点；期待松软蛋糕就不一定合适。",
+      "nl": "Neem dit als je dichte kokos-cassavedesserts lekker vindt; niet ideaal als je luchtige cake verwacht."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -20865,98 +20965,114 @@ export const worldDishes = [
     "cuisineId": "ethiopian",
     "names": {
       "en": "Doro Wat",
-      "zh": "埃塞辣鸡炖菜",
+      "zh": "埃塞俄比亚辣鸡炖菜",
       "nl": "Doro wat",
       "local": "doro wat"
     },
     "category": "meat",
     "cookingMethods": [
-      "grilled"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Spicy chicken stew with berbere-style heat and boiled egg.",
-      "zh": "埃塞辣鸡炖菜 是常见埃塞俄比亚菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Doro wat is een veelvoorkomend gerecht in de ethiopisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Ethiopian chicken stew with berbere, onions, spiced butter, and boiled egg, usually eaten with injera.",
+      "zh": "埃塞俄比亚辣鸡炖菜，用 berbere、洋葱和香料黄油炖鸡，常配水煮蛋和英吉拉。",
+      "nl": "Ethiopische kipstoof met berbere, ui, gekruide boter en gekookt ei, meestal met injera."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Served as a thick stew for scooping with injera; the sauce is central, not a side condiment.",
+      "zh": "作为浓稠炖菜配英吉拉上桌，酱汁本身就是主体，不只是蘸酱。",
+      "nl": "Als dikke stoof voor injera geserveerd; de saus is hoofdzaak, geen losse dip."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "stew"
       ],
       "description": {
-        "en": "A high-frequency Ethiopian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频埃塞俄比亚菜菜品。",
-        "nl": "Een vaak voorkomend ethiopisch menu-item voor brede DishKAI restaurantdekking."
+        "en": "A verified Ethiopian stew entry focused on sauce texture, injera, and spice risk.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "lamb",
-        45,
-        "main"
+        "chicken",
+        35,
+        "main stew body"
       ],
       [
-        "steamed-rice",
-        25,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
+        "injera",
         20,
-        "side"
+        "serving bread"
       ],
       [
-        "cumin",
+        "egg",
+        15,
+        "boiled egg"
+      ],
+      [
+        "onion",
+        10,
+        "aromatic"
+      ],
+      [
+        "berbere",
+        10,
+        "spice base",
+        "seasoning"
+      ],
+      [
+        "garlic",
         5,
         "aroma",
         "seasoning"
       ],
       [
-        "black-pepper",
+        "niter-kibbeh",
         5,
-        "seasoning",
+        "spiced butter",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "turmeric"
+      "berbere",
+      "injera sourness",
+      "slow stew body"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "spiced",
+      "earthy"
     ],
     "textureProfile": [
-      "tender meat",
-      "charred or saucy edges"
+      "thick chile sauce",
+      "tender chicken",
+      "spongy injera"
     ],
     "riskFlags": [
-      "contains-egg"
+      "contains-egg",
+      "contains-dairy",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "classic-dish",
+      "stew"
     ],
     "avoidIfTags": [
-      "spice-sensitive",
-      "wants-light-food"
+      "spice-sensitive"
     ],
     "orderVerdict": {
-      "en": "Signature dish; spicy and rich.",
-      "zh": "如果你接受这类口味和风险，埃塞辣鸡炖菜 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A signature choice if you want deep berbere heat and rich stew; avoid if spicy food or egg is an issue.",
+      "zh": "想体验代表性的 berbere 辣炖鸡很适合；怕辣或不能吃蛋要谨慎。",
+      "nl": "Een signatuurgerecht voor diepe berbere-pit en rijke stoof; minder geschikt bij pittig eten of ei."
     },
-    "spiceLevel": 4,
+    "spiceLevel": 3,
     "weightLevel": 4,
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -20965,94 +21081,111 @@ export const worldDishes = [
     "cuisineId": "ethiopian",
     "names": {
       "en": "Tibs",
-      "zh": "埃塞炒肉",
+      "zh": "埃塞炒烤肉",
       "nl": "Tibs",
       "local": "tibs"
     },
     "category": "meat",
     "cookingMethods": [
+      "stir-fried",
       "grilled"
     ],
     "shortDescription": {
-      "en": "Sauteed or grilled meat pieces with onions, peppers, and spice.",
-      "zh": "埃塞炒肉 是常见埃塞俄比亚菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Tibs is een veelvoorkomend gerecht in de ethiopisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Ethiopian sautéed or grilled meat, often beef or lamb, cooked with onions, peppers, rosemary, and chili spice.",
+      "zh": "埃塞俄比亚炒烤肉，常用牛肉或羊肉配洋葱、甜椒、香草和辣椒香料。",
+      "nl": "Ethiopisch gebakken of gegrild vlees, vaak rund of lam, met ui, paprika, kruiden en chili."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Usually served as browned meat pieces with aromatic vegetables; drier and meatier than wat stews.",
+      "zh": "通常是带焦香的肉块和香蔬，比 wat 炖菜更干、更突出肉感。",
+      "nl": "Meestal gebruinde stukjes vlees met aromatische groenten; droger en vleziger dan wat-stoof."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "meat"
       ],
       "description": {
-        "en": "A high-frequency Ethiopian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频埃塞俄比亚菜菜品。",
-        "nl": "Een vaak voorkomend ethiopisch menu-item voor brede DishKAI restaurantdekking."
+        "en": "A flexible Ethiopian meat order where diners should expect browned pieces rather than a soup.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "lamb",
+        "beef",
         45,
-        "main"
+        "meat pieces"
       ],
       [
-        "steamed-rice",
-        25,
-        "base"
+        "bell-pepper",
+        15,
+        "vegetable"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "side"
+        "onion",
+        15,
+        "aromatic vegetable"
       ],
       [
-        "cumin",
+        "injera",
+        15,
+        "serving bread"
+      ],
+      [
+        "berbere",
         5,
-        "aroma",
+        "spice",
         "seasoning"
       ],
       [
-        "black-pepper",
+        "niter-kibbeh",
         5,
-        "seasoning",
+        "spiced fat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "turmeric"
+      "berbere",
+      "browned meat",
+      "spiced butter"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "spicy",
+      "meaty",
+      "aromatic"
     ],
     "textureProfile": [
-      "tender meat",
-      "charred or saucy edges"
+      "browned meat pieces",
+      "soft onions",
+      "spongy injera"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-dairy",
+      "can-be-spicy"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "meat-lover",
+      "classic-dish"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "wants-soup",
+      "spice-sensitive"
+    ],
     "orderVerdict": {
-      "en": "Good meat order; spice level varies.",
-      "zh": "如果你接受这类口味和风险，埃塞炒肉 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good for meat lovers who want Ethiopian spice without a very saucy stew.",
+      "zh": "适合想吃埃塞香料肉、但不想要很多酱汁炖菜的人。",
+      "nl": "Goed voor vleesliefhebbers die Ethiopische kruiding willen zonder heel sauzige stoof."
     },
     "spiceLevel": 2,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 4,
+    "restaurantVariationLevel": "high",
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
   }),
   starterDish({
     "id": "injera-platter",
@@ -21061,95 +21194,110 @@ export const worldDishes = [
     "names": {
       "en": "Injera Platter",
       "zh": "英吉拉拼盘",
-      "nl": "Injera schotel",
+      "nl": "Injera-schotel",
       "local": "injera platter"
     },
-    "category": "bread",
+    "category": "starter",
     "cookingMethods": [
-      "baked"
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Spongy sour flatbread served with multiple stews.",
-      "zh": "英吉拉拼盘 是常见埃塞俄比亚菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Injera schotel is een veelvoorkomend gerecht in de ethiopisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Large sour injera flatbread topped with several Ethiopian stews, usually lentils, chickpeas, greens, and sometimes meat.",
+      "zh": "大张酸味英吉拉上放多种埃塞炖菜，常见扁豆、鹰嘴豆、绿叶菜，也可能有肉。",
+      "nl": "Grote zure injera met meerdere Ethiopische stoofgerechten, vaak linzen, kikkererwten, bladgroen en soms vlees."
     },
     "cookingProfile": {
-      "en": "Usually served with bready, chewy or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为bready，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met bready; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Served as a shared surface: the injera soaks sauces while diners tear pieces by hand.",
+      "zh": "通常共食，英吉拉会吸收酱汁，用手撕取搭配炖菜吃。",
+      "nl": "Geserveerd als deelgerecht: injera neemt sauzen op en wordt met de hand afgescheurd."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "shareable"
       ],
       "description": {
-        "en": "A high-frequency Ethiopian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频埃塞俄比亚菜菜品。",
-        "nl": "Een vaak voorkomend ethiopisch menu-item voor brede DishKAI restaurantdekking."
+        "en": "A representative Ethiopian format that explains how the meal is eaten.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "pita",
-        55,
-        "base"
+        "injera",
+        45,
+        "sour flatbread base"
       ],
       [
-        "mixed-vegetables",
+        "lentils",
         20,
-        "freshness"
+        "lentil stew"
       ],
       [
-        "tomato",
+        "chickpeas",
+        15,
+        "shiro or chickpea stew"
+      ],
+      [
+        "collard-greens",
         10,
-        "body"
+        "greens"
       ],
       [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "mint",
+        "beef",
         5,
-        "finish",
+        "optional meat stew",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "berbere",
+        5,
+        "spice across stews",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "turmeric"
+      "sour teff injera",
+      "berbere stews",
+      "shared platter format"
     ],
     "basicTaste": [
+      "sour",
       "savory",
-      "bready"
+      "spiced",
+      "earthy"
     ],
     "textureProfile": [
-      "bready",
-      "chewy or crisp"
+      "spongy injera",
+      "soft stews",
+      "sauce-soaked bites"
     ],
     "riskFlags": [
-      "contains-gluten"
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "shareable",
+      "classic-dish"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "wants-separate-plates",
+      "spice-sensitive"
+    ],
     "orderVerdict": {
-      "en": "Great for sharing and tasting many items.",
-      "zh": "如果你接受这类口味和风险，英吉拉拼盘 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Excellent for sharing and tasting several dishes; ask whether the platter is vegetarian or mixed meat.",
+      "zh": "很适合分享并一次尝多种炖菜；点前确认是素拼还是含肉拼盘。",
+      "nl": "Uitstekend om te delen en meerdere stoofjes te proeven; vraag of het vegetarisch of met vlees is."
     },
     "spiceLevel": 2,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "high"
+    "weightLevel": 4,
+    "restaurantVariationLevel": "high",
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
   }),
   starterDish({
     "id": "shiro",
@@ -21157,94 +21305,109 @@ export const worldDishes = [
     "cuisineId": "ethiopian",
     "names": {
       "en": "Shiro",
-      "zh": "鹰嘴豆粉炖酱",
+      "zh": "埃塞鹰嘴豆粉炖酱",
       "nl": "Shiro",
       "local": "shiro"
     },
-    "category": "vegetable-main",
+    "category": "main",
     "cookingMethods": [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Smooth chickpea or lentil stew with warm spice.",
-      "zh": "鹰嘴豆粉炖酱 是常见埃塞俄比亚菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Shiro is een veelvoorkomend gerecht in de ethiopisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Smooth Ethiopian chickpea or broad-bean flour stew seasoned with berbere and aromatics.",
+      "zh": "埃塞鹰嘴豆粉或豆粉炖酱，质地细滑，常用 berbere 和香料调味。",
+      "nl": "Gladde Ethiopische stoof van kikkererwten- of bonenmeel met berbere en aromaten."
     },
     "cookingProfile": {
-      "en": "Usually served with soft vegetables, saucy base, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为soft vegetables，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met soft vegetables; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Served as a thick stew for scooping with injera; the sauce is central, not a side condiment.",
+      "zh": "作为浓稠炖菜配英吉拉上桌，酱汁本身就是主体，不只是蘸酱。",
+      "nl": "Als dikke stoof voor injera geserveerd; de saus is hoofdzaak, geen losse dip."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "stew"
       ],
       "description": {
-        "en": "A high-frequency Ethiopian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频埃塞俄比亚菜菜品。",
-        "nl": "Een vaak voorkomend ethiopisch menu-item voor brede DishKAI restaurantdekking."
+        "en": "A verified Ethiopian stew entry focused on sauce texture, injera, and spice risk.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "lentils",
-        40,
-        "base"
+        "chickpeas",
+        50,
+        "main stew body"
       ],
       [
-        "mixed-vegetables",
-        30,
-        "body"
+        "injera",
+        20,
+        "serving bread"
       ],
       [
-        "tomato-sauce",
-        15,
-        "sauce",
+        "onion",
+        10,
+        "aromatic"
+      ],
+      [
+        "berbere",
+        10,
+        "spice base",
         "seasoning"
       ],
       [
-        "cumin",
-        10,
+        "garlic",
+        5,
         "aroma",
         "seasoning"
       ],
       [
-        "parsley",
+        "olive-oil",
         5,
-        "finish",
+        "cooking oil",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "turmeric"
+      "berbere",
+      "injera sourness",
+      "slow stew body"
     ],
     "basicTaste": [
       "savory",
+      "spiced",
       "earthy"
     ],
     "textureProfile": [
-      "soft vegetables",
-      "saucy base"
+      "smooth sauce",
+      "spongy injera",
+      "soft spoonable body"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegan"
+    ],
     "goodForTags": [
-      "restaurant-coverage"
+      "classic-dish",
+      "stew"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "spice-sensitive"
+    ],
     "orderVerdict": {
-      "en": "Good plant-based comfort stew.",
-      "zh": "如果你接受这类口味和风险，鹰嘴豆粉炖酱 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A good vegetarian-friendly choice if you want a smooth, saucy stew with injera.",
+      "zh": "想吃顺滑酱感、偏素食友好的埃塞炖菜时可以点。",
+      "nl": "Een goede vegetarische keuze als je een gladde, sauzige stoof met injera wilt."
     },
     "spiceLevel": 2,
-    "weightLevel": 2,
+    "weightLevel": 4,
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -21253,96 +21416,109 @@ export const worldDishes = [
     "cuisineId": "ethiopian",
     "names": {
       "en": "Misir Wat",
-      "zh": "辣红扁豆炖菜",
+      "zh": "埃塞辣红扁豆炖菜",
       "nl": "Misir wat",
       "local": "misir wat"
     },
-    "category": "vegetable-main",
+    "category": "main",
     "cookingMethods": [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Spicy red lentil stew.",
-      "zh": "辣红扁豆炖菜 是常见埃塞俄比亚菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Misir wat is een veelvoorkomend gerecht in de ethiopisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Ethiopian red lentil stew with berbere, onion, garlic, and warm chili depth.",
+      "zh": "埃塞红扁豆炖菜，以 berbere、洋葱和蒜带出温暖辣味。",
+      "nl": "Ethiopische rode-linzenstoof met berbere, ui, knoflook en warme chilidiepte."
     },
     "cookingProfile": {
-      "en": "Usually served with soft vegetables, saucy base, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为soft vegetables，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met soft vegetables; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Served as a thick stew for scooping with injera; the sauce is central, not a side condiment.",
+      "zh": "作为浓稠炖菜配英吉拉上桌，酱汁本身就是主体，不只是蘸酱。",
+      "nl": "Als dikke stoof voor injera geserveerd; de saus is hoofdzaak, geen losse dip."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "stew"
       ],
       "description": {
-        "en": "A high-frequency Ethiopian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频埃塞俄比亚菜菜品。",
-        "nl": "Een vaak voorkomend ethiopisch menu-item voor brede DishKAI restaurantdekking."
+        "en": "A verified Ethiopian stew entry focused on sauce texture, injera, and spice risk.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
         "lentils",
-        40,
-        "base"
+        50,
+        "main stew body"
       ],
       [
-        "mixed-vegetables",
-        30,
-        "body"
+        "injera",
+        20,
+        "serving bread"
       ],
       [
-        "tomato-sauce",
-        15,
-        "sauce",
+        "onion",
+        10,
+        "aromatic"
+      ],
+      [
+        "berbere",
+        10,
+        "spice base",
         "seasoning"
       ],
       [
-        "cumin",
-        10,
+        "garlic",
+        5,
         "aroma",
         "seasoning"
       ],
       [
-        "parsley",
+        "olive-oil",
         5,
-        "finish",
+        "cooking oil",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "turmeric"
+      "berbere",
+      "injera sourness",
+      "slow stew body"
     ],
     "basicTaste": [
       "savory",
+      "spiced",
       "earthy"
     ],
     "textureProfile": [
-      "soft vegetables",
-      "saucy base"
+      "soft lentils",
+      "thick sauce",
+      "spongy injera"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegan"
+    ],
     "goodForTags": [
-      "restaurant-coverage"
+      "classic-dish",
+      "stew"
     ],
     "avoidIfTags": [
       "spice-sensitive"
     ],
     "orderVerdict": {
-      "en": "Good if you want plant-based heat.",
-      "zh": "如果你接受这类口味和风险，辣红扁豆炖菜 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Strong vegetarian pick for lentil depth and berbere heat; not the mildest stew.",
+      "zh": "喜欢扁豆厚度和 berbere 辣味时很适合；它不是最温和的炖菜。",
+      "nl": "Sterke vegetarische keuze voor linzendiepte en berbere-pit; niet de mildste stoof."
     },
-    "spiceLevel": 4,
-    "weightLevel": 2,
+    "spiceLevel": 3,
+    "weightLevel": 4,
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -21355,91 +21531,100 @@ export const worldDishes = [
       "nl": "Gomen",
       "local": "gomen"
     },
-    "category": "vegetable-main",
+    "category": "side",
     "cookingMethods": [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Stewed greens with garlic, onion, and mild spice.",
-      "zh": "埃塞炖绿叶菜 是常见埃塞俄比亚菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Gomen is een veelvoorkomend gerecht in de ethiopisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Ethiopian collard greens or leafy greens gently cooked with onion, garlic, and sometimes spiced butter.",
+      "zh": "埃塞炖绿叶菜，常用羽衣甘蓝类叶菜配洋葱、蒜，有些版本加香料黄油。",
+      "nl": "Ethiopische bladgroente, zacht gestoofd met ui, knoflook en soms gekruide boter."
     },
     "cookingProfile": {
-      "en": "Usually served with soft vegetables, saucy base, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为soft vegetables，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met soft vegetables; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Soft greens with aromatic seasoning; usually milder and lighter than berbere-heavy stews.",
+      "zh": "绿叶菜炖到柔软，香味来自洋葱蒜和油脂，通常比重辣炖菜温和。",
+      "nl": "Zachte bladgroente met aromatische kruiding; meestal milder en lichter dan berbere-zware stoof."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "side",
+        "vegetable"
       ],
       "description": {
-        "en": "A high-frequency Ethiopian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频埃塞俄比亚菜菜品。",
-        "nl": "Een vaak voorkomend ethiopisch menu-item voor brede DishKAI restaurantdekking."
+        "en": "A useful Ethiopian side for diners looking for greens on a shared platter.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "lentils",
-        40,
-        "base"
+        "collard-greens",
+        65,
+        "greens"
       ],
       [
-        "mixed-vegetables",
-        30,
-        "body"
-      ],
-      [
-        "tomato-sauce",
+        "onion",
         15,
-        "sauce",
-        "seasoning"
+        "aromatic"
       ],
       [
-        "cumin",
+        "garlic",
         10,
         "aroma",
         "seasoning"
       ],
       [
-        "parsley",
+        "niter-kibbeh",
         5,
-        "finish",
+        "spiced butter",
         "seasoning"
+      ],
+      [
+        "injera",
+        5,
+        "serving bread"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "turmeric"
+      "soft greens",
+      "garlic",
+      "spiced butter or oil"
     ],
     "basicTaste": [
       "savory",
-      "earthy"
+      "green",
+      "mild",
+      "aromatic"
     ],
     "textureProfile": [
-      "soft vegetables",
-      "saucy base"
+      "soft greens",
+      "lightly oily",
+      "leafy"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "vegetable",
+      "side"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
     "orderVerdict": {
-      "en": "Good vegetable side; usually mild.",
-      "zh": "如果你接受这类口味和风险，埃塞炖绿叶菜 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good as a lighter side; ask about butter if you need it vegan.",
+      "zh": "适合作为较清爽的配菜；如果需要纯素，要确认是否用了香料黄油。",
+      "nl": "Goed als lichtere bijgerecht; vraag naar boter als het vegan moet zijn."
     },
-    "spiceLevel": 1,
-    "weightLevel": 1,
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -21448,95 +21633,109 @@ export const worldDishes = [
     "cuisineId": "ethiopian",
     "names": {
       "en": "Kitfo",
-      "zh": "埃塞生牛肉碎",
+      "zh": "埃塞生拌牛肉碎",
       "nl": "Kitfo",
       "local": "kitfo"
     },
     "category": "meat",
     "cookingMethods": [
-      "grilled"
+      "raw",
+      "assembled"
     ],
+    "rawnessLevel": "raw-or-rare",
     "shortDescription": {
-      "en": "Raw or lightly warmed minced beef with spiced butter.",
-      "zh": "埃塞生牛肉碎 是常见埃塞俄比亚菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Kitfo is een veelvoorkomend gerecht in de ethiopisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Ethiopian minced raw or lightly warmed beef mixed with mitmita chili and spiced clarified butter, often with ayib cheese.",
+      "zh": "埃塞生或半生牛肉碎，拌 mitmita 辣椒粉和香料澄清黄油，常配 ayib 鲜奶酪。",
+      "nl": "Ethiopisch rauw of licht verwarmd gehakt rundvlees met mitmita en gekruide geklaarde boter, vaak met ayib."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Usually served raw or rare; texture is soft and rich rather than browned.",
+      "zh": "通常生食或半生，口感柔软浓郁，不是煎烤焦香路线。",
+      "nl": "Meestal rauw of rood geserveerd; de textuur is zacht en rijk, niet gebruind."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "signature",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "signature-dish",
+        "acquired-taste"
       ],
       "description": {
-        "en": "A high-frequency Ethiopian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频埃塞俄比亚菜菜品。",
-        "nl": "Een vaak voorkomend ethiopisch menu-item voor brede DishKAI restaurantdekking."
+        "en": "A high-identity Ethiopian dish that must clearly show raw-meat risk.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "lamb",
-        45,
-        "main"
+        "beef",
+        60,
+        "minced raw or rare beef"
       ],
       [
-        "steamed-rice",
-        25,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "side"
-      ],
-      [
-        "cumin",
-        5,
-        "aroma",
+        "niter-kibbeh",
+        15,
+        "spiced butter",
         "seasoning"
       ],
       [
-        "black-pepper",
+        "ayib-cheese",
+        10,
+        "fresh cheese side"
+      ],
+      [
+        "injera",
+        10,
+        "serving bread"
+      ],
+      [
+        "mitmita",
         5,
-        "seasoning",
+        "sharp chili spice",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "turmeric"
+      "raw beef",
+      "mitmita",
+      "niter kibbeh",
+      "ayib cheese"
     ],
     "basicTaste": [
-      "savory",
+      "meaty",
+      "buttery",
+      "spicy",
       "rich"
     ],
     "textureProfile": [
-      "tender meat",
-      "charred or saucy edges"
+      "soft minced beef",
+      "buttery coating",
+      "crumbly cheese"
     ],
     "riskFlags": [
-      "contains-dairy"
+      "contains-raw-meat",
+      "contains-dairy",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "signature-dish",
+      "acquired-taste"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "pregnant",
+      "raw-meat-avoidance",
+      "spice-sensitive"
+    ],
     "orderVerdict": {
-      "en": "Only if raw beef is acceptable.",
-      "zh": "如果你接受这类口味和风险，埃塞生牛肉碎 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Only order if you are comfortable with raw or rare beef and strong chili-butter richness.",
+      "zh": "只有能接受生或半生牛肉、辣椒和黄油浓郁感时才建议点。",
+      "nl": "Alleen bestellen als je rauw of rood rundvlees en stevige chili-boterrijkdom prettig vindt."
     },
-    "spiceLevel": 2,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.72,
+    "spiceLevel": 3,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 4,
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -21545,98 +21744,109 @@ export const worldDishes = [
     "cuisineId": "ethiopian",
     "names": {
       "en": "Firfir",
-      "zh": "英吉拉炒炖菜",
+      "zh": "英吉拉拌辣炖菜",
       "nl": "Firfir",
       "local": "firfir"
     },
-    "category": "bread",
+    "category": "main",
     "cookingMethods": [
-      "baked"
+      "sauce-tossed"
     ],
     "shortDescription": {
-      "en": "Torn injera mixed with spicy sauce or stew.",
-      "zh": "英吉拉炒炖菜 是常见埃塞俄比亚菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Firfir is een veelvoorkomend gerecht in de ethiopisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Torn injera mixed into spicy sauce or leftover stew, sometimes with beef, creating a soft sour-spiced dish.",
+      "zh": "撕碎英吉拉拌入辣酱或炖菜，有时加牛肉，形成酸香、柔软、吸满酱汁的主食。",
+      "nl": "Gescheurde injera gemengd met pittige saus of stoof, soms met rundvlees, zacht zuur en kruidig."
     },
     "cookingProfile": {
-      "en": "Usually served with bready, chewy or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为bready，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met bready; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "The bread is already soaked in sauce, so it arrives soft and integrated rather than separate.",
+      "zh": "英吉拉已经吸满酱汁，上桌时是柔软融合的口感，不是面饼和酱分开。",
+      "nl": "Het brood is al met saus doordrenkt, dus het komt zacht en gemengd op tafel."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "comfort-food",
+        "spicy"
       ],
       "description": {
-        "en": "A high-frequency Ethiopian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频埃塞俄比亚菜菜品。",
-        "nl": "Een vaak voorkomend ethiopisch menu-item voor brede DishKAI restaurantdekking."
+        "en": "A common Ethiopian comfort format that helps explain sauce-soaked injera.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "pita",
-        55,
-        "base"
+        "injera",
+        50,
+        "torn bread base"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "freshness"
+        "berbere",
+        15,
+        "spicy sauce",
+        "seasoning"
+      ],
+      [
+        "beef",
+        15,
+        "optional meat"
       ],
       [
         "tomato",
         10,
-        "body"
+        "sauce body"
       ],
       [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "mint",
+        "onion",
         5,
-        "finish",
+        "aromatic"
+      ],
+      [
+        "niter-kibbeh",
+        5,
+        "richness",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "turmeric"
+      "sour injera",
+      "berbere sauce",
+      "spiced butter"
     ],
     "basicTaste": [
+      "sour",
+      "spicy",
       "savory",
-      "bready"
+      "saucy"
     ],
     "textureProfile": [
-      "bready",
-      "chewy or crisp"
+      "soft soaked injera",
+      "thick sauce",
+      "occasional meat pieces"
     ],
     "riskFlags": [
-      "contains-gluten"
+      "contains-dairy",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "comfort-food"
     ],
     "avoidIfTags": [
+      "wants-crisp-texture",
       "spice-sensitive"
     ],
     "orderVerdict": {
-      "en": "Filling and saucy; spice varies.",
-      "zh": "如果你接受这类口味和风险，英吉拉炒炖菜 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Choose it if you like sauce-soaked bread textures; skip if you want distinct crisp elements.",
+      "zh": "喜欢面饼吸满酱汁的柔软口感可以点；想要清爽或酥脆就不适合。",
+      "nl": "Kies dit als je brood dat saus opneemt lekker vindt; minder geschikt voor frisse of krokante textuur."
     },
     "spiceLevel": 3,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "high"
+    "weightLevel": 4,
+    "restaurantVariationLevel": "high",
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
   }),
   starterDish({
     "id": "bayenetu",
@@ -21644,94 +21854,108 @@ export const worldDishes = [
     "cuisineId": "ethiopian",
     "names": {
       "en": "Beyaynetu",
-      "zh": "素食拼盘",
+      "zh": "埃塞素食拼盘",
       "nl": "Beyaynetu",
       "local": "beyaynetu"
     },
-    "category": "vegetable-main",
+    "category": "main",
     "cookingMethods": [
-      "simmered"
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Assorted vegetarian stews served over injera.",
-      "zh": "素食拼盘 是常见埃塞俄比亚菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Beyaynetu is een veelvoorkomend gerecht in de ethiopisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Ethiopian mixed vegetarian platter on injera, commonly with lentils, shiro, greens, cabbage, and salad-like sides.",
+      "zh": "埃塞素食拼盘，在英吉拉上放多种豆类炖菜、绿叶菜、卷心菜和清爽小配菜。",
+      "nl": "Ethiopische vegetarische gemengde schotel op injera met linzen, shiro, bladgroente, kool en frisse bijgerechten."
     },
     "cookingProfile": {
-      "en": "Usually served with soft vegetables, saucy base, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为soft vegetables，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met soft vegetables; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Served as several soft stews on one injera base, with different spice levels in each portion.",
+      "zh": "多种柔软炖菜铺在同一张英吉拉上，每一份辣度和口味略有不同。",
+      "nl": "Meerdere zachte stoofjes op een injera, met per onderdeel een ander kruidenniveau."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "vegetarian-friendly"
       ],
       "description": {
-        "en": "A high-frequency Ethiopian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频埃塞俄比亚菜菜品。",
-        "nl": "Een vaak voorkomend ethiopisch menu-item voor brede DishKAI restaurantdekking."
+        "en": "A representative Ethiopian vegetarian order and a safer entry point than raw meat dishes.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "lentils",
+        "injera",
         40,
         "base"
       ],
       [
-        "mixed-vegetables",
-        30,
-        "body"
+        "lentils",
+        20,
+        "misir or lentil stew"
       ],
       [
-        "tomato-sauce",
+        "chickpeas",
         15,
-        "sauce",
-        "seasoning"
+        "shiro or chickpea stew"
       ],
       [
-        "cumin",
+        "collard-greens",
         10,
-        "aroma",
-        "seasoning"
+        "greens"
       ],
       [
-        "parsley",
+        "cabbage",
+        10,
+        "vegetable side"
+      ],
+      [
+        "berbere",
         5,
-        "finish",
+        "spice",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "turmeric"
+      "sour injera",
+      "lentil stews",
+      "varied vegetarian sauces"
     ],
     "basicTaste": [
+      "sour",
       "savory",
-      "earthy"
+      "earthy",
+      "spiced"
     ],
     "textureProfile": [
-      "soft vegetables",
-      "saucy base"
+      "spongy injera",
+      "soft stews",
+      "varied vegetable textures"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegan"
+    ],
     "goodForTags": [
-      "restaurant-coverage"
+      "vegetarian-friendly",
+      "shareable"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "spice-sensitive"
+    ],
     "orderVerdict": {
-      "en": "Best first order for variety and sharing.",
-      "zh": "如果你接受这类口味和风险，素食拼盘 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "One of the best first Ethiopian orders if you want variety without committing to one stew.",
+      "zh": "想第一次尝埃塞菜又想多样化时很适合，不必只押一个炖菜。",
+      "nl": "Een van de beste eerste Ethiopische keuzes als je variatie wilt zonder één stoof te kiezen."
     },
     "spiceLevel": 2,
-    "weightLevel": 3,
+    "weightLevel": 4,
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -21746,89 +21970,105 @@ export const worldDishes = [
     },
     "category": "seafood",
     "cookingMethods": [
-      "assembled"
+      "fried",
+      "grilled"
     ],
     "shortDescription": {
-      "en": "Seasoned fried or sauteed fish pieces.",
-      "zh": "埃塞煎鱼块 是常见埃塞俄比亚菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Asa tibs is een veelvoorkomend gerecht in de ethiopisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Ethiopian fish tibs: fried or sautéed fish pieces with onions, peppers, chili, and lemon or lime.",
+      "zh": "埃塞鱼版 tibs，鱼块煎炸或快炒，配洋葱、甜椒、辣椒和柠檬酸香。",
+      "nl": "Ethiopische vis-tibs: gebakken visstukken met ui, paprika, chili en citroen of limoen."
     },
     "cookingProfile": {
-      "en": "Usually served with tender seafood, fresh finish, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender seafood，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender seafood; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Fish pieces are browned at the edges and served with aromatic vegetables rather than a heavy sauce.",
+      "zh": "鱼块边缘有煎香，配香蔬上桌，不是厚重酱汁炖鱼。",
+      "nl": "Visstukken zijn aan de rand gebakken en komen met aromatische groente, niet in zware saus."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "seafood",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Ethiopian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频埃塞俄比亚菜菜品。",
-        "nl": "Een vaak voorkomend ethiopisch menu-item voor brede DishKAI restaurantdekking."
+        "en": "A useful fish option within Ethiopian restaurants for diners avoiding red meat.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
         "fish-fillet",
-        50,
-        "main"
+        55,
+        "fish pieces"
       ],
       [
-        "steamed-rice",
-        20,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
+        "bell-pepper",
         15,
-        "side"
+        "vegetable"
+      ],
+      [
+        "onion",
+        10,
+        "aromatic"
+      ],
+      [
+        "injera",
+        10,
+        "serving bread"
+      ],
+      [
+        "berbere",
+        5,
+        "spice",
+        "seasoning"
       ],
       [
         "lime",
-        10,
-        "finish"
-      ],
-      [
-        "parsley",
         5,
-        "aroma",
-        "seasoning"
+        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "turmeric"
+      "fried fish edges",
+      "berbere",
+      "lime"
     ],
     "basicTaste": [
-      "fresh",
-      "briny"
+      "savory",
+      "fishy",
+      "spicy",
+      "citrusy"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "flaky fish",
+      "browned edges",
+      "soft vegetables"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "can-be-spicy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage"
+      "seafood"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "fish-allergy",
+      "spice-sensitive"
+    ],
     "orderVerdict": {
-      "en": "Good fish choice; may be fried.",
-      "zh": "如果你接受这类口味和风险，埃塞煎鱼块 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good if you want Ethiopian flavors in a fish format; expect spice and bones depending on the restaurant.",
+      "zh": "想用鱼来体验埃塞香料可以点；不同餐厅可能有鱼刺和辣度差异。",
+      "nl": "Goed als je Ethiopische smaken met vis wilt; reken op pit en soms graat afhankelijk van restaurant."
     },
     "spiceLevel": 2,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "restaurantVariationLevel": "medium",
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
   }),
   starterDish({
     "id": "sambusa",
@@ -21845,93 +22085,102 @@ export const worldDishes = [
       "deep-fried"
     ],
     "shortDescription": {
-      "en": "Fried pastry with lentil or meat filling.",
-      "zh": "埃塞炸三角饺 是常见埃塞俄比亚菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Sambusa is een veelvoorkomend gerecht in de ethiopisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Crisp triangular Ethiopian pastry filled with lentils, onions, spices, or sometimes minced meat.",
+      "zh": "埃塞炸三角酥皮，常夹扁豆、洋葱和香料，也可能有肉末版本。",
+      "nl": "Krokant Ethiopisch driehoekig deegpakketje met linzen, ui, kruiden of soms gehakt."
     },
     "cookingProfile": {
-      "en": "Usually served with crisp outside, savory center, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为crisp outside，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met crisp outside; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Fried until crisp and light, with a dry spiced filling rather than a saucy center.",
+      "zh": "炸到外壳酥脆，内馅偏干香，不是会流汁的馅料。",
+      "nl": "Gefrituurd tot krokant en licht, met droge kruidige vulling in plaats van saus."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "fried-snack",
+        "starter"
       ],
       "description": {
-        "en": "A high-frequency Ethiopian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频埃塞俄比亚菜菜品。",
-        "nl": "Een vaak voorkomend ethiopisch menu-item voor brede DishKAI restaurantdekking."
+        "en": "A familiar appetizer where gluten and frying are the main ordering cues.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
         "wheat-flour",
-        25,
-        "coating"
+        45,
+        "pastry wrapper"
       ],
       [
-        "chicken",
-        25,
-        "protein"
+        "lentils",
+        30,
+        "common filling"
       ],
       [
-        "potato",
-        20,
-        "body"
-      ],
-      [
-        "egg",
+        "onion",
         10,
-        "binder"
+        "aromatic"
       ],
       [
-        "mustard",
-        10,
-        "dip",
+        "beef",
+        5,
+        "optional meat filling",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "cumin",
+        5,
+        "spice",
         "seasoning"
       ],
       [
-        "chili",
-        10,
+        "berbere",
+        5,
         "heat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "turmeric"
+      "fried pastry",
+      "lentil filling",
+      "warm spice"
     ],
     "basicTaste": [
-      "salty",
-      "savory"
+      "savory",
+      "spiced",
+      "fried"
     ],
     "textureProfile": [
-      "crisp outside",
-      "savory center"
+      "crisp shell",
+      "soft dry filling"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg"
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "starter",
+      "fried-snack"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "wants-light-food"
+    ],
     "orderVerdict": {
-      "en": "Good starter; gluten and frying.",
-      "zh": "如果你接受这类口味和风险，埃塞炸三角饺 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Easy starter if you like fried pastry; ask about meat filling if vegetarian.",
+      "zh": "喜欢炸酥皮前菜可以点；素食者要确认是不是肉馅。",
+      "nl": "Makkelijke starter als je gefrituurd deeg lekker vindt; vraag naar vleesvulling als je vegetarisch eet."
     },
-    "spiceLevel": 2,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "restaurantVariationLevel": "medium",
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
   }),
   starterDish({
     "id": "ethiopian-coffee-snacks",
@@ -21941,101 +22190,111 @@ export const worldDishes = [
       "en": "Ethiopian Coffee Sweets",
       "zh": "埃塞咖啡小甜点",
       "nl": "Ethiopische koffiesnacks",
-      "local": "coffee snacks"
+      "local": "buna snacks"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Small sweets or snacks served with coffee.",
-      "zh": "埃塞咖啡小甜点 是常见埃塞俄比亚菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Ethiopische koffiesnacks is een veelvoorkomend gerecht in de ethiopisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Small snacks served around Ethiopian coffee, often popcorn, roasted grains, sweet breads, or simple sweets.",
+      "zh": "埃塞咖啡仪式或咖啡旁的小食，可能是爆米花、烤谷物、甜面包或简单甜点。",
+      "nl": "Kleine snacks rond Ethiopische koffie, vaak popcorn, geroosterde granen, zoet brood of eenvoudige zoetigheden."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet, soft or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为sweet，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met sweet; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Usually light finger snacks alongside strong coffee, not one fixed plated dessert.",
+      "zh": "通常是配浓咖啡的小食组合，不是固定的一道盘装甜点。",
+      "nl": "Meestal lichte hapjes naast sterke koffie, geen vast borddessert."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "coffee",
+        "dessert"
       ],
       "description": {
-        "en": "A high-frequency Ethiopian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频埃塞俄比亚菜菜品。",
-        "nl": "Een vaak voorkomend ethiopisch menu-item voor brede DishKAI restaurantdekking."
+        "en": "A coffee-service reference where the card should warn that the exact snack set varies widely.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "sugar",
-        30,
-        "sweetener"
+        "corn",
+        35,
+        "popcorn or roasted grain"
       ],
       [
-        "cream",
+        "bread",
         25,
-        "base"
+        "sweet bread or biscuit"
       ],
       [
-        "wheat-flour",
-        20,
-        "base"
+        "sugar",
+        15,
+        "sweetness"
       ],
       [
-        "egg",
+        "peanuts",
         10,
-        "binder"
+        "roasted snack",
+        "ingredient",
+        "high",
+        true
       ],
       [
-        "vanilla",
+        "coffee",
         10,
-        "aroma",
+        "coffee pairing",
         "seasoning"
       ],
       [
-        "butter",
+        "cinnamon",
         5,
-        "richness"
+        "optional warmth",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "chili",
-      "turmeric"
+      "strong coffee",
+      "roasted grain",
+      "simple sweet snacks"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "roasty",
+      "mild",
+      "snack-like"
     ],
     "textureProfile": [
-      "sweet",
-      "soft or crisp"
+      "crisp popcorn",
+      "small sweets",
+      "variable bite sizes"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-peanut"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "coffee",
+      "dessert"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "gluten-free"
+    ],
     "orderVerdict": {
-      "en": "Light sweet finish; varies by restaurant.",
-      "zh": "如果你接受这类口味和风险，埃塞咖啡小甜点 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good with coffee, but treat it as a variable snack assortment and ask about nuts.",
+      "zh": "适合配咖啡，但应理解为变化很大的小食组合，坚果过敏要先问。",
+      "nl": "Goed bij koffie, maar zie het als wisselende snackmix en vraag naar noten."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 1,
+    "restaurantVariationLevel": "high",
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
   }),
   starterDish({
     "cuisineId": "scandinavian",
@@ -23260,102 +23519,105 @@ export const worldDishes = [
     "cuisineId": "scandinavian",
     "names": {
       "en": "Cloudberry Dessert",
-      "zh": "云莓甜点",
-      "nl": "Bergbraam dessert",
+      "zh": "北欧云莓甜点",
+      "nl": "Bergbraamdessert",
       "local": "molte dessert"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "assembled",
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Nordic berry dessert with cream or pastry depending on style.",
-      "zh": "云莓甜点 是常见北欧菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Bergbraam dessert is een veelvoorkomend gerecht in de scandinavisch keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Nordic dessert built around tart golden cloudberries, often with cream, yogurt, ice cream, or a simple sweet sauce.",
+      "zh": "北欧云莓甜点，以金黄色酸甜云莓为主，常配奶油、酸奶、冰淇淋或糖渍果酱。",
+      "nl": "Noords dessert rond friszure bergbramen, vaak met room, yoghurt, ijs of een eenvoudige zoete saus."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet, soft or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为sweet，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met sweet; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Usually served cool with creamy dairy to soften the berry's tartness.",
+      "zh": "通常冷吃，乳制品会柔化云莓的酸味。",
+      "nl": "Meestal koel geserveerd, met zuivel die de zurigheid van de bes verzacht."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "regional-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A high-frequency Scandinavian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频北欧菜菜品。",
-        "nl": "Een vaak voorkomend scandinavisch menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Nordic berry dessert reference distinct from generic mixed-berry sweets.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "sugar",
-        30,
-        "sweetener"
+        "berries",
+        45,
+        "cloudberry or berry component"
       ],
       [
         "cream",
         25,
-        "base"
+        "creamy base"
       ],
       [
-        "wheat-flour",
-        20,
-        "base"
+        "sugar",
+        15,
+        "sweetness"
       ],
       [
-        "egg",
+        "yogurt",
         10,
-        "binder"
+        "tangy dairy"
       ],
       [
         "vanilla",
-        10,
+        5,
         "aroma",
         "seasoning"
-      ],
-      [
-        "butter",
-        5,
-        "richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "dill",
-      "mustard",
-      "butter"
+      "cloudberry tartness",
+      "cream",
+      "vanilla"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "tart",
+      "creamy",
+      "fruity"
     ],
     "textureProfile": [
-      "sweet",
-      "soft or crisp"
+      "cool cream",
+      "soft berries",
+      "jammy sauce"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+    "dietaryFlags": [
+      "vegetarian"
     ],
-    "avoidIfTags": [],
+    "goodForTags": [
+      "dessert",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
     "orderVerdict": {
-      "en": "Good if you want tart fruit and cream.",
-      "zh": "如果你接受这类口味和风险，云莓甜点 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A good pick if you want a Nordic fruit dessert that is tangier than a standard berry cream.",
+      "zh": "想吃北欧特色果味甜点可以点；它通常比普通莓果奶油更酸香。",
+      "nl": "Goed als je een Noords fruitdessert wilt dat frisser is dan gewone bessenroom."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -23366,95 +23628,113 @@ export const worldDishes = [
       "en": "Peruvian Ceviche",
       "zh": "秘鲁酸橘汁腌鱼",
       "nl": "Peruaanse ceviche",
-      "local": "ceviche"
+      "local": "ceviche peruano"
     },
-    "category": "seafood",
+    "category": "raw-seafood",
     "cookingMethods": [
+      "raw",
       "assembled"
     ],
+    "rawnessLevel": "raw",
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Raw fish cured in lime with chili, onion, and cilantro.",
-      "zh": "秘鲁酸橘汁腌鱼 是常见秘鲁菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Peruaanse ceviche is een veelvoorkomend gerecht in de peruaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Peruvian raw white fish cured briefly in lime juice with onion, chili, cilantro, corn, and sweet potato.",
+      "zh": "秘鲁酸橘汁腌生白鱼，常配洋葱、辣椒、香菜、玉米和红薯。",
+      "nl": "Peruaanse rauwe witte vis kort gegaard in limoensap met ui, chili, koriander, mais en zoete aardappel."
     },
     "cookingProfile": {
-      "en": "Usually served with tender seafood, fresh finish, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender seafood，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender seafood; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Served cold and raw with citrus-chili dressing; the acid brightens the fish but does not make it fully cooked.",
+      "zh": "冷食生鱼配柑橘辣椒汁，酸汁会提亮鱼味，但不等于完全熟制。",
+      "nl": "Koud en rauw geserveerd met citrus-chilidressing; zuur frist op maar gaart niet volledig."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "raw-seafood"
       ],
       "description": {
-        "en": "A high-frequency Peruvian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频秘鲁菜菜品。",
-        "nl": "Een vaak voorkomend peruaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Peruvian raw-fish reference where rawness must be explicit.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        50,
-        "main"
-      ],
-      [
-        "steamed-rice",
-        20,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        15,
-        "side"
+        "raw-white-fish",
+        45,
+        "raw fish"
       ],
       [
         "lime",
-        10,
-        "finish"
+        20,
+        "citrus cure"
       ],
       [
-        "parsley",
+        "onion",
+        10,
+        "sharpness"
+      ],
+      [
+        "corn",
+        10,
+        "side"
+      ],
+      [
+        "sweet-potato",
+        10,
+        "sweet side"
+      ],
+      [
+        "aji-amarillo",
         5,
-        "aroma",
+        "chili",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "lime",
-      "chili",
-      "cumin"
+      "lime leche de tigre",
+      "ají amarillo",
+      "raw fish"
     ],
     "basicTaste": [
+      "bright",
+      "sour",
       "fresh",
-      "briny"
+      "spicy"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "firm raw fish",
+      "sharp citrus",
+      "soft sweet potato"
     ],
     "riskFlags": [
+      "contains-raw-fish",
       "contains-fish",
-      "contains-raw-fish"
+      "can-be-spicy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage"
+      "raw-seafood",
+      "classic-dish"
     ],
     "avoidIfTags": [
+      "raw-fish-avoidance",
+      "fish-allergy",
       "spice-sensitive"
     ],
     "orderVerdict": {
-      "en": "Fresh signature dish; only if raw fish is okay.",
-      "zh": "如果你接受这类口味和风险，秘鲁酸橘汁腌鱼 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Choose it for bright citrus and raw fish freshness; avoid if raw seafood is uncomfortable.",
+      "zh": "想吃清亮酸香和生鱼鲜味时适合；不能接受生海鲜就不要点。",
+      "nl": "Kies dit voor frisse citrus en rauwe vis; vermijd als rauwe zeevruchten niet prettig zijn."
     },
-    "spiceLevel": 3,
-    "weightLevel": 1,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "spiceLevel": 2,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -23463,98 +23743,108 @@ export const worldDishes = [
     "cuisineId": "peruvian",
     "names": {
       "en": "Lomo Saltado",
-      "zh": "秘鲁牛肉炒薯条饭",
+      "zh": "秘鲁牛肉薯条炒饭",
       "nl": "Lomo saltado",
       "local": "lomo saltado"
     },
     "category": "meat",
     "cookingMethods": [
-      "grilled"
+      "stir-fried"
     ],
     "shortDescription": {
-      "en": "Stir-fried beef with onions, tomato, fries, and rice.",
-      "zh": "秘鲁牛肉炒薯条饭 是常见秘鲁菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Lomo saltado is een veelvoorkomend gerecht in de peruaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Peruvian-Chinese beef stir-fry with onions, tomatoes, soy-vinegar sauce, fries, and rice.",
+      "zh": "秘鲁中式影响牛肉快炒，配洋葱、番茄、酱油醋汁、薯条和米饭。",
+      "nl": "Peruaans-Chinese rundvleesroerbak met ui, tomaat, soja-azijnsaus, friet en rijst."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Hot wok-seared beef meets fries and rice, so it is saucy, hearty, and carb-heavy.",
+      "zh": "热锅牛肉和薯条、米饭一起上桌，酱香足、分量重、主食感强。",
+      "nl": "Heet gewokt rundvlees komt met friet en rijst; sauzig, stevig en koolhydraatrijk."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency Peruvian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频秘鲁菜菜品。",
-        "nl": "Een vaak voorkomend peruaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Peruvian chifa classic where fries plus rice are central to the eating experience.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "lamb",
-        45,
-        "main"
+        "beef",
+        35,
+        "stir-fried meat"
+      ],
+      [
+        "fries",
+        25,
+        "potato side"
       ],
       [
         "steamed-rice",
-        25,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
         20,
-        "side"
+        "rice side"
       ],
       [
-        "cumin",
-        5,
-        "aroma",
-        "seasoning"
+        "tomato",
+        10,
+        "juicy vegetable"
       ],
       [
-        "black-pepper",
+        "onion",
         5,
-        "seasoning",
+        "aromatic"
+      ],
+      [
+        "soy-sauce",
+        5,
+        "soy-vinegar seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "lime",
-      "chili",
-      "cumin"
+      "soy-vinegar wok sauce",
+      "beef juices",
+      "fries soaking sauce"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "tangy",
+      "meaty",
+      "slightly sweet"
     ],
     "textureProfile": [
-      "tender meat",
-      "charred or saucy edges"
+      "tender beef strips",
+      "softened fries",
+      "separate rice"
     ],
     "riskFlags": [
-      "contains-soy"
+      "contains-soy",
+      "contains-gluten"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "comfort-food",
+      "classic-dish"
     ],
     "avoidIfTags": [
+      "soy-free",
       "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Great hearty fusion plate; savory and filling.",
-      "zh": "如果你接受这类口味和风险，秘鲁牛肉炒薯条饭 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A very satisfying main if you want beef, fries, rice, and wok sauce in one plate.",
+      "zh": "想要牛肉、薯条、米饭和锅气酱汁一盘满足时很适合。",
+      "nl": "Heel bevredigend als je rund, friet, rijst en woksaus op één bord wilt."
     },
     "spiceLevel": 1,
-    "weightLevel": 4,
+    "weightLevel": 5,
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -23563,98 +23853,118 @@ export const worldDishes = [
     "cuisineId": "peruvian",
     "names": {
       "en": "Ají de Gallina",
-      "zh": "黄辣椒奶油鸡",
+      "zh": "秘鲁黄辣椒奶油鸡",
       "nl": "Ají de gallina",
       "local": "ají de gallina"
     },
     "category": "meat",
     "cookingMethods": [
-      "grilled"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Shredded chicken in creamy yellow chili sauce with rice.",
-      "zh": "黄辣椒奶油鸡 是常见秘鲁菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Ají de gallina is een veelvoorkomend gerecht in de peruaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Shredded chicken in creamy ají amarillo sauce thickened with bread and nuts, served with rice, potato, egg, and olives.",
+      "zh": "手撕鸡配秘鲁黄辣椒奶油酱，常用面包和坚果增稠，配米饭、土豆、蛋和橄榄。",
+      "nl": "Geplukte kip in romige ají amarillo-saus, gebonden met brood en noten, met rijst, aardappel, ei en olijven."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Creamy, spoonable chicken sauce; the chili is fruity and mild-to-medium rather than sharply hot.",
+      "zh": "鸡肉酱顺滑浓稠，黄辣椒偏果香，通常不是尖锐重辣。",
+      "nl": "Romige, lepelbare kipsaus; de chili is fruitig en mild tot medium, niet scherp heet."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency Peruvian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频秘鲁菜菜品。",
-        "nl": "Een vaak voorkomend peruaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Peruvian comfort classic where dairy, bread, nut, and egg risks are important.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "lamb",
-        45,
-        "main"
+        "chicken",
+        35,
+        "shredded meat"
       ],
       [
         "steamed-rice",
-        25,
+        20,
         "base"
       ],
       [
-        "mixed-vegetables",
-        20,
+        "potato",
+        15,
         "side"
       ],
       [
-        "cumin",
+        "bread",
+        10,
+        "sauce thickener"
+      ],
+      [
+        "egg",
+        10,
+        "garnish"
+      ],
+      [
+        "aji-amarillo",
         5,
-        "aroma",
+        "yellow chili",
         "seasoning"
       ],
       [
-        "black-pepper",
+        "cream",
         5,
-        "seasoning",
-        "seasoning"
+        "creamy body"
       ]
     ],
     "distinctiveFlavorSources": [
-      "lime",
-      "chili",
-      "cumin"
+      "ají amarillo",
+      "creamy bread-thickened sauce",
+      "walnut-like richness"
     ],
     "basicTaste": [
+      "creamy",
       "savory",
+      "mildly spicy",
       "rich"
     ],
     "textureProfile": [
-      "tender meat",
-      "charred or saucy edges"
+      "shredded chicken",
+      "smooth sauce",
+      "soft potato"
     ],
     "riskFlags": [
       "contains-dairy",
-      "contains-tree-nut"
+      "contains-gluten",
+      "contains-egg",
+      "contains-tree-nut",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "comfort-food",
+      "classic-dish"
     ],
     "avoidIfTags": [
-      "wants-light-food"
+      "dairy-free",
+      "gluten-free",
+      "egg-free",
+      "tree-nut-allergy"
     ],
     "orderVerdict": {
-      "en": "Comforting and rich; dairy/nuts may appear.",
-      "zh": "如果你接受这类口味和风险，黄辣椒奶油鸡 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Comforting and creamy; check allergens if dairy, gluten, egg, or nuts matter.",
+      "zh": "浓郁顺滑、很有安慰感；乳制品、麸质、鸡蛋或坚果过敏者要谨慎。",
+      "nl": "Romig comfortfood; controleer allergenen bij zuivel, gluten, ei of noten."
     },
-    "spiceLevel": 2,
+    "spiceLevel": 1,
     "weightLevel": 4,
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -23669,91 +23979,118 @@ export const worldDishes = [
     },
     "category": "starter",
     "cookingMethods": [
+      "chilled",
       "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Layered chilled potato with tuna, chicken, avocado, or seafood filling.",
-      "zh": "秘鲁土豆冷盘 是常见秘鲁菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Causa is een veelvoorkomend gerecht in de peruaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Chilled Peruvian layered mashed potato seasoned with lime and ají amarillo, filled with tuna, chicken, avocado, or egg salad.",
+      "zh": "秘鲁冷土豆泥层叠小盘，用青柠和黄辣椒调味，夹金枪鱼、鸡肉、牛油果或蛋黄酱馅。",
+      "nl": "Koude Peruaanse laagjespuree met limoen en ají amarillo, gevuld met tonijn, kip, avocado of eisalade."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, fresh or creamy dip, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为small bites，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met small bites; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Served cool and shaped, with soft potato layers and creamy filling rather than a hot main.",
+      "zh": "冷食且成型，口感是柔软土豆层和奶油感内馅，不是热主菜。",
+      "nl": "Koel en gevormd geserveerd, met zachte aardappellagen en romige vulling, geen warme hoofdmaaltijd."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "starter",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Peruvian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频秘鲁菜菜品。",
-        "nl": "Een vaak voorkomend peruaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "A classic Peruvian starter where cold temperature and filling choice shape the decision.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "chickpeas",
-        35,
-        "base"
+        "potato",
+        45,
+        "seasoned mashed potato"
       ],
       [
-        "mixed-vegetables",
-        30,
-        "freshness"
-      ],
-      [
-        "tomato",
+        "tuna",
         15,
-        "body"
+        "common filling",
+        "ingredient",
+        "medium",
+        true
       ],
       [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
+        "chicken",
+        15,
+        "alternate filling",
+        "ingredient",
+        "medium",
+        true
       ],
       [
-        "parsley",
+        "avocado",
         10,
-        "aroma",
+        "creamy layer"
+      ],
+      [
+        "egg",
+        5,
+        "garnish"
+      ],
+      [
+        "lime",
+        5,
+        "acid"
+      ],
+      [
+        "aji-amarillo",
+        5,
+        "yellow chili",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "lime",
-      "chili",
-      "cumin"
+      "lime-seasoned potato",
+      "ají amarillo",
+      "mayonnaise-style filling"
     ],
     "basicTaste": [
-      "savory",
-      "fresh"
+      "tangy",
+      "creamy",
+      "mildly spicy",
+      "starchy"
     ],
     "textureProfile": [
-      "small bites",
-      "fresh or creamy dip"
+      "cold soft potato",
+      "creamy filling",
+      "neat layers"
     ],
     "riskFlags": [
-      "contains-egg"
+      "contains-egg",
+      "contains-fish",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "starter",
+      "classic-dish"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "wants-hot-food",
+      "egg-free",
+      "fish-allergy"
+    ],
     "orderVerdict": {
-      "en": "Good cool starter; filling decides risk.",
-      "zh": "如果你接受这类口味和风险，秘鲁土豆冷盘 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good as a cool starter; ask about the filling if you avoid fish or egg.",
+      "zh": "适合作为冷前菜；不吃鱼或蛋要先问内馅。",
+      "nl": "Goed als koud voorgerecht; vraag naar de vulling als je vis of ei vermijdt."
     },
     "spiceLevel": 1,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "high"
+    "weightLevel": 3,
+    "restaurantVariationLevel": "high",
+    "confidenceTag": "audited-world-truth-batch-022",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
   }),
   starterDish({
     "id": "anticuchos",
@@ -23770,84 +24107,100 @@ export const worldDishes = [
       "grilled"
     ],
     "shortDescription": {
-      "en": "Grilled skewers, traditionally beef heart, with chili marinade.",
-      "zh": "秘鲁烤牛心串 是常见秘鲁菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Anticuchos is een veelvoorkomend gerecht in de peruaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Peruvian grilled skewers, classically beef heart marinated with ají, garlic, cumin, and vinegar, often with potato or corn.",
+      "zh": "秘鲁烤串，经典版本是牛心，用黄辣椒、蒜、孜然和醋腌制，常配土豆或玉米。",
+      "nl": "Peruaanse spiesjes, klassiek van runderhart gemarineerd met ají, knoflook, komijn en azijn, vaak met aardappel of mais."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Grilled over high heat, giving firm, smoky meat with a tangy chili marinade.",
+      "zh": "高温烤制，肉质偏紧实有烟熏感，腌料带酸辣香。",
+      "nl": "Heet gegrild, met stevig rokerig vlees en friszure chilimarinade."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "street-food",
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency Peruvian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频秘鲁菜菜品。",
-        "nl": "Een vaak voorkomend peruaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "A signature Peruvian street-food skewered meat with offal identity that should be transparent.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "lamb",
-        45,
-        "main"
+        "beef-heart",
+        60,
+        "classic skewer meat"
       ],
       [
-        "steamed-rice",
-        25,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        20,
+        "potato",
+        15,
         "side"
+      ],
+      [
+        "corn",
+        10,
+        "side"
+      ],
+      [
+        "aji-amarillo",
+        5,
+        "chili marinade",
+        "seasoning"
+      ],
+      [
+        "vinegar",
+        5,
+        "marinade acid",
+        "seasoning"
       ],
       [
         "cumin",
         5,
-        "aroma",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
+        "warm spice",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "lime",
-      "chili",
-      "cumin"
+      "beef heart",
+      "ají marinade",
+      "charcoal grill"
     ],
     "basicTaste": [
-      "savory",
-      "rich"
+      "meaty",
+      "smoky",
+      "tangy",
+      "mildly spicy"
     ],
     "textureProfile": [
-      "tender meat",
-      "charred or saucy edges"
+      "firm meat",
+      "charred edges",
+      "starchy sides"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "street-food",
+      "meat-lover"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "offal-avoidance",
+      "spice-sensitive"
+    ],
     "orderVerdict": {
-      "en": "Good for adventurous grilled meat fans.",
-      "zh": "如果你接受这类口味和风险，秘鲁烤牛心串 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Great for adventurous meat eaters; classic versions are beef heart, not ordinary steak.",
+      "zh": "适合愿意尝试内脏部位的肉食爱好者；经典版本是牛心，不是普通牛排。",
+      "nl": "Sterk voor avontuurlijke vleeseters; klassiek is runderhart, geen gewone biefstuk."
     },
     "spiceLevel": 2,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "acquiredTasteLevel": 3,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -23856,96 +24209,121 @@ export const worldDishes = [
     "cuisineId": "peruvian",
     "names": {
       "en": "Papa a la Huancaína",
-      "zh": "黄辣椒奶酪土豆",
+      "zh": "秘鲁黄辣椒奶酪土豆",
       "nl": "Papa a la Huancaína",
       "local": "papa a la huancaína"
     },
     "category": "starter",
     "cookingMethods": [
+      "boiled",
       "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Potatoes with creamy yellow chili cheese sauce.",
-      "zh": "黄辣椒奶酪土豆 是常见秘鲁菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Papa a la Huancaína is een veelvoorkomend gerecht in de peruaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Boiled potatoes covered in creamy ají amarillo cheese sauce, usually served cool with egg, olive, and lettuce.",
+      "zh": "水煮土豆淋秘鲁黄辣椒奶酪酱，通常冷或常温上桌，配鸡蛋、橄榄和生菜。",
+      "nl": "Gekookte aardappel met romige ají amarillo-kaassaus, meestal koel met ei, olijf en sla."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, fresh or creamy dip, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为small bites，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met small bites; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Cool potatoes and thick sauce make it creamy and gentle, with fruity chili more than sharp heat.",
+      "zh": "冷土豆和浓酱带来奶油感，黄辣椒偏果香，辣度通常温和。",
+      "nl": "Koele aardappel en dikke saus maken het romig en mild; de chili is fruitig, niet fel heet."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "starter",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Peruvian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频秘鲁菜菜品。",
-        "nl": "Een vaak voorkomend peruaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "A classic Peruvian starter where dairy and egg are central.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "chickpeas",
-        35,
-        "base"
+        "potato",
+        45,
+        "boiled potato"
       ],
       [
-        "mixed-vegetables",
-        30,
-        "freshness"
+        "cheese",
+        20,
+        "sauce body"
       ],
       [
-        "tomato",
-        15,
-        "body"
-      ],
-      [
-        "olive-oil",
+        "cream",
         10,
-        "finish",
+        "creamy sauce"
+      ],
+      [
+        "egg",
+        10,
+        "garnish"
+      ],
+      [
+        "olives",
+        5,
+        "briny garnish"
+      ],
+      [
+        "aji-amarillo",
+        5,
+        "yellow chili",
         "seasoning"
       ],
       [
-        "parsley",
-        10,
-        "aroma",
-        "seasoning"
+        "bread",
+        5,
+        "sauce thickener"
       ]
     ],
     "distinctiveFlavorSources": [
-      "lime",
-      "chili",
-      "cumin"
+      "ají amarillo",
+      "fresh cheese sauce",
+      "cool potato"
     ],
     "basicTaste": [
-      "savory",
-      "fresh"
+      "creamy",
+      "mildly spicy",
+      "salty",
+      "starchy"
     ],
     "textureProfile": [
-      "small bites",
-      "fresh or creamy dip"
+      "cool soft potato",
+      "thick sauce",
+      "firm egg"
     ],
     "riskFlags": [
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg",
+      "contains-gluten",
+      "can-be-spicy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage"
+      "starter",
+      "classic-dish"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "dairy-free",
+      "egg-free",
+      "gluten-free"
+    ],
     "orderVerdict": {
-      "en": "Good starter if dairy and mild chili are okay.",
-      "zh": "如果你接受这类口味和风险，黄辣椒奶酪土豆 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A gentle but rich starter; avoid if dairy or egg is a problem.",
+      "zh": "这是温和但浓郁的前菜；不能吃奶制品或鸡蛋就谨慎。",
+      "nl": "Een milde maar rijke starter; vermijden bij zuivel- of eiproblemen."
     },
-    "spiceLevel": 2,
+    "spiceLevel": 1,
     "weightLevel": 3,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "high"
+    "restaurantVariationLevel": "medium"
   }),
   starterDish({
     "id": "arroz-chaufa",
@@ -23962,88 +24340,103 @@ export const worldDishes = [
       "stir-fried"
     ],
     "shortDescription": {
-      "en": "Peruvian-Chinese fried rice with soy, egg, and meat or seafood.",
-      "zh": "秘鲁中式炒饭 是常见秘鲁菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Arroz chaufa is een veelvoorkomend gerecht in de peruaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Peruvian chifa fried rice with soy sauce, egg, scallions, and chicken, pork, beef, or seafood variants.",
+      "zh": "秘鲁中餐 chifa 风格炒饭，常有酱油、鸡蛋、葱，以及鸡肉、猪肉、牛肉或海鲜变化。",
+      "nl": "Peruaanse chifa-gebakken rijst met sojasaus, ei, lente-ui en varianten met kip, varkensvlees, rund of zeevruchten."
     },
     "cookingProfile": {
-      "en": "Usually served with soft rice, mixed toppings, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为soft rice，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met soft rice; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Wok-fried and savory, closer to fried rice than a saucy Latin rice dish.",
+      "zh": "热锅快炒、咸香带锅气，更接近中式炒饭，不是湿润炖饭。",
+      "nl": "Gewokt en hartig, dichter bij gebakken rijst dan bij een sauzige Latijnse rijstschotel."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "comfort-food",
+        "rice"
       ],
       "description": {
-        "en": "A high-frequency Peruvian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频秘鲁菜菜品。",
-        "nl": "Een vaak voorkomend peruaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Peruvian chifa fried-rice reference where protein choice and soy/gluten risk vary by version.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
         "steamed-rice",
-        50,
-        "base"
+        55,
+        "fried rice base"
+      ],
+      [
+        "egg",
+        15,
+        "scrambled egg"
       ],
       [
         "chicken",
-        20,
-        "protein"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
+        10,
+        "common protein"
       ],
       [
         "green-onion",
-        5,
-        "finish"
+        10,
+        "aromatic"
       ],
       [
-        "sea-salt",
+        "soy-sauce",
         5,
         "seasoning",
+        "seasoning"
+      ],
+      [
+        "sesame-oil",
+        5,
+        "aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "lime",
-      "chili",
-      "cumin"
+      "soy sauce",
+      "wok heat",
+      "scallion"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "salty",
+      "eggy",
+      "aromatic"
     ],
     "textureProfile": [
-      "soft rice",
-      "mixed toppings"
+      "separate rice grains",
+      "small egg pieces",
+      "light oil gloss"
     ],
     "riskFlags": [
       "contains-soy",
+      "contains-gluten",
       "contains-egg"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "rice",
+      "comfort-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "soy-free",
+      "gluten-free",
+      "egg-free"
+    ],
     "orderVerdict": {
-      "en": "Familiar fried rice with Peruvian twist.",
-      "zh": "如果你接受这类口味和风险，秘鲁中式炒饭 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A familiar, filling option; check the protein if you avoid pork or shellfish.",
+      "zh": "熟悉又有饱腹感；不吃猪肉或海鲜时要确认具体蛋白。",
+      "nl": "Een vertrouwde, vullende keuze; check de eiwitvariant bij varkensvlees of schaaldieren."
     },
-    "spiceLevel": 1,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "restaurantVariationLevel": "high",
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
   }),
   starterDish({
     "id": "pollo-a-la-brasa",
@@ -24060,85 +24453,93 @@ export const worldDishes = [
       "grilled"
     ],
     "shortDescription": {
-      "en": "Rotisserie chicken with spices and sauces.",
-      "zh": "秘鲁炭烤鸡 是常见秘鲁菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Pollo a la brasa is een veelvoorkomend gerecht in de peruaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Peruvian rotisserie or charcoal chicken marinated with garlic, cumin, soy-like savoriness, and served with fries and spicy green sauces.",
+      "zh": "秘鲁炭烤或旋转烤鸡，用蒜、孜然和咸香腌料调味，常配薯条和辣绿酱。",
+      "nl": "Peruaanse houtskool- of spitkip met knoflook, komijn en hartige marinade, vaak met friet en pittige groene sauzen."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Roasted until the skin is browned and the meat stays juicy; sauces decide the heat.",
+      "zh": "鸡皮烤到焦香，肉保持多汁；辣度多由蘸酱决定。",
+      "nl": "Geroosterd tot bruine huid en sappig vlees; sauzen bepalen de pit."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "signature",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "signature-dish",
+        "safe-choice"
       ],
       "description": {
-        "en": "A high-frequency Peruvian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频秘鲁菜菜品。",
-        "nl": "Een vaak voorkomend peruaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "A widely recognized Peruvian main that is accessible but still sauce-dependent.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "lamb",
-        45,
-        "main"
+        "chicken",
+        55,
+        "roasted chicken"
       ],
       [
-        "steamed-rice",
+        "fries",
         25,
-        "base"
+        "common side"
       ],
       [
         "mixed-vegetables",
-        20,
-        "side"
+        10,
+        "salad side"
       ],
       [
         "cumin",
         5,
-        "aroma",
+        "marinade spice",
         "seasoning"
       ],
       [
-        "black-pepper",
+        "garlic",
         5,
-        "seasoning",
+        "marinade aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "lime",
-      "chili",
-      "cumin"
+      "charcoal roast",
+      "garlic-cumin marinade",
+      "ají dipping sauces"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "smoky",
+      "garlicky",
+      "mildly spicy"
     ],
     "textureProfile": [
-      "tender meat",
-      "charred or saucy edges"
+      "browned skin",
+      "juicy chicken",
+      "crisp fries"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
+      "safe-choice",
       "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "wants-light-food"
+    ],
     "orderVerdict": {
-      "en": "Reliable grilled chicken main.",
-      "zh": "如果你接受这类口味和风险，秘鲁炭烤鸡 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A strong first-timer choice if you want roast chicken; keep sauces separate if spice-sensitive.",
+      "zh": "第一次吃秘鲁菜想要稳妥主菜可以点；怕辣就让酱单放。",
+      "nl": "Sterke eerste keuze als je geroosterde kip wilt; vraag saus apart bij gevoeligheid voor pit."
     },
     "spiceLevel": 1,
-    "weightLevel": 3,
+    "weightLevel": 4,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -24147,98 +24548,108 @@ export const worldDishes = [
     "cuisineId": "peruvian",
     "names": {
       "en": "Rocoto Relleno",
-      "zh": "酿辣椒",
+      "zh": "秘鲁酿辣椒",
       "nl": "Rocoto relleno",
       "local": "rocoto relleno"
     },
-    "category": "vegetable-main",
+    "category": "meat",
     "cookingMethods": [
-      "simmered"
+      "baked"
     ],
     "shortDescription": {
-      "en": "Stuffed spicy pepper with meat and cheese.",
-      "zh": "酿辣椒 是常见秘鲁菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Rocoto relleno is een veelvoorkomend gerecht in de peruaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Peruvian stuffed rocoto pepper with seasoned beef, onion, raisins or olives, and melted cheese, often served with potato gratin.",
+      "zh": "秘鲁酿 rocoto 辣椒，内馅多为牛肉、洋葱、葡萄干或橄榄，上面有融化奶酪，常配土豆。",
+      "nl": "Peruaanse gevulde rocotopeper met gekruid rundvlees, ui, rozijnen of olijven en gesmolten kaas, vaak met aardappel."
     },
     "cookingProfile": {
-      "en": "Usually served with soft vegetables, saucy base, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为soft vegetables，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met soft vegetables; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Baked until the pepper softens but keeps a real chili bite; richer versions include cheese and potato.",
+      "zh": "烤到辣椒变软但仍有明显辣味，奶酪和土豆版本更厚重。",
+      "nl": "Gebakken tot de peper zacht is maar nog echte pit heeft; rijke versies hebben kaas en aardappel."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "regional-dish",
+        "spicy"
       ],
       "description": {
-        "en": "A high-frequency Peruvian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频秘鲁菜菜品。",
-        "nl": "Een vaak voorkomend peruaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "An Arequipa-linked dish where chili heat is not just a garnish.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "lentils",
-        40,
-        "base"
+        "bell-pepper",
+        35,
+        "rocoto pepper shell"
       ],
       [
-        "mixed-vegetables",
+        "ground-meat",
         30,
-        "body"
+        "beef filling"
       ],
       [
-        "tomato-sauce",
+        "cheese",
         15,
-        "sauce",
-        "seasoning"
+        "melted topping"
       ],
       [
-        "cumin",
+        "potato",
         10,
-        "aroma",
-        "seasoning"
+        "side"
       ],
       [
-        "parsley",
+        "olives",
         5,
-        "finish",
+        "briny accent"
+      ],
+      [
+        "aji-amarillo",
+        5,
+        "chili heat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "lime",
-      "chili",
-      "cumin"
+      "rocoto pepper heat",
+      "beef filling",
+      "melted cheese"
     ],
     "basicTaste": [
+      "spicy",
       "savory",
-      "earthy"
+      "rich",
+      "slightly sweet"
     ],
     "textureProfile": [
-      "soft vegetables",
-      "saucy base"
+      "soft pepper",
+      "crumbly meat filling",
+      "melted cheese"
     ],
     "riskFlags": [
-      "contains-dairy"
+      "contains-dairy",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "regional-dish",
+      "spicy"
     ],
     "avoidIfTags": [
-      "spice-sensitive"
+      "spice-sensitive",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if you like stuffed peppers and heat.",
-      "zh": "如果你接受这类口味和风险，酿辣椒 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Order if you want a spicy stuffed pepper; avoid if you only tolerate mild chili.",
+      "zh": "想吃真正有辣度的酿椒可以点；只能接受微辣就慎选。",
+      "nl": "Bestel als je een pittige gevulde peper wilt; vermijd als je alleen milde chili verdraagt."
     },
-    "spiceLevel": 4,
-    "weightLevel": 3,
+    "spiceLevel": 3,
+    "weightLevel": 4,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -24251,93 +24662,106 @@ export const worldDishes = [
       "nl": "Tiradito",
       "local": "tiradito"
     },
-    "category": "seafood",
+    "category": "raw-seafood",
     "cookingMethods": [
+      "raw",
       "assembled"
     ],
+    "rawnessLevel": "raw",
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Raw fish slices with citrus chili sauce.",
-      "zh": "秘鲁生鱼薄片 是常见秘鲁菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Tiradito is een veelvoorkomend gerecht in de peruaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Peruvian raw fish slices dressed with citrus and ají sauce, closer to sashimi in shape than chopped ceviche.",
+      "zh": "秘鲁生鱼薄片，淋青柠和黄辣椒酱，形态更像生鱼片而不是切块 ceviche。",
+      "nl": "Peruaanse rauwe visplakjes met citrus en ají-saus, qua vorm dichter bij sashimi dan gehakte ceviche."
     },
     "cookingProfile": {
-      "en": "Usually served with tender seafood, fresh finish, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender seafood，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender seafood; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Served cold and raw with citrus-chili dressing; the acid brightens the fish but does not make it fully cooked.",
+      "zh": "冷食生鱼配柑橘辣椒汁，酸汁会提亮鱼味，但不等于完全熟制。",
+      "nl": "Koud en rauw geserveerd met citrus-chilidressing; zuur frist op maar gaart niet volledig."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "raw-seafood"
       ],
       "description": {
-        "en": "A high-frequency Peruvian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频秘鲁菜菜品。",
-        "nl": "Een vaak voorkomend peruaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Peruvian raw-fish reference where rawness must be explicit.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        50,
-        "main"
-      ],
-      [
-        "steamed-rice",
-        20,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        15,
-        "side"
+        "raw-white-fish",
+        60,
+        "raw sliced fish"
       ],
       [
         "lime",
-        10,
-        "finish"
+        20,
+        "citrus dressing"
       ],
       [
-        "parsley",
-        5,
-        "aroma",
+        "aji-amarillo",
+        10,
+        "chili sauce",
         "seasoning"
+      ],
+      [
+        "corn",
+        5,
+        "side"
+      ],
+      [
+        "sweet-potato",
+        5,
+        "side"
       ]
     ],
     "distinctiveFlavorSources": [
-      "lime",
-      "chili",
-      "cumin"
+      "raw fish slices",
+      "ají amarillo sauce",
+      "lime"
     ],
     "basicTaste": [
+      "bright",
+      "sour",
       "fresh",
-      "briny"
+      "spicy"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "silky raw fish",
+      "smooth chili sauce",
+      "clean citrus finish"
     ],
     "riskFlags": [
+      "contains-raw-fish",
       "contains-fish",
-      "contains-raw-fish"
+      "can-be-spicy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage"
+      "raw-seafood",
+      "classic-dish"
     ],
     "avoidIfTags": [
+      "raw-fish-avoidance",
+      "fish-allergy",
       "spice-sensitive"
     ],
     "orderVerdict": {
-      "en": "Raw fish dish, lighter than many mains.",
-      "zh": "如果你接受这类口味和风险，秘鲁生鱼薄片 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Pick it for a cleaner raw-fish experience than ceviche; avoid if raw fish is not comfortable.",
+      "zh": "想要比 ceviche 更清爽、更像生鱼片的体验可以点；不吃生鱼就避开。",
+      "nl": "Kies dit voor een schonere rauwe-viservaring dan ceviche; vermijd als rauwe vis niet past."
     },
-    "spiceLevel": 3,
-    "weightLevel": 1,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "spiceLevel": 2,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -24346,102 +24770,109 @@ export const worldDishes = [
     "cuisineId": "peruvian",
     "names": {
       "en": "Picarones",
-      "zh": "秘鲁南瓜甜甜圈",
+      "zh": "秘鲁南瓜红薯甜甜圈",
       "nl": "Picarones",
       "local": "picarones"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "deep-fried"
     ],
     "shortDescription": {
-      "en": "Fried squash/sweet potato dough rings with syrup.",
-      "zh": "秘鲁南瓜甜甜圈 是常见秘鲁菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Picarones is een veelvoorkomend gerecht in de peruaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Peruvian fried rings made with squash and sweet potato dough, served with spiced syrup.",
+      "zh": "秘鲁炸环状甜点，面团含南瓜和红薯，常淋香料糖浆。",
+      "nl": "Peruaanse gefrituurde ringen van pompoen- en zoete-aardappeldeeg met gekruide siroop."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet, soft or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为sweet，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met sweet; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Fried to a chewy-crisp ring, then finished with sticky syrup rather than powdered sugar.",
+      "zh": "炸成外缘微酥、内部有嚼感的圈，再淋黏稠糖浆。",
+      "nl": "Gefrituurd tot een kauwbaar-krokante ring en afgewerkt met kleverige siroop."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "street-food",
+        "dessert"
       ],
       "description": {
-        "en": "A high-frequency Peruvian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频秘鲁菜菜品。",
-        "nl": "Een vaak voorkomend peruaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "A classic Peruvian street dessert distinct from plain doughnuts.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "sugar",
-        30,
-        "sweetener"
-      ],
-      [
-        "cream",
-        25,
-        "base"
-      ],
-      [
         "wheat-flour",
+        35,
+        "dough"
+      ],
+      [
+        "squash",
         20,
-        "base"
+        "dough sweetness"
       ],
       [
-        "egg",
-        10,
-        "binder"
+        "sweet-potato",
+        20,
+        "dough body"
       ],
       [
-        "vanilla",
-        10,
-        "aroma",
+        "sugar",
+        15,
+        "syrup"
+      ],
+      [
+        "cinnamon",
+        5,
+        "spice",
         "seasoning"
       ],
       [
-        "butter",
+        "maple-syrup",
         5,
-        "richness"
+        "syrup note",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "lime",
-      "chili",
-      "cumin"
+      "squash-sweet potato dough",
+      "spiced syrup",
+      "fried aroma"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "fried",
+      "warm-spiced"
     ],
     "textureProfile": [
-      "sweet",
-      "soft or crisp"
+      "crisp edge",
+      "chewy center",
+      "sticky syrup"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-gluten"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "dessert",
+      "street-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "wants-light-dessert"
+    ],
     "orderVerdict": {
-      "en": "Sweet fried dessert; heavier than fruit.",
-      "zh": "如果你接受这类口味和风险，秘鲁南瓜甜甜圈 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Great warm dessert if you want something syrupy and fried, not a light pastry.",
+      "zh": "想吃热的、糖浆感强的炸甜点很适合；它不是轻盈糕点。",
+      "nl": "Sterk warm dessert als je iets stroperigs en gefrituurds wilt, geen licht gebak."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -24456,98 +24887,107 @@ export const worldDishes = [
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "set",
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Very sweet caramel-like custard with meringue.",
-      "zh": "秘鲁焦糖蛋奶甜点 是常见秘鲁菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Suspiro limeño is een veelvoorkomend gerecht in de peruaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Very sweet Peruvian dulce de leche-style custard topped with port or cinnamon meringue.",
+      "zh": "非常甜的秘鲁焦糖奶蛋甜点，上层常是蛋白霜，可能有波特酒或肉桂香。",
+      "nl": "Zeer zoet Peruaans dulce-de-leche-achtig custarddessert met port- of kaneelmeringue."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet, soft or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为sweet，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met sweet; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Served cool in small portions because the custard is dense and very sweet.",
+      "zh": "通常小份冷食，因为蛋奶焦糖层很浓稠、甜度高。",
+      "nl": "Koel en klein geserveerd omdat de custard dicht en heel zoet is."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "dessert",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Peruvian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频秘鲁菜菜品。",
-        "nl": "Een vaak voorkomend peruaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "A classic Peruvian dessert where sweetness and egg/dairy risks are the main signals.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "sugar",
+        "milk-solids",
         30,
-        "sweetener"
+        "milk caramel base"
       ],
       [
-        "cream",
+        "sugar",
         25,
-        "base"
-      ],
-      [
-        "wheat-flour",
-        20,
-        "base"
+        "sweetness"
       ],
       [
         "egg",
-        10,
-        "binder"
+        20,
+        "custard and meringue"
       ],
       [
-        "vanilla",
-        10,
-        "aroma",
+        "meringue",
+        15,
+        "topping"
+      ],
+      [
+        "condensed-milk",
+        5,
+        "milky sweetness",
         "seasoning"
       ],
       [
-        "butter",
+        "cinnamon",
         5,
-        "richness"
+        "aroma",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "lime",
-      "chili",
-      "cumin"
+      "dulce de leche custard",
+      "meringue",
+      "cinnamon"
     ],
     "basicTaste": [
-      "sweet",
-      "creamy"
+      "very sweet",
+      "creamy",
+      "caramel",
+      "eggy"
     ],
     "textureProfile": [
-      "sweet",
-      "soft or crisp"
+      "dense custard",
+      "airy meringue",
+      "smooth spoon dessert"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "dessert"
     ],
     "avoidIfTags": [
-      "wants-light-food"
+      "dairy-free",
+      "egg-free",
+      "low-sugar"
     ],
     "orderVerdict": {
-      "en": "Rich dessert for serious sweet cravings.",
-      "zh": "如果你接受这类口味和风险，秘鲁焦糖蛋奶甜点 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Best for serious sweet-tooth diners; it is richer and sweeter than most custards.",
+      "zh": "适合非常爱甜的人；它比多数蛋奶甜点更浓、更甜。",
+      "nl": "Voor echte zoetekauwen; rijker en zoeter dan de meeste custards."
     },
     "spiceLevel": 0,
-    "weightLevel": 4,
+    "weightLevel": 3,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -24556,98 +24996,106 @@ export const worldDishes = [
     "cuisineId": "brazilian",
     "names": {
       "en": "Feijoada",
-      "zh": "巴西黑豆炖肉",
+      "zh": "巴西黑豆猪肉炖菜",
       "nl": "Feijoada",
       "local": "feijoada"
     },
     "category": "meat",
     "cookingMethods": [
-      "grilled"
+      "braised"
     ],
     "shortDescription": {
-      "en": "Black bean stew with pork and beef, served with rice and sides.",
-      "zh": "巴西黑豆炖肉 是常见巴西菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Feijoada is een veelvoorkomend gerecht in de braziliaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Brazilian black bean stew with pork cuts and sausage, usually served with rice, farofa, greens, and orange.",
+      "zh": "巴西黑豆炖猪肉和香肠，常配米饭、farofa、绿叶菜和橙子。",
+      "nl": "Braziliaanse zwartebonenstoof met varkensvlees en worst, meestal met rijst, farofa, groen en sinaasappel."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Slow-braised and hearty, with beans absorbing smoky pork flavor.",
+      "zh": "长时间炖煮，黑豆吸收烟熏猪肉香，整体厚重。",
+      "nl": "Lang gestoofd en stevig, met bonen die rokerige varkenssmaak opnemen."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "signature",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "signature-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency Brazilian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频巴西菜菜品。",
-        "nl": "Een vaak voorkomend braziliaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "A national-reference Brazilian dish where pork must be clearly flagged.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "lamb",
-        45,
-        "main"
+        "black-beans",
+        35,
+        "bean stew"
+      ],
+      [
+        "pork",
+        25,
+        "pork cuts"
+      ],
+      [
+        "sausage-global",
+        15,
+        "smoked sausage"
       ],
       [
         "steamed-rice",
-        25,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        20,
+        15,
         "side"
       ],
       [
-        "cumin",
+        "cassava-flour",
         5,
-        "aroma",
-        "seasoning"
+        "farofa side"
       ],
       [
-        "black-pepper",
+        "orange",
         5,
-        "seasoning",
-        "seasoning"
+        "fresh side"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "lime",
-      "garlic"
+      "black beans",
+      "smoked pork",
+      "farofa"
     ],
     "basicTaste": [
       "savory",
+      "smoky",
+      "earthy",
       "rich"
     ],
     "textureProfile": [
-      "tender meat",
-      "charred or saucy edges"
+      "soft beans",
+      "tender pork",
+      "crumbly farofa"
     ],
     "riskFlags": [
       "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "signature-dish",
+      "comfort-food"
     ],
     "avoidIfTags": [
+      "no-pork",
       "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Very hearty; pork-heavy classic.",
-      "zh": "如果你接受这类口味和风险，巴西黑豆炖肉 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A defining Brazilian comfort dish, but it is pork-heavy and filling.",
+      "zh": "这是很有代表性的巴西舒适菜，但猪肉多、分量重。",
+      "nl": "Een bepalend Braziliaans comfortgerecht, maar varkensvleesrijk en vullend."
     },
     "spiceLevel": 0,
     "weightLevel": 5,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -24665,90 +25113,97 @@ export const worldDishes = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Chewy cheese bread made with cassava starch.",
-      "zh": "巴西芝士面包球 是常见巴西菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Pão de queijo is een veelvoorkomend gerecht in de braziliaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Brazilian cheese bread made with tapioca starch, cheese, egg, and milk, giving a chewy gluten-free-style center.",
+      "zh": "巴西芝士面包球，用木薯淀粉、奶酪、蛋和奶做成，中心有弹性和奶香。",
+      "nl": "Braziliaans kaasbroodje van tapiocazetmeel, kaas, ei en melk, met een elastische kern."
     },
     "cookingProfile": {
-      "en": "Usually served with bready, chewy or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为bready，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met bready; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Baked as small puffs: crisp outside when fresh, stretchy-chewy inside.",
+      "zh": "烤成小圆球，刚出炉外层微脆，内部拉伸有嚼劲。",
+      "nl": "Gebakken als kleine bolletjes: vers licht krokant buiten, rekbaar-kauwend binnen."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "snack"
       ],
       "description": {
-        "en": "A high-frequency Brazilian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频巴西菜菜品。",
-        "nl": "Een vaak voorkomend braziliaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Brazilian snack where dairy and egg matter despite the tapioca base.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "pita",
-        55,
-        "base"
+        "tapioca-starch",
+        40,
+        "chewy starch"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "freshness"
+        "cheese",
+        30,
+        "cheese body"
       ],
       [
-        "tomato",
+        "egg",
+        15,
+        "binder"
+      ],
+      [
+        "milk-solids",
         10,
-        "body"
+        "dairy body"
       ],
       [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "mint",
+        "sea-salt",
         5,
-        "finish",
+        "seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "lime",
-      "garlic"
+      "tapioca chew",
+      "cheese",
+      "fresh baked crust"
     ],
     "basicTaste": [
-      "savory",
-      "bready"
+      "cheesy",
+      "salty",
+      "mild",
+      "savory"
     ],
     "textureProfile": [
-      "bready",
-      "chewy or crisp"
+      "crisp shell",
+      "chewy center",
+      "stretchy cheese"
     ],
     "riskFlags": [
-      "contains-gluten",
       "contains-dairy",
       "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
+      "snack",
       "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "dairy-free",
+      "egg-free"
+    ],
     "orderVerdict": {
-      "en": "Great snack; dairy and egg common, often gluten-free.",
-      "zh": "如果你接受这类口味和风险，巴西芝士面包球 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Very approachable snack if you like cheesy chewy bread; best eaten warm.",
+      "zh": "喜欢奶酪香和弹牙面包的人会很容易接受；热吃最好。",
+      "nl": "Zeer toegankelijke snack als je kaasachtig kauwbrood lekker vindt; warm het best."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "high"
+    "restaurantVariationLevel": "medium"
   }),
   starterDish({
     "id": "coxinha",
@@ -24756,7 +25211,7 @@ export const worldDishes = [
     "cuisineId": "brazilian",
     "names": {
       "en": "Coxinha",
-      "zh": "巴西炸鸡肉球",
+      "zh": "巴西炸鸡肉酥球",
       "nl": "Coxinha",
       "local": "coxinha"
     },
@@ -24765,94 +25220,105 @@ export const worldDishes = [
       "deep-fried"
     ],
     "shortDescription": {
-      "en": "Teardrop-shaped fried dough with shredded chicken filling.",
-      "zh": "巴西炸鸡肉球 是常见巴西菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Coxinha is een veelvoorkomend gerecht in de braziliaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Teardrop-shaped Brazilian fried snack with shredded chicken filling inside a soft dough and crisp coating.",
+      "zh": "泪滴形巴西炸小吃，软面团包手撕鸡馅，外层裹粉炸脆。",
+      "nl": "Traanvormige Braziliaanse gefrituurde snack met geplukte kip in zacht deeg en krokante korst."
     },
     "cookingProfile": {
-      "en": "Usually served with crisp outside, savory center, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为crisp outside，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met crisp outside; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Deep-fried so the shell is crisp while the chicken filling stays creamy or soft.",
+      "zh": "油炸后外壳酥，里面鸡肉馅柔软，有些版本带奶油感。",
+      "nl": "Gefrituurd met krokante buitenkant en zachte, soms romige kipvulling."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "street-food",
+        "fried-snack"
       ],
       "description": {
-        "en": "A high-frequency Brazilian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频巴西菜菜品。",
-        "nl": "Een vaak voorkomend braziliaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Brazilian snack-counter staple where frying and chicken filling define the order.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "coating"
-      ],
-      [
         "chicken",
-        25,
-        "protein"
+        35,
+        "shredded filling"
       ],
       [
-        "potato",
-        20,
-        "body"
+        "wheat-flour",
+        30,
+        "dough and coating"
+      ],
+      [
+        "cream-cheese",
+        15,
+        "creamy filling",
+        "ingredient",
+        "medium",
+        true
       ],
       [
         "egg",
         10,
-        "binder"
+        "coating binder"
       ],
       [
-        "mustard",
-        10,
-        "dip",
+        "garlic",
+        5,
+        "aroma",
         "seasoning"
       ],
       [
-        "chili",
-        10,
-        "heat",
+        "parsley",
+        5,
+        "herb",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "lime",
-      "garlic"
+      "shredded chicken",
+      "fried dough",
+      "optional cream cheese"
     ],
     "basicTaste": [
-      "salty",
-      "savory"
+      "savory",
+      "fried",
+      "chickeny",
+      "mild"
     ],
     "textureProfile": [
-      "crisp outside",
-      "savory center"
+      "crisp shell",
+      "soft dough layer",
+      "moist chicken filling"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg"
+      "contains-egg",
+      "contains-dairy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "street-food",
+      "fried-snack"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "wants-light-food"
+    ],
     "orderVerdict": {
-      "en": "Good snack, fried and filling.",
-      "zh": "如果你接受这类口味和风险，巴西炸鸡肉球 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good as a filling fried snack; dairy varies, so ask if needed.",
+      "zh": "适合作为有饱腹感的炸小吃；是否含奶制品因版本而异。",
+      "nl": "Goed als vullende gefrituurde snack; zuivel wisselt per versie."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "restaurantVariationLevel": "medium",
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
   }),
   starterDish({
     "id": "moqueca",
@@ -24866,91 +25332,112 @@ export const worldDishes = [
     },
     "category": "seafood",
     "cookingMethods": [
-      "assembled"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Fish or seafood stew with coconut milk, peppers, and herbs.",
-      "zh": "巴西椰奶海鲜炖菜 是常见巴西菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Moqueca is een veelvoorkomend gerecht in de braziliaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Brazilian fish or seafood stew with tomato, peppers, coconut milk, cilantro, and in Bahia often dendê palm oil.",
+      "zh": "巴西鱼或海鲜炖菜，常有番茄、甜椒、椰奶、香菜，巴伊亚版本常加 dendê 红棕榈油。",
+      "nl": "Braziliaanse vis- of zeevruchtenstoof met tomaat, paprika, kokosmelk, koriander en in Bahia vaak dendê-palmolie."
     },
     "cookingProfile": {
-      "en": "Usually served with tender seafood, fresh finish, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender seafood，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender seafood; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Simmered into a bright, saucy stew; coconut and dendê make it richer than a plain tomato fish soup.",
+      "zh": "炖成明亮多汁的海鲜锅，椰奶和 dendê 油让它比普通番茄鱼汤更浓。",
+      "nl": "Gestoofd tot een heldere, sauzige stoof; kokos en dendê maken hem rijker dan gewone tomatenvissoep."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A high-frequency Brazilian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频巴西菜菜品。",
-        "nl": "Een vaak voorkomend braziliaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Brazilian seafood classic where fish/shellfish and coconut richness should be explicit.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
         "fish-fillet",
-        50,
-        "main"
+        35,
+        "fish"
       ],
       [
-        "steamed-rice",
+        "shrimp",
         20,
-        "base"
+        "seafood"
       ],
       [
-        "mixed-vegetables",
+        "tomato",
         15,
-        "side"
+        "sauce body"
+      ],
+      [
+        "bell-pepper",
+        10,
+        "vegetable"
+      ],
+      [
+        "coconut-milk",
+        10,
+        "creamy broth",
+        "seasoning"
+      ],
+      [
+        "dende-oil",
+        5,
+        "Bahian depth",
+        "seasoning"
       ],
       [
         "lime",
-        10,
-        "finish"
-      ],
-      [
-        "parsley",
         5,
-        "aroma",
-        "seasoning"
+        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "lime",
-      "garlic"
+      "coconut milk",
+      "dendê palm oil",
+      "tomato-pepper seafood broth"
     ],
     "basicTaste": [
-      "fresh",
-      "briny"
+      "savory",
+      "briny",
+      "creamy",
+      "slightly sweet"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "tender fish",
+      "juicy shrimp",
+      "saucy broth"
     ],
     "riskFlags": [
       "contains-fish",
       "contains-shellfish"
     ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+    "dietaryFlags": [
+      "pescatarian"
     ],
-    "avoidIfTags": [],
+    "goodForTags": [
+      "seafood",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "shellfish-allergy",
+      "wants-light-food"
+    ],
     "orderVerdict": {
-      "en": "Great seafood stew; shellfish may be included.",
-      "zh": "如果你接受这类口味和风险，巴西椰奶海鲜炖菜 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Excellent if you want a rich Brazilian seafood stew; confirm shellfish if allergic.",
+      "zh": "想吃巴西椰香海鲜炖菜很适合；贝类过敏要先确认。",
+      "nl": "Uitstekend voor rijke Braziliaanse zeevruchtenstoof; check schaaldieren bij allergie."
     },
     "spiceLevel": 1,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 4,
+    "restaurantVariationLevel": "medium",
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
   }),
   starterDish({
     "id": "churrasco",
@@ -24967,88 +25454,100 @@ export const worldDishes = [
       "grilled"
     ],
     "shortDescription": {
-      "en": "Brazilian grilled meats, often served rodizio-style.",
-      "zh": "巴西烤肉 是常见巴西菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Churrasco is een veelvoorkomend gerecht in de braziliaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Brazilian-style grilled meats, often beef cuts such as picanha plus sausage, chicken, or pork in churrascaria service.",
+      "zh": "巴西烤肉，常见牛肉部位如 picanha，也可能有香肠、鸡肉或猪肉轮番上桌。",
+      "nl": "Braziliaans gegrild vlees, vaak rund zoals picanha plus worst, kip of varkensvlees in churrascaria-stijl."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Grilled over high heat with salt-forward seasoning, emphasizing char, fat, and meat texture.",
+      "zh": "高温烤制，调味多以盐突出肉香，重点是焦香、脂香和肉质。",
+      "nl": "Heet gegrild met zoutgerichte kruiding; de nadruk ligt op korst, vet en vleestextuur."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "signature",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "signature-dish",
+        "meat-lover"
       ],
       "description": {
-        "en": "A high-frequency Brazilian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频巴西菜菜品。",
-        "nl": "Een vaak voorkomend braziliaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Brazilian meat-service format where mixed meats and possible pork should be expected.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "lamb",
-        45,
-        "main"
+        "beef",
+        55,
+        "primary grilled meat"
       ],
       [
-        "steamed-rice",
-        25,
-        "base"
+        "sausage-global",
+        15,
+        "sausage option"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "side"
+        "chicken",
+        10,
+        "alternate meat"
       ],
       [
-        "cumin",
+        "pork",
+        10,
+        "possible meat"
+      ],
+      [
+        "sea-salt",
         5,
-        "aroma",
+        "seasoning",
         "seasoning"
       ],
       [
-        "black-pepper",
+        "garlic",
         5,
-        "seasoning",
+        "optional marinade",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "lime",
-      "garlic"
+      "charcoal grill",
+      "salted beef fat",
+      "mixed meats"
     ],
     "basicTaste": [
-      "savory",
+      "meaty",
+      "smoky",
+      "salty",
       "rich"
     ],
     "textureProfile": [
-      "tender meat",
-      "charred or saucy edges"
+      "charred edges",
+      "juicy slices",
+      "fatty bites"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-pork"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "meat-lover",
+      "signature-dish"
     ],
     "avoidIfTags": [
+      "no-pork",
       "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Good for meat lovers; very filling.",
-      "zh": "如果你接受这类口味和风险，巴西烤肉 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Best for meat-focused meals; ask for specific cuts if you avoid pork or sausage.",
+      "zh": "适合以肉为主的一餐；不吃猪肉或香肠要先说明想要的部位。",
+      "nl": "Het beste voor vleesgerichte maaltijden; vraag naar specifieke stukken als je varkensvlees of worst vermijdt."
     },
     "spiceLevel": 0,
     "weightLevel": 5,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "restaurantVariationLevel": "high",
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
   }),
   starterDish({
     "id": "acaraje",
@@ -25056,104 +25555,118 @@ export const worldDishes = [
     "cuisineId": "brazilian",
     "names": {
       "en": "Acarajé",
-      "zh": "巴西炸豆球虾馅",
+      "zh": "巴西炸黑眼豆虾馅",
       "nl": "Acarajé",
       "local": "acarajé"
     },
     "category": "fried-snack",
     "cookingMethods": [
-      "deep-fried"
+      "deep-fried",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Fried black-eyed pea fritter with shrimp and spicy fillings.",
-      "zh": "巴西炸豆球虾馅 是常见巴西菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Acarajé is een veelvoorkomend gerecht in de braziliaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Bahian black-eyed pea fritter fried in dendê oil and split open with vatapá, dried shrimp, salad, and pepper sauce.",
+      "zh": "巴伊亚黑眼豆炸饼，用 dendê 红棕榈油炸后剖开，夹 vatapá、虾、沙拉和辣酱。",
+      "nl": "Bahiaans zwartogenbonenbeignet gefrituurd in dendê, gevuld met vatapá, gedroogde garnaal, salade en pepersaus."
     },
     "cookingProfile": {
-      "en": "Usually served with crisp outside, savory center, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为crisp outside，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met crisp outside; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Crisp bean fritter outside with rich shrimp-nut filling; dendê gives a distinctive red oil aroma.",
+      "zh": "外层是豆香炸壳，内里浓郁带虾和坚果感，dendê 油有明显红油香。",
+      "nl": "Krokante bonenbeignet met rijke garnaal-notenvulling; dendê geeft rode olie-aroma."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "signature",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "signature-dish",
+        "street-food"
       ],
       "description": {
-        "en": "A high-frequency Brazilian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频巴西菜菜品。",
-        "nl": "Een vaak voorkomend braziliaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "An Afro-Brazilian street-food icon where shellfish and peanut risks are central.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "coating"
+        "black-eyed-peas",
+        40,
+        "fritter base"
       ],
       [
-        "chicken",
-        25,
-        "protein"
-      ],
-      [
-        "potato",
+        "shrimp",
         20,
-        "body"
+        "filling"
       ],
       [
-        "egg",
+        "coconut-milk",
         10,
-        "binder"
-      ],
-      [
-        "mustard",
-        10,
-        "dip",
+        "vatapa filling",
         "seasoning"
       ],
       [
-        "chili",
+        "peanuts",
         10,
-        "heat",
+        "nutty filling"
+      ],
+      [
+        "dende-oil",
+        10,
+        "frying oil",
+        "seasoning"
+      ],
+      [
+        "mixed-vegetables",
+        5,
+        "salad"
+      ],
+      [
+        "chili",
+        5,
+        "pepper sauce",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "lime",
-      "garlic"
+      "dendê oil",
+      "black-eyed pea fritter",
+      "shrimp-vatapá filling"
     ],
     "basicTaste": [
-      "salty",
-      "savory"
+      "fried",
+      "savory",
+      "nutty",
+      "spicy"
     ],
     "textureProfile": [
-      "crisp outside",
-      "savory center"
+      "crisp fritter",
+      "creamy filling",
+      "juicy shrimp"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-shellfish"
+      "contains-shellfish",
+      "contains-peanut",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "signature-dish",
+      "street-food"
     ],
     "avoidIfTags": [
-      "spice-sensitive"
+      "shellfish-allergy",
+      "peanut-allergy",
+      "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Distinctive street food; shellfish common.",
-      "zh": "如果你接受这类口味和风险，巴西炸豆球虾馅 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A distinctive must-try if you can eat shellfish and peanuts; otherwise avoid.",
+      "zh": "能吃虾和花生时很值得尝试；贝类或花生过敏者应避开。",
+      "nl": "Een uitgesproken aanrader als je schaal- en pindaproducten kunt eten; anders vermijden."
     },
     "spiceLevel": 3,
-    "weightLevel": 3,
+    "weightLevel": 4,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -25162,98 +25675,112 @@ export const worldDishes = [
     "cuisineId": "brazilian",
     "names": {
       "en": "Farofa",
-      "zh": "巴西木薯粉配菜",
+      "zh": "巴西炒木薯粉配菜",
       "nl": "Farofa",
       "local": "farofa"
     },
-    "category": "starter",
+    "category": "side",
     "cookingMethods": [
-      "assembled"
+      "toasted"
     ],
     "shortDescription": {
-      "en": "Toasted cassava flour side with butter, bacon, or egg variants.",
-      "zh": "巴西木薯粉配菜 是常见巴西菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Farofa is een veelvoorkomend gerecht in de braziliaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Toasted cassava flour side, often cooked with butter, onion, bacon, egg, herbs, or banana depending on the version.",
+      "zh": "炒香的木薯粉配菜，可加黄油、洋葱、培根、鸡蛋、香草或香蕉，版本很多。",
+      "nl": "Geroosterd cassavemeel als bijgerecht, vaak met boter, ui, spek, ei, kruiden of banaan."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, fresh or creamy dip, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为small bites，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met small bites; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Dry, crumbly, and toasty; it is sprinkled beside stews or grilled meats rather than eaten as a sauce.",
+      "zh": "口感干松、颗粒感和烘香明显，通常撒在炖菜或烤肉旁边，不是酱汁。",
+      "nl": "Droog, kruimelig en geroosterd; naast stoof of gegrild vlees, niet als saus."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "side",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Brazilian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频巴西菜菜品。",
-        "nl": "Een vaak voorkomend braziliaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Brazilian side where dry crumbly texture is the key ordering clue.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "chickpeas",
-        35,
-        "base"
+        "cassava-flour",
+        65,
+        "toasted flour"
       ],
       [
-        "mixed-vegetables",
-        30,
-        "freshness"
-      ],
-      [
-        "tomato",
-        15,
-        "body"
-      ],
-      [
-        "olive-oil",
+        "butter",
         10,
-        "finish",
-        "seasoning"
+        "fat"
+      ],
+      [
+        "bacon",
+        10,
+        "common savory add-in",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "egg",
+        10,
+        "common add-in",
+        "ingredient",
+        "medium",
+        true
       ],
       [
         "parsley",
-        10,
-        "aroma",
+        5,
+        "herb",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "lime",
-      "garlic"
+      "toasted cassava flour",
+      "butter",
+      "bacon or egg variants"
     ],
     "basicTaste": [
+      "toasty",
       "savory",
-      "fresh"
+      "dry",
+      "crumbly"
     ],
     "textureProfile": [
-      "small bites",
-      "fresh or creamy dip"
+      "dry crumbs",
+      "grainy crunch",
+      "oily toastiness"
     ],
     "riskFlags": [
       "contains-pork",
-      "contains-egg"
+      "contains-egg",
+      "contains-dairy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "side"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "no-pork",
+      "egg-free",
+      "dairy-free",
+      "wants-saucy-food"
+    ],
     "orderVerdict": {
-      "en": "Texture is dry and crumbly; ask about bacon/egg.",
-      "zh": "如果你接受这类口味和风险，巴西木薯粉配菜 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good with stews or grilled meat, but it is intentionally dry and crumbly.",
+      "zh": "很适合配炖菜或烤肉，但它本来就是干松颗粒感。",
+      "nl": "Goed bij stoof of gegrild vlees, maar bewust droog en kruimelig."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "high"
+    "restaurantVariationLevel": "high",
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
   }),
   starterDish({
     "id": "brigadeiro",
@@ -25261,102 +25788,103 @@ export const worldDishes = [
     "cuisineId": "brazilian",
     "names": {
       "en": "Brigadeiro",
-      "zh": "巴西巧克力奶糖球",
+      "zh": "巴西巧克力炼乳糖球",
       "nl": "Brigadeiro",
       "local": "brigadeiro"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "stirred",
+      "set"
     ],
     "shortDescription": {
-      "en": "Chocolate condensed milk truffle-like sweet.",
-      "zh": "巴西巧克力奶糖球 是常见巴西菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Brigadeiro is een veelvoorkomend gerecht in de braziliaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Brazilian chocolate sweet made from condensed milk, cocoa, and butter, rolled in chocolate sprinkles.",
+      "zh": "巴西巧克力甜点，用炼乳、可可和黄油搅煮成软糖，再滚上巧克力屑。",
+      "nl": "Braziliaanse chocoladesnoep van gecondenseerde melk, cacao en boter, gerold in hagelslag."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet, soft or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为sweet，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met sweet; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Cooked down into a dense, fudgy bite; very sweet and dairy-forward.",
+      "zh": "煮到浓缩成柔软软糖状，一口很甜，奶香明显。",
+      "nl": "Ingekookt tot een dichte fudgeachtige hap; heel zoet en zuivelrijk."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "dessert",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Brazilian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频巴西菜菜品。",
-        "nl": "Een vaak voorkomend braziliaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Brazilian party sweet where dairy and intense sweetness should be clear.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
+        "milk-solids",
+        35,
+        "condensed milk base"
+      ],
+      [
         "sugar",
-        30,
-        "sweetener"
-      ],
-      [
-        "cream",
         25,
-        "base"
+        "sweetness"
       ],
       [
-        "wheat-flour",
+        "chocolate",
         20,
-        "base"
-      ],
-      [
-        "egg",
-        10,
-        "binder"
-      ],
-      [
-        "vanilla",
-        10,
-        "aroma",
-        "seasoning"
+        "chocolate body"
       ],
       [
         "butter",
-        5,
+        10,
         "richness"
+      ],
+      [
+        "cocoa",
+        10,
+        "cocoa flavor",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "lime",
-      "garlic"
+      "condensed milk",
+      "cocoa",
+      "buttery fudge texture"
     ],
     "basicTaste": [
-      "sweet",
+      "very sweet",
+      "chocolatey",
       "creamy"
     ],
     "textureProfile": [
-      "sweet",
-      "soft or crisp"
+      "soft fudge",
+      "sticky center",
+      "sprinkle coating"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+    "dietaryFlags": [
+      "vegetarian"
     ],
-    "avoidIfTags": [],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "low-sugar"
+    ],
     "orderVerdict": {
-      "en": "Very sweet small dessert; dairy-heavy.",
-      "zh": "如果你接受这类口味和风险，巴西巧克力奶糖球 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Great for a small intense sweet; too sugary if you prefer light desserts.",
+      "zh": "适合想吃小颗但甜度集中的甜点；不爱高甜就慎选。",
+      "nl": "Goed voor een kleine intense zoetigheid; te zoet als je lichte desserts wilt."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 2,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -25364,9 +25892,9 @@ export const worldDishes = [
     "metadataCode": "130009",
     "cuisineId": "brazilian",
     "names": {
-      "en": "Pastel",
+      "en": "Brazilian Pastel",
       "zh": "巴西炸馅饼",
-      "nl": "Pastel",
+      "nl": "Braziliaanse pastel",
       "local": "pastel"
     },
     "category": "fried-snack",
@@ -25374,94 +25902,113 @@ export const worldDishes = [
       "deep-fried"
     ],
     "shortDescription": {
-      "en": "Thin fried pastry with cheese, meat, or heart-of-palm filling.",
-      "zh": "巴西炸馅饼 是常见巴西菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Pastel is een veelvoorkomend gerecht in de braziliaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Thin, crisp Brazilian fried pastry filled with cheese, ground meat, chicken, shrimp, or heart of palm.",
+      "zh": "巴西薄皮炸馅饼，常见奶酪、肉末、鸡肉、虾或棕榈芯馅。",
+      "nl": "Dunne krokante Braziliaanse gefrituurde pastei met kaas, gehakt, kip, garnaal of palmhart."
     },
     "cookingProfile": {
-      "en": "Usually served with crisp outside, savory center, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为crisp outside，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met crisp outside; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Fried quickly so the shell blisters and shatters, while the filling stays hot and savory.",
+      "zh": "快速油炸，外皮起泡酥脆，内馅热而咸香。",
+      "nl": "Snel gefrituurd zodat de korst blaast en kraakt, met hete hartige vulling."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "street-food",
+        "fried-snack"
       ],
       "description": {
-        "en": "A high-frequency Brazilian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频巴西菜菜品。",
-        "nl": "Een vaak voorkomend braziliaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Brazilian snack-market item where filling decides allergen risk.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
         "wheat-flour",
-        25,
-        "coating"
+        45,
+        "thin pastry"
+      ],
+      [
+        "ground-meat",
+        20,
+        "common filling",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "cheese",
+        15,
+        "common filling",
+        "ingredient",
+        "medium",
+        true
       ],
       [
         "chicken",
-        25,
-        "protein"
-      ],
-      [
-        "potato",
-        20,
-        "body"
-      ],
-      [
-        "egg",
         10,
-        "binder"
+        "alternate filling",
+        "ingredient",
+        "medium",
+        true
       ],
       [
-        "mustard",
-        10,
-        "dip",
-        "seasoning"
+        "shrimp",
+        5,
+        "alternate filling",
+        "ingredient",
+        "high",
+        true
       ],
       [
         "chili",
-        10,
-        "heat",
+        5,
+        "dip or sauce",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "lime",
-      "garlic"
+      "blistered fried pastry",
+      "hot savory filling",
+      "market-style dipping sauce"
     ],
     "basicTaste": [
-      "salty",
-      "savory"
+      "fried",
+      "savory",
+      "salty"
     ],
     "textureProfile": [
-      "crisp outside",
-      "savory center"
+      "thin crisp shell",
+      "hot filling",
+      "airy pockets"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg"
+      "contains-dairy",
+      "contains-shellfish"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "street-food",
+      "fried-snack"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "shellfish-allergy"
+    ],
     "orderVerdict": {
-      "en": "Crisp snack; filling decides risk.",
-      "zh": "如果你接受这类口味和风险，巴西炸馅饼 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A crowd-pleasing fried snack; choose the filling carefully for allergens.",
+      "zh": "很容易接受的炸小吃；过敏源主要取决于具体馅料。",
+      "nl": "Een publieksvriendelijke gefrituurde snack; kies de vulling zorgvuldig bij allergenen."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "restaurantVariationLevel": "high",
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
   }),
   starterDish({
     "id": "vatapa",
@@ -25469,99 +26016,120 @@ export const worldDishes = [
     "cuisineId": "brazilian",
     "names": {
       "en": "Vatapá",
-      "zh": "巴西虾椰奶花生酱",
+      "zh": "巴西虾椰奶花生浓酱",
       "nl": "Vatapá",
       "local": "vatapá"
     },
     "category": "seafood",
     "cookingMethods": [
-      "assembled"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Creamy Afro-Brazilian dish with shrimp, coconut, bread, and nuts or peanuts.",
-      "zh": "巴西虾椰奶花生酱 是常见巴西菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Vatapá is een veelvoorkomend gerecht in de braziliaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Afro-Brazilian creamy paste or stew made with bread, shrimp, coconut milk, peanuts or cashews, and dendê oil.",
+      "zh": "非裔巴西浓酱或炖菜，用面包、虾、椰奶、花生或腰果和 dendê 红棕榈油制成。",
+      "nl": "Afro-Braziliaanse romige pasta of stoof van brood, garnaal, kokosmelk, pinda of cashew en dendê."
     },
     "cookingProfile": {
-      "en": "Usually served with tender seafood, fresh finish, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender seafood，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender seafood; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Thick, smooth, and rich, often used as a filling for acarajé or served with rice.",
+      "zh": "质地浓稠顺滑、很厚重，常作 acarajé 内馅或配米饭。",
+      "nl": "Dik, glad en rijk, vaak als vulling voor acarajé of met rijst."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A high-frequency Brazilian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频巴西菜菜品。",
-        "nl": "Een vaak voorkomend braziliaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "An Afro-Brazilian dish where shellfish and nut risks are unavoidable signals.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        50,
-        "main"
+        "shrimp",
+        25,
+        "seafood"
       ],
       [
-        "steamed-rice",
+        "bread",
         20,
-        "base"
+        "thickener"
       ],
       [
-        "mixed-vegetables",
+        "coconut-milk",
+        20,
+        "creamy body",
+        "seasoning"
+      ],
+      [
+        "peanuts",
         15,
-        "side"
+        "nut thickener"
       ],
       [
-        "lime",
+        "dende-oil",
         10,
-        "finish"
+        "red palm depth",
+        "seasoning"
       ],
       [
-        "parsley",
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "garlic",
         5,
         "aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "lime",
-      "garlic"
+      "dendê oil",
+      "shrimp",
+      "coconut-peanut thickness"
     ],
     "basicTaste": [
-      "fresh",
-      "briny"
+      "rich",
+      "nutty",
+      "briny",
+      "creamy"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "thick paste",
+      "smooth sauce",
+      "small shrimp pieces"
     ],
     "riskFlags": [
-      "contains-fish",
       "contains-shellfish",
       "contains-peanut",
-      "contains-gluten"
+      "contains-gluten",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "classic-dish",
+      "seafood"
     ],
     "avoidIfTags": [
+      "shellfish-allergy",
+      "peanut-allergy",
+      "gluten-free",
       "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Rich and distinctive; shellfish and nut risk.",
-      "zh": "如果你接受这类口味和风险，巴西虾椰奶花生酱 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Very distinctive and rich; avoid with shellfish, peanut, or gluten concerns.",
+      "zh": "风味很有辨识度且浓厚；贝类、花生或麸质过敏者要避开。",
+      "nl": "Heel uitgesproken en rijk; vermijden bij schaal-, pinda- of glutenproblemen."
     },
     "spiceLevel": 2,
     "weightLevel": 4,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -25571,98 +26139,111 @@ export const worldDishes = [
     "cuisineId": "brazilian",
     "names": {
       "en": "Bobó de Camarão",
-      "zh": "巴西木薯虾浓 stew",
+      "zh": "巴西木薯椰奶虾浓汤",
       "nl": "Bobó de camarão",
       "local": "bobó de camarão"
     },
     "category": "seafood",
     "cookingMethods": [
-      "assembled"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Shrimp in creamy cassava and coconut sauce.",
-      "zh": "巴西木薯虾浓 stew 是常见巴西菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Bobó de camarão is een veelvoorkomend gerecht in de braziliaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Brazilian shrimp stew in a creamy cassava purée with coconut milk, tomato, peppers, and dendê oil.",
+      "zh": "巴西虾和木薯泥炖菜，加入椰奶、番茄、甜椒和 dendê 红棕榈油，口感浓滑。",
+      "nl": "Braziliaanse garnalenstoof in romige cassavepuree met kokosmelk, tomaat, paprika en dendê."
     },
     "cookingProfile": {
-      "en": "Usually served with tender seafood, fresh finish, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为tender seafood，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met tender seafood; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Cassava thickens the stew into a soft purée around juicy shrimp.",
+      "zh": "木薯让汤汁变成柔滑泥状，包住多汁的虾。",
+      "nl": "Cassave bindt de stoof tot zachte puree rond sappige garnalen."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A high-frequency Brazilian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频巴西菜菜品。",
-        "nl": "Een vaak voorkomend braziliaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Brazilian shrimp dish where cassava texture differentiates it from moqueca.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        50,
-        "main"
+        "shrimp",
+        35,
+        "seafood"
       ],
       [
-        "steamed-rice",
-        20,
-        "base"
+        "cassava",
+        30,
+        "creamy purée"
       ],
       [
-        "mixed-vegetables",
+        "coconut-milk",
         15,
-        "side"
+        "creamy broth",
+        "seasoning"
       ],
       [
-        "lime",
+        "tomato",
         10,
-        "finish"
+        "sauce body"
       ],
       [
-        "parsley",
+        "bell-pepper",
         5,
-        "aroma",
+        "vegetable"
+      ],
+      [
+        "dende-oil",
+        5,
+        "red palm depth",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "lime",
-      "garlic"
+      "cassava purée",
+      "shrimp",
+      "coconut milk",
+      "dendê oil"
     ],
     "basicTaste": [
-      "fresh",
-      "briny"
+      "creamy",
+      "briny",
+      "savory",
+      "slightly sweet"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "smooth cassava sauce",
+      "juicy shrimp",
+      "soft vegetables"
     ],
     "riskFlags": [
-      "contains-fish",
       "contains-shellfish"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+      "seafood",
+      "comfort-food"
     ],
     "avoidIfTags": [
+      "shellfish-allergy",
       "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Rich shellfish dish, soft and saucy.",
-      "zh": "如果你接受这类口味和风险，巴西木薯虾浓 stew 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Choose it for creamy shrimp comfort; avoid if shellfish is a concern.",
+      "zh": "想吃浓滑虾类炖菜很适合；贝类过敏者不要点。",
+      "nl": "Kies dit voor romige garnalencomfort; vermijden bij schaaldierallergie."
     },
     "spiceLevel": 1,
     "weightLevel": 4,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -25677,96 +26258,101 @@ export const worldDishes = [
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "baked",
+      "set"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Glossy coconut egg-yolk custard.",
-      "zh": "巴西椰香蛋黄布丁 是常见巴西菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-      "nl": "Quindim is een veelvoorkomend gerecht in de braziliaans keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Glossy Brazilian baked custard made mainly with egg yolks, sugar, and coconut.",
+      "zh": "巴西亮面烤蛋黄布丁，主要由蛋黄、糖和椰子制成，甜度高。",
+      "nl": "Glanzende Braziliaanse gebakken custard van vooral eidooier, suiker en kokos."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet, soft or crisp, so the ordering experience depends on sauce, filling, and portion size.",
-      "zh": "通常呈现为sweet，点餐时主要看酱汁、馅料和分量。",
-      "nl": "Meestal met sweet; saus, vulling en portiegrootte bepalen de ervaring."
+      "en": "Set into a small shiny custard with a dense eggy body and coconut base.",
+      "zh": "凝固定型成小份亮面布丁，蛋黄感浓，底部常有椰蓉层。",
+      "nl": "Gestold tot kleine glanzende custard met dichte eierbody en kokoslaag."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "dessert",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Brazilian menu item added for broad DishKAI restaurant coverage.",
-        "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频巴西菜菜品。",
-        "nl": "Een vaak voorkomend braziliaans menu-item voor brede DishKAI restaurantdekking."
+        "en": "A Brazilian-Portuguese heritage dessert where egg is the defining risk.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
       }
     },
     "composition": [
       [
+        "egg",
+        40,
+        "egg-yolk custard"
+      ],
+      [
         "sugar",
         30,
-        "sweetener"
+        "sweetness"
       ],
       [
-        "cream",
-        25,
-        "base"
-      ],
-      [
-        "wheat-flour",
+        "toasted-coconut",
         20,
-        "base"
-      ],
-      [
-        "egg",
-        10,
-        "binder"
-      ],
-      [
-        "vanilla",
-        10,
-        "aroma",
-        "seasoning"
+        "coconut body"
       ],
       [
         "butter",
         5,
         "richness"
+      ],
+      [
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cumin",
-      "lime",
-      "garlic"
+      "egg yolk custard",
+      "coconut",
+      "glossy caramel-like sweetness"
     ],
     "basicTaste": [
-      "sweet",
-      "creamy"
+      "very sweet",
+      "eggy",
+      "coconutty",
+      "rich"
     ],
     "textureProfile": [
-      "sweet",
-      "soft or crisp"
+      "smooth custard",
+      "dense bite",
+      "coconut layer"
     ],
     "riskFlags": [
-      "contains-gluten",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "restaurant-coverage",
-      "first-timer-friendly"
+    "dietaryFlags": [
+      "vegetarian"
     ],
-    "avoidIfTags": [],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "egg-free",
+      "dairy-free",
+      "low-sugar"
+    ],
     "orderVerdict": {
-      "en": "Sweet dense dessert; egg-heavy.",
-      "zh": "如果你接受这类口味和风险，巴西椰香蛋黄布丁 是可以考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Best if you like eggy custards and coconut; skip if you dislike very sweet desserts.",
+      "zh": "喜欢蛋黄布丁和椰香时很适合；不爱高甜甜点就跳过。",
+      "nl": "Goed als je eiercustard en kokos lekker vindt; overslaan als je heel zoet niet prettig vindt."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
     "restaurantVariationLevel": "medium"
   }),
 ];

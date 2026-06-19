@@ -1,0 +1,2265 @@
+[
+  {
+    "id": "anticuchos",
+    "metadataCode": "129005",
+    "cuisineId": "peruvian",
+    "names": {
+      "en": "Anticuchos",
+      "zh": "秘鲁烤牛心串",
+      "nl": "Anticuchos",
+      "local": "anticuchos"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "shortDescription": {
+      "en": "Peruvian grilled skewers, classically beef heart marinated with ají, garlic, cumin, and vinegar, often with potato or corn.",
+      "zh": "秘鲁烤串，经典版本是牛心，用黄辣椒、蒜、孜然和醋腌制，常配土豆或玉米。",
+      "nl": "Peruaanse spiesjes, klassiek van runderhart gemarineerd met ají, knoflook, komijn en azijn, vaak met aardappel of mais."
+    },
+    "cookingProfile": {
+      "en": "Grilled over high heat, giving firm, smoky meat with a tangy chili marinade.",
+      "zh": "高温烤制，肉质偏紧实有烟熏感，腌料带酸辣香。",
+      "nl": "Heet gegrild, met stevig rokerig vlees en friszure chilimarinade."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "regional-dish"
+      ],
+      "description": {
+        "en": "A signature Peruvian street-food skewered meat with offal identity that should be transparent.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "beef-heart",
+        60,
+        "classic skewer meat"
+      ],
+      [
+        "potato",
+        15,
+        "side"
+      ],
+      [
+        "corn",
+        10,
+        "side"
+      ],
+      [
+        "aji-amarillo",
+        5,
+        "chili marinade",
+        "seasoning"
+      ],
+      [
+        "vinegar",
+        5,
+        "marinade acid",
+        "seasoning"
+      ],
+      [
+        "cumin",
+        5,
+        "warm spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "beef heart",
+      "ají marinade",
+      "charcoal grill"
+    ],
+    "basicTaste": [
+      "meaty",
+      "smoky",
+      "tangy",
+      "mildly spicy"
+    ],
+    "textureProfile": [
+      "firm meat",
+      "charred edges",
+      "starchy sides"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "meat-lover"
+    ],
+    "avoidIfTags": [
+      "offal-avoidance",
+      "spice-sensitive"
+    ],
+    "orderVerdict": {
+      "en": "Great for adventurous meat eaters; classic versions are beef heart, not ordinary steak.",
+      "zh": "适合愿意尝试内脏部位的肉食爱好者；经典版本是牛心，不是普通牛排。",
+      "nl": "Sterk voor avontuurlijke vleeseters; klassiek is runderhart, geen gewone biefstuk."
+    },
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "papa-a-la-huancaina",
+    "metadataCode": "129006",
+    "cuisineId": "peruvian",
+    "names": {
+      "en": "Papa a la Huancaína",
+      "zh": "秘鲁黄辣椒奶酪土豆",
+      "nl": "Papa a la Huancaína",
+      "local": "papa a la huancaína"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "boiled",
+      "assembled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Boiled potatoes covered in creamy ají amarillo cheese sauce, usually served cool with egg, olive, and lettuce.",
+      "zh": "水煮土豆淋秘鲁黄辣椒奶酪酱，通常冷或常温上桌，配鸡蛋、橄榄和生菜。",
+      "nl": "Gekookte aardappel met romige ají amarillo-kaassaus, meestal koel met ei, olijf en sla."
+    },
+    "cookingProfile": {
+      "en": "Cool potatoes and thick sauce make it creamy and gentle, with fruity chili more than sharp heat.",
+      "zh": "冷土豆和浓酱带来奶油感，黄辣椒偏果香，辣度通常温和。",
+      "nl": "Koele aardappel en dikke saus maken het romig en mild; de chili is fruitig, niet fel heet."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "starter",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A classic Peruvian starter where dairy and egg are central.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "potato",
+        45,
+        "boiled potato"
+      ],
+      [
+        "cheese",
+        20,
+        "sauce body"
+      ],
+      [
+        "cream",
+        10,
+        "creamy sauce"
+      ],
+      [
+        "egg",
+        10,
+        "garnish"
+      ],
+      [
+        "olives",
+        5,
+        "briny garnish"
+      ],
+      [
+        "aji-amarillo",
+        5,
+        "yellow chili",
+        "seasoning"
+      ],
+      [
+        "bread",
+        5,
+        "sauce thickener"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "ají amarillo",
+      "fresh cheese sauce",
+      "cool potato"
+    ],
+    "basicTaste": [
+      "creamy",
+      "mildly spicy",
+      "salty",
+      "starchy"
+    ],
+    "textureProfile": [
+      "cool soft potato",
+      "thick sauce",
+      "firm egg"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-egg",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "starter",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "egg-free",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "A gentle but rich starter; avoid if dairy or egg is a problem.",
+      "zh": "这是温和但浓郁的前菜；不能吃奶制品或鸡蛋就谨慎。",
+      "nl": "Een milde maar rijke starter; vermijden bij zuivel- of eiproblemen."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "arroz-chaufa",
+    "metadataCode": "129007",
+    "cuisineId": "peruvian",
+    "names": {
+      "en": "Arroz Chaufa",
+      "zh": "秘鲁中式炒饭",
+      "nl": "Arroz chaufa",
+      "local": "arroz chaufa"
+    },
+    "category": "rice",
+    "cookingMethods": [
+      "stir-fried"
+    ],
+    "shortDescription": {
+      "en": "Peruvian chifa fried rice with soy sauce, egg, scallions, and chicken, pork, beef, or seafood variants.",
+      "zh": "秘鲁中餐 chifa 风格炒饭，常有酱油、鸡蛋、葱，以及鸡肉、猪肉、牛肉或海鲜变化。",
+      "nl": "Peruaanse chifa-gebakken rijst met sojasaus, ei, lente-ui en varianten met kip, varkensvlees, rund of zeevruchten."
+    },
+    "cookingProfile": {
+      "en": "Wok-fried and savory, closer to fried rice than a saucy Latin rice dish.",
+      "zh": "热锅快炒、咸香带锅气，更接近中式炒饭，不是湿润炖饭。",
+      "nl": "Gewokt en hartig, dichter bij gebakken rijst dan bij een sauzige Latijnse rijstschotel."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "comfort-food",
+        "rice"
+      ],
+      "description": {
+        "en": "A Peruvian chifa fried-rice reference where protein choice and soy/gluten risk vary by version.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "steamed-rice",
+        55,
+        "fried rice base"
+      ],
+      [
+        "egg",
+        15,
+        "scrambled egg"
+      ],
+      [
+        "chicken",
+        10,
+        "common protein"
+      ],
+      [
+        "green-onion",
+        10,
+        "aromatic"
+      ],
+      [
+        "soy-sauce",
+        5,
+        "seasoning",
+        "seasoning"
+      ],
+      [
+        "sesame-oil",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "soy sauce",
+      "wok heat",
+      "scallion"
+    ],
+    "basicTaste": [
+      "savory",
+      "salty",
+      "eggy",
+      "aromatic"
+    ],
+    "textureProfile": [
+      "separate rice grains",
+      "small egg pieces",
+      "light oil gloss"
+    ],
+    "riskFlags": [
+      "contains-soy",
+      "contains-gluten",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "rice",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "soy-free",
+      "gluten-free",
+      "egg-free"
+    ],
+    "orderVerdict": {
+      "en": "A familiar, filling option; check the protein if you avoid pork or shellfish.",
+      "zh": "熟悉又有饱腹感；不吃猪肉或海鲜时要确认具体蛋白。",
+      "nl": "Een vertrouwde, vullende keuze; check de eiwitvariant bij varkensvlees of schaaldieren."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "restaurantVariationLevel": "high",
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
+  },
+  {
+    "id": "pollo-a-la-brasa",
+    "metadataCode": "129008",
+    "cuisineId": "peruvian",
+    "names": {
+      "en": "Pollo a la Brasa",
+      "zh": "秘鲁炭烤鸡",
+      "nl": "Pollo a la brasa",
+      "local": "pollo a la brasa"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "shortDescription": {
+      "en": "Peruvian rotisserie or charcoal chicken marinated with garlic, cumin, soy-like savoriness, and served with fries and spicy green sauces.",
+      "zh": "秘鲁炭烤或旋转烤鸡，用蒜、孜然和咸香腌料调味，常配薯条和辣绿酱。",
+      "nl": "Peruaanse houtskool- of spitkip met knoflook, komijn en hartige marinade, vaak met friet en pittige groene sauzen."
+    },
+    "cookingProfile": {
+      "en": "Roasted until the skin is browned and the meat stays juicy; sauces decide the heat.",
+      "zh": "鸡皮烤到焦香，肉保持多汁；辣度多由蘸酱决定。",
+      "nl": "Geroosterd tot bruine huid en sappig vlees; sauzen bepalen de pit."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish",
+        "safe-choice"
+      ],
+      "description": {
+        "en": "A widely recognized Peruvian main that is accessible but still sauce-dependent.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        55,
+        "roasted chicken"
+      ],
+      [
+        "fries",
+        25,
+        "common side"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "salad side"
+      ],
+      [
+        "cumin",
+        5,
+        "marinade spice",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "marinade aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "charcoal roast",
+      "garlic-cumin marinade",
+      "ají dipping sauces"
+    ],
+    "basicTaste": [
+      "savory",
+      "smoky",
+      "garlicky",
+      "mildly spicy"
+    ],
+    "textureProfile": [
+      "browned skin",
+      "juicy chicken",
+      "crisp fries"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "safe-choice",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "A strong first-timer choice if you want roast chicken; keep sauces separate if spice-sensitive.",
+      "zh": "第一次吃秘鲁菜想要稳妥主菜可以点；怕辣就让酱单放。",
+      "nl": "Sterke eerste keuze als je geroosterde kip wilt; vraag saus apart bij gevoeligheid voor pit."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "rocoto-relleno",
+    "metadataCode": "129009",
+    "cuisineId": "peruvian",
+    "names": {
+      "en": "Rocoto Relleno",
+      "zh": "秘鲁酿辣椒",
+      "nl": "Rocoto relleno",
+      "local": "rocoto relleno"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Peruvian stuffed rocoto pepper with seasoned beef, onion, raisins or olives, and melted cheese, often served with potato gratin.",
+      "zh": "秘鲁酿 rocoto 辣椒，内馅多为牛肉、洋葱、葡萄干或橄榄，上面有融化奶酪，常配土豆。",
+      "nl": "Peruaanse gevulde rocotopeper met gekruid rundvlees, ui, rozijnen of olijven en gesmolten kaas, vaak met aardappel."
+    },
+    "cookingProfile": {
+      "en": "Baked until the pepper softens but keeps a real chili bite; richer versions include cheese and potato.",
+      "zh": "烤到辣椒变软但仍有明显辣味，奶酪和土豆版本更厚重。",
+      "nl": "Gebakken tot de peper zacht is maar nog echte pit heeft; rijke versies hebben kaas en aardappel."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "spicy"
+      ],
+      "description": {
+        "en": "An Arequipa-linked dish where chili heat is not just a garnish.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "bell-pepper",
+        35,
+        "rocoto pepper shell"
+      ],
+      [
+        "ground-meat",
+        30,
+        "beef filling"
+      ],
+      [
+        "cheese",
+        15,
+        "melted topping"
+      ],
+      [
+        "potato",
+        10,
+        "side"
+      ],
+      [
+        "olives",
+        5,
+        "briny accent"
+      ],
+      [
+        "aji-amarillo",
+        5,
+        "chili heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "rocoto pepper heat",
+      "beef filling",
+      "melted cheese"
+    ],
+    "basicTaste": [
+      "spicy",
+      "savory",
+      "rich",
+      "slightly sweet"
+    ],
+    "textureProfile": [
+      "soft pepper",
+      "crumbly meat filling",
+      "melted cheese"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "regional-dish",
+      "spicy"
+    ],
+    "avoidIfTags": [
+      "spice-sensitive",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a spicy stuffed pepper; avoid if you only tolerate mild chili.",
+      "zh": "想吃真正有辣度的酿椒可以点；只能接受微辣就慎选。",
+      "nl": "Bestel als je een pittige gevulde peper wilt; vermijd als je alleen milde chili verdraagt."
+    },
+    "spiceLevel": 3,
+    "weightLevel": 4,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "tiradito",
+    "metadataCode": "129010",
+    "cuisineId": "peruvian",
+    "names": {
+      "en": "Tiradito",
+      "zh": "秘鲁生鱼薄片",
+      "nl": "Tiradito",
+      "local": "tiradito"
+    },
+    "category": "raw-seafood",
+    "cookingMethods": [
+      "raw",
+      "assembled"
+    ],
+    "rawnessLevel": "raw",
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Peruvian raw fish slices dressed with citrus and ají sauce, closer to sashimi in shape than chopped ceviche.",
+      "zh": "秘鲁生鱼薄片，淋青柠和黄辣椒酱，形态更像生鱼片而不是切块 ceviche。",
+      "nl": "Peruaanse rauwe visplakjes met citrus en ají-saus, qua vorm dichter bij sashimi dan gehakte ceviche."
+    },
+    "cookingProfile": {
+      "en": "Served cold and raw with citrus-chili dressing; the acid brightens the fish but does not make it fully cooked.",
+      "zh": "冷食生鱼配柑橘辣椒汁，酸汁会提亮鱼味，但不等于完全熟制。",
+      "nl": "Koud en rauw geserveerd met citrus-chilidressing; zuur frist op maar gaart niet volledig."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "raw-seafood"
+      ],
+      "description": {
+        "en": "A Peruvian raw-fish reference where rawness must be explicit.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "raw-white-fish",
+        60,
+        "raw sliced fish"
+      ],
+      [
+        "lime",
+        20,
+        "citrus dressing"
+      ],
+      [
+        "aji-amarillo",
+        10,
+        "chili sauce",
+        "seasoning"
+      ],
+      [
+        "corn",
+        5,
+        "side"
+      ],
+      [
+        "sweet-potato",
+        5,
+        "side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "raw fish slices",
+      "ají amarillo sauce",
+      "lime"
+    ],
+    "basicTaste": [
+      "bright",
+      "sour",
+      "fresh",
+      "spicy"
+    ],
+    "textureProfile": [
+      "silky raw fish",
+      "smooth chili sauce",
+      "clean citrus finish"
+    ],
+    "riskFlags": [
+      "contains-raw-fish",
+      "contains-fish",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "raw-seafood",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "raw-fish-avoidance",
+      "fish-allergy",
+      "spice-sensitive"
+    ],
+    "orderVerdict": {
+      "en": "Pick it for a cleaner raw-fish experience than ceviche; avoid if raw fish is not comfortable.",
+      "zh": "想要比 ceviche 更清爽、更像生鱼片的体验可以点；不吃生鱼就避开。",
+      "nl": "Kies dit voor een schonere rauwe-viservaring dan ceviche; vermijd als rauwe vis niet past."
+    },
+    "spiceLevel": 2,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "picarones",
+    "metadataCode": "129011",
+    "cuisineId": "peruvian",
+    "names": {
+      "en": "Picarones",
+      "zh": "秘鲁南瓜红薯甜甜圈",
+      "nl": "Picarones",
+      "local": "picarones"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "deep-fried"
+    ],
+    "shortDescription": {
+      "en": "Peruvian fried rings made with squash and sweet potato dough, served with spiced syrup.",
+      "zh": "秘鲁炸环状甜点，面团含南瓜和红薯，常淋香料糖浆。",
+      "nl": "Peruaanse gefrituurde ringen van pompoen- en zoete-aardappeldeeg met gekruide siroop."
+    },
+    "cookingProfile": {
+      "en": "Fried to a chewy-crisp ring, then finished with sticky syrup rather than powdered sugar.",
+      "zh": "炸成外缘微酥、内部有嚼感的圈，再淋黏稠糖浆。",
+      "nl": "Gefrituurd tot een kauwbaar-krokante ring en afgewerkt met kleverige siroop."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "dessert"
+      ],
+      "description": {
+        "en": "A classic Peruvian street dessert distinct from plain doughnuts.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        35,
+        "dough"
+      ],
+      [
+        "squash",
+        20,
+        "dough sweetness"
+      ],
+      [
+        "sweet-potato",
+        20,
+        "dough body"
+      ],
+      [
+        "sugar",
+        15,
+        "syrup"
+      ],
+      [
+        "cinnamon",
+        5,
+        "spice",
+        "seasoning"
+      ],
+      [
+        "maple-syrup",
+        5,
+        "syrup note",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "squash-sweet potato dough",
+      "spiced syrup",
+      "fried aroma"
+    ],
+    "basicTaste": [
+      "sweet",
+      "fried",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "crisp edge",
+      "chewy center",
+      "sticky syrup"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "street-food"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "wants-light-dessert"
+    ],
+    "orderVerdict": {
+      "en": "Great warm dessert if you want something syrupy and fried, not a light pastry.",
+      "zh": "想吃热的、糖浆感强的炸甜点很适合；它不是轻盈糕点。",
+      "nl": "Sterk warm dessert als je iets stroperigs en gefrituurds wilt, geen licht gebak."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "suspiro-limeno",
+    "metadataCode": "129012",
+    "cuisineId": "peruvian",
+    "names": {
+      "en": "Suspiro Limeño",
+      "zh": "秘鲁焦糖蛋奶甜点",
+      "nl": "Suspiro limeño",
+      "local": "suspiro limeño"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "set",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Very sweet Peruvian dulce de leche-style custard topped with port or cinnamon meringue.",
+      "zh": "非常甜的秘鲁焦糖奶蛋甜点，上层常是蛋白霜，可能有波特酒或肉桂香。",
+      "nl": "Zeer zoet Peruaans dulce-de-leche-achtig custarddessert met port- of kaneelmeringue."
+    },
+    "cookingProfile": {
+      "en": "Served cool in small portions because the custard is dense and very sweet.",
+      "zh": "通常小份冷食，因为蛋奶焦糖层很浓稠、甜度高。",
+      "nl": "Koel en klein geserveerd omdat de custard dicht en heel zoet is."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "dessert",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A classic Peruvian dessert where sweetness and egg/dairy risks are the main signals.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "milk-solids",
+        30,
+        "milk caramel base"
+      ],
+      [
+        "sugar",
+        25,
+        "sweetness"
+      ],
+      [
+        "egg",
+        20,
+        "custard and meringue"
+      ],
+      [
+        "meringue",
+        15,
+        "topping"
+      ],
+      [
+        "condensed-milk",
+        5,
+        "milky sweetness",
+        "seasoning"
+      ],
+      [
+        "cinnamon",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "dulce de leche custard",
+      "meringue",
+      "cinnamon"
+    ],
+    "basicTaste": [
+      "very sweet",
+      "creamy",
+      "caramel",
+      "eggy"
+    ],
+    "textureProfile": [
+      "dense custard",
+      "airy meringue",
+      "smooth spoon dessert"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "egg-free",
+      "low-sugar"
+    ],
+    "orderVerdict": {
+      "en": "Best for serious sweet-tooth diners; it is richer and sweeter than most custards.",
+      "zh": "适合非常爱甜的人；它比多数蛋奶甜点更浓、更甜。",
+      "nl": "Voor echte zoetekauwen; rijker en zoeter dan de meeste custards."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "feijoada",
+    "metadataCode": "130001",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Feijoada",
+      "zh": "巴西黑豆猪肉炖菜",
+      "nl": "Feijoada",
+      "local": "feijoada"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "braised"
+    ],
+    "shortDescription": {
+      "en": "Brazilian black bean stew with pork cuts and sausage, usually served with rice, farofa, greens, and orange.",
+      "zh": "巴西黑豆炖猪肉和香肠，常配米饭、farofa、绿叶菜和橙子。",
+      "nl": "Braziliaanse zwartebonenstoof met varkensvlees en worst, meestal met rijst, farofa, groen en sinaasappel."
+    },
+    "cookingProfile": {
+      "en": "Slow-braised and hearty, with beans absorbing smoky pork flavor.",
+      "zh": "长时间炖煮，黑豆吸收烟熏猪肉香，整体厚重。",
+      "nl": "Lang gestoofd en stevig, met bonen die rokerige varkenssmaak opnemen."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "A national-reference Brazilian dish where pork must be clearly flagged.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "black-beans",
+        35,
+        "bean stew"
+      ],
+      [
+        "pork",
+        25,
+        "pork cuts"
+      ],
+      [
+        "sausage-global",
+        15,
+        "smoked sausage"
+      ],
+      [
+        "steamed-rice",
+        15,
+        "side"
+      ],
+      [
+        "cassava-flour",
+        5,
+        "farofa side"
+      ],
+      [
+        "orange",
+        5,
+        "fresh side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "black beans",
+      "smoked pork",
+      "farofa"
+    ],
+    "basicTaste": [
+      "savory",
+      "smoky",
+      "earthy",
+      "rich"
+    ],
+    "textureProfile": [
+      "soft beans",
+      "tender pork",
+      "crumbly farofa"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "signature-dish",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "A defining Brazilian comfort dish, but it is pork-heavy and filling.",
+      "zh": "这是很有代表性的巴西舒适菜，但猪肉多、分量重。",
+      "nl": "Een bepalend Braziliaans comfortgerecht, maar varkensvleesrijk en vullend."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 5,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "pao-de-queijo",
+    "metadataCode": "130002",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Pão de Queijo",
+      "zh": "巴西芝士面包球",
+      "nl": "Pão de queijo",
+      "local": "pão de queijo"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Brazilian cheese bread made with tapioca starch, cheese, egg, and milk, giving a chewy gluten-free-style center.",
+      "zh": "巴西芝士面包球，用木薯淀粉、奶酪、蛋和奶做成，中心有弹性和奶香。",
+      "nl": "Braziliaans kaasbroodje van tapiocazetmeel, kaas, ei en melk, met een elastische kern."
+    },
+    "cookingProfile": {
+      "en": "Baked as small puffs: crisp outside when fresh, stretchy-chewy inside.",
+      "zh": "烤成小圆球，刚出炉外层微脆，内部拉伸有嚼劲。",
+      "nl": "Gebakken als kleine bolletjes: vers licht krokant buiten, rekbaar-kauwend binnen."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "snack"
+      ],
+      "description": {
+        "en": "A Brazilian snack where dairy and egg matter despite the tapioca base.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "tapioca-starch",
+        40,
+        "chewy starch"
+      ],
+      [
+        "cheese",
+        30,
+        "cheese body"
+      ],
+      [
+        "egg",
+        15,
+        "binder"
+      ],
+      [
+        "milk-solids",
+        10,
+        "dairy body"
+      ],
+      [
+        "sea-salt",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "tapioca chew",
+      "cheese",
+      "fresh baked crust"
+    ],
+    "basicTaste": [
+      "cheesy",
+      "salty",
+      "mild",
+      "savory"
+    ],
+    "textureProfile": [
+      "crisp shell",
+      "chewy center",
+      "stretchy cheese"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "snack",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "egg-free"
+    ],
+    "orderVerdict": {
+      "en": "Very approachable snack if you like cheesy chewy bread; best eaten warm.",
+      "zh": "喜欢奶酪香和弹牙面包的人会很容易接受；热吃最好。",
+      "nl": "Zeer toegankelijke snack als je kaasachtig kauwbrood lekker vindt; warm het best."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "coxinha",
+    "metadataCode": "130003",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Coxinha",
+      "zh": "巴西炸鸡肉酥球",
+      "nl": "Coxinha",
+      "local": "coxinha"
+    },
+    "category": "fried-snack",
+    "cookingMethods": [
+      "deep-fried"
+    ],
+    "shortDescription": {
+      "en": "Teardrop-shaped Brazilian fried snack with shredded chicken filling inside a soft dough and crisp coating.",
+      "zh": "泪滴形巴西炸小吃，软面团包手撕鸡馅，外层裹粉炸脆。",
+      "nl": "Traanvormige Braziliaanse gefrituurde snack met geplukte kip in zacht deeg en krokante korst."
+    },
+    "cookingProfile": {
+      "en": "Deep-fried so the shell is crisp while the chicken filling stays creamy or soft.",
+      "zh": "油炸后外壳酥，里面鸡肉馅柔软，有些版本带奶油感。",
+      "nl": "Gefrituurd met krokante buitenkant en zachte, soms romige kipvulling."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "fried-snack"
+      ],
+      "description": {
+        "en": "A Brazilian snack-counter staple where frying and chicken filling define the order.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        35,
+        "shredded filling"
+      ],
+      [
+        "wheat-flour",
+        30,
+        "dough and coating"
+      ],
+      [
+        "cream-cheese",
+        15,
+        "creamy filling",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "egg",
+        10,
+        "coating binder"
+      ],
+      [
+        "garlic",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "parsley",
+        5,
+        "herb",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "shredded chicken",
+      "fried dough",
+      "optional cream cheese"
+    ],
+    "basicTaste": [
+      "savory",
+      "fried",
+      "chickeny",
+      "mild"
+    ],
+    "textureProfile": [
+      "crisp shell",
+      "soft dough layer",
+      "moist chicken filling"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "fried-snack"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Good as a filling fried snack; dairy varies, so ask if needed.",
+      "zh": "适合作为有饱腹感的炸小吃；是否含奶制品因版本而异。",
+      "nl": "Goed als vullende gefrituurde snack; zuivel wisselt per versie."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "restaurantVariationLevel": "medium",
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
+  },
+  {
+    "id": "moqueca",
+    "metadataCode": "130004",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Moqueca",
+      "zh": "巴西椰奶海鲜炖菜",
+      "nl": "Moqueca",
+      "local": "moqueca"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Brazilian fish or seafood stew with tomato, peppers, coconut milk, cilantro, and in Bahia often dendê palm oil.",
+      "zh": "巴西鱼或海鲜炖菜，常有番茄、甜椒、椰奶、香菜，巴伊亚版本常加 dendê 红棕榈油。",
+      "nl": "Braziliaanse vis- of zeevruchtenstoof met tomaat, paprika, kokosmelk, koriander en in Bahia vaak dendê-palmolie."
+    },
+    "cookingProfile": {
+      "en": "Simmered into a bright, saucy stew; coconut and dendê make it richer than a plain tomato fish soup.",
+      "zh": "炖成明亮多汁的海鲜锅，椰奶和 dendê 油让它比普通番茄鱼汤更浓。",
+      "nl": "Gestoofd tot een heldere, sauzige stoof; kokos en dendê maken hem rijker dan gewone tomatenvissoep."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "seafood"
+      ],
+      "description": {
+        "en": "A Brazilian seafood classic where fish/shellfish and coconut richness should be explicit.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        35,
+        "fish"
+      ],
+      [
+        "shrimp",
+        20,
+        "seafood"
+      ],
+      [
+        "tomato",
+        15,
+        "sauce body"
+      ],
+      [
+        "bell-pepper",
+        10,
+        "vegetable"
+      ],
+      [
+        "coconut-milk",
+        10,
+        "creamy broth",
+        "seasoning"
+      ],
+      [
+        "dende-oil",
+        5,
+        "Bahian depth",
+        "seasoning"
+      ],
+      [
+        "lime",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "coconut milk",
+      "dendê palm oil",
+      "tomato-pepper seafood broth"
+    ],
+    "basicTaste": [
+      "savory",
+      "briny",
+      "creamy",
+      "slightly sweet"
+    ],
+    "textureProfile": [
+      "tender fish",
+      "juicy shrimp",
+      "saucy broth"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-shellfish"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "seafood",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "shellfish-allergy",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Excellent if you want a rich Brazilian seafood stew; confirm shellfish if allergic.",
+      "zh": "想吃巴西椰香海鲜炖菜很适合；贝类过敏要先确认。",
+      "nl": "Uitstekend voor rijke Braziliaanse zeevruchtenstoof; check schaaldieren bij allergie."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "restaurantVariationLevel": "medium",
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
+  },
+  {
+    "id": "churrasco",
+    "metadataCode": "130005",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Churrasco",
+      "zh": "巴西烤肉",
+      "nl": "Churrasco",
+      "local": "churrasco"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "shortDescription": {
+      "en": "Brazilian-style grilled meats, often beef cuts such as picanha plus sausage, chicken, or pork in churrascaria service.",
+      "zh": "巴西烤肉，常见牛肉部位如 picanha，也可能有香肠、鸡肉或猪肉轮番上桌。",
+      "nl": "Braziliaans gegrild vlees, vaak rund zoals picanha plus worst, kip of varkensvlees in churrascaria-stijl."
+    },
+    "cookingProfile": {
+      "en": "Grilled over high heat with salt-forward seasoning, emphasizing char, fat, and meat texture.",
+      "zh": "高温烤制，调味多以盐突出肉香，重点是焦香、脂香和肉质。",
+      "nl": "Heet gegrild met zoutgerichte kruiding; de nadruk ligt op korst, vet en vleestextuur."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish",
+        "meat-lover"
+      ],
+      "description": {
+        "en": "A Brazilian meat-service format where mixed meats and possible pork should be expected.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        55,
+        "primary grilled meat"
+      ],
+      [
+        "sausage-global",
+        15,
+        "sausage option"
+      ],
+      [
+        "chicken",
+        10,
+        "alternate meat"
+      ],
+      [
+        "pork",
+        10,
+        "possible meat"
+      ],
+      [
+        "sea-salt",
+        5,
+        "seasoning",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "optional marinade",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "charcoal grill",
+      "salted beef fat",
+      "mixed meats"
+    ],
+    "basicTaste": [
+      "meaty",
+      "smoky",
+      "salty",
+      "rich"
+    ],
+    "textureProfile": [
+      "charred edges",
+      "juicy slices",
+      "fatty bites"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "meat-lover",
+      "signature-dish"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Best for meat-focused meals; ask for specific cuts if you avoid pork or sausage.",
+      "zh": "适合以肉为主的一餐；不吃猪肉或香肠要先说明想要的部位。",
+      "nl": "Het beste voor vleesgerichte maaltijden; vraag naar specifieke stukken als je varkensvlees of worst vermijdt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 5,
+    "restaurantVariationLevel": "high",
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
+  },
+  {
+    "id": "acaraje",
+    "metadataCode": "130006",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Acarajé",
+      "zh": "巴西炸黑眼豆虾馅",
+      "nl": "Acarajé",
+      "local": "acarajé"
+    },
+    "category": "fried-snack",
+    "cookingMethods": [
+      "deep-fried",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Bahian black-eyed pea fritter fried in dendê oil and split open with vatapá, dried shrimp, salad, and pepper sauce.",
+      "zh": "巴伊亚黑眼豆炸饼，用 dendê 红棕榈油炸后剖开，夹 vatapá、虾、沙拉和辣酱。",
+      "nl": "Bahiaans zwartogenbonenbeignet gefrituurd in dendê, gevuld met vatapá, gedroogde garnaal, salade en pepersaus."
+    },
+    "cookingProfile": {
+      "en": "Crisp bean fritter outside with rich shrimp-nut filling; dendê gives a distinctive red oil aroma.",
+      "zh": "外层是豆香炸壳，内里浓郁带虾和坚果感，dendê 油有明显红油香。",
+      "nl": "Krokante bonenbeignet met rijke garnaal-notenvulling; dendê geeft rode olie-aroma."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish",
+        "street-food"
+      ],
+      "description": {
+        "en": "An Afro-Brazilian street-food icon where shellfish and peanut risks are central.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "black-eyed-peas",
+        40,
+        "fritter base"
+      ],
+      [
+        "shrimp",
+        20,
+        "filling"
+      ],
+      [
+        "coconut-milk",
+        10,
+        "vatapa filling",
+        "seasoning"
+      ],
+      [
+        "peanuts",
+        10,
+        "nutty filling"
+      ],
+      [
+        "dende-oil",
+        10,
+        "frying oil",
+        "seasoning"
+      ],
+      [
+        "mixed-vegetables",
+        5,
+        "salad"
+      ],
+      [
+        "chili",
+        5,
+        "pepper sauce",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "dendê oil",
+      "black-eyed pea fritter",
+      "shrimp-vatapá filling"
+    ],
+    "basicTaste": [
+      "fried",
+      "savory",
+      "nutty",
+      "spicy"
+    ],
+    "textureProfile": [
+      "crisp fritter",
+      "creamy filling",
+      "juicy shrimp"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-peanut",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "signature-dish",
+      "street-food"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "peanut-allergy",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "A distinctive must-try if you can eat shellfish and peanuts; otherwise avoid.",
+      "zh": "能吃虾和花生时很值得尝试；贝类或花生过敏者应避开。",
+      "nl": "Een uitgesproken aanrader als je schaal- en pindaproducten kunt eten; anders vermijden."
+    },
+    "spiceLevel": 3,
+    "weightLevel": 4,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "farofa",
+    "metadataCode": "130007",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Farofa",
+      "zh": "巴西炒木薯粉配菜",
+      "nl": "Farofa",
+      "local": "farofa"
+    },
+    "category": "side",
+    "cookingMethods": [
+      "toasted"
+    ],
+    "shortDescription": {
+      "en": "Toasted cassava flour side, often cooked with butter, onion, bacon, egg, herbs, or banana depending on the version.",
+      "zh": "炒香的木薯粉配菜，可加黄油、洋葱、培根、鸡蛋、香草或香蕉，版本很多。",
+      "nl": "Geroosterd cassavemeel als bijgerecht, vaak met boter, ui, spek, ei, kruiden of banaan."
+    },
+    "cookingProfile": {
+      "en": "Dry, crumbly, and toasty; it is sprinkled beside stews or grilled meats rather than eaten as a sauce.",
+      "zh": "口感干松、颗粒感和烘香明显，通常撒在炖菜或烤肉旁边，不是酱汁。",
+      "nl": "Droog, kruimelig en geroosterd; naast stoof of gegrild vlees, niet als saus."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "side",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Brazilian side where dry crumbly texture is the key ordering clue.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "cassava-flour",
+        65,
+        "toasted flour"
+      ],
+      [
+        "butter",
+        10,
+        "fat"
+      ],
+      [
+        "bacon",
+        10,
+        "common savory add-in",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "egg",
+        10,
+        "common add-in",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "parsley",
+        5,
+        "herb",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "toasted cassava flour",
+      "butter",
+      "bacon or egg variants"
+    ],
+    "basicTaste": [
+      "toasty",
+      "savory",
+      "dry",
+      "crumbly"
+    ],
+    "textureProfile": [
+      "dry crumbs",
+      "grainy crunch",
+      "oily toastiness"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "side"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "egg-free",
+      "dairy-free",
+      "wants-saucy-food"
+    ],
+    "orderVerdict": {
+      "en": "Good with stews or grilled meat, but it is intentionally dry and crumbly.",
+      "zh": "很适合配炖菜或烤肉，但它本来就是干松颗粒感。",
+      "nl": "Goed bij stoof of gegrild vlees, maar bewust droog en kruimelig."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "restaurantVariationLevel": "high",
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
+  },
+  {
+    "id": "brigadeiro",
+    "metadataCode": "130008",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Brigadeiro",
+      "zh": "巴西巧克力炼乳糖球",
+      "nl": "Brigadeiro",
+      "local": "brigadeiro"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "stirred",
+      "set"
+    ],
+    "shortDescription": {
+      "en": "Brazilian chocolate sweet made from condensed milk, cocoa, and butter, rolled in chocolate sprinkles.",
+      "zh": "巴西巧克力甜点，用炼乳、可可和黄油搅煮成软糖，再滚上巧克力屑。",
+      "nl": "Braziliaanse chocoladesnoep van gecondenseerde melk, cacao en boter, gerold in hagelslag."
+    },
+    "cookingProfile": {
+      "en": "Cooked down into a dense, fudgy bite; very sweet and dairy-forward.",
+      "zh": "煮到浓缩成柔软软糖状，一口很甜，奶香明显。",
+      "nl": "Ingekookt tot een dichte fudgeachtige hap; heel zoet en zuivelrijk."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "dessert",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Brazilian party sweet where dairy and intense sweetness should be clear.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "milk-solids",
+        35,
+        "condensed milk base"
+      ],
+      [
+        "sugar",
+        25,
+        "sweetness"
+      ],
+      [
+        "chocolate",
+        20,
+        "chocolate body"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "cocoa",
+        10,
+        "cocoa flavor",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "condensed milk",
+      "cocoa",
+      "buttery fudge texture"
+    ],
+    "basicTaste": [
+      "very sweet",
+      "chocolatey",
+      "creamy"
+    ],
+    "textureProfile": [
+      "soft fudge",
+      "sticky center",
+      "sprinkle coating"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "low-sugar"
+    ],
+    "orderVerdict": {
+      "en": "Great for a small intense sweet; too sugary if you prefer light desserts.",
+      "zh": "适合想吃小颗但甜度集中的甜点；不爱高甜就慎选。",
+      "nl": "Goed voor een kleine intense zoetigheid; te zoet als je lichte desserts wilt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "pastel-brazilian",
+    "metadataCode": "130009",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Brazilian Pastel",
+      "zh": "巴西炸馅饼",
+      "nl": "Braziliaanse pastel",
+      "local": "pastel"
+    },
+    "category": "fried-snack",
+    "cookingMethods": [
+      "deep-fried"
+    ],
+    "shortDescription": {
+      "en": "Thin, crisp Brazilian fried pastry filled with cheese, ground meat, chicken, shrimp, or heart of palm.",
+      "zh": "巴西薄皮炸馅饼，常见奶酪、肉末、鸡肉、虾或棕榈芯馅。",
+      "nl": "Dunne krokante Braziliaanse gefrituurde pastei met kaas, gehakt, kip, garnaal of palmhart."
+    },
+    "cookingProfile": {
+      "en": "Fried quickly so the shell blisters and shatters, while the filling stays hot and savory.",
+      "zh": "快速油炸，外皮起泡酥脆，内馅热而咸香。",
+      "nl": "Snel gefrituurd zodat de korst blaast en kraakt, met hete hartige vulling."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "fried-snack"
+      ],
+      "description": {
+        "en": "A Brazilian snack-market item where filling decides allergen risk.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        45,
+        "thin pastry"
+      ],
+      [
+        "ground-meat",
+        20,
+        "common filling",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "cheese",
+        15,
+        "common filling",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "chicken",
+        10,
+        "alternate filling",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "shrimp",
+        5,
+        "alternate filling",
+        "ingredient",
+        "high",
+        true
+      ],
+      [
+        "chili",
+        5,
+        "dip or sauce",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "blistered fried pastry",
+      "hot savory filling",
+      "market-style dipping sauce"
+    ],
+    "basicTaste": [
+      "fried",
+      "savory",
+      "salty"
+    ],
+    "textureProfile": [
+      "thin crisp shell",
+      "hot filling",
+      "airy pockets"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-shellfish"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "fried-snack"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "shellfish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "A crowd-pleasing fried snack; choose the filling carefully for allergens.",
+      "zh": "很容易接受的炸小吃；过敏源主要取决于具体馅料。",
+      "nl": "Een publieksvriendelijke gefrituurde snack; kies de vulling zorgvuldig bij allergenen."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "restaurantVariationLevel": "high",
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1
+  },
+  {
+    "id": "vatapa",
+    "metadataCode": "130010",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Vatapá",
+      "zh": "巴西虾椰奶花生浓酱",
+      "nl": "Vatapá",
+      "local": "vatapá"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Afro-Brazilian creamy paste or stew made with bread, shrimp, coconut milk, peanuts or cashews, and dendê oil.",
+      "zh": "非裔巴西浓酱或炖菜，用面包、虾、椰奶、花生或腰果和 dendê 红棕榈油制成。",
+      "nl": "Afro-Braziliaanse romige pasta of stoof van brood, garnaal, kokosmelk, pinda of cashew en dendê."
+    },
+    "cookingProfile": {
+      "en": "Thick, smooth, and rich, often used as a filling for acarajé or served with rice.",
+      "zh": "质地浓稠顺滑、很厚重，常作 acarajé 内馅或配米饭。",
+      "nl": "Dik, glad en rijk, vaak als vulling voor acarajé of met rijst."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "seafood"
+      ],
+      "description": {
+        "en": "An Afro-Brazilian dish where shellfish and nut risks are unavoidable signals.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "shrimp",
+        25,
+        "seafood"
+      ],
+      [
+        "bread",
+        20,
+        "thickener"
+      ],
+      [
+        "coconut-milk",
+        20,
+        "creamy body",
+        "seasoning"
+      ],
+      [
+        "peanuts",
+        15,
+        "nut thickener"
+      ],
+      [
+        "dende-oil",
+        10,
+        "red palm depth",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "dendê oil",
+      "shrimp",
+      "coconut-peanut thickness"
+    ],
+    "basicTaste": [
+      "rich",
+      "nutty",
+      "briny",
+      "creamy"
+    ],
+    "textureProfile": [
+      "thick paste",
+      "smooth sauce",
+      "small shrimp pieces"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-peanut",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "classic-dish",
+      "seafood"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "peanut-allergy",
+      "gluten-free",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Very distinctive and rich; avoid with shellfish, peanut, or gluten concerns.",
+      "zh": "风味很有辨识度且浓厚；贝类、花生或麸质过敏者要避开。",
+      "nl": "Heel uitgesproken en rijk; vermijden bij schaal-, pinda- of glutenproblemen."
+    },
+    "spiceLevel": 2,
+    "weightLevel": 4,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "bobó-de-camarão",
+    "imageSlug": "bobo-de-camarao",
+    "metadataCode": "130011",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Bobó de Camarão",
+      "zh": "巴西木薯椰奶虾浓汤",
+      "nl": "Bobó de camarão",
+      "local": "bobó de camarão"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Brazilian shrimp stew in a creamy cassava purée with coconut milk, tomato, peppers, and dendê oil.",
+      "zh": "巴西虾和木薯泥炖菜，加入椰奶、番茄、甜椒和 dendê 红棕榈油，口感浓滑。",
+      "nl": "Braziliaanse garnalenstoof in romige cassavepuree met kokosmelk, tomaat, paprika en dendê."
+    },
+    "cookingProfile": {
+      "en": "Cassava thickens the stew into a soft purée around juicy shrimp.",
+      "zh": "木薯让汤汁变成柔滑泥状，包住多汁的虾。",
+      "nl": "Cassave bindt de stoof tot zachte puree rond sappige garnalen."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "seafood"
+      ],
+      "description": {
+        "en": "A Brazilian shrimp dish where cassava texture differentiates it from moqueca.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "shrimp",
+        35,
+        "seafood"
+      ],
+      [
+        "cassava",
+        30,
+        "creamy purée"
+      ],
+      [
+        "coconut-milk",
+        15,
+        "creamy broth",
+        "seasoning"
+      ],
+      [
+        "tomato",
+        10,
+        "sauce body"
+      ],
+      [
+        "bell-pepper",
+        5,
+        "vegetable"
+      ],
+      [
+        "dende-oil",
+        5,
+        "red palm depth",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cassava purée",
+      "shrimp",
+      "coconut milk",
+      "dendê oil"
+    ],
+    "basicTaste": [
+      "creamy",
+      "briny",
+      "savory",
+      "slightly sweet"
+    ],
+    "textureProfile": [
+      "smooth cassava sauce",
+      "juicy shrimp",
+      "soft vegetables"
+    ],
+    "riskFlags": [
+      "contains-shellfish"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "seafood",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for creamy shrimp comfort; avoid if shellfish is a concern.",
+      "zh": "想吃浓滑虾类炖菜很适合；贝类过敏者不要点。",
+      "nl": "Kies dit voor romige garnalencomfort; vermijden bij schaaldierallergie."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "quindim",
+    "metadataCode": "130012",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Quindim",
+      "zh": "巴西椰香蛋黄布丁",
+      "nl": "Quindim",
+      "local": "quindim"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked",
+      "set"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Glossy Brazilian baked custard made mainly with egg yolks, sugar, and coconut.",
+      "zh": "巴西亮面烤蛋黄布丁，主要由蛋黄、糖和椰子制成，甜度高。",
+      "nl": "Glanzende Braziliaanse gebakken custard van vooral eidooier, suiker en kokos."
+    },
+    "cookingProfile": {
+      "en": "Set into a small shiny custard with a dense eggy body and coconut base.",
+      "zh": "凝固定型成小份亮面布丁，蛋黄感浓，底部常有椰蓉层。",
+      "nl": "Gestold tot kleine glanzende custard met dichte eierbody en kokoslaag."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "dessert",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Brazilian-Portuguese heritage dessert where egg is the defining risk.",
+        "zh": "已按真实菜品形态、常见配料、口感和点餐风险人工重写。",
+        "nl": "Handmatig herschreven op echte vorm, gangbare ingredienten, textuur en bestelrisico's."
+      }
+    },
+    "composition": [
+      [
+        "egg",
+        40,
+        "egg-yolk custard"
+      ],
+      [
+        "sugar",
+        30,
+        "sweetness"
+      ],
+      [
+        "toasted-coconut",
+        20,
+        "coconut body"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
+      ],
+      [
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "egg yolk custard",
+      "coconut",
+      "glossy caramel-like sweetness"
+    ],
+    "basicTaste": [
+      "very sweet",
+      "eggy",
+      "coconutty",
+      "rich"
+    ],
+    "textureProfile": [
+      "smooth custard",
+      "dense bite",
+      "coconut layer"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "egg-free",
+      "dairy-free",
+      "low-sugar"
+    ],
+    "orderVerdict": {
+      "en": "Best if you like eggy custards and coconut; skip if you dislike very sweet desserts.",
+      "zh": "喜欢蛋黄布丁和椰香时很适合；不爱高甜甜点就跳过。",
+      "nl": "Goed als je eiercustard en kokos lekker vindt; overslaan als je heel zoet niet prettig vindt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "confidenceTag": "audited-world-truth-batch-023",
+    "metadataConfidence": 0.86,
+    "acquiredTasteLevel": 1,
+    "restaurantVariationLevel": "medium"
+  }
+]

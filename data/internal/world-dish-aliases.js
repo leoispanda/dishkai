@@ -2905,11 +2905,11 @@ export const worldDishAliases = [
     "confidence": 0.96
   },
   {
-    "alias": "roti",
+    "alias": "roti kip",
     "dishId": "roti-roll",
     "language": "menu",
-    "matchType": "translated-name",
-    "confidence": 0.96
+    "matchType": "menu-variant",
+    "confidence": 0.9
   },
   {
     "alias": "surinaamse roti",
@@ -3038,11 +3038,11 @@ export const worldDishAliases = [
     "confidence": 0.96
   },
   {
-    "alias": "nasi",
+    "alias": "nasi suriname",
     "dishId": "nasi-surinamese",
     "language": "menu",
-    "matchType": "translated-name",
-    "confidence": 0.96
+    "matchType": "menu-variant",
+    "confidence": 0.9
   },
   {
     "alias": "surinaamse nasi",
@@ -3066,11 +3066,11 @@ export const worldDishAliases = [
     "confidence": 0.96
   },
   {
-    "alias": "bami",
+    "alias": "bami suriname",
     "dishId": "bami-surinamese",
     "language": "menu",
-    "matchType": "translated-name",
-    "confidence": 0.96
+    "matchType": "menu-variant",
+    "confidence": 0.9
   },
   {
     "alias": "surinaamse bami",
@@ -3290,11 +3290,11 @@ export const worldDishAliases = [
     "confidence": 0.96
   },
   {
-    "alias": "coffee snacks",
+    "alias": "ethiopian coffee ceremony snacks",
     "dishId": "ethiopian-coffee-snacks",
     "language": "menu",
-    "matchType": "translated-name",
-    "confidence": 0.96
+    "matchType": "descriptive-name",
+    "confidence": 0.9
   },
   {
     "alias": "ethiopische koffiesnacks",
@@ -3556,11 +3556,11 @@ export const worldDishAliases = [
     "confidence": 0.96
   },
   {
-    "alias": "ceviche",
+    "alias": "ceviche peruano",
     "dishId": "ceviche-peruvian",
     "language": "menu",
-    "matchType": "translated-name",
-    "confidence": 0.96
+    "matchType": "menu-variant",
+    "confidence": 0.92
   },
   {
     "alias": "peruaanse ceviche",
@@ -3871,11 +3871,11 @@ export const worldDishAliases = [
     "confidence": 0.96
   },
   {
-    "alias": "pastel",
+    "alias": "pastel brasileiro",
     "dishId": "pastel-brazilian",
     "language": "menu",
-    "matchType": "canonical",
-    "confidence": 1
+    "matchType": "menu-variant",
+    "confidence": 0.92
   },
   {
     "alias": "巴西炸馅饼",

@@ -1,0 +1,202 @@
+[
+  {
+    "dishId": "anticuchos",
+    "metadataCode": "129005",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Anticuchos",
+    "imagePath": "/assets/dishes/main/129005-anticuchos.webp",
+    "thumbPath": "/assets/dishes/thumb/129005-anticuchos.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "papa-a-la-huancaina",
+    "metadataCode": "129006",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Papa a la Huancaína",
+    "imagePath": "/assets/dishes/main/129006-papa-a-la-huancaina.webp",
+    "thumbPath": "/assets/dishes/thumb/129006-papa-a-la-huancaina.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "arroz-chaufa",
+    "metadataCode": "129007",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Arroz Chaufa",
+    "imagePath": "/assets/dishes/main/129007-arroz-chaufa.webp",
+    "thumbPath": "/assets/dishes/thumb/129007-arroz-chaufa.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "pollo-a-la-brasa",
+    "metadataCode": "129008",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Pollo a la Brasa",
+    "imagePath": "/assets/dishes/main/129008-pollo-a-la-brasa.webp",
+    "thumbPath": "/assets/dishes/thumb/129008-pollo-a-la-brasa.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "rocoto-relleno",
+    "metadataCode": "129009",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Rocoto Relleno",
+    "imagePath": "/assets/dishes/main/129009-rocoto-relleno.webp",
+    "thumbPath": "/assets/dishes/thumb/129009-rocoto-relleno.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "tiradito",
+    "metadataCode": "129010",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Tiradito",
+    "imagePath": "/assets/dishes/main/129010-tiradito.webp",
+    "thumbPath": "/assets/dishes/thumb/129010-tiradito.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "picarones",
+    "metadataCode": "129011",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Picarones",
+    "imagePath": "/assets/dishes/main/129011-picarones.webp",
+    "thumbPath": "/assets/dishes/thumb/129011-picarones.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "suspiro-limeno",
+    "metadataCode": "129012",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Suspiro Limeño",
+    "imagePath": "/assets/dishes/main/129012-suspiro-limeno.webp",
+    "thumbPath": "/assets/dishes/thumb/129012-suspiro-limeno.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "feijoada",
+    "metadataCode": "130001",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Feijoada",
+    "imagePath": "/assets/dishes/main/130001-feijoada.webp",
+    "thumbPath": "/assets/dishes/thumb/130001-feijoada.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "pao-de-queijo",
+    "metadataCode": "130002",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Pão de Queijo",
+    "imagePath": "/assets/dishes/main/130002-pao-de-queijo.webp",
+    "thumbPath": "/assets/dishes/thumb/130002-pao-de-queijo.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "coxinha",
+    "metadataCode": "130003",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Coxinha",
+    "imagePath": "/assets/dishes/main/130003-coxinha.webp",
+    "thumbPath": "/assets/dishes/thumb/130003-coxinha.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "moqueca",
+    "metadataCode": "130004",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Moqueca",
+    "imagePath": "/assets/dishes/main/130004-moqueca.webp",
+    "thumbPath": "/assets/dishes/thumb/130004-moqueca.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "churrasco",
+    "metadataCode": "130005",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Churrasco",
+    "imagePath": "/assets/dishes/main/130005-churrasco.webp",
+    "thumbPath": "/assets/dishes/thumb/130005-churrasco.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "acaraje",
+    "metadataCode": "130006",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Acarajé",
+    "imagePath": "/assets/dishes/main/130006-acaraje.webp",
+    "thumbPath": "/assets/dishes/thumb/130006-acaraje.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "farofa",
+    "metadataCode": "130007",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Farofa",
+    "imagePath": "/assets/dishes/main/130007-farofa.webp",
+    "thumbPath": "/assets/dishes/thumb/130007-farofa.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "brigadeiro",
+    "metadataCode": "130008",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Brigadeiro",
+    "imagePath": "/assets/dishes/main/130008-brigadeiro.webp",
+    "thumbPath": "/assets/dishes/thumb/130008-brigadeiro.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "pastel-brazilian",
+    "metadataCode": "130009",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Brazilian Pastel",
+    "imagePath": "/assets/dishes/main/130009-pastel-brazilian.webp",
+    "thumbPath": "/assets/dishes/thumb/130009-pastel-brazilian.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "vatapa",
+    "metadataCode": "130010",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Vatapá",
+    "imagePath": "/assets/dishes/main/130010-vatapa.webp",
+    "thumbPath": "/assets/dishes/thumb/130010-vatapa.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "bobó-de-camarão",
+    "metadataCode": "130011",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Bobó de Camarão",
+    "imagePath": "/assets/dishes/main/130011-bobo-de-camarao.webp",
+    "thumbPath": "/assets/dishes/thumb/130011-bobo-de-camarao.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "quindim",
+    "metadataCode": "130012",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Quindim",
+    "imagePath": "/assets/dishes/main/130012-quindim.webp",
+    "thumbPath": "/assets/dishes/thumb/130012-quindim.webp",
+    "auditStatus": "verified"
+  }
+]

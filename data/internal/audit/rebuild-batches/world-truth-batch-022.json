@@ -1,0 +1,282 @@
+[
+  {
+    "dishId": "roti-roll",
+    "metadataCode": "126001",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Surinamese Roti",
+    "imagePath": "/assets/dishes/main/126001-roti-roll.webp",
+    "thumbPath": "/assets/dishes/thumb/126001-roti-roll.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "saoto-soep",
+    "metadataCode": "126003",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Saoto Soup",
+    "imagePath": "/assets/dishes/main/126003-saoto-soep.webp",
+    "thumbPath": "/assets/dishes/thumb/126003-saoto-soep.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "broodje-kip-kerrie",
+    "metadataCode": "126004",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Broodje Kip Kerrie",
+    "imagePath": "/assets/dishes/main/126004-broodje-kip-kerrie.webp",
+    "thumbPath": "/assets/dishes/thumb/126004-broodje-kip-kerrie.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "broodje-bakkeljauw",
+    "metadataCode": "126005",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Broodje Bakkeljauw",
+    "imagePath": "/assets/dishes/main/126005-broodje-bakkeljauw.webp",
+    "thumbPath": "/assets/dishes/thumb/126005-broodje-bakkeljauw.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "bara",
+    "metadataCode": "126006",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Bara",
+    "imagePath": "/assets/dishes/main/126006-bara.webp",
+    "thumbPath": "/assets/dishes/thumb/126006-bara.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "teloh",
+    "metadataCode": "126007",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Teloh",
+    "imagePath": "/assets/dishes/main/126007-teloh.webp",
+    "thumbPath": "/assets/dishes/thumb/126007-teloh.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "mokshire-meti",
+    "metadataCode": "126008",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Moksi Meti",
+    "imagePath": "/assets/dishes/main/126008-mokshire-meti.webp",
+    "thumbPath": "/assets/dishes/thumb/126008-mokshire-meti.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "nasi-surinamese",
+    "metadataCode": "126009",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Surinamese Nasi",
+    "imagePath": "/assets/dishes/main/126009-nasi-surinamese.webp",
+    "thumbPath": "/assets/dishes/thumb/126009-nasi-surinamese.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "bami-surinamese",
+    "metadataCode": "126010",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Surinamese Bami",
+    "imagePath": "/assets/dishes/main/126010-bami-surinamese.webp",
+    "thumbPath": "/assets/dishes/thumb/126010-bami-surinamese.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "peanut-soup-surinamese",
+    "metadataCode": "126011",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Surinamese Peanut Soup",
+    "imagePath": "/assets/dishes/main/126011-peanut-soup-surinamese.webp",
+    "thumbPath": "/assets/dishes/thumb/126011-peanut-soup-surinamese.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "bojo",
+    "metadataCode": "126012",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Bojo",
+    "imagePath": "/assets/dishes/main/126012-bojo.webp",
+    "thumbPath": "/assets/dishes/thumb/126012-bojo.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "doro-wat",
+    "metadataCode": "127001",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Doro Wat",
+    "imagePath": "/assets/dishes/main/127001-doro-wat.webp",
+    "thumbPath": "/assets/dishes/thumb/127001-doro-wat.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "tibs",
+    "metadataCode": "127002",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Tibs",
+    "imagePath": "/assets/dishes/main/127002-tibs.webp",
+    "thumbPath": "/assets/dishes/thumb/127002-tibs.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "injera-platter",
+    "metadataCode": "127003",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Injera Platter",
+    "imagePath": "/assets/dishes/main/127003-injera-platter.webp",
+    "thumbPath": "/assets/dishes/thumb/127003-injera-platter.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "shiro",
+    "metadataCode": "127004",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Shiro",
+    "imagePath": "/assets/dishes/main/127004-shiro.webp",
+    "thumbPath": "/assets/dishes/thumb/127004-shiro.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "misir-wat",
+    "metadataCode": "127005",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Misir Wat",
+    "imagePath": "/assets/dishes/main/127005-misir-wat.webp",
+    "thumbPath": "/assets/dishes/thumb/127005-misir-wat.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "gomen",
+    "metadataCode": "127006",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Gomen",
+    "imagePath": "/assets/dishes/main/127006-gomen.webp",
+    "thumbPath": "/assets/dishes/thumb/127006-gomen.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "kitfo",
+    "metadataCode": "127007",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Kitfo",
+    "imagePath": "/assets/dishes/main/127007-kitfo.webp",
+    "thumbPath": "/assets/dishes/thumb/127007-kitfo.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "firfir",
+    "metadataCode": "127008",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Firfir",
+    "imagePath": "/assets/dishes/main/127008-firfir.webp",
+    "thumbPath": "/assets/dishes/thumb/127008-firfir.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "bayenetu",
+    "metadataCode": "127009",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Beyaynetu",
+    "imagePath": "/assets/dishes/main/127009-bayenetu.webp",
+    "thumbPath": "/assets/dishes/thumb/127009-bayenetu.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "asa-tibs",
+    "metadataCode": "127010",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Asa Tibs",
+    "imagePath": "/assets/dishes/main/127010-asa-tibs.webp",
+    "thumbPath": "/assets/dishes/thumb/127010-asa-tibs.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "sambusa",
+    "metadataCode": "127011",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Sambusa",
+    "imagePath": "/assets/dishes/main/127011-sambusa.webp",
+    "thumbPath": "/assets/dishes/thumb/127011-sambusa.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "ethiopian-coffee-snacks",
+    "metadataCode": "127012",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Ethiopian Coffee Sweets",
+    "imagePath": "/assets/dishes/main/127012-ethiopian-coffee-snacks.webp",
+    "thumbPath": "/assets/dishes/thumb/127012-ethiopian-coffee-snacks.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "cloudberry-dessert",
+    "metadataCode": "128012",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Cloudberry Dessert",
+    "imagePath": "/assets/dishes/main/128012-cloudberry-dessert.webp",
+    "thumbPath": "/assets/dishes/thumb/128012-cloudberry-dessert.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "ceviche-peruvian",
+    "metadataCode": "129001",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Peruvian Ceviche",
+    "imagePath": "/assets/dishes/main/129001-ceviche-peruvian.webp",
+    "thumbPath": "/assets/dishes/thumb/129001-ceviche-peruvian.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "lomo-saltado",
+    "metadataCode": "129002",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Lomo Saltado",
+    "imagePath": "/assets/dishes/main/129002-lomo-saltado.webp",
+    "thumbPath": "/assets/dishes/thumb/129002-lomo-saltado.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "aji-de-gallina",
+    "metadataCode": "129003",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Ají de Gallina",
+    "imagePath": "/assets/dishes/main/129003-aji-de-gallina.webp",
+    "thumbPath": "/assets/dishes/thumb/129003-aji-de-gallina.webp",
+    "auditStatus": "verified"
+  },
+  {
+    "dishId": "causa",
+    "metadataCode": "129004",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Causa",
+    "imagePath": "/assets/dishes/main/129004-causa.webp",
+    "thumbPath": "/assets/dishes/thumb/129004-causa.webp",
+    "auditStatus": "verified"
+  }
+]
