@@ -1,0 +1,98 @@
+[
+  {
+    "metadataCode": "108018",
+    "dishId": "pla-rad-prik",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_093b959804a5e848016a34ca39efd88191b5f5efe0392340c3.png",
+    "auditSource": "data/internal/audit/rebuild-batches/thai-batch-014-image-sources/108018-pla-rad-prik.png",
+    "mainPath": "/assets/dishes/main/108018-pla-rad-prik.webp",
+    "thumbPath": "/assets/dishes/thumb/108018-pla-rad-prik.webp"
+  },
+  {
+    "metadataCode": "108019",
+    "dishId": "hor-mok",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_093b959804a5e848016a34ca8e05a081919aba4f4dd6c6b9bf.png",
+    "auditSource": "data/internal/audit/rebuild-batches/thai-batch-014-image-sources/108019-hor-mok.png",
+    "mainPath": "/assets/dishes/main/108019-hor-mok.webp",
+    "thumbPath": "/assets/dishes/thumb/108019-hor-mok.webp"
+  },
+  {
+    "metadataCode": "108021",
+    "dishId": "moo-ping",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_093b959804a5e848016a34cab2ee3081919a5cb82dac483ad3.png",
+    "auditSource": "data/internal/audit/rebuild-batches/thai-batch-014-image-sources/108021-moo-ping.png",
+    "mainPath": "/assets/dishes/main/108021-moo-ping.webp",
+    "thumbPath": "/assets/dishes/thumb/108021-moo-ping.webp"
+  },
+  {
+    "metadataCode": "108022",
+    "dishId": "gai-yang",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_093b959804a5e848016a34cb05b5208191b9f3c1e1716bb9c5.png",
+    "auditSource": "data/internal/audit/rebuild-batches/thai-batch-014-image-sources/108022-gai-yang.png",
+    "mainPath": "/assets/dishes/main/108022-gai-yang.webp",
+    "thumbPath": "/assets/dishes/thumb/108022-gai-yang.webp"
+  },
+  {
+    "metadataCode": "108023",
+    "dishId": "khao-man-gai",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_093b959804a5e848016a34cb2e24888191a361e9cee9c151be.png",
+    "auditSource": "data/internal/audit/rebuild-batches/thai-batch-014-image-sources/108023-khao-man-gai.png",
+    "mainPath": "/assets/dishes/main/108023-khao-man-gai.webp",
+    "thumbPath": "/assets/dishes/thumb/108023-khao-man-gai.webp"
+  },
+  {
+    "metadataCode": "108024",
+    "dishId": "boat-noodles",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_093b959804a5e848016a34cbaee5fc819191574cae8231820c.png",
+    "auditSource": "data/internal/audit/rebuild-batches/thai-batch-014-image-sources/108024-boat-noodles.png",
+    "mainPath": "/assets/dishes/main/108024-boat-noodles.webp",
+    "thumbPath": "/assets/dishes/thumb/108024-boat-noodles.webp"
+  },
+  {
+    "metadataCode": "108025",
+    "dishId": "rad-na",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_093b959804a5e848016a34cc1b1acc8191ae5e2f4d3c2efe3e.png",
+    "auditSource": "data/internal/audit/rebuild-batches/thai-batch-014-image-sources/108025-rad-na.png",
+    "mainPath": "/assets/dishes/main/108025-rad-na.webp",
+    "thumbPath": "/assets/dishes/thumb/108025-rad-na.webp"
+  },
+  {
+    "metadataCode": "108026",
+    "dishId": "pad-pak-boong",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_093b959804a5e848016a34cc50b46c8191827d15e95c20bacb.png",
+    "auditSource": "data/internal/audit/rebuild-batches/thai-batch-014-image-sources/108026-pad-pak-boong.png",
+    "mainPath": "/assets/dishes/main/108026-pad-pak-boong.webp",
+    "thumbPath": "/assets/dishes/thumb/108026-pad-pak-boong.webp"
+  },
+  {
+    "metadataCode": "108027",
+    "dishId": "miang-kham",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_093b959804a5e848016a34cc7ad09c8191b3b0ee746fad262f.png",
+    "auditSource": "data/internal/audit/rebuild-batches/thai-batch-014-image-sources/108027-miang-kham.png",
+    "mainPath": "/assets/dishes/main/108027-miang-kham.webp",
+    "thumbPath": "/assets/dishes/thumb/108027-miang-kham.webp"
+  },
+  {
+    "metadataCode": "108028",
+    "dishId": "tod-mun-pla",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_093b959804a5e848016a34ccd8d6b881918233d3a171777613.png",
+    "auditSource": "data/internal/audit/rebuild-batches/thai-batch-014-image-sources/108028-tod-mun-pla.png",
+    "mainPath": "/assets/dishes/main/108028-tod-mun-pla.webp",
+    "thumbPath": "/assets/dishes/thumb/108028-tod-mun-pla.webp"
+  },
+  {
+    "metadataCode": "108029",
+    "dishId": "nam-tok",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_093b959804a5e848016a34cd105e788191a159905caacd922b.png",
+    "auditSource": "data/internal/audit/rebuild-batches/thai-batch-014-image-sources/108029-nam-tok.png",
+    "mainPath": "/assets/dishes/main/108029-nam-tok.webp",
+    "thumbPath": "/assets/dishes/thumb/108029-nam-tok.webp"
+  },
+  {
+    "metadataCode": "108030",
+    "dishId": "kanom-krok",
+    "sourcePng": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_093b959804a5e848016a34cd700a3c8191b2b9fe22cc149cbb.png",
+    "auditSource": "data/internal/audit/rebuild-batches/thai-batch-014-image-sources/108030-kanom-krok.png",
+    "mainPath": "/assets/dishes/main/108030-kanom-krok.webp",
+    "thumbPath": "/assets/dishes/thumb/108030-kanom-krok.webp"
+  }
+]

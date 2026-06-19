@@ -16,87 +16,104 @@ export const expandedDishes = [
       "stir-fried"
     ],
     "shortDescription": {
-      "en": "Wide noodles stir-fried darker and more savory than Pad Thai, usually with egg, greens, and soy sauce.",
-      "zh": "泰式酱油炒河粉 是常见泰国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Pad see ew is een veelvoorkomend gerecht in de thais keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Wide rice noodles stir-fried with dark soy seasoning, egg, Chinese broccoli, and usually chicken, pork, or beef.",
+      "zh": "宽河粉用深色酱油快炒，常配鸡蛋、芥蓝和鸡肉、猪肉或牛肉。",
+      "nl": "Brede rijstnoedels geroerbakt met donkere sojasaus, ei, Chinese broccoli en meestal kip, varken of rund."
     },
     "cookingProfile": {
-      "en": "Usually served as a noodle with a springy noodles, glossy sauce feel.",
-      "zh": "通常以noodle形式上桌，重点体验是springy noodles。",
-      "nl": "Meestal geserveerd als noodle met een springy noodles gevoel."
+      "en": "Cooked fast in a hot wok, so the noodles feel smoky, glossy, and chewy rather than saucy.",
+      "zh": "热锅快炒上桌，河粉通常带锅气、油润、有嚼感，而不是很多汤汁。",
+      "nl": "Snel uit de wok, waardoor de noedels rokerig, glanzend en stevig aanvoelen."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "first-timer-friendly"
+        "classic",
+        "first-timer-friendly",
+        "noodle"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频泰国菜菜品。",
-        "nl": "Een vaak voorkomend thais menu-item voor bredere restaurantdekking."
+        "en": "A classic Thai wok-noodle order for diners who want savory soy flavor rather than sweet-sour Pad Thai.",
+        "zh": "经典泰式锅炒河粉，适合想要咸香酱油风味、不想吃酸甜 Pad Thai 的人。",
+        "nl": "Een klassieke Thaise woknoedel voor wie hartige sojasmaak wil in plaats van zoetzure Pad Thai."
       }
     },
     "composition": [
       [
-        "wheat-noodles",
+        "rice-noodles",
         45,
         "base"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
+        "beef",
+        15,
+        "protein"
       ],
       [
-        "chicken",
-        20,
-        "protein"
+        "egg",
+        10,
+        "main"
+      ],
+      [
+        "chinese-broccoli",
+        15,
+        "vegetable"
       ],
       [
         "soy-sauce",
         10,
-        "seasoning",
+        "dark wok seasoning",
         "seasoning"
       ],
       [
-        "green-onion",
+        "garlic",
         5,
-        "finish"
+        "aromatic",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-sauce",
-      "lime",
-      "chili"
+      "soy-sauce",
+      "garlic"
     ],
     "basicTaste": [
       "savory",
-      "umami"
+      "umami",
+      "mildly-sweet",
+      "lightly-smoky"
     ],
     "textureProfile": [
-      "springy noodles",
-      "glossy sauce"
+      "chewy wide noodles",
+      "glossy wok coating",
+      "tender greens"
     ],
     "riskFlags": [
+      "contains-egg",
+      "contains-soy",
       "contains-gluten"
     ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+    "dietaryFlags": [
+      "protein-varies-by-restaurant"
     ],
-    "avoidIfTags": [],
+    "goodForTags": [
+      "first-timer-friendly",
+      "noodle-lover",
+      "safe-choice"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "soy-allergy",
+      "gluten-allergy"
+    ],
     "orderVerdict": {
-      "en": "Good if you want a less sweet Thai noodle dish with a mild, savory profile.",
-      "zh": "如果你接受这类口味和风险，泰式酱油炒河粉 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A steady choice if you want mild Thai wok noodles with deep soy flavor and little heat.",
+      "zh": "想吃不太辣、酱油咸香、锅气明显的泰式炒河粉时很稳。",
+      "nl": "Een stabiele keuze als je milde Thaise woknoedels met diepe sojasmaak wilt."
     },
     "spiceLevel": 1,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -114,84 +131,115 @@ export const expandedDishes = [
       "stir-fried"
     ],
     "shortDescription": {
-      "en": "Stir-fried minced meat with holy-basil style aroma, chili, garlic, and rice, often topped with egg.",
-      "zh": "泰式打抛肉饭 是常见泰国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Pad kra pao is een veelvoorkomend gerecht in de thais keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Spicy holy-basil stir-fry, often minced pork or chicken, served over rice and commonly topped with a fried egg.",
+      "zh": "用圣罗勒、辣椒和蒜快炒肉末，盖在米饭上，常加一颗煎蛋。",
+      "nl": "Pittige roerbak met heilige basilicum, vaak gehakt varken of kip, op rijst en vaak met gebakken ei."
     },
     "cookingProfile": {
-      "en": "Usually served as a rice with a soft rice, mixed toppings feel.",
-      "zh": "通常以rice形式上桌，重点体验是soft rice。",
-      "nl": "Meestal geserveerd als rice met een soft rice gevoel."
+      "en": "A hot wok keeps it punchy and aromatic, with dry stir-fry juices soaking into the rice.",
+      "zh": "热锅快炒让香气和辣味集中，肉汁会渗进米饭里。",
+      "nl": "Door de hete wok blijft het krachtig en aromatisch, met hartige sappen in de rijst."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item"
+        "classic",
+        "rice",
+        "spicy"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频泰国菜菜品。",
-        "nl": "Een vaak voorkomend thais menu-item voor bredere restaurantdekking."
+        "en": "A classic everyday Thai rice plate where holy basil and chili are the point.",
+        "zh": "经典泰式日常盖饭，重点是圣罗勒香气和辣椒冲击。",
+        "nl": "Een klassieke Thaise rijstschotel waarin basilicum en chili centraal staan."
       }
     },
     "composition": [
       [
         "steamed-rice",
-        55,
+        45,
         "base"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
+        "minced-pork",
+        25,
+        "protein"
       ],
       [
         "egg",
         10,
-        "topping"
+        "fried topping"
       ],
       [
-        "soy-sauce",
-        10,
-        "seasoning",
+        "holy-basil",
+        5,
+        "signature aroma",
         "seasoning"
       ],
       [
-        "green-onion",
+        "fish-sauce",
         5,
-        "finish"
+        "salty umami",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "aromatic",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
+      "holy-basil",
+      "chili",
       "fish-sauce",
-      "lime",
-      "chili"
+      "garlic"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "spicy",
+      "umami",
+      "herbal"
     ],
     "textureProfile": [
       "soft rice",
-      "mixed toppings"
+      "juicy minced meat",
+      "crisp fried egg edges"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-egg",
+      "contains-fish-sauce",
+      "contains-pork",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "protein-varies-by-restaurant"
+    ],
     "goodForTags": [
-      "common-menu-item"
+      "rice",
+      "classic-dish",
+      "spicy"
     ],
     "avoidIfTags": [
-      "spice-sensitive"
+      "spice-sensitive",
+      "egg-allergy",
+      "pork-avoidant",
+      "fish-allergy"
     ],
     "orderVerdict": {
-      "en": "Order this when you want a punchy Thai rice plate; ask about spice level.",
-      "zh": "如果你接受这类口味和风险，泰式打抛肉饭 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Order it when you want a bold Thai rice plate; ask for mild if chili heat worries you.",
+      "zh": "想吃香辣下饭的泰式盖饭时可以点；怕辣就提前要求少辣。",
+      "nl": "Bestel dit voor een krachtige Thaise rijstschotel; vraag mild als je gevoelig bent voor chili."
     },
     "spiceLevel": 3,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -209,85 +257,102 @@ export const expandedDishes = [
       "stir-fried"
     ],
     "shortDescription": {
-      "en": "Thai fried rice with egg, vegetables, and a light savory seasoning, often served with lime.",
-      "zh": "泰式炒饭 是常见泰国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Khao pad is een veelvoorkomend gerecht in de thais keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Thai fried rice with egg, a light fish-sauce or soy seasoning, vegetables, lime, and usually shrimp, chicken, or crab.",
+      "zh": "泰式炒饭常有鸡蛋、蔬菜、青柠和鱼露或酱油调味，蛋白可能是虾、鸡肉或蟹肉。",
+      "nl": "Thaise gebakken rijst met ei, lichte vissaus- of sojasmaak, groenten, limoen en vaak garnaal, kip of krab."
     },
     "cookingProfile": {
-      "en": "Usually served as a rice with a soft rice, mixed toppings feel.",
-      "zh": "通常以rice形式上桌，重点体验是soft rice。",
-      "nl": "Meestal geserveerd als rice met een soft rice gevoel."
+      "en": "The rice is wok-fried so grains stay separate, lightly oily, and brightened by lime at the table.",
+      "zh": "米饭热锅快炒，颗粒分明、微油润，上桌后常用青柠提味。",
+      "nl": "De rijst wordt gewokt, blijft korrelig en licht olieachtig, met limoen voor frisheid."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
+        "rice",
         "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频泰国菜菜品。",
-        "nl": "Een vaak voorkomend thais menu-item voor bredere restaurantdekking."
+        "en": "A common Thai restaurant comfort order, milder than many curries and salads.",
+        "zh": "常见泰餐舒适型主食，通常比许多咖喱和沙拉更温和。",
+        "nl": "Een veelvoorkomende Thaise comfortkeuze, meestal milder dan curry's en salades."
       }
     },
     "composition": [
       [
         "steamed-rice",
-        55,
+        50,
         "base"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
+        "shrimp",
+        15,
+        "protein"
       ],
       [
         "egg",
-        10,
-        "topping"
+        15,
+        "main"
       ],
       [
-        "soy-sauce",
+        "mixed-vegetables",
         10,
-        "seasoning",
+        "vegetable"
+      ],
+      [
+        "fish-sauce",
+        5,
+        "savory seasoning",
         "seasoning"
       ],
       [
-        "green-onion",
+        "lime",
         5,
-        "finish"
+        "fresh finish"
       ]
     ],
     "distinctiveFlavorSources": [
       "fish-sauce",
-      "lime",
-      "chili"
+      "lime"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "mild",
+      "lightly-sweet",
+      "fresh"
     ],
     "textureProfile": [
-      "soft rice",
-      "mixed toppings"
+      "separate rice grains",
+      "soft egg",
+      "juicy protein"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-egg",
+      "contains-shellfish",
+      "contains-fish-sauce"
+    ],
+    "dietaryFlags": [
+      "protein-varies-by-restaurant"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+      "safe-choice",
+      "rice",
+      "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "shellfish-allergy",
+      "fish-allergy"
+    ],
     "orderVerdict": {
-      "en": "A safe, familiar order if you want Thai flavors without heavy heat.",
-      "zh": "如果你接受这类口味和风险，泰式炒饭 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A safe Thai pick when you want something familiar, filling, and not very spicy.",
+      "zh": "想吃熟悉、管饱、不太辣的泰餐时，这是安全选择。",
+      "nl": "Een veilige Thaise keuze als je iets herkenbaars, vullends en weinig pittigs wilt."
     },
     "spiceLevel": 1,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -296,7 +361,7 @@ export const expandedDishes = [
     "cuisineId": "thai",
     "names": {
       "en": "Tom Kha Gai",
-      "zh": "椰奶鸡汤",
+      "zh": "泰式椰奶鸡汤",
       "nl": "Tom kha gai",
       "local": "ต้มข่าไก่"
     },
@@ -305,126 +370,33 @@ export const expandedDishes = [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Creamy Thai coconut chicken soup with sour lime, herbs, and gentle chili warmth.",
-      "zh": "椰奶鸡汤 是常见泰国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Tom kha gai is een veelvoorkomend gerecht in de thais keuken, beschreven voor snelle bestelkeuzes."
+      "en": "A creamy hot Thai chicken soup with coconut milk, lime, fish sauce, mushrooms, and lemongrass-style aromatics.",
+      "zh": "温热椰奶鸡汤，常有青柠酸味、鱼露鲜味、蘑菇和香茅类香气。",
+      "nl": "Romige warme Thaise kippensoep met kokosmelk, limoen, vissaus, paddenstoelen en citroengrasachtige aroma's."
     },
     "cookingProfile": {
-      "en": "Usually served as a soup with a hot broth, soft pieces feel.",
-      "zh": "通常以soup形式上桌，重点体验是hot broth。",
-      "nl": "Meestal geserveerd als soup met een hot broth gevoel."
+      "en": "Gently simmered and served hot, it feels creamy, aromatic, and sour-salty rather than heavy.",
+      "zh": "温和煮热后上桌，口感椰香顺滑，酸咸开胃，不算特别厚重。",
+      "nl": "Zacht gesudderd en warm geserveerd: romig, geurig en zuur-zout zonder erg zwaar te zijn."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "lighter-choice"
+        "classic",
+        "soup"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频泰国菜菜品。",
-        "nl": "Een vaak voorkomend thais menu-item voor bredere restaurantdekking."
+        "en": "A classic Thai coconut soup, useful when Tom Yum sounds too sharp or spicy.",
+        "zh": "经典泰式椰奶汤，适合觉得冬阴功太酸辣时选择。",
+        "nl": "Een klassieke Thaise kokossoep, handig als Tom Yum te scherp of pittig klinkt."
       }
     },
     "composition": [
       [
-        "broth",
-        45,
-        "soup-base"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "chicken",
-        20,
-        "protein"
-      ],
-      [
-        "green-onion",
-        5,
-        "finish"
-      ],
-      [
-        "soy-sauce",
-        10,
-        "seasoning",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "fish-sauce",
-      "lime",
-      "chili"
-    ],
-    "basicTaste": [
-      "savory",
-      "brothy"
-    ],
-    "textureProfile": [
-      "hot broth",
-      "soft pieces"
-    ],
-    "riskFlags": [],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "common-menu-item",
-      "lighter-choice"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Choose this if you want a fragrant soup that is softer and creamier than tom yum.",
-      "zh": "如果你接受这类口味和风险，椰奶鸡汤 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
-    },
-    "spiceLevel": 2,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
-  }),
-  starterDish({
-    "id": "red-curry",
-    "metadataCode": "108010",
-    "cuisineId": "thai",
-    "names": {
-      "en": "Red Curry",
-      "zh": "泰式红咖喱",
-      "nl": "Rode curry",
-      "local": "แกงเผ็ด"
-    },
-    "category": "curry",
-    "cookingMethods": [
-      "simmered"
-    ],
-    "shortDescription": {
-      "en": "Thai red curry with coconut milk, chili paste, vegetables, and usually chicken, beef, or tofu.",
-      "zh": "泰式红咖喱 是常见泰国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Rode curry is een veelvoorkomend gerecht in de thais keuken, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served as a curry with a saucy, soft vegetables feel.",
-      "zh": "通常以curry形式上桌，重点体验是saucy。",
-      "nl": "Meestal geserveerd als curry met een saucy gevoel."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item"
-      ],
-      "description": {
-        "en": "A high-frequency Thai menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频泰国菜菜品。",
-        "nl": "Een vaak voorkomend thais menu-item voor bredere restaurantdekking."
-      }
-    },
-    "composition": [
-      [
-        "steamed-rice",
+        "coconut-milk",
         35,
-        "base"
+        "creamy soup base",
+        "seasoning"
       ],
       [
         "chicken",
@@ -432,55 +404,194 @@ export const expandedDishes = [
         "protein"
       ],
       [
-        "mixed-vegetables",
-        20,
+        "mushrooms",
+        15,
         "body"
       ],
       [
-        "coconut-milk",
-        15,
-        "sauce",
+        "lime",
+        10,
+        "sour finish"
+      ],
+      [
+        "fish-sauce",
+        5,
+        "salty umami",
+        "seasoning"
+      ],
+      [
+        "lemongrass",
+        5,
+        "aroma",
         "seasoning"
       ],
       [
         "chili",
         5,
-        "heat",
+        "gentle heat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-sauce",
+      "coconut-milk",
       "lime",
-      "chili"
+      "fish-sauce",
+      "lemongrass"
     ],
     "basicTaste": [
-      "spicy",
       "creamy",
-      "savory"
+      "sour",
+      "salty",
+      "mildly-spicy"
     ],
     "textureProfile": [
-      "saucy",
-      "soft vegetables"
+      "creamy broth",
+      "tender chicken",
+      "soft mushrooms"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-fish-sauce",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "contains-animal-seasoning-by-default"
+    ],
     "goodForTags": [
-      "common-menu-item"
+      "soup",
+      "creamy"
     ],
     "avoidIfTags": [
+      "fish-allergy",
       "spice-sensitive"
     ],
     "orderVerdict": {
-      "en": "A good curry choice if you want creamy heat; check protein and spice.",
-      "zh": "如果你接受这类口味和风险，泰式红咖喱 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Good if you want Thai aromatics in a softer, coconut-creamy soup instead of a sharp clear broth.",
+      "zh": "想要泰式香料感，但更偏椰奶柔和汤底时适合点。",
+      "nl": "Goed als je Thaise aroma's wilt in een zachtere, romige kokossoep."
+    },
+    "spiceLevel": 2,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  }),
+  starterDish({
+    "id": "red-curry",
+    "metadataCode": "108010",
+    "cuisineId": "thai",
+    "names": {
+      "en": "Thai Red Curry",
+      "zh": "泰式红咖喱",
+      "nl": "Thaise rode curry",
+      "local": "แกงเผ็ด"
+    },
+    "category": "curry",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Coconut-based Thai curry with red curry paste, protein, vegetables, basil or lime leaf, and medium chili heat.",
+      "zh": "椰奶红咖喱，常配肉类或豆腐、蔬菜、罗勒或青柠叶，辣度通常中等。",
+      "nl": "Thaise kokos-curry met rode currypasta, proteïne, groenten, basilicum of limoenblad en middelmatige pit."
+    },
+    "cookingProfile": {
+      "en": "Simmered as a saucy curry, it arrives creamy and aromatic with oil separating slightly on top.",
+      "zh": "以咖喱汁煮成，上桌时椰香浓郁，表面可能有一点红油。",
+      "nl": "Gesudderd als sausrijke curry: romig, aromatisch en soms met wat rode olie bovenop."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic",
+        "curry",
+        "spicy"
+      ],
+      "description": {
+        "en": "A classic Thai curry for diners who want richer coconut sauce and more chili than green curry may suggest.",
+        "zh": "经典泰式咖喱，适合想要椰奶浓郁和明显辣椒香的人。",
+        "nl": "Een klassieke Thaise curry voor wie romige kokossaus en duidelijke chili wil."
+      }
+    },
+    "composition": [
+      [
+        "coconut-milk",
+        35,
+        "sauce base",
+        "seasoning"
+      ],
+      [
+        "chicken",
+        20,
+        "protein"
+      ],
+      [
+        "mixed-vegetables",
+        20,
+        "vegetable body"
+      ],
+      [
+        "red-curry-paste",
+        15,
+        "signature paste",
+        "seasoning"
+      ],
+      [
+        "fish-sauce",
+        5,
+        "salty umami",
+        "seasoning"
+      ],
+      [
+        "kaffir-lime-leaf",
+        5,
+        "citrus aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "red-curry-paste",
+      "coconut-milk",
+      "kaffir-lime-leaf",
+      "fish-sauce"
+    ],
+    "basicTaste": [
+      "creamy",
+      "spicy",
+      "savory",
+      "aromatic"
+    ],
+    "textureProfile": [
+      "creamy sauce",
+      "tender protein",
+      "soft vegetables"
+    ],
+    "riskFlags": [
+      "contains-fish-sauce",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "protein-varies-by-restaurant",
+      "contains-animal-seasoning-by-default"
+    ],
+    "goodForTags": [
+      "curry",
+      "spicy",
+      "creamy"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "spice-sensitive"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a creamy, aromatic curry with noticeable chili heat; ask mild if needed.",
+      "zh": "想吃椰奶浓郁、香料感强、辣味明显的咖喱时适合点；怕辣请要求少辣。",
+      "nl": "Kies dit voor een romige, aromatische curry met duidelijke pit; vraag mild indien nodig."
     },
     "spiceLevel": 3,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   }),
   starterDish({
     "id": "panang-curry",
@@ -497,46 +608,61 @@ export const expandedDishes = [
       "simmered"
     ],
     "shortDescription": {
-      "en": "A thicker, often slightly sweeter Thai curry with coconut richness and warm spice.",
-      "zh": "帕能咖喱 是常见泰国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Panang curry is een veelvoorkomend gerecht in de thais keuken, beschreven voor snelle bestelkeuzes."
+      "en": "A thick, rich Thai coconut curry, often with beef or chicken, panang paste, peanut notes, and lime leaf aroma.",
+      "zh": "浓稠椰奶咖喱，常配牛肉或鸡肉，有帕能咖喱酱、花生感和青柠叶香。",
+      "nl": "Een dikke, rijke Thaise kokoscurry, vaak met rund of kip, panangpasta, pindatoetsen en limoenblad."
     },
     "cookingProfile": {
-      "en": "Usually served as a curry with a saucy, soft vegetables feel.",
-      "zh": "通常以curry形式上桌，重点体验是saucy。",
-      "nl": "Meestal geserveerd als curry met een saucy gevoel."
+      "en": "Reduced until thicker than many Thai curries, so it feels rich, clingy, and sauce-forward.",
+      "zh": "通常收得比普通泰式咖喱更浓，口感厚、挂汁明显。",
+      "nl": "Dikker ingekookt dan veel Thaise curry's, dus rijk en stevig aan de saus."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item"
+        "classic",
+        "curry",
+        "creamy"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频泰国菜菜品。",
-        "nl": "Een vaak voorkomend thais menu-item voor bredere restaurantdekking."
+        "en": "A classic Thai curry for diners who prefer a thicker, slightly nutty sauce.",
+        "zh": "经典泰式咖喱，适合偏好浓稠、略带坚果感酱汁的人。",
+        "nl": "Een klassieke Thaise curry voor wie een dikkere, licht nootachtige saus wil."
       }
     },
     "composition": [
       [
-        "steamed-rice",
+        "coconut-milk",
         35,
-        "base"
+        "thick sauce base",
+        "seasoning"
       ],
       [
-        "chicken",
+        "beef",
         25,
         "protein"
       ],
       [
-        "mixed-vegetables",
+        "panang-curry-paste",
         20,
-        "body"
+        "signature paste",
+        "seasoning"
       ],
       [
-        "coconut-milk",
-        15,
-        "sauce",
+        "peanuts",
+        5,
+        "nutty body"
+      ],
+      [
+        "fish-sauce",
+        5,
+        "salty umami",
+        "seasoning"
+      ],
+      [
+        "kaffir-lime-leaf",
+        5,
+        "citrus aroma",
         "seasoning"
       ],
       [
@@ -547,34 +673,49 @@ export const expandedDishes = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-sauce",
-      "lime",
-      "chili"
+      "panang-curry-paste",
+      "coconut-milk",
+      "peanuts",
+      "kaffir-lime-leaf"
     ],
     "basicTaste": [
-      "spicy",
       "creamy",
-      "savory"
+      "savory",
+      "mildly-sweet",
+      "spicy"
     ],
     "textureProfile": [
-      "saucy",
-      "soft vegetables"
+      "thick curry sauce",
+      "tender meat",
+      "slight nutty body"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-peanut",
+      "contains-fish-sauce",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "protein-varies-by-restaurant",
+      "contains-animal-seasoning-by-default"
+    ],
     "goodForTags": [
-      "common-menu-item"
+      "curry",
+      "creamy"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "fish-allergy",
+      "spice-sensitive"
+    ],
     "orderVerdict": {
-      "en": "Order this for a rich curry that is usually less soupy than green or red curry.",
-      "zh": "如果你接受这类口味和风险，帕能咖喱 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A strong pick if you want a richer curry; avoid it with peanut concerns.",
+      "zh": "想吃更浓厚的泰式咖喱时很适合；花生过敏者不要点。",
+      "nl": "Sterk als je een rijkere curry wilt; vermijden bij pinda-allergie."
     },
     "spiceLevel": 2,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -582,9 +723,9 @@ export const expandedDishes = [
     "metadataCode": "108012",
     "cuisineId": "thai",
     "names": {
-      "en": "Yellow Curry",
+      "en": "Thai Yellow Curry",
       "zh": "泰式黄咖喱",
-      "nl": "Gele curry",
+      "nl": "Thaise gele curry",
       "local": "แกงกะหรี่"
     },
     "category": "curry",
@@ -592,86 +733,104 @@ export const expandedDishes = [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Milder Thai curry with turmeric-like warmth, coconut milk, potatoes, and meat or tofu.",
-      "zh": "泰式黄咖喱 是常见泰国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Gele curry is een veelvoorkomend gerecht in de thais keuken, beschreven voor snelle bestelkeuzes."
+      "en": "A milder Thai coconut curry with yellow curry paste, potato, onion-style sweetness, and usually chicken.",
+      "zh": "相对温和的泰式椰奶黄咖喱，常有土豆、微甜香气和鸡肉。",
+      "nl": "Een mildere Thaise kokoscurry met gele currypasta, aardappel, lichte zoetheid en vaak kip."
     },
     "cookingProfile": {
-      "en": "Usually served as a curry with a saucy, soft vegetables feel.",
-      "zh": "通常以curry形式上桌，重点体验是saucy。",
-      "nl": "Meestal geserveerd als curry met een saucy gevoel."
+      "en": "Simmered until potatoes soften, giving the curry a comforting, thicker feel.",
+      "zh": "土豆煮软后让咖喱更有家常厚度和饱足感。",
+      "nl": "Gesudderd tot de aardappel zacht is, waardoor de curry troostrijker en voller voelt."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
+        "curry",
         "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频泰国菜菜品。",
-        "nl": "Een vaak voorkomend thais menu-item voor bredere restaurantdekking."
+        "en": "A common Thai curry that is usually gentler and more comforting than red or green curry.",
+        "zh": "常见泰式咖喱，通常比红咖喱或绿咖喱更温和、更家常。",
+        "nl": "Een veelvoorkomende Thaise curry, meestal zachter en huiselijker dan rode of groene curry."
       }
     },
     "composition": [
       [
-        "steamed-rice",
-        35,
-        "base"
-      ],
-      [
-        "chicken",
-        25,
-        "protein"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
         "coconut-milk",
-        15,
-        "sauce",
+        35,
+        "sauce base",
         "seasoning"
       ],
       [
-        "chili",
+        "chicken",
+        20,
+        "protein"
+      ],
+      [
+        "potato",
+        20,
+        "starchy body"
+      ],
+      [
+        "yellow-curry-paste",
+        15,
+        "signature paste",
+        "seasoning"
+      ],
+      [
+        "fish-sauce",
         5,
-        "heat",
+        "salty umami",
+        "seasoning"
+      ],
+      [
+        "palm-sugar",
+        5,
+        "gentle sweetness",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-sauce",
-      "lime",
-      "chili"
+      "yellow-curry-paste",
+      "coconut-milk",
+      "palm-sugar",
+      "fish-sauce"
     ],
     "basicTaste": [
-      "spicy",
       "creamy",
-      "savory"
+      "mildly-spicy",
+      "savory",
+      "slightly-sweet"
     ],
     "textureProfile": [
-      "saucy",
-      "soft vegetables"
+      "soft potato",
+      "creamy sauce",
+      "tender chicken"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-fish-sauce"
+    ],
+    "dietaryFlags": [
+      "protein-varies-by-restaurant",
+      "contains-animal-seasoning-by-default"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly"
+      "curry",
+      "first-timer-friendly",
+      "safe-choice"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "fish-allergy"
+    ],
     "orderVerdict": {
-      "en": "A friendly curry for diners who want comfort and lower heat.",
-      "zh": "如果你接受这类口味和风险，泰式黄咖喱 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A good curry choice when you want coconut richness with lower heat and potato comfort.",
+      "zh": "想吃椰奶咖喱但不想太辣、也想要土豆饱足感时很适合。",
+      "nl": "Goed als je kokoscurry wilt met minder pit en zachte aardappel."
     },
     "spiceLevel": 1,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -689,89 +848,115 @@ export const expandedDishes = [
       "assembled"
     ],
     "shortDescription": {
-      "en": "Warm minced meat salad with lime, herbs, fish sauce, chili, and toasted rice aroma.",
-      "zh": "泰式酸辣肉末沙拉 是常见泰国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Larb is een veelvoorkomend gerecht in de thais keuken, beschreven voor snelle bestelkeuzes."
+      "en": "A minced meat salad dressed with lime, fish sauce, chili, herbs, and toasted rice powder.",
+      "zh": "肉末用青柠、鱼露、辣椒、香草和烤米粉拌成的酸辣沙拉。",
+      "nl": "Een gehaktsalade met limoen, vissaus, chili, kruiden en geroosterd rijstpoeder."
     },
     "cookingProfile": {
-      "en": "Usually served as a salad with a fresh crunch, cool finish feel.",
-      "zh": "通常以salad形式上桌，重点体验是fresh crunch。",
-      "nl": "Meestal geserveerd als salad met een fresh crunch gevoel."
+      "en": "Usually served warm or room temperature, with dry, bright dressing rather than a creamy sauce.",
+      "zh": "多为温热或常温上桌，调味清爽干拌，不是奶油型酱汁。",
+      "nl": "Meestal warm of op kamertemperatuur, met frisse droge dressing in plaats van romige saus."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "lighter-choice"
+        "classic",
+        "regional-dish",
+        "spicy"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频泰国菜菜品。",
-        "nl": "Een vaak voorkomend thais menu-item voor bredere restaurantdekking."
+        "en": "A classic Lao-Isan style salad widely found on Thai menus, especially when sour-spicy dishes are offered.",
+        "zh": "老挝/泰东北风格经典沙拉，在泰餐菜单中很常见，酸辣感明显。",
+        "nl": "Een klassieke Lao/Isan-achtige salade die vaak op Thaise menu's staat, zuur en pittig."
       }
     },
     "composition": [
       [
-        "mixed-vegetables",
+        "minced-pork",
         45,
-        "base"
+        "protein"
       ],
       [
-        "cucumber",
-        20,
-        "freshness"
+        "lime",
+        15,
+        "sour dressing"
       ],
       [
-        "tomato",
-        20,
-        "body"
-      ],
-      [
-        "olive-oil",
+        "fish-sauce",
         10,
-        "finish",
+        "salty umami",
         "seasoning"
       ],
       [
-        "vinegar",
+        "roasted-rice-powder",
+        10,
+        "toasty texture",
+        "seasoning"
+      ],
+      [
+        "green-onion",
+        10,
+        "fresh aromatics"
+      ],
+      [
+        "mint",
         5,
-        "tang",
+        "herbal lift",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-sauce",
       "lime",
+      "fish-sauce",
+      "roasted-rice-powder",
+      "mint",
       "chili"
     ],
     "basicTaste": [
-      "fresh",
-      "tangy"
+      "sour",
+      "spicy",
+      "salty",
+      "herbal",
+      "umami"
     ],
     "textureProfile": [
-      "fresh crunch",
-      "cool finish"
+      "loose minced meat",
+      "toasty grainy coating",
+      "fresh herbs"
     ],
     "riskFlags": [
-      "contains-fish-sauce"
+      "contains-fish-sauce",
+      "contains-pork",
+      "can-be-spicy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "protein-varies-by-restaurant"
+    ],
     "goodForTags": [
-      "common-menu-item",
-      "lighter-choice"
+      "spicy",
+      "tangy",
+      "regional-dish"
     ],
     "avoidIfTags": [
+      "fish-allergy",
+      "pork-avoidant",
       "spice-sensitive"
     ],
     "orderVerdict": {
-      "en": "Great if you like bright sour-spicy meat dishes; not ideal if you avoid fish sauce.",
-      "zh": "如果你接受这类口味和风险，泰式酸辣肉末沙拉 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Great if you want bright sour-spicy flavor; skip it if you prefer mild or saucy dishes.",
+      "zh": "喜欢酸辣清爽、香草感强的菜可以点；想吃温和或多汁酱菜则不适合。",
+      "nl": "Mooi als je fris zuur-pittig wilt; minder geschikt als je mild of sausachtig zoekt."
     },
     "spiceLevel": 3,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -784,93 +969,101 @@ export const expandedDishes = [
       "nl": "Thaise saté",
       "local": "สะเต๊ะ"
     },
-    "category": "starter",
+    "category": "grilled-skewer",
     "cookingMethods": [
-      "assembled"
+      "grilled"
     ],
     "shortDescription": {
-      "en": "Grilled skewers, often chicken, served with a sweet-savory peanut sauce.",
-      "zh": "泰式沙爹串 是常见泰国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Thaise saté is een veelvoorkomend gerecht in de thais keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Grilled marinated skewers, usually chicken or pork, served with peanut satay sauce and cucumber relish.",
+      "zh": "腌制肉串烤熟后配花生沙爹酱和黄瓜小菜，常见为鸡肉或猪肉。",
+      "nl": "Gegrilde gemarineerde spiesjes, meestal kip of varken, met pindasaus en komkommerrelish."
     },
     "cookingProfile": {
-      "en": "Usually served as a starter with a small bites, contrasting textures feel.",
-      "zh": "通常以starter形式上桌，重点体验是small bites。",
-      "nl": "Meestal geserveerd als starter met een small bites gevoel."
+      "en": "Charred quickly over heat, so the meat is smoky while the peanut sauce adds sweetness and richness.",
+      "zh": "肉串快速烤出焦香，花生酱带来甜咸和浓郁感。",
+      "nl": "Snel gegrild voor rokerigheid, terwijl de pindasaus zoetheid en rijkdom geeft."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
+        "street-food",
         "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频泰国菜菜品。",
-        "nl": "Een vaak voorkomend thais menu-item voor bredere restaurantdekking."
+        "en": "A familiar Thai street-food and appetizer format, useful for sharing or starting a meal.",
+        "zh": "常见泰式街头小吃和开胃菜形式，适合分享或作为前菜。",
+        "nl": "Een herkenbare Thaise streetfood- en voorgerechtvorm, handig om te delen."
       }
     },
     "composition": [
       [
-        "bread",
-        35,
-        "base"
+        "chicken",
+        55,
+        "skewered protein"
       ],
       [
-        "mixed-vegetables",
+        "satay-sauce",
         25,
-        "topping"
-      ],
-      [
-        "cheese",
-        20,
-        "richness"
-      ],
-      [
-        "garlic",
-        10,
-        "aroma",
+        "peanut dipping sauce",
         "seasoning"
       ],
       [
-        "olive-oil",
+        "cucumber",
         10,
-        "finish",
+        "relish"
+      ],
+      [
+        "peanuts",
+        5,
+        "nutty garnish"
+      ],
+      [
+        "turmeric",
+        5,
+        "warm marinade",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-sauce",
-      "lime",
+      "satay-sauce",
+      "peanuts",
+      "turmeric",
       "chili"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "sweet",
+      "nutty",
+      "mildly-spicy"
     ],
     "textureProfile": [
-      "small bites",
-      "contrasting textures"
+      "grilled edges",
+      "tender meat",
+      "creamy peanut sauce"
     ],
     "riskFlags": [
       "contains-peanut"
     ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "common-menu-item",
-      "first-timer-friendly",
-      "lighter-choice"
+    "dietaryFlags": [
+      "protein-varies-by-restaurant"
     ],
-    "avoidIfTags": [],
+    "goodForTags": [
+      "street-food",
+      "first-timer-friendly",
+      "safe-choice"
+    ],
+    "avoidIfTags": [
+      "peanut-allergy"
+    ],
     "orderVerdict": {
-      "en": "Easy sharing starter if peanuts are fine for you.",
-      "zh": "如果你接受这类口味和风险，泰式沙爹串 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Easy to like if peanuts are fine; good as a shared starter or simple grilled order.",
+      "zh": "能吃花生的话很容易接受，适合作为分享前菜或简单烤肉串。",
+      "nl": "Makkelijk lekker als pinda geen probleem is; goed als deelbaar voorgerecht."
     },
     "spiceLevel": 1,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -885,93 +1078,100 @@ export const expandedDishes = [
     },
     "category": "dessert",
     "cookingMethods": [
-      "chilled"
+      "steamed",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Sweet sticky rice with coconut milk and ripe mango, usually soft, creamy, and fruity.",
-      "zh": "芒果糯米饭 是常见泰国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Mango sticky rice is een veelvoorkomend gerecht in de thais keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Sweet sticky rice with ripe mango and coconut milk, usually served as a cool or room-temperature Thai dessert.",
+      "zh": "甜糯米饭配熟芒果和椰奶，常作为冷或常温泰式甜点。",
+      "nl": "Zoete kleefrijst met rijpe mango en kokosmelk, meestal koel of op kamertemperatuur geserveerd."
     },
     "cookingProfile": {
-      "en": "Usually served as a dessert with a sweet, soft feel.",
-      "zh": "通常以dessert形式上桌，重点体验是sweet。",
-      "nl": "Meestal geserveerd als dessert met een sweet gevoel."
+      "en": "Steamed sticky rice is soaked with sweet coconut milk, so the dessert feels chewy, creamy, and fruity.",
+      "zh": "蒸熟糯米吸收甜椰奶，口感软糯、椰香、带芒果果香。",
+      "nl": "Gestoomde kleefrijst neemt zoete kokosmelk op: kleverig, romig en fruitig."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
+        "classic",
+        "dessert",
         "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频泰国菜菜品。",
-        "nl": "Een vaak voorkomend thais menu-item voor bredere restaurantdekking."
+        "en": "A classic Thai dessert and one of the easiest sweet dishes for first-time diners.",
+        "zh": "经典泰式甜点，对第一次吃泰餐甜品的人很友好。",
+        "nl": "Een klassiek Thais dessert en een makkelijke zoete keuze voor beginners."
       }
     },
     "composition": [
       [
-        "cream",
-        35,
+        "sticky-rice",
+        45,
         "base"
       ],
       [
-        "sugar",
-        25,
-        "sweetener"
+        "mango",
+        30,
+        "fruit"
       ],
       [
-        "wheat-flour",
-        20,
-        "base"
+        "coconut-milk",
+        15,
+        "sweet coconut sauce",
+        "seasoning"
       ],
       [
-        "egg",
-        10,
-        "binder"
+        "palm-sugar",
+        5,
+        "sweetener",
+        "seasoning"
       ],
       [
-        "vanilla",
-        10,
-        "aroma",
+        "sea-salt",
+        5,
+        "salt balance",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-sauce",
-      "lime",
-      "chili"
+      "mango",
+      "coconut-milk",
+      "palm-sugar"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "fruity",
+      "mild"
     ],
     "textureProfile": [
-      "sweet",
-      "soft"
+      "sticky rice",
+      "soft mango",
+      "creamy coconut sauce"
     ],
-    "riskFlags": [
-      "contains-dairy",
-      "contains-egg",
-      "contains-gluten"
+    "riskFlags": [],
+    "dietaryFlags": [
+      "usually-vegetarian"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item",
+      "dessert",
       "first-timer-friendly",
-      "lighter-choice"
+      "sweet"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "not-for-low-sugar"
+    ],
     "orderVerdict": {
-      "en": "A strong dessert pick if you like coconut and mango rather than cake.",
-      "zh": "如果你接受这类口味和风险，芒果糯米饭 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "A reliable dessert if you want sweet coconut and mango rather than something fried or chocolatey.",
+      "zh": "想吃椰香和芒果味甜点，而不是油炸或巧克力甜点时很稳。",
+      "nl": "Een betrouwbare dessertkeuze als je kokos en mango wilt in plaats van gefrituurd of chocolade."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "low"
   }),
   starterDish({
     "id": "khao-soi",
@@ -983,41 +1183,38 @@ export const expandedDishes = [
       "nl": "Khao soi",
       "local": "ข้าวซอย"
     },
-    "category": "noodle",
+    "category": "noodle-soup",
     "cookingMethods": [
-      "stir-fried"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Northern Thai curry noodle soup with coconut curry broth and crispy noodle topping.",
-      "zh": "泰北咖喱鸡面 是常见泰国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Khao soi is een veelvoorkomend gerecht in de thais keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Northern Thai coconut curry noodle soup, often with chicken, soft noodles, crisp noodle garnish, lime, and pickled sides.",
+      "zh": "泰北椰奶咖喱面，常配鸡肉、软面、炸脆面、青柠和腌菜。",
+      "nl": "Noord-Thaise kokos-currynoedelsoep, vaak met kip, zachte noedels, krokante noedels, limoen en ingelegde garnituur."
     },
     "cookingProfile": {
-      "en": "Usually served as a noodle with a springy noodles, glossy sauce feel.",
-      "zh": "通常以noodle形式上桌，重点体验是springy noodles。",
-      "nl": "Meestal geserveerd als noodle met een springy noodles gevoel."
+      "en": "Served as a rich bowl, it combines creamy curry broth with soft noodles and crunchy garnish.",
+      "zh": "以浓郁汤面形式上桌，椰奶咖喱汤、软面和脆面形成对比。",
+      "nl": "Een rijke kom met romige currybouillon, zachte noedels en knapperige garnering."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item"
+        "regional-dish",
+        "noodle",
+        "curry"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频泰国菜菜品。",
-        "nl": "Een vaak voorkomend thais menu-item voor bredere restaurantdekking."
+        "en": "A northern Thai classic, especially useful to recognize on menus that go beyond basic curries.",
+        "zh": "泰北经典菜，在比基础咖喱更深入的泰餐菜单上很值得识别。",
+        "nl": "Een Noord-Thaise klassieker, vooral nuttig op menu's die verder gaan dan basiscurry's."
       }
     },
     "composition": [
       [
         "wheat-noodles",
-        45,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
+        40,
+        "noodle base"
       ],
       [
         "chicken",
@@ -1025,47 +1222,69 @@ export const expandedDishes = [
         "protein"
       ],
       [
-        "soy-sauce",
-        10,
-        "seasoning",
+        "coconut-milk",
+        20,
+        "curry broth",
         "seasoning"
       ],
       [
-        "green-onion",
+        "yellow-curry-paste",
+        10,
+        "warm curry base",
+        "seasoning"
+      ],
+      [
+        "chili",
         5,
-        "finish"
+        "heat",
+        "seasoning"
+      ],
+      [
+        "lime",
+        5,
+        "fresh finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-sauce",
-      "lime",
-      "chili"
+      "coconut-milk",
+      "yellow-curry-paste",
+      "chili",
+      "lime"
     ],
     "basicTaste": [
+      "creamy",
       "savory",
-      "umami"
+      "mildly-spicy",
+      "aromatic"
     ],
     "textureProfile": [
-      "springy noodles",
-      "glossy sauce"
+      "soft noodles",
+      "creamy broth",
+      "crunchy garnish"
     ],
     "riskFlags": [
-      "contains-gluten"
+      "contains-gluten",
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "common-menu-item"
+      "regional-dish",
+      "noodle-lover",
+      "curry"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-allergy",
+      "spice-sensitive"
+    ],
     "orderVerdict": {
-      "en": "Order this for a richer noodle soup with curry depth and crunch.",
-      "zh": "如果你接受这类口味和风险，泰北咖喱鸡面 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Order it if you want a memorable Thai noodle bowl that is richer than clear soup.",
+      "zh": "想吃比清汤面更浓郁、更有记忆点的泰式面时可以点。",
+      "nl": "Bestel dit als je een rijkere Thaise noedelkom wilt dan heldere soep."
     },
     "spiceLevel": 2,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({
@@ -1083,36 +1302,33 @@ export const expandedDishes = [
       "stir-fried"
     ],
     "shortDescription": {
-      "en": "Spicy stir-fried noodles with basil-like aroma, vegetables, and meat or seafood.",
-      "zh": "泰式醉面 是常见泰国菜菜单菜品，重点适合用来判断口味、分量和点餐风险。",
-      "nl": "Drunken noodles is een veelvoorkomend gerecht in de thais keuken, beschreven voor snelle bestelkeuzes."
+      "en": "Spicy wok-fried wide noodles with basil, chili, vegetables, and usually chicken, pork, beef, or seafood.",
+      "zh": "辣味宽河粉快炒，常有罗勒、辣椒、蔬菜和鸡肉、猪肉、牛肉或海鲜。",
+      "nl": "Pittig gewokte brede noedels met basilicum, chili, groenten en vaak kip, varken, rund of zeevruchten."
     },
     "cookingProfile": {
-      "en": "Usually served as a noodle with a springy noodles, glossy sauce feel.",
-      "zh": "通常以noodle形式上桌，重点体验是springy noodles。",
-      "nl": "Meestal geserveerd als noodle met een springy noodles gevoel."
+      "en": "A hot wok gives glossy noodles and bold chili-basil aroma, usually stronger than Pad See Ew.",
+      "zh": "热锅快炒带来油润河粉和强烈辣椒罗勒香，通常比 Pad See Ew 更冲。",
+      "nl": "De hete wok geeft glanzende noedels en sterke chili-basilicumaroma's, meestal krachtiger dan Pad See Ew."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item"
+        "classic",
+        "noodle",
+        "spicy"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added for broader restaurant coverage.",
-        "zh": "为提升餐厅菜单覆盖率加入的高频泰国菜菜品。",
-        "nl": "Een vaak voorkomend thais menu-item voor bredere restaurantdekking."
+        "en": "A popular Thai wok-noodle dish for diners who want more chili and basil impact.",
+        "zh": "受欢迎的泰式炒河粉，适合想要更强辣味和罗勒香的人。",
+        "nl": "Een populaire Thaise woknoedel voor wie meer chili en basilicum wil."
       }
     },
     "composition": [
       [
-        "wheat-noodles",
+        "rice-noodles",
         45,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
+        "wide noodle base"
       ],
       [
         "chicken",
@@ -1120,49 +1336,72 @@ export const expandedDishes = [
         "protein"
       ],
       [
+        "mixed-vegetables",
+        15,
+        "vegetables"
+      ],
+      [
         "soy-sauce",
         10,
-        "seasoning",
+        "wok seasoning",
         "seasoning"
       ],
       [
-        "green-onion",
+        "holy-basil",
         5,
-        "finish"
+        "signature aroma",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-sauce",
-      "lime",
-      "chili"
+      "holy-basil",
+      "chili",
+      "soy-sauce",
+      "garlic"
     ],
     "basicTaste": [
       "savory",
+      "spicy",
+      "herbal",
       "umami"
     ],
     "textureProfile": [
-      "springy noodles",
-      "glossy sauce"
+      "chewy wide noodles",
+      "glossy sauce coating",
+      "crisp vegetables"
     ],
     "riskFlags": [
-      "contains-gluten"
+      "contains-soy",
+      "contains-gluten",
+      "can-be-spicy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "protein-varies-by-restaurant"
+    ],
     "goodForTags": [
-      "common-menu-item"
+      "noodle-lover",
+      "spicy"
     ],
     "avoidIfTags": [
-      "spice-sensitive"
+      "spice-sensitive",
+      "soy-allergy",
+      "gluten-allergy"
     ],
     "orderVerdict": {
-      "en": "Good if you want bold wok flavor and real chili heat.",
-      "zh": "如果你接受这类口味和风险，泰式醉面 是可以优先考虑的选择。",
-      "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
+      "en": "Pick this over Pad See Ew when you want a spicier, more aromatic noodle plate.",
+      "zh": "想要比酱油炒河粉更辣、更香草冲击的面食时选它。",
+      "nl": "Kies dit boven Pad See Ew als je pittigere, aromatischere noedels wilt."
     },
-    "spiceLevel": 4,
+    "spiceLevel": 3,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }),
   starterDish({

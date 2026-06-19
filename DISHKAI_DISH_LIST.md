@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 321
-- Total aliases: 1054
+- Total verified dishes: 346
+- Total aliases: 1132
 - Total cuisines: 14
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -362,10 +362,35 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 105029 - `spanish-flan` - Flan / 西班牙焦糖布丁 / Flan
 30. 105030 - `bocadillo-de-calamares` - Bocadillo de Calamares / 炸鱿鱼圈长棍三明治 / Bocadillo de calamares
 
-## Thai (thai) - 5
+## Thai (thai) - 30
 
 1. 108001 - `pad-thai` - Pad Thai / 泰式炒河粉 / ผัดไทย
 2. 108002 - `tom-yum-goong` - Tom Yum Goong / 冬阴功虾汤 / ต้มยำกุ้ง
 3. 108003 - `green-curry` - Green Curry / 泰式绿咖喱 / แกงเขียวหวาน
 4. 108004 - `som-tam` - Som Tam / 青木瓜沙拉 / ส้มตำ
 5. 108005 - `massaman-curry` - Massaman Curry / 玛莎曼咖喱 / มัสมั่น
+6. 108006 - `pad-see-ew` - Pad See Ew / 泰式酱油炒河粉 / ผัดซีอิ๊ว
+7. 108007 - `pad-kra-pao` - Pad Kra Pao / 泰式打抛肉饭 / ผัดกะเพรา
+8. 108008 - `khao-pad` - Khao Pad / 泰式炒饭 / ข้าวผัด
+9. 108009 - `tom-kha-gai` - Tom Kha Gai / 泰式椰奶鸡汤 / ต้มข่าไก่
+10. 108010 - `red-curry` - Thai Red Curry / 泰式红咖喱 / แกงเผ็ด
+11. 108011 - `panang-curry` - Panang Curry / 帕能咖喱 / พะแนง
+12. 108012 - `yellow-curry` - Thai Yellow Curry / 泰式黄咖喱 / แกงกะหรี่
+13. 108013 - `larb` - Larb / 泰式酸辣肉末沙拉 / ลาบ
+14. 108014 - `thai-satay` - Thai Satay / 泰式沙爹串 / สะเต๊ะ
+15. 108015 - `mango-sticky-rice` - Mango Sticky Rice / 芒果糯米饭 / ข้าวเหนียวมะม่วง
+16. 108016 - `khao-soi` - Khao Soi / 泰北咖喱鸡面 / ข้าวซอย
+17. 108017 - `drunken-noodles` - Drunken Noodles / 泰式醉面 / ผัดขี้เมา
+18. 108018 - `pla-rad-prik` - Pla Rad Prik / 泰式辣酱炸鱼 / ปลาราดพริก
+19. 108019 - `hor-mok` - Hor Mok / 泰式咖喱蒸鱼糕 / ห่อหมก
+20. 108020 - `yum-woon-sen` - Yum Woon Sen / 泰式酸辣粉丝沙拉 / ยำวุ้นเส้น
+21. 108021 - `moo-ping` - Moo Ping / 泰式烤猪肉串 / หมูปิ้ง
+22. 108022 - `gai-yang` - Gai Yang / 泰式烤鸡 / ไก่ย่าง
+23. 108023 - `khao-man-gai` - Khao Man Gai / 泰式海南鸡饭 / ข้าวมันไก่
+24. 108024 - `boat-noodles` - Boat Noodles / 泰式船面 / ก๋วยเตี๋ยวเรือ
+25. 108025 - `rad-na` - Rad Na / 泰式浇汁河粉 / ราดหน้า
+26. 108026 - `pad-pak-boong` - Pad Pak Boong / 泰式炒空心菜 / ผัดผักบุ้ง
+27. 108027 - `miang-kham` - Miang Kham / 泰式叶包小食 / เมี่ยงคำ
+28. 108028 - `tod-mun-pla` - Tod Mun Pla / 泰式炸鱼饼 / ทอดมันปลา
+29. 108029 - `nam-tok` - Nam Tok / 泰式酸辣烤肉沙拉 / น้ำตก
+30. 108030 - `kanom-krok` - Kanom Krok / 泰式椰奶小煎糕 / ขนมครก

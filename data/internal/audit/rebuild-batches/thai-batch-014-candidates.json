@@ -1,0 +1,177 @@
+[
+  {
+    "dishId": "pad-see-ew",
+    "metadataCode": "108006",
+    "imagePath": "/assets/dishes/main/108006-pad-see-ew.webp",
+    "name": "Pad See Ew",
+    "source": "expanded"
+  },
+  {
+    "dishId": "pad-kra-pao",
+    "metadataCode": "108007",
+    "imagePath": "/assets/dishes/main/108007-pad-kra-pao.webp",
+    "name": "Pad Kra Pao",
+    "source": "expanded"
+  },
+  {
+    "dishId": "khao-pad",
+    "metadataCode": "108008",
+    "imagePath": "/assets/dishes/main/108008-khao-pad.webp",
+    "name": "Khao Pad",
+    "source": "expanded"
+  },
+  {
+    "dishId": "tom-kha-gai",
+    "metadataCode": "108009",
+    "imagePath": "/assets/dishes/main/108009-tom-kha-gai.webp",
+    "name": "Tom Kha Gai",
+    "source": "expanded"
+  },
+  {
+    "dishId": "red-curry",
+    "metadataCode": "108010",
+    "imagePath": "/assets/dishes/main/108010-red-curry.webp",
+    "name": "Red Curry",
+    "source": "expanded"
+  },
+  {
+    "dishId": "panang-curry",
+    "metadataCode": "108011",
+    "imagePath": "/assets/dishes/main/108011-panang-curry.webp",
+    "name": "Panang Curry",
+    "source": "expanded"
+  },
+  {
+    "dishId": "yellow-curry",
+    "metadataCode": "108012",
+    "imagePath": "/assets/dishes/main/108012-yellow-curry.webp",
+    "name": "Yellow Curry",
+    "source": "expanded"
+  },
+  {
+    "dishId": "larb",
+    "metadataCode": "108013",
+    "imagePath": "/assets/dishes/main/108013-larb.webp",
+    "name": "Larb",
+    "source": "expanded"
+  },
+  {
+    "dishId": "thai-satay",
+    "metadataCode": "108014",
+    "imagePath": "/assets/dishes/main/108014-thai-satay.webp",
+    "name": "Thai Satay",
+    "source": "expanded"
+  },
+  {
+    "dishId": "mango-sticky-rice",
+    "metadataCode": "108015",
+    "imagePath": "/assets/dishes/main/108015-mango-sticky-rice.webp",
+    "name": "Mango Sticky Rice",
+    "source": "expanded"
+  },
+  {
+    "dishId": "khao-soi",
+    "metadataCode": "108016",
+    "imagePath": "/assets/dishes/main/108016-khao-soi.webp",
+    "name": "Khao Soi",
+    "source": "expanded"
+  },
+  {
+    "dishId": "drunken-noodles",
+    "metadataCode": "108017",
+    "imagePath": "/assets/dishes/main/108017-drunken-noodles.webp",
+    "name": "Drunken Noodles",
+    "source": "expanded"
+  },
+  {
+    "dishId": "pla-rad-prik",
+    "metadataCode": "108018",
+    "imagePath": "/assets/dishes/main/108018-pla-rad-prik.webp",
+    "name": "Pla Rad Prik",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "hor-mok",
+    "metadataCode": "108019",
+    "imagePath": "/assets/dishes/main/108019-hor-mok.webp",
+    "name": "Hor Mok",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "yum-woon-sen",
+    "metadataCode": "108020",
+    "imagePath": "/assets/dishes/main/108020-yum-woon-sen.webp",
+    "name": "Yum Woon Sen",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "moo-ping",
+    "metadataCode": "108021",
+    "imagePath": "/assets/dishes/main/108021-moo-ping.webp",
+    "name": "Moo Ping",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "gai-yang",
+    "metadataCode": "108022",
+    "imagePath": "/assets/dishes/main/108022-gai-yang.webp",
+    "name": "Gai Yang",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "khao-man-gai",
+    "metadataCode": "108023",
+    "imagePath": "/assets/dishes/main/108023-khao-man-gai.webp",
+    "name": "Khao Man Gai",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "boat-noodles",
+    "metadataCode": "108024",
+    "imagePath": "/assets/dishes/main/108024-boat-noodles.webp",
+    "name": "Boat Noodles",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "rad-na",
+    "metadataCode": "108025",
+    "imagePath": "/assets/dishes/main/108025-rad-na.webp",
+    "name": "Rad Na",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "pad-pak-boong",
+    "metadataCode": "108026",
+    "imagePath": "/assets/dishes/main/108026-pad-pak-boong.webp",
+    "name": "Pad Pak Boong",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "miang-kham",
+    "metadataCode": "108027",
+    "imagePath": "/assets/dishes/main/108027-miang-kham.webp",
+    "name": "Miang Kham",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "tod-mun-pla",
+    "metadataCode": "108028",
+    "imagePath": "/assets/dishes/main/108028-tod-mun-pla.webp",
+    "name": "Tod Mun Pla",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "nam-tok",
+    "metadataCode": "108029",
+    "imagePath": "/assets/dishes/main/108029-nam-tok.webp",
+    "name": "Nam Tok",
+    "source": "global-depth"
+  },
+  {
+    "dishId": "kanom-krok",
+    "metadataCode": "108030",
+    "imagePath": "/assets/dishes/main/108030-kanom-krok.webp",
+    "name": "Kanom Krok",
+    "source": "global-depth"
+  }
+]

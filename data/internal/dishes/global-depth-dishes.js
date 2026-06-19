@@ -5153,101 +5153,114 @@ const globalDepthDishConfigs = [
       "nl": "Pla rad prik",
       "local": "ปลาราดพริก"
     },
-    "category": "seafood",
+    "category": "fish",
     "cookingMethods": [
-      "grilled"
+      "deep-fried",
+      "sauce-tossed"
     ],
     "shortDescription": {
-      "en": "Pla Rad Prik is a common Thai menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "泰式辣酱炸鱼是常见泰国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Pla rad prik is een veelvoorkomend Thais menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Crisp fried fish topped with a glossy sweet-spicy chili-garlic sauce, usually served as a shared main.",
+      "zh": "炸到外皮酥的鱼淋上甜辣蒜香酱，常作为可分享主菜。",
+      "nl": "Krokant gebakken vis met glanzende zoet-pittige chili-knoflooksaus, vaak om te delen."
     },
     "cookingProfile": {
-      "en": "Usually served with tender seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The fish is fried first, then sauced, so the best versions stay crisp under a sticky chili topping.",
+      "zh": "鱼先炸后淋酱，好的版本外皮仍有脆感，表面是黏亮辣酱。",
+      "nl": "De vis wordt eerst gefrituurd en daarna gesausd, idealiter krokant onder een kleverige chilisaus."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic",
+        "regional-dish",
+        "spicy"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将泰国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Thais menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A recognizable Thai fried fish order where sauce balance matters more than the exact fish species.",
+        "zh": "典型泰式炸鱼菜，点餐重点是鱼的新鲜度和甜辣酱平衡。",
+        "nl": "Een herkenbare Thaise gebakken-viskeuze waarbij de sausbalans belangrijker is dan de exacte vissoort."
       }
     },
     "composition": [
       [
         "fish-fillet",
         60,
-        "main"
+        "fish"
       ],
       [
-        "steamed-rice",
+        "chili",
         15,
-        "base or side"
+        "chili sauce",
+        "seasoning"
       ],
       [
-        "mixed-vegetables",
+        "garlic",
         10,
-        "side"
-      ],
-      [
-        "lemon",
-        5,
-        "finish"
-      ],
-      [
-        "olive-oil",
-        5,
-        "finish",
+        "aromatic",
         "seasoning"
       ],
       [
-        "parsley",
+        "palm-sugar",
         5,
-        "aroma",
+        "sweet balance",
         "seasoning"
+      ],
+      [
+        "fish-sauce",
+        5,
+        "salty umami",
+        "seasoning"
+      ],
+      [
+        "lime",
+        5,
+        "fresh finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-fillet",
-      "lemon",
-      "olive-oil"
+      "chili",
+      "garlic",
+      "fish-sauce",
+      "palm-sugar"
     ],
     "basicTaste": [
+      "spicy",
+      "sweet",
       "savory",
-      "briny"
+      "garlicky"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "crisp fish exterior",
+      "flaky fish",
+      "sticky chili sauce"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-fish-sauce",
+      "can-be-spicy"
     ],
     "dietaryFlags": [
       "pescatarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "spicy",
+      "sharing-friendly",
+      "fish"
     ],
     "avoidIfTags": [
-      "avoids-fish"
+      "fish-allergy",
+      "spice-sensitive"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check fish if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good for sharing if you like crisp fish and sweet-spicy sauce; ask about bones if whole fish is served.",
+      "zh": "喜欢酥炸鱼和甜辣酱、愿意分享时适合点；整鱼版本请留意鱼刺。",
+      "nl": "Goed om te delen als je krokante vis en zoet-pittige saus wilt; vraag naar graten bij hele vis."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
+    "spiceLevel": 3,
+    "weightLevel": 3,
     "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.83,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "hor-mok",
@@ -5259,100 +5272,120 @@ const globalDepthDishConfigs = [
       "nl": "Hor mok",
       "local": "ห่อหมก"
     },
-    "category": "seafood",
+    "category": "steamed-seafood",
     "cookingMethods": [
-      "grilled"
+      "steamed",
+      "set"
     ],
     "shortDescription": {
-      "en": "Hor Mok is a common Thai menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "泰式咖喱蒸鱼糕是常见泰国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Hor mok is een veelvoorkomend Thais menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Steamed Thai red curry fish custard, often served in banana leaf cups with coconut cream and lime leaf.",
+      "zh": "泰式红咖喱鱼肉蒸糕，常装在香蕉叶杯里，表面有椰奶和青柠叶香。",
+      "nl": "Gestoomde Thaise rode-curryviscustard, vaak in bananenblad met kokosroom en limoenblad."
     },
     "cookingProfile": {
-      "en": "Usually served with tender seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Steaming sets the curry mixture softly, so it feels spoonable, aromatic, and richer than plain fish.",
+      "zh": "蒸制让咖喱鱼浆轻柔凝固，口感可舀、香气浓，比普通鱼肉更厚。",
+      "nl": "Door stomen stolt het currymengsel zacht: lepelbaar, aromatisch en rijker dan gewone vis."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic",
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将泰国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Thais menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic Thai steamed curry item, useful to distinguish from soups and fried fish cakes.",
+        "zh": "经典泰式蒸咖喱菜，能和汤类或炸鱼饼区分开。",
+        "nl": "Een klassieke Thaise gestoomde curry, te onderscheiden van soep of gefrituurde viskoekjes."
       }
     },
     "composition": [
       [
         "fish-fillet",
-        60,
-        "main"
+        35,
+        "fish base"
       ],
       [
-        "steamed-rice",
-        15,
-        "base or side"
-      ],
-      [
-        "mixed-vegetables",
-        10,
-        "side"
-      ],
-      [
-        "lemon",
-        5,
-        "finish"
-      ],
-      [
-        "olive-oil",
-        5,
-        "finish",
+        "coconut-milk",
+        20,
+        "creamy body",
         "seasoning"
       ],
       [
-        "parsley",
+        "egg",
+        15,
+        "set custard"
+      ],
+      [
+        "red-curry-paste",
+        15,
+        "curry flavor",
+        "seasoning"
+      ],
+      [
+        "kaffir-lime-leaf",
         5,
-        "aroma",
+        "citrus aroma",
+        "seasoning"
+      ],
+      [
+        "fish-sauce",
+        5,
+        "salty umami",
+        "seasoning"
+      ],
+      [
+        "basil",
+        5,
+        "herbal base",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-fillet",
-      "lemon",
-      "olive-oil"
+      "red-curry-paste",
+      "coconut-milk",
+      "kaffir-lime-leaf",
+      "fish-sauce"
     ],
     "basicTaste": [
+      "creamy",
       "savory",
-      "briny"
+      "aromatic",
+      "mildly-spicy"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "soft set custard",
+      "flaky fish",
+      "creamy coconut top"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-egg",
+      "contains-fish-sauce",
+      "can-be-spicy"
     ],
     "dietaryFlags": [
       "pescatarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "regional-dish",
+      "creamy",
+      "fish"
     ],
     "avoidIfTags": [
-      "avoids-fish"
+      "fish-allergy",
+      "egg-allergy",
+      "spice-sensitive"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check fish if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order it when you want a softer, aromatic curry experience rather than a saucy curry bowl.",
+      "zh": "想吃柔软蒸制、香料明显的咖喱鱼糕，而不是一碗咖喱汁时可以点。",
+      "nl": "Bestel dit voor een zachte, aromatische curry-ervaring in plaats van een sausrijke curryschaal."
     },
-    "spiceLevel": 0,
+    "spiceLevel": 2,
     "weightLevel": 2,
     "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.83,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -5365,104 +5398,118 @@ const globalDepthDishConfigs = [
       "nl": "Yum woon sen",
       "local": "ยำวุ้นเส้น"
     },
-    "category": "noodle",
+    "category": "salad",
     "cookingMethods": [
-      "stir-fried"
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Yum Woon Sen is a common Thai menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "泰式酸辣粉丝沙拉是常见泰国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Yum woon sen is een veelvoorkomend Thais menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A bright Thai glass noodle salad with lime, fish sauce, chili, herbs, and often shrimp plus minced pork.",
+      "zh": "清爽酸辣的泰式粉丝沙拉，常有青柠、鱼露、辣椒、香草、虾和猪肉末。",
+      "nl": "Een frisse Thaise glasnoedelsalade met limoen, vissaus, chili, kruiden en vaak garnaal plus varkensgehakt."
     },
     "cookingProfile": {
-      "en": "Usually served with springy noodles, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现springy noodles，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met springy noodles; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served cool or room temperature, with slippery noodles soaking up a sharp lime-chili dressing.",
+      "zh": "多为凉或常温上桌，粉丝吸收青柠辣椒汁，口感滑爽。",
+      "nl": "Koel of op kamertemperatuur, met glibberige noedels die scherpe limoen-chilidressing opnemen."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic",
+        "salad",
+        "spicy"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将泰国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Thais menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic Thai yum salad for diners who want something lighter but still punchy.",
+        "zh": "经典泰式凉拌沙拉，适合想吃清爽但味道有冲击的人。",
+        "nl": "Een klassieke Thaise yum-salade voor wie iets lichter maar krachtigs wil."
       }
     },
     "composition": [
       [
-        "wheat-noodles",
-        45,
-        "base"
+        "glass-noodles",
+        40,
+        "noodle base"
       ],
       [
         "shrimp",
-        25,
-        "main"
+        20,
+        "seafood"
       ],
       [
-        "mixed-vegetables",
+        "minced-pork",
         15,
-        "body"
+        "meat body"
       ],
       [
-        "soy-sauce",
+        "lime",
+        10,
+        "sour dressing"
+      ],
+      [
+        "fish-sauce",
         5,
-        "seasoning",
+        "salty umami",
         "seasoning"
       ],
       [
-        "sesame-oil",
+        "chili",
         5,
-        "aroma",
+        "heat",
         "seasoning"
       ],
       [
         "green-onion",
         5,
-        "finish"
+        "fresh finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "shrimp",
-      "soy-sauce",
-      "aromatics"
+      "lime",
+      "fish-sauce",
+      "chili"
     ],
     "basicTaste": [
-      "savory",
-      "aromatic"
+      "sour",
+      "spicy",
+      "salty",
+      "fresh"
     ],
     "textureProfile": [
-      "springy noodles",
-      "glossy sauce"
+      "slippery glass noodles",
+      "firm shrimp",
+      "fresh herbs"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-soy",
-      "contains-shellfish"
+      "contains-shellfish",
+      "contains-fish-sauce",
+      "contains-pork",
+      "can-be-spicy"
     ],
     "dietaryFlags": [
-      "pescatarian"
+      "protein-varies-by-restaurant"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "tangy",
+      "spicy",
+      "lighter-choice"
     ],
     "avoidIfTags": [
-      "gluten-free",
-      "shellfish-allergy"
+      "shellfish-allergy",
+      "fish-allergy",
+      "pork-avoidant",
+      "spice-sensitive"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, aromatic profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要savory、aromatic的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, aromatic je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good when you want a lighter Thai dish with serious sour-spicy punch; check for shrimp and pork.",
+      "zh": "想吃清爽但酸辣明显的泰菜时适合点；需要确认是否有虾和猪肉。",
+      "nl": "Goed als je iets lichts maar zuur-pittigs wilt; let op garnaal en varken."
     },
-    "spiceLevel": 0,
-    "weightLevel": 3,
+    "spiceLevel": 3,
+    "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.83,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "moo-ping",
@@ -5474,99 +5521,109 @@ const globalDepthDishConfigs = [
       "nl": "Moo ping",
       "local": "หมูปิ้ง"
     },
-    "category": "meat",
+    "category": "grilled-skewer",
     "cookingMethods": [
-      "braised"
+      "grilled"
     ],
     "shortDescription": {
-      "en": "Moo Ping is a common Thai menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "泰式烤猪肉串是常见泰国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Moo ping is een veelvoorkomend Thais menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Thai grilled marinated pork skewers, often eaten with sticky rice and a chili dipping sauce.",
+      "zh": "泰式腌制猪肉串烤到焦香，常配糯米饭和辣味蘸酱。",
+      "nl": "Thaise gegrilde gemarineerde varkensspiesjes, vaak met kleefrijst en chilidip."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Grilling caramelizes the marinade, so the skewers taste smoky, sweet-salty, and lightly charred.",
+      "zh": "烤制会让腌料焦糖化，肉串甜咸、带烟熏和微焦边。",
+      "nl": "Door grillen karamelliseert de marinade: rokerig, zoet-zout en licht geblakerd."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "street-food",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将泰国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Thais menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Thai street-food staple, useful when a menu lists skewers or grilled snacks.",
+        "zh": "泰式街头小吃代表，菜单出现烤串或小吃时很常见。",
+        "nl": "Een Thaise streetfoodklassieker, nuttig bij spiesjes of gegrilde snacks op het menu."
       }
     },
     "composition": [
       [
         "pork",
-        60,
-        "main"
+        55,
+        "skewered meat"
       ],
       [
-        "potato",
-        15,
-        "side"
+        "sticky-rice",
+        20,
+        "usual side"
       ],
       [
-        "mixed-vegetables",
+        "soy-sauce",
         10,
-        "body"
-      ],
-      [
-        "tomato-sauce",
-        5,
-        "sauce",
+        "marinade",
         "seasoning"
       ],
       [
-        "black-pepper",
+        "palm-sugar",
         5,
-        "seasoning",
+        "caramelized sweetness",
         "seasoning"
       ],
       [
-        "parsley",
+        "garlic",
         5,
-        "finish",
+        "aromatic",
         "seasoning"
+      ],
+      [
+        "cucumber",
+        5,
+        "fresh side"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "sauce",
-      "herbs"
+      "soy-sauce",
+      "palm-sugar",
+      "garlic",
+      "chili"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "sweet",
+      "smoky",
+      "mildly-spicy"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "charred edges",
+      "juicy pork",
+      "sticky rice side"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-soy",
+      "contains-gluten"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "street-food",
+      "grilled",
+      "sharing-friendly"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "pork-avoidant",
+      "soy-allergy",
+      "gluten-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check pork if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good snack or shared starter if pork is fine and you like sweet-salty grilled flavors.",
+      "zh": "能吃猪肉、喜欢甜咸烤肉香时很适合作为小吃或分享前菜。",
+      "nl": "Een goede snack of starter als varken oké is en je zoet-zoute grillsmaak wilt."
     },
-    "spiceLevel": 0,
-    "weightLevel": 3,
+    "spiceLevel": 1,
+    "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.83,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -5579,95 +5636,106 @@ const globalDepthDishConfigs = [
       "nl": "Gai yang",
       "local": "ไก่ย่าง"
     },
-    "category": "meat",
+    "category": "grilled",
     "cookingMethods": [
-      "braised"
+      "grilled"
     ],
     "shortDescription": {
-      "en": "Gai Yang is a common Thai menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "泰式烤鸡是常见泰国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Gai yang is een veelvoorkomend Thais menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Thai grilled chicken with garlic, fish sauce or soy-style marinade, often served with sticky rice and chili dip.",
+      "zh": "泰式腌制烤鸡，常有蒜香、鱼露或酱油类腌料，并配糯米和辣蘸酱。",
+      "nl": "Thaise gegrilde kip met knoflook, vissaus- of sojamarinade, vaak met kleefrijst en chilidip."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Grilled over direct heat, it should be browned outside and juicy inside rather than saucy.",
+      "zh": "直接烤制，外层焦香、内部多汁，重点不是酱汁。",
+      "nl": "Direct gegrild: bruin van buiten en sappig van binnen, niet sausgericht."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic",
+        "grilled",
+        "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将泰国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Thais menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic Thai grilled main that feels familiar but carries Thai dipping-sauce flavor.",
+        "zh": "经典泰式烤主菜，形式熟悉，但蘸酱有泰式风味。",
+        "nl": "Een klassieke Thaise grillhoofdgerecht, herkenbaar maar met Thaise dipsmaak."
       }
     },
     "composition": [
       [
         "chicken",
-        60,
-        "main"
+        65,
+        "grilled main"
       ],
       [
-        "potato",
+        "sticky-rice",
         15,
-        "side"
+        "usual side"
       ],
       [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "tomato-sauce",
+        "garlic",
         5,
-        "sauce",
+        "marinade aroma",
         "seasoning"
       ],
       [
-        "black-pepper",
+        "fish-sauce",
         5,
-        "seasoning",
+        "salty marinade",
         "seasoning"
       ],
       [
-        "parsley",
+        "chili",
         5,
-        "finish",
+        "dipping heat",
         "seasoning"
+      ],
+      [
+        "lime",
+        5,
+        "fresh finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "sauce",
-      "herbs"
+      "garlic",
+      "fish-sauce",
+      "chili",
+      "lime"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "smoky",
+      "garlicky",
+      "mildly-spicy"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "grilled skin",
+      "juicy chicken",
+      "sticky rice side"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-fish-sauce"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "grilled",
+      "first-timer-friendly",
+      "safe-choice"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "fish-allergy"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A safe pick if you want grilled chicken with Thai dipping sauce rather than curry or noodles.",
+      "zh": "想吃烤鸡、不想吃咖喱或面时很稳，蘸酱会带泰式风味。",
+      "nl": "Een veilige keuze als je gegrilde kip wilt in plaats van curry of noedels."
     },
-    "spiceLevel": 0,
+    "spiceLevel": 1,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.83,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -5682,86 +5750,100 @@ const globalDepthDishConfigs = [
     },
     "category": "rice",
     "cookingMethods": [
-      "simmered"
+      "boiled",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Khao Man Gai is a common Thai menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "泰式海南鸡饭是常见泰国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Khao man gai is een veelvoorkomend Thais menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Thai chicken rice with sliced poached chicken, fragrant rice, cucumber, soup, and a ginger-chili-soy dipping sauce.",
+      "zh": "泰式鸡饭，配白切鸡、香米饭、黄瓜、小汤和姜辣酱油蘸料。",
+      "nl": "Thaise kiprijst met gepocheerde kip, geurige rijst, komkommer, soep en gember-chili-sojadip."
     },
     "cookingProfile": {
-      "en": "Usually served with soft rice, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft rice，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft rice; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The chicken is gently poached and the rice is flavorful, so the dish feels clean but filling.",
+      "zh": "鸡肉温和煮熟，米饭有香气，整体清爽但很有饱腹感。",
+      "nl": "De kip wordt zacht gepocheerd en de rijst is geurig: schoon maar vullend."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "rice",
+        "first-timer-friendly",
+        "safe-choice"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将泰国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Thais menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Thai-Chinese comfort plate that is gentle, familiar, and common in casual Thai food.",
+        "zh": "泰式华人风格舒适饭，口味温和熟悉，在泰式小店很常见。",
+        "nl": "Een Thai-Chinees comfortbord dat mild, herkenbaar en vaak casual verkrijgbaar is."
       }
     },
     "composition": [
       [
-        "steamed-rice",
-        50,
-        "base"
-      ],
-      [
         "chicken",
-        25,
-        "main"
+        40,
+        "poached protein"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "body"
+        "steamed-rice",
+        40,
+        "fragrant rice"
+      ],
+      [
+        "cucumber",
+        10,
+        "fresh side"
+      ],
+      [
+        "garlic",
+        5,
+        "sauce aroma",
+        "seasoning"
       ],
       [
         "soy-sauce",
         5,
-        "seasoning",
+        "dipping sauce",
         "seasoning"
-      ],
-      [
-        "green-onion",
-        5,
-        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "seasoned rice",
-      "aromatics"
+      "soy-sauce",
+      "garlic",
+      "chili"
     ],
     "basicTaste": [
       "savory",
-      "filling"
+      "mild",
+      "clean",
+      "garlicky"
     ],
     "textureProfile": [
       "soft rice",
-      "mixed toppings"
+      "tender chicken",
+      "fresh cucumber"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-soy",
+      "contains-gluten"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "safe-choice",
+      "rice",
+      "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "soy-allergy",
+      "gluten-allergy"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, filling profile sounds appealing.",
-      "zh": "如果你想要savory、filling的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, filling je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A gentle Thai order if you want rice and chicken without curry richness or heavy spice.",
+      "zh": "想吃米饭和鸡肉、不想要咖喱厚重或重辣时很适合。",
+      "nl": "Een milde Thaise keuze als je rijst en kip wilt zonder curryrijkdom of veel pit."
     },
-    "spiceLevel": 0,
+    "spiceLevel": 1,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.83,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -5774,100 +5856,107 @@ const globalDepthDishConfigs = [
       "nl": "Boat noodles",
       "local": "ก๋วยเตี๋ยวเรือ"
     },
-    "category": "noodle",
+    "category": "noodle-soup",
     "cookingMethods": [
-      "stir-fried"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Boat Noodles is a common Thai menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "泰式船面是常见泰国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Boat noodles is een veelvoorkomend Thais menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Small-bowl Thai noodle soup with dark, intense broth, rice noodles, sliced meat, herbs, and chili condiments.",
+      "zh": "小碗泰式汤面，深色汤底味道浓，配河粉、肉片、香草和辣椒调料。",
+      "nl": "Thaise noedelsoep in kleine kom met donkere intense bouillon, rijstnoedels, vlees, kruiden en chili."
     },
     "cookingProfile": {
-      "en": "Usually served with springy noodles, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现springy noodles，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met springy noodles; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The broth is the focus: dark, savory, and aromatic, with noodles served in a compact bowl.",
+      "zh": "重点在深色浓汤，咸鲜香气重，河粉装在较小的碗里。",
+      "nl": "De bouillon staat centraal: donker, hartig en aromatisch, met noedels in een compacte kom."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "street-food",
+        "noodle"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将泰国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Thais menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Thai noodle-shop staple with a more intense broth than simple chicken or clear noodle soups.",
+        "zh": "泰式面店常见菜，比普通鸡汤面或清汤面味道更重。",
+        "nl": "Een Thaise noedelshopklassieker met intensere bouillon dan heldere kipnoedelsoep."
       }
     },
     "composition": [
       [
-        "wheat-noodles",
-        45,
-        "base"
+        "rice-noodles",
+        35,
+        "noodle base"
       ],
       [
-        "chicken",
-        25,
-        "main"
+        "thai-noodle-broth",
+        30,
+        "dark broth"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "body"
+        "beef",
+        20,
+        "sliced meat"
       ],
       [
-        "soy-sauce",
+        "bean-sprouts",
         5,
-        "seasoning",
+        "fresh crunch"
+      ],
+      [
+        "fish-sauce",
+        5,
+        "salty umami",
         "seasoning"
       ],
       [
-        "sesame-oil",
+        "chili",
         5,
-        "aroma",
+        "table heat",
         "seasoning"
-      ],
-      [
-        "green-onion",
-        5,
-        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "soy-sauce",
-      "aromatics"
+      "thai-noodle-broth",
+      "fish-sauce",
+      "chili"
     ],
     "basicTaste": [
       "savory",
-      "aromatic"
+      "umami",
+      "spicy",
+      "herbal"
     ],
     "textureProfile": [
-      "springy noodles",
-      "glossy sauce"
+      "slippery noodles",
+      "dark broth",
+      "tender sliced meat"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-soy"
+      "contains-fish-sauce",
+      "can-be-spicy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "protein-varies-by-restaurant"
+    ],
     "goodForTags": [
-      "restaurant-coverage"
+      "street-food",
+      "noodle-lover"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "fish-allergy",
+      "spice-sensitive"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, aromatic profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要savory、aromatic的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, aromatic je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it if you like strong noodle broth; ask before ordering if dark, funky soup flavors worry you.",
+      "zh": "喜欢浓味汤面可以点；如果怕深色浓汤或发酵感，先问店员。",
+      "nl": "Kies dit als je krachtige noedelbouillon wilt; vraag na als donkere intense smaken spannend zijn."
     },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "spiceLevel": 2,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "rad-na",
@@ -5881,99 +5970,103 @@ const globalDepthDishConfigs = [
     },
     "category": "noodle",
     "cookingMethods": [
-      "stir-fried"
+      "stir-fried",
+      "sauce-tossed"
     ],
     "shortDescription": {
-      "en": "Rad Na is a common Thai menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "泰式浇汁河粉是常见泰国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Rad na is een veelvoorkomend Thais menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Wide rice noodles topped with thick savory gravy, Chinese broccoli, and sliced pork or chicken.",
+      "zh": "宽河粉上浇浓稠咸鲜芡汁，常配芥蓝和猪肉或鸡肉片。",
+      "nl": "Brede rijstnoedels met dikke hartige saus, Chinese broccoli en plakjes varken of kip."
     },
     "cookingProfile": {
-      "en": "Usually served with springy noodles, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现springy noodles，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met springy noodles; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The noodles may be lightly wok-charred, then covered with glossy gravy for a soft, saucy finish.",
+      "zh": "河粉可能先略炒出锅气，再浇上亮滑芡汁，整体柔软多汁。",
+      "nl": "De noedels kunnen licht gewokt zijn en worden daarna bedekt met glanzende saus."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "noodle",
+        "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将泰国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Thais menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common Thai-Chinese noodle dish that is milder and saucier than many Thai wok noodles.",
+        "zh": "常见泰式华人河粉，比许多泰式炒面更温和、更多芡汁。",
+        "nl": "Een veelvoorkomend Thai-Chinees noedelgerecht, milder en sauziger dan veel woknoedels."
       }
     },
     "composition": [
       [
-        "wheat-noodles",
+        "rice-noodles",
         45,
-        "base"
+        "wide noodle base"
       ],
       [
         "pork",
-        25,
-        "main"
+        20,
+        "sliced protein"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "body"
+        "chinese-broccoli",
+        20,
+        "vegetable"
       ],
       [
         "soy-sauce",
-        5,
-        "seasoning",
+        10,
+        "savory gravy",
         "seasoning"
       ],
       [
-        "sesame-oil",
+        "garlic",
         5,
-        "aroma",
+        "aromatic",
         "seasoning"
-      ],
-      [
-        "green-onion",
-        5,
-        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
       "soy-sauce",
-      "aromatics"
+      "garlic",
+      "white-pepper-style warmth"
     ],
     "basicTaste": [
       "savory",
-      "aromatic"
+      "mild",
+      "umami",
+      "saucy"
     ],
     "textureProfile": [
-      "springy noodles",
-      "glossy sauce"
+      "soft wide noodles",
+      "thick glossy gravy",
+      "tender greens"
     ],
     "riskFlags": [
-      "contains-gluten",
+      "contains-pork",
       "contains-soy",
-      "contains-pork"
+      "contains-gluten"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "protein-varies-by-restaurant"
+    ],
     "goodForTags": [
-      "restaurant-coverage"
+      "noodle-lover",
+      "first-timer-friendly",
+      "safe-choice"
     ],
     "avoidIfTags": [
-      "no-pork",
-      "gluten-free"
+      "pork-avoidant",
+      "soy-allergy",
+      "gluten-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, aromatic profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要savory、aromatic的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, aromatic je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A mild saucy noodle choice if Pad See Ew sounds too dry or wok-heavy.",
+      "zh": "如果觉得酱油炒河粉太干或锅气太重，这道更柔和多汁。",
+      "nl": "Een milde sausrijke noedelkeuze als Pad See Ew te droog of te wokachtig klinkt."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -5986,97 +6079,109 @@ const globalDepthDishConfigs = [
       "nl": "Pad pak boong",
       "local": "ผัดผักบุ้ง"
     },
-    "category": "starter",
+    "category": "vegetable",
     "cookingMethods": [
-      "assembled"
+      "stir-fried"
     ],
     "shortDescription": {
-      "en": "Pad Pak Boong is a common Thai menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "泰式炒空心菜是常见泰国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Pad pak boong is een veelvoorkomend Thais menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Thai stir-fried water spinach with garlic, chili, and savory fermented-style seasoning.",
+      "zh": "空心菜用蒜、辣椒和咸鲜调味快炒，是常见泰式蔬菜菜。",
+      "nl": "Thaise gewokte waterspinazie met knoflook, chili en hartige gefermenteerde smaak."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small bites，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small bites; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Cooked very fast so the stems stay crisp and the leaves turn glossy rather than stewed.",
+      "zh": "快速爆炒，菜梗保持脆感，叶子油亮而不是炖软。",
+      "nl": "Heel snel gewokt zodat de stelen knapperig blijven en de bladeren glanzen."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "vegetable",
+        "street-food"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将泰国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Thais menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common Thai vegetable side, helpful when you want greens with strong wok aroma.",
+        "zh": "常见泰式蔬菜配菜，适合想要锅气和青菜的人。",
+        "nl": "Een veelvoorkomend Thais groentebijgerecht voor wie wokaroma en groen wil."
       }
     },
     "composition": [
       [
-        "mixed-vegetables",
-        40,
-        "main"
+        "water-spinach",
+        70,
+        "main vegetable"
       ],
       [
-        "mixed-vegetables",
-        25,
-        "body"
-      ],
-      [
-        "potato",
-        15,
-        "richness"
-      ],
-      [
-        "olive-oil",
+        "soy-sauce",
         10,
-        "finish",
+        "savory sauce",
         "seasoning"
       ],
       [
-        "sea-salt",
-        5,
-        "seasoning",
+        "garlic",
+        10,
+        "aromatic",
         "seasoning"
       ],
       [
-        "parsley",
+        "chili",
         5,
-        "finish",
+        "heat",
+        "seasoning"
+      ],
+      [
+        "fish-sauce",
+        5,
+        "salty umami",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "mixed-vegetables",
-      "olive-oil",
-      "herbs"
+      "garlic",
+      "chili",
+      "fish-sauce",
+      "soy-sauce"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "garlicky",
+      "spicy",
+      "fresh"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "crisp stems",
+      "glossy leaves",
+      "light sauce"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-soy",
+      "contains-gluten",
+      "contains-fish-sauce",
+      "can-be-spicy"
+    ],
     "dietaryFlags": [
-      "vegan"
+      "contains-animal-seasoning-by-default"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "vegetable",
+      "lighter-choice",
+      "spicy"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "fish-allergy",
+      "soy-allergy",
+      "gluten-allergy",
+      "spice-sensitive"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A strong vegetable side if you like garlic and chili; ask for no fish sauce if vegetarian.",
+      "zh": "喜欢蒜香和辣味的青菜可以点；素食者要确认能否不放鱼露。",
+      "nl": "Een sterk groentebijgerecht als je knoflook en chili wilt; vraag zonder vissaus voor vegetarisch."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
+    "spiceLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.83,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -6094,96 +6199,120 @@ const globalDepthDishConfigs = [
       "assembled"
     ],
     "shortDescription": {
-      "en": "Miang Kham is a common Thai menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "泰式叶包小食是常见泰国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Miang kham is een veelvoorkomend Thais menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Small leaf-wrapped Thai bites with peanuts, toasted coconut, lime, chili, and sweet-salty sauce.",
+      "zh": "用叶子包花生、烤椰丝、青柠、辣椒和甜咸酱的小口泰式前菜。",
+      "nl": "Kleine Thaise hapjes in bladeren met pinda, geroosterde kokos, limoen, chili en zoet-zoute saus."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small bites，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small bites; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Assembled fresh, so each bite is crisp, aromatic, sweet, sour, spicy, and nutty at once.",
+      "zh": "现包现吃，每口都有脆、香、甜、酸、辣和坚果感。",
+      "nl": "Vers samengesteld: elke hap is knapperig, aromatisch, zoet, zuur, pittig en nootachtig."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic",
+        "starter",
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将泰国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Thais menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic Thai snack that is distinctive because it is built as small leaf-wrapped bites.",
+        "zh": "经典泰式小食，特点是叶子包成一口大小的组合。",
+        "nl": "Een klassieke Thaise snack, opvallend door kleine hapjes in bladeren."
       }
     },
     "composition": [
       [
-        "shrimp",
-        40,
-        "main"
-      ],
-      [
-        "mixed-vegetables",
+        "betel-leaves",
         25,
-        "body"
+        "wrapper"
       ],
       [
-        "potato",
-        15,
-        "richness"
+        "peanuts",
+        20,
+        "crunch"
       ],
       [
-        "olive-oil",
+        "toasted-coconut",
+        20,
+        "toasty body"
+      ],
+      [
+        "lime",
         10,
-        "finish",
+        "sour bite"
+      ],
+      [
+        "palm-sugar",
+        10,
+        "sweet sauce",
         "seasoning"
       ],
       [
-        "sea-salt",
+        "chili",
         5,
-        "seasoning",
+        "heat",
         "seasoning"
       ],
       [
-        "parsley",
+        "garlic",
         5,
-        "finish",
+        "sharp aroma",
+        "seasoning"
+      ],
+      [
+        "fish-sauce",
+        5,
+        "salty sauce",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "shrimp",
-      "olive-oil",
-      "herbs"
+      "betel-leaves",
+      "peanuts",
+      "toasted-coconut",
+      "lime",
+      "palm-sugar"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "sweet",
+      "sour",
+      "spicy",
+      "nutty",
+      "herbal"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "fresh leaf wrapper",
+      "crunchy peanuts",
+      "chewy coconut"
     ],
     "riskFlags": [
-      "contains-shellfish"
+      "contains-peanut",
+      "contains-fish-sauce",
+      "can-be-spicy"
     ],
     "dietaryFlags": [
-      "pescatarian"
+      "contains-animal-seasoning-by-default"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "starter",
+      "sharing-friendly",
+      "acquired-taste"
     ],
     "avoidIfTags": [
-      "shellfish-allergy"
+      "peanut-allergy",
+      "fish-allergy",
+      "spice-sensitive"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check shellfish if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A fun starter for adventurous eaters; skip it if peanuts or sharp herbal flavors are a problem.",
+      "zh": "适合愿意尝试复杂香气的人当开胃菜；花生过敏或不喜欢强草本味则跳过。",
+      "nl": "Een leuke starter voor avontuurlijke eters; overslaan bij pinda of sterke kruidigheid."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "spiceLevel": 2,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -6198,101 +6327,109 @@ const globalDepthDishConfigs = [
     },
     "category": "fried-snack",
     "cookingMethods": [
-      "deep-fried"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Tod Mun Pla is a common Thai menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "泰式炸鱼饼是常见泰国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Tod mun pla is een veelvoorkomend Thais menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Thai fried fish cakes seasoned with red curry paste, often served with cucumber relish or sweet chili sauce.",
+      "zh": "用红咖喱调味的泰式炸鱼饼，常配黄瓜酸甜小菜或甜辣酱。",
+      "nl": "Thaise gebakken viskoekjes met rode currypasta, vaak met komkommerrelish of zoete chilisaus."
     },
     "cookingProfile": {
-      "en": "Usually served with crisp outside, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现crisp outside，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met crisp outside; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Fried until springy and browned, they should feel bouncy rather than flaky like a fish fillet.",
+      "zh": "煎炸后口感弹牙、表面焦香，不像鱼柳那样片状松散。",
+      "nl": "Gebakken tot veerkrachtig en bruin; bouncy, niet vlokkig als visfilet."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic",
+        "starter",
+        "street-food"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将泰国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Thais menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic Thai fish-cake starter, useful to separate from satay, spring rolls, or plain fried fish.",
+        "zh": "经典泰式鱼饼前菜，可和沙爹、春卷或普通炸鱼区分。",
+        "nl": "Een klassieke Thaise viskoekstarter, te onderscheiden van saté, loempia of gewone gebakken vis."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        30,
-        "coating"
+        "fish-cake",
+        60,
+        "main"
       ],
       [
-        "fish-fillet",
-        25,
-        "filling"
-      ],
-      [
-        "potato",
+        "red-curry-paste",
         15,
-        "body"
+        "signature seasoning",
+        "seasoning"
+      ],
+      [
+        "green-beans",
+        10,
+        "crisp pieces"
       ],
       [
         "egg",
-        10,
+        5,
         "binder"
       ],
       [
-        "olive-oil",
-        10,
-        "frying medium",
+        "fish-sauce",
+        5,
+        "salty umami",
         "seasoning"
       ],
       [
-        "sea-salt",
-        10,
-        "seasoning",
-        "seasoning"
+        "cucumber",
+        5,
+        "relish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-fillet",
-      "fried crust",
-      "sea-salt"
+      "red-curry-paste",
+      "fish-sauce",
+      "cucumber relish"
     ],
     "basicTaste": [
       "savory",
-      "fried"
+      "mildly-spicy",
+      "umami",
+      "slightly-sweet"
     ],
     "textureProfile": [
-      "crisp outside",
-      "soft center"
+      "springy fish cake",
+      "browned edges",
+      "crisp relish"
     ],
     "riskFlags": [
-      "contains-gluten",
+      "contains-fish",
       "contains-egg",
-      "contains-fish"
+      "contains-fish-sauce",
+      "can-be-spicy"
     ],
     "dietaryFlags": [
       "pescatarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "starter",
+      "street-food",
+      "sharing-friendly"
     ],
     "avoidIfTags": [
-      "gluten-free",
-      "avoids-fish"
+      "fish-allergy",
+      "egg-allergy",
+      "spice-sensitive"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, fried profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要savory、fried的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, fried je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good shared starter if you like bouncy fish cakes and gentle curry heat.",
+      "zh": "喜欢弹牙鱼饼和轻微咖喱辣味时，很适合分享。",
+      "nl": "Een goede deelstarter als je veerkrachtige viskoekjes en lichte currypit wilt."
     },
-    "spiceLevel": 0,
-    "weightLevel": 3,
+    "spiceLevel": 2,
+    "weightLevel": 2,
     "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.83,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -6305,96 +6442,120 @@ const globalDepthDishConfigs = [
       "nl": "Nam tok",
       "local": "น้ำตก"
     },
-    "category": "meat",
+    "category": "salad",
     "cookingMethods": [
-      "braised"
+      "grilled",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Nam Tok is a common Thai menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "泰式酸辣烤肉沙拉是常见泰国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Nam tok is een veelvoorkomend Thais menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Thai grilled meat salad tossed with lime, fish sauce, chili, herbs, and toasted rice powder.",
+      "zh": "烤肉切片与青柠、鱼露、辣椒、香草和烤米粉拌成的泰式酸辣沙拉。",
+      "nl": "Thaise salade van gegrild vlees met limoen, vissaus, chili, kruiden en geroosterd rijstpoeder."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Grilled meat is sliced and dressed, giving smoky meat plus sharp sour-spicy salad flavor.",
+      "zh": "烤肉切片后凉拌，既有烟熏肉香，也有酸辣沙拉感。",
+      "nl": "Gegrild vlees wordt gesneden en gemengd: rokerig vlees met scherp zuur-pittige salade."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "regional-dish",
+        "spicy",
+        "grilled"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将泰国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Thais menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Lao-Isan style Thai salad for diners who want grilled meat with larb-like dressing.",
+        "zh": "老挝/泰东北风格沙拉，适合想吃烤肉加拉布式酸辣调味的人。",
+        "nl": "Een Lao/Isan-achtige Thaise salade voor wie gegrild vlees met larb-achtige dressing wil."
       }
     },
     "composition": [
       [
-        "chicken",
-        60,
-        "main"
+        "beef",
+        50,
+        "grilled meat"
       ],
       [
-        "potato",
+        "lime",
         15,
-        "side"
+        "sour dressing"
       ],
       [
-        "mixed-vegetables",
+        "fish-sauce",
         10,
-        "body"
-      ],
-      [
-        "tomato-sauce",
-        5,
-        "sauce",
+        "salty umami",
         "seasoning"
       ],
       [
-        "black-pepper",
-        5,
-        "seasoning",
+        "roasted-rice-powder",
+        10,
+        "toasty texture",
         "seasoning"
       ],
       [
-        "parsley",
+        "green-onion",
         5,
-        "finish",
+        "fresh aroma"
+      ],
+      [
+        "mint",
+        5,
+        "herbal lift",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "sauce",
-      "herbs"
+      "lime",
+      "fish-sauce",
+      "roasted-rice-powder",
+      "mint",
+      "chili"
     ],
     "basicTaste": [
+      "sour",
+      "spicy",
       "savory",
-      "rich"
+      "smoky",
+      "herbal"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "grilled meat slices",
+      "grainy toasted rice coating",
+      "fresh herbs"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-fish-sauce",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "protein-varies-by-restaurant"
+    ],
     "goodForTags": [
-      "restaurant-coverage"
+      "regional-dish",
+      "spicy",
+      "grilled"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "fish-allergy",
+      "spice-sensitive"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Pick it if you like grilled meat but want a bright sour-spicy salad instead of a heavy steak plate.",
+      "zh": "喜欢烤肉但想要酸辣清爽，而不是厚重牛排盘时可以点。",
+      "nl": "Kies dit als je gegrild vlees wilt, maar fris zuur-pittig in plaats van een zware steak."
     },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "spiceLevel": 3,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.82,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "kanom-krok",
@@ -6408,98 +6569,97 @@ const globalDepthDishConfigs = [
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "fried",
+      "set"
     ],
     "shortDescription": {
-      "en": "Kanom Krok is a common Thai menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "泰式椰奶小煎糕是常见泰国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Kanom krok is een veelvoorkomend Thais menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Small Thai coconut rice pancakes with crisp edges and soft creamy centers, sometimes topped with corn or green onion.",
+      "zh": "小圆泰式椰奶米浆煎糕，边缘微脆，中间柔软香甜，可有玉米或葱点缀。",
+      "nl": "Kleine Thaise kokos-rijstpannenkoekjes met krokante randen en zachte romige kern, soms met mais of lente-ui."
     },
     "cookingProfile": {
-      "en": "Usually served with soft dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Cooked in a dimpled pan, they set into small cups that are crisp outside and creamy inside.",
+      "zh": "在圆孔锅里煎到定型，外圈微脆，内部椰奶感柔软。",
+      "nl": "In een kuiltjespan gebakken tot kleine cupjes: krokant buiten, romig binnen."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "street-food",
+        "dessert"
       ],
       "description": {
-        "en": "A high-frequency Thai menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将泰国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Thais menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Thai street dessert with a distinctive small round shape, useful to recognize on snack menus.",
+        "zh": "泰式街头甜点，小圆形很有辨识度，常见于小吃菜单。",
+        "nl": "Een Thais streetfooddessert met herkenbare ronde vorm, nuttig op snackmenu's."
       }
     },
     "composition": [
       [
-        "sugar",
-        30,
-        "sweetness"
+        "rice-flour-batter",
+        45,
+        "rice batter"
       ],
       [
-        "cream",
-        25,
-        "base"
-      ],
-      [
-        "egg",
-        15,
-        "richness"
-      ],
-      [
-        "wheat-flour",
-        15,
-        "structure"
-      ],
-      [
-        "vanilla",
-        10,
-        "aroma",
+        "coconut-milk",
+        35,
+        "creamy coconut base",
         "seasoning"
       ],
       [
-        "fruit-sauce-or-caramel",
+        "palm-sugar",
+        10,
+        "sweetness",
+        "seasoning"
+      ],
+      [
+        "corn",
         5,
-        "finish"
+        "optional topping"
+      ],
+      [
+        "green-onion",
+        5,
+        "savory topping"
       ]
     ],
     "distinctiveFlavorSources": [
-      "vanilla",
-      "cream",
-      "sweet finish"
+      "coconut-milk",
+      "palm-sugar",
+      "rice-flour-batter"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "mild",
+      "lightly-savory"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "crisp rim",
+      "soft creamy center",
+      "small bite-size cakes"
     ],
-    "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+    "riskFlags": [],
+    "dietaryFlags": [
+      "usually-vegetarian"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "dessert"
+      "dessert",
+      "street-food",
+      "sweet"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "not-for-low-sugar"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A fun Thai dessert if you want coconut creaminess in small warm bites rather than a heavy cake.",
+      "zh": "想吃椰奶香、小口温热甜点，而不是厚重蛋糕时很适合。",
+      "nl": "Een leuk Thais dessert als je warme kleine kokoshapjes wilt in plaats van zware cake."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.82,
     "restaurantVariationLevel": "medium"
   },
   {
