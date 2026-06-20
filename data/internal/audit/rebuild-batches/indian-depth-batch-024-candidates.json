@@ -1,0 +1,110 @@
+[
+  {
+    "dishId": "paneer-tikka",
+    "metadataCode": "115013",
+    "name": "Paneer Tikka",
+    "imagePath": "/assets/dishes/main/115013-paneer-tikka.webp",
+    "thumbPath": "/assets/dishes/thumb/115013-paneer-tikka.webp",
+    "cuisineId": "indian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "aloo-gobi",
+    "metadataCode": "115014",
+    "name": "Aloo Gobi",
+    "imagePath": "/assets/dishes/main/115014-aloo-gobi.webp",
+    "thumbPath": "/assets/dishes/thumb/115014-aloo-gobi.webp",
+    "cuisineId": "indian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "saag-paneer",
+    "metadataCode": "115015",
+    "name": "Saag Paneer",
+    "imagePath": "/assets/dishes/main/115015-saag-paneer.webp",
+    "thumbPath": "/assets/dishes/thumb/115015-saag-paneer.webp",
+    "cuisineId": "indian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "malai-kofta",
+    "metadataCode": "115016",
+    "name": "Malai Kofta",
+    "imagePath": "/assets/dishes/main/115016-malai-kofta.webp",
+    "thumbPath": "/assets/dishes/thumb/115016-malai-kofta.webp",
+    "cuisineId": "indian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "rajma",
+    "metadataCode": "115017",
+    "name": "Rajma",
+    "imagePath": "/assets/dishes/main/115017-rajma.webp",
+    "thumbPath": "/assets/dishes/thumb/115017-rajma.webp",
+    "cuisineId": "indian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "dal-tadka",
+    "metadataCode": "115018",
+    "name": "Dal Tadka",
+    "imagePath": "/assets/dishes/main/115018-dal-tadka.webp",
+    "thumbPath": "/assets/dishes/thumb/115018-dal-tadka.webp",
+    "cuisineId": "indian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "korma",
+    "metadataCode": "115019",
+    "name": "Korma",
+    "imagePath": "/assets/dishes/main/115019-korma.webp",
+    "thumbPath": "/assets/dishes/thumb/115019-korma.webp",
+    "cuisineId": "indian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "madras-curry",
+    "metadataCode": "115020",
+    "name": "Madras Curry",
+    "imagePath": "/assets/dishes/main/115020-madras-curry.webp",
+    "thumbPath": "/assets/dishes/thumb/115020-madras-curry.webp",
+    "cuisineId": "indian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "jalfrezi",
+    "metadataCode": "115021",
+    "name": "Jalfrezi",
+    "imagePath": "/assets/dishes/main/115021-jalfrezi.webp",
+    "thumbPath": "/assets/dishes/thumb/115021-jalfrezi.webp",
+    "cuisineId": "indian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "bhuna",
+    "metadataCode": "115022",
+    "name": "Bhuna",
+    "imagePath": "/assets/dishes/main/115022-bhuna.webp",
+    "thumbPath": "/assets/dishes/thumb/115022-bhuna.webp",
+    "cuisineId": "indian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "dhansak",
+    "metadataCode": "115023",
+    "name": "Dhansak",
+    "imagePath": "/assets/dishes/main/115023-dhansak.webp",
+    "thumbPath": "/assets/dishes/thumb/115023-dhansak.webp",
+    "cuisineId": "indian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "dosa",
+    "metadataCode": "115026",
+    "name": "Dosa",
+    "imagePath": "/assets/dishes/main/115026-dosa.webp",
+    "thumbPath": "/assets/dishes/thumb/115026-dosa.webp",
+    "cuisineId": "indian",
+    "auditStatus": "verified-after-rebuild"
+  }
+]

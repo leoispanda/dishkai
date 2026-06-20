@@ -17315,97 +17315,114 @@ const globalDepthDishConfigs = [
     },
     "category": "starter",
     "cookingMethods": [
+      "grilled",
       "assembled"
     ],
     "shortDescription": {
-      "en": "Paneer Tikka is a common Indian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "印度烤奶酪是常见印度菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Paneer tikka is een veelvoorkomend Indiaas menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Firm paneer cubes marinated in yogurt and spices, then grilled until smoky at the edges.",
+      "zh": "印度烤奶酪：结实的 paneer 奶酪块裹酸奶香料后烤制，边缘有焦香。",
+      "nl": "Paneer tikka: stevige paneerblokjes in yoghurtkruiden, gegrild tot rokerig aan de randen."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small bites，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small bites; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Grilled hot and served as bite-size pieces, often with onion, pepper, lemon, and chutney.",
+      "zh": "通常高温烤制成小块上桌，常配洋葱、甜椒、柠檬和酸辣酱。",
+      "nl": "Heet gegrild en als hapklare stukken geserveerd, vaak met ui, paprika, citroen en chutney."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "vegetarian",
+        "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Indian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印度菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indiaas menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic vegetarian Indian starter where smoky paneer and dairy richness are the main decision points.",
+        "zh": "经典印度素食前菜，点餐重点是烤奶酪的烟熏感和乳香浓度。",
+        "nl": "Een klassiek vegetarisch Indiaas voorgerecht; rookaroma en zuivelrijkdom bepalen de keuze."
       }
     },
     "composition": [
       [
-        "cheese",
-        40,
-        "main"
+        "paneer",
+        50,
+        "grilled cheese cubes"
       ],
       [
-        "mixed-vegetables",
-        25,
-        "body"
-      ],
-      [
-        "cheese",
+        "yogurt",
         15,
-        "richness"
+        "marinade base"
       ],
       [
-        "olive-oil",
+        "bell-pepper",
         10,
-        "finish",
+        "grilled vegetable"
+      ],
+      [
+        "onion",
+        10,
+        "grilled aromatic"
+      ],
+      [
+        "garam-masala",
+        8,
+        "warm spice",
         "seasoning"
       ],
       [
-        "sea-salt",
-        5,
-        "seasoning",
+        "chili",
+        4,
+        "light heat",
         "seasoning"
       ],
       [
-        "parsley",
-        5,
-        "finish",
+        "mint-chutney",
+        3,
+        "cool dip",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cheese",
-      "cheese",
-      "herbs"
+      "charred paneer edges",
+      "yogurt-spice marinade",
+      "mint chutney"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "smoky",
+      "tangy",
+      "mildly spicy"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "firm paneer",
+      "lightly charred edges",
+      "juicy vegetable pieces"
     ],
     "riskFlags": [
-      "contains-dairy"
+      "contains-dairy",
+      "can-be-spicy"
     ],
     "dietaryFlags": [
       "vegetarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "first-timer-friendly",
+      "classic-dish",
+      "vegetarian"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "avoids-dairy",
+      "wants-saucy-curry"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check dairy if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A strong pick if you want a vegetarian grilled starter; skip it if dairy or dry grilled dishes are not your thing.",
+      "zh": "想要素食烤物前菜时很适合；不吃奶制品或想要多酱咖喱时慎选。",
+      "nl": "Een sterke keuze voor een vegetarisch gegrild voorgerecht; sla over bij zuivelmijding of als je juist veel saus wilt."
     },
-    "spiceLevel": 0,
+    "spiceLevel": 1,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "confidenceTag": "audited-indian-depth-batch-024",
+    "metadataConfidence": 0.88,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -17420,78 +17437,83 @@ const globalDepthDishConfigs = [
     },
     "category": "curry",
     "cookingMethods": [
+      "stir-fried",
       "simmered"
     ],
     "shortDescription": {
-      "en": "Aloo Gobi is a common Indian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "土豆花菜咖喱是常见印度菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Aloo gobi is een veelvoorkomend Indiaas menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Potato and cauliflower cooked with turmeric, cumin, and tomato-onion masala; often drier than creamy curries.",
+      "zh": "土豆和花菜配姜黄、孜然、番茄洋葱香料，通常比奶油咖喱更干爽。",
+      "nl": "Aardappel en bloemkool met kurkuma, komijn en tomaat-ui masala; vaak droger dan romige curry."
     },
     "cookingProfile": {
-      "en": "Usually served with saucy curry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现saucy curry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met saucy curry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Usually pan-cooked until the vegetables are tender and coated, not swimming in sauce.",
+      "zh": "通常锅中炒煮到蔬菜变软并裹上香料，不是很多汤汁的类型。",
+      "nl": "Meestal in de pan gegaard tot de groenten zacht en gekruid zijn, niet drijvend in saus."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "vegetarian",
+        "vegan"
       ],
       "description": {
-        "en": "A high-frequency Indian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印度菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indiaas menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A familiar vegetable curry where dryness, spice warmth, and potato weight matter for ordering.",
+        "zh": "常见蔬菜咖喱，点餐时要看是否接受较干的质地、温暖香料和土豆饱腹感。",
+        "nl": "Een herkenbare groentecurry waarbij droogte, warme kruiden en aardappelvulling belangrijk zijn."
       }
     },
     "composition": [
       [
-        "mixed-vegetables",
+        "potato",
+        40,
+        "starchy body"
+      ],
+      [
+        "cauliflower",
         35,
-        "main"
+        "main vegetable"
       ],
       [
-        "coconut-curry",
-        25,
-        "sauce",
-        "seasoning"
-      ],
-      [
-        "steamed-rice",
-        20,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
+        "tomato-sauce",
         10,
-        "body"
+        "masala coating",
+        "seasoning"
       ],
       [
         "cumin",
         5,
-        "aroma",
+        "earthy aroma",
+        "seasoning"
+      ],
+      [
+        "turmeric",
+        5,
+        "golden spice",
         "seasoning"
       ],
       [
         "coriander",
         5,
-        "aroma",
+        "citrusy spice",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "warm spices",
-      "curry sauce",
-      "mixed-vegetables"
+      "turmeric",
+      "cumin",
+      "tomato-onion masala"
     ],
     "basicTaste": [
       "savory",
-      "spiced",
-      "saucy"
+      "earthy",
+      "warm-spiced",
+      "mildly spicy"
     ],
     "textureProfile": [
-      "saucy curry",
-      "tender pieces"
+      "soft potato",
+      "tender cauliflower",
+      "spice-coated pieces"
     ],
     "riskFlags": [
       "can-be-spicy"
@@ -17500,18 +17522,24 @@ const globalDepthDishConfigs = [
       "vegan"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "vegetarian",
+      "vegan",
+      "comfort-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "wants-creamy-curry",
+      "low-carb"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, spiced, saucy profile sounds appealing; check can be spicy if that matters.",
-      "zh": "如果你想要savory、spiced、saucy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, spiced, saucy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a simple vegetable curry with warm spices; skip it if you want a creamy or very saucy dish.",
+      "zh": "想吃温暖香料味的蔬菜咖喱时适合；想要奶油感或很多酱汁时慎选。",
+      "nl": "Kies dit voor een eenvoudige groentecurry met warme kruiden; sla over als je iets romigs of erg sauzigs wilt."
     },
-    "spiceLevel": 2,
+    "spiceLevel": 1,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "confidenceTag": "audited-indian-depth-batch-024",
+    "metadataConfidence": 0.87,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -17529,96 +17557,105 @@ const globalDepthDishConfigs = [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Saag Paneer is a common Indian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "菠菜奶酪是常见印度菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Saag paneer is een veelvoorkomend Indiaas menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Paneer cubes in a thick spinach or greens curry; earthy, creamy, and usually moderate in heat.",
+      "zh": "paneer 奶酪块配浓厚菠菜或绿叶菜咖喱，带青叶香、乳香和中低辣度。",
+      "nl": "Paneerblokjes in dikke spinazie- of bladgroentecurry; aards, romig en meestal matig pittig."
     },
     "cookingProfile": {
-      "en": "Usually served with saucy curry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现saucy curry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met saucy curry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The greens are simmered into a thick sauce, so the paneer feels firm against a soft leafy base.",
+      "zh": "绿叶菜慢煮成厚酱，入口是结实奶酪块配柔软菜泥。",
+      "nl": "De bladgroenten worden tot een dikke saus gestoofd; stevige paneer contrasteert met zachte groentebasis."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "vegetarian",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency Indian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印度菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indiaas menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic vegetarian curry where leafy earthiness and dairy richness are the main ordering cues.",
+        "zh": "经典素食咖喱，点餐重点是绿叶菜香和奶制品浓度。",
+        "nl": "Een klassieke vegetarische curry; aardse bladgroenten en zuivelrijkdom bepalen de keuze."
       }
     },
     "composition": [
       [
-        "cheese",
-        35,
-        "main"
+        "spinach",
+        45,
+        "greens base"
       ],
       [
-        "coconut-curry",
-        25,
-        "sauce",
-        "seasoning"
+        "paneer",
+        30,
+        "cheese cubes"
       ],
       [
-        "steamed-rice",
-        20,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
+        "cream",
         10,
-        "body"
+        "creaminess"
       ],
       [
-        "cumin",
+        "garlic",
         5,
         "aroma",
         "seasoning"
       ],
       [
-        "coriander",
+        "garam-masala",
         5,
-        "aroma",
+        "warm spice",
+        "seasoning"
+      ],
+      [
+        "fenugreek",
+        5,
+        "leafy aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "warm spices",
-      "curry sauce",
-      "cheese"
+      "spinach greens",
+      "paneer",
+      "fenugreek"
     ],
     "basicTaste": [
       "savory",
-      "spiced",
-      "saucy"
+      "earthy",
+      "creamy",
+      "mildly spicy"
     ],
     "textureProfile": [
-      "saucy curry",
-      "tender pieces"
+      "thick leafy sauce",
+      "firm paneer cubes",
+      "smooth finish"
     ],
     "riskFlags": [
-      "can-be-spicy",
-      "contains-dairy"
+      "contains-dairy",
+      "can-be-spicy"
     ],
     "dietaryFlags": [
       "vegetarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "vegetarian",
+      "comfort-food",
+      "classic-dish"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "avoids-dairy",
+      "dislikes-leafy-greens"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, spiced, saucy profile sounds appealing; check can be spicy if that matters.",
-      "zh": "如果你想要savory、spiced、saucy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, spiced, saucy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good choice if you want a vegetarian curry that is creamy but less tomato-heavy than many Indian curries.",
+      "zh": "想要素食、带乳香但番茄感不重的咖喱时很适合；不吃奶制品或不喜欢绿叶菜时慎选。",
+      "nl": "Goede keuze voor een vegetarische curry die romig is maar minder tomatig dan veel andere curry's."
     },
-    "spiceLevel": 2,
+    "spiceLevel": 1,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "confidenceTag": "audited-indian-depth-batch-024",
+    "metadataConfidence": 0.88,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -17633,99 +17670,115 @@ const globalDepthDishConfigs = [
     },
     "category": "curry",
     "cookingMethods": [
+      "fried",
       "simmered"
     ],
     "shortDescription": {
-      "en": "Malai Kofta is a common Indian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "奶油蔬菜丸咖喱是常见印度菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Malai kofta is een veelvoorkomend Indiaas menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Soft paneer-vegetable dumplings in a rich creamy cashew-tomato sauce; usually mild and heavy.",
+      "zh": "奶油蔬菜丸咖喱：柔软奶酪蔬菜丸配腰果番茄奶油汁，通常温和但很浓。",
+      "nl": "Malai kofta: zachte paneer-groenteballetjes in romige cashew-tomatensaus; meestal mild en zwaar."
     },
     "cookingProfile": {
-      "en": "Usually served with saucy curry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现saucy curry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met saucy curry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Kofta balls are fried or browned, then served in a smooth rich sauce.",
+      "zh": "丸子先煎炸或煎香，再配顺滑浓厚酱汁上桌。",
+      "nl": "De kofta-balletjes worden gebakken of gebruind en daarna met een gladde rijke saus geserveerd."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "vegetarian",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency Indian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印度菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indiaas menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic rich vegetarian curry; the key decision is whether creamy sweetness feels appealing or too heavy.",
+        "zh": "经典浓郁素食咖喱，点餐重点是奶油甜润感是否合适。",
+        "nl": "Een klassieke rijke vegetarische curry; de keuze hangt af van romige zoetheid en zwaarte."
       }
     },
     "composition": [
       [
-        "cheese",
-        35,
-        "main"
-      ],
-      [
-        "coconut-curry",
+        "potato",
         25,
-        "sauce",
-        "seasoning"
+        "kofta body"
       ],
       [
-        "steamed-rice",
+        "paneer",
         20,
-        "base"
+        "kofta richness"
       ],
       [
-        "mixed-vegetables",
-        10,
-        "body"
+        "cashews",
+        15,
+        "nutty sauce body"
       ],
       [
-        "cumin",
-        5,
-        "aroma",
+        "cream",
+        15,
+        "creaminess"
+      ],
+      [
+        "tomato-sauce",
+        15,
+        "sauce base",
         "seasoning"
       ],
       [
-        "coriander",
+        "garam-masala",
+        5,
+        "warm spice",
+        "seasoning"
+      ],
+      [
+        "fenugreek",
         5,
         "aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "warm spices",
-      "curry sauce",
-      "cheese"
+      "cashew cream",
+      "soft kofta dumplings",
+      "tomato-masala sauce"
     ],
     "basicTaste": [
+      "creamy",
+      "mildly sweet",
       "savory",
-      "spiced",
-      "saucy"
+      "warm-spiced"
     ],
     "textureProfile": [
-      "saucy curry",
-      "tender pieces"
+      "soft dumplings",
+      "smooth heavy sauce",
+      "gentle nutty body"
     ],
     "riskFlags": [
-      "can-be-spicy",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-tree-nut"
     ],
     "dietaryFlags": [
       "vegetarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "comfort-food",
+      "vegetarian",
+      "mild"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "avoids-dairy",
+      "tree-nut-allergy",
+      "wants-light-food"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, spiced, saucy profile sounds appealing; check can be spicy if that matters.",
-      "zh": "如果你想要savory、spiced、saucy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, spiced, saucy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Pick it when you want a rich mild vegetarian curry; avoid it if cream or cashews are a problem.",
+      "zh": "想要温和浓郁的素食咖喱时适合；不吃奶制品或坚果时不要点。",
+      "nl": "Kies dit voor een rijke milde vegetarische curry; vermijd bij room- of notenproblemen."
     },
-    "spiceLevel": 2,
-    "weightLevel": 3,
+    "spiceLevel": 1,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "confidenceTag": "audited-indian-depth-batch-024",
+    "metadataConfidence": 0.87,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -17743,75 +17796,73 @@ const globalDepthDishConfigs = [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Rajma is a common Indian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "红腰豆咖喱是常见印度菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Rajma is een veelvoorkomend Indiaas menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Red kidney beans simmered in tomato-onion masala, often served with rice; hearty and bean-forward.",
+      "zh": "红腰豆咖喱以番茄洋葱香料慢煮，常配米饭，豆香明显且很有饱腹感。",
+      "nl": "Rode kidneybonen gestoofd in tomaat-ui masala, vaak met rijst; stevig en duidelijk bonig."
     },
     "cookingProfile": {
-      "en": "Usually served with saucy curry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现saucy curry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met saucy curry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Slow simmering makes the beans soft and the sauce thick enough to spoon over rice.",
+      "zh": "慢煮后豆子柔软，酱汁浓厚，适合配米饭。",
+      "nl": "Langzaam stoven maakt de bonen zacht en de saus dik genoeg voor bij rijst."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "comfort-food",
+        "vegetarian"
       ],
       "description": {
-        "en": "A high-frequency Indian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印度菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indiaas menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A North Indian comfort curry where bean texture and rice pairing drive the order.",
+        "zh": "北印度家常感咖喱，点餐重点是豆类口感和配米饭的饱腹感。",
+        "nl": "Een Noord-Indiase comfortcurry; bonentextuur en rijstcombinatie sturen de keuze."
       }
     },
     "composition": [
       [
-        "mixed-vegetables",
-        35,
-        "main"
+        "red-kidney-beans",
+        50,
+        "main bean body"
       ],
       [
-        "coconut-curry",
-        25,
-        "sauce",
+        "tomato-sauce",
+        20,
+        "masala base",
         "seasoning"
       ],
       [
         "steamed-rice",
         20,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        10,
-        "body"
+        "usual serving base"
       ],
       [
         "cumin",
         5,
-        "aroma",
+        "earthy aroma",
         "seasoning"
       ],
       [
-        "coriander",
+        "garam-masala",
         5,
-        "aroma",
+        "warm spice",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "warm spices",
-      "curry sauce",
-      "mixed-vegetables"
+      "red kidney beans",
+      "tomato-onion masala",
+      "cumin"
     ],
     "basicTaste": [
       "savory",
-      "spiced",
-      "saucy"
+      "earthy",
+      "warm-spiced",
+      "mildly spicy"
     ],
     "textureProfile": [
-      "saucy curry",
-      "tender pieces"
+      "soft beans",
+      "thick sauce",
+      "hearty rice pairing"
     ],
     "riskFlags": [
       "can-be-spicy"
@@ -17820,18 +17871,24 @@ const globalDepthDishConfigs = [
       "vegan"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "comfort-food",
+      "vegan",
+      "filling"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "low-carb",
+      "dislikes-beans"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, spiced, saucy profile sounds appealing; check can be spicy if that matters.",
-      "zh": "如果你想要savory、spiced、saucy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, spiced, saucy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good filling choice if you like beans and rice; skip it if you want something light or protein-heavy.",
+      "zh": "喜欢豆类和米饭、想吃饱时适合；想要清爽或肉量多的菜时慎选。",
+      "nl": "Goede vullende keuze als je bonen en rijst wilt; sla over als je iets lichts of vleesrijkers zoekt."
     },
-    "spiceLevel": 2,
-    "weightLevel": 3,
+    "spiceLevel": 1,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "confidenceTag": "audited-indian-depth-batch-024",
+    "metadataConfidence": 0.86,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -17846,98 +17903,115 @@ const globalDepthDishConfigs = [
     },
     "category": "curry",
     "cookingMethods": [
-      "simmered"
+      "simmered",
+      "stirred"
     ],
     "shortDescription": {
-      "en": "Dal Tadka is a common Indian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "印度黄扁豆咖喱是常见印度菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Dal tadka is een veelvoorkomend Indiaas menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Yellow lentils finished with hot spiced fat, cumin, garlic, and chili; soft, savory, and spoonable.",
+      "zh": "黄扁豆慢煮后浇热香料油，常有孜然、蒜和辣椒，口感柔软浓稠。",
+      "nl": "Gele linzen afgewerkt met hete gekruide olie, komijn, knoflook en chili; zacht, hartig en lepelbaar."
     },
     "cookingProfile": {
-      "en": "Usually served with saucy curry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现saucy curry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met saucy curry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The lentils are simmered smooth, then the tadka adds aroma and a little oil on top.",
+      "zh": "扁豆煮到顺滑，再用热香料油增加香气和表面油润感。",
+      "nl": "De linzen worden zacht gestoofd; de tadka geeft geur en een klein olieachtig laagje bovenop."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "comfort-food",
+        "vegetarian"
       ],
       "description": {
-        "en": "A high-frequency Indian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印度菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indiaas menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic lentil order that is usually gentler than meat curries but still aromatic.",
+        "zh": "经典扁豆咖喱，通常比肉类咖喱更温和，但香料气息明显。",
+        "nl": "Een klassieke linzencurry, meestal milder dan vleescurry maar nog steeds aromatisch."
       }
     },
     "composition": [
       [
-        "mixed-vegetables",
-        35,
-        "main"
+        "lentils",
+        60,
+        "dal base"
       ],
       [
-        "coconut-curry",
-        25,
-        "sauce",
+        "butter",
+        10,
+        "ghee-style richness"
+      ],
+      [
+        "mustard-seed-tempering",
+        10,
+        "hot tadka finish",
         "seasoning"
       ],
       [
-        "steamed-rice",
-        20,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        10,
-        "body"
+        "garlic",
+        5,
+        "aroma",
+        "seasoning"
       ],
       [
         "cumin",
         5,
-        "aroma",
+        "earthy spice",
         "seasoning"
       ],
       [
-        "coriander",
+        "chili",
         5,
-        "aroma",
+        "optional heat",
         "seasoning"
+      ],
+      [
+        "steamed-rice",
+        5,
+        "usual pairing"
       ]
     ],
     "distinctiveFlavorSources": [
-      "warm spices",
-      "curry sauce",
-      "mixed-vegetables"
+      "lentil softness",
+      "mustard seed tadka",
+      "garlic and cumin"
     ],
     "basicTaste": [
       "savory",
-      "spiced",
-      "saucy"
+      "earthy",
+      "buttery",
+      "mildly spicy"
     ],
     "textureProfile": [
-      "saucy curry",
-      "tender pieces"
+      "soft lentils",
+      "thick spoonable sauce",
+      "aromatic oil finish"
     ],
     "riskFlags": [
+      "contains-dairy",
       "can-be-spicy"
     ],
     "dietaryFlags": [
-      "vegan"
+      "vegetarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "comfort-food",
+      "vegetarian",
+      "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "avoids-dairy",
+      "wants-crisp-texture"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, spiced, saucy profile sounds appealing; check can be spicy if that matters.",
-      "zh": "如果你想要savory、spiced、saucy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, spiced, saucy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A safe-feeling comfort pick if you want lentils and warm spice; ask about ghee if you need dairy-free.",
+      "zh": "想要扁豆和温暖香料、又不想太刺激时适合；需要无奶时先问是否用酥油。",
+      "nl": "Comfortabele keuze voor linzen en warme kruiden; vraag naar ghee als je zuivelvrij moet eten."
     },
-    "spiceLevel": 2,
+    "spiceLevel": 1,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "confidenceTag": "audited-indian-depth-batch-024",
+    "metadataConfidence": 0.87,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -17955,97 +18029,119 @@ const globalDepthDishConfigs = [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Korma is a common Indian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "温和奶香咖喱是常见印度菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Korma is een veelvoorkomend Indiaas menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A mild creamy curry, often chicken or vegetables, built around yogurt, cream, nuts, and warm spices.",
+      "zh": "温和奶香咖喱，常见鸡肉或蔬菜版本，以酸奶、奶油、坚果和温暖香料为主。",
+      "nl": "Een milde romige curry, vaak met kip of groenten, op basis van yoghurt, room, noten en warme kruiden."
     },
     "cookingProfile": {
-      "en": "Usually served with saucy curry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现saucy curry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met saucy curry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Simmered gently so the sauce stays smooth and rich rather than sharp or chili-forward.",
+      "zh": "通常温和慢煮，让酱汁顺滑浓郁，而不是尖锐或强辣。",
+      "nl": "Zacht gestoofd zodat de saus glad en rijk blijft, niet scherp of chilidominant."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "mild",
+        "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Indian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印度菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indiaas menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic mild curry order for diners who want richness without strong heat.",
+        "zh": "经典温和咖喱，适合想要浓郁但不想太辣的人。",
+        "nl": "Een klassieke milde curry voor wie rijkdom wil zonder sterke hitte."
       }
     },
     "composition": [
       [
-        "cheese",
-        35,
-        "main"
+        "chicken",
+        30,
+        "usual protein",
+        "ingredient",
+        "medium",
+        true
       ],
       [
-        "coconut-curry",
-        25,
-        "sauce",
-        "seasoning"
-      ],
-      [
-        "steamed-rice",
+        "cream",
         20,
-        "base"
+        "sauce richness"
       ],
       [
-        "mixed-vegetables",
+        "cashews",
+        15,
+        "nutty body"
+      ],
+      [
+        "yogurt",
         10,
-        "body"
+        "tangy base"
       ],
       [
-        "cumin",
-        5,
-        "aroma",
+        "tomato-sauce",
+        10,
+        "soft sauce base",
         "seasoning"
       ],
       [
-        "coriander",
-        5,
+        "garam-masala",
+        8,
+        "warm spice",
+        "seasoning"
+      ],
+      [
+        "cardamom",
+        4,
+        "sweet aroma",
+        "seasoning"
+      ],
+      [
+        "fenugreek",
+        3,
         "aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "warm spices",
-      "curry sauce",
-      "cheese"
+      "cream and yogurt",
+      "cashew body",
+      "cardamom warmth"
     ],
     "basicTaste": [
-      "savory",
-      "spiced",
-      "saucy"
+      "creamy",
+      "mild",
+      "slightly sweet",
+      "warm-spiced"
     ],
     "textureProfile": [
-      "saucy curry",
-      "tender pieces"
+      "smooth sauce",
+      "tender protein or vegetables",
+      "heavy creamy finish"
     ],
     "riskFlags": [
-      "can-be-spicy",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-tree-nut"
     ],
-    "dietaryFlags": [
-      "vegetarian"
-    ],
+    "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "first-timer-friendly",
+      "mild",
+      "comfort-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "avoids-dairy",
+      "tree-nut-allergy",
+      "wants-spicy-food"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, spiced, saucy profile sounds appealing; check can be spicy if that matters.",
-      "zh": "如果你想要savory、spiced、saucy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, spiced, saucy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Best for a mild, creamy curry; avoid it if you want heat or need to avoid dairy and nuts.",
+      "zh": "想要温和奶香咖喱时很适合；想吃辣或不能吃奶制品、坚果时慎选。",
+      "nl": "Beste keuze voor een milde romige curry; vermijd als je pit zoekt of zuivel en noten mijdt."
     },
-    "spiceLevel": 2,
-    "weightLevel": 3,
+    "spiceLevel": 0,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "confidenceTag": "audited-indian-depth-batch-024",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "madras-curry",
@@ -18062,94 +18158,110 @@ const globalDepthDishConfigs = [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Madras Curry is a common Indian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "马德拉斯辣咖喱是常见印度菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Madras curry is een veelvoorkomend Indiaas menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A hotter red-brown curry with tomato, chili, curry leaves, and meat or vegetables.",
+      "zh": "马德拉斯辣咖喱多为红褐色，以番茄、辣椒、咖喱叶和肉或蔬菜组成。",
+      "nl": "Een pittigere roodbruine curry met tomaat, chili, kerrieblaadjes en vlees of groenten."
     },
     "cookingProfile": {
-      "en": "Usually served with saucy curry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现saucy curry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met saucy curry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Usually simmered until the sauce is glossy and chili-forward, with more heat than korma or butter chicken.",
+      "zh": "通常慢煮到酱汁油亮，辣椒感更明显，比 korma 或黄油鸡更辣。",
+      "nl": "Meestal gestoofd tot de saus glanzend en chiligericht is, pittiger dan korma of butter chicken."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "spicy",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Indian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印度菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indiaas menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A familiar restaurant curry for diners specifically looking for a stronger chili profile.",
+        "zh": "常见餐厅咖喱，适合明确想要更强辣度的人。",
+        "nl": "Een bekende restaurantcurry voor wie specifiek meer chili zoekt."
       }
     },
     "composition": [
       [
         "chicken",
         35,
-        "main"
+        "usual protein",
+        "ingredient",
+        "medium",
+        true
       ],
       [
-        "coconut-curry",
+        "tomato-sauce",
         25,
-        "sauce",
+        "red curry base",
+        "seasoning"
+      ],
+      [
+        "madras-masala",
+        15,
+        "main spice",
+        "seasoning"
+      ],
+      [
+        "onion",
+        10,
+        "sauce body"
+      ],
+      [
+        "chili",
+        8,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "curry-leaves",
+        4,
+        "leafy aroma",
         "seasoning"
       ],
       [
         "steamed-rice",
-        20,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "cumin",
-        5,
-        "aroma",
-        "seasoning"
-      ],
-      [
-        "coriander",
-        5,
-        "aroma",
-        "seasoning"
+        3,
+        "usual pairing"
       ]
     ],
     "distinctiveFlavorSources": [
-      "warm spices",
-      "curry sauce",
-      "chicken"
+      "Madras masala",
+      "red chili heat",
+      "curry leaves"
     ],
     "basicTaste": [
+      "spicy",
       "savory",
-      "spiced",
-      "saucy"
+      "tomato-rich",
+      "warm-spiced"
     ],
     "textureProfile": [
-      "saucy curry",
-      "tender pieces"
+      "thick glossy sauce",
+      "tender protein",
+      "light oil sheen"
     ],
     "riskFlags": [
       "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "spicy",
+      "curry"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "low-spice",
+      "wants-mild-food"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, spiced, saucy profile sounds appealing; check can be spicy if that matters.",
-      "zh": "如果你想要savory、spiced、saucy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, spiced, saucy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a hotter curry; avoid it if you are looking for a gentle or creamy option.",
+      "zh": "想要更辣的咖喱时适合；想吃温和或奶油感咖喱时慎选。",
+      "nl": "Kies dit als je een pittigere curry wilt; vermijd als je mild of romig zoekt."
     },
-    "spiceLevel": 2,
+    "spiceLevel": 3,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "acquiredTasteLevel": 2,
+    "confidenceTag": "audited-indian-depth-batch-024",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "jalfrezi",
@@ -18163,97 +18275,114 @@ const globalDepthDishConfigs = [
     },
     "category": "curry",
     "cookingMethods": [
-      "simmered"
+      "stir-fried",
+      "sauce-tossed"
     ],
     "shortDescription": {
-      "en": "Jalfrezi is a common Indian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "印度椒香快炒咖喱是常见印度菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Jalfrezi is een veelvoorkomend Indiaas menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A semi-dry curry with meat or paneer, sliced peppers, onions, and a lively tomato-chili masala.",
+      "zh": "半干式咖喱，常见肉或奶酪配甜椒、洋葱和番茄辣香料。",
+      "nl": "Een halfdroge curry met vlees of paneer, paprika, ui en levendige tomaat-chili masala."
     },
     "cookingProfile": {
-      "en": "Usually served with saucy curry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现saucy curry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met saucy curry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Cooked quickly enough that peppers and onions stay noticeable rather than melting into a smooth sauce.",
+      "zh": "通常快速炒煮，甜椒和洋葱仍然明显，不会完全化进顺滑酱汁里。",
+      "nl": "Snel bereid zodat paprika en ui herkenbaar blijven in plaats van volledig in saus te verdwijnen."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "spicy",
+        "vegetable-forward"
       ],
       "description": {
-        "en": "A high-frequency Indian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印度菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indiaas menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common restaurant curry where pepper-onion crunch and medium heat are the key clues.",
+        "zh": "常见餐厅咖喱，重点是甜椒洋葱的存在感和中等辣度。",
+        "nl": "Een gangbare restaurantcurry; paprika-ui beet en gemiddelde pit zijn de sleutel."
       }
     },
     "composition": [
       [
         "chicken",
-        35,
-        "main"
+        30,
+        "usual protein",
+        "ingredient",
+        "medium",
+        true
       ],
       [
-        "coconut-curry",
+        "bell-pepper",
         25,
-        "sauce",
+        "crisp vegetable"
+      ],
+      [
+        "onion",
+        15,
+        "aromatic strips"
+      ],
+      [
+        "tomato-sauce",
+        15,
+        "masala coating",
         "seasoning"
       ],
       [
-        "steamed-rice",
-        20,
-        "base"
+        "garam-masala",
+        8,
+        "warm spice",
+        "seasoning"
       ],
       [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "cumin",
+        "chili",
         5,
-        "aroma",
+        "heat",
         "seasoning"
       ],
       [
         "coriander",
-        5,
-        "aroma",
+        2,
+        "fresh spice",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "warm spices",
-      "curry sauce",
-      "chicken"
+      "sliced peppers",
+      "tomato-chili masala",
+      "semi-dry stir-fry texture"
     ],
     "basicTaste": [
       "savory",
-      "spiced",
-      "saucy"
+      "spicy",
+      "tangy",
+      "peppery"
     ],
     "textureProfile": [
-      "saucy curry",
-      "tender pieces"
+      "coated meat or paneer",
+      "pepper strips",
+      "semi-dry sauce"
     ],
     "riskFlags": [
       "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "spicy",
+      "vegetable-forward"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "low-spice",
+      "dislikes-bell-pepper"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, spiced, saucy profile sounds appealing; check can be spicy if that matters.",
-      "zh": "如果你想要savory、spiced、saucy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, spiced, saucy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you want a brighter, less creamy curry with peppers; skip it if you dislike bell peppers or medium heat.",
+      "zh": "想吃较清亮、不奶油、带甜椒的咖喱时适合；不喜欢甜椒或中辣时慎选。",
+      "nl": "Goed voor een frissere, minder romige curry met paprika; sla over bij paprika-afkeer of lage pittolerantie."
     },
     "spiceLevel": 2,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "confidenceTag": "audited-indian-depth-batch-024",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "bhuna",
@@ -18267,97 +18396,115 @@ const globalDepthDishConfigs = [
     },
     "category": "curry",
     "cookingMethods": [
+      "stir-fried",
       "simmered"
     ],
     "shortDescription": {
-      "en": "Bhuna is a common Indian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "浓炒香料咖喱是常见印度菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Bhuna is een veelvoorkomend Indiaas menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A thick reduced curry where meat or vegetables are coated in fried onion-tomato spices with little free sauce.",
+      "zh": "浓炒香料咖喱，肉或蔬菜被收干的洋葱番茄香料包裹，汤汁不多。",
+      "nl": "Een ingekookte curry waarbij vlees of groenten bedekt zijn met gebakken ui-tomaatkruiden en weinig losse saus."
     },
     "cookingProfile": {
-      "en": "Usually served with saucy curry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现saucy curry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met saucy curry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The masala is cooked down until concentrated, so it eats heavier and drier than pourable curries.",
+      "zh": "香料酱收得很浓，吃起来比可浇汁咖喱更厚重、更干。",
+      "nl": "De masala wordt sterk ingekookt, waardoor het zwaarder en droger eet dan schenkbare curry."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "rich"
       ],
       "description": {
-        "en": "A high-frequency Indian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印度菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indiaas menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common curry-house order for diners who prefer concentrated spice coating over lots of sauce.",
+        "zh": "常见咖喱馆菜品，适合喜欢浓缩香料包裹感而不是很多酱汁的人。",
+        "nl": "Een bekend curryhuisgerecht voor wie geconcentreerde kruidencoating boven veel saus verkiest."
       }
     },
     "composition": [
       [
-        "chicken",
+        "lamb",
         35,
-        "main"
+        "usual meat",
+        "ingredient",
+        "medium",
+        true
       ],
       [
-        "coconut-curry",
+        "onion",
         25,
-        "sauce",
+        "fried masala body"
+      ],
+      [
+        "tomato-sauce",
+        15,
+        "reduced sauce",
         "seasoning"
       ],
       [
-        "steamed-rice",
-        20,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
+        "garam-masala",
         10,
-        "body"
+        "main spice",
+        "seasoning"
       ],
       [
         "cumin",
         5,
-        "aroma",
+        "earthy depth",
         "seasoning"
       ],
       [
         "coriander",
         5,
-        "aroma",
+        "citrus warmth",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "warm spices",
-      "curry sauce",
-      "chicken"
+      "fried onion masala",
+      "reduced tomato spice",
+      "concentrated curry coating"
     ],
     "basicTaste": [
       "savory",
-      "spiced",
-      "saucy"
+      "deeply spiced",
+      "slightly sweet",
+      "medium spicy"
     ],
     "textureProfile": [
-      "saucy curry",
-      "tender pieces"
+      "thick coating",
+      "tender meat",
+      "little loose sauce"
     ],
     "riskFlags": [
       "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "rich",
+      "spice-forward"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "wants-mild-food",
+      "wants-lots-of-sauce"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, spiced, saucy profile sounds appealing; check can be spicy if that matters.",
-      "zh": "如果你想要savory、spiced、saucy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, spiced, saucy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose bhuna if you like deep, thick spice coating; avoid it if you want a mild curry with plenty of sauce.",
+      "zh": "喜欢浓厚香料包裹感时适合；想要温和且多酱汁的咖喱时慎选。",
+      "nl": "Kies bhuna als je diepe, dikke kruidencoating wilt; vermijd als je milde curry met veel saus zoekt."
     },
     "spiceLevel": 2,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "confidenceTag": "audited-indian-depth-batch-024",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "dhansak",
@@ -18374,94 +18521,110 @@ const globalDepthDishConfigs = [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Dhansak is a common Indian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "扁豆酸甜咖喱是常见印度菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Dhansak is een veelvoorkomend Indiaas menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A Parsi-style curry where meat or vegetables are simmered with lentils and a gentle sweet-sour tang.",
+      "zh": "帕西风格扁豆咖喱，肉或蔬菜与扁豆同煮，带轻微酸甜感。",
+      "nl": "Een Parsi-achtige curry waarin vlees of groenten met linzen en milde zoetzure toets worden gestoofd."
     },
     "cookingProfile": {
-      "en": "Usually served with saucy curry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现saucy curry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met saucy curry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The lentil base makes the sauce thick and earthy, while tamarind or similar sourness keeps it lively.",
+      "zh": "扁豆底让酱汁厚实带豆香，罗望子等酸味让整体更有层次。",
+      "nl": "De linzenbasis maakt de saus dik en aards, terwijl tamarindeachtige zuurheid het levendig houdt."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "regional-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency Indian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印度菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indiaas menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A curry-house classic with Parsi roots; the lentil thickness and sweet-sour balance matter most.",
+        "zh": "带帕西渊源的咖喱馆常见菜，重点是扁豆厚度和酸甜平衡。",
+        "nl": "Een curryhuisklassieker met Parsi-wortels; linzendikte en zoetzure balans zijn belangrijk."
       }
     },
     "composition": [
       [
-        "chicken",
+        "lentils",
         35,
-        "main"
+        "sauce body"
       ],
       [
-        "coconut-curry",
-        25,
-        "sauce",
+        "lamb",
+        30,
+        "usual meat",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "tomato-sauce",
+        15,
+        "masala base",
         "seasoning"
       ],
       [
         "steamed-rice",
-        20,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
         10,
-        "body"
+        "usual pairing"
       ],
       [
-        "cumin",
+        "tamarind",
         5,
-        "aroma",
+        "sweet-sour tang",
         "seasoning"
       ],
       [
-        "coriander",
-        5,
-        "aroma",
+        "garam-masala",
+        3,
+        "warm spice",
+        "seasoning"
+      ],
+      [
+        "chili",
+        2,
+        "optional heat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "warm spices",
-      "curry sauce",
-      "chicken"
+      "lentil-thickened sauce",
+      "tamarind tang",
+      "warm curry spices"
     ],
     "basicTaste": [
       "savory",
-      "spiced",
-      "saucy"
+      "earthy",
+      "sweet-sour",
+      "mildly spicy"
     ],
     "textureProfile": [
-      "saucy curry",
-      "tender pieces"
+      "thick lentil sauce",
+      "tender meat or vegetables",
+      "hearty rice pairing"
     ],
     "riskFlags": [
       "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "comfort-food",
+      "regional-dish"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "dislikes-lentils",
+      "low-carb"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, spiced, saucy profile sounds appealing; check can be spicy if that matters.",
-      "zh": "如果你想要savory、spiced、saucy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, spiced, saucy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you want a thicker curry with lentils and a sweet-sour edge; skip it if lentils sound too heavy.",
+      "zh": "想要扁豆厚酱和轻微酸甜感时适合；不喜欢豆类厚重感时慎选。",
+      "nl": "Goed voor een dikkere curry met linzen en zoetzure rand; sla over als linzen te zwaar klinken."
     },
     "spiceLevel": 2,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "confidenceTag": "audited-indian-depth-batch-024",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "prawn-curry-indian",
@@ -18693,99 +18856,105 @@ const globalDepthDishConfigs = [
     },
     "category": "bread",
     "cookingMethods": [
-      "baked"
+      "toasted",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Dosa is a common Indian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "印度米豆脆饼是常见印度菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Dosa is een veelvoorkomend Indiaas menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A large thin South Indian rice-lentil crepe, usually crisp, served with sambar and chutneys.",
+      "zh": "南印度大张米豆薄饼，通常边缘酥脆，配扁豆汤和酸辣酱。",
+      "nl": "Een grote dunne Zuid-Indiase rijst-linzencrêpe, meestal knapperig, met sambar en chutneys."
     },
     "cookingProfile": {
-      "en": "Usually served with chewy bread, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现chewy bread，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met chewy bread; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Cooked on a hot flat griddle, so it should feel crisp at the edges and soft where folded.",
+      "zh": "通常在热平盘上煎烤，边缘酥脆，折叠处较柔软。",
+      "nl": "Gebakken op een hete vlakke plaat; de rand hoort knapperig te zijn en de vouw zachter."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "signature",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "signature-dish",
+        "street-food",
+        "vegetarian"
       ],
       "description": {
-        "en": "A high-frequency Indian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印度菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indiaas menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A signature South Indian order where crispness, chutneys, and sambar define the eating experience.",
+        "zh": "南印度代表性菜品，点餐重点是薄饼酥脆度、酸辣酱和扁豆汤。",
+        "nl": "Een kenmerkende Zuid-Indiase bestelling; knapperigheid, chutneys en sambar bepalen de ervaring."
       }
     },
     "composition": [
       [
-        "bread",
-        45,
-        "base"
+        "dosa-batter",
+        55,
+        "crisp crepe"
       ],
       [
-        "cheese",
-        25,
-        "filling"
-      ],
-      [
-        "cheese",
+        "potato",
         15,
-        "body"
+        "masala filling",
+        "ingredient",
+        "medium",
+        true
       ],
       [
-        "tomato",
-        5,
-        "freshness"
+        "sambar",
+        15,
+        "lentil stew dip"
       ],
       [
-        "olive-oil",
-        5,
-        "finish",
-        "seasoning"
+        "coconut-chutney",
+        10,
+        "cool chutney"
       ],
       [
-        "sea-salt",
+        "mustard-seed-tempering",
         5,
-        "seasoning",
+        "tadka aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cheese",
-      "cheese",
-      "toasted bread"
+      "crisp rice-lentil batter",
+      "sambar",
+      "coconut chutney"
     ],
     "basicTaste": [
       "savory",
-      "bready"
+      "tangy",
+      "lightly spiced",
+      "toasty"
     ],
     "textureProfile": [
-      "chewy bread",
-      "filled center"
+      "thin crisp edges",
+      "soft folded center",
+      "dipping sauces"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-dairy"
+      "can-be-spicy"
     ],
     "dietaryFlags": [
-      "vegan"
+      "vegan",
+      "gluten-free-base"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "signature-dish",
+      "street-food",
+      "vegetarian"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "wants-heavy-curry",
+      "dislikes-tangy-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, bready profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要savory、bready的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, bready je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A great choice if you want something crisp and lighter than curry; order masala dosa if you want potato filling.",
+      "zh": "想吃比咖喱更轻、带酥脆感的主食时很适合；想要土豆馅可点 masala dosa。",
+      "nl": "Sterke keuze als je iets knapperigs en lichter dan curry wilt; neem masala dosa voor aardappelvulling."
     },
-    "spiceLevel": 0,
+    "spiceLevel": 1,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "confidenceTag": "audited-indian-depth-batch-024",
+    "metadataConfidence": 0.88,
     "restaurantVariationLevel": "medium"
   },
   {

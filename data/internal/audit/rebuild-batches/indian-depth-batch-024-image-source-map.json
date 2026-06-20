@@ -1,0 +1,98 @@
+[
+  {
+    "metadataCode": "115013",
+    "dishId": "paneer-tikka",
+    "sourcePng": "data/internal/audit/rebuild-batches/indian-depth-batch-024-image-sources/115013-paneer-tikka.png",
+    "mainPath": "/assets/dishes/main/115013-paneer-tikka.webp",
+    "thumbPath": "/assets/dishes/thumb/115013-paneer-tikka.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "115014",
+    "dishId": "aloo-gobi",
+    "sourcePng": "data/internal/audit/rebuild-batches/indian-depth-batch-024-image-sources/115014-aloo-gobi.png",
+    "mainPath": "/assets/dishes/main/115014-aloo-gobi.webp",
+    "thumbPath": "/assets/dishes/thumb/115014-aloo-gobi.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "115015",
+    "dishId": "saag-paneer",
+    "sourcePng": "data/internal/audit/rebuild-batches/indian-depth-batch-024-image-sources/115015-saag-paneer.png",
+    "mainPath": "/assets/dishes/main/115015-saag-paneer.webp",
+    "thumbPath": "/assets/dishes/thumb/115015-saag-paneer.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "115016",
+    "dishId": "malai-kofta",
+    "sourcePng": "data/internal/audit/rebuild-batches/indian-depth-batch-024-image-sources/115016-malai-kofta.png",
+    "mainPath": "/assets/dishes/main/115016-malai-kofta.webp",
+    "thumbPath": "/assets/dishes/thumb/115016-malai-kofta.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "115017",
+    "dishId": "rajma",
+    "sourcePng": "data/internal/audit/rebuild-batches/indian-depth-batch-024-image-sources/115017-rajma.png",
+    "mainPath": "/assets/dishes/main/115017-rajma.webp",
+    "thumbPath": "/assets/dishes/thumb/115017-rajma.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "115018",
+    "dishId": "dal-tadka",
+    "sourcePng": "data/internal/audit/rebuild-batches/indian-depth-batch-024-image-sources/115018-dal-tadka.png",
+    "mainPath": "/assets/dishes/main/115018-dal-tadka.webp",
+    "thumbPath": "/assets/dishes/thumb/115018-dal-tadka.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "115019",
+    "dishId": "korma",
+    "sourcePng": "data/internal/audit/rebuild-batches/indian-depth-batch-024-image-sources/115019-korma.png",
+    "mainPath": "/assets/dishes/main/115019-korma.webp",
+    "thumbPath": "/assets/dishes/thumb/115019-korma.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "115020",
+    "dishId": "madras-curry",
+    "sourcePng": "data/internal/audit/rebuild-batches/indian-depth-batch-024-image-sources/115020-madras-curry.png",
+    "mainPath": "/assets/dishes/main/115020-madras-curry.webp",
+    "thumbPath": "/assets/dishes/thumb/115020-madras-curry.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "115021",
+    "dishId": "jalfrezi",
+    "sourcePng": "data/internal/audit/rebuild-batches/indian-depth-batch-024-image-sources/115021-jalfrezi.png",
+    "mainPath": "/assets/dishes/main/115021-jalfrezi.webp",
+    "thumbPath": "/assets/dishes/thumb/115021-jalfrezi.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "115022",
+    "dishId": "bhuna",
+    "sourcePng": "data/internal/audit/rebuild-batches/indian-depth-batch-024-image-sources/115022-bhuna.png",
+    "mainPath": "/assets/dishes/main/115022-bhuna.webp",
+    "thumbPath": "/assets/dishes/thumb/115022-bhuna.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "115023",
+    "dishId": "dhansak",
+    "sourcePng": "data/internal/audit/rebuild-batches/indian-depth-batch-024-image-sources/115023-dhansak.png",
+    "mainPath": "/assets/dishes/main/115023-dhansak.webp",
+    "thumbPath": "/assets/dishes/thumb/115023-dhansak.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "115026",
+    "dishId": "dosa",
+    "sourcePng": "data/internal/audit/rebuild-batches/indian-depth-batch-024-image-sources/115026-dosa.png",
+    "mainPath": "/assets/dishes/main/115026-dosa.webp",
+    "thumbPath": "/assets/dishes/thumb/115026-dosa.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  }
+]

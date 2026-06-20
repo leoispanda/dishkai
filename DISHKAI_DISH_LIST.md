@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 589
-- Total aliases: 1834
+- Total verified dishes: 601
+- Total aliases: 1858
 - Total cuisines: 27
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -296,7 +296,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 42. 104011 - `baklava` - Baklava / 果仁蜜酥 / μπακλαβάς
 43. 104012 - `loukoumades` - Loukoumades / 希腊蜂蜜小炸球 / λουκουμάδες
 
-## Indian (indian) - 12
+## Indian (indian) - 24
 
 1. 115001 - `butter-chicken` - Butter Chicken / 黄油鸡 / murgh makhani
 2. 115002 - `chicken-tikka-masala` - Chicken Tikka Masala / 马萨拉烤鸡咖喱 / chicken tikka masala
@@ -310,6 +310,18 @@ Generated from data/internal/index.js after the verified database quarantine aud
 10. 115010 - `vindaloo` - Vindaloo / 辛辣酸香咖喱 / vindaloo
 11. 115011 - `rogan-josh` - Rogan Josh / 克什米尔羊肉咖喱 / rogan josh
 12. 115012 - `gulab-jamun` - Gulab Jamun / 玫瑰糖浆奶球 / gulab jamun
+13. 115013 - `paneer-tikka` - Paneer Tikka / 印度烤奶酪 / paneer tikka
+14. 115014 - `aloo-gobi` - Aloo Gobi / 土豆花菜咖喱 / aloo gobi
+15. 115015 - `saag-paneer` - Saag Paneer / 菠菜奶酪 / saag paneer
+16. 115016 - `malai-kofta` - Malai Kofta / 奶油蔬菜丸咖喱 / malai kofta
+17. 115017 - `rajma` - Rajma / 红腰豆咖喱 / rajma
+18. 115018 - `dal-tadka` - Dal Tadka / 印度黄扁豆咖喱 / dal tadka
+19. 115019 - `korma` - Korma / 温和奶香咖喱 / korma
+20. 115020 - `madras-curry` - Madras Curry / 马德拉斯辣咖喱 / madras curry
+21. 115021 - `jalfrezi` - Jalfrezi / 印度椒香快炒咖喱 / jalfrezi
+22. 115022 - `bhuna` - Bhuna / 浓炒香料咖喱 / bhuna
+23. 115023 - `dhansak` - Dhansak / 扁豆酸甜咖喱 / dhansak
+24. 115026 - `dosa` - Dosa / 印度米豆脆饼 / dosa
 
 ## Indonesian (indonesian) - 12
 
