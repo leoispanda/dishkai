@@ -1,0 +1,3659 @@
+[
+  {
+    "id": "bun-thit-nuong",
+    "metadataCode": "116013",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Bún Thịt Nướng",
+      "zh": "越南烤肉米粉",
+      "nl": "Bún thịt nướng",
+      "local": "bún thịt nướng"
+    },
+    "category": "noodle",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Cold rice vermicelli topped with grilled lemongrass pork, fresh herbs, vegetables, peanuts, and nước chấm.",
+      "zh": "冷米粉配香茅烤猪肉、香草蔬菜、花生和越南鱼露蘸汁。",
+      "nl": "Koude rijstvermicelli met gegrild citroengrasvarkensvlees, kruiden, groenten, pinda en nước chấm."
+    },
+    "cookingProfile": {
+      "en": "The pork is grilled, then served over room-temperature noodles, so it feels fresh, smoky, and lightly dressed.",
+      "zh": "猪肉烤香后铺在常温米粉上，整体清爽、有烟烤香，并靠蘸汁调味。",
+      "nl": "Het vlees wordt gegrild en op kamertemperatuur-noedels gelegd; fris, rokerig en licht gedresseerd."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "noodle",
+        "street-food"
+      ],
+      "description": {
+        "en": "A classic Vietnamese noodle bowl where grilled pork, herbs, peanuts, and fish-sauce dressing define the order.",
+        "zh": "经典越南米粉碗，重点是烤猪肉、香草、花生和鱼露蘸汁。",
+        "nl": "Een klassieke Vietnamese noedelkom; gegrild varken, kruiden, pinda en vissausdressing bepalen de keuze."
+      }
+    },
+    "composition": [
+      [
+        "rice-noodles",
+        40,
+        "vermicelli base"
+      ],
+      [
+        "pork",
+        25,
+        "grilled lemongrass pork"
+      ],
+      [
+        "cucumber",
+        8,
+        "fresh crunch"
+      ],
+      [
+        "carrot",
+        7,
+        "pickled vegetable"
+      ],
+      [
+        "herbs",
+        5,
+        "fresh herbs"
+      ],
+      [
+        "peanuts",
+        5,
+        "crunch"
+      ],
+      [
+        "nuoc-cham",
+        7,
+        "fish-sauce dressing",
+        "seasoning"
+      ],
+      [
+        "lemongrass",
+        3,
+        "grilled aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lemongrass grilled pork",
+      "nước chấm",
+      "peanut crunch"
+    ],
+    "basicTaste": [
+      "savory",
+      "fresh",
+      "sweet-sour",
+      "lightly smoky"
+    ],
+    "textureProfile": [
+      "cool rice noodles",
+      "charred pork",
+      "crisp vegetables"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-peanut",
+      "contains-fish-sauce"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "first-timer-friendly",
+      "noodle"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "peanut-allergy",
+      "avoids-fish-sauce"
+    ],
+    "orderVerdict": {
+      "en": "A strong pick if you want a fresh noodle bowl with smoky pork; avoid it for pork, peanut, or fish-sauce restrictions.",
+      "zh": "想吃清爽米粉和烟烤猪肉时很适合；不吃猪肉、花生或鱼露时慎选。",
+      "nl": "Sterk als je een frisse noedelkom met rokerig varken wilt; vermijden bij varken, pinda of vissaus."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "bun-rieu",
+    "metadataCode": "116014",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Bún Riêu",
+      "zh": "越南蟹番茄米粉汤",
+      "nl": "Bún riêu",
+      "local": "bún riêu"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Rice vermicelli soup with tomato broth, crab-and-egg curds, tofu, herbs, and a bright savory-sour edge.",
+      "zh": "番茄汤底米粉，配蟹蛋碎、豆腐和香草，咸鲜中带酸亮感。",
+      "nl": "Rijstvermicellisoep met tomatenbouillon, krab-eiwrongel, tofu, kruiden en frisse hartigheid."
+    },
+    "cookingProfile": {
+      "en": "Served hot with a tomato-seafood broth, so it is lighter and tangier than creamy noodle soups.",
+      "zh": "热汤上桌，番茄和海鲜汤底让它比浓汤粉更清爽、更酸香。",
+      "nl": "Warm geserveerd met tomaat-zeevruchtenbouillon; lichter en zuurder dan romige noedelsoepen."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "soup",
+        "seafood"
+      ],
+      "description": {
+        "en": "A recognizable Vietnamese soup order where tomato tang, crab curd, tofu, and herbs are the main cues.",
+        "zh": "辨识度高的越南汤粉，重点是番茄酸香、蟹蛋碎、豆腐和香草。",
+        "nl": "Een herkenbare Vietnamese soep; tomatenzuur, krabwrongel, tofu en kruiden zijn de signalen."
+      }
+    },
+    "composition": [
+      [
+        "rice-noodles",
+        30,
+        "vermicelli base"
+      ],
+      [
+        "crab",
+        15,
+        "crab curd seafood"
+      ],
+      [
+        "egg",
+        8,
+        "curd binder"
+      ],
+      [
+        "tofu",
+        10,
+        "soft cubes"
+      ],
+      [
+        "tomato-sauce",
+        15,
+        "tomato broth body",
+        "seasoning"
+      ],
+      [
+        "fish-sauce",
+        5,
+        "salty depth",
+        "seasoning"
+      ],
+      [
+        "bean-sprouts",
+        7,
+        "fresh crunch"
+      ],
+      [
+        "herbs",
+        5,
+        "fresh finish"
+      ],
+      [
+        "chili",
+        5,
+        "optional heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "tomato broth",
+      "crab-and-egg curds",
+      "fresh herbs"
+    ],
+    "basicTaste": [
+      "savory",
+      "tangy",
+      "seafood-umami",
+      "lightly spicy"
+    ],
+    "textureProfile": [
+      "slippery noodles",
+      "soft tofu",
+      "fluffy crab curds"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-egg",
+      "contains-soy",
+      "contains-fish-sauce",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "soup",
+      "seafood",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "avoids-egg",
+      "avoids-fish-sauce"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a tangy seafood noodle soup; skip it if crab, egg, tofu, or fish sauce is a problem.",
+      "zh": "想要酸香海鲜汤粉时可选；介意蟹、蛋、豆腐或鱼露时慎选。",
+      "nl": "Kies dit voor zurige zeevruchtennoedelsoep; sla over bij krab, ei, tofu of vissaus."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "high"
+  },
+  {
+    "id": "bun-mam",
+    "metadataCode": "116015",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Bún Mắm",
+      "zh": "越南发酵鱼汤粉",
+      "nl": "Bún mắm",
+      "local": "bún mắm"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Rice vermicelli in a deeply savory fermented-fish broth, often with fish, shrimp, eggplant, herbs, and chili.",
+      "zh": "米粉配发酵鱼汤底，常有鱼、虾、茄子、香草和辣椒，咸鲜发酵感明显。",
+      "nl": "Rijstvermicelli in krachtige gefermenteerde-visbouillon, vaak met vis, garnaal, aubergine, kruiden en chili."
+    },
+    "cookingProfile": {
+      "en": "The broth is the point: darker, saltier, and funkier than pho, with seafood and vegetables added at the end.",
+      "zh": "重点在汤底：比河粉汤更深、更咸鲜、更有发酵气息，最后配海鲜和蔬菜。",
+      "nl": "De bouillon is de kern: donkerder, zouter en krachtiger dan pho, met zeevruchten en groenten erbij."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "soup",
+        "acquired-taste"
+      ],
+      "description": {
+        "en": "A Mekong-style noodle soup where fermented fish aroma is the key decision point.",
+        "zh": "湄公河地区风格汤粉，点餐重点是是否接受发酵鱼香。",
+        "nl": "Een Mekong-achtige noedelsoep waarbij gefermenteerde visaroma de keuze bepaalt."
+      }
+    },
+    "composition": [
+      [
+        "rice-noodles",
+        30,
+        "vermicelli base"
+      ],
+      [
+        "fish-fillet",
+        15,
+        "fish pieces"
+      ],
+      [
+        "shrimp",
+        10,
+        "seafood"
+      ],
+      [
+        "eggplant-global",
+        10,
+        "soft vegetable"
+      ],
+      [
+        "fermented-fish-broth",
+        20,
+        "mam broth",
+        "seasoning"
+      ],
+      [
+        "bean-sprouts",
+        5,
+        "fresh crunch"
+      ],
+      [
+        "herbs",
+        5,
+        "fresh finish"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fermented fish broth",
+      "seafood",
+      "fresh herbs"
+    ],
+    "basicTaste": [
+      "salty",
+      "funky",
+      "umami",
+      "spicy"
+    ],
+    "textureProfile": [
+      "slippery noodles",
+      "soft eggplant",
+      "brothy seafood"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-shellfish",
+      "contains-fish-sauce",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "regional-dish",
+      "soup",
+      "bold-flavor"
+    ],
+    "avoidIfTags": [
+      "avoids-fish",
+      "shellfish-allergy",
+      "dislikes-fermented-aroma"
+    ],
+    "orderVerdict": {
+      "en": "Worth ordering if you like bold fermented seafood broths; skip it if fishy aromas sound difficult.",
+      "zh": "喜欢浓郁发酵海鲜汤底时值得点；不喜欢鱼腥或发酵香时慎选。",
+      "nl": "Goed als je krachtige gefermenteerde zeevruchtenbouillon waardeert; vermijden als vissige aromas lastig klinken."
+    },
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
+  },
+  {
+    "id": "mi-quang",
+    "metadataCode": "116016",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Mì Quảng",
+      "zh": "越南广南面",
+      "nl": "Mì quảng",
+      "local": "mì quảng"
+    },
+    "category": "noodle",
+    "cookingMethods": [
+      "simmered",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Central Vietnamese turmeric rice noodles with a shallow savory broth, chicken or shrimp, herbs, peanuts, and rice cracker.",
+      "zh": "越南中部黄姜米粉，汤汁较少，常配鸡肉或虾、香草、花生和米饼。",
+      "nl": "Centraal-Vietnamese kurkumarijstnoedels met weinig bouillon, kip of garnaal, kruiden, pinda en rijstcracker."
+    },
+    "cookingProfile": {
+      "en": "Usually served as a shallow noodle bowl, so expect coated noodles rather than a full soup.",
+      "zh": "通常是浅汤拌粉，不是满碗汤粉，米粉会带香料汤汁包裹感。",
+      "nl": "Meestal als ondiepe noedelkom; verwacht bedekte noedels, geen volle soep."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish",
+        "regional-dish",
+        "noodle"
+      ],
+      "description": {
+        "en": "A signature Quảng Nam noodle dish where shallow broth, turmeric color, peanuts, and cracker matter most.",
+        "zh": "广南代表性面食，重点是浅汤、黄姜色、花生和米饼。",
+        "nl": "Een kenmerkend Quảng Nam-noedelgerecht; weinig bouillon, kurkumakleur, pinda en cracker tellen."
+      }
+    },
+    "composition": [
+      [
+        "rice-noodles",
+        35,
+        "turmeric noodle base"
+      ],
+      [
+        "chicken",
+        15,
+        "usual protein"
+      ],
+      [
+        "shrimp",
+        10,
+        "seafood topping"
+      ],
+      [
+        "rice-cracker",
+        10,
+        "crisp side"
+      ],
+      [
+        "herbs",
+        10,
+        "fresh herbs"
+      ],
+      [
+        "peanuts",
+        5,
+        "crunch"
+      ],
+      [
+        "turmeric",
+        5,
+        "golden color",
+        "seasoning"
+      ],
+      [
+        "nuoc-cham",
+        5,
+        "seasoned dressing",
+        "seasoning"
+      ],
+      [
+        "lime",
+        5,
+        "fresh lift"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "turmeric noodles",
+      "peanuts",
+      "rice cracker"
+    ],
+    "basicTaste": [
+      "savory",
+      "herbal",
+      "nutty",
+      "lightly tangy"
+    ],
+    "textureProfile": [
+      "soft noodles",
+      "crisp cracker",
+      "fresh herbs"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-peanut",
+      "contains-fish-sauce"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "regional-dish",
+      "noodle",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "peanut-allergy",
+      "wants-soupy-noodles"
+    ],
+    "orderVerdict": {
+      "en": "A great pick for a less-soupy noodle bowl with crunch; check shrimp and peanuts if allergies matter.",
+      "zh": "想吃少汤、有米饼脆感的米粉时很适合；有虾或花生过敏需确认。",
+      "nl": "Mooi voor een minder soeperige noedelkom met crunch; check garnaal en pinda bij allergieën."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "hu-tieu",
+    "metadataCode": "116017",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Hủ Tiếu",
+      "zh": "越南南部粉汤",
+      "nl": "Hủ tiếu",
+      "local": "hủ tiếu"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Southern Vietnamese clear noodle soup with rice noodles, pork, shrimp, fish balls, greens, and fried garlic.",
+      "zh": "越南南部清汤粉，常有米粉、猪肉、虾、鱼丸、青菜和炸蒜。",
+      "nl": "Zuid-Vietnamese heldere noedelsoep met rijstnoedels, varken, garnaal, visballen, groen en gebakken knoflook."
+    },
+    "cookingProfile": {
+      "en": "The broth is clear and light, with toppings added so each bowl can vary by restaurant.",
+      "zh": "汤底清亮偏轻，配料按餐厅变化较大，常见肉、海鲜和鱼丸。",
+      "nl": "De bouillon is helder en licht, met toppings die per restaurant verschillen."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "soup",
+        "noodle"
+      ],
+      "description": {
+        "en": "A southern Vietnamese staple where clear broth and mixed pork-seafood toppings are the main cues.",
+        "zh": "越南南部常见主食，重点是清汤和猪肉海鲜混合配料。",
+        "nl": "Een Zuid-Vietnamese basissoep; heldere bouillon en varken-zeevruchtentoppings zijn de cues."
+      }
+    },
+    "composition": [
+      [
+        "rice-noodles",
+        35,
+        "noodle base"
+      ],
+      [
+        "pork",
+        15,
+        "sliced pork"
+      ],
+      [
+        "shrimp",
+        10,
+        "seafood"
+      ],
+      [
+        "fish-cake",
+        10,
+        "fish ball topping"
+      ],
+      [
+        "broth",
+        15,
+        "clear broth"
+      ],
+      [
+        "bean-sprouts",
+        5,
+        "fresh crunch"
+      ],
+      [
+        "herbs",
+        5,
+        "fresh finish"
+      ],
+      [
+        "black-pepper",
+        5,
+        "warm finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "clear broth",
+      "fried garlic aroma",
+      "mixed pork and seafood"
+    ],
+    "basicTaste": [
+      "savory",
+      "brothy",
+      "light",
+      "aromatic"
+    ],
+    "textureProfile": [
+      "springy noodles",
+      "clear broth",
+      "varied toppings"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-shellfish",
+      "contains-fish"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "soup",
+      "noodle",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "shellfish-allergy",
+      "avoids-fish"
+    ],
+    "orderVerdict": {
+      "en": "A lighter noodle soup than many rich broths; ask about pork and seafood toppings if needed.",
+      "zh": "比许多浓汤粉更清爽；如有忌口，先问猪肉和海鲜配料。",
+      "nl": "Lichter dan veel rijke bouillons; vraag naar varken en zeevruchtentoppings indien nodig."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "high"
+  },
+  {
+    "id": "banh-cuon",
+    "metadataCode": "116018",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Bánh Cuốn",
+      "zh": "越南蒸米卷",
+      "nl": "Bánh cuốn",
+      "local": "bánh cuốn"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "steamed",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Silky steamed rice sheets wrapped around minced pork and mushroom, served with herbs, sausage, fried shallots, and nước chấm.",
+      "zh": "柔滑蒸米皮卷入猪肉末和木耳蘑菇，配香草、越南肉肠、炸葱和鱼露蘸汁。",
+      "nl": "Zijdezachte gestoomde rijstvellen met varkensgehakt en paddenstoel, met kruiden, worst, gebakken sjalot en nước chấm."
+    },
+    "cookingProfile": {
+      "en": "Steamed rice sheets make it soft and delicate; most of the punch comes from fried shallots and dipping sauce.",
+      "zh": "米皮蒸制，质地柔软细腻，主要味道来自炸葱和蘸汁。",
+      "nl": "Gestoomde rijstvellen maken het zacht; gebakken sjalot en dipsaus geven de meeste smaak."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "starter",
+        "breakfast"
+      ],
+      "description": {
+        "en": "A classic Vietnamese breakfast/snack where soft rice sheets and fish-sauce dip define the bite.",
+        "zh": "经典越南早餐/小食，重点是柔软米皮和鱼露蘸汁。",
+        "nl": "Een klassieke Vietnamese ontbijt/snack; zachte rijstvellen en vissausdip bepalen de hap."
+      }
+    },
+    "composition": [
+      [
+        "steamed-rice-sheets",
+        45,
+        "silky wrapper"
+      ],
+      [
+        "minced-pork",
+        20,
+        "savory filling"
+      ],
+      [
+        "mushrooms",
+        10,
+        "wood-ear style filling"
+      ],
+      [
+        "vietnamese-pork-sausage",
+        10,
+        "side slice"
+      ],
+      [
+        "cucumber",
+        5,
+        "fresh side"
+      ],
+      [
+        "nuoc-cham",
+        5,
+        "dip",
+        "seasoning"
+      ],
+      [
+        "fried-onions",
+        5,
+        "crisp garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "silky rice sheets",
+      "fried shallots",
+      "nước chấm"
+    ],
+    "basicTaste": [
+      "savory",
+      "delicate",
+      "lightly sweet-sour"
+    ],
+    "textureProfile": [
+      "soft rice rolls",
+      "small pork filling",
+      "crisp shallots"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-fish-sauce"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "starter",
+      "light",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "avoids-fish-sauce",
+      "wants-crispy-food"
+    ],
+    "orderVerdict": {
+      "en": "Good if you want a light, soft starter; skip it if you avoid pork or fish-sauce dips.",
+      "zh": "想要柔软清淡前菜时适合；不吃猪肉或鱼露蘸汁时慎选。",
+      "nl": "Goed voor een lichte zachte starter; vermijd bij varkensvlees of vissausdip."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "banh-khot",
+    "metadataCode": "116019",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Bánh Khọt",
+      "zh": "越南小煎饼",
+      "nl": "Bánh khọt",
+      "local": "bánh khọt"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "fried",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Small crisp coconut-rice pancakes topped with shrimp, served with lettuce, herbs, pickles, and nước chấm.",
+      "zh": "小号椰香米浆煎饼，顶部常放虾，配生菜香草、腌菜和鱼露蘸汁。",
+      "nl": "Kleine krokante kokos-rijstpannenkoekjes met garnaal, sla, kruiden, pickles en nước chấm."
+    },
+    "cookingProfile": {
+      "en": "Cooked in small cups until crisp at the edges, then wrapped with herbs and dipped.",
+      "zh": "小模具煎到边缘酥脆，通常包生菜香草后蘸汁吃。",
+      "nl": "In kleine kuipjes krokant gebakken, daarna met kruiden gewikkeld en gedipt."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "street-food",
+        "starter"
+      ],
+      "description": {
+        "en": "A Vietnamese dish where mini crisp pancakes and shrimp topping are the main ordering cues.",
+        "zh": "点餐重点是mini crisp pancakes and shrimp topping。",
+        "nl": "Een Vietnamees gerecht waarbij mini crisp pancakes and shrimp topping de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "rice-flour-batter",
+        45,
+        "coconut-rice pancake"
+      ],
+      [
+        "shrimp",
+        20,
+        "topping"
+      ],
+      [
+        "coconut-milk",
+        10,
+        "batter richness",
+        "seasoning"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "lettuce and pickles"
+      ],
+      [
+        "nuoc-cham",
+        5,
+        "dip",
+        "seasoning"
+      ],
+      [
+        "herbs",
+        5,
+        "fresh wrap"
+      ],
+      [
+        "turmeric",
+        5,
+        "golden color",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "coconut rice batter",
+      "shrimp topping",
+      "nước chấm"
+    ],
+    "basicTaste": [
+      "savory",
+      "crisp",
+      "sweet-sour",
+      "lightly rich"
+    ],
+    "textureProfile": [
+      "crisp edges",
+      "soft center",
+      "fresh lettuce wrap"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-fish-sauce"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "street-food",
+      "starter",
+      "shareable"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "avoids-fish-sauce",
+      "wants-low-oil"
+    ],
+    "orderVerdict": {
+      "en": "Great for sharing if you want crisp little bites; avoid it for shellfish or fish-sauce restrictions.",
+      "zh": "想分享酥脆小食时很适合；甲壳类或鱼露忌口时慎选。",
+      "nl": "Fijn om te delen als krokante hapjes; vermijden bij schaaldieren of vissaus."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "banh-beo",
+    "metadataCode": "116020",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Bánh Bèo",
+      "zh": "越南小米糕",
+      "nl": "Bánh bèo",
+      "local": "bánh bèo"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "steamed",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Small steamed rice cakes in saucers, topped with dried shrimp crumbs, scallion oil, fried shallots, and fish-sauce dip.",
+      "zh": "小碟蒸米糕，常撒虾米碎、葱油、炸葱，并配鱼露蘸汁。",
+      "nl": "Kleine gestoomde rijstcakejes in schaaltjes, met gedroogde garnaal, lente-uiolie, sjalot en vissausdip."
+    },
+    "cookingProfile": {
+      "en": "Steamed into soft saucers, so the bite is delicate, salty, and topped rather than filled.",
+      "zh": "蒸成小碟软米糕，入口细软，靠咸鲜 topping 和蘸汁提味。",
+      "nl": "Zacht gestoomd in schaaltjes; delicaat, zoutig en met toppings in plaats van vulling."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "starter",
+        "regional-dish"
+      ],
+      "description": {
+        "en": "A Vietnamese dish where tiny rice cakes and shrimp topping are the main ordering cues.",
+        "zh": "点餐重点是tiny rice cakes and shrimp topping。",
+        "nl": "Een Vietnamees gerecht waarbij tiny rice cakes and shrimp topping de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "rice-flour-batter",
+        55,
+        "steamed rice cake"
+      ],
+      [
+        "shrimp",
+        15,
+        "dried shrimp topping"
+      ],
+      [
+        "nuoc-cham",
+        10,
+        "fish-sauce dip",
+        "seasoning"
+      ],
+      [
+        "herbs",
+        5,
+        "scallion garnish"
+      ],
+      [
+        "fried-onions",
+        5,
+        "crisp garnish"
+      ],
+      [
+        "neutral-frying-oil",
+        5,
+        "scallion oil"
+      ],
+      [
+        "chili",
+        5,
+        "optional heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "steamed rice cakes",
+      "dried shrimp",
+      "fish-sauce dip"
+    ],
+    "basicTaste": [
+      "savory",
+      "delicate",
+      "salty-sweet",
+      "lightly spicy"
+    ],
+    "textureProfile": [
+      "soft small cakes",
+      "crumbly shrimp topping",
+      "crisp shallots"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-fish-sauce",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "starter",
+      "regional-dish",
+      "shareable"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "avoids-fish-sauce",
+      "wants-hearty-main"
+    ],
+    "orderVerdict": {
+      "en": "Best as a light snack or shared starter; not ideal if you want a filling main dish.",
+      "zh": "适合作轻小食或分享前菜；想要饱腹主菜时不太合适。",
+      "nl": "Het beste als lichte snack of gedeeld voorgerecht; minder geschikt als vullend hoofdgerecht."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "bo-kho",
+    "metadataCode": "116021",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Bò Kho",
+      "zh": "越南炖牛肉",
+      "nl": "Bò kho",
+      "local": "bò kho"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "braised",
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Vietnamese beef stew with carrot, lemongrass, warm spices, and a red-orange broth, often eaten with bread or noodles.",
+      "zh": "越南炖牛肉，配胡萝卜、香茅和温暖香料，汤汁红橙色，常配面包或米粉。",
+      "nl": "Vietnamese runderstoof met wortel, citroengras, warme kruiden en roodoranje bouillon, vaak met brood of noedels."
+    },
+    "cookingProfile": {
+      "en": "Braised until the beef is tender, so it feels heartier and richer than clear noodle soups.",
+      "zh": "牛肉炖到软嫩，比清汤粉更厚重、更适合作主食。",
+      "nl": "Gestoofd tot het rund mals is; steviger en rijker dan heldere noedelsoep."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "comfort-food",
+        "stew"
+      ],
+      "description": {
+        "en": "A Vietnamese dish where beef tenderness, carrot sweetness, and lemongrass spice are the main ordering cues.",
+        "zh": "点餐重点是beef tenderness, carrot sweetness, and lemongrass spice。",
+        "nl": "Een Vietnamees gerecht waarbij beef tenderness, carrot sweetness, and lemongrass spice de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        40,
+        "braised beef"
+      ],
+      [
+        "carrot",
+        15,
+        "sweet vegetable"
+      ],
+      [
+        "broth",
+        20,
+        "stew liquid"
+      ],
+      [
+        "lemongrass",
+        10,
+        "citrusy aroma",
+        "seasoning"
+      ],
+      [
+        "tomato-sauce",
+        5,
+        "red body",
+        "seasoning"
+      ],
+      [
+        "bread",
+        5,
+        "usual side",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "chili",
+        5,
+        "optional heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lemongrass",
+      "braised beef",
+      "red-orange broth"
+    ],
+    "basicTaste": [
+      "savory",
+      "warm-spiced",
+      "slightly sweet",
+      "hearty"
+    ],
+    "textureProfile": [
+      "tender beef",
+      "soft carrots",
+      "brothy stew"
+    ],
+    "riskFlags": [
+      "can-be-spicy",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "first-timer-friendly",
+      "stew"
+    ],
+    "avoidIfTags": [
+      "no-beef",
+      "gluten-free",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "A solid choice if you want a warm beef stew; ask for rice or noodles instead of bread if gluten matters.",
+      "zh": "想吃温暖牛肉炖菜时很稳；需要避麸质时可确认是否能换米饭或米粉。",
+      "nl": "Sterk voor warme runderstoof; vraag rijst of noedels in plaats van brood bij gluten."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "ga-nuong",
+    "metadataCode": "116022",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Gà Nướng",
+      "zh": "越南烤鸡",
+      "nl": "Gà nướng",
+      "local": "gà nướng"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Vietnamese grilled chicken, often lemongrass-marinated, served with rice or vermicelli, herbs, pickles, and nước chấm.",
+      "zh": "越南烤鸡，常用香茅腌制，配米饭或米粉、香草、腌菜和鱼露蘸汁。",
+      "nl": "Vietnamese gegrilde kip, vaak met citroengrasmarinade, met rijst of vermicelli, kruiden, pickles en nước chấm."
+    },
+    "cookingProfile": {
+      "en": "Grilled hot until smoky and glazed, so it is drier and more charred than chicken curry.",
+      "zh": "高温烤到焦香上色，比鸡肉咖喱更干爽、更有炭烤感。",
+      "nl": "Heet gegrild tot rokerig en geglaceerd; droger en meer geroosterd dan kipcurry."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "grilled",
+        "first-timer-friendly"
+      ],
+      "description": {
+        "en": "A Vietnamese dish where lemongrass aroma and dipping sauce are the main ordering cues.",
+        "zh": "点餐重点是lemongrass aroma and dipping sauce。",
+        "nl": "Een Vietnamees gerecht waarbij lemongrass aroma and dipping sauce de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        50,
+        "grilled chicken"
+      ],
+      [
+        "steamed-rice",
+        20,
+        "usual base"
+      ],
+      [
+        "cucumber",
+        10,
+        "fresh side"
+      ],
+      [
+        "nuoc-cham",
+        8,
+        "dip",
+        "seasoning"
+      ],
+      [
+        "lemongrass",
+        7,
+        "marinade aroma",
+        "seasoning"
+      ],
+      [
+        "chili",
+        3,
+        "optional heat",
+        "seasoning"
+      ],
+      [
+        "lime",
+        2,
+        "fresh squeeze"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lemongrass marinade",
+      "charred chicken",
+      "nước chấm"
+    ],
+    "basicTaste": [
+      "savory",
+      "smoky",
+      "citrusy",
+      "lightly sweet-sour"
+    ],
+    "textureProfile": [
+      "charred skin",
+      "juicy chicken",
+      "fresh sides"
+    ],
+    "riskFlags": [
+      "contains-fish-sauce",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "grilled",
+      "first-timer-friendly",
+      "rice"
+    ],
+    "avoidIfTags": [
+      "avoids-fish-sauce",
+      "wants-saucy-curry"
+    ],
+    "orderVerdict": {
+      "en": "Good if you want a clear grilled chicken plate; skip it if you prefer saucy or boneless dishes.",
+      "zh": "想点清楚的烤鸡饭很适合；偏好多酱或无骨菜时慎选。",
+      "nl": "Goed voor een duidelijke gegrilde kipplaat; minder geschikt als je sauzig of ontbeend wilt."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "ca-kho-to",
+    "metadataCode": "116023",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Cá Kho Tộ",
+      "zh": "越南砂锅鱼",
+      "nl": "Cá kho tộ",
+      "local": "cá kho tộ"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "braised",
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Fish braised in a clay pot with caramel fish sauce, pepper, chili, and a dark glossy salty-sweet sauce.",
+      "zh": "砂锅鱼用焦糖鱼露、黑胡椒和辣椒慢烧，酱汁深色油亮、咸甜浓郁。",
+      "nl": "Vis in kleipot gestoofd met karamel-vissaus, peper, chili en donkere glanzende zout-zoete saus."
+    },
+    "cookingProfile": {
+      "en": "The fish is braised until coated and tender, so it is rich, salty, and best with plain rice.",
+      "zh": "鱼块烧到入味裹汁，口味浓、咸甜明显，最适合配白饭。",
+      "nl": "De vis wordt gestoofd tot hij bedekt en mals is; rijk, zoutig en ideaal met witte rijst."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "rice",
+        "bold-flavor"
+      ],
+      "description": {
+        "en": "A Vietnamese dish where caramelized fish sauce and clay-pot richness are the main ordering cues.",
+        "zh": "点餐重点是caramelized fish sauce and clay-pot richness。",
+        "nl": "Een Vietnamees gerecht waarbij caramelized fish sauce and clay-pot richness de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        55,
+        "braised fish"
+      ],
+      [
+        "caramel-fish-sauce",
+        20,
+        "braising sauce",
+        "seasoning"
+      ],
+      [
+        "steamed-rice",
+        15,
+        "usual pairing",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "black-pepper",
+        5,
+        "pepper finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "caramel fish sauce",
+      "black pepper",
+      "clay-pot braise"
+    ],
+    "basicTaste": [
+      "salty",
+      "sweet-savory",
+      "umami",
+      "peppery"
+    ],
+    "textureProfile": [
+      "tender fish",
+      "sticky glossy sauce",
+      "rice-friendly"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-fish-sauce",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "rice",
+      "comfort-food",
+      "bold-flavor"
+    ],
+    "avoidIfTags": [
+      "avoids-fish",
+      "low-sodium",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Excellent with rice if you like salty-sweet braised fish; avoid it if fish sauce or bold saltiness is not for you.",
+      "zh": "喜欢咸甜浓酱鱼配饭时很适合；不吃鱼露或怕咸时慎选。",
+      "nl": "Uitstekend met rijst als je zout-zoete gestoofde vis wilt; vermijd bij vissaus of veel zout."
+    },
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.87,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "canh-chua",
+    "metadataCode": "116024",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Canh Chua",
+      "zh": "越南酸汤",
+      "nl": "Canh chua",
+      "local": "canh chua"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Vietnamese sweet-sour tamarind soup with fish, pineapple, tomato, okra, bean sprouts, and herbs.",
+      "zh": "越南罗望子酸甜汤，常有鱼、菠萝、番茄、秋葵、豆芽和香草。",
+      "nl": "Vietnamese zoetzure tamarindesoep met vis, ananas, tomaat, okra, taugé en kruiden."
+    },
+    "cookingProfile": {
+      "en": "Served as a light soup, so expect bright sourness and vegetables rather than a thick stew.",
+      "zh": "作为清爽汤品上桌，重点是明亮酸味和蔬菜，不是厚重炖菜。",
+      "nl": "Als lichte soep geserveerd; verwacht helder zuur en groenten, geen dikke stoof."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "soup",
+        "light"
+      ],
+      "description": {
+        "en": "A Vietnamese dish where tamarind sourness, pineapple, and fish are the main ordering cues.",
+        "zh": "点餐重点是tamarind sourness, pineapple, and fish。",
+        "nl": "Een Vietnamees gerecht waarbij tamarind sourness, pineapple, and fish de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        25,
+        "fish pieces"
+      ],
+      [
+        "broth",
+        25,
+        "light soup base"
+      ],
+      [
+        "pineapple",
+        10,
+        "sweet-sour fruit"
+      ],
+      [
+        "tomato",
+        10,
+        "sour vegetable"
+      ],
+      [
+        "okra",
+        10,
+        "slippery vegetable"
+      ],
+      [
+        "tamarind",
+        10,
+        "sour base",
+        "seasoning"
+      ],
+      [
+        "bean-sprouts",
+        5,
+        "fresh crunch"
+      ],
+      [
+        "herbs",
+        5,
+        "fresh finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "tamarind sourness",
+      "pineapple",
+      "fish broth"
+    ],
+    "basicTaste": [
+      "sour",
+      "sweet",
+      "savory",
+      "fresh"
+    ],
+    "textureProfile": [
+      "light broth",
+      "tender fish",
+      "crisp-slick vegetables"
+    ],
+    "riskFlags": [
+      "contains-fish"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "light",
+      "soup",
+      "sweet-sour"
+    ],
+    "avoidIfTags": [
+      "avoids-fish",
+      "dislikes-sour-food"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a light, bright soup; skip it if sour flavors or fish are not appealing.",
+      "zh": "想要清爽明亮酸汤时可选；不喜欢酸味或鱼类时慎选。",
+      "nl": "Kies dit voor lichte heldere soep; sla over als zuur of vis niet aanspreekt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "goi-ga",
+    "metadataCode": "116025",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Gỏi Gà",
+      "zh": "越南鸡肉沙拉",
+      "nl": "Gỏi gà",
+      "local": "gỏi gà"
+    },
+    "category": "salad",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Shredded chicken salad with cabbage, herbs, carrot, peanuts, fried shallots, and a light fish-sauce lime dressing.",
+      "zh": "越南鸡丝沙拉，配卷心菜、香草、胡萝卜、花生、炸葱和鱼露青柠汁。",
+      "nl": "Gescheurde kipsalade met kool, kruiden, wortel, pinda, gebakken sjalot en lichte vissaus-limoendressing."
+    },
+    "cookingProfile": {
+      "en": "Assembled cold or cool, so it feels crunchy, fresh, and tangy rather than creamy.",
+      "zh": "冷拌或微凉上桌，口感脆爽、清新、酸香，不是奶油沙拉。",
+      "nl": "Koel samengesteld; knapperig, fris en zurig in plaats van romig."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "salad",
+        "light"
+      ],
+      "description": {
+        "en": "A Vietnamese dish where shredded chicken, herbs, and fish-sauce dressing are the main ordering cues.",
+        "zh": "点餐重点是shredded chicken, herbs, and fish-sauce dressing。",
+        "nl": "Een Vietnamees gerecht waarbij shredded chicken, herbs, and fish-sauce dressing de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        30,
+        "shredded chicken"
+      ],
+      [
+        "cabbage",
+        25,
+        "crunchy base"
+      ],
+      [
+        "carrot",
+        10,
+        "sweet crunch"
+      ],
+      [
+        "herbs",
+        10,
+        "fresh herbs"
+      ],
+      [
+        "peanuts",
+        10,
+        "crunch"
+      ],
+      [
+        "nuoc-cham",
+        10,
+        "lime fish-sauce dressing",
+        "seasoning"
+      ],
+      [
+        "fried-onions",
+        5,
+        "crisp garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fish-sauce lime dressing",
+      "fresh herbs",
+      "peanut crunch"
+    ],
+    "basicTaste": [
+      "fresh",
+      "tangy",
+      "savory",
+      "lightly sweet"
+    ],
+    "textureProfile": [
+      "shredded chicken",
+      "crisp cabbage",
+      "crunchy peanuts"
+    ],
+    "riskFlags": [
+      "contains-peanut",
+      "contains-fish-sauce"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "salad",
+      "light",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "avoids-fish-sauce",
+      "wants-hot-food"
+    ],
+    "orderVerdict": {
+      "en": "A bright lighter order if you want salad with protein; avoid it for peanut or fish-sauce restrictions.",
+      "zh": "想吃带蛋白质的清爽沙拉时很好；花生或鱼露忌口时慎选。",
+      "nl": "Een frisse lichte keuze met eiwit; vermijden bij pinda of vissaus."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "nom-hoa-chuoi",
+    "metadataCode": "116026",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Nộm Hoa Chuối",
+      "zh": "越南香蕉花沙拉",
+      "nl": "Bananenbloesemsalade",
+      "local": "nộm hoa chuối"
+    },
+    "category": "salad",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Banana blossom salad with shredded banana flower, herbs, carrot, peanuts, and often chicken or shrimp in a tangy dressing.",
+      "zh": "香蕉花沙拉，用切丝香蕉花、香草、胡萝卜、花生拌酸香汁，常加鸡肉或虾。",
+      "nl": "Bananenbloesemsalade met gesneden bloesem, kruiden, wortel, pinda en vaak kip of garnaal in zurige dressing."
+    },
+    "cookingProfile": {
+      "en": "Served as a dry salad, so the appeal is crisp shredded texture and bright dressing.",
+      "zh": "干拌沙拉形态，重点是细丝脆感和清亮酸香调味。",
+      "nl": "Als droge salade geserveerd; knapperige slierten en heldere dressing zijn de aantrekkingskracht."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "salad",
+        "light"
+      ],
+      "description": {
+        "en": "A Vietnamese dish where banana blossom shreds, lime dressing, and peanut crunch are the main ordering cues.",
+        "zh": "点餐重点是banana blossom shreds, lime dressing, and peanut crunch。",
+        "nl": "Een Vietnamees gerecht waarbij banana blossom shreds, lime dressing, and peanut crunch de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "banana-blossom",
+        35,
+        "shredded base"
+      ],
+      [
+        "chicken",
+        15,
+        "optional protein",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "shrimp",
+        10,
+        "optional seafood",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "herbs",
+        10,
+        "fresh herbs"
+      ],
+      [
+        "carrot",
+        10,
+        "crunch"
+      ],
+      [
+        "peanuts",
+        10,
+        "crunch"
+      ],
+      [
+        "nuoc-cham",
+        5,
+        "dressing",
+        "seasoning"
+      ],
+      [
+        "lime",
+        5,
+        "fresh sourness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "banana blossom",
+      "lime fish-sauce dressing",
+      "peanut crunch"
+    ],
+    "basicTaste": [
+      "fresh",
+      "tangy",
+      "herbal",
+      "savory"
+    ],
+    "textureProfile": [
+      "crisp shreds",
+      "light salad",
+      "crunchy peanuts"
+    ],
+    "riskFlags": [
+      "contains-peanut",
+      "contains-shellfish",
+      "contains-fish-sauce"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "salad",
+      "light",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "shellfish-allergy",
+      "avoids-fish-sauce"
+    ],
+    "orderVerdict": {
+      "en": "Good if you want a crisp herbal salad; ask about shrimp or chicken if you need a vegetarian version.",
+      "zh": "想吃脆爽香草沙拉时适合；需要素食版本时先确认是否有虾或鸡。",
+      "nl": "Goed voor een knapperige kruidensalade; vraag naar garnaal of kip voor vegetarisch."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
+  },
+  {
+    "id": "cha-ca-la-vong",
+    "metadataCode": "116027",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Chả Cá Lã Vọng",
+      "zh": "河内姜黄莳萝鱼",
+      "nl": "Chả cá Lã Vọng",
+      "local": "chả cá Lã Vọng"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "fried",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Hanoi turmeric fish with dill and scallions, served with rice noodles, peanuts, herbs, and dipping sauce.",
+      "zh": "河内黄姜鱼，配大量莳萝和葱，常与米粉、花生、香草和蘸汁同食。",
+      "nl": "Hanoise kurkumavis met dille en lente-ui, met rijstnoedels, pinda, kruiden en dipsaus."
+    },
+    "cookingProfile": {
+      "en": "The fish is seared hot with turmeric and dill, so it should taste aromatic, oily, and herb-forward.",
+      "zh": "鱼以黄姜和莳萝热煎，口味应偏香、油润且香草感明显。",
+      "nl": "De vis wordt heet gebakken met kurkuma en dille; aromatisch, olieachtig en kruidig."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish",
+        "regional-dish",
+        "seafood"
+      ],
+      "description": {
+        "en": "A Vietnamese dish where yellow turmeric fish and dill are the main ordering cues.",
+        "zh": "点餐重点是yellow turmeric fish and dill。",
+        "nl": "Een Vietnamees gerecht waarbij yellow turmeric fish and dill de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        45,
+        "turmeric fish"
+      ],
+      [
+        "rice-noodles",
+        20,
+        "side noodles"
+      ],
+      [
+        "dill",
+        10,
+        "signature herb",
+        "seasoning"
+      ],
+      [
+        "turmeric",
+        8,
+        "yellow marinade",
+        "seasoning"
+      ],
+      [
+        "peanuts",
+        7,
+        "crunch"
+      ],
+      [
+        "fish-sauce",
+        5,
+        "dip depth",
+        "seasoning"
+      ],
+      [
+        "neutral-frying-oil",
+        5,
+        "pan frying"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "turmeric",
+      "dill",
+      "fried fish"
+    ],
+    "basicTaste": [
+      "savory",
+      "herbal",
+      "nutty",
+      "aromatic"
+    ],
+    "textureProfile": [
+      "tender fish",
+      "oily herb coating",
+      "soft noodles"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-peanut",
+      "contains-fish-sauce"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "signature-dish",
+      "regional-dish",
+      "seafood"
+    ],
+    "avoidIfTags": [
+      "avoids-fish",
+      "peanut-allergy",
+      "dislikes-dill"
+    ],
+    "orderVerdict": {
+      "en": "Order it for a distinctive Hanoi fish dish; avoid it if dill, fish sauce, or peanuts are deal-breakers.",
+      "zh": "想尝河内代表鱼菜时可点；不喜欢莳萝、鱼露或花生时慎选。",
+      "nl": "Kies dit voor een uitgesproken Hanois visgerecht; vermijd bij dille, vissaus of pinda."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.88,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "xoi-man",
+    "metadataCode": "116028",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Xôi Mặn",
+      "zh": "越南咸糯米饭",
+      "nl": "Xôi mặn",
+      "local": "xôi mặn"
+    },
+    "category": "rice",
+    "cookingMethods": [
+      "steamed",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Savory Vietnamese sticky rice topped with pork sausage, pork floss, egg, fried shallots, cucumber, and chili sauce.",
+      "zh": "越南咸糯米饭，常配越南肉肠、肉松、蛋、炸葱、黄瓜和辣酱。",
+      "nl": "Hartige Vietnamese kleefrijst met varkensworst, varkensvleesvlokken, ei, gebakken sjalot, komkommer en chilisaus."
+    },
+    "cookingProfile": {
+      "en": "The sticky rice is steamed, then topped, so it feels dense, chewy, and breakfast-like.",
+      "zh": "糯米蒸熟后加配料，质地紧实有嚼劲，常见于早餐或小食。",
+      "nl": "De kleefrijst wordt gestoomd en belegd; compact, chewy en ontbijtachtig."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "street-food",
+        "breakfast",
+        "rice"
+      ],
+      "description": {
+        "en": "A Vietnamese dish where sticky rice, pork toppings, egg, and fried shallots are the main ordering cues.",
+        "zh": "点餐重点是sticky rice, pork toppings, egg, and fried shallots。",
+        "nl": "Een Vietnamees gerecht waarbij sticky rice, pork toppings, egg, and fried shallots de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "sticky-rice",
+        45,
+        "sticky rice base"
+      ],
+      [
+        "vietnamese-pork-sausage",
+        15,
+        "sliced sausage"
+      ],
+      [
+        "pork",
+        10,
+        "pork floss"
+      ],
+      [
+        "egg",
+        10,
+        "egg topping"
+      ],
+      [
+        "fried-onions",
+        5,
+        "crisp garnish"
+      ],
+      [
+        "cucumber",
+        5,
+        "fresh side"
+      ],
+      [
+        "chili",
+        5,
+        "optional sauce",
+        "seasoning"
+      ],
+      [
+        "sea-salt",
+        5,
+        "savory seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "sticky rice",
+      "pork sausage",
+      "fried shallots"
+    ],
+    "basicTaste": [
+      "savory",
+      "chewy",
+      "filling",
+      "lightly spicy"
+    ],
+    "textureProfile": [
+      "dense sticky rice",
+      "firm sausage",
+      "crisp garnish"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-egg",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "breakfast",
+      "street-food",
+      "rice"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "avoids-egg",
+      "wants-light-salad"
+    ],
+    "orderVerdict": {
+      "en": "A filling savory snack or breakfast; skip it if pork or egg toppings do not fit your diet.",
+      "zh": "适合作咸味早餐或小食；不吃猪肉或蛋时慎选。",
+      "nl": "Een vullende hartige snack of ontbijt; sla over bij varken of ei."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "banh-flan-vietnamese",
+    "metadataCode": "116029",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Vietnamese Bánh Flan",
+      "zh": "越南焦糖布丁",
+      "nl": "Vietnamese bánh flan",
+      "local": "bánh flan"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "set",
+      "chilled"
+    ],
+    "shortDescription": {
+      "en": "Vietnamese-style caramel custard, usually a small chilled flan with glossy caramel and a soft eggy texture.",
+      "zh": "越南焦糖布丁，小份冷藏蛋奶布丁，表面有焦糖酱，口感柔滑带蛋奶香。",
+      "nl": "Vietnamese karamelcustard, meestal een kleine gekoelde flan met glanzende karamel en zachte eistructuur."
+    },
+    "cookingProfile": {
+      "en": "Set and chilled, so it is smooth, cool, and spoonable rather than cakey.",
+      "zh": "凝固定型后冷藏上桌，口感顺滑清凉，不是蛋糕质地。",
+      "nl": "Opgesteven en gekoeld; glad, koel en lepelbaar, niet cakeachtig."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "dessert",
+        "first-timer-friendly",
+        "vegetarian"
+      ],
+      "description": {
+        "en": "A Vietnamese dish where caramel custard texture and egg-dairy richness are the main ordering cues.",
+        "zh": "点餐重点是caramel custard texture and egg-dairy richness。",
+        "nl": "Een Vietnamees gerecht waarbij caramel custard texture and egg-dairy richness de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "egg",
+        35,
+        "custard set"
+      ],
+      [
+        "cream",
+        30,
+        "dairy body"
+      ],
+      [
+        "sugar",
+        15,
+        "sweetness"
+      ],
+      [
+        "fruit-sauce-or-caramel",
+        15,
+        "caramel topping"
+      ],
+      [
+        "condensed-milk",
+        5,
+        "milky sweetness",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "caramel",
+      "egg custard",
+      "condensed milk"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "caramel",
+      "mild"
+    ],
+    "textureProfile": [
+      "smooth custard",
+      "cool set",
+      "glossy caramel"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "first-timer-friendly",
+      "vegetarian"
+    ],
+    "avoidIfTags": [
+      "avoids-egg",
+      "avoids-dairy",
+      "wants-light-fruit"
+    ],
+    "orderVerdict": {
+      "en": "A safe dessert if you like caramel custard; avoid it for egg or dairy restrictions.",
+      "zh": "喜欢焦糖布丁时很稳；不吃蛋或奶制品时慎选。",
+      "nl": "Veilig dessert als je karamelcustard wilt; vermijden bij ei of zuivel."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.87,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "che-ba-mau",
+    "metadataCode": "116030",
+    "cuisineId": "vietnamese",
+    "names": {
+      "en": "Chè Ba Màu",
+      "zh": "越南三色甜品",
+      "nl": "Chè ba màu",
+      "local": "chè ba màu"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "assembled",
+      "chilled"
+    ],
+    "shortDescription": {
+      "en": "Layered Vietnamese three-color dessert with beans, mung bean paste, pandan jelly, coconut milk, and crushed ice.",
+      "zh": "越南三色甜品，分层放豆类、绿豆蓉、香兰冻、椰奶和碎冰。",
+      "nl": "Gelaagd Vietnamees driekleurendessert met bonen, mungbonenpasta, pandangelei, kokosmelk en ijs."
+    },
+    "cookingProfile": {
+      "en": "Assembled cold in layers, so each spoonful mixes chewy jelly, creamy coconut, beans, and ice.",
+      "zh": "冷食分层组合，每勺会混合弹牙冻、椰奶、豆类和碎冰。",
+      "nl": "Koud in lagen; elke lepel mengt chewy gelei, romige kokos, bonen en ijs."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "dessert",
+        "street-food",
+        "vegan"
+      ],
+      "description": {
+        "en": "A Vietnamese dish where colorful layers, coconut milk, beans, and pandan jelly are the main ordering cues.",
+        "zh": "点餐重点是colorful layers, coconut milk, beans, and pandan jelly。",
+        "nl": "Een Vietnamees gerecht waarbij colorful layers, coconut milk, beans, and pandan jelly de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "red-kidney-beans",
+        25,
+        "red bean layer"
+      ],
+      [
+        "mung-bean-paste",
+        20,
+        "yellow layer"
+      ],
+      [
+        "pandan-jelly",
+        20,
+        "green jelly"
+      ],
+      [
+        "coconut-milk",
+        20,
+        "creamy pour",
+        "seasoning"
+      ],
+      [
+        "shaved-ice",
+        10,
+        "cold texture"
+      ],
+      [
+        "sugar",
+        5,
+        "sweetness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "coconut milk",
+      "pandan jelly",
+      "sweet beans"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "cool",
+      "mild"
+    ],
+    "textureProfile": [
+      "layered beans",
+      "chewy jelly",
+      "crushed ice"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegan"
+    ],
+    "goodForTags": [
+      "dessert",
+      "street-food",
+      "vegan"
+    ],
+    "avoidIfTags": [
+      "wants-less-sweet",
+      "dislikes-beans-in-dessert"
+    ],
+    "orderVerdict": {
+      "en": "Pick it if you want a cold, sweet, textured dessert; skip it if beans in dessert sound odd.",
+      "zh": "想要冰凉、有层次和嚼感的甜品时可点；不接受豆类甜品时慎选。",
+      "nl": "Kies dit voor koud, zoet en textuurrijk dessert; sla over als bonen in dessert vreemd klinken."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.87,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "ayam-goreng",
+    "metadataCode": "117013",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Ayam Goreng",
+      "zh": "印尼炸鸡",
+      "nl": "Ayam goreng",
+      "local": "ayam goreng"
+    },
+    "category": "fried-snack",
+    "cookingMethods": [
+      "deep-fried",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Indonesian fried chicken with turmeric-spice aroma, crisp skin, rice, sambal, cucumber, and lime.",
+      "zh": "印尼炸鸡，带黄姜香料香，外皮酥脆，常配米饭、参巴、黄瓜和青柠。",
+      "nl": "Indonesische gebakken kip met kurkuma-kruidenaroma, krokant vel, rijst, sambal, komkommer en limoen."
+    },
+    "cookingProfile": {
+      "en": "Marinated then fried, so it is crisp and aromatic rather than saucy.",
+      "zh": "腌制后油炸，重点是酥脆和香料香，不是多酱汁。",
+      "nl": "Gemarineerd en gefrituurd; krokant en aromatisch, niet sauzig."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "fried",
+        "rice"
+      ],
+      "description": {
+        "en": "An Indonesian dish where crisp turmeric chicken and sambal heat are the main ordering cues.",
+        "zh": "点餐重点是crisp turmeric chicken and sambal heat。",
+        "nl": "Een Indonesisch gerecht waarbij crisp turmeric chicken and sambal heat de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        50,
+        "fried chicken"
+      ],
+      [
+        "steamed-rice",
+        20,
+        "usual base"
+      ],
+      [
+        "sambal",
+        10,
+        "chili condiment",
+        "seasoning"
+      ],
+      [
+        "turmeric",
+        5,
+        "yellow spice",
+        "seasoning"
+      ],
+      [
+        "neutral-frying-oil",
+        5,
+        "frying medium"
+      ],
+      [
+        "cucumber",
+        5,
+        "fresh side"
+      ],
+      [
+        "lime",
+        5,
+        "fresh squeeze"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "turmeric marinade",
+      "fried chicken skin",
+      "sambal"
+    ],
+    "basicTaste": [
+      "savory",
+      "fried",
+      "aromatic",
+      "spicy"
+    ],
+    "textureProfile": [
+      "crisp skin",
+      "juicy chicken",
+      "soft rice"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "fried",
+      "first-timer-friendly",
+      "rice"
+    ],
+    "avoidIfTags": [
+      "avoids-fried-food",
+      "wants-saucy-curry"
+    ],
+    "orderVerdict": {
+      "en": "A reliable pick if you want crisp chicken and rice; ask for sambal on the side if spice matters.",
+      "zh": "想吃酥脆鸡配饭时很稳；怕辣可要求参巴另放。",
+      "nl": "Betrouwbaar voor krokante kip met rijst; vraag sambal apart bij pittigheidszorgen."
+    },
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "ayam-bakar",
+    "metadataCode": "117014",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Ayam Bakar",
+      "zh": "印尼烤鸡",
+      "nl": "Ayam bakar",
+      "local": "ayam bakar"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Indonesian grilled chicken glazed with sweet soy, charred at the edges, and served with rice, sambal, and fresh sides.",
+      "zh": "印尼烤鸡，刷甜酱油烤到边缘焦香，常配米饭、参巴和清爽配菜。",
+      "nl": "Indonesische gegrilde kip met zoete sojaglazuur, licht geblakerd, met rijst, sambal en frisse zijdes."
+    },
+    "cookingProfile": {
+      "en": "Grilled after seasoning, so it tastes smoky, sweet-savory, and less oily than fried chicken.",
+      "zh": "调味后烤制，口味烟熏、甜咸，比炸鸡少油。",
+      "nl": "Na kruiden gegrild; rokerig, zoet-hartig en minder vet dan gefrituurde kip."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "grilled",
+        "rice"
+      ],
+      "description": {
+        "en": "An Indonesian dish where kecap sweetness and sambal heat are the main ordering cues.",
+        "zh": "点餐重点是kecap sweetness and sambal heat。",
+        "nl": "Een Indonesisch gerecht waarbij kecap sweetness and sambal heat de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        50,
+        "grilled chicken"
+      ],
+      [
+        "steamed-rice",
+        20,
+        "usual base"
+      ],
+      [
+        "ketjap-manis",
+        10,
+        "sweet soy glaze",
+        "seasoning"
+      ],
+      [
+        "sambal",
+        5,
+        "chili condiment",
+        "seasoning"
+      ],
+      [
+        "cucumber",
+        5,
+        "fresh side"
+      ],
+      [
+        "lime",
+        5,
+        "fresh squeeze"
+      ],
+      [
+        "lemongrass",
+        5,
+        "marinade aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "kecap manis glaze",
+      "charred chicken",
+      "sambal"
+    ],
+    "basicTaste": [
+      "sweet-savory",
+      "smoky",
+      "spicy",
+      "aromatic"
+    ],
+    "textureProfile": [
+      "charred skin",
+      "juicy chicken",
+      "soft rice"
+    ],
+    "riskFlags": [
+      "contains-soy",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "grilled",
+      "rice",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "soy-allergy",
+      "gluten-free",
+      "wants-crisp-fried-food"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for sweet-smoky grilled chicken; avoid it if soy or gluten in kecap is an issue.",
+      "zh": "想要甜咸烟熏烤鸡时可选；酱油里的大豆或麸质需注意。",
+      "nl": "Kies dit voor zoet-rokerige grillkip; vermijd bij soja of gluten in ketjap."
+    },
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "gulai",
+    "metadataCode": "117015",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Gulai",
+      "zh": "印尼香料咖喱",
+      "nl": "Gulai",
+      "local": "gulai"
+    },
+    "category": "curry",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Indonesian coconut-spice curry, often yellow from turmeric, with meat, potatoes or vegetables, and warm aromatics.",
+      "zh": "印尼椰奶香料咖喱，常因黄姜呈黄色，配肉、土豆或蔬菜，香料温暖。",
+      "nl": "Indonesische kokos-kruidencurry, vaak geel door kurkuma, met vlees, aardappel of groenten en warme aroma’s."
+    },
+    "cookingProfile": {
+      "en": "Simmered in coconut and spice paste, so it is saucy, aromatic, and richer than clear soups.",
+      "zh": "以椰奶和香料酱慢煮，口感多酱、芳香，比清汤更浓。",
+      "nl": "Gesudderd in kokos en kruidenpasta; sauzig, aromatisch en rijker dan heldere soep."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "curry",
+        "rich"
+      ],
+      "description": {
+        "en": "An Indonesian dish where coconut richness, turmeric warmth, and chosen protein are the main ordering cues.",
+        "zh": "点餐重点是coconut richness, turmeric warmth, and chosen protein。",
+        "nl": "Een Indonesisch gerecht waarbij coconut richness, turmeric warmth, and chosen protein de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        35,
+        "common meat"
+      ],
+      [
+        "coconut-milk",
+        25,
+        "curry body",
+        "seasoning"
+      ],
+      [
+        "bumbu-kuning",
+        15,
+        "yellow spice paste",
+        "seasoning"
+      ],
+      [
+        "potato",
+        10,
+        "starchy vegetable"
+      ],
+      [
+        "steamed-rice",
+        10,
+        "usual side",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "coconut milk",
+      "bumbu kuning",
+      "turmeric warmth"
+    ],
+    "basicTaste": [
+      "savory",
+      "creamy",
+      "warm-spiced",
+      "medium spicy"
+    ],
+    "textureProfile": [
+      "saucy curry",
+      "tender meat",
+      "soft vegetables"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "curry",
+      "rice",
+      "rich"
+    ],
+    "avoidIfTags": [
+      "wants-light-food",
+      "avoids-coconut"
+    ],
+    "orderVerdict": {
+      "en": "Good if you want a rich coconut curry; ask what meat is used if the menu only says gulai.",
+      "zh": "想吃浓郁椰奶咖喱时适合；菜单只写 gulai 时建议确认肉类。",
+      "nl": "Goed voor rijke kokoscurry; vraag welk vlees wordt gebruikt als het menu alleen gulai zegt."
+    },
+    "spiceLevel": 2,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
+  },
+  {
+    "id": "opor-ayam",
+    "metadataCode": "117016",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Opor Ayam",
+      "zh": "印尼椰奶鸡",
+      "nl": "Opor ayam",
+      "local": "opor ayam"
+    },
+    "category": "curry",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Chicken simmered in a pale coconut milk sauce with gentle spices, often served with rice cakes, egg, and fried shallots.",
+      "zh": "鸡肉在浅色椰奶香料酱中慢煮，常配米糕、蛋和炸葱。",
+      "nl": "Kip gestoofd in lichte kokosmelksaus met zachte kruiden, vaak met rijstcake, ei en gebakken sjalot."
+    },
+    "cookingProfile": {
+      "en": "The sauce is creamy and mild rather than fiery, making it gentler than many sambal-heavy dishes.",
+      "zh": "酱汁奶香温和，不是重辣类型，比许多参巴菜更柔和。",
+      "nl": "De saus is romig en mild, minder vurig dan veel sambalgerechten."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "comfort-food",
+        "mild"
+      ],
+      "description": {
+        "en": "An Indonesian dish where coconut milk and mild spice are the main ordering cues.",
+        "zh": "点餐重点是coconut milk and mild spice。",
+        "nl": "Een Indonesisch gerecht waarbij coconut milk and mild spice de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        35,
+        "simmered chicken"
+      ],
+      [
+        "coconut-milk",
+        30,
+        "pale sauce",
+        "seasoning"
+      ],
+      [
+        "bumbu-kuning",
+        10,
+        "gentle spice paste",
+        "seasoning"
+      ],
+      [
+        "lontong-rice-cake",
+        10,
+        "usual pairing"
+      ],
+      [
+        "egg",
+        10,
+        "boiled egg",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "fried-onions",
+        5,
+        "crisp garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "coconut milk",
+      "gentle spice paste",
+      "fried shallots"
+    ],
+    "basicTaste": [
+      "mild",
+      "creamy",
+      "savory",
+      "slightly sweet"
+    ],
+    "textureProfile": [
+      "tender chicken",
+      "creamy sauce",
+      "firm rice cakes"
+    ],
+    "riskFlags": [
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "mild",
+      "rice"
+    ],
+    "avoidIfTags": [
+      "avoids-egg",
+      "avoids-coconut",
+      "wants-spicy-food"
+    ],
+    "orderVerdict": {
+      "en": "A good mild choice if you want coconut chicken; ask about egg if that matters.",
+      "zh": "想吃温和椰奶鸡时适合；介意鸡蛋时先确认。",
+      "nl": "Goede milde keuze voor kokoskip; vraag naar ei als dat uitmaakt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "rawon",
+    "metadataCode": "117017",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Rawon",
+      "zh": "印尼黑牛肉汤",
+      "nl": "Rawon",
+      "local": "rawon"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "East Javanese black beef soup colored by keluak, with tender beef, sprouts, rice, sambal, and salted egg.",
+      "zh": "东爪哇黑牛肉汤，以黑果调出深色汤底，配牛肉、豆芽、米饭、参巴和咸蛋。",
+      "nl": "Oost-Javaanse zwarte rundersoep door keluak, met mals rund, taugé, rijst, sambal en gezouten ei."
+    },
+    "cookingProfile": {
+      "en": "Slow-simmered until the broth turns dark and earthy, so it tastes deeper than a clear beef soup.",
+      "zh": "慢煮到汤色深黑、味道 earthy，比清牛肉汤更深沉。",
+      "nl": "Lang gesudderd tot de bouillon donker en aards wordt; dieper dan heldere rundersoep."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish",
+        "regional-dish",
+        "soup"
+      ],
+      "description": {
+        "en": "An Indonesian dish where black keluak broth are the main ordering cues.",
+        "zh": "点餐重点是black keluak broth。",
+        "nl": "Een Indonesisch gerecht waarbij black keluak broth de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        40,
+        "tender beef"
+      ],
+      [
+        "broth",
+        25,
+        "soup base"
+      ],
+      [
+        "keluak",
+        15,
+        "black earthy spice",
+        "seasoning"
+      ],
+      [
+        "bean-sprouts",
+        10,
+        "fresh crunch"
+      ],
+      [
+        "steamed-rice",
+        5,
+        "usual side",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "lime",
+        5,
+        "fresh side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "keluak black broth",
+      "beef",
+      "bean sprouts"
+    ],
+    "basicTaste": [
+      "savory",
+      "earthy",
+      "deep",
+      "lightly spicy"
+    ],
+    "textureProfile": [
+      "dark broth",
+      "tender beef",
+      "crisp sprouts"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "signature-dish",
+      "regional-dish",
+      "soup"
+    ],
+    "avoidIfTags": [
+      "no-beef",
+      "dislikes-earthy-flavors"
+    ],
+    "orderVerdict": {
+      "en": "Worth ordering if you want a distinctive dark beef soup; skip it if earthy black broth sounds too strong.",
+      "zh": "想尝有辨识度的黑牛肉汤时值得点；不喜欢 earthy 深色汤底时慎选。",
+      "nl": "Mooi voor een uitgesproken donkere rundersoep; sla over als aardse zwarte bouillon te sterk klinkt."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.88,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "sayur-lodeh",
+    "metadataCode": "117018",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Sayur Lodeh",
+      "zh": "印尼椰奶蔬菜汤",
+      "nl": "Sayur lodeh",
+      "local": "sayur lodeh"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Mixed vegetables, tofu or tempeh in a pale coconut milk broth with Indonesian spice paste and sambal on the side.",
+      "zh": "混合蔬菜、豆腐或天贝配浅色椰奶汤底和印尼香料，旁边常有参巴。",
+      "nl": "Gemengde groenten, tofu of tempeh in lichte kokosmelkbouillon met Indonesische kruidenpasta en sambal."
+    },
+    "cookingProfile": {
+      "en": "Simmered gently in coconut milk, so it feels creamy but vegetable-forward.",
+      "zh": "以椰奶轻煮，口感有奶香但仍以蔬菜为主。",
+      "nl": "Zacht in kokosmelk gesudderd; romig maar groentegericht."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "vegetarian",
+        "soup",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "An Indonesian dish where coconut broth and tofu or tempeh soy checks are the main ordering cues.",
+        "zh": "点餐重点是coconut broth and tofu or tempeh soy checks。",
+        "nl": "Een Indonesisch gerecht waarbij coconut broth and tofu or tempeh soy checks de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "mixed-vegetables",
+        30,
+        "vegetable body"
+      ],
+      [
+        "coconut-milk",
+        25,
+        "broth body",
+        "seasoning"
+      ],
+      [
+        "tofu",
+        15,
+        "soft soy protein"
+      ],
+      [
+        "tempeh",
+        10,
+        "nutty soy protein",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "yardlong-beans",
+        10,
+        "green vegetable"
+      ],
+      [
+        "bumbu-kuning",
+        5,
+        "spice base",
+        "seasoning"
+      ],
+      [
+        "sambal",
+        5,
+        "side heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "coconut milk",
+      "bumbu kuning",
+      "vegetable sweetness"
+    ],
+    "basicTaste": [
+      "mild",
+      "creamy",
+      "savory",
+      "lightly spicy"
+    ],
+    "textureProfile": [
+      "soft vegetables",
+      "creamy broth",
+      "tofu pieces"
+    ],
+    "riskFlags": [
+      "contains-soy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "vegetarian",
+      "soup",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "soy-allergy",
+      "avoids-coconut",
+      "wants-meat-heavy-food"
+    ],
+    "orderVerdict": {
+      "en": "A gentle vegetable choice with coconut richness; check tofu or tempeh if soy matters.",
+      "zh": "想吃温和椰奶蔬菜汤时适合；大豆过敏需确认豆腐或天贝。",
+      "nl": "Een milde groentekeuze met kokosrijkdom; check tofu of tempeh bij soja."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "pecel",
+    "metadataCode": "117019",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Pecel",
+      "zh": "印尼花生蔬菜沙拉",
+      "nl": "Pecel",
+      "local": "pecel"
+    },
+    "category": "salad",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Blanched vegetables covered with thick spicy peanut sauce, often served with rice cake and a crisp cracker.",
+      "zh": "汆烫蔬菜淋厚花生辣酱，常配米糕和脆饼。",
+      "nl": "Geblancheerde groenten met dikke pittige pindasaus, vaak met rijstcake en cracker."
+    },
+    "cookingProfile": {
+      "en": "The vegetables are mostly cooked then dressed, so it is softer and saucier than a raw salad.",
+      "zh": "蔬菜多为焯熟后拌酱，比生沙拉更柔软、多酱。",
+      "nl": "De groenten zijn meestal geblancheerd en gedresseerd; zachter en sauziger dan rauwe salade."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "vegetarian",
+        "salad"
+      ],
+      "description": {
+        "en": "An Indonesian dish where peanut sauce as the central flavor and allergy check are the main ordering cues.",
+        "zh": "点餐重点是peanut sauce as the central flavor and allergy check。",
+        "nl": "Een Indonesisch gerecht waarbij peanut sauce as the central flavor and allergy check de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "mixed-vegetables",
+        35,
+        "blanched vegetables"
+      ],
+      [
+        "satay-sauce",
+        25,
+        "peanut sauce",
+        "seasoning"
+      ],
+      [
+        "bean-sprouts",
+        10,
+        "crisp vegetable"
+      ],
+      [
+        "spinach",
+        10,
+        "leafy vegetable"
+      ],
+      [
+        "rice-cracker",
+        10,
+        "crisp side"
+      ],
+      [
+        "sambal",
+        5,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "fried-onions",
+        5,
+        "crisp garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "spicy peanut sauce",
+      "blanched vegetables",
+      "crisp cracker"
+    ],
+    "basicTaste": [
+      "nutty",
+      "savory",
+      "spicy",
+      "vegetal"
+    ],
+    "textureProfile": [
+      "soft vegetables",
+      "thick sauce",
+      "crisp garnish"
+    ],
+    "riskFlags": [
+      "contains-peanut",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "vegetarian",
+      "salad",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "wants-raw-crisp-salad"
+    ],
+    "orderVerdict": {
+      "en": "Great if you like vegetables with rich peanut sauce; avoid it completely for peanut allergy.",
+      "zh": "喜欢蔬菜配浓花生酱时很适合；花生过敏者应避免。",
+      "nl": "Mooi voor groenten met rijke pindasaus; volledig vermijden bij pinda-allergie."
+    },
+    "spiceLevel": 2,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "ketoprak",
+    "metadataCode": "117020",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Ketoprak",
+      "zh": "印尼花生酱米粉豆腐",
+      "nl": "Ketoprak",
+      "local": "ketoprak"
+    },
+    "category": "salad",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Jakarta-style rice vermicelli, tofu, bean sprouts, lontong rice cake, cucumber, and thick peanut sauce.",
+      "zh": "雅加达风格米粉豆腐小食，配豆芽、米糕、黄瓜和厚花生酱。",
+      "nl": "Jakarta-stijl rijstvermicelli, tofu, taugé, lontong, komkommer en dikke pindasaus."
+    },
+    "cookingProfile": {
+      "en": "Assembled with peanut sauce, so it eats like a filling sauced salad rather than a soup.",
+      "zh": "以花生酱拌合，吃起来像有饱腹感的酱拌沙拉，不是汤。",
+      "nl": "Met pindasaus samengesteld; het eet als vullende sauzige salade, geen soep."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "vegetarian",
+        "peanut"
+      ],
+      "description": {
+        "en": "An Indonesian dish where tofu, lontong, vermicelli, and peanut sauce are the main ordering cues.",
+        "zh": "点餐重点是tofu, lontong, vermicelli, and peanut sauce。",
+        "nl": "Een Indonesisch gerecht waarbij tofu, lontong, vermicelli, and peanut sauce de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "rice-noodles",
+        25,
+        "vermicelli base"
+      ],
+      [
+        "tofu",
+        20,
+        "soy protein"
+      ],
+      [
+        "satay-sauce",
+        20,
+        "peanut sauce",
+        "seasoning"
+      ],
+      [
+        "lontong-rice-cake",
+        15,
+        "rice cake pieces"
+      ],
+      [
+        "bean-sprouts",
+        10,
+        "fresh crunch"
+      ],
+      [
+        "cucumber",
+        5,
+        "fresh side"
+      ],
+      [
+        "rice-cracker",
+        5,
+        "crisp side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "peanut sauce",
+      "tofu",
+      "lontong rice cake"
+    ],
+    "basicTaste": [
+      "nutty",
+      "savory",
+      "filling",
+      "mildly sweet"
+    ],
+    "textureProfile": [
+      "soft tofu",
+      "springy noodles",
+      "thick sauce"
+    ],
+    "riskFlags": [
+      "contains-peanut",
+      "contains-soy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "street-food",
+      "vegetarian",
+      "filling"
+    ],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "soy-allergy",
+      "wants-light-salad"
+    ],
+    "orderVerdict": {
+      "en": "A filling vegetarian-friendly order if peanuts and soy are fine; skip it for peanut allergy.",
+      "zh": "如果能吃花生和大豆，这是很有饱腹感的素食友好选择；花生过敏慎选。",
+      "nl": "Vullend en vegetarisch-vriendelijk als pinda en soja oké zijn; overslaan bij pinda-allergie."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "lontong-sayur",
+    "metadataCode": "117021",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Lontong Sayur",
+      "zh": "印尼米糕椰奶菜",
+      "nl": "Lontong sayur",
+      "local": "lontong sayur"
+    },
+    "category": "rice",
+    "cookingMethods": [
+      "simmered",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Sliced lontong rice cakes in coconut vegetable curry, often with tofu, egg, sambal, and fried shallots.",
+      "zh": "切片压实米糕配椰奶蔬菜咖喱，常有豆腐、蛋、参巴和炸葱。",
+      "nl": "Plakjes lontong in kokosgroentecurry, vaak met tofu, ei, sambal en gebakken sjalot."
+    },
+    "cookingProfile": {
+      "en": "The rice cakes soak up coconut sauce, so it feels soft, saucy, and more filling than soup alone.",
+      "zh": "米糕会吸收椰奶酱汁，口感柔软多酱，比单纯汤更顶饱。",
+      "nl": "De rijstcakes nemen kokossaus op; zacht, sauzig en vullender dan alleen soep."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "breakfast",
+        "rice"
+      ],
+      "description": {
+        "en": "An Indonesian dish where coconut sauce and lontong rice cake are the main ordering cues.",
+        "zh": "点餐重点是coconut sauce and lontong rice cake。",
+        "nl": "Een Indonesisch gerecht waarbij coconut sauce and lontong rice cake de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "lontong-rice-cake",
+        35,
+        "rice cake slices"
+      ],
+      [
+        "coconut-milk",
+        25,
+        "sauce body",
+        "seasoning"
+      ],
+      [
+        "mixed-vegetables",
+        15,
+        "vegetable curry"
+      ],
+      [
+        "tofu",
+        10,
+        "soy protein"
+      ],
+      [
+        "egg",
+        10,
+        "boiled egg",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "sambal",
+        5,
+        "side heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lontong rice cake",
+      "coconut vegetable curry",
+      "sambal"
+    ],
+    "basicTaste": [
+      "creamy",
+      "savory",
+      "mildly spicy",
+      "filling"
+    ],
+    "textureProfile": [
+      "firm rice cakes",
+      "soft vegetables",
+      "saucy coconut broth"
+    ],
+    "riskFlags": [
+      "contains-soy",
+      "contains-egg",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "breakfast",
+      "rice",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "soy-allergy",
+      "avoids-egg",
+      "avoids-coconut"
+    ],
+    "orderVerdict": {
+      "en": "A good comfort order if you want rice cakes in coconut sauce; ask about egg if needed.",
+      "zh": "想吃椰奶酱米糕时很舒服；介意鸡蛋时先确认。",
+      "nl": "Een fijne comfortkeuze voor rijstcakes in kokossaus; vraag naar ei indien nodig."
+    },
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "nasi-uduk",
+    "metadataCode": "117022",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Nasi Uduk",
+      "zh": "印尼椰香饭",
+      "nl": "Nasi uduk",
+      "local": "nasi uduk"
+    },
+    "category": "rice",
+    "cookingMethods": [
+      "steamed",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Fragrant coconut rice served as a plate with fried chicken or tempeh, egg, sambal, peanuts, cucumber, and crackers.",
+      "zh": "椰香米饭套餐，常配炸鸡或天贝、蛋、参巴、花生、黄瓜和脆饼。",
+      "nl": "Geurige kokosrijst als bord met gebakken kip of tempeh, ei, sambal, pinda, komkommer en crackers."
+    },
+    "cookingProfile": {
+      "en": "The rice is steamed with coconut, then built into a mixed plate, so toppings determine the weight and risks.",
+      "zh": "米饭以椰奶蒸香后做成拼盘，配菜决定饱腹感和过敏风险。",
+      "nl": "De rijst wordt met kokos gestoomd en als bord opgebouwd; toppings bepalen zwaarte en risico’s."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "rice",
+        "breakfast"
+      ],
+      "description": {
+        "en": "An Indonesian dish where sambal, egg, peanuts, and protein toppings are the main ordering cues.",
+        "zh": "点餐重点是sambal, egg, peanuts, and protein toppings。",
+        "nl": "Een Indonesisch gerecht waarbij sambal, egg, peanuts, and protein toppings de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "coconut-rice",
+        45,
+        "fragrant rice"
+      ],
+      [
+        "chicken",
+        20,
+        "common protein"
+      ],
+      [
+        "egg",
+        10,
+        "omelet or boiled egg"
+      ],
+      [
+        "sambal",
+        5,
+        "chili condiment",
+        "seasoning"
+      ],
+      [
+        "peanuts",
+        5,
+        "crunch"
+      ],
+      [
+        "krupuk-cracker",
+        5,
+        "crisp side"
+      ],
+      [
+        "cucumber",
+        5,
+        "fresh side"
+      ],
+      [
+        "fried-onions",
+        5,
+        "garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "coconut rice",
+      "sambal",
+      "mixed toppings"
+    ],
+    "basicTaste": [
+      "savory",
+      "fragrant",
+      "spicy",
+      "filling"
+    ],
+    "textureProfile": [
+      "soft rice",
+      "crisp crackers",
+      "varied toppings"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-peanut",
+      "contains-shellfish",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "rice",
+      "breakfast",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "shellfish-allergy",
+      "avoids-egg"
+    ],
+    "orderVerdict": {
+      "en": "A filling rice set with many toppings; check peanut, egg, and cracker ingredients if allergies matter.",
+      "zh": "配菜丰富、很顶饱的米饭套餐；有花生、鸡蛋或虾片过敏需确认。",
+      "nl": "Een vullende rijstset met veel toppings; check pinda, ei en cracker bij allergieën."
+    },
+    "spiceLevel": 2,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "high"
+  },
+  {
+    "id": "bubur-ayam",
+    "metadataCode": "117023",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Bubur Ayam",
+      "zh": "印尼鸡粥",
+      "nl": "Bubur ayam",
+      "local": "bubur ayam"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Indonesian chicken rice porridge topped with shredded chicken, fried shallots, scallions, soy, sambal, egg, and cruller pieces.",
+      "zh": "印尼鸡粥，配鸡丝、炸葱、葱花、酱油、参巴、蛋和油条块。",
+      "nl": "Indonesische kiprijstepap met gescheurde kip, sjalot, lente-ui, soja, sambal, ei en stukjes deegstengel."
+    },
+    "cookingProfile": {
+      "en": "The rice is cooked down soft, then topped, so it is comforting and spoonable rather than brothy noodles.",
+      "zh": "米煮到软糯成粥后加配料，是温和可勺食的粥，不是汤粉。",
+      "nl": "De rijst wordt zacht gekookt en belegd; comfort en lepelbaar, geen noedelsoep."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "comfort-food",
+        "breakfast",
+        "soup"
+      ],
+      "description": {
+        "en": "An Indonesian dish where soft rice, chicken, soy, and crunchy toppings are the main ordering cues.",
+        "zh": "点餐重点是soft rice, chicken, soy, and crunchy toppings。",
+        "nl": "Een Indonesisch gerecht waarbij soft rice, chicken, soy, and crunchy toppings de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "congee-rice-porridge",
+        45,
+        "rice porridge base"
+      ],
+      [
+        "chicken",
+        25,
+        "shredded chicken"
+      ],
+      [
+        "fried-dough-cruller",
+        10,
+        "crisp topping"
+      ],
+      [
+        "egg",
+        10,
+        "boiled egg",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "soy-sauce",
+        5,
+        "salty drizzle",
+        "seasoning"
+      ],
+      [
+        "fried-onions",
+        5,
+        "crisp garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "soft rice porridge",
+      "shredded chicken",
+      "fried shallots"
+    ],
+    "basicTaste": [
+      "savory",
+      "mild",
+      "comforting",
+      "lightly salty"
+    ],
+    "textureProfile": [
+      "creamy porridge",
+      "soft chicken",
+      "crisp toppings"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-soy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "breakfast",
+      "mild"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "avoids-egg",
+      "soy-allergy"
+    ],
+    "orderVerdict": {
+      "en": "A gentle comfort choice if you want soft rice and chicken; check cruller, egg, and soy toppings if needed.",
+      "zh": "想吃温和鸡粥时很适合；需要避麸质、蛋或大豆时确认配料。",
+      "nl": "Een milde comfortkeuze met zachte rijst en kip; check deegstengel, ei en soja."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "pempek",
+    "metadataCode": "117024",
+    "cuisineId": "indonesian",
+    "names": {
+      "en": "Pempek",
+      "zh": "印尼鱼糕",
+      "nl": "Pempek",
+      "local": "pempek"
+    },
+    "category": "fried-snack",
+    "cookingMethods": [
+      "fried",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Palembang fish cakes made with tapioca, fried or warmed, served sliced with dark sweet-sour spicy cuko sauce.",
+      "zh": "巨港鱼糕，以鱼肉和木薯粉制成，炸或热后切块，配深色甜酸辣 cuko 酱。",
+      "nl": "Palembang-viscake met tapioca, gebakken of verwarmd, in stukken met donkere zoetzure pittige cuko-saus."
+    },
+    "cookingProfile": {
+      "en": "The fish cake is chewy and bouncy; the dark cuko sauce supplies the sharp sweet-sour heat.",
+      "zh": "鱼糕口感弹韧，深色 cuko 酱带来明显甜酸辣刺激。",
+      "nl": "De viscake is chewy en veerkrachtig; donkere cuko-saus geeft scherp zoetzuur pit."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish",
+        "street-food",
+        "seafood"
+      ],
+      "description": {
+        "en": "An Indonesian dish where chewy fish cake and dark cuko sauce are the main ordering cues.",
+        "zh": "点餐重点是chewy fish cake and dark cuko sauce。",
+        "nl": "Een Indonesisch gerecht waarbij chewy fish cake and dark cuko sauce de belangrijkste bestelcues zijn."
+      }
+    },
+    "composition": [
+      [
+        "pempek-fish-cake",
+        50,
+        "fish cake pieces"
+      ],
+      [
+        "cuko-sauce",
+        20,
+        "dark dipping sauce",
+        "seasoning"
+      ],
+      [
+        "cucumber",
+        10,
+        "fresh side"
+      ],
+      [
+        "wheat-noodles",
+        10,
+        "optional yellow noodles",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "egg",
+        5,
+        "egg filling or side",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "neutral-frying-oil",
+        5,
+        "frying medium"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "chewy fish cake",
+      "cuko sauce",
+      "tapioca bounce"
+    ],
+    "basicTaste": [
+      "savory",
+      "sweet-sour",
+      "spicy",
+      "fishy"
+    ],
+    "textureProfile": [
+      "bouncy fish cake",
+      "dark dipping sauce",
+      "fresh cucumber"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-gluten",
+      "contains-egg",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "signature-dish",
+      "street-food",
+      "seafood"
+    ],
+    "avoidIfTags": [
+      "avoids-fish",
+      "gluten-free",
+      "avoids-egg",
+      "dislikes-sour-spicy-sauce"
+    ],
+    "orderVerdict": {
+      "en": "Great if you like chewy fish cakes and sharp sweet-sour sauce; ask about egg or noodles if those matter.",
+      "zh": "喜欢弹牙鱼糕和强烈甜酸辣酱时很适合；介意蛋或面条时先确认。",
+      "nl": "Goed voor chewy viscake en scherpe zoetzure saus; vraag naar ei of noedels indien nodig."
+    },
+    "spiceLevel": 2,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "confidenceTag": "audited-southeast-asia-depth-batch-026",
+    "metadataConfidence": 0.88,
+    "restaurantVariationLevel": "medium"
+  }
+]

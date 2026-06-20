@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 607
-- Total aliases: 1872
+- Total verified dishes: 637
+- Total aliases: 1952
 - Total cuisines: 27
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -329,7 +329,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 115029 - `pakora` - Pakora / 印度炸蔬菜 / pakora
 30. 115030 - `kulfi` - Kulfi / 印度奶香冰淇淋 / kulfi
 
-## Indonesian (indonesian) - 12
+## Indonesian (indonesian) - 24
 
 1. 117001 - `nasi-goreng` - Nasi Goreng / 印尼炒饭 / nasi goreng
 2. 117002 - `mie-goreng` - Mie Goreng / 印尼炒面 / mie goreng
@@ -343,6 +343,18 @@ Generated from data/internal/index.js after the verified database quarantine aud
 10. 117010 - `tempeh` - Tempeh / 天贝 / tempe
 11. 117011 - `ikan-bakar` - Ikan Bakar / 印尼烤鱼 / ikan bakar
 12. 117012 - `pisang-goreng` - Pisang Goreng / 炸香蕉 / pisang goreng
+13. 117013 - `ayam-goreng` - Ayam Goreng / 印尼炸鸡 / ayam goreng
+14. 117014 - `ayam-bakar` - Ayam Bakar / 印尼烤鸡 / ayam bakar
+15. 117015 - `gulai` - Gulai / 印尼香料咖喱 / gulai
+16. 117016 - `opor-ayam` - Opor Ayam / 印尼椰奶鸡 / opor ayam
+17. 117017 - `rawon` - Rawon / 印尼黑牛肉汤 / rawon
+18. 117018 - `sayur-lodeh` - Sayur Lodeh / 印尼椰奶蔬菜汤 / sayur lodeh
+19. 117019 - `pecel` - Pecel / 印尼花生蔬菜沙拉 / pecel
+20. 117020 - `ketoprak` - Ketoprak / 印尼花生酱米粉豆腐 / ketoprak
+21. 117021 - `lontong-sayur` - Lontong Sayur / 印尼米糕椰奶菜 / lontong sayur
+22. 117022 - `nasi-uduk` - Nasi Uduk / 印尼椰香饭 / nasi uduk
+23. 117023 - `bubur-ayam` - Bubur Ayam / 印尼鸡粥 / bubur ayam
+24. 117024 - `pempek` - Pempek / 印尼鱼糕 / pempek
 
 ## Italian (italian) - 30
 
@@ -680,7 +692,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 11. 119011 - `baklava-turkish` - Baklava / 土耳其果仁蜜酥 / baklava
 12. 119012 - `kunefe` - Künefe / 土耳其奶酪甜点 / künefe
 
-## Vietnamese (vietnamese) - 12
+## Vietnamese (vietnamese) - 30
 
 1. 116001 - `pho-bo` - Phở Bò / 越南牛肉粉 / phở bò
 2. 116002 - `pho-ga` - Phở Gà / 越南鸡肉粉 / phở gà
@@ -694,3 +706,21 @@ Generated from data/internal/index.js after the verified database quarantine aud
 10. 116010 - `cao-lau` - Cao Lầu / 会安高楼面 / cao lầu
 11. 116011 - `bo-luc-lac` - Bò Lúc Lắc / 越式摇牛肉 / bò lúc lắc
 12. 116012 - `che` - Chè / 越南甜品羹 / chè
+13. 116013 - `bun-thit-nuong` - Bún Thịt Nướng / 越南烤肉米粉 / bún thịt nướng
+14. 116014 - `bun-rieu` - Bún Riêu / 越南蟹番茄米粉汤 / bún riêu
+15. 116015 - `bun-mam` - Bún Mắm / 越南发酵鱼汤粉 / bún mắm
+16. 116016 - `mi-quang` - Mì Quảng / 越南广南面 / mì quảng
+17. 116017 - `hu-tieu` - Hủ Tiếu / 越南南部粉汤 / hủ tiếu
+18. 116018 - `banh-cuon` - Bánh Cuốn / 越南蒸米卷 / bánh cuốn
+19. 116019 - `banh-khot` - Bánh Khọt / 越南小煎饼 / bánh khọt
+20. 116020 - `banh-beo` - Bánh Bèo / 越南小米糕 / bánh bèo
+21. 116021 - `bo-kho` - Bò Kho / 越南炖牛肉 / bò kho
+22. 116022 - `ga-nuong` - Gà Nướng / 越南烤鸡 / gà nướng
+23. 116023 - `ca-kho-to` - Cá Kho Tộ / 越南砂锅鱼 / cá kho tộ
+24. 116024 - `canh-chua` - Canh Chua / 越南酸汤 / canh chua
+25. 116025 - `goi-ga` - Gỏi Gà / 越南鸡肉沙拉 / gỏi gà
+26. 116026 - `nom-hoa-chuoi` - Nộm Hoa Chuối / 越南香蕉花沙拉 / nộm hoa chuối
+27. 116027 - `cha-ca-la-vong` - Chả Cá Lã Vọng / 河内姜黄莳萝鱼 / chả cá Lã Vọng
+28. 116028 - `xoi-man` - Xôi Mặn / 越南咸糯米饭 / xôi mặn
+29. 116029 - `banh-flan-vietnamese` - Vietnamese Bánh Flan / 越南焦糖布丁 / bánh flan
+30. 116030 - `che-ba-mau` - Chè Ba Màu / 越南三色甜品 / chè ba màu

@@ -1,0 +1,272 @@
+[
+  {
+    "dishId": "bun-thit-nuong",
+    "metadataCode": "116013",
+    "name": "Bún Thịt Nướng",
+    "imagePath": "/assets/dishes/main/116013-bun-thit-nuong.webp",
+    "thumbPath": "/assets/dishes/thumb/116013-bun-thit-nuong.webp",
+    "cuisineId": "vietnamese",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "bun-rieu",
+    "metadataCode": "116014",
+    "name": "Bún Riêu",
+    "imagePath": "/assets/dishes/main/116014-bun-rieu.webp",
+    "thumbPath": "/assets/dishes/thumb/116014-bun-rieu.webp",
+    "cuisineId": "vietnamese",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "bun-mam",
+    "metadataCode": "116015",
+    "name": "Bún Mắm",
+    "imagePath": "/assets/dishes/main/116015-bun-mam.webp",
+    "thumbPath": "/assets/dishes/thumb/116015-bun-mam.webp",
+    "cuisineId": "vietnamese",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "mi-quang",
+    "metadataCode": "116016",
+    "name": "Mì Quảng",
+    "imagePath": "/assets/dishes/main/116016-mi-quang.webp",
+    "thumbPath": "/assets/dishes/thumb/116016-mi-quang.webp",
+    "cuisineId": "vietnamese",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "hu-tieu",
+    "metadataCode": "116017",
+    "name": "Hủ Tiếu",
+    "imagePath": "/assets/dishes/main/116017-hu-tieu.webp",
+    "thumbPath": "/assets/dishes/thumb/116017-hu-tieu.webp",
+    "cuisineId": "vietnamese",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "banh-cuon",
+    "metadataCode": "116018",
+    "name": "Bánh Cuốn",
+    "imagePath": "/assets/dishes/main/116018-banh-cuon.webp",
+    "thumbPath": "/assets/dishes/thumb/116018-banh-cuon.webp",
+    "cuisineId": "vietnamese",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "banh-khot",
+    "metadataCode": "116019",
+    "name": "Bánh Khọt",
+    "imagePath": "/assets/dishes/main/116019-banh-khot.webp",
+    "thumbPath": "/assets/dishes/thumb/116019-banh-khot.webp",
+    "cuisineId": "vietnamese",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "banh-beo",
+    "metadataCode": "116020",
+    "name": "Bánh Bèo",
+    "imagePath": "/assets/dishes/main/116020-banh-beo.webp",
+    "thumbPath": "/assets/dishes/thumb/116020-banh-beo.webp",
+    "cuisineId": "vietnamese",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "bo-kho",
+    "metadataCode": "116021",
+    "name": "Bò Kho",
+    "imagePath": "/assets/dishes/main/116021-bo-kho.webp",
+    "thumbPath": "/assets/dishes/thumb/116021-bo-kho.webp",
+    "cuisineId": "vietnamese",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "ga-nuong",
+    "metadataCode": "116022",
+    "name": "Gà Nướng",
+    "imagePath": "/assets/dishes/main/116022-ga-nuong.webp",
+    "thumbPath": "/assets/dishes/thumb/116022-ga-nuong.webp",
+    "cuisineId": "vietnamese",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "ca-kho-to",
+    "metadataCode": "116023",
+    "name": "Cá Kho Tộ",
+    "imagePath": "/assets/dishes/main/116023-ca-kho-to.webp",
+    "thumbPath": "/assets/dishes/thumb/116023-ca-kho-to.webp",
+    "cuisineId": "vietnamese",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "canh-chua",
+    "metadataCode": "116024",
+    "name": "Canh Chua",
+    "imagePath": "/assets/dishes/main/116024-canh-chua.webp",
+    "thumbPath": "/assets/dishes/thumb/116024-canh-chua.webp",
+    "cuisineId": "vietnamese",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "goi-ga",
+    "metadataCode": "116025",
+    "name": "Gỏi Gà",
+    "imagePath": "/assets/dishes/main/116025-goi-ga.webp",
+    "thumbPath": "/assets/dishes/thumb/116025-goi-ga.webp",
+    "cuisineId": "vietnamese",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "nom-hoa-chuoi",
+    "metadataCode": "116026",
+    "name": "Nộm Hoa Chuối",
+    "imagePath": "/assets/dishes/main/116026-nom-hoa-chuoi.webp",
+    "thumbPath": "/assets/dishes/thumb/116026-nom-hoa-chuoi.webp",
+    "cuisineId": "vietnamese",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "cha-ca-la-vong",
+    "metadataCode": "116027",
+    "name": "Chả Cá Lã Vọng",
+    "imagePath": "/assets/dishes/main/116027-cha-ca-la-vong.webp",
+    "thumbPath": "/assets/dishes/thumb/116027-cha-ca-la-vong.webp",
+    "cuisineId": "vietnamese",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "xoi-man",
+    "metadataCode": "116028",
+    "name": "Xôi Mặn",
+    "imagePath": "/assets/dishes/main/116028-xoi-man.webp",
+    "thumbPath": "/assets/dishes/thumb/116028-xoi-man.webp",
+    "cuisineId": "vietnamese",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "banh-flan-vietnamese",
+    "metadataCode": "116029",
+    "name": "Vietnamese Bánh Flan",
+    "imagePath": "/assets/dishes/main/116029-banh-flan-vietnamese.webp",
+    "thumbPath": "/assets/dishes/thumb/116029-banh-flan-vietnamese.webp",
+    "cuisineId": "vietnamese",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "che-ba-mau",
+    "metadataCode": "116030",
+    "name": "Chè Ba Màu",
+    "imagePath": "/assets/dishes/main/116030-che-ba-mau.webp",
+    "thumbPath": "/assets/dishes/thumb/116030-che-ba-mau.webp",
+    "cuisineId": "vietnamese",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "ayam-goreng",
+    "metadataCode": "117013",
+    "name": "Ayam Goreng",
+    "imagePath": "/assets/dishes/main/117013-ayam-goreng.webp",
+    "thumbPath": "/assets/dishes/thumb/117013-ayam-goreng.webp",
+    "cuisineId": "indonesian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "ayam-bakar",
+    "metadataCode": "117014",
+    "name": "Ayam Bakar",
+    "imagePath": "/assets/dishes/main/117014-ayam-bakar.webp",
+    "thumbPath": "/assets/dishes/thumb/117014-ayam-bakar.webp",
+    "cuisineId": "indonesian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "gulai",
+    "metadataCode": "117015",
+    "name": "Gulai",
+    "imagePath": "/assets/dishes/main/117015-gulai.webp",
+    "thumbPath": "/assets/dishes/thumb/117015-gulai.webp",
+    "cuisineId": "indonesian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "opor-ayam",
+    "metadataCode": "117016",
+    "name": "Opor Ayam",
+    "imagePath": "/assets/dishes/main/117016-opor-ayam.webp",
+    "thumbPath": "/assets/dishes/thumb/117016-opor-ayam.webp",
+    "cuisineId": "indonesian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "rawon",
+    "metadataCode": "117017",
+    "name": "Rawon",
+    "imagePath": "/assets/dishes/main/117017-rawon.webp",
+    "thumbPath": "/assets/dishes/thumb/117017-rawon.webp",
+    "cuisineId": "indonesian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "sayur-lodeh",
+    "metadataCode": "117018",
+    "name": "Sayur Lodeh",
+    "imagePath": "/assets/dishes/main/117018-sayur-lodeh.webp",
+    "thumbPath": "/assets/dishes/thumb/117018-sayur-lodeh.webp",
+    "cuisineId": "indonesian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "pecel",
+    "metadataCode": "117019",
+    "name": "Pecel",
+    "imagePath": "/assets/dishes/main/117019-pecel.webp",
+    "thumbPath": "/assets/dishes/thumb/117019-pecel.webp",
+    "cuisineId": "indonesian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "ketoprak",
+    "metadataCode": "117020",
+    "name": "Ketoprak",
+    "imagePath": "/assets/dishes/main/117020-ketoprak.webp",
+    "thumbPath": "/assets/dishes/thumb/117020-ketoprak.webp",
+    "cuisineId": "indonesian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "lontong-sayur",
+    "metadataCode": "117021",
+    "name": "Lontong Sayur",
+    "imagePath": "/assets/dishes/main/117021-lontong-sayur.webp",
+    "thumbPath": "/assets/dishes/thumb/117021-lontong-sayur.webp",
+    "cuisineId": "indonesian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "nasi-uduk",
+    "metadataCode": "117022",
+    "name": "Nasi Uduk",
+    "imagePath": "/assets/dishes/main/117022-nasi-uduk.webp",
+    "thumbPath": "/assets/dishes/thumb/117022-nasi-uduk.webp",
+    "cuisineId": "indonesian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "bubur-ayam",
+    "metadataCode": "117023",
+    "name": "Bubur Ayam",
+    "imagePath": "/assets/dishes/main/117023-bubur-ayam.webp",
+    "thumbPath": "/assets/dishes/thumb/117023-bubur-ayam.webp",
+    "cuisineId": "indonesian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "pempek",
+    "metadataCode": "117024",
+    "name": "Pempek",
+    "imagePath": "/assets/dishes/main/117024-pempek.webp",
+    "thumbPath": "/assets/dishes/thumb/117024-pempek.webp",
+    "cuisineId": "indonesian",
+    "auditStatus": "verified-after-rebuild"
+  }
+]

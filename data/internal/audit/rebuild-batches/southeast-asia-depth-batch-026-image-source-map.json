@@ -1,0 +1,242 @@
+[
+  {
+    "metadataCode": "116013",
+    "dishId": "bun-thit-nuong",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/116013-bun-thit-nuong.png",
+    "mainPath": "/assets/dishes/main/116013-bun-thit-nuong.webp",
+    "thumbPath": "/assets/dishes/thumb/116013-bun-thit-nuong.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "116014",
+    "dishId": "bun-rieu",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/116014-bun-rieu.png",
+    "mainPath": "/assets/dishes/main/116014-bun-rieu.webp",
+    "thumbPath": "/assets/dishes/thumb/116014-bun-rieu.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "116015",
+    "dishId": "bun-mam",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/116015-bun-mam.png",
+    "mainPath": "/assets/dishes/main/116015-bun-mam.webp",
+    "thumbPath": "/assets/dishes/thumb/116015-bun-mam.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "116016",
+    "dishId": "mi-quang",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/116016-mi-quang.png",
+    "mainPath": "/assets/dishes/main/116016-mi-quang.webp",
+    "thumbPath": "/assets/dishes/thumb/116016-mi-quang.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "116017",
+    "dishId": "hu-tieu",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/116017-hu-tieu.png",
+    "mainPath": "/assets/dishes/main/116017-hu-tieu.webp",
+    "thumbPath": "/assets/dishes/thumb/116017-hu-tieu.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "116018",
+    "dishId": "banh-cuon",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/116018-banh-cuon.png",
+    "mainPath": "/assets/dishes/main/116018-banh-cuon.webp",
+    "thumbPath": "/assets/dishes/thumb/116018-banh-cuon.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "116019",
+    "dishId": "banh-khot",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/116019-banh-khot.png",
+    "mainPath": "/assets/dishes/main/116019-banh-khot.webp",
+    "thumbPath": "/assets/dishes/thumb/116019-banh-khot.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "116020",
+    "dishId": "banh-beo",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/116020-banh-beo.png",
+    "mainPath": "/assets/dishes/main/116020-banh-beo.webp",
+    "thumbPath": "/assets/dishes/thumb/116020-banh-beo.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "116021",
+    "dishId": "bo-kho",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/116021-bo-kho.png",
+    "mainPath": "/assets/dishes/main/116021-bo-kho.webp",
+    "thumbPath": "/assets/dishes/thumb/116021-bo-kho.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "116022",
+    "dishId": "ga-nuong",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/116022-ga-nuong.png",
+    "mainPath": "/assets/dishes/main/116022-ga-nuong.webp",
+    "thumbPath": "/assets/dishes/thumb/116022-ga-nuong.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "116023",
+    "dishId": "ca-kho-to",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/116023-ca-kho-to.png",
+    "mainPath": "/assets/dishes/main/116023-ca-kho-to.webp",
+    "thumbPath": "/assets/dishes/thumb/116023-ca-kho-to.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "116024",
+    "dishId": "canh-chua",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/116024-canh-chua.png",
+    "mainPath": "/assets/dishes/main/116024-canh-chua.webp",
+    "thumbPath": "/assets/dishes/thumb/116024-canh-chua.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "116025",
+    "dishId": "goi-ga",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/116025-goi-ga.png",
+    "mainPath": "/assets/dishes/main/116025-goi-ga.webp",
+    "thumbPath": "/assets/dishes/thumb/116025-goi-ga.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "116026",
+    "dishId": "nom-hoa-chuoi",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/116026-nom-hoa-chuoi.png",
+    "mainPath": "/assets/dishes/main/116026-nom-hoa-chuoi.webp",
+    "thumbPath": "/assets/dishes/thumb/116026-nom-hoa-chuoi.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "116027",
+    "dishId": "cha-ca-la-vong",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/116027-cha-ca-la-vong.png",
+    "mainPath": "/assets/dishes/main/116027-cha-ca-la-vong.webp",
+    "thumbPath": "/assets/dishes/thumb/116027-cha-ca-la-vong.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "116028",
+    "dishId": "xoi-man",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/116028-xoi-man.png",
+    "mainPath": "/assets/dishes/main/116028-xoi-man.webp",
+    "thumbPath": "/assets/dishes/thumb/116028-xoi-man.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "116029",
+    "dishId": "banh-flan-vietnamese",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/116029-banh-flan-vietnamese.png",
+    "mainPath": "/assets/dishes/main/116029-banh-flan-vietnamese.webp",
+    "thumbPath": "/assets/dishes/thumb/116029-banh-flan-vietnamese.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "116030",
+    "dishId": "che-ba-mau",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/116030-che-ba-mau.png",
+    "mainPath": "/assets/dishes/main/116030-che-ba-mau.webp",
+    "thumbPath": "/assets/dishes/thumb/116030-che-ba-mau.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "117013",
+    "dishId": "ayam-goreng",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/117013-ayam-goreng.png",
+    "mainPath": "/assets/dishes/main/117013-ayam-goreng.webp",
+    "thumbPath": "/assets/dishes/thumb/117013-ayam-goreng.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "117014",
+    "dishId": "ayam-bakar",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/117014-ayam-bakar.png",
+    "mainPath": "/assets/dishes/main/117014-ayam-bakar.webp",
+    "thumbPath": "/assets/dishes/thumb/117014-ayam-bakar.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "117015",
+    "dishId": "gulai",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/117015-gulai.png",
+    "mainPath": "/assets/dishes/main/117015-gulai.webp",
+    "thumbPath": "/assets/dishes/thumb/117015-gulai.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "117016",
+    "dishId": "opor-ayam",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/117016-opor-ayam.png",
+    "mainPath": "/assets/dishes/main/117016-opor-ayam.webp",
+    "thumbPath": "/assets/dishes/thumb/117016-opor-ayam.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "117017",
+    "dishId": "rawon",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/117017-rawon.png",
+    "mainPath": "/assets/dishes/main/117017-rawon.webp",
+    "thumbPath": "/assets/dishes/thumb/117017-rawon.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "117018",
+    "dishId": "sayur-lodeh",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/117018-sayur-lodeh.png",
+    "mainPath": "/assets/dishes/main/117018-sayur-lodeh.webp",
+    "thumbPath": "/assets/dishes/thumb/117018-sayur-lodeh.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "117019",
+    "dishId": "pecel",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/117019-pecel.png",
+    "mainPath": "/assets/dishes/main/117019-pecel.webp",
+    "thumbPath": "/assets/dishes/thumb/117019-pecel.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "117020",
+    "dishId": "ketoprak",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/117020-ketoprak.png",
+    "mainPath": "/assets/dishes/main/117020-ketoprak.webp",
+    "thumbPath": "/assets/dishes/thumb/117020-ketoprak.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "117021",
+    "dishId": "lontong-sayur",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/117021-lontong-sayur.png",
+    "mainPath": "/assets/dishes/main/117021-lontong-sayur.webp",
+    "thumbPath": "/assets/dishes/thumb/117021-lontong-sayur.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "117022",
+    "dishId": "nasi-uduk",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/117022-nasi-uduk.png",
+    "mainPath": "/assets/dishes/main/117022-nasi-uduk.webp",
+    "thumbPath": "/assets/dishes/thumb/117022-nasi-uduk.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "117023",
+    "dishId": "bubur-ayam",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/117023-bubur-ayam.png",
+    "mainPath": "/assets/dishes/main/117023-bubur-ayam.webp",
+    "thumbPath": "/assets/dishes/thumb/117023-bubur-ayam.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "117024",
+    "dishId": "pempek",
+    "sourcePng": "data/internal/audit/rebuild-batches/southeast-asia-depth-batch-026-image-sources/117024-pempek.png",
+    "mainPath": "/assets/dishes/main/117024-pempek.webp",
+    "thumbPath": "/assets/dishes/thumb/117024-pempek.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  }
+]
