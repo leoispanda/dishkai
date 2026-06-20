@@ -1,0 +1,4 @@
+interface:
+  display_name: "DishKAI Dish Review"
+  short_description: "Audit verified DishKAI dish batches"
+  default_prompt: "Use $dishkai-verified-dish-review to continue the strict DishKAI verified dish database audit."
