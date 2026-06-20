@@ -1,0 +1,164 @@
+[
+  {
+    "dishId": "mee-rebus",
+    "metadataCode": "118013",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Mee Rebus",
+    "imagePath": "/assets/dishes/main/118013-mee-rebus.webp",
+    "thumbPath": "/assets/dishes/thumb/118013-mee-rebus.webp"
+  },
+  {
+    "dishId": "mee-siam",
+    "metadataCode": "118014",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Mee Siam",
+    "imagePath": "/assets/dishes/main/118014-mee-siam.webp",
+    "thumbPath": "/assets/dishes/thumb/118014-mee-siam.webp"
+  },
+  {
+    "dishId": "mee-goreng-mamak",
+    "metadataCode": "118015",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Mee Goreng Mamak",
+    "imagePath": "/assets/dishes/main/118015-mee-goreng-mamak.webp",
+    "thumbPath": "/assets/dishes/thumb/118015-mee-goreng-mamak.webp"
+  },
+  {
+    "dishId": "curry-laksa",
+    "metadataCode": "118016",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Curry Laksa",
+    "imagePath": "/assets/dishes/main/118016-curry-laksa.webp",
+    "thumbPath": "/assets/dishes/thumb/118016-curry-laksa.webp"
+  },
+  {
+    "dishId": "asam-laksa",
+    "metadataCode": "118017",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Asam Laksa",
+    "imagePath": "/assets/dishes/main/118017-asam-laksa.webp",
+    "thumbPath": "/assets/dishes/thumb/118017-asam-laksa.webp"
+  },
+  {
+    "dishId": "mee-pok",
+    "metadataCode": "118018",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Mee Pok",
+    "imagePath": "/assets/dishes/main/118018-mee-pok.webp",
+    "thumbPath": "/assets/dishes/thumb/118018-mee-pok.webp"
+  },
+  {
+    "dishId": "wantan-mee",
+    "metadataCode": "118019",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Wantan Mee",
+    "imagePath": "/assets/dishes/main/118019-wantan-mee.webp",
+    "thumbPath": "/assets/dishes/thumb/118019-wantan-mee.webp"
+  },
+  {
+    "dishId": "fish-head-curry",
+    "metadataCode": "118020",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Fish Head Curry",
+    "imagePath": "/assets/dishes/main/118020-fish-head-curry.webp",
+    "thumbPath": "/assets/dishes/thumb/118020-fish-head-curry.webp"
+  },
+  {
+    "dishId": "beef-rendang-malaysian",
+    "metadataCode": "118021",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Beef Rendang",
+    "imagePath": "/assets/dishes/main/118021-beef-rendang-malaysian.webp",
+    "thumbPath": "/assets/dishes/thumb/118021-beef-rendang-malaysian.webp"
+  },
+  {
+    "dishId": "ayam-masak-merah",
+    "metadataCode": "118022",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Ayam Masak Merah",
+    "imagePath": "/assets/dishes/main/118022-ayam-masak-merah.webp",
+    "thumbPath": "/assets/dishes/thumb/118022-ayam-masak-merah.webp"
+  },
+  {
+    "dishId": "otak-otak",
+    "metadataCode": "118023",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Otak-Otak",
+    "imagePath": "/assets/dishes/main/118023-otak-otak.webp",
+    "thumbPath": "/assets/dishes/thumb/118023-otak-otak.webp"
+  },
+  {
+    "dishId": "popiah",
+    "metadataCode": "118024",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Popiah",
+    "imagePath": "/assets/dishes/main/118024-popiah.webp",
+    "thumbPath": "/assets/dishes/thumb/118024-popiah.webp"
+  },
+  {
+    "dishId": "rojak",
+    "metadataCode": "118025",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Rojak",
+    "imagePath": "/assets/dishes/main/118025-rojak.webp",
+    "thumbPath": "/assets/dishes/thumb/118025-rojak.webp"
+  },
+  {
+    "dishId": "tauhu-goreng",
+    "metadataCode": "118026",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Tauhu Goreng",
+    "imagePath": "/assets/dishes/main/118026-tauhu-goreng.webp",
+    "thumbPath": "/assets/dishes/thumb/118026-tauhu-goreng.webp"
+  },
+  {
+    "dishId": "carrot-cake-singapore",
+    "metadataCode": "118027",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Singapore Carrot Cake",
+    "imagePath": "/assets/dishes/main/118027-carrot-cake-singapore.webp",
+    "thumbPath": "/assets/dishes/thumb/118027-carrot-cake-singapore.webp"
+  },
+  {
+    "dishId": "ondeh-ondeh",
+    "metadataCode": "118028",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Ondeh-Ondeh",
+    "imagePath": "/assets/dishes/main/118028-ondeh-ondeh.webp",
+    "thumbPath": "/assets/dishes/thumb/118028-ondeh-ondeh.webp"
+  },
+  {
+    "dishId": "kuih-lapis",
+    "metadataCode": "118029",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Kuih Lapis",
+    "imagePath": "/assets/dishes/main/118029-kuih-lapis.webp",
+    "thumbPath": "/assets/dishes/thumb/118029-kuih-lapis.webp"
+  },
+  {
+    "dishId": "pulut-hitam",
+    "metadataCode": "118030",
+    "cuisineId": "malaysian-singaporean",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Pulut Hitam",
+    "imagePath": "/assets/dishes/main/118030-pulut-hitam.webp",
+    "thumbPath": "/assets/dishes/thumb/118030-pulut-hitam.webp"
+  }
+]

@@ -4081,6 +4081,13 @@ export const globalDepthDishAliases = [
     "confidence": 0.94
   },
   {
+    "alias": "mi rebus",
+    "dishId": "mee-rebus",
+    "language": "menu",
+    "matchType": "spelling-variant",
+    "confidence": 0.95
+  },
+  {
     "alias": "Mee Siam",
     "dishId": "mee-siam",
     "language": "menu",
@@ -4093,6 +4100,13 @@ export const globalDepthDishAliases = [
     "language": "menu",
     "matchType": "translated-name",
     "confidence": 0.94
+  },
+  {
+    "alias": "mi siam",
+    "dishId": "mee-siam",
+    "language": "menu",
+    "matchType": "spelling-variant",
+    "confidence": 0.95
   },
   {
     "alias": "Mee Goreng Mamak",
@@ -4109,6 +4123,13 @@ export const globalDepthDishAliases = [
     "confidence": 0.94
   },
   {
+    "alias": "mie goreng mamak",
+    "dishId": "mee-goreng-mamak",
+    "language": "menu",
+    "matchType": "spelling-variant",
+    "confidence": 0.95
+  },
+  {
     "alias": "Curry Laksa",
     "dishId": "curry-laksa",
     "language": "menu",
@@ -4121,6 +4142,13 @@ export const globalDepthDishAliases = [
     "language": "menu",
     "matchType": "translated-name",
     "confidence": 0.94
+  },
+  {
+    "alias": "laksa lemak",
+    "dishId": "curry-laksa",
+    "language": "menu",
+    "matchType": "menu-variant",
+    "confidence": 0.91
   },
   {
     "alias": "Asam Laksa",
@@ -4137,6 +4165,20 @@ export const globalDepthDishAliases = [
     "confidence": 0.94
   },
   {
+    "alias": "Penang asam laksa",
+    "dishId": "asam-laksa",
+    "language": "menu",
+    "matchType": "regional-menu-variant",
+    "confidence": 0.95
+  },
+  {
+    "alias": "Penang laksa",
+    "dishId": "asam-laksa",
+    "language": "menu",
+    "matchType": "regional-menu-variant",
+    "confidence": 0.9
+  },
+  {
     "alias": "Mee Pok",
     "dishId": "mee-pok",
     "language": "menu",
@@ -4151,6 +4193,13 @@ export const globalDepthDishAliases = [
     "confidence": 0.94
   },
   {
+    "alias": "bak chor mee",
+    "dishId": "mee-pok",
+    "language": "menu",
+    "matchType": "menu-variant",
+    "confidence": 0.9
+  },
+  {
     "alias": "Wantan Mee",
     "dishId": "wantan-mee",
     "language": "menu",
@@ -4163,6 +4212,20 @@ export const globalDepthDishAliases = [
     "language": "menu",
     "matchType": "translated-name",
     "confidence": 0.94
+  },
+  {
+    "alias": "wonton mee",
+    "dishId": "wantan-mee",
+    "language": "menu",
+    "matchType": "spelling-variant",
+    "confidence": 0.96
+  },
+  {
+    "alias": "wan tan mee",
+    "dishId": "wantan-mee",
+    "language": "menu",
+    "matchType": "spelling-variant",
+    "confidence": 0.95
   },
   {
     "alias": "Fish Head Curry",
@@ -4184,6 +4247,13 @@ export const globalDepthDishAliases = [
     "language": "menu",
     "matchType": "translated-name",
     "confidence": 0.94
+  },
+  {
+    "alias": "kari kepala ikan",
+    "dishId": "fish-head-curry",
+    "language": "menu",
+    "matchType": "local-name",
+    "confidence": 0.96
   },
   {
     "alias": "Beef Rendang",
@@ -4242,6 +4312,20 @@ export const globalDepthDishAliases = [
     "confidence": 0.94
   },
   {
+    "alias": "otak otak",
+    "dishId": "otak-otak",
+    "language": "menu",
+    "matchType": "spelling-variant",
+    "confidence": 0.96
+  },
+  {
+    "alias": "otah",
+    "dishId": "otak-otak",
+    "language": "menu",
+    "matchType": "local-variant",
+    "confidence": 0.9
+  },
+  {
     "alias": "Popiah",
     "dishId": "popiah",
     "language": "menu",
@@ -4254,6 +4338,13 @@ export const globalDepthDishAliases = [
     "language": "menu",
     "matchType": "translated-name",
     "confidence": 0.94
+  },
+  {
+    "alias": "fresh popiah",
+    "dishId": "popiah",
+    "language": "menu",
+    "matchType": "descriptive-variant",
+    "confidence": 0.9
   },
   {
     "alias": "Rojak",
@@ -4270,6 +4361,13 @@ export const globalDepthDishAliases = [
     "confidence": 0.94
   },
   {
+    "alias": "fruit rojak",
+    "dishId": "rojak",
+    "language": "menu",
+    "matchType": "descriptive-variant",
+    "confidence": 0.9
+  },
+  {
     "alias": "Tauhu Goreng",
     "dishId": "tauhu-goreng",
     "language": "menu",
@@ -4284,6 +4382,13 @@ export const globalDepthDishAliases = [
     "confidence": 0.94
   },
   {
+    "alias": "tahu goreng",
+    "dishId": "tauhu-goreng",
+    "language": "menu",
+    "matchType": "spelling-variant",
+    "confidence": 0.9
+  },
+  {
     "alias": "Singapore Carrot Cake",
     "dishId": "carrot-cake-singapore",
     "language": "menu",
@@ -4296,6 +4401,20 @@ export const globalDepthDishAliases = [
     "language": "menu",
     "matchType": "canonical",
     "confidence": 1
+  },
+  {
+    "alias": "chai tow kuay",
+    "dishId": "carrot-cake-singapore",
+    "language": "menu",
+    "matchType": "spelling-variant",
+    "confidence": 0.95
+  },
+  {
+    "alias": "fried carrot cake",
+    "dishId": "carrot-cake-singapore",
+    "language": "menu",
+    "matchType": "descriptive-variant",
+    "confidence": 0.9
   },
   {
     "alias": "新加坡萝卜糕",
@@ -4326,6 +4445,20 @@ export const globalDepthDishAliases = [
     "confidence": 0.94
   },
   {
+    "alias": "ondeh ondeh",
+    "dishId": "ondeh-ondeh",
+    "language": "menu",
+    "matchType": "spelling-variant",
+    "confidence": 0.96
+  },
+  {
+    "alias": "onde-onde",
+    "dishId": "ondeh-ondeh",
+    "language": "menu",
+    "matchType": "spelling-variant",
+    "confidence": 0.95
+  },
+  {
     "alias": "Kuih Lapis",
     "dishId": "kuih-lapis",
     "language": "menu",
@@ -4340,6 +4473,13 @@ export const globalDepthDishAliases = [
     "confidence": 0.94
   },
   {
+    "alias": "kueh lapis",
+    "dishId": "kuih-lapis",
+    "language": "menu",
+    "matchType": "spelling-variant",
+    "confidence": 0.95
+  },
+  {
     "alias": "Pulut Hitam",
     "dishId": "pulut-hitam",
     "language": "menu",
@@ -4352,6 +4492,13 @@ export const globalDepthDishAliases = [
     "language": "menu",
     "matchType": "translated-name",
     "confidence": 0.94
+  },
+  {
+    "alias": "bubur pulut hitam",
+    "dishId": "pulut-hitam",
+    "language": "menu",
+    "matchType": "descriptive-variant",
+    "confidence": 0.95
   },
   {
     "alias": "Iskender Kebab",

@@ -1,0 +1,128 @@
+[
+  {
+    "dishId": "mee-rebus",
+    "sourcePng": "data/internal/audit/rebuild-batches/malaysian-singaporean-batch-030-image-sources/118013-mee-rebus.png",
+    "mainPath": "/assets/dishes/main/118013-mee-rebus.webp",
+    "thumbPath": "/assets/dishes/thumb/118013-mee-rebus.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "mee-siam",
+    "sourcePng": "data/internal/audit/rebuild-batches/malaysian-singaporean-batch-030-image-sources/118014-mee-siam.png",
+    "mainPath": "/assets/dishes/main/118014-mee-siam.webp",
+    "thumbPath": "/assets/dishes/thumb/118014-mee-siam.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "mee-goreng-mamak",
+    "sourcePng": "data/internal/audit/rebuild-batches/malaysian-singaporean-batch-030-image-sources/118015-mee-goreng-mamak.png",
+    "mainPath": "/assets/dishes/main/118015-mee-goreng-mamak.webp",
+    "thumbPath": "/assets/dishes/thumb/118015-mee-goreng-mamak.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "curry-laksa",
+    "sourcePng": "data/internal/audit/rebuild-batches/malaysian-singaporean-batch-030-image-sources/118016-curry-laksa.png",
+    "mainPath": "/assets/dishes/main/118016-curry-laksa.webp",
+    "thumbPath": "/assets/dishes/thumb/118016-curry-laksa.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "asam-laksa",
+    "sourcePng": "data/internal/audit/rebuild-batches/malaysian-singaporean-batch-030-image-sources/118017-asam-laksa.png",
+    "mainPath": "/assets/dishes/main/118017-asam-laksa.webp",
+    "thumbPath": "/assets/dishes/thumb/118017-asam-laksa.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "mee-pok",
+    "sourcePng": "data/internal/audit/rebuild-batches/malaysian-singaporean-batch-030-image-sources/118018-mee-pok.png",
+    "mainPath": "/assets/dishes/main/118018-mee-pok.webp",
+    "thumbPath": "/assets/dishes/thumb/118018-mee-pok.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "wantan-mee",
+    "sourcePng": "data/internal/audit/rebuild-batches/malaysian-singaporean-batch-030-image-sources/118019-wantan-mee.png",
+    "mainPath": "/assets/dishes/main/118019-wantan-mee.webp",
+    "thumbPath": "/assets/dishes/thumb/118019-wantan-mee.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "fish-head-curry",
+    "sourcePng": "data/internal/audit/rebuild-batches/malaysian-singaporean-batch-030-image-sources/118020-fish-head-curry.png",
+    "mainPath": "/assets/dishes/main/118020-fish-head-curry.webp",
+    "thumbPath": "/assets/dishes/thumb/118020-fish-head-curry.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "beef-rendang-malaysian",
+    "sourcePng": "data/internal/audit/rebuild-batches/malaysian-singaporean-batch-030-image-sources/118021-beef-rendang-malaysian.png",
+    "mainPath": "/assets/dishes/main/118021-beef-rendang-malaysian.webp",
+    "thumbPath": "/assets/dishes/thumb/118021-beef-rendang-malaysian.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "ayam-masak-merah",
+    "sourcePng": "data/internal/audit/rebuild-batches/malaysian-singaporean-batch-030-image-sources/118022-ayam-masak-merah.png",
+    "mainPath": "/assets/dishes/main/118022-ayam-masak-merah.webp",
+    "thumbPath": "/assets/dishes/thumb/118022-ayam-masak-merah.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "otak-otak",
+    "sourcePng": "data/internal/audit/rebuild-batches/malaysian-singaporean-batch-030-image-sources/118023-otak-otak.png",
+    "mainPath": "/assets/dishes/main/118023-otak-otak.webp",
+    "thumbPath": "/assets/dishes/thumb/118023-otak-otak.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "popiah",
+    "sourcePng": "data/internal/audit/rebuild-batches/malaysian-singaporean-batch-030-image-sources/118024-popiah.png",
+    "mainPath": "/assets/dishes/main/118024-popiah.webp",
+    "thumbPath": "/assets/dishes/thumb/118024-popiah.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "rojak",
+    "sourcePng": "data/internal/audit/rebuild-batches/malaysian-singaporean-batch-030-image-sources/118025-rojak.png",
+    "mainPath": "/assets/dishes/main/118025-rojak.webp",
+    "thumbPath": "/assets/dishes/thumb/118025-rojak.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "tauhu-goreng",
+    "sourcePng": "data/internal/audit/rebuild-batches/malaysian-singaporean-batch-030-image-sources/118026-tauhu-goreng.png",
+    "mainPath": "/assets/dishes/main/118026-tauhu-goreng.webp",
+    "thumbPath": "/assets/dishes/thumb/118026-tauhu-goreng.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "carrot-cake-singapore",
+    "sourcePng": "data/internal/audit/rebuild-batches/malaysian-singaporean-batch-030-image-sources/118027-carrot-cake-singapore.png",
+    "mainPath": "/assets/dishes/main/118027-carrot-cake-singapore.webp",
+    "thumbPath": "/assets/dishes/thumb/118027-carrot-cake-singapore.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "ondeh-ondeh",
+    "sourcePng": "data/internal/audit/rebuild-batches/malaysian-singaporean-batch-030-image-sources/118028-ondeh-ondeh.png",
+    "mainPath": "/assets/dishes/main/118028-ondeh-ondeh.webp",
+    "thumbPath": "/assets/dishes/thumb/118028-ondeh-ondeh.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "kuih-lapis",
+    "sourcePng": "data/internal/audit/rebuild-batches/malaysian-singaporean-batch-030-image-sources/118029-kuih-lapis.png",
+    "mainPath": "/assets/dishes/main/118029-kuih-lapis.webp",
+    "thumbPath": "/assets/dishes/thumb/118029-kuih-lapis.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "pulut-hitam",
+    "sourcePng": "data/internal/audit/rebuild-batches/malaysian-singaporean-batch-030-image-sources/118030-pulut-hitam.png",
+    "mainPath": "/assets/dishes/main/118030-pulut-hitam.webp",
+    "thumbPath": "/assets/dishes/thumb/118030-pulut-hitam.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  }
+]

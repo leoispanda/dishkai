@@ -23870,98 +23870,121 @@ const globalDepthDishConfigs = [
     },
     "category": "noodle",
     "cookingMethods": [
-      "stir-fried"
+      "boiled",
+      "sauce-tossed"
     ],
+    "servingTemperature": "hot",
     "shortDescription": {
-      "en": "Mee Rebus is a common Malaysian-Singaporean menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "马来浓汁黄面是常见马来/新加坡菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Mee rebus is een veelvoorkomend Maleis en Singaporees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Yellow egg noodles in a thick sweet-savory gravy, often made rich with sweet potato and topped with egg, tofu puffs, sprouts, chili, and lime.",
+      "zh": "黄面配浓稠甜咸酱汁，常有红薯感厚度、鸡蛋、豆卜、豆芽、辣椒和青柠。",
+      "nl": "Gele eiernoedels in een dikke zoet-hartige saus, vaak met zoete aardappel, ei, tofupuffs, taugé, chili en limoen."
     },
     "cookingProfile": {
-      "en": "Usually served with springy noodles, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现springy noodles，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met springy noodles; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served hot with the noodles coated in a thick gravy, so it feels saucy, gently sweet, and more filling than a clear noodle soup.",
+      "zh": "热食上桌，面条裹着浓汁，口感偏酱汁感、微甜，比清汤面更有饱腹感。",
+      "nl": "Warm geserveerd met noedels in dikke saus; sauzig, licht zoet en vullender dan heldere noedelsoep."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Malaysian-Singaporean menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将马来/新加坡菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Maleis en Singaporees menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A familiar hawker-style Malay noodle dish where thick gravy is the key ordering cue.",
+        "zh": "常见马来小贩面食，识别重点是浓稠酱汁黄面。",
+        "nl": "Een bekende Maleise hawker-noedelschotel waarbij de dikke saus het herkenningspunt is."
       }
     },
     "composition": [
       [
-        "wheat-noodles",
-        45,
-        "base"
+        "egg-noodles",
+        35,
+        "noodle-base"
       ],
       [
-        "chicken",
-        25,
-        "main"
+        "sweet-potato",
+        20,
+        "gravy-body"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "body"
+        "egg",
+        10,
+        "topping"
       ],
       [
-        "soy-sauce",
+        "bean-sprouts",
+        10,
+        "fresh-crunch"
+      ],
+      [
+        "tofu-puffs",
+        10,
+        "sauce-soaked-topping"
+      ],
+      [
+        "tamarind",
         5,
-        "seasoning",
+        "tangy-balance",
         "seasoning"
       ],
       [
-        "sesame-oil",
+        "palm-sugar",
         5,
-        "aroma",
+        "sweetness",
         "seasoning"
       ],
       [
-        "green-onion",
+        "chili",
         5,
-        "finish"
+        "heat",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "soy-sauce",
-      "aromatics"
+      "sweet-potato",
+      "tamarind",
+      "palm-sugar",
+      "chili"
     ],
     "basicTaste": [
       "savory",
-      "aromatic"
+      "sweet",
+      "tangy",
+      "mildly-spicy"
     ],
     "textureProfile": [
-      "springy noodles",
-      "glossy sauce"
+      "springy egg noodles",
+      "thick gravy",
+      "crisp sprouts",
+      "soft tofu puffs"
     ],
     "riskFlags": [
       "contains-gluten",
+      "contains-egg",
       "contains-soy",
-      "contains-egg"
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "classic-dish",
+      "comfort-food"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "soy-allergy",
+      "wants-light-clear-soup"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, aromatic profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要savory、aromatic的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, aromatic je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you want a saucy sweet-savory noodle bowl; skip if you prefer dry wok noodles or a light broth.",
+      "zh": "想吃甜咸浓汁面时适合点；如果想要干炒锅气面或清淡汤面，可以跳过。",
+      "nl": "Goed als je een zoet-hartige, sauzige noedelkom wilt; sla over als je droge woknoedels of lichte bouillon zoekt."
     },
-    "spiceLevel": 0,
+    "confidenceTag": "audited-malaysian-singaporean-batch-030",
+    "spiceLevel": 1,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -23976,101 +23999,121 @@ const globalDepthDishConfigs = [
     },
     "category": "noodle",
     "cookingMethods": [
-      "stir-fried"
+      "stir-fried",
+      "sauce-tossed"
     ],
+    "servingTemperature": "hot",
     "shortDescription": {
-      "en": "Mee Siam is a common Malaysian-Singaporean menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "酸辣米粉是常见马来/新加坡菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Mee siam is een veelvoorkomend Maleis en Singaporees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Thin rice vermicelli with a bright sweet-sour-spicy sauce, usually finished with egg, tofu, sprouts, lime, and sometimes shrimp.",
+      "zh": "细米粉配酸甜微辣酱汁，常搭配鸡蛋、豆腐、豆芽、青柠，有时有虾。",
+      "nl": "Dunne rijstvermicelli met fris zoetzuur-pittige saus, vaak met ei, tofu, taugé, limoen en soms garnalen."
     },
     "cookingProfile": {
-      "en": "Usually served with springy noodles, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现springy noodles，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met springy noodles; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Usually served as lightly sauced vermicelli rather than a heavy noodle soup, with lime and tamarind giving the lift.",
+      "zh": "通常是轻拌或轻炒米粉，不是厚重汤面，青柠和罗望子带来酸香。",
+      "nl": "Meestal licht gesausde vermicelli, geen zware soep; limoen en tamarinde geven frisheid."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "street-food"
       ],
       "description": {
-        "en": "A high-frequency Malaysian-Singaporean menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将马来/新加坡菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Maleis en Singaporees menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common Malay/Singapore hawker noodle dish recognized by its tangy vermicelli profile.",
+        "zh": "常见马来/新加坡小贩米粉，特点是酸甜微辣。",
+        "nl": "Een veelvoorkomende Maleis/Singaporese hawker-noedelschotel met friszuur vermicelliprofiel."
       }
     },
     "composition": [
       [
-        "wheat-noodles",
+        "rice-noodles",
         45,
-        "base"
+        "vermicelli-base"
+      ],
+      [
+        "egg",
+        10,
+        "topping"
+      ],
+      [
+        "tofu-puffs",
+        10,
+        "sauce-soaked-topping"
+      ],
+      [
+        "bean-sprouts",
+        10,
+        "fresh-crunch"
       ],
       [
         "shrimp",
-        25,
-        "main"
+        10,
+        "optional-seafood"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "body"
-      ],
-      [
-        "soy-sauce",
+        "tamarind",
         5,
-        "seasoning",
+        "sour-base",
         "seasoning"
       ],
       [
-        "sesame-oil",
+        "shrimp-paste",
         5,
-        "aroma",
+        "seafood-umami",
         "seasoning"
       ],
       [
-        "green-onion",
+        "chili",
         5,
-        "finish"
+        "heat",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "shrimp",
-      "soy-sauce",
-      "aromatics"
+      "tamarind",
+      "shrimp-paste",
+      "lime",
+      "chili"
     ],
     "basicTaste": [
+      "sweet",
+      "sour",
       "savory",
-      "aromatic"
+      "spicy"
     ],
     "textureProfile": [
-      "springy noodles",
-      "glossy sauce"
+      "thin vermicelli",
+      "soft egg",
+      "crisp sprouts",
+      "light sauce coating"
     ],
     "riskFlags": [
-      "contains-gluten",
+      "contains-egg",
       "contains-soy",
-      "contains-shellfish"
+      "contains-shellfish",
+      "can-be-spicy"
     ],
-    "dietaryFlags": [
-      "pescatarian"
-    ],
+    "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "street-food",
+      "lighter-choice"
     ],
     "avoidIfTags": [
-      "gluten-free",
-      "shellfish-allergy"
+      "egg-allergy",
+      "soy-allergy",
+      "shellfish-allergy",
+      "dislikes-sour-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, aromatic profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要savory、aromatic的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, aromatic je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for tangy, lighter noodles; avoid if you dislike sour tamarind or shrimp-paste notes.",
+      "zh": "想吃酸香、较轻的米粉时适合；不喜欢罗望子酸味或虾酱海味时不建议。",
+      "nl": "Kies dit voor friszure, lichtere noedels; vermijd als tamarindezuur of garnalenpasta niet aanspreekt."
     },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "confidenceTag": "audited-malaysian-singaporean-batch-030",
+    "spiceLevel": 2,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -24087,96 +24130,119 @@ const globalDepthDishConfigs = [
     "cookingMethods": [
       "stir-fried"
     ],
+    "servingTemperature": "hot",
     "shortDescription": {
-      "en": "Mee Goreng Mamak is a common Malaysian-Singaporean menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "嘛嘛档炒面是常见马来/新加坡菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Mee goreng mamak is een veelvoorkomend Maleis en Singaporees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Malaysian Indian-Muslim wok-fried yellow noodles with egg, tofu, potato, vegetables, chili, tomato, and sweet soy notes.",
+      "zh": "马来西亚印度穆斯林风格炒黄面，常有鸡蛋、豆腐、土豆、蔬菜、辣椒、番茄和甜酱油风味。",
+      "nl": "Maleisisch-Indiase moslimstijl woknoedels met ei, tofu, aardappel, groente, chili, tomaat en zoete soja."
     },
     "cookingProfile": {
-      "en": "Usually served with springy noodles, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现springy noodles，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met springy noodles; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Hot wok-fried and glossy, usually more sweet-spicy and filling than simple fried noodles.",
+      "zh": "热锅快炒，表面油亮，通常比普通炒面更甜辣、更饱腹。",
+      "nl": "Heet gewokt en glanzend; meestal zoet-pittiger en vullender dan simpele gebakken noedels."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "street-food",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Malaysian-Singaporean menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将马来/新加坡菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Maleis en Singaporees menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common mamak-stall noodle order where sweet soy, chili, egg, and tofu define the style.",
+        "zh": "常见嘛嘛档面食，甜酱油、辣椒、鸡蛋和豆腐是识别重点。",
+        "nl": "Een bekende mamak-noedelbestelling waarbij zoete soja, chili, ei en tofu de stijl bepalen."
       }
     },
     "composition": [
       [
-        "wheat-noodles",
+        "egg-noodles",
         45,
-        "base"
+        "noodle-base"
       ],
       [
-        "chicken",
-        25,
-        "main"
+        "egg",
+        10,
+        "scrambled-through"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "body"
+        "tofu",
+        10,
+        "protein"
+      ],
+      [
+        "potato",
+        10,
+        "starchy-body"
+      ],
+      [
+        "bean-sprouts",
+        10,
+        "vegetable-crunch"
+      ],
+      [
+        "tomato-sauce",
+        5,
+        "sweet-tangy-sauce",
+        "seasoning"
       ],
       [
         "soy-sauce",
         5,
-        "seasoning",
+        "salty-umami",
         "seasoning"
       ],
       [
-        "sesame-oil",
+        "chili",
         5,
-        "aroma",
+        "heat",
         "seasoning"
-      ],
-      [
-        "green-onion",
-        5,
-        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
       "soy-sauce",
-      "aromatics"
+      "tomato-sauce",
+      "chili",
+      "tofu"
     ],
     "basicTaste": [
       "savory",
-      "aromatic"
+      "sweet",
+      "spicy",
+      "tangy"
     ],
     "textureProfile": [
-      "springy noodles",
-      "glossy sauce"
+      "springy oily noodles",
+      "soft egg",
+      "tofu pieces",
+      "wok-fried edges"
     ],
     "riskFlags": [
       "contains-gluten",
+      "contains-egg",
       "contains-soy",
-      "contains-egg"
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "street-food",
+      "comfort-food"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "soy-allergy",
+      "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, aromatic profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要savory、aromatic的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, aromatic je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order if you want a filling sweet-spicy fried noodle; skip if you want clean, light flavors.",
+      "zh": "想吃饱腹甜辣炒面时适合；想要清淡干净口味时可跳过。",
+      "nl": "Bestel dit als je vullende zoet-pittige woknoedels wilt; sla over als je lichte, heldere smaken zoekt."
     },
-    "spiceLevel": 0,
-    "weightLevel": 3,
+    "confidenceTag": "audited-malaysian-singaporean-batch-030",
+    "spiceLevel": 2,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -24193,97 +24259,118 @@ const globalDepthDishConfigs = [
     "cookingMethods": [
       "simmered"
     ],
+    "servingTemperature": "hot",
     "shortDescription": {
-      "en": "Curry Laksa is a common Malaysian-Singaporean menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "咖喱叻沙是常见马来/新加坡菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Curry laksa is een veelvoorkomend Maleis en Singaporees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A rich coconut curry noodle soup with noodles, tofu puffs, fish cake, and often shrimp or chicken.",
+      "zh": "浓郁椰香咖喱汤面，常有面条、豆卜、鱼饼，也常配虾或鸡肉。",
+      "nl": "Rijke kokos-currynoedelsoep met noedels, tofupuffs, viscake en vaak garnalen of kip."
     },
     "cookingProfile": {
-      "en": "Usually served with warm broth, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现warm broth，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met warm broth; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served hot in coconut curry broth, so it is creamy, aromatic, and heavier than clear noodle soup.",
+      "zh": "热汤上桌，椰香咖喱汤底让它浓郁、香料感明显，比清汤面更厚重。",
+      "nl": "Warm in kokos-currybouillon; romig, aromatisch en zwaarder dan heldere noedelsoep."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "internationally-known"
       ],
       "description": {
-        "en": "A high-frequency Malaysian-Singaporean menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将马来/新加坡菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Maleis en Singaporees menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic Malaysian/Singaporean laksa style recognized by coconut curry broth.",
+        "zh": "经典马新叻沙类型，识别重点是椰香咖喱汤底。",
+        "nl": "Een klassieke Maleis/Singaporese laksa-stijl met kokos-currybouillon als herkenningspunt."
       }
     },
     "composition": [
       [
-        "broth",
-        45,
-        "soup base"
-      ],
-      [
-        "shrimp",
+        "rice-noodles",
         25,
-        "main"
+        "noodle-base"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "body"
+        "egg-noodles",
+        20,
+        "noodle-base"
       ],
       [
-        "potato",
-        5,
-        "body"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
+        "coconut-milk",
+        20,
+        "broth-richness",
         "seasoning"
       ],
       [
-        "black-pepper",
+        "shrimp",
+        10,
+        "seafood"
+      ],
+      [
+        "fish-cake",
+        10,
+        "bouncy-topping"
+      ],
+      [
+        "tofu-puffs",
+        10,
+        "sauce-soaked-topping"
+      ],
+      [
+        "laksa-paste",
         5,
-        "seasoning",
+        "spice-paste",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
+      "laksa-paste",
+      "coconut-milk",
       "shrimp",
-      "broth",
-      "herbs"
+      "tofu-puffs"
     ],
     "basicTaste": [
-      "brothy",
-      "savory"
+      "creamy",
+      "savory",
+      "spicy",
+      "umami"
     ],
     "textureProfile": [
-      "warm broth",
-      "soft pieces"
+      "creamy broth",
+      "mixed noodles",
+      "spongy tofu puffs",
+      "bouncy fish cake"
     ],
     "riskFlags": [
-      "contains-shellfish"
+      "contains-shellfish",
+      "contains-fish",
+      "contains-soy",
+      "contains-egg",
+      "contains-gluten",
+      "can-be-spicy"
     ],
-    "dietaryFlags": [
-      "pescatarian"
-    ],
+    "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "classic-dish",
+      "comfort-food"
     ],
     "avoidIfTags": [
-      "shellfish-allergy"
+      "shellfish-allergy",
+      "fish-allergy",
+      "soy-allergy",
+      "egg-allergy",
+      "gluten-free",
+      "wants-light-soup"
     ],
     "orderVerdict": {
-      "en": "Order if this brothy, savory profile sounds appealing; check shellfish if that matters.",
-      "zh": "如果你想要brothy、savory的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van brothy, savory je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A strong pick if you want creamy spicy noodle soup; avoid if shellfish, fish, soy, egg, or gluten are issues.",
+      "zh": "想吃浓郁微辣汤面时很合适；对海鲜、鱼、大豆、鸡蛋或麸质敏感要谨慎。",
+      "nl": "Sterke keuze voor romige pittige noedelsoep; vermijd bij schaal- of visallergie, soja, ei of gluten."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "confidenceTag": "audited-malaysian-singaporean-batch-030",
+    "spiceLevel": 2,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "asam-laksa",
@@ -24297,99 +24384,124 @@ const globalDepthDishConfigs = [
     },
     "category": "soup",
     "cookingMethods": [
-      "simmered"
+      "simmered",
+      "assembled"
     ],
+    "servingTemperature": "hot",
     "shortDescription": {
-      "en": "Asam Laksa is a common Malaysian-Singaporean menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "酸鱼叻沙是常见马来/新加坡菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Asam laksa is een veelvoorkomend Maleis en Singaporees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A sour tamarind fish noodle soup, often Penang-style, with shredded mackerel, herbs, cucumber, pineapple, onion, and shrimp-paste depth.",
+      "zh": "罗望子酸鱼汤米粉，常见槟城风格，有鲭鱼、香草、黄瓜、菠萝、洋葱和虾酱风味。",
+      "nl": "Zure tamarinde-visnoedelsoep, vaak Penang-stijl, met makreel, kruiden, komkommer, ananas, ui en garnalenpasta."
     },
     "cookingProfile": {
-      "en": "Usually served with warm broth, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现warm broth，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met warm broth; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The fish broth is hot and sour rather than creamy, with fresh toppings making it sharper and lighter than curry laksa.",
+      "zh": "鱼汤底偏热酸，不是奶油感；新鲜配料让它比咖喱叻沙更清爽锐利。",
+      "nl": "De visbouillon is warm en zuur, niet romig; verse toppings maken hem frisser dan curry laksa."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "regional-dish",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Malaysian-Singaporean menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将马来/新加坡菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Maleis en Singaporees menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Penang-linked laksa style where tamarind sourness and fish are the ordering cue.",
+        "zh": "与槟城关联很强的叻沙类型，酸鱼汤底是识别重点。",
+        "nl": "Een met Penang verbonden laksa-stijl waarbij tamarindezuur en vis centraal staan."
       }
     },
     "composition": [
       [
-        "broth",
-        45,
-        "soup base"
+        "rice-noodles",
+        40,
+        "noodle-base"
       ],
       [
-        "fish-fillet",
-        25,
-        "main"
+        "mackerel",
+        20,
+        "fish-broth-and-flakes"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "body"
+        "pineapple",
+        10,
+        "fresh-sweet-tart-topping"
       ],
       [
-        "potato",
+        "cucumber",
+        10,
+        "fresh-crunch"
+      ],
+      [
+        "jicama",
         5,
-        "body"
+        "crisp-topping"
       ],
       [
-        "parsley",
+        "tamarind",
         5,
-        "finish",
+        "sour-broth",
         "seasoning"
       ],
       [
-        "black-pepper",
+        "shrimp-paste",
         5,
-        "seasoning",
+        "fermented-seafood-depth",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-fillet",
-      "broth",
-      "herbs"
+      "tamarind",
+      "mackerel",
+      "shrimp-paste",
+      "pineapple"
     ],
     "basicTaste": [
-      "brothy",
-      "savory"
+      "sour",
+      "savory",
+      "spicy",
+      "fresh"
     ],
     "textureProfile": [
-      "warm broth",
-      "soft pieces"
+      "slippery rice noodles",
+      "flaky fish",
+      "crisp fresh toppings",
+      "thin sour broth"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-shellfish",
+      "can-be-spicy"
     ],
     "dietaryFlags": [
       "pescatarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "regional-dish",
+      "lighter-choice"
     ],
     "avoidIfTags": [
-      "avoids-fish"
+      "fish-allergy",
+      "shellfish-allergy",
+      "dislikes-sour-food",
+      "wants-creamy-curry"
     ],
     "orderVerdict": {
-      "en": "Order if this brothy, savory profile sounds appealing; check fish if that matters.",
-      "zh": "如果你想要brothy、savory的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van brothy, savory je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a tangy fish-forward laksa; skip if you expected creamy coconut curry broth.",
+      "zh": "想吃酸香鱼味叻沙时适合；如果期待椰香咖喱汤底，就不要点错。",
+      "nl": "Kies dit voor zure, visgerichte laksa; sla over als je romige kokos-currybouillon verwacht."
     },
-    "spiceLevel": 0,
+    "confidenceTag": "audited-malaysian-singaporean-batch-030",
+    "spiceLevel": 2,
     "weightLevel": 2,
-    "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "mee-pok",
@@ -24403,100 +24515,119 @@ const globalDepthDishConfigs = [
     },
     "category": "noodle",
     "cookingMethods": [
-      "stir-fried"
+      "boiled",
+      "sauce-tossed"
     ],
+    "servingTemperature": "hot",
     "shortDescription": {
-      "en": "Mee Pok is a common Malaysian-Singaporean menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "新加坡扁面是常见马来/新加坡菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Mee pok is een veelvoorkomend Maleis en Singaporees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Flat egg noodles tossed dry with chili-vinegar sauce, usually served with minced pork, fish cake or fish balls, greens, and a small soup.",
+      "zh": "扁鸡蛋面多为干拌，配辣椒醋酱，常有肉末、鱼饼或鱼丸、青菜和一小碗汤。",
+      "nl": "Platte eiernoedels, droog gemengd met chili-azijnsaus, vaak met varkensgehakt, viscake of visballen, groente en soepje."
     },
     "cookingProfile": {
-      "en": "Usually served with springy noodles, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现springy noodles，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met springy noodles; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Usually dry-tossed after boiling, so the noodles feel springy and glossy rather than brothy.",
+      "zh": "面煮好后干拌，口感弹、表面油亮，不是汤面。",
+      "nl": "Na het koken droog gemengd; de noedels zijn veerkrachtig en glanzend, niet bouillonachtig."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "street-food"
       ],
       "description": {
-        "en": "A high-frequency Malaysian-Singaporean menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将马来/新加坡菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Maleis en Singaporees menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common Singapore noodle order where flat noodles and chili-vinegar dressing are the cues.",
+        "zh": "常见新加坡面食，扁面和辣椒醋干拌是识别重点。",
+        "nl": "Een bekende Singaporese noedelbestelling met platte noedels en chili-azijndressing."
       }
     },
     "composition": [
       [
-        "wheat-noodles",
+        "egg-noodles",
         45,
-        "base"
+        "flat-noodle-base"
       ],
       [
-        "pork",
-        25,
-        "main"
+        "minced-pork",
+        15,
+        "savory-topping"
+      ],
+      [
+        "fish-cake",
+        10,
+        "bouncy-topping"
+      ],
+      [
+        "egg",
+        10,
+        "optional-topping"
       ],
       [
         "mixed-vegetables",
-        15,
-        "body"
+        10,
+        "greens"
       ],
       [
         "soy-sauce",
         5,
-        "seasoning",
+        "salty-sauce",
         "seasoning"
       ],
       [
-        "sesame-oil",
+        "vinegar",
         5,
-        "aroma",
+        "tangy-dressing",
         "seasoning"
-      ],
-      [
-        "green-onion",
-        5,
-        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
+      "vinegar",
       "soy-sauce",
-      "aromatics"
+      "minced-pork",
+      "fish-cake"
     ],
     "basicTaste": [
       "savory",
-      "aromatic"
+      "tangy",
+      "salty",
+      "mildly-spicy"
     ],
     "textureProfile": [
-      "springy noodles",
-      "glossy sauce"
+      "flat springy noodles",
+      "minced pork bits",
+      "bouncy fish cake",
+      "dry glossy coating"
     ],
     "riskFlags": [
       "contains-gluten",
+      "contains-egg",
+      "contains-pork",
+      "contains-fish",
       "contains-soy",
-      "contains-pork"
+      "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "street-food",
+      "comfort-food"
     ],
     "avoidIfTags": [
       "no-pork",
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "fish-allergy",
+      "soy-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, aromatic profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要savory、aromatic的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, aromatic je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good for a dry savory noodle bowl; avoid if pork or fish cake are not acceptable.",
+      "zh": "适合想吃干拌咸香面的人；不吃猪肉或鱼制品时要避开。",
+      "nl": "Goed voor een droge hartige noedelkom; vermijd als varken of viscake niet past."
     },
-    "spiceLevel": 0,
+    "confidenceTag": "audited-malaysian-singaporean-batch-030",
+    "spiceLevel": 1,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "wantan-mee",
@@ -24510,99 +24641,115 @@ const globalDepthDishConfigs = [
     },
     "category": "noodle",
     "cookingMethods": [
-      "stir-fried"
+      "boiled",
+      "sauce-tossed"
     ],
+    "servingTemperature": "hot",
     "shortDescription": {
-      "en": "Wantan Mee is a common Malaysian-Singaporean menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "云吞面是常见马来/新加坡菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Wantan mee is een veelvoorkomend Maleis en Singaporees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Springy egg noodles, usually dry or with a light broth, served with wontons, char siu pork, greens, and soy-based sauce.",
+      "zh": "弹牙鸡蛋面，可干拌或清汤，常配云吞、叉烧、青菜和酱油类酱汁。",
+      "nl": "Veerkrachtige eiernoedels, droog of met lichte bouillon, met wontons, char siu, groente en sojasaus."
     },
     "cookingProfile": {
-      "en": "Usually served with springy noodles, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现springy noodles，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met springy noodles; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Usually served hot with noodles tossed in sauce and wontons on the side or on top.",
+      "zh": "通常热食，面条拌酱，云吞放在旁边或铺在面上。",
+      "nl": "Meestal warm, met noedels in saus en wontons erbij of erbovenop."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Malaysian-Singaporean menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将马来/新加坡菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Maleis en Singaporees menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common Cantonese-influenced Malaysian/Singaporean noodle order built around wontons and char siu.",
+        "zh": "常见粤式影响的马新面食，识别重点是云吞和叉烧。",
+        "nl": "Een veelvoorkomende Kantonese Maleis/Singaporese noedelbestelling met wontons en char siu."
       }
     },
     "composition": [
       [
-        "wheat-noodles",
-        45,
-        "base"
+        "egg-noodles",
+        40,
+        "noodle-base"
       ],
       [
-        "pork",
-        25,
-        "main"
+        "char-siu-pork",
+        20,
+        "roast-pork-topping"
+      ],
+      [
+        "wonton-wrapper",
+        10,
+        "wonton-skin"
+      ],
+      [
+        "minced-pork",
+        10,
+        "wonton-filling"
       ],
       [
         "mixed-vegetables",
-        15,
-        "body"
+        10,
+        "greens"
       ],
       [
         "soy-sauce",
         5,
-        "seasoning",
+        "sauce",
         "seasoning"
       ],
       [
-        "sesame-oil",
+        "char-siu-glaze",
         5,
-        "aroma",
+        "sweet-roast-glaze",
         "seasoning"
-      ],
-      [
-        "green-onion",
-        5,
-        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
+      "char-siu-pork",
+      "char-siu-glaze",
       "soy-sauce",
-      "aromatics"
+      "wonton-wrapper"
     ],
     "basicTaste": [
       "savory",
-      "aromatic"
+      "sweet",
+      "salty",
+      "umami"
     ],
     "textureProfile": [
       "springy noodles",
-      "glossy sauce"
+      "soft wontons",
+      "glazed pork slices",
+      "light greens"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-soy",
-      "contains-pork"
+      "contains-egg",
+      "contains-pork",
+      "contains-soy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "classic-dish",
+      "safe-choice"
     ],
     "avoidIfTags": [
       "no-pork",
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "soy-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, aromatic profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要savory、aromatic的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, aromatic je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A safe savory noodle choice if pork is fine; avoid if you need pork-free or gluten-free food.",
+      "zh": "如果可以吃猪肉，是比较稳妥的咸香面食；需要无猪肉或无麸质时不适合。",
+      "nl": "Veilige hartige noedelkeuze als varken oké is; vermijd bij varkensvrij of glutenvrij eten."
     },
+    "confidenceTag": "audited-malaysian-singaporean-batch-030",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -24619,99 +24766,114 @@ const globalDepthDishConfigs = [
     "cookingMethods": [
       "simmered"
     ],
+    "servingTemperature": "hot",
     "shortDescription": {
-      "en": "Fish Head Curry is a common Malaysian-Singaporean menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "鱼头咖喱是常见马来/新加坡菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Viskopcurry is een veelvoorkomend Maleis en Singaporees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A fish head simmered in red-orange curry gravy with okra, eggplant, tomato, curry leaves, and often coconut or tamarind.",
+      "zh": "鱼头放在红橙色咖喱汁中炖煮，常配秋葵、茄子、番茄、咖喱叶，也可能有椰奶或罗望子。",
+      "nl": "Viskop in roodoranje currysaus met okra, aubergine, tomaat, kerrieblaadjes en vaak kokos of tamarinde."
     },
     "cookingProfile": {
-      "en": "Usually served with saucy curry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现saucy curry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met saucy curry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served hot and saucy, with bony fish-head pieces and vegetables meant to be eaten with rice.",
+      "zh": "热的浓酱菜，鱼头有骨和胶质，通常配饭吃。",
+      "nl": "Warm en sauzig, met graterige viskopdelen en groente, meestal bedoeld met rijst."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency Malaysian-Singaporean menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将马来/新加坡菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Maleis en Singaporees menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A recognizable Malaysian/Singaporean curry where the fish head itself is central, not just fish fillet.",
+        "zh": "典型马新咖喱菜，重点是鱼头本身，不只是鱼片咖喱。",
+        "nl": "Een herkenbare Maleis/Singaporese curry waarin de viskop centraal staat, niet alleen filet."
       }
     },
     "composition": [
       [
-        "fish-fillet",
+        "fish-head",
         35,
-        "main"
+        "main-fish"
       ],
       [
         "coconut-curry",
-        25,
-        "sauce",
-        "seasoning"
-      ],
-      [
-        "steamed-rice",
         20,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "cumin",
-        5,
-        "aroma",
+        "curry-gravy",
         "seasoning"
       ],
       [
-        "coriander",
+        "coconut-milk",
+        15,
+        "richness",
+        "seasoning"
+      ],
+      [
+        "okra",
+        10,
+        "vegetable"
+      ],
+      [
+        "eggplant-global",
+        10,
+        "vegetable"
+      ],
+      [
+        "tomato",
+        5,
+        "tangy-body"
+      ],
+      [
+        "curry-leaves",
         5,
         "aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "warm spices",
-      "curry sauce",
-      "fish-fillet"
+      "fish-head",
+      "coconut-curry",
+      "curry-leaves",
+      "okra"
     ],
     "basicTaste": [
       "savory",
-      "spiced",
-      "saucy"
+      "spicy",
+      "creamy",
+      "aromatic"
     ],
     "textureProfile": [
       "saucy curry",
-      "tender pieces"
+      "flaky fish around bones",
+      "slippery okra",
+      "soft eggplant"
     ],
     "riskFlags": [
-      "can-be-spicy",
-      "contains-fish"
+      "contains-fish",
+      "can-be-spicy"
     ],
     "dietaryFlags": [
       "pescatarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "classic-dish",
+      "sharing-friendly"
     ],
     "avoidIfTags": [
-      "avoids-fish"
+      "fish-allergy",
+      "dislikes-bones",
+      "wants-boneless-fish",
+      "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, spiced, saucy profile sounds appealing; check can be spicy if that matters.",
-      "zh": "如果你想要savory、spiced、saucy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, spiced, saucy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order if you like bold curry and do not mind bones; skip if you want neat boneless fish.",
+      "zh": "喜欢浓咖喱且能接受鱼骨时适合；想要规整无骨鱼肉时不建议。",
+      "nl": "Bestel als je stevige curry lust en graten oké vindt; sla over als je nette graatloze vis wilt."
     },
+    "confidenceTag": "audited-malaysian-singaporean-batch-030",
     "spiceLevel": 2,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.74,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -24726,96 +24888,107 @@ const globalDepthDishConfigs = [
     },
     "category": "curry",
     "cookingMethods": [
-      "simmered"
+      "braised"
     ],
+    "servingTemperature": "hot",
     "shortDescription": {
-      "en": "Beef Rendang is a common Malaysian-Singaporean menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "马来牛肉仁当是常见马来/新加坡菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Runderrendang is een veelvoorkomend Maleis en Singaporees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Beef slowly braised until dark, thick, and coated in coconut-spice rendang paste rather than a thin curry sauce.",
+      "zh": "牛肉长时间炖到深色浓稠，裹满椰香香料仁当酱，不是稀汤咖喱。",
+      "nl": "Rundvlees langzaam gestoofd tot donker en dik omhuld met kokos-rendangkruiden, geen dunne currysaus."
     },
     "cookingProfile": {
-      "en": "Usually served with saucy curry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现saucy curry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met saucy curry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Usually slow-braised until the sauce clings to the beef, so it feels dense, aromatic, and meat-forward.",
+      "zh": "通常慢炖到酱汁紧紧裹住牛肉，口感厚实、香料浓、肉感强。",
+      "nl": "Meestal langzaam gestoofd tot de saus aan het rund kleeft; compact, aromatisch en vlezig."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "internationally-known"
       ],
       "description": {
-        "en": "A high-frequency Malaysian-Singaporean menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将马来/新加坡菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Maleis en Singaporees menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic Malay rendang form distinct from the verified chicken rendang variant.",
+        "zh": "经典马来仁当形式，与已收录鸡肉仁当区分。",
+        "nl": "Een klassieke Maleise rendangvorm, onderscheiden van de geverifieerde kiprendang."
       }
     },
     "composition": [
       [
         "beef",
-        35,
-        "main"
+        50,
+        "main-meat"
       ],
       [
-        "coconut-curry",
-        25,
-        "sauce",
-        "seasoning"
-      ],
-      [
-        "steamed-rice",
+        "coconut-milk",
         20,
-        "base"
+        "richness",
+        "seasoning"
       ],
       [
-        "mixed-vegetables",
-        10,
-        "body"
+        "rendang-spice-paste",
+        15,
+        "spice-paste",
+        "seasoning"
       ],
       [
-        "cumin",
+        "toasted-coconut",
+        5,
+        "kerisik-style-depth"
+      ],
+      [
+        "lemongrass",
         5,
         "aroma",
         "seasoning"
       ],
       [
-        "coriander",
+        "chili",
         5,
-        "aroma",
+        "heat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "warm spices",
-      "curry sauce",
-      "beef"
+      "rendang-spice-paste",
+      "coconut-milk",
+      "toasted-coconut",
+      "lemongrass"
     ],
     "basicTaste": [
       "savory",
-      "spiced",
-      "saucy"
+      "spicy",
+      "rich",
+      "aromatic"
     ],
     "textureProfile": [
-      "saucy curry",
-      "tender pieces"
+      "tender beef chunks",
+      "dry thick sauce",
+      "coconut-spice coating"
     ],
     "riskFlags": [
       "can-be-spicy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "classic-dish",
+      "comfort-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "no-beef",
+      "wants-light-food",
+      "wants-thin-curry"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, spiced, saucy profile sounds appealing; check can be spicy if that matters.",
-      "zh": "如果你想要savory、spiced、saucy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, spiced, saucy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose beef rendang for a rich dry curry; skip if you want lots of pourable sauce.",
+      "zh": "想吃浓厚干咖喱牛肉时适合；想要大量可浇饭汤汁时可能不合适。",
+      "nl": "Kies runderrendang voor rijke droge curry; sla over als je veel schenkbare saus wilt."
     },
+    "confidenceTag": "audited-malaysian-singaporean-batch-030",
     "spiceLevel": 2,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -24832,91 +25005,104 @@ const globalDepthDishConfigs = [
     "cookingMethods": [
       "braised"
     ],
+    "servingTemperature": "hot",
     "shortDescription": {
-      "en": "Ayam Masak Merah is a common Malaysian-Singaporean menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "红酱鸡是常见马来/新加坡菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Ayam masak merah is een veelvoorkomend Maleis en Singaporees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Chicken in a glossy red tomato-chili sauce, usually sweet-spicy and less dry than rendang.",
+      "zh": "鸡肉裹红色番茄辣椒酱，通常甜辣多汁，比仁当更有酱汁。",
+      "nl": "Kip in glanzende rode tomaat-chilisaus, meestal zoet-pittig en sauziger dan rendang."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served hot with chicken coated in red sauce, good with rice and usually milder-sweeter than it looks.",
+      "zh": "热食上桌，鸡肉裹红酱，适合配饭，通常看起来红但偏甜辣。",
+      "nl": "Warm geserveerd met kip in rode saus; lekker met rijst en vaak zoeter-milder dan het eruitziet."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Malaysian-Singaporean menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将马来/新加坡菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Maleis en Singaporees menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common Malay chicken dish where red tomato-chili sauce is the main cue.",
+        "zh": "常见马来鸡肉菜，红色番茄辣椒酱是识别重点。",
+        "nl": "Een veelvoorkomend Maleis kipgerecht met rode tomaat-chilisaus als herkenningspunt."
       }
     },
     "composition": [
       [
         "chicken",
-        60,
-        "main"
-      ],
-      [
-        "potato",
-        15,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
-        10,
-        "body"
+        55,
+        "main-meat"
       ],
       [
         "tomato-sauce",
-        5,
-        "sauce",
+        20,
+        "red-sauce",
         "seasoning"
       ],
       [
-        "black-pepper",
-        5,
-        "seasoning",
+        "chili",
+        10,
+        "heat",
         "seasoning"
       ],
       [
-        "parsley",
+        "onion",
         5,
-        "finish",
+        "sauce-body"
+      ],
+      [
+        "coconut-milk",
+        5,
+        "optional-richness",
+        "seasoning"
+      ],
+      [
+        "curry-leaves",
+        5,
+        "aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "sauce",
-      "herbs"
+      "tomato-sauce",
+      "chili",
+      "curry-leaves",
+      "coconut-milk"
     ],
     "basicTaste": [
+      "sweet",
       "savory",
-      "rich"
+      "spicy",
+      "tangy"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "tender chicken",
+      "glossy red sauce",
+      "soft onions"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "comfort-food",
+      "rice-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "no-chicken",
+      "wants-dry-grilled-meat",
+      "dislikes-sweet-sauce"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good rice-friendly chicken choice if sweet-spicy tomato sauce sounds right.",
+      "zh": "想吃适合配饭的甜辣番茄红酱鸡时可以点。",
+      "nl": "Goede kipkeuze bij rijst als zoet-pittige tomatensaus goed klinkt."
     },
-    "spiceLevel": 0,
+    "confidenceTag": "audited-malaysian-singaporean-batch-030",
+    "spiceLevel": 2,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -24931,99 +25117,118 @@ const globalDepthDishConfigs = [
     },
     "category": "starter",
     "cookingMethods": [
-      "assembled"
+      "grilled",
+      "steamed"
     ],
+    "servingTemperature": "hot",
     "shortDescription": {
-      "en": "Otak-Otak is a common Malaysian-Singaporean menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "香料鱼糕是常见马来/新加坡菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Otak-otak is een veelvoorkomend Maleis en Singaporees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Spiced fish paste cooked in banana leaf, usually orange, aromatic, soft, and lightly smoky when grilled.",
+      "zh": "香料鱼浆包在香蕉叶中蒸或烤，通常呈橙色，香料味明显，口感柔软。",
+      "nl": "Gekruide vispasta in bananenblad, meestal oranje, aromatisch, zacht en licht rokerig bij grillen."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small bites，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small bites; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served as small leaf-wrapped pieces, more like a soft fish custard than a crisp fried snack.",
+      "zh": "通常是一小份叶包鱼糕，更像柔软鱼浆糕，不是酥脆炸物。",
+      "nl": "Als kleine bladpakketjes; meer zachte viscustard dan krokante snack."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "street-food",
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency Malaysian-Singaporean menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将马来/新加坡菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Maleis en Singaporees menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A recognizable Malay/Nyonya-style snack where banana leaf and spiced fish paste define the dish.",
+        "zh": "常见马来/娘惹风格小吃，香蕉叶和香料鱼浆是识别重点。",
+        "nl": "Herkenbare Maleis/Nyonya-snack met bananenblad en gekruide vispasta als kern."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        40,
-        "main"
+        "spiced-fish-paste",
+        60,
+        "fish-custard-base"
       ],
       [
-        "mixed-vegetables",
-        25,
-        "body"
-      ],
-      [
-        "potato",
-        15,
-        "richness"
-      ],
-      [
-        "olive-oil",
+        "coconut-milk",
         10,
-        "finish",
+        "richness",
         "seasoning"
       ],
       [
-        "sea-salt",
-        5,
-        "seasoning",
+        "chili",
+        10,
+        "heat",
         "seasoning"
       ],
       [
-        "parsley",
+        "lemongrass",
         5,
-        "finish",
+        "aroma",
         "seasoning"
+      ],
+      [
+        "kaffir-lime-leaf",
+        5,
+        "citrus-aroma",
+        "seasoning"
+      ],
+      [
+        "turmeric",
+        5,
+        "color-and-earthiness",
+        "seasoning"
+      ],
+      [
+        "egg",
+        5,
+        "binder"
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-fillet",
-      "olive-oil",
-      "herbs"
+      "spiced-fish-paste",
+      "lemongrass",
+      "kaffir-lime-leaf",
+      "chili"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "spicy",
+      "aromatic",
+      "fishy"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "soft fish paste",
+      "leaf-wrapped aroma",
+      "slightly smoky edges"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-egg",
+      "can-be-spicy"
     ],
     "dietaryFlags": [
       "pescatarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "street-food",
+      "sharing-friendly"
     ],
     "avoidIfTags": [
-      "avoids-fish"
+      "fish-allergy",
+      "egg-allergy",
+      "dislikes-fish-paste-texture"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check fish if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good as a small aromatic fish snack; avoid if soft fish paste feels too strong.",
+      "zh": "适合作为香料鱼味小吃；如果不喜欢鱼浆软糯口感，可以避开。",
+      "nl": "Goed als kleine aromatische vissnack; vermijd als zachte vispasta te uitgesproken klinkt."
     },
-    "spiceLevel": 0,
+    "confidenceTag": "audited-malaysian-singaporean-batch-030",
+    "spiceLevel": 2,
     "weightLevel": 2,
-    "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.74,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -25040,92 +25245,120 @@ const globalDepthDishConfigs = [
     "cookingMethods": [
       "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Popiah is a common Malaysian-Singaporean menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "薄饼春卷是常见马来/新加坡菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Popiah is een veelvoorkomend Maleis en Singaporees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A soft fresh spring roll filled with cooked jicama, vegetables, egg or tofu, sweet sauce, chili, and sometimes crushed peanuts.",
+      "zh": "软皮鲜春卷，内馅多为熟沙葛、蔬菜、鸡蛋或豆腐，配甜酱、辣酱，有时有碎花生。",
+      "nl": "Zachte verse loempia met gestoofde jicama, groente, ei of tofu, zoete saus, chili en soms pinda."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small bites，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small bites; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Usually assembled fresh and served soft, so it is lighter than fried spring rolls but still sauced.",
+      "zh": "通常现包软食，比炸春卷轻，但仍有明显酱汁。",
+      "nl": "Meestal vers samengesteld en zacht geserveerd; lichter dan gefrituurde loempia maar wel gesausd."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "first-timer-friendly"
       ],
       "description": {
-        "en": "A high-frequency Malaysian-Singaporean menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将马来/新加坡菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Maleis en Singaporees menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common fresh roll order useful for diners who want a lighter starter.",
+        "zh": "常见鲜卷类前菜，适合想要较轻开胃菜的人。",
+        "nl": "Een veelvoorkomende verse rol voor wie een lichter voorgerecht zoekt."
       }
     },
     "composition": [
       [
-        "chicken",
-        40,
-        "main"
+        "popiah-wrapper",
+        30,
+        "soft-wrapper"
       ],
       [
-        "mixed-vegetables",
+        "jicama",
         25,
-        "body"
+        "main-filling"
       ],
       [
-        "potato",
-        15,
-        "richness"
-      ],
-      [
-        "olive-oil",
+        "tofu",
         10,
-        "finish",
+        "protein"
+      ],
+      [
+        "egg",
+        10,
+        "filling"
+      ],
+      [
+        "bean-sprouts",
+        10,
+        "crunch"
+      ],
+      [
+        "hoisin-sauce",
+        5,
+        "sweet-sauce",
         "seasoning"
       ],
       [
-        "sea-salt",
+        "peanuts",
         5,
-        "seasoning",
-        "seasoning"
+        "crunchy-finish"
       ],
       [
-        "parsley",
+        "chili",
         5,
-        "finish",
+        "optional-heat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "olive-oil",
-      "herbs"
+      "jicama",
+      "hoisin-sauce",
+      "peanuts",
+      "chili"
     ],
     "basicTaste": [
+      "fresh",
+      "sweet",
       "savory",
-      "mild"
+      "mildly-spicy"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "soft wrapper",
+      "moist vegetable filling",
+      "crisp sprouts",
+      "peanut crunch"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-soy",
+      "contains-egg",
+      "contains-peanut",
+      "can-be-spicy"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "lighter-choice",
+      "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "soy-allergy",
+      "egg-allergy",
+      "peanut-allergy",
+      "wants-crispy-fried-roll"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose this for a lighter sauced starter; skip if you wanted a crunchy fried spring roll.",
+      "zh": "想要较轻、有酱汁的前菜时适合；如果想吃酥脆炸春卷，不要点错。",
+      "nl": "Kies dit voor een lichter gesausd voorgerecht; sla over als je krokante gefrituurde loempia verwacht."
     },
-    "spiceLevel": 0,
+    "confidenceTag": "audited-malaysian-singaporean-batch-030",
+    "spiceLevel": 1,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "rojak",
@@ -25141,93 +25374,125 @@ const globalDepthDishConfigs = [
     "cookingMethods": [
       "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Rojak is a common Malaysian-Singaporean menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "马来甜辣沙拉是常见马来/新加坡菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Rojak is een veelvoorkomend Maleis en Singaporees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A mixed fruit, vegetable, tofu, and fritter salad coated in sticky dark tamarind-shrimp-paste sauce and crushed peanuts.",
+      "zh": "水果、蔬菜、豆腐和炸面食混合的沙拉，裹深色罗望子虾酱甜辣酱和碎花生。",
+      "nl": "Salade van fruit, groente, tofu en fritters met donkere tamarinde-garnalenpastasaus en pinda."
     },
     "cookingProfile": {
-      "en": "Usually served with crisp vegetables, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现crisp vegetables，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met crisp vegetables; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Assembled cool with a sticky sauce, so expect sweet, sour, funky, crunchy, and soft pieces together.",
+      "zh": "冷拌上桌，酱汁黏稠，甜、酸、发酵海味、脆感和软料会混在一起。",
+      "nl": "Koel samengesteld met kleverige saus; zoet, zuur, funky, knapperig en zacht tegelijk."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency Malaysian-Singaporean menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将马来/新加坡菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Maleis en Singaporees menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A distinctive Malaysian/Singaporean salad where shrimp-paste tamarind sauce is the key cue.",
+        "zh": "有辨识度的马新沙拉，重点是虾酱罗望子酱。",
+        "nl": "Een uitgesproken Maleis/Singaporese salade met garnalenpasta-tamarindesaus als kern."
       }
     },
     "composition": [
       [
-        "mixed-vegetables",
-        40,
-        "base"
-      ],
-      [
-        "chicken",
-        20,
-        "main or topping"
-      ],
-      [
-        "tomato",
-        15,
-        "freshness"
-      ],
-      [
         "cucumber",
-        10,
-        "freshness"
+        20,
+        "fresh-crunch"
       ],
       [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
+        "pineapple",
+        20,
+        "fruit"
       ],
       [
-        "vinegar",
+        "jicama",
+        15,
+        "crisp-body"
+      ],
+      [
+        "tofu-puffs",
+        15,
+        "soft-sponge"
+      ],
+      [
+        "fried-dough-cruller",
+        10,
+        "fried-crunch"
+      ],
+      [
+        "shrimp-paste",
         5,
-        "tang",
+        "fermented-sauce",
         "seasoning"
+      ],
+      [
+        "tamarind",
+        5,
+        "sour-sauce",
+        "seasoning"
+      ],
+      [
+        "palm-sugar",
+        5,
+        "sweetness",
+        "seasoning"
+      ],
+      [
+        "peanuts",
+        5,
+        "crunchy-finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "olive-oil",
-      "vinegar"
+      "shrimp-paste",
+      "tamarind",
+      "palm-sugar",
+      "peanuts"
     ],
     "basicTaste": [
-      "fresh",
-      "tangy"
+      "sweet",
+      "sour",
+      "savory",
+      "funky"
     ],
     "textureProfile": [
-      "fresh vegetables",
-      "light dressing"
+      "crisp fruit and vegetables",
+      "soft tofu puffs",
+      "sticky dark sauce",
+      "peanut crunch"
     ],
     "riskFlags": [
-      "contains-peanut"
+      "contains-shellfish",
+      "contains-peanut",
+      "contains-soy",
+      "contains-gluten"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "regional-dish",
+      "acquired-taste"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "peanut-allergy",
+      "soy-allergy",
+      "gluten-free",
+      "dislikes-fermented-seafood"
+    ],
     "orderVerdict": {
-      "en": "Order if this fresh, tangy profile sounds appealing; check peanut if that matters.",
-      "zh": "如果你想要fresh、tangy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van fresh, tangy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Try it if sweet-sour funky sauce sounds exciting; avoid if shrimp paste or mixed textures worry you.",
+      "zh": "如果想尝试甜酸发酵海味酱，很值得；介意虾酱或混合口感时不建议。",
+      "nl": "Probeer als zoetzuur-funky saus spannend klinkt; vermijd bij garnalenpasta of gemengde texturen."
     },
-    "spiceLevel": 0,
-    "weightLevel": 1,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "confidenceTag": "audited-malaysian-singaporean-batch-030",
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 4,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "tauhu-goreng",
@@ -25241,98 +25506,110 @@ const globalDepthDishConfigs = [
     },
     "category": "fried-snack",
     "cookingMethods": [
-      "deep-fried"
+      "fried",
+      "sauce-tossed"
     ],
+    "servingTemperature": "hot",
     "shortDescription": {
-      "en": "Tauhu Goreng is a common Malaysian-Singaporean menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "炸豆腐花生酱是常见马来/新加坡菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Tauhu goreng is een veelvoorkomend Maleis en Singaporees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Fried tofu served with bean sprouts, cucumber, and sweet-spicy peanut sauce.",
+      "zh": "炸豆腐配豆芽、黄瓜和甜辣花生酱。",
+      "nl": "Gebakken tofu met taugé, komkommer en zoet-pittige pindasaus."
     },
     "cookingProfile": {
-      "en": "Usually served with crisp outside, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现crisp outside，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met crisp outside; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The tofu is fried then sauced, so the edges can be crisp while the center stays soft and sauce-soaked.",
+      "zh": "豆腐先炸再淋酱，边缘可能酥，内部柔软并吸收酱汁。",
+      "nl": "Tofu wordt gebakken en gesausd; randjes krokant, binnenkant zacht en sausopnemend."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "street-food"
       ],
       "description": {
-        "en": "A high-frequency Malaysian-Singaporean menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将马来/新加坡菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Maleis en Singaporees menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common tofu snack where peanut sauce and fried tofu are the ordering cues.",
+        "zh": "常见豆腐小吃，炸豆腐和花生酱是识别重点。",
+        "nl": "Een bekende tofusnack met gebakken tofu en pindasaus als herkenning."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        30,
-        "coating"
+        "tofu",
+        45,
+        "fried-tofu-base"
       ],
       [
-        "chicken",
+        "satay-sauce",
         25,
-        "filling"
-      ],
-      [
-        "potato",
-        15,
-        "body"
-      ],
-      [
-        "egg",
-        10,
-        "binder"
-      ],
-      [
-        "olive-oil",
-        10,
-        "frying medium",
+        "peanut-sauce",
         "seasoning"
       ],
       [
-        "sea-salt",
+        "bean-sprouts",
         10,
-        "seasoning",
+        "fresh-crunch"
+      ],
+      [
+        "cucumber",
+        10,
+        "fresh-crunch"
+      ],
+      [
+        "peanuts",
+        5,
+        "crunchy-finish"
+      ],
+      [
+        "chili",
+        5,
+        "optional-heat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "fried crust",
-      "sea-salt"
+      "satay-sauce",
+      "tofu",
+      "peanuts",
+      "chili"
     ],
     "basicTaste": [
+      "nutty",
       "savory",
-      "fried"
+      "sweet",
+      "mildly-spicy"
     ],
     "textureProfile": [
-      "crisp outside",
-      "soft center"
+      "crisp tofu edges",
+      "soft center",
+      "crunchy sprouts",
+      "thick peanut sauce"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-peanut"
+      "contains-soy",
+      "contains-peanut",
+      "can-be-spicy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage"
+      "street-food",
+      "vegetarian-friendly"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "soy-allergy",
+      "peanut-allergy",
+      "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, fried profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要savory、fried的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, fried je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good vegetarian-friendly snack if peanuts are okay; skip for peanut allergy or very light eating.",
+      "zh": "花生可接受时，是不错的素食友好小吃；花生过敏或想吃很清淡时避开。",
+      "nl": "Goede vegetarische snack als pinda oké is; vermijd bij pinda-allergie of heel licht eten."
     },
-    "spiceLevel": 0,
+    "confidenceTag": "audited-malaysian-singaporean-batch-030",
+    "spiceLevel": 1,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -25347,96 +25624,116 @@ const globalDepthDishConfigs = [
     },
     "category": "starter",
     "cookingMethods": [
-      "assembled"
+      "stir-fried"
     ],
+    "servingTemperature": "hot",
     "shortDescription": {
-      "en": "Singapore Carrot Cake is a common Malaysian-Singaporean menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "新加坡萝卜糕是常见马来/新加坡菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Singaporese radijskoek is een veelvoorkomend Maleis en Singaporees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Not a sweet carrot cake: cubes of steamed radish cake stir-fried with egg, preserved radish, soy, chili, and scallions.",
+      "zh": "不是甜点胡萝卜蛋糕，而是蒸萝卜糕切块，与鸡蛋、菜脯、酱油、辣椒和葱快炒。",
+      "nl": "Geen zoete worteltaart: blokjes gestoomde radijskoek gewokt met ei, ingelegde radijs, soja, chili en lente-ui."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small bites，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small bites; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served hot from the wok, with soft starchy cubes, eggy browned bits, and sometimes dark soy sweetness.",
+      "zh": "热炒上桌，萝卜糕块软糯，鸡蛋边缘焦香，有时带黑酱油甜味。",
+      "nl": "Heet uit de wok, met zachte zetmeelblokjes, gebakken ei en soms donkere sojazoetheid."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "street-food",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Malaysian-Singaporean menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将马来/新加坡菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Maleis en Singaporees menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Singapore hawker classic; the name is misleading unless you know it means radish cake.",
+        "zh": "新加坡小贩经典，英文名容易误解，实际是萝卜糕炒蛋。",
+        "nl": "Singaporese hawkerklassieker; de naam misleidt als je niet weet dat het radijskoek is."
       }
     },
     "composition": [
       [
-        "chicken",
-        40,
-        "main"
+        "radish-cake",
+        50,
+        "starchy-cubes"
       ],
       [
-        "mixed-vegetables",
-        25,
-        "body"
+        "egg",
+        20,
+        "scrambled-through"
       ],
       [
-        "potato",
-        15,
-        "richness"
-      ],
-      [
-        "olive-oil",
+        "soy-sauce",
         10,
-        "finish",
+        "sauce",
         "seasoning"
       ],
       [
-        "sea-salt",
+        "daikon",
         5,
-        "seasoning",
+        "preserved-radish-note"
+      ],
+      [
+        "chili",
+        5,
+        "optional-heat",
         "seasoning"
       ],
       [
-        "parsley",
+        "garlic",
         5,
-        "finish",
+        "aroma",
         "seasoning"
+      ],
+      [
+        "green-onion",
+        5,
+        "fresh-finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "olive-oil",
-      "herbs"
+      "radish-cake",
+      "egg",
+      "soy-sauce",
+      "chili"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "salty",
+      "mildly-spicy",
+      "fried"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "soft radish-cake cubes",
+      "egg crust",
+      "wok-fried edges"
     ],
     "riskFlags": [
-      "contains-egg"
+      "contains-egg",
+      "contains-soy",
+      "can-be-spicy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage"
+      "street-food",
+      "classic-dish"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "soy-allergy",
+      "expects-sweet-dessert"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check egg if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order if you want savory wok-fried radish cake; do not expect a Western sweet carrot cake.",
+      "zh": "想吃咸香炒萝卜糕时适合；不要把它当成西式甜胡萝卜蛋糕。",
+      "nl": "Bestel als je hartige gewokte radijskoek wilt; verwacht geen westerse zoete worteltaart."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "confidenceTag": "audited-malaysian-singaporean-batch-030",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "ondeh-ondeh",
@@ -25450,99 +25747,99 @@ const globalDepthDishConfigs = [
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "boiled",
+      "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Ondeh-Ondeh is a common Malaysian-Singaporean menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "椰丝糯米球是常见马来/新加坡菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Ondeh-ondeh is een veelvoorkomend Maleis en Singaporees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Chewy pandan glutinous rice balls coated in grated coconut, usually filled with liquid palm sugar that bursts when bitten.",
+      "zh": "香兰糯米球裹椰丝，内馅常是会爆开的棕榈糖浆。",
+      "nl": "Kauwige pandan-kleefrijstballetjes met kokos, meestal gevuld met vloeibare palmsuiker."
     },
     "cookingProfile": {
-      "en": "Usually served with soft dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Usually served at room temperature as small chewy balls, with a sweet palm-sugar burst inside.",
+      "zh": "常温小甜点，外层糯韧，咬开会有棕榈糖甜浆。",
+      "nl": "Meestal op kamertemperatuur als kleine kauwige balletjes met palmsuiker-vulling."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Malaysian-Singaporean menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将马来/新加坡菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Maleis en Singaporees menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common Malay/Nyonya kuih where pandan, coconut, and palm sugar are the cues.",
+        "zh": "常见马来/娘惹糕点，香兰、椰丝和棕榈糖是识别重点。",
+        "nl": "Een bekende Maleis/Nyonya-kuih met pandan, kokos en palmsuiker als kern."
       }
     },
     "composition": [
       [
-        "sugar",
-        30,
-        "sweetness"
+        "sticky-rice",
+        45,
+        "chewy-rice-ball"
       ],
       [
-        "cream",
-        25,
-        "base"
-      ],
-      [
-        "egg",
-        15,
-        "richness"
-      ],
-      [
-        "wheat-flour",
-        15,
-        "structure"
-      ],
-      [
-        "vanilla",
-        10,
-        "aroma",
+        "palm-sugar",
+        20,
+        "liquid-filling",
         "seasoning"
       ],
       [
-        "fruit-sauce-or-caramel",
+        "grated-coconut",
+        20,
+        "outer-coating"
+      ],
+      [
+        "pandan",
+        10,
+        "green-aroma",
+        "seasoning"
+      ],
+      [
+        "coconut-milk",
         5,
-        "finish"
+        "softness",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "vanilla",
-      "cream",
-      "sweet finish"
+      "pandan",
+      "palm-sugar",
+      "grated-coconut"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "coconutty",
+      "aromatic"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "chewy rice ball",
+      "moist coconut coating",
+      "liquid sugar center"
     ],
-    "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "dessert"
+      "dessert",
+      "sharing-friendly"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "dislikes-chewy-desserts",
+      "wants-less-sweet-food"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Great for a small chewy coconut dessert; skip if palm-sugar sweetness is too much.",
+      "zh": "想吃小份糯叽叽椰香甜点时很合适；怕棕榈糖甜度过高则跳过。",
+      "nl": "Fijn als kleine kauwige kokosdessert; sla over als palmsuiker te zoet klinkt."
     },
+    "confidenceTag": "audited-malaysian-singaporean-batch-030",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "low"
   },
   {
     "id": "kuih-lapis",
@@ -25556,99 +25853,98 @@ const globalDepthDishConfigs = [
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "steamed",
+      "layered"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Kuih Lapis is a common Malaysian-Singaporean menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "九层糕是常见马来/新加坡菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Kuih lapis is een veelvoorkomend Maleis en Singaporees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A colorful steamed layered kuih made from rice/tapioca-style batter, coconut milk, sugar, and often pandan aroma.",
+      "zh": "彩色蒸制分层糕点，常由米浆或木薯粉类面糊、椰奶、糖和香兰香气组成。",
+      "nl": "Kleurrijke gestoomde laagjes-kuih van rijst/tapioca-achtig beslag, kokosmelk, suiker en vaak pandan."
     },
     "cookingProfile": {
-      "en": "Usually served with soft dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served cool in soft chewy layers, more gently sweet and coconutty than cake-like.",
+      "zh": "冷食或常温上桌，层层软韧，椰香甜味明显，不像蓬松蛋糕。",
+      "nl": "Koel geserveerd in zachte kauwige lagen; meer kokoszoet dan cakeachtig."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Malaysian-Singaporean menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将马来/新加坡菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Maleis en Singaporees menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common kuih dessert recognized by its bright steamed layers.",
+        "zh": "常见糕点甜品，彩色蒸制层次是识别重点。",
+        "nl": "Een bekende kuih-dessert herkenbaar aan de felle gestoomde lagen."
       }
     },
     "composition": [
       [
-        "sugar",
-        30,
-        "sweetness"
+        "kuih-lapis-cake",
+        55,
+        "layered-cake-base"
       ],
       [
-        "cream",
-        25,
-        "base"
-      ],
-      [
-        "egg",
-        15,
-        "richness"
-      ],
-      [
-        "wheat-flour",
-        15,
-        "structure"
-      ],
-      [
-        "vanilla",
-        10,
-        "aroma",
+        "coconut-milk",
+        20,
+        "richness",
         "seasoning"
       ],
       [
-        "fruit-sauce-or-caramel",
+        "rice-flour-batter",
+        10,
+        "structure"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
+      ],
+      [
+        "pandan",
         5,
-        "finish"
+        "aroma",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "vanilla",
-      "cream",
-      "sweet finish"
+      "coconut-milk",
+      "pandan",
+      "sugar"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "coconutty",
+      "mild"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft chewy layers",
+      "cool dessert",
+      "slightly sticky bite"
     ],
-    "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "dessert"
+      "dessert",
+      "first-timer-friendly"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "dislikes-chewy-desserts",
+      "wants-rich-cream-cake"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A gentle sweet snack if you like chewy coconut layers; skip if you expect fluffy sponge cake.",
+      "zh": "喜欢软韧椰香分层糕时适合；如果期待松软海绵蛋糕，就不太对。",
+      "nl": "Milde zoete snack voor wie kauwige kokoslagen lust; sla over als je luchtige cake verwacht."
     },
+    "confidenceTag": "audited-malaysian-singaporean-batch-030",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "low"
   },
   {
     "id": "pulut-hitam",
@@ -25662,99 +25958,95 @@ const globalDepthDishConfigs = [
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "simmered"
     ],
+    "servingTemperature": "warm-or-cool",
     "shortDescription": {
-      "en": "Pulut Hitam is a common Malaysian-Singaporean menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "黑糯米椰奶甜品是常见马来/新加坡菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Pulut hitam is een veelvoorkomend Maleis en Singaporees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Black glutinous rice dessert porridge with coconut milk and palm sugar, usually thick, dark, creamy, and gently sweet.",
+      "zh": "黑糯米甜粥配椰奶和棕榈糖，通常深色、浓稠、带椰香甜味。",
+      "nl": "Dessertpap van zwarte kleefrijst met kokosmelk en palmsuiker, meestal dik, donker, romig en zacht zoet."
     },
     "cookingProfile": {
-      "en": "Usually served with soft dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Simmered until the rice turns soft and thick, then finished with coconut milk for creaminess.",
+      "zh": "黑糯米熬到柔软浓稠，再以椰奶增加顺滑感。",
+      "nl": "Gesudderd tot de rijst zacht en dik is, daarna met kokosmelk romig gemaakt."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Malaysian-Singaporean menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将马来/新加坡菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Maleis en Singaporees menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common Malaysian/Singaporean dessert soup where black glutinous rice and coconut are the cues.",
+        "zh": "常见马新甜汤，黑糯米和椰奶是识别重点。",
+        "nl": "Een bekende Maleis/Singaporese dessertsoep met zwarte kleefrijst en kokos als kern."
       }
     },
     "composition": [
       [
-        "sugar",
-        30,
-        "sweetness"
+        "black-glutinous-rice",
+        55,
+        "rice-porridge-base"
       ],
       [
-        "cream",
+        "coconut-milk",
         25,
-        "base"
-      ],
-      [
-        "egg",
-        15,
-        "richness"
-      ],
-      [
-        "wheat-flour",
-        15,
-        "structure"
-      ],
-      [
-        "vanilla",
-        10,
-        "aroma",
+        "creamy-finish",
         "seasoning"
       ],
       [
-        "fruit-sauce-or-caramel",
+        "palm-sugar",
+        15,
+        "sweetness",
+        "seasoning"
+      ],
+      [
+        "pandan",
         5,
-        "finish"
+        "aroma",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "vanilla",
-      "cream",
-      "sweet finish"
+      "black-glutinous-rice",
+      "coconut-milk",
+      "palm-sugar",
+      "pandan"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "coconutty",
+      "mild"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "thick rice porridge",
+      "chewy grains",
+      "creamy coconut top"
     ],
-    "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "dessert"
+      "dessert",
+      "comfort-food"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "wants-light-refreshing-dessert",
+      "dislikes-rice-pudding-texture"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a warm, creamy rice dessert; skip if you want something icy or crisp.",
+      "zh": "想吃温润浓稠的米类甜品时适合；想要冰爽或酥脆甜点时可跳过。",
+      "nl": "Kies dit voor warm romig rijstdessert; sla over als je iets ijskouds of krokants wilt."
     },
+    "confidenceTag": "audited-malaysian-singaporean-batch-030",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "low"
   },
   {
     "id": "iskender-kebab",

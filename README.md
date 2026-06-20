@@ -22,7 +22,7 @@ Text input works with starter metadata. Image analysis uses the server-side Open
 
 ## Metadata coverage
 
-DishKAI's internal verified metadata currently includes 443 dishes and 1476 aliases across Thai, Japanese, Korean, Chinese, Italian, French, German, Dutch, Belgian, Greek, Spanish, Indian, Vietnamese, Indonesian, Malaysian/Singaporean, Turkish, Middle Eastern, Mexican, American, British/Irish, Moroccan, Portuguese, Surinamese, Ethiopian, Scandinavian, Peruvian, and Brazilian cuisine coverage. Greek coverage now includes 58 verified dishes, including deeper Dutch/European Greek restaurant grill, seafood, pasta, vegetarian, side, and kids-menu coverage. Common European café/brunch menu items are covered inside existing cuisine categories instead of adding new cuisines.
+DishKAI's internal verified metadata currently includes 721 dishes and 2182 aliases across 27 registered cuisine groups. Italian and French have optional 60-dish depth coverage after strict re-audit, while Indian, Vietnamese, Indonesian, and Malaysian/Singaporean have reached the 30-dish world-cuisine target. Generated expansion layers remain quarantined unless a row is restored through a documented <=30-dish review batch with dish-specific metadata and verified visual assets.
 
 Validate metadata integrity with:
 

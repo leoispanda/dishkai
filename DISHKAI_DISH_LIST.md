@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 703
-- Total aliases: 2120
+- Total verified dishes: 721
+- Total aliases: 2182
 - Total cuisines: 27
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -521,7 +521,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 110029 - `hotteok` - Hotteok / 韩式糖饼 / 호떡
 30. 110030 - `bingsu` - Bingsu / 韩式刨冰 / 빙수
 
-## Malaysian Singaporean (malaysian-singaporean) - 12
+## Malaysian Singaporean (malaysian-singaporean) - 30
 
 1. 118001 - `laksa` - Laksa / 叻沙 / laksa
 2. 118002 - `hainanese-chicken-rice` - Hainanese Chicken Rice / 海南鸡饭 / 海南鸡饭
@@ -535,6 +535,24 @@ Generated from data/internal/index.js after the verified database quarantine aud
 10. 118010 - `rendang-chicken` - Chicken Rendang / 鸡肉仁当 / rendang ayam
 11. 118011 - `kaya-toast` - Kaya Toast / 咖椰吐司 / kaya toast
 12. 118012 - `ice-kacang` - Ice Kacang / 红豆刨冰 / ais kacang
+13. 118013 - `mee-rebus` - Mee Rebus / 马来浓汁黄面 / mee rebus
+14. 118014 - `mee-siam` - Mee Siam / 酸辣米粉 / mee siam
+15. 118015 - `mee-goreng-mamak` - Mee Goreng Mamak / 嘛嘛档炒面 / mee goreng mamak
+16. 118016 - `curry-laksa` - Curry Laksa / 咖喱叻沙 / curry laksa
+17. 118017 - `asam-laksa` - Asam Laksa / 酸鱼叻沙 / asam laksa
+18. 118018 - `mee-pok` - Mee Pok / 新加坡扁面 / mee pok
+19. 118019 - `wantan-mee` - Wantan Mee / 云吞面 / wantan mee
+20. 118020 - `fish-head-curry` - Fish Head Curry / 鱼头咖喱 / fish head curry
+21. 118021 - `beef-rendang-malaysian` - Beef Rendang / 马来牛肉仁当 / rendang daging
+22. 118022 - `ayam-masak-merah` - Ayam Masak Merah / 红酱鸡 / ayam masak merah
+23. 118023 - `otak-otak` - Otak-Otak / 香料鱼糕 / otak-otak
+24. 118024 - `popiah` - Popiah / 薄饼春卷 / popiah
+25. 118025 - `rojak` - Rojak / 马来甜辣沙拉 / rojak
+26. 118026 - `tauhu-goreng` - Tauhu Goreng / 炸豆腐花生酱 / tauhu goreng
+27. 118027 - `carrot-cake-singapore` - Singapore Carrot Cake / 新加坡萝卜糕 / chai tow kway
+28. 118028 - `ondeh-ondeh` - Ondeh-Ondeh / 椰丝糯米球 / ondeh-ondeh
+29. 118029 - `kuih-lapis` - Kuih Lapis / 九层糕 / kuih lapis
+30. 118030 - `pulut-hitam` - Pulut Hitam / 黑糯米椰奶甜品 / pulut hitam
 
 ## Mexican (mexican) - 12
 
