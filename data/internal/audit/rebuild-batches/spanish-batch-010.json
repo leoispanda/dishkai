@@ -171,9 +171,9 @@
     "name": "Ensaladilla Rusa",
     "imagePath": "/assets/dishes/main/105016-ensaladilla-rusa.webp",
     "metadataConfidence": 0.82,
-    "auditStatus": "keep-verified",
-    "imageStatus": "accepted-existing",
-    "notes": "Existing image clearly shows Spanish potato salad with tuna, egg, and vegetables. Generic Russian salad alias removed. Metadata fully rebuilt from generated candidate source."
+    "auditStatus": "replace-image",
+    "imageStatus": "rejected-on-rereview",
+    "notes": "2026-06-20 verified image re-review found the existing image reads closer to a tuna/green-bean composed salad than Spanish mayo potato salad, so it was removed from verified until a replacement-quality image is available. Generic Russian salad alias remains outside verified."
   },
   {
     "dishId": "salmorejo",

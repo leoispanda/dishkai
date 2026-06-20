@@ -2,7 +2,7 @@
 
 This list contains dishes that should not be treated as trusted verified metadata until their listed action is complete.
 
-- Total high-risk or non-keep rows: 521
+- Total high-risk or non-keep rows: 522
 
 ## By source
 
@@ -10,7 +10,7 @@ This list contains dishes that should not be treated as trusted verified metadat
 - data/internal/dishes/europe-depth-dishes.js: 254
 - data/internal/dishes/global-depth-dishes.js: 239
 - data/internal/dishes/greek-depth-dishes.js: 15
-- data/internal/dishes/world-dishes.js: 2
+- data/internal/dishes/world-dishes.js: 3
 
 ## Rows
 
@@ -296,6 +296,7 @@ This list contains dishes that should not be treated as trusted verified metadat
 | silltallrik | 128058 | scandinavian | data/internal/dishes/europe-depth-dishes.js | high | rebuild | source layer is quarantined/untrusted; metadataConfidence 0.72 below 0.78; template-dishkai-explainer; template-common-menu-item; template-coverage-fill; template-order-verdict; template-europe-depth; Chinese localized field contains English placeholder words; composition pattern reused 22 times | quarantine from verified export; rebuild in <=30 dish batch |
 | gravlax-toast | 128059 | scandinavian | data/internal/dishes/europe-depth-dishes.js | high | rebuild | source layer is quarantined/untrusted; metadataConfidence 0.72 below 0.78; template-dishkai-explainer; template-common-menu-item; template-coverage-fill; template-order-verdict; template-europe-depth; Chinese localized field contains English placeholder words; composition pattern reused 22 times | quarantine from verified export; rebuild in <=30 dish batch |
 | rabarberpaj | 128060 | scandinavian | data/internal/dishes/europe-depth-dishes.js | high | rebuild | source layer is quarantined/untrusted; metadataConfidence 0.72 below 0.78; template-dishkai-explainer; template-common-menu-item; template-coverage-fill; template-order-verdict; template-europe-depth; composition pattern reused 63 times | quarantine from verified export; rebuild in <=30 dish batch |
+| ensaladilla-rusa | 105016 | spanish | data/internal/dishes/world-dishes.js | high | rebuild | source layer is quarantined/untrusted | quarantine from verified export; rebuild in <=30 dish batch |
 | cataplana | 125011 | portuguese | data/internal/dishes/world-dishes.js | high | rebuild | source layer is quarantined/untrusted; metadataConfidence 0.72 below 0.78; template-coverage-fill; template-order-verdict | quarantine from verified export; rebuild in <=30 dish batch |
 | pom | 126002 | surinamese | data/internal/dishes/world-dishes.js | high | rebuild | source layer is quarantined/untrusted; metadataConfidence 0.72 below 0.78; template-coverage-fill; template-order-verdict; Chinese localized field contains English placeholder words | quarantine from verified export; rebuild in <=30 dish batch |
 | lebkuchen | 106028 | german | data/internal/dishes/global-depth-dishes.js | high | rebuild | source layer is quarantined/untrusted; metadataConfidence 0.74 below 0.78; template-dishkai-explainer; template-common-menu-item; template-coverage-fill; template-order-verdict; composition pattern reused 34 times | quarantine from verified export; rebuild in <=30 dish batch |

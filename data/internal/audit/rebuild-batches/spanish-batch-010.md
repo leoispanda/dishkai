@@ -10,12 +10,12 @@ Initial candidate overview: [spanish-batch-010-candidates-images.png](spanish-ba
 
 Raw generated source copies: [spanish-batch-010-image-sources](spanish-batch-010-image-sources)
 
-- Result: 30 keep-verified
+- Result: 29 keep-verified after 2026-06-20 image re-review; `ensaladilla-rusa` was moved back to rebuild/replace-image
 - Metadata action: all 30 rows were fully rewritten and assigned `confidenceTag: audited-spanish-batch-010` with `metadataConfidence: 0.82`
 - Image action: 22 existing images were accepted after contact-sheet review; 8 mismatched or ambiguous images were replaced with reviewed WebP main/thumb assets and exact metadataCode badges
 - Alias action: removed or narrowed generic aliases such as `russian salad`, `fried calamari`, `black rice`, `garlic chicken`, `pork cheek`, `caramel custard`, and `squid sandwich`
-- Quality decision: only these 30 audited Spanish world candidates are restored to verified; the rest of `world-dishes.js` remains quarantined unless separately audited
-- Coverage result: Spanish verified coverage now reaches 30/30
+- Quality decision: only the Spanish rows with image-confirmed, dish-specific visual references stay restored to verified; the rest of `world-dishes.js` remains quarantined unless separately audited
+- Coverage result: Spanish verified coverage is 29/30 until `ensaladilla-rusa` receives a replacement-quality image
 
 | dishId | metadataCode | cuisineId | metadataConfidence | auditStatus | imageStatus | notes |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -34,7 +34,7 @@ Raw generated source copies: [spanish-batch-010-image-sources](spanish-batch-010
 | albondigas | 105013 | spanish | 0.82 | keep-verified | accepted-existing | Existing image clearly shows Spanish-style meatballs. Metadata fully rebuilt from generated candidate source. |
 | pimientos-de-padron | 105014 | spanish | 0.82 | keep-verified | accepted-replacement | Previous image looked like generic greens; replacement clearly shows blistered Padrón peppers with salt. Metadata fully rebuilt from generated candidate source. |
 | boquerones-en-vinagre | 105015 | spanish | 0.82 | keep-verified | accepted-existing | Existing image clearly shows small marinated anchovies with lemon. Metadata fully rebuilt from generated candidate source. |
-| ensaladilla-rusa | 105016 | spanish | 0.82 | keep-verified | accepted-existing | Existing image clearly shows Spanish potato salad with tuna, egg, and vegetables. Generic Russian salad alias removed. Metadata fully rebuilt from generated candidate source. |
+| ensaladilla-rusa | 105016 | spanish | 0.82 | replace-image | rejected-on-rereview | 2026-06-20 verified image re-review found the existing image reads closer to a tuna/green-bean composed salad than Spanish mayo potato salad, so it was removed from verified until a replacement-quality image is available. Generic Russian salad alias remains outside verified. |
 | salmorejo | 105017 | spanish | 0.82 | keep-verified | accepted-replacement | Previous image was too close to gazpacho and lacked egg/ham garnish; replacement clearly shows thick salmorejo with toppings. Metadata fully rebuilt from generated candidate source. |
 | calamares-a-la-romana | 105018 | spanish | 0.82 | keep-verified | accepted-existing | Existing image clearly shows battered fried squid rings. Generic fried calamari aliases were narrowed to avoid conflict with Italian calamari fritti. Metadata fully rebuilt from generated candidate source. |
 | fideua | 105019 | spanish | 0.82 | keep-verified | accepted-replacement | Previous image looked like rice paella; replacement shows short noodles with seafood. Metadata fully rebuilt from generated candidate source. |
