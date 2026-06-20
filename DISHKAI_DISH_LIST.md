@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 637
-- Total aliases: 1952
+- Total verified dishes: 643
+- Total aliases: 1964
 - Total cuisines: 27
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -329,7 +329,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 115029 - `pakora` - Pakora / 印度炸蔬菜 / pakora
 30. 115030 - `kulfi` - Kulfi / 印度奶香冰淇淋 / kulfi
 
-## Indonesian (indonesian) - 24
+## Indonesian (indonesian) - 30
 
 1. 117001 - `nasi-goreng` - Nasi Goreng / 印尼炒饭 / nasi goreng
 2. 117002 - `mie-goreng` - Mie Goreng / 印尼炒面 / mie goreng
@@ -355,6 +355,12 @@ Generated from data/internal/index.js after the verified database quarantine aud
 22. 117022 - `nasi-uduk` - Nasi Uduk / 印尼椰香饭 / nasi uduk
 23. 117023 - `bubur-ayam` - Bubur Ayam / 印尼鸡粥 / bubur ayam
 24. 117024 - `pempek` - Pempek / 印尼鱼糕 / pempek
+25. 117025 - `siomay-bandung` - Siomay Bandung / 印尼花生鱼肉烧卖 / siomay bandung
+26. 117026 - `martabak-telur` - Martabak Telur / 印尼咸蛋肉馅煎饼 / martabak telur
+27. 117027 - `martabak-manis` - Martabak Manis / 印尼甜厚煎饼 / martabak manis
+28. 117028 - `klepon` - Klepon / 印尼椰丝糯米球 / klepon
+29. 117029 - `es-cendol` - Es Cendol / 印尼珍多椰奶冰 / es cendol
+30. 117030 - `sambal-goreng-kentang` - Sambal Goreng Kentang / 印尼参巴辣土豆 / sambal goreng kentang
 
 ## Italian (italian) - 30
 

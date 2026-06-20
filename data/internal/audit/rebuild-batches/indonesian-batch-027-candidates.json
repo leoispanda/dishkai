@@ -1,0 +1,56 @@
+[
+  {
+    "dishId": "siomay-bandung",
+    "metadataCode": "117025",
+    "cuisineId": "indonesian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Siomay Bandung",
+    "imagePath": "/assets/dishes/main/117025-siomay-bandung.webp",
+    "thumbPath": "/assets/dishes/thumb/117025-siomay-bandung.webp"
+  },
+  {
+    "dishId": "martabak-telur",
+    "metadataCode": "117026",
+    "cuisineId": "indonesian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Martabak Telur",
+    "imagePath": "/assets/dishes/main/117026-martabak-telur.webp",
+    "thumbPath": "/assets/dishes/thumb/117026-martabak-telur.webp"
+  },
+  {
+    "dishId": "martabak-manis",
+    "metadataCode": "117027",
+    "cuisineId": "indonesian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Martabak Manis",
+    "imagePath": "/assets/dishes/main/117027-martabak-manis.webp",
+    "thumbPath": "/assets/dishes/thumb/117027-martabak-manis.webp"
+  },
+  {
+    "dishId": "klepon",
+    "metadataCode": "117028",
+    "cuisineId": "indonesian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Klepon",
+    "imagePath": "/assets/dishes/main/117028-klepon.webp",
+    "thumbPath": "/assets/dishes/thumb/117028-klepon.webp"
+  },
+  {
+    "dishId": "es-cendol",
+    "metadataCode": "117029",
+    "cuisineId": "indonesian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Es Cendol",
+    "imagePath": "/assets/dishes/main/117029-es-cendol.webp",
+    "thumbPath": "/assets/dishes/thumb/117029-es-cendol.webp"
+  },
+  {
+    "dishId": "sambal-goreng-kentang",
+    "metadataCode": "117030",
+    "cuisineId": "indonesian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Sambal Goreng Kentang",
+    "imagePath": "/assets/dishes/main/117030-sambal-goreng-kentang.webp",
+    "thumbPath": "/assets/dishes/thumb/117030-sambal-goreng-kentang.webp"
+  }
+]

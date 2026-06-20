@@ -23156,105 +23156,129 @@ const globalDepthDishConfigs = [
     "cuisineId": "indonesian",
     "names": {
       "en": "Siomay Bandung",
-      "zh": "印尼花生鱼饺",
+      "zh": "印尼花生鱼肉烧卖",
       "nl": "Siomay Bandung",
       "local": "siomay bandung"
     },
     "category": "starter",
     "cookingMethods": [
+      "steamed",
       "assembled"
     ],
     "shortDescription": {
-      "en": "Siomay Bandung is a common Indonesian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "印尼花生鱼饺是常见印尼菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Siomay Bandung is een veelvoorkomend Indonesisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Steamed Indonesian fish dumplings served with peanut sauce, often with tofu, potato, cabbage, and egg on the plate.",
+      "zh": "印尼蒸鱼肉烧卖，常配花生酱，也会同盘出现豆腐、土豆、卷心菜和鸡蛋。",
+      "nl": "Gestoomde Indonesische visdumplings met pindasaus, vaak met tofu, aardappel, kool en ei erbij."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small bites，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small bites; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The dumplings are steamed and soft, while the peanut sauce makes the dish nutty and saucy.",
+      "zh": "鱼肉烧卖蒸熟后柔软弹嫩，花生酱让整体更浓郁、带坚果香。",
+      "nl": "De dumplings zijn gestoomd en zacht; pindasaus maakt het gerecht nootachtig en sauzig."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "street-food",
+        "classic-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A high-frequency Indonesian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印尼菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indonesisch menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Bandung-associated Indonesian street-food dish where fish dumplings and peanut sauce are the main cues.",
+        "zh": "与万隆相关的印尼街头小吃，点餐重点是鱼肉烧卖和花生酱。",
+        "nl": "Een Indonesisch streetfoodgerecht uit Bandung waarbij visdumplings en pindasaus centraal staan."
       }
     },
     "composition": [
       [
-        "fish-fillet",
+        "siomay-fish-dumpling",
         40,
-        "main"
+        "steamed fish dumplings"
       ],
       [
-        "mixed-vegetables",
+        "satay-sauce",
         25,
-        "body"
+        "peanut sauce",
+        "seasoning"
       ],
       [
         "potato",
-        15,
-        "richness"
-      ],
-      [
-        "olive-oil",
         10,
-        "finish",
-        "seasoning"
+        "soft side",
+        "ingredient",
+        "medium",
+        true
       ],
       [
-        "sea-salt",
-        5,
-        "seasoning",
-        "seasoning"
+        "tofu",
+        10,
+        "soy side",
+        "ingredient",
+        "medium",
+        true
       ],
       [
-        "parsley",
+        "egg",
+        10,
+        "boiled egg side",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "cabbage",
         5,
-        "finish",
-        "seasoning"
+        "steamed vegetable side",
+        "ingredient",
+        "low",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-fillet",
-      "olive-oil",
-      "herbs"
+      "fish dumpling",
+      "peanut sauce",
+      "steamed sides"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "nutty",
+      "mildly sweet",
+      "saucy"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "soft bouncy dumplings",
+      "thick peanut sauce",
+      "tender side pieces"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-peanut",
+      "contains-soy",
+      "contains-egg"
     ],
     "dietaryFlags": [
       "pescatarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "street-food",
+      "first-timer-friendly",
+      "seafood"
     ],
     "avoidIfTags": [
-      "avoids-fish"
+      "avoids-fish",
+      "peanut-allergy",
+      "soy-allergy",
+      "avoids-egg"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check fish if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you want a soft, saucy fish-dumpling plate; skip it for peanut or fish allergies.",
+      "zh": "想吃柔软、带花生酱的鱼肉小吃时很适合；花生或鱼类过敏不建议点。",
+      "nl": "Goed als je zachte visdumplings met saus wilt; vermijd bij pinda- of visallergie."
     },
-    "spiceLevel": 0,
+    "spiceLevel": 1,
     "weightLevel": 2,
     "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.74,
+    "confidenceTag": "audited-indonesian-batch-027",
+    "metadataConfidence": 0.86,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -23263,104 +23287,112 @@ const globalDepthDishConfigs = [
     "cuisineId": "indonesian",
     "names": {
       "en": "Martabak Telur",
-      "zh": "印尼咸蛋饼",
+      "zh": "印尼咸蛋肉馅煎饼",
       "nl": "Martabak telur",
       "local": "martabak telur"
     },
-    "category": "bread",
+    "category": "fried-snack",
     "cookingMethods": [
-      "baked"
+      "fried",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Martabak Telur is a common Indonesian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "印尼咸蛋饼是常见印尼菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Martabak telur is een veelvoorkomend Indonesisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A crisp savory stuffed pancake filled with egg, minced meat, and scallions, usually cut into squares with pickles or chili sauce.",
+      "zh": "咸口煎炸夹馅薄饼，常包鸡蛋、肉末和葱，切成方块配酸黄瓜或辣酱。",
+      "nl": "Een krokante hartige gevulde pannenkoek met ei, gehakt en lente-ui, vaak in vierkantjes met zuur of chilisaus."
     },
     "cookingProfile": {
-      "en": "Usually served with chewy bread, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现chewy bread，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met chewy bread; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The thin wrapper fries crisp around a moist eggy filling, so it eats like a rich street-food snack.",
+      "zh": "薄面皮煎到酥脆，内馅有蛋香和肉香，吃起来像浓郁街头小吃。",
+      "nl": "Het dunne vel wordt krokant gebakken rond een vochtige eivulling; rijk streetfood."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "street-food",
+        "fried-snack",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Indonesian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印尼菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indonesisch menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common Indonesian street-food and takeaway item recognized by its crisp stuffed egg pancake format.",
+        "zh": "印尼街头和外带常见菜，特点是酥脆外皮和咸蛋肉馅。",
+        "nl": "Veelvoorkomend Indonesisch streetfood en afhaalgerecht met krokant vel en eivulling."
       }
     },
     "composition": [
       [
-        "bread",
-        45,
-        "base"
+        "martabak-wrapper",
+        35,
+        "crisp wrapper"
       ],
       [
-        "chicken",
+        "egg",
         25,
-        "filling"
+        "egg filling"
       ],
       [
-        "cheese",
-        15,
-        "body"
+        "ground-meat",
+        20,
+        "savory minced filling"
       ],
       [
-        "tomato",
+        "green-onion",
+        10,
+        "fresh aromatic filling"
+      ],
+      [
+        "neutral-frying-oil",
         5,
-        "freshness"
+        "frying medium"
       ],
       [
-        "olive-oil",
+        "black-pepper",
         5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "sea-salt",
-        5,
-        "seasoning",
+        "warm seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "cheese",
-      "toasted bread"
+      "crisp fried wrapper",
+      "egg filling",
+      "minced meat and scallion"
     ],
     "basicTaste": [
       "savory",
-      "bready"
+      "eggy",
+      "fried",
+      "lightly peppery"
     ],
     "textureProfile": [
-      "chewy bread",
-      "filled center"
+      "crisp flaky edges",
+      "moist egg filling",
+      "small minced meat bits"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-dairy",
       "contains-egg"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "street-food",
+      "sharing",
+      "fried-snack"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "avoids-egg",
+      "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, bready profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要savory、bready的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, bready je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a crisp, filling savory snack; confirm the meat if you avoid beef, chicken, or lamb.",
+      "zh": "想吃酥脆又饱腹的咸口小吃时适合；不吃牛、鸡或羊肉时先确认内馅。",
+      "nl": "Kies dit voor een krokante, vullende hartige snack; vraag naar het vlees indien nodig."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "confidenceTag": "audited-indonesian-batch-027",
+    "metadataConfidence": 0.86,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -23375,99 +23407,119 @@ const globalDepthDishConfigs = [
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "fried",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Martabak Manis is a common Indonesian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "印尼甜厚煎饼是常见印尼菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Martabak manis is een veelvoorkomend Indonesisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A thick sweet Indonesian pancake folded around rich fillings such as chocolate sprinkles, peanuts, cheese, and condensed milk.",
+      "zh": "印尼厚甜煎饼，常夹巧克力米、花生、奶酪和炼乳，甜度和分量都偏高。",
+      "nl": "Een dikke zoete Indonesische pannenkoek met vulling zoals chocoladehagel, pinda, kaas en gecondenseerde melk."
     },
     "cookingProfile": {
-      "en": "Usually served with soft dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Cooked on a griddle until spongy, then buttered and folded, so it is dense, sweet, and shareable.",
+      "zh": "厚饼在平锅上煎到松软，再抹料折叠，口感绵厚、甜且适合分享。",
+      "nl": "Op een plaat gebakken tot sponsachtig, daarna gevuld en gevouwen; stevig, zoet en deelbaar."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "street-food",
+        "dessert",
+        "sharing"
       ],
       "description": {
-        "en": "A high-frequency Indonesian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印尼菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indonesisch menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A popular Indonesian night-market sweet where a thick pancake and rich fillings are the main cues.",
+        "zh": "印尼夜市常见甜品，点餐重点是厚煎饼和浓厚甜馅。",
+        "nl": "Een populaire Indonesische avondmarktsnack met dikke pannenkoek en rijke zoete vulling."
       }
     },
     "composition": [
       [
-        "sugar",
-        30,
-        "sweetness"
+        "martabak-sweet-pancake",
+        45,
+        "thick pancake base"
       ],
       [
-        "cream",
-        25,
-        "base"
-      ],
-      [
-        "egg",
+        "condensed-milk",
         15,
-        "richness"
-      ],
-      [
-        "wheat-flour",
-        15,
-        "structure"
-      ],
-      [
-        "vanilla",
-        10,
-        "aroma",
+        "sweet creamy filling",
         "seasoning"
       ],
       [
-        "fruit-sauce-or-caramel",
+        "chocolate",
+        15,
+        "sweet filling"
+      ],
+      [
+        "peanuts",
+        10,
+        "nutty filling",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "cheese",
+        10,
+        "salty creamy filling",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "butter",
         5,
-        "finish"
+        "richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "vanilla",
-      "cream",
-      "sweet finish"
+      "condensed milk",
+      "chocolate sprinkles",
+      "peanut and cheese filling"
     ],
     "basicTaste": [
-      "sweet",
-      "creamy"
+      "very sweet",
+      "creamy",
+      "nutty",
+      "rich"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "thick spongy pancake",
+      "sticky filling",
+      "crunchy peanut bits"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-peanut"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
-      "dessert"
+      "dessert",
+      "sharing",
+      "street-food"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "avoids-egg",
+      "dairy-free",
+      "peanut-allergy",
+      "wants-light-food"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order it as a rich shared dessert; skip if you want something light or need to avoid dairy, egg, gluten, or peanuts.",
+      "zh": "适合当浓郁分享甜品；想吃清爽或需要避乳、蛋、麸质、花生时不推荐。",
+      "nl": "Neem dit als rijk gedeeld dessert; vermijd bij licht eten of zuivel-, ei-, gluten- of pinda-allergie."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "confidenceTag": "audited-indonesian-batch-027",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "klepon",
@@ -23481,99 +23533,99 @@ const globalDepthDishConfigs = [
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "boiled",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Klepon is a common Indonesian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "印尼椰丝糯米球是常见印尼菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Klepon is een veelvoorkomend Indonesisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Small green pandan glutinous-rice balls rolled in grated coconut, with melted palm sugar that bursts inside.",
+      "zh": "绿色香兰糯米小球，外裹椰丝，咬开会有棕榈糖浆爆开。",
+      "nl": "Kleine groene pandan-kleefrijstballetjes met kokos, gevuld met vloeibare palmsuiker."
     },
     "cookingProfile": {
-      "en": "Usually served with soft dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The rice balls are boiled until chewy, then coated in coconut, so the key surprise is the liquid palm-sugar center.",
+      "zh": "糯米球煮到弹糯后裹椰丝，重点是咬开时流出的棕榈糖心。",
+      "nl": "De rijstballetjes worden chewy gekookt en met kokos bedekt; de verrassing is vloeibare palmsuiker."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "dessert",
+        "street-food",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Indonesian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印尼菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indonesisch menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic Indonesian market sweet recognized by green coconut-coated balls and palm-sugar filling.",
+        "zh": "印尼市集经典甜点，特点是绿色椰丝糯米球和棕榈糖内馅。",
+        "nl": "Een klassiek Indonesisch marktdessert met groene kokosballetjes en palmsuikervulling."
       }
     },
     "composition": [
       [
-        "sugar",
-        30,
-        "sweetness"
+        "klepon-rice-ball",
+        60,
+        "chewy rice ball"
       ],
       [
-        "cream",
-        25,
-        "base"
+        "grated-coconut",
+        20,
+        "coconut coating"
       ],
       [
-        "egg",
+        "palm-sugar",
         15,
-        "richness"
-      ],
-      [
-        "wheat-flour",
-        15,
-        "structure"
-      ],
-      [
-        "vanilla",
-        10,
-        "aroma",
+        "liquid filling",
         "seasoning"
       ],
       [
-        "fruit-sauce-or-caramel",
+        "cendol-jelly",
         5,
-        "finish"
+        "pandan color and aroma cue",
+        "ingredient",
+        "low",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "vanilla",
-      "cream",
-      "sweet finish"
+      "pandan aroma",
+      "palm sugar burst",
+      "grated coconut"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "coconutty",
+      "caramel-like",
+      "mild"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "chewy rice dough",
+      "moist coconut coating",
+      "liquid sugar center"
     ],
-    "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegetarian",
+      "vegan"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "dessert"
+      "dessert",
+      "street-food",
+      "vegan"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "dislikes-chewy-desserts",
+      "wants-low-sugar"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A small, fun sweet if you like chewy coconut desserts; skip if sticky textures or sugar bursts bother you.",
+      "zh": "喜欢弹糯椰香甜点时很适合；不喜欢黏糯口感或糖浆爆心时慎点。",
+      "nl": "Leuk klein zoet als je chewy kokosdesserts lust; sla over bij kleverige textuur of zoete vulling."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "confidenceTag": "audited-indonesian-batch-027",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "low"
   },
   {
     "id": "es-cendol",
@@ -23581,104 +23633,113 @@ const globalDepthDishConfigs = [
     "cuisineId": "indonesian",
     "names": {
       "en": "Es Cendol",
-      "zh": "印尼椰奶冰甜品",
+      "zh": "印尼珍多椰奶冰",
       "nl": "Es cendol",
       "local": "es cendol"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "chilled",
+      "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Es Cendol is a common Indonesian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "印尼椰奶冰甜品是常见印尼菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Es cendol is een veelvoorkomend Indonesisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A cold Indonesian coconut-milk dessert drink with green cendol jelly, shaved ice, and dark palm-sugar syrup.",
+      "zh": "印尼冰甜品饮料，有绿色珍多粉条、椰奶、碎冰和深色棕榈糖浆。",
+      "nl": "Een koud Indonesisch kokosmelkdessert met groene cendolgelei, schaafijs en donkere palmsuikersiroop."
     },
     "cookingProfile": {
-      "en": "Usually served with soft dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served cold and layered, so it feels creamy, icy, slippery, and sweet rather than cake-like.",
+      "zh": "冷食分层上桌，口感是冰凉、椰奶顺滑、粉条滑弹和糖浆甜香。",
+      "nl": "Koud en gelaagd geserveerd; romig, ijzig, glad en zoet in plaats van cakeachtig."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "dessert",
+        "street-food",
+        "cold"
       ],
       "description": {
-        "en": "A high-frequency Indonesian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印尼菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indonesisch menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common Indonesian cold sweet where cendol jelly, coconut milk, and palm sugar define the order.",
+        "zh": "印尼常见冰甜品，点餐重点是珍多粉条、椰奶和棕榈糖。",
+        "nl": "Een bekend Indonesisch koud dessert met cendolgelei, kokosmelk en palmsuiker."
       }
     },
     "composition": [
       [
-        "sugar",
+        "cendol-jelly",
+        35,
+        "green jelly strands"
+      ],
+      [
+        "coconut-milk",
         30,
-        "sweetness"
-      ],
-      [
-        "cream",
-        25,
-        "base"
-      ],
-      [
-        "egg",
-        15,
-        "richness"
-      ],
-      [
-        "wheat-flour",
-        15,
-        "structure"
-      ],
-      [
-        "vanilla",
-        10,
-        "aroma",
+        "creamy liquid",
         "seasoning"
       ],
       [
-        "fruit-sauce-or-caramel",
+        "shaved-ice",
+        15,
+        "cold ice base"
+      ],
+      [
+        "palm-sugar",
+        15,
+        "dark syrup",
+        "seasoning"
+      ],
+      [
+        "red-kidney-beans",
         5,
-        "finish"
+        "optional sweet bean",
+        "ingredient",
+        "low",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "vanilla",
-      "cream",
-      "sweet finish"
+      "coconut milk",
+      "palm sugar syrup",
+      "pandan cendol jelly"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "cold",
+      "caramel-like"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "slippery jelly strands",
+      "icy coconut milk",
+      "syrupy bottom layer"
     ],
-    "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegetarian",
+      "vegan"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage",
-      "dessert"
+      "dessert",
+      "cold",
+      "vegan"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "wants-low-sugar",
+      "dislikes-jelly-textures",
+      "wants-hot-dessert"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Great as a cooling sweet drink-dessert; skip if you dislike jelly textures or very sweet coconut drinks.",
+      "zh": "想要冰凉甜饮兼甜品时很适合；不喜欢粉条冻感或高甜椰奶饮时慎点。",
+      "nl": "Goed als verkoelend zoet drinkdessert; sla over bij gelei-textuur of erg zoete kokosdrank."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "confidenceTag": "audited-indonesian-batch-027",
+    "metadataConfidence": 0.86,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -23687,101 +23748,114 @@ const globalDepthDishConfigs = [
     "cuisineId": "indonesian",
     "names": {
       "en": "Sambal Goreng Kentang",
-      "zh": "印尼辣土豆",
+      "zh": "印尼参巴辣土豆",
       "nl": "Sambal goreng kentang",
       "local": "sambal goreng kentang"
     },
-    "category": "starter",
+    "category": "side",
+    "mealRole": "side",
+    "portionType": "side",
+    "goodForSharing": true,
     "cookingMethods": [
-      "assembled"
+      "fried",
+      "sauce-tossed"
     ],
     "shortDescription": {
-      "en": "Sambal Goreng Kentang is a common Indonesian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "印尼辣土豆是常见印尼菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Sambal goreng kentang is een veelvoorkomend Indonesisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Small fried potato pieces tossed in red sambal chili sauce, often served as a spicy side with rice dishes.",
+      "zh": "小块炸土豆裹红色参巴辣酱，常作为配饭的辣味小菜。",
+      "nl": "Kleine gebakken aardappelblokjes in rode sambal, vaak als pittig bijgerecht bij rijst."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small bites，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small bites; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The potatoes are fried first, then coated in sambal, so expect a soft-crisp potato bite with chili oil heat.",
+      "zh": "土豆先炸再裹参巴，入口有土豆外层香脆感和辣椒油润感。",
+      "nl": "De aardappel wordt eerst gebakken en dan met sambal gemengd; zacht-krokant met chiliwarmte."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "side",
+        "spicy",
+        "rice-side"
       ],
       "description": {
-        "en": "A high-frequency Indonesian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印尼菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indonesisch menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common Indonesian rice-table side where potato and sambal are the main ordering cues.",
+        "zh": "印尼饭菜中常见小菜，点餐重点是土豆和参巴辣酱。",
+        "nl": "Een veelvoorkomend Indonesisch rijsttafelbijgerecht met aardappel en sambal."
       }
     },
     "composition": [
       [
-        "chicken",
-        40,
-        "main"
-      ],
-      [
-        "mixed-vegetables",
-        25,
-        "body"
-      ],
-      [
         "potato",
-        15,
-        "richness"
+        60,
+        "fried potato pieces"
       ],
       [
-        "olive-oil",
+        "sambal",
+        20,
+        "red chili sauce",
+        "seasoning"
+      ],
+      [
+        "neutral-frying-oil",
         10,
-        "finish",
-        "seasoning"
+        "frying medium"
       ],
       [
-        "sea-salt",
+        "fried-onions",
         5,
+        "crisp garnish"
+      ],
+      [
+        "coconut-milk",
+        5,
+        "optional richer sauce",
         "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
+        "high",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "olive-oil",
-      "herbs"
+      "sambal chili paste",
+      "fried potato",
+      "fried shallots"
     ],
     "basicTaste": [
+      "spicy",
       "savory",
-      "mild"
+      "lightly sweet",
+      "oily"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "soft fried potato cubes",
+      "glossy chili coating",
+      "crisp fried shallots"
     ],
     "riskFlags": [
       "can-be-spicy"
     ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "restaurant-coverage"
+    "dietaryFlags": [
+      "vegetarian",
+      "vegan"
     ],
-    "avoidIfTags": [],
+    "goodForTags": [
+      "spicy",
+      "side",
+      "rice"
+    ],
+    "avoidIfTags": [
+      "avoids-spicy",
+      "wants-light-food"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check can be spicy if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good spicy side for rice plates; skip if you do not want chili oil or fried potatoes.",
+      "zh": "适合作为配饭辣味小菜；不想吃辣油或炸土豆时不推荐。",
+      "nl": "Goed pittig bijgerecht bij rijst; sla over als je geen chiliolie of gebakken aardappel wilt."
     },
     "spiceLevel": 2,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "confidenceTag": "audited-indonesian-batch-027",
+    "metadataConfidence": 0.86,
     "restaurantVariationLevel": "medium"
   },
   {

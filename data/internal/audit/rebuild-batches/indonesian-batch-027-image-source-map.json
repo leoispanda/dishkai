@@ -1,0 +1,44 @@
+[
+  {
+    "dishId": "siomay-bandung",
+    "sourcePng": "data/internal/audit/rebuild-batches/indonesian-batch-027-image-sources/117025-siomay-bandung.png",
+    "mainPath": "/assets/dishes/main/117025-siomay-bandung.webp",
+    "thumbPath": "/assets/dishes/thumb/117025-siomay-bandung.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "martabak-telur",
+    "sourcePng": "data/internal/audit/rebuild-batches/indonesian-batch-027-image-sources/117026-martabak-telur.png",
+    "mainPath": "/assets/dishes/main/117026-martabak-telur.webp",
+    "thumbPath": "/assets/dishes/thumb/117026-martabak-telur.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "martabak-manis",
+    "sourcePng": "data/internal/audit/rebuild-batches/indonesian-batch-027-image-sources/117027-martabak-manis.png",
+    "mainPath": "/assets/dishes/main/117027-martabak-manis.webp",
+    "thumbPath": "/assets/dishes/thumb/117027-martabak-manis.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "klepon",
+    "sourcePng": "data/internal/audit/rebuild-batches/indonesian-batch-027-image-sources/117028-klepon.png",
+    "mainPath": "/assets/dishes/main/117028-klepon.webp",
+    "thumbPath": "/assets/dishes/thumb/117028-klepon.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "es-cendol",
+    "sourcePng": "data/internal/audit/rebuild-batches/indonesian-batch-027-image-sources/117029-es-cendol.png",
+    "mainPath": "/assets/dishes/main/117029-es-cendol.webp",
+    "thumbPath": "/assets/dishes/thumb/117029-es-cendol.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "sambal-goreng-kentang",
+    "sourcePng": "data/internal/audit/rebuild-batches/indonesian-batch-027-image-sources/117030-sambal-goreng-kentang.png",
+    "mainPath": "/assets/dishes/main/117030-sambal-goreng-kentang.webp",
+    "thumbPath": "/assets/dishes/thumb/117030-sambal-goreng-kentang.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  }
+]
