@@ -3318,13 +3318,6 @@ export const globalDepthDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "prawn curry",
-    "dishId": "prawn-curry-indian",
-    "language": "menu",
-    "matchType": "canonical",
-    "confidence": 1
-  },
-  {
     "alias": "印度虾咖喱",
     "dishId": "prawn-curry-indian",
     "language": "menu",
@@ -3340,13 +3333,6 @@ export const globalDepthDishAliases = [
   },
   {
     "alias": "Indian Fish Curry",
-    "dishId": "fish-curry-indian",
-    "language": "menu",
-    "matchType": "canonical",
-    "confidence": 1
-  },
-  {
-    "alias": "fish curry",
     "dishId": "fish-curry-indian",
     "language": "menu",
     "matchType": "canonical",

@@ -18641,99 +18641,122 @@ const globalDepthDishConfigs = [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Indian Prawn Curry is a common Indian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "印度虾咖喱是常见印度菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Indiase garnalencurry is een veelvoorkomend Indiaas menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Prawns in an Indian curry sauce, often coconut- or tomato-based, with warm spices and a saucy rice-friendly feel.",
+      "zh": "印度虾咖喱：虾配椰奶或番茄香料酱，温暖辛香，适合配米饭或饼。",
+      "nl": "Garnalen in een Indiase currysaus, vaak met kokos of tomaat, warme kruiden en veel saus voor rijst."
     },
     "cookingProfile": {
-      "en": "Usually served with saucy curry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现saucy curry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met saucy curry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The prawns are usually gently simmered in sauce, so they should feel juicy rather than heavily fried.",
+      "zh": "虾通常在咖喱酱中轻煮，口感应偏多汁，不是厚重油炸。",
+      "nl": "De garnalen worden meestal zacht in saus gegaard, dus ze horen sappig te zijn en niet zwaar gefrituurd."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "seafood",
+        "curry"
       ],
       "description": {
-        "en": "A high-frequency Indian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印度菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indiaas menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common Indian restaurant seafood curry; the exact regional sauce varies, so shellfish and spice level are the key checks.",
+        "zh": "印度餐厅常见海鲜咖喱，地区酱底差异较大，点餐重点是甲壳类过敏和辣度。",
+        "nl": "Een veelvoorkomende Indiase zeevruchtencurry; de saus verschilt per regio, dus schaaldieren en pittigheid zijn de kernchecks."
       }
     },
     "composition": [
       [
         "shrimp",
         35,
-        "main"
+        "main shellfish"
       ],
       [
-        "coconut-curry",
-        25,
-        "sauce",
+        "coconut-milk",
+        20,
+        "creamy curry base",
+        "seasoning"
+      ],
+      [
+        "tomato-sauce",
+        15,
+        "masala body",
         "seasoning"
       ],
       [
         "steamed-rice",
-        20,
-        "base"
+        15,
+        "usual pairing",
+        "ingredient",
+        "medium",
+        true
       ],
       [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "cumin",
+        "curry-leaves",
         5,
-        "aroma",
+        "herbal aroma",
         "seasoning"
       ],
       [
-        "coriander",
+        "mustard-seed-tempering",
         5,
-        "aroma",
+        "tempered spice aroma",
+        "seasoning"
+      ],
+      [
+        "chili",
+        3,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "tamarind",
+        2,
+        "sour tang",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "warm spices",
-      "curry sauce",
-      "shrimp"
+      "prawn sweetness",
+      "coconut or tomato curry sauce",
+      "curry leaves and mustard seed tempering"
     ],
     "basicTaste": [
       "savory",
-      "spiced",
-      "saucy"
+      "warm-spiced",
+      "saucy",
+      "mildly tangy"
     ],
     "textureProfile": [
-      "saucy curry",
-      "tender pieces"
+      "juicy prawns",
+      "loose curry sauce",
+      "soft rice pairing"
     ],
     "riskFlags": [
-      "can-be-spicy",
-      "contains-shellfish"
+      "contains-shellfish",
+      "can-be-spicy"
     ],
     "dietaryFlags": [
       "pescatarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "seafood",
+      "curry",
+      "rice"
     ],
     "avoidIfTags": [
-      "shellfish-allergy"
+      "shellfish-allergy",
+      "wants-dry-grilled-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, spiced, saucy profile sounds appealing; check can be spicy if that matters.",
-      "zh": "如果你想要savory、spiced、saucy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, spiced, saucy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good pick for shellfish lovers who want a saucy curry; ask about heat and coconut if the menu is vague.",
+      "zh": "喜欢虾和多酱咖喱时适合；菜单没写清时建议确认辣度和是否有椰奶。",
+      "nl": "Een goede keuze voor wie garnalen en sausrijke curry wil; vraag naar pittigheid en kokos als het menu vaag is."
     },
     "spiceLevel": 2,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "confidenceTag": "audited-indian-depth-batch-025",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "fish-curry-indian",
@@ -18750,99 +18773,122 @@ const globalDepthDishConfigs = [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Indian Fish Curry is a common Indian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "印度鱼咖喱是常见印度菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Indiase viscurry is een veelvoorkomend Indiaas menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Fish pieces in an Indian curry sauce, commonly tangy, warmly spiced, and served with rice or flatbread.",
+      "zh": "印度鱼咖喱：鱼块配温暖香料酱，常带酸香，通常配米饭或饼。",
+      "nl": "Visstukken in een Indiase currysaus, vaak friszuur, warm gekruid en geserveerd met rijst of brood."
     },
     "cookingProfile": {
-      "en": "Usually served with saucy curry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现saucy curry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met saucy curry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The fish is usually simmered in sauce until flaky, so the dish should feel tender and saucy rather than crisp.",
+      "zh": "鱼通常在酱汁中慢煮到松软，整体应是细嫩多酱，不是酥脆口感。",
+      "nl": "De vis wordt meestal in saus gestoofd tot hij vlokkig is, dus het gerecht voelt mals en sauzig, niet krokant."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "seafood",
+        "curry"
       ],
       "description": {
-        "en": "A high-frequency Indian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印度菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indiaas menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common seafood curry across Indian restaurant menus; regional versions can lean coconut-rich, tomato-spiced, or tamarind-tangy.",
+        "zh": "印度餐厅常见海鲜咖喱，不同地区可能偏椰奶浓郁、番茄香料或罗望子酸香。",
+        "nl": "Een bekende zeevruchtencurry op Indiase menu's; regionale versies kunnen kokosrijk, tomaatkruidig of tamarindezuur zijn."
       }
     },
     "composition": [
       [
         "fish-fillet",
         35,
-        "main"
+        "main fish"
       ],
       [
-        "coconut-curry",
-        25,
-        "sauce",
+        "coconut-milk",
+        20,
+        "creamy curry base",
+        "seasoning"
+      ],
+      [
+        "tomato-sauce",
+        15,
+        "masala body",
         "seasoning"
       ],
       [
         "steamed-rice",
-        20,
-        "base"
+        15,
+        "usual pairing",
+        "ingredient",
+        "medium",
+        true
       ],
       [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "cumin",
+        "tamarind",
         5,
-        "aroma",
+        "sour lift",
         "seasoning"
       ],
       [
-        "coriander",
+        "curry-leaves",
         5,
-        "aroma",
+        "herbal aroma",
+        "seasoning"
+      ],
+      [
+        "mustard-seed-tempering",
+        3,
+        "tempered spice aroma",
+        "seasoning"
+      ],
+      [
+        "chili",
+        2,
+        "heat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "warm spices",
-      "curry sauce",
-      "fish-fillet"
+      "flaky fish",
+      "tamarind tang",
+      "coconut or tomato masala"
     ],
     "basicTaste": [
       "savory",
-      "spiced",
+      "warm-spiced",
+      "tangy",
       "saucy"
     ],
     "textureProfile": [
-      "saucy curry",
-      "tender pieces"
+      "flaky fish",
+      "smooth curry sauce",
+      "soft rice pairing"
     ],
     "riskFlags": [
-      "can-be-spicy",
-      "contains-fish"
+      "contains-fish",
+      "can-be-spicy"
     ],
     "dietaryFlags": [
       "pescatarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "seafood",
+      "curry",
+      "rice"
     ],
     "avoidIfTags": [
-      "avoids-fish"
+      "avoids-fish",
+      "wants-crisp-texture"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, spiced, saucy profile sounds appealing; check can be spicy if that matters.",
-      "zh": "如果你想要savory、spiced、saucy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, spiced, saucy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it if you want tender fish in curry sauce; skip it if fish bones, tangy sauce, or medium heat bother you.",
+      "zh": "想要嫩鱼配咖喱酱时可选；介意鱼刺、酸香酱汁或中等辣度时慎选。",
+      "nl": "Kies dit voor malse vis in currysaus; sla over als graatjes, zurige saus of gemiddelde pittigheid je storen."
     },
     "spiceLevel": 2,
     "weightLevel": 3,
     "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "confidenceTag": "audited-indian-depth-batch-025",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "dosa",
@@ -18969,95 +19015,103 @@ const globalDepthDishConfigs = [
     },
     "category": "starter",
     "cookingMethods": [
+      "steamed",
       "assembled"
     ],
     "shortDescription": {
-      "en": "Idli is a common Indian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "印度蒸米糕是常见印度菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Idli is een veelvoorkomend Indiaas menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Soft steamed South Indian rice-lentil cakes, usually served with sambar and coconut chutney.",
+      "zh": "南印度蒸米豆糕，质地柔软，通常配扁豆蔬菜汤和椰子酸辣酱。",
+      "nl": "Zachte gestoomde Zuid-Indiase rijst-linzenkoekjes, meestal met sambar en kokoschutney."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small bites，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small bites; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Steamed rather than fried, so idli feels light, soft, and sauce-dependent.",
+      "zh": "以蒸制为主，不是油炸，吃起来轻柔松软，味道主要来自配汤和酸辣酱。",
+      "nl": "Gestoomd in plaats van gefrituurd, dus idli voelt licht, zacht en afhankelijk van de sauzen."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "vegetarian",
+        "breakfast"
       ],
       "description": {
-        "en": "A high-frequency Indian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印度菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indiaas menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic South Indian breakfast or snack where softness and the accompanying sambar/chutney matter most.",
+        "zh": "经典南印度早餐或小食，点餐重点是松软糕体以及配汤、酸辣酱。",
+        "nl": "Een klassiek Zuid-Indiase ontbijt- of snackgerecht waarbij zachtheid en sambar/chutney centraal staan."
       }
     },
     "composition": [
       [
-        "mixed-vegetables",
-        40,
-        "main"
+        "idli-batter",
+        60,
+        "steamed cake base"
       ],
       [
-        "mixed-vegetables",
-        25,
-        "body"
+        "sambar",
+        20,
+        "lentil stew dip"
       ],
       [
-        "potato",
-        15,
-        "richness"
+        "coconut-chutney",
+        12,
+        "cool chutney"
       ],
       [
-        "olive-oil",
-        10,
-        "finish",
+        "mustard-seed-tempering",
+        5,
+        "tadka aroma",
         "seasoning"
       ],
       [
-        "sea-salt",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
+        "chili",
+        3,
+        "dip heat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "mixed-vegetables",
-      "olive-oil",
-      "herbs"
+      "soft fermented rice-lentil batter",
+      "sambar",
+      "coconut chutney"
     ],
     "basicTaste": [
+      "mild",
       "savory",
-      "mild"
+      "tangy",
+      "lightly spicy"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "soft steamed cakes",
+      "spongy crumb",
+      "dipping sauces"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
     "dietaryFlags": [
-      "vegan"
+      "vegan",
+      "gluten-free-base"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "vegetarian",
+      "light",
+      "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "wants-crispy-food",
+      "dislikes-fermented-batter"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A gentle choice if you want something light and soft; it may feel plain without the sambar and chutney.",
+      "zh": "想吃清淡柔软的小食时很适合；如果不蘸配汤和酸辣酱，味道会偏素。",
+      "nl": "Een milde keuze als je iets lichts en zachts wilt; zonder sambar en chutney kan het vrij eenvoudig smaken."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
+    "spiceLevel": 1,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "confidenceTag": "audited-indian-depth-batch-025",
+    "metadataConfidence": 0.88,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -19068,103 +19122,118 @@ const globalDepthDishConfigs = [
       "en": "Vada",
       "zh": "印度炸豆饼",
       "nl": "Vada",
-      "local": "vada"
+      "local": "medu vada"
     },
     "category": "fried-snack",
     "cookingMethods": [
-      "deep-fried"
+      "deep-fried",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Vada is a common Indian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "印度炸豆饼是常见印度菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Vada is een veelvoorkomend Indiaas menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A savory South Indian lentil fritter, often doughnut-shaped, crisp outside and soft inside, served with chutney or sambar.",
+      "zh": "南印度咸味炸豆饼，常做成环形，外酥内软，配酸辣酱或扁豆汤。",
+      "nl": "Een hartige Zuid-Indiase linzenbeignet, vaak ringvormig, krokant buiten en zacht binnen, met chutney of sambar."
     },
     "cookingProfile": {
-      "en": "Usually served with crisp outside, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现crisp outside，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met crisp outside; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Deep-fried until crisp, then served hot with dips, so it is heavier than idli but still snack-sized.",
+      "zh": "油炸至外层酥脆后趁热配酱上桌，比蒸米糕更厚重，但仍是小食分量。",
+      "nl": "Gefrituurd tot krokant en warm met dips geserveerd; zwaarder dan idli maar nog steeds snackachtig."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "street-food",
+        "vegetarian"
       ],
       "description": {
-        "en": "A high-frequency Indian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印度菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indiaas menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic South Indian snack where crisp shell, soft lentil center, and chutney/sambar define the order.",
+        "zh": "经典南印度小食，点餐重点是酥脆外壳、柔软豆香内芯和配酱。",
+        "nl": "Een klassieke Zuid-Indiase snack; krokante buitenkant, zachte linzenkern en dips bepalen de ervaring."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        30,
-        "coating"
+        "medu-vada-batter",
+        55,
+        "fried lentil fritter"
       ],
       [
-        "mixed-vegetables",
-        25,
-        "filling"
+        "neutral-frying-oil",
+        10,
+        "frying medium"
       ],
       [
-        "potato",
+        "sambar",
         15,
-        "body"
+        "lentil stew dip"
       ],
       [
-        "egg",
+        "coconut-chutney",
         10,
-        "binder"
+        "cool chutney"
       ],
       [
-        "olive-oil",
-        10,
-        "frying medium",
+        "mustard-seed-tempering",
+        5,
+        "tadka aroma",
         "seasoning"
       ],
       [
-        "sea-salt",
-        10,
-        "seasoning",
+        "chili",
+        3,
+        "dip heat",
+        "seasoning"
+      ],
+      [
+        "curry-leaves",
+        2,
+        "herbal aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "mixed-vegetables",
-      "fried crust",
-      "sea-salt"
+      "fried lentil batter",
+      "coconut chutney",
+      "sambar"
     ],
     "basicTaste": [
       "savory",
-      "fried"
+      "fried",
+      "lightly spicy",
+      "tangy"
     ],
     "textureProfile": [
       "crisp outside",
-      "soft center"
+      "soft lentil center",
+      "dipping sauces"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg"
+      "can-be-spicy"
     ],
     "dietaryFlags": [
-      "vegan"
+      "vegan",
+      "gluten-free-base"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "street-food",
+      "vegetarian",
+      "fried-snack"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "avoids-fried-food",
+      "wants-light-steamed-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, fried profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要savory、fried的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, fried je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Pick vada if you want a crisp savory snack with dips; choose idli instead if you want something lighter.",
+      "zh": "想要酥脆咸香小食时可点；如果想更清淡柔软，idli 会更合适。",
+      "nl": "Neem vada voor een krokante hartige snack met dips; kies idli als je iets lichters wilt."
     },
-    "spiceLevel": 0,
+    "spiceLevel": 1,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "confidenceTag": "audited-indian-depth-batch-025",
+    "metadataConfidence": 0.87,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -19179,100 +19248,126 @@ const globalDepthDishConfigs = [
     },
     "category": "fried-snack",
     "cookingMethods": [
-      "deep-fried"
+      "deep-fried",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Pakora is a common Indian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "印度炸蔬菜是常见印度菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Pakora is een veelvoorkomend Indiaas menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Vegetables or paneer coated in spiced chickpea-flour batter and fried into crisp bite-sized fritters.",
+      "zh": "蔬菜或印度奶酪裹鹰嘴豆粉香料糊后油炸，做成酥脆小块。",
+      "nl": "Groenten of paneer in gekruid kikkererwtenbeslag, gefrituurd tot krokante hapklare beignets."
     },
     "cookingProfile": {
-      "en": "Usually served with crisp outside, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现crisp outside，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met crisp outside; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Fried quickly in batter, so the appeal is crisp coating, soft filling, and chutney on the side.",
+      "zh": "裹糊后快速油炸，重点是酥脆外层、柔软内馅和蘸酱。",
+      "nl": "Snel in beslag gefrituurd; de aantrekkingskracht zit in krokante coating, zachte vulling en chutney."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "street-food",
+        "vegetarian"
       ],
       "description": {
-        "en": "A high-frequency Indian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印度菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indiaas menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic Indian fried snack; batter type, filling, chutney, and oiliness drive the ordering decision.",
+        "zh": "经典印度油炸小食，点餐重点是面糊、内馅、蘸酱和油润程度。",
+        "nl": "Een klassieke Indiase frituursnack; beslag, vulling, chutney en vettigheid bepalen de keuze."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        30,
-        "coating"
+        "chickpea-flour-batter",
+        40,
+        "spiced coating"
       ],
       [
         "mixed-vegetables",
         25,
-        "filling"
+        "usual filling"
       ],
       [
         "potato",
-        15,
-        "body"
+        10,
+        "starchy filling",
+        "ingredient",
+        "medium",
+        true
       ],
       [
-        "egg",
-        10,
-        "binder"
+        "spinach",
+        5,
+        "leafy filling",
+        "ingredient",
+        "medium",
+        true
       ],
       [
-        "olive-oil",
+        "neutral-frying-oil",
         10,
-        "frying medium",
+        "frying medium"
+      ],
+      [
+        "mint-chutney",
+        5,
+        "fresh dip",
         "seasoning"
       ],
       [
-        "sea-salt",
-        10,
-        "seasoning",
+        "tamarind-chutney",
+        3,
+        "sweet-sour dip",
+        "seasoning"
+      ],
+      [
+        "chili",
+        2,
+        "heat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "mixed-vegetables",
-      "fried crust",
-      "sea-salt"
+      "chickpea-flour batter",
+      "fried vegetable filling",
+      "mint or tamarind chutney"
     ],
     "basicTaste": [
       "savory",
-      "fried"
+      "fried",
+      "spiced",
+      "tangy"
     ],
     "textureProfile": [
-      "crisp outside",
-      "soft center"
+      "crisp battered edges",
+      "soft vegetable center",
+      "chutney dip"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg"
+      "can-be-spicy"
     ],
     "dietaryFlags": [
-      "vegan"
+      "vegan",
+      "gluten-free-base"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "street-food",
+      "vegetarian",
+      "shareable"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "avoids-fried-food",
+      "wants-light-main"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, fried profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要savory、fried的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, fried je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good for sharing as a crisp starter; ask what filling is used if you avoid paneer, onion, or cross-contact with gluten.",
+      "zh": "适合作为酥脆前菜分享；如果避开奶酪、洋葱或麸质交叉接触，建议确认内馅。",
+      "nl": "Goed om te delen als krokant voorgerecht; vraag naar de vulling bij paneer-, ui- of glutencontactzorgen."
     },
-    "spiceLevel": 0,
+    "spiceLevel": 1,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "confidenceTag": "audited-indian-depth-batch-025",
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "kulfi",
@@ -19286,99 +19381,118 @@ const globalDepthDishConfigs = [
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "set",
+      "chilled"
     ],
     "shortDescription": {
-      "en": "Kulfi is a common Indian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "印度奶香冰淇淋是常见印度菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Kulfi is een veelvoorkomend Indiaas menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Dense Indian frozen dairy dessert, often flavored with cardamom, saffron, pistachio, mango, or rose.",
+      "zh": "印度浓郁冷冻奶甜点，常见小豆蔻、藏红花、开心果、芒果或玫瑰风味。",
+      "nl": "Dicht Indiaas bevroren zuiveldessert, vaak met kardemom, saffraan, pistache, mango of roos."
     },
     "cookingProfile": {
-      "en": "Usually served with soft dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served frozen and dense rather than airy, so it eats creamier and slower than many scooped ice creams.",
+      "zh": "冷冻上桌，质地较紧实，不像普通冰淇淋那样蓬松，奶香更厚。",
+      "nl": "Bevroren en compact geserveerd, dus romiger en trager smeltend dan veel bolletjesijs."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "dessert",
+        "vegetarian"
       ],
       "description": {
-        "en": "A high-frequency Indian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将印度菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Indiaas menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic Indian dessert where dense dairy texture and cardamom/nut flavor are the main ordering cues.",
+        "zh": "经典印度甜点，点餐重点是紧实奶感和小豆蔻、坚果香。",
+        "nl": "Een klassiek Indiaas dessert; compacte zuiveltextuur en kardemom/notenaroma zijn de belangrijkste signalen."
       }
     },
     "composition": [
       [
+        "kulfi-base",
+        45,
+        "dense frozen dairy base"
+      ],
+      [
+        "milk-solids",
+        20,
+        "milky body"
+      ],
+      [
         "sugar",
-        30,
+        15,
         "sweetness"
       ],
       [
-        "cream",
-        25,
-        "base"
-      ],
-      [
-        "egg",
-        15,
-        "richness"
-      ],
-      [
-        "wheat-flour",
-        15,
-        "structure"
-      ],
-      [
-        "vanilla",
+        "pistachios",
         10,
-        "aroma",
+        "nut garnish",
+        "ingredient",
+        "medium",
+        true
+      ],
+      [
+        "cardamom",
+        5,
+        "sweet spice",
         "seasoning"
       ],
       [
-        "fruit-sauce-or-caramel",
-        5,
-        "finish"
+        "saffron",
+        3,
+        "floral aroma",
+        "seasoning"
+      ],
+      [
+        "condensed-milk",
+        2,
+        "extra dairy sweetness",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "vanilla",
-      "cream",
-      "sweet finish"
+      "reduced milk density",
+      "cardamom",
+      "pistachio or saffron"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "milky",
+      "aromatic"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "dense frozen dairy",
+      "slow-melting",
+      "optional nut crunch"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-tree-nut"
     ],
     "dietaryFlags": [
       "vegetarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "dessert",
+      "classic-dish",
+      "vegetarian"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "avoids-dairy",
+      "tree-nut-allergy",
+      "wants-light-dessert"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose kulfi if you want a dense milky dessert; skip it if dairy or pistachio-style nut garnish is a problem.",
+      "zh": "想要浓厚奶香冷甜点时适合；不吃奶制品或介意开心果等坚果装饰时慎选。",
+      "nl": "Kies kulfi voor een compact melkachtig dessert; sla over bij zuivelmijding of problemen met pistacheachtige noten."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "confidenceTag": "audited-indian-depth-batch-025",
+    "metadataConfidence": 0.88,
     "restaurantVariationLevel": "medium"
   },
   {

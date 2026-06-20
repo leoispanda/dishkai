@@ -1,0 +1,56 @@
+[
+  {
+    "dishId": "prawn-curry-indian",
+    "metadataCode": "115024",
+    "name": "Indian Prawn Curry",
+    "imagePath": "/assets/dishes/main/115024-prawn-curry-indian.webp",
+    "thumbPath": "/assets/dishes/thumb/115024-prawn-curry-indian.webp",
+    "cuisineId": "indian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "fish-curry-indian",
+    "metadataCode": "115025",
+    "name": "Indian Fish Curry",
+    "imagePath": "/assets/dishes/main/115025-fish-curry-indian.webp",
+    "thumbPath": "/assets/dishes/thumb/115025-fish-curry-indian.webp",
+    "cuisineId": "indian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "idli",
+    "metadataCode": "115027",
+    "name": "Idli",
+    "imagePath": "/assets/dishes/main/115027-idli.webp",
+    "thumbPath": "/assets/dishes/thumb/115027-idli.webp",
+    "cuisineId": "indian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "vada",
+    "metadataCode": "115028",
+    "name": "Vada",
+    "imagePath": "/assets/dishes/main/115028-vada.webp",
+    "thumbPath": "/assets/dishes/thumb/115028-vada.webp",
+    "cuisineId": "indian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "pakora",
+    "metadataCode": "115029",
+    "name": "Pakora",
+    "imagePath": "/assets/dishes/main/115029-pakora.webp",
+    "thumbPath": "/assets/dishes/thumb/115029-pakora.webp",
+    "cuisineId": "indian",
+    "auditStatus": "verified-after-rebuild"
+  },
+  {
+    "dishId": "kulfi",
+    "metadataCode": "115030",
+    "name": "Kulfi",
+    "imagePath": "/assets/dishes/main/115030-kulfi.webp",
+    "thumbPath": "/assets/dishes/thumb/115030-kulfi.webp",
+    "cuisineId": "indian",
+    "auditStatus": "verified-after-rebuild"
+  }
+]

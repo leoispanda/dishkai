@@ -1,0 +1,50 @@
+[
+  {
+    "metadataCode": "115024",
+    "dishId": "prawn-curry-indian",
+    "sourcePng": "data/internal/audit/rebuild-batches/indian-depth-batch-025-image-sources/115024-prawn-curry-indian.png",
+    "mainPath": "/assets/dishes/main/115024-prawn-curry-indian.webp",
+    "thumbPath": "/assets/dishes/thumb/115024-prawn-curry-indian.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "115025",
+    "dishId": "fish-curry-indian",
+    "sourcePng": "data/internal/audit/rebuild-batches/indian-depth-batch-025-image-sources/115025-fish-curry-indian.png",
+    "mainPath": "/assets/dishes/main/115025-fish-curry-indian.webp",
+    "thumbPath": "/assets/dishes/thumb/115025-fish-curry-indian.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "115027",
+    "dishId": "idli",
+    "sourcePng": "data/internal/audit/rebuild-batches/indian-depth-batch-025-image-sources/115027-idli.png",
+    "mainPath": "/assets/dishes/main/115027-idli.webp",
+    "thumbPath": "/assets/dishes/thumb/115027-idli.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "115028",
+    "dishId": "vada",
+    "sourcePng": "data/internal/audit/rebuild-batches/indian-depth-batch-025-image-sources/115028-vada.png",
+    "mainPath": "/assets/dishes/main/115028-vada.webp",
+    "thumbPath": "/assets/dishes/thumb/115028-vada.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "115029",
+    "dishId": "pakora",
+    "sourcePng": "data/internal/audit/rebuild-batches/indian-depth-batch-025-image-sources/115029-pakora.png",
+    "mainPath": "/assets/dishes/main/115029-pakora.webp",
+    "thumbPath": "/assets/dishes/thumb/115029-pakora.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  },
+  {
+    "metadataCode": "115030",
+    "dishId": "kulfi",
+    "sourcePng": "data/internal/audit/rebuild-batches/indian-depth-batch-025-image-sources/115030-kulfi.png",
+    "mainPath": "/assets/dishes/main/115030-kulfi.webp",
+    "thumbPath": "/assets/dishes/thumb/115030-kulfi.webp",
+    "imageAction": "generated replacement; local code stamp applied"
+  }
+]

@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 601
-- Total aliases: 1858
+- Total verified dishes: 607
+- Total aliases: 1872
 - Total cuisines: 27
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -296,7 +296,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 42. 104011 - `baklava` - Baklava / 果仁蜜酥 / μπακλαβάς
 43. 104012 - `loukoumades` - Loukoumades / 希腊蜂蜜小炸球 / λουκουμάδες
 
-## Indian (indian) - 24
+## Indian (indian) - 30
 
 1. 115001 - `butter-chicken` - Butter Chicken / 黄油鸡 / murgh makhani
 2. 115002 - `chicken-tikka-masala` - Chicken Tikka Masala / 马萨拉烤鸡咖喱 / chicken tikka masala
@@ -321,7 +321,13 @@ Generated from data/internal/index.js after the verified database quarantine aud
 21. 115021 - `jalfrezi` - Jalfrezi / 印度椒香快炒咖喱 / jalfrezi
 22. 115022 - `bhuna` - Bhuna / 浓炒香料咖喱 / bhuna
 23. 115023 - `dhansak` - Dhansak / 扁豆酸甜咖喱 / dhansak
-24. 115026 - `dosa` - Dosa / 印度米豆脆饼 / dosa
+24. 115024 - `prawn-curry-indian` - Indian Prawn Curry / 印度虾咖喱 / prawn curry
+25. 115025 - `fish-curry-indian` - Indian Fish Curry / 印度鱼咖喱 / fish curry
+26. 115026 - `dosa` - Dosa / 印度米豆脆饼 / dosa
+27. 115027 - `idli` - Idli / 印度蒸米糕 / idli
+28. 115028 - `vada` - Vada / 印度炸豆饼 / medu vada
+29. 115029 - `pakora` - Pakora / 印度炸蔬菜 / pakora
+30. 115030 - `kulfi` - Kulfi / 印度奶香冰淇淋 / kulfi
 
 ## Indonesian (indonesian) - 12
 
