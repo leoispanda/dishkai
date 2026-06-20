@@ -266,6 +266,7 @@ const auditedGeneratedDishIds = new Set([
   "albondigas",
   "pimientos-de-padron",
   "boquerones-en-vinagre",
+  "ensaladilla-rusa",
   "salmorejo",
   "calamares-a-la-romana",
   "fideua",

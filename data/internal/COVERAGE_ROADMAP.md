@@ -8,16 +8,16 @@ Verified metadata is the source of truth. It should be curated for high-frequenc
 
 Current verified starter database:
 
-- 588 verified dishes
+- 589 verified dishes
 - 27 cuisines
-- 1830 verified aliases
+- 1834 verified aliases
 
 Recent depth progress:
 
 - Generated expansion layers were quarantined after strict audit; verified counts only reflect rows rebuilt through manual <=30-dish batches.
-- Registered European cuisines remain at least 30 verified dishes except Spanish, which is temporarily 29 after the `ensaladilla-rusa` image re-review.
+- Registered European cuisines remain at least 30 verified dishes after the `ensaladilla-rusa` replacement restored Spanish to 30.
 - World Layer Batches 018-021 and World Truth Batches 022-023 brought verified coverage to 589 dishes / 1834 aliases.
-- A 2026-06-20 image re-review removed `ensaladilla-rusa` from verified because its image was misleading; current verified coverage is 588 dishes / 1830 aliases until it receives a replacement-quality image.
+- A 2026-06-20 image re-review removed `ensaladilla-rusa` from verified because its image was misleading; a replacement-quality image restored current verified coverage to 589 dishes / 1834 aliases.
 - Global Truth Batches 024-033 were reverted because their abstract deterministic schematic images were too crude to identify dishes at a glance. Those rows need replacement-quality, clearly recognizable images before they can return to verified.
 
 Next verified coverage targets:

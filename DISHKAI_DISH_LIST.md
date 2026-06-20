@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 588
-- Total aliases: 1830
+- Total verified dishes: 589
+- Total aliases: 1834
 - Total cuisines: 27
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -567,7 +567,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 30. 128028 - `riskrem` - Riskrem / 挪威奶油米布丁 / Riskrem
 31. 128029 - `aebleskiver` - Aebleskiver / 丹麦圆球小煎饼 / Æbleskiver
 
-## Spanish (spanish) - 29
+## Spanish (spanish) - 30
 
 1. 105001 - `paella` - Paella / 西班牙海鲜饭 / Paella
 2. 105002 - `tortilla-espanola` - Tortilla Española / 西班牙土豆蛋饼 / Tortilla española
@@ -584,20 +584,21 @@ Generated from data/internal/index.js after the verified database quarantine aud
 13. 105013 - `albondigas` - Albóndigas / 西班牙肉丸 / Albóndigas
 14. 105014 - `pimientos-de-padron` - Pimientos de Padrón / 帕德龙小青椒 / Pimientos de Padrón
 15. 105015 - `boquerones-en-vinagre` - Boquerones en Vinagre / 醋渍凤尾鱼 / Boquerones en vinagre
-16. 105017 - `salmorejo` - Salmorejo / 安达卢西亚浓番茄冷汤 / Salmorejo
-17. 105018 - `calamares-a-la-romana` - Calamares a la Romana / 西班牙炸鱿鱼圈 / Calamares a la romana
-18. 105019 - `fideua` - Fideuà / 西班牙海鲜短面 / Fideuà
-19. 105020 - `arroz-negro` - Arroz Negro / 西班牙墨鱼汁黑饭 / Arroz negro
-20. 105021 - `bacalao-al-pil-pil` - Bacalao al Pil Pil / 盐鳕鱼橄榄油乳化酱 / Bacalao al pil pil
-21. 105022 - `merluza-a-la-vasca` - Merluza a la Vasca / 巴斯克绿酱无须鳕 / Merluza a la vasca
-22. 105023 - `pollo-al-ajillo` - Pollo al Ajillo / 西班牙蒜香鸡 / Pollo al ajillo
-23. 105024 - `rabo-de-toro` - Rabo de Toro / 西班牙炖牛尾 / Rabo de toro
-24. 105025 - `carrillada` - Carrillada / 西班牙炖猪颊肉 / Carrillada
-25. 105026 - `cocido-madrileno` - Cocido Madrileño / 马德里鹰嘴豆炖肉 / Cocido madrileño
-26. 105027 - `huevos-rotos` - Huevos Rotos / 碎蛋薯条火腿 / Huevos rotos
-27. 105028 - `tarta-de-santiago` - Tarta de Santiago / 圣地亚哥杏仁蛋糕 / Tarta de Santiago
-28. 105029 - `spanish-flan` - Flan / 西班牙焦糖布丁 / Flan
-29. 105030 - `bocadillo-de-calamares` - Bocadillo de Calamares / 炸鱿鱼圈长棍三明治 / Bocadillo de calamares
+16. 105016 - `ensaladilla-rusa` - Ensaladilla Rusa / 西班牙俄式土豆沙拉 / Ensaladilla rusa
+17. 105017 - `salmorejo` - Salmorejo / 安达卢西亚浓番茄冷汤 / Salmorejo
+18. 105018 - `calamares-a-la-romana` - Calamares a la Romana / 西班牙炸鱿鱼圈 / Calamares a la romana
+19. 105019 - `fideua` - Fideuà / 西班牙海鲜短面 / Fideuà
+20. 105020 - `arroz-negro` - Arroz Negro / 西班牙墨鱼汁黑饭 / Arroz negro
+21. 105021 - `bacalao-al-pil-pil` - Bacalao al Pil Pil / 盐鳕鱼橄榄油乳化酱 / Bacalao al pil pil
+22. 105022 - `merluza-a-la-vasca` - Merluza a la Vasca / 巴斯克绿酱无须鳕 / Merluza a la vasca
+23. 105023 - `pollo-al-ajillo` - Pollo al Ajillo / 西班牙蒜香鸡 / Pollo al ajillo
+24. 105024 - `rabo-de-toro` - Rabo de Toro / 西班牙炖牛尾 / Rabo de toro
+25. 105025 - `carrillada` - Carrillada / 西班牙炖猪颊肉 / Carrillada
+26. 105026 - `cocido-madrileno` - Cocido Madrileño / 马德里鹰嘴豆炖肉 / Cocido madrileño
+27. 105027 - `huevos-rotos` - Huevos Rotos / 碎蛋薯条火腿 / Huevos rotos
+28. 105028 - `tarta-de-santiago` - Tarta de Santiago / 圣地亚哥杏仁蛋糕 / Tarta de Santiago
+29. 105029 - `spanish-flan` - Flan / 西班牙焦糖布丁 / Flan
+30. 105030 - `bocadillo-de-calamares` - Bocadillo de Calamares / 炸鱿鱼圈长棍三明治 / Bocadillo de calamares
 
 ## Surinamese (surinamese) - 11
 

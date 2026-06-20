@@ -46,5 +46,11 @@
     "metadataCode": "105014",
     "source": "/Users/leoyang/.codex/generated_images/019edc48-b2a8-7c81-b5cc-c0b34a887313/ig_06bb107ed2bd6bdf016a34828943a081918c78a11150615d38.png",
     "copyPath": "data/internal/audit/rebuild-batches/spanish-batch-010-image-sources/105014-pimientos-de-padron.png"
+  },
+  {
+    "dishId": "ensaladilla-rusa",
+    "metadataCode": "105016",
+    "source": "/Users/leoyang/.codex/generated_images/019ede31-99da-75d1-a481-7b6f15dae46e/ig_007075037bae3cc4016a3632c4f6308191a88099ff75757520.png",
+    "copyPath": "data/internal/audit/rebuild-batches/spanish-batch-010-image-sources/105016-ensaladilla-rusa.png"
   }
 ]

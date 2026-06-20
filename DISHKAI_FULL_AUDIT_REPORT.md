@@ -5,23 +5,23 @@ Generated: 2026-06-20
 ## Executive summary
 
 - Raw dish records reviewed from source files: 1110
-- Current verified export after quarantine: 588 dishes, 1830 aliases
-- Generated high-risk dishes quarantined from verified export: 496
-- Verified export rows with automated keep-verified status: 588
+- Current verified export after quarantine: 589 dishes, 1834 aliases
+- Generated high-risk dishes quarantined from verified export: 495
+- Verified export rows with automated keep-verified status: 589
 - Verified export rows requiring metadata/image follow-up: 0
 
 The audit found systemic template language, low confidence values, repeated compositions, and placeholder localized text in the generated expansion layers. Those layers remain quarantined from `metadata.dishes` and `metadata.dishAliases` except for rows restored through documented review batches of at most 30 dishes.
 
 ## Status counts
 
-- keep-verified: 588
-- rebuild: 496
+- keep-verified: 589
+- rebuild: 495
 - remove: 26
 
 ## Risk counts
 
-- high: 522
-- low: 588
+- high: 521
+- low: 589
 
 ## Source counts
 
@@ -43,20 +43,20 @@ The audit found systemic template language, low confidence values, repeated comp
 
 ## Image asset check
 
-- quarantinedOrUnreferencedMainAssets: 522
-- quarantinedOrUnreferencedThumbAssets: 522
+- quarantinedOrUnreferencedMainAssets: 521
+- quarantinedOrUnreferencedThumbAssets: 521
 - totalMainAssets: 1110
 - totalThumbAssets: 1110
-- verifiedMainAssetsReferenced: 588
-- verifiedThumbAssetsReferenced: 588
+- verifiedMainAssetsReferenced: 589
+- verifiedThumbAssetsReferenced: 589
 
 Quarantined/unreferenced assets were intentionally left in place. They are not deleted because they may be reused only after semantic image review and metadata rebuild.
 
 ## Alias audit summary
 
 - Raw aliases reviewed: 3083
-- Aliases in verified export: 1830
-- Alias rows flagged for review: 1117
+- Aliases in verified export: 1834
+- Alias rows flagged for review: 1113
 
 | alias | dishId | sourceFile | confidence | status | notes |
 | --- | --- | --- | --- | --- | --- |
@@ -920,7 +920,7 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | albondigas | 105013 | spanish | data/internal/dishes/world-dishes.js | /assets/dishes/main/105013-albondigas.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | pimientos-de-padron | 105014 | spanish | data/internal/dishes/world-dishes.js | /assets/dishes/main/105014-pimientos-de-padron.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | boquerones-en-vinagre | 105015 | spanish | data/internal/dishes/world-dishes.js | /assets/dishes/main/105015-boquerones-en-vinagre.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-| ensaladilla-rusa | 105016 | spanish | data/internal/dishes/world-dishes.js | /assets/dishes/main/105016-ensaladilla-rusa.webp | high | rebuild | source layer is quarantined/untrusted | quarantine from verified export; rebuild in <=30 dish batch |
+| ensaladilla-rusa | 105016 | spanish | data/internal/dishes/world-dishes.js | /assets/dishes/main/105016-ensaladilla-rusa.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | salmorejo | 105017 | spanish | data/internal/dishes/world-dishes.js | /assets/dishes/main/105017-salmorejo.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | calamares-a-la-romana | 105018 | spanish | data/internal/dishes/world-dishes.js | /assets/dishes/main/105018-calamares-a-la-romana.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | fideua | 105019 | spanish | data/internal/dishes/world-dishes.js | /assets/dishes/main/105019-fideua.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
