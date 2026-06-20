@@ -1,0 +1,212 @@
+[
+  {
+    "dishId": "tagliatelle-al-ragu",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101031-tagliatelle-al-ragu.png",
+    "mainPath": "/assets/dishes/main/101031-tagliatelle-al-ragu.webp",
+    "thumbPath": "/assets/dishes/thumb/101031-tagliatelle-al-ragu.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "pappardelle-al-cinghiale",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101032-pappardelle-al-cinghiale.png",
+    "mainPath": "/assets/dishes/main/101032-pappardelle-al-cinghiale.webp",
+    "thumbPath": "/assets/dishes/thumb/101032-pappardelle-al-cinghiale.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "linguine-allo-scoglio",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101033-linguine-allo-scoglio.png",
+    "mainPath": "/assets/dishes/main/101033-linguine-allo-scoglio.webp",
+    "thumbPath": "/assets/dishes/thumb/101033-linguine-allo-scoglio.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "spaghetti-alla-puttanesca",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101034-spaghetti-alla-puttanesca.png",
+    "mainPath": "/assets/dishes/main/101034-spaghetti-alla-puttanesca.webp",
+    "thumbPath": "/assets/dishes/thumb/101034-spaghetti-alla-puttanesca.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "penne-arrabbiata",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101035-penne-arrabbiata.png",
+    "mainPath": "/assets/dishes/main/101035-penne-arrabbiata.webp",
+    "thumbPath": "/assets/dishes/thumb/101035-penne-arrabbiata.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "pasta-alla-norma",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101036-pasta-alla-norma.png",
+    "mainPath": "/assets/dishes/main/101036-pasta-alla-norma.webp",
+    "thumbPath": "/assets/dishes/thumb/101036-pasta-alla-norma.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "ribollita",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101037-ribollita.png",
+    "mainPath": "/assets/dishes/main/101037-ribollita.webp",
+    "thumbPath": "/assets/dishes/thumb/101037-ribollita.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "pappa-al-pomodoro",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101038-pappa-al-pomodoro.png",
+    "mainPath": "/assets/dishes/main/101038-pappa-al-pomodoro.webp",
+    "thumbPath": "/assets/dishes/thumb/101038-pappa-al-pomodoro.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "panzanella",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101039-panzanella.png",
+    "mainPath": "/assets/dishes/main/101039-panzanella.webp",
+    "thumbPath": "/assets/dishes/thumb/101039-panzanella.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "insalata-di-mare",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101040-insalata-di-mare.png",
+    "mainPath": "/assets/dishes/main/101040-insalata-di-mare.webp",
+    "thumbPath": "/assets/dishes/thumb/101040-insalata-di-mare.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "fritto-misto",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101041-fritto-misto.png",
+    "mainPath": "/assets/dishes/main/101041-fritto-misto.webp",
+    "thumbPath": "/assets/dishes/thumb/101041-fritto-misto.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "baccala-mantecato",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101042-baccala-mantecato.png",
+    "mainPath": "/assets/dishes/main/101042-baccala-mantecato.webp",
+    "thumbPath": "/assets/dishes/thumb/101042-baccala-mantecato.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "porchetta",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101043-porchetta.png",
+    "mainPath": "/assets/dishes/main/101043-porchetta.webp",
+    "thumbPath": "/assets/dishes/thumb/101043-porchetta.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "bistecca-fiorentina",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101044-bistecca-fiorentina.png",
+    "mainPath": "/assets/dishes/main/101044-bistecca-fiorentina.webp",
+    "thumbPath": "/assets/dishes/thumb/101044-bistecca-fiorentina.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "cotoletta-alla-milanese",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101045-cotoletta-alla-milanese.png",
+    "mainPath": "/assets/dishes/main/101045-cotoletta-alla-milanese.webp",
+    "thumbPath": "/assets/dishes/thumb/101045-cotoletta-alla-milanese.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "brasato-al-barolo",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101046-brasato-al-barolo.png",
+    "mainPath": "/assets/dishes/main/101046-brasato-al-barolo.webp",
+    "thumbPath": "/assets/dishes/thumb/101046-brasato-al-barolo.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "trippa-alla-romana",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101047-trippa-alla-romana.png",
+    "mainPath": "/assets/dishes/main/101047-trippa-alla-romana.webp",
+    "thumbPath": "/assets/dishes/thumb/101047-trippa-alla-romana.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "suppli",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101048-suppli.png",
+    "mainPath": "/assets/dishes/main/101048-suppli.webp",
+    "thumbPath": "/assets/dishes/thumb/101048-suppli.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "panzerotti",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101049-panzerotti.png",
+    "mainPath": "/assets/dishes/main/101049-panzerotti.webp",
+    "thumbPath": "/assets/dishes/thumb/101049-panzerotti.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "piadina",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101050-piadina.png",
+    "mainPath": "/assets/dishes/main/101050-piadina.webp",
+    "thumbPath": "/assets/dishes/thumb/101050-piadina.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "pinsa-romana",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101051-pinsa-romana.png",
+    "mainPath": "/assets/dishes/main/101051-pinsa-romana.webp",
+    "thumbPath": "/assets/dishes/thumb/101051-pinsa-romana.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "calzone",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101052-calzone.png",
+    "mainPath": "/assets/dishes/main/101052-calzone.webp",
+    "thumbPath": "/assets/dishes/thumb/101052-calzone.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "sarde-a-beccafico",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101053-sarde-a-beccafico.png",
+    "mainPath": "/assets/dishes/main/101053-sarde-a-beccafico.webp",
+    "thumbPath": "/assets/dishes/thumb/101053-sarde-a-beccafico.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "involtini",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101054-involtini.png",
+    "mainPath": "/assets/dishes/main/101054-involtini.webp",
+    "thumbPath": "/assets/dishes/thumb/101054-involtini.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "sfogliatelle",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101055-sfogliatelle.png",
+    "mainPath": "/assets/dishes/main/101055-sfogliatelle.webp",
+    "thumbPath": "/assets/dishes/thumb/101055-sfogliatelle.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "zabaglione",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101056-zabaglione.png",
+    "mainPath": "/assets/dishes/main/101056-zabaglione.webp",
+    "thumbPath": "/assets/dishes/thumb/101056-zabaglione.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "semifreddo",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101057-semifreddo.png",
+    "mainPath": "/assets/dishes/main/101057-semifreddo.webp",
+    "thumbPath": "/assets/dishes/thumb/101057-semifreddo.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "granita",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101058-granita.png",
+    "mainPath": "/assets/dishes/main/101058-granita.webp",
+    "thumbPath": "/assets/dishes/thumb/101058-granita.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "bresaola-rucola-parmesan",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101059-bresaola-rucola-parmesan.png",
+    "mainPath": "/assets/dishes/main/101059-bresaola-rucola-parmesan.webp",
+    "thumbPath": "/assets/dishes/thumb/101059-bresaola-rucola-parmesan.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "zuppa-di-cozze",
+    "sourcePng": "data/internal/audit/rebuild-batches/italian-batch-028-image-sources/101060-zuppa-di-cozze.png",
+    "mainPath": "/assets/dishes/main/101060-zuppa-di-cozze.webp",
+    "thumbPath": "/assets/dishes/thumb/101060-zuppa-di-cozze.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  }
+]

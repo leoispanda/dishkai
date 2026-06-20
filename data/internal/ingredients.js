@@ -324,6 +324,10 @@ export const ingredients = [
   italian("tuna-sauce", "201048", "tuna sauce", "金枪鱼酱", "tonijnsaus", ["creamy", "savory"], ["pescatarian"], ["fish", "egg"]),
   italian("capers", "201049", "capers", "酸豆", "kappertjes", ["briny", "firm"], ["vegan"], []),
   italian("vanilla-gelato", "201050", "vanilla gelato", "香草意式冰淇淋", "vanillegelato", ["dense", "smooth"], ["vegetarian"], ["dairy", "egg"]),
+  italian("wild-boar", "201051", "wild boar", "野猪肉", "wild zwijn", ["gamey", "meaty"], [], []),
+  italian("tripe", "201052", "tripe", "牛肚", "pens", ["chewy", "soft"], [], []),
+  italian("arugula", "201053", "arugula", "芝麻菜", "rucola", ["peppery", "leafy"], ["vegan"], []),
+  italian("bresaola", "201054", "bresaola", "意式风干牛肉", "bresaola", ["silky", "lean"], [], []),
 ];
 
 function ingredient(id, metadataCode, en, zh, nl, texture = [], dietaryFlags = [], allergens = []) {

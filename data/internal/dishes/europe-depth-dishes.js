@@ -8,98 +8,105 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Tagliatelle al Ragu",
       "zh": "塔利亚泰莱肉酱面",
-      "nl": "Tagliatelle al Ragu",
-      "local": "Tagliatelle al Ragu"
+      "nl": "Tagliatelle al ragu",
+      "local": "Tagliatelle al ragù"
     },
     "category": "pasta",
     "cookingMethods": [
       "sauce-tossed"
     ],
     "shortDescription": {
-      "en": "Tagliatelle al Ragu is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "塔利亚泰莱肉酱面是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Tagliatelle al Ragu is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Wide egg pasta ribbons tossed with a slow-cooked meat ragu, usually richer and more meat-forward than a simple tomato pasta.",
+      "zh": "宽扁蛋面拌慢炖肉酱，通常比普通番茄意面更浓郁、更有肉香。",
+      "nl": "Brede eierpasta met langzaam gestoofde vleessaus, rijker en vlezig dan gewone tomatenpasta."
     },
     "cookingProfile": {
-      "en": "Usually served with saucy pasta, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现saucy pasta，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met saucy pasta; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served hot with the sauce clinging to broad ribbons, so it feels hearty but still pasta-focused.",
+      "zh": "热食上桌，肉酱裹住宽面，口感扎实但仍以面条为主。",
+      "nl": "Warm geserveerd met saus rond brede linten; stevig, maar nog duidelijk een pastagerecht."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic northern Italian pasta format for diners who want a reliable meat-sauce main.",
+        "zh": "典型的意大利北部肉酱宽面，适合想点稳妥肉酱主食的人。",
+        "nl": "Een klassiek Noord-Italiaans pastagerecht voor wie een betrouwbare vleessaus wil."
       }
     },
     "composition": [
       [
         "pasta",
         45,
-        "base"
+        "wide egg pasta"
+      ],
+      [
+        "meat-ragu",
+        30,
+        "slow-cooked sauce"
       ],
       [
         "tomato-sauce",
-        20,
-        "sauce",
+        10,
+        "sauce base",
         "seasoning"
       ],
       [
-        "cheese",
-        10,
-        "richness"
-      ],
-      [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "olive-oil",
-        10,
+        "parmesan",
+        5,
         "finish",
         "seasoning"
       ],
       [
-        "herbs",
+        "wine",
         5,
-        "finish"
+        "braise depth"
+      ],
+      [
+        "olive-oil",
+        5,
+        "finish",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "slow-cooked meat ragu",
+      "Parmigiano finish",
+      "wine-braised depth"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "rich",
+      "umami"
     ],
     "textureProfile": [
-      "tender pasta",
-      "saucy finish"
+      "wide tender ribbons",
+      "meaty sauce",
+      "cheese finish"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-alcohol"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pasta"
+      "classic-dish",
+      "pasta",
+      "meat-sauce"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A strong order if you want a comforting meat-sauce pasta rather than a light tomato dish.",
+      "zh": "想吃扎实肉酱意面时很稳；如果想要清爽番茄面则可能偏厚重。",
+      "nl": "Een sterke keuze voor stevige vleessauspasta, minder geschikt als je iets lichts zoekt."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "metadataConfidence": 0.86,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -109,98 +116,112 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Pappardelle al Cinghiale",
       "zh": "野猪肉宽面",
-      "nl": "Pappardelle al Cinghiale",
-      "local": "Pappardelle al Cinghiale"
+      "nl": "Pappardelle al cinghiale",
+      "local": "Pappardelle al cinghiale"
     },
     "category": "pasta",
     "cookingMethods": [
-      "sauce-tossed"
+      "sauce-tossed",
+      "braised"
     ],
     "shortDescription": {
-      "en": "Pappardelle al Cinghiale is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "野猪肉宽面是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Pappardelle al Cinghiale is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Very broad pasta ribbons with wild boar ragu, a rustic dish with a deeper, slightly gamey meat flavor.",
+      "zh": "很宽的意面拌野猪肉酱，风味更深，带一点野味肉香。",
+      "nl": "Zeer brede pasta met wildzwijnragù, rustiek en dieper van smaak dan gewone vleessaus."
     },
     "cookingProfile": {
-      "en": "Usually served with saucy pasta, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现saucy pasta，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met saucy pasta; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The ragu is usually braised and dense, so the plate feels rich, earthy, and filling.",
+      "zh": "肉酱通常慢炖得浓厚，上桌感觉浓郁、厚实、分量感强。",
+      "nl": "De ragù is meestal langzaam gestoofd en compact, waardoor het rijk en vullend eet."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Tuscan-style regional pasta for diners comfortable with game meat.",
+        "zh": "偏托斯卡纳风格的地区菜，适合能接受野味肉香的人。",
+        "nl": "Een regionaal Toscaans pastagerecht voor wie wildsmaak prettig vindt."
       }
     },
     "composition": [
       [
         "pasta",
         45,
-        "base"
+        "wide pasta"
+      ],
+      [
+        "wild-boar",
+        30,
+        "ragu meat"
       ],
       [
         "tomato-sauce",
-        20,
-        "sauce",
+        10,
+        "sauce base",
         "seasoning"
       ],
       [
-        "cheese",
-        10,
-        "richness"
+        "red-wine",
+        5,
+        "braise depth",
+        "seasoning"
       ],
       [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "olive-oil",
-        10,
+        "parmesan",
+        5,
         "finish",
         "seasoning"
       ],
       [
-        "herbs",
+        "rosemary",
         5,
-        "finish"
+        "herbal depth",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "wild boar ragu",
+      "red wine",
+      "rosemary"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "rich",
+      "earthy"
     ],
     "textureProfile": [
-      "tender pasta",
-      "saucy finish"
+      "broad silky pasta",
+      "dense ragu",
+      "small meat shreds"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-alcohol"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pasta"
+      "regional-dish",
+      "pasta",
+      "game-meat"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "avoid-game-meat"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order if you like hearty ragu and are open to a lightly gamey meat flavor.",
+      "zh": "喜欢厚重肉酱、也能接受一点野味香时很值得点。",
+      "nl": "Bestel dit als je stevige ragù wilt en een lichte wildsmaak geen probleem vindt."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.86,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -210,104 +231,112 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Linguine allo Scoglio",
       "zh": "意式海鲜扁面",
-      "nl": "Linguine allo Scoglio",
-      "local": "Linguine allo Scoglio"
+      "nl": "Linguine allo scoglio",
+      "local": "Linguine allo scoglio"
     },
-    "category": "seafood",
+    "category": "seafood-pasta",
     "cookingMethods": [
-      "grilled"
+      "sauce-tossed"
     ],
     "shortDescription": {
-      "en": "Linguine allo Scoglio is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "意式海鲜扁面是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Linguine allo Scoglio is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Linguine with mixed shellfish and seafood, usually garlicky, briny, and lighter than a creamy seafood pasta.",
+      "zh": "扁面配多种贝类和海鲜，通常有蒜香和海味，比奶油海鲜面清爽。",
+      "nl": "Linguine met schaal- en zeevruchten, meestal knoflookachtig, zilt en lichter dan roompasta."
     },
     "cookingProfile": {
-      "en": "Usually served with fish or seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish or seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish or seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served hot with shells often still on the plate; expect hands-on seafood rather than a tidy pasta bowl.",
+      "zh": "热食上桌，常带贝壳和虾壳，吃起来比普通意面更需要处理海鲜。",
+      "nl": "Warm geserveerd, vaak met schelpen; meer zeevruchtenwerk dan een nette pastakom."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A coastal Italian restaurant classic for seafood-focused pasta orders.",
+        "zh": "意大利沿海餐厅常见海鲜意面，适合想吃海鲜主食的人。",
+        "nl": "Een klassieke Italiaanse kustpasta voor wie zeevruchten centraal wil."
       }
     },
     "composition": [
       [
-        "fish-fillet",
+        "pasta",
         40,
-        "main"
+        "linguine base"
+      ],
+      [
+        "seafood-mix",
+        25,
+        "mixed seafood"
+      ],
+      [
+        "clams",
+        10,
+        "shellfish"
       ],
       [
         "mussels",
-        20,
-        "seafood"
-      ],
-      [
-        "potato",
-        15,
-        "side"
-      ],
-      [
-        "lemon",
         10,
-        "brightness"
+        "shellfish"
+      ],
+      [
+        "tomato-sauce",
+        5,
+        "light sauce",
+        "seasoning"
       ],
       [
         "olive-oil",
-        10,
+        5,
         "finish",
         "seasoning"
       ],
       [
-        "parsley",
+        "garlic",
         5,
-        "finish",
+        "aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "shellfish brine",
+      "garlic olive oil",
+      "parsley and lemon"
     ],
     "basicTaste": [
       "savory",
-      "briny"
+      "briny",
+      "garlicky"
     ],
     "textureProfile": [
+      "slippery pasta",
       "tender seafood",
-      "bright savory finish"
+      "shell-on bites"
     ],
     "riskFlags": [
-      "contains-fish",
-      "contains-shellfish"
+      "contains-gluten",
+      "contains-shellfish",
+      "contains-fish"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "seafood"
-    ],
-    "avoidIfTags": [
-      "fish-allergy",
-      "shellfish-allergy"
+      "seafood",
+      "pasta",
+      "coastal"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good pick if you want seafood flavor first and do not mind shells on the plate.",
+      "zh": "想吃海鲜味明显的意面可以点；不喜欢处理贝壳或虾壳的人要谨慎。",
+      "nl": "Een goede keuze als zeevruchtensmaak voorop staat en schelpen geen bezwaar zijn."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.86,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -317,200 +346,228 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Spaghetti alla Puttanesca",
       "zh": "普塔内斯卡意面",
-      "nl": "Spaghetti alla Puttanesca",
-      "local": "Spaghetti alla Puttanesca"
+      "nl": "Spaghetti alla puttanesca",
+      "local": "Spaghetti alla puttanesca"
     },
     "category": "pasta",
     "cookingMethods": [
       "sauce-tossed"
     ],
     "shortDescription": {
-      "en": "Spaghetti alla Puttanesca is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "普塔内斯卡意面是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Spaghetti alla Puttanesca is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Spaghetti in a bold tomato sauce with olives, capers, anchovies, garlic, and chili.",
+      "zh": "番茄酱意面加入橄榄、酸豆、鳀鱼、蒜和辣椒，味道咸鲜有冲击力。",
+      "nl": "Spaghetti met krachtige tomatensaus, olijven, kappertjes, ansjovis, knoflook en chili."
     },
     "cookingProfile": {
-      "en": "Usually served with saucy pasta, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现saucy pasta，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met saucy pasta; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The sauce is punchy and briny, so it tastes more intense than a basic tomato pasta.",
+      "zh": "酱汁咸鲜、酸香、存在感强，比普通番茄意面更重口。",
+      "nl": "De saus is zilt en uitgesproken, krachtiger dan gewone tomatenpasta."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic southern Italian pasta for diners who like briny, salty, bold sauces.",
+        "zh": "经典南意风味意面，适合喜欢咸鲜、酸香、重口酱汁的人。",
+        "nl": "Een klassieke Zuid-Italiaanse pasta voor liefhebbers van zilte, uitgesproken sauzen."
       }
     },
     "composition": [
       [
-        "pasta",
-        45,
-        "base"
+        "spaghetti",
+        50,
+        "pasta base"
       ],
       [
         "tomato-sauce",
-        20,
+        25,
         "sauce",
         "seasoning"
       ],
       [
-        "cheese",
+        "olives",
         10,
-        "richness"
+        "briny body"
       ],
       [
-        "mixed-vegetables",
-        10,
-        "body"
+        "capers",
+        5,
+        "briny bite"
       ],
       [
-        "olive-oil",
-        10,
-        "finish",
+        "anchovies",
+        5,
+        "umami"
+      ],
+      [
+        "garlic",
+        3,
+        "aroma",
         "seasoning"
       ],
       [
-        "herbs",
-        5,
-        "finish"
+        "chili",
+        2,
+        "heat",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "olives and capers",
+      "anchovy umami",
+      "garlic chili tomato sauce"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "salty",
+      "tangy",
+      "mildly spicy"
     ],
     "textureProfile": [
-      "tender pasta",
-      "saucy finish"
+      "long pasta",
+      "glossy sauce",
+      "briny small bites"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-fish",
+      "can-be-spicy"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
+      "bold-flavor",
       "pasta"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order if you want a salty, briny tomato pasta with a little heat.",
+      "zh": "想吃咸鲜、酸香、微辣的番茄意面时可以点；怕鳀鱼味的人谨慎。",
+      "nl": "Bestel dit voor ziltige tomatenpasta met wat pit; minder geschikt als je ansjovis vermijdt."
     },
-    "spiceLevel": 0,
+    "spiceLevel": 1,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "low"
   },
   {
     "id": "penne-arrabbiata",
     "metadataCode": "101035",
     "cuisineId": "italian",
     "names": {
-      "en": "Penne all Arrabbiata",
+      "en": "Penne all'Arrabbiata",
       "zh": "辣番茄笔管面",
-      "nl": "Penne all Arrabbiata",
-      "local": "Penne all Arrabbiata"
+      "nl": "Penne all'arrabbiata",
+      "local": "Penne all'arrabbiata"
     },
     "category": "pasta",
     "cookingMethods": [
       "sauce-tossed"
     ],
     "shortDescription": {
-      "en": "Penne all Arrabbiata is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "辣番茄笔管面是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Penne all Arrabbiata is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Penne in a spicy tomato-garlic sauce, a simple pasta where chili is the point.",
+      "zh": "笔管面拌辣番茄蒜香酱，重点就是番茄酸甜和辣椒热度。",
+      "nl": "Penne met pittige tomaten-knoflooksaus; een simpele pasta waarin chili centraal staat."
     },
     "cookingProfile": {
-      "en": "Usually served with saucy pasta, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现saucy pasta，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met saucy pasta; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Usually saucy and hot, with short pasta tubes catching the spicy tomato sauce.",
+      "zh": "通常热食且酱汁充足，短管面会挂住辣番茄酱。",
+      "nl": "Meestal warm en sauzig, met korte buisjes die de pittige saus vasthouden."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic Roman-style spicy tomato pasta that is easy to recognize on menus.",
+        "zh": "经典罗马风格辣番茄意面，菜单上辨识度很高。",
+        "nl": "Een klassieke Romeinse pittige tomatenpasta die op menu’s herkenbaar is."
       }
     },
     "composition": [
       [
         "pasta",
-        45,
-        "base"
+        55,
+        "penne base"
       ],
       [
         "tomato-sauce",
-        20,
-        "sauce",
+        30,
+        "spicy sauce",
         "seasoning"
       ],
       [
-        "cheese",
-        10,
-        "richness"
+        "garlic",
+        5,
+        "aroma",
+        "seasoning"
       ],
       [
-        "mixed-vegetables",
-        10,
-        "body"
+        "chili",
+        5,
+        "heat",
+        "seasoning"
       ],
       [
         "olive-oil",
-        10,
+        3,
         "finish",
         "seasoning"
       ],
       [
-        "herbs",
-        5,
-        "finish"
+        "pecorino",
+        2,
+        "optional cheese",
+        "seasoning",
+        "high",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "chili heat",
+      "garlic tomato sauce",
+      "olive oil"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "tomato-tangy",
+      "spicy"
     ],
     "textureProfile": [
-      "tender pasta",
-      "saucy finish"
+      "short firm pasta",
+      "coating sauce",
+      "light chili warmth"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "pasta"
+      "spicy",
+      "pasta",
+      "vegetarian-option"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "avoid-spicy"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A safe pick for spicy tomato pasta; ask about cheese if you need it vegan.",
+      "zh": "想吃辣番茄意面时很稳；需要纯素时先确认是否撒奶酪。",
+      "nl": "Een veilige keuze voor pittige tomatenpasta; vraag naar kaas als je vegan eet."
     },
-    "spiceLevel": 0,
+    "spiceLevel": 2,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "low"
   },
   {
     "id": "pasta-alla-norma",
@@ -518,7 +575,7 @@ const europeDepthDishConfigs = [
     "cuisineId": "italian",
     "names": {
       "en": "Pasta alla Norma",
-      "zh": "茄子番茄意面",
+      "zh": "诺尔玛茄子番茄意面",
       "nl": "Pasta alla Norma",
       "local": "Pasta alla Norma"
     },
@@ -527,32 +584,38 @@ const europeDepthDishConfigs = [
       "sauce-tossed"
     ],
     "shortDescription": {
-      "en": "Pasta alla Norma is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "茄子番茄意面是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Pasta alla Norma is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Sicilian pasta with tomato, fried or roasted eggplant, basil, and salty ricotta-style cheese.",
+      "zh": "西西里茄子番茄意面，常配罗勒和咸香乳清奶酪碎。",
+      "nl": "Siciliaanse pasta met tomaat, aubergine, basilicum en zoute ricotta-achtige kaas."
     },
     "cookingProfile": {
-      "en": "Usually served with saucy pasta, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现saucy pasta，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met saucy pasta; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The eggplant makes the dish soft and savory, with cheese adding salty richness.",
+      "zh": "茄子让口感更软润，奶酪带来咸香和厚度。",
+      "nl": "Aubergine maakt het zacht en hartig; kaas geeft zoutigheid en rijkdom."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "regional-dish",
+        "vegetarian-option"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Sicilian classic that is especially useful for vegetarian pasta ordering.",
+        "zh": "西西里经典菜，也是素食者点意面时很实用的选择。",
+        "nl": "Een Siciliaanse klassieker en nuttige vegetarische pastakeuze."
       }
     },
     "composition": [
       [
         "pasta",
         45,
-        "base"
+        "pasta base"
+      ],
+      [
+        "eggplant",
+        25,
+        "soft vegetable"
       ],
       [
         "tomato-sauce",
@@ -561,56 +624,59 @@ const europeDepthDishConfigs = [
         "seasoning"
       ],
       [
-        "cheese",
-        10,
-        "richness"
+        "ricotta",
+        5,
+        "salty cheese"
       ],
       [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "olive-oil",
-        10,
-        "finish",
+        "basil",
+        3,
+        "aroma",
         "seasoning"
       ],
       [
-        "herbs",
-        5,
-        "finish"
+        "olive-oil",
+        2,
+        "finish",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "eggplant",
+      "tomato sauce",
+      "ricotta salata-style cheese"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "tomato-tangy",
+      "lightly creamy"
     ],
     "textureProfile": [
-      "tender pasta",
-      "saucy finish"
+      "soft eggplant",
+      "firm pasta",
+      "crumbly cheese"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
+      "vegetarian-option",
+      "regional-dish",
       "pasta"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good vegetarian pasta if you like soft eggplant and salty cheese.",
+      "zh": "喜欢软糯茄子和咸香奶酪的人会很适合；不爱茄子则不建议。",
+      "nl": "Een goede vegetarische pasta als je zachte aubergine en zoute kaas lekker vindt."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "metadataConfidence": 0.86,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -628,90 +694,102 @@ const europeDepthDishConfigs = [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Ribollita is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "托斯卡纳蔬菜面包汤是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Ribollita is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A thick Tuscan bread, bean, and vegetable soup; more like a hearty stew than a light broth.",
+      "zh": "托斯卡纳面包、豆类和蔬菜浓汤，比清汤更像一碗厚实炖菜。",
+      "nl": "Dikke Toscaanse soep met brood, bonen en groenten; eerder stoofachtig dan licht."
     },
     "cookingProfile": {
-      "en": "Usually served with warm soup, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现warm soup，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met warm soup; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served hot and dense, with bread softening into the soup and beans giving weight.",
+      "zh": "热食上桌，面包吸汤变软，豆类让整体更有饱腹感。",
+      "nl": "Warm en dik geserveerd, met brood dat zacht wordt en bonen die vullen."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Tuscan comfort dish for diners who want vegetables but still want a filling bowl.",
+        "zh": "托斯卡纳家常舒适菜，适合想吃蔬菜但也要有饱腹感的人。",
+        "nl": "Toscaanse comfortfood voor wie groente wil maar ook goed gevuld wil raken."
       }
     },
     "composition": [
       [
-        "broth",
-        35,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
+        "beans",
         25,
-        "body"
+        "bean body"
       ],
       [
-        "potato",
+        "bread",
+        20,
+        "thickener"
+      ],
+      [
+        "vegetables",
+        20,
+        "vegetable base"
+      ],
+      [
+        "kale",
         15,
-        "body"
+        "leafy greens"
       ],
       [
-        "cream",
+        "tomato-sauce",
         10,
-        "richness"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
+        "broth depth",
         "seasoning"
       ],
       [
-        "parsley",
-        10,
+        "olive-oil",
+        5,
         "finish",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "white beans",
+      "Tuscan bread",
+      "olive oil and greens"
     ],
     "basicTaste": [
       "savory",
-      "warming"
+      "earthy",
+      "mild"
     ],
     "textureProfile": [
-      "brothy or creamy",
-      "soft bite"
+      "thick soup",
+      "soft bread",
+      "creamy beans"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegan"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "soup"
+      "vegetable-forward",
+      "comfort-food",
+      "vegan-option"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, warming profile sounds appealing.",
-      "zh": "如果你想要savory、warming的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, warming je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order when you want a filling vegetable-heavy bowl, not a light starter soup.",
+      "zh": "想要一碗有饱腹感的蔬菜豆汤时适合；不是清淡开胃汤。",
+      "nl": "Bestel dit voor een vullende groenterijke kom, niet als lichte voorgerechtsoep."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "metadataConfidence": 0.85,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -721,99 +799,107 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Pappa al Pomodoro",
       "zh": "番茄面包浓汤",
-      "nl": "Pappa al Pomodoro",
-      "local": "Pappa al Pomodoro"
+      "nl": "Pappa al pomodoro",
+      "local": "Pappa al pomodoro"
     },
     "category": "soup",
     "cookingMethods": [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Pappa al Pomodoro is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "番茄面包浓汤是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Pappa al Pomodoro is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A thick Tuscan tomato and bread soup, soft, rustic, and focused on tomato, basil, garlic, and olive oil.",
+      "zh": "托斯卡纳番茄面包浓汤，软糯、朴实，重点是番茄、罗勒、蒜和橄榄油。",
+      "nl": "Dikke Toscaanse tomaat-broodsoep, zacht en rustiek met basilicum, knoflook en olijfolie."
     },
     "cookingProfile": {
-      "en": "Usually served with warm soup, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现warm soup，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met warm soup; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The bread breaks down into the tomato, creating a spoonable, almost porridge-like texture.",
+      "zh": "面包融进番茄汤里，形成接近粥状的软稠口感。",
+      "nl": "Brood valt uiteen in tomaat, waardoor een lepelbare, bijna papachtige structuur ontstaat."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Tuscan rustic dish for diners who like tomato-forward comfort food.",
+        "zh": "托斯卡纳朴实菜，适合喜欢番茄味舒适食物的人。",
+        "nl": "Een rustiek Toscaans gerecht voor liefhebbers van tomatenrijke comfortfood."
       }
     },
     "composition": [
       [
-        "broth",
+        "tomato",
         35,
-        "base"
+        "tomato body"
       ],
       [
-        "mixed-vegetables",
-        25,
-        "body"
+        "bread",
+        30,
+        "thickener"
       ],
       [
-        "potato",
+        "tomato-sauce",
         15,
-        "body"
-      ],
-      [
-        "cream",
-        10,
-        "richness"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
+        "sauce base",
         "seasoning"
       ],
       [
-        "parsley",
+        "olive-oil",
         10,
         "finish",
+        "seasoning"
+      ],
+      [
+        "basil",
+        5,
+        "fresh aroma",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "ripe tomato",
+      "bread-thickened soup",
+      "basil olive oil"
     ],
     "basicTaste": [
+      "tomato-sweet",
       "savory",
-      "warming"
+      "mild"
     ],
     "textureProfile": [
-      "brothy or creamy",
-      "soft bite"
+      "thick spoonable soup",
+      "soft bread",
+      "olive-oil gloss"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegan"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "soup"
+      "comfort-food",
+      "vegan-option",
+      "tomato-forward"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, warming profile sounds appealing.",
-      "zh": "如果你想要savory、warming的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, warming je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A cozy choice if you like thick tomato soup; skip if you want a clear or light soup.",
+      "zh": "喜欢浓稠番茄汤时很合适；想喝清汤或轻汤则不适合。",
+      "nl": "Gezellig als je dikke tomatensoep wilt; minder geschikt voor een heldere lichte soep."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.85,
+    "restaurantVariationLevel": "low"
   },
   {
     "id": "panzanella",
@@ -829,43 +915,49 @@ const europeDepthDishConfigs = [
     "cookingMethods": [
       "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Panzanella is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "托斯卡纳面包沙拉是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Panzanella is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A Tuscan bread salad with tomato, cucumber, onion, basil, olive oil, and vinegar.",
+      "zh": "托斯卡纳面包沙拉，配番茄、黄瓜、洋葱、罗勒、橄榄油和醋。",
+      "nl": "Toscaanse broodsalade met tomaat, komkommer, ui, basilicum, olijfolie en azijn."
     },
     "cookingProfile": {
-      "en": "Usually served with fresh salad, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fresh salad，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fresh salad; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Usually served cool or room temperature, with bread soaking up tomato juices and dressing.",
+      "zh": "通常冷食或常温，面包会吸收番茄汁和油醋汁。",
+      "nl": "Meestal koel of op kamertemperatuur, met brood dat tomatensap en dressing opneemt."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Tuscan summer salad that is more filling than a leafy side salad.",
+        "zh": "托斯卡纳夏季沙拉，比普通叶菜沙拉更有饱腹感。",
+        "nl": "Een Toscaanse zomersalade die vullender is dan een groene salade."
       }
     },
     "composition": [
       [
-        "mixed-vegetables",
-        45,
-        "base"
+        "bread",
+        35,
+        "bread base"
       ],
       [
         "tomato",
-        15,
-        "body"
+        25,
+        "juicy vegetable"
       ],
       [
-        "cheese",
+        "cucumber",
         15,
-        "richness"
+        "fresh crunch"
+      ],
+      [
+        "onion",
+        10,
+        "sharpness"
       ],
       [
         "olive-oil",
@@ -875,45 +967,46 @@ const europeDepthDishConfigs = [
       ],
       [
         "vinegar",
-        10,
-        "dressing",
-        "seasoning"
-      ],
-      [
-        "herbs",
         5,
-        "finish"
+        "tang",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "tomato juice-soaked bread",
+      "olive oil vinegar dressing",
+      "fresh basil"
     ],
     "basicTaste": [
-      "savory",
-      "fresh"
+      "fresh",
+      "tangy",
+      "savory"
     ],
     "textureProfile": [
-      "crisp vegetables",
-      "bright dressing"
+      "soaked bread",
+      "juicy tomato",
+      "crisp cucumber"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegan"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "salad"
+      "salad",
+      "vegan-option",
+      "summer-dish"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, fresh profile sounds appealing.",
-      "zh": "如果你想要savory、fresh的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, fresh je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good when you want a refreshing but filling salad; not ideal if you dislike soaked bread.",
+      "zh": "想要清爽但有饱腹感的沙拉时适合；不喜欢湿润面包的人慎点。",
+      "nl": "Goed voor een frisse maar vullende salade; minder fijn als je geweekt brood niet lekker vindt."
     },
     "spiceLevel": 0,
-    "weightLevel": 1,
+    "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -923,104 +1016,111 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Insalata di Mare",
       "zh": "意式海鲜沙拉",
-      "nl": "Insalata di Mare",
-      "local": "Insalata di Mare"
+      "nl": "Insalata di mare",
+      "local": "Insalata di mare"
     },
-    "category": "seafood",
+    "category": "seafood-salad",
     "cookingMethods": [
-      "grilled"
+      "assembled",
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Insalata di Mare is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "意式海鲜沙拉是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Insalata di Mare is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A chilled Italian seafood salad with octopus, squid, shrimp, mussels, lemon, parsley, and olive oil.",
+      "zh": "冷食意式海鲜沙拉，常见章鱼、鱿鱼、虾、贻贝、柠檬、欧芹和橄榄油。",
+      "nl": "Koude Italiaanse zeevruchtensalade met octopus, inktvis, garnalen, mosselen, citroen en olijfolie."
     },
     "cookingProfile": {
-      "en": "Usually served with fish or seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish or seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish or seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Seafood is usually cooked first and served cool, so the texture is firm, clean, and lightly dressed.",
+      "zh": "海鲜通常先熟制再冷食，口感紧实清爽，调味较轻。",
+      "nl": "Zeevruchten worden eerst gegaard en koel geserveerd, stevig en licht aangemaakt."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A coastal Italian antipasto for diners who want seafood without pasta or heavy sauce.",
+        "zh": "意大利沿海常见前菜，适合想吃海鲜但不想要意面或重酱的人。",
+        "nl": "Een Italiaanse kust-antipasto voor wie zeevruchten zonder pasta of zware saus wil."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        40,
-        "main"
+        "seafood-mix",
+        35,
+        "mixed seafood"
+      ],
+      [
+        "octopus",
+        20,
+        "firm seafood"
+      ],
+      [
+        "squid",
+        15,
+        "springy seafood"
+      ],
+      [
+        "shrimp",
+        10,
+        "sweet seafood"
       ],
       [
         "mussels",
-        20,
-        "seafood"
-      ],
-      [
-        "potato",
-        15,
-        "side"
+        10,
+        "shellfish"
       ],
       [
         "lemon",
-        10,
-        "brightness"
+        5,
+        "citrus"
       ],
       [
         "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "parsley",
         5,
-        "finish",
+        "dressing",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "lemon olive oil",
+      "parsley",
+      "mixed seafood brine"
     ],
     "basicTaste": [
-      "savory",
-      "briny"
+      "briny",
+      "fresh",
+      "citrusy"
     ],
     "textureProfile": [
-      "tender seafood",
-      "bright savory finish"
+      "firm seafood",
+      "springy squid",
+      "light dressing"
     ],
     "riskFlags": [
-      "contains-fish",
-      "contains-shellfish"
+      "contains-shellfish",
+      "contains-fish"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "seafood"
-    ],
-    "avoidIfTags": [
-      "fish-allergy",
-      "shellfish-allergy"
+      "seafood",
+      "starter",
+      "low-carb"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good starter if you want clean seafood flavor; skip if cold seafood or chewy squid bothers you.",
+      "zh": "想吃清爽海鲜前菜时适合；不爱冷海鲜或弹韧鱿鱼的人慎点。",
+      "nl": "Goed als frisse zeevruchtenstarter; minder geschikt bij bezwaar tegen koude of taaie zeevruchten."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.85,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -1030,103 +1130,109 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Fritto Misto",
       "zh": "意式炸海鲜拼盘",
-      "nl": "Fritto Misto",
-      "local": "Fritto Misto"
+      "nl": "Fritto misto",
+      "local": "Fritto misto di mare"
     },
-    "category": "fried",
+    "category": "fried-seafood",
     "cookingMethods": [
-      "fried"
+      "deep-fried"
     ],
     "shortDescription": {
-      "en": "Fritto Misto is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "意式炸海鲜拼盘是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Fritto Misto is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A mixed fried seafood plate, often with squid, shrimp, small fish, and lemon.",
+      "zh": "混合炸海鲜拼盘，常见鱿鱼、虾、小鱼和柠檬。",
+      "nl": "Gemengde gefrituurde zeevruchten, vaak met inktvis, garnalen, kleine vis en citroen."
     },
     "cookingProfile": {
-      "en": "Usually served with fried snack or main, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fried snack or main，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fried snack or main; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served hot and crisp; the best versions are light, but it is still a fried sharing dish.",
+      "zh": "热食上桌，外层酥脆；做得好会轻盈，但本质仍是油炸分享盘。",
+      "nl": "Warm en krokant geserveerd; goede versies zijn licht, maar het blijft een gefrituurd deelgerecht."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A common Italian seafood starter or sharing plate on coastal menus.",
+        "zh": "意大利沿海菜单常见海鲜前菜或分享盘。",
+        "nl": "Een gangbare Italiaanse zeevruchtenstarter of deelgerecht aan de kust."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "coating"
+        "seafood-mix",
+        35,
+        "mixed seafood"
       ],
       [
-        "potato",
-        25,
-        "body"
+        "squid",
+        20,
+        "rings"
+      ],
+      [
+        "shrimp",
+        15,
+        "shellfish"
       ],
       [
         "fish-fillet",
-        20,
-        "main"
+        10,
+        "small fish pieces"
       ],
       [
-        "egg",
+        "wheat-flour",
         10,
-        "binder"
+        "light coating"
       ],
       [
-        "butter",
-        10,
-        "richness"
+        "neutral-frying-oil",
+        5,
+        "fried texture"
       ],
       [
-        "sea-salt",
-        10,
-        "seasoning",
-        "seasoning"
+        "lemon",
+        5,
+        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "fresh fried seafood",
+      "lemon",
+      "light flour coating"
     ],
     "basicTaste": [
       "savory",
-      "rich"
-    ],
-    "textureProfile": [
-      "crisp outside",
-      "soft center"
-    ],
-    "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-fish"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
+      "briny",
       "fried"
     ],
-    "avoidIfTags": [
-      "gluten-free"
+    "textureProfile": [
+      "crisp coating",
+      "springy squid",
+      "juicy seafood"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-fish",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "sharing",
+      "seafood",
+      "fried-snack"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Best as a sharing starter if you want crisp seafood and do not mind fried food.",
+      "zh": "适合想分享酥炸海鲜时点；介意油炸或海鲜过敏则避开。",
+      "nl": "Het best als gedeelde starter voor krokante zeevruchten; niet ideaal als je gefrituurd vermijdt."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "metadataConfidence": 0.85,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -1134,52 +1240,55 @@ const europeDepthDishConfigs = [
     "metadataCode": "101042",
     "cuisineId": "italian",
     "names": {
-      "en": "Baccala Mantecato",
+      "en": "Baccalà Mantecato",
       "zh": "威尼斯奶油鳕鱼泥",
-      "nl": "Baccala Mantecato",
-      "local": "Baccala Mantecato"
+      "nl": "Baccalà mantecato",
+      "local": "Baccalà mantecato"
     },
-    "category": "fish",
+    "category": "seafood-starter",
     "cookingMethods": [
-      "grilled"
+      "stirred",
+      "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Baccala Mantecato is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "威尼斯奶油鳕鱼泥是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Baccala Mantecato is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Venetian whipped salt cod spread, usually creamy with olive oil and served on toast, crostini, or polenta.",
+      "zh": "威尼斯风味盐鳕鱼泥，通常用橄榄油打得绵滑，配烤面包或玉米糕。",
+      "nl": "Venetiaanse opgeklopte stokviscrème, romig met olijfolie en vaak op toast of polenta."
     },
     "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served as a cool or room-temperature spread, so expect creamy fish flavor rather than a hot fillet.",
+      "zh": "多作为冷食或常温抹酱上桌，重点是绵滑鱼香，不是热鱼排。",
+      "nl": "Koel of op kamertemperatuur als spread; romige vissmaak, geen warme filet."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Venetian cicchetti-style dish for diners who like salty fish spreads.",
+        "zh": "威尼斯小食风格菜，适合喜欢咸鲜鱼泥和面包搭配的人。",
+        "nl": "Een Venetiaans cicchetti-gerecht voor wie zoute visspreads lekker vindt."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        60,
-        "main"
+        "salt-cod",
+        45,
+        "whipped fish"
       ],
       [
-        "potato",
+        "olive-oil",
+        25,
+        "creaminess",
+        "seasoning"
+      ],
+      [
+        "bread",
         15,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
-        10,
-        "body"
+        "serving base"
       ],
       [
         "lemon",
@@ -1187,51 +1296,54 @@ const europeDepthDishConfigs = [
         "brightness"
       ],
       [
-        "olive-oil",
+        "garlic",
         5,
-        "finish",
+        "aroma",
         "seasoning"
       ],
       [
         "parsley",
         5,
-        "finish",
+        "fresh finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "salt cod",
+      "olive oil emulsion",
+      "lemon parsley"
     ],
     "basicTaste": [
+      "salty",
       "savory",
-      "mild"
+      "creamy"
     ],
     "textureProfile": [
-      "tender fish",
-      "light flaky bite"
+      "smooth spread",
+      "salty fish flakes",
+      "crisp toast contrast"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-gluten"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "fish"
-    ],
-    "avoidIfTags": [
-      "fish-allergy"
+      "starter",
+      "regional-dish",
+      "seafood"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order as a small seafood starter if salty creamy fish spread sounds appealing.",
+      "zh": "想吃小份咸鲜海鲜前菜时可以点；不喜欢鱼泥或咸味重的人慎点。",
+      "nl": "Bestel als kleine zeevruchtenstarter als romige zoute visspread aanspreekt."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.85,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -1244,100 +1356,109 @@ const europeDepthDishConfigs = [
       "nl": "Porchetta",
       "local": "Porchetta"
     },
-    "category": "pork",
+    "category": "roast-meat",
     "cookingMethods": [
-      "grilled"
+      "baked"
     ],
     "shortDescription": {
-      "en": "Porchetta is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "意式香草烤猪肉卷是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Porchetta is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Herb-roasted rolled pork with fatty layers and crisp skin, often sliced and served warm or in a sandwich.",
+      "zh": "香草烤猪肉卷，肥瘦层次明显，常切片热食或夹面包。",
+      "nl": "Italiaans kruidengebraad van opgerold varkensvlees met vetlaag en krokante huid."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect juicy fatty pork, crisp edges, and rosemary-garlic aroma rather than a lean meat plate.",
+      "zh": "会有多汁肥润的猪肉、脆边和迷迭香蒜香，不是清瘦肉排。",
+      "nl": "Verwacht sappig vet varkensvlees, krokante randen en rozemarijn-knoflookaroma."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "street-food",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A central Italian roast also common as market or sandwich food.",
+        "zh": "意大利中部代表性烤肉，也常见于市集和三明治。",
+        "nl": "Een Midden-Italiaans gebraad dat ook vaak als markt- of broodjesgerecht voorkomt."
       }
     },
     "composition": [
       [
+        "pork-belly",
+        55,
+        "rolled pork"
+      ],
+      [
         "pork",
-        50,
-        "main"
-      ],
-      [
-        "potato",
         20,
-        "side"
+        "lean meat"
       ],
       [
-        "cabbage",
+        "rosemary",
         10,
-        "body"
+        "herb aroma",
+        "seasoning"
       ],
       [
-        "mustard",
+        "garlic",
         5,
-        "condiment",
+        "aroma",
         "seasoning"
       ],
       [
-        "black-pepper",
+        "olive-oil",
         5,
-        "seasoning",
+        "roast finish",
         "seasoning"
       ],
       [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
+        "bread",
+        5,
+        "optional serving base",
+        "ingredient",
+        "medium",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
+      "rosemary and garlic",
+      "crisp pork skin",
+      "fatty roast pork"
     ],
     "basicTaste": [
       "savory",
+      "herbal",
       "rich"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "juicy pork",
+      "crisp skin",
+      "fatty layers"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-gluten"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pork"
+      "street-food",
+      "sharing",
+      "meat-heavy"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "no-pork",
+      "gluten-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A great order if you want juicy herb-roasted pork; skip if you want lean or pork-free food.",
+      "zh": "想吃香草烤猪肉时很值得点；不吃猪肉或想要清淡瘦肉则避开。",
+      "nl": "Sterk als je sappig kruidengebraad wilt; sla over bij varkensvrij of mager eten."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "metadataConfidence": 0.86,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -1350,95 +1471,99 @@ const europeDepthDishConfigs = [
       "nl": "Bistecca alla Fiorentina",
       "local": "Bistecca alla Fiorentina"
     },
-    "category": "meat",
+    "category": "steak",
     "cookingMethods": [
-      "braised"
+      "grilled"
     ],
+    "rawnessLevel": "often-rare-or-medium-rare",
     "shortDescription": {
-      "en": "Bistecca alla Fiorentina is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "佛罗伦萨T骨牛排是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Bistecca alla Fiorentina is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A thick Tuscan T-bone or porterhouse steak, grilled hard outside and commonly served rare inside.",
+      "zh": "托斯卡纳厚切T骨或 porterhouse 牛排，外层炭烤，内部常偏生。",
+      "nl": "Dikke Toscaanse T-bone of porterhouse, stevig gegrild en vaak rood van binnen."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Usually simple and meat-focused, with salt, olive oil, lemon, and a rare center.",
+      "zh": "通常调味简单，突出牛肉本身，常配海盐、橄榄油和柠檬。",
+      "nl": "Meestal eenvoudig en vleesgericht, met zout, olijfolie, citroen en een rode kern."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "signature",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "signature-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A signature Tuscan steak dish, often priced and portioned for sharing.",
+        "zh": "托斯卡纳标志性牛排，常常分量大、价格高，适合分享。",
+        "nl": "Een iconische Toscaanse steak, vaak groot en geschikt om te delen."
       }
     },
     "composition": [
       [
         "beef",
-        45,
-        "main"
+        80,
+        "thick steak"
       ],
       [
-        "potato",
-        20,
-        "side"
+        "olive-oil",
+        5,
+        "finish",
+        "seasoning"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "body"
-      ],
-      [
-        "onion",
-        10,
-        "aromatic"
-      ],
-      [
-        "black-pepper",
+        "sea-salt",
         5,
         "seasoning",
         "seasoning"
       ],
       [
-        "parsley",
+        "rosemary",
         5,
-        "finish",
+        "herb aroma",
         "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "brightness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "charred beef",
+      "coarse salt",
+      "rare steak juices"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "meaty",
+      "smoky"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "charred crust",
+      "rare center",
+      "thick chew"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-raw-meat"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "meat"
+      "signature-dish",
+      "sharing",
+      "steak"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "avoid-rare-meat"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order if you want a serious steak and are comfortable with rare meat; confirm doneness before ordering.",
+      "zh": "想吃厚切牛排且能接受偏生熟度时适合；下单前最好确认熟度。",
+      "nl": "Bestel voor een serieuze steak als rood vlees oké is; bevestig de garing vooraf."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 5,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.88,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -1451,101 +1576,100 @@ const europeDepthDishConfigs = [
       "nl": "Cotoletta alla Milanese",
       "local": "Cotoletta alla Milanese"
     },
-    "category": "fried",
+    "category": "fried-meat",
     "cookingMethods": [
       "fried"
     ],
     "shortDescription": {
-      "en": "Cotoletta alla Milanese is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "米兰炸小牛排是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Cotoletta alla Milanese is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A breaded veal cutlet fried until golden, similar in idea to schnitzel but Milanese in style.",
+      "zh": "裹面包糠煎炸的小牛排，金黄酥脆，类似炸肉排但属于米兰风格。",
+      "nl": "Gepaneerde kalfskotelet goudbruin gebakken, verwant aan schnitzel maar Milanees."
     },
     "cookingProfile": {
-      "en": "Usually served with fried snack or main, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fried snack or main，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fried snack or main; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served hot with a crisp crust and tender veal; lemon is usually the main brightness.",
+      "zh": "热食上桌，外壳酥脆、肉质较嫩，柠檬常用来解腻。",
+      "nl": "Warm geserveerd met krokante korst en mals kalfsvlees; citroen maakt het frisser."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic Milanese meat dish for diners who want crisp, mild, familiar comfort.",
+        "zh": "经典米兰肉类菜，适合想吃酥脆、温和、熟悉口感的人。",
+        "nl": "Een Milanese klassieker voor wie krokant, mild comfortfood wil."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "coating"
+        "veal-cutlet",
+        55,
+        "meat cutlet"
       ],
       [
-        "potato",
-        25,
-        "body"
-      ],
-      [
-        "fish-fillet",
+        "panko-breadcrumbs",
         20,
-        "main"
+        "crumb coating"
       ],
       [
         "egg",
         10,
-        "binder"
+        "coating binder"
       ],
       [
         "butter",
-        10,
-        "richness"
+        5,
+        "frying richness"
       ],
       [
-        "sea-salt",
-        10,
-        "seasoning",
-        "seasoning"
+        "lemon",
+        5,
+        "finish"
+      ],
+      [
+        "wheat-flour",
+        5,
+        "coating"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "golden breadcrumb crust",
+      "veal",
+      "lemon"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "fried",
+      "mild"
     ],
     "textureProfile": [
-      "crisp outside",
-      "soft center"
+      "crisp crust",
+      "tender meat",
+      "light lemon finish"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
-      "contains-fish"
+      "contains-dairy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "fried"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
+      "safe-choice",
+      "fried-food",
+      "meat-main"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A safe, familiar meat main if you like crisp breaded cutlets.",
+      "zh": "喜欢酥脆炸肉排时很稳；介意油炸、麸质或鸡蛋则不适合。",
+      "nl": "Een vertrouwde vleeskeuze als je krokante gepaneerde kotelet lekker vindt."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.86,
+    "restaurantVariationLevel": "low"
   },
   {
     "id": "brasato-al-barolo",
@@ -1557,95 +1681,100 @@ const europeDepthDishConfigs = [
       "nl": "Brasato al Barolo",
       "local": "Brasato al Barolo"
     },
-    "category": "meat",
+    "category": "braised-meat",
     "cookingMethods": [
       "braised"
     ],
     "shortDescription": {
-      "en": "Brasato al Barolo is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "巴罗洛红酒炖牛肉是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Brasato al Barolo is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Beef braised in Barolo-style red wine until tender, usually served with a dark glossy sauce.",
+      "zh": "用巴罗洛风格红酒慢炖牛肉，肉质软烂，酱汁深色浓郁。",
+      "nl": "Rundvlees gestoofd in Barolo-achtige rode wijn tot mals, met donkere glanzende saus."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It arrives as a rich slow-braised meat plate, often better for a hearty dinner than a quick light meal.",
+      "zh": "上桌是浓郁慢炖肉类主菜，更适合正式晚餐，不算轻食。",
+      "nl": "Een rijk langzaam gestoofd vleesgerecht, eerder voor een stevig diner dan een lichte maaltijd."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Piedmontese braised beef dish for diners who want wine-rich depth.",
+        "zh": "皮埃蒙特红酒炖牛肉，适合想要浓厚酒香炖肉的人。",
+        "nl": "Een Piëmontees stoofgerecht voor wie rijke wijnsaus zoekt."
       }
     },
     "composition": [
       [
         "beef",
-        45,
-        "main"
+        60,
+        "braised meat"
       ],
       [
-        "potato",
-        20,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
+        "red-wine",
         15,
-        "body"
-      ],
-      [
-        "onion",
-        10,
-        "aromatic"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
+        "braise sauce",
         "seasoning"
       ],
       [
-        "parsley",
+        "carrot",
+        10,
+        "aromatic vegetable"
+      ],
+      [
+        "onion",
+        5,
+        "aromatic base"
+      ],
+      [
+        "olive-oil",
         5,
         "finish",
+        "seasoning"
+      ],
+      [
+        "rosemary",
+        5,
+        "herb depth",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "Barolo-style red wine",
+      "slow-braised beef",
+      "herbs and vegetables"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "wine-rich",
+      "deep"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "tender beef",
+      "glossy sauce",
+      "soft vegetables"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-alcohol"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "meat"
+      "comfort-food",
+      "meat-main",
+      "regional-dish"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order if you want a rich braised beef dish with wine depth.",
+      "zh": "想吃浓厚红酒炖牛肉时很适合；不想要酒香或厚重主菜则避开。",
+      "nl": "Bestel dit voor rijk gestoofd rundvlees met wijn diepte."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "metadataConfidence": 0.86,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -1654,99 +1783,109 @@ const europeDepthDishConfigs = [
     "cuisineId": "italian",
     "names": {
       "en": "Trippa alla Romana",
-      "zh": "罗马炖牛肚",
+      "zh": "罗马番茄炖牛肚",
       "nl": "Trippa alla Romana",
       "local": "Trippa alla Romana"
     },
-    "category": "stew",
+    "category": "offal",
     "cookingMethods": [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Trippa alla Romana is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "罗马炖牛肚是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Trippa alla Romana is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Roman-style tripe simmered in tomato sauce, often finished with mint or parsley and pecorino.",
+      "zh": "罗马风格番茄炖牛肚，常用薄荷或欧芹、佩科里诺奶酪收尾。",
+      "nl": "Romeinse pens in tomatensaus, vaak met munt of peterselie en pecorino."
     },
     "cookingProfile": {
-      "en": "Usually served with slow-cooked stew, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现slow-cooked stew，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met slow-cooked stew; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The texture is soft but chewy, and the tomato-cheese sauce makes it richer than it looks.",
+      "zh": "口感软中带韧，番茄和奶酪让味道比外观看起来更浓。",
+      "nl": "De structuur is zacht maar taai; tomaat en kaas maken het rijker dan het oogt."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "regional-dish",
+        "acquired-taste"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Roman offal classic for adventurous diners who like chewy textures.",
+        "zh": "罗马内脏经典菜，适合愿意尝试牛肚和弹韧口感的人。",
+        "nl": "Een Romeinse orgaanvleesklassieker voor avontuurlijke eters die taaie texturen waarderen."
       }
     },
     "composition": [
       [
-        "beef",
-        35,
-        "main"
+        "tripe",
+        60,
+        "main ingredient"
       ],
       [
-        "potato",
+        "tomato-sauce",
         20,
-        "body"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "broth",
-        15,
-        "base"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
+        "sauce",
         "seasoning"
       ],
       [
-        "parsley",
+        "pecorino",
+        8,
+        "cheese finish",
+        "seasoning"
+      ],
+      [
+        "onion",
         5,
+        "aromatic base"
+      ],
+      [
+        "garlic",
+        4,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        3,
         "finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "tripe texture",
+      "tomato sauce",
+      "pecorino and herbs"
     ],
     "basicTaste": [
       "savory",
-      "hearty"
+      "tomato-rich",
+      "slightly funky"
     ],
     "textureProfile": [
-      "soft vegetables",
-      "rich broth"
+      "soft-chewy tripe",
+      "saucy tomato base",
+      "grated cheese finish"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-dairy"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "stew"
+      "regional-dish",
+      "adventurous"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "dairy-free",
+      "avoid-offal"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order only if you are comfortable with tripe; it is flavorful but clearly an offal dish.",
+      "zh": "能接受牛肚和内脏菜再点；味道不错，但口感和食材都很明确。",
+      "nl": "Bestel alleen als pens oké is; smaakvol, maar duidelijk orgaanvlees."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "acquiredTasteLevel": 4,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -1754,105 +1893,113 @@ const europeDepthDishConfigs = [
     "metadataCode": "101048",
     "cuisineId": "italian",
     "names": {
-      "en": "Suppli",
-      "zh": "罗马炸米饭球",
-      "nl": "Suppli",
-      "local": "Suppli"
+      "en": "Supplì",
+      "zh": "罗马炸米饭芝士球",
+      "nl": "Supplì",
+      "local": "Supplì"
     },
-    "category": "fried",
+    "category": "fried-snack",
     "cookingMethods": [
-      "fried"
+      "deep-fried"
     ],
     "shortDescription": {
-      "en": "Suppli is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "罗马炸米饭球是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Suppli is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Roman fried rice croquettes, usually tomato rice with a melted mozzarella center.",
+      "zh": "罗马炸米饭小食，通常是番茄米饭包融化马苏里拉奶酪。",
+      "nl": "Romeinse gefrituurde rijstkroketten, meestal tomatenrijst met gesmolten mozzarella."
     },
     "cookingProfile": {
-      "en": "Usually served with fried snack or main, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fried snack or main，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fried snack or main; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served hot and crisp, with a soft rice interior and stretchy cheese when freshly fried.",
+      "zh": "热食外脆内软，刚炸好时内部奶酪会拉丝。",
+      "nl": "Warm en krokant, met zachte rijst en rekbare kaas wanneer vers gebakken."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "street-food"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Roman street-food snack and pizzeria starter.",
+        "zh": "罗马街头小食和披萨店常见前菜。",
+        "nl": "Een Romeinse streetfoodsnack en pizzeriavoorgerecht."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "coating"
+        "arborio-rice",
+        40,
+        "rice base"
       ],
       [
-        "potato",
-        25,
-        "body"
-      ],
-      [
-        "fish-fillet",
+        "tomato-sauce",
         20,
-        "main"
+        "rice sauce",
+        "seasoning"
+      ],
+      [
+        "mozzarella",
+        15,
+        "melty center"
+      ],
+      [
+        "panko-breadcrumbs",
+        10,
+        "crisp coating"
       ],
       [
         "egg",
-        10,
+        5,
         "binder"
       ],
       [
-        "butter",
-        10,
-        "richness"
+        "neutral-frying-oil",
+        5,
+        "fried texture"
       ],
       [
-        "sea-salt",
-        10,
-        "seasoning",
+        "parmesan",
+        5,
+        "savory finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "tomato rice",
+      "melted mozzarella",
+      "crisp fried coating"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "tomato-rich",
+      "cheesy"
     ],
     "textureProfile": [
       "crisp outside",
-      "soft center"
+      "soft rice",
+      "stretchy cheese"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
-      "contains-fish"
+      "contains-dairy",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "fried"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
+      "street-food",
+      "starter",
+      "sharing"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A fun starter if you want a hot, cheesy fried snack.",
+      "zh": "想吃热乎、拉丝、酥脆的小食时很适合；介意油炸或奶酪则不适合。",
+      "nl": "Leuk als warme kaasachtige gefrituurde snack; minder geschikt bij frituur of zuivel vermijden."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "metadataConfidence": 0.86,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -1861,104 +2008,101 @@ const europeDepthDishConfigs = [
     "cuisineId": "italian",
     "names": {
       "en": "Panzerotti",
-      "zh": "意式炸馅饼",
+      "zh": "意式炸半月馅饼",
       "nl": "Panzerotti",
       "local": "Panzerotti"
     },
-    "category": "pastry",
+    "category": "fried-snack",
     "cookingMethods": [
-      "baked"
+      "deep-fried"
     ],
     "shortDescription": {
-      "en": "Panzerotti is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "意式炸馅饼是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Panzerotti is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Small fried half-moon turnovers, commonly filled with tomato and mozzarella.",
+      "zh": "小个半月形炸馅饼，常见馅料是番茄酱和马苏里拉奶酪。",
+      "nl": "Kleine gefrituurde halvemaanflapjes, vaak gevuld met tomaat en mozzarella."
     },
     "cookingProfile": {
-      "en": "Usually served with savory pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现savory pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met savory pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Hot, puffy, and crisp outside, with a molten saucy filling inside.",
+      "zh": "热食外层鼓起酥脆，里面是热的酱汁和融化奶酪。",
+      "nl": "Warm, luchtig en krokant van buiten, met gesmolten saus-kaasvulling."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "street-food"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A southern Italian street-food snack related to calzone but usually smaller and fried.",
+        "zh": "南意街头小食，和 calzone 相近但通常更小且油炸。",
+        "nl": "Zuid-Italiaanse streetfood, verwant aan calzone maar kleiner en meestal gefrituurd."
       }
     },
     "composition": [
       [
-        "pastry-crust",
-        40,
-        "base"
+        "pizza-dough",
+        45,
+        "turnover dough"
       ],
       [
-        "cheese",
+        "mozzarella",
         20,
-        "filling"
+        "melty filling"
       ],
       [
-        "egg",
-        15,
-        "binder"
+        "tomato-sauce",
+        20,
+        "filling sauce",
+        "seasoning"
       ],
       [
-        "mixed-vegetables",
+        "neutral-frying-oil",
         10,
-        "body"
+        "fried texture"
       ],
       [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
-        "black-pepper",
+        "basil",
         5,
-        "seasoning",
+        "aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "fried dough",
+      "tomato mozzarella filling",
+      "basil"
     ],
     "basicTaste": [
       "savory",
-      "buttery"
+      "cheesy",
+      "tomato-rich"
     ],
     "textureProfile": [
-      "flaky pastry",
-      "soft filling"
+      "crisp puffy dough",
+      "molten filling",
+      "soft center"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-dairy",
-      "contains-egg"
+      "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "pastry"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
+      "street-food",
+      "fried-snack",
+      "sharing"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, buttery profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、buttery的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, buttery je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order as a snack if you want something crisp, cheesy, and filling.",
+      "zh": "想吃酥脆、热奶酪、分量感强的小食时可以点。",
+      "nl": "Bestel als snack wanneer je iets krokants, kazigs en vullends wilt."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -1967,99 +2111,106 @@ const europeDepthDishConfigs = [
     "cuisineId": "italian",
     "names": {
       "en": "Piadina",
-      "zh": "意式薄饼卷",
+      "zh": "意式薄饼夹馅",
       "nl": "Piadina",
-      "local": "Piadina"
+      "local": "Piadina romagnola"
     },
-    "category": "bread",
+    "category": "flatbread",
     "cookingMethods": [
-      "baked"
+      "toasted",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Piadina is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "意式薄饼卷是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Piadina is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A thin Italian flatbread, often folded around prosciutto, cheese, arugula, or other fillings.",
+      "zh": "意式薄饼夹馅，常见火腿、奶酪、芝麻菜等组合。",
+      "nl": "Dun Italiaans platbrood, vaak gevouwen met prosciutto, kaas, rucola of andere vulling."
     },
     "cookingProfile": {
-      "en": "Usually served with baked bread or pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现baked bread or pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met baked bread or pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Usually griddled and served warm, lighter than pizza but still bread-based and filling.",
+      "zh": "通常煎烤后温热上桌，比披萨轻一些，但仍是以面饼为主的饱腹选择。",
+      "nl": "Meestal warm van de plaat, lichter dan pizza maar nog steeds broodig en vullend."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "street-food"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Romagna-style casual flatbread useful for quick lunch ordering.",
+        "zh": "罗马涅地区常见休闲薄饼，适合快速午餐点单。",
+        "nl": "Een casual platbrood uit Romagna, handig voor een snelle lunch."
       }
     },
     "composition": [
       [
-        "bread",
+        "wheat-flour",
         45,
-        "base"
+        "flatbread base"
       ],
       [
-        "wheat-flour",
-        25,
-        "base"
+        "prosciutto",
+        20,
+        "salty filling"
       ],
       [
         "cheese",
         15,
-        "filling"
+        "creamy filling"
       ],
       [
-        "butter",
+        "arugula",
         10,
-        "richness"
+        "peppery greens"
       ],
       [
-        "sea-salt",
+        "tomato",
         5,
-        "seasoning",
+        "freshness"
+      ],
+      [
+        "olive-oil",
+        5,
+        "finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "warm flatbread",
+      "prosciutto",
+      "arugula and cheese"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "salty",
+      "fresh"
     ],
     "textureProfile": [
-      "soft bread",
-      "crisp edges"
+      "soft toasted flatbread",
+      "silky ham",
+      "leafy crunch"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "bread"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
+      "lunch",
+      "street-food",
+      "quick-meal"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good for a casual light meal, but check the filling if you avoid pork or dairy.",
+      "zh": "适合轻便午餐；不吃猪肉或奶制品时要先确认馅料。",
+      "nl": "Goed als lichte lunch; check de vulling bij varkensvlees of zuivel vermijden."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "pinsa-romana",
@@ -2067,99 +2218,103 @@ const europeDepthDishConfigs = [
     "cuisineId": "italian",
     "names": {
       "en": "Pinsa Romana",
-      "zh": "罗马长形披萨",
+      "zh": "罗马风格椭圆披萨饼",
       "nl": "Pinsa Romana",
-      "local": "Pinsa Romana"
+      "local": "Pinsa romana"
     },
-    "category": "bread",
+    "category": "pizza",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Pinsa Romana is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "罗马长形披萨是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Pinsa Romana is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "An oval Roman-style flatbread pizza with an airy crust, often lighter and crispier than standard pizza.",
+      "zh": "椭圆形罗马风格披萨饼，饼底通常更蓬松、边缘更酥。",
+      "nl": "Ovale Romeinse flatbread-pizza met luchtige bodem, vaak lichter en krokanter dan gewone pizza."
     },
     "cookingProfile": {
-      "en": "Usually served with baked bread or pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现baked bread or pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met baked bread or pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Baked hot with an airy base; toppings vary, but the crust texture is the main cue.",
+      "zh": "高温烘烤，重点是空气感饼底；浇头会因餐厅变化。",
+      "nl": "Heet gebakken met luchtige bodem; toppings wisselen, maar de korst is belangrijk."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "modern",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "modern"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A modern Roman pizzeria item for diners comparing pizza-like options.",
+        "zh": "现代罗马披萨店常见项目，适合在披萨类选择中比较。",
+        "nl": "Een modern Romeins pizzeria-item voor wie pizza-achtige opties vergelijkt."
       }
     },
     "composition": [
       [
-        "bread",
-        45,
-        "base"
+        "pizza-dough",
+        55,
+        "airy base"
       ],
       [
-        "wheat-flour",
-        25,
-        "base"
+        "tomato-sauce",
+        20,
+        "sauce",
+        "seasoning"
       ],
       [
-        "cheese",
+        "mozzarella",
         15,
-        "filling"
+        "cheese"
       ],
       [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
-        "sea-salt",
+        "olive-oil",
         5,
-        "seasoning",
+        "finish",
+        "seasoning"
+      ],
+      [
+        "basil",
+        5,
+        "fresh aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "airy oval crust",
+      "tomato mozzarella topping",
+      "olive oil"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "tomato-rich",
+      "cheesy"
     ],
     "textureProfile": [
-      "soft bread",
-      "crisp edges"
+      "airy crisp crust",
+      "soft center",
+      "melty topping"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "bread"
+    "dietaryFlags": [
+      "vegetarian"
     ],
-    "avoidIfTags": [
-      "gluten-free"
+    "goodForTags": [
+      "pizza-like",
+      "sharing",
+      "modern"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order if you want something pizza-like with a lighter, airy crust.",
+      "zh": "想吃接近披萨但饼底更轻、更有空气感的选择时适合。",
+      "nl": "Bestel als je iets pizza-achtigs wilt met een lichtere luchtige bodem."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "calzone",
@@ -2167,98 +2322,104 @@ const europeDepthDishConfigs = [
     "cuisineId": "italian",
     "names": {
       "en": "Calzone",
-      "zh": "意式折叠披萨",
+      "zh": "意式烤半月披萨包",
       "nl": "Calzone",
       "local": "Calzone"
     },
-    "category": "bread",
+    "category": "pizza",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Calzone is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "意式折叠披萨是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Calzone is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A folded baked pizza pocket, usually filled with mozzarella, tomato, and cured meat or ricotta.",
+      "zh": "烤制折叠披萨包，常见馅料有马苏里拉、番茄、腌肉或乳清奶酪。",
+      "nl": "Gevouwen gebakken pizzapakket, vaak gevuld met mozzarella, tomaat en vleeswaar of ricotta."
     },
     "cookingProfile": {
-      "en": "Usually served with baked bread or pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现baked bread or pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met baked bread or pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The filling is enclosed, so it arrives hotter and wetter inside than a flat pizza.",
+      "zh": "馅料被包在里面，上桌内部通常更烫、更湿润。",
+      "nl": "De vulling zit dichtgevouwen, dus binnenin is het heter en sappiger dan platte pizza."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A familiar pizzeria item for diners who want a stuffed pizza experience.",
+        "zh": "披萨店常见选择，适合想吃有馅料包裹感的人。",
+        "nl": "Een bekende pizzeria-keuze voor wie gevulde pizza wil."
       }
     },
     "composition": [
       [
-        "bread",
+        "pizza-dough",
         45,
-        "base"
+        "folded dough"
       ],
       [
-        "wheat-flour",
-        25,
-        "base"
+        "mozzarella",
+        20,
+        "melty filling"
       ],
       [
-        "cheese",
+        "tomato-sauce",
         15,
-        "filling"
+        "sauce",
+        "seasoning"
       ],
       [
-        "butter",
+        "ham",
         10,
-        "richness"
+        "savory filling"
       ],
       [
-        "sea-salt",
+        "ricotta",
         5,
-        "seasoning",
+        "creamy filling"
+      ],
+      [
+        "olive-oil",
+        5,
+        "finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "folded pizza dough",
+      "molten cheese",
+      "hot enclosed filling"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "cheesy",
+      "tomato-rich"
     ],
     "textureProfile": [
-      "soft bread",
-      "crisp edges"
+      "chewy crust",
+      "steamy filling",
+      "melty cheese"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "bread"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
+      "pizzeria",
+      "filling-meal"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A filling pizzeria choice if you want melted cheese and a stuffed center.",
+      "zh": "想吃热奶酪和有馅料的披萨包时适合；分量通常不轻。",
+      "nl": "Een vullende pizzeria-keuze met gesmolten kaas en gevulde kern."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "metadataConfidence": 0.85,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -2267,103 +2428,112 @@ const europeDepthDishConfigs = [
     "cuisineId": "italian",
     "names": {
       "en": "Sarde a Beccafico",
-      "zh": "西西里夹馅沙丁鱼",
-      "nl": "Sarde a Beccafico",
-      "local": "Sarde a Beccafico"
+      "zh": "西西里夹馅沙丁鱼卷",
+      "nl": "Sarde a beccafico",
+      "local": "Sarde a beccafico"
     },
-    "category": "fish",
+    "category": "seafood",
     "cookingMethods": [
-      "grilled"
+      "baked"
     ],
     "shortDescription": {
-      "en": "Sarde a Beccafico is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "西西里夹馅沙丁鱼是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Sarde a Beccafico is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Sicilian stuffed sardines baked with breadcrumbs, raisins, pine nuts, citrus, and herbs.",
+      "zh": "西西里夹馅沙丁鱼，常用面包屑、葡萄干、松子、柑橘和香草烘烤。",
+      "nl": "Siciliaanse gevulde sardines met broodkruim, rozijnen, pijnboompitten, citrus en kruiden."
     },
     "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect small oily fish with sweet-savory stuffing rather than a neutral white-fish fillet.",
+      "zh": "这是小型油脂感鱼配甜咸馅料，不是清淡白鱼排。",
+      "nl": "Verwacht kleine vette vis met zoet-hartige vulling, geen neutrale witvisfilet."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Sicilian seafood dish with a distinctive sweet-savory profile.",
+        "zh": "西西里特色海鲜菜，有明显甜咸交织的风味。",
+        "nl": "Een Siciliaans zeevruchtengerecht met herkenbaar zoet-hartig profiel."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        60,
-        "main"
+        "sardines",
+        45,
+        "main fish"
       ],
       [
-        "potato",
-        15,
-        "side"
+        "bread",
+        20,
+        "breadcrumb filling"
       ],
       [
-        "mixed-vegetables",
+        "raisins",
         10,
-        "body"
+        "sweet filling"
+      ],
+      [
+        "pine-nuts",
+        10,
+        "nutty filling"
       ],
       [
         "lemon",
         5,
-        "brightness"
+        "citrus"
       ],
       [
         "olive-oil",
         5,
-        "finish",
+        "bake finish",
         "seasoning"
       ],
       [
         "parsley",
         5,
-        "finish",
+        "herb finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "sardines",
+      "raisin pine-nut stuffing",
+      "citrus"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "briny",
+      "sweet-savory"
     ],
     "textureProfile": [
-      "tender fish",
-      "light flaky bite"
+      "oily fish",
+      "crumbly stuffing",
+      "soft baked roll"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-gluten",
+      "contains-tree-nut"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "fish"
-    ],
-    "avoidIfTags": [
-      "fish-allergy"
+      "regional-dish",
+      "seafood",
+      "adventurous"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order if you enjoy oily fish and sweet-savory Sicilian flavors.",
+      "zh": "喜欢油脂感小鱼和甜咸风味时值得点；怕鱼腥或坚果过敏则避开。",
+      "nl": "Bestel als je vette vis en Siciliaans zoet-hartig lekker vindt."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -2372,100 +2542,121 @@ const europeDepthDishConfigs = [
     "cuisineId": "italian",
     "names": {
       "en": "Involtini",
-      "zh": "意式肉卷",
+      "zh": "意式夹馅卷",
       "nl": "Involtini",
       "local": "Involtini"
     },
-    "category": "meat",
+    "category": "stuffed-rolls",
     "cookingMethods": [
-      "braised"
+      "simmered",
+      "baked"
     ],
     "shortDescription": {
-      "en": "Involtini is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "意式肉卷是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Involtini is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Italian stuffed rolls, often veal, beef, or eggplant wrapped around cheese, herbs, or breadcrumbs.",
+      "zh": "意式夹馅卷，常见小牛肉、牛肉或茄子包入奶酪、香草或面包屑。",
+      "nl": "Italiaanse gevulde rolletjes, vaak kalf, rund of aubergine met kaas, kruiden of broodkruim."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Because fillings vary, order it for the rolled stuffed format and check the menu line for the exact filling.",
+      "zh": "馅料变化很大，点它主要是为了夹馅卷形式，具体馅料要看菜单说明。",
+      "nl": "De vulling wisselt sterk; bestel voor het gevulde rolletjesconcept en check de exacte vulling."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "common-menu-item"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A common Italian rolled preparation, useful only when the menu or server clarifies the filling.",
+        "zh": "常见意式卷制菜型，只有菜单或服务员说明馅料时最可靠。",
+        "nl": "Een gangbare Italiaanse rolbereiding, het nuttigst wanneer de vulling duidelijk is."
       }
     },
+    "commonVariations": [
+      "veal rolls",
+      "eggplant rolls",
+      "beef rolls",
+      "cheese-herb filling"
+    ],
     "composition": [
       [
-        "beef",
-        45,
-        "main"
+        "veal",
+        30,
+        "possible wrapper"
       ],
       [
-        "potato",
+        "eggplant",
         20,
-        "side"
+        "possible wrapper"
       ],
       [
-        "mixed-vegetables",
+        "cheese",
         15,
-        "body"
+        "filling"
       ],
       [
-        "onion",
+        "bread",
         10,
-        "aromatic"
+        "breadcrumb filling"
       ],
       [
-        "black-pepper",
-        5,
-        "seasoning",
+        "tomato-sauce",
+        15,
+        "sauce",
         "seasoning"
       ],
       [
-        "parsley",
+        "olive-oil",
         5,
         "finish",
         "seasoning"
+      ],
+      [
+        "herbs",
+        5,
+        "aroma"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "rolled stuffed format",
+      "tomato sauce",
+      "cheese and herbs"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "saucy",
+      "herbal"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "rolled pieces",
+      "soft filling",
+      "saucy finish"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "meat"
+      "stuffed-rolls",
+      "check-filling"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "needs-exact-protein"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order only after checking the filling; the name alone does not tell you meat versus vegetable.",
+      "zh": "建议先确认馅料再点；单看名字无法判断是肉卷还是蔬菜卷。",
+      "nl": "Bestel pas na check van de vulling; de naam zegt niet of het vlees of groente is."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.8,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "sfogliatelle",
@@ -2473,7 +2664,7 @@ const europeDepthDishConfigs = [
     "cuisineId": "italian",
     "names": {
       "en": "Sfogliatelle",
-      "zh": "那不勒斯贝壳酥",
+      "zh": "意式贝壳酥",
       "nl": "Sfogliatelle",
       "local": "Sfogliatelle"
     },
@@ -2482,94 +2673,95 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Sfogliatelle is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "那不勒斯贝壳酥是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Sfogliatelle is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Crisp shell-shaped Neapolitan pastries with many flaky layers and a sweet ricotta-style filling.",
+      "zh": "那不勒斯贝壳形酥点，层次很多，内馅常带甜乳清奶酪感。",
+      "nl": "Knapperige Napolitaanse schelpvormige gebakjes met veel laagjes en zoete ricottavulling."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Best when the shell is crisp and the filling is dense, creamy, and lightly citrusy.",
+      "zh": "好的版本外壳酥脆，内馅厚实绵密，常带一点柑橘香。",
+      "nl": "Het best met krokante schelp en dichte romige, licht citrusachtige vulling."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Neapolitan pastry classic for diners choosing a crisp dessert rather than a soft cake.",
+        "zh": "那不勒斯经典点心，适合想吃酥皮甜点而不是软蛋糕的人。",
+        "nl": "Een Napolitaanse klassieker voor wie een krokant dessert wil in plaats van zachte cake."
       }
     },
     "composition": [
       [
-        "wheat-flour",
+        "pastry-crust",
+        45,
+        "layered shell"
+      ],
+      [
+        "ricotta",
         25,
-        "base"
+        "sweet filling"
       ],
       [
         "sugar",
-        20,
+        15,
         "sweetness"
       ],
       [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
+        "orange",
+        5,
+        "citrus aroma"
       ],
       [
         "butter",
-        10,
+        5,
         "richness"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "wheat-flour",
+        5,
+        "structure"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "many flaky layers",
+      "sweet ricotta filling",
+      "citrus aroma"
     ],
     "basicTaste": [
       "sweet",
+      "buttery",
       "creamy"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "very flaky shell",
+      "dense filling",
+      "powdered sugar finish"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
+      "dessert",
+      "pastry"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose this for a crisp layered pastry; it is richer and drier than creamy spoon desserts.",
+      "zh": "想吃酥皮层次甜点时适合；比勺子甜品更干、更有嚼感。",
+      "nl": "Kies dit voor krokant bladerig gebak; rijker en droger dan lepeldesserts."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "metadataConfidence": 0.86,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -2578,103 +2770,108 @@ const europeDepthDishConfigs = [
     "cuisineId": "italian",
     "names": {
       "en": "Zabaglione",
-      "zh": "意式蛋酒甜酱",
+      "zh": "意式蛋酒奶泡甜品",
       "nl": "Zabaglione",
       "local": "Zabaglione"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "stirred"
     ],
+    "servingTemperature": "warm-or-cool",
+    "rawnessLevel": "egg-based",
     "shortDescription": {
-      "en": "Zabaglione is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "意式蛋酒甜酱是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Zabaglione is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A light foamy Italian custard made from egg yolks, sugar, and sweet wine such as Marsala.",
+      "zh": "用蛋黄、糖和甜酒打出的轻盈泡沫状意式蛋奶甜品。",
+      "nl": "Luchtige Italiaanse custard van eidooier, suiker en zoete wijn zoals Marsala."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Usually spoonable and airy, with a clear egg-wine aroma rather than a set pudding texture.",
+      "zh": "通常轻盈可舀，带明显蛋香和酒香，不是凝固布丁口感。",
+      "nl": "Meestal luchtig en lepelbaar, met ei-wijnaroma in plaats van vaste pudding."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic Italian dessert for diners who like soft custards and wine aroma.",
+        "zh": "经典意式甜点，适合喜欢柔软蛋奶和酒香的人。",
+        "nl": "Een klassiek Italiaans dessert voor wie zachte custard en wijnaroma waardeert."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "egg",
+        40,
+        "custard base"
       ],
       [
         "sugar",
-        20,
+        25,
         "sweetness"
       ],
       [
-        "egg",
-        15,
-        "structure"
+        "wine",
+        20,
+        "Marsala-style aroma"
       ],
       [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
+        "berries",
         10,
-        "richness"
+        "optional garnish"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "bread",
+        5,
+        "biscotti or biscuit side",
+        "ingredient",
+        "medium",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "egg yolk foam",
+      "Marsala-style wine",
+      "light sweetness"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "eggy",
+      "wine-aromatic"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "airy foam",
+      "spoonable custard",
+      "soft finish"
     ],
     "riskFlags": [
-      "contains-gluten",
       "contains-egg",
-      "contains-dairy"
+      "contains-alcohol",
+      "contains-gluten"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "custard"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "egg-allergy",
+      "avoid-alcohol"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order if you like airy custards and do not mind egg and wine flavor.",
+      "zh": "喜欢轻盈蛋奶甜品且能接受酒香时适合；不吃蛋或避酒则不建议。",
+      "nl": "Bestel als je luchtige custard en wijnaroma lekker vindt; vermijd bij ei of alcohol vermijden."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -2683,41 +2880,48 @@ const europeDepthDishConfigs = [
     "cuisineId": "italian",
     "names": {
       "en": "Semifreddo",
-      "zh": "意式半冻甜点",
+      "zh": "意式半冻甜品",
       "nl": "Semifreddo",
       "local": "Semifreddo"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "chilled",
+      "set"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Semifreddo is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "意式半冻甜点是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Semifreddo is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A semi-frozen Italian dessert, softer than ice cream and often sliced like a chilled mousse loaf.",
+      "zh": "意式半冻甜品，比冰淇淋更软，常像冷冻慕斯一样切片上桌。",
+      "nl": "Halfbevroren Italiaans dessert, zachter dan ijs en vaak als mousseplak geserveerd."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served cold but not rock-hard, with a creamy mousse-like texture that melts quickly.",
+      "zh": "冷食但不会像冰块一样硬，质地接近奶油慕斯，融化较快。",
+      "nl": "Koud maar niet keihard, romig mousseachtig en snel smeltend."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A flexible Italian restaurant dessert for diners who want something cold and creamy.",
+        "zh": "意大利餐厅常见冷甜点，适合想吃冰凉奶油感甜品的人。",
+        "nl": "Een flexibel Italiaans restaurantdessert voor wie koud en romig wil."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "cream",
+        35,
+        "creamy base"
+      ],
+      [
+        "egg",
+        20,
+        "structure"
       ],
       [
         "sugar",
@@ -2725,62 +2929,57 @@ const europeDepthDishConfigs = [
         "sweetness"
       ],
       [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
         "fruit-sauce-or-caramel",
         15,
-        "topping"
+        "sauce or swirl"
+      ],
+      [
+        "chocolate",
+        5,
+        "variation garnish"
+      ],
+      [
+        "berries",
+        5,
+        "fresh garnish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "semi-frozen cream",
+      "egg mousse base",
+      "fruit or chocolate sauce"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "cold"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft frozen slice",
+      "creamy melt",
+      "sauce contrast"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
+      "dessert",
+      "cold-dessert"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good cold dessert if you want creamy texture without dense ice cream.",
+      "zh": "想吃冰凉奶油感但又不想要太硬冰淇淋时适合。",
+      "nl": "Goed koud dessert als je romigheid wilt zonder compact ijs."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "granita",
@@ -2788,104 +2987,103 @@ const europeDepthDishConfigs = [
     "cuisineId": "italian",
     "names": {
       "en": "Granita",
-      "zh": "西西里碎冰甜品",
+      "zh": "意式冰沙",
       "nl": "Granita",
       "local": "Granita"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Granita is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "西西里碎冰甜品是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Granita is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A Sicilian-style icy dessert with fine crystals, commonly lemon, coffee, almond, or fruit flavored.",
+      "zh": "西西里风格细碎冰晶甜品，常见柠檬、咖啡、杏仁或水果味。",
+      "nl": "Siciliaans ijskristaldessert, vaak met citroen, koffie, amandel of fruitsmaak."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served very cold and spoonable, lighter and icier than gelato.",
+      "zh": "冷食可舀，比意式冰淇淋更清爽、更有冰晶感。",
+      "nl": "Zeer koud en lepelbaar, lichter en ijziger dan gelato."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Sicilian refreshment often eaten as dessert or with brioche.",
+        "zh": "西西里常见清爽甜品，也常配 brioche 一起吃。",
+        "nl": "Een Siciliaanse verfrissing, als dessert of met brioche gegeten."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "shaved-ice",
+        45,
+        "ice crystals"
       ],
       [
         "sugar",
-        20,
+        25,
         "sweetness"
       ],
       [
-        "egg",
+        "lemon",
         15,
-        "structure"
+        "common flavor"
       ],
       [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
+        "coffee",
         10,
-        "richness"
+        "possible flavor"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "bread",
+        5,
+        "optional brioche side",
+        "ingredient",
+        "medium",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "fine ice crystals",
+      "lemon or coffee flavor",
+      "light syrup sweetness"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "refreshing",
+      "cold"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "icy crystals",
+      "spoonable slush",
+      "quick melt"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-gluten"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegan"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
+      "dessert",
+      "refreshing",
+      "vegan-option"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a light icy finish instead of a creamy dessert.",
+      "zh": "想用清爽冰感甜品收尾时适合；想要奶油甜点则选别的。",
+      "nl": "Kies dit voor een lichte ijzige afsluiter in plaats van een romig dessert."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high"
   },
   {
     "id": "bresaola-rucola-parmesan",
@@ -2894,97 +3092,105 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Bresaola Rucola Parmesan",
       "zh": "风干牛肉芝麻菜帕玛森",
-      "nl": "Bresaola Rucola Parmesan",
-      "local": "Bresaola Rucola Parmesan"
+      "nl": "Bresaola met rucola en Parmezaan",
+      "local": "Bresaola, rucola e Parmigiano"
     },
-    "category": "starter",
+    "category": "antipasto",
     "cookingMethods": [
       "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "cured-meat",
     "shortDescription": {
-      "en": "Bresaola Rucola Parmesan is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "风干牛肉芝麻菜帕玛森是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Bresaola Rucola Parmesan is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Thin slices of cured beef with arugula, shaved Parmigiano, lemon, olive oil, and black pepper.",
+      "zh": "薄切风干牛肉配芝麻菜、帕玛森片、柠檬、橄榄油和黑胡椒。",
+      "nl": "Dunne plakjes gedroogd rundvlees met rucola, Parmezaan, citroen, olijfolie en zwarte peper."
     },
     "cookingProfile": {
-      "en": "Usually served with small starter, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small starter，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small starter; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served cold as an antipasto, lean and salty rather than cooked or saucy.",
+      "zh": "作为冷前菜上桌，瘦、咸香，不是熟牛排或带酱主菜。",
+      "nl": "Koud als antipasto, mager en zoutig, niet gebakken of sauzig."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A common Italian antipasto for diners who want cured meat without pork.",
+        "zh": "常见意式冷前菜，适合想吃风干肉但不想吃猪肉的人。",
+        "nl": "Een gangbare Italiaanse antipasto voor wie gedroogd vlees zonder varkensvlees wil."
       }
     },
     "composition": [
       [
-        "bread",
-        30,
-        "base"
+        "bresaola",
+        50,
+        "cured beef"
       ],
       [
-        "cheese",
+        "arugula",
         20,
-        "richness"
+        "peppery greens"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "ham",
+        "parmesan",
         15,
-        "main"
-      ],
-      [
-        "olive-oil",
-        10,
-        "finish",
+        "cheese",
         "seasoning"
       ],
       [
-        "herbs",
+        "olive-oil",
         5,
-        "finish"
+        "dressing",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "brightness"
+      ],
+      [
+        "black-pepper",
+        5,
+        "finish",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "cured beef",
+      "arugula pepperiness",
+      "Parmigiano shavings"
     ],
     "basicTaste": [
+      "salty",
       "savory",
-      "mild"
+      "fresh"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "silky cured beef",
+      "leafy greens",
+      "hard cheese shavings"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-dairy"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "starter"
+      "starter",
+      "low-carb",
+      "no-pork-cured-meat"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A clean antipasto if you want salty cured beef and peppery greens.",
+      "zh": "想吃咸香风干牛肉和清爽芝麻菜时很适合；不吃奶酪则要说明。",
+      "nl": "Een heldere antipasto voor zoute bresaola en peperige rucola; meld zuivel vermijden."
     },
     "spiceLevel": 0,
-    "weightLevel": 1,
+    "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "metadataConfidence": 0.85,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -2993,105 +3199,117 @@ const europeDepthDishConfigs = [
     "cuisineId": "italian",
     "names": {
       "en": "Zuppa di Cozze",
-      "zh": "意式贻贝汤",
-      "nl": "Zuppa di Cozze",
-      "local": "Zuppa di Cozze"
+      "zh": "意式贻贝番茄汤",
+      "nl": "Zuppa di cozze",
+      "local": "Zuppa di cozze"
     },
-    "category": "seafood",
+    "category": "seafood-soup",
     "cookingMethods": [
-      "grilled"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Zuppa di Cozze is a common Italian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "意式贻贝汤是常见意大利菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Zuppa di Cozze is een veelvoorkomend Italiaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Italian mussel soup, often with tomato, garlic, parsley, olive oil, and toasted bread.",
+      "zh": "意式贻贝汤，常有番茄、蒜、欧芹、橄榄油和烤面包。",
+      "nl": "Italiaanse mosselsoep, vaak met tomaat, knoflook, peterselie, olijfolie en toast."
     },
     "cookingProfile": {
-      "en": "Usually served with fish or seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish or seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish or seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served hot with open mussels in broth; it is more shellfish-forward than a smooth soup.",
+      "zh": "热食上桌，汤里有开壳贻贝，重点是贝类鲜味，不是顺滑浓汤。",
+      "nl": "Warm met geopende mosselen in bouillon; meer schelpdiergericht dan gladde soep."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "italian-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Italian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见意大利菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Italiaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A coastal Italian mussel dish that works as a starter or light main.",
+        "zh": "意大利沿海常见贻贝菜，可当前菜或较轻主菜。",
+        "nl": "Een Italiaans kustgerecht met mosselen, als starter of lichte hoofdgang."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        40,
-        "main"
-      ],
-      [
         "mussels",
-        20,
-        "seafood"
+        55,
+        "main shellfish"
       ],
       [
-        "potato",
+        "tomato-sauce",
         15,
-        "side"
+        "broth base",
+        "seasoning"
       ],
       [
-        "lemon",
+        "bread",
         10,
-        "brightness"
+        "toasted side"
+      ],
+      [
+        "garlic",
+        8,
+        "aroma",
+        "seasoning"
       ],
       [
         "olive-oil",
-        10,
+        5,
         "finish",
         "seasoning"
       ],
       [
         "parsley",
-        5,
-        "finish",
+        4,
+        "fresh finish",
         "seasoning"
+      ],
+      [
+        "chili",
+        3,
+        "optional warmth",
+        "seasoning",
+        "high",
+        true
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "mussel broth",
+      "garlic tomato base",
+      "toasted bread"
     ],
     "basicTaste": [
+      "briny",
       "savory",
-      "briny"
+      "garlicky"
     ],
     "textureProfile": [
-      "tender seafood",
-      "bright savory finish"
+      "tender mussels",
+      "brothy sauce",
+      "crisp bread side"
     ],
     "riskFlags": [
-      "contains-fish",
-      "contains-shellfish"
+      "contains-shellfish",
+      "contains-gluten",
+      "can-be-spicy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "seafood"
-    ],
-    "avoidIfTags": [
-      "fish-allergy",
-      "shellfish-allergy"
+      "seafood",
+      "starter",
+      "light-main"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order if you want a shellfish-heavy bowl with broth to mop up with bread.",
+      "zh": "想吃贝类鲜味、还能用面包蘸汤时很适合；贝类过敏要避开。",
+      "nl": "Bestel als je een mosselrijke kom wilt met bouillon om met brood op te nemen."
     },
-    "spiceLevel": 0,
+    "spiceLevel": 1,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "metadataConfidence": 0.86,
     "restaurantVariationLevel": "medium"
   },
   {

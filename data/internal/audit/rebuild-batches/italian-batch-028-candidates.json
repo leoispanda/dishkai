@@ -1,0 +1,272 @@
+[
+  {
+    "dishId": "tagliatelle-al-ragu",
+    "metadataCode": "101031",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Tagliatelle al Ragu",
+    "imagePath": "/assets/dishes/main/101031-tagliatelle-al-ragu.webp",
+    "thumbPath": "/assets/dishes/thumb/101031-tagliatelle-al-ragu.webp"
+  },
+  {
+    "dishId": "pappardelle-al-cinghiale",
+    "metadataCode": "101032",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Pappardelle al Cinghiale",
+    "imagePath": "/assets/dishes/main/101032-pappardelle-al-cinghiale.webp",
+    "thumbPath": "/assets/dishes/thumb/101032-pappardelle-al-cinghiale.webp"
+  },
+  {
+    "dishId": "linguine-allo-scoglio",
+    "metadataCode": "101033",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Linguine allo Scoglio",
+    "imagePath": "/assets/dishes/main/101033-linguine-allo-scoglio.webp",
+    "thumbPath": "/assets/dishes/thumb/101033-linguine-allo-scoglio.webp"
+  },
+  {
+    "dishId": "spaghetti-alla-puttanesca",
+    "metadataCode": "101034",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Spaghetti alla Puttanesca",
+    "imagePath": "/assets/dishes/main/101034-spaghetti-alla-puttanesca.webp",
+    "thumbPath": "/assets/dishes/thumb/101034-spaghetti-alla-puttanesca.webp"
+  },
+  {
+    "dishId": "penne-arrabbiata",
+    "metadataCode": "101035",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Penne all Arrabbiata",
+    "imagePath": "/assets/dishes/main/101035-penne-arrabbiata.webp",
+    "thumbPath": "/assets/dishes/thumb/101035-penne-arrabbiata.webp"
+  },
+  {
+    "dishId": "pasta-alla-norma",
+    "metadataCode": "101036",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Pasta alla Norma",
+    "imagePath": "/assets/dishes/main/101036-pasta-alla-norma.webp",
+    "thumbPath": "/assets/dishes/thumb/101036-pasta-alla-norma.webp"
+  },
+  {
+    "dishId": "ribollita",
+    "metadataCode": "101037",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Ribollita",
+    "imagePath": "/assets/dishes/main/101037-ribollita.webp",
+    "thumbPath": "/assets/dishes/thumb/101037-ribollita.webp"
+  },
+  {
+    "dishId": "pappa-al-pomodoro",
+    "metadataCode": "101038",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Pappa al Pomodoro",
+    "imagePath": "/assets/dishes/main/101038-pappa-al-pomodoro.webp",
+    "thumbPath": "/assets/dishes/thumb/101038-pappa-al-pomodoro.webp"
+  },
+  {
+    "dishId": "panzanella",
+    "metadataCode": "101039",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Panzanella",
+    "imagePath": "/assets/dishes/main/101039-panzanella.webp",
+    "thumbPath": "/assets/dishes/thumb/101039-panzanella.webp"
+  },
+  {
+    "dishId": "insalata-di-mare",
+    "metadataCode": "101040",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Insalata di Mare",
+    "imagePath": "/assets/dishes/main/101040-insalata-di-mare.webp",
+    "thumbPath": "/assets/dishes/thumb/101040-insalata-di-mare.webp"
+  },
+  {
+    "dishId": "fritto-misto",
+    "metadataCode": "101041",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Fritto Misto",
+    "imagePath": "/assets/dishes/main/101041-fritto-misto.webp",
+    "thumbPath": "/assets/dishes/thumb/101041-fritto-misto.webp"
+  },
+  {
+    "dishId": "baccala-mantecato",
+    "metadataCode": "101042",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Baccala Mantecato",
+    "imagePath": "/assets/dishes/main/101042-baccala-mantecato.webp",
+    "thumbPath": "/assets/dishes/thumb/101042-baccala-mantecato.webp"
+  },
+  {
+    "dishId": "porchetta",
+    "metadataCode": "101043",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Porchetta",
+    "imagePath": "/assets/dishes/main/101043-porchetta.webp",
+    "thumbPath": "/assets/dishes/thumb/101043-porchetta.webp"
+  },
+  {
+    "dishId": "bistecca-fiorentina",
+    "metadataCode": "101044",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Bistecca alla Fiorentina",
+    "imagePath": "/assets/dishes/main/101044-bistecca-fiorentina.webp",
+    "thumbPath": "/assets/dishes/thumb/101044-bistecca-fiorentina.webp"
+  },
+  {
+    "dishId": "cotoletta-alla-milanese",
+    "metadataCode": "101045",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Cotoletta alla Milanese",
+    "imagePath": "/assets/dishes/main/101045-cotoletta-alla-milanese.webp",
+    "thumbPath": "/assets/dishes/thumb/101045-cotoletta-alla-milanese.webp"
+  },
+  {
+    "dishId": "brasato-al-barolo",
+    "metadataCode": "101046",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Brasato al Barolo",
+    "imagePath": "/assets/dishes/main/101046-brasato-al-barolo.webp",
+    "thumbPath": "/assets/dishes/thumb/101046-brasato-al-barolo.webp"
+  },
+  {
+    "dishId": "trippa-alla-romana",
+    "metadataCode": "101047",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Trippa alla Romana",
+    "imagePath": "/assets/dishes/main/101047-trippa-alla-romana.webp",
+    "thumbPath": "/assets/dishes/thumb/101047-trippa-alla-romana.webp"
+  },
+  {
+    "dishId": "suppli",
+    "metadataCode": "101048",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Suppli",
+    "imagePath": "/assets/dishes/main/101048-suppli.webp",
+    "thumbPath": "/assets/dishes/thumb/101048-suppli.webp"
+  },
+  {
+    "dishId": "panzerotti",
+    "metadataCode": "101049",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Panzerotti",
+    "imagePath": "/assets/dishes/main/101049-panzerotti.webp",
+    "thumbPath": "/assets/dishes/thumb/101049-panzerotti.webp"
+  },
+  {
+    "dishId": "piadina",
+    "metadataCode": "101050",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Piadina",
+    "imagePath": "/assets/dishes/main/101050-piadina.webp",
+    "thumbPath": "/assets/dishes/thumb/101050-piadina.webp"
+  },
+  {
+    "dishId": "pinsa-romana",
+    "metadataCode": "101051",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Pinsa Romana",
+    "imagePath": "/assets/dishes/main/101051-pinsa-romana.webp",
+    "thumbPath": "/assets/dishes/thumb/101051-pinsa-romana.webp"
+  },
+  {
+    "dishId": "calzone",
+    "metadataCode": "101052",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Calzone",
+    "imagePath": "/assets/dishes/main/101052-calzone.webp",
+    "thumbPath": "/assets/dishes/thumb/101052-calzone.webp"
+  },
+  {
+    "dishId": "sarde-a-beccafico",
+    "metadataCode": "101053",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Sarde a Beccafico",
+    "imagePath": "/assets/dishes/main/101053-sarde-a-beccafico.webp",
+    "thumbPath": "/assets/dishes/thumb/101053-sarde-a-beccafico.webp"
+  },
+  {
+    "dishId": "involtini",
+    "metadataCode": "101054",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Involtini",
+    "imagePath": "/assets/dishes/main/101054-involtini.webp",
+    "thumbPath": "/assets/dishes/thumb/101054-involtini.webp"
+  },
+  {
+    "dishId": "sfogliatelle",
+    "metadataCode": "101055",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Sfogliatelle",
+    "imagePath": "/assets/dishes/main/101055-sfogliatelle.webp",
+    "thumbPath": "/assets/dishes/thumb/101055-sfogliatelle.webp"
+  },
+  {
+    "dishId": "zabaglione",
+    "metadataCode": "101056",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Zabaglione",
+    "imagePath": "/assets/dishes/main/101056-zabaglione.webp",
+    "thumbPath": "/assets/dishes/thumb/101056-zabaglione.webp"
+  },
+  {
+    "dishId": "semifreddo",
+    "metadataCode": "101057",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Semifreddo",
+    "imagePath": "/assets/dishes/main/101057-semifreddo.webp",
+    "thumbPath": "/assets/dishes/thumb/101057-semifreddo.webp"
+  },
+  {
+    "dishId": "granita",
+    "metadataCode": "101058",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Granita",
+    "imagePath": "/assets/dishes/main/101058-granita.webp",
+    "thumbPath": "/assets/dishes/thumb/101058-granita.webp"
+  },
+  {
+    "dishId": "bresaola-rucola-parmesan",
+    "metadataCode": "101059",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Bresaola Rucola Parmesan",
+    "imagePath": "/assets/dishes/main/101059-bresaola-rucola-parmesan.webp",
+    "thumbPath": "/assets/dishes/thumb/101059-bresaola-rucola-parmesan.webp"
+  },
+  {
+    "dishId": "zuppa-di-cozze",
+    "metadataCode": "101060",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Zuppa di Cozze",
+    "imagePath": "/assets/dishes/main/101060-zuppa-di-cozze.webp",
+    "thumbPath": "/assets/dishes/thumb/101060-zuppa-di-cozze.webp"
+  }
+]

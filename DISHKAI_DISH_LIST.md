@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 643
-- Total aliases: 1964
+- Total verified dishes: 673
+- Total aliases: 2035
 - Total cuisines: 27
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -362,7 +362,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 117029 - `es-cendol` - Es Cendol / 印尼珍多椰奶冰 / es cendol
 30. 117030 - `sambal-goreng-kentang` - Sambal Goreng Kentang / 印尼参巴辣土豆 / sambal goreng kentang
 
-## Italian (italian) - 30
+## Italian (italian) - 60
 
 1. 101001 - `carbonara` - Carbonara / 卡邦尼意面
 2. 101002 - `margherita-pizza` - Margherita Pizza / 玛格丽特披萨
@@ -391,9 +391,39 @@ Generated from data/internal/index.js after the verified database quarantine aud
 25. 101025 - `saltimbocca` - Saltimbocca / 鼠尾草火腿小牛肉 / Saltimbocca
 26. 101026 - `cannoli` - Cannoli / 西西里奶油卷 / Cannoli
 27. 101027 - `gelato` - Gelato / 意式冰淇淋 / Gelato
-28. 101028 - `prosciutto-e-melone` - Prosciutto e Melone / 火腿蜜瓜 / Prosciutto e melone
-29. 101029 - `vitello-tonnato` - Vitello Tonnato / 金枪鱼酱小牛肉 / Vitello tonnato
-30. 101030 - `affogato` - Affogato / 意式冰淇淋咖啡 / Affogato
+28. 101031 - `tagliatelle-al-ragu` - Tagliatelle al Ragu / 塔利亚泰莱肉酱面 / Tagliatelle al ragù
+29. 101032 - `pappardelle-al-cinghiale` - Pappardelle al Cinghiale / 野猪肉宽面 / Pappardelle al cinghiale
+30. 101033 - `linguine-allo-scoglio` - Linguine allo Scoglio / 意式海鲜扁面 / Linguine allo scoglio
+31. 101034 - `spaghetti-alla-puttanesca` - Spaghetti alla Puttanesca / 普塔内斯卡意面 / Spaghetti alla puttanesca
+32. 101035 - `penne-arrabbiata` - Penne all'Arrabbiata / 辣番茄笔管面 / Penne all'arrabbiata
+33. 101036 - `pasta-alla-norma` - Pasta alla Norma / 诺尔玛茄子番茄意面 / Pasta alla Norma
+34. 101037 - `ribollita` - Ribollita / 托斯卡纳蔬菜面包汤 / Ribollita
+35. 101038 - `pappa-al-pomodoro` - Pappa al Pomodoro / 番茄面包浓汤 / Pappa al pomodoro
+36. 101039 - `panzanella` - Panzanella / 托斯卡纳面包沙拉 / Panzanella
+37. 101040 - `insalata-di-mare` - Insalata di Mare / 意式海鲜沙拉 / Insalata di mare
+38. 101041 - `fritto-misto` - Fritto Misto / 意式炸海鲜拼盘 / Fritto misto di mare
+39. 101042 - `baccala-mantecato` - Baccalà Mantecato / 威尼斯奶油鳕鱼泥 / Baccalà mantecato
+40. 101043 - `porchetta` - Porchetta / 意式香草烤猪肉卷 / Porchetta
+41. 101044 - `bistecca-fiorentina` - Bistecca alla Fiorentina / 佛罗伦萨T骨牛排 / Bistecca alla Fiorentina
+42. 101045 - `cotoletta-alla-milanese` - Cotoletta alla Milanese / 米兰炸小牛排 / Cotoletta alla Milanese
+43. 101046 - `brasato-al-barolo` - Brasato al Barolo / 巴罗洛红酒炖牛肉 / Brasato al Barolo
+44. 101047 - `trippa-alla-romana` - Trippa alla Romana / 罗马番茄炖牛肚 / Trippa alla Romana
+45. 101048 - `suppli` - Supplì / 罗马炸米饭芝士球 / Supplì
+46. 101049 - `panzerotti` - Panzerotti / 意式炸半月馅饼 / Panzerotti
+47. 101050 - `piadina` - Piadina / 意式薄饼夹馅 / Piadina romagnola
+48. 101051 - `pinsa-romana` - Pinsa Romana / 罗马风格椭圆披萨饼 / Pinsa romana
+49. 101052 - `calzone` - Calzone / 意式烤半月披萨包 / Calzone
+50. 101053 - `sarde-a-beccafico` - Sarde a Beccafico / 西西里夹馅沙丁鱼卷 / Sarde a beccafico
+51. 101054 - `involtini` - Involtini / 意式夹馅卷 / Involtini
+52. 101055 - `sfogliatelle` - Sfogliatelle / 意式贝壳酥 / Sfogliatelle
+53. 101056 - `zabaglione` - Zabaglione / 意式蛋酒奶泡甜品 / Zabaglione
+54. 101057 - `semifreddo` - Semifreddo / 意式半冻甜品 / Semifreddo
+55. 101058 - `granita` - Granita / 意式冰沙 / Granita
+56. 101059 - `bresaola-rucola-parmesan` - Bresaola Rucola Parmesan / 风干牛肉芝麻菜帕玛森 / Bresaola, rucola e Parmigiano
+57. 101060 - `zuppa-di-cozze` - Zuppa di Cozze / 意式贻贝番茄汤 / Zuppa di cozze
+58. 101028 - `prosciutto-e-melone` - Prosciutto e Melone / 火腿蜜瓜 / Prosciutto e melone
+59. 101029 - `vitello-tonnato` - Vitello Tonnato / 金枪鱼酱小牛肉 / Vitello tonnato
+60. 101030 - `affogato` - Affogato / 意式冰淇淋咖啡 / Affogato
 
 ## Japanese (japanese) - 30
 

@@ -3806,5 +3806,82 @@ export const europeDepthDishAliases = [
     "language": "menu",
     "matchType": "translated-name",
     "confidence": 0.94
+  },
+  {
+    "alias": "Tagliatelle al Ragù",
+    "dishId": "tagliatelle-al-ragu",
+    "language": "menu",
+    "matchType": "local-spelling",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Penne all'Arrabbiata",
+    "dishId": "penne-arrabbiata",
+    "language": "menu",
+    "matchType": "local-spelling",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Fritto Misto di Mare",
+    "dishId": "fritto-misto",
+    "language": "menu",
+    "matchType": "specific-menu-variant",
+    "confidence": 0.96
+  },
+  {
+    "alias": "Baccalà Mantecato",
+    "dishId": "baccala-mantecato",
+    "language": "menu",
+    "matchType": "local-spelling",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Supplì",
+    "dishId": "suppli",
+    "language": "menu",
+    "matchType": "local-spelling",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Supplì al Telefono",
+    "dishId": "suppli",
+    "language": "menu",
+    "matchType": "specific-menu-variant",
+    "confidence": 0.96
+  },
+  {
+    "alias": "Piadina Romagnola",
+    "dishId": "piadina",
+    "language": "menu",
+    "matchType": "specific-menu-variant",
+    "confidence": 0.96
+  },
+  {
+    "alias": "Sfogliatella",
+    "dishId": "sfogliatelle",
+    "language": "menu",
+    "matchType": "singular-form",
+    "confidence": 0.96
+  },
+  {
+    "alias": "Zabaione",
+    "dishId": "zabaglione",
+    "language": "menu",
+    "matchType": "spelling-variant",
+    "confidence": 0.95
+  },
+  {
+    "alias": "Granita Siciliana",
+    "dishId": "granita",
+    "language": "menu",
+    "matchType": "specific-menu-variant",
+    "confidence": 0.95
+  },
+  {
+    "alias": "Bresaola, rucola e Parmigiano",
+    "dishId": "bresaola-rucola-parmesan",
+    "language": "menu",
+    "matchType": "local-spelling",
+    "confidence": 0.98
   }
 ];
