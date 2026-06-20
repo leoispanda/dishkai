@@ -33,9 +33,9 @@ export const koreanDishes = [
         "internationally-known"
       ],
       "description": {
-        "en": "A recognizable Korean dish in the starter database, with emphasis on flavor, texture, and ordering risk.",
-        "zh": "这是 DishKAI 初始数据库中的典型韩餐，重点说明味道、口感和点餐风险。",
-        "nl": "Een herkenbaar Koreaans gerecht in de startdatabase, met nadruk op smaak, textuur en bestelrisico."
+        "en": "A broadly recognized Korean dish; useful for judging heat level, fermentation, texture, and common ordering risks.",
+        "zh": "这是一道辨识度高的韩餐，适合判断辣度、发酵风味、口感和常见点餐风险。",
+        "nl": "Een herkenbaar Koreaans gerecht voor pittigheid, fermentatie, textuur en bestelrisico's."
       }
     },
     "composition": [
@@ -131,9 +131,9 @@ export const koreanDishes = [
         "classic"
       ],
       "description": {
-        "en": "A recognizable Korean dish in the starter database, with emphasis on flavor, texture, and ordering risk.",
-        "zh": "这是 DishKAI 初始数据库中的典型韩餐，重点说明味道、口感和点餐风险。",
-        "nl": "Een herkenbaar Koreaans gerecht in de startdatabase, met nadruk op smaak, textuur en bestelrisico."
+        "en": "A broadly recognized Korean dish; useful for judging heat level, fermentation, texture, and common ordering risks.",
+        "zh": "这是一道辨识度高的韩餐，适合判断辣度、发酵风味、口感和常见点餐风险。",
+        "nl": "Een herkenbaar Koreaans gerecht voor pittigheid, fermentatie, textuur en bestelrisico's."
       }
     },
     "composition": [
@@ -226,9 +226,9 @@ export const koreanDishes = [
         "first-timer-friendly"
       ],
       "description": {
-        "en": "A recognizable Korean dish in the starter database, with emphasis on flavor, texture, and ordering risk.",
-        "zh": "这是 DishKAI 初始数据库中的典型韩餐，重点说明味道、口感和点餐风险。",
-        "nl": "Een herkenbaar Koreaans gerecht in de startdatabase, met nadruk op smaak, textuur en bestelrisico."
+        "en": "A broadly recognized Korean dish; useful for judging heat level, fermentation, texture, and common ordering risks.",
+        "zh": "这是一道辨识度高的韩餐，适合判断辣度、发酵风味、口感和常见点餐风险。",
+        "nl": "Een herkenbaar Koreaans gerecht voor pittigheid, fermentatie, textuur en bestelrisico's."
       }
     },
     "composition": [
@@ -276,7 +276,8 @@ export const koreanDishes = [
     ],
     "riskFlags": [
       "contains-soy",
-      "contains-sesame"
+      "contains-sesame",
+      "contains-gluten"
     ],
     "goodForTags": [
       "first-timer-friendly",
@@ -322,9 +323,9 @@ export const koreanDishes = [
         "street-food"
       ],
       "description": {
-        "en": "A recognizable Korean dish in the starter database, with emphasis on flavor, texture, and ordering risk.",
-        "zh": "这是 DishKAI 初始数据库中的典型韩餐，重点说明味道、口感和点餐风险。",
-        "nl": "Een herkenbaar Koreaans gerecht in de startdatabase, met nadruk op smaak, textuur en bestelrisico."
+        "en": "A broadly recognized Korean dish; useful for judging heat level, fermentation, texture, and common ordering risks.",
+        "zh": "这是一道辨识度高的韩餐，适合判断辣度、发酵风味、口感和常见点餐风险。",
+        "nl": "Een herkenbaar Koreaans gerecht voor pittigheid, fermentatie, textuur en bestelrisico's."
       }
     },
     "composition": [
@@ -408,9 +409,9 @@ export const koreanDishes = [
         "internationally-known"
       ],
       "description": {
-        "en": "A recognizable Korean dish in the starter database, with emphasis on flavor, texture, and ordering risk.",
-        "zh": "这是 DishKAI 初始数据库中的典型韩餐，重点说明味道、口感和点餐风险。",
-        "nl": "Een herkenbaar Koreaans gerecht in de startdatabase, met nadruk op smaak, textuur en bestelrisico."
+        "en": "A broadly recognized Korean dish; useful for judging heat level, fermentation, texture, and common ordering risks.",
+        "zh": "这是一道辨识度高的韩餐，适合判断辣度、发酵风味、口感和常见点餐风险。",
+        "nl": "Een herkenbaar Koreaans gerecht voor pittigheid, fermentatie, textuur en bestelrisico's."
       }
     },
     "composition": [

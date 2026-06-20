@@ -718,7 +718,7 @@ export const greekDepthDishes = [
     avoidIfTags: ["egg-allergy", "dislikes-sour-soup"],
     orderVerdict: {
       en: "A great soup if you like lemony comfort food; skip if sour soups are not your thing.",
-      zh: "喜欢柠檬酸香 comfort soup 的话很推荐；不爱酸汤则谨慎。",
+      zh: "喜欢柠檬酸香、顺滑暖胃的鸡汤时很推荐；不爱酸汤则谨慎。",
       nl: "Heel goed als je citroenachtige comfortsoep wilt; overslaan als zuur niet past.",
     },
     spiceLevel: 0,

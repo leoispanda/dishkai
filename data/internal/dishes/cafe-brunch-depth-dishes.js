@@ -585,9 +585,9 @@ function cafeDish(config) {
       level: config.cuisineRoleLevel || "common",
       tags: ["cafe-menu-common", ...(config.cuisineRoleTags || [])],
       description: {
-        en: "A practical café or brunch menu item used only when it is specific enough for ordering decisions.",
-        zh: "仅在足够具体、能支持点餐判断时使用的 café / brunch 菜单条目。",
-        nl: "Een praktisch café- of brunchgerecht dat alleen wordt gebruikt wanneer het specifiek genoeg is voor bestelkeuzes.",
+        en: "A practical café or brunch item where fillings, toppings, richness, and allergens drive the ordering decision.",
+        zh: "常见咖啡馆或早午餐菜品，点餐重点通常是馅料、配料、浓郁度和过敏风险。",
+        nl: "Een praktisch café- of brunchgerecht waarbij vulling, toppings, rijkheid en allergenen de bestelkeuze bepalen.",
       },
     },
     confidenceTag: "verified-cafe-brunch-depth-v1",

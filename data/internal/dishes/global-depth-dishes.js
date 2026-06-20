@@ -1248,7 +1248,8 @@ const globalDepthDishConfigs = [
       "soft side"
     ],
     "riskFlags": [
-      "contains-gluten"
+      "contains-gluten",
+      "contains-egg"
     ],
     "dietaryFlags": [],
     "goodForTags": [
@@ -1257,6 +1258,7 @@ const globalDepthDishConfigs = [
     ],
     "avoidIfTags": [
       "gluten-free",
+      "egg-free",
       "wants-light-food"
     ],
     "orderVerdict": {
@@ -3267,7 +3269,7 @@ const globalDepthDishConfigs = [
       ],
       [
         "mixed-vegetables",
-        25,
+        30,
         "filling"
       ],
       [
@@ -3290,14 +3292,6 @@ const globalDepthDishConfigs = [
         "dip",
         "seasoning",
         "high",
-        true
-      ],
-      [
-        "garlic-sauce",
-        5,
-        "optional dip",
-        "ingredient",
-        "medium",
         true
       ]
     ],
@@ -7276,7 +7270,8 @@ const globalDepthDishConfigs = [
       "soft tofu and vegetables"
     ],
     "riskFlags": [
-      "contains-soy"
+      "contains-soy",
+      "contains-gluten"
     ],
     "dietaryFlags": [
       "protein-varies-by-restaurant"
@@ -7287,7 +7282,8 @@ const globalDepthDishConfigs = [
       "lighter-choice"
     ],
     "avoidIfTags": [
-      "soy-allergy"
+      "soy-allergy",
+      "gluten-allergy"
     ],
     "orderVerdict": {
       "en": "Choose this for a lighter shared hot pot; it is about delicate meat and dips, not a heavy broth.",
@@ -7616,7 +7612,8 @@ const globalDepthDishConfigs = [
     ],
     "riskFlags": [
       "contains-soy",
-      "contains-fish"
+      "contains-fish",
+      "contains-gluten"
     ],
     "dietaryFlags": [
       "often-vegetarian-but-dashi-may-contain-fish"
@@ -7628,7 +7625,8 @@ const globalDepthDishConfigs = [
     ],
     "avoidIfTags": [
       "soy-allergy",
-      "fish-allergy"
+      "fish-allergy",
+      "gluten-allergy"
     ],
     "orderVerdict": {
       "en": "A gentle tofu starter; ask about dashi if you need fully vegetarian food.",
@@ -20294,8 +20292,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "A Vietnamese dish where mini crisp pancakes and shrimp topping are the main ordering cues.",
-        "zh": "点餐重点是mini crisp pancakes and shrimp topping。",
-        "nl": "Een Vietnamees gerecht waarbij mini crisp pancakes and shrimp topping de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是迷你脆煎饼、虾仁配料和鱼露蘸汁。",
+        "nl": "Een Vietnamees gerecht waarbij mini-krokante pannenkoekjes en garnaaltopping de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -20405,7 +20403,7 @@ const globalDepthDishConfigs = [
     },
     "cookingProfile": {
       "en": "Steamed into soft saucers, so the bite is delicate, salty, and topped rather than filled.",
-      "zh": "蒸成小碟软米糕，入口细软，靠咸鲜 topping 和蘸汁提味。",
+      "zh": "蒸成小碟软米糕，入口细软，靠咸鲜配料和蘸汁提味。",
       "nl": "Zacht gestoomd in schaaltjes; delicaat, zoutig en met toppings in plaats van vulling."
     },
     "cuisineRole": {
@@ -20417,8 +20415,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "A Vietnamese dish where tiny rice cakes and shrimp topping are the main ordering cues.",
-        "zh": "点餐重点是tiny rice cakes and shrimp topping。",
-        "nl": "Een Vietnamees gerecht waarbij tiny rice cakes and shrimp topping de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是软小米糕、虾米碎和鱼露蘸汁。",
+        "nl": "Een Vietnamees gerecht waarbij kleine rijstcakejes en garnalentopping de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -20540,8 +20538,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "A Vietnamese dish where beef tenderness, carrot sweetness, and lemongrass spice are the main ordering cues.",
-        "zh": "点餐重点是beef tenderness, carrot sweetness, and lemongrass spice。",
-        "nl": "Een Vietnamees gerecht waarbij beef tenderness, carrot sweetness, and lemongrass spice de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是牛肉软嫩度、胡萝卜甜味和香茅香料感。",
+        "nl": "Een Vietnamees gerecht waarbij mals rundvlees, wortelzoetheid en citroengras-kruidenaroma de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -20664,8 +20662,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "A Vietnamese dish where lemongrass aroma and dipping sauce are the main ordering cues.",
-        "zh": "点餐重点是lemongrass aroma and dipping sauce。",
-        "nl": "Een Vietnamees gerecht waarbij lemongrass aroma and dipping sauce de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是香茅香气、炭烤感和蘸汁。",
+        "nl": "Een Vietnamees gerecht waarbij citroengrasaroma, grilltoon en dipsaus de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -20784,8 +20782,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "A Vietnamese dish where caramelized fish sauce and clay-pot richness are the main ordering cues.",
-        "zh": "点餐重点是caramelized fish sauce and clay-pot richness。",
-        "nl": "Een Vietnamees gerecht waarbij caramelized fish sauce and clay-pot richness de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是焦糖鱼露的咸甜浓酱和砂锅慢烧的厚重感。",
+        "nl": "Een Vietnamees gerecht waarbij gekaramelliseerde vissaus en kleipotrijkheid de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -20900,8 +20898,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "A Vietnamese dish where tamarind sourness, pineapple, and fish are the main ordering cues.",
-        "zh": "点餐重点是tamarind sourness, pineapple, and fish。",
-        "nl": "Een Vietnamees gerecht waarbij tamarind sourness, pineapple, and fish de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是罗望子酸味、菠萝清甜和鱼汤鲜味。",
+        "nl": "Een Vietnamees gerecht waarbij tamarindezuur, ananas en vis de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -21023,8 +21021,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "A Vietnamese dish where shredded chicken, herbs, and fish-sauce dressing are the main ordering cues.",
-        "zh": "点餐重点是shredded chicken, herbs, and fish-sauce dressing。",
-        "nl": "Een Vietnamees gerecht waarbij shredded chicken, herbs, and fish-sauce dressing de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是鸡丝、香草和鱼露青柠汁的清爽酸香。",
+        "nl": "Een Vietnamees gerecht waarbij kipreepjes, kruiden en vissaus-limoendressing de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -21141,8 +21139,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "A Vietnamese dish where banana blossom shreds, lime dressing, and peanut crunch are the main ordering cues.",
-        "zh": "点餐重点是banana blossom shreds, lime dressing, and peanut crunch。",
-        "nl": "Een Vietnamees gerecht waarbij banana blossom shreds, lime dressing, and peanut crunch de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是香蕉花细丝、青柠酸汁和花生脆感。",
+        "nl": "Een Vietnamees gerecht waarbij bananenbloesemslierten, limoendressing en pindacrisp de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -21272,8 +21270,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "A Vietnamese dish where yellow turmeric fish and dill are the main ordering cues.",
-        "zh": "点餐重点是yellow turmeric fish and dill。",
-        "nl": "Een Vietnamees gerecht waarbij yellow turmeric fish and dill de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是黄姜鱼、莳萝香气和热煎油润感。",
+        "nl": "Een Vietnamees gerecht waarbij kurkumavis en dille de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -21396,8 +21394,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "A Vietnamese dish where sticky rice, pork toppings, egg, and fried shallots are the main ordering cues.",
-        "zh": "点餐重点是sticky rice, pork toppings, egg, and fried shallots。",
-        "nl": "Een Vietnamees gerecht waarbij sticky rice, pork toppings, egg, and fried shallots de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是咸糯米、猪肉配料、鸡蛋和炸葱香。",
+        "nl": "Een Vietnamees gerecht waarbij kleefrijst, varkenstoppings, ei en gefrituurde sjalot de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -21522,8 +21520,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "A Vietnamese dish where caramel custard texture and egg-dairy richness are the main ordering cues.",
-        "zh": "点餐重点是caramel custard texture and egg-dairy richness。",
-        "nl": "Een Vietnamees gerecht waarbij caramel custard texture and egg-dairy richness de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是焦糖布丁的顺滑质地和蛋奶香。",
+        "nl": "Een Vietnamees dessert waarbij karamelcustardtextuur en ei-zuivelrijkheid de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -21633,8 +21631,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "A Vietnamese dish where colorful layers, coconut milk, beans, and pandan jelly are the main ordering cues.",
-        "zh": "点餐重点是colorful layers, coconut milk, beans, and pandan jelly。",
-        "nl": "Een Vietnamees gerecht waarbij colorful layers, coconut milk, beans, and pandan jelly de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是彩色分层、椰奶、豆类和香兰冻。",
+        "nl": "Een Vietnamees gerecht waarbij kleurige lagen, kokosmelk, bonen en pandangelei de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -21745,8 +21743,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "An Indonesian dish where crisp turmeric chicken and sambal heat are the main ordering cues.",
-        "zh": "点餐重点是crisp turmeric chicken and sambal heat。",
-        "nl": "Een Indonesisch gerecht waarbij crisp turmeric chicken and sambal heat de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是黄姜香料炸鸡的酥脆感和参巴辣度。",
+        "nl": "Een Indonesisch gerecht waarbij krokante kurkumakip en sambalhitte de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -21863,8 +21861,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "An Indonesian dish where kecap sweetness and sambal heat are the main ordering cues.",
-        "zh": "点餐重点是kecap sweetness and sambal heat。",
-        "nl": "Een Indonesisch gerecht waarbij kecap sweetness and sambal heat de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是甜酱油的甜咸味和参巴辣度。",
+        "nl": "Een Indonesisch gerecht waarbij ketjapzoetheid en sambalhitte de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -21984,8 +21982,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "An Indonesian dish where coconut richness, turmeric warmth, and chosen protein are the main ordering cues.",
-        "zh": "点餐重点是coconut richness, turmeric warmth, and chosen protein。",
-        "nl": "Een Indonesisch gerecht waarbij coconut richness, turmeric warmth, and chosen protein de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是椰奶浓郁度、黄姜温暖香料感和所选肉类。",
+        "nl": "Een Indonesisch gerecht waarbij kokosrijkheid, kurkumawarmte en gekozen eiwit de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -22100,8 +22098,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "An Indonesian dish where coconut milk and mild spice are the main ordering cues.",
-        "zh": "点餐重点是coconut milk and mild spice。",
-        "nl": "Een Indonesisch gerecht waarbij coconut milk and mild spice de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是椰奶温和感和轻柔香料味。",
+        "nl": "Een Indonesisch gerecht waarbij kokosmelk en milde kruiden de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -22204,7 +22202,7 @@ const globalDepthDishConfigs = [
     },
     "cookingProfile": {
       "en": "Slow-simmered until the broth turns dark and earthy, so it tastes deeper than a clear beef soup.",
-      "zh": "慢煮到汤色深黑、味道 earthy，比清牛肉汤更深沉。",
+      "zh": "慢煮到汤色深黑、味道带土香和坚果般深沉感，比清牛肉汤更浓。",
       "nl": "Lang gesudderd tot de bouillon donker en aards wordt; dieper dan heldere rundersoep."
     },
     "cuisineRole": {
@@ -22215,9 +22213,9 @@ const globalDepthDishConfigs = [
         "soup"
       ],
       "description": {
-        "en": "An Indonesian dish where black keluak broth are the main ordering cues.",
-        "zh": "点餐重点是black keluak broth。",
-        "nl": "Een Indonesisch gerecht waarbij black keluak broth de belangrijkste bestelcues zijn."
+        "en": "An Indonesian dish where black keluak broth is the main ordering cue.",
+        "zh": "点餐重点是黑果深色牛肉汤底的土香和厚度。",
+        "nl": "Een Indonesisch gerecht waarbij zwarte keluakbouillon de belangrijkste bestelcue is."
       }
     },
     "composition": [
@@ -22287,7 +22285,7 @@ const globalDepthDishConfigs = [
     ],
     "orderVerdict": {
       "en": "Worth ordering if you want a distinctive dark beef soup; skip it if earthy black broth sounds too strong.",
-      "zh": "想尝有辨识度的黑牛肉汤时值得点；不喜欢 earthy 深色汤底时慎选。",
+      "zh": "想尝有辨识度的黑牛肉汤时值得点；不喜欢土香很重的深色汤底时慎选。",
       "nl": "Mooi voor een uitgesproken donkere rundersoep; sla over als aardse zwarte bouillon te sterk klinkt."
     },
     "spiceLevel": 1,
@@ -22330,8 +22328,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "An Indonesian dish where coconut broth and tofu or tempeh soy checks are the main ordering cues.",
-        "zh": "点餐重点是coconut broth and tofu or tempeh soy checks。",
-        "nl": "Een Indonesisch gerecht waarbij coconut broth and tofu or tempeh soy checks de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是椰奶汤底，以及豆腐或天贝带来的大豆过敏提示。",
+        "nl": "Een Indonesisch gerecht waarbij kokosbouillon en soja-checks voor tofu of tempeh de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -22455,8 +22453,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "An Indonesian dish where peanut sauce as the central flavor and allergy check are the main ordering cues.",
-        "zh": "点餐重点是peanut sauce as the central flavor and allergy check。",
-        "nl": "Een Indonesisch gerecht waarbij peanut sauce as the central flavor and allergy check de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是浓花生酱作为核心风味，也要确认花生过敏。",
+        "nl": "Een Indonesisch gerecht waarbij pindasaus als kernsmaak en allergiecheck de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -22575,8 +22573,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "An Indonesian dish where tofu, lontong, vermicelli, and peanut sauce are the main ordering cues.",
-        "zh": "点餐重点是tofu, lontong, vermicelli, and peanut sauce。",
-        "nl": "Een Indonesisch gerecht waarbij tofu, lontong, vermicelli, and peanut sauce de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是豆腐、lontong 米糕、米粉和浓花生酱。",
+        "nl": "Een Indonesisch gerecht waarbij tofu, lontong, vermicelli en pindasaus de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -22696,8 +22694,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "An Indonesian dish where coconut sauce and lontong rice cake are the main ordering cues.",
-        "zh": "点餐重点是coconut sauce and lontong rice cake。",
-        "nl": "Een Indonesisch gerecht waarbij coconut sauce and lontong rice cake de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是椰奶酱汁和 lontong 压实米糕。",
+        "nl": "Een Indonesisch gerecht waarbij kokossaus en lontong-rijstcake de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -22817,8 +22815,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "An Indonesian dish where sambal, egg, peanuts, and protein toppings are the main ordering cues.",
-        "zh": "点餐重点是sambal, egg, peanuts, and protein toppings。",
-        "nl": "Een Indonesisch gerecht waarbij sambal, egg, peanuts, and protein toppings de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是参巴、鸡蛋、花生和各种蛋白配菜。",
+        "nl": "Een Indonesisch gerecht waarbij sambal, ei, pinda's en eiwittoppings de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -22943,8 +22941,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "An Indonesian dish where soft rice, chicken, soy, and crunchy toppings are the main ordering cues.",
-        "zh": "点餐重点是soft rice, chicken, soy, and crunchy toppings。",
-        "nl": "Een Indonesisch gerecht waarbij soft rice, chicken, soy, and crunchy toppings de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是软糯米粥、鸡肉、酱油和脆配料。",
+        "nl": "Een Indonesisch gerecht waarbij zachte rijst, kip, soja en krokante toppings de belangrijkste bestelcues zijn."
       }
     },
     "composition": [
@@ -23061,8 +23059,8 @@ const globalDepthDishConfigs = [
       ],
       "description": {
         "en": "An Indonesian dish where chewy fish cake and dark cuko sauce are the main ordering cues.",
-        "zh": "点餐重点是chewy fish cake and dark cuko sauce。",
-        "nl": "Een Indonesisch gerecht waarbij chewy fish cake and dark cuko sauce de belangrijkste bestelcues zijn."
+        "zh": "点餐重点是弹韧鱼糕和深色 cuko 甜酸辣酱。",
+        "nl": "Een Indonesisch gerecht waarbij veerkrachtige viscake en donkere cuko-saus de belangrijkste bestelcues zijn."
       }
     },
     "composition": [

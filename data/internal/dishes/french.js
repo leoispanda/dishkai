@@ -32,9 +32,9 @@ export const frenchDishes = [
         "internationally-known"
       ],
       "description": {
-        "en": "A recognizable French dish in the starter database, focused on what to expect when ordering.",
-        "zh": "这是 DishKAI 初始数据库中的典型法餐，重点是点餐时会遇到什么。",
-        "nl": "Een herkenbaar Frans gerecht in de startdatabase, gericht op wat je kunt verwachten bij het bestellen."
+        "en": "A broadly recognized French dish; useful for judging richness, portion feel, preparation style, and ordering risks.",
+        "zh": "这是一道辨识度高的法餐，适合判断厚重感、分量、做法风格和点餐风险。",
+        "nl": "Een herkenbaar Frans gerecht voor rijkheid, portiegevoel, bereidingsstijl en bestelrisico's."
       }
     },
     "composition": [
@@ -121,9 +121,9 @@ export const frenchDishes = [
         "classic"
       ],
       "description": {
-        "en": "A recognizable French dish in the starter database, focused on what to expect when ordering.",
-        "zh": "这是 DishKAI 初始数据库中的典型法餐，重点是点餐时会遇到什么。",
-        "nl": "Een herkenbaar Frans gerecht in de startdatabase, gericht op wat je kunt verwachten bij het bestellen."
+        "en": "A broadly recognized French dish; useful for judging richness, portion feel, preparation style, and ordering risks.",
+        "zh": "这是一道辨识度高的法餐，适合判断厚重感、分量、做法风格和点餐风险。",
+        "nl": "Een herkenbaar Frans gerecht voor rijkheid, portiegevoel, bereidingsstijl en bestelrisico's."
       }
     },
     "composition": [
@@ -210,9 +210,9 @@ export const frenchDishes = [
         "classic"
       ],
       "description": {
-        "en": "A recognizable French dish in the starter database, focused on what to expect when ordering.",
-        "zh": "这是 DishKAI 初始数据库中的典型法餐，重点是点餐时会遇到什么。",
-        "nl": "Een herkenbaar Frans gerecht in de startdatabase, gericht op wat je kunt verwachten bij het bestellen."
+        "en": "A broadly recognized French dish; useful for judging richness, portion feel, preparation style, and ordering risks.",
+        "zh": "这是一道辨识度高的法餐，适合判断厚重感、分量、做法风格和点餐风险。",
+        "nl": "Een herkenbaar Frans gerecht voor rijkheid, portiegevoel, bereidingsstijl en bestelrisico's."
       }
     },
     "composition": [
@@ -299,9 +299,9 @@ export const frenchDishes = [
         "classic"
       ],
       "description": {
-        "en": "A recognizable French dish in the starter database, focused on what to expect when ordering.",
-        "zh": "这是 DishKAI 初始数据库中的典型法餐，重点是点餐时会遇到什么。",
-        "nl": "Een herkenbaar Frans gerecht in de startdatabase, gericht op wat je kunt verwachten bij het bestellen."
+        "en": "A broadly recognized French dish; useful for judging richness, portion feel, preparation style, and ordering risks.",
+        "zh": "这是一道辨识度高的法餐，适合判断厚重感、分量、做法风格和点餐风险。",
+        "nl": "Een herkenbaar Frans gerecht voor rijkheid, portiegevoel, bereidingsstijl en bestelrisico's."
       }
     },
     "composition": [
@@ -391,9 +391,9 @@ export const frenchDishes = [
         "internationally-known"
       ],
       "description": {
-        "en": "A recognizable French dish in the starter database, focused on what to expect when ordering.",
-        "zh": "这是 DishKAI 初始数据库中的典型法餐，重点是点餐时会遇到什么。",
-        "nl": "Een herkenbaar Frans gerecht in de startdatabase, gericht op wat je kunt verwachten bij het bestellen."
+        "en": "A broadly recognized French dish; useful for judging richness, portion feel, preparation style, and ordering risks.",
+        "zh": "这是一道辨识度高的法餐，适合判断厚重感、分量、做法风格和点餐风险。",
+        "nl": "Een herkenbaar Frans gerecht voor rijkheid, portiegevoel, bereidingsstijl en bestelrisico's."
       }
     },
     "composition": [

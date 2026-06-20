@@ -4392,7 +4392,7 @@ export const worldDishes = [
     ],
     "orderVerdict": {
       "en": "A safe dessert if you like caramel custard.",
-      "zh": "喜欢焦糖布丁时很稳。",
+      "zh": "喜欢顺滑焦糖蛋奶布丁时很稳；不能吃鸡蛋或乳制品就避开。",
       "nl": "Veilige dessertkeuze als je karamelcustard lust."
     },
     "confidenceTag": "audited-spanish-batch-010",
@@ -5244,9 +5244,9 @@ export const worldDishes = [
       "nl": "Samosa: gefrituurd deeg met gekruide aardappel en erwtjes; krokant buiten, zacht en aromatisch binnen."
     },
     "cookingProfile": {
-      "en": "deep-fried; expect crisp shell and soft potato filling.",
-      "zh": "通常油炸后上桌，点餐时可预期：油炸酥皮包香料土豆和豌豆，外壳脆，内馅绵软带香料。",
-      "nl": "Meestal gefrituurd; verwacht vooral: gefrituurd deeg met gekruide aardappel en erwtjes; krokant buiten, zacht en aromatisch binnen."
+      "en": "Deep-fried pastry gives a crisp shell around soft spiced potato and pea filling.",
+      "zh": "薄面皮油炸后外壳酥脆，里面是绵软的香料土豆和豌豆。",
+      "nl": "Gefrituurd deeg vormt een krokante schaal rond zachte gekruide aardappel en erwtjes."
     },
     "cuisineRole": {
       "level": "street-food",
@@ -5263,7 +5263,7 @@ export const worldDishes = [
     },
     "composition": [
       [
-        "pastry-crust",
+        "samosa-pastry",
         35,
         "crisp shell"
       ],
@@ -5333,8 +5333,8 @@ export const worldDishes = [
     ],
     "orderVerdict": {
       "en": "Order if you want a crisp vegetarian snack with spiced potato; avoid if fried pastry or gluten is a concern.",
-      "zh": "想要油炸酥皮包香料土豆和豌豆，外壳脆，内馅绵软带香料时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
-      "nl": "Neem dit als je gefrituurd deeg met gekruide aardappel en erwtjes; krokant buiten, zacht en aromatisch binnen wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+      "zh": "想吃酥脆素食小吃和香料土豆馅时适合；介意油炸或麸质就谨慎。",
+      "nl": "Neem dit voor een krokante vegetarische snack met gekruide aardappel; vermijd bij frituur- of glutenbezwaren."
     },
     "spiceLevel": 2,
     "weightLevel": 3,
@@ -6344,7 +6344,8 @@ export const worldDishes = [
       "contains-shellfish",
       "contains-pork",
       "contains-peanut",
-      "contains-soy"
+      "contains-soy",
+      "contains-gluten"
     ],
     "dietaryFlags": [],
     "goodForTags": [
@@ -6353,12 +6354,15 @@ export const worldDishes = [
     ],
     "avoidIfTags": [
       "shellfish-allergy",
-      "peanut-allergy"
+      "pork-avoidant",
+      "peanut-allergy",
+      "soy-allergy",
+      "gluten-allergy"
     ],
     "orderVerdict": {
       "en": "Order if you want a fresh light starter with dipping sauce; avoid if shellfish, pork, or peanut sauce is unsafe.",
-      "zh": "想要越南鲜春卷，米纸包粉、香草、虾或猪肉，常配海鲜酱花生蘸酱时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
-      "nl": "Neem dit als je verse rijstvellen met noedels, kruiden, garnaal en/of varkensvlees, vaak met hoisin-pindadip wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+      "zh": "想要清爽鲜春卷和蘸酱时适合；虾、猪肉、花生、海鲜酱或麸质不适合你就谨慎。",
+      "nl": "Neem dit voor een frisse lichte starter met dipsaus; vermijd bij schaaldieren, varken, pinda, soja of gluten."
     },
     "spiceLevel": 0,
     "weightLevel": 1,
@@ -6974,9 +6978,9 @@ export const worldDishes = [
       "nl": "Cao lầu: Hoi An-noedels met stevige beet, varkensvlees, kruiden, weinig saus en krokante crackers; droger dan pho."
     },
     "cookingProfile": {
-      "en": "assembled to order; expect chewy noodles, crisp crackers and tender pork.",
-      "zh": "通常现拌或组合后上桌，点餐时可预期：会安风味韧性面条配猪肉、香草、少量酱汁和脆片，比越南粉更干拌。",
-      "nl": "Meestal samengesteld; verwacht vooral: Hoi An-noedels met stevige beet, varkensvlees, kruiden, weinig saus en krokante crackers; droger dan pho."
+      "en": "Assembled with only a little sauce, so it feels chewy, herbal, porky, and much drier than pho.",
+      "zh": "通常只拌少量酱汁，面条有嚼劲，带猪肉和香草感，比越南粉干很多。",
+      "nl": "Met weinig saus samengesteld: stevig, kruidig, met varkensvlees en veel droger dan pho."
     },
     "cuisineRole": {
       "level": "regional",
@@ -7050,6 +7054,7 @@ export const worldDishes = [
       "contains-gluten",
       "contains-pork",
       "contains-soy",
+      "contains-shellfish",
       "can-be-spicy"
     ],
     "dietaryFlags": [],
@@ -7059,7 +7064,8 @@ export const worldDishes = [
     ],
     "avoidIfTags": [
       "avoids-pork",
-      "avoids-gluten"
+      "avoids-gluten",
+      "shellfish-allergy"
     ],
     "orderVerdict": {
       "en": "Order if you want a regional dry noodle bowl with pork and herbs; avoid if you need gluten-free noodles or no pork.",
@@ -7092,9 +7098,9 @@ export const worldDishes = [
       "nl": "Bò lúc lắc: Vietnamese shaking beef: kort gebakken rundblokjes met knoflook, peper en sojachtige marinade."
     },
     "cookingProfile": {
-      "en": "stir-fried; expect seared beef cubes, juicy center and fresh salad.",
-      "zh": "通常快炒后上桌，点餐时可预期：越南摇牛肉，牛肉块快炒至外焦内嫩，蒜香、黑胡椒和酱油鲜味明显。",
-      "nl": "Meestal geroerbakt; verwacht vooral: Vietnamese shaking beef: kort gebakken rundblokjes met knoflook, peper en sojachtige marinade."
+      "en": "Quick stir-frying sears the beef cubes, leaving a juicy center and peppery garlic-soy glaze.",
+      "zh": "牛肉块快速爆炒到外层焦香、内部多汁，蒜香黑胡椒和酱油味明显。",
+      "nl": "Kort roerbakken schroeit rundblokjes dicht, met sappige kern en peperige knoflook-sojaglans."
     },
     "cuisineRole": {
       "level": "classic",
@@ -7160,7 +7166,8 @@ export const worldDishes = [
       "fresh salad"
     ],
     "riskFlags": [
-      "contains-soy"
+      "contains-soy",
+      "contains-gluten"
     ],
     "dietaryFlags": [],
     "goodForTags": [
@@ -7168,12 +7175,14 @@ export const worldDishes = [
       "first-timer-friendly"
     ],
     "avoidIfTags": [
-      "avoids-red-meat"
+      "avoids-red-meat",
+      "soy-allergy",
+      "gluten-allergy"
     ],
     "orderVerdict": {
       "en": "Order if you want tender seared beef with peppery garlic flavor; avoid if you do not want red meat.",
-      "zh": "想要越南摇牛肉，牛肉块快炒至外焦内嫩，蒜香、黑胡椒和酱油鲜味明显时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
-      "nl": "Neem dit als je Vietnamese shaking beef: kort gebakken rundblokjes met knoflook, peper en sojachtige marinade wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+      "zh": "想吃黑椒蒜香、外焦内嫩的牛肉块时适合；不吃红肉、酱油或麸质就避开。",
+      "nl": "Neem dit voor mals gebakken rund met peperige knoflooksmaak; vermijd bij rood vlees, soja of gluten."
     },
     "spiceLevel": 1,
     "weightLevel": 3,
@@ -13443,9 +13452,9 @@ export const worldDishes = [
       "nl": "Nachos: tortillachips met gesmolten kaas, salsa, bonen, jalapeno, zure room of guacamole; ideaal om te delen."
     },
     "cookingProfile": {
-      "en": "assembled to order and baked; expect crunchy chips, melty cheese and creamy toppings.",
-      "zh": "通常现拌或组合并烘烤后上桌，点餐时可预期：玉米片铺奶酪、莎莎、豆类、辣椒、酸奶油或牛油果酱，适合分享。",
-      "nl": "Meestal samengesteld en gebakken in de oven; verwacht vooral: tortillachips met gesmolten kaas, salsa, bonen, jalapeno, zure room of guacamole; ideaal om te delen."
+      "en": "Usually assembled and briefly heated, so the contrast is crunchy chips, melted cheese, and cool creamy toppings.",
+      "zh": "通常组合后短暂加热，重点是脆玉米片、融化奶酪和清凉绵滑配料的对比。",
+      "nl": "Meestal samengesteld en kort verwarmd: krokante chips, gesmolten kaas en koele romige toppings."
     },
     "cuisineRole": {
       "level": "classic",
@@ -13462,7 +13471,7 @@ export const worldDishes = [
     },
     "composition": [
       [
-        "tortilla",
+        "corn-tortilla-chips",
         40,
         "corn chips"
       ],
@@ -13531,8 +13540,8 @@ export const worldDishes = [
     ],
     "orderVerdict": {
       "en": "Order if you want a crunchy shared snack with cheese and salsa; avoid if you need a neat main course or avoid dairy.",
-      "zh": "想要玉米片铺奶酪、莎莎、豆类、辣椒、酸奶油或牛油果酱，适合分享时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
-      "nl": "Neem dit als je tortillachips met gesmolten kaas, salsa, bonen, jalapeno, zure room of guacamole; ideaal om te delen wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+      "zh": "想要奶酪莎莎玉米片分享小吃时适合；如果要整洁主菜或避开乳制品就不适合。",
+      "nl": "Neem dit als gedeelde snack met kaas en salsa; minder geschikt als nette hoofdmaaltijd of bij zuivel vermijden."
     },
     "spiceLevel": 2,
     "weightLevel": 3,
@@ -13901,9 +13910,9 @@ export const worldDishes = [
       "nl": "Mole poblano: kip of kalkoen met donkere molesaus van gedroogde chili, specerijen, noten, zaden en een hint cacao."
     },
     "cookingProfile": {
-      "en": "simmered; expect tender chicken and thick smooth sauce.",
-      "zh": "通常慢煮后上桌，点餐时可预期：鸡肉或火鸡配深色摩雷酱，含干辣椒、香料、坚果、籽类和少量可可，味道复杂厚重。",
-      "nl": "Meestal zacht gestoofd; verwacht vooral: kip of kalkoen met donkere molesaus van gedroogde chili, specerijen, noten, zaden en een hint cacao."
+      "en": "The poultry is served with a thick simmered sauce, so the plate feels rich, earthy, and sauce-led.",
+      "zh": "鸡肉或火鸡配浓稠慢煮摩雷酱上桌，整体厚重、泥土香明显，重点在酱汁。",
+      "nl": "Het gevogelte komt met dikke gestoofde saus; rijk, aards en duidelijk sausgericht."
     },
     "cuisineRole": {
       "level": "signature",
@@ -13926,7 +13935,7 @@ export const worldDishes = [
       ],
       [
         "mole",
-        35,
+        45,
         "complex sauce",
         "seasoning"
       ],
@@ -13947,12 +13956,6 @@ export const worldDishes = [
         5,
         "nut body"
       ],
-      [
-        "sesame-oil",
-        0,
-        "unused",
-        "seasoning"
-      ]
     ],
     "distinctiveFlavorSources": [
       "dried chile",
@@ -13980,12 +13983,13 @@ export const worldDishes = [
     ],
     "avoidIfTags": [
       "nut-allergy",
+      "sesame-allergy",
       "dislikes-earthy-sauces"
     ],
     "orderVerdict": {
       "en": "Order if you want a complex earthy sauce rather than a simple salsa dish; avoid if nuts, sesame, or bittersweet earthy sauces are a concern.",
-      "zh": "想要鸡肉或火鸡配深色摩雷酱，含干辣椒、香料、坚果、籽类和少量可可，味道复杂厚重时适合点；如果相关过敏源或这种口感不适合你，就谨慎选择。",
-      "nl": "Neem dit als je kip of kalkoen met donkere molesaus van gedroogde chili, specerijen, noten, zaden en een hint cacao wilt; wees voorzichtig als allergenen of deze textuur niet passen."
+      "zh": "想吃复杂、厚重、带坚果和可可苦香的酱汁时适合；坚果、芝麻过敏或不喜欢微苦泥土香就谨慎。",
+      "nl": "Neem dit voor een complexe aardse saus; vermijd bij noten, sesam of afkeer van bitterzoete aardse sauzen."
     },
     "spiceLevel": 2,
     "weightLevel": 4,
@@ -16158,6 +16162,7 @@ export const worldDishes = [
     ],
     "riskFlags": [
       "contains-gluten",
+      "contains-dairy",
       "contains-alcohol"
     ],
     "dietaryFlags": [],
@@ -16167,6 +16172,7 @@ export const worldDishes = [
     ],
     "avoidIfTags": [
       "gluten-free",
+      "dairy-free",
       "no-alcohol",
       "wants-light-food"
     ],
@@ -22548,7 +22554,7 @@ export const worldDishes = [
     },
     "cookingProfile": {
       "en": "It is compact but topping-heavy; check the topping because allergens vary a lot.",
-      "zh": "分量不一定大但配料很集中；过敏风险取决于具体 topping。",
+      "zh": "分量不一定大但配料很集中；过敏风险取决于具体配料。",
       "nl": "Compact maar rijk belegd; controleer de topping omdat allergenen sterk wisselen."
     },
     "cuisineRole": {
@@ -24414,7 +24420,8 @@ export const worldDishes = [
     "riskFlags": [
       "contains-soy",
       "contains-gluten",
-      "contains-egg"
+      "contains-egg",
+      "contains-sesame"
     ],
     "dietaryFlags": [],
     "goodForTags": [
@@ -24424,7 +24431,8 @@ export const worldDishes = [
     "avoidIfTags": [
       "soy-free",
       "gluten-free",
-      "egg-free"
+      "egg-free",
+      "sesame-free"
     ],
     "orderVerdict": {
       "en": "A familiar, filling option; check the protein if you avoid pork or shellfish.",

@@ -34,9 +34,9 @@ export const dutchDishes = [
         "street-food"
       ],
       "description": {
-        "en": "A recognizable Dutch dish in the starter database, focused on practical ordering expectations.",
-        "zh": "这是 DishKAI 初始数据库中的典型荷兰菜，重点说明实际点餐预期。",
-        "nl": "Een herkenbaar Nederlands gerecht in de startdatabase, gericht op praktische bestelverwachtingen."
+        "en": "A broadly recognized Dutch dish; useful for judging portion feel, texture, common pairings, and ordering risks.",
+        "zh": "这是一道辨识度高的荷兰菜，适合判断分量、口感、常见搭配和点餐风险。",
+        "nl": "Een herkenbaar Nederlands gerecht voor portiegevoel, textuur, gewone combinaties en bestelrisico's."
       }
     },
     "composition": [
@@ -118,9 +118,9 @@ export const dutchDishes = [
         "classic"
       ],
       "description": {
-        "en": "A recognizable Dutch dish in the starter database, focused on practical ordering expectations.",
-        "zh": "这是 DishKAI 初始数据库中的典型荷兰菜，重点说明实际点餐预期。",
-        "nl": "Een herkenbaar Nederlands gerecht in de startdatabase, gericht op praktische bestelverwachtingen."
+        "en": "A broadly recognized Dutch dish; useful for judging portion feel, texture, common pairings, and ordering risks.",
+        "zh": "这是一道辨识度高的荷兰菜，适合判断分量、口感、常见搭配和点餐风险。",
+        "nl": "Een herkenbaar Nederlands gerecht voor portiegevoel, textuur, gewone combinaties en bestelrisico's."
       }
     },
     "composition": [
@@ -201,9 +201,9 @@ export const dutchDishes = [
         "classic"
       ],
       "description": {
-        "en": "A recognizable Dutch dish in the starter database, focused on practical ordering expectations.",
-        "zh": "这是 DishKAI 初始数据库中的典型荷兰菜，重点说明实际点餐预期。",
-        "nl": "Een herkenbaar Nederlands gerecht in de startdatabase, gericht op praktische bestelverwachtingen."
+        "en": "A broadly recognized Dutch dish; useful for judging portion feel, texture, common pairings, and ordering risks.",
+        "zh": "这是一道辨识度高的荷兰菜，适合判断分量、口感、常见搭配和点餐风险。",
+        "nl": "Een herkenbaar Nederlands gerecht voor portiegevoel, textuur, gewone combinaties en bestelrisico's."
       }
     },
     "composition": [
@@ -282,9 +282,9 @@ export const dutchDishes = [
         "regional"
       ],
       "description": {
-        "en": "A recognizable Dutch dish in the starter database, focused on practical ordering expectations.",
-        "zh": "这是 DishKAI 初始数据库中的典型荷兰菜，重点说明实际点餐预期。",
-        "nl": "Een herkenbaar Nederlands gerecht in de startdatabase, gericht op praktische bestelverwachtingen."
+        "en": "A broadly recognized Dutch dish; useful for judging portion feel, texture, common pairings, and ordering risks.",
+        "zh": "这是一道辨识度高的荷兰菜，适合判断分量、口感、常见搭配和点餐风险。",
+        "nl": "Een herkenbaar Nederlands gerecht voor portiegevoel, textuur, gewone combinaties en bestelrisico's."
       }
     },
     "composition": [
@@ -361,9 +361,9 @@ export const dutchDishes = [
         "classic"
       ],
       "description": {
-        "en": "A recognizable Dutch dish in the starter database, focused on practical ordering expectations.",
-        "zh": "这是 DishKAI 初始数据库中的典型荷兰菜，重点说明实际点餐预期。",
-        "nl": "Een herkenbaar Nederlands gerecht in de startdatabase, gericht op praktische bestelverwachtingen."
+        "en": "A broadly recognized Dutch dish; useful for judging portion feel, texture, common pairings, and ordering risks.",
+        "zh": "这是一道辨识度高的荷兰菜，适合判断分量、口感、常见搭配和点餐风险。",
+        "nl": "Een herkenbaar Nederlands gerecht voor portiegevoel, textuur, gewone combinaties en bestelrisico's."
       }
     },
     "composition": [

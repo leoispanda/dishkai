@@ -32,9 +32,9 @@ export const germanDishes = [
         "internationally-known"
       ],
       "description": {
-        "en": "A recognizable German dish in the starter database, useful for weight, richness, and ingredient expectations.",
-        "zh": "这是 DishKAI 初始数据库中的典型德国菜，用于判断分量、厚重感和主要食材。",
-        "nl": "Een herkenbaar Duits gerecht in de startdatabase, nuttig voor verwachtingen rond zwaarte, rijkheid en ingredienten."
+        "en": "A broadly recognized German dish; useful for judging weight, richness, preparation style, and main ingredients.",
+        "zh": "这是一道辨识度高的德国菜，适合判断分量、厚重感、做法风格和主要食材。",
+        "nl": "Een herkenbaar Duits gerecht voor zwaarte, rijkheid, bereidingsstijl en hoofdingrediënten."
       }
     },
     "composition": [
@@ -118,9 +118,9 @@ export const germanDishes = [
         "street-food"
       ],
       "description": {
-        "en": "A recognizable German dish in the starter database, useful for weight, richness, and ingredient expectations.",
-        "zh": "这是 DishKAI 初始数据库中的典型德国菜，用于判断分量、厚重感和主要食材。",
-        "nl": "Een herkenbaar Duits gerecht in de startdatabase, nuttig voor verwachtingen rond zwaarte, rijkheid en ingredienten."
+        "en": "A broadly recognized German dish; useful for judging weight, richness, preparation style, and main ingredients.",
+        "zh": "这是一道辨识度高的德国菜，适合判断分量、厚重感、做法风格和主要食材。",
+        "nl": "Een herkenbaar Duits gerecht voor zwaarte, rijkheid, bereidingsstijl en hoofdingrediënten."
       }
     },
     "composition": [
@@ -201,9 +201,9 @@ export const germanDishes = [
         "classic"
       ],
       "description": {
-        "en": "A recognizable German dish in the starter database, useful for weight, richness, and ingredient expectations.",
-        "zh": "这是 DishKAI 初始数据库中的典型德国菜，用于判断分量、厚重感和主要食材。",
-        "nl": "Een herkenbaar Duits gerecht in de startdatabase, nuttig voor verwachtingen rond zwaarte, rijkheid en ingredienten."
+        "en": "A broadly recognized German dish; useful for judging weight, richness, preparation style, and main ingredients.",
+        "zh": "这是一道辨识度高的德国菜，适合判断分量、厚重感、做法风格和主要食材。",
+        "nl": "Een herkenbaar Duits gerecht voor zwaarte, rijkheid, bereidingsstijl en hoofdingrediënten."
       }
     },
     "composition": [
@@ -287,9 +287,9 @@ export const germanDishes = [
         "regional"
       ],
       "description": {
-        "en": "A recognizable German dish in the starter database, useful for weight, richness, and ingredient expectations.",
-        "zh": "这是 DishKAI 初始数据库中的典型德国菜，用于判断分量、厚重感和主要食材。",
-        "nl": "Een herkenbaar Duits gerecht in de startdatabase, nuttig voor verwachtingen rond zwaarte, rijkheid en ingredienten."
+        "en": "A broadly recognized German dish; useful for judging weight, richness, preparation style, and main ingredients.",
+        "zh": "这是一道辨识度高的德国菜，适合判断分量、厚重感、做法风格和主要食材。",
+        "nl": "Een herkenbaar Duits gerecht voor zwaarte, rijkheid, bereidingsstijl en hoofdingrediënten."
       }
     },
     "composition": [
@@ -371,9 +371,9 @@ export const germanDishes = [
         "street-food"
       ],
       "description": {
-        "en": "A recognizable German dish in the starter database, useful for weight, richness, and ingredient expectations.",
-        "zh": "这是 DishKAI 初始数据库中的典型德国菜，用于判断分量、厚重感和主要食材。",
-        "nl": "Een herkenbaar Duits gerecht in de startdatabase, nuttig voor verwachtingen rond zwaarte, rijkheid en ingredienten."
+        "en": "A broadly recognized German dish; useful for judging weight, richness, preparation style, and main ingredients.",
+        "zh": "这是一道辨识度高的德国菜，适合判断分量、厚重感、做法风格和主要食材。",
+        "nl": "Een herkenbaar Duits gerecht voor zwaarte, rijkheid, bereidingsstijl en hoofdingrediënten."
       }
     },
     "composition": [

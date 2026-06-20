@@ -31,9 +31,9 @@ export function starterDish(config) {
       level: config.cuisineRole?.level || "common",
       tags: config.cuisineRole?.tags || [],
       description: config.cuisineRole?.description || {
-        en: "A useful starter-database reference dish for recognizing this cuisine on menus.",
-        zh: "这是 DishKAI 初始数据库中用于识别该菜系菜单的参考菜。",
-        nl: "Een nuttig referentiegerecht in de startdatabase voor het herkennen van deze keuken op menu's.",
+        en: "A cuisine reference dish that helps set ordering expectations from its typical role, flavor, and texture.",
+        zh: "这是一道可用于判断该菜系点餐预期的参考菜，重点看常见角色、风味和口感。",
+        nl: "Een referentiegerecht dat bestelverwachtingen helpt plaatsen via typische rol, smaak en textuur.",
       },
     },
     commonVariations: config.commonVariations || [],

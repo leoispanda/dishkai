@@ -33,9 +33,9 @@ export const belgianDishes = [
         "internationally-known"
       ],
       "description": {
-        "en": "A recognizable Belgian dish in the starter database, focused on texture, richness, and common pairings.",
-        "zh": "这是 DishKAI 初始数据库中的典型比利时菜，重点说明口感、厚重感和常见搭配。",
-        "nl": "Een herkenbaar Belgisch gerecht in de startdatabase, gericht op textuur, rijkheid en gewone combinaties."
+        "en": "A broadly recognized Belgian dish; useful for judging texture, richness, common pairings, and ordering risks.",
+        "zh": "这是一道辨识度高的比利时菜，适合判断口感、厚重感、常见搭配和点餐风险。",
+        "nl": "Een herkenbaar Belgisch gerecht voor textuur, rijkheid, gewone combinaties en bestelrisico's."
       }
     },
     "composition": [
@@ -124,9 +124,9 @@ export const belgianDishes = [
         "internationally-known"
       ],
       "description": {
-        "en": "A recognizable Belgian dish in the starter database, focused on texture, richness, and common pairings.",
-        "zh": "这是 DishKAI 初始数据库中的典型比利时菜，重点说明口感、厚重感和常见搭配。",
-        "nl": "Een herkenbaar Belgisch gerecht in de startdatabase, gericht op textuur, rijkheid en gewone combinaties."
+        "en": "A broadly recognized Belgian dish; useful for judging texture, richness, common pairings, and ordering risks.",
+        "zh": "这是一道辨识度高的比利时菜，适合判断口感、厚重感、常见搭配和点餐风险。",
+        "nl": "Een herkenbaar Belgisch gerecht voor textuur, rijkheid, gewone combinaties en bestelrisico's."
       }
     },
     "composition": [
@@ -208,9 +208,9 @@ export const belgianDishes = [
         "regional"
       ],
       "description": {
-        "en": "A recognizable Belgian dish in the starter database, focused on texture, richness, and common pairings.",
-        "zh": "这是 DishKAI 初始数据库中的典型比利时菜，重点说明口感、厚重感和常见搭配。",
-        "nl": "Een herkenbaar Belgisch gerecht in de startdatabase, gericht op textuur, rijkheid en gewone combinaties."
+        "en": "A broadly recognized Belgian dish; useful for judging texture, richness, common pairings, and ordering risks.",
+        "zh": "这是一道辨识度高的比利时菜，适合判断口感、厚重感、常见搭配和点餐风险。",
+        "nl": "Een herkenbaar Belgisch gerecht voor textuur, rijkheid, gewone combinaties en bestelrisico's."
       }
     },
     "composition": [
@@ -300,9 +300,9 @@ export const belgianDishes = [
         "classic"
       ],
       "description": {
-        "en": "A recognizable Belgian dish in the starter database, focused on texture, richness, and common pairings.",
-        "zh": "这是 DishKAI 初始数据库中的典型比利时菜，重点说明口感、厚重感和常见搭配。",
-        "nl": "Een herkenbaar Belgisch gerecht in de startdatabase, gericht op textuur, rijkheid en gewone combinaties."
+        "en": "A broadly recognized Belgian dish; useful for judging texture, richness, common pairings, and ordering risks.",
+        "zh": "这是一道辨识度高的比利时菜，适合判断口感、厚重感、常见搭配和点餐风险。",
+        "nl": "Een herkenbaar Belgisch gerecht voor textuur, rijkheid, gewone combinaties en bestelrisico's."
       }
     },
     "composition": [
@@ -387,9 +387,9 @@ export const belgianDishes = [
         "regional"
       ],
       "description": {
-        "en": "A recognizable Belgian dish in the starter database, focused on texture, richness, and common pairings.",
-        "zh": "这是 DishKAI 初始数据库中的典型比利时菜，重点说明口感、厚重感和常见搭配。",
-        "nl": "Een herkenbaar Belgisch gerecht in de startdatabase, gericht op textuur, rijkheid en gewone combinaties."
+        "en": "A broadly recognized Belgian dish; useful for judging texture, richness, common pairings, and ordering risks.",
+        "zh": "这是一道辨识度高的比利时菜，适合判断口感、厚重感、常见搭配和点餐风险。",
+        "nl": "Een herkenbaar Belgisch gerecht voor textuur, rijkheid, gewone combinaties en bestelrisico's."
       }
     },
     "composition": [

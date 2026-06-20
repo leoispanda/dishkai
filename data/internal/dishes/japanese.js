@@ -35,9 +35,9 @@ export const japaneseDishes = [
         "internationally-known"
       ],
       "description": {
-        "en": "A recognizable Japanese dish in the starter database, useful for menu matching and ordering expectations.",
-        "zh": "这是 DishKAI 初始数据库中的典型日料，用于菜单匹配和点餐预期判断。",
-        "nl": "Een herkenbaar Japans gerecht in de startdatabase voor menumatching en bestelverwachtingen."
+        "en": "A broadly recognized Japanese dish; useful for understanding menu style, serving temperature, texture, and ordering risks.",
+        "zh": "这是一道辨识度高的日料，适合判断菜单类型、上桌温度、口感和点餐风险。",
+        "nl": "Een herkenbaar Japans gerecht voor menucontext, serveertemperatuur, textuur en bestelrisico's."
       }
     },
     "composition": [
@@ -86,7 +86,8 @@ export const japaneseDishes = [
     "riskFlags": [
       "contains-raw-fish",
       "contains-fish",
-      "contains-soy"
+      "contains-soy",
+      "contains-gluten"
     ],
     "goodForTags": [
       "internationally-known"
@@ -133,9 +134,9 @@ export const japaneseDishes = [
         "internationally-known"
       ],
       "description": {
-        "en": "A recognizable Japanese dish in the starter database, useful for menu matching and ordering expectations.",
-        "zh": "这是 DishKAI 初始数据库中的典型日料，用于菜单匹配和点餐预期判断。",
-        "nl": "Een herkenbaar Japans gerecht in de startdatabase voor menumatching en bestelverwachtingen."
+        "en": "A broadly recognized Japanese dish; useful for understanding menu style, serving temperature, texture, and ordering risks.",
+        "zh": "这是一道辨识度高的日料，适合判断菜单类型、上桌温度、口感和点餐风险。",
+        "nl": "Een herkenbaar Japans gerecht voor menucontext, serveertemperatuur, textuur en bestelrisico's."
       }
     },
     "composition": [
@@ -182,7 +183,8 @@ export const japaneseDishes = [
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
-      "contains-soy"
+      "contains-soy",
+      "contains-fish"
     ],
     "goodForTags": [
       "noodle-lover"
@@ -226,9 +228,9 @@ export const japaneseDishes = [
         "classic"
       ],
       "description": {
-        "en": "A recognizable Japanese dish in the starter database, useful for menu matching and ordering expectations.",
-        "zh": "这是 DishKAI 初始数据库中的典型日料，用于菜单匹配和点餐预期判断。",
-        "nl": "Een herkenbaar Japans gerecht in de startdatabase voor menumatching en bestelverwachtingen."
+        "en": "A broadly recognized Japanese dish; useful for understanding menu style, serving temperature, texture, and ordering risks.",
+        "zh": "这是一道辨识度高的日料，适合判断菜单类型、上桌温度、口感和点餐风险。",
+        "nl": "Een herkenbaar Japans gerecht voor menucontext, serveertemperatuur, textuur en bestelrisico's."
       }
     },
     "composition": [
@@ -260,7 +262,8 @@ export const japaneseDishes = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "soy-sauce"
+      "soy-sauce",
+      "dashi-broth"
     ],
     "basicTaste": [
       "mild",
@@ -275,7 +278,8 @@ export const japaneseDishes = [
       "contains-gluten",
       "contains-egg",
       "contains-shellfish",
-      "contains-soy"
+      "contains-soy",
+      "contains-fish"
     ],
     "orderVerdict": {
       "en": "Good for a crisp starter or side, but check shellfish and gluten.",
@@ -317,9 +321,9 @@ export const japaneseDishes = [
         "internationally-known"
       ],
       "description": {
-        "en": "A recognizable Japanese dish in the starter database, useful for menu matching and ordering expectations.",
-        "zh": "这是 DishKAI 初始数据库中的典型日料，用于菜单匹配和点餐预期判断。",
-        "nl": "Een herkenbaar Japans gerecht in de startdatabase voor menumatching en bestelverwachtingen."
+        "en": "A broadly recognized Japanese dish; useful for understanding menu style, serving temperature, texture, and ordering risks.",
+        "zh": "这是一道辨识度高的日料，适合判断菜单类型、上桌温度、口感和点餐风险。",
+        "nl": "Een herkenbaar Japans gerecht voor menucontext, serveertemperatuur, textuur en bestelrisico's."
       }
     },
     "composition": [
@@ -401,9 +405,9 @@ export const japaneseDishes = [
         "classic"
       ],
       "description": {
-        "en": "A recognizable Japanese dish in the starter database, useful for menu matching and ordering expectations.",
-        "zh": "这是 DishKAI 初始数据库中的典型日料，用于菜单匹配和点餐预期判断。",
-        "nl": "Een herkenbaar Japans gerecht in de startdatabase voor menumatching en bestelverwachtingen."
+        "en": "A broadly recognized Japanese dish; useful for understanding menu style, serving temperature, texture, and ordering risks.",
+        "zh": "这是一道辨识度高的日料，适合判断菜单类型、上桌温度、口感和点餐风险。",
+        "nl": "Een herkenbaar Japans gerecht voor menucontext, serveertemperatuur, textuur en bestelrisico's."
       }
     },
     "composition": [
@@ -435,7 +439,8 @@ export const japaneseDishes = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "miso"
+      "miso",
+      "dashi-broth"
     ],
     "basicTaste": [
       "salty",

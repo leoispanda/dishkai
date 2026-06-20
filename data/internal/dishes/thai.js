@@ -33,9 +33,9 @@ export const thaiDishes = [
         "internationally-known"
       ],
       "description": {
-        "en": "A recognizable Thai dish in the starter database, useful for fast ordering decisions rather than exhaustive regional coverage.",
-        "zh": "这是 DishKAI 初始数据库中的典型泰餐，用于快速点餐判断，不代表完整地区覆盖。",
-        "nl": "Een herkenbaar Thais gerecht in de startdatabase, bedoeld voor snelle bestelkeuzes en niet voor volledige regionale dekking."
+        "en": "A broadly recognized Thai dish; useful for fast ordering decisions, though regional and restaurant styles can vary.",
+        "zh": "这是一道辨识度高的泰餐，适合快速判断点餐预期，但地区和餐厅做法会有差异。",
+        "nl": "Een herkenbaar Thais gerecht voor snelle bestelkeuzes, met mogelijke regionale en restaurantvariatie."
       }
     },
     "composition": [
@@ -149,9 +149,9 @@ export const thaiDishes = [
         "classic"
       ],
       "description": {
-        "en": "A recognizable Thai dish in the starter database, useful for fast ordering decisions rather than exhaustive regional coverage.",
-        "zh": "这是 DishKAI 初始数据库中的典型泰餐，用于快速点餐判断，不代表完整地区覆盖。",
-        "nl": "Een herkenbaar Thais gerecht in de startdatabase, bedoeld voor snelle bestelkeuzes en niet voor volledige regionale dekking."
+        "en": "A broadly recognized Thai dish; useful for fast ordering decisions, though regional and restaurant styles can vary.",
+        "zh": "这是一道辨识度高的泰餐，适合快速判断点餐预期，但地区和餐厅做法会有差异。",
+        "nl": "Een herkenbaar Thais gerecht voor snelle bestelkeuzes, met mogelijke regionale en restaurantvariatie."
       }
     },
     "composition": [
@@ -253,9 +253,9 @@ export const thaiDishes = [
         "classic"
       ],
       "description": {
-        "en": "A recognizable Thai dish in the starter database, useful for fast ordering decisions rather than exhaustive regional coverage.",
-        "zh": "这是 DishKAI 初始数据库中的典型泰餐，用于快速点餐判断，不代表完整地区覆盖。",
-        "nl": "Een herkenbaar Thais gerecht in de startdatabase, bedoeld voor snelle bestelkeuzes en niet voor volledige regionale dekking."
+        "en": "A broadly recognized Thai dish; useful for fast ordering decisions, though regional and restaurant styles can vary.",
+        "zh": "这是一道辨识度高的泰餐，适合快速判断点餐预期，但地区和餐厅做法会有差异。",
+        "nl": "Een herkenbaar Thais gerecht voor snelle bestelkeuzes, met mogelijke regionale en restaurantvariatie."
       }
     },
     "composition": [
@@ -353,9 +353,9 @@ export const thaiDishes = [
         "regional"
       ],
       "description": {
-        "en": "A recognizable Thai dish in the starter database, useful for fast ordering decisions rather than exhaustive regional coverage.",
-        "zh": "这是 DishKAI 初始数据库中的典型泰餐，用于快速点餐判断，不代表完整地区覆盖。",
-        "nl": "Een herkenbaar Thais gerecht in de startdatabase, bedoeld voor snelle bestelkeuzes en niet voor volledige regionale dekking."
+        "en": "A broadly recognized Thai dish; useful for fast ordering decisions, though regional and restaurant styles can vary.",
+        "zh": "这是一道辨识度高的泰餐，适合快速判断点餐预期，但地区和餐厅做法会有差异。",
+        "nl": "Een herkenbaar Thais gerecht voor snelle bestelkeuzes, met mogelijke regionale en restaurantvariatie."
       }
     },
     "composition": [
@@ -456,9 +456,9 @@ export const thaiDishes = [
         "first-timer-friendly"
       ],
       "description": {
-        "en": "A recognizable Thai dish in the starter database, useful for fast ordering decisions rather than exhaustive regional coverage.",
-        "zh": "这是 DishKAI 初始数据库中的典型泰餐，用于快速点餐判断，不代表完整地区覆盖。",
-        "nl": "Een herkenbaar Thais gerecht in de startdatabase, bedoeld voor snelle bestelkeuzes en niet voor volledige regionale dekking."
+        "en": "A broadly recognized Thai dish; useful for fast ordering decisions, though regional and restaurant styles can vary.",
+        "zh": "这是一道辨识度高的泰餐，适合快速判断点餐预期，但地区和餐厅做法会有差异。",
+        "nl": "Een herkenbaar Thais gerecht voor snelle bestelkeuzes, met mogelijke regionale en restaurantvariatie."
       }
     },
     "composition": [

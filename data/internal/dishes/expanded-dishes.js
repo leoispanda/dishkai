@@ -1486,7 +1486,8 @@ export const expandedDishes = [
     "riskFlags": [
       "contains-raw-fish",
       "contains-fish",
-      "contains-soy"
+      "contains-soy",
+      "contains-gluten"
     ],
     "dietaryFlags": [
       "pescatarian"
@@ -1499,7 +1500,8 @@ export const expandedDishes = [
     "avoidIfTags": [
       "raw-fish-avoidant",
       "fish-allergy",
-      "soy-allergy"
+      "soy-allergy",
+      "gluten-allergy"
     ],
     "orderVerdict": {
       "en": "Best for diners who actively want raw fish; choose sushi or grilled fish if raw texture worries you.",
@@ -2239,7 +2241,8 @@ export const expandedDishes = [
     "riskFlags": [
       "contains-pork",
       "contains-gluten",
-      "contains-egg"
+      "contains-egg",
+      "contains-soy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
@@ -2249,7 +2252,8 @@ export const expandedDishes = [
     "avoidIfTags": [
       "pork-avoidant",
       "gluten-allergy",
-      "egg-allergy"
+      "egg-allergy",
+      "soy-allergy"
     ],
     "orderVerdict": {
       "en": "Choose it for a hearty crispy pork main; it is not a light order.",
@@ -2363,7 +2367,8 @@ export const expandedDishes = [
       "contains-egg",
       "contains-gluten",
       "contains-fish",
-      "contains-pork"
+      "contains-pork",
+      "contains-soy"
     ],
     "dietaryFlags": [
       "toppings-vary-by-restaurant"
@@ -2377,7 +2382,8 @@ export const expandedDishes = [
       "egg-allergy",
       "gluten-allergy",
       "fish-allergy",
-      "pork-avoidant"
+      "pork-avoidant",
+      "soy-allergy"
     ],
     "orderVerdict": {
       "en": "Fun to share if you want saucy, rich street-food texture; check toppings because pork and seafood vary.",
@@ -2495,7 +2501,8 @@ export const expandedDishes = [
       "contains-gluten",
       "contains-egg",
       "contains-fish",
-      "contains-shellfish"
+      "contains-shellfish",
+      "contains-soy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
@@ -2507,7 +2514,8 @@ export const expandedDishes = [
       "shellfish-allergy",
       "fish-allergy",
       "egg-allergy",
-      "gluten-allergy"
+      "gluten-allergy",
+      "soy-allergy"
     ],
     "orderVerdict": {
       "en": "Good as a snack if octopus and very soft hot centers sound appealing.",
@@ -4416,6 +4424,7 @@ export const expandedDishes = [
       "contains-gluten",
       "contains-pork",
       "contains-sesame",
+      "contains-peanut",
       "can-be-spicy"
     ],
     "dietaryFlags": [
@@ -4877,7 +4886,8 @@ export const expandedDishes = [
     "riskFlags": [
       "contains-pork",
       "contains-soy",
-      "contains-gluten"
+      "contains-gluten",
+      "contains-alcohol"
     ],
     "dietaryFlags": [],
     "goodForTags": [
@@ -4889,6 +4899,7 @@ export const expandedDishes = [
       "pork-avoidant",
       "soy-allergy",
       "gluten-allergy",
+      "alcohol-avoidant",
       "low-sugar-preference"
     ],
     "orderVerdict": {
@@ -6879,13 +6890,8 @@ export const expandedDishes = [
         "cooking-fat"
       ],
       [
-        "butter",
-        5,
-        "finish"
-      ],
-      [
         "herbs",
-        5,
+        10,
         "aroma"
       ]
     ],
@@ -8418,7 +8424,9 @@ export const expandedDishes = [
       "tangy side"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-gluten",
+      "contains-alcohol"
     ],
     "dietaryFlags": [],
     "goodForTags": [
@@ -8427,6 +8435,8 @@ export const expandedDishes = [
     ],
     "avoidIfTags": [
       "no-pork",
+      "gluten-free",
+      "no-alcohol",
       "wants-light-food"
     ],
     "orderVerdict": {
@@ -8572,7 +8582,7 @@ export const expandedDishes = [
     "servingTemperature": "cold-or-cool",
     "shortDescription": {
       "en": "German potato salad, usually vinegar-broth based in the south or creamier in some regions.",
-      "zh": "德式土豆沙拉，南部常见醋和高汤风格，有些地区会更 creamy。",
+      "zh": "德式土豆沙拉，南部常见醋和高汤风格，有些地区会更顺滑浓郁。",
       "nl": "Duitse aardappelsalade, vaak azijn-bouillonachtig in het zuiden of romiger per regio."
     },
     "cookingProfile": {

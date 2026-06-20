@@ -14555,7 +14555,7 @@ const europeDepthDishConfigs = [
     },
     "cookingProfile": {
       "en": "It is not cooked; expect a cool, creamy, slightly pungent spread for bread or pretzel.",
-      "zh": "它不是热菜，口感冰凉 creamy，带一点成熟奶酪和洋葱的冲味。",
+      "zh": "它不是热菜，口感冰凉绵密，带一点成熟奶酪和洋葱的冲味。",
       "nl": "Niet gekookt; koel, romig en licht pittig als spread voor brood of pretzel."
     },
     "cuisineRole": {

@@ -32,9 +32,9 @@ export const chineseDishes = [
         "internationally-known"
       ],
       "description": {
-        "en": "A recognizable Chinese dish in the starter database; regional variation can be high.",
-        "zh": "这是 DishKAI 初始数据库中的典型中餐；实际地区差异可能较大。",
-        "nl": "Een herkenbaar Chinees gerecht in de startdatabase; regionale variatie kan groot zijn."
+        "en": "A broadly recognized Chinese dish; useful for ordering expectations, with regional and restaurant variation often high.",
+        "zh": "这是一道辨识度高的中餐，适合判断点餐预期；地区和餐厅差异通常较大。",
+        "nl": "Een herkenbaar Chinees gerecht voor bestelverwachtingen, vaak met grote regionale en restaurantvariatie."
       }
     },
     "composition": [
@@ -130,9 +130,9 @@ export const chineseDishes = [
         "internationally-known"
       ],
       "description": {
-        "en": "A recognizable Chinese dish in the starter database; regional variation can be high.",
-        "zh": "这是 DishKAI 初始数据库中的典型中餐；实际地区差异可能较大。",
-        "nl": "Een herkenbaar Chinees gerecht in de startdatabase; regionale variatie kan groot zijn."
+        "en": "A broadly recognized Chinese dish; useful for ordering expectations, with regional and restaurant variation often high.",
+        "zh": "这是一道辨识度高的中餐，适合判断点餐预期；地区和餐厅差异通常较大。",
+        "nl": "Een herkenbaar Chinees gerecht voor bestelverwachtingen, vaak met grote regionale en restaurantvariatie."
       }
     },
     "composition": [
@@ -220,9 +220,9 @@ export const chineseDishes = [
         "internationally-known"
       ],
       "description": {
-        "en": "A recognizable Chinese dish in the starter database; regional variation can be high.",
-        "zh": "这是 DishKAI 初始数据库中的典型中餐；实际地区差异可能较大。",
-        "nl": "Een herkenbaar Chinees gerecht in de startdatabase; regionale variatie kan groot zijn."
+        "en": "A broadly recognized Chinese dish; useful for ordering expectations, with regional and restaurant variation often high.",
+        "zh": "这是一道辨识度高的中餐，适合判断点餐预期；地区和餐厅差异通常较大。",
+        "nl": "Een herkenbaar Chinees gerecht voor bestelverwachtingen, vaak met grote regionale en restaurantvariatie."
       }
     },
     "composition": [
@@ -311,9 +311,9 @@ export const chineseDishes = [
         "internationally-known"
       ],
       "description": {
-        "en": "A recognizable Chinese dish in the starter database; regional variation can be high.",
-        "zh": "这是 DishKAI 初始数据库中的典型中餐；实际地区差异可能较大。",
-        "nl": "Een herkenbaar Chinees gerecht in de startdatabase; regionale variatie kan groot zijn."
+        "en": "A broadly recognized Chinese dish; useful for ordering expectations, with regional and restaurant variation often high.",
+        "zh": "这是一道辨识度高的中餐，适合判断点餐预期；地区和餐厅差异通常较大。",
+        "nl": "Een herkenbaar Chinees gerecht voor bestelverwachtingen, vaak met grote regionale en restaurantvariatie."
       }
     },
     "composition": [
@@ -399,9 +399,9 @@ export const chineseDishes = [
         "classic"
       ],
       "description": {
-        "en": "A recognizable Chinese dish in the starter database; regional variation can be high.",
-        "zh": "这是 DishKAI 初始数据库中的典型中餐；实际地区差异可能较大。",
-        "nl": "Een herkenbaar Chinees gerecht in de startdatabase; regionale variatie kan groot zijn."
+        "en": "A broadly recognized Chinese dish; useful for ordering expectations, with regional and restaurant variation often high.",
+        "zh": "这是一道辨识度高的中餐，适合判断点餐预期；地区和餐厅差异通常较大。",
+        "nl": "Een herkenbaar Chinees gerecht voor bestelverwachtingen, vaak met grote regionale en restaurantvariatie."
       }
     },
     "composition": [
