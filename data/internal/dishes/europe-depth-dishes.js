@@ -6434,304 +6434,295 @@ const europeDepthDishConfigs = [
       "en": "Salade Lyonnaise",
       "zh": "里昂培根荷包蛋沙拉",
       "nl": "Salade Lyonnaise",
-      "local": "Salade Lyonnaise"
+      "local": "Salade lyonnaise"
     },
     "category": "salad",
     "cookingMethods": [
       "assembled"
     ],
     "shortDescription": {
-      "en": "Salade Lyonnaise is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "里昂培根荷包蛋沙拉是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Salade Lyonnaise is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A bistro salad of frisée, warm bacon lardons, croutons, and a poached egg, usually more savory and filling than a simple green salad.",
+      "zh": "以菊苣生菜、温热培根丁、面包丁和水波蛋组成的里昂小馆沙拉，比普通绿叶沙拉更咸香、更有饱足感。",
+      "nl": "Een bistrosalade met frisée, warme spekjes, croutons en gepocheerd ei; hartiger en vullender dan een simpele groene salade."
     },
     "cookingProfile": {
-      "en": "Usually served with fresh salad, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fresh salad，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fresh salad; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served cool-to-warm, with crisp greens softened by egg yolk, bacon fat, and sharp vinaigrette.",
+      "zh": "冷热交错上桌，脆生菜会被蛋黄、培根油脂和酸香油醋汁包裹。",
+      "nl": "Koel tot lauwwarm geserveerd, met knapperige sla, eidooier, spekvet en frisse vinaigrette."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic Lyon bistro salad that works as a substantial starter or light lunch.",
+        "zh": "里昂小馆经典沙拉，适合作为较有分量的前菜或轻午餐。",
+        "nl": "Een klassieke Lyonnaise bistrosalade, geschikt als stevige starter of lichte lunch."
       }
     },
     "composition": [
       [
-        "mixed-vegetables",
-        45,
-        "base"
+        "frisee-lettuce",
+        35,
+        "leafy base"
       ],
       [
-        "tomato",
+        "bacon",
+        20,
+        "warm salty topping"
+      ],
+      [
+        "egg",
         15,
-        "body"
+        "runny yolk"
       ],
       [
-        "cheese",
+        "bread",
         15,
-        "richness"
-      ],
-      [
-        "olive-oil",
-        10,
-        "dressing",
-        "seasoning"
+        "croutons"
       ],
       [
         "vinegar",
         10,
-        "dressing",
+        "vinaigrette",
         "seasoning"
       ],
       [
-        "herbs",
+        "mustard",
         5,
-        "finish"
+        "sharpness",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "bacon lardons",
+      "runny egg yolk",
+      "mustard vinaigrette"
     ],
     "basicTaste": [
       "savory",
-      "fresh"
+      "tangy",
+      "rich"
     ],
     "textureProfile": [
-      "crisp vegetables",
-      "bright dressing"
+      "crisp frisée",
+      "chewy bacon",
+      "soft egg yolk",
+      "crouton crunch"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-egg",
+      "contains-gluten",
+      "contains-pork"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "salad"
+      "classic-dish",
+      "salad",
+      "bistro"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, fresh profile sounds appealing.",
-      "zh": "如果你想要savory、fresh的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, fresh je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good pick if you want a salad that still feels satisfying and salty-rich.",
+      "zh": "想点沙拉但又希望有咸香和饱足感时很稳。",
+      "nl": "Een goede keuze als je een salade wilt die toch stevig en hartig aanvoelt."
     },
-    "spiceLevel": 0,
-    "weightLevel": 1,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 2,
+    "metadataConfidence": 0.87
   },
   {
     "id": "galette-complete",
     "metadataCode": "103032",
     "cuisineId": "french",
     "names": {
-      "en": "Galette Complete",
+      "en": "Galette Complète",
       "zh": "布列塔尼荞麦咸可丽饼",
-      "nl": "Galette Complete",
-      "local": "Galette Complete"
+      "nl": "Galette complète",
+      "local": "Galette complète"
     },
-    "category": "starter",
+    "category": "crepe",
     "cookingMethods": [
+      "fried",
       "assembled"
     ],
     "shortDescription": {
-      "en": "Galette Complete is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "布列塔尼荞麦咸可丽饼是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Galette Complete is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A Breton buckwheat galette folded around ham, cheese, and egg, usually savory, nutty, and meal-like.",
+      "zh": "布列塔尼荞麦咸薄饼，常包火腿、奶酪和鸡蛋，吃起来咸香、带坚果感，像一份轻主食。",
+      "nl": "Een Bretonse boekweitgalette met ham, kaas en ei; hartig, nootachtig en geschikt als lichte maaltijd."
     },
     "cookingProfile": {
-      "en": "Usually served with small starter, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small starter，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small starter; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Usually griddled thin and folded, with a soft center and lightly crisp buckwheat edges.",
+      "zh": "薄饼通常煎得很薄后折起，中间柔软，边缘带一点脆。",
+      "nl": "Dun gebakken en gevouwen, met een zachte vulling en licht krokante boekweitranden."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Brittany staple and one of the clearest savory crêpe orders on French menus.",
+        "zh": "布列塔尼代表性咸薄饼，也是法餐菜单中很典型的咸可丽饼选择。",
+        "nl": "Een Bretons basisgerecht en een herkenbare hartige crêpe op Franse menu's."
       }
     },
     "composition": [
       [
-        "bread",
-        30,
+        "buckwheat-galette",
+        45,
         "base"
       ],
       [
-        "cheese",
-        20,
-        "richness"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
         "ham",
+        20,
+        "salty filling"
+      ],
+      [
+        "cheese",
         15,
-        "main"
+        "melty filling"
       ],
       [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
+        "egg",
+        15,
+        "center"
       ],
       [
-        "herbs",
+        "butter",
         5,
-        "finish"
+        "pan richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "buckwheat galette",
+      "ham and melted cheese",
+      "egg yolk"
     ],
     "basicTaste": [
       "savory",
+      "nutty",
       "mild"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "thin folded pancake",
+      "soft egg center",
+      "melted cheese"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-egg",
+      "contains-dairy",
+      "contains-pork"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "starter"
+      "regional-dish",
+      "first-timer-friendly",
+      "crepe"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A safe savory order if you want a crêpe-like main without a heavy sauce.",
+      "zh": "想吃咸口薄饼主食、又不想要厚重酱汁时很合适。",
+      "nl": "Een veilige hartige keuze als je een crêpe-achtig hoofdgerecht zonder zware saus wilt."
     },
-    "spiceLevel": 0,
-    "weightLevel": 1,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 2,
+    "metadataConfidence": 0.88
   },
   {
     "id": "pissaladiere",
     "metadataCode": "103033",
     "cuisineId": "french",
     "names": {
-      "en": "Pissaladiere",
+      "en": "Pissaladière",
       "zh": "普罗旺斯洋葱鳀鱼塔",
-      "nl": "Pissaladiere",
-      "local": "Pissaladiere"
+      "nl": "Pissaladière",
+      "local": "Pissaladière"
     },
-    "category": "pastry",
+    "category": "bread",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Pissaladiere is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "普罗旺斯洋葱鳀鱼塔是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Pissaladiere is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A Provençal onion flatbread topped with caramelized onions, anchovies, and black olives, more briny and onion-sweet than cheesy.",
+      "zh": "普罗旺斯风味洋葱扁面包，铺焦糖化洋葱、鳀鱼和黑橄榄，重点是洋葱甜香和咸鲜，不是奶酪披萨。",
+      "nl": "Een Provençaalse uienflatbread met gekaramelliseerde ui, ansjovis en zwarte olijven; zilt en uiig, niet kaasachtig."
     },
     "cookingProfile": {
-      "en": "Usually served with savory pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现savory pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met savory pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served warm or room temperature, with a soft bread base and concentrated salty-sweet topping.",
+      "zh": "常温或温热上桌，面包底柔软，上层咸甜浓缩。",
+      "nl": "Warm of op kamertemperatuur, met een zachte broodbodem en geconcentreerde zout-zoete topping."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Niçoise/Provençal regional classic for diners who like anchovies and olives.",
+        "zh": "尼斯和普罗旺斯一带的地区经典，适合喜欢鳀鱼和橄榄的人。",
+        "nl": "Een regionale klassieker uit Nice/Provence voor liefhebbers van ansjovis en olijven."
       }
     },
     "composition": [
       [
-        "pastry-crust",
-        40,
-        "base"
+        "bread",
+        45,
+        "flatbread base"
       ],
       [
-        "cheese",
-        20,
-        "filling"
+        "onion",
+        25,
+        "caramelized topping"
       ],
       [
-        "egg",
+        "anchovies",
         15,
-        "binder"
+        "salty topping"
       ],
       [
-        "mixed-vegetables",
+        "olives",
         10,
-        "body"
+        "briny topping"
       ],
       [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
-        "black-pepper",
+        "olive-oil",
         5,
-        "seasoning",
+        "finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "caramelized onions",
+      "anchovies",
+      "black olives"
     ],
     "basicTaste": [
       "savory",
-      "buttery"
+      "briny",
+      "sweet"
     ],
     "textureProfile": [
-      "flaky pastry",
-      "soft filling"
+      "soft flatbread",
+      "jammy onion topping",
+      "salty anchovy bite"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-dairy",
-      "contains-egg"
+      "contains-fish"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pastry"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
+      "regional-dish",
+      "bread",
+      "anchovy-forward"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, buttery profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、buttery的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, buttery je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order if you enjoy olives and anchovy saltiness; skip if you want a tomato-and-cheese pizza style.",
+      "zh": "喜欢橄榄和鳀鱼咸鲜时值得点；想吃番茄奶酪披萨口感则不太像。",
+      "nl": "Bestel dit als je olijven en zoute ansjovis waardeert; minder geschikt als je pizza met tomaat en kaas verwacht."
     },
-    "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.87
   },
   {
     "id": "socca",
@@ -6745,93 +6736,87 @@ const europeDepthDishConfigs = [
     },
     "category": "bread",
     "cookingMethods": [
+      "fried",
       "baked"
     ],
     "shortDescription": {
-      "en": "Socca is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "尼斯鹰嘴豆煎饼是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Socca is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A thin Niçoise chickpea pancake, usually cut into wedges and eaten hot with olive oil, salt, and black pepper.",
+      "zh": "尼斯鹰嘴豆薄饼，常切成小块热食，只需橄榄油、盐和黑胡椒，口味朴素咸香。",
+      "nl": "Een dunne kikkererwtenpannenkoek uit Nice, warm in stukken gegeten met olijfolie, zout en zwarte peper."
     },
     "cookingProfile": {
-      "en": "Usually served with baked bread or pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现baked bread or pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met baked bread or pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Usually cooked very thin, giving soft centers, browned edges, and a simple street-snack feel.",
+      "zh": "通常做得很薄，中间柔软、边缘微焦，像简单的街头小吃。",
+      "nl": "Meestal heel dun gebakken, met zachte stukken, gebruinde randjes en een eenvoudige snackachtige indruk."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "street-food"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Niçoise street-food classic and a useful gluten-free-leaning French reference.",
+        "zh": "尼斯街头经典，也是法餐里相对偏无麸质印象的参考菜。",
+        "nl": "Een klassieker uit de straatkeuken van Nice en een relatief glutenvriendelijke Franse referentie."
       }
     },
     "composition": [
       [
-        "bread",
-        45,
+        "chickpea-pancake",
+        80,
         "base"
       ],
       [
-        "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "cheese",
-        15,
-        "filling"
-      ],
-      [
-        "butter",
+        "olive-oil",
         10,
-        "richness"
+        "cooking fat",
+        "seasoning"
+      ],
+      [
+        "black-pepper",
+        5,
+        "finish",
+        "seasoning"
       ],
       [
         "sea-salt",
         5,
-        "seasoning",
+        "finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "chickpea batter",
+      "olive oil",
+      "black pepper"
     ],
     "basicTaste": [
       "savory",
+      "nutty",
       "mild"
     ],
     "textureProfile": [
-      "soft bread",
-      "crisp edges"
+      "thin wedges",
+      "soft center",
+      "lightly crisp edges"
     ],
-    "riskFlags": [
-      "contains-gluten",
-      "contains-dairy"
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegan"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "bread"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
+      "street-food",
+      "bread",
+      "vegan-friendly"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good small order if you want something simple, salty, and chickpea-nutty.",
+      "zh": "想要简单咸香、带鹰嘴豆坚果味的小食时可以点。",
+      "nl": "Een goede kleine keuze als je iets eenvoudigs, hartigs en kikkererwtenachtig zoekt."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 1,
+    "metadataConfidence": 0.88
   },
   {
     "id": "brandade-de-morue",
@@ -6839,61 +6824,63 @@ const europeDepthDishConfigs = [
     "cuisineId": "french",
     "names": {
       "en": "Brandade de Morue",
-      "zh": "法式奶油鳕鱼泥",
-      "nl": "Brandade de Morue",
-      "local": "Brandade de Morue"
+      "zh": "法式奶油盐鳕鱼泥",
+      "nl": "Brandade de morue",
+      "local": "Brandade de morue"
     },
     "category": "fish",
     "cookingMethods": [
-      "grilled"
+      "baked",
+      "stirred"
     ],
     "shortDescription": {
-      "en": "Brandade de Morue is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "法式奶油鳕鱼泥是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Brandade de Morue is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A creamy salt-cod and potato spread or gratin, mild-looking but distinctly fishy-salty and rich.",
+      "zh": "盐鳕鱼和土豆做成的奶油感鱼泥或焗菜，外观看起来温和，但鱼鲜和咸味明显。",
+      "nl": "Een romige spread of gratin van gezouten kabeljauw en aardappel; mild van uiterlijk, maar duidelijk zilt en visachtig."
     },
     "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Often served warm and creamy, sometimes lightly browned on top with bread or toast alongside.",
+      "zh": "常温热上桌，质地绵密，有时表面焗到微焦，并配面包。",
+      "nl": "Vaak warm en romig geserveerd, soms licht gegratineerd met brood of toast erbij."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A southern French salt-cod classic, useful for explaining creamy fish dishes on menus.",
+        "zh": "法国南部盐鳕鱼经典菜，适合理解菜单上的奶油感鱼泥类菜品。",
+        "nl": "Een Zuid-Franse klassieker met gezouten kabeljauw, herkenbaar als romig visgerecht."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        60,
-        "main"
+        "salt-cod",
+        45,
+        "main fish"
       ],
       [
         "potato",
-        15,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
-        10,
+        25,
         "body"
       ],
       [
-        "lemon",
-        5,
-        "brightness"
+        "cream",
+        10,
+        "richness"
       ],
       [
         "olive-oil",
+        10,
+        "emulsion",
+        "seasoning"
+      ],
+      [
+        "garlic",
         5,
-        "finish",
+        "aroma",
         "seasoning"
       ],
       [
@@ -6904,39 +6891,37 @@ const europeDepthDishConfigs = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "salt cod",
+      "garlic",
+      "olive-oil creaminess"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "salty",
+      "creamy"
     ],
     "textureProfile": [
-      "tender fish",
-      "light flaky bite"
+      "soft fish mash",
+      "creamy body",
+      "possible browned top"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-dairy"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "fish"
-    ],
-    "avoidIfTags": [
-      "fish-allergy"
+      "classic-dish",
+      "fish",
+      "creamy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Best if you like salty fish and creamy textures; it is not a light fresh-fish plate.",
+      "zh": "喜欢咸鲜鱼味和奶油绵密口感时适合；它不是清爽鱼排。",
+      "nl": "Geschikt als je zoute vis en romigheid prettig vindt; dit is geen lichte verse visfilet."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.86
   },
   {
     "id": "aligot",
@@ -6950,28 +6935,29 @@ const europeDepthDishConfigs = [
     },
     "category": "potato",
     "cookingMethods": [
-      "baked"
+      "boiled",
+      "stirred"
     ],
     "shortDescription": {
-      "en": "Aligot is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "奶酪拉丝土豆泥是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Aligot is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "An intensely cheesy mashed potato dish from Auvergne, famous for its stretchy, elastic texture.",
+      "zh": "奥弗涅地区的浓郁奶酪土豆泥，以明显拉丝、弹性强的口感出名。",
+      "nl": "Een zeer kazige aardappelpuree uit de Auvergne, bekend om zijn rekbare, elastische textuur."
     },
     "cookingProfile": {
-      "en": "Usually served with potato dish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现potato dish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met potato dish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served hot and spoonable, with cheese blended through the potato until it pulls in long strands.",
+      "zh": "热食上桌，奶酪与土豆泥融合，舀起时会拉出长丝。",
+      "nl": "Heet en lepelbaar geserveerd, met kaas door de aardappel tot het lange draden trekt."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A regional Auvergne comfort dish and a clear example of cheese-heavy French mountain food.",
+        "zh": "奥弗涅地区的舒适菜，也是法国山地奶酪重口菜的代表。",
+        "nl": "Een regionaal comfortgerecht uit de Auvergne en een duidelijk voorbeeld van kazige Franse bergkost."
       }
     },
     "composition": [
@@ -6981,67 +6967,57 @@ const europeDepthDishConfigs = [
         "base"
       ],
       [
-        "cream",
-        15,
-        "richness"
+        "alpine-cheese-blend",
+        30,
+        "stretchy cheese"
       ],
       [
-        "cheese",
-        10,
+        "cream",
+        5,
         "richness"
       ],
       [
         "butter",
-        10,
+        5,
         "richness"
       ],
       [
-        "black-pepper",
+        "garlic",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
+        "aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "melted mountain cheese",
+      "buttery potato",
+      "garlic"
     ],
     "basicTaste": [
       "savory",
-      "hearty"
+      "creamy",
+      "rich"
     ],
     "textureProfile": [
-      "soft potato",
-      "browned or creamy edges"
+      "very stretchy",
+      "smooth potato",
+      "elastic cheese pull"
     ],
     "riskFlags": [
       "contains-dairy"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "potato"
-    ],
-    "avoidIfTags": [
-      "dairy-allergy"
+      "regional-dish",
+      "comfort-food",
+      "cheese"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order when you want a rich cheese-and-potato side or comfort plate; it is heavy.",
+      "zh": "想吃浓郁奶酪土豆类配菜或舒适主食时很合适，但会偏厚重。",
+      "nl": "Bestel dit als je een rijke kaas-aardappelbijlage of comfortgerecht wilt; het is zwaar."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 4,
+    "metadataConfidence": 0.88
   },
   {
     "id": "raclette",
@@ -7055,100 +7031,92 @@ const europeDepthDishConfigs = [
     },
     "category": "cheese",
     "cookingMethods": [
-      "assembled"
+      "assembled",
+      "grilled"
     ],
     "shortDescription": {
-      "en": "Raclette is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "融化奶酪配土豆腌肉是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Raclette is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Melted raclette cheese served over potatoes, pickles, and often cured meats, usually salty, creamy, and very filling.",
+      "zh": "融化的拉克莱特奶酪浇在土豆、酸黄瓜和冷切肉上，通常咸香、奶油感强、很有饱足感。",
+      "nl": "Gesmolten raclettekaas over aardappels, augurken en vaak vleeswaren; zout, romig en erg vullend."
     },
     "cookingProfile": {
-      "en": "Usually served with cheese-focused dish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现cheese-focused dish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met cheese-focused dish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The cheese is melted or scraped hot over simple sides, so the plate revolves around warm dairy richness.",
+      "zh": "奶酪热融后刮到配菜上，整盘重点是温热奶香和浓郁度。",
+      "nl": "De kaas wordt heet gesmolten of geschraapt over eenvoudige bijgerechten; warme kaasaroma's staan centraal."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A French-Swiss Alpine cheese dish often seen in winter or mountain-style restaurants.",
+        "zh": "法国和瑞士阿尔卑斯地区常见的奶酪菜，冬季或山地风格餐厅很常见。",
+        "nl": "Een Frans-Zwitsers Alpenkaasgerecht, vaak in winterse of bergachtige restaurants."
       }
     },
     "composition": [
       [
-        "cheese",
-        45,
-        "main"
+        "raclette-cheese",
+        40,
+        "melted main"
       ],
       [
-        "bread",
-        20,
+        "potato",
+        30,
         "base"
       ],
       [
-        "mixed-vegetables",
+        "charcuterie",
         15,
-        "body"
+        "salty side"
       ],
       [
-        "olive-oil",
+        "pickles",
         10,
-        "finish",
-        "seasoning"
+        "sharp side"
       ],
       [
-        "black-pepper",
+        "bread",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
+        "side"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cheese",
-      "cream",
-      "pepper"
+      "melted raclette cheese",
+      "cornichons",
+      "cured meats"
     ],
     "basicTaste": [
       "savory",
+      "salty",
       "creamy"
     ],
     "textureProfile": [
-      "creamy or firm cheese",
-      "savory finish"
+      "molten cheese",
+      "soft potato",
+      "crisp pickles"
     ],
     "riskFlags": [
       "contains-dairy",
+      "contains-pork",
       "contains-gluten"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "cheese"
-    ],
-    "avoidIfTags": [
-      "dairy-free"
+      "regional-dish",
+      "cheese",
+      "sharing"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Great for melted-cheese cravings; skip if you want something light or dairy-free.",
+      "zh": "想吃融化奶酪时很满足；想要清淡或避奶制品则不适合。",
+      "nl": "Sterk bij zin in gesmolten kaas; minder geschikt als je iets lichts of zuivelvrij zoekt."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "portionType": "shareable",
+    "goodForSharing": true,
+    "weightLevel": 4,
+    "metadataConfidence": 0.88
   },
   {
     "id": "fondue-savoyarde",
@@ -7158,104 +7126,99 @@ const europeDepthDishConfigs = [
       "en": "Fondue Savoyarde",
       "zh": "萨瓦奶酪火锅",
       "nl": "Fondue Savoyarde",
-      "local": "Fondue Savoyarde"
+      "local": "Fondue savoyarde"
     },
     "category": "cheese",
     "cookingMethods": [
+      "stirred",
       "assembled"
     ],
     "shortDescription": {
-      "en": "Fondue Savoyarde is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "萨瓦奶酪火锅是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Fondue Savoyarde is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A communal pot of melted Alpine cheeses, usually dipped with bread cubes and flavored with wine and garlic.",
+      "zh": "一锅共享的阿尔卑斯融化奶酪，常用面包块蘸着吃，带葡萄酒和蒜香。",
+      "nl": "Een gedeelde pot gesmolten Alpenkazen, meestal met broodblokjes en tonen van wijn en knoflook."
     },
     "cookingProfile": {
-      "en": "Usually served with cheese-focused dish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现cheese-focused dish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met cheese-focused dish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served hot in a pot at the table, so it feels interactive, rich, and strongly cheese-centered.",
+      "zh": "热锅上桌，边蘸边吃，互动感强，也非常奶酪浓郁。",
+      "nl": "Heet aan tafel in een pot geserveerd; interactief, rijk en volledig kaasgericht."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Savoy Alpine classic and one of the most recognizable French cheese-sharing dishes.",
+        "zh": "萨瓦地区阿尔卑斯经典菜，也是最有辨识度的法式共享奶酪菜之一。",
+        "nl": "Een Savoyaardse Alpenklassieker en een herkenbaar Frans deelgerecht met kaas."
       }
     },
     "composition": [
       [
-        "cheese",
-        45,
-        "main"
+        "alpine-cheese-blend",
+        60,
+        "melted base"
       ],
       [
         "bread",
-        20,
-        "base"
+        25,
+        "dipper"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "body"
+        "red-wine",
+        5,
+        "wine depth",
+        "seasoning"
       ],
       [
-        "olive-oil",
-        10,
-        "finish",
+        "garlic",
+        5,
+        "aroma",
         "seasoning"
       ],
       [
         "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
         5,
         "finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cheese",
-      "cream",
-      "pepper"
+      "melted Alpine cheese",
+      "wine",
+      "garlic"
     ],
     "basicTaste": [
       "savory",
-      "creamy"
+      "creamy",
+      "rich"
     ],
     "textureProfile": [
-      "creamy or firm cheese",
-      "savory finish"
+      "molten cheese",
+      "chewy bread cubes",
+      "glossy sauce"
     ],
     "riskFlags": [
       "contains-dairy",
-      "contains-gluten"
+      "contains-gluten",
+      "contains-alcohol"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
+      "regional-dish",
+      "sharing",
       "cheese"
     ],
-    "avoidIfTags": [
-      "dairy-free"
-    ],
     "orderVerdict": {
-      "en": "Order if this savory, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Best as a shared order for serious cheese lovers; it is very filling.",
+      "zh": "适合奶酪爱好者共享点；分量感和厚重度都很高。",
+      "nl": "Het beste als deelgerecht voor echte kaasliefhebbers; het vult sterk."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "portionType": "shareable",
+    "goodForSharing": true,
+    "weightLevel": 4,
+    "metadataConfidence": 0.88
   },
   {
     "id": "tartare-de-saumon",
@@ -7264,106 +7227,102 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Tartare de Saumon",
       "zh": "三文鱼塔塔",
-      "nl": "Tartare de Saumon",
-      "local": "Tartare de Saumon"
+      "nl": "Zalmtartaar",
+      "local": "Tartare de saumon"
     },
-    "category": "raw",
+    "category": "raw-seafood",
     "cookingMethods": [
-      "raw"
+      "raw",
+      "assembled",
+      "chilled"
     ],
     "shortDescription": {
-      "en": "Tartare de Saumon is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "三文鱼塔塔是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Tartare de Saumon is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Finely diced raw salmon dressed with citrus, herbs, and seasoning, usually cool, fresh, and lightly oily.",
+      "zh": "切成小丁的生三文鱼，拌柑橘、香草和调味，通常冰凉清爽并带鱼油脂感。",
+      "nl": "Fijn gesneden rauwe zalm met citrus, kruiden en dressing; koel, fris en licht vettig."
     },
     "cookingProfile": {
-      "en": "Usually served with raw or lightly cured seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现raw or lightly cured seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met raw or lightly cured seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served cold and uncooked, so freshness, seasoning, and raw-fish texture matter most.",
+      "zh": "冷食且不加热，重点是新鲜度、调味和生鱼口感。",
+      "nl": "Koud en rauw geserveerd, waardoor versheid, kruiding en rauwe vistextuur centraal staan."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "modern-bistro"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A common modern French starter for diners comfortable with raw fish.",
+        "zh": "现代法式小馆常见前菜，适合能接受生鱼的人。",
+        "nl": "Een veelvoorkomende moderne Franse starter voor wie rauwe vis prettig vindt."
       }
     },
     "composition": [
       [
-        "raw-white-fish",
-        55,
-        "main"
-      ],
-      [
-        "lemon",
-        15,
-        "brightness"
-      ],
-      [
-        "olive-oil",
-        10,
-        "dressing",
-        "seasoning"
+        "salmon",
+        65,
+        "raw fish"
       ],
       [
         "cucumber",
         10,
-        "freshness"
+        "fresh crunch"
       ],
       [
-        "sea-salt",
+        "avocado",
+        10,
+        "creamy optional body"
+      ],
+      [
+        "lemon",
         5,
-        "seasoning",
+        "brightness"
+      ],
+      [
+        "olive-oil",
+        5,
+        "dressing",
         "seasoning"
       ],
       [
-        "parsley",
+        "black-pepper",
         5,
         "finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
+      "raw salmon",
       "lemon",
-      "herbs"
+      "olive oil"
     ],
     "basicTaste": [
+      "fresh",
       "savory",
-      "briny"
+      "citrusy"
     ],
     "textureProfile": [
-      "delicate raw bite",
-      "bright dressing"
+      "soft diced salmon",
+      "cool dressing",
+      "light crunch"
     ],
     "riskFlags": [
-      "contains-fish",
-      "contains-raw-fish"
+      "contains-raw-fish",
+      "contains-fish"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "raw"
-    ],
-    "avoidIfTags": [
-      "fish-allergy",
-      "raw-fish-allergy"
+      "starter",
+      "raw-seafood",
+      "fresh"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good cold starter if you like raw salmon; avoid if raw fish is a concern.",
+      "zh": "喜欢生三文鱼时是清爽前菜；介意生食就避开。",
+      "nl": "Een goede koude starter als je rauwe zalm lust; vermijd dit bij zorgen over rauwe vis."
     },
-    "spiceLevel": 0,
     "weightLevel": 1,
-    "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.87
   },
   {
     "id": "magret-de-canard",
@@ -7372,200 +7331,191 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Magret de Canard",
       "zh": "煎鸭胸",
-      "nl": "Magret de Canard",
-      "local": "Magret de Canard"
+      "nl": "Magret de canard",
+      "local": "Magret de canard"
     },
     "category": "meat",
     "cookingMethods": [
-      "braised"
+      "fried",
+      "grilled"
     ],
     "shortDescription": {
-      "en": "Magret de Canard is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "煎鸭胸是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Magret de Canard is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Sliced duck breast with a seared fat cap, usually served pink and richer than chicken but leaner than duck confit.",
+      "zh": "带焦香鸭皮脂层的切片鸭胸，通常中心偏粉，比鸡肉浓郁，但比油封鸭腿更清爽。",
+      "nl": "Gesneden eendenborst met aangebakken vetlaag, vaak rosé; rijker dan kip maar lichter dan gekonfijte eend."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Usually pan-seared or grilled, with crisp fat, tender pink meat, and a light sauce or garnish.",
+      "zh": "常见为煎或烤，鸭皮脂层香脆，肉心粉嫩，配少量酱汁或配菜。",
+      "nl": "Meestal gebakken of gegrild, met krokant vet, rosé vlees en een lichte saus of garnituur."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic French duck main for diners who want a richer poultry dish.",
+        "zh": "法餐经典鸭肉主菜，适合想要比鸡肉更浓郁禽肉的人。",
+        "nl": "Een klassiek Frans eendenhoofdgerecht voor wie rijker gevogelte zoekt."
       }
     },
     "composition": [
       [
-        "beef",
-        45,
+        "duck-breast",
+        70,
         "main"
       ],
       [
         "potato",
-        20,
+        10,
         "side"
       ],
       [
         "mixed-vegetables",
-        15,
-        "body"
-      ],
-      [
-        "onion",
         10,
-        "aromatic"
+        "side"
       ],
       [
-        "black-pepper",
+        "red-wine",
         5,
-        "seasoning",
+        "sauce depth",
         "seasoning"
       ],
       [
-        "parsley",
+        "black-pepper",
         5,
         "finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "seared duck fat",
+      "pink duck breast",
+      "wine sauce"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "rich",
+      "meaty"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "crisp fat cap",
+      "tender pink meat",
+      "light sauce"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-alcohol"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "meat"
+      "classic-dish",
+      "duck",
+      "meat-main"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A strong main if you want duck flavor without the heaviness of confit.",
+      "zh": "想吃鸭肉香但不想要油封鸭腿那种厚重感时很适合。",
+      "nl": "Een sterke keuze als je eend wilt zonder de zwaarte van confit."
     },
-    "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.88
   },
   {
     "id": "entrecote-bordelaise",
     "metadataCode": "103041",
     "cuisineId": "french",
     "names": {
-      "en": "Entrecote Bordelaise",
+      "en": "Entrecôte Bordelaise",
       "zh": "波尔多酱肋眼牛排",
-      "nl": "Entrecote Bordelaise",
-      "local": "Entrecote Bordelaise"
+      "nl": "Entrecôte Bordelaise",
+      "local": "Entrecôte à la bordelaise"
     },
     "category": "meat",
     "cookingMethods": [
-      "braised"
+      "grilled"
     ],
     "shortDescription": {
-      "en": "Entrecote Bordelaise is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "波尔多酱肋眼牛排是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Entrecote Bordelaise is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A grilled beef entrecôte served with a Bordeaux-style red-wine and shallot sauce, usually richer and more sauce-driven than plain steak frites.",
+      "zh": "烤肋眼牛排配波尔多风格红酒葱香酱，比普通牛排薯条更重酱汁和酒香。",
+      "nl": "Gegrilde entrecôte met Bordelaise saus van rode wijn en sjalot; rijker en sausgerichter dan gewone steak-frites."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The steak is grilled or seared, then paired with a glossy wine sauce that adds depth and richness.",
+      "zh": "牛排煎烤后配光亮红酒酱，增加浓度和深度。",
+      "nl": "De steak wordt gegrild of gebakken en krijgt een glanzende wijnsaus voor diepte en rijkdom."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic French steak order for diners who want a wine-sauce beef main.",
+        "zh": "法餐经典牛排选择，适合想要红酒酱牛肉主菜的人。",
+        "nl": "Een klassieke Franse steakkeuze voor wie rundvlees met wijnsaus wil."
       }
     },
     "composition": [
       [
-        "beef",
-        45,
+        "beef-entrecote",
+        65,
         "main"
       ],
       [
-        "potato",
-        20,
+        "fries",
+        15,
         "side"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "body"
+        "red-wine",
+        10,
+        "Bordelaise sauce",
+        "seasoning"
+      ],
+      [
+        "butter",
+        5,
+        "sauce richness"
       ],
       [
         "onion",
-        10,
-        "aromatic"
-      ],
-      [
-        "black-pepper",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
+        "shallot-like aroma"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "beef entrecôte",
+      "red-wine Bordelaise sauce",
+      "shallot aroma"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "rich",
+      "winey"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "juicy steak",
+      "glossy sauce",
+      "crisp side"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-alcohol",
+      "contains-dairy"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "meat"
+      "classic-dish",
+      "steak",
+      "meat-main"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order if you want a steak with a deeper French sauce rather than a plain grilled plate.",
+      "zh": "想要有法式红酒酱深度的牛排时很合适；不是单纯清烤口味。",
+      "nl": "Bestel dit als je steak met een diepere Franse saus wilt in plaats van puur gegrild."
     },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 4,
+    "metadataConfidence": 0.87
   },
   {
     "id": "poulet-basquaise",
@@ -7575,98 +7525,92 @@ const europeDepthDishConfigs = [
       "en": "Poulet Basquaise",
       "zh": "巴斯克番椒炖鸡",
       "nl": "Poulet Basquaise",
-      "local": "Poulet Basquaise"
+      "local": "Poulet basquaise"
     },
-    "category": "chicken",
+    "category": "meat",
     "cookingMethods": [
-      "grilled"
+      "braised",
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Poulet Basquaise is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "巴斯克番椒炖鸡是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Poulet Basquaise is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Chicken braised with peppers, tomatoes, onions, and paprika, giving a colorful, gently sweet-savory Basque-style sauce.",
+      "zh": "鸡肉与甜椒、番茄、洋葱和红椒粉一起炖，酱汁颜色鲜明，咸香中带一点蔬菜甜味。",
+      "nl": "Kip gestoofd met paprika, tomaat, ui en paprikapoeder, met een kleurrijke zacht zoet-hartige Baskische saus."
     },
     "cookingProfile": {
-      "en": "Usually served with chicken, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现chicken，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met chicken; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served hot and saucy, with tender chicken pieces and soft peppers rather than a crisp roast texture.",
+      "zh": "热食带酱上桌，鸡肉软嫩、甜椒柔软，不是脆皮烤鸡。",
+      "nl": "Warm en sauzig geserveerd, met malse kip en zachte paprika in plaats van krokant gebraad."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Basque-influenced French chicken dish for diners who want a saucy but not very heavy main.",
+        "zh": "受巴斯克风味影响的法国鸡肉菜，适合想要有酱汁但不过分厚重的主菜。",
+        "nl": "Een Baskisch geïnspireerd Frans kipgerecht voor wie een sauzig maar niet te zwaar hoofdgerecht zoekt."
       }
     },
     "composition": [
       [
         "chicken",
-        55,
+        45,
         "main"
       ],
       [
-        "potato",
+        "bell-pepper",
+        25,
+        "pepper body"
+      ],
+      [
+        "tomato-sauce",
         15,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
-        15,
-        "body"
-      ],
-      [
-        "cream",
-        5,
-        "sauce"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
+        "sauce base",
         "seasoning"
       ],
       [
-        "parsley",
+        "onion",
+        10,
+        "aroma"
+      ],
+      [
+        "paprika",
         5,
-        "finish",
+        "pepper warmth",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "sweet peppers",
+      "tomato sauce",
+      "paprika"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "mildly-sweet",
+      "warm"
     ],
     "textureProfile": [
       "tender chicken",
-      "savory finish"
+      "soft peppers",
+      "saucy base"
     ],
     "riskFlags": [],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "chicken"
+      "regional-dish",
+      "chicken",
+      "saucy-main"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A friendly chicken main if you want something saucy and vegetable-forward without much heat.",
+      "zh": "想点有酱汁、有蔬菜甜椒香、但不太辣的鸡肉主菜时很稳。",
+      "nl": "Een toegankelijke kipkeuze als je iets sauzigs en paprika-achtigs wilt zonder veel pit."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 3,
+    "metadataConfidence": 0.87
   },
   {
     "id": "pot-au-feu",
@@ -7674,163 +7618,161 @@ const europeDepthDishConfigs = [
     "cuisineId": "french",
     "names": {
       "en": "Pot-au-Feu",
-      "zh": "法式清炖牛肉锅",
-      "nl": "Pot-au-Feu",
-      "local": "Pot-au-Feu"
+      "zh": "法式清炖牛肉蔬菜锅",
+      "nl": "Pot-au-feu",
+      "local": "Pot-au-feu"
     },
     "category": "stew",
     "cookingMethods": [
-      "simmered"
+      "simmered",
+      "boiled"
     ],
     "shortDescription": {
-      "en": "Pot-au-Feu is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "法式清炖牛肉锅是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Pot-au-Feu is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A traditional French boiled beef and vegetable dish with broth, carrots, leeks, potatoes, and often mustard on the side.",
+      "zh": "传统法式清炖牛肉蔬菜锅，有牛肉、胡萝卜、韭葱、土豆和清汤，常配芥末。",
+      "nl": "Een traditioneel Frans gerecht van gekookt rundvlees, bouillon, wortel, prei, aardappel en vaak mosterd erbij."
     },
     "cookingProfile": {
-      "en": "Usually served with slow-cooked stew, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现slow-cooked stew，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met slow-cooked stew; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served hot and brothy, with tender beef and soft vegetables rather than a thick stew sauce.",
+      "zh": "热汤感上桌，牛肉软、蔬菜软，不是浓稠红酒炖肉那种酱汁。",
+      "nl": "Warm en bouillonachtig, met mals rundvlees en zachte groenten in plaats van een dikke stoofsaus."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A foundational French comfort dish and a useful reference for lighter boiled beef mains.",
+        "zh": "法国家常舒适菜基础款，也适合理解较清汤感的牛肉主菜。",
+        "nl": "Een basisgerecht uit de Franse comfortkeuken en herkenbaar als lichtere gekookte rundvleesmaaltijd."
       }
     },
     "composition": [
       [
         "beef",
-        35,
+        45,
         "main"
       ],
       [
-        "potato",
-        20,
-        "body"
+        "carrot",
+        15,
+        "vegetable"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
+        "leek",
+        15,
+        "vegetable"
+      ],
+      [
+        "potato",
+        15,
+        "starch"
       ],
       [
         "broth",
-        15,
-        "base"
+        5,
+        "clear broth"
       ],
       [
-        "black-pepper",
+        "mustard",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
+        "side condiment",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "beef broth",
+      "root vegetables",
+      "mustard side"
     ],
     "basicTaste": [
       "savory",
-      "hearty"
+      "brothy",
+      "mild"
     ],
     "textureProfile": [
+      "tender beef",
       "soft vegetables",
-      "rich broth"
+      "clear broth"
     ],
     "riskFlags": [],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "stew"
+      "classic-dish",
+      "stew",
+      "comfort-food"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for gentle, brothy comfort food; not for crispy or strongly sauced meat.",
+      "zh": "想要温和清汤感舒适菜时适合；不是脆皮或重酱肉菜。",
+      "nl": "Kies dit voor zachte bouillonachtige comfortfood; niet voor krokant of sterk gesausd vlees."
     },
-    "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.88
   },
   {
     "id": "navarin-dagneau",
     "metadataCode": "103044",
     "cuisineId": "french",
     "names": {
-      "en": "Navarin d Agneau",
+      "en": "Navarin d'Agneau",
       "zh": "法式羊肉蔬菜炖锅",
-      "nl": "Navarin d Agneau",
-      "local": "Navarin d Agneau"
+      "nl": "Navarin d'agneau",
+      "local": "Navarin d'agneau"
     },
     "category": "stew",
     "cookingMethods": [
+      "braised",
       "simmered"
     ],
     "shortDescription": {
-      "en": "Navarin d Agneau is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "法式羊肉蔬菜炖锅是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Navarin d Agneau is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A lamb stew with spring vegetables such as carrots, turnips, peas, and potatoes, usually lighter than a dark red-wine braise.",
+      "zh": "羊肉配胡萝卜、芜菁、豌豆和土豆等蔬菜炖成，通常比深色红酒炖菜更清亮。",
+      "nl": "Een lamsstoof met lentegroenten zoals wortel, raap, erwten en aardappel; lichter dan een donkere wijnstoof."
     },
     "cookingProfile": {
-      "en": "Usually served with slow-cooked stew, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现slow-cooked stew，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met slow-cooked stew; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served warm and saucy with tender lamb and soft vegetables in a medium-bodied stew.",
+      "zh": "温热带酱汁上桌，羊肉软嫩，蔬菜柔软，整体中等厚重。",
+      "nl": "Warm en sauzig, met mals lamsvlees en zachte groenten in een middelzware stoof."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic French lamb stew, often associated with spring vegetables.",
+        "zh": "法式经典羊肉炖菜，常与春季蔬菜搭配。",
+        "nl": "Een klassieke Franse lamsstoof, vaak met lentegroenten."
       }
     },
     "composition": [
       [
-        "beef",
-        35,
+        "lamb",
+        45,
         "main"
       ],
       [
-        "potato",
-        20,
-        "body"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "broth",
+        "carrot",
         15,
-        "base"
+        "vegetable"
       ],
       [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
+        "turnip",
+        15,
+        "vegetable"
+      ],
+      [
+        "peas",
+        10,
+        "green vegetable"
+      ],
+      [
+        "potato",
+        10,
+        "starch"
       ],
       [
         "parsley",
@@ -7840,35 +7782,33 @@ const europeDepthDishConfigs = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "braised lamb",
+      "spring vegetables",
+      "herb finish"
     ],
     "basicTaste": [
       "savory",
-      "hearty"
+      "meaty",
+      "mild"
     ],
     "textureProfile": [
+      "tender lamb",
       "soft vegetables",
-      "rich broth"
+      "light stew sauce"
     ],
     "riskFlags": [],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
+      "classic-dish",
+      "lamb",
       "stew"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good lamb choice if you want stew comfort without a very dark or heavy sauce.",
+      "zh": "想吃羊肉炖菜但不想要特别深色厚重酱汁时很合适。",
+      "nl": "Een goede lamskeuze als je stoofcomfort wilt zonder heel donkere of zware saus."
     },
-    "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.86
   },
   {
     "id": "quenelles",
@@ -7876,104 +7816,100 @@ const europeDepthDishConfigs = [
     "cuisineId": "french",
     "names": {
       "en": "Quenelles",
-      "zh": "里昂鱼肉或鸡肉丸",
+      "zh": "里昂鱼肉丸配奶油酱",
       "nl": "Quenelles",
       "local": "Quenelles"
     },
     "category": "fish",
     "cookingMethods": [
-      "grilled"
+      "boiled",
+      "baked"
     ],
     "shortDescription": {
-      "en": "Quenelles is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "里昂鱼肉或鸡肉丸是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Quenelles is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Soft oval dumplings, often made with pike or fish mousse, served in a creamy sauce such as Nantua sauce.",
+      "zh": "椭圆形软鱼肉丸，常用梭子鱼或鱼慕斯制成，配奶油感酱汁，例如南图阿酱。",
+      "nl": "Zachte ovale dumplings, vaak van snoek of vismousse, geserveerd in een romige saus zoals Nantua."
     },
     "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Usually poached then sauced or baked briefly, so expect a soft, airy dumpling in rich sauce.",
+      "zh": "通常先汆熟再配酱或短暂焗烤，口感是柔软轻盈的鱼肉丸加浓郁酱汁。",
+      "nl": "Meestal gepocheerd en daarna gesausd of kort gebakken; zacht en luchtig in rijke saus."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Lyon-style regional dish with a distinctive soft fish-dumpling texture.",
+        "zh": "里昂风格地区菜，特点是柔软鱼肉丸口感。",
+        "nl": "Een Lyonnaise regionale specialiteit met een opvallend zachte visdumplingtextuur."
       }
     },
     "composition": [
       [
-        "fish-fillet",
+        "pike-quenelle",
         60,
-        "main"
+        "main dumpling"
       ],
       [
-        "potato",
-        15,
-        "side"
+        "cream",
+        20,
+        "sauce"
       ],
       [
-        "mixed-vegetables",
+        "butter",
         10,
-        "body"
+        "richness"
       ],
       [
-        "lemon",
+        "tomato-sauce",
         5,
-        "brightness"
-      ],
-      [
-        "olive-oil",
-        5,
-        "finish",
+        "sauce color",
         "seasoning"
       ],
       [
-        "parsley",
+        "black-pepper",
         5,
         "finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "pike quenelle",
+      "cream sauce",
+      "butter"
     ],
     "basicTaste": [
       "savory",
+      "creamy",
       "mild"
     ],
     "textureProfile": [
-      "tender fish",
-      "light flaky bite"
+      "soft oval dumpling",
+      "airy fish mousse",
+      "rich sauce"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-dairy",
+      "contains-egg",
+      "contains-gluten"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "fish"
-    ],
-    "avoidIfTags": [
-      "fish-allergy"
+      "regional-dish",
+      "fish",
+      "creamy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order if soft dumpling texture and creamy fish sauce sound appealing; avoid if you dislike mousse-like textures.",
+      "zh": "喜欢柔软丸子和奶油鱼酱时可以点；不喜欢慕斯感口感则慎选。",
+      "nl": "Bestel dit als zachte dumplingstructuur en romige vissaus je aanspreken; minder geschikt bij afkeer van mousseachtige textuur."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.86
   },
   {
     "id": "cuisses-de-grenouille",
@@ -7982,60 +7918,50 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Cuisses de Grenouille",
       "zh": "法式田鸡腿",
-      "nl": "Cuisses de Grenouille",
-      "local": "Cuisses de Grenouille"
+      "nl": "Kikkerbillen",
+      "local": "Cuisses de grenouille"
     },
     "category": "meat",
     "cookingMethods": [
-      "braised"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Cuisses de Grenouille is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "法式田鸡腿是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Cuisses de Grenouille is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Frog legs sautéed in garlic, parsley, and butter, with a delicate chicken-like texture and small bones.",
+      "zh": "田鸡腿常用蒜、欧芹和黄油煎香，肉质细嫩接近鸡肉，但有小骨头。",
+      "nl": "Kikkerbillen gebakken met knoflook, peterselie en boter; delicaat kipachtig vlees met kleine botjes."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served hot with garlic-parsley butter, so the bite is tender, lightly crisped, and aromatic.",
+      "zh": "热食配蒜香欧芹黄油，外层微香，肉质细嫩。",
+      "nl": "Warm geserveerd met knoflook-peterselieboter; mals, licht aangebakken en aromatisch."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "niche",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "acquired-taste"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A famous but niche French order, best for diners comfortable with small-boned meats.",
+        "zh": "有名但偏小众的法餐选择，适合能接受小骨肉类的人。",
+        "nl": "Een bekende maar niche Franse keuze, vooral voor wie klein botvlees prettig vindt."
       }
     },
     "composition": [
       [
-        "beef",
-        45,
+        "frog-legs",
+        75,
         "main"
       ],
       [
-        "potato",
-        20,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
-        15,
-        "body"
-      ],
-      [
-        "onion",
+        "butter",
         10,
-        "aromatic"
+        "sauté richness"
       ],
       [
-        "black-pepper",
+        "garlic",
         5,
-        "seasoning",
+        "aroma",
         "seasoning"
       ],
       [
@@ -8043,138 +7969,143 @@ const europeDepthDishConfigs = [
         5,
         "finish",
         "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "brightness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "frog legs",
+      "garlic-parsley butter",
+      "lemon"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "buttery",
+      "garlicky"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "small-boned pieces",
+      "tender white meat",
+      "buttery surface"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-dairy"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "meat"
+      "regional-dish",
+      "adventurous",
+      "small-plate"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Try it if you are curious and comfortable with small bones; the flavor is milder than the idea sounds.",
+      "zh": "好奇且能接受小骨头时可以尝试；实际味道通常比名字听起来温和。",
+      "nl": "Probeer het als je nieuwsgierig bent en kleine botjes oké vindt; de smaak is milder dan het klinkt."
     },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 2,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.86
   },
   {
     "id": "pate-de-campagne",
     "metadataCode": "103047",
     "cuisineId": "french",
     "names": {
-      "en": "Pate de Campagne",
+      "en": "Pâté de Campagne",
       "zh": "乡村肉酱冻",
-      "nl": "Pate de Campagne",
-      "local": "Pate de Campagne"
+      "nl": "Pâté de campagne",
+      "local": "Pâté de campagne"
     },
     "category": "starter",
     "cookingMethods": [
-      "assembled"
+      "set",
+      "chilled"
     ],
     "shortDescription": {
-      "en": "Pate de Campagne is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "乡村肉酱冻是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Pate de Campagne is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A rustic country pâté sliced cold and served with bread, cornichons, and mustard, usually porky, peppery, and dense.",
+      "zh": "冷切乡村肉酱冻，常配面包、酸黄瓜和芥末，猪肉香、胡椒感和密实口感明显。",
+      "nl": "Een rustieke koude paté met brood, cornichons en mosterd; varkensachtig, peperig en stevig."
     },
     "cookingProfile": {
-      "en": "Usually served with small starter, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small starter，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small starter; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served cold in slices, so it eats like a dense charcuterie starter rather than a warm meat dish.",
+      "zh": "冷切片上桌，吃起来像密实冷肉前菜，不是热肉主菜。",
+      "nl": "Koud in plakken geserveerd; meer een stevige charcuteriestarter dan warm vlees."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic French charcuterie starter often found on bistro boards.",
+        "zh": "法式冷肉前菜经典，常见于小馆拼盘。",
+        "nl": "Een klassieke Franse charcuteriestarter, vaak op bistroplanken."
       }
     },
     "composition": [
       [
+        "country-pate",
+        65,
+        "main slice"
+      ],
+      [
         "bread",
-        30,
-        "base"
-      ],
-      [
-        "cheese",
-        20,
-        "richness"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "ham",
         15,
-        "main"
+        "side"
       ],
       [
-        "olive-oil",
+        "pickles",
         10,
-        "finish",
+        "cornichons"
+      ],
+      [
+        "mustard",
+        5,
+        "sharp side",
         "seasoning"
       ],
       [
-        "herbs",
+        "black-pepper",
         5,
-        "finish"
+        "pepper note",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "country pâté",
+      "cornichons",
+      "mustard"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "salty",
+      "peppery"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "dense slice",
+      "coarse meat texture",
+      "crisp pickles"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-pork",
+      "contains-gluten"
+    ],
     "goodForTags": [
-      "europe-depth",
+      "classic-dish",
+      "charcuterie",
       "starter"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you like rustic charcuterie; skip if cold dense meat is not your thing.",
+      "zh": "喜欢乡村风冷肉前菜时适合；不喜欢冷的密实肉酱则慎选。",
+      "nl": "Goed als je rustieke charcuterie lust; minder geschikt als koude stevige vleespaté je niet aanspreekt."
     },
-    "spiceLevel": 0,
-    "weightLevel": 1,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.87
   },
   {
     "id": "rillettes",
@@ -8182,99 +8113,92 @@ const europeDepthDishConfigs = [
     "cuisineId": "french",
     "names": {
       "en": "Rillettes",
-      "zh": "法式肉酱抹酱",
+      "zh": "法式猪肉丝抹酱",
       "nl": "Rillettes",
       "local": "Rillettes"
     },
     "category": "starter",
     "cookingMethods": [
-      "assembled"
+      "set",
+      "chilled"
     ],
     "shortDescription": {
-      "en": "Rillettes is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "法式肉酱抹酱是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Rillettes is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A shredded meat spread, usually pork, served cool with bread and pickles; rich, salty, and softer than pâté.",
+      "zh": "肉丝状冷抹酱，通常以猪肉为主，配面包和酸黄瓜，比肉酱冻更松软、更油润。",
+      "nl": "Een draadjesvleesspread, meestal van varken, koel met brood en augurk; rijk, zout en zachter dan paté."
     },
     "cookingProfile": {
-      "en": "Usually served with small starter, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small starter，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small starter; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served as a cool spread, so expect a rich, shreddy texture rather than slices of meat.",
+      "zh": "作为冷抹酱上桌，重点是油润肉丝感，不是肉片。",
+      "nl": "Als koele spread geserveerd; verwacht rijke draadjesstructuur in plaats van plakjes vlees."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic French charcuterie item, often ordered with bread before the main course.",
+        "zh": "法式冷肉经典，常作为主菜前配面包的小前菜。",
+        "nl": "Een klassiek Frans charcuterie-item, vaak met brood voor het hoofdgerecht."
       }
     },
     "composition": [
       [
+        "pork-rillettes",
+        70,
+        "spread"
+      ],
+      [
         "bread",
-        30,
-        "base"
-      ],
-      [
-        "cheese",
-        20,
-        "richness"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "ham",
         15,
-        "main"
+        "side"
       ],
       [
-        "olive-oil",
+        "pickles",
         10,
-        "finish",
-        "seasoning"
+        "sharp side"
       ],
       [
-        "herbs",
+        "mustard",
         5,
-        "finish"
+        "optional side",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "slow-cooked pork",
+      "fat-rich spread",
+      "cornichons"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "salty",
+      "rich"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "shredded spread",
+      "soft fat-rich texture",
+      "crisp pickles"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-pork",
+      "contains-gluten"
+    ],
     "goodForTags": [
-      "europe-depth",
+      "classic-dish",
+      "charcuterie",
       "starter"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A strong starter if you like rich pork spread on bread; it is small but not light.",
+      "zh": "喜欢把浓郁猪肉抹酱配面包吃时很适合；分量小但不清淡。",
+      "nl": "Een sterke starter als je rijke varkensspread op brood lust; klein maar niet licht."
     },
-    "spiceLevel": 0,
-    "weightLevel": 1,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.87
   },
   {
     "id": "terrine",
@@ -8282,99 +8206,97 @@ const europeDepthDishConfigs = [
     "cuisineId": "french",
     "names": {
       "en": "Terrine",
-      "zh": "法式肉冻或蔬菜冻",
+      "zh": "法式冷肉冻或蔬菜冻",
       "nl": "Terrine",
       "local": "Terrine"
     },
     "category": "starter",
     "cookingMethods": [
-      "assembled"
+      "set",
+      "chilled",
+      "layered"
     ],
     "shortDescription": {
-      "en": "Terrine is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "法式肉冻或蔬菜冻是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Terrine is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A chilled molded slice, often meat, fish, or vegetable layers, served as a starter with pickles or salad.",
+      "zh": "冷藏定型后切片的前菜，可是肉、鱼或蔬菜层，常配酸黄瓜或小沙拉。",
+      "nl": "Een gekoelde vormplak, vaak vlees-, vis- of groentelagen, als starter met augurk of salade."
     },
     "cookingProfile": {
-      "en": "Usually served with small starter, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small starter，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small starter; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served cold in neat slices, so the main experience is firm, set, and lightly savory.",
+      "zh": "冷切片上桌，核心体验是定型、紧实、轻咸。",
+      "nl": "Koud in nette plakken geserveerd; de ervaring is stevig, gezet en licht hartig."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "bistro-starter"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A flexible French starter format that signals a cold composed slice rather than a hot stew.",
+        "zh": "法式前菜中很常见的冷切定型形式，提示它不是热炖菜。",
+        "nl": "Een flexibel Frans starterformat dat een koude samengestelde plak aanduidt, geen warme stoof."
       }
     },
     "composition": [
       [
-        "bread",
-        30,
-        "base"
+        "terrine-slice",
+        70,
+        "main slice"
       ],
       [
-        "cheese",
-        20,
-        "richness"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "ham",
-        15,
-        "main"
-      ],
-      [
-        "olive-oil",
+        "pickles",
         10,
-        "finish",
+        "sharp side"
+      ],
+      [
+        "bread",
+        10,
+        "side"
+      ],
+      [
+        "mustard",
+        5,
+        "condiment",
         "seasoning"
       ],
       [
-        "herbs",
+        "mixed-vegetables",
         5,
-        "finish"
+        "garnish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "set terrine slice",
+      "pickles",
+      "mustard"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "mild",
+      "tangy"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "firm chilled slice",
+      "layered or coarse interior",
+      "crisp pickles"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-gluten"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "starter"
+      "starter",
+      "bistro",
+      "cold-plate"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order if a cold composed starter sounds appealing; ask what type if you avoid pork, fish, or gelatin.",
+      "zh": "想点冷盘式前菜时可以；如果避猪肉、鱼或明胶，最好确认具体种类。",
+      "nl": "Bestel dit als een koude samengestelde starter je aanspreekt; vraag naar de soort bij vermijden van varken, vis of gelatine."
     },
-    "spiceLevel": 0,
-    "weightLevel": 1,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84
   },
   {
     "id": "plateau-de-fromages",
@@ -8383,105 +8305,97 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Plateau de Fromages",
       "zh": "法式奶酪拼盘",
-      "nl": "Plateau de Fromages",
-      "local": "Plateau de Fromages"
+      "nl": "Franse kaasplank",
+      "local": "Plateau de fromages"
     },
     "category": "cheese",
     "cookingMethods": [
       "assembled"
     ],
     "shortDescription": {
-      "en": "Plateau de Fromages is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "法式奶酪拼盘是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Plateau de Fromages is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A French cheese board with several cheeses, often served after the main course or as a sharing plate with bread and fruit.",
+      "zh": "多种法国奶酪组成的拼盘，常在主菜后或作为共享冷盘，配面包和水果。",
+      "nl": "Een Franse kaasplank met meerdere kazen, vaak na het hoofdgerecht of als deelplank met brood en fruit."
     },
     "cookingProfile": {
-      "en": "Usually served with cheese-focused dish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现cheese-focused dish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met cheese-focused dish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served at room temperature or cool, so aromas and texture vary from creamy to firm and pungent.",
+      "zh": "常温或微凉上桌，奶酪香气和质地会从柔软奶油感到硬质浓烈都有。",
+      "nl": "Op kamertemperatuur of koel; aroma en structuur lopen van romig tot stevig en uitgesproken."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic French end-of-meal option and a useful signal for diners who want cheese rather than dessert.",
+        "zh": "法餐经典餐末选择，适合想用奶酪替代甜点的人。",
+        "nl": "Een klassieke Franse afsluiter voor wie kaas in plaats van dessert wil."
       }
     },
     "composition": [
       [
         "cheese",
-        45,
-        "main"
+        65,
+        "assorted cheeses"
       ],
       [
         "bread",
         20,
-        "base"
+        "side"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "body"
-      ],
-      [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
+        "almonds",
         5,
-        "seasoning",
-        "seasoning"
+        "nut side"
       ],
       [
-        "parsley",
+        "olives",
         5,
-        "finish",
-        "seasoning"
+        "briny side"
+      ],
+      [
+        "fruit-sauce-or-caramel",
+        5,
+        "sweet accent"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cheese",
-      "cream",
-      "pepper"
+      "assorted French cheeses",
+      "bread",
+      "sweet or nut side"
     ],
     "basicTaste": [
       "savory",
-      "creamy"
+      "creamy",
+      "salty"
     ],
     "textureProfile": [
-      "creamy or firm cheese",
-      "savory finish"
+      "mixed cheese textures",
+      "crusty bread",
+      "small sweet accents"
     ],
     "riskFlags": [
       "contains-dairy",
-      "contains-gluten"
+      "contains-gluten",
+      "contains-tree-nut"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
+      "classic-dish",
+      "sharing",
       "cheese"
     ],
-    "avoidIfTags": [
-      "dairy-free"
-    ],
     "orderVerdict": {
-      "en": "Order if this savory, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good shared or after-main order for cheese lovers; check if strong cheeses are included.",
+      "zh": "适合奶酪爱好者共享或餐后点；如果怕重口奶酪，先看拼盘内容。",
+      "nl": "Goed om te delen of na het hoofdgerecht voor kaasliefhebbers; check of er sterke kazen bij zitten."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "portionType": "shareable",
+    "goodForSharing": true,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.86
   },
   {
     "id": "charcuterie-board-french",
@@ -8490,203 +8404,193 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "French Charcuterie Board",
       "zh": "法式熟肉拼盘",
-      "nl": "French Charcuterie Board",
-      "local": "French Charcuterie Board"
+      "nl": "Franse charcuterieplank",
+      "local": "Planche de charcuterie"
     },
     "category": "starter",
     "cookingMethods": [
       "assembled"
     ],
     "shortDescription": {
-      "en": "French Charcuterie Board is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "法式熟肉拼盘是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "French Charcuterie Board is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A board of cured meats, pâté or rillettes, pickles, mustard, and bread, built for sharing and salty snacking.",
+      "zh": "由冷切肉、肉酱冻或肉丝抹酱、酸黄瓜、芥末和面包组成的共享熟肉拼盘，咸香开胃。",
+      "nl": "Een plank met vleeswaren, paté of rillettes, augurk, mosterd en brood; bedoeld om zoutig te delen."
     },
     "cookingProfile": {
-      "en": "Usually served with small starter, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small starter，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small starter; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served cold or room temperature as a grazing plate, so it is more about cured flavors than hot cooking.",
+      "zh": "冷盘或常温上桌，重点是腌制熟肉风味，不是热菜烹调感。",
+      "nl": "Koud of op kamertemperatuur als plank; draait om gepekelde vleessmaken, niet om warme bereiding."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "bistro-starter"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A common French bistro sharing board and a useful alias target for planche de charcuterie menus.",
+        "zh": "法式小馆常见共享冷肉盘，也适合匹配菜单里的熟肉拼盘类写法。",
+        "nl": "Een veelvoorkomende Franse bistrodeelplank en bruikbaar voor planche de charcuterie op menu's."
       }
     },
     "composition": [
       [
-        "bread",
-        30,
-        "base"
+        "charcuterie",
+        45,
+        "cured meats"
       ],
       [
-        "cheese",
-        20,
-        "richness"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "ham",
+        "country-pate",
         15,
-        "main"
+        "pâté portion"
       ],
       [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
+        "pork-rillettes",
+        15,
+        "spread"
       ],
       [
-        "herbs",
+        "bread",
+        15,
+        "side"
+      ],
+      [
+        "pickles",
         5,
-        "finish"
+        "sharp side"
+      ],
+      [
+        "mustard",
+        5,
+        "condiment",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "cured meats",
+      "pâté and rillettes",
+      "mustard and cornichons"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "salty",
+      "rich"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "silky cured meat",
+      "spreadable pâté",
+      "crisp pickles"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-pork",
+      "contains-gluten"
+    ],
     "goodForTags": [
-      "europe-depth",
+      "sharing",
+      "charcuterie",
       "starter"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Best for sharing before mains or with drinks; not a light vegetarian starter.",
+      "zh": "适合主菜前或配酒共享；不是清淡素食前菜。",
+      "nl": "Het best om te delen voor het hoofdgerecht of bij drankjes; geen lichte vegetarische starter."
     },
-    "spiceLevel": 0,
-    "weightLevel": 1,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "portionType": "shareable",
+    "goodForSharing": true,
+    "weightLevel": 3,
+    "metadataConfidence": 0.86
   },
   {
     "id": "ile-flottante",
     "metadataCode": "103052",
     "cuisineId": "french",
     "names": {
-      "en": "Ile Flottante",
+      "en": "Île Flottante",
       "zh": "漂浮岛蛋白甜点",
-      "nl": "Ile Flottante",
-      "local": "Ile Flottante"
+      "nl": "Île flottante",
+      "local": "Île flottante"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "set",
+      "chilled"
     ],
     "shortDescription": {
-      "en": "Ile Flottante is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "漂浮岛蛋白甜点是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Ile Flottante is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A poached meringue island floating on vanilla custard, often finished with caramel and almonds.",
+      "zh": "水煮蛋白霜漂在香草蛋奶酱上的甜点，常加焦糖和杏仁片。",
+      "nl": "Een gepocheerd meringue-eiland op vanillecustard, vaak met karamel en amandel."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served cool and soft, with airy meringue over smooth custard rather than cake or pastry.",
+      "zh": "冷食或微凉上桌，轻盈蛋白霜配顺滑蛋奶酱，不是蛋糕或酥皮。",
+      "nl": "Koel en zacht geserveerd, met luchtige meringue op gladde custard in plaats van cake of deeg."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "classic-dessert"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic French custard dessert for diners who want something light-textured but creamy.",
+        "zh": "法式经典蛋奶甜点，适合想要轻盈口感但仍有奶油感的人。",
+        "nl": "Een klassiek Frans custarddessert voor wie iets luchtigs maar romigs zoekt."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "meringue",
+        40,
+        "floating island"
       ],
       [
-        "sugar",
-        20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
-        10,
-        "richness"
+        "creme-anglaise",
+        40,
+        "custard base"
       ],
       [
         "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        10,
+        "caramel finish"
+      ],
+      [
+        "almonds",
+        10,
+        "crunch"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "airy meringue",
+      "vanilla custard",
+      "caramel"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "vanilla"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "airy meringue",
+      "smooth custard",
+      "light almond crunch"
     ],
     "riskFlags": [
-      "contains-gluten",
       "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-tree-nut"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
+      "classic-dessert",
+      "light-dessert",
+      "custard"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A nice dessert if you want soft custard and meringue without pastry heaviness.",
+      "zh": "想吃蛋奶酱和蛋白霜、但不想要酥皮厚重感时适合。",
+      "nl": "Een fijn dessert als je zachte custard en meringue wilt zonder zwaar deeg."
     },
-    "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.87
   },
   {
     "id": "clafoutis",
@@ -8694,104 +8598,101 @@ const europeDepthDishConfigs = [
     "cuisineId": "french",
     "names": {
       "en": "Clafoutis",
-      "zh": "法式水果蛋奶烤布丁",
+      "zh": "法式樱桃蛋奶烤布丁",
       "nl": "Clafoutis",
       "local": "Clafoutis"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "baked",
+      "set"
     ],
     "shortDescription": {
-      "en": "Clafoutis is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "法式水果蛋奶烤布丁是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Clafoutis is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A baked French custard dessert, classically with cherries, sitting between flan, pancake, and soft cake.",
+      "zh": "法式烤蛋奶甜点，经典款放樱桃，口感介于布丁、薄饼和软蛋糕之间。",
+      "nl": "Een gebakken Frans custarddessert, klassiek met kersen, tussen flan, pannenkoek en zachte cake in."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served warm or room temperature, softly set with fruit embedded throughout.",
+      "zh": "可温热或常温上桌，蛋奶体柔软定型，水果嵌在其中。",
+      "nl": "Warm of op kamertemperatuur, zacht gezet met fruit door het beslag."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "classic-dessert"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic rustic French dessert, especially associated with cherries.",
+        "zh": "法式乡村经典甜点，尤其常与樱桃相关。",
+        "nl": "Een klassiek rustiek Frans dessert, vooral bekend met kersen."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "sugar",
-        20,
-        "sweetness"
+        "cherries",
+        35,
+        "fruit"
       ],
       [
         "egg",
-        15,
-        "structure"
+        20,
+        "custard set"
       ],
       [
         "cream",
         15,
-        "richness"
+        "custard richness"
+      ],
+      [
+        "wheat-flour",
+        15,
+        "body"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
       ],
       [
         "butter",
-        10,
+        5,
         "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "cherries",
+      "egg custard",
+      "light batter"
     ],
     "basicTaste": [
       "sweet",
+      "fruity",
       "creamy"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft set custard",
+      "juicy fruit",
+      "tender cake-like bite"
     ],
     "riskFlags": [
-      "contains-gluten",
       "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-gluten"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
+      "classic-dessert",
+      "fruit-dessert",
+      "custard"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order if you like soft baked custard and fruit rather than a crisp pastry.",
+      "zh": "喜欢柔软烤蛋奶和水果感时适合；它不是酥脆塔皮甜点。",
+      "nl": "Bestel dit als je zachte gebakken custard met fruit wilt, niet iets krokants."
     },
-    "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.87
   },
   {
     "id": "mille-feuille",
@@ -8800,208 +8701,186 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Mille-Feuille",
       "zh": "法式拿破仑千层酥",
-      "nl": "Mille-Feuille",
-      "local": "Mille-Feuille"
+      "nl": "Millefeuille",
+      "local": "Mille-feuille"
     },
     "category": "dessert",
     "cookingMethods": [
+      "layered",
       "baked"
     ],
     "shortDescription": {
-      "en": "Mille-Feuille is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "法式拿破仑千层酥是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Mille-Feuille is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A layered pastry of crisp puff pastry and vanilla pastry cream, often finished with icing or powdered sugar.",
+      "zh": "酥脆千层酥皮夹香草卡仕达奶油，表面常有糖霜或糖粉。",
+      "nl": "Een gelaagd gebak van krokant bladerdeeg en vanilleroom, vaak met glazuur of poedersuiker."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served cool or room temperature, with crisp flaky layers that crack into soft cream.",
+      "zh": "冷食或常温上桌，酥皮层会碎裂进柔软奶油里。",
+      "nl": "Koel of op kamertemperatuur, met krokante lagen die breken in zachte room."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "classic-dessert"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic French pâtisserie dessert and a strong signal for flaky pastry texture.",
+        "zh": "法式甜点店经典，重点是千层酥皮口感。",
+        "nl": "Een klassiek Frans patisseriedessert met duidelijke bladerdeegstructuur."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "puff-pastry",
+        45,
+        "flaky layers"
+      ],
+      [
+        "vanilla-custard",
+        35,
+        "cream filling"
       ],
       [
         "sugar",
-        20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
+        10,
+        "sweet finish"
       ],
       [
         "butter",
         10,
-        "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "pastry richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "puff pastry",
+      "vanilla pastry cream",
+      "powdered sugar or glaze"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "buttery"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "crisp flaky layers",
+      "soft cream",
+      "delicate shatter"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
+      "classic-dessert",
+      "pastry",
+      "patisserie"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Great if you want crisp pastry plus cream; it can be messy but rewarding.",
+      "zh": "想吃酥皮和奶油组合时很适合；吃起来可能会碎但很满足。",
+      "nl": "Sterk als je krokant deeg met room wilt; wat rommelig maar de moeite waard."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 3,
+    "metadataConfidence": 0.88
   },
   {
     "id": "eclair",
     "metadataCode": "103055",
     "cuisineId": "french",
     "names": {
-      "en": "Eclair",
+      "en": "Éclair",
       "zh": "法式闪电泡芙",
-      "nl": "Eclair",
-      "local": "Eclair"
+      "nl": "Éclair",
+      "local": "Éclair"
     },
     "category": "dessert",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Eclair is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "法式闪电泡芙是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Eclair is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "An oblong choux pastry filled with cream or custard and topped with chocolate or flavored glaze.",
+      "zh": "长条泡芙，内部填奶油或卡仕达，表面常有巧克力或风味糖霜。",
+      "nl": "Een langwerpige soes gevuld met room of custard en afgewerkt met chocolade of glazuur."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served cool, with a soft airy shell, creamy filling, and a glossy sweet top.",
+      "zh": "冷食或微凉上桌，外壳轻软，中间奶油感，表面甜润光亮。",
+      "nl": "Koel geserveerd, met een luchtige zachte schaal, romige vulling en glanzende zoete bovenkant."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "classic-dessert"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic French pâtisserie item and a familiar cream-filled dessert choice.",
+        "zh": "法式甜点店经典，也是常见的奶油夹心甜点。",
+        "nl": "Een klassiek Frans patisseriegebak en herkenbaar roomgevuld dessert."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "sugar",
-        20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
+        "choux-pastry",
+        40,
+        "shell"
       ],
       [
         "cream",
+        30,
+        "filling"
+      ],
+      [
+        "chocolate",
         15,
-        "richness"
+        "glaze"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
       ],
       [
         "butter",
-        10,
-        "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        5,
+        "pastry richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "choux pastry",
+      "cream filling",
+      "chocolate glaze"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "chocolatey"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft pastry shell",
+      "creamy filling",
+      "glossy glaze"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
+      "classic-dessert",
+      "patisserie",
+      "cream-filled"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A reliable pastry pick if you want cream and chocolate without a large cake portion.",
+      "zh": "想吃奶油和巧克力、又不想点大块蛋糕时很稳。",
+      "nl": "Een betrouwbare keuze voor room en chocolade zonder groot stuk cake."
     },
-    "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.88
   },
   {
     "id": "macaron",
@@ -9018,95 +8897,86 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Macaron is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "法式马卡龙是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Macaron is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A delicate almond meringue sandwich cookie with a creamy filling, known for crisp shells and chewy centers.",
+      "zh": "以杏仁蛋白霜壳夹奶油馅的小甜点，外壳轻脆，中间略有嚼劲。",
+      "nl": "Een delicate amandel-meringue sandwichkoek met romige vulling, krokant van buiten en chewy binnenin."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served cool or room temperature, with small, sweet, fragile shells rather than a soft cake texture.",
+      "zh": "冷食或常温，小巧、甜度高、外壳脆弱，不是柔软蛋糕口感。",
+      "nl": "Koel of op kamertemperatuur, klein, zoet en breekbaar; geen zachte cake."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "classic-dessert"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A globally recognized French pâtisserie sweet, useful for dessert matching and allergen warnings.",
+        "zh": "全球熟知的法式甜点，适合做甜点匹配和过敏提醒。",
+        "nl": "Een wereldwijd herkenbaar Frans patisseriesnoepje, nuttig voor dessertmatching en allergenen."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "almonds",
+        35,
+        "almond shell"
       ],
       [
         "sugar",
-        20,
-        "sweetness"
+        30,
+        "shell sweetness"
       ],
       [
         "egg",
-        15,
-        "structure"
+        20,
+        "meringue structure"
       ],
       [
         "cream",
-        15,
-        "richness"
+        10,
+        "filling"
       ],
       [
         "butter",
-        10,
-        "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        5,
+        "filling richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "almond meringue",
+      "buttercream or ganache",
+      "flavored filling"
     ],
     "basicTaste": [
       "sweet",
+      "nutty",
       "creamy"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "crisp shell",
+      "chewy center",
+      "smooth filling"
     ],
     "riskFlags": [
-      "contains-gluten",
+      "contains-tree-nut",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
+      "classic-dessert",
+      "patisserie",
+      "small-sweet"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good as a small sweet bite; avoid with almond or egg allergies.",
+      "zh": "适合作为小甜点；杏仁或鸡蛋过敏者应避开。",
+      "nl": "Goed als kleine zoete hap; vermijden bij amandel- of ei-allergie."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 1,
+    "metadataConfidence": 0.89
   },
   {
     "id": "tarte-au-citron",
@@ -9115,103 +8985,95 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Tarte au Citron",
       "zh": "柠檬塔",
-      "nl": "Tarte au Citron",
-      "local": "Tarte au Citron"
+      "nl": "Citroentaart",
+      "local": "Tarte au citron"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "baked",
+      "set"
     ],
     "shortDescription": {
-      "en": "Tarte au Citron is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "柠檬塔是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Tarte au Citron is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A lemon tart with crisp pastry and bright lemon curd, sometimes topped with meringue.",
+      "zh": "酥皮柠檬塔，内馅是明亮酸甜的柠檬凝乳，有时加蛋白霜。",
+      "nl": "Een citroentaart met krokante bodem en frisse lemon curd, soms met meringue."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served cool, with a firm tart shell and smooth filling that tastes sharper than most creamy desserts.",
+      "zh": "冷食上桌，塔壳酥脆，馅料顺滑，酸度比多数奶油甜点更突出。",
+      "nl": "Koel geserveerd, met stevige bodem en gladde vulling die frisser en zuurder is dan veel romige desserts."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "classic-dessert"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic French tart for diners who prefer citrus brightness over chocolate or heavy cream.",
+        "zh": "法式经典塔类甜点，适合偏好柑橘酸香而不是巧克力或厚奶油的人。",
+        "nl": "Een klassieke Franse taart voor wie citrusfrisheid boven chocolade of zware room verkiest."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "pastry-crust",
+        35,
+        "tart shell"
       ],
       [
-        "sugar",
-        20,
-        "sweetness"
+        "lemon-curd",
+        35,
+        "lemon filling"
       ],
       [
         "egg",
-        15,
-        "structure"
+        10,
+        "set"
       ],
       [
-        "cream",
-        15,
-        "richness"
+        "sugar",
+        10,
+        "sweetness"
       ],
       [
         "butter",
         10,
         "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "lemon curd",
+      "buttery tart shell",
+      "optional meringue"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "sour",
+      "buttery"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "crisp tart shell",
+      "smooth lemon filling",
+      "clean tart finish"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
+      "classic-dessert",
+      "citrus",
+      "tart"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A strong dessert if you want bright acidity and pastry rather than deep richness.",
+      "zh": "想要明亮酸香和酥皮感，而不是特别厚重甜点时很适合。",
+      "nl": "Een sterke dessertkeuze als je frisse zuren en deeg wilt in plaats van diepe rijkdom."
     },
-    "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.88
   },
   {
     "id": "mousse-au-chocolat",
@@ -9220,267 +9082,147 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Mousse au Chocolat",
       "zh": "巧克力慕斯",
-      "nl": "Mousse au Chocolat",
-      "local": "Mousse au Chocolat"
+      "nl": "Chocolademousse",
+      "local": "Mousse au chocolat"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "chilled",
+      "set"
     ],
     "shortDescription": {
-      "en": "Mousse au Chocolat is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "巧克力慕斯是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Mousse au Chocolat is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A chilled chocolate mousse, usually airy but rich, with bittersweet chocolate and cream or egg-based texture.",
+      "zh": "冷藏巧克力慕斯，口感轻盈但味道浓郁，常有黑巧克力和奶油或鸡蛋带来的质地。",
+      "nl": "Een gekoelde chocolademousse, luchtig maar rijk, met bitterzoete chocolade en room- of eistructuur."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served cold and spoonable, with a light whipped texture rather than cake or pastry.",
+      "zh": "冷食可用勺舀，质地打发轻盈，不是蛋糕或酥皮。",
+      "nl": "Koud en lepelbaar, met opgeklopte luchtige structuur in plaats van cake of deeg."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "classic-dessert"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic French dessert and a familiar chocolate choice on bistro menus.",
+        "zh": "法式经典甜点，也是小馆菜单上熟悉的巧克力选择。",
+        "nl": "Een klassiek Frans dessert en herkenbare chocoladekeuze op bistromenu's."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "chocolate",
+        40,
+        "chocolate base"
       ],
       [
-        "sugar",
-        20,
-        "sweetness"
+        "cream",
+        30,
+        "airy body"
       ],
       [
         "egg",
         15,
-        "structure"
+        "mousse structure"
       ],
       [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
+        "sugar",
         10,
-        "richness"
+        "sweetness"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "cocoa",
+        5,
+        "chocolate depth",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "dark chocolate",
+      "whipped cream texture",
+      "cocoa depth"
     ],
     "basicTaste": [
       "sweet",
+      "chocolatey",
       "creamy"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "airy mousse",
+      "smooth spoonful",
+      "rich chocolate finish"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
+      "classic-dessert",
+      "chocolate",
+      "spoon-dessert"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A safe dessert if you want chocolate richness without pastry; check egg or dairy concerns.",
+      "zh": "想要巧克力浓郁但不想吃酥皮蛋糕时很稳；需注意鸡蛋和奶制品。",
+      "nl": "Een veilige keuze voor chocoladerijkdom zonder deeg; let op ei en zuivel."
     },
-    "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.88
   },
   {
     "id": "souffle-au-fromage",
     "metadataCode": "103059",
     "cuisineId": "french",
     "names": {
-      "en": "Souffle au Fromage",
+      "en": "Soufflé au Fromage",
       "zh": "奶酪舒芙蕾",
-      "nl": "Souffle au Fromage",
-      "local": "Souffle au Fromage"
+      "nl": "Kaassoufflé",
+      "local": "Soufflé au fromage"
     },
     "category": "cheese",
-    "cookingMethods": [
-      "assembled"
-    ],
-    "shortDescription": {
-      "en": "Souffle au Fromage is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "奶酪舒芙蕾是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Souffle au Fromage is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with cheese-focused dish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现cheese-focused dish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met cheese-focused dish; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "cheese",
-        45,
-        "main"
-      ],
-      [
-        "bread",
-        20,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        15,
-        "body"
-      ],
-      [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "cheese",
-      "cream",
-      "pepper"
-    ],
-    "basicTaste": [
-      "savory",
-      "creamy"
-    ],
-    "textureProfile": [
-      "creamy or firm cheese",
-      "savory finish"
-    ],
-    "riskFlags": [
-      "contains-dairy",
-      "contains-gluten"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "cheese"
-    ],
-    "avoidIfTags": [
-      "dairy-free"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, creamy je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "crepes-suzette",
-    "metadataCode": "103060",
-    "cuisineId": "french",
-    "names": {
-      "en": "Crepes Suzette",
-      "zh": "橙酒可丽饼",
-      "nl": "Crepes Suzette",
-      "local": "Crepes Suzette"
-    },
-    "category": "dessert",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Crepes Suzette is a common French menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "橙酒可丽饼是常见法餐菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Crepes Suzette is een veelvoorkomend Frans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A savory baked cheese soufflé, puffed and airy on top with a warm egg-and-cheese center.",
+      "zh": "咸口奶酪舒芙蕾，烘烤后膨起，内部是温热鸡蛋和奶酪的轻盈中心。",
+      "nl": "Een hartige gebakken kaassoufflé, hoog en luchtig met een warme ei-kaaskern."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Served hot soon after baking, so it is airy, delicate, and can settle quickly at the table.",
+      "zh": "烤好后趁热上桌，质地轻盈脆弱，放久会回落。",
+      "nl": "Heet kort na het bakken geserveerd; luchtig, delicaat en zakt snel in."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "french-depth",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely French restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见法餐餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Frans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic French technique-driven dish, useful for identifying airy baked cheese mains or starters.",
+        "zh": "法式经典技法菜，适合理解轻盈烘烤奶酪类前菜或主菜。",
+        "nl": "Een klassieke Franse techniekgedreven bereiding voor luchtige gebakken kaasgerechten."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "sugar",
-        20,
-        "sweetness"
-      ],
-      [
         "egg",
-        15,
-        "structure"
+        35,
+        "lift and structure"
       ],
       [
-        "cream",
-        15,
-        "richness"
+        "alpine-cheese-blend",
+        25,
+        "cheese flavor"
+      ],
+      [
+        "bechamel-sauce",
+        20,
+        "base"
       ],
       [
         "butter",
@@ -9488,47 +9230,147 @@ const europeDepthDishConfigs = [
         "richness"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "wheat-flour",
+        5,
+        "structure"
+      ],
+      [
+        "black-pepper",
+        5,
+        "finish",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "baked cheese",
+      "egg lift",
+      "béchamel base"
     ],
     "basicTaste": [
-      "sweet",
+      "savory",
+      "cheesy",
       "creamy"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "airy puffed top",
+      "soft warm center",
+      "delicate structure"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-dairy",
+      "contains-gluten"
+    ],
+    "goodForTags": [
+      "classic-dish",
+      "cheese",
+      "airy-texture"
+    ],
+    "orderVerdict": {
+      "en": "Order if you want a warm, delicate cheese dish; it is more airy than heavy.",
+      "zh": "想要温热、细腻、轻盈的奶酪菜时适合；它不是厚重奶酪锅。",
+      "nl": "Bestel dit als je een warm en delicaat kaasgerecht wilt; luchtiger dan zwaar."
+    },
+    "weightLevel": 2,
+    "metadataConfidence": 0.87
+  },
+  {
+    "id": "crepes-suzette",
+    "metadataCode": "103060",
+    "cuisineId": "french",
+    "names": {
+      "en": "Crêpes Suzette",
+      "zh": "橙酒可丽饼",
+      "nl": "Crêpes Suzette",
+      "local": "Crêpes Suzette"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "fried",
+      "sauce-tossed"
+    ],
+    "shortDescription": {
+      "en": "Thin crêpes served in a glossy orange-butter caramel sauce, often with orange liqueur or tableside flambé style.",
+      "zh": "薄可丽饼配橙香黄油焦糖酱，常带橙酒风味，有些餐厅会做桌边点火仪式。",
+      "nl": "Dunne crêpes in glanzende sinaasappel-boterkaramelsaus, vaak met sinaasappellikeur of flambéstijl."
+    },
+    "cookingProfile": {
+      "en": "Served warm with sauce coating folded crêpes, so it feels silky, citrusy, and buttery rather than cake-like.",
+      "zh": "温热上桌，酱汁包裹折叠薄饼，口感丝滑、橙香、黄油感强，不像蛋糕。",
+      "nl": "Warm geserveerd met saus rond gevouwen crêpes; zijdeachtig, citrusachtig en boterig, niet cakeachtig."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "french-depth",
+        "classic-dessert"
+      ],
+      "description": {
+        "en": "A classic French crêpe dessert, especially useful for identifying orange-butter sauce and alcohol watch-outs.",
+        "zh": "法式经典可丽饼甜点，重点是橙香黄油酱和酒精提醒。",
+        "nl": "Een klassiek Frans crêpedessert, vooral herkenbaar aan sinaasappelbotersaus en alcoholwaarschuwing."
+      }
+    },
+    "composition": [
+      [
+        "crepe-batter",
+        45,
+        "thin crêpes"
+      ],
+      [
+        "orange-caramel-sauce",
+        30,
+        "sauce"
+      ],
+      [
+        "butter",
+        10,
+        "sauce richness"
+      ],
+      [
+        "sugar",
+        10,
+        "caramel sweetness"
+      ],
+      [
+        "orange",
+        5,
+        "citrus finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "orange-butter sauce",
+      "caramel",
+      "orange liqueur aroma"
+    ],
+    "basicTaste": [
+      "sweet",
+      "citrusy",
+      "buttery"
+    ],
+    "textureProfile": [
+      "soft folded crêpes",
+      "glossy sauce",
+      "warm citrus finish"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-alcohol"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
+      "classic-dessert",
+      "crepe",
+      "citrus"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A strong dessert if you like warm citrus caramel and buttery crêpes; check alcohol if needed.",
+      "zh": "喜欢温热橙香焦糖和黄油薄饼时很适合；介意酒精需确认。",
+      "nl": "Sterk als je warme citruskaramel en boterige crêpes wilt; check alcohol indien nodig."
     },
-    "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.88
   },
   {
     "id": "tiropita",

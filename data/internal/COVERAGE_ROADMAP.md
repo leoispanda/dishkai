@@ -8,9 +8,9 @@ Verified metadata is the source of truth. It should be curated for high-frequenc
 
 Current verified starter database:
 
-- 673 verified dishes
+- 703 verified dishes
 - 27 cuisines
-- 2035 verified aliases
+- 2120 verified aliases
 
 Recent depth progress:
 
@@ -21,12 +21,13 @@ Recent depth progress:
 - Global Truth Batches 024-033 were reverted because their abstract deterministic schematic images were too crude to identify dishes at a glance. Those rows need replacement-quality, clearly recognizable images before they can return to verified.
 - Southeast Asia and Indonesian depth work restored Vietnamese and Indonesian to 30 verified dishes each. Indonesian Batch 027 completed the final six Indonesian rows after replacing all six duplicate/mismatched candidate images.
 - Italian Batch 028 re-audited the optional European depth layer for Italian rows `101031`-`101060`, replacing all 30 mismatched candidate images with restaurant-realistic generated assets and rebuilding dish-specific metadata. Italian verified coverage is now 60 dishes.
+- French Batch 029 re-audited French rows `103031`-`103060`, replacing all 30 mismatched candidate images with restaurant-realistic generated assets and rebuilding dish-specific metadata. French verified coverage is now 60 dishes.
 
 Next verified coverage targets:
 
 1. Rebuild quarantined global-depth cuisines in <=30-dish batches only when replacement-quality images are available.
 2. Prioritize real-menu misses and cuisines below 30 verified dishes. Current below-30 cuisines include Malaysian/Singaporean, Turkish, Middle Eastern, Mexican, American, Moroccan, Surinamese, Ethiopian, Peruvian, and Brazilian.
-3. Re-audit European depth only when real menu misses justify going beyond 30. Italian is the first reviewed 60-dish European cuisine; other European depth rows remain optional and quarantined until strict review.
+3. Re-audit European depth only when real menu misses justify going beyond 30. Italian and French are the first reviewed 60-dish European cuisines; other European depth rows remain optional and quarantined until strict review.
 
 Verified metadata should stay concise and ordering-focused. Do not turn cards into recipes.
 

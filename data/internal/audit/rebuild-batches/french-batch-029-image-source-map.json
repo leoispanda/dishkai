@@ -1,0 +1,212 @@
+[
+  {
+    "dishId": "salade-lyonnaise",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103031-salade-lyonnaise.png",
+    "mainPath": "/assets/dishes/main/103031-salade-lyonnaise.webp",
+    "thumbPath": "/assets/dishes/thumb/103031-salade-lyonnaise.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "galette-complete",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103032-galette-complete.png",
+    "mainPath": "/assets/dishes/main/103032-galette-complete.webp",
+    "thumbPath": "/assets/dishes/thumb/103032-galette-complete.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "pissaladiere",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103033-pissaladiere.png",
+    "mainPath": "/assets/dishes/main/103033-pissaladiere.webp",
+    "thumbPath": "/assets/dishes/thumb/103033-pissaladiere.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "socca",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103034-socca.png",
+    "mainPath": "/assets/dishes/main/103034-socca.webp",
+    "thumbPath": "/assets/dishes/thumb/103034-socca.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "brandade-de-morue",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103035-brandade-de-morue.png",
+    "mainPath": "/assets/dishes/main/103035-brandade-de-morue.webp",
+    "thumbPath": "/assets/dishes/thumb/103035-brandade-de-morue.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "aligot",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103036-aligot.png",
+    "mainPath": "/assets/dishes/main/103036-aligot.webp",
+    "thumbPath": "/assets/dishes/thumb/103036-aligot.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "raclette",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103037-raclette.png",
+    "mainPath": "/assets/dishes/main/103037-raclette.webp",
+    "thumbPath": "/assets/dishes/thumb/103037-raclette.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "fondue-savoyarde",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103038-fondue-savoyarde.png",
+    "mainPath": "/assets/dishes/main/103038-fondue-savoyarde.webp",
+    "thumbPath": "/assets/dishes/thumb/103038-fondue-savoyarde.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "tartare-de-saumon",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103039-tartare-de-saumon.png",
+    "mainPath": "/assets/dishes/main/103039-tartare-de-saumon.webp",
+    "thumbPath": "/assets/dishes/thumb/103039-tartare-de-saumon.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "magret-de-canard",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103040-magret-de-canard.png",
+    "mainPath": "/assets/dishes/main/103040-magret-de-canard.webp",
+    "thumbPath": "/assets/dishes/thumb/103040-magret-de-canard.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "entrecote-bordelaise",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103041-entrecote-bordelaise.png",
+    "mainPath": "/assets/dishes/main/103041-entrecote-bordelaise.webp",
+    "thumbPath": "/assets/dishes/thumb/103041-entrecote-bordelaise.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "poulet-basquaise",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103042-poulet-basquaise.png",
+    "mainPath": "/assets/dishes/main/103042-poulet-basquaise.webp",
+    "thumbPath": "/assets/dishes/thumb/103042-poulet-basquaise.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "pot-au-feu",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103043-pot-au-feu.png",
+    "mainPath": "/assets/dishes/main/103043-pot-au-feu.webp",
+    "thumbPath": "/assets/dishes/thumb/103043-pot-au-feu.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "navarin-dagneau",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103044-navarin-dagneau.png",
+    "mainPath": "/assets/dishes/main/103044-navarin-dagneau.webp",
+    "thumbPath": "/assets/dishes/thumb/103044-navarin-dagneau.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "quenelles",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103045-quenelles.png",
+    "mainPath": "/assets/dishes/main/103045-quenelles.webp",
+    "thumbPath": "/assets/dishes/thumb/103045-quenelles.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "cuisses-de-grenouille",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103046-cuisses-de-grenouille.png",
+    "mainPath": "/assets/dishes/main/103046-cuisses-de-grenouille.webp",
+    "thumbPath": "/assets/dishes/thumb/103046-cuisses-de-grenouille.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "pate-de-campagne",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103047-pate-de-campagne.png",
+    "mainPath": "/assets/dishes/main/103047-pate-de-campagne.webp",
+    "thumbPath": "/assets/dishes/thumb/103047-pate-de-campagne.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "rillettes",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103048-rillettes.png",
+    "mainPath": "/assets/dishes/main/103048-rillettes.webp",
+    "thumbPath": "/assets/dishes/thumb/103048-rillettes.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "terrine",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103049-terrine.png",
+    "mainPath": "/assets/dishes/main/103049-terrine.webp",
+    "thumbPath": "/assets/dishes/thumb/103049-terrine.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "plateau-de-fromages",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103050-plateau-de-fromages.png",
+    "mainPath": "/assets/dishes/main/103050-plateau-de-fromages.webp",
+    "thumbPath": "/assets/dishes/thumb/103050-plateau-de-fromages.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "charcuterie-board-french",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103051-charcuterie-board-french.png",
+    "mainPath": "/assets/dishes/main/103051-charcuterie-board-french.webp",
+    "thumbPath": "/assets/dishes/thumb/103051-charcuterie-board-french.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "ile-flottante",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103052-ile-flottante.png",
+    "mainPath": "/assets/dishes/main/103052-ile-flottante.webp",
+    "thumbPath": "/assets/dishes/thumb/103052-ile-flottante.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "clafoutis",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103053-clafoutis.png",
+    "mainPath": "/assets/dishes/main/103053-clafoutis.webp",
+    "thumbPath": "/assets/dishes/thumb/103053-clafoutis.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "mille-feuille",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103054-mille-feuille.png",
+    "mainPath": "/assets/dishes/main/103054-mille-feuille.webp",
+    "thumbPath": "/assets/dishes/thumb/103054-mille-feuille.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "eclair",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103055-eclair.png",
+    "mainPath": "/assets/dishes/main/103055-eclair.webp",
+    "thumbPath": "/assets/dishes/thumb/103055-eclair.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "macaron",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103056-macaron.png",
+    "mainPath": "/assets/dishes/main/103056-macaron.webp",
+    "thumbPath": "/assets/dishes/thumb/103056-macaron.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "tarte-au-citron",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103057-tarte-au-citron.png",
+    "mainPath": "/assets/dishes/main/103057-tarte-au-citron.webp",
+    "thumbPath": "/assets/dishes/thumb/103057-tarte-au-citron.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "mousse-au-chocolat",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103058-mousse-au-chocolat.png",
+    "mainPath": "/assets/dishes/main/103058-mousse-au-chocolat.webp",
+    "thumbPath": "/assets/dishes/thumb/103058-mousse-au-chocolat.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "souffle-au-fromage",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103059-souffle-au-fromage.png",
+    "mainPath": "/assets/dishes/main/103059-souffle-au-fromage.webp",
+    "thumbPath": "/assets/dishes/thumb/103059-souffle-au-fromage.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  },
+  {
+    "dishId": "crepes-suzette",
+    "sourcePng": "data/internal/audit/rebuild-batches/french-batch-029-image-sources/103060-crepes-suzette.png",
+    "mainPath": "/assets/dishes/main/103060-crepes-suzette.webp",
+    "thumbPath": "/assets/dishes/thumb/103060-crepes-suzette.webp",
+    "imageAction": "generated replacement; local metadataCode stamp applied"
+  }
+]

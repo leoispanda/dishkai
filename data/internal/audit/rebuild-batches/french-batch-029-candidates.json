@@ -1,0 +1,272 @@
+[
+  {
+    "dishId": "salade-lyonnaise",
+    "metadataCode": "103031",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Salade Lyonnaise",
+    "imagePath": "/assets/dishes/main/103031-salade-lyonnaise.webp",
+    "thumbPath": "/assets/dishes/thumb/103031-salade-lyonnaise.webp"
+  },
+  {
+    "dishId": "galette-complete",
+    "metadataCode": "103032",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Galette Complète",
+    "imagePath": "/assets/dishes/main/103032-galette-complete.webp",
+    "thumbPath": "/assets/dishes/thumb/103032-galette-complete.webp"
+  },
+  {
+    "dishId": "pissaladiere",
+    "metadataCode": "103033",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Pissaladière",
+    "imagePath": "/assets/dishes/main/103033-pissaladiere.webp",
+    "thumbPath": "/assets/dishes/thumb/103033-pissaladiere.webp"
+  },
+  {
+    "dishId": "socca",
+    "metadataCode": "103034",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Socca",
+    "imagePath": "/assets/dishes/main/103034-socca.webp",
+    "thumbPath": "/assets/dishes/thumb/103034-socca.webp"
+  },
+  {
+    "dishId": "brandade-de-morue",
+    "metadataCode": "103035",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Brandade de Morue",
+    "imagePath": "/assets/dishes/main/103035-brandade-de-morue.webp",
+    "thumbPath": "/assets/dishes/thumb/103035-brandade-de-morue.webp"
+  },
+  {
+    "dishId": "aligot",
+    "metadataCode": "103036",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Aligot",
+    "imagePath": "/assets/dishes/main/103036-aligot.webp",
+    "thumbPath": "/assets/dishes/thumb/103036-aligot.webp"
+  },
+  {
+    "dishId": "raclette",
+    "metadataCode": "103037",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Raclette",
+    "imagePath": "/assets/dishes/main/103037-raclette.webp",
+    "thumbPath": "/assets/dishes/thumb/103037-raclette.webp"
+  },
+  {
+    "dishId": "fondue-savoyarde",
+    "metadataCode": "103038",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Fondue Savoyarde",
+    "imagePath": "/assets/dishes/main/103038-fondue-savoyarde.webp",
+    "thumbPath": "/assets/dishes/thumb/103038-fondue-savoyarde.webp"
+  },
+  {
+    "dishId": "tartare-de-saumon",
+    "metadataCode": "103039",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Tartare de Saumon",
+    "imagePath": "/assets/dishes/main/103039-tartare-de-saumon.webp",
+    "thumbPath": "/assets/dishes/thumb/103039-tartare-de-saumon.webp"
+  },
+  {
+    "dishId": "magret-de-canard",
+    "metadataCode": "103040",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Magret de Canard",
+    "imagePath": "/assets/dishes/main/103040-magret-de-canard.webp",
+    "thumbPath": "/assets/dishes/thumb/103040-magret-de-canard.webp"
+  },
+  {
+    "dishId": "entrecote-bordelaise",
+    "metadataCode": "103041",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Entrecôte Bordelaise",
+    "imagePath": "/assets/dishes/main/103041-entrecote-bordelaise.webp",
+    "thumbPath": "/assets/dishes/thumb/103041-entrecote-bordelaise.webp"
+  },
+  {
+    "dishId": "poulet-basquaise",
+    "metadataCode": "103042",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Poulet Basquaise",
+    "imagePath": "/assets/dishes/main/103042-poulet-basquaise.webp",
+    "thumbPath": "/assets/dishes/thumb/103042-poulet-basquaise.webp"
+  },
+  {
+    "dishId": "pot-au-feu",
+    "metadataCode": "103043",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Pot-au-Feu",
+    "imagePath": "/assets/dishes/main/103043-pot-au-feu.webp",
+    "thumbPath": "/assets/dishes/thumb/103043-pot-au-feu.webp"
+  },
+  {
+    "dishId": "navarin-dagneau",
+    "metadataCode": "103044",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Navarin d'Agneau",
+    "imagePath": "/assets/dishes/main/103044-navarin-dagneau.webp",
+    "thumbPath": "/assets/dishes/thumb/103044-navarin-dagneau.webp"
+  },
+  {
+    "dishId": "quenelles",
+    "metadataCode": "103045",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Quenelles",
+    "imagePath": "/assets/dishes/main/103045-quenelles.webp",
+    "thumbPath": "/assets/dishes/thumb/103045-quenelles.webp"
+  },
+  {
+    "dishId": "cuisses-de-grenouille",
+    "metadataCode": "103046",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Cuisses de Grenouille",
+    "imagePath": "/assets/dishes/main/103046-cuisses-de-grenouille.webp",
+    "thumbPath": "/assets/dishes/thumb/103046-cuisses-de-grenouille.webp"
+  },
+  {
+    "dishId": "pate-de-campagne",
+    "metadataCode": "103047",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Pâté de Campagne",
+    "imagePath": "/assets/dishes/main/103047-pate-de-campagne.webp",
+    "thumbPath": "/assets/dishes/thumb/103047-pate-de-campagne.webp"
+  },
+  {
+    "dishId": "rillettes",
+    "metadataCode": "103048",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Rillettes",
+    "imagePath": "/assets/dishes/main/103048-rillettes.webp",
+    "thumbPath": "/assets/dishes/thumb/103048-rillettes.webp"
+  },
+  {
+    "dishId": "terrine",
+    "metadataCode": "103049",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Terrine",
+    "imagePath": "/assets/dishes/main/103049-terrine.webp",
+    "thumbPath": "/assets/dishes/thumb/103049-terrine.webp"
+  },
+  {
+    "dishId": "plateau-de-fromages",
+    "metadataCode": "103050",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Plateau de Fromages",
+    "imagePath": "/assets/dishes/main/103050-plateau-de-fromages.webp",
+    "thumbPath": "/assets/dishes/thumb/103050-plateau-de-fromages.webp"
+  },
+  {
+    "dishId": "charcuterie-board-french",
+    "metadataCode": "103051",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "French Charcuterie Board",
+    "imagePath": "/assets/dishes/main/103051-charcuterie-board-french.webp",
+    "thumbPath": "/assets/dishes/thumb/103051-charcuterie-board-french.webp"
+  },
+  {
+    "dishId": "ile-flottante",
+    "metadataCode": "103052",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Île Flottante",
+    "imagePath": "/assets/dishes/main/103052-ile-flottante.webp",
+    "thumbPath": "/assets/dishes/thumb/103052-ile-flottante.webp"
+  },
+  {
+    "dishId": "clafoutis",
+    "metadataCode": "103053",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Clafoutis",
+    "imagePath": "/assets/dishes/main/103053-clafoutis.webp",
+    "thumbPath": "/assets/dishes/thumb/103053-clafoutis.webp"
+  },
+  {
+    "dishId": "mille-feuille",
+    "metadataCode": "103054",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Mille-Feuille",
+    "imagePath": "/assets/dishes/main/103054-mille-feuille.webp",
+    "thumbPath": "/assets/dishes/thumb/103054-mille-feuille.webp"
+  },
+  {
+    "dishId": "eclair",
+    "metadataCode": "103055",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Éclair",
+    "imagePath": "/assets/dishes/main/103055-eclair.webp",
+    "thumbPath": "/assets/dishes/thumb/103055-eclair.webp"
+  },
+  {
+    "dishId": "macaron",
+    "metadataCode": "103056",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Macaron",
+    "imagePath": "/assets/dishes/main/103056-macaron.webp",
+    "thumbPath": "/assets/dishes/thumb/103056-macaron.webp"
+  },
+  {
+    "dishId": "tarte-au-citron",
+    "metadataCode": "103057",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Tarte au Citron",
+    "imagePath": "/assets/dishes/main/103057-tarte-au-citron.webp",
+    "thumbPath": "/assets/dishes/thumb/103057-tarte-au-citron.webp"
+  },
+  {
+    "dishId": "mousse-au-chocolat",
+    "metadataCode": "103058",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Mousse au Chocolat",
+    "imagePath": "/assets/dishes/main/103058-mousse-au-chocolat.webp",
+    "thumbPath": "/assets/dishes/thumb/103058-mousse-au-chocolat.webp"
+  },
+  {
+    "dishId": "souffle-au-fromage",
+    "metadataCode": "103059",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Soufflé au Fromage",
+    "imagePath": "/assets/dishes/main/103059-souffle-au-fromage.webp",
+    "thumbPath": "/assets/dishes/thumb/103059-souffle-au-fromage.webp"
+  },
+  {
+    "dishId": "crepes-suzette",
+    "metadataCode": "103060",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Crêpes Suzette",
+    "imagePath": "/assets/dishes/main/103060-crepes-suzette.webp",
+    "thumbPath": "/assets/dishes/thumb/103060-crepes-suzette.webp"
+  }
+]

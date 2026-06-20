@@ -3883,5 +3883,180 @@ export const europeDepthDishAliases = [
     "language": "menu",
     "matchType": "local-spelling",
     "confidence": 0.98
+  },
+  {
+    "alias": "Galette Complète",
+    "dishId": "galette-complete",
+    "language": "menu",
+    "matchType": "local-spelling",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Pissaladière",
+    "dishId": "pissaladiere",
+    "language": "menu",
+    "matchType": "local-spelling",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Brandade de morue",
+    "dishId": "brandade-de-morue",
+    "language": "menu",
+    "matchType": "case-variant",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Tartare de saumon",
+    "dishId": "tartare-de-saumon",
+    "language": "menu",
+    "matchType": "case-variant",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Tartare saumon",
+    "dishId": "tartare-de-saumon",
+    "language": "menu",
+    "matchType": "menu-short-name",
+    "confidence": 0.95
+  },
+  {
+    "alias": "Magret de canard",
+    "dishId": "magret-de-canard",
+    "language": "menu",
+    "matchType": "case-variant",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Entrecôte Bordelaise",
+    "dishId": "entrecote-bordelaise",
+    "language": "menu",
+    "matchType": "local-spelling",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Entrecôte à la bordelaise",
+    "dishId": "entrecote-bordelaise",
+    "language": "menu",
+    "matchType": "local-menu-name",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Poulet basquaise",
+    "dishId": "poulet-basquaise",
+    "language": "menu",
+    "matchType": "case-variant",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Navarin d'Agneau",
+    "dishId": "navarin-dagneau",
+    "language": "menu",
+    "matchType": "apostrophe-variant",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Navarin d'agneau",
+    "dishId": "navarin-dagneau",
+    "language": "menu",
+    "matchType": "local-spelling",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Cuisses de grenouilles",
+    "dishId": "cuisses-de-grenouille",
+    "language": "menu",
+    "matchType": "plural-variant",
+    "confidence": 0.96
+  },
+  {
+    "alias": "Pâté de Campagne",
+    "dishId": "pate-de-campagne",
+    "language": "menu",
+    "matchType": "local-spelling",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Pâté de campagne",
+    "dishId": "pate-de-campagne",
+    "language": "menu",
+    "matchType": "local-spelling",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Plateau de fromages",
+    "dishId": "plateau-de-fromages",
+    "language": "menu",
+    "matchType": "case-variant",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Planche de charcuterie",
+    "dishId": "charcuterie-board-french",
+    "language": "menu",
+    "matchType": "local-menu-name",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Assiette de charcuterie",
+    "dishId": "charcuterie-board-french",
+    "language": "menu",
+    "matchType": "local-menu-name",
+    "confidence": 0.96
+  },
+  {
+    "alias": "Île Flottante",
+    "dishId": "ile-flottante",
+    "language": "menu",
+    "matchType": "local-spelling",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Île flottante",
+    "dishId": "ile-flottante",
+    "language": "menu",
+    "matchType": "local-spelling",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Éclair",
+    "dishId": "eclair",
+    "language": "menu",
+    "matchType": "local-spelling",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Tarte citron",
+    "dishId": "tarte-au-citron",
+    "language": "menu",
+    "matchType": "menu-short-name",
+    "confidence": 0.94
+  },
+  {
+    "alias": "Soufflé au Fromage",
+    "dishId": "souffle-au-fromage",
+    "language": "menu",
+    "matchType": "local-spelling",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Soufflé au fromage",
+    "dishId": "souffle-au-fromage",
+    "language": "menu",
+    "matchType": "local-spelling",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Crêpes Suzette",
+    "dishId": "crepes-suzette",
+    "language": "menu",
+    "matchType": "local-spelling",
+    "confidence": 0.98
+  },
+  {
+    "alias": "Crêpe Suzette",
+    "dishId": "crepes-suzette",
+    "language": "menu",
+    "matchType": "singular-variant",
+    "confidence": 0.96
   }
 ];

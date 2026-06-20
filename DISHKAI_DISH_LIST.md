@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 673
-- Total aliases: 2035
+- Total verified dishes: 703
+- Total aliases: 2120
 - Total cuisines: 27
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -184,7 +184,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 11. 127011 - `sambusa` - Sambusa / 埃塞炸三角饺 / sambusa
 12. 127012 - `ethiopian-coffee-snacks` - Ethiopian Coffee Sweets / 埃塞咖啡小甜点 / buna snacks
 
-## French (french) - 30
+## French (french) - 60
 
 1. 103001 - `boeuf-bourguignon` - Boeuf Bourguignon / 勃艮第红酒炖牛肉 / Boeuf bourguignon
 2. 103002 - `coq-au-vin` - Coq au Vin / 红酒炖鸡 / Coq au vin
@@ -208,14 +208,44 @@ Generated from data/internal/index.js after the verified database quarantine aud
 20. 103015 - `sole-meuniere` - Sole Meunière / 黄油煎鳎鱼 / Sole meunière
 21. 103016 - `tarte-tatin` - Tarte Tatin / 反烤苹果塔 / Tarte tatin
 22. 103017 - `crepes` - Crêpes / 法式薄饼 / Crêpes
-23. 103023 - `moules-marinieres` - Moules Marinières / 白酒青口贝 / Moules marinières
-24. 103024 - `blanquette-de-veau` - Blanquette de Veau / 法式奶油小牛肉炖菜 / Blanquette de veau
-25. 103025 - `gratin-dauphinois` - Gratin Dauphinois / 法式奶油焗土豆 / Gratin dauphinois
-26. 103026 - `tartiflette` - Tartiflette / 法式奶酪培根焗土豆 / Tartiflette
-27. 103027 - `foie-gras` - Foie Gras / 鹅肝酱 / Foie gras
-28. 103028 - `madeleines` - Madeleines / 玛德琳小蛋糕 / Madeleines
-29. 103029 - `profiteroles` - Profiteroles / 泡芙冰淇淋巧克力酱 / Profiteroles
-30. 103030 - `paris-brest` - Paris-Brest / 巴黎布雷斯特泡芙 / Paris-Brest
+23. 103031 - `salade-lyonnaise` - Salade Lyonnaise / 里昂培根荷包蛋沙拉 / Salade lyonnaise
+24. 103032 - `galette-complete` - Galette Complète / 布列塔尼荞麦咸可丽饼 / Galette complète
+25. 103033 - `pissaladiere` - Pissaladière / 普罗旺斯洋葱鳀鱼塔 / Pissaladière
+26. 103034 - `socca` - Socca / 尼斯鹰嘴豆煎饼 / Socca
+27. 103035 - `brandade-de-morue` - Brandade de Morue / 法式奶油盐鳕鱼泥 / Brandade de morue
+28. 103036 - `aligot` - Aligot / 奶酪拉丝土豆泥 / Aligot
+29. 103037 - `raclette` - Raclette / 融化奶酪配土豆腌肉 / Raclette
+30. 103038 - `fondue-savoyarde` - Fondue Savoyarde / 萨瓦奶酪火锅 / Fondue savoyarde
+31. 103039 - `tartare-de-saumon` - Tartare de Saumon / 三文鱼塔塔 / Tartare de saumon
+32. 103040 - `magret-de-canard` - Magret de Canard / 煎鸭胸 / Magret de canard
+33. 103041 - `entrecote-bordelaise` - Entrecôte Bordelaise / 波尔多酱肋眼牛排 / Entrecôte à la bordelaise
+34. 103042 - `poulet-basquaise` - Poulet Basquaise / 巴斯克番椒炖鸡 / Poulet basquaise
+35. 103043 - `pot-au-feu` - Pot-au-Feu / 法式清炖牛肉蔬菜锅 / Pot-au-feu
+36. 103044 - `navarin-dagneau` - Navarin d'Agneau / 法式羊肉蔬菜炖锅 / Navarin d'agneau
+37. 103045 - `quenelles` - Quenelles / 里昂鱼肉丸配奶油酱 / Quenelles
+38. 103046 - `cuisses-de-grenouille` - Cuisses de Grenouille / 法式田鸡腿 / Cuisses de grenouille
+39. 103047 - `pate-de-campagne` - Pâté de Campagne / 乡村肉酱冻 / Pâté de campagne
+40. 103048 - `rillettes` - Rillettes / 法式猪肉丝抹酱 / Rillettes
+41. 103049 - `terrine` - Terrine / 法式冷肉冻或蔬菜冻 / Terrine
+42. 103050 - `plateau-de-fromages` - Plateau de Fromages / 法式奶酪拼盘 / Plateau de fromages
+43. 103051 - `charcuterie-board-french` - French Charcuterie Board / 法式熟肉拼盘 / Planche de charcuterie
+44. 103052 - `ile-flottante` - Île Flottante / 漂浮岛蛋白甜点 / Île flottante
+45. 103053 - `clafoutis` - Clafoutis / 法式樱桃蛋奶烤布丁 / Clafoutis
+46. 103054 - `mille-feuille` - Mille-Feuille / 法式拿破仑千层酥 / Mille-feuille
+47. 103055 - `eclair` - Éclair / 法式闪电泡芙 / Éclair
+48. 103056 - `macaron` - Macaron / 法式马卡龙 / Macaron
+49. 103057 - `tarte-au-citron` - Tarte au Citron / 柠檬塔 / Tarte au citron
+50. 103058 - `mousse-au-chocolat` - Mousse au Chocolat / 巧克力慕斯 / Mousse au chocolat
+51. 103059 - `souffle-au-fromage` - Soufflé au Fromage / 奶酪舒芙蕾 / Soufflé au fromage
+52. 103060 - `crepes-suzette` - Crêpes Suzette / 橙酒可丽饼 / Crêpes Suzette
+53. 103023 - `moules-marinieres` - Moules Marinières / 白酒青口贝 / Moules marinières
+54. 103024 - `blanquette-de-veau` - Blanquette de Veau / 法式奶油小牛肉炖菜 / Blanquette de veau
+55. 103025 - `gratin-dauphinois` - Gratin Dauphinois / 法式奶油焗土豆 / Gratin dauphinois
+56. 103026 - `tartiflette` - Tartiflette / 法式奶酪培根焗土豆 / Tartiflette
+57. 103027 - `foie-gras` - Foie Gras / 鹅肝酱 / Foie gras
+58. 103028 - `madeleines` - Madeleines / 玛德琳小蛋糕 / Madeleines
+59. 103029 - `profiteroles` - Profiteroles / 泡芙冰淇淋巧克力酱 / Profiteroles
+60. 103030 - `paris-brest` - Paris-Brest / 巴黎布雷斯特泡芙 / Paris-Brest
 
 ## German (german) - 30
 
