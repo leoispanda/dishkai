@@ -1,0 +1,3284 @@
+[
+  {
+    "id": "maakouda",
+    "metadataCode": "124019",
+    "cuisineId": "moroccan",
+    "names": {
+      "en": "Maakouda",
+      "zh": "摩洛哥土豆饼",
+      "nl": "Maakouda",
+      "local": "maakouda"
+    },
+    "category": "fried-snack",
+    "cookingMethods": [
+      "fried"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Maakouda is Moroccan fried potato patties with herbs and spices, often served with harissa or salad.",
+      "zh": "摩洛哥土豆饼通常是摩洛哥炸土豆饼，带香草和香料，常配哈里萨或沙拉。",
+      "nl": "Maakouda is meestal Marokkaanse aardappelkroketjes met kruiden, vaak met harissa of salade."
+    },
+    "cookingProfile": {
+      "en": "Expect crisp browned outside, soft potato center, and mild spice.",
+      "zh": "点餐时可预期外层焦脆，里面土豆柔软，香料温和。",
+      "nl": "Verwacht krokante buitenkant, zachte aardappelkern en milde kruiden."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "street-food",
+        "vegetarian-friendly"
+      ],
+      "description": {
+        "en": "Maakouda is recognized by Moroccan fried potato patties with herbs and spices, often served with harissa or salad.",
+        "zh": "摩洛哥土豆饼的识别重点是摩洛哥炸土豆饼，带香草和香料，常配哈里萨或沙拉。",
+        "nl": "Maakouda herken je aan Marokkaanse aardappelkroketjes met kruiden, vaak met harissa of salade."
+      }
+    },
+    "composition": [
+      [
+        "potato",
+        65,
+        "patty-base"
+      ],
+      [
+        "egg",
+        10,
+        "binder"
+      ],
+      [
+        "parsley",
+        10,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "cumin",
+        5,
+        "warm-spice",
+        "seasoning"
+      ],
+      [
+        "harissa",
+        5,
+        "dip",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "frying-medium",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "potato",
+      "cumin",
+      "parsley",
+      "harissa"
+    ],
+    "basicTaste": [
+      "savory",
+      "fried",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "crisp patty",
+      "soft potato center",
+      "dip-friendly"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "fried-snack",
+      "street-food"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, fried, mildly-spicy Maakouda; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、油炸香的摩洛哥土豆饼时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, gebakken Maakouda wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "batbout",
+    "metadataCode": "124020",
+    "cuisineId": "moroccan",
+    "names": {
+      "en": "Batbout",
+      "zh": "摩洛哥小口袋面包",
+      "nl": "Batbout",
+      "local": "batbout"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "baked",
+      "assembled"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Batbout is small Moroccan griddled pocket breads, plain or stuffed with tuna, salad, olives, or meat.",
+      "zh": "摩洛哥小口袋面包通常是摩洛哥小口袋面包，可原味或夹金枪鱼、沙拉、橄榄或肉。",
+      "nl": "Batbout is meestal kleine Marokkaanse pocketbroodjes, naturel of gevuld met tonijn, salade, olijven of vlees."
+    },
+    "cookingProfile": {
+      "en": "Expect soft round bread with a pocket-like center and flexible fillings.",
+      "zh": "点餐时可预期圆形小面包柔软，中间可夹不同馅料。",
+      "nl": "Verwacht zacht rond brood met pocketachtige binnenkant en wisselende vulling."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Batbout is recognized by small Moroccan griddled pocket breads, plain or stuffed with tuna, salad, olives, or meat.",
+        "zh": "摩洛哥小口袋面包的识别重点是摩洛哥小口袋面包，可原味或夹金枪鱼、沙拉、橄榄或肉。",
+        "nl": "Batbout herken je aan kleine Marokkaanse pocketbroodjes, naturel of gevuld met tonijn, salade, olijven of vlees."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        55,
+        "pocket-bread"
+      ],
+      [
+        "tuna",
+        15,
+        "common-filling"
+      ],
+      [
+        "olives",
+        10,
+        "briny-filling"
+      ],
+      [
+        "tomato",
+        10,
+        "freshness"
+      ],
+      [
+        "egg",
+        5,
+        "optional-filling"
+      ],
+      [
+        "harissa",
+        5,
+        "optional-heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "bread",
+      "tuna",
+      "olives",
+      "harissa"
+    ],
+    "basicTaste": [
+      "bready",
+      "savory",
+      "briny",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "soft pocket bread",
+      "varied filling",
+      "small sandwich"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-fish",
+      "contains-egg",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "snack"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "fish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want bready, savory, briny Batbout; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要面香、咸香、咸鲜海味的摩洛哥小口袋面包时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je broodachtige, hartige, ziltige Batbout wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "msemen",
+    "metadataCode": "124021",
+    "cuisineId": "moroccan",
+    "names": {
+      "en": "Msemen",
+      "zh": "摩洛哥方形千层薄饼",
+      "nl": "Msemen",
+      "local": "msemen"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "fried",
+      "layered"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Msemen is square Moroccan layered flatbread, often served with honey, butter, or savory fillings.",
+      "zh": "摩洛哥方形千层薄饼通常是方形摩洛哥分层薄饼，常配蜂蜜、黄油或咸馅。",
+      "nl": "Msemen is meestal vierkant Marokkaans gelaagd platbrood, vaak met honing, boter of hartige vulling."
+    },
+    "cookingProfile": {
+      "en": "Expect flaky chewy layers with browned griddle spots.",
+      "zh": "点餐时可预期层次松韧，表面有煎香斑点。",
+      "nl": "Verwacht vlokkige taaie laagjes met bruine bakplekken."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Msemen is recognized by square Moroccan layered flatbread, often served with honey, butter, or savory fillings.",
+        "zh": "摩洛哥方形千层薄饼的识别重点是方形摩洛哥分层薄饼，常配蜂蜜、黄油或咸馅。",
+        "nl": "Msemen herken je aan vierkant Marokkaans gelaagd platbrood, vaak met honing, boter of hartige vulling."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        65,
+        "layered-dough"
+      ],
+      [
+        "butter",
+        15,
+        "richness"
+      ],
+      [
+        "honey",
+        10,
+        "sweet-side"
+      ],
+      [
+        "semolina",
+        5,
+        "texture"
+      ],
+      [
+        "sea-salt",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "wheat-flour",
+      "butter",
+      "honey"
+    ],
+    "basicTaste": [
+      "bready",
+      "buttery",
+      "mildly-sweet"
+    ],
+    "textureProfile": [
+      "layered flatbread",
+      "chewy folds",
+      "browned surface"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "breakfast",
+      "bread"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want bready, buttery, mildly-sweet Msemen; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要面香、黄油香、微甜的摩洛哥方形千层薄饼时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je broodachtige, boterige, licht zoete Msemen wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "baghrir",
+    "metadataCode": "124022",
+    "cuisineId": "moroccan",
+    "names": {
+      "en": "Baghrir",
+      "zh": "摩洛哥千孔薄饼",
+      "nl": "Baghrir",
+      "local": "baghrir"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "fried"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Baghrir is Moroccan thousand-hole pancakes made with semolina and served with butter and honey.",
+      "zh": "摩洛哥千孔薄饼通常是摩洛哥千孔薄饼，用粗粒小麦做成，常配黄油和蜂蜜。",
+      "nl": "Baghrir is meestal Marokkaanse duizendgaatjespannenkoek van griesmeel met boter en honing."
+    },
+    "cookingProfile": {
+      "en": "Expect spongy porous pancakes that soak up butter and honey.",
+      "zh": "点餐时可预期表面多孔松软，很会吸收黄油和蜂蜜。",
+      "nl": "Verwacht sponzige poreuze pannenkoekjes die boter en honing opnemen."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Baghrir is recognized by Moroccan thousand-hole pancakes made with semolina and served with butter and honey.",
+        "zh": "摩洛哥千孔薄饼的识别重点是摩洛哥千孔薄饼，用粗粒小麦做成，常配黄油和蜂蜜。",
+        "nl": "Baghrir herken je aan Marokkaanse duizendgaatjespannenkoek van griesmeel met boter en honing."
+      }
+    },
+    "composition": [
+      [
+        "semolina",
+        55,
+        "pancake-base"
+      ],
+      [
+        "wheat-flour",
+        20,
+        "structure"
+      ],
+      [
+        "butter",
+        10,
+        "finish"
+      ],
+      [
+        "honey",
+        10,
+        "sweet-finish"
+      ],
+      [
+        "sea-salt",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "semolina",
+      "butter",
+      "honey"
+    ],
+    "basicTaste": [
+      "mild",
+      "sweet",
+      "buttery"
+    ],
+    "textureProfile": [
+      "spongy holes",
+      "soft pancake",
+      "syrup-soaked top"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "breakfast",
+      "sweet-snack"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want mild, sweet, buttery Baghrir; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要温和、甜味、黄油香的摩洛哥千孔薄饼时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je milde, zoete, boterige Baghrir wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "khobz",
+    "metadataCode": "124023",
+    "cuisineId": "moroccan",
+    "names": {
+      "en": "Khobz",
+      "zh": "摩洛哥圆面包",
+      "nl": "Khobz",
+      "local": "khobz"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "baked"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Khobz is round Moroccan bread with a crusty outside and dense crumb, used for scooping stews and dips.",
+      "zh": "摩洛哥圆面包通常是摩洛哥圆面包，外壳有嚼劲、内里扎实，常用来蘸炖菜和蘸酱。",
+      "nl": "Khobz is meestal rond Marokkaans brood met korst en dichte kruim, gebruikt om stoof en dips te scheppen."
+    },
+    "cookingProfile": {
+      "en": "Expect chewy crust, sturdy crumb, and a practical dipping role.",
+      "zh": "点餐时可预期外壳有嚼劲，内里扎实，主要用来蘸食。",
+      "nl": "Verwacht taaie korst, stevige kruim en praktisch om te dippen."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Khobz is recognized by round Moroccan bread with a crusty outside and dense crumb, used for scooping stews and dips.",
+        "zh": "摩洛哥圆面包的识别重点是摩洛哥圆面包，外壳有嚼劲、内里扎实，常用来蘸炖菜和蘸酱。",
+        "nl": "Khobz herken je aan rond Marokkaans brood met korst en dichte kruim, gebruikt om stoof en dips te scheppen."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        80,
+        "round-loaf"
+      ],
+      [
+        "wheat-flour",
+        10,
+        "structure"
+      ],
+      [
+        "sea-salt",
+        5,
+        "seasoning",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "optional-finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "bread",
+      "wheat-flour",
+      "sea-salt"
+    ],
+    "basicTaste": [
+      "bready",
+      "mild",
+      "savory"
+    ],
+    "textureProfile": [
+      "crusty round loaf",
+      "dense crumb",
+      "tearable pieces"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "goodForTags": [
+      "bread",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "wants-protein-main"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want bready, mild, savory Khobz; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要面香、温和、咸香的摩洛哥圆面包时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je broodachtige, milde, hartige Khobz wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "sardines-chermoula",
+    "metadataCode": "124024",
+    "cuisineId": "moroccan",
+    "names": {
+      "en": "Sardines Chermoula",
+      "zh": "摩洛哥香草腌沙丁鱼",
+      "nl": "Sardines chermoula",
+      "local": "sardines chermoula"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "grilled",
+      "fried"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Sardines Chermoula is sardines coated with chermoula-style herbs, garlic, lemon, cumin, and paprika.",
+      "zh": "摩洛哥香草腌沙丁鱼通常是沙丁鱼裹香草蒜柠檬孜然红椒粉腌料。",
+      "nl": "Sardines chermoula is meestal sardines met chermoula-achtige kruiden, knoflook, citroen, komijn en paprika."
+    },
+    "cookingProfile": {
+      "en": "Expect oily fish, herb paste, lemon, and a grilled or fried edge.",
+      "zh": "点餐时可预期沙丁鱼油润，香草腌料和柠檬明显，边缘可烤香或炸香。",
+      "nl": "Verwacht vette vis met kruidenpasta, citroen en gegrilde of gebakken rand."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Sardines Chermoula is recognized by sardines coated with chermoula-style herbs, garlic, lemon, cumin, and paprika.",
+        "zh": "摩洛哥香草腌沙丁鱼的识别重点是沙丁鱼裹香草蒜柠檬孜然红椒粉腌料。",
+        "nl": "Sardines chermoula herken je aan sardines met chermoula-achtige kruiden, knoflook, citroen, komijn en paprika."
+      }
+    },
+    "composition": [
+      [
+        "sardines",
+        65,
+        "main-fish"
+      ],
+      [
+        "parsley",
+        10,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        10,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "finish"
+      ],
+      [
+        "cumin",
+        5,
+        "warm-spice",
+        "seasoning"
+      ],
+      [
+        "paprika",
+        5,
+        "red-spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "sardines",
+      "garlic",
+      "lemon",
+      "cumin"
+    ],
+    "basicTaste": [
+      "briny",
+      "herbal",
+      "garlicky",
+      "lemony"
+    ],
+    "textureProfile": [
+      "oily fish",
+      "herb coating",
+      "small bones possible"
+    ],
+    "riskFlags": [
+      "contains-fish"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "seafood",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "dislikes-oily-fish"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want briny, herbal, garlicky Sardines Chermoula; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸鲜海味、香草味、蒜香的摩洛哥香草腌沙丁鱼时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je ziltige, kruidige, knoflookrijke Sardines chermoula wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "fish-tagine",
+    "metadataCode": "124025",
+    "cuisineId": "moroccan",
+    "names": {
+      "en": "Fish Tagine",
+      "zh": "摩洛哥鱼塔吉锅",
+      "nl": "Vistajine",
+      "local": "tagine de poisson"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "braised",
+      "simmered"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Fish Tagine is Moroccan fish cooked with potatoes, tomatoes, peppers, olives, lemon, and chermoula spices.",
+      "zh": "摩洛哥鱼塔吉锅通常是摩洛哥鱼配土豆、番茄、甜椒、橄榄、柠檬和香料炖煮。",
+      "nl": "Vistajine is meestal Marokkaanse vis met aardappel, tomaat, paprika, olijven, citroen en chermoula-kruiden."
+    },
+    "cookingProfile": {
+      "en": "Expect flaky fish in a warm vegetable sauce with lemon and olives.",
+      "zh": "点餐时可预期鱼肉片状，蔬菜酱汁温热，柠檬和橄榄突出。",
+      "nl": "Verwacht vlokkige vis in warme groentesaus met citroen en olijven."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Fish Tagine is recognized by Moroccan fish cooked with potatoes, tomatoes, peppers, olives, lemon, and chermoula spices.",
+        "zh": "摩洛哥鱼塔吉锅的识别重点是摩洛哥鱼配土豆、番茄、甜椒、橄榄、柠檬和香料炖煮。",
+        "nl": "Vistajine herken je aan Marokkaanse vis met aardappel, tomaat, paprika, olijven, citroen en chermoula-kruiden."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        45,
+        "main-fish"
+      ],
+      [
+        "potato",
+        20,
+        "vegetable"
+      ],
+      [
+        "tomato",
+        15,
+        "sauce-body"
+      ],
+      [
+        "olives",
+        10,
+        "briny-side"
+      ],
+      [
+        "lemon",
+        5,
+        "finish"
+      ],
+      [
+        "cumin",
+        5,
+        "warm-spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fish-fillet",
+      "olives",
+      "lemon",
+      "cumin"
+    ],
+    "basicTaste": [
+      "savory",
+      "briny",
+      "lemony",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "flaky fish",
+      "soft potatoes",
+      "saucy vegetables"
+    ],
+    "riskFlags": [
+      "contains-fish"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "seafood",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "dislikes-stewed-fish"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, briny, lemony Fish Tagine; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、咸鲜海味、柠檬清香的摩洛哥鱼塔吉锅时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, ziltige, citroenfrisse Vistajine wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "chicken-bastilla",
+    "metadataCode": "124026",
+    "cuisineId": "moroccan",
+    "names": {
+      "en": "Chicken Bastilla",
+      "zh": "摩洛哥鸡肉甜咸派",
+      "nl": "Kipbastilla",
+      "local": "pastilla au poulet"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "baked",
+      "layered"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Chicken Bastilla is a Moroccan savory-sweet pie with flaky pastry, spiced chicken, almonds, cinnamon, and sugar.",
+      "zh": "摩洛哥鸡肉甜咸派通常是摩洛哥甜咸派，有酥皮、香料鸡肉、杏仁、肉桂和糖粉。",
+      "nl": "Kipbastilla is meestal Marokkaanse hartig-zoete pastei met bladerig deeg, gekruide kip, amandel, kaneel en suiker."
+    },
+    "cookingProfile": {
+      "en": "Expect crisp pastry, soft spiced chicken, nut crunch, and sweet cinnamon finish.",
+      "zh": "点餐时可预期酥皮脆，鸡肉柔软带香料，坚果脆，肉桂甜味收尾。",
+      "nl": "Verwacht krokant deeg, zachte gekruide kip, notenknak en zoete kaneelafwerking."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Chicken Bastilla is recognized by a Moroccan savory-sweet pie with flaky pastry, spiced chicken, almonds, cinnamon, and sugar.",
+        "zh": "摩洛哥鸡肉甜咸派的识别重点是摩洛哥甜咸派，有酥皮、香料鸡肉、杏仁、肉桂和糖粉。",
+        "nl": "Kipbastilla herken je aan Marokkaanse hartig-zoete pastei met bladerig deeg, gekruide kip, amandel, kaneel en suiker."
+      }
+    },
+    "composition": [
+      [
+        "phyllo-pastry",
+        35,
+        "pastry-shell"
+      ],
+      [
+        "chicken",
+        30,
+        "spiced-filling"
+      ],
+      [
+        "almonds",
+        15,
+        "nut-layer"
+      ],
+      [
+        "egg",
+        10,
+        "binder"
+      ],
+      [
+        "cinnamon",
+        5,
+        "sweet-spice",
+        "seasoning"
+      ],
+      [
+        "sugar",
+        5,
+        "dusting"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "chicken",
+      "almonds",
+      "cinnamon",
+      "sugar"
+    ],
+    "basicTaste": [
+      "savory",
+      "sweet",
+      "nutty",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "flaky pastry",
+      "soft filling",
+      "nut crunch"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-tree-nut",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "classic-dish",
+      "sweet-savory"
+    ],
+    "avoidIfTags": [
+      "nut-allergy",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, sweet, nutty Chicken Bastilla; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、甜味、坚果香的摩洛哥鸡肉甜咸派时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, zoete, nootachtige Kipbastilla wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "almond-briouat",
+    "metadataCode": "124027",
+    "cuisineId": "moroccan",
+    "names": {
+      "en": "Almond Briouat",
+      "zh": "摩洛哥杏仁三角酥",
+      "nl": "Amandelbriouat",
+      "local": "briouat aux amandes"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "deep-fried"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Almond Briouat is small triangular pastries filled with almond paste, fried and coated with honey or syrup.",
+      "zh": "摩洛哥杏仁三角酥通常是小三角酥皮包杏仁馅，炸后裹蜂蜜或糖浆。",
+      "nl": "Amandelbriouat is meestal kleine driehoekige deegpakketjes met amandelvulling, gefrituurd en met honing of siroop."
+    },
+    "cookingProfile": {
+      "en": "Expect crisp pastry, dense almond center, honey gloss, and sesame or nut aroma.",
+      "zh": "点餐时可预期外皮酥脆，杏仁馅扎实，蜂蜜发亮，带芝麻或坚果香。",
+      "nl": "Verwacht krokant deeg, dichte amandelkern, honingglans en nootachtige geur."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Almond Briouat is recognized by small triangular pastries filled with almond paste, fried and coated with honey or syrup.",
+        "zh": "摩洛哥杏仁三角酥的识别重点是小三角酥皮包杏仁馅，炸后裹蜂蜜或糖浆。",
+        "nl": "Amandelbriouat herken je aan kleine driehoekige deegpakketjes met amandelvulling, gefrituurd en met honing of siroop."
+      }
+    },
+    "composition": [
+      [
+        "phyllo-pastry",
+        45,
+        "wrapper"
+      ],
+      [
+        "almond-paste",
+        35,
+        "filling"
+      ],
+      [
+        "honey",
+        10,
+        "coating"
+      ],
+      [
+        "sesame-seeds",
+        5,
+        "garnish"
+      ],
+      [
+        "cinnamon",
+        5,
+        "spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "almond-paste",
+      "honey",
+      "sesame-seeds",
+      "cinnamon"
+    ],
+    "basicTaste": [
+      "sweet",
+      "nutty",
+      "fried",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "crisp triangle",
+      "dense filling",
+      "sticky coating"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-tree-nut",
+      "contains-sesame"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "sweet-snack"
+    ],
+    "avoidIfTags": [
+      "nut-allergy",
+      "sesame-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want sweet, nutty, fried Almond Briouat; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要甜味、坚果香、油炸香的摩洛哥杏仁三角酥时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je zoete, nootachtige, gebakken Amandelbriouat wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "chebakia",
+    "metadataCode": "124028",
+    "cuisineId": "moroccan",
+    "names": {
+      "en": "Chebakia",
+      "zh": "摩洛哥蜂蜜芝麻花形饼",
+      "nl": "Chebakia",
+      "local": "chebakia"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "deep-fried"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Chebakia is flower-shaped fried sesame cookies soaked in honey syrup, often eaten with tea or during Ramadan.",
+      "zh": "摩洛哥蜂蜜芝麻花形饼通常是花形油炸芝麻点心，浸蜂蜜糖浆，常配茶或斋月食用。",
+      "nl": "Chebakia is meestal bloemvormige gefrituurde sesamkoekjes in honingsiroop, vaak met thee of tijdens ramadan."
+    },
+    "cookingProfile": {
+      "en": "Expect sticky honey coating, crisp-fried folds, sesame crunch, and warm spice.",
+      "zh": "点餐时可预期蜂蜜外层黏润，褶皱酥脆，芝麻香和温暖香料明显。",
+      "nl": "Verwacht kleverige honinglaag, krokante vouwen, sesamknak en warme kruiden."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Chebakia is recognized by flower-shaped fried sesame cookies soaked in honey syrup, often eaten with tea or during Ramadan.",
+        "zh": "摩洛哥蜂蜜芝麻花形饼的识别重点是花形油炸芝麻点心，浸蜂蜜糖浆，常配茶或斋月食用。",
+        "nl": "Chebakia herken je aan bloemvormige gefrituurde sesamkoekjes in honingsiroop, vaak met thee of tijdens ramadan."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        35,
+        "dough"
+      ],
+      [
+        "honey",
+        25,
+        "syrup"
+      ],
+      [
+        "sesame-seeds",
+        20,
+        "seed-flavor"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
+      ],
+      [
+        "cinnamon",
+        5,
+        "spice",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "frying-medium",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "honey",
+      "sesame-seeds",
+      "cinnamon"
+    ],
+    "basicTaste": [
+      "very-sweet",
+      "nutty",
+      "fried",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "sticky coating",
+      "crisp folds",
+      "seed crunch"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-sesame"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "sweet-snack"
+    ],
+    "avoidIfTags": [
+      "sesame-allergy",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want very-sweet, nutty, fried Chebakia; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要高甜、坚果香、油炸香的摩洛哥蜂蜜芝麻花形饼时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je heel zoete, nootachtige, gebakken Chebakia wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "mhancha",
+    "metadataCode": "124029",
+    "cuisineId": "moroccan",
+    "names": {
+      "en": "Mhancha",
+      "zh": "摩洛哥杏仁蛇形卷",
+      "nl": "Mhancha",
+      "local": "mhancha"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked",
+      "layered"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Mhancha is a coiled Moroccan pastry filled with almond paste and flavored with cinnamon, honey, or orange blossom.",
+      "zh": "摩洛哥杏仁蛇形卷通常是盘成蛇形的摩洛哥酥皮，内有杏仁馅，常带肉桂、蜂蜜或花香。",
+      "nl": "Mhancha is meestal opgerolde Marokkaanse pastei met amandelvulling en kaneel, honing of bloemengeur."
+    },
+    "cookingProfile": {
+      "en": "Expect flaky spiral pastry, dense almond filling, and sweet spice.",
+      "zh": "点餐时可预期螺旋酥皮松脆，杏仁馅扎实，甜香料明显。",
+      "nl": "Verwacht vlokkige spiraal, dichte amandelvulling en zoete kruiden."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Mhancha is recognized by a coiled Moroccan pastry filled with almond paste and flavored with cinnamon, honey, or orange blossom.",
+        "zh": "摩洛哥杏仁蛇形卷的识别重点是盘成蛇形的摩洛哥酥皮，内有杏仁馅，常带肉桂、蜂蜜或花香。",
+        "nl": "Mhancha herken je aan opgerolde Marokkaanse pastei met amandelvulling en kaneel, honing of bloemengeur."
+      }
+    },
+    "composition": [
+      [
+        "phyllo-pastry",
+        45,
+        "spiral-pastry"
+      ],
+      [
+        "almond-paste",
+        35,
+        "filling"
+      ],
+      [
+        "honey",
+        10,
+        "sweet-finish"
+      ],
+      [
+        "cinnamon",
+        5,
+        "spice",
+        "seasoning"
+      ],
+      [
+        "sugar",
+        5,
+        "dusting"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "almond-paste",
+      "honey",
+      "cinnamon"
+    ],
+    "basicTaste": [
+      "sweet",
+      "nutty",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "flaky pastry",
+      "dense filling",
+      "spiral slices"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "nut-allergy",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want sweet, nutty, warm-spiced Mhancha; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要甜味、坚果香、温暖香料的摩洛哥杏仁蛇形卷时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je zoete, nootachtige, warm gekruide Mhancha wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "sellou",
+    "metadataCode": "124030",
+    "cuisineId": "moroccan",
+    "names": {
+      "en": "Sellou",
+      "zh": "摩洛哥芝麻杏仁甜粉",
+      "nl": "Sellou",
+      "local": "sellou"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "assembled",
+      "toasted"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Sellou is a Moroccan sweet made from toasted flour or semolina, sesame, almonds, honey, and spices.",
+      "zh": "摩洛哥芝麻杏仁甜粉通常是摩洛哥甜食，由烤面粉或粗粒小麦、芝麻、杏仁、蜂蜜和香料组成。",
+      "nl": "Sellou is meestal Marokkaans zoet van geroosterd meel of griesmeel, sesam, amandel, honing en kruiden."
+    },
+    "cookingProfile": {
+      "en": "Expect crumbly sandy texture, toasted nut aroma, and dense sweetness.",
+      "zh": "点餐时可预期口感松散像甜粉，烤坚果香明显，甜度密集。",
+      "nl": "Verwacht kruimelig zanderige structuur, geroosterde nootgeur en dichte zoetheid."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Sellou is recognized by a Moroccan sweet made from toasted flour or semolina, sesame, almonds, honey, and spices.",
+        "zh": "摩洛哥芝麻杏仁甜粉的识别重点是摩洛哥甜食，由烤面粉或粗粒小麦、芝麻、杏仁、蜂蜜和香料组成。",
+        "nl": "Sellou herken je aan Marokkaans zoet van geroosterd meel of griesmeel, sesam, amandel, honing en kruiden."
+      }
+    },
+    "composition": [
+      [
+        "semolina",
+        35,
+        "toasted-base"
+      ],
+      [
+        "almonds",
+        25,
+        "nut-body"
+      ],
+      [
+        "sesame-seeds",
+        20,
+        "seed-body"
+      ],
+      [
+        "honey",
+        10,
+        "sweetness"
+      ],
+      [
+        "cinnamon",
+        5,
+        "spice",
+        "seasoning"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "almonds",
+      "sesame-seeds",
+      "honey",
+      "cinnamon"
+    ],
+    "basicTaste": [
+      "sweet",
+      "nutty",
+      "toasty",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "crumbly mound",
+      "dense bite",
+      "seed crunch"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-tree-nut",
+      "contains-sesame",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "sweet-snack"
+    ],
+    "avoidIfTags": [
+      "nut-allergy",
+      "sesame-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want sweet, nutty, toasty Sellou; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要甜味、坚果香、烘烤香的摩洛哥芝麻杏仁甜粉时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je zoete, nootachtige, geroosterde Sellou wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "key-wat",
+    "metadataCode": "127013",
+    "cuisineId": "ethiopian",
+    "names": {
+      "en": "Key Wat",
+      "zh": "埃塞红辣牛肉炖菜",
+      "nl": "Key wat",
+      "local": "key wat"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "braised",
+      "simmered"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Key Wat is Ethiopian spicy red beef stew with berbere, often served on injera.",
+      "zh": "埃塞红辣牛肉炖菜通常是埃塞 贝贝雷 红辣牛肉炖菜，常铺在英吉拉上。",
+      "nl": "Key wat is meestal Ethiopische pittige rode rundstoof met berbere, vaak op injera."
+    },
+    "cookingProfile": {
+      "en": "Expect deep red sauce, tender meat, berbere heat, and spongy injera underneath.",
+      "zh": "点餐时可预期红酱浓，肉软烂，贝贝雷 辣香明显，下面是英吉拉。",
+      "nl": "Verwacht dieprode saus, mals vlees, berberehitte en sponsachtige injera eronder."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Key Wat is recognized by Ethiopian spicy red beef stew with berbere, often served on injera.",
+        "zh": "埃塞红辣牛肉炖菜的识别重点是埃塞 贝贝雷 红辣牛肉炖菜，常铺在英吉拉上。",
+        "nl": "Key wat herken je aan Ethiopische pittige rode rundstoof met berbere, vaak op injera."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        50,
+        "stew-meat"
+      ],
+      [
+        "injera",
+        25,
+        "serving-base"
+      ],
+      [
+        "berbere",
+        10,
+        "red-spice",
+        "seasoning"
+      ],
+      [
+        "niter-kibbeh",
+        10,
+        "spiced-fat",
+        "seasoning"
+      ],
+      [
+        "onion",
+        5,
+        "sauce-base"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "berbere",
+      "niter-kibbeh",
+      "beef",
+      "injera"
+    ],
+    "basicTaste": [
+      "spicy",
+      "savory",
+      "rich",
+      "fermented-tangy"
+    ],
+    "textureProfile": [
+      "tender meat",
+      "thick red sauce",
+      "spongy injera"
+    ],
+    "riskFlags": [
+      "can-be-spicy",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "spicy",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "spice-sensitive",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want spicy, savory, rich Key Wat; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要辣味、咸香、浓郁的埃塞红辣牛肉炖菜时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je pittige, hartige, rijke Key wat wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 3,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "alicha-wat",
+    "metadataCode": "127014",
+    "cuisineId": "ethiopian",
+    "names": {
+      "en": "Alicha Wat",
+      "zh": "埃塞黄姜黄炖菜",
+      "nl": "Alicha wat",
+      "local": "alicha wat"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Alicha Wat is a mild yellow Ethiopian stew with turmeric, meat or vegetables, potatoes, carrots, and injera.",
+      "zh": "埃塞黄姜黄炖菜通常是温和黄色埃塞炖菜，带姜黄、肉或蔬菜、土豆、胡萝卜和英吉拉。",
+      "nl": "Alicha wat is meestal milde gele Ethiopische stoof met kurkuma, vlees of groente, aardappel, wortel en injera."
+    },
+    "cookingProfile": {
+      "en": "Expect softer spice than red wat, with yellow sauce and tender vegetables.",
+      "zh": "点餐时可预期比红炖菜香料更柔和，黄色酱汁和蔬菜柔软。",
+      "nl": "Verwacht zachtere kruiden dan rode wat, met gele saus en zachte groente."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Alicha Wat is recognized by a mild yellow Ethiopian stew with turmeric, meat or vegetables, potatoes, carrots, and injera.",
+        "zh": "埃塞黄姜黄炖菜的识别重点是温和黄色埃塞炖菜，带姜黄、肉或蔬菜、土豆、胡萝卜和英吉拉。",
+        "nl": "Alicha wat herken je aan milde gele Ethiopische stoof met kurkuma, vlees of groente, aardappel, wortel en injera."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        30,
+        "optional-meat"
+      ],
+      [
+        "potato",
+        25,
+        "vegetable"
+      ],
+      [
+        "carrot",
+        15,
+        "vegetable"
+      ],
+      [
+        "injera",
+        15,
+        "serving-base"
+      ],
+      [
+        "turmeric",
+        10,
+        "yellow-spice",
+        "seasoning"
+      ],
+      [
+        "niter-kibbeh",
+        5,
+        "spiced-fat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "turmeric",
+      "niter-kibbeh",
+      "potato",
+      "injera"
+    ],
+    "basicTaste": [
+      "mild",
+      "savory",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "soft vegetables",
+      "yellow sauce",
+      "spongy injera"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "mild-choice",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "wants-spicy-red-stew"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want mild, savory, warm-spiced Alicha Wat; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要温和、咸香、温暖香料的埃塞黄姜黄炖菜时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je milde, hartige, warm gekruide Alicha wat wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "minchet-abish",
+    "metadataCode": "127015",
+    "cuisineId": "ethiopian",
+    "names": {
+      "en": "Minchet Abish",
+      "zh": "埃塞辣肉末炖菜",
+      "nl": "Minchet abish",
+      "local": "minchet abish"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Minchet Abish is Ethiopian minced beef stew in red berbere sauce, often served with egg and injera.",
+      "zh": "埃塞辣肉末炖菜通常是埃塞红色 贝贝雷 肉末炖菜，常配鸡蛋和英吉拉。",
+      "nl": "Minchet abish is meestal Ethiopische rundergehaktstoof in rode berberesaus, vaak met ei en injera."
+    },
+    "cookingProfile": {
+      "en": "Expect fine meat texture, thick red sauce, and strong spice warmth.",
+      "zh": "点餐时可预期肉末细碎，红酱浓稠，香料热度明显。",
+      "nl": "Verwacht fijne vleesstructuur, dikke rode saus en duidelijke kruidenwarmte."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Minchet Abish is recognized by Ethiopian minced beef stew in red berbere sauce, often served with egg and injera.",
+        "zh": "埃塞辣肉末炖菜的识别重点是埃塞红色 贝贝雷 肉末炖菜，常配鸡蛋和英吉拉。",
+        "nl": "Minchet abish herken je aan Ethiopische rundergehaktstoof in rode berberesaus, vaak met ei en injera."
+      }
+    },
+    "composition": [
+      [
+        "ground-meat",
+        45,
+        "minced-beef"
+      ],
+      [
+        "injera",
+        25,
+        "serving-base"
+      ],
+      [
+        "berbere",
+        10,
+        "red-spice",
+        "seasoning"
+      ],
+      [
+        "egg",
+        10,
+        "boiled-egg"
+      ],
+      [
+        "niter-kibbeh",
+        5,
+        "spiced-fat",
+        "seasoning"
+      ],
+      [
+        "onion",
+        5,
+        "sauce-base"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "berbere",
+      "ground-meat",
+      "niter-kibbeh",
+      "egg"
+    ],
+    "basicTaste": [
+      "spicy",
+      "savory",
+      "rich"
+    ],
+    "textureProfile": [
+      "fine minced meat",
+      "thick sauce",
+      "spongy injera"
+    ],
+    "riskFlags": [
+      "can-be-spicy",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "spicy",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "spice-sensitive",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want spicy, savory, rich Minchet Abish; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要辣味、咸香、浓郁的埃塞辣肉末炖菜时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je pittige, hartige, rijke Minchet abish wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 3,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "dulet",
+    "metadataCode": "127016",
+    "cuisineId": "ethiopian",
+    "names": {
+      "en": "Dulet",
+      "zh": "埃塞香辣内脏碎",
+      "nl": "Dulet",
+      "local": "dulet"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "stir-fried"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Dulet is Ethiopian chopped offal or tripe mixture with herbs, chili, onion, and spiced butter.",
+      "zh": "埃塞香辣内脏碎通常是埃塞内脏或牛肚碎，配香草、辣椒、洋葱和香料黄油。",
+      "nl": "Dulet is meestal Ethiopisch gehakt orgaanvlees of pens met kruiden, chili, ui en gekruide boter."
+    },
+    "cookingProfile": {
+      "en": "Expect chewy chopped meat, herbal heat, and a more acquired offal flavor.",
+      "zh": "点餐时可预期内脏有嚼劲，香草辣味明显，风味较需要适应。",
+      "nl": "Verwacht kauwbaar gehakt orgaanvlees, kruidige hitte en uitgesproken orgaansmaak."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Dulet is recognized by Ethiopian chopped offal or tripe mixture with herbs, chili, onion, and spiced butter.",
+        "zh": "埃塞香辣内脏碎的识别重点是埃塞内脏或牛肚碎，配香草、辣椒、洋葱和香料黄油。",
+        "nl": "Dulet herken je aan Ethiopisch gehakt orgaanvlees of pens met kruiden, chili, ui en gekruide boter."
+      }
+    },
+    "composition": [
+      [
+        "offal",
+        55,
+        "main-offal"
+      ],
+      [
+        "green-onion",
+        15,
+        "fresh-aroma"
+      ],
+      [
+        "mitmita",
+        10,
+        "hot-spice",
+        "seasoning"
+      ],
+      [
+        "niter-kibbeh",
+        10,
+        "spiced-fat",
+        "seasoning"
+      ],
+      [
+        "injera",
+        10,
+        "side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "offal",
+      "mitmita",
+      "niter-kibbeh",
+      "green-onion"
+    ],
+    "basicTaste": [
+      "spicy",
+      "savory",
+      "buttery",
+      "herbal"
+    ],
+    "textureProfile": [
+      "chopped chewy pieces",
+      "warm butter coating",
+      "injera side"
+    ],
+    "riskFlags": [
+      "can-be-spicy",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "adventurous-eater",
+      "spicy"
+    ],
+    "avoidIfTags": [
+      "dislikes-offal",
+      "spice-sensitive"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want spicy, savory, buttery Dulet; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要辣味、咸香、黄油香的埃塞香辣内脏碎时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je pittige, hartige, boterige Dulet wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 3,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 4,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "derek-tibs",
+    "metadataCode": "127017",
+    "cuisineId": "ethiopian",
+    "names": {
+      "en": "Derek Tibs",
+      "zh": "埃塞干炒肉块",
+      "nl": "Derek tibs",
+      "local": "derek tibs"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "stir-fried"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Derek Tibs is Ethiopian dry-fried beef or lamb cubes with onion, pepper, rosemary, and spiced butter.",
+      "zh": "埃塞干炒肉块通常是埃塞干炒牛肉或羊肉块，配洋葱、辣椒、迷迭香和香料黄油。",
+      "nl": "Derek tibs is meestal Ethiopische drooggebakken rund- of lamsblokjes met ui, peper, rozemarijn en gekruide boter."
+    },
+    "cookingProfile": {
+      "en": "Expect browned meat cubes, less sauce than wat, and a grilled-pan flavor.",
+      "zh": "点餐时可预期肉块煎炒上色，比 炖菜 汁少，有锅香。",
+      "nl": "Verwacht bruine vleesblokjes, minder saus dan wat en gebakken pansmaak."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Derek Tibs is recognized by Ethiopian dry-fried beef or lamb cubes with onion, pepper, rosemary, and spiced butter.",
+        "zh": "埃塞干炒肉块的识别重点是埃塞干炒牛肉或羊肉块，配洋葱、辣椒、迷迭香和香料黄油。",
+        "nl": "Derek tibs herken je aan Ethiopische drooggebakken rund- of lamsblokjes met ui, peper, rozemarijn en gekruide boter."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        60,
+        "meat-cubes"
+      ],
+      [
+        "onion",
+        15,
+        "aroma"
+      ],
+      [
+        "bell-pepper",
+        10,
+        "vegetable"
+      ],
+      [
+        "niter-kibbeh",
+        10,
+        "spiced-fat",
+        "seasoning"
+      ],
+      [
+        "rosemary",
+        5,
+        "herb",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "beef",
+      "niter-kibbeh",
+      "rosemary",
+      "onion"
+    ],
+    "basicTaste": [
+      "savory",
+      "buttery",
+      "lightly-spicy"
+    ],
+    "textureProfile": [
+      "browned cubes",
+      "dry-fried edges",
+      "soft onions"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "grilled",
+      "meat-lover"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "wants-saucy-stew"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, buttery, lightly-spicy Derek Tibs; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、黄油香的埃塞干炒肉块时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, boterige Derek tibs wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "shekla-tibs",
+    "metadataCode": "127018",
+    "cuisineId": "ethiopian",
+    "names": {
+      "en": "Shekla Tibs",
+      "zh": "埃塞陶锅炒肉",
+      "nl": "Shekla tibs",
+      "local": "shekla tibs"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "stir-fried"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Shekla Tibs is Ethiopian tibs served sizzling in a clay pot with meat, onion, peppers, and spiced butter.",
+      "zh": "埃塞陶锅炒肉通常是埃塞陶锅热炒肉，带肉块、洋葱、甜椒和香料黄油。",
+      "nl": "Shekla tibs is meestal Ethiopische tibs sissend in kleipot met vlees, ui, paprika en gekruide boter."
+    },
+    "cookingProfile": {
+      "en": "Expect hot sizzling pot, browned meat, softened peppers, and buttery spice.",
+      "zh": "点餐时可预期陶锅上桌滚热，肉焦香，甜椒变软，香料黄油明显。",
+      "nl": "Verwacht hete sissende pot, bruin vlees, zachte paprika en boterige kruiden."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Shekla Tibs is recognized by Ethiopian tibs served sizzling in a clay pot with meat, onion, peppers, and spiced butter.",
+        "zh": "埃塞陶锅炒肉的识别重点是埃塞陶锅热炒肉，带肉块、洋葱、甜椒和香料黄油。",
+        "nl": "Shekla tibs herken je aan Ethiopische tibs sissend in kleipot met vlees, ui, paprika en gekruide boter."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        45,
+        "meat-strips"
+      ],
+      [
+        "beef",
+        20,
+        "alternate-meat"
+      ],
+      [
+        "onion",
+        15,
+        "aroma"
+      ],
+      [
+        "bell-pepper",
+        10,
+        "vegetable"
+      ],
+      [
+        "niter-kibbeh",
+        10,
+        "spiced-fat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lamb",
+      "niter-kibbeh",
+      "onion",
+      "bell-pepper"
+    ],
+    "basicTaste": [
+      "savory",
+      "buttery",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "sizzling meat",
+      "soft peppers",
+      "clay-pot serving"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "meat-lover",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "wants-mild-food"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, buttery, warm-spiced Shekla Tibs; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、黄油香、温暖香料的埃塞陶锅炒肉时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, boterige, warm gekruide Shekla tibs wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "zigni",
+    "metadataCode": "127019",
+    "cuisineId": "ethiopian",
+    "names": {
+      "en": "Zigni",
+      "zh": "厄立特里亚埃塞红炖肉",
+      "nl": "Zigni",
+      "local": "zigni"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "braised",
+      "simmered"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Zigni is spicy red meat stew with berbere, served on injera and sometimes with a boiled egg.",
+      "zh": "厄立特里亚埃塞红炖肉通常是贝贝雷 红辣肉炖菜，铺在英吉拉上，有时配水煮蛋。",
+      "nl": "Zigni is meestal pittige rode vleesstoof met berbere op injera, soms met gekookt ei."
+    },
+    "cookingProfile": {
+      "en": "Expect thick red sauce, tender meat, berbere warmth, and injera for scooping.",
+      "zh": "点餐时可预期红酱浓厚，肉软，贝贝雷 香辣，用英吉拉蘸食。",
+      "nl": "Verwacht dikke rode saus, mals vlees, berberewarmte en injera om te scheppen."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Zigni is recognized by spicy red meat stew with berbere, served on injera and sometimes with a boiled egg.",
+        "zh": "厄立特里亚埃塞红炖肉的识别重点是贝贝雷 红辣肉炖菜，铺在英吉拉上，有时配水煮蛋。",
+        "nl": "Zigni herken je aan pittige rode vleesstoof met berbere op injera, soms met gekookt ei."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        50,
+        "stew-meat"
+      ],
+      [
+        "injera",
+        25,
+        "serving-base"
+      ],
+      [
+        "berbere",
+        10,
+        "red-spice",
+        "seasoning"
+      ],
+      [
+        "egg",
+        10,
+        "optional-egg"
+      ],
+      [
+        "onion",
+        5,
+        "sauce-base"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "berbere",
+      "beef",
+      "injera",
+      "egg"
+    ],
+    "basicTaste": [
+      "spicy",
+      "savory",
+      "rich"
+    ],
+    "textureProfile": [
+      "tender meat",
+      "thick red sauce",
+      "spongy injera"
+    ],
+    "riskFlags": [
+      "can-be-spicy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "spicy",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "spice-sensitive",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want spicy, savory, rich Zigni; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要辣味、咸香、浓郁的厄立特里亚埃塞红炖肉时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je pittige, hartige, rijke Zigni wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 3,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "atkilt-wat",
+    "metadataCode": "127020",
+    "cuisineId": "ethiopian",
+    "names": {
+      "en": "Atkilt Wat",
+      "zh": "埃塞黄姜黄蔬菜炖菜",
+      "nl": "Atkilt wat",
+      "local": "atkilt wat"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Atkilt Wat is mild Ethiopian vegetable stew with cabbage, carrots, potatoes, turmeric, and injera.",
+      "zh": "埃塞黄姜黄蔬菜炖菜通常是温和埃塞蔬菜炖菜，有卷心菜、胡萝卜、土豆、姜黄和英吉拉。",
+      "nl": "Atkilt wat is meestal milde Ethiopische groentestoof met kool, wortel, aardappel, kurkuma en injera."
+    },
+    "cookingProfile": {
+      "en": "Expect soft yellow vegetables with gentle spice and no heavy meat sauce.",
+      "zh": "点餐时可预期黄色蔬菜柔软，香料温和，没有重肉汁。",
+      "nl": "Verwacht zachte gele groenten met milde kruiden en geen zware vleessaus."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Atkilt Wat is recognized by mild Ethiopian vegetable stew with cabbage, carrots, potatoes, turmeric, and injera.",
+        "zh": "埃塞黄姜黄蔬菜炖菜的识别重点是温和埃塞蔬菜炖菜，有卷心菜、胡萝卜、土豆、姜黄和英吉拉。",
+        "nl": "Atkilt wat herken je aan milde Ethiopische groentestoof met kool, wortel, aardappel, kurkuma en injera."
+      }
+    },
+    "composition": [
+      [
+        "cabbage",
+        30,
+        "vegetable"
+      ],
+      [
+        "potato",
+        30,
+        "vegetable"
+      ],
+      [
+        "carrot",
+        20,
+        "vegetable"
+      ],
+      [
+        "injera",
+        10,
+        "side"
+      ],
+      [
+        "turmeric",
+        5,
+        "yellow-spice",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "fat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "turmeric",
+      "cabbage",
+      "potato",
+      "carrot"
+    ],
+    "basicTaste": [
+      "mild",
+      "earthy",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "soft vegetables",
+      "yellow sauce",
+      "spongy injera"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "goodForTags": [
+      "vegetarian-friendly",
+      "mild-choice"
+    ],
+    "avoidIfTags": [
+      "wants-meat-main",
+      "dislikes-soft-vegetables"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want mild, earthy, warm-spiced Atkilt Wat; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要温和、朴实豆香、温暖香料的埃塞黄姜黄蔬菜炖菜时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je milde, aardse, warm gekruide Atkilt wat wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "azifa",
+    "metadataCode": "127021",
+    "cuisineId": "ethiopian",
+    "names": {
+      "en": "Azifa",
+      "zh": "埃塞冷扁豆沙拉",
+      "nl": "Azifa",
+      "local": "azifa"
+    },
+    "category": "salad",
+    "cookingMethods": [
+      "assembled",
+      "chilled"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Azifa is cold Ethiopian green lentil salad with onion, chili, lemon, and herbs.",
+      "zh": "埃塞冷扁豆沙拉通常是埃塞冷扁豆沙拉，配洋葱、辣椒、柠檬和香草。",
+      "nl": "Azifa is meestal koude Ethiopische groene-linzensalade met ui, chili, citroen en kruiden."
+    },
+    "cookingProfile": {
+      "en": "Expect cool earthy lentils, lemon acidity, onion crunch, and light heat.",
+      "zh": "点餐时可预期冷扁豆朴实，柠檬酸爽，洋葱清脆，微辣。",
+      "nl": "Verwacht koele aardse linzen, citroenzuur, ui-knak en lichte hitte."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Azifa is recognized by cold Ethiopian green lentil salad with onion, chili, lemon, and herbs.",
+        "zh": "埃塞冷扁豆沙拉的识别重点是埃塞冷扁豆沙拉，配洋葱、辣椒、柠檬和香草。",
+        "nl": "Azifa herken je aan koude Ethiopische groene-linzensalade met ui, chili, citroen en kruiden."
+      }
+    },
+    "composition": [
+      [
+        "lentils",
+        65,
+        "salad-base"
+      ],
+      [
+        "onion",
+        10,
+        "crunch"
+      ],
+      [
+        "lemon",
+        10,
+        "dressing"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "parsley",
+        5,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "dressing",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lentils",
+      "lemon",
+      "chili",
+      "parsley"
+    ],
+    "basicTaste": [
+      "earthy",
+      "sour",
+      "fresh",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "firm lentils",
+      "cool salad",
+      "crisp onion"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "goodForTags": [
+      "lighter-choice",
+      "vegetarian-friendly"
+    ],
+    "avoidIfTags": [
+      "dislikes-cold-bean-salads",
+      "spice-sensitive"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want earthy, sour, fresh Azifa; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要朴实豆香、酸爽、清爽的埃塞冷扁豆沙拉时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je aardse, zure, frisse Azifa wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "timatim-salata",
+    "metadataCode": "127022",
+    "cuisineId": "ethiopian",
+    "names": {
+      "en": "Timatim Salata",
+      "zh": "埃塞番茄沙拉",
+      "nl": "Timatim salata",
+      "local": "timatim salata"
+    },
+    "category": "salad",
+    "cookingMethods": [
+      "assembled",
+      "raw"
+    ],
+    "rawnessLevel": "raw-assembled",
+    "shortDescription": {
+      "en": "Timatim Salata is fresh Ethiopian tomato salad with onion, green chili, lemon, and herbs.",
+      "zh": "埃塞番茄沙拉通常是新鲜埃塞番茄沙拉，配洋葱、青辣椒、柠檬和香草。",
+      "nl": "Timatim salata is meestal verse Ethiopische tomatensalade met ui, groene chili, citroen en kruiden."
+    },
+    "cookingProfile": {
+      "en": "Expect juicy diced tomato, onion crunch, lemon dressing, and optional chili heat.",
+      "zh": "点餐时可预期番茄多汁，洋葱清脆，柠檬调味，可带辣。",
+      "nl": "Verwacht sappige tomaatblokjes, ui-knak, citroendressing en optionele chili."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "salad",
+        "vegetarian-friendly"
+      ],
+      "description": {
+        "en": "Timatim Salata is recognized by fresh Ethiopian tomato salad with onion, green chili, lemon, and herbs.",
+        "zh": "埃塞番茄沙拉的识别重点是新鲜埃塞番茄沙拉，配洋葱、青辣椒、柠檬和香草。",
+        "nl": "Timatim salata herken je aan verse Ethiopische tomatensalade met ui, groene chili, citroen en kruiden."
+      }
+    },
+    "composition": [
+      [
+        "tomato",
+        55,
+        "salad-base"
+      ],
+      [
+        "onion",
+        15,
+        "crunch"
+      ],
+      [
+        "chili",
+        10,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        10,
+        "dressing"
+      ],
+      [
+        "olive-oil",
+        5,
+        "dressing",
+        "seasoning"
+      ],
+      [
+        "parsley",
+        5,
+        "herb",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "tomato",
+      "lemon",
+      "chili",
+      "onion"
+    ],
+    "basicTaste": [
+      "fresh",
+      "sour",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "juicy diced tomato",
+      "crisp onion",
+      "cold salad"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "goodForTags": [
+      "lighter-choice",
+      "vegetarian-friendly"
+    ],
+    "avoidIfTags": [
+      "tomato-avoidance",
+      "spice-sensitive"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want fresh, sour, mildly-spicy Timatim Salata; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要清爽、酸爽的埃塞番茄沙拉时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je frisse, zure Timatim salata wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 1,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "ayib",
+    "metadataCode": "127023",
+    "cuisineId": "ethiopian",
+    "names": {
+      "en": "Ayib",
+      "zh": "埃塞鲜奶酪",
+      "nl": "Ayib",
+      "local": "ayib"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Ayib is mild Ethiopian fresh cheese, often served with greens or spicy stews to cool the meal.",
+      "zh": "埃塞鲜奶酪通常是温和埃塞鲜奶酪，常配青菜或辣炖菜，用来平衡辣味。",
+      "nl": "Ayib is meestal milde Ethiopische verse kaas, vaak met groente of pittige stoof om te koelen."
+    },
+    "cookingProfile": {
+      "en": "Expect crumbly white cheese with a cooling, mild dairy taste.",
+      "zh": "点餐时可预期白色奶酪松散，味道温和，能缓和辣味。",
+      "nl": "Verwacht kruimelige witte kaas met koele milde zuivelsmaak."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Ayib is recognized by mild Ethiopian fresh cheese, often served with greens or spicy stews to cool the meal.",
+        "zh": "埃塞鲜奶酪的识别重点是温和埃塞鲜奶酪，常配青菜或辣炖菜，用来平衡辣味。",
+        "nl": "Ayib herken je aan milde Ethiopische verse kaas, vaak met groente of pittige stoof om te koelen."
+      }
+    },
+    "composition": [
+      [
+        "ayib-cheese",
+        70,
+        "fresh-cheese"
+      ],
+      [
+        "collard-greens",
+        15,
+        "side"
+      ],
+      [
+        "injera",
+        10,
+        "side"
+      ],
+      [
+        "sea-salt",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "ayib-cheese",
+      "collard-greens",
+      "sea-salt"
+    ],
+    "basicTaste": [
+      "mild",
+      "milky",
+      "fresh"
+    ],
+    "textureProfile": [
+      "crumbly cheese",
+      "cool side",
+      "soft greens"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "cooling-side",
+      "vegetarian-friendly"
+    ],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want mild, milky, fresh Ayib; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要温和、奶香、清爽的埃塞鲜奶酪时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je milde, melkige, frisse Ayib wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "chechebsa",
+    "metadataCode": "127024",
+    "cuisineId": "ethiopian",
+    "names": {
+      "en": "Chechebsa",
+      "zh": "埃塞香料拌面饼",
+      "nl": "Chechebsa",
+      "local": "chechebsa"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "sauce-tossed"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Chechebsa is torn flatbread pieces tossed with berbere and spiced butter, often eaten for breakfast.",
+      "zh": "埃塞香料拌面饼通常是撕碎面饼拌 贝贝雷 和香料黄油，常作早餐。",
+      "nl": "Chechebsa is meestal gescheurde stukjes platbrood met berbere en gekruide boter, vaak als ontbijt."
+    },
+    "cookingProfile": {
+      "en": "Expect chewy bread pieces coated in orange-red spiced butter.",
+      "zh": "点餐时可预期面饼块有嚼劲，裹橙红色香料黄油。",
+      "nl": "Verwacht taaie broodstukjes bedekt met oranje-rode kruidenboter."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Chechebsa is recognized by torn flatbread pieces tossed with berbere and spiced butter, often eaten for breakfast.",
+        "zh": "埃塞香料拌面饼的识别重点是撕碎面饼拌 贝贝雷 和香料黄油，常作早餐。",
+        "nl": "Chechebsa herken je aan gescheurde stukjes platbrood met berbere en gekruide boter, vaak als ontbijt."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        60,
+        "torn-flatbread"
+      ],
+      [
+        "niter-kibbeh",
+        15,
+        "spiced-fat",
+        "seasoning"
+      ],
+      [
+        "berbere",
+        10,
+        "red-spice",
+        "seasoning"
+      ],
+      [
+        "honey",
+        10,
+        "optional-sweet-side"
+      ],
+      [
+        "yogurt",
+        5,
+        "cooling-side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "berbere",
+      "niter-kibbeh",
+      "bread",
+      "honey"
+    ],
+    "basicTaste": [
+      "spicy",
+      "buttery",
+      "bready",
+      "mildly-sweet"
+    ],
+    "textureProfile": [
+      "torn bread pieces",
+      "coated surface",
+      "chewy bite"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "breakfast",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want spicy, buttery, bready Chechebsa; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要辣味、黄油香、面香的埃塞香料拌面饼时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je pittige, boterige, broodachtige Chechebsa wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "genfo",
+    "metadataCode": "127025",
+    "cuisineId": "ethiopian",
+    "names": {
+      "en": "Genfo",
+      "zh": "埃塞辣黄油粥",
+      "nl": "Genfo",
+      "local": "genfo"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "stirred"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Genfo is thick Ethiopian porridge shaped with a central well of spiced butter and berbere.",
+      "zh": "埃塞辣黄油粥通常是浓稠埃塞粥，中间挖洞放香料黄油和 贝贝雷。",
+      "nl": "Genfo is meestal dikke Ethiopische pap met kuiltje van gekruide boter en berbere."
+    },
+    "cookingProfile": {
+      "en": "Expect dense smooth porridge, spicy butter center, and a filling breakfast feel.",
+      "zh": "点餐时可预期粥体浓密顺滑，中间香辣黄油，饱腹感强。",
+      "nl": "Verwacht dichte gladde pap, pittige boterkern en vullend ontbijtgevoel."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Genfo is recognized by thick Ethiopian porridge shaped with a central well of spiced butter and berbere.",
+        "zh": "埃塞辣黄油粥的识别重点是浓稠埃塞粥，中间挖洞放香料黄油和 贝贝雷。",
+        "nl": "Genfo herken je aan dikke Ethiopische pap met kuiltje van gekruide boter en berbere."
+      }
+    },
+    "composition": [
+      [
+        "semolina",
+        55,
+        "porridge-base"
+      ],
+      [
+        "cracked-wheat",
+        20,
+        "grain-body"
+      ],
+      [
+        "niter-kibbeh",
+        15,
+        "spiced-butter",
+        "seasoning"
+      ],
+      [
+        "berbere",
+        10,
+        "red-spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "niter-kibbeh",
+      "berbere",
+      "semolina"
+    ],
+    "basicTaste": [
+      "spicy",
+      "buttery",
+      "grainy",
+      "savory"
+    ],
+    "textureProfile": [
+      "thick porridge",
+      "central butter well",
+      "dense spoonfuls"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "breakfast",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want spicy, buttery, grainy Genfo; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要辣味、黄油香、谷物香的埃塞辣黄油粥时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je pittige, boterige, graanachtige Genfo wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 3,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "kinche",
+    "metadataCode": "127026",
+    "cuisineId": "ethiopian",
+    "names": {
+      "en": "Kinche",
+      "zh": "埃塞碎麦早餐",
+      "nl": "Kinche",
+      "local": "kinche"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "boiled",
+      "stirred"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Kinche is Ethiopian cracked wheat breakfast porridge with spiced butter or yogurt.",
+      "zh": "埃塞碎麦早餐通常是埃塞碎麦早餐粥，常配香料黄油或酸奶。",
+      "nl": "Kinche is meestal Ethiopische gebroken-tarwepap met gekruide boter of yoghurt."
+    },
+    "cookingProfile": {
+      "en": "Expect coarse chewy grains, buttery aroma, and less smoothness than genfo.",
+      "zh": "点餐时可预期碎麦颗粒粗、有嚼劲，黄油香明显，比细腻软粥更不顺滑。",
+      "nl": "Verwacht grove taaie granen, botergeur en minder glad dan genfo."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Kinche is recognized by Ethiopian cracked wheat breakfast porridge with spiced butter or yogurt.",
+        "zh": "埃塞碎麦早餐的识别重点是埃塞碎麦早餐粥，常配香料黄油或酸奶。",
+        "nl": "Kinche herken je aan Ethiopische gebroken-tarwepap met gekruide boter of yoghurt."
+      }
+    },
+    "composition": [
+      [
+        "cracked-wheat",
+        65,
+        "grain-base"
+      ],
+      [
+        "niter-kibbeh",
+        15,
+        "spiced-butter",
+        "seasoning"
+      ],
+      [
+        "yogurt",
+        10,
+        "cooling-side"
+      ],
+      [
+        "sea-salt",
+        5,
+        "seasoning",
+        "seasoning"
+      ],
+      [
+        "honey",
+        5,
+        "optional-sweetness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cracked-wheat",
+      "niter-kibbeh",
+      "yogurt"
+    ],
+    "basicTaste": [
+      "buttery",
+      "grainy",
+      "mild",
+      "savory"
+    ],
+    "textureProfile": [
+      "coarse grains",
+      "chewy porridge",
+      "soft spoonfuls"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "breakfast",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want buttery, grainy, mild Kinche; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要黄油香、谷物香、温和的埃塞碎麦早餐时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je boterige, graanachtige, milde Kinche wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "firfir-injera",
+    "metadataCode": "127027",
+    "cuisineId": "ethiopian",
+    "names": {
+      "en": "Injera Firfir",
+      "zh": "英吉拉辣酱拌饼",
+      "nl": "Injera firfir",
+      "local": "firfir"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "sauce-tossed"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Injera Firfir is torn injera pieces mixed with berbere sauce, onion, and spiced butter.",
+      "zh": "英吉拉辣酱拌饼通常是撕碎英吉拉拌 贝贝雷 酱、洋葱和香料黄油。",
+      "nl": "Injera firfir is meestal gescheurde injera gemengd met berberesaus, ui en gekruide boter."
+    },
+    "cookingProfile": {
+      "en": "Expect soft sour injera pieces coated in red spicy sauce.",
+      "zh": "点餐时可预期英吉拉柔软微酸，裹红色辣酱。",
+      "nl": "Verwacht zachte zure injera bedekt met rode pittige saus."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Injera Firfir is recognized by torn injera pieces mixed with berbere sauce, onion, and spiced butter.",
+        "zh": "英吉拉辣酱拌饼的识别重点是撕碎英吉拉拌 贝贝雷 酱、洋葱和香料黄油。",
+        "nl": "Injera firfir herken je aan gescheurde injera gemengd met berberesaus, ui en gekruide boter."
+      }
+    },
+    "composition": [
+      [
+        "injera",
+        60,
+        "torn-base"
+      ],
+      [
+        "berbere",
+        15,
+        "red-sauce",
+        "seasoning"
+      ],
+      [
+        "niter-kibbeh",
+        10,
+        "spiced-fat",
+        "seasoning"
+      ],
+      [
+        "onion",
+        10,
+        "aroma"
+      ],
+      [
+        "tomato-sauce",
+        5,
+        "sauce-body",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "injera",
+      "berbere",
+      "niter-kibbeh",
+      "onion"
+    ],
+    "basicTaste": [
+      "spicy",
+      "sour",
+      "savory",
+      "buttery"
+    ],
+    "textureProfile": [
+      "soft torn injera",
+      "coated pieces",
+      "saucy bowl"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "breakfast",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "spice-sensitive",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want spicy, sour, savory Injera Firfir; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要辣味、酸爽、咸香的英吉拉辣酱拌饼时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je pittige, zure, hartige Injera firfir wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 3,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "shimbra-assa",
+    "metadataCode": "127028",
+    "cuisineId": "ethiopian",
+    "names": {
+      "en": "Shimbra Assa",
+      "zh": "埃塞鹰嘴豆仿鱼丸",
+      "nl": "Shimbra assa",
+      "local": "shimbra assa"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Shimbra Assa is vegetarian chickpea dumplings shaped like fish and simmered in spicy red sauce.",
+      "zh": "埃塞鹰嘴豆仿鱼丸通常是素食鹰嘴豆团子做成鱼形，在红色辣酱中炖煮。",
+      "nl": "Shimbra assa is meestal vegetarische kikkererwtenballetjes in visvorm, gestoofd in pittige rode saus."
+    },
+    "cookingProfile": {
+      "en": "Expect firm chickpea pieces in red berbere sauce, without actual fish.",
+      "zh": "点餐时可预期鹰嘴豆团较扎实，浸在红色 贝贝雷 酱里，不含真正鱼肉。",
+      "nl": "Verwacht stevige kikkererwtenstukjes in rode berberesaus, zonder echte vis."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Shimbra Assa is recognized by vegetarian chickpea dumplings shaped like fish and simmered in spicy red sauce.",
+        "zh": "埃塞鹰嘴豆仿鱼丸的识别重点是素食鹰嘴豆团子做成鱼形，在红色辣酱中炖煮。",
+        "nl": "Shimbra assa herken je aan vegetarische kikkererwtenballetjes in visvorm, gestoofd in pittige rode saus."
+      }
+    },
+    "composition": [
+      [
+        "chickpea-flour-batter",
+        45,
+        "dumpling-base"
+      ],
+      [
+        "tomato-sauce",
+        25,
+        "red-sauce",
+        "seasoning"
+      ],
+      [
+        "berbere",
+        15,
+        "spice",
+        "seasoning"
+      ],
+      [
+        "injera",
+        10,
+        "side"
+      ],
+      [
+        "onion",
+        5,
+        "sauce-base"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "chickpea-flour-batter",
+      "berbere",
+      "tomato-sauce",
+      "injera"
+    ],
+    "basicTaste": [
+      "spicy",
+      "savory",
+      "earthy"
+    ],
+    "textureProfile": [
+      "firm dumplings",
+      "red sauce",
+      "spongy injera"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "goodForTags": [
+      "vegetarian-friendly",
+      "spicy"
+    ],
+    "avoidIfTags": [
+      "spice-sensitive",
+      "wants-meat"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want spicy, savory, earthy Shimbra Assa; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要辣味、咸香、朴实豆香的埃塞鹰嘴豆仿鱼丸时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je pittige, hartige, aardse Shimbra assa wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "spris",
+    "metadataCode": "127029",
+    "cuisineId": "ethiopian",
+    "names": {
+      "en": "Spris",
+      "zh": "埃塞分层果汁",
+      "nl": "Spris",
+      "local": "spris"
+    },
+    "category": "drink",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Spris is a layered Ethiopian fruit smoothie or juice with mango, avocado, banana, berries, or other fruit.",
+      "zh": "埃塞分层果汁通常是埃塞分层果汁或奶昔，可有芒果、牛油果、香蕉、莓果等水果。",
+      "nl": "Spris is meestal gelaagde Ethiopische fruitsmoothie of sap met mango, avocado, banaan, bessen of ander fruit."
+    },
+    "cookingProfile": {
+      "en": "Expect thick fruit layers, creamy avocado, and a sweet refreshing drink texture.",
+      "zh": "点餐时可预期果泥分层浓稠，牛油果带奶油感，整体甜润清爽。",
+      "nl": "Verwacht dikke fruitlagen, romige avocado en zoete verfrissende drankstructuur."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Spris is recognized by a layered Ethiopian fruit smoothie or juice with mango, avocado, banana, berries, or other fruit.",
+        "zh": "埃塞分层果汁的识别重点是埃塞分层果汁或奶昔，可有芒果、牛油果、香蕉、莓果等水果。",
+        "nl": "Spris herken je aan gelaagde Ethiopische fruitsmoothie of sap met mango, avocado, banaan, bessen of ander fruit."
+      }
+    },
+    "composition": [
+      [
+        "mango",
+        30,
+        "fruit-layer"
+      ],
+      [
+        "avocado",
+        25,
+        "creamy-layer"
+      ],
+      [
+        "banana",
+        20,
+        "sweet-layer"
+      ],
+      [
+        "berries",
+        15,
+        "fruit-layer"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "mango",
+      "avocado",
+      "banana",
+      "berries"
+    ],
+    "basicTaste": [
+      "sweet",
+      "fruity",
+      "creamy",
+      "fresh"
+    ],
+    "textureProfile": [
+      "layered drink",
+      "thick smoothie",
+      "creamy fruit"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "goodForTags": [
+      "drink",
+      "refreshing"
+    ],
+    "avoidIfTags": [
+      "wants-unsweetened-drink",
+      "dislikes-thick-smoothies"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want sweet, fruity, creamy Spris; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要甜味、果香、奶香顺滑的埃塞分层果汁时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je zoete, fruitige, romige Spris wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "ambasha",
+    "metadataCode": "127030",
+    "cuisineId": "ethiopian",
+    "names": {
+      "en": "Ambasha",
+      "zh": "埃塞花纹庆典面包",
+      "nl": "Ambasha",
+      "local": "ambasha"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "baked"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Ambasha is Ethiopian celebration bread with a decorative scored pattern and mild sweet spice.",
+      "zh": "埃塞花纹庆典面包通常是埃塞庆典面包，表面有花纹，带温和甜香料。",
+      "nl": "Ambasha is meestal Ethiopisch feestbrood met decoratief patroon en milde zoete kruiden."
+    },
+    "cookingProfile": {
+      "en": "Expect soft round bread, gentle sweetness, and cardamom-like aroma.",
+      "zh": "点餐时可预期圆面包柔软，微甜，带小豆蔻类香气。",
+      "nl": "Verwacht zacht rond brood, lichte zoetheid en kardemomachtige geur."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Ambasha is recognized by Ethiopian celebration bread with a decorative scored pattern and mild sweet spice.",
+        "zh": "埃塞花纹庆典面包的识别重点是埃塞庆典面包，表面有花纹，带温和甜香料。",
+        "nl": "Ambasha herken je aan Ethiopisch feestbrood met decoratief patroon en milde zoete kruiden."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        65,
+        "bread-base"
+      ],
+      [
+        "honey",
+        10,
+        "sweetness"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "cardamom",
+        10,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "sea-salt",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "wheat-flour",
+      "honey",
+      "cardamom",
+      "butter"
+    ],
+    "basicTaste": [
+      "bready",
+      "mildly-sweet",
+      "aromatic"
+    ],
+    "textureProfile": [
+      "soft round loaf",
+      "decorative crust",
+      "sliceable crumb"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "bread",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want bready, mildly-sweet, aromatic Ambasha; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要面香、微甜、香料香的埃塞花纹庆典面包时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je broodachtige, licht zoete, aromatische Ambasha wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-033",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  }
+]

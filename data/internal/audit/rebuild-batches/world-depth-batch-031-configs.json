@@ -1,0 +1,3256 @@
+[
+  {
+    "id": "iskender-kebab",
+    "metadataCode": "119013",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Iskender Kebab",
+      "zh": "伊斯肯德尔烤肉",
+      "nl": "Iskender kebab",
+      "local": "iskender kebap"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Iskender Kebab is thin doner-style meat over bread with tomato sauce, yogurt, and browned butter.",
+      "zh": "伊斯肯德尔烤肉通常是薄切烤肉铺面包，配番茄酱、酸奶和热黄油。",
+      "nl": "Iskender kebab is meestal dun donervlees op brood met tomatensaus, yoghurt en boter."
+    },
+    "cookingProfile": {
+      "en": "Expect soft sauce-soaked bread, sliced meat, cool yogurt, and a rich buttery finish.",
+      "zh": "点餐时可预期面包吸收酱汁，肉片咸香，酸奶清凉，黄油增加浓郁感。",
+      "nl": "Verwacht zacht brood met saus, gesneden vlees, koele yoghurt en boterige rijkdom."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Iskender Kebab is recognized by thin doner-style meat over bread with tomato sauce, yogurt, and browned butter.",
+        "zh": "伊斯肯德尔烤肉的识别重点是薄切烤肉铺面包，配番茄酱、酸奶和热黄油。",
+        "nl": "Iskender kebab herken je aan dun donervlees op brood met tomatensaus, yoghurt en boter."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        35,
+        "sliced-meat"
+      ],
+      [
+        "pita",
+        25,
+        "bread-base"
+      ],
+      [
+        "tomato-sauce",
+        20,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "yogurt",
+        15,
+        "cooling-side"
+      ],
+      [
+        "butter",
+        5,
+        "hot-finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "tomato-sauce",
+      "yogurt",
+      "butter",
+      "paprika"
+    ],
+    "basicTaste": [
+      "savory",
+      "tangy",
+      "buttery",
+      "rich"
+    ],
+    "textureProfile": [
+      "thin roasted meat",
+      "soft sauce-soaked bread",
+      "cool yogurt contrast"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "signature-dish",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, tangy, buttery Iskender Kebab; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、酸爽、黄油香的伊斯肯德尔烤肉时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, friszure, boterige Iskender kebab wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "beyti-kebab",
+    "metadataCode": "119014",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Beyti Kebab",
+      "zh": "贝蒂烤肉卷",
+      "nl": "Beyti kebab",
+      "local": "beyti kebap"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Beyti Kebab is seasoned ground meat wrapped in flatbread and served with tomato sauce and yogurt.",
+      "zh": "贝蒂烤肉卷通常是调味肉末烤串卷薄饼，配番茄酱和酸奶。",
+      "nl": "Beyti kebab is meestal gekruid gehakt in platbrood met tomatensaus en yoghurt."
+    },
+    "cookingProfile": {
+      "en": "Expect sliced wrapped kebab with meaty filling, soft bread, and creamy sauce.",
+      "zh": "点餐时可预期切段肉卷、柔软面饼和酸奶番茄酱。",
+      "nl": "Verwacht gesneden kebabrol met vleesvulling, zacht brood en romige saus."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Beyti Kebab is recognized by seasoned ground meat wrapped in flatbread and served with tomato sauce and yogurt.",
+        "zh": "贝蒂烤肉卷的识别重点是调味肉末烤串卷薄饼，配番茄酱和酸奶。",
+        "nl": "Beyti kebab herken je aan gekruid gehakt in platbrood met tomatensaus en yoghurt."
+      }
+    },
+    "composition": [
+      [
+        "ground-meat",
+        40,
+        "kebab-filling"
+      ],
+      [
+        "pita",
+        25,
+        "wrap"
+      ],
+      [
+        "tomato-sauce",
+        15,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "yogurt",
+        15,
+        "cooling-side"
+      ],
+      [
+        "paprika",
+        5,
+        "warm-spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "ground-meat",
+      "tomato-sauce",
+      "yogurt",
+      "paprika"
+    ],
+    "basicTaste": [
+      "savory",
+      "tangy",
+      "creamy",
+      "lightly-spiced"
+    ],
+    "textureProfile": [
+      "sliced wrapped kebab",
+      "soft bread",
+      "creamy sauce"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "classic-dish",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, tangy, creamy Beyti Kebab; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、酸爽、奶香顺滑的贝蒂烤肉卷时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, friszure, romige Beyti kebab wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "shish-kebab-turkish",
+    "metadataCode": "119015",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Turkish Shish Kebab",
+      "zh": "土耳其烤肉串",
+      "nl": "Turkse shish kebab",
+      "local": "şiş kebap"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "shortDescription": {
+      "en": "Turkish Shish Kebab is cubed lamb or beef grilled on skewers with simple sides.",
+      "zh": "土耳其烤肉串通常是羊肉或牛肉块串烤，配简单小菜。",
+      "nl": "Turkse shish kebab is meestal blokjes lam of rund aan spiesen met eenvoudige bijgerechten."
+    },
+    "cookingProfile": {
+      "en": "Expect firm meat cubes, charred edges, onion crunch, and warm spice.",
+      "zh": "点餐时可预期肉块扎实，边缘焦香，洋葱清脆，香料温暖。",
+      "nl": "Verwacht stevige vleesblokjes, schroeirand, ui en warme kruiden."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Turkish Shish Kebab is recognized by cubed lamb or beef grilled on skewers with simple sides.",
+        "zh": "土耳其烤肉串的识别重点是羊肉或牛肉块串烤，配简单小菜。",
+        "nl": "Turkse shish kebab herken je aan blokjes lam of rund aan spiesen met eenvoudige bijgerechten."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        55,
+        "skewered-meat"
+      ],
+      [
+        "bell-pepper",
+        15,
+        "grilled-vegetable"
+      ],
+      [
+        "onion",
+        10,
+        "salad-side"
+      ],
+      [
+        "pita",
+        10,
+        "bread-side"
+      ],
+      [
+        "cumin",
+        5,
+        "warm-spice",
+        "seasoning"
+      ],
+      [
+        "paprika",
+        5,
+        "red-spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lamb",
+      "cumin",
+      "paprika",
+      "charred edges"
+    ],
+    "basicTaste": [
+      "savory",
+      "smoky",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "firm meat cubes",
+      "charred edges",
+      "fresh onion crunch"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "grilled",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "gluten-free-if-served-with-bread",
+      "wants-saucy-food"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, smoky, warm-spiced Turkish Shish Kebab; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、烟熏焦香、温暖香料的土耳其烤肉串时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, rokerige, warm gekruide Turkse shish kebab wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "sis-tavuk",
+    "metadataCode": "119016",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Şiş Tavuk",
+      "zh": "土耳其鸡肉串",
+      "nl": "Şiş tavuk",
+      "local": "şiş tavuk"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "shortDescription": {
+      "en": "Şiş Tavuk is yogurt-marinated Turkish chicken skewers with garlic, paprika, and lemon.",
+      "zh": "土耳其鸡肉串通常是酸奶腌鸡肉串，带蒜、红椒粉和柠檬。",
+      "nl": "Şiş tavuk is meestal Turkse kipspiesen met yoghurt, knoflook, paprika en citroen."
+    },
+    "cookingProfile": {
+      "en": "Expect juicy chicken, light char, and a gentler flavor than lamb kebab.",
+      "zh": "点餐时可预期鸡肉多汁、轻微焦香，味道比羊肉串更柔和。",
+      "nl": "Verwacht sappige kip, lichte grillrand en zachtere smaak dan lamskebab."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish",
+        "safe-choice"
+      ],
+      "description": {
+        "en": "Şiş Tavuk is recognized by yogurt-marinated Turkish chicken skewers with garlic, paprika, and lemon.",
+        "zh": "土耳其鸡肉串的识别重点是酸奶腌鸡肉串，带蒜、红椒粉和柠檬。",
+        "nl": "Şiş tavuk herken je aan Turkse kipspiesen met yoghurt, knoflook, paprika en citroen."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        60,
+        "skewered-chicken"
+      ],
+      [
+        "yogurt",
+        15,
+        "marinade"
+      ],
+      [
+        "bell-pepper",
+        10,
+        "grilled-side"
+      ],
+      [
+        "steamed-rice",
+        10,
+        "side"
+      ],
+      [
+        "garlic",
+        3,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "paprika",
+        2,
+        "warm-spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "yogurt",
+      "garlic",
+      "paprika",
+      "grilled chicken"
+    ],
+    "basicTaste": [
+      "savory",
+      "mildly-tangy",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "juicy chicken cubes",
+      "light char",
+      "soft rice side"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "safe-choice",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "wants-red-meat"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, mildly-tangy, warm-spiced Şiş Tavuk; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、微酸、温暖香料的土耳其鸡肉串时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, licht frisse, warm gekruide Şiş tavuk wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "hunkar-begendi",
+    "metadataCode": "119017",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Hünkar Beğendi",
+      "zh": "苏丹茄泥炖肉",
+      "nl": "Hünkar beğendi",
+      "local": "hünkar beğendi"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "braised",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Hünkar Beğendi is tender lamb or beef stew over smoky creamy eggplant puree.",
+      "zh": "苏丹茄泥炖肉通常是软烂羊肉或牛肉铺在烟熏奶香茄泥上。",
+      "nl": "Hünkar beğendi is meestal mals stoofvlees op rokerige romige auberginepuree."
+    },
+    "cookingProfile": {
+      "en": "Expect silky eggplant puree, saucy meat, and clear dairy richness.",
+      "zh": "点餐时可预期顺滑茄泥、酱汁肉和明显奶香。",
+      "nl": "Verwacht zijdezachte auberginepuree, sauzig vlees en duidelijke zuivelrijkdom."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Hünkar Beğendi is recognized by tender lamb or beef stew over smoky creamy eggplant puree.",
+        "zh": "苏丹茄泥炖肉的识别重点是软烂羊肉或牛肉铺在烟熏奶香茄泥上。",
+        "nl": "Hünkar beğendi herken je aan mals stoofvlees op rokerige romige auberginepuree."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        40,
+        "braised-meat"
+      ],
+      [
+        "eggplant-global",
+        35,
+        "smoky-puree"
+      ],
+      [
+        "milk-solids",
+        10,
+        "creamy-base"
+      ],
+      [
+        "cheese",
+        10,
+        "richness"
+      ],
+      [
+        "tomato-sauce",
+        5,
+        "meat-sauce",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "eggplant-global",
+      "lamb",
+      "milk-solids",
+      "tomato-sauce"
+    ],
+    "basicTaste": [
+      "savory",
+      "smoky",
+      "creamy",
+      "rich"
+    ],
+    "textureProfile": [
+      "silky puree",
+      "tender meat",
+      "warm saucy top"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "classic-dish",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "dislikes-eggplant"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, smoky, creamy Hünkar Beğendi; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、烟熏焦香、奶香顺滑的苏丹茄泥炖肉时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, rokerige, romige Hünkar beğendi wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "karniyarik",
+    "metadataCode": "119018",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Karnıyarık",
+      "zh": "土耳其肉末酿茄子",
+      "nl": "Karnıyarık",
+      "local": "karnıyarık"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "baked",
+      "braised"
+    ],
+    "shortDescription": {
+      "en": "Karnıyarık is split eggplants stuffed with seasoned ground meat, tomato, onion, and peppers.",
+      "zh": "土耳其肉末酿茄子通常是剖开茄子塞入肉末、番茄、洋葱和甜椒。",
+      "nl": "Karnıyarık is meestal opengesneden aubergine gevuld met gehakt, tomaat, ui en paprika."
+    },
+    "cookingProfile": {
+      "en": "Expect very soft eggplant around a moist savory meat filling.",
+      "zh": "点餐时可预期茄子很软，里面是多汁咸香肉末。",
+      "nl": "Verwacht zeer zachte aubergine rond een sappige hartige gehaktvulling."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Karnıyarık is recognized by split eggplants stuffed with seasoned ground meat, tomato, onion, and peppers.",
+        "zh": "土耳其肉末酿茄子的识别重点是剖开茄子塞入肉末、番茄、洋葱和甜椒。",
+        "nl": "Karnıyarık herken je aan opengesneden aubergine gevuld met gehakt, tomaat, ui en paprika."
+      }
+    },
+    "composition": [
+      [
+        "eggplant-global",
+        45,
+        "stuffed-vegetable"
+      ],
+      [
+        "ground-meat",
+        30,
+        "filling"
+      ],
+      [
+        "tomato",
+        10,
+        "sauce-body"
+      ],
+      [
+        "onion",
+        5,
+        "aroma"
+      ],
+      [
+        "bell-pepper",
+        5,
+        "aroma"
+      ],
+      [
+        "olive-oil",
+        5,
+        "richness",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "eggplant-global",
+      "ground-meat",
+      "tomato",
+      "olive-oil"
+    ],
+    "basicTaste": [
+      "savory",
+      "tomato-rich",
+      "mildly-sweet"
+    ],
+    "textureProfile": [
+      "very soft eggplant",
+      "loose meat filling",
+      "warm juices"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "classic-dish",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "no-meat",
+      "dislikes-soft-eggplant"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, tomato-rich, mildly-sweet Karnıyarık; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、番茄浓郁、微甜的土耳其肉末酿茄子时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, tomatige, licht zoete Karnıyarık wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "cilbir",
+    "metadataCode": "119019",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Çılbır",
+      "zh": "土耳其酸奶水波蛋",
+      "nl": "Çılbır",
+      "local": "çılbır"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "boiled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Çılbır is poached eggs over garlicky yogurt with warm chili or paprika butter.",
+      "zh": "土耳其酸奶水波蛋通常是水波蛋配蒜味酸奶和热辣椒黄油。",
+      "nl": "Çılbır is meestal gepocheerde eieren op knoflookyoghurt met warme chiliboter."
+    },
+    "cookingProfile": {
+      "en": "Expect soft eggs, creamy yogurt, silky yolk, and a warm butter finish.",
+      "zh": "点餐时可预期柔软鸡蛋、顺滑酸奶、蛋黄和热黄油。",
+      "nl": "Verwacht zachte eieren, romige yoghurt, dooier en warme boter."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Çılbır is recognized by poached eggs over garlicky yogurt with warm chili or paprika butter.",
+        "zh": "土耳其酸奶水波蛋的识别重点是水波蛋配蒜味酸奶和热辣椒黄油。",
+        "nl": "Çılbır herken je aan gepocheerde eieren op knoflookyoghurt met warme chiliboter."
+      }
+    },
+    "composition": [
+      [
+        "egg",
+        35,
+        "poached-eggs"
+      ],
+      [
+        "yogurt",
+        40,
+        "garlic-yogurt"
+      ],
+      [
+        "butter",
+        10,
+        "warm-finish"
+      ],
+      [
+        "garlic",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "paprika",
+        5,
+        "red-spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "yogurt",
+      "egg",
+      "butter",
+      "chili"
+    ],
+    "basicTaste": [
+      "tangy",
+      "creamy",
+      "buttery",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "soft eggs",
+      "creamy yogurt",
+      "silky yolk"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "breakfast",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want tangy, creamy, buttery Çılbır; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要酸爽、奶香顺滑、黄油香的土耳其酸奶水波蛋时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je friszure, romige, boterige Çılbır wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "cacik",
+    "metadataCode": "119020",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Cacık",
+      "zh": "土耳其黄瓜酸奶",
+      "nl": "Cacık",
+      "local": "cacık"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "assembled",
+      "chilled"
+    ],
+    "shortDescription": {
+      "en": "Cacık is cold yogurt with cucumber, garlic, mint, and olive oil.",
+      "zh": "土耳其黄瓜酸奶通常是冷酸奶拌黄瓜、蒜、薄荷和橄榄油。",
+      "nl": "Cacık is meestal koude yoghurt met komkommer, knoflook, munt en olijfolie."
+    },
+    "cookingProfile": {
+      "en": "Expect cool creamy yogurt, cucumber crunch, and a garlicky herbal finish.",
+      "zh": "点餐时可预期冷酸奶顺滑，黄瓜清脆，蒜和香草明显。",
+      "nl": "Verwacht koele romige yoghurt, komkommerknak en kruidige knoflook."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "mezze",
+        "vegetarian-friendly"
+      ],
+      "description": {
+        "en": "Cacık is recognized by cold yogurt with cucumber, garlic, mint, and olive oil.",
+        "zh": "土耳其黄瓜酸奶的识别重点是冷酸奶拌黄瓜、蒜、薄荷和橄榄油。",
+        "nl": "Cacık herken je aan koude yoghurt met komkommer, knoflook, munt en olijfolie."
+      }
+    },
+    "composition": [
+      [
+        "yogurt",
+        60,
+        "base"
+      ],
+      [
+        "cucumber",
+        25,
+        "fresh-crunch"
+      ],
+      [
+        "garlic",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "mint",
+        5,
+        "fresh-herb",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "yogurt",
+      "cucumber",
+      "garlic",
+      "mint"
+    ],
+    "basicTaste": [
+      "tangy",
+      "fresh",
+      "garlicky",
+      "cooling"
+    ],
+    "textureProfile": [
+      "cool creamy yogurt",
+      "small cucumber crunch",
+      "dip-like"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "lighter-choice",
+      "cooling-side"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "dislikes-garlic"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want tangy, fresh, garlicky Cacık; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要酸爽、清爽、蒜香的土耳其黄瓜酸奶时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je friszure, frisse, knoflookrijke Cacık wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "ezogelin-corbasi",
+    "metadataCode": "119021",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Ezogelin Çorbası",
+      "zh": "土耳其红扁豆汤",
+      "nl": "Ezogelin çorbası",
+      "local": "ezogelin çorbası"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Ezogelin Çorbası is a thick red lentil soup with grains, tomato, mint, chili, and lemon.",
+      "zh": "土耳其红扁豆汤通常是浓稠红扁豆汤，带谷物、番茄、薄荷、辣椒和柠檬。",
+      "nl": "Ezogelin çorbası is meestal dikke rode-linzensoep met granen, tomaat, munt, chili en citroen."
+    },
+    "cookingProfile": {
+      "en": "Expect soft lentils, grainy body, warm spice, and a bright lemon edge.",
+      "zh": "点餐时可预期扁豆柔软，汤体浓稠带颗粒感，柠檬收尾清爽。",
+      "nl": "Verwacht zachte linzen, korrelige binding, warme kruiden en frisse citroen."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Ezogelin Çorbası is recognized by a thick red lentil soup with grains, tomato, mint, chili, and lemon.",
+        "zh": "土耳其红扁豆汤的识别重点是浓稠红扁豆汤，带谷物、番茄、薄荷、辣椒和柠檬。",
+        "nl": "Ezogelin çorbası herken je aan dikke rode-linzensoep met granen, tomaat, munt, chili en citroen."
+      }
+    },
+    "composition": [
+      [
+        "lentils",
+        50,
+        "soup-base"
+      ],
+      [
+        "tomato-sauce",
+        15,
+        "body",
+        "seasoning"
+      ],
+      [
+        "cracked-wheat",
+        15,
+        "thickener"
+      ],
+      [
+        "mint",
+        5,
+        "dried-herb",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        10,
+        "fresh-finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lentils",
+      "mint",
+      "lemon",
+      "chili"
+    ],
+    "basicTaste": [
+      "savory",
+      "earthy",
+      "tangy",
+      "lightly-spicy"
+    ],
+    "textureProfile": [
+      "thick soup",
+      "soft lentils",
+      "grainy body"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "soup",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "wants-clear-broth"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, earthy, tangy Ezogelin Çorbası; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、朴实豆香、酸爽的土耳其红扁豆汤时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, aardse, friszure Ezogelin çorbası wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "yayla-corbasi",
+    "metadataCode": "119022",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Yayla Çorbası",
+      "zh": "土耳其酸奶米汤",
+      "nl": "Yayla çorbası",
+      "local": "yayla çorbası"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered",
+      "stirred"
+    ],
+    "shortDescription": {
+      "en": "Yayla Çorbası is a mild yogurt and rice soup finished with mint butter.",
+      "zh": "土耳其酸奶米汤通常是温和酸奶米汤，最后淋薄荷黄油。",
+      "nl": "Yayla çorbası is meestal milde yoghurt-rijstsoep met muntboter."
+    },
+    "cookingProfile": {
+      "en": "Expect creamy tangy soup, soft rice grains, and herbal butter aroma.",
+      "zh": "点餐时可预期汤体奶香微酸，米粒柔软，带薄荷黄油香。",
+      "nl": "Verwacht romig frisse soep, zachte rijstkorrels en muntbotergeur."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Yayla Çorbası is recognized by a mild yogurt and rice soup finished with mint butter.",
+        "zh": "土耳其酸奶米汤的识别重点是温和酸奶米汤，最后淋薄荷黄油。",
+        "nl": "Yayla çorbası herken je aan milde yoghurt-rijstsoep met muntboter."
+      }
+    },
+    "composition": [
+      [
+        "yogurt",
+        45,
+        "soup-base"
+      ],
+      [
+        "steamed-rice",
+        25,
+        "soft-grain"
+      ],
+      [
+        "egg",
+        10,
+        "thickener"
+      ],
+      [
+        "butter",
+        10,
+        "finish"
+      ],
+      [
+        "mint",
+        10,
+        "herb-finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "yogurt",
+      "mint",
+      "butter"
+    ],
+    "basicTaste": [
+      "tangy",
+      "creamy",
+      "mild",
+      "herbal"
+    ],
+    "textureProfile": [
+      "creamy soup",
+      "soft rice grains",
+      "warm finish"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "soup",
+      "lighter-choice"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want tangy, creamy, mild Yayla Çorbası; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要酸爽、奶香顺滑、温和的土耳其酸奶米汤时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je friszure, romige, milde Yayla çorbası wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "mercimek-kofte",
+    "metadataCode": "119023",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Mercimek Köfte",
+      "zh": "土耳其扁豆素丸",
+      "nl": "Mercimek köfte",
+      "local": "mercimek köftesi"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "simmered",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Mercimek Köfte is cold or room-temperature red lentil and bulgur patties with lemon and herbs.",
+      "zh": "土耳其扁豆素丸通常是红扁豆和碎麦做成的冷食或常温素丸，配柠檬和香草。",
+      "nl": "Mercimek köfte is meestal koude of lauwe balletjes van rode linzen en bulgur met citroen en kruiden."
+    },
+    "cookingProfile": {
+      "en": "Expect soft grainy patties rather than fried croquettes.",
+      "zh": "点餐时可预期柔软带颗粒感的小丸，不是油炸酥丸。",
+      "nl": "Verwacht zachte korrelige balletjes, geen gefrituurde kroketten."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Mercimek Köfte is recognized by cold or room-temperature red lentil and bulgur patties with lemon and herbs.",
+        "zh": "土耳其扁豆素丸的识别重点是红扁豆和碎麦做成的冷食或常温素丸，配柠檬和香草。",
+        "nl": "Mercimek köfte herken je aan koude of lauwe balletjes van rode linzen en bulgur met citroen en kruiden."
+      }
+    },
+    "composition": [
+      [
+        "lentils",
+        50,
+        "patty-base"
+      ],
+      [
+        "cracked-wheat",
+        25,
+        "binder"
+      ],
+      [
+        "tomato-sauce",
+        10,
+        "seasoned-paste",
+        "seasoning"
+      ],
+      [
+        "green-onion",
+        5,
+        "freshness"
+      ],
+      [
+        "parsley",
+        5,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lentils",
+      "tomato-sauce",
+      "parsley",
+      "lemon"
+    ],
+    "basicTaste": [
+      "earthy",
+      "tangy",
+      "herbal",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "soft patties",
+      "grainy bulgur",
+      "fresh lettuce wrap"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "goodForTags": [
+      "vegetarian-friendly",
+      "mezze"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "wants-hot-meat"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want earthy, tangy, herbal Mercimek Köfte; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要朴实豆香、酸爽、香草味的土耳其扁豆素丸时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je aardse, friszure, kruidige Mercimek köfte wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "sigara-boregi",
+    "metadataCode": "119024",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Sigara Böreği",
+      "zh": "土耳其奶酪酥卷",
+      "nl": "Sigara böreği",
+      "local": "sigara böreği"
+    },
+    "category": "fried-snack",
+    "cookingMethods": [
+      "deep-fried"
+    ],
+    "shortDescription": {
+      "en": "Sigara Böreği is thin pastry rolls filled with salty cheese and herbs, fried until crisp.",
+      "zh": "土耳其奶酪酥卷通常是薄面皮卷入咸奶酪和香草后炸脆。",
+      "nl": "Sigara böreği is meestal dunne deegrolletjes met zoute kaas en kruiden, krokant gefrituurd."
+    },
+    "cookingProfile": {
+      "en": "Expect a crisp shell with a salty soft cheese center.",
+      "zh": "点餐时可预期外壳酥脆，里面是咸香柔软奶酪。",
+      "nl": "Verwacht krokante buitenkant met zachte zoute kaasvulling."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "fried-snack",
+        "vegetarian-friendly"
+      ],
+      "description": {
+        "en": "Sigara Böreği is recognized by thin pastry rolls filled with salty cheese and herbs, fried until crisp.",
+        "zh": "土耳其奶酪酥卷的识别重点是薄面皮卷入咸奶酪和香草后炸脆。",
+        "nl": "Sigara böreği herken je aan dunne deegrolletjes met zoute kaas en kruiden, krokant gefrituurd."
+      }
+    },
+    "composition": [
+      [
+        "phyllo-pastry",
+        45,
+        "crisp-wrapper"
+      ],
+      [
+        "cheese",
+        35,
+        "filling"
+      ],
+      [
+        "egg",
+        10,
+        "binder"
+      ],
+      [
+        "parsley",
+        5,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "frying-medium",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cheese",
+      "phyllo-pastry",
+      "parsley"
+    ],
+    "basicTaste": [
+      "salty",
+      "fried",
+      "savory"
+    ],
+    "textureProfile": [
+      "crisp shell",
+      "soft cheese center",
+      "small snack"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "fried-snack",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want salty, fried, savory Sigara Böreği; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要油炸香、咸香的土耳其奶酪酥卷时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je gebakken, hartige Sigara böreği wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "midye-dolma",
+    "metadataCode": "119025",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Midye Dolma",
+      "zh": "土耳其酿贻贝",
+      "nl": "Midye dolma",
+      "local": "midye dolma"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "steamed",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Midye Dolma is mussels stuffed with spiced rice and herbs, usually eaten with lemon.",
+      "zh": "土耳其酿贻贝通常是贻贝壳里塞香料米饭和香草，常挤柠檬食用。",
+      "nl": "Midye dolma is meestal mosselen gevuld met gekruide rijst en kruiden, meestal met citroen."
+    },
+    "cookingProfile": {
+      "en": "Expect small briny shellfish bites with soft rice inside.",
+      "zh": "点餐时可预期小份贝类海味，里面是柔软米饭。",
+      "nl": "Verwacht kleine zilte schelphapjes met zachte rijst erin."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "regional-dish"
+      ],
+      "description": {
+        "en": "Midye Dolma is recognized by mussels stuffed with spiced rice and herbs, usually eaten with lemon.",
+        "zh": "土耳其酿贻贝的识别重点是贻贝壳里塞香料米饭和香草，常挤柠檬食用。",
+        "nl": "Midye dolma herken je aan mosselen gevuld met gekruide rijst en kruiden, meestal met citroen."
+      }
+    },
+    "composition": [
+      [
+        "mussels",
+        45,
+        "shellfish"
+      ],
+      [
+        "steamed-rice",
+        35,
+        "spiced-filling"
+      ],
+      [
+        "onion",
+        5,
+        "aroma"
+      ],
+      [
+        "parsley",
+        5,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "finish"
+      ],
+      [
+        "allspice",
+        5,
+        "warm-spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "mussels",
+      "lemon",
+      "allspice",
+      "parsley"
+    ],
+    "basicTaste": [
+      "briny",
+      "savory",
+      "lemony",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "tender mussel",
+      "soft rice filling",
+      "small shell bite"
+    ],
+    "riskFlags": [
+      "contains-shellfish"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "street-food",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "wants-hot-main"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want briny, savory, lemony Midye Dolma; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸鲜海味、咸香、柠檬清香的土耳其酿贻贝时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je ziltige, hartige, citroenfrisse Midye dolma wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "balik-ekmek",
+    "metadataCode": "119026",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Balık Ekmek",
+      "zh": "土耳其鱼三明治",
+      "nl": "Balık ekmek",
+      "local": "balık ekmek"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Balık Ekmek is a Turkish fish sandwich with grilled fish, bread, onion, tomato, herbs, and lemon.",
+      "zh": "土耳其鱼三明治通常是土耳其鱼三明治，用烤鱼、面包、洋葱、番茄、香草和柠檬组合。",
+      "nl": "Balık ekmek is meestal Turkse vissandwich met gegrilde vis, brood, ui, tomaat, kruiden en citroen."
+    },
+    "cookingProfile": {
+      "en": "Expect flaky grilled fish, chewy bread, and a fresh lemon finish.",
+      "zh": "点餐时可预期鱼肉片状，面包有嚼劲，柠檬收尾清爽。",
+      "nl": "Verwacht vlokkige gegrilde vis, taai brood en frisse citroen."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Balık Ekmek is recognized by a Turkish fish sandwich with grilled fish, bread, onion, tomato, herbs, and lemon.",
+        "zh": "土耳其鱼三明治的识别重点是土耳其鱼三明治，用烤鱼、面包、洋葱、番茄、香草和柠檬组合。",
+        "nl": "Balık ekmek herken je aan Turkse vissandwich met gegrilde vis, brood, ui, tomaat, kruiden en citroen."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        45,
+        "grilled-fish"
+      ],
+      [
+        "bread",
+        35,
+        "sandwich-bread"
+      ],
+      [
+        "onion",
+        5,
+        "fresh-crunch"
+      ],
+      [
+        "tomato",
+        5,
+        "freshness"
+      ],
+      [
+        "parsley",
+        5,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fish-fillet",
+      "lemon",
+      "parsley",
+      "bread"
+    ],
+    "basicTaste": [
+      "savory",
+      "briny",
+      "fresh",
+      "lemony"
+    ],
+    "textureProfile": [
+      "flaky fish",
+      "chewy bread",
+      "fresh crunch"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "street-food",
+      "lighter-choice"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, briny, fresh Balık Ekmek; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、咸鲜海味、清爽的土耳其鱼三明治时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, ziltige, frisse Balık ekmek wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "gozleme",
+    "metadataCode": "119027",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Gözleme",
+      "zh": "土耳其馅饼",
+      "nl": "Gözleme",
+      "local": "gözleme"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Gözleme is a thin Turkish stuffed flatbread with spinach, cheese, potato, or minced meat.",
+      "zh": "土耳其馅饼通常是薄土耳其馅饼，常夹菠菜、奶酪、土豆或肉末。",
+      "nl": "Gözleme is meestal dun Turks gevuld platbrood met spinazie, kaas, aardappel of gehakt."
+    },
+    "cookingProfile": {
+      "en": "Expect browned griddled bread and soft filling inside.",
+      "zh": "点餐时可预期面饼表面煎香，内馅柔软。",
+      "nl": "Verwacht bruin gebakken platbrood met zachte vulling."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "street-food",
+        "vegetarian-friendly"
+      ],
+      "description": {
+        "en": "Gözleme is recognized by a thin Turkish stuffed flatbread with spinach, cheese, potato, or minced meat.",
+        "zh": "土耳其馅饼的识别重点是薄土耳其馅饼，常夹菠菜、奶酪、土豆或肉末。",
+        "nl": "Gözleme herken je aan dun Turks gevuld platbrood met spinazie, kaas, aardappel of gehakt."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        45,
+        "flatbread"
+      ],
+      [
+        "spinach",
+        20,
+        "common-filling"
+      ],
+      [
+        "cheese",
+        20,
+        "common-filling"
+      ],
+      [
+        "potato",
+        10,
+        "optional-filling"
+      ],
+      [
+        "butter",
+        5,
+        "griddle-richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "toasted bread",
+      "cheese",
+      "spinach",
+      "butter"
+    ],
+    "basicTaste": [
+      "savory",
+      "bready",
+      "mild",
+      "buttery"
+    ],
+    "textureProfile": [
+      "thin browned flatbread",
+      "soft filling",
+      "folded pieces"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "can-be-vegetarian"
+    ],
+    "goodForTags": [
+      "street-food",
+      "safe-choice"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free-unless-ordered-without-cheese"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, bready, mild Gözleme; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、面香、温和的土耳其馅饼时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, broodachtige, milde Gözleme wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "simit",
+    "metadataCode": "119028",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Simit",
+      "zh": "土耳其芝麻圈",
+      "nl": "Simit",
+      "local": "simit"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Simit is a ring-shaped sesame bread with chewy crumb and crisp sesame-coated crust.",
+      "zh": "土耳其芝麻圈通常是环形芝麻面包，内里有嚼劲，外层芝麻香脆。",
+      "nl": "Simit is meestal ringvormig sesambrood met taaie kruim en knapperige sesamkorst."
+    },
+    "cookingProfile": {
+      "en": "Expect toasty sesame crust, chewy bread, and a dry snack feel.",
+      "zh": "点餐时可预期芝麻外层烤香，面包有嚼劲，整体偏干爽小食。",
+      "nl": "Verwacht geroosterde sesamkorst, taai brood en droge snackbeet."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Simit is recognized by a ring-shaped sesame bread with chewy crumb and crisp sesame-coated crust.",
+        "zh": "土耳其芝麻圈的识别重点是环形芝麻面包，内里有嚼劲，外层芝麻香脆。",
+        "nl": "Simit herken je aan ringvormig sesambrood met taaie kruim en knapperige sesamkorst."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        65,
+        "ring-bread"
+      ],
+      [
+        "sesame-seeds",
+        25,
+        "crust"
+      ],
+      [
+        "honey",
+        5,
+        "glaze"
+      ],
+      [
+        "sea-salt",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "sesame-seeds",
+      "bread",
+      "honey"
+    ],
+    "basicTaste": [
+      "toasty",
+      "nutty",
+      "mildly-sweet",
+      "savory"
+    ],
+    "textureProfile": [
+      "chewy bread",
+      "crisp sesame crust",
+      "dry snack"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-sesame"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "breakfast",
+      "street-food"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "sesame-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want toasty, nutty, mildly-sweet Simit; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要烘烤香、坚果香、微甜的土耳其芝麻圈时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je geroosterde, nootachtige, licht zoete Simit wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "lokum",
+    "metadataCode": "119029",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Turkish Delight",
+      "zh": "土耳其软糖",
+      "nl": "Turkish delight",
+      "local": "lokum"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "set"
+    ],
+    "shortDescription": {
+      "en": "Turkish Delight is soft chewy Turkish confection dusted with sugar, often flavored with rose, citrus, or nuts.",
+      "zh": "土耳其软糖通常是柔软有嚼劲的土耳其糖，外裹糖粉，常见玫瑰、柑橘或坚果味。",
+      "nl": "Turkish delight is meestal zacht kauwbaar Turks snoep met suikerlaagje, vaak met roos, citrus of noten."
+    },
+    "cookingProfile": {
+      "en": "Expect jelly-like chew, powdered surface, and high sweetness.",
+      "zh": "点餐时可预期软糯糖冻感、糖粉外层和明显甜度。",
+      "nl": "Verwacht gelei-achtige beet, poederlaag en veel zoetheid."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Turkish Delight is recognized by soft chewy Turkish confection dusted with sugar, often flavored with rose, citrus, or nuts.",
+        "zh": "土耳其软糖的识别重点是柔软有嚼劲的土耳其糖，外裹糖粉，常见玫瑰、柑橘或坚果味。",
+        "nl": "Turkish delight herken je aan zacht kauwbaar Turks snoep met suikerlaagje, vaak met roos, citrus of noten."
+      }
+    },
+    "composition": [
+      [
+        "sugar",
+        50,
+        "sweet-base"
+      ],
+      [
+        "potato-starch",
+        25,
+        "set-body"
+      ],
+      [
+        "pistachios",
+        15,
+        "nut-variant"
+      ],
+      [
+        "lemon",
+        5,
+        "citrus-variant"
+      ],
+      [
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "sugar",
+      "pistachios",
+      "lemon",
+      "vanilla"
+    ],
+    "basicTaste": [
+      "very-sweet",
+      "floral",
+      "nutty",
+      "mild"
+    ],
+    "textureProfile": [
+      "soft cubes",
+      "chewy jelly",
+      "powdered surface"
+    ],
+    "riskFlags": [
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "sweet-snack"
+    ],
+    "avoidIfTags": [
+      "nut-allergy",
+      "dislikes-very-sweet-desserts"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want very-sweet, floral, nutty Turkish Delight; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要高甜、花香、坚果香的土耳其软糖时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je heel zoete, bloemige, nootachtige Turkish delight wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "sutlac",
+    "metadataCode": "119030",
+    "cuisineId": "turkish",
+    "names": {
+      "en": "Sütlaç",
+      "zh": "土耳其米布丁",
+      "nl": "Sütlaç",
+      "local": "sütlaç"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "simmered",
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Sütlaç is Turkish rice pudding, often chilled or baked with a browned top.",
+      "zh": "土耳其米布丁通常是土耳其米布丁，常冷食，也可烤出焦香表面。",
+      "nl": "Sütlaç is meestal Turkse rijstpudding, vaak koel of met bruin korstje."
+    },
+    "cookingProfile": {
+      "en": "Expect creamy milk pudding, soft rice grains, and mild cinnamon aroma.",
+      "zh": "点餐时可预期奶香顺滑，米粒柔软，带温和肉桂香。",
+      "nl": "Verwacht romige melkpudding, zachte rijstkorrels en milde kaneelgeur."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Sütlaç is recognized by Turkish rice pudding, often chilled or baked with a browned top.",
+        "zh": "土耳其米布丁的识别重点是土耳其米布丁，常冷食，也可烤出焦香表面。",
+        "nl": "Sütlaç herken je aan Turkse rijstpudding, vaak koel of met bruin korstje."
+      }
+    },
+    "composition": [
+      [
+        "milk-solids",
+        45,
+        "pudding-base"
+      ],
+      [
+        "steamed-rice",
+        30,
+        "soft-grain"
+      ],
+      [
+        "sugar",
+        15,
+        "sweetness"
+      ],
+      [
+        "cinnamon",
+        5,
+        "finish",
+        "seasoning"
+      ],
+      [
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "milk-solids",
+      "steamed-rice",
+      "cinnamon",
+      "vanilla"
+    ],
+    "basicTaste": [
+      "sweet",
+      "milky",
+      "mild",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "creamy pudding",
+      "soft rice grains",
+      "browned top if baked"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "dislikes-rice-pudding"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want sweet, milky, mild Sütlaç; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要甜味、奶香、温和的土耳其米布丁时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je zoete, melkige, milde Sütlaç wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "shakshuka",
+    "metadataCode": "120013",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Shakshuka",
+      "zh": "番茄炖蛋",
+      "nl": "Shakshuka",
+      "local": "shakshuka"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Shakshuka is eggs poached in spiced tomato and pepper sauce, often served with bread.",
+      "zh": "番茄炖蛋通常是鸡蛋卧在香料番茄甜椒酱里炖煮，常配面包蘸酱。",
+      "nl": "Shakshuka is meestal eieren gepocheerd in gekruide tomaat-paprikasaus, vaak met brood."
+    },
+    "cookingProfile": {
+      "en": "Expect saucy tomato base, soft eggs, and bread for dipping.",
+      "zh": "点餐时可预期番茄酱汁多，鸡蛋柔软，适合蘸面包。",
+      "nl": "Verwacht sauzige tomatenbasis, zachte eieren en brood om te dippen."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Shakshuka is recognized by eggs poached in spiced tomato and pepper sauce, often served with bread.",
+        "zh": "番茄炖蛋的识别重点是鸡蛋卧在香料番茄甜椒酱里炖煮，常配面包蘸酱。",
+        "nl": "Shakshuka herken je aan eieren gepocheerd in gekruide tomaat-paprikasaus, vaak met brood."
+      }
+    },
+    "composition": [
+      [
+        "tomato-sauce",
+        45,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "egg",
+        25,
+        "poached-eggs"
+      ],
+      [
+        "bell-pepper",
+        15,
+        "pepper-onion-base"
+      ],
+      [
+        "bread",
+        10,
+        "dipping-side"
+      ],
+      [
+        "cumin",
+        5,
+        "warm-spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "tomato-sauce",
+      "egg",
+      "cumin",
+      "garlic"
+    ],
+    "basicTaste": [
+      "savory",
+      "tangy",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "saucy tomato base",
+      "soft eggs",
+      "bread-dipping"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "brunch",
+      "vegetarian-friendly"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, tangy, warm-spiced Shakshuka; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、酸爽、温暖香料的番茄炖蛋时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, friszure, warm gekruide Shakshuka wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "mezze-platter",
+    "metadataCode": "120014",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Mezze Platter",
+      "zh": "中东小菜拼盘",
+      "nl": "Mezze platter",
+      "local": "mezze"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Mezze Platter is a shared platter of dips, salads, pickles, olives, falafel, and bread.",
+      "zh": "中东小菜拼盘通常是共享小菜拼盘，常有蘸酱、沙拉、腌菜、橄榄、炸鹰嘴豆丸和面包。",
+      "nl": "Mezze platter is meestal deelplank met dips, salades, pickles, olijven, falafel en brood."
+    },
+    "cookingProfile": {
+      "en": "Expect many small tastes rather than one single main dish.",
+      "zh": "点餐时可预期多种小味道组合，不是单一主菜。",
+      "nl": "Verwacht veel kleine smaken in plaats van één hoofdgerecht."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "sharing",
+        "mezze"
+      ],
+      "description": {
+        "en": "Mezze Platter is recognized by a shared platter of dips, salads, pickles, olives, falafel, and bread.",
+        "zh": "中东小菜拼盘的识别重点是共享小菜拼盘，常有蘸酱、沙拉、腌菜、橄榄、炸鹰嘴豆丸和面包。",
+        "nl": "Mezze platter herken je aan deelplank met dips, salades, pickles, olijven, falafel en brood."
+      }
+    },
+    "composition": [
+      [
+        "chickpeas",
+        25,
+        "hummus-style-dip"
+      ],
+      [
+        "pita",
+        25,
+        "bread"
+      ],
+      [
+        "olives",
+        15,
+        "briny-side"
+      ],
+      [
+        "mixed-vegetables",
+        15,
+        "salad-pickles"
+      ],
+      [
+        "tahini",
+        10,
+        "sesame-dip",
+        "seasoning"
+      ],
+      [
+        "feta",
+        10,
+        "cheese-side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "tahini",
+      "olives",
+      "chickpeas",
+      "pita"
+    ],
+    "basicTaste": [
+      "savory",
+      "tangy",
+      "nutty",
+      "briny"
+    ],
+    "textureProfile": [
+      "creamy dips",
+      "soft bread",
+      "crisp pickles",
+      "mixed bites"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-sesame",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "can-be-vegetarian"
+    ],
+    "goodForTags": [
+      "sharing",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "sesame-allergy",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, tangy, nutty Mezze Platter; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、酸爽、坚果香的中东小菜拼盘时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, friszure, nootachtige Mezze platter wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "grilled-halloumi-middle-eastern",
+    "metadataCode": "120015",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Grilled Halloumi",
+      "zh": "烤哈罗米奶酪",
+      "nl": "Gegrilde halloumi",
+      "local": "grilled halloumi"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "shortDescription": {
+      "en": "Grilled Halloumi is salty halloumi cheese grilled until browned, usually with lemon or salad.",
+      "zh": "烤哈罗米奶酪通常是咸香哈罗米奶酪烤到表面上色，常配柠檬或沙拉。",
+      "nl": "Gegrilde halloumi is meestal zoute halloumi gegrild tot bruin, vaak met citroen of salade."
+    },
+    "cookingProfile": {
+      "en": "Expect a squeaky firm cheese bite with browned grill marks.",
+      "zh": "点餐时可预期奶酪弹韧，表面有烤痕。",
+      "nl": "Verwacht stevige piepende kaas met bruine grillstrepen."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "vegetarian-friendly",
+        "starter"
+      ],
+      "description": {
+        "en": "Grilled Halloumi is recognized by salty halloumi cheese grilled until browned, usually with lemon or salad.",
+        "zh": "烤哈罗米奶酪的识别重点是咸香哈罗米奶酪烤到表面上色，常配柠檬或沙拉。",
+        "nl": "Gegrilde halloumi herken je aan zoute halloumi gegrild tot bruin, vaak met citroen of salade."
+      }
+    },
+    "composition": [
+      [
+        "halloumi",
+        70,
+        "grilled-cheese"
+      ],
+      [
+        "tomato",
+        10,
+        "salad-side"
+      ],
+      [
+        "cucumber",
+        10,
+        "salad-side"
+      ],
+      [
+        "olive-oil",
+        5,
+        "finish",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "halloumi",
+      "lemon",
+      "olive-oil"
+    ],
+    "basicTaste": [
+      "salty",
+      "milky",
+      "bright"
+    ],
+    "textureProfile": [
+      "squeaky cheese",
+      "browned ridges",
+      "fresh salad contrast"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "vegetarian-friendly",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want salty, milky, bright Grilled Halloumi; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要奶香的烤哈罗米奶酪时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je melkige Gegrilde halloumi wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "manaqish",
+    "metadataCode": "120016",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Manaqish",
+      "zh": "中东烤饼",
+      "nl": "Manaqish",
+      "local": "manaqish"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Manaqish is Levantine flatbread baked with toppings such as herbs, cheese, or minced meat.",
+      "zh": "中东烤饼通常是黎凡特烤饼，表面可铺香草、奶酪或肉末。",
+      "nl": "Manaqish is meestal Levantijns platbrood met toppings zoals kruiden, kaas of gehakt."
+    },
+    "cookingProfile": {
+      "en": "Expect soft-chewy bread with an oily herb or cheese topping.",
+      "zh": "点餐时可预期面饼柔韧，表面有香草油或奶酪。",
+      "nl": "Verwacht zacht-taai brood met olieachtige kruiden- of kaastopping."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "street-food",
+        "bread"
+      ],
+      "description": {
+        "en": "Manaqish is recognized by Levantine flatbread baked with toppings such as herbs, cheese, or minced meat.",
+        "zh": "中东烤饼的识别重点是黎凡特烤饼，表面可铺香草、奶酪或肉末。",
+        "nl": "Manaqish herken je aan Levantijns platbrood met toppings zoals kruiden, kaas of gehakt."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        55,
+        "flatbread"
+      ],
+      [
+        "olive-oil",
+        15,
+        "topping-fat",
+        "seasoning"
+      ],
+      [
+        "oregano",
+        10,
+        "zaatar-style-herb",
+        "seasoning"
+      ],
+      [
+        "sesame-seeds",
+        10,
+        "seed-topping"
+      ],
+      [
+        "cheese",
+        10,
+        "optional-topping"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "oregano",
+      "sesame-seeds",
+      "olive-oil",
+      "cheese"
+    ],
+    "basicTaste": [
+      "bready",
+      "herbal",
+      "savory",
+      "nutty"
+    ],
+    "textureProfile": [
+      "thin baked bread",
+      "oily herb topping",
+      "soft-chewy edges"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-sesame",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "can-be-vegetarian"
+    ],
+    "goodForTags": [
+      "street-food",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "sesame-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want bready, herbal, savory Manaqish; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要面香、香草味、咸香的中东烤饼时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je broodachtige, kruidige, hartige Manaqish wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "zaatar-flatbread",
+    "metadataCode": "120017",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Za’atar Flatbread",
+      "zh": "扎塔尔香料烤饼",
+      "nl": "Za’atar flatbread",
+      "local": "zaatar manaqish"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Za’atar Flatbread is flatbread topped with zaatar-style herbs, sesame, and olive oil.",
+      "zh": "扎塔尔香料烤饼通常是面饼铺扎塔尔风味香草、芝麻和橄榄油。",
+      "nl": "Za’atar flatbread is meestal platbrood met zaatarachtige kruiden, sesam en olijfolie."
+    },
+    "cookingProfile": {
+      "en": "Expect thin bread with a dry-herbal, nutty, oily surface.",
+      "zh": "点餐时可预期薄面饼表面有干香草、芝麻和油润感。",
+      "nl": "Verwacht dun brood met kruidig, nootachtig en olieachtig oppervlak."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "street-food",
+        "bread"
+      ],
+      "description": {
+        "en": "Za’atar Flatbread is recognized by flatbread topped with zaatar-style herbs, sesame, and olive oil.",
+        "zh": "扎塔尔香料烤饼的识别重点是面饼铺扎塔尔风味香草、芝麻和橄榄油。",
+        "nl": "Za’atar flatbread herken je aan platbrood met zaatarachtige kruiden, sesam en olijfolie."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        60,
+        "flatbread"
+      ],
+      [
+        "olive-oil",
+        20,
+        "topping-fat",
+        "seasoning"
+      ],
+      [
+        "oregano",
+        10,
+        "herb-topping",
+        "seasoning"
+      ],
+      [
+        "sesame-seeds",
+        10,
+        "seed-topping"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "oregano",
+      "sesame-seeds",
+      "olive-oil"
+    ],
+    "basicTaste": [
+      "herbal",
+      "nutty",
+      "savory",
+      "bready"
+    ],
+    "textureProfile": [
+      "thin bread",
+      "oily herb crust",
+      "chewy edge"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-sesame"
+    ],
+    "dietaryFlags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "goodForTags": [
+      "vegetarian-friendly",
+      "street-food"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "sesame-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want herbal, nutty, savory Za’atar Flatbread; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要香草味、坚果香、咸香的扎塔尔香料烤饼时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je kruidige, nootachtige, hartige Za’atar flatbread wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "foul-medames",
+    "metadataCode": "120018",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Foul Medames",
+      "zh": "蚕豆泥",
+      "nl": "Foul medames",
+      "local": "fūl medames"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "simmered",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Foul Medames is slow-cooked fava beans with olive oil, lemon, garlic, and herbs.",
+      "zh": "蚕豆泥通常是慢煮蚕豆配橄榄油、柠檬、蒜和香草。",
+      "nl": "Foul medames is meestal lang gegaarde tuinbonen met olijfolie, citroen, knoflook en kruiden."
+    },
+    "cookingProfile": {
+      "en": "Expect soft earthy beans brightened by lemon and fresh toppings.",
+      "zh": "点餐时可预期豆子柔软朴实，柠檬和新鲜配料提亮。",
+      "nl": "Verwacht zachte aardse bonen met citroen en frisse toppings."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Foul Medames is recognized by slow-cooked fava beans with olive oil, lemon, garlic, and herbs.",
+        "zh": "蚕豆泥的识别重点是慢煮蚕豆配橄榄油、柠檬、蒜和香草。",
+        "nl": "Foul medames herken je aan lang gegaarde tuinbonen met olijfolie, citroen, knoflook en kruiden."
+      }
+    },
+    "composition": [
+      [
+        "fava-beans",
+        65,
+        "bean-base"
+      ],
+      [
+        "olive-oil",
+        10,
+        "finish",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        10,
+        "bright-finish"
+      ],
+      [
+        "garlic",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "parsley",
+        5,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "tomato",
+        5,
+        "fresh-topping"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fava-beans",
+      "olive-oil",
+      "lemon",
+      "garlic"
+    ],
+    "basicTaste": [
+      "earthy",
+      "lemony",
+      "savory",
+      "garlicky"
+    ],
+    "textureProfile": [
+      "soft beans",
+      "thick mash",
+      "fresh garnish"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "goodForTags": [
+      "vegetarian-friendly",
+      "breakfast"
+    ],
+    "avoidIfTags": [
+      "dislikes-beans",
+      "wants-crispy-food"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want earthy, lemony, savory Foul Medames; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要朴实豆香、柠檬清香、咸香的蚕豆泥时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je aardse, citroenfrisse, hartige Foul medames wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "warak-enab",
+    "metadataCode": "120019",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Warak Enab",
+      "zh": "葡萄叶卷",
+      "nl": "Warak enab",
+      "local": "warak enab"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "simmered",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Warak Enab is grape leaves stuffed with rice, herbs, and sometimes meat, usually with lemon.",
+      "zh": "葡萄叶卷通常是葡萄叶包入米饭、香草，有时加肉，常配柠檬。",
+      "nl": "Warak enab is meestal druivenbladeren gevuld met rijst, kruiden en soms vlees, meestal met citroen."
+    },
+    "cookingProfile": {
+      "en": "Expect tender tangy leaf wrappers around soft rice filling.",
+      "zh": "点餐时可预期葡萄叶柔软微酸，包着柔软米饭馅。",
+      "nl": "Verwacht zachte frisse bladeren rond een zachte rijstvulling."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Warak Enab is recognized by grape leaves stuffed with rice, herbs, and sometimes meat, usually with lemon.",
+        "zh": "葡萄叶卷的识别重点是葡萄叶包入米饭、香草，有时加肉，常配柠檬。",
+        "nl": "Warak enab herken je aan druivenbladeren gevuld met rijst, kruiden en soms vlees, meestal met citroen."
+      }
+    },
+    "composition": [
+      [
+        "grape-leaves",
+        40,
+        "wrapper"
+      ],
+      [
+        "steamed-rice",
+        40,
+        "filling"
+      ],
+      [
+        "olive-oil",
+        10,
+        "richness",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "finish"
+      ],
+      [
+        "parsley",
+        5,
+        "herb",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "grape-leaves",
+      "lemon",
+      "olive-oil",
+      "parsley"
+    ],
+    "basicTaste": [
+      "tangy",
+      "herbal",
+      "savory",
+      "mild"
+    ],
+    "textureProfile": [
+      "tender leaf wrapper",
+      "soft rice filling",
+      "small rolls"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [
+      "can-be-vegan"
+    ],
+    "goodForTags": [
+      "mezze",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "wants-hot-main",
+      "dislikes-leafy-wraps"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want tangy, herbal, savory Warak Enab; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要酸爽、香草味、咸香的葡萄叶卷时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je friszure, kruidige, hartige Warak enab wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "molokhia",
+    "metadataCode": "120020",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Molokhia",
+      "zh": "黄麻叶汤",
+      "nl": "Molokhia",
+      "local": "molokhia"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Molokhia is a green leafy molokhia stew or soup, often with chicken, rice, and lemon.",
+      "zh": "黄麻叶汤通常是绿色黄麻叶汤或炖菜，常配鸡肉、米饭和柠檬。",
+      "nl": "Molokhia is meestal groene molokhia-bladsoep of stoof, vaak met kip, rijst en citroen."
+    },
+    "cookingProfile": {
+      "en": "Expect a slightly slippery leafy broth that can feel unusual to first-timers.",
+      "zh": "点餐时可预期叶菜汤带轻微滑感，第一次吃可能会觉得特别。",
+      "nl": "Verwacht licht gladde bladsoep die nieuw kan aanvoelen."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Molokhia is recognized by a green leafy molokhia stew or soup, often with chicken, rice, and lemon.",
+        "zh": "黄麻叶汤的识别重点是绿色黄麻叶汤或炖菜，常配鸡肉、米饭和柠檬。",
+        "nl": "Molokhia herken je aan groene molokhia-bladsoep of stoof, vaak met kip, rijst en citroen."
+      }
+    },
+    "composition": [
+      [
+        "molokhia-leaves",
+        55,
+        "leafy-base"
+      ],
+      [
+        "chicken",
+        20,
+        "meat-side"
+      ],
+      [
+        "steamed-rice",
+        15,
+        "side"
+      ],
+      [
+        "garlic",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "molokhia-leaves",
+      "garlic",
+      "lemon",
+      "chicken"
+    ],
+    "basicTaste": [
+      "green",
+      "savory",
+      "garlicky",
+      "lemony"
+    ],
+    "textureProfile": [
+      "slightly slippery broth",
+      "soft leafy body",
+      "rice side"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "classic-dish",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "dislikes-slick-textures",
+      "wants-crispy-food"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want green, savory, garlicky Molokhia; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要青绿叶菜味、咸香、蒜香的黄麻叶汤时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je groene, hartige, knoflookrijke Molokhia wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "kabsa",
+    "metadataCode": "120021",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Kabsa",
+      "zh": "阿拉伯香料饭",
+      "nl": "Kabsa",
+      "local": "kabsa"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "simmered",
+      "steamed"
+    ],
+    "shortDescription": {
+      "en": "Kabsa is spiced rice with chicken or lamb, tomatoes, warm spices, nuts, and sometimes raisins.",
+      "zh": "阿拉伯香料饭通常是香料饭配鸡肉或羊肉、番茄、温暖香料、坚果，有时加葡萄干。",
+      "nl": "Kabsa is meestal gekruide rijst met kip of lam, tomaat, warme kruiden, noten en soms rozijnen."
+    },
+    "cookingProfile": {
+      "en": "Expect aromatic separate rice grains, tender meat, and warm spice.",
+      "zh": "点餐时可预期米粒分明有香气，肉块柔软，香料温暖。",
+      "nl": "Verwacht geurige losse rijst, mals vlees en warme kruiden."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Kabsa is recognized by spiced rice with chicken or lamb, tomatoes, warm spices, nuts, and sometimes raisins.",
+        "zh": "阿拉伯香料饭的识别重点是香料饭配鸡肉或羊肉、番茄、温暖香料、坚果，有时加葡萄干。",
+        "nl": "Kabsa herken je aan gekruide rijst met kip of lam, tomaat, warme kruiden, noten en soms rozijnen."
+      }
+    },
+    "composition": [
+      [
+        "steamed-rice",
+        50,
+        "spiced-rice"
+      ],
+      [
+        "chicken",
+        30,
+        "main-meat"
+      ],
+      [
+        "tomato",
+        5,
+        "rice-base"
+      ],
+      [
+        "almonds",
+        5,
+        "garnish"
+      ],
+      [
+        "cinnamon",
+        5,
+        "warm-spice",
+        "seasoning"
+      ],
+      [
+        "cardamom",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cinnamon",
+      "cardamom",
+      "chicken",
+      "almonds"
+    ],
+    "basicTaste": [
+      "savory",
+      "warm-spiced",
+      "aromatic"
+    ],
+    "textureProfile": [
+      "separate rice grains",
+      "tender meat",
+      "nut garnish"
+    ],
+    "riskFlags": [
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "sharing",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "nut-allergy",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, warm-spiced, aromatic Kabsa; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、温暖香料、香料香的阿拉伯香料饭时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, warm gekruide, aromatische Kabsa wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "maqluba",
+    "metadataCode": "120022",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Maqluba",
+      "zh": "中东倒扣饭",
+      "nl": "Maqluba",
+      "local": "maqluba"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "layered",
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Maqluba is an upside-down rice dish layered with chicken or lamb, eggplant, cauliflower, and spices.",
+      "zh": "中东倒扣饭通常是倒扣上桌的分层米饭菜，有鸡肉或羊肉、茄子、花菜和香料。",
+      "nl": "Maqluba is meestal omgekeerde rijstschotel met kip of lam, aubergine, bloemkool en kruiden."
+    },
+    "cookingProfile": {
+      "en": "Expect a rice mound with soft vegetables and tender meat after the pot is flipped.",
+      "zh": "点餐时可预期倒扣后是饭塔，蔬菜柔软，肉块入味。",
+      "nl": "Verwacht rijsttoren met zachte groente en mals vlees na het omkeren."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Maqluba is recognized by an upside-down rice dish layered with chicken or lamb, eggplant, cauliflower, and spices.",
+        "zh": "中东倒扣饭的识别重点是倒扣上桌的分层米饭菜，有鸡肉或羊肉、茄子、花菜和香料。",
+        "nl": "Maqluba herken je aan omgekeerde rijstschotel met kip of lam, aubergine, bloemkool en kruiden."
+      }
+    },
+    "composition": [
+      [
+        "steamed-rice",
+        50,
+        "rice-base"
+      ],
+      [
+        "chicken",
+        20,
+        "main-meat"
+      ],
+      [
+        "eggplant-global",
+        15,
+        "fried-vegetable"
+      ],
+      [
+        "cauliflower",
+        10,
+        "vegetable-layer"
+      ],
+      [
+        "almonds",
+        5,
+        "garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "eggplant-global",
+      "chicken",
+      "almonds",
+      "cumin"
+    ],
+    "basicTaste": [
+      "savory",
+      "warm-spiced",
+      "nutty"
+    ],
+    "textureProfile": [
+      "layered rice mound",
+      "soft vegetables",
+      "tender meat"
+    ],
+    "riskFlags": [
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "sharing",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "nut-allergy",
+      "dislikes-rice-based-mains"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, warm-spiced, nutty Maqluba; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、温暖香料、坚果香的中东倒扣饭时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, warm gekruide, nootachtige Maqluba wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "kunafa",
+    "metadataCode": "120031",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Kunafa",
+      "zh": "库纳法奶酪甜点",
+      "nl": "Kunafa",
+      "local": "knafeh"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Kunafa is a shredded pastry dessert baked with cheese or cream, syrup, and pistachios.",
+      "zh": "库纳法奶酪甜点通常是细丝酥皮夹奶酪或奶油，烤后淋糖浆并撒开心果。",
+      "nl": "Kunafa is meestal dessert van sliertdeeg met kaas of room, siroop en pistache."
+    },
+    "cookingProfile": {
+      "en": "Expect crisp orange pastry, sticky syrup, nut topping, and a soft dairy center.",
+      "zh": "点餐时可预期橙色酥皮脆，糖浆黏润，开心果香，内部柔软奶香。",
+      "nl": "Verwacht krokant oranje deeg, kleverige siroop, noten en zachte zuivelkern."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Kunafa is recognized by a shredded pastry dessert baked with cheese or cream, syrup, and pistachios.",
+        "zh": "库纳法奶酪甜点的识别重点是细丝酥皮夹奶酪或奶油，烤后淋糖浆并撒开心果。",
+        "nl": "Kunafa herken je aan dessert van sliertdeeg met kaas of room, siroop en pistache."
+      }
+    },
+    "composition": [
+      [
+        "kataifi-pastry",
+        45,
+        "shredded-pastry"
+      ],
+      [
+        "cheese",
+        25,
+        "soft-center"
+      ],
+      [
+        "sugar",
+        15,
+        "syrup"
+      ],
+      [
+        "pistachios",
+        10,
+        "garnish"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "kataifi-pastry",
+      "cheese",
+      "sugar",
+      "pistachios"
+    ],
+    "basicTaste": [
+      "very-sweet",
+      "buttery",
+      "nutty",
+      "creamy"
+    ],
+    "textureProfile": [
+      "crisp shredded top",
+      "soft center",
+      "sticky syrup"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "nut-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want very-sweet, buttery, nutty Kunafa; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要高甜、黄油香、坚果香的库纳法奶酪甜点时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je heel zoete, boterige, nootachtige Kunafa wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "sayadieh",
+    "metadataCode": "120024",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Sayadieh",
+      "zh": "中东鱼香料饭",
+      "nl": "Sayadieh",
+      "local": "sayadieh"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "simmered",
+      "fried"
+    ],
+    "shortDescription": {
+      "en": "Sayadieh is a Levantine fish and rice dish with browned onion, warm spices, and lemon.",
+      "zh": "中东鱼香料饭通常是黎凡特鱼肉米饭菜，配焦香洋葱、温暖香料和柠檬。",
+      "nl": "Sayadieh is meestal Levantijns vis-rijstgerecht met bruine ui, warme kruiden en citroen."
+    },
+    "cookingProfile": {
+      "en": "Expect flaky fish, seasoned rice, soft onions, and clear seafood aroma.",
+      "zh": "点餐时可预期鱼肉片状，米饭有香料味，洋葱柔软，海味明显。",
+      "nl": "Verwacht vlokkige vis, gekruide rijst, zachte ui en duidelijke vissmaak."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Sayadieh is recognized by a Levantine fish and rice dish with browned onion, warm spices, and lemon.",
+        "zh": "中东鱼香料饭的识别重点是黎凡特鱼肉米饭菜，配焦香洋葱、温暖香料和柠檬。",
+        "nl": "Sayadieh herken je aan Levantijns vis-rijstgerecht met bruine ui, warme kruiden en citroen."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        35,
+        "main-fish"
+      ],
+      [
+        "steamed-rice",
+        45,
+        "spiced-rice"
+      ],
+      [
+        "onion",
+        10,
+        "browned-aroma"
+      ],
+      [
+        "lemon",
+        5,
+        "finish"
+      ],
+      [
+        "cumin",
+        5,
+        "warm-spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fish-fillet",
+      "onion",
+      "cumin",
+      "lemon"
+    ],
+    "basicTaste": [
+      "savory",
+      "briny",
+      "warm-spiced",
+      "lemony"
+    ],
+    "textureProfile": [
+      "flaky fish",
+      "seasoned rice",
+      "soft onions"
+    ],
+    "riskFlags": [
+      "contains-fish"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "seafood",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "dislikes-rice-based-mains"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, briny, warm-spiced Sayadieh; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、咸鲜海味、温暖香料的中东鱼香料饭时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, ziltige, warm gekruide Sayadieh wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  }
+]

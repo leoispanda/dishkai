@@ -67,36 +67,111 @@ export const cafeBrunchDepthDishes = [
     metadataConfidence: 0.82
   }),
   cafeDish({
-    id: "shakshuka",
-    metadataCode: "120013",
-    cuisineId: "middle-eastern",
-    names: { en: "Shakshuka", zh: "番茄炖蛋", nl: "Shakshuka", local: "shakshuka" },
-    category: "main",
-    cookingMethods: ["simmered"],
-    shortDescription: {
-      en: "Eggs poached in spiced tomato-pepper sauce, often served with bread.",
-      zh: "鸡蛋卧在香料番茄甜椒酱里炖煮，常配面包蘸酱。",
-      nl: "Eieren gepocheerd in gekruide tomaat-paprikasaus, vaak met brood.",
+    "id": "shakshuka",
+    "metadataCode": "120013",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Shakshuka",
+      "zh": "番茄炖蛋",
+      "nl": "Shakshuka",
+      "local": "shakshuka"
     },
-    cookingProfile: {
-      en: "The sauce is the point: warm tomato, pepper, cumin, and runny or set eggs depending on the kitchen.",
-      zh: "重点是番茄甜椒酱和孜然香，鸡蛋可能流心也可能全熟。",
-      nl: "De saus staat centraal: warme tomaat, paprika, komijn en eieren naar garing.",
+    "category": "main",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Shakshuka is eggs poached in spiced tomato and pepper sauce, often served with bread.",
+      "zh": "番茄炖蛋通常是鸡蛋卧在香料番茄甜椒酱里炖煮，常配面包蘸酱。",
+      "nl": "Shakshuka is meestal eieren gepocheerd in gekruide tomaat-paprikasaus, vaak met brood."
     },
-    composition: [["tomato-sauce", 45, "sauce"], ["egg", 25, "poached-eggs"], ["mixed-vegetables", 15, "pepper-onion"], ["bread", 10, "side"], ["cumin", 5, "warm-spice", "seasoning"]],
-    distinctiveFlavorSources: ["cumin", "paprika", "garlic"],
-    basicTaste: ["savory", "tangy", "warm-spiced"],
-    textureProfile: ["saucy", "soft eggs", "bread-dipping"],
-    riskFlags: ["contains-egg", "contains-gluten"],
-    dietaryFlags: ["vegetarian"],
-    goodForTags: ["brunch", "vegetarian-friendly", "sharing"],
-    orderVerdict: {
-      en: "Great if you want a warm saucy brunch dish; ask egg doneness if runny yolk matters.",
-      zh: "想吃热乎、有酱汁感的早午餐很适合；在意流心蛋就问熟度。",
-      nl: "Sterk warm brunchgerecht; vraag naar eiergaring als lopende dooier belangrijk is.",
+    "cookingProfile": {
+      "en": "Expect saucy tomato base, soft eggs, and bread for dipping.",
+      "zh": "点餐时可预期番茄酱汁多，鸡蛋柔软，适合蘸面包。",
+      "nl": "Verwacht sauzige tomatenbasis, zachte eieren en brood om te dippen."
     },
-    spiceLevel: 1,
-    weightLevel: 3,
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Shakshuka is recognized by eggs poached in spiced tomato and pepper sauce, often served with bread.",
+        "zh": "番茄炖蛋的识别重点是鸡蛋卧在香料番茄甜椒酱里炖煮，常配面包蘸酱。",
+        "nl": "Shakshuka herken je aan eieren gepocheerd in gekruide tomaat-paprikasaus, vaak met brood."
+      }
+    },
+    "composition": [
+      [
+        "tomato-sauce",
+        45,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "egg",
+        25,
+        "poached-eggs"
+      ],
+      [
+        "bell-pepper",
+        15,
+        "pepper-onion-base"
+      ],
+      [
+        "bread",
+        10,
+        "dipping-side"
+      ],
+      [
+        "cumin",
+        5,
+        "warm-spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "tomato-sauce",
+      "egg",
+      "cumin",
+      "garlic"
+    ],
+    "basicTaste": [
+      "savory",
+      "tangy",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "saucy tomato base",
+      "soft eggs",
+      "bread-dipping"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "brunch",
+      "vegetarian-friendly"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, tangy, warm-spiced Shakshuka; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、酸爽、温暖香料的番茄炖蛋时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, friszure, warm gekruide Shakshuka wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-031",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
   }),
   cafeDish({
     id: "french-toast",

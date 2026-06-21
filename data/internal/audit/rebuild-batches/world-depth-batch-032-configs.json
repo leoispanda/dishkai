@@ -1,0 +1,3326 @@
+[
+  {
+    "id": "mixed-grill-middle-eastern",
+    "metadataCode": "120025",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Middle Eastern Mixed Grill",
+      "zh": "中东烤肉拼盘",
+      "nl": "Midden-Oosterse mixed grill",
+      "local": "mixed grill"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Middle Eastern Mixed Grill is a platter of assorted grilled kebabs, kofta, chicken, lamb, vegetables, bread, and sauces.",
+      "zh": "中东烤肉拼盘通常是多种烤肉串、肉丸、鸡肉、羊肉、蔬菜、面包和酱料拼盘。",
+      "nl": "Midden-Oosterse mixed grill is meestal een schaal met verschillende kebabs, kofta, kip, lam, groente, brood en sauzen."
+    },
+    "cookingProfile": {
+      "en": "Expect charred meats with varied cuts, warm bread, and dips for sharing.",
+      "zh": "点餐时可预期多种焦香烤肉，配热面包和蘸酱，适合分享。",
+      "nl": "Verwacht gegrild vlees met variatie, warm brood en dips om te delen."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Middle Eastern Mixed Grill is recognized by a platter of assorted grilled kebabs, kofta, chicken, lamb, vegetables, bread, and sauces.",
+        "zh": "中东烤肉拼盘的识别重点是多种烤肉串、肉丸、鸡肉、羊肉、蔬菜、面包和酱料拼盘。",
+        "nl": "Midden-Oosterse mixed grill herken je aan een schaal met verschillende kebabs, kofta, kip, lam, groente, brood en sauzen."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        30,
+        "grilled-meat"
+      ],
+      [
+        "chicken",
+        25,
+        "grilled-chicken"
+      ],
+      [
+        "ground-meat",
+        20,
+        "kofta"
+      ],
+      [
+        "pita",
+        15,
+        "bread-side"
+      ],
+      [
+        "bell-pepper",
+        5,
+        "grilled-vegetable"
+      ],
+      [
+        "garlic",
+        5,
+        "sauce-aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lamb",
+      "ground-meat",
+      "garlic",
+      "charred edges"
+    ],
+    "basicTaste": [
+      "savory",
+      "smoky",
+      "garlicky"
+    ],
+    "textureProfile": [
+      "mixed grilled cuts",
+      "charred edges",
+      "bread-and-dip bites"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "sharing",
+      "grilled"
+    ],
+    "avoidIfTags": [
+      "gluten-free-if-served-with-bread",
+      "wants-vegetarian"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, smoky, garlicky Middle Eastern Mixed Grill; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、烟熏焦香、蒜香的中东烤肉拼盘时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, rokerige, knoflookrijke Midden-Oosterse mixed grill wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "shish-taouk",
+    "metadataCode": "120026",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Shish Taouk",
+      "zh": "中东蒜香鸡肉串",
+      "nl": "Shish taouk",
+      "local": "shish taouk"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Shish Taouk is Levantine garlic-yogurt marinated chicken skewers, often with pickles, flatbread, and garlic sauce.",
+      "zh": "中东蒜香鸡肉串通常是黎凡特蒜香酸奶腌鸡肉串，常配腌菜、薄饼和蒜酱。",
+      "nl": "Shish taouk is meestal Levantijnse kipspiesen met knoflook-yoghurtmarinade, vaak met pickles, platbrood en knoflooksaus."
+    },
+    "cookingProfile": {
+      "en": "Expect juicy chicken, garlic aroma, mild tang, and a grilled edge.",
+      "zh": "点餐时可预期鸡肉多汁，蒜香明显，微酸并带烤香。",
+      "nl": "Verwacht sappige kip, knoflookgeur, lichte frisheid en grillrand."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Shish Taouk is recognized by Levantine garlic-yogurt marinated chicken skewers, often with pickles, flatbread, and garlic sauce.",
+        "zh": "中东蒜香鸡肉串的识别重点是黎凡特蒜香酸奶腌鸡肉串，常配腌菜、薄饼和蒜酱。",
+        "nl": "Shish taouk herken je aan Levantijnse kipspiesen met knoflook-yoghurtmarinade, vaak met pickles, platbrood en knoflooksaus."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        60,
+        "skewered-chicken"
+      ],
+      [
+        "yogurt",
+        15,
+        "marinade"
+      ],
+      [
+        "pita",
+        15,
+        "bread-side"
+      ],
+      [
+        "garlic",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "chicken",
+      "garlic",
+      "yogurt",
+      "lemon"
+    ],
+    "basicTaste": [
+      "savory",
+      "garlicky",
+      "mildly-tangy"
+    ],
+    "textureProfile": [
+      "juicy chicken cubes",
+      "light char",
+      "soft bread side"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "safe-choice",
+      "grilled"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, garlicky, mildly-tangy Shish Taouk; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、蒜香、微酸的中东蒜香鸡肉串时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, knoflookrijke, licht frisse Shish taouk wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "batata-harra",
+    "metadataCode": "120027",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Batata Harra",
+      "zh": "香辣蒜味土豆",
+      "nl": "Batata harra",
+      "local": "batata harra"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "fried",
+      "sauce-tossed"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Batata Harra is fried or roasted potato cubes tossed with chili, garlic, coriander, lemon, and herbs.",
+      "zh": "香辣蒜味土豆通常是土豆块炸或烤后拌辣椒、蒜、香菜、柠檬和香草。",
+      "nl": "Batata harra is meestal gebakken of geroosterde aardappelblokjes met chili, knoflook, koriander, citroen en kruiden."
+    },
+    "cookingProfile": {
+      "en": "Expect crisp-edged potatoes with spicy garlic oil and fresh herbs.",
+      "zh": "点餐时可预期土豆边缘香脆，带辣蒜油和清新香草。",
+      "nl": "Verwacht aardappelblokjes met krokante rand, pittige knoflookolie en frisse kruiden."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Batata Harra is recognized by fried or roasted potato cubes tossed with chili, garlic, coriander, lemon, and herbs.",
+        "zh": "香辣蒜味土豆的识别重点是土豆块炸或烤后拌辣椒、蒜、香菜、柠檬和香草。",
+        "nl": "Batata harra herken je aan gebakken of geroosterde aardappelblokjes met chili, knoflook, koriander, citroen en kruiden."
+      }
+    },
+    "composition": [
+      [
+        "potato",
+        70,
+        "fried-potato"
+      ],
+      [
+        "chili",
+        10,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        10,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "coriander",
+        5,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "chili",
+      "garlic",
+      "coriander",
+      "lemon"
+    ],
+    "basicTaste": [
+      "spicy",
+      "garlicky",
+      "savory",
+      "lemony"
+    ],
+    "textureProfile": [
+      "crisp potato edges",
+      "soft centers",
+      "herb coating"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "goodForTags": [
+      "fried-snack",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "spice-sensitive",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want spicy, garlicky, savory Batata Harra; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要辣味、蒜香、咸香的香辣蒜味土豆时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je pittige, knoflookrijke, hartige Batata harra wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 2,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "muhammara",
+    "metadataCode": "120028",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Muhammara",
+      "zh": "红椒核桃蘸酱",
+      "nl": "Muhammara",
+      "local": "muhammara"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Muhammara is a roasted red pepper and walnut dip with olive oil, breadcrumbs, and tangy sweetness.",
+      "zh": "红椒核桃蘸酱通常是烤红椒核桃蘸酱，含橄榄油、面包屑和酸甜味。",
+      "nl": "Muhammara is meestal dip van geroosterde rode paprika en walnoot met olijfolie, broodkruim en friszoete toon."
+    },
+    "cookingProfile": {
+      "en": "Expect thick red dip, nutty body, pepper sweetness, and bread for scooping.",
+      "zh": "点餐时可预期红色蘸酱浓稠，坚果感和甜椒甜味明显，适合蘸面包。",
+      "nl": "Verwacht dikke rode dip met notige body, paprika-zoetheid en brood om te scheppen."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Muhammara is recognized by a roasted red pepper and walnut dip with olive oil, breadcrumbs, and tangy sweetness.",
+        "zh": "红椒核桃蘸酱的识别重点是烤红椒核桃蘸酱，含橄榄油、面包屑和酸甜味。",
+        "nl": "Muhammara herken je aan dip van geroosterde rode paprika en walnoot met olijfolie, broodkruim en friszoete toon."
+      }
+    },
+    "composition": [
+      [
+        "bell-pepper",
+        45,
+        "roasted-pepper-base"
+      ],
+      [
+        "walnuts",
+        25,
+        "nut-body"
+      ],
+      [
+        "panko-breadcrumbs",
+        15,
+        "thickener"
+      ],
+      [
+        "olive-oil",
+        10,
+        "richness",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "bell-pepper",
+      "walnuts",
+      "olive-oil",
+      "chili"
+    ],
+    "basicTaste": [
+      "sweet-savory",
+      "nutty",
+      "tangy",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "thick dip",
+      "slightly coarse nuts",
+      "smooth pepper body"
+    ],
+    "riskFlags": [
+      "contains-tree-nut",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "goodForTags": [
+      "mezze",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "nut-allergy",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want sweet-savory, nutty, tangy Muhammara; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要坚果香、酸爽的红椒核桃蘸酱时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je nootachtige, friszure Muhammara wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "umm-ali",
+    "metadataCode": "120029",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Umm Ali",
+      "zh": "埃及奶香面包布丁",
+      "nl": "Umm Ali",
+      "local": "umm ali"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Umm Ali is Egyptian bread pudding with pastry, milk or cream, nuts, raisins, and a browned top.",
+      "zh": "埃及奶香面包布丁通常是埃及奶香面包布丁，有酥皮、牛奶或奶油、坚果、葡萄干和焦香表面。",
+      "nl": "Umm Ali is meestal Egyptische broodpudding met deeg, melk of room, noten, rozijnen en bruine bovenkant."
+    },
+    "cookingProfile": {
+      "en": "Expect warm creamy pastry pieces, soft raisins, nut crunch, and baked dairy richness.",
+      "zh": "点餐时可预期热乎奶香酥皮块、柔软葡萄干、坚果脆感和烘烤奶香。",
+      "nl": "Verwacht warme romige deegstukjes, zachte rozijnen, notenknak en gebakken zuivelrijkdom."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Umm Ali is recognized by Egyptian bread pudding with pastry, milk or cream, nuts, raisins, and a browned top.",
+        "zh": "埃及奶香面包布丁的识别重点是埃及奶香面包布丁，有酥皮、牛奶或奶油、坚果、葡萄干和焦香表面。",
+        "nl": "Umm Ali herken je aan Egyptische broodpudding met deeg, melk of room, noten, rozijnen en bruine bovenkant."
+      }
+    },
+    "composition": [
+      [
+        "puff-pastry",
+        35,
+        "pastry-base"
+      ],
+      [
+        "milk-solids",
+        30,
+        "creamy-base"
+      ],
+      [
+        "cream",
+        15,
+        "richness"
+      ],
+      [
+        "raisins",
+        10,
+        "sweet-fruit"
+      ],
+      [
+        "almonds",
+        10,
+        "nut-garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "milk-solids",
+      "puff-pastry",
+      "almonds",
+      "raisins"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "nutty",
+      "warm"
+    ],
+    "textureProfile": [
+      "soft pudding",
+      "flaky pastry pieces",
+      "nut crunch"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "nut-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want sweet, creamy, nutty Umm Ali; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要甜味、奶香顺滑、坚果香的埃及奶香面包布丁时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je zoete, romige, nootachtige Umm Ali wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "basbousa",
+    "metadataCode": "120030",
+    "cuisineId": "middle-eastern",
+    "names": {
+      "en": "Basbousa",
+      "zh": "中东粗粒小麦糖浆蛋糕",
+      "nl": "Basbousa",
+      "local": "basbousa"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Basbousa is a semolina cake soaked with syrup and often topped with almonds or coconut.",
+      "zh": "中东粗粒小麦糖浆蛋糕通常是粗粒小麦蛋糕浸糖浆，常放杏仁或椰子。",
+      "nl": "Basbousa is meestal griesmeelcake gedrenkt in siroop, vaak met amandel of kokos."
+    },
+    "cookingProfile": {
+      "en": "Expect dense grainy cake, sticky syrup, and a sweet nut garnish.",
+      "zh": "点餐时可预期蛋糕扎实带颗粒感，糖浆黏润，坚果点缀。",
+      "nl": "Verwacht dichte korrelige cake, kleverige siroop en zoete notengarnering."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Basbousa is recognized by a semolina cake soaked with syrup and often topped with almonds or coconut.",
+        "zh": "中东粗粒小麦糖浆蛋糕的识别重点是粗粒小麦蛋糕浸糖浆，常放杏仁或椰子。",
+        "nl": "Basbousa herken je aan griesmeelcake gedrenkt in siroop, vaak met amandel of kokos."
+      }
+    },
+    "composition": [
+      [
+        "semolina",
+        50,
+        "cake-base"
+      ],
+      [
+        "sugar",
+        25,
+        "syrup"
+      ],
+      [
+        "yogurt",
+        10,
+        "moisture"
+      ],
+      [
+        "almonds",
+        10,
+        "garnish"
+      ],
+      [
+        "coconut-milk",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "semolina",
+      "sugar",
+      "almonds",
+      "coconut-milk"
+    ],
+    "basicTaste": [
+      "sweet",
+      "nutty",
+      "mild",
+      "syrupy"
+    ],
+    "textureProfile": [
+      "dense cake",
+      "grainy crumb",
+      "sticky syrup"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "sweet-snack"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "nut-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want sweet, nutty, mild Basbousa; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要甜味、坚果香、温和的中东粗粒小麦糖浆蛋糕时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je zoete, nootachtige, milde Basbousa wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "fajitas",
+    "metadataCode": "121013",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Fajitas",
+      "zh": "墨西哥铁板肉蔬",
+      "nl": "Fajitas",
+      "local": "fajitas"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "grilled",
+      "stir-fried"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Fajitas is sizzling grilled meat strips with bell peppers, onions, tortillas, salsa, and lime.",
+      "zh": "墨西哥铁板肉蔬通常是滋滋作响的烤肉条配甜椒、洋葱、饼、莎莎和青柠。",
+      "nl": "Fajitas is meestal sissende gegrilde vleesreepjes met paprika, ui, tortilla, salsa en limoen."
+    },
+    "cookingProfile": {
+      "en": "Expect hot smoky meat and peppers that you assemble into tortillas yourself.",
+      "zh": "点餐时可预期热腾腾烟香肉条和甜椒，需要自己卷进饼里。",
+      "nl": "Verwacht hete rokerige vleesreepjes en paprika die je zelf in tortilla’s vouwt."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Fajitas is recognized by sizzling grilled meat strips with bell peppers, onions, tortillas, salsa, and lime.",
+        "zh": "墨西哥铁板肉蔬的识别重点是滋滋作响的烤肉条配甜椒、洋葱、饼、莎莎和青柠。",
+        "nl": "Fajitas herken je aan sissende gegrilde vleesreepjes met paprika, ui, tortilla, salsa en limoen."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        35,
+        "meat-strips"
+      ],
+      [
+        "chicken",
+        25,
+        "alternate-meat"
+      ],
+      [
+        "bell-pepper",
+        20,
+        "vegetable-strips"
+      ],
+      [
+        "onion",
+        10,
+        "aroma"
+      ],
+      [
+        "tortilla",
+        5,
+        "wrap"
+      ],
+      [
+        "salsa",
+        5,
+        "sauce",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "bell-pepper",
+      "salsa",
+      "lime",
+      "charred edges"
+    ],
+    "basicTaste": [
+      "savory",
+      "smoky",
+      "fresh",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "sizzling strips",
+      "soft tortillas",
+      "crisp peppers"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "sharing",
+      "build-your-own"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "wants-ready-plated-food"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, smoky, fresh Fajitas; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、烟熏焦香、清爽的墨西哥铁板肉蔬时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, rokerige, frisse Fajitas wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "tostadas",
+    "metadataCode": "121014",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Tostadas",
+      "zh": "墨西哥脆玉米饼",
+      "nl": "Tostadas",
+      "local": "tostadas"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "fried",
+      "assembled"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Tostadas is flat crisp tortillas topped with beans, meat or seafood, lettuce, crema, salsa, and cheese.",
+      "zh": "墨西哥脆玉米饼通常是平铺脆玉米饼，上面放豆、肉或海鲜、生菜、酸奶油、莎莎和奶酪。",
+      "nl": "Tostadas is meestal platte krokante tortilla’s met bonen, vlees of zeevrucht, sla, crema, salsa en kaas."
+    },
+    "cookingProfile": {
+      "en": "Expect a crunchy open-face bite with messy fresh toppings.",
+      "zh": "点餐时可预期开面小饼很脆，顶部配料新鲜但容易散落。",
+      "nl": "Verwacht krokante open hap met frisse toppings die makkelijk morsen."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Tostadas is recognized by flat crisp tortillas topped with beans, meat or seafood, lettuce, crema, salsa, and cheese.",
+        "zh": "墨西哥脆玉米饼的识别重点是平铺脆玉米饼，上面放豆、肉或海鲜、生菜、酸奶油、莎莎和奶酪。",
+        "nl": "Tostadas herken je aan platte krokante tortilla’s met bonen, vlees of zeevrucht, sla, crema, salsa en kaas."
+      }
+    },
+    "composition": [
+      [
+        "corn-tortilla-chips",
+        35,
+        "crisp-base"
+      ],
+      [
+        "black-beans",
+        20,
+        "bean-layer"
+      ],
+      [
+        "chicken",
+        15,
+        "common-protein"
+      ],
+      [
+        "sour-cream",
+        10,
+        "crema"
+      ],
+      [
+        "cheese",
+        10,
+        "topping"
+      ],
+      [
+        "salsa",
+        10,
+        "sauce",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "salsa",
+      "black-beans",
+      "sour-cream",
+      "cheese"
+    ],
+    "basicTaste": [
+      "crisp",
+      "savory",
+      "tangy",
+      "fresh"
+    ],
+    "textureProfile": [
+      "crunchy tortilla",
+      "creamy topping",
+      "loose salad bite"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "crunchy-food",
+      "casual-meal"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "wants-neat-eating"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want crisp, savory, tangy Tostadas; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要酥脆、咸香、酸爽的墨西哥脆玉米饼时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je krokante, hartige, friszure Tostadas wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "sopes",
+    "metadataCode": "121015",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Sopes",
+      "zh": "墨西哥厚边玉米小饼",
+      "nl": "Sopes",
+      "local": "sopes"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "fried",
+      "assembled"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Sopes is small thick corn masa rounds with raised edges and toppings like beans, meat, salsa, crema, and cheese.",
+      "zh": "墨西哥厚边玉米小饼通常是厚玉米小饼带高边，铺豆、肉、莎莎、酸奶油和奶酪。",
+      "nl": "Sopes is meestal kleine dikke maïsdeegbodems met opstaande rand en toppings zoals bonen, vlees, salsa, crema en kaas."
+    },
+    "cookingProfile": {
+      "en": "Expect thicker and softer than tostadas, with crisp edges and hearty toppings.",
+      "zh": "点餐时可预期比 炸玉米脆饼 更厚更软，边缘微脆，配料更扎实。",
+      "nl": "Verwacht dikker en zachter dan tostadas, met krokante rand en stevige topping."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Sopes is recognized by small thick corn masa rounds with raised edges and toppings like beans, meat, salsa, crema, and cheese.",
+        "zh": "墨西哥厚边玉米小饼的识别重点是厚玉米小饼带高边，铺豆、肉、莎莎、酸奶油和奶酪。",
+        "nl": "Sopes herken je aan kleine dikke maïsdeegbodems met opstaande rand en toppings zoals bonen, vlees, salsa, crema en kaas."
+      }
+    },
+    "composition": [
+      [
+        "corn",
+        40,
+        "masa-base"
+      ],
+      [
+        "black-beans",
+        20,
+        "bean-layer"
+      ],
+      [
+        "ground-meat",
+        15,
+        "protein"
+      ],
+      [
+        "sour-cream",
+        10,
+        "crema"
+      ],
+      [
+        "cheese",
+        10,
+        "topping"
+      ],
+      [
+        "salsa",
+        5,
+        "sauce",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "corn",
+      "black-beans",
+      "salsa",
+      "cheese"
+    ],
+    "basicTaste": [
+      "savory",
+      "corny",
+      "tangy",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "thick masa base",
+      "raised edges",
+      "soft center"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "filling-snack"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, corny, tangy Sopes; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、酸爽的墨西哥厚边玉米小饼时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, friszure Sopes wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "gorditas",
+    "metadataCode": "121016",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Gorditas",
+      "zh": "墨西哥厚玉米夹饼",
+      "nl": "Gorditas",
+      "local": "gorditas"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "fried",
+      "assembled"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Gorditas is thick corn masa pockets split and stuffed with meat, beans, cheese, lettuce, salsa, or crema.",
+      "zh": "墨西哥厚玉米夹饼通常是厚玉米面饼剖开夹肉、豆、奶酪、生菜、莎莎或酸奶油。",
+      "nl": "Gorditas is meestal dikke maïszakjes gevuld met vlees, bonen, kaas, sla, salsa of crema."
+    },
+    "cookingProfile": {
+      "en": "Expect a soft thick pocket with a filling-heavy center.",
+      "zh": "点餐时可预期饼身厚软，中间馅料多。",
+      "nl": "Verwacht zachte dikke pocket met rijk gevulde kern."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Gorditas is recognized by thick corn masa pockets split and stuffed with meat, beans, cheese, lettuce, salsa, or crema.",
+        "zh": "墨西哥厚玉米夹饼的识别重点是厚玉米面饼剖开夹肉、豆、奶酪、生菜、莎莎或酸奶油。",
+        "nl": "Gorditas herken je aan dikke maïszakjes gevuld met vlees, bonen, kaas, sla, salsa of crema."
+      }
+    },
+    "composition": [
+      [
+        "corn",
+        45,
+        "masa-pocket"
+      ],
+      [
+        "ground-meat",
+        20,
+        "filling"
+      ],
+      [
+        "black-beans",
+        15,
+        "filling"
+      ],
+      [
+        "cheese",
+        10,
+        "richness"
+      ],
+      [
+        "salsa",
+        5,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "frisee-lettuce",
+        5,
+        "freshness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "corn",
+      "ground-meat",
+      "black-beans",
+      "salsa"
+    ],
+    "basicTaste": [
+      "savory",
+      "corny",
+      "hearty",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "thick soft masa",
+      "stuffed center",
+      "fresh lettuce crunch"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "filling-snack"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "wants-crisp-taco"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, corny, hearty Gorditas; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香的墨西哥厚玉米夹饼时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige Gorditas wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "elote",
+    "metadataCode": "121017",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Elote",
+      "zh": "墨西哥街头烤玉米",
+      "nl": "Elote",
+      "local": "elote"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Elote is grilled corn on the cob coated with crema, cheese, chili, lime, and herbs.",
+      "zh": "墨西哥街头烤玉米通常是整根烤玉米裹酸奶油、奶酪、辣椒、青柠和香草。",
+      "nl": "Elote is meestal gegrilde maïskolf met crema, kaas, chili, limoen en kruiden."
+    },
+    "cookingProfile": {
+      "en": "Expect sweet corn, charred kernels, creamy coating, and chili-lime brightness.",
+      "zh": "点餐时可预期玉米清甜带焦香，外层奶香，辣椒和青柠提味。",
+      "nl": "Verwacht zoete maïs met grillrand, romige laag en chili-limoenfrisheid."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Elote is recognized by grilled corn on the cob coated with crema, cheese, chili, lime, and herbs.",
+        "zh": "墨西哥街头烤玉米的识别重点是整根烤玉米裹酸奶油、奶酪、辣椒、青柠和香草。",
+        "nl": "Elote herken je aan gegrilde maïskolf met crema, kaas, chili, limoen en kruiden."
+      }
+    },
+    "composition": [
+      [
+        "corn",
+        65,
+        "corn-cob"
+      ],
+      [
+        "sour-cream",
+        15,
+        "crema"
+      ],
+      [
+        "cheese",
+        10,
+        "crumbly-cheese"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "lime",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "corn",
+      "sour-cream",
+      "chili",
+      "lime"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "tangy",
+      "spicy"
+    ],
+    "textureProfile": [
+      "juicy kernels",
+      "creamy coating",
+      "crumbly cheese"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "street-food",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "spice-sensitive"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want sweet, creamy, tangy Elote; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要甜味、奶香顺滑、酸爽的墨西哥街头烤玉米时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je zoete, romige, friszure Elote wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 2,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "esquites",
+    "metadataCode": "121018",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Esquites",
+      "zh": "墨西哥杯装玉米",
+      "nl": "Esquites",
+      "local": "esquites"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "simmered",
+      "assembled"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Esquites is loose corn kernels served in a cup or bowl with crema, cheese, chili, lime, and herbs.",
+      "zh": "墨西哥杯装玉米通常是玉米粒装杯或碗，拌酸奶油、奶酪、辣椒、青柠和香草。",
+      "nl": "Esquites is meestal losse maïskorrels in beker of kom met crema, kaas, chili, limoen en kruiden."
+    },
+    "cookingProfile": {
+      "en": "Expect spoonable sweet corn with creamy tang and chili-lime seasoning.",
+      "zh": "点餐时可预期可用勺吃的甜玉米粒，奶香微酸，带辣椒青柠味。",
+      "nl": "Verwacht lepelbare zoete maïs met romige frisheid en chili-limoenkruiding."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Esquites is recognized by loose corn kernels served in a cup or bowl with crema, cheese, chili, lime, and herbs.",
+        "zh": "墨西哥杯装玉米的识别重点是玉米粒装杯或碗，拌酸奶油、奶酪、辣椒、青柠和香草。",
+        "nl": "Esquites herken je aan losse maïskorrels in beker of kom met crema, kaas, chili, limoen en kruiden."
+      }
+    },
+    "composition": [
+      [
+        "corn",
+        70,
+        "corn-kernels"
+      ],
+      [
+        "sour-cream",
+        10,
+        "crema"
+      ],
+      [
+        "cheese",
+        10,
+        "crumbly-cheese"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "lime",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "corn",
+      "sour-cream",
+      "chili",
+      "lime"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "tangy",
+      "spicy"
+    ],
+    "textureProfile": [
+      "loose kernels",
+      "creamy coating",
+      "spoonable snack"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "street-food",
+      "snack"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "spice-sensitive"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want sweet, creamy, tangy Esquites; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要甜味、奶香顺滑、酸爽的墨西哥杯装玉米时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je zoete, romige, friszure Esquites wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 2,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "chilaquiles",
+    "metadataCode": "121019",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Chilaquiles",
+      "zh": "墨西哥莎莎玉米片",
+      "nl": "Chilaquiles",
+      "local": "chilaquiles"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "sauce-tossed",
+      "assembled"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Chilaquiles is tortilla chips softened in salsa, topped with egg, crema, cheese, onion, and avocado.",
+      "zh": "墨西哥莎莎玉米片通常是玉米片拌入莎莎酱，配鸡蛋、酸奶油、奶酪、洋葱和牛油果。",
+      "nl": "Chilaquiles is meestal tortillachips in salsa met ei, crema, kaas, ui en avocado."
+    },
+    "cookingProfile": {
+      "en": "Expect saucy chips that are partly soft and partly crisp, with breakfast-style toppings.",
+      "zh": "点餐时可预期玉米片有的软有的脆，顶部配料偏早午餐风格。",
+      "nl": "Verwacht sauzige chips deels zacht en deels krokant, met brunchachtige toppings."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Chilaquiles is recognized by tortilla chips softened in salsa, topped with egg, crema, cheese, onion, and avocado.",
+        "zh": "墨西哥莎莎玉米片的识别重点是玉米片拌入莎莎酱，配鸡蛋、酸奶油、奶酪、洋葱和牛油果。",
+        "nl": "Chilaquiles herken je aan tortillachips in salsa met ei, crema, kaas, ui en avocado."
+      }
+    },
+    "composition": [
+      [
+        "corn-tortilla-chips",
+        45,
+        "chip-base"
+      ],
+      [
+        "salsa",
+        20,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "egg",
+        15,
+        "topping"
+      ],
+      [
+        "sour-cream",
+        10,
+        "crema"
+      ],
+      [
+        "cheese",
+        5,
+        "topping"
+      ],
+      [
+        "avocado",
+        5,
+        "freshness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "salsa",
+      "corn-tortilla-chips",
+      "egg",
+      "sour-cream"
+    ],
+    "basicTaste": [
+      "tangy",
+      "savory",
+      "creamy",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "softened chips",
+      "crisp edges",
+      "creamy toppings"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "brunch",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want tangy, savory, creamy Chilaquiles; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要酸爽、咸香、奶香顺滑的墨西哥莎莎玉米片时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je friszure, hartige, romige Chilaquiles wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "huevos-rancheros",
+    "metadataCode": "121020",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Huevos Rancheros",
+      "zh": "牧场风味煎蛋",
+      "nl": "Huevos rancheros",
+      "local": "huevos rancheros"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "fried",
+      "assembled"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Huevos Rancheros is fried eggs on tortillas with ranchero tomato-chili sauce, beans, avocado, and cheese.",
+      "zh": "牧场风味煎蛋通常是煎蛋放在玉米饼上，配番茄辣椒酱、豆、牛油果和奶酪。",
+      "nl": "Huevos rancheros is meestal gebakken eieren op tortilla met ranchero tomaat-chilisaus, bonen, avocado en kaas."
+    },
+    "cookingProfile": {
+      "en": "Expect runny or set eggs over saucy tortillas and beans.",
+      "zh": "点餐时可预期鸡蛋可流心或全熟，下面是带酱玉米饼和豆。",
+      "nl": "Verwacht lopende of gestolde eieren op sauzige tortilla en bonen."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Huevos Rancheros is recognized by fried eggs on tortillas with ranchero tomato-chili sauce, beans, avocado, and cheese.",
+        "zh": "牧场风味煎蛋的识别重点是煎蛋放在玉米饼上，配番茄辣椒酱、豆、牛油果和奶酪。",
+        "nl": "Huevos rancheros herken je aan gebakken eieren op tortilla met ranchero tomaat-chilisaus, bonen, avocado en kaas."
+      }
+    },
+    "composition": [
+      [
+        "egg",
+        30,
+        "fried-eggs"
+      ],
+      [
+        "corn",
+        25,
+        "tortilla-base"
+      ],
+      [
+        "black-beans",
+        20,
+        "side"
+      ],
+      [
+        "tomato-sauce",
+        10,
+        "ranchero-sauce",
+        "seasoning"
+      ],
+      [
+        "avocado",
+        10,
+        "freshness"
+      ],
+      [
+        "cheese",
+        5,
+        "topping"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "egg",
+      "tomato-sauce",
+      "black-beans",
+      "avocado"
+    ],
+    "basicTaste": [
+      "savory",
+      "tangy",
+      "mildly-spicy",
+      "creamy"
+    ],
+    "textureProfile": [
+      "fried eggs",
+      "saucy tortilla",
+      "soft beans"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "brunch",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, tangy, mildly-spicy Huevos Rancheros; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、酸爽的牧场风味煎蛋时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, friszure Huevos rancheros wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "birria",
+    "metadataCode": "121021",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Birria",
+      "zh": "墨西哥红汤炖肉",
+      "nl": "Birria",
+      "local": "birria"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "braised",
+      "simmered"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Birria is slow-braised beef or goat in a deep red chile broth, served with onion, cilantro, lime, and tortillas.",
+      "zh": "墨西哥红汤炖肉通常是牛肉或羊肉在深红辣椒汤中慢炖，配洋葱、香菜、青柠和玉米饼。",
+      "nl": "Birria is meestal lang gestoofd rund of geit in dieprode chilibouillon met ui, koriander, limoen en tortilla."
+    },
+    "cookingProfile": {
+      "en": "Expect tender shredded meat, red chile broth, and dipping tortillas.",
+      "zh": "点餐时可预期肉丝软烂，红汤香辣，可配饼蘸汤。",
+      "nl": "Verwacht mals draadjesvlees, rode chilibouillon en tortilla’s om te dippen."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Birria is recognized by slow-braised beef or goat in a deep red chile broth, served with onion, cilantro, lime, and tortillas.",
+        "zh": "墨西哥红汤炖肉的识别重点是牛肉或羊肉在深红辣椒汤中慢炖，配洋葱、香菜、青柠和玉米饼。",
+        "nl": "Birria herken je aan lang gestoofd rund of geit in dieprode chilibouillon met ui, koriander, limoen en tortilla."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        55,
+        "braised-meat"
+      ],
+      [
+        "chili",
+        15,
+        "red-broth",
+        "seasoning"
+      ],
+      [
+        "tomato-sauce",
+        10,
+        "broth-body",
+        "seasoning"
+      ],
+      [
+        "tortilla",
+        10,
+        "side"
+      ],
+      [
+        "onion",
+        5,
+        "fresh-topping"
+      ],
+      [
+        "lime",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "beef",
+      "chili",
+      "lime",
+      "tomato-sauce"
+    ],
+    "basicTaste": [
+      "savory",
+      "spicy",
+      "rich",
+      "tangy"
+    ],
+    "textureProfile": [
+      "tender shredded meat",
+      "brothy sauce",
+      "soft tortillas"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "spicy"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "spice-sensitive"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, spicy, rich Birria; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、辣味、浓郁的墨西哥红汤炖肉时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, pittige, rijke Birria wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 2,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "birria-tacos",
+    "metadataCode": "121022",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Birria Tacos",
+      "zh": "墨西哥红汤牛肉塔可",
+      "nl": "Birria-taco’s",
+      "local": "birria tacos"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "braised",
+      "fried"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Birria Tacos is crispy griddled tacos filled with birria meat, often cheese, and a cup of consommé for dipping.",
+      "zh": "墨西哥红汤牛肉塔可通常是煎脆塔可夹 红汤炖肉 炖肉，常加奶酪，并配红汤蘸食。",
+      "nl": "Birria-taco’s is meestal krokant gebakken taco’s met birriavlees, vaak kaas, en consommé om te dippen."
+    },
+    "cookingProfile": {
+      "en": "Expect crisp red-orange tortillas, juicy meat filling, and a rich dipping broth.",
+      "zh": "点餐时可预期红橙色饼壳酥脆，肉馅多汁，蘸汤浓郁。",
+      "nl": "Verwacht krokante rood-oranje tortilla’s, sappig vlees en rijke dipbouillon."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Birria Tacos is recognized by crispy griddled tacos filled with birria meat, often cheese, and a cup of consommé for dipping.",
+        "zh": "墨西哥红汤牛肉塔可的识别重点是煎脆塔可夹 红汤炖肉 炖肉，常加奶酪，并配红汤蘸食。",
+        "nl": "Birria-taco’s herken je aan krokant gebakken taco’s met birriavlees, vaak kaas, en consommé om te dippen."
+      }
+    },
+    "composition": [
+      [
+        "tortilla",
+        40,
+        "taco-shell"
+      ],
+      [
+        "beef",
+        35,
+        "birria-filling"
+      ],
+      [
+        "cheese",
+        10,
+        "melty-filling"
+      ],
+      [
+        "chili",
+        5,
+        "broth-heat",
+        "seasoning"
+      ],
+      [
+        "onion",
+        5,
+        "fresh-topping"
+      ],
+      [
+        "lime",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "beef",
+      "chili",
+      "cheese",
+      "lime"
+    ],
+    "basicTaste": [
+      "savory",
+      "spicy",
+      "rich",
+      "tangy"
+    ],
+    "textureProfile": [
+      "crisp tortilla",
+      "juicy meat",
+      "dipping broth"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, spicy, rich Birria Tacos; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、辣味、浓郁的墨西哥红汤牛肉塔可时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, pittige, rijke Birria-taco’s wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 2,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "barbacoa",
+    "metadataCode": "121023",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Barbacoa",
+      "zh": "墨西哥慢炖肉",
+      "nl": "Barbacoa",
+      "local": "barbacoa"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "braised"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Barbacoa is slow-cooked shredded beef, lamb, or goat served with tortillas, onion, cilantro, salsa, and lime.",
+      "zh": "墨西哥慢炖肉通常是慢炖牛肉、羊肉或山羊肉撕丝，配饼、洋葱、香菜、莎莎和青柠。",
+      "nl": "Barbacoa is meestal lang gegaard draadjesvlees van rund, lam of geit met tortilla, ui, koriander, salsa en limoen."
+    },
+    "cookingProfile": {
+      "en": "Expect deep meaty flavor, soft shredded texture, and fresh toppings.",
+      "zh": "点餐时可预期肉味深，肉丝柔软，配料清爽。",
+      "nl": "Verwacht diepe vleessmaak, zachte draadjesstructuur en frisse toppings."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Barbacoa is recognized by slow-cooked shredded beef, lamb, or goat served with tortillas, onion, cilantro, salsa, and lime.",
+        "zh": "墨西哥慢炖肉的识别重点是慢炖牛肉、羊肉或山羊肉撕丝，配饼、洋葱、香菜、莎莎和青柠。",
+        "nl": "Barbacoa herken je aan lang gegaard draadjesvlees van rund, lam of geit met tortilla, ui, koriander, salsa en limoen."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        55,
+        "slow-cooked-meat"
+      ],
+      [
+        "tortilla",
+        20,
+        "side"
+      ],
+      [
+        "salsa",
+        10,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "onion",
+        5,
+        "fresh-topping"
+      ],
+      [
+        "coriander",
+        5,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "lime",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "beef",
+      "salsa",
+      "lime",
+      "coriander"
+    ],
+    "basicTaste": [
+      "savory",
+      "meaty",
+      "fresh",
+      "mildly-spicy"
+    ],
+    "textureProfile": [
+      "soft shredded meat",
+      "warm tortillas",
+      "fresh topping crunch"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "taco-filling"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "no-meat"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, meaty, fresh Barbacoa; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、清爽的墨西哥慢炖肉时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, frisse Barbacoa wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "carnitas",
+    "metadataCode": "121024",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Carnitas",
+      "zh": "墨西哥慢煮猪肉",
+      "nl": "Carnitas",
+      "local": "carnitas"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "braised",
+      "fried"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Carnitas is slow-cooked pork with juicy meat and crisp browned edges, served with tortillas, salsa, onion, and lime.",
+      "zh": "墨西哥慢煮猪肉通常是慢煮猪肉，肉质多汁边缘焦脆，配饼、莎莎、洋葱和青柠。",
+      "nl": "Carnitas is meestal lang gegaard varkensvlees met sappig vlees en krokante randjes, met tortilla, salsa, ui en limoen."
+    },
+    "cookingProfile": {
+      "en": "Expect rich pork pieces with browned edges and fresh taco toppings.",
+      "zh": "点餐时可预期猪肉浓香，边缘焦脆，配清爽塔可小料。",
+      "nl": "Verwacht rijk varkensvlees met bruine randjes en frisse taco-toppings."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Carnitas is recognized by slow-cooked pork with juicy meat and crisp browned edges, served with tortillas, salsa, onion, and lime.",
+        "zh": "墨西哥慢煮猪肉的识别重点是慢煮猪肉，肉质多汁边缘焦脆，配饼、莎莎、洋葱和青柠。",
+        "nl": "Carnitas herken je aan lang gegaard varkensvlees met sappig vlees en krokante randjes, met tortilla, salsa, ui en limoen."
+      }
+    },
+    "composition": [
+      [
+        "pork",
+        60,
+        "slow-cooked-pork"
+      ],
+      [
+        "tortilla",
+        20,
+        "side"
+      ],
+      [
+        "salsa",
+        10,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "onion",
+        5,
+        "fresh-topping"
+      ],
+      [
+        "lime",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "pork",
+      "salsa",
+      "lime",
+      "browned edges"
+    ],
+    "basicTaste": [
+      "savory",
+      "rich",
+      "porky",
+      "fresh"
+    ],
+    "textureProfile": [
+      "juicy pork",
+      "crisp edges",
+      "soft tortillas"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "taco-filling"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, rich, porky Carnitas; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、浓郁、猪肉香的墨西哥慢煮猪肉时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, rijke, varkensrijke Carnitas wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "al-pastor",
+    "metadataCode": "121025",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Tacos al Pastor",
+      "zh": "墨西哥菠萝猪肉塔可",
+      "nl": "Taco’s al pastor",
+      "local": "tacos al pastor"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Tacos al Pastor is marinated pork tacos with pineapple, onion, cilantro, chili, and lime.",
+      "zh": "墨西哥菠萝猪肉塔可通常是腌制猪肉塔可，配菠萝、洋葱、香菜、辣椒和青柠。",
+      "nl": "Taco’s al pastor is meestal gemarineerde varkenstaco’s met ananas, ui, koriander, chili en limoen."
+    },
+    "cookingProfile": {
+      "en": "Expect sweet-savory pork, pineapple brightness, and small taco portions.",
+      "zh": "点餐时可预期猪肉甜咸带菠萝清香，份量通常是小塔可。",
+      "nl": "Verwacht zoet-hartig varkensvlees, frisse ananas en kleine tacoporties."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Tacos al Pastor is recognized by marinated pork tacos with pineapple, onion, cilantro, chili, and lime.",
+        "zh": "墨西哥菠萝猪肉塔可的识别重点是腌制猪肉塔可，配菠萝、洋葱、香菜、辣椒和青柠。",
+        "nl": "Taco’s al pastor herken je aan gemarineerde varkenstaco’s met ananas, ui, koriander, chili en limoen."
+      }
+    },
+    "composition": [
+      [
+        "pork",
+        45,
+        "marinated-pork"
+      ],
+      [
+        "tortilla",
+        30,
+        "taco"
+      ],
+      [
+        "pineapple",
+        10,
+        "sweet-acid"
+      ],
+      [
+        "onion",
+        5,
+        "fresh-topping"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "lime",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "pork",
+      "pineapple",
+      "chili",
+      "lime"
+    ],
+    "basicTaste": [
+      "savory",
+      "sweet",
+      "spicy",
+      "tangy"
+    ],
+    "textureProfile": [
+      "soft tortillas",
+      "juicy pork",
+      "fresh pineapple bits"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "taco"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, sweet, spicy Tacos al Pastor; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、甜味、辣味的墨西哥菠萝猪肉塔可时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, zoete, pittige Taco’s al pastor wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "cochinita-pibil",
+    "metadataCode": "121026",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Cochinita Pibil",
+      "zh": "尤卡坦橙红慢烤猪肉",
+      "nl": "Cochinita pibil",
+      "local": "cochinita pibil"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "braised",
+      "baked"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Cochinita Pibil is Yucatan-style achiote citrus slow-cooked pork with pickled onion and tortillas.",
+      "zh": "尤卡坦橙红慢烤猪肉通常是尤卡坦风格橙红慢煮猪肉，配腌洋葱和饼。",
+      "nl": "Cochinita pibil is meestal Yucataanse langzaam gegaarde achiote-citrusvarkensvlees met ingelegde ui en tortilla."
+    },
+    "cookingProfile": {
+      "en": "Expect soft orange-red pork, tangy pickled onion, and warm tortillas.",
+      "zh": "点餐时可预期橙红猪肉软烂，腌洋葱酸爽，配热饼。",
+      "nl": "Verwacht zacht oranje-rood varkensvlees, frisse ingelegde ui en warme tortilla’s."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Cochinita Pibil is recognized by Yucatan-style achiote citrus slow-cooked pork with pickled onion and tortillas.",
+        "zh": "尤卡坦橙红慢烤猪肉的识别重点是尤卡坦风格橙红慢煮猪肉，配腌洋葱和饼。",
+        "nl": "Cochinita pibil herken je aan Yucataanse langzaam gegaarde achiote-citrusvarkensvlees met ingelegde ui en tortilla."
+      }
+    },
+    "composition": [
+      [
+        "pork",
+        60,
+        "slow-cooked-pork"
+      ],
+      [
+        "tortilla",
+        20,
+        "side"
+      ],
+      [
+        "onion",
+        10,
+        "pickled-onion"
+      ],
+      [
+        "lime",
+        5,
+        "citrus"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "pork",
+      "lime",
+      "onion",
+      "chili"
+    ],
+    "basicTaste": [
+      "savory",
+      "citrusy",
+      "mildly-spicy",
+      "rich"
+    ],
+    "textureProfile": [
+      "soft shredded pork",
+      "pickled onion crunch",
+      "warm tortillas"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-gluten",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "regional-dish",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, citrusy, mildly-spicy Cochinita Pibil; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、柑橘清香的尤卡坦橙红慢烤猪肉时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, citrusfrisse Cochinita pibil wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "sopa-de-lima",
+    "metadataCode": "121027",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Sopa de Lima",
+      "zh": "尤卡坦青柠鸡汤",
+      "nl": "Sopa de lima",
+      "local": "sopa de lima"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Sopa de Lima is Yucatan chicken lime soup with tortilla strips, tomato, onion, herbs, and avocado.",
+      "zh": "尤卡坦青柠鸡汤通常是尤卡坦青柠鸡汤，配玉米饼条、番茄、洋葱、香草和牛油果。",
+      "nl": "Sopa de lima is meestal Yucataanse kip-limoensoep met tortillareepjes, tomaat, ui, kruiden en avocado."
+    },
+    "cookingProfile": {
+      "en": "Expect clear bright broth, shredded chicken, lime aroma, and crisp tortilla strips.",
+      "zh": "点餐时可预期汤清爽明亮，鸡肉丝柔软，青柠香和脆饼条明显。",
+      "nl": "Verwacht heldere frisse bouillon, kipdraadjes, limoengeur en krokante tortillareepjes."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Sopa de Lima is recognized by Yucatan chicken lime soup with tortilla strips, tomato, onion, herbs, and avocado.",
+        "zh": "尤卡坦青柠鸡汤的识别重点是尤卡坦青柠鸡汤，配玉米饼条、番茄、洋葱、香草和牛油果。",
+        "nl": "Sopa de lima herken je aan Yucataanse kip-limoensoep met tortillareepjes, tomaat, ui, kruiden en avocado."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        35,
+        "shredded-chicken"
+      ],
+      [
+        "tomato",
+        15,
+        "broth-body"
+      ],
+      [
+        "corn-tortilla-chips",
+        15,
+        "tortilla-strips"
+      ],
+      [
+        "lime",
+        15,
+        "citrus"
+      ],
+      [
+        "avocado",
+        10,
+        "freshness"
+      ],
+      [
+        "onion",
+        10,
+        "aroma"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lime",
+      "chicken",
+      "corn-tortilla-chips",
+      "avocado"
+    ],
+    "basicTaste": [
+      "savory",
+      "citrusy",
+      "fresh",
+      "light"
+    ],
+    "textureProfile": [
+      "clear broth",
+      "shredded chicken",
+      "crisp tortilla strips"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "soup",
+      "lighter-choice"
+    ],
+    "avoidIfTags": [
+      "wants-creamy-soup",
+      "no-chicken"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, citrusy, fresh Sopa de Lima; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、柑橘清香、清爽的尤卡坦青柠鸡汤时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, citrusfrisse, frisse Sopa de lima wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "aguachile",
+    "metadataCode": "121028",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Aguachile",
+      "zh": "墨西哥青柠辣虾",
+      "nl": "Aguachile",
+      "local": "aguachile"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "raw",
+      "assembled"
+    ],
+    "rawnessLevel": "raw-marinated",
+    "shortDescription": {
+      "en": "Aguachile is raw shrimp marinated in lime-chile sauce with cucumber, onion, avocado, and cilantro.",
+      "zh": "墨西哥青柠辣虾通常是生虾用青柠辣椒汁腌制，配黄瓜、洋葱、牛油果和香菜。",
+      "nl": "Aguachile is meestal rauwe garnalen in limoen-chilisaus met komkommer, ui, avocado en koriander."
+    },
+    "cookingProfile": {
+      "en": "Expect cold sharp citrus heat, fresh shrimp texture, and crunchy vegetables.",
+      "zh": "点餐时可预期冷食酸辣强烈，虾口感鲜嫩，蔬菜清脆。",
+      "nl": "Verwacht koude scherpe citrus-hitte, verse garnaalstructuur en knapperige groente."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "seafood",
+        "regional-dish"
+      ],
+      "description": {
+        "en": "Aguachile is recognized by raw shrimp marinated in lime-chile sauce with cucumber, onion, avocado, and cilantro.",
+        "zh": "墨西哥青柠辣虾的识别重点是生虾用青柠辣椒汁腌制，配黄瓜、洋葱、牛油果和香菜。",
+        "nl": "Aguachile herken je aan rauwe garnalen in limoen-chilisaus met komkommer, ui, avocado en koriander."
+      }
+    },
+    "composition": [
+      [
+        "shrimp",
+        45,
+        "raw-marinated-seafood"
+      ],
+      [
+        "lime",
+        20,
+        "marinade"
+      ],
+      [
+        "cucumber",
+        15,
+        "crunch"
+      ],
+      [
+        "avocado",
+        10,
+        "creamy-side"
+      ],
+      [
+        "chili",
+        5,
+        "heat",
+        "seasoning"
+      ],
+      [
+        "onion",
+        5,
+        "freshness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "shrimp",
+      "lime",
+      "chili",
+      "cucumber"
+    ],
+    "basicTaste": [
+      "sour",
+      "spicy",
+      "fresh",
+      "briny"
+    ],
+    "textureProfile": [
+      "raw-marinated shrimp",
+      "crisp cucumber",
+      "cold sauce"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "seafood",
+      "refreshing"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "avoids-raw-seafood"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want sour, spicy, fresh Aguachile; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要酸爽、辣味、清爽的墨西哥青柠辣虾时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je zure, pittige, frisse Aguachile wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 3,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "tres-leches-cake",
+    "metadataCode": "121029",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Tres Leches Cake",
+      "zh": "三奶蛋糕",
+      "nl": "Tres leches cake",
+      "local": "tres leches"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked",
+      "assembled"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Tres Leches Cake is sponge cake soaked with three milks and topped with whipped cream or fruit.",
+      "zh": "三奶蛋糕通常是海绵蛋糕浸三种奶，顶部常有奶油或水果。",
+      "nl": "Tres leches cake is meestal sponscake gedrenkt in drie soorten melk met room of fruit."
+    },
+    "cookingProfile": {
+      "en": "Expect very moist milky crumb, soft cream, and gentle sweetness.",
+      "zh": "点餐时可预期蛋糕非常湿润奶香，奶油柔软，甜度温和到明显。",
+      "nl": "Verwacht zeer vochtige melkachtige kruim, zachte room en zoetheid."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Tres Leches Cake is recognized by sponge cake soaked with three milks and topped with whipped cream or fruit.",
+        "zh": "三奶蛋糕的识别重点是海绵蛋糕浸三种奶，顶部常有奶油或水果。",
+        "nl": "Tres leches cake herken je aan sponscake gedrenkt in drie soorten melk met room of fruit."
+      }
+    },
+    "composition": [
+      [
+        "sponge-cake",
+        40,
+        "cake-base"
+      ],
+      [
+        "milk-solids",
+        25,
+        "milk-soak"
+      ],
+      [
+        "cream",
+        20,
+        "topping"
+      ],
+      [
+        "egg",
+        10,
+        "cake-structure"
+      ],
+      [
+        "berries",
+        5,
+        "fruit-garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "milk-solids",
+      "cream",
+      "vanilla",
+      "berries"
+    ],
+    "basicTaste": [
+      "sweet",
+      "milky",
+      "creamy"
+    ],
+    "textureProfile": [
+      "soaked sponge",
+      "soft cream",
+      "moist crumb"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "sweet-finish"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want sweet, milky, creamy Tres Leches Cake; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要甜味、奶香、奶香顺滑的三奶蛋糕时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je zoete, melkige, romige Tres leches cake wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "arroz-con-leche-mexican",
+    "metadataCode": "121030",
+    "cuisineId": "mexican",
+    "names": {
+      "en": "Mexican Arroz con Leche",
+      "zh": "墨西哥肉桂米布丁",
+      "nl": "Mexicaanse arroz con leche",
+      "local": "arroz con leche"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Mexican Arroz con Leche is creamy rice pudding with milk, cinnamon, sugar, and sometimes raisins.",
+      "zh": "墨西哥肉桂米布丁通常是奶香米布丁，带牛奶、肉桂、糖，有时加葡萄干。",
+      "nl": "Mexicaanse arroz con leche is meestal romige rijstpudding met melk, kaneel, suiker en soms rozijnen."
+    },
+    "cookingProfile": {
+      "en": "Expect soft rice grains in sweet milk with warm cinnamon aroma.",
+      "zh": "点餐时可预期米粒柔软，甜牛奶和肉桂香明显。",
+      "nl": "Verwacht zachte rijstkorrels in zoete melk met warme kaneelgeur."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Mexican Arroz con Leche is recognized by creamy rice pudding with milk, cinnamon, sugar, and sometimes raisins.",
+        "zh": "墨西哥肉桂米布丁的识别重点是奶香米布丁，带牛奶、肉桂、糖，有时加葡萄干。",
+        "nl": "Mexicaanse arroz con leche herken je aan romige rijstpudding met melk, kaneel, suiker en soms rozijnen."
+      }
+    },
+    "composition": [
+      [
+        "steamed-rice",
+        45,
+        "rice-base"
+      ],
+      [
+        "milk-solids",
+        35,
+        "creamy-base"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
+      ],
+      [
+        "cinnamon",
+        5,
+        "spice",
+        "seasoning"
+      ],
+      [
+        "raisins",
+        5,
+        "optional-fruit"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "milk-solids",
+      "cinnamon",
+      "raisins",
+      "sugar"
+    ],
+    "basicTaste": [
+      "sweet",
+      "milky",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "creamy pudding",
+      "soft grains",
+      "optional chewy raisins"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "dislikes-rice-pudding"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want sweet, milky, warm-spiced Mexican Arroz con Leche; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要甜味、奶香、温暖香料的墨西哥肉桂米布丁时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je zoete, melkige, warm gekruide Mexicaanse arroz con leche wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "lamb-brochettes",
+    "metadataCode": "124013",
+    "cuisineId": "moroccan",
+    "names": {
+      "en": "Lamb Brochettes",
+      "zh": "摩洛哥羊肉串",
+      "nl": "Lamsbrochettes",
+      "local": "brochettes d agneau"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Lamb Brochettes is Moroccan grilled lamb skewers seasoned with cumin, paprika, herbs, and lemon.",
+      "zh": "摩洛哥羊肉串通常是摩洛哥羊肉串，常用孜然、红椒粉、香草和柠檬调味。",
+      "nl": "Lamsbrochettes is meestal Marokkaanse lamsbrochettes met komijn, paprikapoeder, kruiden en citroen."
+    },
+    "cookingProfile": {
+      "en": "Expect charred lamb pieces, warm spice, and simple salad or bread sides.",
+      "zh": "点餐时可预期羊肉块焦香，香料温暖，配沙拉或面包。",
+      "nl": "Verwacht geblakerde lamsstukjes, warme kruiden en eenvoudige salade of brood."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Lamb Brochettes is recognized by Moroccan grilled lamb skewers seasoned with cumin, paprika, herbs, and lemon.",
+        "zh": "摩洛哥羊肉串的识别重点是摩洛哥羊肉串，常用孜然、红椒粉、香草和柠檬调味。",
+        "nl": "Lamsbrochettes herken je aan Marokkaanse lamsbrochettes met komijn, paprikapoeder, kruiden en citroen."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        60,
+        "skewered-lamb"
+      ],
+      [
+        "pita",
+        15,
+        "bread-side"
+      ],
+      [
+        "cumin",
+        10,
+        "warm-spice",
+        "seasoning"
+      ],
+      [
+        "paprika",
+        5,
+        "red-spice",
+        "seasoning"
+      ],
+      [
+        "parsley",
+        5,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "finish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lamb",
+      "cumin",
+      "paprika",
+      "lemon"
+    ],
+    "basicTaste": [
+      "savory",
+      "smoky",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "grilled lamb cubes",
+      "charred edges",
+      "fresh lemon finish"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "grilled",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "gluten-free-if-served-with-bread",
+      "no-lamb"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, smoky, warm-spiced Lamb Brochettes; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、烟熏焦香、温暖香料的摩洛哥羊肉串时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, rokerige, warm gekruide Lamsbrochettes wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "kefta-brochettes",
+    "metadataCode": "124014",
+    "cuisineId": "moroccan",
+    "names": {
+      "en": "Kefta Brochettes",
+      "zh": "摩洛哥肉末串",
+      "nl": "Keftabrochettes",
+      "local": "kefta brochettes"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Kefta Brochettes is grilled minced lamb or beef skewers with herbs, cumin, paprika, and onion.",
+      "zh": "摩洛哥肉末串通常是羊肉或牛肉末烤串，带香草、孜然、红椒粉和洋葱。",
+      "nl": "Keftabrochettes is meestal gegrilde spiesen van lams- of rundergehakt met kruiden, komijn, paprika en ui."
+    },
+    "cookingProfile": {
+      "en": "Expect juicy ground-meat skewers with browned ridges and warm spice.",
+      "zh": "点餐时可预期肉末串多汁，表面焦香，香料温暖。",
+      "nl": "Verwacht sappige gehaktspiesen met bruine randjes en warme kruiden."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Kefta Brochettes is recognized by grilled minced lamb or beef skewers with herbs, cumin, paprika, and onion.",
+        "zh": "摩洛哥肉末串的识别重点是羊肉或牛肉末烤串，带香草、孜然、红椒粉和洋葱。",
+        "nl": "Keftabrochettes herken je aan gegrilde spiesen van lams- of rundergehakt met kruiden, komijn, paprika en ui."
+      }
+    },
+    "composition": [
+      [
+        "ground-meat",
+        65,
+        "kofta"
+      ],
+      [
+        "onion",
+        10,
+        "aroma"
+      ],
+      [
+        "pita",
+        10,
+        "bread-side"
+      ],
+      [
+        "cumin",
+        5,
+        "warm-spice",
+        "seasoning"
+      ],
+      [
+        "paprika",
+        5,
+        "red-spice",
+        "seasoning"
+      ],
+      [
+        "parsley",
+        5,
+        "herb",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "ground-meat",
+      "cumin",
+      "paprika",
+      "parsley"
+    ],
+    "basicTaste": [
+      "savory",
+      "smoky",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "juicy kofta logs",
+      "charred ridges",
+      "soft bread side"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "grilled",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "gluten-free-if-served-with-bread",
+      "no-red-meat"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, smoky, warm-spiced Kefta Brochettes; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、烟熏焦香、温暖香料的摩洛哥肉末串时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, rokerige, warm gekruide Keftabrochettes wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "rfissa",
+    "metadataCode": "124015",
+    "cuisineId": "moroccan",
+    "names": {
+      "en": "Rfissa",
+      "zh": "摩洛哥鸡肉扁豆面饼",
+      "nl": "Rfissa",
+      "local": "rfissa"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "simmered",
+      "assembled"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Rfissa is Moroccan chicken, lentils, and spiced sauce served over shredded msemen or flatbread.",
+      "zh": "摩洛哥鸡肉扁豆面饼通常是摩洛哥鸡肉、扁豆和香料酱汁铺在撕碎面饼上。",
+      "nl": "Rfissa is meestal Marokkaanse kip, linzen en gekruide saus op gescheurde msemen of platbrood."
+    },
+    "cookingProfile": {
+      "en": "Expect saucy shredded bread, tender chicken, lentils, and fenugreek warmth.",
+      "zh": "点餐时可预期撕碎面饼吸满酱汁，鸡肉软，扁豆和葫芦巴香明显。",
+      "nl": "Verwacht sauzig gescheurd brood, malse kip, linzen en fenegriekkruidigheid."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Rfissa is recognized by Moroccan chicken, lentils, and spiced sauce served over shredded msemen or flatbread.",
+        "zh": "摩洛哥鸡肉扁豆面饼的识别重点是摩洛哥鸡肉、扁豆和香料酱汁铺在撕碎面饼上。",
+        "nl": "Rfissa herken je aan Marokkaanse kip, linzen en gekruide saus op gescheurde msemen of platbrood."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        30,
+        "main-meat"
+      ],
+      [
+        "roti-flatbread",
+        35,
+        "shredded-bread"
+      ],
+      [
+        "lentils",
+        20,
+        "legume-body"
+      ],
+      [
+        "fenugreek",
+        5,
+        "distinctive-spice",
+        "seasoning"
+      ],
+      [
+        "niter-kibbeh",
+        5,
+        "spiced-fat",
+        "seasoning"
+      ],
+      [
+        "onion",
+        5,
+        "aroma"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fenugreek",
+      "chicken",
+      "lentils",
+      "niter-kibbeh"
+    ],
+    "basicTaste": [
+      "savory",
+      "warm-spiced",
+      "rich",
+      "earthy"
+    ],
+    "textureProfile": [
+      "sauce-soaked flatbread",
+      "tender chicken",
+      "soft lentils"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, warm-spiced, rich Rfissa; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、温暖香料、浓郁的摩洛哥鸡肉扁豆面饼时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, warm gekruide, rijke Rfissa wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "tanjia",
+    "metadataCode": "124016",
+    "cuisineId": "moroccan",
+    "names": {
+      "en": "Tanjia",
+      "zh": "马拉喀什慢炖肉",
+      "nl": "Tanjia",
+      "local": "tanjia"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "braised"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Tanjia is Marrakesh-style slow-cooked lamb or beef with preserved-lemon-like citrus, garlic, saffron, and spices.",
+      "zh": "马拉喀什慢炖肉通常是马拉喀什风格慢炖羊肉或牛肉，带柠檬、蒜、藏红花和香料。",
+      "nl": "Tanjia is meestal Marrakesh-stijl langzaam gegaard lam of rund met citroen, knoflook, saffraan en kruiden."
+    },
+    "cookingProfile": {
+      "en": "Expect very tender meat, glossy gravy, and concentrated warm spice.",
+      "zh": "点餐时可预期肉非常软烂，肉汁浓亮，香料集中。",
+      "nl": "Verwacht zeer mals vlees, glanzende jus en geconcentreerde warme kruiden."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Tanjia is recognized by Marrakesh-style slow-cooked lamb or beef with preserved-lemon-like citrus, garlic, saffron, and spices.",
+        "zh": "马拉喀什慢炖肉的识别重点是马拉喀什风格慢炖羊肉或牛肉，带柠檬、蒜、藏红花和香料。",
+        "nl": "Tanjia herken je aan Marrakesh-stijl langzaam gegaard lam of rund met citroen, knoflook, saffraan en kruiden."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        65,
+        "slow-cooked-meat"
+      ],
+      [
+        "garlic",
+        10,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        10,
+        "citrus"
+      ],
+      [
+        "saffron",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "cumin",
+        5,
+        "warm-spice",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "richness",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lamb",
+      "garlic",
+      "saffron",
+      "lemon"
+    ],
+    "basicTaste": [
+      "savory",
+      "rich",
+      "warm-spiced",
+      "citrusy"
+    ],
+    "textureProfile": [
+      "fall-apart meat",
+      "glossy sauce",
+      "concentrated spice"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "regional-dish",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "no-lamb",
+      "wants-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, rich, warm-spiced Tanjia; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、浓郁、温暖香料的马拉喀什慢炖肉时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, rijke, warm gekruide Tanjia wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "bissara",
+    "metadataCode": "124017",
+    "cuisineId": "moroccan",
+    "names": {
+      "en": "Bissara",
+      "zh": "摩洛哥蚕豆浓汤",
+      "nl": "Bissara",
+      "local": "bissara"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Bissara is a thick Moroccan fava bean soup or puree finished with olive oil, cumin, and paprika.",
+      "zh": "摩洛哥蚕豆浓汤通常是浓稠摩洛哥蚕豆汤或豆泥，淋橄榄油、孜然和红椒粉。",
+      "nl": "Bissara is meestal dikke Marokkaanse tuinbonensoep of puree met olijfolie, komijn en paprika."
+    },
+    "cookingProfile": {
+      "en": "Expect smooth earthy beans with olive oil on top and warm spice aroma.",
+      "zh": "点餐时可预期豆泥顺滑朴实，表面橄榄油和温暖香料明显。",
+      "nl": "Verwacht gladde aardse bonen met olijfolie en warme kruidengeur."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Bissara is recognized by a thick Moroccan fava bean soup or puree finished with olive oil, cumin, and paprika.",
+        "zh": "摩洛哥蚕豆浓汤的识别重点是浓稠摩洛哥蚕豆汤或豆泥，淋橄榄油、孜然和红椒粉。",
+        "nl": "Bissara herken je aan dikke Marokkaanse tuinbonensoep of puree met olijfolie, komijn en paprika."
+      }
+    },
+    "composition": [
+      [
+        "fava-beans",
+        75,
+        "bean-puree"
+      ],
+      [
+        "olive-oil",
+        10,
+        "finish",
+        "seasoning"
+      ],
+      [
+        "cumin",
+        5,
+        "warm-spice",
+        "seasoning"
+      ],
+      [
+        "paprika",
+        5,
+        "red-spice",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "optional-brightness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fava-beans",
+      "olive-oil",
+      "cumin",
+      "paprika"
+    ],
+    "basicTaste": [
+      "earthy",
+      "savory",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "thick puree",
+      "smooth soup",
+      "oily finish"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "goodForTags": [
+      "soup",
+      "vegetarian-friendly"
+    ],
+    "avoidIfTags": [
+      "dislikes-beans",
+      "wants-meat-main"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want earthy, savory, warm-spiced Bissara; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要朴实豆香、咸香、温暖香料的摩洛哥蚕豆浓汤时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je aardse, hartige, warm gekruide Bissara wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 1,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "loubia",
+    "metadataCode": "124018",
+    "cuisineId": "moroccan",
+    "names": {
+      "en": "Loubia",
+      "zh": "摩洛哥番茄白豆炖菜",
+      "nl": "Loubia",
+      "local": "loubia"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Loubia is Moroccan white bean stew in tomato sauce with garlic, cumin, paprika, and olive oil.",
+      "zh": "摩洛哥番茄白豆炖菜通常是摩洛哥白豆番茄炖菜，带蒜、孜然、红椒粉和橄榄油。",
+      "nl": "Loubia is meestal Marokkaanse wittebonenstoof in tomatensaus met knoflook, komijn, paprika en olijfolie."
+    },
+    "cookingProfile": {
+      "en": "Expect soft beans in a red tomato sauce with warm spice.",
+      "zh": "点餐时可预期白豆柔软，红色番茄酱汁和温暖香料明显。",
+      "nl": "Verwacht zachte bonen in rode tomatensaus met warme kruiden."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "Loubia is recognized by Moroccan white bean stew in tomato sauce with garlic, cumin, paprika, and olive oil.",
+        "zh": "摩洛哥番茄白豆炖菜的识别重点是摩洛哥白豆番茄炖菜，带蒜、孜然、红椒粉和橄榄油。",
+        "nl": "Loubia herken je aan Marokkaanse wittebonenstoof in tomatensaus met knoflook, komijn, paprika en olijfolie."
+      }
+    },
+    "composition": [
+      [
+        "white-beans",
+        65,
+        "bean-base"
+      ],
+      [
+        "tomato-sauce",
+        20,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "cumin",
+        5,
+        "warm-spice",
+        "seasoning"
+      ],
+      [
+        "paprika",
+        3,
+        "red-spice",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        2,
+        "finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "white-beans",
+      "tomato-sauce",
+      "garlic",
+      "cumin"
+    ],
+    "basicTaste": [
+      "savory",
+      "tomato-rich",
+      "earthy",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "soft beans",
+      "thick sauce",
+      "stew-like"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "goodForTags": [
+      "comfort-food",
+      "vegetarian-friendly"
+    ],
+    "avoidIfTags": [
+      "dislikes-beans",
+      "wants-grilled-food"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want savory, tomato-rich, earthy Loubia; avoid if the listed allergens, main ingredients, or texture do not fit you.",
+      "zh": "想要咸香、番茄浓郁、朴实豆香的摩洛哥番茄白豆炖菜时可以点；如有过敏、忌口，或不喜欢主要食材与口感，请谨慎。",
+      "nl": "Kies dit als je hartige, tomatige, aardse Loubia wilt; vermijd bij allergenen, dieetwensen of als de hoofdstructuur je niet aanspreekt."
+    },
+    "confidenceTag": "audited-world-depth-batch-032",
+    "spiceLevel": 1,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  }
+]

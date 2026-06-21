@@ -1,0 +1,272 @@
+[
+  {
+    "dishId": "iskender-kebab",
+    "metadataCode": "119013",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Iskender Kebab",
+    "imagePath": "/assets/dishes/main/119013-iskender-kebab.webp",
+    "thumbPath": "/assets/dishes/thumb/119013-iskender-kebab.webp"
+  },
+  {
+    "dishId": "beyti-kebab",
+    "metadataCode": "119014",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Beyti Kebab",
+    "imagePath": "/assets/dishes/main/119014-beyti-kebab.webp",
+    "thumbPath": "/assets/dishes/thumb/119014-beyti-kebab.webp"
+  },
+  {
+    "dishId": "shish-kebab-turkish",
+    "metadataCode": "119015",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Turkish Shish Kebab",
+    "imagePath": "/assets/dishes/main/119015-shish-kebab-turkish.webp",
+    "thumbPath": "/assets/dishes/thumb/119015-shish-kebab-turkish.webp"
+  },
+  {
+    "dishId": "sis-tavuk",
+    "metadataCode": "119016",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Şiş Tavuk",
+    "imagePath": "/assets/dishes/main/119016-sis-tavuk.webp",
+    "thumbPath": "/assets/dishes/thumb/119016-sis-tavuk.webp"
+  },
+  {
+    "dishId": "hunkar-begendi",
+    "metadataCode": "119017",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Hünkar Beğendi",
+    "imagePath": "/assets/dishes/main/119017-hunkar-begendi.webp",
+    "thumbPath": "/assets/dishes/thumb/119017-hunkar-begendi.webp"
+  },
+  {
+    "dishId": "karniyarik",
+    "metadataCode": "119018",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Karnıyarık",
+    "imagePath": "/assets/dishes/main/119018-karniyarik.webp",
+    "thumbPath": "/assets/dishes/thumb/119018-karniyarik.webp"
+  },
+  {
+    "dishId": "cilbir",
+    "metadataCode": "119019",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Çılbır",
+    "imagePath": "/assets/dishes/main/119019-cilbir.webp",
+    "thumbPath": "/assets/dishes/thumb/119019-cilbir.webp"
+  },
+  {
+    "dishId": "cacik",
+    "metadataCode": "119020",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Cacık",
+    "imagePath": "/assets/dishes/main/119020-cacik.webp",
+    "thumbPath": "/assets/dishes/thumb/119020-cacik.webp"
+  },
+  {
+    "dishId": "ezogelin-corbasi",
+    "metadataCode": "119021",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Ezogelin Çorbası",
+    "imagePath": "/assets/dishes/main/119021-ezogelin-corbasi.webp",
+    "thumbPath": "/assets/dishes/thumb/119021-ezogelin-corbasi.webp"
+  },
+  {
+    "dishId": "yayla-corbasi",
+    "metadataCode": "119022",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Yayla Çorbası",
+    "imagePath": "/assets/dishes/main/119022-yayla-corbasi.webp",
+    "thumbPath": "/assets/dishes/thumb/119022-yayla-corbasi.webp"
+  },
+  {
+    "dishId": "mercimek-kofte",
+    "metadataCode": "119023",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Mercimek Köfte",
+    "imagePath": "/assets/dishes/main/119023-mercimek-kofte.webp",
+    "thumbPath": "/assets/dishes/thumb/119023-mercimek-kofte.webp"
+  },
+  {
+    "dishId": "sigara-boregi",
+    "metadataCode": "119024",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Sigara Böreği",
+    "imagePath": "/assets/dishes/main/119024-sigara-boregi.webp",
+    "thumbPath": "/assets/dishes/thumb/119024-sigara-boregi.webp"
+  },
+  {
+    "dishId": "midye-dolma",
+    "metadataCode": "119025",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Midye Dolma",
+    "imagePath": "/assets/dishes/main/119025-midye-dolma.webp",
+    "thumbPath": "/assets/dishes/thumb/119025-midye-dolma.webp"
+  },
+  {
+    "dishId": "balik-ekmek",
+    "metadataCode": "119026",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Balık Ekmek",
+    "imagePath": "/assets/dishes/main/119026-balik-ekmek.webp",
+    "thumbPath": "/assets/dishes/thumb/119026-balik-ekmek.webp"
+  },
+  {
+    "dishId": "gozleme",
+    "metadataCode": "119027",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Gözleme",
+    "imagePath": "/assets/dishes/main/119027-gozleme.webp",
+    "thumbPath": "/assets/dishes/thumb/119027-gozleme.webp"
+  },
+  {
+    "dishId": "simit",
+    "metadataCode": "119028",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Simit",
+    "imagePath": "/assets/dishes/main/119028-simit.webp",
+    "thumbPath": "/assets/dishes/thumb/119028-simit.webp"
+  },
+  {
+    "dishId": "lokum",
+    "metadataCode": "119029",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Turkish Delight",
+    "imagePath": "/assets/dishes/main/119029-lokum.webp",
+    "thumbPath": "/assets/dishes/thumb/119029-lokum.webp"
+  },
+  {
+    "dishId": "sutlac",
+    "metadataCode": "119030",
+    "cuisineId": "turkish",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Sütlaç",
+    "imagePath": "/assets/dishes/main/119030-sutlac.webp",
+    "thumbPath": "/assets/dishes/thumb/119030-sutlac.webp"
+  },
+  {
+    "dishId": "shakshuka",
+    "metadataCode": "120013",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Shakshuka",
+    "imagePath": "/assets/dishes/main/120013-shakshuka.webp",
+    "thumbPath": "/assets/dishes/thumb/120013-shakshuka.webp"
+  },
+  {
+    "dishId": "mezze-platter",
+    "metadataCode": "120014",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Mezze Platter",
+    "imagePath": "/assets/dishes/main/120014-mezze-platter.webp",
+    "thumbPath": "/assets/dishes/thumb/120014-mezze-platter.webp"
+  },
+  {
+    "dishId": "grilled-halloumi-middle-eastern",
+    "metadataCode": "120015",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Grilled Halloumi",
+    "imagePath": "/assets/dishes/main/120015-grilled-halloumi-middle-eastern.webp",
+    "thumbPath": "/assets/dishes/thumb/120015-grilled-halloumi-middle-eastern.webp"
+  },
+  {
+    "dishId": "manaqish",
+    "metadataCode": "120016",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Manaqish",
+    "imagePath": "/assets/dishes/main/120016-manaqish.webp",
+    "thumbPath": "/assets/dishes/thumb/120016-manaqish.webp"
+  },
+  {
+    "dishId": "zaatar-flatbread",
+    "metadataCode": "120017",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Za’atar Flatbread",
+    "imagePath": "/assets/dishes/main/120017-zaatar-flatbread.webp",
+    "thumbPath": "/assets/dishes/thumb/120017-zaatar-flatbread.webp"
+  },
+  {
+    "dishId": "foul-medames",
+    "metadataCode": "120018",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Foul Medames",
+    "imagePath": "/assets/dishes/main/120018-foul-medames.webp",
+    "thumbPath": "/assets/dishes/thumb/120018-foul-medames.webp"
+  },
+  {
+    "dishId": "warak-enab",
+    "metadataCode": "120019",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Warak Enab",
+    "imagePath": "/assets/dishes/main/120019-warak-enab.webp",
+    "thumbPath": "/assets/dishes/thumb/120019-warak-enab.webp"
+  },
+  {
+    "dishId": "molokhia",
+    "metadataCode": "120020",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Molokhia",
+    "imagePath": "/assets/dishes/main/120020-molokhia.webp",
+    "thumbPath": "/assets/dishes/thumb/120020-molokhia.webp"
+  },
+  {
+    "dishId": "kabsa",
+    "metadataCode": "120021",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Kabsa",
+    "imagePath": "/assets/dishes/main/120021-kabsa.webp",
+    "thumbPath": "/assets/dishes/thumb/120021-kabsa.webp"
+  },
+  {
+    "dishId": "maqluba",
+    "metadataCode": "120022",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Maqluba",
+    "imagePath": "/assets/dishes/main/120022-maqluba.webp",
+    "thumbPath": "/assets/dishes/thumb/120022-maqluba.webp"
+  },
+  {
+    "dishId": "kunafa",
+    "metadataCode": "120031",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Kunafa",
+    "imagePath": "/assets/dishes/main/120031-kunafa.webp",
+    "thumbPath": "/assets/dishes/thumb/120031-kunafa.webp"
+  },
+  {
+    "dishId": "sayadieh",
+    "metadataCode": "120024",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Sayadieh",
+    "imagePath": "/assets/dishes/main/120024-sayadieh.webp",
+    "thumbPath": "/assets/dishes/thumb/120024-sayadieh.webp"
+  }
+]

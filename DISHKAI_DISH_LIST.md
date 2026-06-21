@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 721
-- Total aliases: 2182
+- Total verified dishes: 811
+- Total aliases: 2423
 - Total cuisines: 27
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -169,7 +169,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 102027 - `loempia` - Loempia / 荷兰炸春卷 / Loempia
 30. 102028 - `oliebol` - Oliebol / 荷兰油炸甜面团 / Oliebol
 
-## Ethiopian (ethiopian) - 12
+## Ethiopian (ethiopian) - 30
 
 1. 127001 - `doro-wat` - Doro Wat / 埃塞俄比亚辣鸡炖菜 / doro wat
 2. 127002 - `tibs` - Tibs / 埃塞炒烤肉 / tibs
@@ -183,6 +183,24 @@ Generated from data/internal/index.js after the verified database quarantine aud
 10. 127010 - `asa-tibs` - Asa Tibs / 埃塞煎鱼块 / asa tibs
 11. 127011 - `sambusa` - Sambusa / 埃塞炸三角饺 / sambusa
 12. 127012 - `ethiopian-coffee-snacks` - Ethiopian Coffee Sweets / 埃塞咖啡小甜点 / buna snacks
+13. 127013 - `key-wat` - Key Wat / 埃塞红辣牛肉炖菜 / key wat
+14. 127014 - `alicha-wat` - Alicha Wat / 埃塞黄姜黄炖菜 / alicha wat
+15. 127015 - `minchet-abish` - Minchet Abish / 埃塞辣肉末炖菜 / minchet abish
+16. 127016 - `dulet` - Dulet / 埃塞香辣内脏碎 / dulet
+17. 127017 - `derek-tibs` - Derek Tibs / 埃塞干炒肉块 / derek tibs
+18. 127018 - `shekla-tibs` - Shekla Tibs / 埃塞陶锅炒肉 / shekla tibs
+19. 127019 - `zigni` - Zigni / 厄立特里亚埃塞红炖肉 / zigni
+20. 127020 - `atkilt-wat` - Atkilt Wat / 埃塞黄姜黄蔬菜炖菜 / atkilt wat
+21. 127021 - `azifa` - Azifa / 埃塞冷扁豆沙拉 / azifa
+22. 127022 - `timatim-salata` - Timatim Salata / 埃塞番茄沙拉 / timatim salata
+23. 127023 - `ayib` - Ayib / 埃塞鲜奶酪 / ayib
+24. 127024 - `chechebsa` - Chechebsa / 埃塞香料拌面饼 / chechebsa
+25. 127025 - `genfo` - Genfo / 埃塞辣黄油粥 / genfo
+26. 127026 - `kinche` - Kinche / 埃塞碎麦早餐 / kinche
+27. 127027 - `firfir-injera` - Injera Firfir / 英吉拉辣酱拌饼 / firfir
+28. 127028 - `shimbra-assa` - Shimbra Assa / 埃塞鹰嘴豆仿鱼丸 / shimbra assa
+29. 127029 - `spris` - Spris / 埃塞分层果汁 / spris
+30. 127030 - `ambasha` - Ambasha / 埃塞花纹庆典面包 / ambasha
 
 ## French (french) - 60
 
@@ -554,7 +572,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 118029 - `kuih-lapis` - Kuih Lapis / 九层糕 / kuih lapis
 30. 118030 - `pulut-hitam` - Pulut Hitam / 黑糯米椰奶甜品 / pulut hitam
 
-## Mexican (mexican) - 12
+## Mexican (mexican) - 30
 
 1. 121001 - `tacos` - Tacos / 墨西哥玉米卷 / tacos
 2. 121002 - `quesadilla` - Quesadilla / 墨西哥奶酪饼 / quesadilla
@@ -568,23 +586,59 @@ Generated from data/internal/index.js after the verified database quarantine aud
 10. 121010 - `mole-poblano` - Mole Poblano / 摩雷鸡肉 / mole poblano
 11. 121011 - `ceviche-mexican` - Ceviche / 墨西哥酸橘汁腌鱼 / ceviche
 12. 121012 - `flan` - Flan / 焦糖布丁 / flan
+13. 121013 - `fajitas` - Fajitas / 墨西哥铁板肉蔬 / fajitas
+14. 121014 - `tostadas` - Tostadas / 墨西哥脆玉米饼 / tostadas
+15. 121015 - `sopes` - Sopes / 墨西哥厚边玉米小饼 / sopes
+16. 121016 - `gorditas` - Gorditas / 墨西哥厚玉米夹饼 / gorditas
+17. 121017 - `elote` - Elote / 墨西哥街头烤玉米 / elote
+18. 121018 - `esquites` - Esquites / 墨西哥杯装玉米 / esquites
+19. 121019 - `chilaquiles` - Chilaquiles / 墨西哥莎莎玉米片 / chilaquiles
+20. 121020 - `huevos-rancheros` - Huevos Rancheros / 牧场风味煎蛋 / huevos rancheros
+21. 121021 - `birria` - Birria / 墨西哥红汤炖肉 / birria
+22. 121022 - `birria-tacos` - Birria Tacos / 墨西哥红汤牛肉塔可 / birria tacos
+23. 121023 - `barbacoa` - Barbacoa / 墨西哥慢炖肉 / barbacoa
+24. 121024 - `carnitas` - Carnitas / 墨西哥慢煮猪肉 / carnitas
+25. 121025 - `al-pastor` - Tacos al Pastor / 墨西哥菠萝猪肉塔可 / tacos al pastor
+26. 121026 - `cochinita-pibil` - Cochinita Pibil / 尤卡坦橙红慢烤猪肉 / cochinita pibil
+27. 121027 - `sopa-de-lima` - Sopa de Lima / 尤卡坦青柠鸡汤 / sopa de lima
+28. 121028 - `aguachile` - Aguachile / 墨西哥青柠辣虾 / aguachile
+29. 121029 - `tres-leches-cake` - Tres Leches Cake / 三奶蛋糕 / tres leches
+30. 121030 - `arroz-con-leche-mexican` - Mexican Arroz con Leche / 墨西哥肉桂米布丁 / arroz con leche
 
-## Middle Eastern (middle-eastern) - 12
+## Middle Eastern (middle-eastern) - 30
 
-1. 120001 - `hummus` - Hummus / 鹰嘴豆泥 / hummus
-2. 120002 - `falafel` - Falafel / 炸鹰嘴豆丸 / falafel
-3. 120003 - `shawarma` - Shawarma / 中东烤肉卷 / shawarma
-4. 120004 - `tabbouleh` - Tabbouleh / 塔布勒沙拉 / tabbouleh
-5. 120005 - `fattoush` - Fattoush / 炸面包蔬菜沙拉 / fattoush
-6. 120006 - `baba-ganoush` - Baba Ganoush / 烤茄子芝麻酱泥 / baba ganoush
-7. 120007 - `kibbeh` - Kibbeh / 中东炸肉麦丸 / kibbeh
-8. 120008 - `kofta` - Kofta / 中东香料肉丸 / kofta
-9. 120009 - `mansaf` - Mansaf / 约旦酸奶羊肉饭 / mansaf
-10. 120010 - `mujadara` - Mujadara / 扁豆洋葱饭 / mujadara
-11. 120011 - `baklava-middle-eastern` - Baklava / 中东果仁蜜酥 / baklava
-12. 120012 - `labneh` - Labneh / 浓缩酸奶酱 / labneh
+1. 120013 - `shakshuka` - Shakshuka / 番茄炖蛋 / shakshuka
+2. 120001 - `hummus` - Hummus / 鹰嘴豆泥 / hummus
+3. 120002 - `falafel` - Falafel / 炸鹰嘴豆丸 / falafel
+4. 120003 - `shawarma` - Shawarma / 中东烤肉卷 / shawarma
+5. 120004 - `tabbouleh` - Tabbouleh / 塔布勒沙拉 / tabbouleh
+6. 120005 - `fattoush` - Fattoush / 炸面包蔬菜沙拉 / fattoush
+7. 120006 - `baba-ganoush` - Baba Ganoush / 烤茄子芝麻酱泥 / baba ganoush
+8. 120007 - `kibbeh` - Kibbeh / 中东炸肉麦丸 / kibbeh
+9. 120008 - `kofta` - Kofta / 中东香料肉丸 / kofta
+10. 120009 - `mansaf` - Mansaf / 约旦酸奶羊肉饭 / mansaf
+11. 120010 - `mujadara` - Mujadara / 扁豆洋葱饭 / mujadara
+12. 120011 - `baklava-middle-eastern` - Baklava / 中东果仁蜜酥 / baklava
+13. 120012 - `labneh` - Labneh / 浓缩酸奶酱 / labneh
+14. 120014 - `mezze-platter` - Mezze Platter / 中东小菜拼盘 / mezze
+15. 120015 - `grilled-halloumi-middle-eastern` - Grilled Halloumi / 烤哈罗米奶酪 / grilled halloumi
+16. 120016 - `manaqish` - Manaqish / 中东烤饼 / manaqish
+17. 120017 - `zaatar-flatbread` - Za’atar Flatbread / 扎塔尔香料烤饼 / zaatar manaqish
+18. 120018 - `foul-medames` - Foul Medames / 蚕豆泥 / fūl medames
+19. 120019 - `warak-enab` - Warak Enab / 葡萄叶卷 / warak enab
+20. 120020 - `molokhia` - Molokhia / 黄麻叶汤 / molokhia
+21. 120021 - `kabsa` - Kabsa / 阿拉伯香料饭 / kabsa
+22. 120022 - `maqluba` - Maqluba / 中东倒扣饭 / maqluba
+23. 120024 - `sayadieh` - Sayadieh / 中东鱼香料饭 / sayadieh
+24. 120025 - `mixed-grill-middle-eastern` - Middle Eastern Mixed Grill / 中东烤肉拼盘 / mixed grill
+25. 120026 - `shish-taouk` - Shish Taouk / 中东蒜香鸡肉串 / shish taouk
+26. 120027 - `batata-harra` - Batata Harra / 香辣蒜味土豆 / batata harra
+27. 120028 - `muhammara` - Muhammara / 红椒核桃蘸酱 / muhammara
+28. 120029 - `umm-ali` - Umm Ali / 埃及奶香面包布丁 / umm ali
+29. 120030 - `basbousa` - Basbousa / 中东粗粒小麦糖浆蛋糕 / basbousa
+30. 120031 - `kunafa` - Kunafa / 库纳法奶酪甜点 / knafeh
 
-## Moroccan (moroccan) - 12
+## Moroccan (moroccan) - 30
 
 1. 124001 - `tagine-lamb` - Lamb Tagine / 摩洛哥塔吉锅羊肉 / طاجين
 2. 124002 - `chicken-tagine` - Chicken Tagine / 摩洛哥塔吉锅鸡 / طاجين الدجاج
@@ -598,6 +652,24 @@ Generated from data/internal/index.js after the verified database quarantine aud
 10. 124010 - `moroccan-salad` - Moroccan Salad / 摩洛哥沙拉 / salade marocaine
 11. 124011 - `seffa` - Seffa / 摩洛哥甜库斯库斯 / seffa
 12. 124012 - `mint-tea-dessert` - Mint Tea Sweets / 薄荷茶甜点拼盘 / حلويات مغربية
+13. 124013 - `lamb-brochettes` - Lamb Brochettes / 摩洛哥羊肉串 / brochettes d agneau
+14. 124014 - `kefta-brochettes` - Kefta Brochettes / 摩洛哥肉末串 / kefta brochettes
+15. 124015 - `rfissa` - Rfissa / 摩洛哥鸡肉扁豆面饼 / rfissa
+16. 124016 - `tanjia` - Tanjia / 马拉喀什慢炖肉 / tanjia
+17. 124017 - `bissara` - Bissara / 摩洛哥蚕豆浓汤 / bissara
+18. 124018 - `loubia` - Loubia / 摩洛哥番茄白豆炖菜 / loubia
+19. 124019 - `maakouda` - Maakouda / 摩洛哥土豆饼 / maakouda
+20. 124020 - `batbout` - Batbout / 摩洛哥小口袋面包 / batbout
+21. 124021 - `msemen` - Msemen / 摩洛哥方形千层薄饼 / msemen
+22. 124022 - `baghrir` - Baghrir / 摩洛哥千孔薄饼 / baghrir
+23. 124023 - `khobz` - Khobz / 摩洛哥圆面包 / khobz
+24. 124024 - `sardines-chermoula` - Sardines Chermoula / 摩洛哥香草腌沙丁鱼 / sardines chermoula
+25. 124025 - `fish-tagine` - Fish Tagine / 摩洛哥鱼塔吉锅 / tagine de poisson
+26. 124026 - `chicken-bastilla` - Chicken Bastilla / 摩洛哥鸡肉甜咸派 / pastilla au poulet
+27. 124027 - `almond-briouat` - Almond Briouat / 摩洛哥杏仁三角酥 / briouat aux amandes
+28. 124028 - `chebakia` - Chebakia / 摩洛哥蜂蜜芝麻花形饼 / chebakia
+29. 124029 - `mhancha` - Mhancha / 摩洛哥杏仁蛇形卷 / mhancha
+30. 124030 - `sellou` - Sellou / 摩洛哥芝麻杏仁甜粉 / sellou
 
 ## Peruvian (peruvian) - 12
 
@@ -761,7 +833,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 108029 - `nam-tok` - Nam Tok / 泰式酸辣烤肉沙拉 / น้ำตก
 30. 108030 - `kanom-krok` - Kanom Krok / 泰式椰奶小煎糕 / ขนมครก
 
-## Turkish (turkish) - 12
+## Turkish (turkish) - 30
 
 1. 119001 - `doner-kebab` - Döner Kebab / 土耳其旋转烤肉 / döner kebab
 2. 119002 - `adana-kebab` - Adana Kebab / 阿达纳辣肉串 / Adana kebabı
@@ -775,6 +847,24 @@ Generated from data/internal/index.js after the verified database quarantine aud
 10. 119010 - `kofte` - Köfte / 土耳其肉丸 / köfte
 11. 119011 - `baklava-turkish` - Baklava / 土耳其果仁蜜酥 / baklava
 12. 119012 - `kunefe` - Künefe / 土耳其奶酪甜点 / künefe
+13. 119013 - `iskender-kebab` - Iskender Kebab / 伊斯肯德尔烤肉 / iskender kebap
+14. 119014 - `beyti-kebab` - Beyti Kebab / 贝蒂烤肉卷 / beyti kebap
+15. 119015 - `shish-kebab-turkish` - Turkish Shish Kebab / 土耳其烤肉串 / şiş kebap
+16. 119016 - `sis-tavuk` - Şiş Tavuk / 土耳其鸡肉串 / şiş tavuk
+17. 119017 - `hunkar-begendi` - Hünkar Beğendi / 苏丹茄泥炖肉 / hünkar beğendi
+18. 119018 - `karniyarik` - Karnıyarık / 土耳其肉末酿茄子 / karnıyarık
+19. 119019 - `cilbir` - Çılbır / 土耳其酸奶水波蛋 / çılbır
+20. 119020 - `cacik` - Cacık / 土耳其黄瓜酸奶 / cacık
+21. 119021 - `ezogelin-corbasi` - Ezogelin Çorbası / 土耳其红扁豆汤 / ezogelin çorbası
+22. 119022 - `yayla-corbasi` - Yayla Çorbası / 土耳其酸奶米汤 / yayla çorbası
+23. 119023 - `mercimek-kofte` - Mercimek Köfte / 土耳其扁豆素丸 / mercimek köftesi
+24. 119024 - `sigara-boregi` - Sigara Böreği / 土耳其奶酪酥卷 / sigara böreği
+25. 119025 - `midye-dolma` - Midye Dolma / 土耳其酿贻贝 / midye dolma
+26. 119026 - `balik-ekmek` - Balık Ekmek / 土耳其鱼三明治 / balık ekmek
+27. 119027 - `gozleme` - Gözleme / 土耳其馅饼 / gözleme
+28. 119028 - `simit` - Simit / 土耳其芝麻圈 / simit
+29. 119029 - `lokum` - Turkish Delight / 土耳其软糖 / lokum
+30. 119030 - `sutlac` - Sütlaç / 土耳其米布丁 / sütlaç
 
 ## Vietnamese (vietnamese) - 30
 

@@ -1,0 +1,272 @@
+[
+  {
+    "dishId": "maakouda",
+    "metadataCode": "124019",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Maakouda",
+    "imagePath": "/assets/dishes/main/124019-maakouda.webp",
+    "thumbPath": "/assets/dishes/thumb/124019-maakouda.webp"
+  },
+  {
+    "dishId": "batbout",
+    "metadataCode": "124020",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Batbout",
+    "imagePath": "/assets/dishes/main/124020-batbout.webp",
+    "thumbPath": "/assets/dishes/thumb/124020-batbout.webp"
+  },
+  {
+    "dishId": "msemen",
+    "metadataCode": "124021",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Msemen",
+    "imagePath": "/assets/dishes/main/124021-msemen.webp",
+    "thumbPath": "/assets/dishes/thumb/124021-msemen.webp"
+  },
+  {
+    "dishId": "baghrir",
+    "metadataCode": "124022",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Baghrir",
+    "imagePath": "/assets/dishes/main/124022-baghrir.webp",
+    "thumbPath": "/assets/dishes/thumb/124022-baghrir.webp"
+  },
+  {
+    "dishId": "khobz",
+    "metadataCode": "124023",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Khobz",
+    "imagePath": "/assets/dishes/main/124023-khobz.webp",
+    "thumbPath": "/assets/dishes/thumb/124023-khobz.webp"
+  },
+  {
+    "dishId": "sardines-chermoula",
+    "metadataCode": "124024",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Sardines Chermoula",
+    "imagePath": "/assets/dishes/main/124024-sardines-chermoula.webp",
+    "thumbPath": "/assets/dishes/thumb/124024-sardines-chermoula.webp"
+  },
+  {
+    "dishId": "fish-tagine",
+    "metadataCode": "124025",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Fish Tagine",
+    "imagePath": "/assets/dishes/main/124025-fish-tagine.webp",
+    "thumbPath": "/assets/dishes/thumb/124025-fish-tagine.webp"
+  },
+  {
+    "dishId": "chicken-bastilla",
+    "metadataCode": "124026",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Chicken Bastilla",
+    "imagePath": "/assets/dishes/main/124026-chicken-bastilla.webp",
+    "thumbPath": "/assets/dishes/thumb/124026-chicken-bastilla.webp"
+  },
+  {
+    "dishId": "almond-briouat",
+    "metadataCode": "124027",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Almond Briouat",
+    "imagePath": "/assets/dishes/main/124027-almond-briouat.webp",
+    "thumbPath": "/assets/dishes/thumb/124027-almond-briouat.webp"
+  },
+  {
+    "dishId": "chebakia",
+    "metadataCode": "124028",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Chebakia",
+    "imagePath": "/assets/dishes/main/124028-chebakia.webp",
+    "thumbPath": "/assets/dishes/thumb/124028-chebakia.webp"
+  },
+  {
+    "dishId": "mhancha",
+    "metadataCode": "124029",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "M’hanncha",
+    "imagePath": "/assets/dishes/main/124029-mhancha.webp",
+    "thumbPath": "/assets/dishes/thumb/124029-mhancha.webp"
+  },
+  {
+    "dishId": "sellou",
+    "metadataCode": "124030",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Sellou",
+    "imagePath": "/assets/dishes/main/124030-sellou.webp",
+    "thumbPath": "/assets/dishes/thumb/124030-sellou.webp"
+  },
+  {
+    "dishId": "key-wat",
+    "metadataCode": "127013",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Key Wat",
+    "imagePath": "/assets/dishes/main/127013-key-wat.webp",
+    "thumbPath": "/assets/dishes/thumb/127013-key-wat.webp"
+  },
+  {
+    "dishId": "alicha-wat",
+    "metadataCode": "127014",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Alicha Wat",
+    "imagePath": "/assets/dishes/main/127014-alicha-wat.webp",
+    "thumbPath": "/assets/dishes/thumb/127014-alicha-wat.webp"
+  },
+  {
+    "dishId": "minchet-abish",
+    "metadataCode": "127015",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Minchet Abish",
+    "imagePath": "/assets/dishes/main/127015-minchet-abish.webp",
+    "thumbPath": "/assets/dishes/thumb/127015-minchet-abish.webp"
+  },
+  {
+    "dishId": "dulet",
+    "metadataCode": "127016",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Dulet",
+    "imagePath": "/assets/dishes/main/127016-dulet.webp",
+    "thumbPath": "/assets/dishes/thumb/127016-dulet.webp"
+  },
+  {
+    "dishId": "derek-tibs",
+    "metadataCode": "127017",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Derek Tibs",
+    "imagePath": "/assets/dishes/main/127017-derek-tibs.webp",
+    "thumbPath": "/assets/dishes/thumb/127017-derek-tibs.webp"
+  },
+  {
+    "dishId": "shekla-tibs",
+    "metadataCode": "127018",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Shekla Tibs",
+    "imagePath": "/assets/dishes/main/127018-shekla-tibs.webp",
+    "thumbPath": "/assets/dishes/thumb/127018-shekla-tibs.webp"
+  },
+  {
+    "dishId": "zigni",
+    "metadataCode": "127019",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Zigni",
+    "imagePath": "/assets/dishes/main/127019-zigni.webp",
+    "thumbPath": "/assets/dishes/thumb/127019-zigni.webp"
+  },
+  {
+    "dishId": "atkilt-wat",
+    "metadataCode": "127020",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Atkilt Wat",
+    "imagePath": "/assets/dishes/main/127020-atkilt-wat.webp",
+    "thumbPath": "/assets/dishes/thumb/127020-atkilt-wat.webp"
+  },
+  {
+    "dishId": "azifa",
+    "metadataCode": "127021",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Azifa",
+    "imagePath": "/assets/dishes/main/127021-azifa.webp",
+    "thumbPath": "/assets/dishes/thumb/127021-azifa.webp"
+  },
+  {
+    "dishId": "timatim-salata",
+    "metadataCode": "127022",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Timatim Salata",
+    "imagePath": "/assets/dishes/main/127022-timatim-salata.webp",
+    "thumbPath": "/assets/dishes/thumb/127022-timatim-salata.webp"
+  },
+  {
+    "dishId": "ayib",
+    "metadataCode": "127023",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Ayib",
+    "imagePath": "/assets/dishes/main/127023-ayib.webp",
+    "thumbPath": "/assets/dishes/thumb/127023-ayib.webp"
+  },
+  {
+    "dishId": "chechebsa",
+    "metadataCode": "127024",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Chechebsa",
+    "imagePath": "/assets/dishes/main/127024-chechebsa.webp",
+    "thumbPath": "/assets/dishes/thumb/127024-chechebsa.webp"
+  },
+  {
+    "dishId": "genfo",
+    "metadataCode": "127025",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Genfo",
+    "imagePath": "/assets/dishes/main/127025-genfo.webp",
+    "thumbPath": "/assets/dishes/thumb/127025-genfo.webp"
+  },
+  {
+    "dishId": "kinche",
+    "metadataCode": "127026",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Kinche",
+    "imagePath": "/assets/dishes/main/127026-kinche.webp",
+    "thumbPath": "/assets/dishes/thumb/127026-kinche.webp"
+  },
+  {
+    "dishId": "firfir-injera",
+    "metadataCode": "127027",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Injera Firfir",
+    "imagePath": "/assets/dishes/main/127027-firfir-injera.webp",
+    "thumbPath": "/assets/dishes/thumb/127027-firfir-injera.webp"
+  },
+  {
+    "dishId": "shimbra-assa",
+    "metadataCode": "127028",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Shimbra Assa",
+    "imagePath": "/assets/dishes/main/127028-shimbra-assa.webp",
+    "thumbPath": "/assets/dishes/thumb/127028-shimbra-assa.webp"
+  },
+  {
+    "dishId": "spris",
+    "metadataCode": "127029",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Spris",
+    "imagePath": "/assets/dishes/main/127029-spris.webp",
+    "thumbPath": "/assets/dishes/thumb/127029-spris.webp"
+  },
+  {
+    "dishId": "ambasha",
+    "metadataCode": "127030",
+    "cuisineId": "ethiopian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Ambasha",
+    "imagePath": "/assets/dishes/main/127030-ambasha.webp",
+    "thumbPath": "/assets/dishes/thumb/127030-ambasha.webp"
+  }
+]

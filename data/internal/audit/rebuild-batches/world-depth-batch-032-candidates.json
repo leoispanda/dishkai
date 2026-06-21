@@ -1,0 +1,272 @@
+[
+  {
+    "dishId": "mixed-grill-middle-eastern",
+    "metadataCode": "120025",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Middle Eastern Mixed Grill",
+    "imagePath": "/assets/dishes/main/120025-mixed-grill-middle-eastern.webp",
+    "thumbPath": "/assets/dishes/thumb/120025-mixed-grill-middle-eastern.webp"
+  },
+  {
+    "dishId": "shish-taouk",
+    "metadataCode": "120026",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Shish Taouk",
+    "imagePath": "/assets/dishes/main/120026-shish-taouk.webp",
+    "thumbPath": "/assets/dishes/thumb/120026-shish-taouk.webp"
+  },
+  {
+    "dishId": "batata-harra",
+    "metadataCode": "120027",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Batata Harra",
+    "imagePath": "/assets/dishes/main/120027-batata-harra.webp",
+    "thumbPath": "/assets/dishes/thumb/120027-batata-harra.webp"
+  },
+  {
+    "dishId": "muhammara",
+    "metadataCode": "120028",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Muhammara",
+    "imagePath": "/assets/dishes/main/120028-muhammara.webp",
+    "thumbPath": "/assets/dishes/thumb/120028-muhammara.webp"
+  },
+  {
+    "dishId": "umm-ali",
+    "metadataCode": "120029",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Umm Ali",
+    "imagePath": "/assets/dishes/main/120029-umm-ali.webp",
+    "thumbPath": "/assets/dishes/thumb/120029-umm-ali.webp"
+  },
+  {
+    "dishId": "basbousa",
+    "metadataCode": "120030",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Basbousa",
+    "imagePath": "/assets/dishes/main/120030-basbousa.webp",
+    "thumbPath": "/assets/dishes/thumb/120030-basbousa.webp"
+  },
+  {
+    "dishId": "fajitas",
+    "metadataCode": "121013",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Fajitas",
+    "imagePath": "/assets/dishes/main/121013-fajitas.webp",
+    "thumbPath": "/assets/dishes/thumb/121013-fajitas.webp"
+  },
+  {
+    "dishId": "tostadas",
+    "metadataCode": "121014",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Tostadas",
+    "imagePath": "/assets/dishes/main/121014-tostadas.webp",
+    "thumbPath": "/assets/dishes/thumb/121014-tostadas.webp"
+  },
+  {
+    "dishId": "sopes",
+    "metadataCode": "121015",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Sopes",
+    "imagePath": "/assets/dishes/main/121015-sopes.webp",
+    "thumbPath": "/assets/dishes/thumb/121015-sopes.webp"
+  },
+  {
+    "dishId": "gorditas",
+    "metadataCode": "121016",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Gorditas",
+    "imagePath": "/assets/dishes/main/121016-gorditas.webp",
+    "thumbPath": "/assets/dishes/thumb/121016-gorditas.webp"
+  },
+  {
+    "dishId": "elote",
+    "metadataCode": "121017",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Elote",
+    "imagePath": "/assets/dishes/main/121017-elote.webp",
+    "thumbPath": "/assets/dishes/thumb/121017-elote.webp"
+  },
+  {
+    "dishId": "esquites",
+    "metadataCode": "121018",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Esquites",
+    "imagePath": "/assets/dishes/main/121018-esquites.webp",
+    "thumbPath": "/assets/dishes/thumb/121018-esquites.webp"
+  },
+  {
+    "dishId": "chilaquiles",
+    "metadataCode": "121019",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Chilaquiles",
+    "imagePath": "/assets/dishes/main/121019-chilaquiles.webp",
+    "thumbPath": "/assets/dishes/thumb/121019-chilaquiles.webp"
+  },
+  {
+    "dishId": "huevos-rancheros",
+    "metadataCode": "121020",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Huevos Rancheros",
+    "imagePath": "/assets/dishes/main/121020-huevos-rancheros.webp",
+    "thumbPath": "/assets/dishes/thumb/121020-huevos-rancheros.webp"
+  },
+  {
+    "dishId": "birria",
+    "metadataCode": "121021",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Birria",
+    "imagePath": "/assets/dishes/main/121021-birria.webp",
+    "thumbPath": "/assets/dishes/thumb/121021-birria.webp"
+  },
+  {
+    "dishId": "birria-tacos",
+    "metadataCode": "121022",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Birria Tacos",
+    "imagePath": "/assets/dishes/main/121022-birria-tacos.webp",
+    "thumbPath": "/assets/dishes/thumb/121022-birria-tacos.webp"
+  },
+  {
+    "dishId": "barbacoa",
+    "metadataCode": "121023",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Barbacoa",
+    "imagePath": "/assets/dishes/main/121023-barbacoa.webp",
+    "thumbPath": "/assets/dishes/thumb/121023-barbacoa.webp"
+  },
+  {
+    "dishId": "carnitas",
+    "metadataCode": "121024",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Carnitas",
+    "imagePath": "/assets/dishes/main/121024-carnitas.webp",
+    "thumbPath": "/assets/dishes/thumb/121024-carnitas.webp"
+  },
+  {
+    "dishId": "al-pastor",
+    "metadataCode": "121025",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Tacos al Pastor",
+    "imagePath": "/assets/dishes/main/121025-al-pastor.webp",
+    "thumbPath": "/assets/dishes/thumb/121025-al-pastor.webp"
+  },
+  {
+    "dishId": "cochinita-pibil",
+    "metadataCode": "121026",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Cochinita Pibil",
+    "imagePath": "/assets/dishes/main/121026-cochinita-pibil.webp",
+    "thumbPath": "/assets/dishes/thumb/121026-cochinita-pibil.webp"
+  },
+  {
+    "dishId": "sopa-de-lima",
+    "metadataCode": "121027",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Sopa de Lima",
+    "imagePath": "/assets/dishes/main/121027-sopa-de-lima.webp",
+    "thumbPath": "/assets/dishes/thumb/121027-sopa-de-lima.webp"
+  },
+  {
+    "dishId": "aguachile",
+    "metadataCode": "121028",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Aguachile",
+    "imagePath": "/assets/dishes/main/121028-aguachile.webp",
+    "thumbPath": "/assets/dishes/thumb/121028-aguachile.webp"
+  },
+  {
+    "dishId": "tres-leches-cake",
+    "metadataCode": "121029",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Tres Leches Cake",
+    "imagePath": "/assets/dishes/main/121029-tres-leches-cake.webp",
+    "thumbPath": "/assets/dishes/thumb/121029-tres-leches-cake.webp"
+  },
+  {
+    "dishId": "arroz-con-leche-mexican",
+    "metadataCode": "121030",
+    "cuisineId": "mexican",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Mexican Arroz con Leche",
+    "imagePath": "/assets/dishes/main/121030-arroz-con-leche-mexican.webp",
+    "thumbPath": "/assets/dishes/thumb/121030-arroz-con-leche-mexican.webp"
+  },
+  {
+    "dishId": "lamb-brochettes",
+    "metadataCode": "124013",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Lamb Brochettes",
+    "imagePath": "/assets/dishes/main/124013-lamb-brochettes.webp",
+    "thumbPath": "/assets/dishes/thumb/124013-lamb-brochettes.webp"
+  },
+  {
+    "dishId": "kefta-brochettes",
+    "metadataCode": "124014",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Kefta Brochettes",
+    "imagePath": "/assets/dishes/main/124014-kefta-brochettes.webp",
+    "thumbPath": "/assets/dishes/thumb/124014-kefta-brochettes.webp"
+  },
+  {
+    "dishId": "rfissa",
+    "metadataCode": "124015",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Rfissa",
+    "imagePath": "/assets/dishes/main/124015-rfissa.webp",
+    "thumbPath": "/assets/dishes/thumb/124015-rfissa.webp"
+  },
+  {
+    "dishId": "tanjia",
+    "metadataCode": "124016",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Tanjia",
+    "imagePath": "/assets/dishes/main/124016-tanjia.webp",
+    "thumbPath": "/assets/dishes/thumb/124016-tanjia.webp"
+  },
+  {
+    "dishId": "bissara",
+    "metadataCode": "124017",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Bissara",
+    "imagePath": "/assets/dishes/main/124017-bissara.webp",
+    "thumbPath": "/assets/dishes/thumb/124017-bissara.webp"
+  },
+  {
+    "dishId": "loubia",
+    "metadataCode": "124018",
+    "cuisineId": "moroccan",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Loubia",
+    "imagePath": "/assets/dishes/main/124018-loubia.webp",
+    "thumbPath": "/assets/dishes/thumb/124018-loubia.webp"
+  }
+]

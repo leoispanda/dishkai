@@ -14,14 +14,18 @@ The goal is trust, not raw count. Promote a dish only when its metadata, aliases
 ## First Moves
 
 1. Read the repo instructions in `AGENTS.md` and obey the approval/push mode there.
-2. Inspect current state before editing:
+2. Decide the work mode from the current situation before touching data:
+   - If the task is to add missing coverage or create a new batch, generate/rebuild candidates and review them under the same strict gate.
+   - If candidate metadata/images already exist, review the existing manifest, contact sheet, assets, and source rows before generating anything new.
+   - If only specific rows fail metadata or image quality, regenerate/rebuild only those failed rows and keep accepted rows intact.
+3. Inspect current state before editing:
    - `git status --short --branch`
    - `git log --oneline -5`
    - `node scripts/validate-metadata.mjs`
    - `node scripts/check-dish-assets.mjs`
    - `node scripts/audit-verified-dishes.mjs`
-3. If `node` is not on PATH, use the bundled Codex workspace Node path.
-4. Identify the next batch from `metadata.dishes`, `quarantinedDishes`, audit reports, and cuisine counts. Do not rely on stale prose counts when validators disagree.
+4. If `node` is not on PATH, use the bundled Codex workspace Node path.
+5. Identify the next batch from `metadata.dishes`, `quarantinedDishes`, audit reports, and cuisine counts. Do not rely on stale prose counts when validators disagree.
 
 ## Verification Gate
 

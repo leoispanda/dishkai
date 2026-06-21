@@ -2507,14 +2507,49 @@ export const globalDepthDishAliases = [
   },
   {
     "alias": "Makloubeh",
-    "dishId": "makloubeh",
+    "dishId": "maqluba",
+    "language": "menu",
+    "matchType": "transliteration-variant",
+    "confidence": 0.97
+  },
+  {
+    "alias": "中东茄子鸡肉饭",
+    "dishId": "maqluba",
+    "language": "menu",
+    "matchType": "descriptive-variant",
+    "confidence": 0.92
+  },
+  {
+    "alias": "Kunafa",
+    "dishId": "kunafa",
     "language": "menu",
     "matchType": "canonical",
     "confidence": 1
   },
   {
-    "alias": "中东茄子鸡肉饭",
-    "dishId": "makloubeh",
+    "alias": "Knafeh",
+    "dishId": "kunafa",
+    "language": "menu",
+    "matchType": "transliteration-variant",
+    "confidence": 0.97
+  },
+  {
+    "alias": "Kunafeh",
+    "dishId": "kunafa",
+    "language": "menu",
+    "matchType": "transliteration-variant",
+    "confidence": 0.97
+  },
+  {
+    "alias": "كنافة",
+    "dishId": "kunafa",
+    "language": "menu",
+    "matchType": "local-script",
+    "confidence": 1
+  },
+  {
+    "alias": "库纳法奶酪甜点",
+    "dishId": "kunafa",
     "language": "menu",
     "matchType": "translated-name",
     "confidence": 0.94

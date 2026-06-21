@@ -8,9 +8,9 @@ Verified metadata is the source of truth. It should be curated for high-frequenc
 
 Current verified starter database:
 
-- 721 verified dishes
+- 811 verified dishes
 - 27 cuisines
-- 2182 verified aliases
+- 2423 verified aliases
 
 Recent depth progress:
 
@@ -23,11 +23,12 @@ Recent depth progress:
 - Italian Batch 028 re-audited the optional European depth layer for Italian rows `101031`-`101060`, replacing all 30 mismatched candidate images with restaurant-realistic generated assets and rebuilding dish-specific metadata. Italian verified coverage is now 60 dishes.
 - French Batch 029 re-audited French rows `103031`-`103060`, replacing all 30 mismatched candidate images with restaurant-realistic generated assets and rebuilding dish-specific metadata. French verified coverage is now 60 dishes.
 - Malaysian/Singaporean Batch 030 rebuilt rows `118013`-`118030`, replacing all mismatched candidate images with restaurant-realistic generated assets and rebuilding dish-specific metadata. Malaysian/Singaporean verified coverage is now 30 dishes.
+- World Depth Batches 031-033 rebuilt 90 rows across Turkish, Middle Eastern, Mexican, Moroccan, and Ethiopian coverage. Existing candidate images were rejected as shifted/mismatched, all accepted rows received restaurant-realistic generated replacements with visible metadataCode stamps, and `makloubeh` was kept out as a duplicate transliteration of `maqluba` while `kunafa` became the independent replacement. These five cuisines now have 30 verified dishes each.
 
 Next verified coverage targets:
 
 1. Rebuild quarantined global-depth cuisines in <=30-dish batches only when replacement-quality images are available.
-2. Prioritize real-menu misses and cuisines below 30 verified dishes. Current below-30 cuisines include Turkish, Middle Eastern, Mexican, American, Moroccan, Surinamese, Ethiopian, Peruvian, and Brazilian.
+2. Prioritize real-menu misses and cuisines below 30 verified dishes. Current below-30 cuisines include American, Surinamese, Peruvian, and Brazilian.
 3. Re-audit European depth only when real menu misses justify going beyond 30. Italian and French are the first reviewed 60-dish European cuisines; other European depth rows remain optional and quarantined until strict review.
 
 Verified metadata should stay concise and ordering-focused. Do not turn cards into recipes.
