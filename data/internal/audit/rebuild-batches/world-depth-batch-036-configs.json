@@ -1,0 +1,3272 @@
+[
+  {
+    "id": "caldinho-de-feijao",
+    "metadataCode": "130018",
+    "imageCode": "130018",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Caldinho de Feijão",
+      "zh": "巴西黑豆汤",
+      "nl": "Caldinho de feijão",
+      "local": "caldinho de feijão"
+    },
+    "category": "soup",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Caldinho de Feijão is a Brazilian black bean broth or small soup, often served as a starter.",
+      "zh": "巴西黑豆汤通常是巴西黑豆汤或小杯豆汤，常作前菜。",
+      "nl": "Caldinho de feijão is meestal een Braziliaanse zwartebonenbouillon of kleine soep, vaak als voorgerecht."
+    },
+    "cookingProfile": {
+      "en": "Expect thick earthy beans in a warm drinkable soup.",
+      "zh": "点餐时可预期黑豆香厚重，汤体浓稠温热。",
+      "nl": "Verwacht dikke aardse bonen in een warme drinkbare soep."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is thick earthy beans in a warm drinkable soup.",
+        "zh": "点餐识别重点是黑豆香厚重，汤体浓稠温热。",
+        "nl": "Het herkenningspunt is dikke aardse bonen in een warme drinkbare soep."
+      }
+    },
+    "composition": [
+      [
+        "black-beans",
+        55,
+        "starch-or-legume"
+      ],
+      [
+        "broth",
+        20,
+        "component"
+      ],
+      [
+        "pork",
+        10,
+        "protein"
+      ],
+      [
+        "onion",
+        10,
+        "component"
+      ],
+      [
+        "cumin",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "black-beans",
+      "cumin",
+      "pork"
+    ],
+    "basicTaste": [
+      "earthy",
+      "savory",
+      "hearty"
+    ],
+    "textureProfile": [
+      "smooth bean soup",
+      "small cup or bowl",
+      "thick texture"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "soup"
+    ],
+    "avoidIfTags": [
+      "no-pork"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a small hearty bean soup; skip if you dislike thick bean soups.",
+      "zh": "想喝小份浓黑豆汤时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een kleine stevige bonensoep wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/130018-caldinho-de-feijao.webp",
+    "thumbPath": "/assets/dishes/thumb/130018-caldinho-de-feijao.webp"
+  },
+  {
+    "id": "empada",
+    "metadataCode": "130019",
+    "imageCode": "130019",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Empada",
+      "zh": "巴西小馅饼",
+      "nl": "Empada",
+      "local": "empada"
+    },
+    "category": "starter",
+    "mealRole": "starter-or-side",
+    "portionType": "small-plate",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Empada is a small Brazilian savory pie, often filled with chicken, hearts of palm, or shrimp.",
+      "zh": "巴西小馅饼通常是巴西小咸派，常见鸡肉、棕榈芯或虾馅。",
+      "nl": "Empada is meestal een kleine Braziliaanse hartige taart, vaak met kip, palmhart of garnaal."
+    },
+    "cookingProfile": {
+      "en": "Expect crumbly pastry around a soft savory filling.",
+      "zh": "点餐时可预期外皮酥碎，里面是柔软咸馅。",
+      "nl": "Verwacht kruimelig deeg rond zachte hartige vulling."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is crumbly pastry around a soft savory filling.",
+        "zh": "点餐识别重点是外皮酥碎，里面是柔软咸馅。",
+        "nl": "Het herkenningspunt is kruimelig deeg rond zachte hartige vulling."
+      }
+    },
+    "composition": [
+      [
+        "pastry-crust",
+        45,
+        "base"
+      ],
+      [
+        "chicken",
+        25,
+        "protein"
+      ],
+      [
+        "cream",
+        10,
+        "richness"
+      ],
+      [
+        "olives",
+        10,
+        "component"
+      ],
+      [
+        "egg",
+        10,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "pastry-crust",
+      "chicken",
+      "olives"
+    ],
+    "basicTaste": [
+      "savory",
+      "buttery",
+      "mild"
+    ],
+    "textureProfile": [
+      "small pie",
+      "crumbly crust",
+      "creamy filling"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a small savory pastry; skip if you avoid pastry or creamy fillings.",
+      "zh": "想吃小份咸酥点时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een klein hartig pasteitje wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/130019-empada.webp",
+    "thumbPath": "/assets/dishes/thumb/130019-empada.webp"
+  },
+  {
+    "id": "kibe-brazilian",
+    "metadataCode": "130020",
+    "imageCode": "130020",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Brazilian Kibe",
+      "zh": "巴西炸小麦肉球",
+      "nl": "Braziliaanse kibe",
+      "local": "kibe"
+    },
+    "category": "starter",
+    "mealRole": "starter-or-side",
+    "portionType": "small-plate",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "fried"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Brazilian Kibe is Brazilian-style kibbeh made with cracked wheat and ground meat, usually fried.",
+      "zh": "巴西炸小麦肉球通常是巴西风碎麦肉丸，通常油炸。",
+      "nl": "Braziliaanse kibe is meestal Braziliaanse kibe van gebroken tarwe en gehakt, meestal gefrituurd."
+    },
+    "cookingProfile": {
+      "en": "Expect a crisp outside with grainy seasoned meat inside.",
+      "zh": "点餐时可预期外层微脆，里面是带谷物感的调味肉馅。",
+      "nl": "Verwacht krokant buiten, korrelig gekruid vlees binnenin."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is a crisp outside with grainy seasoned meat inside.",
+        "zh": "点餐识别重点是外层微脆，里面是带谷物感的调味肉馅。",
+        "nl": "Het herkenningspunt is krokant buiten, korrelig gekruid vlees binnenin."
+      }
+    },
+    "composition": [
+      [
+        "cracked-wheat",
+        40,
+        "component"
+      ],
+      [
+        "ground-meat",
+        40,
+        "protein"
+      ],
+      [
+        "onion",
+        10,
+        "component"
+      ],
+      [
+        "mint",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "cumin",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cracked-wheat",
+      "mint",
+      "cumin"
+    ],
+    "basicTaste": [
+      "savory",
+      "meaty",
+      "herbal"
+    ],
+    "textureProfile": [
+      "fried shell",
+      "grainy meat filling",
+      "small snack"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a meaty fried snack; skip if you avoid gluten or fried snacks.",
+      "zh": "想吃有肉香的炸小点时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een vlezig gefrituurd hapje wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/130020-kibe-brazilian.webp",
+    "thumbPath": "/assets/dishes/thumb/130020-kibe-brazilian.webp"
+  },
+  {
+    "id": "tapioca-crepe",
+    "metadataCode": "130021",
+    "imageCode": "130021",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Tapioca Crepe",
+      "zh": "巴西木薯粉煎饼",
+      "nl": "Tapiocapannenkoek",
+      "local": "tapioca"
+    },
+    "category": "bread",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "fried"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Tapioca Crepe is a Brazilian tapioca-starch crepe filled sweet or savory.",
+      "zh": "巴西木薯粉煎饼通常是巴西木薯粉薄饼，可做甜馅或咸馅。",
+      "nl": "Tapiocapannenkoek is meestal een Braziliaanse tapiocapannenkoek met zoete of hartige vulling."
+    },
+    "cookingProfile": {
+      "en": "Expect a chewy gluten-free crepe with flexible filling.",
+      "zh": "点餐时可预期薄饼有嚼劲，不含小麦，馅料可甜可咸。",
+      "nl": "Verwacht een taaie glutenvrije pannenkoek met wisselende vulling."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is a chewy gluten-free crepe with flexible filling.",
+        "zh": "点餐识别重点是薄饼有嚼劲，不含小麦，馅料可甜可咸。",
+        "nl": "Het herkenningspunt is een taaie glutenvrije pannenkoek met wisselende vulling."
+      }
+    },
+    "composition": [
+      [
+        "tapioca-starch",
+        55,
+        "base"
+      ],
+      [
+        "cheese",
+        25,
+        "richness"
+      ],
+      [
+        "grated-coconut",
+        10,
+        "component"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
+      ],
+      [
+        "sugar",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "tapioca-starch",
+      "cheese",
+      "grated-coconut"
+    ],
+    "basicTaste": [
+      "mild",
+      "chewy",
+      "can-be-sweet"
+    ],
+    "textureProfile": [
+      "thin chewy crepe",
+      "soft filling",
+      "lightly crisp edge"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "can-be-vegetarian"
+    ],
+    "goodForTags": [
+      "sandwich-or-bread"
+    ],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a chewy tapioca crepe; skip if you dislike chewy starch.",
+      "zh": "想吃有嚼劲木薯粉薄饼时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een taaie tapiocapannenkoek wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/130021-tapioca-crepe.webp",
+    "thumbPath": "/assets/dishes/thumb/130021-tapioca-crepe.webp"
+  },
+  {
+    "id": "moqueca-baiana",
+    "metadataCode": "130022",
+    "imageCode": "130022",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Moqueca Baiana",
+      "zh": "巴伊亚椰奶海鲜锅",
+      "nl": "Moqueca baiana",
+      "local": "moqueca baiana"
+    },
+    "category": "seafood",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Moqueca Baiana is Bahian seafood stew with coconut milk and red dendê palm oil.",
+      "zh": "巴伊亚椰奶海鲜锅通常是巴伊亚海鲜炖锅，含椰奶和红棕榈油。",
+      "nl": "Moqueca baiana is meestal Bahiaanse zeevruchtenstoof met kokosmelk en rode dende-olie."
+    },
+    "cookingProfile": {
+      "en": "Expect rich orange coconut sauce around fish and shrimp.",
+      "zh": "点餐时可预期橙红椰奶酱包裹鱼和虾，味道浓郁。",
+      "nl": "Verwacht rijke oranje kokossaus rond vis en garnaal."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is rich orange coconut sauce around fish and shrimp.",
+        "zh": "点餐识别重点是橙红椰奶酱包裹鱼和虾，味道浓郁。",
+        "nl": "Het herkenningspunt is rijke oranje kokossaus rond vis en garnaal."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        35,
+        "seafood"
+      ],
+      [
+        "shrimp",
+        20,
+        "seafood"
+      ],
+      [
+        "coconut-milk",
+        20,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "dende-oil",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "bell-pepper",
+        10,
+        "component"
+      ],
+      [
+        "steamed-rice",
+        5,
+        "starch-or-legume"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "dende-oil",
+      "coconut-milk",
+      "fish-fillet"
+    ],
+    "basicTaste": [
+      "coconut-rich",
+      "seafood-savory",
+      "aromatic"
+    ],
+    "textureProfile": [
+      "saucy stew",
+      "tender seafood",
+      "rice-friendly"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-shellfish"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "fish-allergy",
+      "shellfish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a coconut-rich seafood stew; skip if you avoid shellfish, fish, or rich coconut sauce.",
+      "zh": "想吃椰香浓郁海鲜炖锅时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een kokosrijke zeevruchtenstoof wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/130022-moqueca-baiana.webp",
+    "thumbPath": "/assets/dishes/thumb/130022-moqueca-baiana.webp"
+  },
+  {
+    "id": "moqueca-capixaba",
+    "metadataCode": "130023",
+    "imageCode": "130023",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Moqueca Capixaba",
+      "zh": "番茄海鲜炖锅",
+      "nl": "Moqueca capixaba",
+      "local": "moqueca capixaba"
+    },
+    "category": "seafood",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Moqueca Capixaba is Espírito Santo style seafood stew, usually lighter and tomato-herb based rather than coconut-heavy.",
+      "zh": "番茄海鲜炖锅通常是圣埃斯皮里图风海鲜炖锅，比巴伊亚版更清爽，偏番茄和香草。",
+      "nl": "Moqueca capixaba is meestal zeevruchtenstoof uit Espírito Santo, lichter en meer tomaat-kruid dan kokos."
+    },
+    "cookingProfile": {
+      "en": "Expect a lighter tomato seafood broth with herbs.",
+      "zh": "点餐时可预期较清爽的番茄海鲜汤汁，香草味明显。",
+      "nl": "Verwacht een lichtere tomaten-zeevruchtenbouillon met kruiden."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is a lighter tomato seafood broth with herbs.",
+        "zh": "点餐识别重点是较清爽的番茄海鲜汤汁，香草味明显。",
+        "nl": "Het herkenningspunt is een lichtere tomaten-zeevruchtenbouillon met kruiden."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        45,
+        "seafood"
+      ],
+      [
+        "shrimp",
+        15,
+        "seafood"
+      ],
+      [
+        "tomato-sauce",
+        15,
+        "component"
+      ],
+      [
+        "bell-pepper",
+        10,
+        "component"
+      ],
+      [
+        "coriander",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "steamed-rice",
+        5,
+        "starch-or-legume"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fish-fillet",
+      "coriander",
+      "tomato-sauce"
+    ],
+    "basicTaste": [
+      "seafood-savory",
+      "tomato-bright",
+      "herbal"
+    ],
+    "textureProfile": [
+      "lighter stew",
+      "tender fish",
+      "brothy sauce"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-shellfish"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "fish-allergy",
+      "shellfish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a lighter Brazilian fish stew; skip if you avoid fish or cilantro.",
+      "zh": "想吃较清爽巴西鱼锅时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een lichtere Braziliaanse visstoof wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/130023-moqueca-capixaba.webp",
+    "thumbPath": "/assets/dishes/thumb/130023-moqueca-capixaba.webp"
+  },
+  {
+    "id": "camarao-na-moranga",
+    "metadataCode": "130024",
+    "imageCode": "130024",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Camarão na Moranga",
+      "zh": "南瓜奶油虾",
+      "nl": "Garnalen in pompoen",
+      "local": "camarão na moranga"
+    },
+    "category": "seafood",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "baked",
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Camarão na Moranga is Brazilian creamy shrimp served in or with a pumpkin-style squash.",
+      "zh": "南瓜奶油虾通常是巴西南瓜奶油虾，虾和奶油酱盛在南瓜中或配南瓜。",
+      "nl": "Garnalen in pompoen is meestal Braziliaanse romige garnalen in of met pompoen."
+    },
+    "cookingProfile": {
+      "en": "Expect sweet pumpkin softness with rich shrimp cream.",
+      "zh": "点餐时可预期南瓜软甜，虾和奶油酱浓郁。",
+      "nl": "Verwacht zoete zachte pompoen met rijke garnalenroom."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is sweet pumpkin softness with rich shrimp cream.",
+        "zh": "点餐识别重点是南瓜软甜，虾和奶油酱浓郁。",
+        "nl": "Het herkenningspunt is zoete zachte pompoen met rijke garnalenroom."
+      }
+    },
+    "composition": [
+      [
+        "shrimp",
+        40,
+        "seafood"
+      ],
+      [
+        "squash",
+        30,
+        "component"
+      ],
+      [
+        "cream",
+        15,
+        "richness"
+      ],
+      [
+        "cheese",
+        10,
+        "richness"
+      ],
+      [
+        "garlic",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "shrimp",
+      "squash",
+      "cream"
+    ],
+    "basicTaste": [
+      "creamy",
+      "sweet-savory",
+      "seafood-rich"
+    ],
+    "textureProfile": [
+      "shrimp in creamy sauce",
+      "soft pumpkin",
+      "spoonable"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want creamy shrimp with pumpkin; skip if you avoid shellfish or dairy.",
+      "zh": "想吃南瓜奶油虾时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je romige garnaal met pompoen wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/130024-camarao-na-moranga.webp",
+    "thumbPath": "/assets/dishes/thumb/130024-camarao-na-moranga.webp"
+  },
+  {
+    "id": "salpicao",
+    "metadataCode": "130025",
+    "imageCode": "130025",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Salpicão",
+      "zh": "巴西鸡肉沙拉",
+      "nl": "Salpicão",
+      "local": "salpicão"
+    },
+    "category": "salad",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "assembled",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Salpicão is a Brazilian cold shredded chicken salad with mayonnaise, vegetables, and often raisins or potato sticks.",
+      "zh": "巴西鸡肉沙拉通常是巴西冷鸡肉沙拉，拌蛋黄酱、蔬菜，常有葡萄干或脆土豆丝。",
+      "nl": "Salpicão is meestal een Braziliaanse koude kipsalade met mayonaise, groente en vaak rozijnen of aardappelsticks."
+    },
+    "cookingProfile": {
+      "en": "Expect cool creamy chicken salad with sweet bits.",
+      "zh": "点餐时可预期冷食奶油感鸡肉沙拉，带一点甜味配料。",
+      "nl": "Verwacht koele romige kipsalade met zoete stukjes."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is cool creamy chicken salad with sweet bits.",
+        "zh": "点餐识别重点是冷食奶油感鸡肉沙拉，带一点甜味配料。",
+        "nl": "Het herkenningspunt is koele romige kipsalade met zoete stukjes."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        35,
+        "protein"
+      ],
+      [
+        "mayonnaise",
+        20,
+        "richness"
+      ],
+      [
+        "mixed-vegetables",
+        20,
+        "component"
+      ],
+      [
+        "potato",
+        15,
+        "starch-or-legume"
+      ],
+      [
+        "raisins",
+        10,
+        "fruit-or-sweetness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "mayonnaise",
+      "raisins",
+      "chicken"
+    ],
+    "basicTaste": [
+      "creamy",
+      "sweet-savory",
+      "cool"
+    ],
+    "textureProfile": [
+      "cold shredded salad",
+      "creamy dressing",
+      "crunchy bits"
+    ],
+    "riskFlags": [
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a creamy cold chicken salad; skip if you dislike mayonnaise or sweet-savory salads.",
+      "zh": "想吃冷的奶油鸡肉沙拉时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een romige koude kipsalade wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/130025-salpicao.webp",
+    "thumbPath": "/assets/dishes/thumb/130025-salpicao.webp"
+  },
+  {
+    "id": "canjica",
+    "metadataCode": "130026",
+    "imageCode": "130026",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Canjica",
+      "zh": "巴西玉米椰奶甜粥",
+      "nl": "Canjica",
+      "local": "canjica"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Canjica is Brazilian sweet corn pudding with milk, coconut, and cinnamon.",
+      "zh": "巴西玉米椰奶甜粥通常是巴西甜玉米奶粥，常有椰奶和肉桂。",
+      "nl": "Canjica is meestal Braziliaanse zoete maispap met melk, kokos en kaneel."
+    },
+    "cookingProfile": {
+      "en": "Expect soft corn in a sweet creamy pudding.",
+      "zh": "点餐时可预期玉米软糯，甜奶粥质地。",
+      "nl": "Verwacht zachte mais in een zoete romige pap."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is soft corn in a sweet creamy pudding.",
+        "zh": "点餐识别重点是玉米软糯，甜奶粥质地。",
+        "nl": "Het herkenningspunt is zachte mais in een zoete romige pap."
+      }
+    },
+    "composition": [
+      [
+        "corn",
+        45,
+        "starch-or-legume"
+      ],
+      [
+        "coconut-milk",
+        25,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "sugar",
+        15,
+        "component"
+      ],
+      [
+        "milk-solids",
+        10,
+        "richness"
+      ],
+      [
+        "cinnamon",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "coconut-milk",
+      "cinnamon",
+      "corn"
+    ],
+    "basicTaste": [
+      "sweet",
+      "milky",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "soft corn kernels",
+      "creamy pudding",
+      "spiced top"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a sweet creamy corn pudding; skip if you dislike milky desserts.",
+      "zh": "想吃甜奶香玉米粥时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een zoete romige maispap wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/130026-canjica.webp",
+    "thumbPath": "/assets/dishes/thumb/130026-canjica.webp"
+  },
+  {
+    "id": "cocada",
+    "metadataCode": "130027",
+    "imageCode": "130027",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Cocada",
+      "zh": "巴西椰子糖",
+      "nl": "Cocada",
+      "local": "cocada"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "set"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Cocada is Brazilian coconut candy made from sweetened coconut shreds.",
+      "zh": "巴西椰子糖通常是巴西椰子糖，用甜椰丝做成，甜度高。",
+      "nl": "Cocada is meestal Braziliaanse kokossnoep van gezoete kokossnippers."
+    },
+    "cookingProfile": {
+      "en": "Expect chewy coconut shreds and strong sweetness.",
+      "zh": "点餐时可预期椰丝有嚼劲，甜味很强。",
+      "nl": "Verwacht taaie kokosrasp en sterke zoetheid."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is chewy coconut shreds and strong sweetness.",
+        "zh": "点餐识别重点是椰丝有嚼劲，甜味很强。",
+        "nl": "Het herkenningspunt is taaie kokosrasp en sterke zoetheid."
+      }
+    },
+    "composition": [
+      [
+        "grated-coconut",
+        60,
+        "component"
+      ],
+      [
+        "sugar",
+        25,
+        "component"
+      ],
+      [
+        "condensed-milk",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "vanilla",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "grated-coconut",
+      "condensed-milk"
+    ],
+    "basicTaste": [
+      "very sweet",
+      "coconut",
+      "chewy"
+    ],
+    "textureProfile": [
+      "dense coconut candy",
+      "chewy shreds",
+      "sweet bite"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a small chewy coconut sweet; skip if you prefer less sweet desserts.",
+      "zh": "想吃有嚼劲椰子糖时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een klein taai kokossnoepje wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/130027-cocada.webp",
+    "thumbPath": "/assets/dishes/thumb/130027-cocada.webp"
+  },
+  {
+    "id": "beijinho",
+    "metadataCode": "130028",
+    "imageCode": "130028",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Beijinho",
+      "zh": "巴西椰子奶糖球",
+      "nl": "Beijinho",
+      "local": "beijinho"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "set"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Beijinho is a small Brazilian coconut and condensed-milk style sweet ball.",
+      "zh": "巴西椰子奶糖球通常是巴西椰子炼乳风小糖球。",
+      "nl": "Beijinho is meestal een Braziliaans kokos-melkachtig zoet balletje."
+    },
+    "cookingProfile": {
+      "en": "Expect a soft sticky coconut candy bite.",
+      "zh": "点餐时可预期椰香糖球柔软黏甜。",
+      "nl": "Verwacht een zachte kleverige kokosbonbon."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is a soft sticky coconut candy bite.",
+        "zh": "点餐识别重点是椰香糖球柔软黏甜。",
+        "nl": "Het herkenningspunt is een zachte kleverige kokosbonbon."
+      }
+    },
+    "composition": [
+      [
+        "milk-solids",
+        45,
+        "richness"
+      ],
+      [
+        "grated-coconut",
+        35,
+        "component"
+      ],
+      [
+        "sugar",
+        15,
+        "component"
+      ],
+      [
+        "vanilla",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "grated-coconut",
+      "vanilla",
+      "condensed-milk"
+    ],
+    "basicTaste": [
+      "very sweet",
+      "coconut",
+      "milky"
+    ],
+    "textureProfile": [
+      "soft candy ball",
+      "coconut coating",
+      "sticky center"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a tiny coconut sweet; skip if you dislike very sweet milk candies.",
+      "zh": "想吃小颗椰香奶糖时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een klein kokossnoepje wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/130028-beijinho.webp",
+    "thumbPath": "/assets/dishes/thumb/130028-beijinho.webp"
+  },
+  {
+    "id": "mousse-de-maracuja",
+    "metadataCode": "130029",
+    "imageCode": "130029",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Mousse de Maracujá",
+      "zh": "百香果慕斯",
+      "nl": "Passievruchtmousse",
+      "local": "mousse de maracujá"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "chilled",
+      "set"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Mousse de Maracujá is Brazilian passionfruit-style mousse, cold, creamy, and sweet-tart.",
+      "zh": "百香果慕斯通常是巴西百香果风慕斯，冷食，奶香酸甜。",
+      "nl": "Passievruchtmousse is meestal Braziliaanse passievruchtmousse, koud, romig en zoetzuur."
+    },
+    "cookingProfile": {
+      "en": "Expect smooth chilled mousse with bright fruit acidity.",
+      "zh": "点餐时可预期冰凉顺滑慕斯，水果酸香明显。",
+      "nl": "Verwacht gladde gekoelde mousse met frisse fruitzuurte."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is smooth chilled mousse with bright fruit acidity.",
+        "zh": "点餐识别重点是冰凉顺滑慕斯，水果酸香明显。",
+        "nl": "Het herkenningspunt is gladde gekoelde mousse met frisse fruitzuurte."
+      }
+    },
+    "composition": [
+      [
+        "fruit-sauce-or-caramel",
+        45,
+        "fruit-or-sweetness"
+      ],
+      [
+        "cream",
+        30,
+        "richness"
+      ],
+      [
+        "condensed-milk",
+        15,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "gelatin",
+        10,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fruit-sauce-or-caramel",
+      "cream",
+      "condensed-milk"
+    ],
+    "basicTaste": [
+      "sweet-tart",
+      "creamy",
+      "fruity"
+    ],
+    "textureProfile": [
+      "airy mousse",
+      "cool dessert",
+      "smooth spoonful"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a cool sweet-tart mousse; skip if you avoid dairy or gelatin.",
+      "zh": "想吃冰凉酸甜慕斯时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een koele zoet-zure mousse wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/130029-mousse-de-maracuja.webp",
+    "thumbPath": "/assets/dishes/thumb/130029-mousse-de-maracuja.webp"
+  },
+  {
+    "id": "tapioca-pudding-brazilian",
+    "metadataCode": "130030",
+    "imageCode": "130030",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Brazilian Tapioca Pudding",
+      "zh": "巴西木薯布丁",
+      "nl": "Braziliaanse tapiocapudding",
+      "local": "pudim de tapioca"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "simmered",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Brazilian Tapioca Pudding is Brazilian tapioca pudding with milk, coconut, and cinnamon.",
+      "zh": "巴西木薯布丁通常是巴西木薯布丁，带奶香、椰香和肉桂。",
+      "nl": "Braziliaanse tapiocapudding is meestal Braziliaanse tapiocapudding met melk, kokos en kaneel."
+    },
+    "cookingProfile": {
+      "en": "Expect creamy pudding with soft chewy tapioca texture.",
+      "zh": "点餐时可预期布丁奶香浓，木薯带柔软微弹口感。",
+      "nl": "Verwacht romige pudding met zachte licht taaie tapioca."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is creamy pudding with soft chewy tapioca texture.",
+        "zh": "点餐识别重点是布丁奶香浓，木薯带柔软微弹口感。",
+        "nl": "Het herkenningspunt is romige pudding met zachte licht taaie tapioca."
+      }
+    },
+    "composition": [
+      [
+        "tapioca-starch",
+        40,
+        "base"
+      ],
+      [
+        "coconut-milk",
+        25,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "milk-solids",
+        20,
+        "richness"
+      ],
+      [
+        "sugar",
+        10,
+        "component"
+      ],
+      [
+        "cinnamon",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "tapioca-starch",
+      "coconut-milk",
+      "cinnamon"
+    ],
+    "basicTaste": [
+      "sweet",
+      "milky",
+      "coconut"
+    ],
+    "textureProfile": [
+      "soft pearls or starch",
+      "creamy pudding",
+      "cool or warm"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a creamy tapioca dessert; skip if you dislike soft chewy puddings.",
+      "zh": "想吃奶香木薯布丁时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een romige tapiocadessert wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/130030-tapioca-pudding-brazilian.webp",
+    "thumbPath": "/assets/dishes/thumb/130030-tapioca-pudding-brazilian.webp"
+  },
+  {
+    "id": "cottage-pie",
+    "metadataCode": "123031",
+    "imageCode": "123031",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Cottage Pie",
+      "zh": "英式牛肉土豆派",
+      "nl": "Cottage Pie",
+      "local": "Cottage Pie"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "baked",
+      "layered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Cottage Pie is a British beef mince pie topped with mashed potato rather than pastry.",
+      "zh": "英式牛肉土豆派通常是英式牛肉末土豆派，上层是土豆泥，不是酥皮。",
+      "nl": "Cottage Pie is meestal een Britse gehaktschotel met aardappelpuree bovenop in plaats van deeg."
+    },
+    "cookingProfile": {
+      "en": "Expect soft beef filling under browned mashed potato.",
+      "zh": "点餐时可预期牛肉馅柔软，上层土豆泥烤到微焦。",
+      "nl": "Verwacht zachte rundvleesvulling onder gebruinde puree."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is soft beef filling under browned mashed potato.",
+        "zh": "点餐识别重点是牛肉馅柔软，上层土豆泥烤到微焦。",
+        "nl": "Het herkenningspunt is zachte rundvleesvulling onder gebruinde puree."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        40,
+        "protein"
+      ],
+      [
+        "potato",
+        40,
+        "starch-or-legume"
+      ],
+      [
+        "carrot",
+        10,
+        "component"
+      ],
+      [
+        "onion",
+        5,
+        "component"
+      ],
+      [
+        "black-pepper",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "beef",
+      "potato",
+      "black-pepper"
+    ],
+    "basicTaste": [
+      "savory",
+      "hearty",
+      "mild"
+    ],
+    "textureProfile": [
+      "mashed potato top",
+      "minced beef filling",
+      "browned edges"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a hearty beef-potato bake; skip if you want a crisp pastry pie.",
+      "zh": "想吃牛肉土豆焗菜时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een stevige rund-aardappelovenschotel wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123031-cottage-pie.webp",
+    "thumbPath": "/assets/dishes/thumb/123031-cottage-pie.webp"
+  },
+  {
+    "id": "steak-and-kidney-pudding",
+    "metadataCode": "123032",
+    "imageCode": "123032",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Steak and Kidney Pudding",
+      "zh": "牛排腰子布丁派",
+      "nl": "Steak and Kidney Pudding",
+      "local": "Steak and Kidney Pudding"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "steamed"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Steak and Kidney Pudding is a steamed British pudding filled with beef steak, kidney, and gravy.",
+      "zh": "牛排腰子布丁派通常是英式蒸咸布丁，内馅是牛肉、腰子和肉汁。",
+      "nl": "Steak and Kidney Pudding is meestal een gestoomde Britse pudding gevuld met rundvlees, niertjes en jus."
+    },
+    "cookingProfile": {
+      "en": "Expect soft dough casing with a strong meat-and-kidney filling.",
+      "zh": "点餐时可预期外皮柔软，内馅肉汁浓，腰子味明显。",
+      "nl": "Verwacht zachte deegkorst met krachtige vlees-niervulling."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is soft dough casing with a strong meat-and-kidney filling.",
+        "zh": "点餐识别重点是外皮柔软，内馅肉汁浓，腰子味明显。",
+        "nl": "Het herkenningspunt is zachte deegkorst met krachtige vlees-niervulling."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        40,
+        "protein"
+      ],
+      [
+        "offal",
+        20,
+        "protein"
+      ],
+      [
+        "pastry-crust",
+        25,
+        "base"
+      ],
+      [
+        "broth",
+        10,
+        "component"
+      ],
+      [
+        "black-pepper",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "offal",
+      "beef",
+      "black-pepper"
+    ],
+    "basicTaste": [
+      "savory",
+      "rich",
+      "offal"
+    ],
+    "textureProfile": [
+      "soft suet-style crust",
+      "gravy filling",
+      "kidney pieces"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a traditional offal-rich pie-style dish; skip if you dislike kidney or soft steamed pastry.",
+      "zh": "想吃传统浓厚内脏肉馅时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een traditioneel nierrijk pasteigerecht wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123032-steak-and-kidney-pudding.webp",
+    "thumbPath": "/assets/dishes/thumb/123032-steak-and-kidney-pudding.webp"
+  },
+  {
+    "id": "pork-pie",
+    "metadataCode": "123034",
+    "imageCode": "123034",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Pork Pie",
+      "zh": "英式猪肉派",
+      "nl": "Pork Pie",
+      "local": "Pork Pie"
+    },
+    "category": "starter",
+    "mealRole": "starter-or-side",
+    "portionType": "small-plate",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "baked",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Pork Pie is a British cold pork pie with firm meat filling and a jelly layer.",
+      "zh": "英式猪肉派通常是英式冷猪肉派，肉馅紧实，常有肉冻层。",
+      "nl": "Pork Pie is meestal een Britse koude varkenspastei met stevige vulling en gelei."
+    },
+    "cookingProfile": {
+      "en": "Expect firm pork inside dense pastry, usually eaten cold.",
+      "zh": "点餐时可预期厚实酥皮包紧实猪肉，通常冷食。",
+      "nl": "Verwacht stevig varkensvlees in dichte korst, meestal koud gegeten."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is firm pork inside dense pastry, usually eaten cold.",
+        "zh": "点餐识别重点是厚实酥皮包紧实猪肉，通常冷食。",
+        "nl": "Het herkenningspunt is stevig varkensvlees in dichte korst, meestal koud gegeten."
+      }
+    },
+    "composition": [
+      [
+        "pork",
+        55,
+        "protein"
+      ],
+      [
+        "pastry-crust",
+        30,
+        "base"
+      ],
+      [
+        "soup-gelatin",
+        10,
+        "component"
+      ],
+      [
+        "black-pepper",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "pork",
+      "soup-gelatin",
+      "black-pepper"
+    ],
+    "basicTaste": [
+      "savory",
+      "porky",
+      "peppery"
+    ],
+    "textureProfile": [
+      "firm cold pork",
+      "hot-water crust",
+      "jellied layer"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "no-pork",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a cold savory pork pie; skip if you avoid pork or jelly texture.",
+      "zh": "想吃冷食咸猪肉派时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een koude hartige varkenspastei wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123034-pork-pie.webp",
+    "thumbPath": "/assets/dishes/thumb/123034-pork-pie.webp"
+  },
+  {
+    "id": "bacon-butty",
+    "metadataCode": "123035",
+    "imageCode": "123035",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Bacon Butty",
+      "zh": "培根三明治",
+      "nl": "Bacon Butty",
+      "local": "Bacon Butty"
+    },
+    "category": "bread",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "fried",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Bacon Butty is a simple British bacon sandwich, often on soft bread with butter or sauce.",
+      "zh": "培根三明治通常是英式培根三明治，常用软面包夹培根、黄油或酱。",
+      "nl": "Bacon Butty is meestal een eenvoudige Britse baconsandwich, vaak op zacht brood met boter of saus."
+    },
+    "cookingProfile": {
+      "en": "Expect salty bacon in soft bread, straightforward and breakfast-like.",
+      "zh": "点餐时可预期咸香培根夹软面包，很直接，偏早餐感。",
+      "nl": "Verwacht zout spek in zacht brood, eenvoudig en ontbijtachtig."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food"
+      ],
+      "description": {
+        "en": "The ordering cue is salty bacon in soft bread, straightforward and breakfast-like.",
+        "zh": "点餐识别重点是咸香培根夹软面包，很直接，偏早餐感。",
+        "nl": "Het herkenningspunt is zout spek in zacht brood, eenvoudig en ontbijtachtig."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        50,
+        "base"
+      ],
+      [
+        "bacon",
+        40,
+        "protein"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
+      ],
+      [
+        "black-pepper",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "bacon",
+      "butter"
+    ],
+    "basicTaste": [
+      "salty",
+      "smoky",
+      "simple"
+    ],
+    "textureProfile": [
+      "soft bread",
+      "crisp or chewy bacon",
+      "buttery bite"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "sandwich-or-bread"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a salty breakfast sandwich; skip if you avoid pork or greasy breakfast food.",
+      "zh": "想吃咸香早餐三明治时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een zoute ontbijtsandwich wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123035-bacon-butty.webp",
+    "thumbPath": "/assets/dishes/thumb/123035-bacon-butty.webp"
+  },
+  {
+    "id": "chip-butty",
+    "metadataCode": "123036",
+    "imageCode": "123036",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Chip Butty",
+      "zh": "薯条三明治",
+      "nl": "Chip Butty",
+      "local": "Chip Butty"
+    },
+    "category": "bread",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Chip Butty is a British sandwich filled with chips or fries.",
+      "zh": "薯条三明治通常是英式薯条三明治，用面包夹热薯条。",
+      "nl": "Chip Butty is meestal een Britse sandwich gevuld met friet."
+    },
+    "cookingProfile": {
+      "en": "Expect hot fries inside soft buttered bread.",
+      "zh": "点餐时可预期热薯条夹在抹黄油的软面包里。",
+      "nl": "Verwacht warme friet in zacht beboterde brood."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food"
+      ],
+      "description": {
+        "en": "The ordering cue is hot fries inside soft buttered bread.",
+        "zh": "点餐识别重点是热薯条夹在抹黄油的软面包里。",
+        "nl": "Het herkenningspunt is warme friet in zacht beboterde brood."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        45,
+        "base"
+      ],
+      [
+        "fries",
+        45,
+        "component"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
+      ],
+      [
+        "sea-salt",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fries",
+      "butter",
+      "sea-salt"
+    ],
+    "basicTaste": [
+      "salty",
+      "starchy",
+      "mild"
+    ],
+    "textureProfile": [
+      "soft bread",
+      "hot fries",
+      "carb-heavy"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "sandwich-or-bread"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a very starchy comfort sandwich; skip if you want protein or a light meal.",
+      "zh": "想吃高碳水安慰感三明治时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een zeer zetmeelrijke comfortsandwich wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123036-chip-butty.webp",
+    "thumbPath": "/assets/dishes/thumb/123036-chip-butty.webp"
+  },
+  {
+    "id": "jellied-eels",
+    "metadataCode": "123037",
+    "imageCode": "123037",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Jellied Eels",
+      "zh": "伦敦鳗鱼冻",
+      "nl": "Jellied Eels",
+      "local": "Jellied Eels"
+    },
+    "category": "starter",
+    "mealRole": "starter-or-side",
+    "portionType": "small-plate",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "set",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Jellied Eels is a traditional London dish of cooked eel set in savory jelly.",
+      "zh": "伦敦鳗鱼冻通常是伦敦传统鳗鱼冻，熟鳗鱼块凝在咸鲜冻里。",
+      "nl": "Jellied Eels is meestal een traditioneel Londens gerecht van gekookte paling in hartige gelei."
+    },
+    "cookingProfile": {
+      "en": "Expect cold fish pieces in a jelly texture, sometimes with vinegar.",
+      "zh": "点餐时可预期冷食鱼块配肉冻口感，常加醋。",
+      "nl": "Verwacht koude visstukjes in gelei, soms met azijn."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is cold fish pieces in a jelly texture, sometimes with vinegar.",
+        "zh": "点餐识别重点是冷食鱼块配肉冻口感，常加醋。",
+        "nl": "Het herkenningspunt is koude visstukjes in gelei, soms met azijn."
+      }
+    },
+    "composition": [
+      [
+        "eel",
+        60,
+        "seafood"
+      ],
+      [
+        "soup-gelatin",
+        25,
+        "component"
+      ],
+      [
+        "vinegar",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "black-pepper",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "eel",
+      "vinegar",
+      "black-pepper"
+    ],
+    "basicTaste": [
+      "briny",
+      "gelatinous",
+      "mild"
+    ],
+    "textureProfile": [
+      "cold eel pieces",
+      "set jelly",
+      "soft bones possible"
+    ],
+    "riskFlags": [
+      "contains-fish"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "fish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a traditional cold eel jelly; skip if you dislike gelatin textures or fishy dishes.",
+      "zh": "想尝传统冷鳗鱼冻时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je traditionele koude palinggelei wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123037-jellied-eels.webp",
+    "thumbPath": "/assets/dishes/thumb/123037-jellied-eels.webp"
+  },
+  {
+    "id": "pie-and-mash",
+    "metadataCode": "123038",
+    "imageCode": "123038",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Pie and Mash",
+      "zh": "肉派配土豆泥",
+      "nl": "Pie and Mash",
+      "local": "Pie and Mash"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "baked",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Pie and Mash is a London-style meat pie served with mashed potato and parsley liquor sauce.",
+      "zh": "肉派配土豆泥通常是伦敦风肉派配土豆泥和欧芹肉汁酱。",
+      "nl": "Pie and Mash is meestal een Londense vleespastei met aardappelpuree en peterseliesaus."
+    },
+    "cookingProfile": {
+      "en": "Expect pastry, mash, and mild green parsley sauce.",
+      "zh": "点餐时可预期酥皮肉派配土豆泥，绿色欧芹酱味道温和。",
+      "nl": "Verwacht pastei, puree en milde groene peterseliesaus."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is pastry, mash, and mild green parsley sauce.",
+        "zh": "点餐识别重点是酥皮肉派配土豆泥，绿色欧芹酱味道温和。",
+        "nl": "Het herkenningspunt is pastei, puree en milde groene peterseliesaus."
+      }
+    },
+    "composition": [
+      [
+        "ground-meat",
+        35,
+        "protein"
+      ],
+      [
+        "pastry-crust",
+        30,
+        "base"
+      ],
+      [
+        "potato",
+        25,
+        "starch-or-legume"
+      ],
+      [
+        "broth",
+        5,
+        "component"
+      ],
+      [
+        "parsley",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "ground-meat",
+      "potato",
+      "parsley"
+    ],
+    "basicTaste": [
+      "savory",
+      "mild",
+      "hearty"
+    ],
+    "textureProfile": [
+      "meat pie",
+      "mashed potato",
+      "liquor-style parsley sauce"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a classic pie-and-mash plate; skip if you dislike soft mash or pastry-heavy meals.",
+      "zh": "想吃传统肉派土豆泥时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een klassiek pastei-pureebord wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123038-pie-and-mash.webp",
+    "thumbPath": "/assets/dishes/thumb/123038-pie-and-mash.webp"
+  },
+  {
+    "id": "welsh-cawl",
+    "metadataCode": "123039",
+    "imageCode": "123039",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Welsh Cawl",
+      "zh": "威尔士羊肉蔬菜汤",
+      "nl": "Welsh Cawl",
+      "local": "Welsh Cawl"
+    },
+    "category": "soup",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Welsh Cawl is a Welsh lamb and vegetable broth or stew.",
+      "zh": "威尔士羊肉蔬菜汤通常是威尔士羊肉蔬菜汤炖菜。",
+      "nl": "Welsh Cawl is meestal een Welshe bouillonachtige stoof met lam en groente."
+    },
+    "cookingProfile": {
+      "en": "Expect gentle broth with lamb, leek, and root vegetables.",
+      "zh": "点餐时可预期汤味温和，有羊肉、韭葱和根茎蔬菜。",
+      "nl": "Verwacht milde bouillon met lam, prei en wortelgroenten."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is gentle broth with lamb, leek, and root vegetables.",
+        "zh": "点餐识别重点是汤味温和，有羊肉、韭葱和根茎蔬菜。",
+        "nl": "Het herkenningspunt is milde bouillon met lam, prei en wortelgroenten."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        35,
+        "protein"
+      ],
+      [
+        "potato",
+        25,
+        "starch-or-legume"
+      ],
+      [
+        "leek",
+        15,
+        "component"
+      ],
+      [
+        "carrot",
+        10,
+        "component"
+      ],
+      [
+        "broth",
+        10,
+        "component"
+      ],
+      [
+        "black-pepper",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lamb",
+      "leek",
+      "black-pepper"
+    ],
+    "basicTaste": [
+      "savory",
+      "brothy",
+      "mild"
+    ],
+    "textureProfile": [
+      "clear stew",
+      "root vegetables",
+      "tender lamb"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "soup",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [],
+    "orderVerdict": {
+      "en": "Choose it when you want a mild lamb vegetable soup; skip if you dislike lamb broth.",
+      "zh": "想喝温和羊肉蔬菜汤时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een milde lams-groentesoep wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123039-welsh-cawl.webp",
+    "thumbPath": "/assets/dishes/thumb/123039-welsh-cawl.webp"
+  },
+  {
+    "id": "lancashire-hotpot",
+    "metadataCode": "123040",
+    "imageCode": "123040",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Lancashire Hotpot",
+      "zh": "兰开夏羊肉土豆锅",
+      "nl": "Lancashire Hotpot",
+      "local": "Lancashire Hotpot"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "baked",
+      "braised"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Lancashire Hotpot is a northern English lamb casserole topped with sliced potatoes.",
+      "zh": "兰开夏羊肉土豆锅通常是英格兰北部羊肉土豆焗炖菜，上面铺土豆片。",
+      "nl": "Lancashire Hotpot is meestal een Noord-Engelse lamsstoof met aardappelschijfjes bovenop."
+    },
+    "cookingProfile": {
+      "en": "Expect soft lamb under browned potato slices.",
+      "zh": "点餐时可预期羊肉柔软，上层土豆片烤到微焦。",
+      "nl": "Verwacht zacht lam onder gebruinde aardappelschijfjes."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is soft lamb under browned potato slices.",
+        "zh": "点餐识别重点是羊肉柔软，上层土豆片烤到微焦。",
+        "nl": "Het herkenningspunt is zacht lam onder gebruinde aardappelschijfjes."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        40,
+        "protein"
+      ],
+      [
+        "potato",
+        35,
+        "starch-or-legume"
+      ],
+      [
+        "onion",
+        10,
+        "component"
+      ],
+      [
+        "broth",
+        10,
+        "component"
+      ],
+      [
+        "black-pepper",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lamb",
+      "potato",
+      "black-pepper"
+    ],
+    "basicTaste": [
+      "savory",
+      "hearty",
+      "mild"
+    ],
+    "textureProfile": [
+      "sliced potato top",
+      "braised lamb",
+      "casserole texture"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [],
+    "orderVerdict": {
+      "en": "Choose it when you want a hearty lamb-potato casserole; skip if you want a light dish or dislike lamb.",
+      "zh": "想吃羊肉土豆焗炖菜时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een stevige lam-aardappelovenschotel wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123040-lancashire-hotpot.webp",
+    "thumbPath": "/assets/dishes/thumb/123040-lancashire-hotpot.webp"
+  },
+  {
+    "id": "colcannon",
+    "metadataCode": "123041",
+    "imageCode": "123041",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Colcannon",
+      "zh": "爱尔兰卷心菜土豆泥",
+      "nl": "Colcannon",
+      "local": "Colcannon"
+    },
+    "category": "side",
+    "mealRole": "side",
+    "portionType": "small-plate",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "boiled",
+      "stirred"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Colcannon is Irish mashed potato mixed with cabbage or kale and butter.",
+      "zh": "爱尔兰卷心菜土豆泥通常是爱尔兰土豆泥拌卷心菜或羽衣甘蓝和黄油。",
+      "nl": "Colcannon is meestal Ierse aardappelpuree met kool of boerenkool en boter."
+    },
+    "cookingProfile": {
+      "en": "Expect soft buttery mash with bits of greens.",
+      "zh": "点餐时可预期黄油土豆泥柔软，混有绿色蔬菜。",
+      "nl": "Verwacht zachte boterige puree met stukjes groen."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish",
+        "side-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is soft buttery mash with bits of greens.",
+        "zh": "点餐识别重点是黄油土豆泥柔软，混有绿色蔬菜。",
+        "nl": "Het herkenningspunt is zachte boterige puree met stukjes groen."
+      }
+    },
+    "composition": [
+      [
+        "potato",
+        60,
+        "starch-or-legume"
+      ],
+      [
+        "cabbage",
+        25,
+        "component"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "green-onion",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "potato",
+      "cabbage",
+      "butter"
+    ],
+    "basicTaste": [
+      "mild",
+      "buttery",
+      "savory"
+    ],
+    "textureProfile": [
+      "mashed potato",
+      "soft greens",
+      "creamy side"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "side-dish"
+    ],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a comforting potato side; skip if you avoid dairy or want a main dish.",
+      "zh": "想吃土豆泥配菜时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een comfortabele aardappelbijlage wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123041-colcannon.webp",
+    "thumbPath": "/assets/dishes/thumb/123041-colcannon.webp"
+  },
+  {
+    "id": "champ",
+    "metadataCode": "123042",
+    "imageCode": "123042",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Champ",
+      "zh": "爱尔兰葱香土豆泥",
+      "nl": "Champ",
+      "local": "Champ"
+    },
+    "category": "side",
+    "mealRole": "side",
+    "portionType": "small-plate",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "boiled",
+      "stirred"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Champ is Irish mashed potato with scallions, butter, and milk or cream.",
+      "zh": "爱尔兰葱香土豆泥通常是爱尔兰葱香土豆泥，加黄油和奶或奶油。",
+      "nl": "Champ is meestal Ierse aardappelpuree met lente-ui, boter en melk of room."
+    },
+    "cookingProfile": {
+      "en": "Expect creamy mash with gentle green-onion aroma.",
+      "zh": "点餐时可预期土豆泥顺滑，有温和葱香。",
+      "nl": "Verwacht romige puree met milde lente-ui geur."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish",
+        "side-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is creamy mash with gentle green-onion aroma.",
+        "zh": "点餐识别重点是土豆泥顺滑，有温和葱香。",
+        "nl": "Het herkenningspunt is romige puree met milde lente-ui geur."
+      }
+    },
+    "composition": [
+      [
+        "potato",
+        70,
+        "starch-or-legume"
+      ],
+      [
+        "green-onion",
+        15,
+        "component"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "cream",
+        5,
+        "richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "green-onion",
+      "butter",
+      "cream"
+    ],
+    "basicTaste": [
+      "mild",
+      "buttery",
+      "oniony"
+    ],
+    "textureProfile": [
+      "mashed potato",
+      "green onion flecks",
+      "creamy side"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "side-dish"
+    ],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a buttery oniony potato side; skip if you need a dairy-free side.",
+      "zh": "想吃黄油葱香土豆泥时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een boterige aardappelbijlage met ui wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123042-champ.webp",
+    "thumbPath": "/assets/dishes/thumb/123042-champ.webp"
+  },
+  {
+    "id": "boxty",
+    "metadataCode": "123043",
+    "imageCode": "123043",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Boxty",
+      "zh": "爱尔兰土豆煎饼",
+      "nl": "Boxty",
+      "local": "Boxty"
+    },
+    "category": "bread",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "fried"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Boxty is an Irish potato pancake made from grated and mashed potato.",
+      "zh": "爱尔兰土豆煎饼通常是爱尔兰土豆煎饼，常混合擦丝土豆和土豆泥。",
+      "nl": "Boxty is meestal een Ierse aardappelpannenkoek van geraspte en gepureerde aardappel."
+    },
+    "cookingProfile": {
+      "en": "Expect crisp-edged potato pancake with a soft middle.",
+      "zh": "点餐时可预期边缘煎脆，中间柔软有土豆香。",
+      "nl": "Verwacht aardappelpannenkoek met krokante rand en zachte kern."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is crisp-edged potato pancake with a soft middle.",
+        "zh": "点餐识别重点是边缘煎脆，中间柔软有土豆香。",
+        "nl": "Het herkenningspunt is aardappelpannenkoek met krokante rand en zachte kern."
+      }
+    },
+    "composition": [
+      [
+        "potato",
+        55,
+        "starch-or-legume"
+      ],
+      [
+        "wheat-flour",
+        20,
+        "base"
+      ],
+      [
+        "egg",
+        10,
+        "component"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "sea-salt",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "potato",
+      "butter",
+      "sea-salt"
+    ],
+    "basicTaste": [
+      "mild",
+      "starchy",
+      "buttery"
+    ],
+    "textureProfile": [
+      "potato pancake",
+      "crisp edge",
+      "soft center"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "sandwich-or-bread"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a potato pancake side or snack; skip if you avoid gluten or fried starch.",
+      "zh": "想吃土豆煎饼时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een aardappelpannenkoek wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123043-boxty.webp",
+    "thumbPath": "/assets/dishes/thumb/123043-boxty.webp"
+  },
+  {
+    "id": "irish-soda-bread",
+    "metadataCode": "123044",
+    "imageCode": "123044",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Irish Soda Bread",
+      "zh": "爱尔兰苏打面包",
+      "nl": "Irish Soda Bread",
+      "local": "Irish Soda Bread"
+    },
+    "category": "bread",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Irish Soda Bread is a dense Irish quick bread, usually served sliced with butter or soup.",
+      "zh": "爱尔兰苏打面包通常是爱尔兰苏打快手面包，质地扎实，常切片配黄油或汤。",
+      "nl": "Irish Soda Bread is meestal een dicht Iers sodabrood, meestal in plakken met boter of soep."
+    },
+    "cookingProfile": {
+      "en": "Expect dense rustic bread rather than a fluffy sweet loaf.",
+      "zh": "点餐时可预期是朴实扎实的面包，不是松软甜面包。",
+      "nl": "Verwacht compact rustiek brood, geen luchtig zoet brood."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is dense rustic bread rather than a fluffy sweet loaf.",
+        "zh": "点餐识别重点是是朴实扎实的面包，不是松软甜面包。",
+        "nl": "Het herkenningspunt is compact rustiek brood, geen luchtig zoet brood."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        70,
+        "base"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "milk-solids",
+        10,
+        "richness"
+      ],
+      [
+        "sea-salt",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "sugar",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "butter",
+      "sea-salt"
+    ],
+    "basicTaste": [
+      "mild",
+      "bready",
+      "slightly tangy"
+    ],
+    "textureProfile": [
+      "dense crumb",
+      "rustic crust",
+      "sliceable loaf"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "sandwich-or-bread"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a rustic bread side; skip if you need gluten-free bread.",
+      "zh": "想吃朴实面包配汤时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een rustieke broodbijlage wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123044-irish-soda-bread.webp",
+    "thumbPath": "/assets/dishes/thumb/123044-irish-soda-bread.webp"
+  },
+  {
+    "id": "irish-breakfast",
+    "metadataCode": "123045",
+    "imageCode": "123045",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Irish Breakfast",
+      "zh": "爱尔兰全早餐",
+      "nl": "Irish Breakfast",
+      "local": "Irish Breakfast"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "fried",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Irish Breakfast is a large cooked breakfast plate with eggs, bacon, sausage, beans, toast, and often black pudding.",
+      "zh": "爱尔兰全早餐通常是大份爱尔兰熟早餐盘，有鸡蛋、培根、香肠、豆子、吐司，常含黑布丁。",
+      "nl": "Irish Breakfast is meestal een groot warm ontbijt met ei, spek, worst, bonen, toast en vaak black pudding."
+    },
+    "cookingProfile": {
+      "en": "Expect a heavy salty breakfast plate with several meats.",
+      "zh": "点餐时可预期分量重，咸香肉类多。",
+      "nl": "Verwacht een zwaar zout ontbijtbord met meerdere vleessoorten."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is a heavy salty breakfast plate with several meats.",
+        "zh": "点餐识别重点是分量重，咸香肉类多。",
+        "nl": "Het herkenningspunt is een zwaar zout ontbijtbord met meerdere vleessoorten."
+      }
+    },
+    "composition": [
+      [
+        "egg",
+        20,
+        "component"
+      ],
+      [
+        "sausage",
+        20,
+        "protein"
+      ],
+      [
+        "bacon",
+        20,
+        "protein"
+      ],
+      [
+        "baked-beans",
+        15,
+        "component"
+      ],
+      [
+        "black-pudding",
+        15,
+        "component"
+      ],
+      [
+        "bread",
+        10,
+        "base"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "bacon",
+      "black-pudding",
+      "baked-beans"
+    ],
+    "basicTaste": [
+      "salty",
+      "hearty",
+      "fried"
+    ],
+    "textureProfile": [
+      "large breakfast plate",
+      "mixed meats",
+      "beans and toast"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-egg",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "no-pork",
+      "egg-allergy",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a very filling breakfast; skip if you avoid pork, egg, or offal.",
+      "zh": "想吃非常饱腹的熟早餐时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een zeer vullend ontbijt wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123045-irish-breakfast.webp",
+    "thumbPath": "/assets/dishes/thumb/123045-irish-breakfast.webp"
+  },
+  {
+    "id": "kippers",
+    "metadataCode": "123046",
+    "imageCode": "123046",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Kippers",
+      "zh": "烟熏鲱鱼",
+      "nl": "Kippers",
+      "local": "Kippers"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "grilled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Kippers is split smoked herring, often served hot for breakfast.",
+      "zh": "烟熏鲱鱼通常是剖开的烟熏鲱鱼，常热食作早餐。",
+      "nl": "Kippers is meestal opengesneden gerookte haring, vaak warm bij ontbijt."
+    },
+    "cookingProfile": {
+      "en": "Expect smoky oily fish with a strong aroma.",
+      "zh": "点餐时可预期烟熏油脂感鱼肉，气味较明显。",
+      "nl": "Verwacht rokerige vette vis met duidelijke geur."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is smoky oily fish with a strong aroma.",
+        "zh": "点餐识别重点是烟熏油脂感鱼肉，气味较明显。",
+        "nl": "Het herkenningspunt is rokerige vette vis met duidelijke geur."
+      }
+    },
+    "composition": [
+      [
+        "herring",
+        70,
+        "seafood"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "bread",
+        10,
+        "base"
+      ],
+      [
+        "lemon",
+        5,
+        "fruit-or-sweetness"
+      ],
+      [
+        "black-pepper",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "herring",
+      "butter",
+      "lemon"
+    ],
+    "basicTaste": [
+      "smoky",
+      "salty",
+      "fishy"
+    ],
+    "textureProfile": [
+      "split smoked fish",
+      "oily flakes",
+      "breakfast plate"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-dairy",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "fish-allergy",
+      "dairy-free",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a smoky fish breakfast; skip if you dislike strong fish aroma.",
+      "zh": "想吃烟熏鱼早餐时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een rokerig visontbijt wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123046-kippers.webp",
+    "thumbPath": "/assets/dishes/thumb/123046-kippers.webp"
+  },
+  {
+    "id": "kedgeree",
+    "metadataCode": "123047",
+    "imageCode": "123047",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Kedgeree",
+      "zh": "英式咖喱熏鱼米饭",
+      "nl": "Kedgeree",
+      "local": "Kedgeree"
+    },
+    "category": "rice",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "stirred",
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Kedgeree is a British-Indian style rice dish with smoked fish, egg, and curry spices.",
+      "zh": "英式咖喱熏鱼米饭通常是英印风米饭，配烟熏鱼、鸡蛋和咖喱香料。",
+      "nl": "Kedgeree is meestal een Brits-Indisch rijstgerecht met gerookte vis, ei en kerriekruiden."
+    },
+    "cookingProfile": {
+      "en": "Expect smoked fish through warm-spiced rice.",
+      "zh": "点餐时可预期烟熏鱼拌入温暖香料米饭。",
+      "nl": "Verwacht gerookte vis door warm gekruide rijst."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is smoked fish through warm-spiced rice.",
+        "zh": "点餐识别重点是烟熏鱼拌入温暖香料米饭。",
+        "nl": "Het herkenningspunt is gerookte vis door warm gekruide rijst."
+      }
+    },
+    "composition": [
+      [
+        "steamed-rice",
+        40,
+        "starch-or-legume"
+      ],
+      [
+        "smoked-haddock",
+        25,
+        "seafood"
+      ],
+      [
+        "egg",
+        15,
+        "component"
+      ],
+      [
+        "curry-masala",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
+      ],
+      [
+        "parsley",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "smoked-haddock",
+      "curry-masala",
+      "egg"
+    ],
+    "basicTaste": [
+      "smoky",
+      "warm-spiced",
+      "savory"
+    ],
+    "textureProfile": [
+      "fluffy rice",
+      "smoked fish flakes",
+      "egg pieces"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "rice"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want spiced smoked-fish rice; skip if you avoid smoked fish or egg.",
+      "zh": "想吃咖喱香烟熏鱼饭时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je gekruide rijst met gerookte vis wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123047-kedgeree.webp",
+    "thumbPath": "/assets/dishes/thumb/123047-kedgeree.webp"
+  },
+  {
+    "id": "coronation-chicken",
+    "metadataCode": "123048",
+    "imageCode": "123048",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Coronation Chicken",
+      "zh": "英式咖喱鸡沙拉",
+      "nl": "Coronation Chicken",
+      "local": "Coronation Chicken"
+    },
+    "category": "salad",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "assembled",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Coronation Chicken is cold chicken in a creamy mild curry dressing, often with fruit or nuts.",
+      "zh": "英式咖喱鸡沙拉通常是冷鸡肉拌温和咖喱奶油酱，常有果干或坚果。",
+      "nl": "Coronation Chicken is meestal koude kip in romige milde kerriedressing, vaak met fruit of noten."
+    },
+    "cookingProfile": {
+      "en": "Expect creamy curry chicken with sweet pieces.",
+      "zh": "点餐时可预期奶油咖喱鸡肉带一点甜味配料。",
+      "nl": "Verwacht romige kerriekip met zoete stukjes."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is creamy curry chicken with sweet pieces.",
+        "zh": "点餐识别重点是奶油咖喱鸡肉带一点甜味配料。",
+        "nl": "Het herkenningspunt is romige kerriekip met zoete stukjes."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        45,
+        "protein"
+      ],
+      [
+        "mayonnaise",
+        20,
+        "richness"
+      ],
+      [
+        "curry-masala",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "raisins",
+        10,
+        "fruit-or-sweetness"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "component"
+      ],
+      [
+        "almonds",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "curry-masala",
+      "mayonnaise",
+      "raisins"
+    ],
+    "basicTaste": [
+      "creamy",
+      "sweet-savory",
+      "mildly spiced"
+    ],
+    "textureProfile": [
+      "cold chicken salad",
+      "creamy sauce",
+      "sweet bits"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "tree-nut-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a cold creamy curry chicken salad; skip if you dislike mayonnaise or sweet-savory food.",
+      "zh": "想吃冷的咖喱鸡肉沙拉时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een koude romige kerriekipsalade wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123048-coronation-chicken.webp",
+    "thumbPath": "/assets/dishes/thumb/123048-coronation-chicken.webp"
+  }
+]

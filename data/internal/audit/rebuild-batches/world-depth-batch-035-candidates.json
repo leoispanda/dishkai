@@ -1,0 +1,272 @@
+[
+  {
+    "dishId": "maizena-koekjes",
+    "metadataCode": "126024",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Maizena Koekjes",
+    "imagePath": "/assets/dishes/main/126024-maizena-koekjes.webp",
+    "thumbPath": "/assets/dishes/thumb/126024-maizena-koekjes.webp"
+  },
+  {
+    "dishId": "telo-bakkeljauw",
+    "metadataCode": "126025",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Telo Bakkeljauw",
+    "imagePath": "/assets/dishes/main/126025-telo-bakkeljauw.webp",
+    "thumbPath": "/assets/dishes/thumb/126025-telo-bakkeljauw.webp"
+  },
+  {
+    "dishId": "kip-sate-surinamese",
+    "metadataCode": "126026",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Surinamese Kip Saté",
+    "imagePath": "/assets/dishes/main/126026-kip-sate-surinamese.webp",
+    "thumbPath": "/assets/dishes/thumb/126026-kip-sate-surinamese.webp"
+  },
+  {
+    "dishId": "cha-siu-surinamese",
+    "metadataCode": "126027",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Surinamese Cha Siu",
+    "imagePath": "/assets/dishes/main/126027-cha-siu-surinamese.webp",
+    "thumbPath": "/assets/dishes/thumb/126027-cha-siu-surinamese.webp"
+  },
+  {
+    "dishId": "pom-sandwich",
+    "metadataCode": "126028",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Broodje Pom",
+    "imagePath": "/assets/dishes/main/126028-pom-sandwich.webp",
+    "thumbPath": "/assets/dishes/thumb/126028-pom-sandwich.webp"
+  },
+  {
+    "dishId": "roti-kip-kerrie",
+    "metadataCode": "126029",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Roti Kip Kerrie",
+    "imagePath": "/assets/dishes/main/126029-roti-kip-kerrie.webp",
+    "thumbPath": "/assets/dishes/thumb/126029-roti-kip-kerrie.webp"
+  },
+  {
+    "dishId": "nasi-moksi-meti",
+    "metadataCode": "126030",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Nasi Moksi Meti",
+    "imagePath": "/assets/dishes/main/126030-nasi-moksi-meti.webp",
+    "thumbPath": "/assets/dishes/thumb/126030-nasi-moksi-meti.webp"
+  },
+  {
+    "dishId": "ajiaco-peruvian",
+    "metadataCode": "129013",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Ajiaco",
+    "imagePath": "/assets/dishes/main/129013-ajiaco-peruvian.webp",
+    "thumbPath": "/assets/dishes/thumb/129013-ajiaco-peruvian.webp"
+  },
+  {
+    "dishId": "seco-de-res",
+    "metadataCode": "129014",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Seco de Res",
+    "imagePath": "/assets/dishes/main/129014-seco-de-res.webp",
+    "thumbPath": "/assets/dishes/thumb/129014-seco-de-res.webp"
+  },
+  {
+    "dishId": "seco-de-cordero",
+    "metadataCode": "129015",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Seco de Cordero",
+    "imagePath": "/assets/dishes/main/129015-seco-de-cordero.webp",
+    "thumbPath": "/assets/dishes/thumb/129015-seco-de-cordero.webp"
+  },
+  {
+    "dishId": "tacu-tacu",
+    "metadataCode": "129016",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Tacu Tacu",
+    "imagePath": "/assets/dishes/main/129016-tacu-tacu.webp",
+    "thumbPath": "/assets/dishes/thumb/129016-tacu-tacu.webp"
+  },
+  {
+    "dishId": "arroz-con-mariscos",
+    "metadataCode": "129017",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Arroz con Mariscos",
+    "imagePath": "/assets/dishes/main/129017-arroz-con-mariscos.webp",
+    "thumbPath": "/assets/dishes/thumb/129017-arroz-con-mariscos.webp"
+  },
+  {
+    "dishId": "jalea",
+    "metadataCode": "129018",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Jalea",
+    "imagePath": "/assets/dishes/main/129018-jalea.webp",
+    "thumbPath": "/assets/dishes/thumb/129018-jalea.webp"
+  },
+  {
+    "dishId": "choritos-a-la-chalaca",
+    "metadataCode": "129019",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Choritos a la Chalaca",
+    "imagePath": "/assets/dishes/main/129019-choritos-a-la-chalaca.webp",
+    "thumbPath": "/assets/dishes/thumb/129019-choritos-a-la-chalaca.webp"
+  },
+  {
+    "dishId": "leche-de-tigre",
+    "metadataCode": "129020",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Leche de Tigre",
+    "imagePath": "/assets/dishes/main/129020-leche-de-tigre.webp",
+    "thumbPath": "/assets/dishes/thumb/129020-leche-de-tigre.webp"
+  },
+  {
+    "dishId": "causa-limena",
+    "metadataCode": "129021",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Causa Limeña",
+    "imagePath": "/assets/dishes/main/129021-causa-limena.webp",
+    "thumbPath": "/assets/dishes/thumb/129021-causa-limena.webp"
+  },
+  {
+    "dishId": "ocopa",
+    "metadataCode": "129022",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Ocopa",
+    "imagePath": "/assets/dishes/main/129022-ocopa.webp",
+    "thumbPath": "/assets/dishes/thumb/129022-ocopa.webp"
+  },
+  {
+    "dishId": "solterito",
+    "metadataCode": "129023",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Solterito",
+    "imagePath": "/assets/dishes/main/129023-solterito.webp",
+    "thumbPath": "/assets/dishes/thumb/129023-solterito.webp"
+  },
+  {
+    "dishId": "sopa-criolla",
+    "metadataCode": "129024",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Sopa Criolla",
+    "imagePath": "/assets/dishes/main/129024-sopa-criolla.webp",
+    "thumbPath": "/assets/dishes/thumb/129024-sopa-criolla.webp"
+  },
+  {
+    "dishId": "chupe-de-camarones",
+    "metadataCode": "129025",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Chupe de Camarones",
+    "imagePath": "/assets/dishes/main/129025-chupe-de-camarones.webp",
+    "thumbPath": "/assets/dishes/thumb/129025-chupe-de-camarones.webp"
+  },
+  {
+    "dishId": "carapulcra",
+    "metadataCode": "129026",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Carapulcra",
+    "imagePath": "/assets/dishes/main/129026-carapulcra.webp",
+    "thumbPath": "/assets/dishes/thumb/129026-carapulcra.webp"
+  },
+  {
+    "dishId": "adobo-arequipeno",
+    "metadataCode": "129027",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Adobo Arequipeño",
+    "imagePath": "/assets/dishes/main/129027-adobo-arequipeno.webp",
+    "thumbPath": "/assets/dishes/thumb/129027-adobo-arequipeno.webp"
+  },
+  {
+    "dishId": "pachamanca",
+    "metadataCode": "129028",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Pachamanca",
+    "imagePath": "/assets/dishes/main/129028-pachamanca.webp",
+    "thumbPath": "/assets/dishes/thumb/129028-pachamanca.webp"
+  },
+  {
+    "dishId": "mazamorra-morada",
+    "metadataCode": "129029",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Mazamorra Morada",
+    "imagePath": "/assets/dishes/main/129029-mazamorra-morada.webp",
+    "thumbPath": "/assets/dishes/thumb/129029-mazamorra-morada.webp"
+  },
+  {
+    "dishId": "alfajores-peruvian",
+    "metadataCode": "129030",
+    "cuisineId": "peruvian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Peruvian Alfajores",
+    "imagePath": "/assets/dishes/main/129030-alfajores-peruvian.webp",
+    "thumbPath": "/assets/dishes/thumb/129030-alfajores-peruvian.webp"
+  },
+  {
+    "dishId": "acai-bowl",
+    "metadataCode": "130013",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Açaí Bowl",
+    "imagePath": "/assets/dishes/main/130013-acai-bowl.webp",
+    "thumbPath": "/assets/dishes/thumb/130013-acai-bowl.webp"
+  },
+  {
+    "dishId": "picanha",
+    "metadataCode": "130014",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Picanha",
+    "imagePath": "/assets/dishes/main/130014-picanha.webp",
+    "thumbPath": "/assets/dishes/thumb/130014-picanha.webp"
+  },
+  {
+    "dishId": "escondidinho",
+    "metadataCode": "130015",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Escondidinho",
+    "imagePath": "/assets/dishes/main/130015-escondidinho.webp",
+    "thumbPath": "/assets/dishes/thumb/130015-escondidinho.webp"
+  },
+  {
+    "dishId": "carne-de-sol",
+    "metadataCode": "130016",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Carne de Sol",
+    "imagePath": "/assets/dishes/main/130016-carne-de-sol.webp",
+    "thumbPath": "/assets/dishes/thumb/130016-carne-de-sol.webp"
+  },
+  {
+    "dishId": "xinxim-de-galinha",
+    "metadataCode": "130017",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Xinxim de Galinha",
+    "imagePath": "/assets/dishes/main/130017-xinxim-de-galinha.webp",
+    "thumbPath": "/assets/dishes/thumb/130017-xinxim-de-galinha.webp"
+  }
+]

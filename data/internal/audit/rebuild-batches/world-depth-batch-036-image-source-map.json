@@ -1,0 +1,272 @@
+[
+  {
+    "dishId": "cottage-pie",
+    "metadataCode": "123031",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_08ae70468ad5bc0e016a37e356fa588191877e9e47bbd10990.png",
+    "kind": "grid",
+    "quadrant": 0,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "steak-and-kidney-pudding",
+    "metadataCode": "123032",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_08ae70468ad5bc0e016a37e356fa588191877e9e47bbd10990.png",
+    "kind": "grid",
+    "quadrant": 1,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "pork-pie",
+    "metadataCode": "123034",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_08ae70468ad5bc0e016a37e356fa588191877e9e47bbd10990.png",
+    "kind": "grid",
+    "quadrant": 2,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "bacon-butty",
+    "metadataCode": "123035",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_08ae70468ad5bc0e016a37e356fa588191877e9e47bbd10990.png",
+    "kind": "grid",
+    "quadrant": 3,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "chip-butty",
+    "metadataCode": "123036",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_08ae70468ad5bc0e016a37e3ff7b308191852687d9af666b7e.png",
+    "kind": "grid",
+    "quadrant": 0,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "jellied-eels",
+    "metadataCode": "123037",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_08ae70468ad5bc0e016a37e3ff7b308191852687d9af666b7e.png",
+    "kind": "grid",
+    "quadrant": 1,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "pie-and-mash",
+    "metadataCode": "123038",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_08ae70468ad5bc0e016a37e3ff7b308191852687d9af666b7e.png",
+    "kind": "grid",
+    "quadrant": 2,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "welsh-cawl",
+    "metadataCode": "123039",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_08ae70468ad5bc0e016a37e3ff7b308191852687d9af666b7e.png",
+    "kind": "grid",
+    "quadrant": 3,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "lancashire-hotpot",
+    "metadataCode": "123040",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_08ae70468ad5bc0e016a37e47feb1c8191845c62720a501f36.png",
+    "kind": "grid",
+    "quadrant": 0,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "colcannon",
+    "metadataCode": "123041",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_08ae70468ad5bc0e016a37e47feb1c8191845c62720a501f36.png",
+    "kind": "grid",
+    "quadrant": 1,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "champ",
+    "metadataCode": "123042",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_08ae70468ad5bc0e016a37e47feb1c8191845c62720a501f36.png",
+    "kind": "grid",
+    "quadrant": 2,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "boxty",
+    "metadataCode": "123043",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_08ae70468ad5bc0e016a37e47feb1c8191845c62720a501f36.png",
+    "kind": "grid",
+    "quadrant": 3,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "irish-soda-bread",
+    "metadataCode": "123044",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_08ae70468ad5bc0e016a37e4f6adf0819189d8f8ddd5442c66.png",
+    "kind": "grid",
+    "quadrant": 0,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "irish-breakfast",
+    "metadataCode": "123045",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_08ae70468ad5bc0e016a37e4f6adf0819189d8f8ddd5442c66.png",
+    "kind": "grid",
+    "quadrant": 1,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "kippers",
+    "metadataCode": "123046",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_08ae70468ad5bc0e016a37e4f6adf0819189d8f8ddd5442c66.png",
+    "kind": "grid",
+    "quadrant": 2,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "kedgeree",
+    "metadataCode": "123047",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_08ae70468ad5bc0e016a37e4f6adf0819189d8f8ddd5442c66.png",
+    "kind": "grid",
+    "quadrant": 3,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "coronation-chicken",
+    "metadataCode": "123048",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_08ae70468ad5bc0e016a37e566c95481919a4c587011289160.png",
+    "kind": "grid",
+    "quadrant": 0,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "caldinho-de-feijao",
+    "metadataCode": "130018",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37e0f4ecb48191bd96d33a796d715a.png",
+    "kind": "grid",
+    "quadrant": 3,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "empada",
+    "metadataCode": "130019",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37e15c12e081919dc3a329d7ba75c9.png",
+    "kind": "grid",
+    "quadrant": 0,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "kibe-brazilian",
+    "metadataCode": "130020",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37e15c12e081919dc3a329d7ba75c9.png",
+    "kind": "grid",
+    "quadrant": 1,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "tapioca-crepe",
+    "metadataCode": "130021",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37e15c12e081919dc3a329d7ba75c9.png",
+    "kind": "grid",
+    "quadrant": 2,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "moqueca-baiana",
+    "metadataCode": "130022",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37e15c12e081919dc3a329d7ba75c9.png",
+    "kind": "grid",
+    "quadrant": 3,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "moqueca-capixaba",
+    "metadataCode": "130023",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37e1cc67f08191a8df19e2741f3afc.png",
+    "kind": "grid",
+    "quadrant": 0,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "camarao-na-moranga",
+    "metadataCode": "130024",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37e1cc67f08191a8df19e2741f3afc.png",
+    "kind": "grid",
+    "quadrant": 1,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "salpicao",
+    "metadataCode": "130025",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37e1cc67f08191a8df19e2741f3afc.png",
+    "kind": "grid",
+    "quadrant": 2,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "canjica",
+    "metadataCode": "130026",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37e1cc67f08191a8df19e2741f3afc.png",
+    "kind": "grid",
+    "quadrant": 3,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "cocada",
+    "metadataCode": "130027",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_08ae70468ad5bc0e016a37e2d7e4bc81919712235794c7352a.png",
+    "kind": "grid",
+    "quadrant": 0,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "beijinho",
+    "metadataCode": "130028",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_08ae70468ad5bc0e016a37e2d7e4bc81919712235794c7352a.png",
+    "kind": "grid",
+    "quadrant": 1,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "mousse-de-maracuja",
+    "metadataCode": "130029",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_08ae70468ad5bc0e016a37e2d7e4bc81919712235794c7352a.png",
+    "kind": "grid",
+    "quadrant": 2,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "tapioca-pudding-brazilian",
+    "metadataCode": "130030",
+    "batch": "036",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_08ae70468ad5bc0e016a37e2d7e4bc81919712235794c7352a.png",
+    "kind": "grid",
+    "quadrant": 3,
+    "imageStatus": "generated-replacement/code-stamped"
+  }
+]

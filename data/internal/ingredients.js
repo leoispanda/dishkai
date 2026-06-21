@@ -308,6 +308,8 @@ export const ingredients = [
   ingredient("grape-leaves", "200056", "grape leaves", "葡萄叶", "druivenbladeren", ["leafy", "tender"], ["vegan"], []),
   ingredient("molokhia-leaves", "200057", "molokhia leaves", "黄麻叶", "molokhiabladeren", ["leafy", "slightly slippery"], ["vegan"], []),
   ingredient("sesame-seeds", "200058", "sesame seeds", "芝麻粒", "sesamzaad", ["tiny", "nutty"], ["vegan"], ["sesame"]),
+  ingredient("cornstarch", "200059", "cornstarch", "玉米淀粉", "maizena", ["powdery", "crumbly-when-baked"], ["vegan"], []),
+  ingredient("acai-puree", "200060", "acai puree", "巴西莓果泥", "acaipuree", ["smooth", "frozen"], ["vegan"], []),
   italian("pasta", "201001", "pasta", "意面", "pasta", ["soft", "springy"], ["vegetarian"], ["gluten"]),
   italian("spaghetti", "201002", "spaghetti", "意大利细面", "spaghetti", ["long", "springy"], ["vegetarian"], ["gluten"]),
   italian("pasta-sheets", "201003", "pasta sheets", "千层面片", "pastavellen", ["soft", "layered"], ["vegetarian"], ["gluten"]),

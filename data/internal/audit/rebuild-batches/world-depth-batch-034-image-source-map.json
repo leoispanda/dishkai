@@ -1,0 +1,272 @@
+[
+  {
+    "dishId": "french-toast",
+    "metadataCode": "122013",
+    "batch": "034",
+    "source": "/assets/dishes/main/122013-french-toast.webp",
+    "kind": "existing",
+    "quadrant": null,
+    "imageStatus": "accepted-existing/source-copied"
+  },
+  {
+    "dishId": "eggs-benedict",
+    "metadataCode": "122014",
+    "batch": "034",
+    "source": "/assets/dishes/main/122014-eggs-benedict.webp",
+    "kind": "existing",
+    "quadrant": null,
+    "imageStatus": "accepted-existing/source-copied"
+  },
+  {
+    "dishId": "avocado-toast",
+    "metadataCode": "122015",
+    "batch": "034",
+    "source": "/assets/dishes/main/122015-avocado-toast.webp",
+    "kind": "existing",
+    "quadrant": null,
+    "imageStatus": "accepted-existing/source-copied"
+  },
+  {
+    "dishId": "granola-bowl",
+    "metadataCode": "122016",
+    "batch": "034",
+    "source": "/assets/dishes/main/122016-granola-bowl.webp",
+    "kind": "existing",
+    "quadrant": null,
+    "imageStatus": "accepted-existing/source-copied"
+  },
+  {
+    "dishId": "club-sandwich",
+    "metadataCode": "122017",
+    "batch": "034",
+    "source": "/assets/dishes/main/122017-club-sandwich.webp",
+    "kind": "existing",
+    "quadrant": null,
+    "imageStatus": "accepted-existing/source-copied"
+  },
+  {
+    "dishId": "bagel-cream-cheese",
+    "metadataCode": "122018",
+    "batch": "034",
+    "source": "/assets/dishes/main/122018-bagel-cream-cheese.webp",
+    "kind": "existing",
+    "quadrant": null,
+    "imageStatus": "accepted-existing/source-copied"
+  },
+  {
+    "dishId": "smoked-salmon-bagel",
+    "metadataCode": "122019",
+    "batch": "034",
+    "source": "/assets/dishes/main/122019-smoked-salmon-bagel.webp",
+    "kind": "existing",
+    "quadrant": null,
+    "imageStatus": "accepted-existing/source-copied"
+  },
+  {
+    "dishId": "banana-bread",
+    "metadataCode": "122020",
+    "batch": "034",
+    "source": "/assets/dishes/main/122020-banana-bread.webp",
+    "kind": "existing",
+    "quadrant": null,
+    "imageStatus": "accepted-existing/source-copied"
+  },
+  {
+    "dishId": "meatloaf",
+    "metadataCode": "122021",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_022515d0458b57c6016a37da7f31648191a690a0fea5f7ddf1.png",
+    "kind": "single",
+    "quadrant": null,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "pulled-pork-sandwich",
+    "metadataCode": "122022",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_04fdb2836232738b016a37db19ece88191a51282f57b9ef5a8.png",
+    "kind": "grid",
+    "quadrant": 0,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "philly-cheesesteak",
+    "metadataCode": "122023",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_04fdb2836232738b016a37db19ece88191a51282f57b9ef5a8.png",
+    "kind": "grid",
+    "quadrant": 1,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "grilled-cheese",
+    "metadataCode": "122024",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_04fdb2836232738b016a37db19ece88191a51282f57b9ef5a8.png",
+    "kind": "grid",
+    "quadrant": 2,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "cornbread",
+    "metadataCode": "122025",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_04fdb2836232738b016a37db19ece88191a51282f57b9ef5a8.png",
+    "kind": "grid",
+    "quadrant": 3,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "jambalaya",
+    "metadataCode": "122026",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dbcccdb881919ee7a7b0f575303b.png",
+    "kind": "grid",
+    "quadrant": 0,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "gumbo",
+    "metadataCode": "122027",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dbcccdb881919ee7a7b0f575303b.png",
+    "kind": "grid",
+    "quadrant": 1,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "key-lime-pie",
+    "metadataCode": "122028",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dbcccdb881919ee7a7b0f575303b.png",
+    "kind": "grid",
+    "quadrant": 2,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "brownie",
+    "metadataCode": "122029",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dbcccdb881919ee7a7b0f575303b.png",
+    "kind": "grid",
+    "quadrant": 3,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "cheesecake-american",
+    "metadataCode": "122030",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dc32cf7c8191a838df1f69934cc6.png",
+    "kind": "grid",
+    "quadrant": 0,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "pom",
+    "metadataCode": "126002",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dc32cf7c8191a838df1f69934cc6.png",
+    "kind": "grid",
+    "quadrant": 1,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "kip-kerrie",
+    "metadataCode": "126013",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dc32cf7c8191a838df1f69934cc6.png",
+    "kind": "grid",
+    "quadrant": 2,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "bruine-bonen-met-rijst",
+    "metadataCode": "126014",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dc32cf7c8191a838df1f69934cc6.png",
+    "kind": "grid",
+    "quadrant": 3,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "pastei-surinamese",
+    "metadataCode": "126015",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dc9c59088191824a35dd97ae509d.png",
+    "kind": "grid",
+    "quadrant": 0,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "doksa",
+    "metadataCode": "126016",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dc9c59088191824a35dd97ae509d.png",
+    "kind": "grid",
+    "quadrant": 1,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "herheri",
+    "metadataCode": "126017",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dc9c59088191824a35dd97ae509d.png",
+    "kind": "grid",
+    "quadrant": 2,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "pepre-watra",
+    "metadataCode": "126018",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dc9c59088191824a35dd97ae509d.png",
+    "kind": "grid",
+    "quadrant": 3,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "goedangan",
+    "metadataCode": "126019",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dd0cc69481918cd40d6033b77179.png",
+    "kind": "grid",
+    "quadrant": 0,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "pitjel",
+    "metadataCode": "126020",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dd0cc69481918cd40d6033b77179.png",
+    "kind": "grid",
+    "quadrant": 1,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "bakabana",
+    "metadataCode": "126021",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dd0cc69481918cd40d6033b77179.png",
+    "kind": "grid",
+    "quadrant": 2,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "dawet",
+    "metadataCode": "126022",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dd0cc69481918cd40d6033b77179.png",
+    "kind": "grid",
+    "quadrant": 3,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "fiadoe",
+    "metadataCode": "126023",
+    "batch": "034",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dd7d23148191a18164d558f0211d.png",
+    "kind": "grid",
+    "quadrant": 0,
+    "imageStatus": "generated-replacement/code-stamped"
+  }
+]

@@ -1,0 +1,3317 @@
+[
+  {
+    "id": "gammon-steak",
+    "metadataCode": "123049",
+    "imageCode": "123049",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Gammon Steak",
+      "zh": "火腿牛排配菠萝或蛋",
+      "nl": "Gammon Steak",
+      "local": "Gammon Steak"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "grilled",
+      "fried"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Gammon Steak is a thick cured ham steak, often served with fried egg or pineapple.",
+      "zh": "火腿牛排配菠萝或蛋通常是厚切腌火腿排，常配煎蛋或菠萝。",
+      "nl": "Gammon Steak is meestal een dikke gepekelde hamsteak, vaak met gebakken ei of ananas."
+    },
+    "cookingProfile": {
+      "en": "Expect salty ham with sweet pineapple or egg richness.",
+      "zh": "点餐时可预期火腿咸香，菠萝带甜酸或煎蛋增加浓郁感。",
+      "nl": "Verwacht zoute ham met zoete ananas of rijke ei."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is salty ham with sweet pineapple or egg richness.",
+        "zh": "点餐识别重点是火腿咸香，菠萝带甜酸或煎蛋增加浓郁感。",
+        "nl": "Het herkenningspunt is zoute ham met zoete ananas of rijke ei."
+      }
+    },
+    "composition": [
+      [
+        "ham",
+        55,
+        "protein"
+      ],
+      [
+        "egg",
+        15,
+        "component"
+      ],
+      [
+        "pineapple",
+        15,
+        "fruit-or-sweetness"
+      ],
+      [
+        "fries",
+        10,
+        "component"
+      ],
+      [
+        "mustard",
+        5,
+        "component",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "ham",
+      "pineapple",
+      "mustard"
+    ],
+    "basicTaste": [
+      "salty",
+      "sweet-savory",
+      "meaty"
+    ],
+    "textureProfile": [
+      "thick ham steak",
+      "fried egg or pineapple",
+      "pub plate"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "no-pork",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a salty pub-style ham steak; skip if you avoid pork or salty cured meat.",
+      "zh": "想吃咸香酒馆风火腿排时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een zoute pub-hamsteak wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123049-gammon-steak.webp",
+    "thumbPath": "/assets/dishes/thumb/123049-gammon-steak.webp"
+  },
+  {
+    "id": "cauliflower-cheese",
+    "metadataCode": "123050",
+    "imageCode": "123050",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Cauliflower Cheese",
+      "zh": "奶酪焗花椰菜",
+      "nl": "Cauliflower Cheese",
+      "local": "Cauliflower Cheese"
+    },
+    "category": "side",
+    "mealRole": "side",
+    "portionType": "small-plate",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Cauliflower Cheese is cauliflower baked in a creamy cheese sauce.",
+      "zh": "奶酪焗花椰菜通常是花椰菜裹奶酪白酱焗烤。",
+      "nl": "Cauliflower Cheese is meestal bloemkool gebakken in romige kaassaus."
+    },
+    "cookingProfile": {
+      "en": "Expect soft cauliflower under thick melted cheese sauce.",
+      "zh": "点餐时可预期花椰菜柔软，外面是厚奶酪酱。",
+      "nl": "Verwacht zachte bloemkool onder dikke gesmolten kaassaus."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish",
+        "side-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is soft cauliflower under thick melted cheese sauce.",
+        "zh": "点餐识别重点是花椰菜柔软，外面是厚奶酪酱。",
+        "nl": "Het herkenningspunt is zachte bloemkool onder dikke gesmolten kaassaus."
+      }
+    },
+    "composition": [
+      [
+        "cauliflower",
+        60,
+        "component"
+      ],
+      [
+        "cheese",
+        25,
+        "richness"
+      ],
+      [
+        "bechamel-sauce",
+        10,
+        "richness"
+      ],
+      [
+        "black-pepper",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cheese",
+      "bechamel-sauce",
+      "black-pepper"
+    ],
+    "basicTaste": [
+      "creamy",
+      "cheesy",
+      "mild"
+    ],
+    "textureProfile": [
+      "soft cauliflower",
+      "baked cheese sauce",
+      "comfort side"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "side-dish"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a creamy vegetable side; skip if you avoid dairy or want a lighter vegetable.",
+      "zh": "想吃奶酪蔬菜配菜时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een romige groentebijlage wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123050-cauliflower-cheese.webp",
+    "thumbPath": "/assets/dishes/thumb/123050-cauliflower-cheese.webp"
+  },
+  {
+    "id": "minted-peas",
+    "metadataCode": "123051",
+    "imageCode": "123051",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Minted Peas",
+      "zh": "薄荷豌豆",
+      "nl": "Minted Peas",
+      "local": "Minted Peas"
+    },
+    "category": "side",
+    "mealRole": "side",
+    "portionType": "small-plate",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "boiled",
+      "stirred"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Minted Peas is a simple British side of peas seasoned with mint and often butter.",
+      "zh": "薄荷豌豆通常是英式薄荷豌豆配菜，豌豆加薄荷，常有黄油。",
+      "nl": "Minted Peas is meestal een eenvoudige Britse bijlage van erwtjes met munt en vaak boter."
+    },
+    "cookingProfile": {
+      "en": "Expect a small fresh side, not a full main dish.",
+      "zh": "点餐时可预期这是清新小配菜，不是完整主菜。",
+      "nl": "Verwacht een kleine frisse bijlage, geen hoofdgerecht."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish",
+        "side-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is a small fresh side, not a full main dish.",
+        "zh": "点餐识别重点是这是清新小配菜，不是完整主菜。",
+        "nl": "Het herkenningspunt is een kleine frisse bijlage, geen hoofdgerecht."
+      }
+    },
+    "composition": [
+      [
+        "peas",
+        75,
+        "starch-or-legume"
+      ],
+      [
+        "mint",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "sea-salt",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "mint",
+      "butter",
+      "peas"
+    ],
+    "basicTaste": [
+      "fresh",
+      "mild",
+      "buttery"
+    ],
+    "textureProfile": [
+      "soft peas",
+      "mint aroma",
+      "small side"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "side-dish"
+    ],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a fresh green side dish; skip if you need a full meal.",
+      "zh": "想要清爽绿色配菜时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een frisse groene bijlage wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123051-minted-peas.webp",
+    "thumbPath": "/assets/dishes/thumb/123051-minted-peas.webp"
+  },
+  {
+    "id": "bakewell-tart",
+    "metadataCode": "123052",
+    "imageCode": "123052",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Bakewell Tart",
+      "zh": "巴克韦尔杏仁挞",
+      "nl": "Bakewell Tart",
+      "local": "Bakewell Tart"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Bakewell Tart is an English tart with almond filling and a jam layer.",
+      "zh": "巴克韦尔杏仁挞通常是英式杏仁挞，内有杏仁馅和果酱层。",
+      "nl": "Bakewell Tart is meestal een Engelse taart met amandelvulling en jamlaag."
+    },
+    "cookingProfile": {
+      "en": "Expect nutty almond cake texture inside pastry.",
+      "zh": "点餐时可预期酥皮里是杏仁蛋糕感馅料和果酱。",
+      "nl": "Verwacht nootachtige amandelcake in deeg."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is nutty almond cake texture inside pastry.",
+        "zh": "点餐识别重点是酥皮里是杏仁蛋糕感馅料和果酱。",
+        "nl": "Het herkenningspunt is nootachtige amandelcake in deeg."
+      }
+    },
+    "composition": [
+      [
+        "pastry-crust",
+        30,
+        "base"
+      ],
+      [
+        "almonds",
+        25,
+        "component"
+      ],
+      [
+        "fruit-sauce-or-caramel",
+        20,
+        "fruit-or-sweetness"
+      ],
+      [
+        "egg",
+        15,
+        "component"
+      ],
+      [
+        "sugar",
+        10,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "almonds",
+      "fruit-sauce-or-caramel",
+      "butter"
+    ],
+    "basicTaste": [
+      "sweet",
+      "almond",
+      "jammy"
+    ],
+    "textureProfile": [
+      "crumbly tart",
+      "almond filling",
+      "jam layer"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy",
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free",
+      "tree-nut-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a nutty jam tart; skip if you avoid almonds or sweet pastry.",
+      "zh": "想吃杏仁果酱挞时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een nootachtige jamtaart wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123052-bakewell-tart.webp",
+    "thumbPath": "/assets/dishes/thumb/123052-bakewell-tart.webp"
+  },
+  {
+    "id": "victoria-sponge",
+    "metadataCode": "123053",
+    "imageCode": "123053",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Victoria Sponge",
+      "zh": "维多利亚海绵蛋糕",
+      "nl": "Victoria Sponge",
+      "local": "Victoria Sponge"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "baked",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Victoria Sponge is a British sponge cake layered with jam and cream or buttercream.",
+      "zh": "维多利亚海绵蛋糕通常是英式海绵蛋糕，夹果酱和奶油或黄油霜。",
+      "nl": "Victoria Sponge is meestal een Britse cake met jam en room of botercrème ertussen."
+    },
+    "cookingProfile": {
+      "en": "Expect soft cake with a sweet cream-and-jam center.",
+      "zh": "点餐时可预期蛋糕体柔软，中间是甜奶油和果酱。",
+      "nl": "Verwacht zachte cake met zoete room en jam."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is soft cake with a sweet cream-and-jam center.",
+        "zh": "点餐识别重点是蛋糕体柔软，中间是甜奶油和果酱。",
+        "nl": "Het herkenningspunt is zachte cake met zoete room en jam."
+      }
+    },
+    "composition": [
+      [
+        "sponge-cake",
+        55,
+        "component"
+      ],
+      [
+        "cream",
+        20,
+        "richness"
+      ],
+      [
+        "fruit-sauce-or-caramel",
+        15,
+        "fruit-or-sweetness"
+      ],
+      [
+        "sugar",
+        10,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cream",
+      "fruit-sauce-or-caramel",
+      "vanilla"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "jammy"
+    ],
+    "textureProfile": [
+      "soft sponge",
+      "cream layer",
+      "jam filling"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a classic cream-and-jam cake; skip if you want a less sweet dessert.",
+      "zh": "想吃奶油果酱蛋糕时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een klassieke room-jamcake wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123053-victoria-sponge.webp",
+    "thumbPath": "/assets/dishes/thumb/123053-victoria-sponge.webp"
+  },
+  {
+    "id": "spotted-dick",
+    "metadataCode": "123054",
+    "imageCode": "123054",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Spotted Dick",
+      "zh": "葡萄干蒸布丁",
+      "nl": "Spotted Dick",
+      "local": "Spotted Dick"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "steamed"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Spotted Dick is a steamed British suet-style pudding with dried fruit, often served with custard.",
+      "zh": "葡萄干蒸布丁通常是英式果干蒸布丁，常配蛋奶酱。",
+      "nl": "Spotted Dick is meestal een gestoomde Britse pudding met gedroogd fruit, vaak met custard."
+    },
+    "cookingProfile": {
+      "en": "Expect warm dense pudding with raisins and custard-style richness.",
+      "zh": "点餐时可预期热布丁扎实，有葡萄干，适合配蛋奶酱。",
+      "nl": "Verwacht warme compacte pudding met rozijnen en custardrijkheid."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is warm dense pudding with raisins and custard-style richness.",
+        "zh": "点餐识别重点是热布丁扎实，有葡萄干，适合配蛋奶酱。",
+        "nl": "Het herkenningspunt is warme compacte pudding met rozijnen en custardrijkheid."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        35,
+        "base"
+      ],
+      [
+        "raisins",
+        25,
+        "fruit-or-sweetness"
+      ],
+      [
+        "butter",
+        15,
+        "richness"
+      ],
+      [
+        "cream",
+        10,
+        "richness"
+      ],
+      [
+        "sugar",
+        10,
+        "component"
+      ],
+      [
+        "nutmeg",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "raisins",
+      "cream",
+      "nutmeg"
+    ],
+    "basicTaste": [
+      "sweet",
+      "warm-spiced",
+      "rich"
+    ],
+    "textureProfile": [
+      "steamed pudding",
+      "dried fruit",
+      "custard-friendly"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a warm traditional pudding; skip if you dislike raisins or dense puddings.",
+      "zh": "想吃传统热布丁时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een warme traditionele pudding wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123054-spotted-dick.webp",
+    "thumbPath": "/assets/dishes/thumb/123054-spotted-dick.webp"
+  },
+  {
+    "id": "treacle-tart",
+    "metadataCode": "123055",
+    "imageCode": "123055",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Treacle Tart",
+      "zh": "糖浆挞",
+      "nl": "Treacle Tart",
+      "local": "Treacle Tart"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Treacle Tart is a British syrup tart with breadcrumbs and lemon in a pastry shell.",
+      "zh": "糖浆挞通常是英式糖浆挞，派皮里是糖浆、面包屑和柠檬。",
+      "nl": "Treacle Tart is meestal een Britse sirooptaart met broodkruim en citroen in deeg."
+    },
+    "cookingProfile": {
+      "en": "Expect sticky syrup filling with a crisp pastry edge.",
+      "zh": "点餐时可预期糖浆馅黏甜，派边酥脆。",
+      "nl": "Verwacht kleverige siroopvulling met krokante deegrand."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is sticky syrup filling with a crisp pastry edge.",
+        "zh": "点餐识别重点是糖浆馅黏甜，派边酥脆。",
+        "nl": "Het herkenningspunt is kleverige siroopvulling met krokante deegrand."
+      }
+    },
+    "composition": [
+      [
+        "pastry-crust",
+        35,
+        "base"
+      ],
+      [
+        "honey",
+        30,
+        "distinctive-seasoning"
+      ],
+      [
+        "bread",
+        20,
+        "base"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "lemon",
+        5,
+        "fruit-or-sweetness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "honey",
+      "lemon",
+      "butter"
+    ],
+    "basicTaste": [
+      "very sweet",
+      "syrupy",
+      "buttery"
+    ],
+    "textureProfile": [
+      "sticky filling",
+      "pastry shell",
+      "crumb body"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a very sweet sticky tart; skip if you prefer tart or light desserts.",
+      "zh": "想吃黏甜糖浆挞时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een zeer zoete kleverige taart wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123055-treacle-tart.webp",
+    "thumbPath": "/assets/dishes/thumb/123055-treacle-tart.webp"
+  },
+  {
+    "id": "banoffee-pie",
+    "metadataCode": "123056",
+    "imageCode": "123056",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Banoffee Pie",
+      "zh": "香蕉太妃派",
+      "nl": "Banoffee Pie",
+      "local": "Banoffee Pie"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "assembled",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Banoffee Pie is a chilled banana and toffee pie with cream.",
+      "zh": "香蕉太妃派通常是冷食香蕉太妃派，配奶油。",
+      "nl": "Banoffee Pie is meestal een gekoelde banaan-toffeetaart met room."
+    },
+    "cookingProfile": {
+      "en": "Expect banana sweetness, caramel sauce, and soft cream.",
+      "zh": "点餐时可预期香蕉甜味、焦糖酱和柔软奶油很明显。",
+      "nl": "Verwacht bananenzoetheid, karamelsaus en zachte room."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is banana sweetness, caramel sauce, and soft cream.",
+        "zh": "点餐识别重点是香蕉甜味、焦糖酱和柔软奶油很明显。",
+        "nl": "Het herkenningspunt is bananenzoetheid, karamelsaus en zachte room."
+      }
+    },
+    "composition": [
+      [
+        "pastry-crust",
+        25,
+        "base"
+      ],
+      [
+        "banana",
+        25,
+        "fruit-or-sweetness"
+      ],
+      [
+        "toffee-sauce",
+        25,
+        "fruit-or-sweetness"
+      ],
+      [
+        "cream",
+        20,
+        "richness"
+      ],
+      [
+        "chocolate",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "banana",
+      "toffee-sauce",
+      "cream"
+    ],
+    "basicTaste": [
+      "sweet",
+      "caramel",
+      "creamy"
+    ],
+    "textureProfile": [
+      "crumb crust",
+      "banana slices",
+      "soft cream"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a creamy banana-caramel dessert; skip if you dislike caramel or creamy pies.",
+      "zh": "想吃香蕉焦糖奶油甜点时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een romig banaan-karameldessert wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123056-banoffee-pie.webp",
+    "thumbPath": "/assets/dishes/thumb/123056-banoffee-pie.webp"
+  },
+  {
+    "id": "mince-pies",
+    "metadataCode": "123057",
+    "imageCode": "123057",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Mince Pies",
+      "zh": "圣诞果干馅饼",
+      "nl": "Mince Pies",
+      "local": "Mince Pies"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Mince Pies is small British Christmas pastries filled with spiced dried fruit.",
+      "zh": "圣诞果干馅饼通常是英式圣诞小派，馅是香料果干。",
+      "nl": "Mince Pies is meestal kleine Britse kerstpasteitjes met gekruid gedroogd fruit."
+    },
+    "cookingProfile": {
+      "en": "Expect crumbly pastry and concentrated spiced fruit.",
+      "zh": "点餐时可预期小派皮酥碎，果干香料味集中。",
+      "nl": "Verwacht kruimelig deeg en geconcentreerd gekruid fruit."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is crumbly pastry and concentrated spiced fruit.",
+        "zh": "点餐识别重点是小派皮酥碎，果干香料味集中。",
+        "nl": "Het herkenningspunt is kruimelig deeg en geconcentreerd gekruid fruit."
+      }
+    },
+    "composition": [
+      [
+        "pastry-crust",
+        40,
+        "base"
+      ],
+      [
+        "raisins",
+        30,
+        "fruit-or-sweetness"
+      ],
+      [
+        "apple",
+        15,
+        "fruit-or-sweetness"
+      ],
+      [
+        "cinnamon",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "raisins",
+      "cinnamon",
+      "apple"
+    ],
+    "basicTaste": [
+      "sweet",
+      "spiced",
+      "fruity"
+    ],
+    "textureProfile": [
+      "small pastry",
+      "mincemeat fruit filling",
+      "crumbly edge"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a spiced fruit pastry; skip if you dislike raisins or Christmas spices.",
+      "zh": "想吃香料果干小派时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een gekruid fruitpasteitje wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123057-mince-pies.webp",
+    "thumbPath": "/assets/dishes/thumb/123057-mince-pies.webp"
+  },
+  {
+    "id": "christmas-pudding",
+    "metadataCode": "123058",
+    "imageCode": "123058",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Christmas Pudding",
+      "zh": "英式圣诞布丁",
+      "nl": "Christmas Pudding",
+      "local": "Christmas Pudding"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "steamed"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Christmas Pudding is a dense British steamed Christmas dessert packed with dried fruit and spice.",
+      "zh": "英式圣诞布丁通常是英式圣诞蒸布丁，果干和香料很多，质地厚重。",
+      "nl": "Christmas Pudding is meestal een dichte Britse kerstpudding vol gedroogd fruit en specerij."
+    },
+    "cookingProfile": {
+      "en": "Expect heavy steamed fruit pudding with warm spice and possible alcohol aroma.",
+      "zh": "点餐时可预期蒸布丁厚重，果干和暖香料明显，可能有酒香。",
+      "nl": "Verwacht zware gestoomde fruitpudding met warme specerij en mogelijk alcoholgeur."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is heavy steamed fruit pudding with warm spice and possible alcohol aroma.",
+        "zh": "点餐识别重点是蒸布丁厚重，果干和暖香料明显，可能有酒香。",
+        "nl": "Het herkenningspunt is zware gestoomde fruitpudding met warme specerij en mogelijk alcoholgeur."
+      }
+    },
+    "composition": [
+      [
+        "raisins",
+        45,
+        "fruit-or-sweetness"
+      ],
+      [
+        "wheat-flour",
+        20,
+        "base"
+      ],
+      [
+        "butter",
+        15,
+        "richness"
+      ],
+      [
+        "egg",
+        10,
+        "component"
+      ],
+      [
+        "cinnamon",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "red-wine",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "raisins",
+      "cinnamon",
+      "red-wine"
+    ],
+    "basicTaste": [
+      "rich",
+      "spiced",
+      "fruity"
+    ],
+    "textureProfile": [
+      "dense steamed pudding",
+      "dried fruit",
+      "boozy aroma"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy",
+      "contains-alcohol"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free",
+      "no-alcohol"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a rich festive pudding; skip if you dislike dense fruit cakes or alcohol notes.",
+      "zh": "想吃厚重节日布丁时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een rijke feestpudding wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123058-christmas-pudding.webp",
+    "thumbPath": "/assets/dishes/thumb/123058-christmas-pudding.webp"
+  },
+  {
+    "id": "welsh-cakes",
+    "metadataCode": "123059",
+    "imageCode": "123059",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Welsh Cakes",
+      "zh": "威尔士小煎饼",
+      "nl": "Welsh Cakes",
+      "local": "Welsh Cakes"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "fried"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Welsh Cakes is small Welsh griddle cakes with dried fruit and sugar.",
+      "zh": "威尔士小煎饼通常是威尔士小煎饼，含果干并常撒糖。",
+      "nl": "Welsh Cakes is meestal kleine Welshe bakplaatcakejes met gedroogd fruit en suiker."
+    },
+    "cookingProfile": {
+      "en": "Expect soft buttery mini cakes cooked on a griddle.",
+      "zh": "点餐时可预期小饼柔软有黄油香，用煎板做成。",
+      "nl": "Verwacht zachte boterige cakejes van de bakplaat."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is soft buttery mini cakes cooked on a griddle.",
+        "zh": "点餐识别重点是小饼柔软有黄油香，用煎板做成。",
+        "nl": "Het herkenningspunt is zachte boterige cakejes van de bakplaat."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        40,
+        "base"
+      ],
+      [
+        "raisins",
+        25,
+        "fruit-or-sweetness"
+      ],
+      [
+        "butter",
+        15,
+        "richness"
+      ],
+      [
+        "sugar",
+        15,
+        "component"
+      ],
+      [
+        "cinnamon",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "raisins",
+      "butter",
+      "cinnamon"
+    ],
+    "basicTaste": [
+      "sweet",
+      "buttery",
+      "mild-spiced"
+    ],
+    "textureProfile": [
+      "small griddle cake",
+      "soft crumb",
+      "sugar-dusted"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a small buttery tea snack; skip if you dislike raisins.",
+      "zh": "想吃黄油香茶点小饼时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een klein boterig theehapje wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123059-welsh-cakes.webp",
+    "thumbPath": "/assets/dishes/thumb/123059-welsh-cakes.webp"
+  },
+  {
+    "id": "eccles-cakes",
+    "metadataCode": "123060",
+    "imageCode": "123060",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Eccles Cakes",
+      "zh": "果干千层小饼",
+      "nl": "Eccles Cakes",
+      "local": "Eccles Cakes"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Eccles Cakes is flaky British pastries filled with spiced currants or raisins.",
+      "zh": "果干千层小饼通常是英式千层小酥饼，夹香料葡萄干馅。",
+      "nl": "Eccles Cakes is meestal Britse bladerdeegkoekjes gevuld met gekruide krenten of rozijnen."
+    },
+    "cookingProfile": {
+      "en": "Expect flaky pastry around sticky spiced fruit.",
+      "zh": "点餐时可预期酥皮层次明显，里面是黏甜香料果干。",
+      "nl": "Verwacht bladerdeeg rond kleverig gekruid fruit."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is flaky pastry around sticky spiced fruit.",
+        "zh": "点餐识别重点是酥皮层次明显，里面是黏甜香料果干。",
+        "nl": "Het herkenningspunt is bladerdeeg rond kleverig gekruid fruit."
+      }
+    },
+    "composition": [
+      [
+        "puff-pastry",
+        40,
+        "base"
+      ],
+      [
+        "raisins",
+        35,
+        "fruit-or-sweetness"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "sugar",
+        10,
+        "component"
+      ],
+      [
+        "cinnamon",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "raisins",
+      "puff-pastry",
+      "cinnamon"
+    ],
+    "basicTaste": [
+      "sweet",
+      "spiced",
+      "buttery"
+    ],
+    "textureProfile": [
+      "flaky pastry",
+      "sticky currant filling",
+      "small round cake"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a flaky raisin pastry; skip if you dislike dried fruit fillings.",
+      "zh": "想吃酥皮果干小点时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een bladerdeeg-rozijnengebakje wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123060-eccles-cakes.webp",
+    "thumbPath": "/assets/dishes/thumb/123060-eccles-cakes.webp"
+  },
+  {
+    "id": "pataniscas-de-bacalhau",
+    "metadataCode": "125032",
+    "imageCode": "125032",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Pataniscas de Bacalhau",
+      "zh": "葡式鳕鱼煎饼",
+      "nl": "Pataniscas de Bacalhau",
+      "local": "Pataniscas de Bacalhau"
+    },
+    "category": "starter",
+    "mealRole": "starter-or-side",
+    "portionType": "small-plate",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "fried"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Pataniscas de Bacalhau is Portuguese salt-cod fritters, flatter and softer than many croquettes.",
+      "zh": "葡式鳕鱼煎饼通常是葡式咸鳕鱼煎炸小饼，比很多可乐饼更扁更软。",
+      "nl": "Pataniscas de Bacalhau is meestal Portugese bakkeljauwbeignets, platter en zachter dan veel kroketten."
+    },
+    "cookingProfile": {
+      "en": "Expect salty cod in a light fried batter.",
+      "zh": "点餐时可预期咸鳕鱼夹在轻薄面糊里煎炸。",
+      "nl": "Verwacht zoute kabeljauw in licht gefrituurd beslag."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is salty cod in a light fried batter.",
+        "zh": "点餐识别重点是咸鳕鱼夹在轻薄面糊里煎炸。",
+        "nl": "Het herkenningspunt is zoute kabeljauw in licht gefrituurd beslag."
+      }
+    },
+    "composition": [
+      [
+        "salt-cod",
+        45,
+        "seafood"
+      ],
+      [
+        "wheat-flour",
+        25,
+        "base"
+      ],
+      [
+        "egg",
+        15,
+        "component"
+      ],
+      [
+        "onion",
+        10,
+        "component"
+      ],
+      [
+        "parsley",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "salt-cod",
+      "parsley",
+      "onion"
+    ],
+    "basicTaste": [
+      "salty",
+      "fishy-savory",
+      "fried"
+    ],
+    "textureProfile": [
+      "flat fritters",
+      "soft cod pieces",
+      "crisp edge"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-gluten",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "fish-allergy",
+      "gluten-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a salty cod fritter; skip if you avoid fish or fried batter.",
+      "zh": "想吃咸鳕鱼炸小饼时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een zoute kabeljauwbeignet wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125032-pataniscas-de-bacalhau.webp",
+    "thumbPath": "/assets/dishes/thumb/125032-pataniscas-de-bacalhau.webp"
+  },
+  {
+    "id": "acorda-alentejana",
+    "metadataCode": "125033",
+    "imageCode": "125033",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Acorda Alentejana",
+      "zh": "阿连特茹面包蒜汤",
+      "nl": "Acorda Alentejana",
+      "local": "Acorda Alentejana"
+    },
+    "category": "soup",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "assembled",
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Acorda Alentejana is an Alentejo bread soup with garlic, olive oil, herbs, and poached egg.",
+      "zh": "阿连特茹面包蒜汤通常是阿连特茹面包汤，有蒜、橄榄油、香草和水波蛋。",
+      "nl": "Acorda Alentejana is meestal een Alentejo-broodsoep met knoflook, olijfolie, kruiden en gepocheerd ei."
+    },
+    "cookingProfile": {
+      "en": "Expect soft bread soaked in garlicky broth with egg.",
+      "zh": "点餐时可预期面包泡软在蒜香汤里，配鸡蛋。",
+      "nl": "Verwacht zacht brood in knoflookbouillon met ei."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is soft bread soaked in garlicky broth with egg.",
+        "zh": "点餐识别重点是面包泡软在蒜香汤里，配鸡蛋。",
+        "nl": "Het herkenningspunt is zacht brood in knoflookbouillon met ei."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        45,
+        "base"
+      ],
+      [
+        "broth",
+        25,
+        "component"
+      ],
+      [
+        "egg",
+        15,
+        "component"
+      ],
+      [
+        "garlic",
+        10,
+        "distinctive-seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "garlic",
+      "olive-oil",
+      "egg"
+    ],
+    "basicTaste": [
+      "garlicky",
+      "brothy",
+      "rustic"
+    ],
+    "textureProfile": [
+      "soaked bread",
+      "poached egg",
+      "olive oil broth"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "soup"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a rustic garlic bread soup; skip if you dislike soggy bread texture.",
+      "zh": "想吃乡土蒜香面包汤时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een rustieke knoflook-broodsoep wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125033-acorda-alentejana.webp",
+    "thumbPath": "/assets/dishes/thumb/125033-acorda-alentejana.webp"
+  },
+  {
+    "id": "arroz-de-polvo",
+    "metadataCode": "125034",
+    "imageCode": "125034",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Arroz de Polvo",
+      "zh": "葡式章鱼饭",
+      "nl": "Arroz de Polvo",
+      "local": "Arroz de Polvo"
+    },
+    "category": "rice",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Arroz de Polvo is Portuguese octopus rice, usually moist and tomato-leaning.",
+      "zh": "葡式章鱼饭通常是葡式章鱼饭，通常比较湿润，带番茄味。",
+      "nl": "Arroz de Polvo is meestal Portugese octopusrijst, meestal smeuig en tomaatgericht."
+    },
+    "cookingProfile": {
+      "en": "Expect tender octopus pieces in saucy rice.",
+      "zh": "点餐时可预期章鱼块柔软，米饭带酱汁。",
+      "nl": "Verwacht malse octopusstukjes in smeuige rijst."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is tender octopus pieces in saucy rice.",
+        "zh": "点餐识别重点是章鱼块柔软，米饭带酱汁。",
+        "nl": "Het herkenningspunt is malse octopusstukjes in smeuige rijst."
+      }
+    },
+    "composition": [
+      [
+        "octopus",
+        40,
+        "seafood"
+      ],
+      [
+        "steamed-rice",
+        35,
+        "starch-or-legume"
+      ],
+      [
+        "tomato-sauce",
+        10,
+        "component"
+      ],
+      [
+        "onion",
+        10,
+        "component"
+      ],
+      [
+        "olive-oil",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "octopus",
+      "tomato-sauce",
+      "olive-oil"
+    ],
+    "basicTaste": [
+      "seafood-savory",
+      "tomato-bright",
+      "mild"
+    ],
+    "textureProfile": [
+      "moist rice",
+      "tender octopus",
+      "saucy grains"
+    ],
+    "riskFlags": [
+      "contains-shellfish"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "rice"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a moist octopus rice dish; skip if you dislike octopus or saucy rice.",
+      "zh": "想吃湿润章鱼饭时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een smeuig octopusrijstgerecht wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125034-arroz-de-polvo.webp",
+    "thumbPath": "/assets/dishes/thumb/125034-arroz-de-polvo.webp"
+  },
+  {
+    "id": "polvo-guisado",
+    "metadataCode": "125035",
+    "imageCode": "125035",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Polvo Guisado",
+      "zh": "葡式炖章鱼",
+      "nl": "Polvo Guisado",
+      "local": "Polvo Guisado"
+    },
+    "category": "seafood",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "braised"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Polvo Guisado is Portuguese stewed octopus in a tomato and wine style sauce.",
+      "zh": "葡式炖章鱼通常是葡式炖章鱼，酱汁常有番茄和葡萄酒风味。",
+      "nl": "Polvo Guisado is meestal Portugese gestoofde octopus in tomaat-wijnsaus."
+    },
+    "cookingProfile": {
+      "en": "Expect tender octopus in a deep red sauce.",
+      "zh": "点餐时可预期章鱼炖到柔软，酱汁颜色深红。",
+      "nl": "Verwacht malse octopus in diepe rode saus."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is tender octopus in a deep red sauce.",
+        "zh": "点餐识别重点是章鱼炖到柔软，酱汁颜色深红。",
+        "nl": "Het herkenningspunt is malse octopus in diepe rode saus."
+      }
+    },
+    "composition": [
+      [
+        "octopus",
+        55,
+        "seafood"
+      ],
+      [
+        "potato",
+        20,
+        "starch-or-legume"
+      ],
+      [
+        "tomato-sauce",
+        10,
+        "component"
+      ],
+      [
+        "red-wine",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "octopus",
+      "red-wine",
+      "tomato-sauce"
+    ],
+    "basicTaste": [
+      "savory",
+      "briny",
+      "winey"
+    ],
+    "textureProfile": [
+      "braised octopus",
+      "soft potatoes",
+      "red sauce"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-alcohol"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "no-alcohol"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a saucy octopus stew; skip if you avoid alcohol notes or octopus.",
+      "zh": "想吃有酱汁的炖章鱼时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een sauzige octopusstoof wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125035-polvo-guisado.webp",
+    "thumbPath": "/assets/dishes/thumb/125035-polvo-guisado.webp"
+  },
+  {
+    "id": "rojoes",
+    "metadataCode": "125037",
+    "imageCode": "125037",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Rojoes",
+      "zh": "葡式炸炖猪肉块",
+      "nl": "Rojoes",
+      "local": "Rojoes"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "fried",
+      "braised"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Rojoes is Portuguese pork chunks marinated and cooked with garlic, wine, and paprika.",
+      "zh": "葡式炸炖猪肉块通常是葡式猪肉块，用蒜、葡萄酒和红椒粉腌煮。",
+      "nl": "Rojoes is meestal Portugese varkensblokjes met knoflook, wijn en paprika."
+    },
+    "cookingProfile": {
+      "en": "Expect browned pork pieces with garlicky wine seasoning.",
+      "zh": "点餐时可预期猪肉块煎炖出焦香，蒜和酒香明显。",
+      "nl": "Verwacht gebruinde varkensstukjes met knoflook-wijnkruiding."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is browned pork pieces with garlicky wine seasoning.",
+        "zh": "点餐识别重点是猪肉块煎炖出焦香，蒜和酒香明显。",
+        "nl": "Het herkenningspunt is gebruinde varkensstukjes met knoflook-wijnkruiding."
+      }
+    },
+    "composition": [
+      [
+        "pork",
+        60,
+        "protein"
+      ],
+      [
+        "potato",
+        20,
+        "starch-or-legume"
+      ],
+      [
+        "red-wine",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "paprika",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "pork",
+      "garlic",
+      "paprika"
+    ],
+    "basicTaste": [
+      "savory",
+      "garlicky",
+      "rich"
+    ],
+    "textureProfile": [
+      "pork chunks",
+      "browned edges",
+      "wine-garlic sauce"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-alcohol"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "no-pork",
+      "no-alcohol"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want garlicky Portuguese pork; skip if you avoid pork or alcohol-based marinades.",
+      "zh": "想吃蒜香葡式猪肉块时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je Portugees varkensvlees met knoflook wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125037-rojoes.webp",
+    "thumbPath": "/assets/dishes/thumb/125037-rojoes.webp"
+  },
+  {
+    "id": "febras",
+    "metadataCode": "125038",
+    "imageCode": "125038",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Febras",
+      "zh": "葡式猪排",
+      "nl": "Febras",
+      "local": "Febras"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "grilled",
+      "fried"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Febras is Portuguese thin pork steaks, usually grilled or pan-fried with garlic.",
+      "zh": "葡式猪排通常是葡式薄猪排，通常用蒜香煎或烤。",
+      "nl": "Febras is meestal Portugese dunne varkenslapjes, meestal gegrild of gebakken met knoflook."
+    },
+    "cookingProfile": {
+      "en": "Expect simple pork cutlets with garlic and a firm bite.",
+      "zh": "点餐时可预期简单猪排有蒜香，口感比炖肉更紧实。",
+      "nl": "Verwacht simpele varkenslapjes met knoflook en stevige beet."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is simple pork cutlets with garlic and a firm bite.",
+        "zh": "点餐识别重点是简单猪排有蒜香，口感比炖肉更紧实。",
+        "nl": "Het herkenningspunt is simpele varkenslapjes met knoflook en stevige beet."
+      }
+    },
+    "composition": [
+      [
+        "pork-cutlet",
+        65,
+        "protein"
+      ],
+      [
+        "fries",
+        20,
+        "component"
+      ],
+      [
+        "garlic",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "component"
+      ],
+      [
+        "lemon",
+        5,
+        "fruit-or-sweetness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "pork-cutlet",
+      "garlic",
+      "lemon"
+    ],
+    "basicTaste": [
+      "savory",
+      "garlicky",
+      "simple"
+    ],
+    "textureProfile": [
+      "thin pork steaks",
+      "grilled or pan-fried",
+      "plain plate"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "no-pork"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a straightforward pork plate; skip if you want a saucy stew.",
+      "zh": "想吃简单猪排时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een eenvoudig varkensgerecht wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125038-febras.webp",
+    "thumbPath": "/assets/dishes/thumb/125038-febras.webp"
+  },
+  {
+    "id": "entrecosto",
+    "metadataCode": "125039",
+    "imageCode": "125039",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Entrecosto",
+      "zh": "葡式猪肋排",
+      "nl": "Entrecosto",
+      "local": "Entrecosto"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "grilled",
+      "braised"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Entrecosto is Portuguese pork ribs or rib-style cuts, often garlicky and richly seasoned.",
+      "zh": "葡式猪肋排通常是葡式猪肋排或肋肉，常有蒜香和浓重调味。",
+      "nl": "Entrecosto is meestal Portugese spareribs of ribstuk, vaak knoflookrijk en stevig gekruid."
+    },
+    "cookingProfile": {
+      "en": "Expect fatty pork with browned edges and paprika-garlic seasoning.",
+      "zh": "点餐时可预期猪肉脂香明显，边缘焦香，带红椒蒜味。",
+      "nl": "Verwacht vetter varkensvlees met gebruinde rand en paprika-knoflook."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is fatty pork with browned edges and paprika-garlic seasoning.",
+        "zh": "点餐识别重点是猪肉脂香明显，边缘焦香，带红椒蒜味。",
+        "nl": "Het herkenningspunt is vetter varkensvlees met gebruinde rand en paprika-knoflook."
+      }
+    },
+    "composition": [
+      [
+        "pork-belly",
+        60,
+        "protein"
+      ],
+      [
+        "potato",
+        20,
+        "starch-or-legume"
+      ],
+      [
+        "paprika",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "red-wine",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "pork-belly",
+      "garlic",
+      "paprika"
+    ],
+    "basicTaste": [
+      "savory",
+      "fatty",
+      "garlicky"
+    ],
+    "textureProfile": [
+      "pork ribs or belly",
+      "browned meat",
+      "hearty portion"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-alcohol"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "no-pork",
+      "no-alcohol"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a rich pork rib plate; skip if you avoid fatty pork.",
+      "zh": "想吃浓郁猪肋肉时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een rijk varkensribgerecht wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125039-entrecosto.webp",
+    "thumbPath": "/assets/dishes/thumb/125039-entrecosto.webp"
+  },
+  {
+    "id": "bifinhos-com-cogumelos",
+    "metadataCode": "125040",
+    "imageCode": "125040",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Bifinhos com Cogumelos",
+      "zh": "蘑菇酱小牛排",
+      "nl": "Bifinhos com Cogumelos",
+      "local": "Bifinhos com Cogumelos"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "fried",
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Bifinhos com Cogumelos is Portuguese-style thin steaks served with mushroom cream sauce.",
+      "zh": "蘑菇酱小牛排通常是葡式小牛肉片配蘑菇奶油酱。",
+      "nl": "Bifinhos com Cogumelos is meestal Portugese dunne biefstukjes met champignonroomsaus."
+    },
+    "cookingProfile": {
+      "en": "Expect tender meat in a creamy mushroom sauce.",
+      "zh": "点餐时可预期肉片柔软，蘑菇奶油酱浓厚。",
+      "nl": "Verwacht mals vlees in romige champignonsaus."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is tender meat in a creamy mushroom sauce.",
+        "zh": "点餐识别重点是肉片柔软，蘑菇奶油酱浓厚。",
+        "nl": "Het herkenningspunt is mals vlees in romige champignonsaus."
+      }
+    },
+    "composition": [
+      [
+        "veal-cutlet",
+        55,
+        "protein"
+      ],
+      [
+        "mushrooms",
+        20,
+        "component"
+      ],
+      [
+        "cream",
+        15,
+        "richness"
+      ],
+      [
+        "garlic",
+        5,
+        "distinctive-seasoning"
+      ],
+      [
+        "black-pepper",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "mushrooms",
+      "cream",
+      "black-pepper"
+    ],
+    "basicTaste": [
+      "creamy",
+      "savory",
+      "mushroomy"
+    ],
+    "textureProfile": [
+      "thin meat slices",
+      "mushroom sauce",
+      "tender bite"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a creamy mushroom steak dish; skip if you avoid dairy or mushrooms.",
+      "zh": "想吃蘑菇奶油小牛排时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een romig champignon-biefstukgerecht wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125040-bifinhos-com-cogumelos.webp",
+    "thumbPath": "/assets/dishes/thumb/125040-bifinhos-com-cogumelos.webp"
+  },
+  {
+    "id": "sopa-da-pedra",
+    "metadataCode": "125041",
+    "imageCode": "125041",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Sopa da Pedra",
+      "zh": "葡式豆肉浓汤",
+      "nl": "Sopa da Pedra",
+      "local": "Sopa da Pedra"
+    },
+    "category": "soup",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Sopa da Pedra is a Portuguese bean and pork soup from Almeirim tradition.",
+      "zh": "葡式豆肉浓汤通常是葡式豆肉浓汤，传统上与阿尔梅林相关。",
+      "nl": "Sopa da Pedra is meestal een Portugese bonen-varkenssoep uit de traditie van Almeirim."
+    },
+    "cookingProfile": {
+      "en": "Expect thick beans with pork and smoky sausage.",
+      "zh": "点餐时可预期豆汤浓稠，有猪肉和烟熏香肠。",
+      "nl": "Verwacht dikke bonen met varkensvlees en rokerige worst."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is thick beans with pork and smoky sausage.",
+        "zh": "点餐识别重点是豆汤浓稠，有猪肉和烟熏香肠。",
+        "nl": "Het herkenningspunt is dikke bonen met varkensvlees en rokerige worst."
+      }
+    },
+    "composition": [
+      [
+        "red-kidney-beans",
+        40,
+        "starch-or-legume"
+      ],
+      [
+        "pork",
+        25,
+        "protein"
+      ],
+      [
+        "chourico",
+        15,
+        "protein"
+      ],
+      [
+        "potato",
+        15,
+        "starch-or-legume"
+      ],
+      [
+        "broth",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "red-kidney-beans",
+      "chourico",
+      "pork"
+    ],
+    "basicTaste": [
+      "hearty",
+      "smoky",
+      "savory"
+    ],
+    "textureProfile": [
+      "thick bean soup",
+      "pork pieces",
+      "sausage"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "soup"
+    ],
+    "avoidIfTags": [
+      "no-pork"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a hearty bean-pork soup; skip if you avoid pork or heavy soups.",
+      "zh": "想喝厚重豆肉汤时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een stevige bonen-varkenssoep wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125041-sopa-da-pedra.webp",
+    "thumbPath": "/assets/dishes/thumb/125041-sopa-da-pedra.webp"
+  },
+  {
+    "id": "canja-de-galinha",
+    "metadataCode": "125042",
+    "imageCode": "125042",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Canja de Galinha",
+      "zh": "葡式鸡汤米粥",
+      "nl": "Canja de Galinha",
+      "local": "Canja de Galinha"
+    },
+    "category": "soup",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Canja de Galinha is Portuguese chicken and rice soup, mild and often comforting.",
+      "zh": "葡式鸡汤米粥通常是葡式鸡肉米汤，味道温和，偏家常安慰感。",
+      "nl": "Canja de Galinha is meestal Portugese kip-rijstsoep, mild en troostrijk."
+    },
+    "cookingProfile": {
+      "en": "Expect gentle chicken broth with soft rice.",
+      "zh": "点餐时可预期鸡汤温和，米粒煮软。",
+      "nl": "Verwacht milde kippenbouillon met zachte rijst."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is gentle chicken broth with soft rice.",
+        "zh": "点餐识别重点是鸡汤温和，米粒煮软。",
+        "nl": "Het herkenningspunt is milde kippenbouillon met zachte rijst."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        35,
+        "protein"
+      ],
+      [
+        "short-grain-rice",
+        25,
+        "starch-or-legume"
+      ],
+      [
+        "broth",
+        30,
+        "component"
+      ],
+      [
+        "mint",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "fruit-or-sweetness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "chicken",
+      "broth",
+      "mint"
+    ],
+    "basicTaste": [
+      "mild",
+      "brothy",
+      "comforting"
+    ],
+    "textureProfile": [
+      "rice soup",
+      "soft chicken",
+      "gentle broth"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "soup",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [],
+    "orderVerdict": {
+      "en": "Choose it when you want a mild chicken rice soup; skip if you want strong spice or a heavy main.",
+      "zh": "想喝温和鸡肉米汤时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een milde kip-rijstsoep wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125042-canja-de-galinha.webp",
+    "thumbPath": "/assets/dishes/thumb/125042-canja-de-galinha.webp"
+  },
+  {
+    "id": "feijoada-a-transmontana",
+    "metadataCode": "125043",
+    "imageCode": "125043",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Feijoada a Transmontana",
+      "zh": "葡北豆肉炖锅",
+      "nl": "Feijoada a Transmontana",
+      "local": "Feijoada a Transmontana"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Feijoada a Transmontana is a northern Portuguese bean stew with several pork cuts and sausage.",
+      "zh": "葡北豆肉炖锅通常是葡萄牙北部豆肉炖锅，含多种猪肉和香肠。",
+      "nl": "Feijoada a Transmontana is meestal een Noord-Portugese bonenstoof met verschillende varkensdelen en worst."
+    },
+    "cookingProfile": {
+      "en": "Expect thick beans with smoky pork and sausage.",
+      "zh": "点餐时可预期豆子厚实，猪肉和香肠有烟熏咸香。",
+      "nl": "Verwacht dikke bonen met rokerig varkensvlees en worst."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is thick beans with smoky pork and sausage.",
+        "zh": "点餐识别重点是豆子厚实，猪肉和香肠有烟熏咸香。",
+        "nl": "Het herkenningspunt is dikke bonen met rokerig varkensvlees en worst."
+      }
+    },
+    "composition": [
+      [
+        "white-beans",
+        35,
+        "starch-or-legume"
+      ],
+      [
+        "pork",
+        30,
+        "protein"
+      ],
+      [
+        "chourico",
+        15,
+        "protein"
+      ],
+      [
+        "cabbage",
+        10,
+        "component"
+      ],
+      [
+        "mixed-vegetables",
+        5,
+        "component"
+      ],
+      [
+        "black-pepper",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "white-beans",
+      "chourico",
+      "pork"
+    ],
+    "basicTaste": [
+      "hearty",
+      "smoky",
+      "savory"
+    ],
+    "textureProfile": [
+      "bean stew",
+      "mixed pork cuts",
+      "cabbage"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "no-pork"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a heavy bean-and-pork stew; skip if you avoid pork or very filling stews.",
+      "zh": "想吃厚重豆肉炖锅时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een zware bonen-varkensstoof wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125043-feijoada-a-transmontana.webp",
+    "thumbPath": "/assets/dishes/thumb/125043-feijoada-a-transmontana.webp"
+  },
+  {
+    "id": "chanfana",
+    "metadataCode": "125044",
+    "imageCode": "125044",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Chanfana",
+      "zh": "红酒炖山羊肉",
+      "nl": "Chanfana",
+      "local": "Chanfana"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "braised"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Chanfana is Portuguese goat or old-mutton style braise in red wine and garlic.",
+      "zh": "红酒炖山羊肉通常是葡式红酒蒜香山羊肉或浓味羊肉炖菜。",
+      "nl": "Chanfana is meestal Portugese geiten- of schapenvleesstoof met rode wijn en knoflook."
+    },
+    "cookingProfile": {
+      "en": "Expect dark wine-braised meat with a stronger gamey character.",
+      "zh": "点餐时可预期深色红酒炖肉，肉味比普通羊肉更有野味感。",
+      "nl": "Verwacht donker wijn gestoofd vlees met sterkere wildachtige smaak."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is dark wine-braised meat with a stronger gamey character.",
+        "zh": "点餐识别重点是深色红酒炖肉，肉味比普通羊肉更有野味感。",
+        "nl": "Het herkenningspunt is donker wijn gestoofd vlees met sterkere wildachtige smaak."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        60,
+        "protein"
+      ],
+      [
+        "red-wine",
+        20,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "rosemary",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "red-wine",
+      "garlic",
+      "lamb"
+    ],
+    "basicTaste": [
+      "winey",
+      "gamey",
+      "savory"
+    ],
+    "textureProfile": [
+      "dark braise",
+      "tender goat-style meat",
+      "deep sauce"
+    ],
+    "riskFlags": [
+      "contains-alcohol"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "no-alcohol"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a deep red-wine goat-style stew; skip if you dislike gamey meat or wine sauce.",
+      "zh": "想吃红酒深炖山羊风味肉时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een diepe rodewijn-geitenstoof wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125044-chanfana.webp",
+    "thumbPath": "/assets/dishes/thumb/125044-chanfana.webp"
+  },
+  {
+    "id": "cabrito-assado",
+    "metadataCode": "125045",
+    "imageCode": "125045",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Cabrito Assado",
+      "zh": "烤小山羊",
+      "nl": "Cabrito Assado",
+      "local": "Cabrito Assado"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "baked",
+      "grilled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Cabrito Assado is Portuguese roast kid or young goat, usually served with potatoes.",
+      "zh": "烤小山羊通常是葡式烤小山羊，通常配土豆。",
+      "nl": "Cabrito Assado is meestal Portugees geroosterd jong geitje, meestal met aardappelen."
+    },
+    "cookingProfile": {
+      "en": "Expect roasted tender goat-style meat with herb and garlic aroma.",
+      "zh": "点餐时可预期烤肉较嫩，有香草和蒜香。",
+      "nl": "Verwacht mals geroosterd geitachtig vlees met kruid- en knoflookgeur."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is roasted tender goat-style meat with herb and garlic aroma.",
+        "zh": "点餐识别重点是烤肉较嫩，有香草和蒜香。",
+        "nl": "Het herkenningspunt is mals geroosterd geitachtig vlees met kruid- en knoflookgeur."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        60,
+        "protein"
+      ],
+      [
+        "potato",
+        25,
+        "starch-or-legume"
+      ],
+      [
+        "rosemary",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lamb",
+      "garlic",
+      "rosemary"
+    ],
+    "basicTaste": [
+      "savory",
+      "herbal",
+      "roasted"
+    ],
+    "textureProfile": [
+      "roasted young goat-style meat",
+      "potato side",
+      "herb aroma"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [],
+    "orderVerdict": {
+      "en": "Choose it when you want a Portuguese roast meat plate; skip if you dislike lamb or goat-like flavor.",
+      "zh": "想吃葡式烤肉配土豆时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een Portugees gebraad met aardappel wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125045-cabrito-assado.webp",
+    "thumbPath": "/assets/dishes/thumb/125045-cabrito-assado.webp"
+  },
+  {
+    "id": "arroz-de-tamboril",
+    "metadataCode": "125046",
+    "imageCode": "125046",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Arroz de Tamboril",
+      "zh": "安康鱼米饭",
+      "nl": "Arroz de Tamboril",
+      "local": "Arroz de Tamboril"
+    },
+    "category": "rice",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Arroz de Tamboril is Portuguese monkfish-style rice, usually wet and saucy rather than dry.",
+      "zh": "安康鱼米饭通常是葡式安康鱼米饭，通常湿润多汁，不是干炒饭。",
+      "nl": "Arroz de Tamboril is meestal Portugese zeeduivelrijst, meestal nat en sauzig in plaats van droog."
+    },
+    "cookingProfile": {
+      "en": "Expect brothy tomato rice with firm fish pieces.",
+      "zh": "点餐时可预期番茄汤汁米饭配紧实鱼块。",
+      "nl": "Verwacht bouillonachtige tomatenrijst met stevige vis."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is brothy tomato rice with firm fish pieces.",
+        "zh": "点餐识别重点是番茄汤汁米饭配紧实鱼块。",
+        "nl": "Het herkenningspunt is bouillonachtige tomatenrijst met stevige vis."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        35,
+        "seafood"
+      ],
+      [
+        "steamed-rice",
+        35,
+        "starch-or-legume"
+      ],
+      [
+        "shrimp",
+        10,
+        "seafood"
+      ],
+      [
+        "tomato-sauce",
+        10,
+        "component"
+      ],
+      [
+        "coriander",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fish-fillet",
+      "tomato-sauce",
+      "coriander"
+    ],
+    "basicTaste": [
+      "seafood-savory",
+      "tomato-bright",
+      "brothy"
+    ],
+    "textureProfile": [
+      "wet rice",
+      "firm fish",
+      "saucy bowl"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-shellfish"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "rice"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "shellfish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a wet seafood rice; skip if you prefer dry rice or avoid fish.",
+      "zh": "想吃湿润鱼肉米饭时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een nat zeevruchtenrijstgerecht wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125046-arroz-de-tamboril.webp",
+    "thumbPath": "/assets/dishes/thumb/125046-arroz-de-tamboril.webp"
+  },
+  {
+    "id": "lulas-recheadas",
+    "metadataCode": "125047",
+    "imageCode": "125047",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Lulas Recheadas",
+      "zh": "葡式酿鱿鱼",
+      "nl": "Lulas Recheadas",
+      "local": "Lulas Recheadas"
+    },
+    "category": "seafood",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "braised"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Lulas Recheadas is Portuguese stuffed squid, often filled with meat or rice and cooked in tomato sauce.",
+      "zh": "葡式酿鱿鱼通常是葡式酿鱿鱼，常塞肉馅或米饭，再用番茄酱汁炖。",
+      "nl": "Lulas Recheadas is meestal Portugese gevulde inktvis, vaak met vlees of rijst en tomatensaus."
+    },
+    "cookingProfile": {
+      "en": "Expect firm squid tubes with a savory filling and sauce.",
+      "zh": "点餐时可预期鱿鱼筒有弹性，内馅咸香，配酱汁。",
+      "nl": "Verwacht stevige inktvistubes met hartige vulling en saus."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is firm squid tubes with a savory filling and sauce.",
+        "zh": "点餐识别重点是鱿鱼筒有弹性，内馅咸香，配酱汁。",
+        "nl": "Het herkenningspunt is stevige inktvistubes met hartige vulling en saus."
+      }
+    },
+    "composition": [
+      [
+        "squid",
+        50,
+        "seafood"
+      ],
+      [
+        "ground-meat",
+        20,
+        "protein"
+      ],
+      [
+        "steamed-rice",
+        15,
+        "starch-or-legume"
+      ],
+      [
+        "tomato-sauce",
+        10,
+        "component"
+      ],
+      [
+        "parsley",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "squid",
+      "tomato-sauce",
+      "parsley"
+    ],
+    "basicTaste": [
+      "savory",
+      "seafood",
+      "saucy"
+    ],
+    "textureProfile": [
+      "stuffed squid",
+      "firm bite",
+      "tomato sauce"
+    ],
+    "riskFlags": [
+      "contains-shellfish"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "shellfish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want saucy stuffed squid; skip if you dislike squid texture.",
+      "zh": "想吃带馅炖鱿鱼时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je sauzige gevulde inktvis wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125047-lulas-recheadas.webp",
+    "thumbPath": "/assets/dishes/thumb/125047-lulas-recheadas.webp"
+  },
+  {
+    "id": "chocos-fritos",
+    "metadataCode": "125048",
+    "imageCode": "125048",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Chocos Fritos",
+      "zh": "葡式炸墨鱼",
+      "nl": "Chocos Fritos",
+      "local": "Chocos Fritos"
+    },
+    "category": "seafood",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "deep-fried"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Chocos Fritos is Portuguese fried cuttlefish-style pieces, often served with lemon.",
+      "zh": "葡式炸墨鱼通常是葡式炸墨鱼或乌贼块，常配柠檬。",
+      "nl": "Chocos Fritos is meestal Portugese gefrituurde inktvisachtige stukken, vaak met citroen."
+    },
+    "cookingProfile": {
+      "en": "Expect crisp fried coating and firm seafood chew.",
+      "zh": "点餐时可预期外层酥脆，海鲜口感有弹性。",
+      "nl": "Verwacht krokant jasje en stevige zeevruchtenbeet."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food"
+      ],
+      "description": {
+        "en": "The ordering cue is crisp fried coating and firm seafood chew.",
+        "zh": "点餐识别重点是外层酥脆，海鲜口感有弹性。",
+        "nl": "Het herkenningspunt is krokant jasje en stevige zeevruchtenbeet."
+      }
+    },
+    "composition": [
+      [
+        "squid",
+        65,
+        "seafood"
+      ],
+      [
+        "wheat-flour",
+        15,
+        "base"
+      ],
+      [
+        "neutral-frying-oil",
+        10,
+        "component"
+      ],
+      [
+        "lemon",
+        5,
+        "fruit-or-sweetness"
+      ],
+      [
+        "sea-salt",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "squid",
+      "lemon",
+      "sea-salt"
+    ],
+    "basicTaste": [
+      "salty",
+      "fried",
+      "seafood"
+    ],
+    "textureProfile": [
+      "fried cuttlefish-style pieces",
+      "crisp coating",
+      "firm chew"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want fried cuttlefish-style seafood; skip if you avoid fried seafood.",
+      "zh": "想吃酥炸墨鱼风味海鲜时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je gefrituurde inktvisachtige zeevrucht wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125048-chocos-fritos.webp",
+    "thumbPath": "/assets/dishes/thumb/125048-chocos-fritos.webp"
+  },
+  {
+    "id": "caldeirada",
+    "metadataCode": "125049",
+    "imageCode": "125049",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Caldeirada",
+      "zh": "葡式鱼锅",
+      "nl": "Caldeirada",
+      "local": "Caldeirada"
+    },
+    "category": "seafood",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Caldeirada is Portuguese fish stew with potato, tomato, pepper, and olive oil.",
+      "zh": "葡式鱼锅通常是葡式鱼锅，含土豆、番茄、甜椒和橄榄油。",
+      "nl": "Caldeirada is meestal Portugese visstoof met aardappel, tomaat, paprika en olijfolie."
+    },
+    "cookingProfile": {
+      "en": "Expect rustic fish broth with potatoes soaking up sauce.",
+      "zh": "点餐时可预期乡土感鱼汤，土豆会吸收番茄汤汁。",
+      "nl": "Verwacht rustieke visbouillon waarin aardappel saus opneemt."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is rustic fish broth with potatoes soaking up sauce.",
+        "zh": "点餐识别重点是乡土感鱼汤，土豆会吸收番茄汤汁。",
+        "nl": "Het herkenningspunt is rustieke visbouillon waarin aardappel saus opneemt."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        40,
+        "seafood"
+      ],
+      [
+        "potato",
+        25,
+        "starch-or-legume"
+      ],
+      [
+        "tomato-sauce",
+        15,
+        "component"
+      ],
+      [
+        "bell-pepper",
+        10,
+        "component"
+      ],
+      [
+        "olive-oil",
+        5,
+        "component"
+      ],
+      [
+        "parsley",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fish-fillet",
+      "tomato-sauce",
+      "olive-oil"
+    ],
+    "basicTaste": [
+      "brothy",
+      "seafood-savory",
+      "rustic"
+    ],
+    "textureProfile": [
+      "fish stew",
+      "potato slices",
+      "tomato broth"
+    ],
+    "riskFlags": [
+      "contains-fish"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "fish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a rustic Portuguese fish stew; skip if you avoid fish or brothy stews.",
+      "zh": "想吃葡式鱼肉炖锅时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een rustieke Portugese visstoof wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125049-caldeirada.webp",
+    "thumbPath": "/assets/dishes/thumb/125049-caldeirada.webp"
+  },
+  {
+    "id": "salada-de-polvo",
+    "metadataCode": "125053",
+    "imageCode": "125053",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Salada de Polvo",
+      "zh": "葡式章鱼沙拉",
+      "nl": "Salada de Polvo",
+      "local": "Salada de Polvo"
+    },
+    "category": "salad",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "boiled",
+      "chilled",
+      "assembled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Salada de Polvo is Portuguese cold octopus salad with onion, olive oil, parsley, and vinegar.",
+      "zh": "葡式章鱼沙拉通常是葡式冷章鱼沙拉，拌洋葱、橄榄油、欧芹和醋。",
+      "nl": "Salada de Polvo is meestal Portugese koude octopussalade met ui, olijfolie, peterselie en azijn."
+    },
+    "cookingProfile": {
+      "en": "Expect cool firm octopus in a sharp olive-oil dressing.",
+      "zh": "点餐时可预期冷章鱼有弹性，调味带醋香和橄榄油香。",
+      "nl": "Verwacht koele stevige octopus in scherpe olijfolie-dressing."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is cool firm octopus in a sharp olive-oil dressing.",
+        "zh": "点餐识别重点是冷章鱼有弹性，调味带醋香和橄榄油香。",
+        "nl": "Het herkenningspunt is koele stevige octopus in scherpe olijfolie-dressing."
+      }
+    },
+    "composition": [
+      [
+        "octopus",
+        50,
+        "seafood"
+      ],
+      [
+        "onion",
+        15,
+        "component"
+      ],
+      [
+        "olive-oil",
+        15,
+        "component"
+      ],
+      [
+        "parsley",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "vinegar",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "octopus",
+      "olive-oil",
+      "vinegar"
+    ],
+    "basicTaste": [
+      "briny",
+      "fresh",
+      "tangy"
+    ],
+    "textureProfile": [
+      "cold octopus",
+      "firm chew",
+      "vinaigrette"
+    ],
+    "riskFlags": [
+      "contains-shellfish"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "shellfish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a cold tangy octopus salad; skip if you dislike chilled seafood or chewy octopus.",
+      "zh": "想吃冷食酸香章鱼沙拉时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een koude friszure octopussalade wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125053-salada-de-polvo.webp",
+    "thumbPath": "/assets/dishes/thumb/125053-salada-de-polvo.webp"
+  }
+]

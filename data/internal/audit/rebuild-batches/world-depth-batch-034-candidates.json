@@ -1,0 +1,272 @@
+[
+  {
+    "dishId": "french-toast",
+    "metadataCode": "122013",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "French Toast",
+    "imagePath": "/assets/dishes/main/122013-french-toast.webp",
+    "thumbPath": "/assets/dishes/thumb/122013-french-toast.webp"
+  },
+  {
+    "dishId": "eggs-benedict",
+    "metadataCode": "122014",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Eggs Benedict",
+    "imagePath": "/assets/dishes/main/122014-eggs-benedict.webp",
+    "thumbPath": "/assets/dishes/thumb/122014-eggs-benedict.webp"
+  },
+  {
+    "dishId": "avocado-toast",
+    "metadataCode": "122015",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Avocado Toast",
+    "imagePath": "/assets/dishes/main/122015-avocado-toast.webp",
+    "thumbPath": "/assets/dishes/thumb/122015-avocado-toast.webp"
+  },
+  {
+    "dishId": "granola-bowl",
+    "metadataCode": "122016",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Granola Bowl",
+    "imagePath": "/assets/dishes/main/122016-granola-bowl.webp",
+    "thumbPath": "/assets/dishes/thumb/122016-granola-bowl.webp"
+  },
+  {
+    "dishId": "club-sandwich",
+    "metadataCode": "122017",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Club Sandwich",
+    "imagePath": "/assets/dishes/main/122017-club-sandwich.webp",
+    "thumbPath": "/assets/dishes/thumb/122017-club-sandwich.webp"
+  },
+  {
+    "dishId": "bagel-cream-cheese",
+    "metadataCode": "122018",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Bagel with Cream Cheese",
+    "imagePath": "/assets/dishes/main/122018-bagel-cream-cheese.webp",
+    "thumbPath": "/assets/dishes/thumb/122018-bagel-cream-cheese.webp"
+  },
+  {
+    "dishId": "smoked-salmon-bagel",
+    "metadataCode": "122019",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Smoked Salmon Bagel",
+    "imagePath": "/assets/dishes/main/122019-smoked-salmon-bagel.webp",
+    "thumbPath": "/assets/dishes/thumb/122019-smoked-salmon-bagel.webp"
+  },
+  {
+    "dishId": "banana-bread",
+    "metadataCode": "122020",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Banana Bread",
+    "imagePath": "/assets/dishes/main/122020-banana-bread.webp",
+    "thumbPath": "/assets/dishes/thumb/122020-banana-bread.webp"
+  },
+  {
+    "dishId": "meatloaf",
+    "metadataCode": "122021",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Meatloaf",
+    "imagePath": "/assets/dishes/main/122021-meatloaf.webp",
+    "thumbPath": "/assets/dishes/thumb/122021-meatloaf.webp"
+  },
+  {
+    "dishId": "pulled-pork-sandwich",
+    "metadataCode": "122022",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Pulled Pork Sandwich",
+    "imagePath": "/assets/dishes/main/122022-pulled-pork-sandwich.webp",
+    "thumbPath": "/assets/dishes/thumb/122022-pulled-pork-sandwich.webp"
+  },
+  {
+    "dishId": "philly-cheesesteak",
+    "metadataCode": "122023",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Philly Cheesesteak",
+    "imagePath": "/assets/dishes/main/122023-philly-cheesesteak.webp",
+    "thumbPath": "/assets/dishes/thumb/122023-philly-cheesesteak.webp"
+  },
+  {
+    "dishId": "grilled-cheese",
+    "metadataCode": "122024",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Grilled Cheese",
+    "imagePath": "/assets/dishes/main/122024-grilled-cheese.webp",
+    "thumbPath": "/assets/dishes/thumb/122024-grilled-cheese.webp"
+  },
+  {
+    "dishId": "cornbread",
+    "metadataCode": "122025",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Cornbread",
+    "imagePath": "/assets/dishes/main/122025-cornbread.webp",
+    "thumbPath": "/assets/dishes/thumb/122025-cornbread.webp"
+  },
+  {
+    "dishId": "jambalaya",
+    "metadataCode": "122026",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Jambalaya",
+    "imagePath": "/assets/dishes/main/122026-jambalaya.webp",
+    "thumbPath": "/assets/dishes/thumb/122026-jambalaya.webp"
+  },
+  {
+    "dishId": "gumbo",
+    "metadataCode": "122027",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Gumbo",
+    "imagePath": "/assets/dishes/main/122027-gumbo.webp",
+    "thumbPath": "/assets/dishes/thumb/122027-gumbo.webp"
+  },
+  {
+    "dishId": "key-lime-pie",
+    "metadataCode": "122028",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Key Lime Pie",
+    "imagePath": "/assets/dishes/main/122028-key-lime-pie.webp",
+    "thumbPath": "/assets/dishes/thumb/122028-key-lime-pie.webp"
+  },
+  {
+    "dishId": "brownie",
+    "metadataCode": "122029",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Brownie",
+    "imagePath": "/assets/dishes/main/122029-brownie.webp",
+    "thumbPath": "/assets/dishes/thumb/122029-brownie.webp"
+  },
+  {
+    "dishId": "cheesecake-american",
+    "metadataCode": "122030",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "American Cheesecake",
+    "imagePath": "/assets/dishes/main/122030-cheesecake-american.webp",
+    "thumbPath": "/assets/dishes/thumb/122030-cheesecake-american.webp"
+  },
+  {
+    "dishId": "pom",
+    "metadataCode": "126002",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Pom",
+    "imagePath": "/assets/dishes/main/126002-pom.webp",
+    "thumbPath": "/assets/dishes/thumb/126002-pom.webp"
+  },
+  {
+    "dishId": "kip-kerrie",
+    "metadataCode": "126013",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Kip Kerrie",
+    "imagePath": "/assets/dishes/main/126013-kip-kerrie.webp",
+    "thumbPath": "/assets/dishes/thumb/126013-kip-kerrie.webp"
+  },
+  {
+    "dishId": "bruine-bonen-met-rijst",
+    "metadataCode": "126014",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Bruine Bonen met Rijst",
+    "imagePath": "/assets/dishes/main/126014-bruine-bonen-met-rijst.webp",
+    "thumbPath": "/assets/dishes/thumb/126014-bruine-bonen-met-rijst.webp"
+  },
+  {
+    "dishId": "pastei-surinamese",
+    "metadataCode": "126015",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Surinamese Pastei",
+    "imagePath": "/assets/dishes/main/126015-pastei-surinamese.webp",
+    "thumbPath": "/assets/dishes/thumb/126015-pastei-surinamese.webp"
+  },
+  {
+    "dishId": "doksa",
+    "metadataCode": "126016",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Doksa",
+    "imagePath": "/assets/dishes/main/126016-doksa.webp",
+    "thumbPath": "/assets/dishes/thumb/126016-doksa.webp"
+  },
+  {
+    "dishId": "herheri",
+    "metadataCode": "126017",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Herheri",
+    "imagePath": "/assets/dishes/main/126017-herheri.webp",
+    "thumbPath": "/assets/dishes/thumb/126017-herheri.webp"
+  },
+  {
+    "dishId": "pepre-watra",
+    "metadataCode": "126018",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Pepre Watra",
+    "imagePath": "/assets/dishes/main/126018-pepre-watra.webp",
+    "thumbPath": "/assets/dishes/thumb/126018-pepre-watra.webp"
+  },
+  {
+    "dishId": "goedangan",
+    "metadataCode": "126019",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Goedangan",
+    "imagePath": "/assets/dishes/main/126019-goedangan.webp",
+    "thumbPath": "/assets/dishes/thumb/126019-goedangan.webp"
+  },
+  {
+    "dishId": "pitjel",
+    "metadataCode": "126020",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Pitjel",
+    "imagePath": "/assets/dishes/main/126020-pitjel.webp",
+    "thumbPath": "/assets/dishes/thumb/126020-pitjel.webp"
+  },
+  {
+    "dishId": "bakabana",
+    "metadataCode": "126021",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Bakabana",
+    "imagePath": "/assets/dishes/main/126021-bakabana.webp",
+    "thumbPath": "/assets/dishes/thumb/126021-bakabana.webp"
+  },
+  {
+    "dishId": "dawet",
+    "metadataCode": "126022",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Dawet",
+    "imagePath": "/assets/dishes/main/126022-dawet.webp",
+    "thumbPath": "/assets/dishes/thumb/126022-dawet.webp"
+  },
+  {
+    "dishId": "fiadoe",
+    "metadataCode": "126023",
+    "cuisineId": "surinamese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Fiadoe",
+    "imagePath": "/assets/dishes/main/126023-fiadoe.webp",
+    "thumbPath": "/assets/dishes/thumb/126023-fiadoe.webp"
+  }
+]

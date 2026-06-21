@@ -19775,103 +19775,114 @@ export const worldDishes = [
     "acquiredTasteLevel": 1
   }),
   starterDish({
-      "id": "pom",
-      "metadataCode": "126002",
-      "cuisineId": "surinamese",
-      "names": {
-        "en": "Pom",
-        "zh": "苏里南波姆烤鸡木薯",
-        "nl": "Pom",
-        "local": "pom"
-      },
-      "category": "meat",
-      "cookingMethods": [
-        "grilled"
+    "id": "pom",
+    "metadataCode": "126002",
+    "imageCode": "126002",
+    "cuisineId": "surinamese",
+    "names": {
+      "en": "Pom",
+      "zh": "苏里南波姆烤鸡木薯",
+      "nl": "Pom",
+      "local": "pom"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Pom is a Surinamese oven dish of grated pomtayer root with chicken and citrusy-spiced sauce.",
+      "zh": "苏里南波姆烤鸡木薯通常是苏里南烤菜，用磨碎的蓬芋根配鸡肉和带酸香辣味的酱汁。",
+      "nl": "Pom is meestal een Surinaamse ovenschotel van geraspte pomtayer met kip en kruidig frisse saus."
+    },
+    "cookingProfile": {
+      "en": "Expect a soft starchy bake with chicken pieces and bright chili heat.",
+      "zh": "点餐时可预期根茎泥烤后柔软，夹鸡肉，带明亮辣味。",
+      "nl": "Verwacht een zachte zetmeelrijke ovenschotel met kip en frisse chiliwarmte."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish",
+        "spicy"
       ],
-      "shortDescription": {
-        "en": "Baked tayer/cassava-style casserole with chicken and citrusy savoriness.",
-        "zh": "苏里南波姆烤鸡木薯 是常见苏里南菜菜单菜品，重点用于判断口味、分量和点餐风险。",
-        "nl": "Pom is een veelvoorkomend gerecht in de surinaams keuken, beschreven voor snelle bestelkeuzes."
-      },
-      "cookingProfile": {
-        "en": "Usually served with tender meat, charred or saucy edges, so the ordering experience depends on sauce, filling, and portion size.",
-        "zh": "通常呈现为tender meat，点餐时主要看酱汁、馅料和分量。",
-        "nl": "Meestal met tender meat; saus, vulling en portiegrootte bepalen de ervaring."
-      },
-      "cuisineRole": {
-        "level": "classic",
-        "tags": [
-          "common-menu-item",
-          "restaurant-coverage"
-        ],
-        "description": {
-          "en": "A high-frequency Surinamese menu item added for broad DishKAI restaurant coverage.",
-          "zh": "为提升 DishKAI 餐厅菜单覆盖率加入的高频苏里南菜菜品。",
-          "nl": "Een vaak voorkomend surinaams menu-item voor brede DishKAI restaurantdekking."
-        }
-      },
-      "composition": [
-        [
-          "lamb",
-          45,
-          "main"
-        ],
-        [
-          "steamed-rice",
-          25,
-          "base"
-        ],
-        [
-          "mixed-vegetables",
-          20,
-          "side"
-        ],
-        [
-          "cumin",
-          5,
-          "aroma",
-          "seasoning"
-        ],
-        [
-          "black-pepper",
-          5,
-          "seasoning",
-          "seasoning"
-        ]
+      "description": {
+        "en": "The ordering cue is a soft starchy bake with chicken pieces and bright chili heat.",
+        "zh": "点餐识别重点是根茎泥烤后柔软，夹鸡肉，带明亮辣味。",
+        "nl": "Het herkenningspunt is een zachte zetmeelrijke ovenschotel met kip en frisse chiliwarmte."
+      }
+    },
+    "composition": [
+      [
+        "tayer-root",
+        45,
+        "starch-or-legume"
       ],
-      "distinctiveFlavorSources": [
-        "cumin",
-        "chili",
-        "coconut-curry"
+      [
+        "chicken",
+        30,
+        "protein"
       ],
-      "basicTaste": [
-        "savory",
-        "rich"
+      [
+        "tomato-sauce",
+        10,
+        "component"
       ],
-      "textureProfile": [
-        "tender meat",
-        "charred or saucy edges"
+      [
+        "onion",
+        10,
+        "component"
       ],
-      "riskFlags": [],
-      "dietaryFlags": [],
-      "goodForTags": [
-        "restaurant-coverage",
-        "first-timer-friendly"
-      ],
-      "avoidIfTags": [
-        "wants-light-food"
-      ],
-      "orderVerdict": {
-        "en": "Distinctive Surinamese comfort dish; filling and rich.",
-        "zh": "如果你接受这类口味和风险，苏里南波姆烤鸡木薯 是可以考虑的选择。",
-        "nl": "Een goede keuze als je deze smaak en risico’s prima vindt."
-      },
-      "spiceLevel": 1,
-      "weightLevel": 4,
-      "acquiredTasteLevel": 1,
-      "metadataConfidence": 0.72,
-      "restaurantVariationLevel": "medium"
-    }),
+      [
+        "madame-jeanette-chili",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "tayer-root",
+      "chicken",
+      "madame-jeanette-chili"
+    ],
+    "basicTaste": [
+      "savory",
+      "tangy",
+      "mildly spicy"
+    ],
+    "textureProfile": [
+      "soft grated-root bake",
+      "tender chicken",
+      "saucy edges"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "spicy"
+    ],
+    "avoidIfTags": [
+      "no-spicy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a Surinamese baked chicken-root dish; skip if you dislike soft starchy bakes.",
+      "zh": "想吃苏里南鸡肉根茎烤菜时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een Surinaamse ovenschotel met kip en knol wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/126002-pom.webp",
+    "thumbPath": "/assets/dishes/thumb/126002-pom.webp"
+  }),
   starterDish({
     "id": "saoto-soep",
     "metadataCode": "126003",

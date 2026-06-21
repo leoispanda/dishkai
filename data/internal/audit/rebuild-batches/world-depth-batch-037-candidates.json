@@ -1,0 +1,272 @@
+[
+  {
+    "dishId": "gammon-steak",
+    "metadataCode": "123049",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Gammon Steak",
+    "imagePath": "/assets/dishes/main/123049-gammon-steak.webp",
+    "thumbPath": "/assets/dishes/thumb/123049-gammon-steak.webp"
+  },
+  {
+    "dishId": "cauliflower-cheese",
+    "metadataCode": "123050",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Cauliflower Cheese",
+    "imagePath": "/assets/dishes/main/123050-cauliflower-cheese.webp",
+    "thumbPath": "/assets/dishes/thumb/123050-cauliflower-cheese.webp"
+  },
+  {
+    "dishId": "minted-peas",
+    "metadataCode": "123051",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Minted Peas",
+    "imagePath": "/assets/dishes/main/123051-minted-peas.webp",
+    "thumbPath": "/assets/dishes/thumb/123051-minted-peas.webp"
+  },
+  {
+    "dishId": "bakewell-tart",
+    "metadataCode": "123052",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Bakewell Tart",
+    "imagePath": "/assets/dishes/main/123052-bakewell-tart.webp",
+    "thumbPath": "/assets/dishes/thumb/123052-bakewell-tart.webp"
+  },
+  {
+    "dishId": "victoria-sponge",
+    "metadataCode": "123053",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Victoria Sponge",
+    "imagePath": "/assets/dishes/main/123053-victoria-sponge.webp",
+    "thumbPath": "/assets/dishes/thumb/123053-victoria-sponge.webp"
+  },
+  {
+    "dishId": "spotted-dick",
+    "metadataCode": "123054",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Spotted Dick",
+    "imagePath": "/assets/dishes/main/123054-spotted-dick.webp",
+    "thumbPath": "/assets/dishes/thumb/123054-spotted-dick.webp"
+  },
+  {
+    "dishId": "treacle-tart",
+    "metadataCode": "123055",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Treacle Tart",
+    "imagePath": "/assets/dishes/main/123055-treacle-tart.webp",
+    "thumbPath": "/assets/dishes/thumb/123055-treacle-tart.webp"
+  },
+  {
+    "dishId": "banoffee-pie",
+    "metadataCode": "123056",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Banoffee Pie",
+    "imagePath": "/assets/dishes/main/123056-banoffee-pie.webp",
+    "thumbPath": "/assets/dishes/thumb/123056-banoffee-pie.webp"
+  },
+  {
+    "dishId": "mince-pies",
+    "metadataCode": "123057",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Mince Pies",
+    "imagePath": "/assets/dishes/main/123057-mince-pies.webp",
+    "thumbPath": "/assets/dishes/thumb/123057-mince-pies.webp"
+  },
+  {
+    "dishId": "christmas-pudding",
+    "metadataCode": "123058",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Christmas Pudding",
+    "imagePath": "/assets/dishes/main/123058-christmas-pudding.webp",
+    "thumbPath": "/assets/dishes/thumb/123058-christmas-pudding.webp"
+  },
+  {
+    "dishId": "welsh-cakes",
+    "metadataCode": "123059",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Welsh Cakes",
+    "imagePath": "/assets/dishes/main/123059-welsh-cakes.webp",
+    "thumbPath": "/assets/dishes/thumb/123059-welsh-cakes.webp"
+  },
+  {
+    "dishId": "eccles-cakes",
+    "metadataCode": "123060",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Eccles Cakes",
+    "imagePath": "/assets/dishes/main/123060-eccles-cakes.webp",
+    "thumbPath": "/assets/dishes/thumb/123060-eccles-cakes.webp"
+  },
+  {
+    "dishId": "pataniscas-de-bacalhau",
+    "metadataCode": "125032",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Pataniscas de Bacalhau",
+    "imagePath": "/assets/dishes/main/125032-pataniscas-de-bacalhau.webp",
+    "thumbPath": "/assets/dishes/thumb/125032-pataniscas-de-bacalhau.webp"
+  },
+  {
+    "dishId": "acorda-alentejana",
+    "metadataCode": "125033",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Acorda Alentejana",
+    "imagePath": "/assets/dishes/main/125033-acorda-alentejana.webp",
+    "thumbPath": "/assets/dishes/thumb/125033-acorda-alentejana.webp"
+  },
+  {
+    "dishId": "arroz-de-polvo",
+    "metadataCode": "125034",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Arroz de Polvo",
+    "imagePath": "/assets/dishes/main/125034-arroz-de-polvo.webp",
+    "thumbPath": "/assets/dishes/thumb/125034-arroz-de-polvo.webp"
+  },
+  {
+    "dishId": "polvo-guisado",
+    "metadataCode": "125035",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Polvo Guisado",
+    "imagePath": "/assets/dishes/main/125035-polvo-guisado.webp",
+    "thumbPath": "/assets/dishes/thumb/125035-polvo-guisado.webp"
+  },
+  {
+    "dishId": "rojoes",
+    "metadataCode": "125037",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Rojoes",
+    "imagePath": "/assets/dishes/main/125037-rojoes.webp",
+    "thumbPath": "/assets/dishes/thumb/125037-rojoes.webp"
+  },
+  {
+    "dishId": "febras",
+    "metadataCode": "125038",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Febras",
+    "imagePath": "/assets/dishes/main/125038-febras.webp",
+    "thumbPath": "/assets/dishes/thumb/125038-febras.webp"
+  },
+  {
+    "dishId": "entrecosto",
+    "metadataCode": "125039",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Entrecosto",
+    "imagePath": "/assets/dishes/main/125039-entrecosto.webp",
+    "thumbPath": "/assets/dishes/thumb/125039-entrecosto.webp"
+  },
+  {
+    "dishId": "bifinhos-com-cogumelos",
+    "metadataCode": "125040",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Bifinhos com Cogumelos",
+    "imagePath": "/assets/dishes/main/125040-bifinhos-com-cogumelos.webp",
+    "thumbPath": "/assets/dishes/thumb/125040-bifinhos-com-cogumelos.webp"
+  },
+  {
+    "dishId": "sopa-da-pedra",
+    "metadataCode": "125041",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Sopa da Pedra",
+    "imagePath": "/assets/dishes/main/125041-sopa-da-pedra.webp",
+    "thumbPath": "/assets/dishes/thumb/125041-sopa-da-pedra.webp"
+  },
+  {
+    "dishId": "canja-de-galinha",
+    "metadataCode": "125042",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Canja de Galinha",
+    "imagePath": "/assets/dishes/main/125042-canja-de-galinha.webp",
+    "thumbPath": "/assets/dishes/thumb/125042-canja-de-galinha.webp"
+  },
+  {
+    "dishId": "feijoada-a-transmontana",
+    "metadataCode": "125043",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Feijoada a Transmontana",
+    "imagePath": "/assets/dishes/main/125043-feijoada-a-transmontana.webp",
+    "thumbPath": "/assets/dishes/thumb/125043-feijoada-a-transmontana.webp"
+  },
+  {
+    "dishId": "chanfana",
+    "metadataCode": "125044",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Chanfana",
+    "imagePath": "/assets/dishes/main/125044-chanfana.webp",
+    "thumbPath": "/assets/dishes/thumb/125044-chanfana.webp"
+  },
+  {
+    "dishId": "cabrito-assado",
+    "metadataCode": "125045",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Cabrito Assado",
+    "imagePath": "/assets/dishes/main/125045-cabrito-assado.webp",
+    "thumbPath": "/assets/dishes/thumb/125045-cabrito-assado.webp"
+  },
+  {
+    "dishId": "arroz-de-tamboril",
+    "metadataCode": "125046",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Arroz de Tamboril",
+    "imagePath": "/assets/dishes/main/125046-arroz-de-tamboril.webp",
+    "thumbPath": "/assets/dishes/thumb/125046-arroz-de-tamboril.webp"
+  },
+  {
+    "dishId": "lulas-recheadas",
+    "metadataCode": "125047",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Lulas Recheadas",
+    "imagePath": "/assets/dishes/main/125047-lulas-recheadas.webp",
+    "thumbPath": "/assets/dishes/thumb/125047-lulas-recheadas.webp"
+  },
+  {
+    "dishId": "chocos-fritos",
+    "metadataCode": "125048",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Chocos Fritos",
+    "imagePath": "/assets/dishes/main/125048-chocos-fritos.webp",
+    "thumbPath": "/assets/dishes/thumb/125048-chocos-fritos.webp"
+  },
+  {
+    "dishId": "caldeirada",
+    "metadataCode": "125049",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Caldeirada",
+    "imagePath": "/assets/dishes/main/125049-caldeirada.webp",
+    "thumbPath": "/assets/dishes/thumb/125049-caldeirada.webp"
+  },
+  {
+    "dishId": "salada-de-polvo",
+    "metadataCode": "125053",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Salada de Polvo",
+    "imagePath": "/assets/dishes/main/125053-salada-de-polvo.webp",
+    "thumbPath": "/assets/dishes/thumb/125053-salada-de-polvo.webp"
+  }
+]

@@ -174,160 +174,575 @@ export const cafeBrunchDepthDishes = [
     "restaurantVariationLevel": "medium"
   }),
   cafeDish({
-    id: "french-toast",
-    metadataCode: "122013",
-    cuisineId: "american",
-    names: { en: "French Toast", zh: "法式吐司", nl: "Wentelteefjes", local: "French toast" },
-    category: "dessert",
-    cookingMethods: ["fried"],
-    shortDescription: {
-      en: "Bread soaked in egg and milk, pan-fried, then served sweet with syrup, fruit, or powdered sugar.",
-      zh: "面包浸蛋奶后煎香，通常配糖浆、水果或糖粉，偏甜。",
-      nl: "Brood geweekt in ei en melk, gebakken en zoet geserveerd met siroop of fruit.",
+    "id": "french-toast",
+    "metadataCode": "122013",
+    "imageCode": "122013",
+    "cuisineId": "american",
+    "names": {
+      "en": "French Toast",
+      "zh": "法式吐司",
+      "nl": "Wentelteefjes",
+      "local": "French toast"
     },
-    cookingProfile: {
-      en: "Soft custardy bread with browned edges; more dessert-like than plain toast.",
-      zh: "内里像蛋奶布丁、边缘煎香，比普通吐司更像甜点。",
-      nl: "Zacht custardachtig brood met bruine randjes; meer dessert dan toast.",
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "fried",
+      "toasted"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "French Toast is bread soaked in egg and dairy, pan-browned and served sweet with syrup or fruit.",
+      "zh": "法式吐司通常是浸过蛋奶的面包煎香后配糖浆或水果，整体偏甜。",
+      "nl": "Wentelteefjes is meestal in ei en zuivel geweekt brood, goudbruin gebakken en zoet geserveerd met siroop of fruit."
     },
-    composition: [["bread", 45, "base"], ["egg", 20, "custard-soak"], ["cream", 15, "custard-soak"], ["butter", 10, "pan-fat"], ["maple-syrup", 10, "sweet-finish", "seasoning"]],
-    distinctiveFlavorSources: ["maple-syrup", "cinnamon", "vanilla"],
-    basicTaste: ["sweet", "creamy", "buttery"],
-    textureProfile: ["soft center", "browned edges", "syrupy"],
-    riskFlags: ["contains-gluten", "contains-egg", "contains-dairy"],
-    dietaryFlags: ["vegetarian"],
-    goodForTags: ["brunch", "sweet-breakfast"],
-    orderVerdict: {
-      en: "Order when you want sweet brunch; skip if you want something light or savory.",
-      zh: "想吃甜口早午餐可以点；想清淡或咸口则不适合。",
-      nl: "Bestel voor zoete brunch; minder geschikt als je licht of hartig wilt.",
+    "cookingProfile": {
+      "en": "Expect a soft custardy middle, browned edges, and a sweet brunch feel.",
+      "zh": "点餐时可预期内里柔软像蛋奶布丁，边缘煎香，适合甜口早午餐。",
+      "nl": "Verwacht een zachte custardkern, bruine randjes en een zoete brunchstijl."
     },
-    weightLevel: 3,
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is a soft custardy middle, browned edges, and a sweet brunch feel.",
+        "zh": "点餐识别重点是内里柔软像蛋奶布丁，边缘煎香，适合甜口早午餐。",
+        "nl": "Het herkenningspunt is een zachte custardkern, bruine randjes en een zoete brunchstijl."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        45,
+        "base"
+      ],
+      [
+        "egg",
+        20,
+        "component"
+      ],
+      [
+        "cream",
+        15,
+        "richness"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "maple-syrup",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "maple-syrup",
+      "cinnamon",
+      "vanilla"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "buttery"
+    ],
+    "textureProfile": [
+      "custardy center",
+      "browned edges",
+      "syrupy finish"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want sweet, soft brunch with syrup; skip if you want a light or savory breakfast.",
+      "zh": "想吃带糖浆的柔软甜早午餐时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je zoete, zachte brunch met siroop wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/122013-french-toast.webp",
+    "thumbPath": "/assets/dishes/thumb/122013-french-toast.webp"
   }),
   cafeDish({
-    id: "eggs-benedict",
-    metadataCode: "122014",
-    cuisineId: "american",
-    names: { en: "Eggs Benedict", zh: "班尼迪克蛋", nl: "Eggs Benedict", local: "eggs benedict" },
-    category: "main",
-    cookingMethods: ["assembled"],
-    shortDescription: {
-      en: "Poached eggs on bread or muffin with ham and hollandaise sauce.",
-      zh: "面包或英式松饼上放火腿、水波蛋和荷兰酱，经典早午餐。",
-      nl: "Gepocheerde eieren op brood of muffin met ham en hollandaisesaus.",
+    "id": "eggs-benedict",
+    "metadataCode": "122014",
+    "imageCode": "122014",
+    "cuisineId": "american",
+    "names": {
+      "en": "Eggs Benedict",
+      "zh": "班尼迪克蛋",
+      "nl": "Eggs Benedict",
+      "local": "eggs benedict"
     },
-    cookingProfile: {
-      en: "Rich hollandaise and runny egg make it indulgent; quality depends heavily on egg timing.",
-      zh: "荷兰酱和流心水波蛋让它很浓郁，成败很看鸡蛋火候。",
-      nl: "Rijke hollandaise en lopend ei maken het luxe; timing van ei is belangrijk.",
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Eggs Benedict is poached eggs on a muffin or toast with ham and hollandaise sauce.",
+      "zh": "班尼迪克蛋通常是英式松饼或吐司上放火腿、水波蛋和荷兰酱。",
+      "nl": "Eggs Benedict is meestal gepocheerde eieren op muffin of toast met ham en hollandaisesaus."
     },
-    composition: [["egg", 30, "poached-eggs"], ["bread", 25, "base"], ["ham", 20, "protein"], ["hollandaise-sauce", 20, "sauce"], ["black-pepper", 5, "seasoning", "seasoning"]],
-    distinctiveFlavorSources: ["black-pepper", "sea-salt"],
-    basicTaste: ["rich", "savory", "buttery"],
-    textureProfile: ["runny egg", "creamy sauce", "soft bread"],
-    riskFlags: ["contains-egg", "contains-dairy", "contains-gluten", "contains-pork"],
-    dietaryFlags: [],
-    goodForTags: ["brunch", "classic-dish"],
-    orderVerdict: {
-      en: "A classic rich brunch order; avoid if you dislike hollandaise, runny eggs, or ham.",
-      zh: "经典浓郁早午餐；不爱荷兰酱、流心蛋或火腿就谨慎。",
-      nl: "Klassieke rijke brunch; vermijden bij hollandaise, lopend ei of ham.",
+    "cookingProfile": {
+      "en": "Expect runny egg yolk, buttery sauce, and a fairly rich plate.",
+      "zh": "点餐时可预期流心水波蛋配黄油感荷兰酱，整体比较浓郁。",
+      "nl": "Verwacht lopende eidooier, botersaus en een vrij rijk bord."
     },
-    weightLevel: 4,
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is runny egg yolk, buttery sauce, and a fairly rich plate.",
+        "zh": "点餐识别重点是流心水波蛋配黄油感荷兰酱，整体比较浓郁。",
+        "nl": "Het herkenningspunt is lopende eidooier, botersaus en een vrij rijk bord."
+      }
+    },
+    "composition": [
+      [
+        "egg",
+        30,
+        "component"
+      ],
+      [
+        "bread",
+        25,
+        "base"
+      ],
+      [
+        "ham",
+        20,
+        "protein"
+      ],
+      [
+        "hollandaise-sauce",
+        20,
+        "richness"
+      ],
+      [
+        "black-pepper",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "hollandaise-sauce",
+      "egg",
+      "ham"
+    ],
+    "basicTaste": [
+      "rich",
+      "savory",
+      "buttery"
+    ],
+    "textureProfile": [
+      "runny egg",
+      "creamy sauce",
+      "soft bread"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-dairy",
+      "contains-gluten",
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "dairy-free",
+      "gluten-free",
+      "no-pork"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a classic rich brunch plate; skip if you dislike hollandaise, ham, or runny eggs.",
+      "zh": "想吃经典浓郁早午餐时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een klassieke rijke brunch wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/122014-eggs-benedict.webp",
+    "thumbPath": "/assets/dishes/thumb/122014-eggs-benedict.webp"
   }),
   cafeDish({
-    id: "avocado-toast",
-    metadataCode: "122015",
-    cuisineId: "american",
-    names: { en: "Avocado Toast", zh: "牛油果吐司", nl: "Avocadotoast", local: "avocado toast" },
-    category: "bread",
-    cookingMethods: ["assembled", "toasted"],
-    shortDescription: {
-      en: "Toast topped with mashed or sliced avocado, often with egg, feta, chili, or seeds.",
-      zh: "吐司上铺牛油果泥或切片，常加鸡蛋、菲达、辣椒或籽类。",
-      nl: "Toast met geprakte of gesneden avocado, vaak met ei, feta, chili of zaden.",
+    "id": "avocado-toast",
+    "metadataCode": "122015",
+    "imageCode": "122015",
+    "cuisineId": "american",
+    "names": {
+      "en": "Avocado Toast",
+      "zh": "牛油果吐司",
+      "nl": "Avocadotoast",
+      "local": "avocado toast"
     },
-    cookingProfile: {
-      en: "Fresh and creamy on crisp toast; toppings decide whether it is light or filling.",
-      zh: "酥脆吐司配清新奶油感牛油果，饱腹程度看配料。",
-      nl: "Fris en romig op krokante toast; toppings bepalen hoe vullend het is.",
+    "category": "bread",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "assembled",
+      "toasted"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Avocado Toast is crisp toast topped with mashed or sliced avocado and optional egg, cheese, chili, or seeds.",
+      "zh": "牛油果吐司通常是脆吐司上铺牛油果泥或切片，可加鸡蛋、奶酪或辣椒。",
+      "nl": "Avocadotoast is meestal krokante toast met geprakte of gesneden avocado en soms ei, kaas of chili."
     },
-    composition: [["bread", 40, "toast-base"], ["avocado", 35, "topping"], ["egg", 15, "optional-topping"], ["feta", 5, "optional-cheese"], ["chili", 5, "heat", "seasoning"]],
-    distinctiveFlavorSources: ["chili", "sea-salt", "olive-oil"],
-    basicTaste: ["mild", "creamy", "fresh"],
-    textureProfile: ["crisp toast", "creamy avocado", "optional runny egg"],
-    riskFlags: ["contains-gluten", "contains-egg", "contains-dairy"],
-    dietaryFlags: ["can-be-vegan", "can-be-vegetarian"],
-    goodForTags: ["brunch", "lighter-choice"],
-    orderVerdict: {
-      en: "Good café order if you want lighter brunch; add egg if you need more protein.",
-      zh: "想吃较轻的 café brunch 很适合；想更饱可以加蛋。",
-      nl: "Goede cafékeuze voor lichtere brunch; voeg ei toe voor meer eiwit.",
+    "cookingProfile": {
+      "en": "Expect creamy avocado on toast; toppings decide whether it is light or filling.",
+      "zh": "点餐时可预期酥脆吐司配奶油感牛油果，是否饱腹主要看配料。",
+      "nl": "Verwacht romige avocado op toast; toppings bepalen hoe vullend het wordt."
     },
-    spiceLevel: 1,
-    weightLevel: 2,
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is creamy avocado on toast; toppings decide whether it is light or filling.",
+        "zh": "点餐识别重点是酥脆吐司配奶油感牛油果，是否饱腹主要看配料。",
+        "nl": "Het herkenningspunt is romige avocado op toast; toppings bepalen hoe vullend het wordt."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        40,
+        "base"
+      ],
+      [
+        "avocado",
+        35,
+        "component"
+      ],
+      [
+        "egg",
+        15,
+        "component"
+      ],
+      [
+        "feta",
+        5,
+        "richness"
+      ],
+      [
+        "chili",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "avocado",
+      "chili",
+      "olive-oil"
+    ],
+    "basicTaste": [
+      "mild",
+      "creamy",
+      "fresh"
+    ],
+    "textureProfile": [
+      "crisp toast",
+      "creamy avocado",
+      "optional runny egg"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "can-be-vegetarian"
+    ],
+    "goodForTags": [
+      "sandwich-or-bread"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want fresh creamy toast with flexible toppings; skip if you need guaranteed vegan or gluten-free food.",
+      "zh": "想吃清爽奶油感吐司时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je frisse romige toast met flexibele toppings wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/122015-avocado-toast.webp",
+    "thumbPath": "/assets/dishes/thumb/122015-avocado-toast.webp"
   }),
   cafeDish({
-    id: "granola-bowl",
-    metadataCode: "122016",
-    cuisineId: "american",
-    names: { en: "Granola Bowl", zh: "格兰诺拉酸奶碗", nl: "Granolabowl", local: "granola bowl" },
-    category: "dessert",
-    cookingMethods: ["assembled"],
-    shortDescription: {
-      en: "Yogurt bowl with granola, fruit, honey, berries, or seeds.",
-      zh: "酸奶碗配格兰诺拉麦片、水果、蜂蜜、莓果或籽类。",
-      nl: "Yoghurtkom met granola, fruit, honing, bessen of zaden.",
+    "id": "granola-bowl",
+    "metadataCode": "122016",
+    "imageCode": "122016",
+    "cuisineId": "american",
+    "names": {
+      "en": "Granola Bowl",
+      "zh": "格兰诺拉酸奶碗",
+      "nl": "Granolabowl",
+      "local": "granola bowl"
     },
-    cookingProfile: {
-      en: "Cold, crunchy, and creamy; healthier-feeling but can be sweet.",
-      zh: "冷食，口感脆和奶油感并存，看似健康但可能偏甜。",
-      nl: "Koud, crunchy en romig; voelt gezond maar kan zoet zijn.",
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "assembled",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Granola Bowl is a chilled yogurt bowl with granola, fruit, and a sweet drizzle.",
+      "zh": "格兰诺拉酸奶碗通常是冷酸奶碗配格兰诺拉麦片、水果和少量甜味淋酱。",
+      "nl": "Granolabowl is meestal een koude yoghurtkom met granola, fruit en iets zoets."
     },
-    composition: [["yogurt", 45, "base"], ["granola", 30, "crunch"], ["berries", 15, "fruit"], ["banana", 5, "fruit"], ["honey", 5, "sweetness"]],
-    distinctiveFlavorSources: ["honey", "vanilla"],
-    basicTaste: ["sweet", "tangy", "creamy"],
-    textureProfile: ["creamy yogurt", "crunchy granola", "fresh fruit"],
-    riskFlags: ["contains-dairy", "contains-gluten", "contains-tree-nut"],
-    dietaryFlags: ["vegetarian"],
-    goodForTags: ["breakfast", "lighter-choice"],
-    orderVerdict: {
-      en: "Good for a lighter breakfast; check nuts and sweetness if that matters.",
-      zh: "适合较轻早餐；介意坚果或糖分要看配料。",
-      nl: "Goed licht ontbijt; check noten en zoetheid indien belangrijk.",
+    "cookingProfile": {
+      "en": "Expect creamy yogurt, crunchy oats, and fresh fruit rather than a hot breakfast.",
+      "zh": "点餐时可预期酸奶顺滑、麦片酥脆、水果清新，不是热早餐。",
+      "nl": "Verwacht romige yoghurt, krokante granola en vers fruit in plaats van warm ontbijt."
     },
-    weightLevel: 2,
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is creamy yogurt, crunchy oats, and fresh fruit rather than a hot breakfast.",
+        "zh": "点餐识别重点是酸奶顺滑、麦片酥脆、水果清新，不是热早餐。",
+        "nl": "Het herkenningspunt is romige yoghurt, krokante granola en vers fruit in plaats van warm ontbijt."
+      }
+    },
+    "composition": [
+      [
+        "yogurt",
+        40,
+        "richness"
+      ],
+      [
+        "granola",
+        25,
+        "component"
+      ],
+      [
+        "berries",
+        20,
+        "fruit-or-sweetness"
+      ],
+      [
+        "banana",
+        10,
+        "fruit-or-sweetness"
+      ],
+      [
+        "honey",
+        5,
+        "distinctive-seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "yogurt",
+      "berries",
+      "honey"
+    ],
+    "basicTaste": [
+      "sweet",
+      "tangy",
+      "fresh"
+    ],
+    "textureProfile": [
+      "creamy yogurt",
+      "crunchy granola",
+      "juicy fruit"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-gluten",
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "gluten-free",
+      "tree-nut-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a lighter sweet breakfast bowl; skip if you avoid dairy, nuts, or hidden sugar.",
+      "zh": "想吃较轻的甜口早餐碗时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een lichtere zoete ontbijtkom wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/122016-granola-bowl.webp",
+    "thumbPath": "/assets/dishes/thumb/122016-granola-bowl.webp"
   }),
   cafeDish({
-    id: "acai-bowl",
-    metadataCode: "130013",
-    cuisineId: "brazilian",
-    names: { en: "Açaí Bowl", zh: "巴西莓碗", nl: "Açaíbowl", local: "açaí bowl" },
-    category: "dessert",
-    cookingMethods: ["assembled", "chilled"],
-    shortDescription: {
-      en: "Cold açaí fruit bowl topped with banana, berries, granola, honey, or seeds.",
-      zh: "冷的巴西莓果泥碗，常配香蕉、莓果、麦片、蜂蜜或籽类。",
-      nl: "Koude açaífruitkom met banaan, bessen, granola, honing of zaden.",
+    "id": "acai-bowl",
+    "metadataCode": "130013",
+    "imageCode": "130013",
+    "cuisineId": "brazilian",
+    "names": {
+      "en": "Açaí Bowl",
+      "zh": "巴西莓碗",
+      "nl": "Açaíbowl",
+      "local": "açaí bowl"
     },
-    cookingProfile: {
-      en: "It eats like a smoothie bowl: cold, fruity, and topping-heavy.",
-      zh: "像 smoothie bowl，冷、果味重，配料很多。",
-      nl: "Eet als een smoothiebowl: koud, fruitig en met veel toppings.",
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "assembled",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Açaí Bowl is a cold blended açaí fruit bowl topped with banana, granola, and sweet extras.",
+      "zh": "巴西莓碗通常是冷打巴西莓果泥碗，上面常放香蕉、麦片和甜配料。",
+      "nl": "Açaíbowl is meestal een koude gemixte acaikom met banaan, granola en zoete toppings."
     },
-    composition: [["berries", 40, "fruit-base"], ["banana", 25, "fruit-body"], ["granola", 20, "crunch"], ["honey", 10, "sweetness"], ["berries", 5, "topping"]],
-    distinctiveFlavorSources: ["honey"],
-    basicTaste: ["sweet", "fruity", "cold"],
-    textureProfile: ["cold puree", "crunchy topping", "fresh fruit"],
-    riskFlags: ["contains-gluten", "contains-tree-nut"],
-    dietaryFlags: ["can-be-vegan"],
-    goodForTags: ["breakfast", "lighter-choice"],
-    orderVerdict: {
-      en: "Good if you want a cold fruity bowl; not ideal when you want a warm savory meal.",
-      zh: "想吃冷的水果碗可以点；想吃热咸食则不适合。",
-      nl: "Goed voor een koude fruitbowl; minder geschikt voor warm hartig eten.",
+    "cookingProfile": {
+      "en": "Expect a thick cold fruit base with crunchy toppings.",
+      "zh": "点餐时可预期冷果泥厚实，上面配酥脆配料。",
+      "nl": "Verwacht een dikke koude fruitbasis met krokante toppings."
     },
-    weightLevel: 2,
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is a thick cold fruit base with crunchy toppings.",
+        "zh": "点餐识别重点是冷果泥厚实，上面配酥脆配料。",
+        "nl": "Het herkenningspunt is een dikke koude fruitbasis met krokante toppings."
+      }
+    },
+    "composition": [
+      [
+        "acai-puree",
+        45,
+        "fruit-or-sweetness"
+      ],
+      [
+        "banana",
+        25,
+        "fruit-or-sweetness"
+      ],
+      [
+        "granola",
+        20,
+        "component"
+      ],
+      [
+        "honey",
+        5,
+        "distinctive-seasoning"
+      ],
+      [
+        "grated-coconut",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "acai-puree",
+      "banana",
+      "granola"
+    ],
+    "basicTaste": [
+      "sweet-tart",
+      "fruity",
+      "cold"
+    ],
+    "textureProfile": [
+      "smooth frozen base",
+      "crunchy topping",
+      "fruit bowl"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [
+      "can-be-vegan"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "tree-nut-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a cold fruity breakfast bowl; skip if you avoid cold sweet bowls or hidden sugar.",
+      "zh": "想吃冷的水果早餐碗时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een koude fruitige ontbijtkom wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-035",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/130013-acai-bowl.webp",
+    "thumbPath": "/assets/dishes/thumb/130013-acai-bowl.webp"
   }),
   cafeDish({
     id: "croissant",
@@ -396,98 +811,334 @@ export const cafeBrunchDepthDishes = [
     metadataConfidence: 0.82
   }),
   cafeDish({
-    id: "club-sandwich",
-    metadataCode: "122017",
-    cuisineId: "american",
-    names: { en: "Club Sandwich", zh: "总汇三明治", nl: "Club Sandwich", local: "club sandwich" },
-    category: "bread",
-    cookingMethods: ["assembled", "toasted"],
-    shortDescription: {
-      en: "Layered toasted sandwich, usually with chicken or turkey, bacon, egg, lettuce, tomato, and mayo.",
-      zh: "多层烤三明治，常有鸡肉或火鸡、培根、鸡蛋、生菜、番茄和蛋黄酱。",
-      nl: "Gelaagde geroosterde sandwich met kip of kalkoen, spek, ei, sla, tomaat en mayo.",
+    "id": "club-sandwich",
+    "metadataCode": "122017",
+    "imageCode": "122017",
+    "cuisineId": "american",
+    "names": {
+      "en": "Club Sandwich",
+      "zh": "总汇三明治",
+      "nl": "Club Sandwich",
+      "local": "club sandwich"
     },
-    cookingProfile: {
-      en: "A stacked café lunch; portion can be large and often comes with fries.",
-      zh: "堆叠式 café 午餐，分量可能很大，常配薯条。",
-      nl: "Gestapelde cafélunch; portie kan groot zijn en komt vaak met friet.",
+    "category": "bread",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "assembled",
+      "toasted"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Club Sandwich is a layered toasted sandwich with chicken or turkey, bacon, egg, lettuce-style vegetables, and mayonnaise.",
+      "zh": "总汇三明治通常是多层烤三明治，常有鸡肉或火鸡、培根、鸡蛋、蔬菜和蛋黄酱。",
+      "nl": "Club Sandwich is meestal een gelaagde tosti-achtige sandwich met kip of kalkoen, spek, ei, groente en mayonaise."
     },
-    composition: [["bread", 35, "toast-base"], ["chicken", 20, "protein"], ["bacon", 15, "salty-fat"], ["egg", 10, "filling"], ["tomato", 10, "freshness"], ["mixed-vegetables", 10, "lettuce"]],
-    distinctiveFlavorSources: ["mustard", "black-pepper"],
-    basicTaste: ["savory", "salty", "filling"],
-    textureProfile: ["toasted bread", "layered", "crisp bacon"],
-    riskFlags: ["contains-gluten", "contains-egg", "contains-pork"],
-    dietaryFlags: [],
-    goodForTags: ["lunch", "safe-choice"],
-    orderVerdict: {
-      en: "Reliable café lunch; check bacon if you avoid pork and expect a filling portion.",
-      zh: "稳定的 café 午餐；避猪肉要确认培根，分量通常不小。",
-      nl: "Betrouwbare cafélunch; check spek bij varkensvermijding en verwacht vulling.",
+    "cookingProfile": {
+      "en": "Expect a filling stacked sandwich with salty bacon and creamy sauce.",
+      "zh": "点餐时可预期分量较足，培根咸香，酱感明显。",
+      "nl": "Verwacht een vullende gestapelde sandwich met zout spek en romige saus."
     },
-    weightLevel: 4,
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is a filling stacked sandwich with salty bacon and creamy sauce.",
+        "zh": "点餐识别重点是分量较足，培根咸香，酱感明显。",
+        "nl": "Het herkenningspunt is een vullende gestapelde sandwich met zout spek en romige saus."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        35,
+        "base"
+      ],
+      [
+        "chicken",
+        25,
+        "protein"
+      ],
+      [
+        "bacon",
+        15,
+        "protein"
+      ],
+      [
+        "egg",
+        10,
+        "component"
+      ],
+      [
+        "mayonnaise",
+        10,
+        "richness"
+      ],
+      [
+        "tomato",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "bacon",
+      "mayonnaise",
+      "black-pepper"
+    ],
+    "basicTaste": [
+      "savory",
+      "creamy",
+      "salty"
+    ],
+    "textureProfile": [
+      "layered toast",
+      "crisp bacon",
+      "creamy sauce"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "sandwich-or-bread"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "no-pork"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a substantial cafe sandwich; skip if you avoid pork, egg, or mayonnaise.",
+      "zh": "想吃分量足的咖啡馆三明治时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een stevige cafésandwich wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/122017-club-sandwich.webp",
+    "thumbPath": "/assets/dishes/thumb/122017-club-sandwich.webp"
   }),
   cafeDish({
-    id: "bagel-cream-cheese",
-    metadataCode: "122018",
-    cuisineId: "american",
-    names: { en: "Bagel with Cream Cheese", zh: "奶油奶酪贝果", nl: "Bagel met Roomkaas", local: "bagel with cream cheese" },
-    category: "bread",
-    cookingMethods: ["assembled", "toasted"],
-    shortDescription: {
-      en: "Chewy bagel with tangy cream cheese, often served plain or with herbs.",
-      zh: "有嚼劲的贝果配酸香奶油奶酪，常见原味或香草味。",
-      nl: "Taai-zachte bagel met frisse roomkaas, naturel of met kruiden.",
+    "id": "bagel-cream-cheese",
+    "metadataCode": "122018",
+    "imageCode": "122018",
+    "cuisineId": "american",
+    "names": {
+      "en": "Bagel with Cream Cheese",
+      "zh": "奶油奶酪贝果",
+      "nl": "Bagel met Roomkaas",
+      "local": "bagel with cream cheese"
     },
-    cookingProfile: {
-      en: "Simple, bready, and creamy; more breakfast snack than full brunch.",
-      zh: "简单、面包感强、奶油感明显，更像早餐小食不是完整早午餐。",
-      nl: "Simpel, broodachtig en romig; meer ontbijt-snack dan volledige brunch.",
+    "category": "bread",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "assembled",
+      "toasted"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Bagel with Cream Cheese is a chewy bagel served with a thick cream cheese spread.",
+      "zh": "奶油奶酪贝果通常是有嚼劲的贝果配厚厚奶油奶酪。",
+      "nl": "Bagel met Roomkaas is meestal een taaie bagel met een dikke laag roomkaas."
     },
-    composition: [["bagel", 65, "base"], ["cream-cheese", 30, "spread"], ["parsley", 5, "herb", "seasoning"]],
-    distinctiveFlavorSources: ["sea-salt"],
-    basicTaste: ["mild", "creamy", "bready"],
-    textureProfile: ["chewy bagel", "creamy spread", "toasted if warm"],
-    riskFlags: ["contains-gluten", "contains-dairy"],
-    dietaryFlags: ["vegetarian"],
-    goodForTags: ["breakfast", "quick-bite"],
-    orderVerdict: {
-      en: "A simple safe breakfast bite; choose salmon or egg versions if you want more protein.",
-      zh: "简单安全的早餐小食；想要蛋白质更多可以选三文鱼或鸡蛋版。",
-      nl: "Simpele veilige ontbijtkeuze; kies zalm of ei voor meer eiwit.",
+    "cookingProfile": {
+      "en": "Expect dense bread and cool tangy dairy, usually simple and filling.",
+      "zh": "点餐时可预期面包体扎实，奶油奶酪清凉微酸，通常简单但顶饱。",
+      "nl": "Verwacht compact brood met koele friszure zuivel, meestal eenvoudig en vullend."
     },
-    weightLevel: 2,
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is dense bread and cool tangy dairy, usually simple and filling.",
+        "zh": "点餐识别重点是面包体扎实，奶油奶酪清凉微酸，通常简单但顶饱。",
+        "nl": "Het herkenningspunt is compact brood met koele friszure zuivel, meestal eenvoudig en vullend."
+      }
+    },
+    "composition": [
+      [
+        "bagel",
+        65,
+        "base"
+      ],
+      [
+        "cream-cheese",
+        30,
+        "richness"
+      ],
+      [
+        "cucumber",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cream-cheese",
+      "sea-salt"
+    ],
+    "basicTaste": [
+      "mild",
+      "creamy",
+      "tangy"
+    ],
+    "textureProfile": [
+      "chewy bagel",
+      "thick spread",
+      "cool bite"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "sandwich-or-bread"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a mild filling bagel; skip if you avoid dairy or dense bread.",
+      "zh": "想吃温和顶饱的贝果时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een milde vullende bagel wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/122018-bagel-cream-cheese.webp",
+    "thumbPath": "/assets/dishes/thumb/122018-bagel-cream-cheese.webp"
   }),
   cafeDish({
-    id: "smoked-salmon-bagel",
-    metadataCode: "122019",
-    cuisineId: "american",
-    names: { en: "Smoked Salmon Bagel", zh: "烟熏三文鱼贝果", nl: "Bagel met Gerookte Zalm", local: "smoked salmon bagel" },
-    category: "bread",
-    cookingMethods: ["assembled"],
-    shortDescription: {
-      en: "Bagel with cream cheese and smoked salmon, often with capers, onion, lemon, or dill.",
-      zh: "贝果配奶油奶酪和烟熏三文鱼，常加酸豆、洋葱、柠檬或莳萝。",
-      nl: "Bagel met roomkaas en gerookte zalm, vaak met kappertjes, ui, citroen of dille.",
+    "id": "smoked-salmon-bagel",
+    "metadataCode": "122019",
+    "imageCode": "122019",
+    "cuisineId": "american",
+    "names": {
+      "en": "Smoked Salmon Bagel",
+      "zh": "烟熏三文鱼贝果",
+      "nl": "Bagel met Gerookte Zalm",
+      "local": "smoked salmon bagel"
     },
-    cookingProfile: {
-      en: "Cold assembled bagel; salty fish and cream cheese are the main flavor.",
-      zh: "冷组装贝果，主要是烟熏鱼的咸鲜和奶油奶酪。",
-      nl: "Koud samengestelde bagel; zoute vis en roomkaas bepalen de smaak.",
+    "category": "bread",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "assembled",
+      "toasted"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Smoked Salmon Bagel is a bagel layered with smoked salmon, cream cheese, and often capers or cucumber.",
+      "zh": "烟熏三文鱼贝果通常是贝果夹烟熏三文鱼、奶油奶酪，常配酸豆或黄瓜。",
+      "nl": "Bagel met Gerookte Zalm is meestal een bagel met gerookte zalm, roomkaas en vaak kappertjes of komkommer."
     },
-    composition: [["bagel", 45, "base"], ["smoked-salmon", 30, "protein"], ["cream-cheese", 20, "spread"], ["dill", 5, "herb", "seasoning"]],
-    distinctiveFlavorSources: ["dill", "sea-salt"],
-    basicTaste: ["salty", "creamy", "briny"],
-    textureProfile: ["chewy bagel", "silky salmon", "creamy spread"],
-    riskFlags: ["contains-gluten", "contains-dairy", "contains-fish"],
-    dietaryFlags: ["pescatarian"],
-    goodForTags: ["breakfast", "brunch"],
-    orderVerdict: {
-      en: "Good if you like smoked fish; not ideal if you want something hot.",
-      zh: "喜欢烟熏鱼很适合；想吃热食则不太合适。",
-      nl: "Goed als je gerookte vis lust; minder geschikt als je warm eten wilt.",
+    "cookingProfile": {
+      "en": "Expect salty silky fish, tangy dairy, and a chewy bread base.",
+      "zh": "点餐时可预期烟熏鱼咸鲜滑嫩，配微酸奶油奶酪和有嚼劲贝果。",
+      "nl": "Verwacht zoute zachte vis, frisse zuivel en een taaie broodbasis."
     },
-    acquiredTasteLevel: 2,
-    weightLevel: 3,
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is salty silky fish, tangy dairy, and a chewy bread base.",
+        "zh": "点餐识别重点是烟熏鱼咸鲜滑嫩，配微酸奶油奶酪和有嚼劲贝果。",
+        "nl": "Het herkenningspunt is zoute zachte vis, frisse zuivel en een taaie broodbasis."
+      }
+    },
+    "composition": [
+      [
+        "bagel",
+        40,
+        "base"
+      ],
+      [
+        "smoked-salmon",
+        30,
+        "component"
+      ],
+      [
+        "cream-cheese",
+        20,
+        "richness"
+      ],
+      [
+        "cucumber",
+        5,
+        "component"
+      ],
+      [
+        "capers",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "smoked-salmon",
+      "cream-cheese",
+      "capers"
+    ],
+    "basicTaste": [
+      "salty",
+      "creamy",
+      "briny"
+    ],
+    "textureProfile": [
+      "chewy bagel",
+      "silky salmon",
+      "cool cream cheese"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-fish"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "sandwich-or-bread"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "fish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a briny creamy salmon bagel; skip if you avoid fish, dairy, or capers.",
+      "zh": "想吃咸鲜奶油感三文鱼贝果时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een zilte romige zalmbagel wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/122019-smoked-salmon-bagel.webp",
+    "thumbPath": "/assets/dishes/thumb/122019-smoked-salmon-bagel.webp"
   }),
   cafeDish({
     id: "tosti",
@@ -622,35 +1273,118 @@ export const cafeBrunchDepthDishes = [
     metadataConfidence: 0.82
   }),
   cafeDish({
-    id: "banana-bread",
-    metadataCode: "122020",
-    cuisineId: "american",
-    names: { en: "Banana Bread", zh: "香蕉蛋糕", nl: "Bananenbrood", local: "banana bread" },
-    category: "dessert",
-    cookingMethods: ["baked"],
-    shortDescription: {
-      en: "Moist banana loaf cake, often served as a café snack with butter, nuts, or chocolate.",
-      zh: "湿润香蕉磅蛋糕，常作为咖啡馆小点，可加黄油、坚果或巧克力。",
-      nl: "Vochtig bananencakebrood, vaak als cafésnack met boter, noten of chocolade.",
+    "id": "banana-bread",
+    "metadataCode": "122020",
+    "imageCode": "122020",
+    "cuisineId": "american",
+    "names": {
+      "en": "Banana Bread",
+      "zh": "香蕉蛋糕",
+      "nl": "Bananenbrood",
+      "local": "banana bread"
     },
-    cookingProfile: {
-      en: "Cake-like and sweet, not bread in the savory sense.",
-      zh: "更像甜蛋糕，不是咸口面包。",
-      nl: "Meer zoete cake dan hartig brood.",
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Banana Bread is a moist banana loaf cake often sold as a cafe snack.",
+      "zh": "香蕉蛋糕通常是湿润的香蕉蛋糕条，常作为咖啡馆小点。",
+      "nl": "Bananenbrood is meestal een vochtige bananencake, vaak als cafésnack."
     },
-    composition: [["banana", 35, "fruit-base"], ["wheat-flour", 30, "cake-body"], ["egg", 15, "structure"], ["sugar", 10, "sweetness"], ["butter", 10, "richness"]],
-    distinctiveFlavorSources: ["vanilla", "cinnamon"],
-    basicTaste: ["sweet", "banana", "soft"],
-    textureProfile: ["moist cake", "soft crumb", "sweet"],
-    riskFlags: ["contains-gluten", "contains-egg", "contains-dairy"],
-    dietaryFlags: ["vegetarian"],
-    goodForTags: ["cafe-snack", "sweet-choice"],
-    orderVerdict: {
-      en: "Good with coffee if you want a sweet snack; not a light savory breakfast.",
-      zh: "配咖啡的小甜点很合适；不是清淡咸口早餐。",
-      nl: "Goed bij koffie als zoete snack; geen licht hartig ontbijt.",
+    "cookingProfile": {
+      "en": "Expect soft cake texture and banana sweetness rather than savory bread.",
+      "zh": "点餐时可预期口感更像软蛋糕，香蕉甜味明显，不是咸面包。",
+      "nl": "Verwacht zachte cake en bananenzachtheid, geen hartig brood."
     },
-    weightLevel: 2,
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is soft cake texture and banana sweetness rather than savory bread.",
+        "zh": "点餐识别重点是口感更像软蛋糕，香蕉甜味明显，不是咸面包。",
+        "nl": "Het herkenningspunt is zachte cake en bananenzachtheid, geen hartig brood."
+      }
+    },
+    "composition": [
+      [
+        "banana",
+        35,
+        "fruit-or-sweetness"
+      ],
+      [
+        "wheat-flour",
+        30,
+        "base"
+      ],
+      [
+        "egg",
+        15,
+        "component"
+      ],
+      [
+        "sugar",
+        10,
+        "component"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "banana",
+      "vanilla",
+      "cinnamon"
+    ],
+    "basicTaste": [
+      "sweet",
+      "banana",
+      "soft"
+    ],
+    "textureProfile": [
+      "moist cake",
+      "soft crumb",
+      "sweet loaf"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a sweet snack with coffee; skip if you want a savory or very light breakfast.",
+      "zh": "想配咖啡吃一份小甜点时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een zoete snack bij koffie wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/122020-banana-bread.webp",
+    "thumbPath": "/assets/dishes/thumb/122020-banana-bread.webp"
   }),
 ];
 

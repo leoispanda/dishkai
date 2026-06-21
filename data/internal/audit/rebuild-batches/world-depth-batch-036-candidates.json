@@ -1,0 +1,272 @@
+[
+  {
+    "dishId": "caldinho-de-feijao",
+    "metadataCode": "130018",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Caldinho de Feijão",
+    "imagePath": "/assets/dishes/main/130018-caldinho-de-feijao.webp",
+    "thumbPath": "/assets/dishes/thumb/130018-caldinho-de-feijao.webp"
+  },
+  {
+    "dishId": "empada",
+    "metadataCode": "130019",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Empada",
+    "imagePath": "/assets/dishes/main/130019-empada.webp",
+    "thumbPath": "/assets/dishes/thumb/130019-empada.webp"
+  },
+  {
+    "dishId": "kibe-brazilian",
+    "metadataCode": "130020",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Brazilian Kibe",
+    "imagePath": "/assets/dishes/main/130020-kibe-brazilian.webp",
+    "thumbPath": "/assets/dishes/thumb/130020-kibe-brazilian.webp"
+  },
+  {
+    "dishId": "tapioca-crepe",
+    "metadataCode": "130021",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Tapioca Crepe",
+    "imagePath": "/assets/dishes/main/130021-tapioca-crepe.webp",
+    "thumbPath": "/assets/dishes/thumb/130021-tapioca-crepe.webp"
+  },
+  {
+    "dishId": "moqueca-baiana",
+    "metadataCode": "130022",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Moqueca Baiana",
+    "imagePath": "/assets/dishes/main/130022-moqueca-baiana.webp",
+    "thumbPath": "/assets/dishes/thumb/130022-moqueca-baiana.webp"
+  },
+  {
+    "dishId": "moqueca-capixaba",
+    "metadataCode": "130023",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Moqueca Capixaba",
+    "imagePath": "/assets/dishes/main/130023-moqueca-capixaba.webp",
+    "thumbPath": "/assets/dishes/thumb/130023-moqueca-capixaba.webp"
+  },
+  {
+    "dishId": "camarao-na-moranga",
+    "metadataCode": "130024",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Camarão na Moranga",
+    "imagePath": "/assets/dishes/main/130024-camarao-na-moranga.webp",
+    "thumbPath": "/assets/dishes/thumb/130024-camarao-na-moranga.webp"
+  },
+  {
+    "dishId": "salpicao",
+    "metadataCode": "130025",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Salpicão",
+    "imagePath": "/assets/dishes/main/130025-salpicao.webp",
+    "thumbPath": "/assets/dishes/thumb/130025-salpicao.webp"
+  },
+  {
+    "dishId": "canjica",
+    "metadataCode": "130026",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Canjica",
+    "imagePath": "/assets/dishes/main/130026-canjica.webp",
+    "thumbPath": "/assets/dishes/thumb/130026-canjica.webp"
+  },
+  {
+    "dishId": "cocada",
+    "metadataCode": "130027",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Cocada",
+    "imagePath": "/assets/dishes/main/130027-cocada.webp",
+    "thumbPath": "/assets/dishes/thumb/130027-cocada.webp"
+  },
+  {
+    "dishId": "beijinho",
+    "metadataCode": "130028",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Beijinho",
+    "imagePath": "/assets/dishes/main/130028-beijinho.webp",
+    "thumbPath": "/assets/dishes/thumb/130028-beijinho.webp"
+  },
+  {
+    "dishId": "mousse-de-maracuja",
+    "metadataCode": "130029",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Mousse de Maracujá",
+    "imagePath": "/assets/dishes/main/130029-mousse-de-maracuja.webp",
+    "thumbPath": "/assets/dishes/thumb/130029-mousse-de-maracuja.webp"
+  },
+  {
+    "dishId": "tapioca-pudding-brazilian",
+    "metadataCode": "130030",
+    "cuisineId": "brazilian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Brazilian Tapioca Pudding",
+    "imagePath": "/assets/dishes/main/130030-tapioca-pudding-brazilian.webp",
+    "thumbPath": "/assets/dishes/thumb/130030-tapioca-pudding-brazilian.webp"
+  },
+  {
+    "dishId": "cottage-pie",
+    "metadataCode": "123031",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Cottage Pie",
+    "imagePath": "/assets/dishes/main/123031-cottage-pie.webp",
+    "thumbPath": "/assets/dishes/thumb/123031-cottage-pie.webp"
+  },
+  {
+    "dishId": "steak-and-kidney-pudding",
+    "metadataCode": "123032",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Steak and Kidney Pudding",
+    "imagePath": "/assets/dishes/main/123032-steak-and-kidney-pudding.webp",
+    "thumbPath": "/assets/dishes/thumb/123032-steak-and-kidney-pudding.webp"
+  },
+  {
+    "dishId": "pork-pie",
+    "metadataCode": "123034",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Pork Pie",
+    "imagePath": "/assets/dishes/main/123034-pork-pie.webp",
+    "thumbPath": "/assets/dishes/thumb/123034-pork-pie.webp"
+  },
+  {
+    "dishId": "bacon-butty",
+    "metadataCode": "123035",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Bacon Butty",
+    "imagePath": "/assets/dishes/main/123035-bacon-butty.webp",
+    "thumbPath": "/assets/dishes/thumb/123035-bacon-butty.webp"
+  },
+  {
+    "dishId": "chip-butty",
+    "metadataCode": "123036",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Chip Butty",
+    "imagePath": "/assets/dishes/main/123036-chip-butty.webp",
+    "thumbPath": "/assets/dishes/thumb/123036-chip-butty.webp"
+  },
+  {
+    "dishId": "jellied-eels",
+    "metadataCode": "123037",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Jellied Eels",
+    "imagePath": "/assets/dishes/main/123037-jellied-eels.webp",
+    "thumbPath": "/assets/dishes/thumb/123037-jellied-eels.webp"
+  },
+  {
+    "dishId": "pie-and-mash",
+    "metadataCode": "123038",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Pie and Mash",
+    "imagePath": "/assets/dishes/main/123038-pie-and-mash.webp",
+    "thumbPath": "/assets/dishes/thumb/123038-pie-and-mash.webp"
+  },
+  {
+    "dishId": "welsh-cawl",
+    "metadataCode": "123039",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Welsh Cawl",
+    "imagePath": "/assets/dishes/main/123039-welsh-cawl.webp",
+    "thumbPath": "/assets/dishes/thumb/123039-welsh-cawl.webp"
+  },
+  {
+    "dishId": "lancashire-hotpot",
+    "metadataCode": "123040",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Lancashire Hotpot",
+    "imagePath": "/assets/dishes/main/123040-lancashire-hotpot.webp",
+    "thumbPath": "/assets/dishes/thumb/123040-lancashire-hotpot.webp"
+  },
+  {
+    "dishId": "colcannon",
+    "metadataCode": "123041",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Colcannon",
+    "imagePath": "/assets/dishes/main/123041-colcannon.webp",
+    "thumbPath": "/assets/dishes/thumb/123041-colcannon.webp"
+  },
+  {
+    "dishId": "champ",
+    "metadataCode": "123042",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Champ",
+    "imagePath": "/assets/dishes/main/123042-champ.webp",
+    "thumbPath": "/assets/dishes/thumb/123042-champ.webp"
+  },
+  {
+    "dishId": "boxty",
+    "metadataCode": "123043",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Boxty",
+    "imagePath": "/assets/dishes/main/123043-boxty.webp",
+    "thumbPath": "/assets/dishes/thumb/123043-boxty.webp"
+  },
+  {
+    "dishId": "irish-soda-bread",
+    "metadataCode": "123044",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Irish Soda Bread",
+    "imagePath": "/assets/dishes/main/123044-irish-soda-bread.webp",
+    "thumbPath": "/assets/dishes/thumb/123044-irish-soda-bread.webp"
+  },
+  {
+    "dishId": "irish-breakfast",
+    "metadataCode": "123045",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Irish Breakfast",
+    "imagePath": "/assets/dishes/main/123045-irish-breakfast.webp",
+    "thumbPath": "/assets/dishes/thumb/123045-irish-breakfast.webp"
+  },
+  {
+    "dishId": "kippers",
+    "metadataCode": "123046",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Kippers",
+    "imagePath": "/assets/dishes/main/123046-kippers.webp",
+    "thumbPath": "/assets/dishes/thumb/123046-kippers.webp"
+  },
+  {
+    "dishId": "kedgeree",
+    "metadataCode": "123047",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Kedgeree",
+    "imagePath": "/assets/dishes/main/123047-kedgeree.webp",
+    "thumbPath": "/assets/dishes/thumb/123047-kedgeree.webp"
+  },
+  {
+    "dishId": "coronation-chicken",
+    "metadataCode": "123048",
+    "cuisineId": "british-irish",
+    "sourceFile": "data/internal/dishes/cafe-brunch-depth-dishes.js",
+    "name": "Coronation Chicken",
+    "imagePath": "/assets/dishes/main/123048-coronation-chicken.webp",
+    "thumbPath": "/assets/dishes/thumb/123048-coronation-chicken.webp"
+  }
+]

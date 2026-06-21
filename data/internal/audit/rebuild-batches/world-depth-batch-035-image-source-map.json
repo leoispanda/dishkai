@@ -1,0 +1,272 @@
+[
+  {
+    "dishId": "maizena-koekjes",
+    "metadataCode": "126024",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dd7d23148191a18164d558f0211d.png",
+    "kind": "grid",
+    "quadrant": 1,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "telo-bakkeljauw",
+    "metadataCode": "126025",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dd7d23148191a18164d558f0211d.png",
+    "kind": "grid",
+    "quadrant": 2,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "kip-sate-surinamese",
+    "metadataCode": "126026",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dd7d23148191a18164d558f0211d.png",
+    "kind": "grid",
+    "quadrant": 3,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "cha-siu-surinamese",
+    "metadataCode": "126027",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dde417fc8191b132aff95e2ef690.png",
+    "kind": "grid",
+    "quadrant": 0,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "pom-sandwich",
+    "metadataCode": "126028",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dde417fc8191b132aff95e2ef690.png",
+    "kind": "grid",
+    "quadrant": 1,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "roti-kip-kerrie",
+    "metadataCode": "126029",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dde417fc8191b132aff95e2ef690.png",
+    "kind": "grid",
+    "quadrant": 2,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "nasi-moksi-meti",
+    "metadataCode": "126030",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37dde417fc8191b132aff95e2ef690.png",
+    "kind": "grid",
+    "quadrant": 3,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "ajiaco-peruvian",
+    "metadataCode": "129013",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37de546edc8191aa3a37cbaea47751.png",
+    "kind": "grid",
+    "quadrant": 0,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "seco-de-res",
+    "metadataCode": "129014",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37de546edc8191aa3a37cbaea47751.png",
+    "kind": "grid",
+    "quadrant": 1,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "seco-de-cordero",
+    "metadataCode": "129015",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37de546edc8191aa3a37cbaea47751.png",
+    "kind": "grid",
+    "quadrant": 2,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "tacu-tacu",
+    "metadataCode": "129016",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e1fdcfa594dd154016a37de546edc8191aa3a37cbaea47751.png",
+    "kind": "grid",
+    "quadrant": 3,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "arroz-con-mariscos",
+    "metadataCode": "129017",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37df3b8c68819188ef734711bc697b.png",
+    "kind": "grid",
+    "quadrant": 0,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "jalea",
+    "metadataCode": "129018",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37df3b8c68819188ef734711bc697b.png",
+    "kind": "grid",
+    "quadrant": 1,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "choritos-a-la-chalaca",
+    "metadataCode": "129019",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37df3b8c68819188ef734711bc697b.png",
+    "kind": "grid",
+    "quadrant": 2,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "leche-de-tigre",
+    "metadataCode": "129020",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37df3b8c68819188ef734711bc697b.png",
+    "kind": "grid",
+    "quadrant": 3,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "causa-limena",
+    "metadataCode": "129021",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37dfa658fc81918a8ab7bcd18727f8.png",
+    "kind": "grid",
+    "quadrant": 0,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "ocopa",
+    "metadataCode": "129022",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37dfa658fc81918a8ab7bcd18727f8.png",
+    "kind": "grid",
+    "quadrant": 1,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "solterito",
+    "metadataCode": "129023",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37dfa658fc81918a8ab7bcd18727f8.png",
+    "kind": "grid",
+    "quadrant": 2,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "sopa-criolla",
+    "metadataCode": "129024",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37dfa658fc81918a8ab7bcd18727f8.png",
+    "kind": "grid",
+    "quadrant": 3,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "chupe-de-camarones",
+    "metadataCode": "129025",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37e015437881918c222e6ecd8eb1d2.png",
+    "kind": "grid",
+    "quadrant": 0,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "carapulcra",
+    "metadataCode": "129026",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37e015437881918c222e6ecd8eb1d2.png",
+    "kind": "grid",
+    "quadrant": 1,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "adobo-arequipeno",
+    "metadataCode": "129027",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37e015437881918c222e6ecd8eb1d2.png",
+    "kind": "grid",
+    "quadrant": 2,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "pachamanca",
+    "metadataCode": "129028",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37e015437881918c222e6ecd8eb1d2.png",
+    "kind": "grid",
+    "quadrant": 3,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "mazamorra-morada",
+    "metadataCode": "129029",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37e086d84c8191ab87941461e61824.png",
+    "kind": "grid",
+    "quadrant": 0,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "alfajores-peruvian",
+    "metadataCode": "129030",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37e086d84c8191ab87941461e61824.png",
+    "kind": "grid",
+    "quadrant": 1,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "acai-bowl",
+    "metadataCode": "130013",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37e086d84c8191ab87941461e61824.png",
+    "kind": "grid",
+    "quadrant": 2,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "picanha",
+    "metadataCode": "130014",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37e086d84c8191ab87941461e61824.png",
+    "kind": "grid",
+    "quadrant": 3,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "escondidinho",
+    "metadataCode": "130015",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37e0f4ecb48191bd96d33a796d715a.png",
+    "kind": "grid",
+    "quadrant": 0,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "carne-de-sol",
+    "metadataCode": "130016",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37e0f4ecb48191bd96d33a796d715a.png",
+    "kind": "grid",
+    "quadrant": 1,
+    "imageStatus": "generated-replacement/code-stamped"
+  },
+  {
+    "dishId": "xinxim-de-galinha",
+    "metadataCode": "130017",
+    "batch": "035",
+    "source": "/Users/leoyang/.codex/generated_images/019ee648-3c27-7781-ab2e-e465d4969add/ig_0e7b16c5708d58c8016a37e0f4ecb48191bd96d33a796d715a.png",
+    "kind": "grid",
+    "quadrant": 2,
+    "imageStatus": "generated-replacement/code-stamped"
+  }
+]

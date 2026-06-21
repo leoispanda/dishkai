@@ -18993,6 +18993,7 @@ const europeDepthDishConfigs = [
   {
     "id": "cottage-pie",
     "metadataCode": "123031",
+    "imageCode": "123031",
     "cuisineId": "british-irish",
     "names": {
       "en": "Cottage Pie",
@@ -19000,100 +19001,106 @@ const europeDepthDishConfigs = [
       "nl": "Cottage Pie",
       "local": "Cottage Pie"
     },
-    "category": "meat",
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
-      "braised"
+      "baked",
+      "layered"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Cottage Pie is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "英式牛肉土豆派是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Cottage Pie is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Cottage Pie is a British beef mince pie topped with mashed potato rather than pastry.",
+      "zh": "英式牛肉土豆派通常是英式牛肉末土豆派，上层是土豆泥，不是酥皮。",
+      "nl": "Cottage Pie is meestal een Britse gehaktschotel met aardappelpuree bovenop in plaats van deeg."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect soft beef filling under browned mashed potato.",
+      "zh": "点餐时可预期牛肉馅柔软，上层土豆泥烤到微焦。",
+      "nl": "Verwacht zachte rundvleesvulling onder gebruinde puree."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "signature",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "signature-dish"
       ],
       "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is soft beef filling under browned mashed potato.",
+        "zh": "点餐识别重点是牛肉馅柔软，上层土豆泥烤到微焦。",
+        "nl": "Het herkenningspunt is zachte rundvleesvulling onder gebruinde puree."
       }
     },
     "composition": [
       [
         "beef",
-        45,
-        "main"
+        40,
+        "protein"
       ],
       [
         "potato",
-        20,
-        "side"
+        40,
+        "starch-or-legume"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "body"
+        "carrot",
+        10,
+        "component"
       ],
       [
         "onion",
-        10,
-        "aromatic"
+        5,
+        "component"
       ],
       [
         "black-pepper",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
+        "distinctive-seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "beef",
+      "potato",
+      "black-pepper"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "hearty",
+      "mild"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "mashed potato top",
+      "minced beef filling",
+      "browned edges"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-dairy"
+    ],
     "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "meat"
+    "goodForTags": [],
+    "avoidIfTags": [
+      "dairy-free"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a hearty beef-potato bake; skip if you want a crisp pastry pie.",
+      "zh": "想吃牛肉土豆焗菜时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een stevige rund-aardappelovenschotel wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-036",
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123031-cottage-pie.webp",
+    "thumbPath": "/assets/dishes/thumb/123031-cottage-pie.webp"
   },
   {
     "id": "steak-and-kidney-pudding",
     "metadataCode": "123032",
+    "imageCode": "123032",
     "cuisineId": "british-irish",
     "names": {
       "en": "Steak and Kidney Pudding",
@@ -19101,96 +19108,100 @@ const europeDepthDishConfigs = [
       "nl": "Steak and Kidney Pudding",
       "local": "Steak and Kidney Pudding"
     },
-    "category": "meat",
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
-      "braised"
+      "steamed"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Steak and Kidney Pudding is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "牛排腰子布丁派是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Steak and Kidney Pudding is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Steak and Kidney Pudding is a steamed British pudding filled with beef steak, kidney, and gravy.",
+      "zh": "牛排腰子布丁派通常是英式蒸咸布丁，内馅是牛肉、腰子和肉汁。",
+      "nl": "Steak and Kidney Pudding is meestal een gestoomde Britse pudding gevuld met rundvlees, niertjes en jus."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect soft dough casing with a strong meat-and-kidney filling.",
+      "zh": "点餐时可预期外皮柔软，内馅肉汁浓，腰子味明显。",
+      "nl": "Verwacht zachte deegkorst met krachtige vlees-niervulling."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is soft dough casing with a strong meat-and-kidney filling.",
+        "zh": "点餐识别重点是外皮柔软，内馅肉汁浓，腰子味明显。",
+        "nl": "Het herkenningspunt is zachte deegkorst met krachtige vlees-niervulling."
       }
     },
     "composition": [
       [
         "beef",
-        45,
-        "main"
+        40,
+        "protein"
       ],
       [
-        "potato",
+        "offal",
         20,
-        "side"
+        "protein"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "body"
+        "pastry-crust",
+        25,
+        "base"
       ],
       [
-        "onion",
+        "broth",
         10,
-        "aromatic"
+        "component"
       ],
       [
         "black-pepper",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
+        "distinctive-seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "offal",
+      "beef",
+      "black-pepper"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "rich",
+      "offal"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "soft suet-style crust",
+      "gravy filling",
+      "kidney pieces"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-gluten"
+    ],
     "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "meat"
+    "goodForTags": [],
+    "avoidIfTags": [
+      "gluten-free"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a traditional offal-rich pie-style dish; skip if you dislike kidney or soft steamed pastry.",
+      "zh": "想吃传统浓厚内脏肉馅时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een traditioneel nierrijk pasteigerecht wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-036",
     "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 4,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123032-steak-and-kidney-pudding.webp",
+    "thumbPath": "/assets/dishes/thumb/123032-steak-and-kidney-pudding.webp"
   },
   {
     "cuisineId": "british-irish",
@@ -19303,6 +19314,7 @@ const europeDepthDishConfigs = [
   {
     "id": "pork-pie",
     "metadataCode": "123034",
+    "imageCode": "123034",
     "cuisineId": "british-irish",
     "names": {
       "en": "Pork Pie",
@@ -19310,105 +19322,103 @@ const europeDepthDishConfigs = [
       "nl": "Pork Pie",
       "local": "Pork Pie"
     },
-    "category": "pork",
+    "category": "starter",
+    "mealRole": "starter-or-side",
+    "portionType": "small-plate",
+    "goodForSharing": true,
     "cookingMethods": [
-      "grilled"
+      "baked",
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Pork Pie is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "英式猪肉派是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Pork Pie is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Pork Pie is a British cold pork pie with firm meat filling and a jelly layer.",
+      "zh": "英式猪肉派通常是英式冷猪肉派，肉馅紧实，常有肉冻层。",
+      "nl": "Pork Pie is meestal een Britse koude varkenspastei met stevige vulling en gelei."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect firm pork inside dense pastry, usually eaten cold.",
+      "zh": "点餐时可预期厚实酥皮包紧实猪肉，通常冷食。",
+      "nl": "Verwacht stevig varkensvlees in dichte korst, meestal koud gegeten."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is firm pork inside dense pastry, usually eaten cold.",
+        "zh": "点餐识别重点是厚实酥皮包紧实猪肉，通常冷食。",
+        "nl": "Het herkenningspunt is stevig varkensvlees in dichte korst, meestal koud gegeten."
       }
     },
     "composition": [
       [
         "pork",
-        50,
-        "main"
+        55,
+        "protein"
       ],
       [
-        "potato",
-        20,
-        "side"
+        "pastry-crust",
+        30,
+        "base"
       ],
       [
-        "cabbage",
+        "soup-gelatin",
         10,
-        "body"
-      ],
-      [
-        "mustard",
-        5,
-        "condiment",
-        "seasoning"
+        "component"
       ],
       [
         "black-pepper",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
+        "distinctive-seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
       "pork",
-      "pepper",
-      "browned edges"
+      "soup-gelatin",
+      "black-pepper"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "porky",
+      "peppery"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "firm cold pork",
+      "hot-water crust",
+      "jellied layer"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-gluten"
     ],
     "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "pork"
-    ],
+    "goodForTags": [],
     "avoidIfTags": [
-      "no-pork"
+      "no-pork",
+      "gluten-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a cold savory pork pie; skip if you avoid pork or jelly texture.",
+      "zh": "想吃冷食咸猪肉派时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een koude hartige varkenspastei wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-036",
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123034-pork-pie.webp",
+    "thumbPath": "/assets/dishes/thumb/123034-pork-pie.webp"
   },
   {
     "id": "bacon-butty",
     "metadataCode": "123035",
+    "imageCode": "123035",
     "cuisineId": "british-irish",
     "names": {
       "en": "Bacon Butty",
@@ -19416,105 +19426,106 @@ const europeDepthDishConfigs = [
       "nl": "Bacon Butty",
       "local": "Bacon Butty"
     },
-    "category": "pork",
+    "category": "bread",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
-      "grilled"
+      "fried",
+      "assembled"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Bacon Butty is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "培根三明治是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Bacon Butty is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Bacon Butty is a simple British bacon sandwich, often on soft bread with butter or sauce.",
+      "zh": "培根三明治通常是英式培根三明治，常用软面包夹培根、黄油或酱。",
+      "nl": "Bacon Butty is meestal een eenvoudige Britse baconsandwich, vaak op zacht brood met boter of saus."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect salty bacon in soft bread, straightforward and breakfast-like.",
+      "zh": "点餐时可预期咸香培根夹软面包，很直接，偏早餐感。",
+      "nl": "Verwacht zout spek in zacht brood, eenvoudig en ontbijtachtig."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "street-food"
       ],
       "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is salty bacon in soft bread, straightforward and breakfast-like.",
+        "zh": "点餐识别重点是咸香培根夹软面包，很直接，偏早餐感。",
+        "nl": "Het herkenningspunt is zout spek in zacht brood, eenvoudig en ontbijtachtig."
       }
     },
     "composition": [
       [
-        "pork",
+        "bread",
         50,
-        "main"
+        "base"
       ],
       [
-        "potato",
-        20,
-        "side"
+        "bacon",
+        40,
+        "protein"
       ],
       [
-        "cabbage",
-        10,
-        "body"
-      ],
-      [
-        "mustard",
+        "butter",
         5,
-        "condiment",
-        "seasoning"
+        "richness"
       ],
       [
         "black-pepper",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
+        "distinctive-seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
+      "bacon",
+      "butter"
     ],
     "basicTaste": [
-      "savory",
-      "rich"
+      "salty",
+      "smoky",
+      "simple"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "soft bread",
+      "crisp or chewy bacon",
+      "buttery bite"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-gluten",
+      "contains-dairy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pork"
+      "sandwich-or-bread"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "no-pork",
+      "gluten-free",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a salty breakfast sandwich; skip if you avoid pork or greasy breakfast food.",
+      "zh": "想吃咸香早餐三明治时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een zoute ontbijtsandwich wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-036",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123035-bacon-butty.webp",
+    "thumbPath": "/assets/dishes/thumb/123035-bacon-butty.webp"
   },
   {
     "id": "chip-butty",
     "metadataCode": "123036",
+    "imageCode": "123036",
     "cuisineId": "british-irish",
     "names": {
       "en": "Chip Butty",
@@ -19523,29 +19534,33 @@ const europeDepthDishConfigs = [
       "local": "Chip Butty"
     },
     "category": "bread",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
-      "baked"
+      "assembled"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Chip Butty is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "薯条三明治是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Chip Butty is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Chip Butty is a British sandwich filled with chips or fries.",
+      "zh": "薯条三明治通常是英式薯条三明治，用面包夹热薯条。",
+      "nl": "Chip Butty is meestal een Britse sandwich gevuld met friet."
     },
     "cookingProfile": {
-      "en": "Usually served with baked bread or pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现baked bread or pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met baked bread or pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect hot fries inside soft buttered bread.",
+      "zh": "点餐时可预期热薯条夹在抹黄油的软面包里。",
+      "nl": "Verwacht warme friet in zacht beboterde brood."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "street-food"
       ],
       "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is hot fries inside soft buttered bread.",
+        "zh": "点餐识别重点是热薯条夹在抹黄油的软面包里。",
+        "nl": "Het herkenningspunt is warme friet in zacht beboterde brood."
       }
     },
     "composition": [
@@ -19555,14 +19570,758 @@ const europeDepthDishConfigs = [
         "base"
       ],
       [
-        "wheat-flour",
+        "fries",
+        45,
+        "component"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
+      ],
+      [
+        "sea-salt",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fries",
+      "butter",
+      "sea-salt"
+    ],
+    "basicTaste": [
+      "salty",
+      "starchy",
+      "mild"
+    ],
+    "textureProfile": [
+      "soft bread",
+      "hot fries",
+      "carb-heavy"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "sandwich-or-bread"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a very starchy comfort sandwich; skip if you want protein or a light meal.",
+      "zh": "想吃高碳水安慰感三明治时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een zeer zetmeelrijke comfortsandwich wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123036-chip-butty.webp",
+    "thumbPath": "/assets/dishes/thumb/123036-chip-butty.webp"
+  },
+  {
+    "id": "jellied-eels",
+    "metadataCode": "123037",
+    "imageCode": "123037",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Jellied Eels",
+      "zh": "伦敦鳗鱼冻",
+      "nl": "Jellied Eels",
+      "local": "Jellied Eels"
+    },
+    "category": "starter",
+    "mealRole": "starter-or-side",
+    "portionType": "small-plate",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "set",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Jellied Eels is a traditional London dish of cooked eel set in savory jelly.",
+      "zh": "伦敦鳗鱼冻通常是伦敦传统鳗鱼冻，熟鳗鱼块凝在咸鲜冻里。",
+      "nl": "Jellied Eels is meestal een traditioneel Londens gerecht van gekookte paling in hartige gelei."
+    },
+    "cookingProfile": {
+      "en": "Expect cold fish pieces in a jelly texture, sometimes with vinegar.",
+      "zh": "点餐时可预期冷食鱼块配肉冻口感，常加醋。",
+      "nl": "Verwacht koude visstukjes in gelei, soms met azijn."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is cold fish pieces in a jelly texture, sometimes with vinegar.",
+        "zh": "点餐识别重点是冷食鱼块配肉冻口感，常加醋。",
+        "nl": "Het herkenningspunt is koude visstukjes in gelei, soms met azijn."
+      }
+    },
+    "composition": [
+      [
+        "eel",
+        60,
+        "seafood"
+      ],
+      [
+        "soup-gelatin",
         25,
+        "component"
+      ],
+      [
+        "vinegar",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "black-pepper",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "eel",
+      "vinegar",
+      "black-pepper"
+    ],
+    "basicTaste": [
+      "briny",
+      "gelatinous",
+      "mild"
+    ],
+    "textureProfile": [
+      "cold eel pieces",
+      "set jelly",
+      "soft bones possible"
+    ],
+    "riskFlags": [
+      "contains-fish"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "fish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a traditional cold eel jelly; skip if you dislike gelatin textures or fishy dishes.",
+      "zh": "想尝传统冷鳗鱼冻时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je traditionele koude palinggelei wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123037-jellied-eels.webp",
+    "thumbPath": "/assets/dishes/thumb/123037-jellied-eels.webp"
+  },
+  {
+    "id": "pie-and-mash",
+    "metadataCode": "123038",
+    "imageCode": "123038",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Pie and Mash",
+      "zh": "肉派配土豆泥",
+      "nl": "Pie and Mash",
+      "local": "Pie and Mash"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "baked",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Pie and Mash is a London-style meat pie served with mashed potato and parsley liquor sauce.",
+      "zh": "肉派配土豆泥通常是伦敦风肉派配土豆泥和欧芹肉汁酱。",
+      "nl": "Pie and Mash is meestal een Londense vleespastei met aardappelpuree en peterseliesaus."
+    },
+    "cookingProfile": {
+      "en": "Expect pastry, mash, and mild green parsley sauce.",
+      "zh": "点餐时可预期酥皮肉派配土豆泥，绿色欧芹酱味道温和。",
+      "nl": "Verwacht pastei, puree en milde groene peterseliesaus."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is pastry, mash, and mild green parsley sauce.",
+        "zh": "点餐识别重点是酥皮肉派配土豆泥，绿色欧芹酱味道温和。",
+        "nl": "Het herkenningspunt is pastei, puree en milde groene peterseliesaus."
+      }
+    },
+    "composition": [
+      [
+        "ground-meat",
+        35,
+        "protein"
+      ],
+      [
+        "pastry-crust",
+        30,
         "base"
       ],
       [
-        "cheese",
+        "potato",
+        25,
+        "starch-or-legume"
+      ],
+      [
+        "broth",
+        5,
+        "component"
+      ],
+      [
+        "parsley",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "ground-meat",
+      "potato",
+      "parsley"
+    ],
+    "basicTaste": [
+      "savory",
+      "mild",
+      "hearty"
+    ],
+    "textureProfile": [
+      "meat pie",
+      "mashed potato",
+      "liquor-style parsley sauce"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a classic pie-and-mash plate; skip if you dislike soft mash or pastry-heavy meals.",
+      "zh": "想吃传统肉派土豆泥时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een klassiek pastei-pureebord wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123038-pie-and-mash.webp",
+    "thumbPath": "/assets/dishes/thumb/123038-pie-and-mash.webp"
+  },
+  {
+    "id": "welsh-cawl",
+    "metadataCode": "123039",
+    "imageCode": "123039",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Welsh Cawl",
+      "zh": "威尔士羊肉蔬菜汤",
+      "nl": "Welsh Cawl",
+      "local": "Welsh Cawl"
+    },
+    "category": "soup",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Welsh Cawl is a Welsh lamb and vegetable broth or stew.",
+      "zh": "威尔士羊肉蔬菜汤通常是威尔士羊肉蔬菜汤炖菜。",
+      "nl": "Welsh Cawl is meestal een Welshe bouillonachtige stoof met lam en groente."
+    },
+    "cookingProfile": {
+      "en": "Expect gentle broth with lamb, leek, and root vegetables.",
+      "zh": "点餐时可预期汤味温和，有羊肉、韭葱和根茎蔬菜。",
+      "nl": "Verwacht milde bouillon met lam, prei en wortelgroenten."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is gentle broth with lamb, leek, and root vegetables.",
+        "zh": "点餐识别重点是汤味温和，有羊肉、韭葱和根茎蔬菜。",
+        "nl": "Het herkenningspunt is milde bouillon met lam, prei en wortelgroenten."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        35,
+        "protein"
+      ],
+      [
+        "potato",
+        25,
+        "starch-or-legume"
+      ],
+      [
+        "leek",
         15,
-        "filling"
+        "component"
+      ],
+      [
+        "carrot",
+        10,
+        "component"
+      ],
+      [
+        "broth",
+        10,
+        "component"
+      ],
+      [
+        "black-pepper",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lamb",
+      "leek",
+      "black-pepper"
+    ],
+    "basicTaste": [
+      "savory",
+      "brothy",
+      "mild"
+    ],
+    "textureProfile": [
+      "clear stew",
+      "root vegetables",
+      "tender lamb"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "soup",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [],
+    "orderVerdict": {
+      "en": "Choose it when you want a mild lamb vegetable soup; skip if you dislike lamb broth.",
+      "zh": "想喝温和羊肉蔬菜汤时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een milde lams-groentesoep wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123039-welsh-cawl.webp",
+    "thumbPath": "/assets/dishes/thumb/123039-welsh-cawl.webp"
+  },
+  {
+    "id": "lancashire-hotpot",
+    "metadataCode": "123040",
+    "imageCode": "123040",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Lancashire Hotpot",
+      "zh": "兰开夏羊肉土豆锅",
+      "nl": "Lancashire Hotpot",
+      "local": "Lancashire Hotpot"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "baked",
+      "braised"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Lancashire Hotpot is a northern English lamb casserole topped with sliced potatoes.",
+      "zh": "兰开夏羊肉土豆锅通常是英格兰北部羊肉土豆焗炖菜，上面铺土豆片。",
+      "nl": "Lancashire Hotpot is meestal een Noord-Engelse lamsstoof met aardappelschijfjes bovenop."
+    },
+    "cookingProfile": {
+      "en": "Expect soft lamb under browned potato slices.",
+      "zh": "点餐时可预期羊肉柔软，上层土豆片烤到微焦。",
+      "nl": "Verwacht zacht lam onder gebruinde aardappelschijfjes."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is soft lamb under browned potato slices.",
+        "zh": "点餐识别重点是羊肉柔软，上层土豆片烤到微焦。",
+        "nl": "Het herkenningspunt is zacht lam onder gebruinde aardappelschijfjes."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        40,
+        "protein"
+      ],
+      [
+        "potato",
+        35,
+        "starch-or-legume"
+      ],
+      [
+        "onion",
+        10,
+        "component"
+      ],
+      [
+        "broth",
+        10,
+        "component"
+      ],
+      [
+        "black-pepper",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lamb",
+      "potato",
+      "black-pepper"
+    ],
+    "basicTaste": [
+      "savory",
+      "hearty",
+      "mild"
+    ],
+    "textureProfile": [
+      "sliced potato top",
+      "braised lamb",
+      "casserole texture"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [],
+    "orderVerdict": {
+      "en": "Choose it when you want a hearty lamb-potato casserole; skip if you want a light dish or dislike lamb.",
+      "zh": "想吃羊肉土豆焗炖菜时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een stevige lam-aardappelovenschotel wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123040-lancashire-hotpot.webp",
+    "thumbPath": "/assets/dishes/thumb/123040-lancashire-hotpot.webp"
+  },
+  {
+    "id": "colcannon",
+    "metadataCode": "123041",
+    "imageCode": "123041",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Colcannon",
+      "zh": "爱尔兰卷心菜土豆泥",
+      "nl": "Colcannon",
+      "local": "Colcannon"
+    },
+    "category": "side",
+    "mealRole": "side",
+    "portionType": "small-plate",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "boiled",
+      "stirred"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Colcannon is Irish mashed potato mixed with cabbage or kale and butter.",
+      "zh": "爱尔兰卷心菜土豆泥通常是爱尔兰土豆泥拌卷心菜或羽衣甘蓝和黄油。",
+      "nl": "Colcannon is meestal Ierse aardappelpuree met kool of boerenkool en boter."
+    },
+    "cookingProfile": {
+      "en": "Expect soft buttery mash with bits of greens.",
+      "zh": "点餐时可预期黄油土豆泥柔软，混有绿色蔬菜。",
+      "nl": "Verwacht zachte boterige puree met stukjes groen."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish",
+        "side-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is soft buttery mash with bits of greens.",
+        "zh": "点餐识别重点是黄油土豆泥柔软，混有绿色蔬菜。",
+        "nl": "Het herkenningspunt is zachte boterige puree met stukjes groen."
+      }
+    },
+    "composition": [
+      [
+        "potato",
+        60,
+        "starch-or-legume"
+      ],
+      [
+        "cabbage",
+        25,
+        "component"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "green-onion",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "potato",
+      "cabbage",
+      "butter"
+    ],
+    "basicTaste": [
+      "mild",
+      "buttery",
+      "savory"
+    ],
+    "textureProfile": [
+      "mashed potato",
+      "soft greens",
+      "creamy side"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "side-dish"
+    ],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a comforting potato side; skip if you avoid dairy or want a main dish.",
+      "zh": "想吃土豆泥配菜时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een comfortabele aardappelbijlage wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123041-colcannon.webp",
+    "thumbPath": "/assets/dishes/thumb/123041-colcannon.webp"
+  },
+  {
+    "id": "champ",
+    "metadataCode": "123042",
+    "imageCode": "123042",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Champ",
+      "zh": "爱尔兰葱香土豆泥",
+      "nl": "Champ",
+      "local": "Champ"
+    },
+    "category": "side",
+    "mealRole": "side",
+    "portionType": "small-plate",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "boiled",
+      "stirred"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Champ is Irish mashed potato with scallions, butter, and milk or cream.",
+      "zh": "爱尔兰葱香土豆泥通常是爱尔兰葱香土豆泥，加黄油和奶或奶油。",
+      "nl": "Champ is meestal Ierse aardappelpuree met lente-ui, boter en melk of room."
+    },
+    "cookingProfile": {
+      "en": "Expect creamy mash with gentle green-onion aroma.",
+      "zh": "点餐时可预期土豆泥顺滑，有温和葱香。",
+      "nl": "Verwacht romige puree met milde lente-ui geur."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish",
+        "side-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is creamy mash with gentle green-onion aroma.",
+        "zh": "点餐识别重点是土豆泥顺滑，有温和葱香。",
+        "nl": "Het herkenningspunt is romige puree met milde lente-ui geur."
+      }
+    },
+    "composition": [
+      [
+        "potato",
+        70,
+        "starch-or-legume"
+      ],
+      [
+        "green-onion",
+        15,
+        "component"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "cream",
+        5,
+        "richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "green-onion",
+      "butter",
+      "cream"
+    ],
+    "basicTaste": [
+      "mild",
+      "buttery",
+      "oniony"
+    ],
+    "textureProfile": [
+      "mashed potato",
+      "green onion flecks",
+      "creamy side"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "side-dish"
+    ],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a buttery oniony potato side; skip if you need a dairy-free side.",
+      "zh": "想吃黄油葱香土豆泥时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een boterige aardappelbijlage met ui wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123042-champ.webp",
+    "thumbPath": "/assets/dishes/thumb/123042-champ.webp"
+  },
+  {
+    "id": "boxty",
+    "metadataCode": "123043",
+    "imageCode": "123043",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Boxty",
+      "zh": "爱尔兰土豆煎饼",
+      "nl": "Boxty",
+      "local": "Boxty"
+    },
+    "category": "bread",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "fried"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Boxty is an Irish potato pancake made from grated and mashed potato.",
+      "zh": "爱尔兰土豆煎饼通常是爱尔兰土豆煎饼，常混合擦丝土豆和土豆泥。",
+      "nl": "Boxty is meestal een Ierse aardappelpannenkoek van geraspte en gepureerde aardappel."
+    },
+    "cookingProfile": {
+      "en": "Expect crisp-edged potato pancake with a soft middle.",
+      "zh": "点餐时可预期边缘煎脆，中间柔软有土豆香。",
+      "nl": "Verwacht aardappelpannenkoek met krokante rand en zachte kern."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is crisp-edged potato pancake with a soft middle.",
+        "zh": "点餐识别重点是边缘煎脆，中间柔软有土豆香。",
+        "nl": "Het herkenningspunt is aardappelpannenkoek met krokante rand en zachte kern."
+      }
+    },
+    "composition": [
+      [
+        "potato",
+        55,
+        "starch-or-legume"
+      ],
+      [
+        "wheat-flour",
+        20,
+        "base"
+      ],
+      [
+        "egg",
+        10,
+        "component"
       ],
       [
         "butter",
@@ -19572,772 +20331,59 @@ const europeDepthDishConfigs = [
       [
         "sea-salt",
         5,
-        "seasoning",
+        "distinctive-seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "potato",
+      "butter",
+      "sea-salt"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "mild",
+      "starchy",
+      "buttery"
     ],
     "textureProfile": [
-      "soft bread",
-      "crisp edges"
+      "potato pancake",
+      "crisp edge",
+      "soft center"
     ],
     "riskFlags": [
       "contains-gluten",
+      "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "bread"
+      "sandwich-or-bread"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a potato pancake side or snack; skip if you avoid gluten or fried starch.",
+      "zh": "想吃土豆煎饼时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een aardappelpannenkoek wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "jellied-eels",
-    "metadataCode": "123037",
-    "cuisineId": "british-irish",
-    "names": {
-      "en": "Jellied Eels",
-      "zh": "伦敦鳗鱼冻",
-      "nl": "Jellied Eels",
-      "local": "Jellied Eels"
-    },
-    "category": "fish",
-    "cookingMethods": [
-      "grilled"
-    ],
-    "shortDescription": {
-      "en": "Jellied Eels is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "伦敦鳗鱼冻是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Jellied Eels is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "fish-fillet",
-        60,
-        "main"
-      ],
-      [
-        "potato",
-        15,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "lemon",
-        5,
-        "brightness"
-      ],
-      [
-        "olive-oil",
-        5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
-    ],
-    "basicTaste": [
-      "savory",
-      "mild"
-    ],
-    "textureProfile": [
-      "tender fish",
-      "light flaky bite"
-    ],
-    "riskFlags": [
-      "contains-fish"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "fish"
-    ],
-    "avoidIfTags": [
-      "fish-allergy"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "pie-and-mash",
-    "metadataCode": "123038",
-    "cuisineId": "british-irish",
-    "names": {
-      "en": "Pie and Mash",
-      "zh": "肉派配土豆泥",
-      "nl": "Pie and Mash",
-      "local": "Pie and Mash"
-    },
-    "category": "meat",
-    "cookingMethods": [
-      "braised"
-    ],
-    "shortDescription": {
-      "en": "Pie and Mash is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "肉派配土豆泥是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Pie and Mash is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "beef",
-        45,
-        "main"
-      ],
-      [
-        "potato",
-        20,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
-        15,
-        "body"
-      ],
-      [
-        "onion",
-        10,
-        "aromatic"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
-    ],
-    "basicTaste": [
-      "savory",
-      "rich"
-    ],
-    "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
-    ],
-    "riskFlags": [],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "meat"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
-    },
+    "confidenceTag": "audited-world-depth-batch-036",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "welsh-cawl",
-    "metadataCode": "123039",
-    "cuisineId": "british-irish",
-    "names": {
-      "en": "Welsh Cawl",
-      "zh": "威尔士羊肉蔬菜汤",
-      "nl": "Welsh Cawl",
-      "local": "Welsh Cawl"
-    },
-    "category": "stew",
-    "cookingMethods": [
-      "simmered"
-    ],
-    "shortDescription": {
-      "en": "Welsh Cawl is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "威尔士羊肉蔬菜汤是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Welsh Cawl is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with slow-cooked stew, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现slow-cooked stew，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met slow-cooked stew; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "beef",
-        35,
-        "main"
-      ],
-      [
-        "potato",
-        20,
-        "body"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "broth",
-        15,
-        "base"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
-    ],
-    "basicTaste": [
-      "savory",
-      "hearty"
-    ],
-    "textureProfile": [
-      "soft vegetables",
-      "rich broth"
-    ],
-    "riskFlags": [],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "stew"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "lancashire-hotpot",
-    "metadataCode": "123040",
-    "cuisineId": "british-irish",
-    "names": {
-      "en": "Lancashire Hotpot",
-      "zh": "兰开夏羊肉土豆锅",
-      "nl": "Lancashire Hotpot",
-      "local": "Lancashire Hotpot"
-    },
-    "category": "stew",
-    "cookingMethods": [
-      "simmered"
-    ],
-    "shortDescription": {
-      "en": "Lancashire Hotpot is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "兰开夏羊肉土豆锅是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Lancashire Hotpot is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with slow-cooked stew, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现slow-cooked stew，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met slow-cooked stew; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "beef",
-        35,
-        "main"
-      ],
-      [
-        "potato",
-        20,
-        "body"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "broth",
-        15,
-        "base"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
-    ],
-    "basicTaste": [
-      "savory",
-      "hearty"
-    ],
-    "textureProfile": [
-      "soft vegetables",
-      "rich broth"
-    ],
-    "riskFlags": [],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "stew"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "colcannon",
-    "metadataCode": "123041",
-    "cuisineId": "british-irish",
-    "names": {
-      "en": "Colcannon",
-      "zh": "爱尔兰卷心菜土豆泥",
-      "nl": "Colcannon",
-      "local": "Colcannon"
-    },
-    "category": "potato",
-    "cookingMethods": [
-      "baked"
-    ],
-    "shortDescription": {
-      "en": "Colcannon is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "爱尔兰卷心菜土豆泥是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Colcannon is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with potato dish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现potato dish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met potato dish; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "potato",
-        55,
-        "base"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "cheese",
-        10,
-        "richness"
-      ],
-      [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
-    ],
-    "basicTaste": [
-      "savory",
-      "hearty"
-    ],
-    "textureProfile": [
-      "soft potato",
-      "browned or creamy edges"
-    ],
-    "riskFlags": [
-      "contains-dairy"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "potato"
-    ],
-    "avoidIfTags": [
-      "dairy-allergy"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "champ",
-    "metadataCode": "123042",
-    "cuisineId": "british-irish",
-    "names": {
-      "en": "Champ",
-      "zh": "爱尔兰葱香土豆泥",
-      "nl": "Champ",
-      "local": "Champ"
-    },
-    "category": "potato",
-    "cookingMethods": [
-      "baked"
-    ],
-    "shortDescription": {
-      "en": "Champ is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "爱尔兰葱香土豆泥是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Champ is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with potato dish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现potato dish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met potato dish; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "potato",
-        55,
-        "base"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "cheese",
-        10,
-        "richness"
-      ],
-      [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
-    ],
-    "basicTaste": [
-      "savory",
-      "hearty"
-    ],
-    "textureProfile": [
-      "soft potato",
-      "browned or creamy edges"
-    ],
-    "riskFlags": [
-      "contains-dairy"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "potato"
-    ],
-    "avoidIfTags": [
-      "dairy-allergy"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "boxty",
-    "metadataCode": "123043",
-    "cuisineId": "british-irish",
-    "names": {
-      "en": "Boxty",
-      "zh": "爱尔兰土豆煎饼",
-      "nl": "Boxty",
-      "local": "Boxty"
-    },
-    "category": "potato",
-    "cookingMethods": [
-      "baked"
-    ],
-    "shortDescription": {
-      "en": "Boxty is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "爱尔兰土豆煎饼是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Boxty is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with potato dish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现potato dish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met potato dish; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "potato",
-        55,
-        "base"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "cheese",
-        10,
-        "richness"
-      ],
-      [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
-    ],
-    "basicTaste": [
-      "savory",
-      "hearty"
-    ],
-    "textureProfile": [
-      "soft potato",
-      "browned or creamy edges"
-    ],
-    "riskFlags": [
-      "contains-dairy"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "potato"
-    ],
-    "avoidIfTags": [
-      "dairy-allergy"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123043-boxty.webp",
+    "thumbPath": "/assets/dishes/thumb/123043-boxty.webp"
   },
   {
     "id": "irish-soda-bread",
     "metadataCode": "123044",
+    "imageCode": "123044",
     "cuisineId": "british-irish",
     "names": {
       "en": "Irish Soda Bread",
@@ -20346,46 +20392,834 @@ const europeDepthDishConfigs = [
       "local": "Irish Soda Bread"
     },
     "category": "bread",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
       "baked"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Irish Soda Bread is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "爱尔兰苏打面包是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Irish Soda Bread is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Irish Soda Bread is a dense Irish quick bread, usually served sliced with butter or soup.",
+      "zh": "爱尔兰苏打面包通常是爱尔兰苏打快手面包，质地扎实，常切片配黄油或汤。",
+      "nl": "Irish Soda Bread is meestal een dicht Iers sodabrood, meestal in plakken met boter of soep."
     },
     "cookingProfile": {
-      "en": "Usually served with baked bread or pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现baked bread or pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met baked bread or pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect dense rustic bread rather than a fluffy sweet loaf.",
+      "zh": "点餐时可预期是朴实扎实的面包，不是松软甜面包。",
+      "nl": "Verwacht compact rustiek brood, geen luchtig zoet brood."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is dense rustic bread rather than a fluffy sweet loaf.",
+        "zh": "点餐识别重点是是朴实扎实的面包，不是松软甜面包。",
+        "nl": "Het herkenningspunt is compact rustiek brood, geen luchtig zoet brood."
       }
     },
     "composition": [
       [
-        "bread",
-        45,
+        "wheat-flour",
+        70,
         "base"
       ],
       [
-        "wheat-flour",
-        25,
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "milk-solids",
+        10,
+        "richness"
+      ],
+      [
+        "sea-salt",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "sugar",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "butter",
+      "sea-salt"
+    ],
+    "basicTaste": [
+      "mild",
+      "bready",
+      "slightly tangy"
+    ],
+    "textureProfile": [
+      "dense crumb",
+      "rustic crust",
+      "sliceable loaf"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "sandwich-or-bread"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a rustic bread side; skip if you need gluten-free bread.",
+      "zh": "想吃朴实面包配汤时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een rustieke broodbijlage wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123044-irish-soda-bread.webp",
+    "thumbPath": "/assets/dishes/thumb/123044-irish-soda-bread.webp"
+  },
+  {
+    "id": "irish-breakfast",
+    "metadataCode": "123045",
+    "imageCode": "123045",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Irish Breakfast",
+      "zh": "爱尔兰全早餐",
+      "nl": "Irish Breakfast",
+      "local": "Irish Breakfast"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "fried",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Irish Breakfast is a large cooked breakfast plate with eggs, bacon, sausage, beans, toast, and often black pudding.",
+      "zh": "爱尔兰全早餐通常是大份爱尔兰熟早餐盘，有鸡蛋、培根、香肠、豆子、吐司，常含黑布丁。",
+      "nl": "Irish Breakfast is meestal een groot warm ontbijt met ei, spek, worst, bonen, toast en vaak black pudding."
+    },
+    "cookingProfile": {
+      "en": "Expect a heavy salty breakfast plate with several meats.",
+      "zh": "点餐时可预期分量重，咸香肉类多。",
+      "nl": "Verwacht een zwaar zout ontbijtbord met meerdere vleessoorten."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is a heavy salty breakfast plate with several meats.",
+        "zh": "点餐识别重点是分量重，咸香肉类多。",
+        "nl": "Het herkenningspunt is een zwaar zout ontbijtbord met meerdere vleessoorten."
+      }
+    },
+    "composition": [
+      [
+        "egg",
+        20,
+        "component"
+      ],
+      [
+        "sausage",
+        20,
+        "protein"
+      ],
+      [
+        "bacon",
+        20,
+        "protein"
+      ],
+      [
+        "baked-beans",
+        15,
+        "component"
+      ],
+      [
+        "black-pudding",
+        15,
+        "component"
+      ],
+      [
+        "bread",
+        10,
         "base"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "bacon",
+      "black-pudding",
+      "baked-beans"
+    ],
+    "basicTaste": [
+      "salty",
+      "hearty",
+      "fried"
+    ],
+    "textureProfile": [
+      "large breakfast plate",
+      "mixed meats",
+      "beans and toast"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-egg",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "no-pork",
+      "egg-allergy",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a very filling breakfast; skip if you avoid pork, egg, or offal.",
+      "zh": "想吃非常饱腹的熟早餐时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een zeer vullend ontbijt wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123045-irish-breakfast.webp",
+    "thumbPath": "/assets/dishes/thumb/123045-irish-breakfast.webp"
+  },
+  {
+    "id": "kippers",
+    "metadataCode": "123046",
+    "imageCode": "123046",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Kippers",
+      "zh": "烟熏鲱鱼",
+      "nl": "Kippers",
+      "local": "Kippers"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "grilled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Kippers is split smoked herring, often served hot for breakfast.",
+      "zh": "烟熏鲱鱼通常是剖开的烟熏鲱鱼，常热食作早餐。",
+      "nl": "Kippers is meestal opengesneden gerookte haring, vaak warm bij ontbijt."
+    },
+    "cookingProfile": {
+      "en": "Expect smoky oily fish with a strong aroma.",
+      "zh": "点餐时可预期烟熏油脂感鱼肉，气味较明显。",
+      "nl": "Verwacht rokerige vette vis met duidelijke geur."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is smoky oily fish with a strong aroma.",
+        "zh": "点餐识别重点是烟熏油脂感鱼肉，气味较明显。",
+        "nl": "Het herkenningspunt is rokerige vette vis met duidelijke geur."
+      }
+    },
+    "composition": [
+      [
+        "herring",
+        70,
+        "seafood"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "bread",
+        10,
+        "base"
+      ],
+      [
+        "lemon",
+        5,
+        "fruit-or-sweetness"
+      ],
+      [
+        "black-pepper",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "herring",
+      "butter",
+      "lemon"
+    ],
+    "basicTaste": [
+      "smoky",
+      "salty",
+      "fishy"
+    ],
+    "textureProfile": [
+      "split smoked fish",
+      "oily flakes",
+      "breakfast plate"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-dairy",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "fish-allergy",
+      "dairy-free",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a smoky fish breakfast; skip if you dislike strong fish aroma.",
+      "zh": "想吃烟熏鱼早餐时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een rokerig visontbijt wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123046-kippers.webp",
+    "thumbPath": "/assets/dishes/thumb/123046-kippers.webp"
+  },
+  {
+    "id": "kedgeree",
+    "metadataCode": "123047",
+    "imageCode": "123047",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Kedgeree",
+      "zh": "英式咖喱熏鱼米饭",
+      "nl": "Kedgeree",
+      "local": "Kedgeree"
+    },
+    "category": "rice",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "stirred",
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Kedgeree is a British-Indian style rice dish with smoked fish, egg, and curry spices.",
+      "zh": "英式咖喱熏鱼米饭通常是英印风米饭，配烟熏鱼、鸡蛋和咖喱香料。",
+      "nl": "Kedgeree is meestal een Brits-Indisch rijstgerecht met gerookte vis, ei en kerriekruiden."
+    },
+    "cookingProfile": {
+      "en": "Expect smoked fish through warm-spiced rice.",
+      "zh": "点餐时可预期烟熏鱼拌入温暖香料米饭。",
+      "nl": "Verwacht gerookte vis door warm gekruide rijst."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is smoked fish through warm-spiced rice.",
+        "zh": "点餐识别重点是烟熏鱼拌入温暖香料米饭。",
+        "nl": "Het herkenningspunt is gerookte vis door warm gekruide rijst."
+      }
+    },
+    "composition": [
+      [
+        "steamed-rice",
+        40,
+        "starch-or-legume"
+      ],
+      [
+        "smoked-haddock",
+        25,
+        "seafood"
+      ],
+      [
+        "egg",
+        15,
+        "component"
+      ],
+      [
+        "curry-masala",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
+      ],
+      [
+        "parsley",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "smoked-haddock",
+      "curry-masala",
+      "egg"
+    ],
+    "basicTaste": [
+      "smoky",
+      "warm-spiced",
+      "savory"
+    ],
+    "textureProfile": [
+      "fluffy rice",
+      "smoked fish flakes",
+      "egg pieces"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "rice"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want spiced smoked-fish rice; skip if you avoid smoked fish or egg.",
+      "zh": "想吃咖喱香烟熏鱼饭时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je gekruide rijst met gerookte vis wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123047-kedgeree.webp",
+    "thumbPath": "/assets/dishes/thumb/123047-kedgeree.webp"
+  },
+  {
+    "id": "coronation-chicken",
+    "metadataCode": "123048",
+    "imageCode": "123048",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Coronation Chicken",
+      "zh": "英式咖喱鸡沙拉",
+      "nl": "Coronation Chicken",
+      "local": "Coronation Chicken"
+    },
+    "category": "salad",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "assembled",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Coronation Chicken is cold chicken in a creamy mild curry dressing, often with fruit or nuts.",
+      "zh": "英式咖喱鸡沙拉通常是冷鸡肉拌温和咖喱奶油酱，常有果干或坚果。",
+      "nl": "Coronation Chicken is meestal koude kip in romige milde kerriedressing, vaak met fruit of noten."
+    },
+    "cookingProfile": {
+      "en": "Expect creamy curry chicken with sweet pieces.",
+      "zh": "点餐时可预期奶油咖喱鸡肉带一点甜味配料。",
+      "nl": "Verwacht romige kerriekip met zoete stukjes."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is creamy curry chicken with sweet pieces.",
+        "zh": "点餐识别重点是奶油咖喱鸡肉带一点甜味配料。",
+        "nl": "Het herkenningspunt is romige kerriekip met zoete stukjes."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        45,
+        "protein"
+      ],
+      [
+        "mayonnaise",
+        20,
+        "richness"
+      ],
+      [
+        "curry-masala",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "raisins",
+        10,
+        "fruit-or-sweetness"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "component"
+      ],
+      [
+        "almonds",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "curry-masala",
+      "mayonnaise",
+      "raisins"
+    ],
+    "basicTaste": [
+      "creamy",
+      "sweet-savory",
+      "mildly spiced"
+    ],
+    "textureProfile": [
+      "cold chicken salad",
+      "creamy sauce",
+      "sweet bits"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "tree-nut-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a cold creamy curry chicken salad; skip if you dislike mayonnaise or sweet-savory food.",
+      "zh": "想吃冷的咖喱鸡肉沙拉时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een koude romige kerriekipsalade wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-036",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123048-coronation-chicken.webp",
+    "thumbPath": "/assets/dishes/thumb/123048-coronation-chicken.webp"
+  },
+  {
+    "id": "gammon-steak",
+    "metadataCode": "123049",
+    "imageCode": "123049",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Gammon Steak",
+      "zh": "火腿牛排配菠萝或蛋",
+      "nl": "Gammon Steak",
+      "local": "Gammon Steak"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "grilled",
+      "fried"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Gammon Steak is a thick cured ham steak, often served with fried egg or pineapple.",
+      "zh": "火腿牛排配菠萝或蛋通常是厚切腌火腿排，常配煎蛋或菠萝。",
+      "nl": "Gammon Steak is meestal een dikke gepekelde hamsteak, vaak met gebakken ei of ananas."
+    },
+    "cookingProfile": {
+      "en": "Expect salty ham with sweet pineapple or egg richness.",
+      "zh": "点餐时可预期火腿咸香，菠萝带甜酸或煎蛋增加浓郁感。",
+      "nl": "Verwacht zoute ham met zoete ananas of rijke ei."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is salty ham with sweet pineapple or egg richness.",
+        "zh": "点餐识别重点是火腿咸香，菠萝带甜酸或煎蛋增加浓郁感。",
+        "nl": "Het herkenningspunt is zoute ham met zoete ananas of rijke ei."
+      }
+    },
+    "composition": [
+      [
+        "ham",
+        55,
+        "protein"
+      ],
+      [
+        "egg",
+        15,
+        "component"
+      ],
+      [
+        "pineapple",
+        15,
+        "fruit-or-sweetness"
+      ],
+      [
+        "fries",
+        10,
+        "component"
+      ],
+      [
+        "mustard",
+        5,
+        "component",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "ham",
+      "pineapple",
+      "mustard"
+    ],
+    "basicTaste": [
+      "salty",
+      "sweet-savory",
+      "meaty"
+    ],
+    "textureProfile": [
+      "thick ham steak",
+      "fried egg or pineapple",
+      "pub plate"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "no-pork",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a salty pub-style ham steak; skip if you avoid pork or salty cured meat.",
+      "zh": "想吃咸香酒馆风火腿排时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een zoute pub-hamsteak wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/123049-gammon-steak.webp",
+    "thumbPath": "/assets/dishes/thumb/123049-gammon-steak.webp"
+  },
+  {
+    "id": "cauliflower-cheese",
+    "metadataCode": "123050",
+    "imageCode": "123050",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Cauliflower Cheese",
+      "zh": "奶酪焗花椰菜",
+      "nl": "Cauliflower Cheese",
+      "local": "Cauliflower Cheese"
+    },
+    "category": "side",
+    "mealRole": "side",
+    "portionType": "small-plate",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Cauliflower Cheese is cauliflower baked in a creamy cheese sauce.",
+      "zh": "奶酪焗花椰菜通常是花椰菜裹奶酪白酱焗烤。",
+      "nl": "Cauliflower Cheese is meestal bloemkool gebakken in romige kaassaus."
+    },
+    "cookingProfile": {
+      "en": "Expect soft cauliflower under thick melted cheese sauce.",
+      "zh": "点餐时可预期花椰菜柔软，外面是厚奶酪酱。",
+      "nl": "Verwacht zachte bloemkool onder dikke gesmolten kaassaus."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish",
+        "side-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is soft cauliflower under thick melted cheese sauce.",
+        "zh": "点餐识别重点是花椰菜柔软，外面是厚奶酪酱。",
+        "nl": "Het herkenningspunt is zachte bloemkool onder dikke gesmolten kaassaus."
+      }
+    },
+    "composition": [
+      [
+        "cauliflower",
+        60,
+        "component"
       ],
       [
         "cheese",
-        15,
-        "filling"
+        25,
+        "richness"
+      ],
+      [
+        "bechamel-sauce",
+        10,
+        "richness"
+      ],
+      [
+        "black-pepper",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cheese",
+      "bechamel-sauce",
+      "black-pepper"
+    ],
+    "basicTaste": [
+      "creamy",
+      "cheesy",
+      "mild"
+    ],
+    "textureProfile": [
+      "soft cauliflower",
+      "baked cheese sauce",
+      "comfort side"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "side-dish"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a creamy vegetable side; skip if you avoid dairy or want a lighter vegetable.",
+      "zh": "想吃奶酪蔬菜配菜时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een romige groentebijlage wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-037",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123050-cauliflower-cheese.webp",
+    "thumbPath": "/assets/dishes/thumb/123050-cauliflower-cheese.webp"
+  },
+  {
+    "id": "minted-peas",
+    "metadataCode": "123051",
+    "imageCode": "123051",
+    "cuisineId": "british-irish",
+    "names": {
+      "en": "Minted Peas",
+      "zh": "薄荷豌豆",
+      "nl": "Minted Peas",
+      "local": "Minted Peas"
+    },
+    "category": "side",
+    "mealRole": "side",
+    "portionType": "small-plate",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "boiled",
+      "stirred"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Minted Peas is a simple British side of peas seasoned with mint and often butter.",
+      "zh": "薄荷豌豆通常是英式薄荷豌豆配菜，豌豆加薄荷，常有黄油。",
+      "nl": "Minted Peas is meestal een eenvoudige Britse bijlage van erwtjes met munt en vaak boter."
+    },
+    "cookingProfile": {
+      "en": "Expect a small fresh side, not a full main dish.",
+      "zh": "点餐时可预期这是清新小配菜，不是完整主菜。",
+      "nl": "Verwacht een kleine frisse bijlage, geen hoofdgerecht."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish",
+        "side-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is a small fresh side, not a full main dish.",
+        "zh": "点餐识别重点是这是清新小配菜，不是完整主菜。",
+        "nl": "Het herkenningspunt is een kleine frisse bijlage, geen hoofdgerecht."
+      }
+    },
+    "composition": [
+      [
+        "peas",
+        75,
+        "starch-or-legume"
+      ],
+      [
+        "mint",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
       ],
       [
         "butter",
@@ -20395,779 +21229,55 @@ const europeDepthDishConfigs = [
       [
         "sea-salt",
         5,
-        "seasoning",
+        "distinctive-seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "mint",
+      "butter",
+      "peas"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "fresh",
+      "mild",
+      "buttery"
     ],
     "textureProfile": [
-      "soft bread",
-      "crisp edges"
+      "soft peas",
+      "mint aroma",
+      "small side"
     ],
     "riskFlags": [
-      "contains-gluten",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "bread"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "irish-breakfast",
-    "metadataCode": "123045",
-    "cuisineId": "british-irish",
-    "names": {
-      "en": "Irish Breakfast",
-      "zh": "爱尔兰全早餐",
-      "nl": "Irish Breakfast",
-      "local": "Irish Breakfast"
-    },
-    "category": "pork",
-    "cookingMethods": [
-      "grilled"
-    ],
-    "shortDescription": {
-      "en": "Irish Breakfast is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "爱尔兰全早餐是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Irish Breakfast is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "pork",
-        50,
-        "main"
-      ],
-      [
-        "potato",
-        20,
-        "side"
-      ],
-      [
-        "cabbage",
-        10,
-        "body"
-      ],
-      [
-        "mustard",
-        5,
-        "condiment",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
-    ],
-    "basicTaste": [
-      "savory",
-      "rich"
-    ],
-    "textureProfile": [
-      "savory meat",
-      "browned edges"
-    ],
-    "riskFlags": [
-      "contains-pork"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "pork"
-    ],
-    "avoidIfTags": [
-      "no-pork"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "kippers",
-    "metadataCode": "123046",
-    "cuisineId": "british-irish",
-    "names": {
-      "en": "Kippers",
-      "zh": "烟熏鲱鱼",
-      "nl": "Kippers",
-      "local": "Kippers"
-    },
-    "category": "fish",
-    "cookingMethods": [
-      "grilled"
-    ],
-    "shortDescription": {
-      "en": "Kippers is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "烟熏鲱鱼是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Kippers is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "fish-fillet",
-        60,
-        "main"
-      ],
-      [
-        "potato",
-        15,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "lemon",
-        5,
-        "brightness"
-      ],
-      [
-        "olive-oil",
-        5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
-    ],
-    "basicTaste": [
-      "savory",
-      "mild"
-    ],
-    "textureProfile": [
-      "tender fish",
-      "light flaky bite"
-    ],
-    "riskFlags": [
-      "contains-fish"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "fish"
-    ],
-    "avoidIfTags": [
-      "fish-allergy"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "kedgeree",
-    "metadataCode": "123047",
-    "cuisineId": "british-irish",
-    "names": {
-      "en": "Kedgeree",
-      "zh": "英式咖喱熏鱼米饭",
-      "nl": "Kedgeree",
-      "local": "Kedgeree"
-    },
-    "category": "fish",
-    "cookingMethods": [
-      "grilled"
-    ],
-    "shortDescription": {
-      "en": "Kedgeree is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "英式咖喱熏鱼米饭是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Kedgeree is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "fish-fillet",
-        60,
-        "main"
-      ],
-      [
-        "potato",
-        15,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "lemon",
-        5,
-        "brightness"
-      ],
-      [
-        "olive-oil",
-        5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
-    ],
-    "basicTaste": [
-      "savory",
-      "mild"
-    ],
-    "textureProfile": [
-      "tender fish",
-      "light flaky bite"
-    ],
-    "riskFlags": [
-      "contains-fish"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "fish"
-    ],
-    "avoidIfTags": [
-      "fish-allergy"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "coronation-chicken",
-    "metadataCode": "123048",
-    "cuisineId": "british-irish",
-    "names": {
-      "en": "Coronation Chicken",
-      "zh": "英式咖喱鸡沙拉",
-      "nl": "Coronation Chicken",
-      "local": "Coronation Chicken"
-    },
-    "category": "chicken",
-    "cookingMethods": [
-      "grilled"
-    ],
-    "shortDescription": {
-      "en": "Coronation Chicken is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "英式咖喱鸡沙拉是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Coronation Chicken is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with chicken, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现chicken，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met chicken; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "chicken",
-        55,
-        "main"
-      ],
-      [
-        "potato",
-        15,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
-        15,
-        "body"
-      ],
-      [
-        "cream",
-        5,
-        "sauce"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
-    ],
-    "basicTaste": [
-      "savory",
-      "mild"
-    ],
-    "textureProfile": [
-      "tender chicken",
-      "savory finish"
-    ],
-    "riskFlags": [],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "chicken"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "gammon-steak",
-    "metadataCode": "123049",
-    "cuisineId": "british-irish",
-    "names": {
-      "en": "Gammon Steak",
-      "zh": "火腿牛排配菠萝或蛋",
-      "nl": "Gammon Steak",
-      "local": "Gammon Steak"
-    },
-    "category": "pork",
-    "cookingMethods": [
-      "grilled"
-    ],
-    "shortDescription": {
-      "en": "Gammon Steak is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "火腿牛排配菠萝或蛋是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Gammon Steak is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "pork",
-        50,
-        "main"
-      ],
-      [
-        "potato",
-        20,
-        "side"
-      ],
-      [
-        "cabbage",
-        10,
-        "body"
-      ],
-      [
-        "mustard",
-        5,
-        "condiment",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
-    ],
-    "basicTaste": [
-      "savory",
-      "rich"
-    ],
-    "textureProfile": [
-      "savory meat",
-      "browned edges"
-    ],
-    "riskFlags": [
-      "contains-pork"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "pork"
-    ],
-    "avoidIfTags": [
-      "no-pork"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "cauliflower-cheese",
-    "metadataCode": "123050",
-    "cuisineId": "british-irish",
-    "names": {
-      "en": "Cauliflower Cheese",
-      "zh": "奶酪焗花椰菜",
-      "nl": "Cauliflower Cheese",
-      "local": "Cauliflower Cheese"
-    },
-    "category": "cheese",
-    "cookingMethods": [
-      "assembled"
-    ],
-    "shortDescription": {
-      "en": "Cauliflower Cheese is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "奶酪焗花椰菜是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Cauliflower Cheese is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with cheese-focused dish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现cheese-focused dish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met cheese-focused dish; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "cheese",
-        45,
-        "main"
-      ],
-      [
-        "bread",
-        20,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
-        15,
-        "body"
-      ],
-      [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "cheese",
-      "cream",
-      "pepper"
-    ],
-    "basicTaste": [
-      "savory",
-      "creamy"
-    ],
-    "textureProfile": [
-      "creamy or firm cheese",
-      "savory finish"
-    ],
-    "riskFlags": [
-      "contains-dairy",
-      "contains-gluten"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "cheese"
+      "side-dish"
     ],
     "avoidIfTags": [
       "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a fresh green side dish; skip if you need a full meal.",
+      "zh": "想要清爽绿色配菜时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een frisse groene bijlage wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "minted-peas",
-    "metadataCode": "123051",
-    "cuisineId": "british-irish",
-    "names": {
-      "en": "Minted Peas",
-      "zh": "薄荷豌豆",
-      "nl": "Minted Peas",
-      "local": "Minted Peas"
-    },
-    "category": "starter",
-    "cookingMethods": [
-      "assembled"
-    ],
-    "shortDescription": {
-      "en": "Minted Peas is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "薄荷豌豆是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Minted Peas is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with small starter, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small starter，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small starter; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "common",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "bread",
-        30,
-        "base"
-      ],
-      [
-        "cheese",
-        20,
-        "richness"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "ham",
-        15,
-        "main"
-      ],
-      [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "herbs",
-        5,
-        "finish"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
-    ],
-    "basicTaste": [
-      "savory",
-      "mild"
-    ],
-    "textureProfile": [
-      "small bites",
-      "savory finish"
-    ],
-    "riskFlags": [],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "starter"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
-    },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
     "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123051-minted-peas.webp",
+    "thumbPath": "/assets/dishes/thumb/123051-minted-peas.webp"
   },
   {
     "id": "bakewell-tart",
     "metadataCode": "123052",
+    "imageCode": "123052",
     "cuisineId": "british-irish",
     "names": {
       "en": "Bakewell Tart",
@@ -21176,103 +21286,114 @@ const europeDepthDishConfigs = [
       "local": "Bakewell Tart"
     },
     "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
     "cookingMethods": [
       "baked"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Bakewell Tart is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "巴克韦尔杏仁挞是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Bakewell Tart is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Bakewell Tart is an English tart with almond filling and a jam layer.",
+      "zh": "巴克韦尔杏仁挞通常是英式杏仁挞，内有杏仁馅和果酱层。",
+      "nl": "Bakewell Tart is meestal een Engelse taart met amandelvulling en jamlaag."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect nutty almond cake texture inside pastry.",
+      "zh": "点餐时可预期酥皮里是杏仁蛋糕感馅料和果酱。",
+      "nl": "Verwacht nootachtige amandelcake in deeg."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is nutty almond cake texture inside pastry.",
+        "zh": "点餐识别重点是酥皮里是杏仁蛋糕感馅料和果酱。",
+        "nl": "Het herkenningspunt is nootachtige amandelcake in deeg."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
+        "pastry-crust",
+        30,
         "base"
       ],
       [
-        "sugar",
+        "almonds",
+        25,
+        "component"
+      ],
+      [
+        "fruit-sauce-or-caramel",
         20,
-        "sweetness"
+        "fruit-or-sweetness"
       ],
       [
         "egg",
         15,
-        "structure"
+        "component"
       ],
       [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
+        "sugar",
         10,
-        "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "component"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "almonds",
+      "fruit-sauce-or-caramel",
+      "butter"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "almond",
+      "jammy"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "crumbly tart",
+      "almond filling",
+      "jam layer"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-tree-nut"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
       "dessert"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free",
+      "tree-nut-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a nutty jam tart; skip if you avoid almonds or sweet pastry.",
+      "zh": "想吃杏仁果酱挞时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een nootachtige jamtaart wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123052-bakewell-tart.webp",
+    "thumbPath": "/assets/dishes/thumb/123052-bakewell-tart.webp"
   },
   {
     "id": "victoria-sponge",
     "metadataCode": "123053",
+    "imageCode": "123053",
     "cuisineId": "british-irish",
     "names": {
       "en": "Victoria Sponge",
@@ -21281,103 +21402,108 @@ const europeDepthDishConfigs = [
       "local": "Victoria Sponge"
     },
     "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
     "cookingMethods": [
-      "baked"
+      "baked",
+      "assembled"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Victoria Sponge is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "维多利亚海绵蛋糕是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Victoria Sponge is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Victoria Sponge is a British sponge cake layered with jam and cream or buttercream.",
+      "zh": "维多利亚海绵蛋糕通常是英式海绵蛋糕，夹果酱和奶油或黄油霜。",
+      "nl": "Victoria Sponge is meestal een Britse cake met jam en room of botercrème ertussen."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect soft cake with a sweet cream-and-jam center.",
+      "zh": "点餐时可预期蛋糕体柔软，中间是甜奶油和果酱。",
+      "nl": "Verwacht zachte cake met zoete room en jam."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is soft cake with a sweet cream-and-jam center.",
+        "zh": "点餐识别重点是蛋糕体柔软，中间是甜奶油和果酱。",
+        "nl": "Het herkenningspunt is zachte cake met zoete room en jam."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "sugar",
-        20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
+        "sponge-cake",
+        55,
+        "component"
       ],
       [
         "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
-        10,
+        20,
         "richness"
       ],
       [
         "fruit-sauce-or-caramel",
         15,
-        "topping"
+        "fruit-or-sweetness"
+      ],
+      [
+        "sugar",
+        10,
+        "component"
       ]
     ],
     "distinctiveFlavorSources": [
       "cream",
-      "sugar",
-      "baked pastry"
+      "fruit-sauce-or-caramel",
+      "vanilla"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "jammy"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft sponge",
+      "cream layer",
+      "jam filling"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
       "dessert"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a classic cream-and-jam cake; skip if you want a less sweet dessert.",
+      "zh": "想吃奶油果酱蛋糕时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een klassieke room-jamcake wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123053-victoria-sponge.webp",
+    "thumbPath": "/assets/dishes/thumb/123053-victoria-sponge.webp"
   },
   {
     "id": "spotted-dick",
     "metadataCode": "123054",
+    "imageCode": "123054",
     "cuisineId": "british-irish",
     "names": {
       "en": "Spotted Dick",
@@ -21386,103 +21512,116 @@ const europeDepthDishConfigs = [
       "local": "Spotted Dick"
     },
     "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
     "cookingMethods": [
-      "baked"
+      "steamed"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Spotted Dick is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡萄干蒸布丁是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Spotted Dick is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Spotted Dick is a steamed British suet-style pudding with dried fruit, often served with custard.",
+      "zh": "葡萄干蒸布丁通常是英式果干蒸布丁，常配蛋奶酱。",
+      "nl": "Spotted Dick is meestal een gestoomde Britse pudding met gedroogd fruit, vaak met custard."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect warm dense pudding with raisins and custard-style richness.",
+      "zh": "点餐时可预期热布丁扎实，有葡萄干，适合配蛋奶酱。",
+      "nl": "Verwacht warme compacte pudding met rozijnen en custardrijkheid."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is warm dense pudding with raisins and custard-style richness.",
+        "zh": "点餐识别重点是热布丁扎实，有葡萄干，适合配蛋奶酱。",
+        "nl": "Het herkenningspunt is warme compacte pudding met rozijnen en custardrijkheid."
       }
     },
     "composition": [
       [
         "wheat-flour",
-        25,
+        35,
         "base"
       ],
       [
-        "sugar",
-        20,
-        "sweetness"
+        "raisins",
+        25,
+        "fruit-or-sweetness"
       ],
       [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
+        "butter",
         15,
         "richness"
       ],
       [
-        "butter",
+        "cream",
         10,
         "richness"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "sugar",
+        10,
+        "component"
+      ],
+      [
+        "nutmeg",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
+      "raisins",
       "cream",
-      "sugar",
-      "baked pastry"
+      "nutmeg"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "warm-spiced",
+      "rich"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "steamed pudding",
+      "dried fruit",
+      "custard-friendly"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
       "dessert"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a warm traditional pudding; skip if you dislike raisins or dense puddings.",
+      "zh": "想吃传统热布丁时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een warme traditionele pudding wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123054-spotted-dick.webp",
+    "thumbPath": "/assets/dishes/thumb/123054-spotted-dick.webp"
   },
   {
     "id": "treacle-tart",
     "metadataCode": "123055",
+    "imageCode": "123055",
     "cuisineId": "british-irish",
     "names": {
       "en": "Treacle Tart",
@@ -21491,51 +21630,51 @@ const europeDepthDishConfigs = [
       "local": "Treacle Tart"
     },
     "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
     "cookingMethods": [
       "baked"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Treacle Tart is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "糖浆挞是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Treacle Tart is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Treacle Tart is a British syrup tart with breadcrumbs and lemon in a pastry shell.",
+      "zh": "糖浆挞通常是英式糖浆挞，派皮里是糖浆、面包屑和柠檬。",
+      "nl": "Treacle Tart is meestal een Britse sirooptaart met broodkruim en citroen in deeg."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect sticky syrup filling with a crisp pastry edge.",
+      "zh": "点餐时可预期糖浆馅黏甜，派边酥脆。",
+      "nl": "Verwacht kleverige siroopvulling met krokante deegrand."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is sticky syrup filling with a crisp pastry edge.",
+        "zh": "点餐识别重点是糖浆馅黏甜，派边酥脆。",
+        "nl": "Het herkenningspunt is kleverige siroopvulling met krokante deegrand."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
+        "pastry-crust",
+        35,
         "base"
       ],
       [
-        "sugar",
+        "honey",
+        30,
+        "distinctive-seasoning"
+      ],
+      [
+        "bread",
         20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
+        "base"
       ],
       [
         "butter",
@@ -21543,51 +21682,58 @@ const europeDepthDishConfigs = [
         "richness"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "lemon",
+        5,
+        "fruit-or-sweetness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "honey",
+      "lemon",
+      "butter"
     ],
     "basicTaste": [
-      "sweet",
-      "creamy"
+      "very sweet",
+      "syrupy",
+      "buttery"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "sticky filling",
+      "pastry shell",
+      "crumb body"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
       "dessert"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a very sweet sticky tart; skip if you prefer tart or light desserts.",
+      "zh": "想吃黏甜糖浆挞时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een zeer zoete kleverige taart wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123055-treacle-tart.webp",
+    "thumbPath": "/assets/dishes/thumb/123055-treacle-tart.webp"
   },
   {
     "id": "banoffee-pie",
     "metadataCode": "123056",
+    "imageCode": "123056",
     "cuisineId": "british-irish",
     "names": {
       "en": "Banoffee Pie",
@@ -21596,103 +21742,111 @@ const europeDepthDishConfigs = [
       "local": "Banoffee Pie"
     },
     "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
     "cookingMethods": [
-      "baked"
+      "assembled",
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Banoffee Pie is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "香蕉太妃派是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Banoffee Pie is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Banoffee Pie is a chilled banana and toffee pie with cream.",
+      "zh": "香蕉太妃派通常是冷食香蕉太妃派，配奶油。",
+      "nl": "Banoffee Pie is meestal een gekoelde banaan-toffeetaart met room."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect banana sweetness, caramel sauce, and soft cream.",
+      "zh": "点餐时可预期香蕉甜味、焦糖酱和柔软奶油很明显。",
+      "nl": "Verwacht bananenzoetheid, karamelsaus en zachte room."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is banana sweetness, caramel sauce, and soft cream.",
+        "zh": "点餐识别重点是香蕉甜味、焦糖酱和柔软奶油很明显。",
+        "nl": "Het herkenningspunt is bananenzoetheid, karamelsaus en zachte room."
       }
     },
     "composition": [
       [
-        "wheat-flour",
+        "pastry-crust",
         25,
         "base"
       ],
       [
-        "sugar",
-        20,
-        "sweetness"
+        "banana",
+        25,
+        "fruit-or-sweetness"
       ],
       [
-        "egg",
-        15,
-        "structure"
+        "toffee-sauce",
+        25,
+        "fruit-or-sweetness"
       ],
       [
         "cream",
-        15,
+        20,
         "richness"
       ],
       [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "chocolate",
+        5,
+        "component"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "banana",
+      "toffee-sauce",
+      "cream"
     ],
     "basicTaste": [
       "sweet",
+      "caramel",
       "creamy"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "crumb crust",
+      "banana slices",
+      "soft cream"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
       "dessert"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a creamy banana-caramel dessert; skip if you dislike caramel or creamy pies.",
+      "zh": "想吃香蕉焦糖奶油甜点时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een romig banaan-karameldessert wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123056-banoffee-pie.webp",
+    "thumbPath": "/assets/dishes/thumb/123056-banoffee-pie.webp"
   },
   {
     "id": "mince-pies",
     "metadataCode": "123057",
+    "imageCode": "123057",
     "cuisineId": "british-irish",
     "names": {
       "en": "Mince Pies",
@@ -21701,103 +21855,111 @@ const europeDepthDishConfigs = [
       "local": "Mince Pies"
     },
     "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
     "cookingMethods": [
       "baked"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Mince Pies is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "圣诞果干馅饼是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Mince Pies is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Mince Pies is small British Christmas pastries filled with spiced dried fruit.",
+      "zh": "圣诞果干馅饼通常是英式圣诞小派，馅是香料果干。",
+      "nl": "Mince Pies is meestal kleine Britse kerstpasteitjes met gekruid gedroogd fruit."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect crumbly pastry and concentrated spiced fruit.",
+      "zh": "点餐时可预期小派皮酥碎，果干香料味集中。",
+      "nl": "Verwacht kruimelig deeg en geconcentreerd gekruid fruit."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is crumbly pastry and concentrated spiced fruit.",
+        "zh": "点餐识别重点是小派皮酥碎，果干香料味集中。",
+        "nl": "Het herkenningspunt is kruimelig deeg en geconcentreerd gekruid fruit."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
+        "pastry-crust",
+        40,
         "base"
       ],
       [
-        "sugar",
-        20,
-        "sweetness"
+        "raisins",
+        30,
+        "fruit-or-sweetness"
       ],
       [
-        "egg",
+        "apple",
         15,
-        "structure"
+        "fruit-or-sweetness"
       ],
       [
-        "cream",
-        15,
-        "richness"
+        "cinnamon",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
       ],
       [
         "butter",
-        10,
+        5,
         "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "raisins",
+      "cinnamon",
+      "apple"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "spiced",
+      "fruity"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "small pastry",
+      "mincemeat fruit filling",
+      "crumbly edge"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
       "dessert"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a spiced fruit pastry; skip if you dislike raisins or Christmas spices.",
+      "zh": "想吃香料果干小派时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een gekruid fruitpasteitje wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123057-mince-pies.webp",
+    "thumbPath": "/assets/dishes/thumb/123057-mince-pies.webp"
   },
   {
     "id": "christmas-pudding",
     "metadataCode": "123058",
+    "imageCode": "123058",
     "cuisineId": "british-irish",
     "names": {
       "en": "Christmas Pudding",
@@ -21806,103 +21968,121 @@ const europeDepthDishConfigs = [
       "local": "Christmas Pudding"
     },
     "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
     "cookingMethods": [
-      "baked"
+      "steamed"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Christmas Pudding is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "英式圣诞布丁是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Christmas Pudding is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Christmas Pudding is a dense British steamed Christmas dessert packed with dried fruit and spice.",
+      "zh": "英式圣诞布丁通常是英式圣诞蒸布丁，果干和香料很多，质地厚重。",
+      "nl": "Christmas Pudding is meestal een dichte Britse kerstpudding vol gedroogd fruit en specerij."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect heavy steamed fruit pudding with warm spice and possible alcohol aroma.",
+      "zh": "点餐时可预期蒸布丁厚重，果干和暖香料明显，可能有酒香。",
+      "nl": "Verwacht zware gestoomde fruitpudding met warme specerij en mogelijk alcoholgeur."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is heavy steamed fruit pudding with warm spice and possible alcohol aroma.",
+        "zh": "点餐识别重点是蒸布丁厚重，果干和暖香料明显，可能有酒香。",
+        "nl": "Het herkenningspunt is zware gestoomde fruitpudding met warme specerij en mogelijk alcoholgeur."
       }
     },
     "composition": [
       [
+        "raisins",
+        45,
+        "fruit-or-sweetness"
+      ],
+      [
         "wheat-flour",
-        25,
+        20,
         "base"
       ],
       [
-        "sugar",
-        20,
-        "sweetness"
+        "butter",
+        15,
+        "richness"
       ],
       [
         "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
         10,
-        "richness"
+        "component"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "cinnamon",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "red-wine",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "raisins",
+      "cinnamon",
+      "red-wine"
     ],
     "basicTaste": [
-      "sweet",
-      "creamy"
+      "rich",
+      "spiced",
+      "fruity"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "dense steamed pudding",
+      "dried fruit",
+      "boozy aroma"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-alcohol"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
       "dessert"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free",
+      "no-alcohol"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a rich festive pudding; skip if you dislike dense fruit cakes or alcohol notes.",
+      "zh": "想吃厚重节日布丁时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een rijke feestpudding wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123058-christmas-pudding.webp",
+    "thumbPath": "/assets/dishes/thumb/123058-christmas-pudding.webp"
   },
   {
     "id": "welsh-cakes",
     "metadataCode": "123059",
+    "imageCode": "123059",
     "cuisineId": "british-irish",
     "names": {
       "en": "Welsh Cakes",
@@ -21911,103 +22091,111 @@ const europeDepthDishConfigs = [
       "local": "Welsh Cakes"
     },
     "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
     "cookingMethods": [
-      "baked"
+      "fried"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Welsh Cakes is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "威尔士小煎饼是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Welsh Cakes is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Welsh Cakes is small Welsh griddle cakes with dried fruit and sugar.",
+      "zh": "威尔士小煎饼通常是威尔士小煎饼，含果干并常撒糖。",
+      "nl": "Welsh Cakes is meestal kleine Welshe bakplaatcakejes met gedroogd fruit en suiker."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect soft buttery mini cakes cooked on a griddle.",
+      "zh": "点餐时可预期小饼柔软有黄油香，用煎板做成。",
+      "nl": "Verwacht zachte boterige cakejes van de bakplaat."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is soft buttery mini cakes cooked on a griddle.",
+        "zh": "点餐识别重点是小饼柔软有黄油香，用煎板做成。",
+        "nl": "Het herkenningspunt is zachte boterige cakejes van de bakplaat."
       }
     },
     "composition": [
       [
         "wheat-flour",
-        25,
+        40,
         "base"
       ],
       [
-        "sugar",
-        20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
+        "raisins",
+        25,
+        "fruit-or-sweetness"
       ],
       [
         "butter",
-        10,
+        15,
         "richness"
       ],
       [
-        "fruit-sauce-or-caramel",
+        "sugar",
         15,
-        "topping"
+        "component"
+      ],
+      [
+        "cinnamon",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "raisins",
+      "butter",
+      "cinnamon"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "buttery",
+      "mild-spiced"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "small griddle cake",
+      "soft crumb",
+      "sugar-dusted"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
       "dessert"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a small buttery tea snack; skip if you dislike raisins.",
+      "zh": "想吃黄油香茶点小饼时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een klein boterig theehapje wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123059-welsh-cakes.webp",
+    "thumbPath": "/assets/dishes/thumb/123059-welsh-cakes.webp"
   },
   {
     "id": "eccles-cakes",
     "metadataCode": "123060",
+    "imageCode": "123060",
     "cuisineId": "british-irish",
     "names": {
       "en": "Eccles Cakes",
@@ -22016,51 +22204,46 @@ const europeDepthDishConfigs = [
       "local": "Eccles Cakes"
     },
     "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
     "cookingMethods": [
       "baked"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Eccles Cakes is a common British & Irish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "果干千层小饼是常见英式/爱尔兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Eccles Cakes is een veelvoorkomend Brits-Iers menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Eccles Cakes is flaky British pastries filled with spiced currants or raisins.",
+      "zh": "果干千层小饼通常是英式千层小酥饼，夹香料葡萄干馅。",
+      "nl": "Eccles Cakes is meestal Britse bladerdeegkoekjes gevuld met gekruide krenten of rozijnen."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect flaky pastry around sticky spiced fruit.",
+      "zh": "点餐时可预期酥皮层次明显，里面是黏甜香料果干。",
+      "nl": "Verwacht bladerdeeg rond kleverig gekruid fruit."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely British & Irish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见英式/爱尔兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Brits-Iers restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is flaky pastry around sticky spiced fruit.",
+        "zh": "点餐识别重点是酥皮层次明显，里面是黏甜香料果干。",
+        "nl": "Het herkenningspunt is bladerdeeg rond kleverig gekruid fruit."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
+        "puff-pastry",
+        40,
         "base"
       ],
       [
-        "sugar",
-        20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
+        "raisins",
+        35,
+        "fruit-or-sweetness"
       ],
       [
         "butter",
@@ -22068,47 +22251,59 @@ const europeDepthDishConfigs = [
         "richness"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "sugar",
+        10,
+        "component"
+      ],
+      [
+        "cinnamon",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "raisins",
+      "puff-pastry",
+      "cinnamon"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "spiced",
+      "buttery"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "flaky pastry",
+      "sticky currant filling",
+      "small round cake"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
       "dessert"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a flaky raisin pastry; skip if you dislike dried fruit fillings.",
+      "zh": "想吃酥皮果干小点时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een bladerdeeg-rozijnengebakje wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/123060-eccles-cakes.webp",
+    "thumbPath": "/assets/dishes/thumb/123060-eccles-cakes.webp"
   },
   {
     "cuisineId": "portuguese",
@@ -22222,6 +22417,7 @@ const europeDepthDishConfigs = [
   {
     "id": "pataniscas-de-bacalhau",
     "metadataCode": "125032",
+    "imageCode": "125032",
     "cuisineId": "portuguese",
     "names": {
       "en": "Pataniscas de Bacalhau",
@@ -22229,105 +22425,109 @@ const europeDepthDishConfigs = [
       "nl": "Pataniscas de Bacalhau",
       "local": "Pataniscas de Bacalhau"
     },
-    "category": "fried",
+    "category": "starter",
+    "mealRole": "starter-or-side",
+    "portionType": "small-plate",
+    "goodForSharing": true,
     "cookingMethods": [
       "fried"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Pataniscas de Bacalhau is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡式鳕鱼煎饼是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Pataniscas de Bacalhau is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Pataniscas de Bacalhau is Portuguese salt-cod fritters, flatter and softer than many croquettes.",
+      "zh": "葡式鳕鱼煎饼通常是葡式咸鳕鱼煎炸小饼，比很多可乐饼更扁更软。",
+      "nl": "Pataniscas de Bacalhau is meestal Portugese bakkeljauwbeignets, platter en zachter dan veel kroketten."
     },
     "cookingProfile": {
-      "en": "Usually served with fried snack or main, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fried snack or main，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fried snack or main; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect salty cod in a light fried batter.",
+      "zh": "点餐时可预期咸鳕鱼夹在轻薄面糊里煎炸。",
+      "nl": "Verwacht zoute kabeljauw in licht gefrituurd beslag."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "signature",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "signature-dish"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is salty cod in a light fried batter.",
+        "zh": "点餐识别重点是咸鳕鱼夹在轻薄面糊里煎炸。",
+        "nl": "Het herkenningspunt is zoute kabeljauw in licht gefrituurd beslag."
       }
     },
     "composition": [
       [
+        "salt-cod",
+        45,
+        "seafood"
+      ],
+      [
         "wheat-flour",
         25,
-        "coating"
-      ],
-      [
-        "potato",
-        25,
-        "body"
-      ],
-      [
-        "fish-fillet",
-        20,
-        "main"
+        "base"
       ],
       [
         "egg",
-        10,
-        "binder"
+        15,
+        "component"
       ],
       [
-        "butter",
+        "onion",
         10,
-        "richness"
+        "component"
       ],
       [
-        "sea-salt",
-        10,
-        "seasoning",
+        "parsley",
+        5,
+        "distinctive-seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "salt-cod",
+      "parsley",
+      "onion"
     ],
     "basicTaste": [
-      "savory",
-      "rich"
-    ],
-    "textureProfile": [
-      "crisp outside",
-      "soft center"
-    ],
-    "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-fish"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
+      "salty",
+      "fishy-savory",
       "fried"
     ],
+    "textureProfile": [
+      "flat fritters",
+      "soft cod pieces",
+      "crisp edge"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-gluten",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
     "avoidIfTags": [
-      "gluten-free"
+      "fish-allergy",
+      "gluten-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a salty cod fritter; skip if you avoid fish or fried batter.",
+      "zh": "想吃咸鳕鱼炸小饼时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een zoute kabeljauwbeignet wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 1,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125032-pataniscas-de-bacalhau.webp",
+    "thumbPath": "/assets/dishes/thumb/125032-pataniscas-de-bacalhau.webp"
   },
   {
     "id": "acorda-alentejana",
     "metadataCode": "125033",
+    "imageCode": "125033",
     "cuisineId": "portuguese",
     "names": {
       "en": "Acorda Alentejana",
@@ -22336,99 +22536,110 @@ const europeDepthDishConfigs = [
       "local": "Acorda Alentejana"
     },
     "category": "soup",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
+      "assembled",
       "simmered"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Acorda Alentejana is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "阿连特茹面包蒜汤是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Acorda Alentejana is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Acorda Alentejana is an Alentejo bread soup with garlic, olive oil, herbs, and poached egg.",
+      "zh": "阿连特茹面包蒜汤通常是阿连特茹面包汤，有蒜、橄榄油、香草和水波蛋。",
+      "nl": "Acorda Alentejana is meestal een Alentejo-broodsoep met knoflook, olijfolie, kruiden en gepocheerd ei."
     },
     "cookingProfile": {
-      "en": "Usually served with warm soup, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现warm soup，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met warm soup; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect soft bread soaked in garlicky broth with egg.",
+      "zh": "点餐时可预期面包泡软在蒜香汤里，配鸡蛋。",
+      "nl": "Verwacht zacht brood in knoflookbouillon met ei."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is soft bread soaked in garlicky broth with egg.",
+        "zh": "点餐识别重点是面包泡软在蒜香汤里，配鸡蛋。",
+        "nl": "Het herkenningspunt is zacht brood in knoflookbouillon met ei."
       }
     },
     "composition": [
       [
-        "broth",
-        35,
+        "bread",
+        45,
         "base"
       ],
       [
-        "mixed-vegetables",
+        "broth",
         25,
-        "body"
+        "component"
       ],
       [
-        "potato",
+        "egg",
         15,
-        "body"
+        "component"
       ],
       [
-        "cream",
+        "garlic",
         10,
-        "richness"
+        "distinctive-seasoning"
       ],
       [
-        "black-pepper",
+        "olive-oil",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
+        "component"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "garlic",
+      "olive-oil",
+      "egg"
     ],
     "basicTaste": [
-      "savory",
-      "warming"
+      "garlicky",
+      "brothy",
+      "rustic"
     ],
     "textureProfile": [
-      "brothy or creamy",
-      "soft bite"
+      "soaked bread",
+      "poached egg",
+      "olive oil broth"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
       "soup"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, warming profile sounds appealing.",
-      "zh": "如果你想要savory、warming的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, warming je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a rustic garlic bread soup; skip if you dislike soggy bread texture.",
+      "zh": "想吃乡土蒜香面包汤时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een rustieke knoflook-broodsoep wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125033-acorda-alentejana.webp",
+    "thumbPath": "/assets/dishes/thumb/125033-acorda-alentejana.webp"
   },
   {
     "id": "arroz-de-polvo",
     "metadataCode": "125034",
+    "imageCode": "125034",
     "cuisineId": "portuguese",
     "names": {
       "en": "Arroz de Polvo",
@@ -22436,106 +22647,106 @@ const europeDepthDishConfigs = [
       "nl": "Arroz de Polvo",
       "local": "Arroz de Polvo"
     },
-    "category": "seafood",
+    "category": "rice",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
-      "grilled"
+      "simmered"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Arroz de Polvo is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡式章鱼饭是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Arroz de Polvo is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Arroz de Polvo is Portuguese octopus rice, usually moist and tomato-leaning.",
+      "zh": "葡式章鱼饭通常是葡式章鱼饭，通常比较湿润，带番茄味。",
+      "nl": "Arroz de Polvo is meestal Portugese octopusrijst, meestal smeuig en tomaatgericht."
     },
     "cookingProfile": {
-      "en": "Usually served with fish or seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish or seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish or seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect tender octopus pieces in saucy rice.",
+      "zh": "点餐时可预期章鱼块柔软，米饭带酱汁。",
+      "nl": "Verwacht malse octopusstukjes in smeuige rijst."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "signature",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "signature-dish"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is tender octopus pieces in saucy rice.",
+        "zh": "点餐识别重点是章鱼块柔软，米饭带酱汁。",
+        "nl": "Het herkenningspunt is malse octopusstukjes in smeuige rijst."
       }
     },
     "composition": [
       [
-        "fish-fillet",
+        "octopus",
         40,
-        "main"
-      ],
-      [
-        "mussels",
-        20,
         "seafood"
       ],
       [
-        "potato",
-        15,
-        "side"
+        "steamed-rice",
+        35,
+        "starch-or-legume"
       ],
       [
-        "lemon",
+        "tomato-sauce",
         10,
-        "brightness"
+        "component"
+      ],
+      [
+        "onion",
+        10,
+        "component"
       ],
       [
         "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "parsley",
         5,
-        "finish",
-        "seasoning"
+        "component"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "octopus",
+      "tomato-sauce",
+      "olive-oil"
     ],
     "basicTaste": [
-      "savory",
-      "briny"
+      "seafood-savory",
+      "tomato-bright",
+      "mild"
     ],
     "textureProfile": [
-      "tender seafood",
-      "bright savory finish"
+      "moist rice",
+      "tender octopus",
+      "saucy grains"
     ],
     "riskFlags": [
-      "contains-fish",
       "contains-shellfish"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "seafood"
+      "rice"
     ],
     "avoidIfTags": [
-      "fish-allergy",
       "shellfish-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a moist octopus rice dish; skip if you dislike octopus or saucy rice.",
+      "zh": "想吃湿润章鱼饭时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een smeuig octopusrijstgerecht wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125034-arroz-de-polvo.webp",
+    "thumbPath": "/assets/dishes/thumb/125034-arroz-de-polvo.webp"
   },
   {
     "id": "polvo-guisado",
     "metadataCode": "125035",
+    "imageCode": "125035",
     "cuisineId": "portuguese",
     "names": {
       "en": "Polvo Guisado",
@@ -22544,101 +22755,101 @@ const europeDepthDishConfigs = [
       "local": "Polvo Guisado"
     },
     "category": "seafood",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
-      "grilled"
+      "braised"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Polvo Guisado is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡式炖章鱼是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Polvo Guisado is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Polvo Guisado is Portuguese stewed octopus in a tomato and wine style sauce.",
+      "zh": "葡式炖章鱼通常是葡式炖章鱼，酱汁常有番茄和葡萄酒风味。",
+      "nl": "Polvo Guisado is meestal Portugese gestoofde octopus in tomaat-wijnsaus."
     },
     "cookingProfile": {
-      "en": "Usually served with fish or seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish or seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish or seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect tender octopus in a deep red sauce.",
+      "zh": "点餐时可预期章鱼炖到柔软，酱汁颜色深红。",
+      "nl": "Verwacht malse octopus in diepe rode saus."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is tender octopus in a deep red sauce.",
+        "zh": "点餐识别重点是章鱼炖到柔软，酱汁颜色深红。",
+        "nl": "Het herkenningspunt is malse octopus in diepe rode saus."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        40,
-        "main"
-      ],
-      [
-        "mussels",
-        20,
+        "octopus",
+        55,
         "seafood"
       ],
       [
         "potato",
-        15,
-        "side"
+        20,
+        "starch-or-legume"
       ],
       [
-        "lemon",
+        "tomato-sauce",
         10,
-        "brightness"
+        "component"
+      ],
+      [
+        "red-wine",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
       ],
       [
         "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "parsley",
         5,
-        "finish",
-        "seasoning"
+        "component"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "octopus",
+      "red-wine",
+      "tomato-sauce"
     ],
     "basicTaste": [
       "savory",
-      "briny"
+      "briny",
+      "winey"
     ],
     "textureProfile": [
-      "tender seafood",
-      "bright savory finish"
+      "braised octopus",
+      "soft potatoes",
+      "red sauce"
     ],
     "riskFlags": [
-      "contains-fish",
-      "contains-shellfish"
+      "contains-shellfish",
+      "contains-alcohol"
     ],
     "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "seafood"
-    ],
+    "goodForTags": [],
     "avoidIfTags": [
-      "fish-allergy",
-      "shellfish-allergy"
+      "shellfish-allergy",
+      "no-alcohol"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a saucy octopus stew; skip if you avoid alcohol notes or octopus.",
+      "zh": "想吃有酱汁的炖章鱼时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een sauzige octopusstoof wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125035-polvo-guisado.webp",
+    "thumbPath": "/assets/dishes/thumb/125035-polvo-guisado.webp"
   },
   {
     "cuisineId": "portuguese",
@@ -22760,6 +22971,7 @@ const europeDepthDishConfigs = [
   {
     "id": "rojoes",
     "metadataCode": "125037",
+    "imageCode": "125037",
     "cuisineId": "portuguese",
     "names": {
       "en": "Rojoes",
@@ -22767,105 +22979,110 @@ const europeDepthDishConfigs = [
       "nl": "Rojoes",
       "local": "Rojoes"
     },
-    "category": "pork",
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
-      "grilled"
+      "fried",
+      "braised"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Rojoes is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡式炸炖猪肉块是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Rojoes is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Rojoes is Portuguese pork chunks marinated and cooked with garlic, wine, and paprika.",
+      "zh": "葡式炸炖猪肉块通常是葡式猪肉块，用蒜、葡萄酒和红椒粉腌煮。",
+      "nl": "Rojoes is meestal Portugese varkensblokjes met knoflook, wijn en paprika."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect browned pork pieces with garlicky wine seasoning.",
+      "zh": "点餐时可预期猪肉块煎炖出焦香，蒜和酒香明显。",
+      "nl": "Verwacht gebruinde varkensstukjes met knoflook-wijnkruiding."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is browned pork pieces with garlicky wine seasoning.",
+        "zh": "点餐识别重点是猪肉块煎炖出焦香，蒜和酒香明显。",
+        "nl": "Het herkenningspunt is gebruinde varkensstukjes met knoflook-wijnkruiding."
       }
     },
     "composition": [
       [
         "pork",
-        50,
-        "main"
+        60,
+        "protein"
       ],
       [
         "potato",
         20,
-        "side"
+        "starch-or-legume"
       ],
       [
-        "cabbage",
+        "red-wine",
         10,
-        "body"
-      ],
-      [
-        "mustard",
-        5,
-        "condiment",
+        "distinctive-seasoning",
         "seasoning"
       ],
       [
-        "black-pepper",
+        "garlic",
         5,
-        "seasoning",
+        "distinctive-seasoning",
         "seasoning"
       ],
       [
-        "parsley",
-        10,
-        "finish",
+        "paprika",
+        5,
+        "distinctive-seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
       "pork",
-      "pepper",
-      "browned edges"
+      "garlic",
+      "paprika"
     ],
     "basicTaste": [
       "savory",
+      "garlicky",
       "rich"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "pork chunks",
+      "browned edges",
+      "wine-garlic sauce"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-alcohol"
     ],
     "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "pork"
-    ],
+    "goodForTags": [],
     "avoidIfTags": [
-      "no-pork"
+      "no-pork",
+      "no-alcohol"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want garlicky Portuguese pork; skip if you avoid pork or alcohol-based marinades.",
+      "zh": "想吃蒜香葡式猪肉块时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je Portugees varkensvlees met knoflook wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125037-rojoes.webp",
+    "thumbPath": "/assets/dishes/thumb/125037-rojoes.webp"
   },
   {
     "id": "febras",
     "metadataCode": "125038",
+    "imageCode": "125038",
     "cuisineId": "portuguese",
     "names": {
       "en": "Febras",
@@ -22873,105 +23090,106 @@ const europeDepthDishConfigs = [
       "nl": "Febras",
       "local": "Febras"
     },
-    "category": "pork",
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
-      "grilled"
+      "grilled",
+      "fried"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Febras is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡式猪排是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Febras is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Febras is Portuguese thin pork steaks, usually grilled or pan-fried with garlic.",
+      "zh": "葡式猪排通常是葡式薄猪排，通常用蒜香煎或烤。",
+      "nl": "Febras is meestal Portugese dunne varkenslapjes, meestal gegrild of gebakken met knoflook."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect simple pork cutlets with garlic and a firm bite.",
+      "zh": "点餐时可预期简单猪排有蒜香，口感比炖肉更紧实。",
+      "nl": "Verwacht simpele varkenslapjes met knoflook en stevige beet."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is simple pork cutlets with garlic and a firm bite.",
+        "zh": "点餐识别重点是简单猪排有蒜香，口感比炖肉更紧实。",
+        "nl": "Het herkenningspunt is simpele varkenslapjes met knoflook en stevige beet."
       }
     },
     "composition": [
       [
-        "pork",
-        50,
-        "main"
+        "pork-cutlet",
+        65,
+        "protein"
       ],
       [
-        "potato",
+        "fries",
         20,
-        "side"
+        "component"
       ],
       [
-        "cabbage",
-        10,
-        "body"
-      ],
-      [
-        "mustard",
+        "garlic",
         5,
-        "condiment",
+        "distinctive-seasoning",
         "seasoning"
       ],
       [
-        "black-pepper",
+        "olive-oil",
         5,
-        "seasoning",
-        "seasoning"
+        "component"
       ],
       [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
+        "lemon",
+        5,
+        "fruit-or-sweetness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
+      "pork-cutlet",
+      "garlic",
+      "lemon"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "garlicky",
+      "simple"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "thin pork steaks",
+      "grilled or pan-fried",
+      "plain plate"
     ],
     "riskFlags": [
       "contains-pork"
     ],
     "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "pork"
-    ],
+    "goodForTags": [],
     "avoidIfTags": [
       "no-pork"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a straightforward pork plate; skip if you want a saucy stew.",
+      "zh": "想吃简单猪排时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een eenvoudig varkensgerecht wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125038-febras.webp",
+    "thumbPath": "/assets/dishes/thumb/125038-febras.webp"
   },
   {
     "id": "entrecosto",
     "metadataCode": "125039",
+    "imageCode": "125039",
     "cuisineId": "portuguese",
     "names": {
       "en": "Entrecosto",
@@ -22979,105 +23197,110 @@ const europeDepthDishConfigs = [
       "nl": "Entrecosto",
       "local": "Entrecosto"
     },
-    "category": "pork",
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
-      "grilled"
+      "grilled",
+      "braised"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Entrecosto is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡式猪肋排是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Entrecosto is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Entrecosto is Portuguese pork ribs or rib-style cuts, often garlicky and richly seasoned.",
+      "zh": "葡式猪肋排通常是葡式猪肋排或肋肉，常有蒜香和浓重调味。",
+      "nl": "Entrecosto is meestal Portugese spareribs of ribstuk, vaak knoflookrijk en stevig gekruid."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect fatty pork with browned edges and paprika-garlic seasoning.",
+      "zh": "点餐时可预期猪肉脂香明显，边缘焦香，带红椒蒜味。",
+      "nl": "Verwacht vetter varkensvlees met gebruinde rand en paprika-knoflook."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is fatty pork with browned edges and paprika-garlic seasoning.",
+        "zh": "点餐识别重点是猪肉脂香明显，边缘焦香，带红椒蒜味。",
+        "nl": "Het herkenningspunt is vetter varkensvlees met gebruinde rand en paprika-knoflook."
       }
     },
     "composition": [
       [
-        "pork",
-        50,
-        "main"
+        "pork-belly",
+        60,
+        "protein"
       ],
       [
         "potato",
         20,
-        "side"
+        "starch-or-legume"
       ],
       [
-        "cabbage",
+        "paprika",
         10,
-        "body"
-      ],
-      [
-        "mustard",
-        5,
-        "condiment",
+        "distinctive-seasoning",
         "seasoning"
       ],
       [
-        "black-pepper",
+        "garlic",
         5,
-        "seasoning",
+        "distinctive-seasoning",
         "seasoning"
       ],
       [
-        "parsley",
-        10,
-        "finish",
+        "red-wine",
+        5,
+        "distinctive-seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
+      "pork-belly",
+      "garlic",
+      "paprika"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "fatty",
+      "garlicky"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "pork ribs or belly",
+      "browned meat",
+      "hearty portion"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-alcohol"
     ],
     "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "pork"
-    ],
+    "goodForTags": [],
     "avoidIfTags": [
-      "no-pork"
+      "no-pork",
+      "no-alcohol"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a rich pork rib plate; skip if you avoid fatty pork.",
+      "zh": "想吃浓郁猪肋肉时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een rijk varkensribgerecht wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125039-entrecosto.webp",
+    "thumbPath": "/assets/dishes/thumb/125039-entrecosto.webp"
   },
   {
     "id": "bifinhos-com-cogumelos",
     "metadataCode": "125040",
+    "imageCode": "125040",
     "cuisineId": "portuguese",
     "names": {
       "en": "Bifinhos com Cogumelos",
@@ -23085,100 +23308,106 @@ const europeDepthDishConfigs = [
       "nl": "Bifinhos com Cogumelos",
       "local": "Bifinhos com Cogumelos"
     },
-    "category": "meat",
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
-      "braised"
+      "fried",
+      "simmered"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Bifinhos com Cogumelos is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "蘑菇酱小牛排是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Bifinhos com Cogumelos is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Bifinhos com Cogumelos is Portuguese-style thin steaks served with mushroom cream sauce.",
+      "zh": "蘑菇酱小牛排通常是葡式小牛肉片配蘑菇奶油酱。",
+      "nl": "Bifinhos com Cogumelos is meestal Portugese dunne biefstukjes met champignonroomsaus."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect tender meat in a creamy mushroom sauce.",
+      "zh": "点餐时可预期肉片柔软，蘑菇奶油酱浓厚。",
+      "nl": "Verwacht mals vlees in romige champignonsaus."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is tender meat in a creamy mushroom sauce.",
+        "zh": "点餐识别重点是肉片柔软，蘑菇奶油酱浓厚。",
+        "nl": "Het herkenningspunt is mals vlees in romige champignonsaus."
       }
     },
     "composition": [
       [
-        "beef",
-        45,
-        "main"
+        "veal-cutlet",
+        55,
+        "protein"
       ],
       [
-        "potato",
+        "mushrooms",
         20,
-        "side"
+        "component"
       ],
       [
-        "mixed-vegetables",
+        "cream",
         15,
-        "body"
+        "richness"
       ],
       [
-        "onion",
-        10,
-        "aromatic"
+        "garlic",
+        5,
+        "distinctive-seasoning"
       ],
       [
         "black-pepper",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
+        "distinctive-seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "mushrooms",
+      "cream",
+      "black-pepper"
     ],
     "basicTaste": [
+      "creamy",
       "savory",
-      "rich"
+      "mushroomy"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "thin meat slices",
+      "mushroom sauce",
+      "tender bite"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-dairy"
+    ],
     "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "meat"
+    "goodForTags": [],
+    "avoidIfTags": [
+      "dairy-free"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a creamy mushroom steak dish; skip if you avoid dairy or mushrooms.",
+      "zh": "想吃蘑菇奶油小牛排时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een romig champignon-biefstukgerecht wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125040-bifinhos-com-cogumelos.webp",
+    "thumbPath": "/assets/dishes/thumb/125040-bifinhos-com-cogumelos.webp"
   },
   {
     "id": "sopa-da-pedra",
     "metadataCode": "125041",
+    "imageCode": "125041",
     "cuisineId": "portuguese",
     "names": {
       "en": "Sopa da Pedra",
@@ -23187,99 +23416,105 @@ const europeDepthDishConfigs = [
       "local": "Sopa da Pedra"
     },
     "category": "soup",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
       "simmered"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Sopa da Pedra is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡式豆肉浓汤是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Sopa da Pedra is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Sopa da Pedra is a Portuguese bean and pork soup from Almeirim tradition.",
+      "zh": "葡式豆肉浓汤通常是葡式豆肉浓汤，传统上与阿尔梅林相关。",
+      "nl": "Sopa da Pedra is meestal een Portugese bonen-varkenssoep uit de traditie van Almeirim."
     },
     "cookingProfile": {
-      "en": "Usually served with warm soup, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现warm soup，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met warm soup; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect thick beans with pork and smoky sausage.",
+      "zh": "点餐时可预期豆汤浓稠，有猪肉和烟熏香肠。",
+      "nl": "Verwacht dikke bonen met varkensvlees en rokerige worst."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is thick beans with pork and smoky sausage.",
+        "zh": "点餐识别重点是豆汤浓稠，有猪肉和烟熏香肠。",
+        "nl": "Het herkenningspunt is dikke bonen met varkensvlees en rokerige worst."
       }
     },
     "composition": [
       [
-        "broth",
-        35,
-        "base"
+        "red-kidney-beans",
+        40,
+        "starch-or-legume"
       ],
       [
-        "mixed-vegetables",
+        "pork",
         25,
-        "body"
+        "protein"
+      ],
+      [
+        "chourico",
+        15,
+        "protein"
       ],
       [
         "potato",
         15,
-        "body"
+        "starch-or-legume"
       ],
       [
-        "cream",
-        10,
-        "richness"
-      ],
-      [
-        "black-pepper",
+        "broth",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
+        "component"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "red-kidney-beans",
+      "chourico",
+      "pork"
     ],
     "basicTaste": [
-      "savory",
-      "warming"
+      "hearty",
+      "smoky",
+      "savory"
     ],
     "textureProfile": [
-      "brothy or creamy",
-      "soft bite"
+      "thick bean soup",
+      "pork pieces",
+      "sausage"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-pork"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
       "soup"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "no-pork"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, warming profile sounds appealing.",
-      "zh": "如果你想要savory、warming的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, warming je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a hearty bean-pork soup; skip if you avoid pork or heavy soups.",
+      "zh": "想喝厚重豆肉汤时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een stevige bonen-varkenssoep wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125041-sopa-da-pedra.webp",
+    "thumbPath": "/assets/dishes/thumb/125041-sopa-da-pedra.webp"
   },
   {
     "id": "canja-de-galinha",
     "metadataCode": "125042",
+    "imageCode": "125042",
     "cuisineId": "portuguese",
     "names": {
       "en": "Canja de Galinha",
@@ -23288,99 +23523,103 @@ const europeDepthDishConfigs = [
       "local": "Canja de Galinha"
     },
     "category": "soup",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
       "simmered"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Canja de Galinha is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡式鸡汤米粥是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Canja de Galinha is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Canja de Galinha is Portuguese chicken and rice soup, mild and often comforting.",
+      "zh": "葡式鸡汤米粥通常是葡式鸡肉米汤，味道温和，偏家常安慰感。",
+      "nl": "Canja de Galinha is meestal Portugese kip-rijstsoep, mild en troostrijk."
     },
     "cookingProfile": {
-      "en": "Usually served with warm soup, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现warm soup，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met warm soup; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect gentle chicken broth with soft rice.",
+      "zh": "点餐时可预期鸡汤温和，米粒煮软。",
+      "nl": "Verwacht milde kippenbouillon met zachte rijst."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is gentle chicken broth with soft rice.",
+        "zh": "点餐识别重点是鸡汤温和，米粒煮软。",
+        "nl": "Het herkenningspunt is milde kippenbouillon met zachte rijst."
       }
     },
     "composition": [
       [
-        "broth",
+        "chicken",
         35,
-        "base"
+        "protein"
       ],
       [
-        "mixed-vegetables",
+        "short-grain-rice",
         25,
-        "body"
+        "starch-or-legume"
       ],
       [
-        "potato",
-        15,
-        "body"
+        "broth",
+        30,
+        "component"
       ],
       [
-        "cream",
-        10,
-        "richness"
-      ],
-      [
-        "black-pepper",
+        "mint",
         5,
-        "seasoning",
+        "distinctive-seasoning",
         "seasoning"
       ],
       [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
+        "lemon",
+        5,
+        "fruit-or-sweetness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "chicken",
+      "broth",
+      "mint"
     ],
     "basicTaste": [
-      "savory",
-      "warming"
+      "mild",
+      "brothy",
+      "comforting"
     ],
     "textureProfile": [
-      "brothy or creamy",
-      "soft bite"
+      "rice soup",
+      "soft chicken",
+      "gentle broth"
     ],
     "riskFlags": [],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "soup"
+      "soup",
+      "first-timer-friendly"
     ],
     "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, warming profile sounds appealing.",
-      "zh": "如果你想要savory、warming的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, warming je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a mild chicken rice soup; skip if you want strong spice or a heavy main.",
+      "zh": "想喝温和鸡肉米汤时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een milde kip-rijstsoep wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125042-canja-de-galinha.webp",
+    "thumbPath": "/assets/dishes/thumb/125042-canja-de-galinha.webp"
   },
   {
     "id": "feijoada-a-transmontana",
     "metadataCode": "125043",
+    "imageCode": "125043",
     "cuisineId": "portuguese",
     "names": {
       "en": "Feijoada a Transmontana",
@@ -23388,100 +23627,110 @@ const europeDepthDishConfigs = [
       "nl": "Feijoada a Transmontana",
       "local": "Feijoada a Transmontana"
     },
-    "category": "stew",
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
       "simmered"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Feijoada a Transmontana is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡北豆肉炖锅是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Feijoada a Transmontana is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Feijoada a Transmontana is a northern Portuguese bean stew with several pork cuts and sausage.",
+      "zh": "葡北豆肉炖锅通常是葡萄牙北部豆肉炖锅，含多种猪肉和香肠。",
+      "nl": "Feijoada a Transmontana is meestal een Noord-Portugese bonenstoof met verschillende varkensdelen en worst."
     },
     "cookingProfile": {
-      "en": "Usually served with slow-cooked stew, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现slow-cooked stew，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met slow-cooked stew; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect thick beans with smoky pork and sausage.",
+      "zh": "点餐时可预期豆子厚实，猪肉和香肠有烟熏咸香。",
+      "nl": "Verwacht dikke bonen met rokerig varkensvlees en worst."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is thick beans with smoky pork and sausage.",
+        "zh": "点餐识别重点是豆子厚实，猪肉和香肠有烟熏咸香。",
+        "nl": "Het herkenningspunt is dikke bonen met rokerig varkensvlees en worst."
       }
     },
     "composition": [
       [
-        "beef",
+        "white-beans",
         35,
-        "main"
+        "starch-or-legume"
       ],
       [
-        "potato",
-        20,
-        "body"
+        "pork",
+        30,
+        "protein"
+      ],
+      [
+        "chourico",
+        15,
+        "protein"
+      ],
+      [
+        "cabbage",
+        10,
+        "component"
       ],
       [
         "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "broth",
-        15,
-        "base"
+        5,
+        "component"
       ],
       [
         "black-pepper",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
+        "distinctive-seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "white-beans",
+      "chourico",
+      "pork"
     ],
     "basicTaste": [
-      "savory",
-      "hearty"
+      "hearty",
+      "smoky",
+      "savory"
     ],
     "textureProfile": [
-      "soft vegetables",
-      "rich broth"
+      "bean stew",
+      "mixed pork cuts",
+      "cabbage"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-pork"
+    ],
     "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "stew"
+    "goodForTags": [],
+    "avoidIfTags": [
+      "no-pork"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a heavy bean-and-pork stew; skip if you avoid pork or very filling stews.",
+      "zh": "想吃厚重豆肉炖锅时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een zware bonen-varkensstoof wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125043-feijoada-a-transmontana.webp",
+    "thumbPath": "/assets/dishes/thumb/125043-feijoada-a-transmontana.webp"
   },
   {
     "id": "chanfana",
     "metadataCode": "125044",
+    "imageCode": "125044",
     "cuisineId": "portuguese",
     "names": {
       "en": "Chanfana",
@@ -23489,100 +23738,107 @@ const europeDepthDishConfigs = [
       "nl": "Chanfana",
       "local": "Chanfana"
     },
-    "category": "stew",
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
-      "simmered"
+      "braised"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Chanfana is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "红酒炖山羊肉是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Chanfana is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Chanfana is Portuguese goat or old-mutton style braise in red wine and garlic.",
+      "zh": "红酒炖山羊肉通常是葡式红酒蒜香山羊肉或浓味羊肉炖菜。",
+      "nl": "Chanfana is meestal Portugese geiten- of schapenvleesstoof met rode wijn en knoflook."
     },
     "cookingProfile": {
-      "en": "Usually served with slow-cooked stew, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现slow-cooked stew，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met slow-cooked stew; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect dark wine-braised meat with a stronger gamey character.",
+      "zh": "点餐时可预期深色红酒炖肉，肉味比普通羊肉更有野味感。",
+      "nl": "Verwacht donker wijn gestoofd vlees met sterkere wildachtige smaak."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is dark wine-braised meat with a stronger gamey character.",
+        "zh": "点餐识别重点是深色红酒炖肉，肉味比普通羊肉更有野味感。",
+        "nl": "Het herkenningspunt is donker wijn gestoofd vlees met sterkere wildachtige smaak."
       }
     },
     "composition": [
       [
-        "beef",
-        35,
-        "main"
+        "lamb",
+        60,
+        "protein"
       ],
       [
-        "potato",
+        "red-wine",
         20,
-        "body"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "broth",
-        15,
-        "base"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
+        "distinctive-seasoning",
         "seasoning"
       ],
       [
-        "parsley",
-        5,
-        "finish",
+        "garlic",
+        10,
+        "distinctive-seasoning",
         "seasoning"
+      ],
+      [
+        "rosemary",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "component"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "red-wine",
+      "garlic",
+      "lamb"
     ],
     "basicTaste": [
-      "savory",
-      "hearty"
+      "winey",
+      "gamey",
+      "savory"
     ],
     "textureProfile": [
-      "soft vegetables",
-      "rich broth"
+      "dark braise",
+      "tender goat-style meat",
+      "deep sauce"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-alcohol"
+    ],
     "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "stew"
+    "goodForTags": [],
+    "avoidIfTags": [
+      "no-alcohol"
     ],
-    "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a deep red-wine goat-style stew; skip if you dislike gamey meat or wine sauce.",
+      "zh": "想吃红酒深炖山羊风味肉时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een diepe rodewijn-geitenstoof wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125044-chanfana.webp",
+    "thumbPath": "/assets/dishes/thumb/125044-chanfana.webp"
   },
   {
     "id": "cabrito-assado",
     "metadataCode": "125045",
+    "imageCode": "125045",
     "cuisineId": "portuguese",
     "names": {
       "en": "Cabrito Assado",
@@ -23590,100 +23846,105 @@ const europeDepthDishConfigs = [
       "nl": "Cabrito Assado",
       "local": "Cabrito Assado"
     },
-    "category": "meat",
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
-      "braised"
+      "baked",
+      "grilled"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Cabrito Assado is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "烤小山羊是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Cabrito Assado is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Cabrito Assado is Portuguese roast kid or young goat, usually served with potatoes.",
+      "zh": "烤小山羊通常是葡式烤小山羊，通常配土豆。",
+      "nl": "Cabrito Assado is meestal Portugees geroosterd jong geitje, meestal met aardappelen."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect roasted tender goat-style meat with herb and garlic aroma.",
+      "zh": "点餐时可预期烤肉较嫩，有香草和蒜香。",
+      "nl": "Verwacht mals geroosterd geitachtig vlees met kruid- en knoflookgeur."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is roasted tender goat-style meat with herb and garlic aroma.",
+        "zh": "点餐识别重点是烤肉较嫩，有香草和蒜香。",
+        "nl": "Het herkenningspunt is mals geroosterd geitachtig vlees met kruid- en knoflookgeur."
       }
     },
     "composition": [
       [
-        "beef",
-        45,
-        "main"
+        "lamb",
+        60,
+        "protein"
       ],
       [
         "potato",
-        20,
-        "side"
+        25,
+        "starch-or-legume"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "body"
-      ],
-      [
-        "onion",
-        10,
-        "aromatic"
-      ],
-      [
-        "black-pepper",
+        "rosemary",
         5,
-        "seasoning",
+        "distinctive-seasoning",
         "seasoning"
       ],
       [
-        "parsley",
+        "garlic",
         5,
-        "finish",
+        "distinctive-seasoning",
         "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "component"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "lamb",
+      "garlic",
+      "rosemary"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "herbal",
+      "roasted"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "roasted young goat-style meat",
+      "potato side",
+      "herb aroma"
     ],
     "riskFlags": [],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "meat"
+      "first-timer-friendly"
     ],
     "avoidIfTags": [],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a Portuguese roast meat plate; skip if you dislike lamb or goat-like flavor.",
+      "zh": "想吃葡式烤肉配土豆时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een Portugees gebraad met aardappel wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125045-cabrito-assado.webp",
+    "thumbPath": "/assets/dishes/thumb/125045-cabrito-assado.webp"
   },
   {
     "id": "arroz-de-tamboril",
     "metadataCode": "125046",
+    "imageCode": "125046",
     "cuisineId": "portuguese",
     "names": {
       "en": "Arroz de Tamboril",
@@ -23691,104 +23952,114 @@ const europeDepthDishConfigs = [
       "nl": "Arroz de Tamboril",
       "local": "Arroz de Tamboril"
     },
-    "category": "fish",
+    "category": "rice",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
-      "grilled"
+      "simmered"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Arroz de Tamboril is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "安康鱼米饭是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Arroz de Tamboril is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Arroz de Tamboril is Portuguese monkfish-style rice, usually wet and saucy rather than dry.",
+      "zh": "安康鱼米饭通常是葡式安康鱼米饭，通常湿润多汁，不是干炒饭。",
+      "nl": "Arroz de Tamboril is meestal Portugese zeeduivelrijst, meestal nat en sauzig in plaats van droog."
     },
     "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect brothy tomato rice with firm fish pieces.",
+      "zh": "点餐时可预期番茄汤汁米饭配紧实鱼块。",
+      "nl": "Verwacht bouillonachtige tomatenrijst met stevige vis."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is brothy tomato rice with firm fish pieces.",
+        "zh": "点餐识别重点是番茄汤汁米饭配紧实鱼块。",
+        "nl": "Het herkenningspunt is bouillonachtige tomatenrijst met stevige vis."
       }
     },
     "composition": [
       [
         "fish-fillet",
-        60,
-        "main"
+        35,
+        "seafood"
       ],
       [
-        "potato",
-        15,
-        "side"
+        "steamed-rice",
+        35,
+        "starch-or-legume"
       ],
       [
-        "mixed-vegetables",
+        "shrimp",
         10,
-        "body"
+        "seafood"
       ],
       [
-        "lemon",
+        "tomato-sauce",
+        10,
+        "component"
+      ],
+      [
+        "coriander",
         5,
-        "brightness"
+        "distinctive-seasoning",
+        "seasoning"
       ],
       [
         "olive-oil",
         5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
+        "component"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "fish-fillet",
+      "tomato-sauce",
+      "coriander"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "seafood-savory",
+      "tomato-bright",
+      "brothy"
     ],
     "textureProfile": [
-      "tender fish",
-      "light flaky bite"
+      "wet rice",
+      "firm fish",
+      "saucy bowl"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-shellfish"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "fish"
+      "rice"
     ],
     "avoidIfTags": [
-      "fish-allergy"
+      "fish-allergy",
+      "shellfish-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a wet seafood rice; skip if you prefer dry rice or avoid fish.",
+      "zh": "想吃湿润鱼肉米饭时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een nat zeevruchtenrijstgerecht wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125046-arroz-de-tamboril.webp",
+    "thumbPath": "/assets/dishes/thumb/125046-arroz-de-tamboril.webp"
   },
   {
     "id": "lulas-recheadas",
     "metadataCode": "125047",
+    "imageCode": "125047",
     "cuisineId": "portuguese",
     "names": {
       "en": "Lulas Recheadas",
@@ -23797,105 +24068,104 @@ const europeDepthDishConfigs = [
       "local": "Lulas Recheadas"
     },
     "category": "seafood",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
-      "grilled"
+      "braised"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Lulas Recheadas is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡式酿鱿鱼是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Lulas Recheadas is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Lulas Recheadas is Portuguese stuffed squid, often filled with meat or rice and cooked in tomato sauce.",
+      "zh": "葡式酿鱿鱼通常是葡式酿鱿鱼，常塞肉馅或米饭，再用番茄酱汁炖。",
+      "nl": "Lulas Recheadas is meestal Portugese gevulde inktvis, vaak met vlees of rijst en tomatensaus."
     },
     "cookingProfile": {
-      "en": "Usually served with fish or seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish or seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish or seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect firm squid tubes with a savory filling and sauce.",
+      "zh": "点餐时可预期鱿鱼筒有弹性，内馅咸香，配酱汁。",
+      "nl": "Verwacht stevige inktvistubes met hartige vulling en saus."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is firm squid tubes with a savory filling and sauce.",
+        "zh": "点餐识别重点是鱿鱼筒有弹性，内馅咸香，配酱汁。",
+        "nl": "Het herkenningspunt is stevige inktvistubes met hartige vulling en saus."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        40,
-        "main"
-      ],
-      [
-        "mussels",
-        20,
+        "squid",
+        50,
         "seafood"
       ],
       [
-        "potato",
+        "ground-meat",
+        20,
+        "protein"
+      ],
+      [
+        "steamed-rice",
         15,
-        "side"
+        "starch-or-legume"
       ],
       [
-        "lemon",
+        "tomato-sauce",
         10,
-        "brightness"
-      ],
-      [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
+        "component"
       ],
       [
         "parsley",
         5,
-        "finish",
+        "distinctive-seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "squid",
+      "tomato-sauce",
+      "parsley"
     ],
     "basicTaste": [
       "savory",
-      "briny"
+      "seafood",
+      "saucy"
     ],
     "textureProfile": [
-      "tender seafood",
-      "bright savory finish"
+      "stuffed squid",
+      "firm bite",
+      "tomato sauce"
     ],
     "riskFlags": [
-      "contains-fish",
       "contains-shellfish"
     ],
     "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "seafood"
-    ],
+    "goodForTags": [],
     "avoidIfTags": [
-      "fish-allergy",
       "shellfish-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want saucy stuffed squid; skip if you dislike squid texture.",
+      "zh": "想吃带馅炖鱿鱼时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je sauzige gevulde inktvis wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125047-lulas-recheadas.webp",
+    "thumbPath": "/assets/dishes/thumb/125047-lulas-recheadas.webp"
   },
   {
     "id": "chocos-fritos",
     "metadataCode": "125048",
+    "imageCode": "125048",
     "cuisineId": "portuguese",
     "names": {
       "en": "Chocos Fritos",
@@ -23903,105 +24173,107 @@ const europeDepthDishConfigs = [
       "nl": "Chocos Fritos",
       "local": "Chocos Fritos"
     },
-    "category": "fried",
+    "category": "seafood",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
-      "fried"
+      "deep-fried"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Chocos Fritos is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡式炸墨鱼是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Chocos Fritos is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Chocos Fritos is Portuguese fried cuttlefish-style pieces, often served with lemon.",
+      "zh": "葡式炸墨鱼通常是葡式炸墨鱼或乌贼块，常配柠檬。",
+      "nl": "Chocos Fritos is meestal Portugese gefrituurde inktvisachtige stukken, vaak met citroen."
     },
     "cookingProfile": {
-      "en": "Usually served with fried snack or main, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fried snack or main，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fried snack or main; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect crisp fried coating and firm seafood chew.",
+      "zh": "点餐时可预期外层酥脆，海鲜口感有弹性。",
+      "nl": "Verwacht krokant jasje en stevige zeevruchtenbeet."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "street-food"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is crisp fried coating and firm seafood chew.",
+        "zh": "点餐识别重点是外层酥脆，海鲜口感有弹性。",
+        "nl": "Het herkenningspunt is krokant jasje en stevige zeevruchtenbeet."
       }
     },
     "composition": [
       [
+        "squid",
+        65,
+        "seafood"
+      ],
+      [
         "wheat-flour",
-        25,
-        "coating"
+        15,
+        "base"
       ],
       [
-        "potato",
-        25,
-        "body"
-      ],
-      [
-        "fish-fillet",
-        20,
-        "main"
-      ],
-      [
-        "egg",
+        "neutral-frying-oil",
         10,
-        "binder"
+        "component"
       ],
       [
-        "butter",
-        10,
-        "richness"
+        "lemon",
+        5,
+        "fruit-or-sweetness"
       ],
       [
         "sea-salt",
-        10,
-        "seasoning",
+        5,
+        "distinctive-seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "squid",
+      "lemon",
+      "sea-salt"
     ],
     "basicTaste": [
-      "savory",
-      "rich"
+      "salty",
+      "fried",
+      "seafood"
     ],
     "textureProfile": [
-      "crisp outside",
-      "soft center"
+      "fried cuttlefish-style pieces",
+      "crisp coating",
+      "firm chew"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-fish"
+      "contains-shellfish",
+      "contains-gluten"
     ],
     "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "fried"
-    ],
+    "goodForTags": [],
     "avoidIfTags": [
+      "shellfish-allergy",
       "gluten-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want fried cuttlefish-style seafood; skip if you avoid fried seafood.",
+      "zh": "想吃酥炸墨鱼风味海鲜时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je gefrituurde inktvisachtige zeevrucht wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125048-chocos-fritos.webp",
+    "thumbPath": "/assets/dishes/thumb/125048-chocos-fritos.webp"
   },
   {
     "id": "caldeirada",
     "metadataCode": "125049",
+    "imageCode": "125049",
     "cuisineId": "portuguese",
     "names": {
       "en": "Caldeirada",
@@ -24009,100 +24281,105 @@ const europeDepthDishConfigs = [
       "nl": "Caldeirada",
       "local": "Caldeirada"
     },
-    "category": "fish",
+    "category": "seafood",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
-      "grilled"
+      "simmered"
     ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Caldeirada is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡式鱼锅是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Caldeirada is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Caldeirada is Portuguese fish stew with potato, tomato, pepper, and olive oil.",
+      "zh": "葡式鱼锅通常是葡式鱼锅，含土豆、番茄、甜椒和橄榄油。",
+      "nl": "Caldeirada is meestal Portugese visstoof met aardappel, tomaat, paprika en olijfolie."
     },
     "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect rustic fish broth with potatoes soaking up sauce.",
+      "zh": "点餐时可预期乡土感鱼汤，土豆会吸收番茄汤汁。",
+      "nl": "Verwacht rustieke visbouillon waarin aardappel saus opneemt."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "signature",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "signature-dish"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is rustic fish broth with potatoes soaking up sauce.",
+        "zh": "点餐识别重点是乡土感鱼汤，土豆会吸收番茄汤汁。",
+        "nl": "Het herkenningspunt is rustieke visbouillon waarin aardappel saus opneemt."
       }
     },
     "composition": [
       [
         "fish-fillet",
-        60,
-        "main"
+        40,
+        "seafood"
       ],
       [
         "potato",
+        25,
+        "starch-or-legume"
+      ],
+      [
+        "tomato-sauce",
         15,
-        "side"
+        "component"
       ],
       [
-        "mixed-vegetables",
+        "bell-pepper",
         10,
-        "body"
-      ],
-      [
-        "lemon",
-        5,
-        "brightness"
+        "component"
       ],
       [
         "olive-oil",
         5,
-        "finish",
-        "seasoning"
+        "component"
       ],
       [
         "parsley",
         5,
-        "finish",
+        "distinctive-seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "fish-fillet",
+      "tomato-sauce",
+      "olive-oil"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "brothy",
+      "seafood-savory",
+      "rustic"
     ],
     "textureProfile": [
-      "tender fish",
-      "light flaky bite"
+      "fish stew",
+      "potato slices",
+      "tomato broth"
     ],
     "riskFlags": [
       "contains-fish"
     ],
     "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "fish"
-    ],
+    "goodForTags": [],
     "avoidIfTags": [
       "fish-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a rustic Portuguese fish stew; skip if you avoid fish or brothy stews.",
+      "zh": "想吃葡式鱼肉炖锅时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een rustieke Portugese visstoof wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125049-caldeirada.webp",
+    "thumbPath": "/assets/dishes/thumb/125049-caldeirada.webp"
   },
   {
     "id": "queijo-da-serra",
@@ -24426,6 +24703,7 @@ const europeDepthDishConfigs = [
   {
     "id": "salada-de-polvo",
     "metadataCode": "125053",
+    "imageCode": "125053",
     "cuisineId": "portuguese",
     "names": {
       "en": "Salada de Polvo",
@@ -24433,102 +24711,103 @@ const europeDepthDishConfigs = [
       "nl": "Salada de Polvo",
       "local": "Salada de Polvo"
     },
-    "category": "seafood",
+    "category": "salad",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
     "cookingMethods": [
-      "grilled"
+      "boiled",
+      "chilled",
+      "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
     "shortDescription": {
-      "en": "Salada de Polvo is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡式章鱼沙拉是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Salada de Polvo is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Salada de Polvo is Portuguese cold octopus salad with onion, olive oil, parsley, and vinegar.",
+      "zh": "葡式章鱼沙拉通常是葡式冷章鱼沙拉，拌洋葱、橄榄油、欧芹和醋。",
+      "nl": "Salada de Polvo is meestal Portugese koude octopussalade met ui, olijfolie, peterselie en azijn."
     },
     "cookingProfile": {
-      "en": "Usually served with fish or seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish or seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish or seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect cool firm octopus in a sharp olive-oil dressing.",
+      "zh": "点餐时可预期冷章鱼有弹性，调味带醋香和橄榄油香。",
+      "nl": "Verwacht koele stevige octopus in scherpe olijfolie-dressing."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "The ordering cue is cool firm octopus in a sharp olive-oil dressing.",
+        "zh": "点餐识别重点是冷章鱼有弹性，调味带醋香和橄榄油香。",
+        "nl": "Het herkenningspunt is koele stevige octopus in scherpe olijfolie-dressing."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        40,
-        "main"
-      ],
-      [
-        "mussels",
-        20,
+        "octopus",
+        50,
         "seafood"
       ],
       [
-        "potato",
+        "onion",
         15,
-        "side"
-      ],
-      [
-        "lemon",
-        10,
-        "brightness"
+        "component"
       ],
       [
         "olive-oil",
-        10,
-        "finish",
-        "seasoning"
+        15,
+        "component"
       ],
       [
         "parsley",
-        5,
-        "finish",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "vinegar",
+        10,
+        "distinctive-seasoning",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "octopus",
+      "olive-oil",
+      "vinegar"
     ],
     "basicTaste": [
-      "savory",
-      "briny"
+      "briny",
+      "fresh",
+      "tangy"
     ],
     "textureProfile": [
-      "tender seafood",
-      "bright savory finish"
+      "cold octopus",
+      "firm chew",
+      "vinaigrette"
     ],
     "riskFlags": [
-      "contains-fish",
       "contains-shellfish"
     ],
     "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "seafood"
-    ],
+    "goodForTags": [],
     "avoidIfTags": [
-      "fish-allergy",
       "shellfish-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a cold tangy octopus salad; skip if you dislike chilled seafood or chewy octopus.",
+      "zh": "想吃冷食酸香章鱼沙拉时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een koude friszure octopussalade wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
     },
+    "confidenceTag": "audited-world-depth-batch-037",
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/125053-salada-de-polvo.webp",
+    "thumbPath": "/assets/dishes/thumb/125053-salada-de-polvo.webp"
   },
   {
     "id": "migas-portuguesas",

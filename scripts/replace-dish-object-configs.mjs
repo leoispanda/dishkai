@@ -16,7 +16,10 @@ const seen = [];
 for (const config of configs) {
   const targetId = config.targetId || config.id;
   const idMarker = `"id": "${targetId}"`;
-  const idIndex = output.indexOf(idMarker);
+  let idIndex = output.indexOf(idMarker);
+  if (idIndex === -1) {
+    idIndex = output.search(new RegExp(`\\bid\\s*:\\s*"${escapeRegExp(targetId)}"`));
+  }
   if (idIndex === -1) {
     continue;
   }
@@ -90,4 +93,8 @@ function formatObject(config, indent) {
     .split("\n")
     .map((line, index) => (index === 0 ? line : `${indent}${line}`))
     .join("\n");
+}
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }

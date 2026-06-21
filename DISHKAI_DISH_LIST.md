@@ -2,25 +2,43 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 811
-- Total aliases: 2423
+- Total verified dishes: 931
+- Total aliases: 2713
 - Total cuisines: 27
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
-## American (american) - 12
+## American (american) - 30
 
-1. 122001 - `burger` - Burger / 汉堡 / burger
-2. 122002 - `bbq-ribs` - BBQ Ribs / 美式烤肋排 / bbq ribs
-3. 122003 - `mac-and-cheese` - Mac and Cheese / 奶酪通心粉 / mac and cheese
-4. 122004 - `fried-chicken-american` - Fried Chicken / 美式炸鸡 / fried chicken
-5. 122005 - `caesar-salad` - Caesar Salad / 凯撒沙拉 / Caesar salad
-6. 122006 - `clam-chowder` - Clam Chowder / 蛤蜊浓汤 / clam chowder
-7. 122007 - `buffalo-wings` - Buffalo Wings / 水牛城鸡翅 / buffalo wings
-8. 122008 - `pancakes` - Pancakes / 美式松饼 / pancakes
-9. 122009 - `hot-dog` - Hot Dog / 热狗 / hot dog
-10. 122010 - `apple-pie` - Apple Pie / 苹果派 / apple pie
-11. 122011 - `cobb-salad` - Cobb Salad / 科布沙拉 / Cobb salad
-12. 122012 - `lobster-roll` - Lobster Roll / 龙虾卷 / lobster roll
+1. 122013 - `french-toast` - French Toast / 法式吐司 / French toast
+2. 122014 - `eggs-benedict` - Eggs Benedict / 班尼迪克蛋 / eggs benedict
+3. 122015 - `avocado-toast` - Avocado Toast / 牛油果吐司 / avocado toast
+4. 122016 - `granola-bowl` - Granola Bowl / 格兰诺拉酸奶碗 / granola bowl
+5. 122017 - `club-sandwich` - Club Sandwich / 总汇三明治 / club sandwich
+6. 122018 - `bagel-cream-cheese` - Bagel with Cream Cheese / 奶油奶酪贝果 / bagel with cream cheese
+7. 122019 - `smoked-salmon-bagel` - Smoked Salmon Bagel / 烟熏三文鱼贝果 / smoked salmon bagel
+8. 122020 - `banana-bread` - Banana Bread / 香蕉蛋糕 / banana bread
+9. 122001 - `burger` - Burger / 汉堡 / burger
+10. 122002 - `bbq-ribs` - BBQ Ribs / 美式烤肋排 / bbq ribs
+11. 122003 - `mac-and-cheese` - Mac and Cheese / 奶酪通心粉 / mac and cheese
+12. 122004 - `fried-chicken-american` - Fried Chicken / 美式炸鸡 / fried chicken
+13. 122005 - `caesar-salad` - Caesar Salad / 凯撒沙拉 / Caesar salad
+14. 122006 - `clam-chowder` - Clam Chowder / 蛤蜊浓汤 / clam chowder
+15. 122007 - `buffalo-wings` - Buffalo Wings / 水牛城鸡翅 / buffalo wings
+16. 122008 - `pancakes` - Pancakes / 美式松饼 / pancakes
+17. 122009 - `hot-dog` - Hot Dog / 热狗 / hot dog
+18. 122010 - `apple-pie` - Apple Pie / 苹果派 / apple pie
+19. 122011 - `cobb-salad` - Cobb Salad / 科布沙拉 / Cobb salad
+20. 122012 - `lobster-roll` - Lobster Roll / 龙虾卷 / lobster roll
+21. 122021 - `meatloaf` - Meatloaf / 美式肉糕 / meatloaf
+22. 122022 - `pulled-pork-sandwich` - Pulled Pork Sandwich / 手撕猪肉三明治 / pulled pork sandwich
+23. 122023 - `philly-cheesesteak` - Philly Cheesesteak / 费城芝士牛肉三明治 / philly cheesesteak
+24. 122024 - `grilled-cheese` - Grilled Cheese / 烤奶酪三明治 / grilled cheese
+25. 122025 - `cornbread` - Cornbread / 美式玉米面包 / cornbread
+26. 122026 - `jambalaya` - Jambalaya / 美式什锦香料饭 / jambalaya
+27. 122027 - `gumbo` - Gumbo / 美式秋葵浓汤 / gumbo
+28. 122028 - `key-lime-pie` - Key Lime Pie / 青柠派 / key lime pie
+29. 122029 - `brownie` - Brownie / 布朗尼 / brownie
+30. 122030 - `cheesecake-american` - American Cheesecake / 美式芝士蛋糕 / cheesecake
 
 ## Belgian (belgian) - 30
 
@@ -55,53 +73,100 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 107026 - `crepe-mikado` - Crêpe Mikado / 巧克力冰淇淋薄饼 / Crêpe Mikado
 30. 107027 - `rijsttaart` - Rijsttaart / 比利时米布丁塔 / Rijsttaart
 
-## Brazilian (brazilian) - 12
+## Brazilian (brazilian) - 30
 
-1. 130001 - `feijoada` - Feijoada / 巴西黑豆猪肉炖菜 / feijoada
-2. 130002 - `pao-de-queijo` - Pão de Queijo / 巴西芝士面包球 / pão de queijo
-3. 130003 - `coxinha` - Coxinha / 巴西炸鸡肉酥球 / coxinha
-4. 130004 - `moqueca` - Moqueca / 巴西椰奶海鲜炖菜 / moqueca
-5. 130005 - `churrasco` - Churrasco / 巴西烤肉 / churrasco
-6. 130006 - `acaraje` - Acarajé / 巴西炸黑眼豆虾馅 / acarajé
-7. 130007 - `farofa` - Farofa / 巴西炒木薯粉配菜 / farofa
-8. 130008 - `brigadeiro` - Brigadeiro / 巴西巧克力炼乳糖球 / brigadeiro
-9. 130009 - `pastel-brazilian` - Brazilian Pastel / 巴西炸馅饼 / pastel
-10. 130010 - `vatapa` - Vatapá / 巴西虾椰奶花生浓酱 / vatapá
-11. 130011 - `bobó-de-camarão` - Bobó de Camarão / 巴西木薯椰奶虾浓汤 / bobó de camarão
-12. 130012 - `quindim` - Quindim / 巴西椰香蛋黄布丁 / quindim
+1. 130013 - `acai-bowl` - Açaí Bowl / 巴西莓碗 / açaí bowl
+2. 130001 - `feijoada` - Feijoada / 巴西黑豆猪肉炖菜 / feijoada
+3. 130002 - `pao-de-queijo` - Pão de Queijo / 巴西芝士面包球 / pão de queijo
+4. 130003 - `coxinha` - Coxinha / 巴西炸鸡肉酥球 / coxinha
+5. 130004 - `moqueca` - Moqueca / 巴西椰奶海鲜炖菜 / moqueca
+6. 130005 - `churrasco` - Churrasco / 巴西烤肉 / churrasco
+7. 130006 - `acaraje` - Acarajé / 巴西炸黑眼豆虾馅 / acarajé
+8. 130007 - `farofa` - Farofa / 巴西炒木薯粉配菜 / farofa
+9. 130008 - `brigadeiro` - Brigadeiro / 巴西巧克力炼乳糖球 / brigadeiro
+10. 130009 - `pastel-brazilian` - Brazilian Pastel / 巴西炸馅饼 / pastel
+11. 130010 - `vatapa` - Vatapá / 巴西虾椰奶花生浓酱 / vatapá
+12. 130011 - `bobó-de-camarão` - Bobó de Camarão / 巴西木薯椰奶虾浓汤 / bobó de camarão
+13. 130012 - `quindim` - Quindim / 巴西椰香蛋黄布丁 / quindim
+14. 130014 - `picanha` - Picanha / 巴西烤牛臀肉 / picanha
+15. 130015 - `escondidinho` - Escondidinho / 巴西木薯泥焗肉 / escondidinho
+16. 130016 - `carne-de-sol` - Carne de Sol / 巴西风干牛肉 / carne de sol
+17. 130017 - `xinxim-de-galinha` - Xinxim de Galinha / 巴西花生椰香鸡 / xinxim de galinha
+18. 130018 - `caldinho-de-feijao` - Caldinho de Feijão / 巴西黑豆汤 / caldinho de feijão
+19. 130019 - `empada` - Empada / 巴西小馅饼 / empada
+20. 130020 - `kibe-brazilian` - Brazilian Kibe / 巴西炸小麦肉球 / kibe
+21. 130021 - `tapioca-crepe` - Tapioca Crepe / 巴西木薯粉煎饼 / tapioca
+22. 130022 - `moqueca-baiana` - Moqueca Baiana / 巴伊亚椰奶海鲜锅 / moqueca baiana
+23. 130023 - `moqueca-capixaba` - Moqueca Capixaba / 番茄海鲜炖锅 / moqueca capixaba
+24. 130024 - `camarao-na-moranga` - Camarão na Moranga / 南瓜奶油虾 / camarão na moranga
+25. 130025 - `salpicao` - Salpicão / 巴西鸡肉沙拉 / salpicão
+26. 130026 - `canjica` - Canjica / 巴西玉米椰奶甜粥 / canjica
+27. 130027 - `cocada` - Cocada / 巴西椰子糖 / cocada
+28. 130028 - `beijinho` - Beijinho / 巴西椰子奶糖球 / beijinho
+29. 130029 - `mousse-de-maracuja` - Mousse de Maracujá / 百香果慕斯 / mousse de maracujá
+30. 130030 - `tapioca-pudding-brazilian` - Brazilian Tapioca Pudding / 巴西木薯布丁 / pudim de tapioca
 
-## British Irish (british-irish) - 30
+## British Irish (british-irish) - 59
 
-1. 123033 - `sausage-roll` - Sausage Roll / 英式香肠酥卷 / Sausage roll
-2. 123001 - `fish-and-chips` - Fish and Chips / 炸鱼薯条 / Fish and chips
-3. 123002 - `shepherds-pie` - Shepherd's Pie / 牧羊人派 / Shepherd's pie
-4. 123003 - `bangers-and-mash` - Bangers and Mash / 香肠土豆泥 / Bangers and mash
-5. 123004 - `full-english-breakfast` - Full English Breakfast / 英式早餐 / Full English breakfast
-6. 123005 - `steak-and-ale-pie` - Steak and Ale Pie / 啤酒牛肉派 / Steak and ale pie
-7. 123006 - `irish-stew` - Irish Stew / 爱尔兰炖肉 / Irish stew
-8. 123007 - `cornish-pasty` - Cornish Pasty / 康沃尔馅饼 / Cornish pasty
-9. 123008 - `scotch-egg` - Scotch Egg / 苏格兰蛋 / Scotch egg
-10. 123009 - `ploughmans-lunch` - Ploughman's Lunch / 农夫冷盘 / Ploughman's lunch
-11. 123010 - `beef-wellington` - Beef Wellington / 威灵顿牛排 / Beef Wellington
-12. 123011 - `sticky-toffee-pudding` - Sticky Toffee Pudding / 太妃糖布丁蛋糕 / Sticky toffee pudding
-13. 123012 - `scones` - Scones / 英式司康 / Scones
-14. 123014 - `toad-in-the-hole` - Toad in the Hole / 英式香肠约克郡布丁 / Toad in the hole
-15. 123015 - `yorkshire-pudding` - Yorkshire Pudding / 约克郡布丁 / Yorkshire pudding
-16. 123016 - `sunday-roast` - Sunday Roast / 英式周日烤肉餐 / Sunday roast
-17. 123017 - `roast-beef` - Roast Beef / 英式烤牛肉 / Roast beef
-18. 123018 - `chicken-tikka-masala-british` - British Chicken Tikka Masala / 英式咖喱烤鸡块 / Chicken tikka masala
-19. 123019 - `welsh-rarebit` - Welsh Rarebit / 威尔士奶酪吐司 / Welsh rarebit
-20. 123020 - `bubble-and-squeak` - Bubble and Squeak / 英式土豆卷心菜煎饼 / Bubble and squeak
-21. 123021 - `mushy-peas` - Mushy Peas / 英式压碎豌豆泥 / Mushy peas
-22. 123022 - `pea-and-ham-soup` - Pea and Ham Soup / 豌豆火腿汤 / Pea and ham soup
-23. 123023 - `cock-a-leekie` - Cock-a-Leekie Soup / 苏格兰鸡肉韭葱汤 / Cock-a-leekie
-24. 123024 - `cullen-skink` - Cullen Skink / 苏格兰烟熏黑线鳕浓汤 / Cullen skink
-25. 123025 - `haggis` - Haggis / 哈吉斯羊杂馅 / Haggis
-26. 123026 - `black-pudding` - Black Pudding / 英式血肠 / Black pudding
-27. 123027 - `trifle` - Trifle / 英式酒冻奶油层次甜点 / Trifle
-28. 123028 - `eton-mess` - Eton Mess / 伊顿莓果蛋白霜 / Eton mess
-29. 123029 - `bread-and-butter-pudding` - Bread and Butter Pudding / 英式黄油面包布丁 / Bread and butter pudding
-30. 123030 - `crumpets` - Crumpets / 英式烤松饼 / Crumpets
+1. 123031 - `cottage-pie` - Cottage Pie / 英式牛肉土豆派 / Cottage Pie
+2. 123032 - `steak-and-kidney-pudding` - Steak and Kidney Pudding / 牛排腰子布丁派 / Steak and Kidney Pudding
+3. 123033 - `sausage-roll` - Sausage Roll / 英式香肠酥卷 / Sausage roll
+4. 123034 - `pork-pie` - Pork Pie / 英式猪肉派 / Pork Pie
+5. 123035 - `bacon-butty` - Bacon Butty / 培根三明治 / Bacon Butty
+6. 123036 - `chip-butty` - Chip Butty / 薯条三明治 / Chip Butty
+7. 123037 - `jellied-eels` - Jellied Eels / 伦敦鳗鱼冻 / Jellied Eels
+8. 123038 - `pie-and-mash` - Pie and Mash / 肉派配土豆泥 / Pie and Mash
+9. 123039 - `welsh-cawl` - Welsh Cawl / 威尔士羊肉蔬菜汤 / Welsh Cawl
+10. 123040 - `lancashire-hotpot` - Lancashire Hotpot / 兰开夏羊肉土豆锅 / Lancashire Hotpot
+11. 123041 - `colcannon` - Colcannon / 爱尔兰卷心菜土豆泥 / Colcannon
+12. 123042 - `champ` - Champ / 爱尔兰葱香土豆泥 / Champ
+13. 123043 - `boxty` - Boxty / 爱尔兰土豆煎饼 / Boxty
+14. 123044 - `irish-soda-bread` - Irish Soda Bread / 爱尔兰苏打面包 / Irish Soda Bread
+15. 123045 - `irish-breakfast` - Irish Breakfast / 爱尔兰全早餐 / Irish Breakfast
+16. 123046 - `kippers` - Kippers / 烟熏鲱鱼 / Kippers
+17. 123047 - `kedgeree` - Kedgeree / 英式咖喱熏鱼米饭 / Kedgeree
+18. 123048 - `coronation-chicken` - Coronation Chicken / 英式咖喱鸡沙拉 / Coronation Chicken
+19. 123049 - `gammon-steak` - Gammon Steak / 火腿牛排配菠萝或蛋 / Gammon Steak
+20. 123050 - `cauliflower-cheese` - Cauliflower Cheese / 奶酪焗花椰菜 / Cauliflower Cheese
+21. 123051 - `minted-peas` - Minted Peas / 薄荷豌豆 / Minted Peas
+22. 123052 - `bakewell-tart` - Bakewell Tart / 巴克韦尔杏仁挞 / Bakewell Tart
+23. 123053 - `victoria-sponge` - Victoria Sponge / 维多利亚海绵蛋糕 / Victoria Sponge
+24. 123054 - `spotted-dick` - Spotted Dick / 葡萄干蒸布丁 / Spotted Dick
+25. 123055 - `treacle-tart` - Treacle Tart / 糖浆挞 / Treacle Tart
+26. 123056 - `banoffee-pie` - Banoffee Pie / 香蕉太妃派 / Banoffee Pie
+27. 123057 - `mince-pies` - Mince Pies / 圣诞果干馅饼 / Mince Pies
+28. 123058 - `christmas-pudding` - Christmas Pudding / 英式圣诞布丁 / Christmas Pudding
+29. 123059 - `welsh-cakes` - Welsh Cakes / 威尔士小煎饼 / Welsh Cakes
+30. 123060 - `eccles-cakes` - Eccles Cakes / 果干千层小饼 / Eccles Cakes
+31. 123001 - `fish-and-chips` - Fish and Chips / 炸鱼薯条 / Fish and chips
+32. 123002 - `shepherds-pie` - Shepherd's Pie / 牧羊人派 / Shepherd's pie
+33. 123003 - `bangers-and-mash` - Bangers and Mash / 香肠土豆泥 / Bangers and mash
+34. 123004 - `full-english-breakfast` - Full English Breakfast / 英式早餐 / Full English breakfast
+35. 123005 - `steak-and-ale-pie` - Steak and Ale Pie / 啤酒牛肉派 / Steak and ale pie
+36. 123006 - `irish-stew` - Irish Stew / 爱尔兰炖肉 / Irish stew
+37. 123007 - `cornish-pasty` - Cornish Pasty / 康沃尔馅饼 / Cornish pasty
+38. 123008 - `scotch-egg` - Scotch Egg / 苏格兰蛋 / Scotch egg
+39. 123009 - `ploughmans-lunch` - Ploughman's Lunch / 农夫冷盘 / Ploughman's lunch
+40. 123010 - `beef-wellington` - Beef Wellington / 威灵顿牛排 / Beef Wellington
+41. 123011 - `sticky-toffee-pudding` - Sticky Toffee Pudding / 太妃糖布丁蛋糕 / Sticky toffee pudding
+42. 123012 - `scones` - Scones / 英式司康 / Scones
+43. 123014 - `toad-in-the-hole` - Toad in the Hole / 英式香肠约克郡布丁 / Toad in the hole
+44. 123015 - `yorkshire-pudding` - Yorkshire Pudding / 约克郡布丁 / Yorkshire pudding
+45. 123016 - `sunday-roast` - Sunday Roast / 英式周日烤肉餐 / Sunday roast
+46. 123017 - `roast-beef` - Roast Beef / 英式烤牛肉 / Roast beef
+47. 123018 - `chicken-tikka-masala-british` - British Chicken Tikka Masala / 英式咖喱烤鸡块 / Chicken tikka masala
+48. 123019 - `welsh-rarebit` - Welsh Rarebit / 威尔士奶酪吐司 / Welsh rarebit
+49. 123020 - `bubble-and-squeak` - Bubble and Squeak / 英式土豆卷心菜煎饼 / Bubble and squeak
+50. 123021 - `mushy-peas` - Mushy Peas / 英式压碎豌豆泥 / Mushy peas
+51. 123022 - `pea-and-ham-soup` - Pea and Ham Soup / 豌豆火腿汤 / Pea and ham soup
+52. 123023 - `cock-a-leekie` - Cock-a-Leekie Soup / 苏格兰鸡肉韭葱汤 / Cock-a-leekie
+53. 123024 - `cullen-skink` - Cullen Skink / 苏格兰烟熏黑线鳕浓汤 / Cullen skink
+54. 123025 - `haggis` - Haggis / 哈吉斯羊杂馅 / Haggis
+55. 123026 - `black-pudding` - Black Pudding / 英式血肠 / Black pudding
+56. 123027 - `trifle` - Trifle / 英式酒冻奶油层次甜点 / Trifle
+57. 123028 - `eton-mess` - Eton Mess / 伊顿莓果蛋白霜 / Eton mess
+58. 123029 - `bread-and-butter-pudding` - Bread and Butter Pudding / 英式黄油面包布丁 / Bread and butter pudding
+59. 123030 - `crumpets` - Crumpets / 英式烤松饼 / Crumpets
 
 ## Chinese (chinese) - 30
 
@@ -671,7 +736,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 124029 - `mhancha` - Mhancha / 摩洛哥杏仁蛇形卷 / mhancha
 30. 124030 - `sellou` - Sellou / 摩洛哥芝麻杏仁甜粉 / sellou
 
-## Peruvian (peruvian) - 12
+## Peruvian (peruvian) - 30
 
 1. 129001 - `ceviche-peruvian` - Peruvian Ceviche / 秘鲁酸橘汁腌鱼 / ceviche peruano
 2. 129002 - `lomo-saltado` - Lomo Saltado / 秘鲁牛肉薯条炒饭 / lomo saltado
@@ -685,39 +750,75 @@ Generated from data/internal/index.js after the verified database quarantine aud
 10. 129010 - `tiradito` - Tiradito / 秘鲁生鱼薄片 / tiradito
 11. 129011 - `picarones` - Picarones / 秘鲁南瓜红薯甜甜圈 / picarones
 12. 129012 - `suspiro-limeno` - Suspiro Limeño / 秘鲁焦糖蛋奶甜点 / suspiro limeño
+13. 129013 - `ajiaco-peruvian` - Ajiaco / 秘鲁土豆奶酪炖菜 / ajiaco
+14. 129014 - `seco-de-res` - Seco de Res / 秘鲁香菜炖牛肉 / seco de res
+15. 129015 - `seco-de-cordero` - Seco de Cordero / 秘鲁香菜炖羊肉 / seco de cordero
+16. 129016 - `tacu-tacu` - Tacu Tacu / 秘鲁豆饭煎饼 / tacu tacu
+17. 129017 - `arroz-con-mariscos` - Arroz con Mariscos / 秘鲁海鲜饭 / arroz con mariscos
+18. 129018 - `jalea` - Jalea / 秘鲁炸海鲜拼盘 / jalea
+19. 129019 - `choritos-a-la-chalaca` - Choritos a la Chalaca / 秘鲁贻贝沙拉 / choritos a la chalaca
+20. 129020 - `leche-de-tigre` - Leche de Tigre / 虎奶酸辣海鲜汁 / leche de tigre
+21. 129021 - `causa-limena` - Causa Limeña / 利马土豆冷盘 / causa limeña
+22. 129022 - `ocopa` - Ocopa / 秘鲁香草花生土豆 / ocopa
+23. 129023 - `solterito` - Solterito / 秘鲁豆奶酪沙拉 / solterito
+24. 129024 - `sopa-criolla` - Sopa Criolla / 秘鲁牛肉面汤 / sopa criolla
+25. 129025 - `chupe-de-camarones` - Chupe de Camarones / 秘鲁奶香虾汤 / chupe de camarones
+26. 129026 - `carapulcra` - Carapulcra / 秘鲁干土豆炖肉 / carapulcra
+27. 129027 - `adobo-arequipeno` - Adobo Arequipeño / 阿雷基帕腌炖猪肉 / adobo arequipeño
+28. 129028 - `pachamanca` - Pachamanca / 秘鲁土炉烤肉 / pachamanca
+29. 129029 - `mazamorra-morada` - Mazamorra Morada / 紫玉米甜羹 / mazamorra morada
+30. 129030 - `alfajores-peruvian` - Peruvian Alfajores / 秘鲁焦糖夹心饼 / alfajores
 
-## Portuguese (portuguese) - 30
+## Portuguese (portuguese) - 48
 
 1. 125031 - `bacalhau-a-lagareiro` - Bacalhau a Lagareiro / 橄榄油烤盐鳕鱼 / Bacalhau à lagareiro
-2. 125036 - `carne-de-porco-a-alentejana` - Carne de Porco a Alentejana / 阿连特茹猪肉蛤蜊 / Carne de porco à Alentejana
-3. 125001 - `bacalhau-a-bras` - Bacalhau a Bras / 金丝土豆炒盐鳕鱼 / Bacalhau à Brás
-4. 125002 - `pastel-de-nata` - Pastel de Nata / 葡式蛋挞 / Pastel de nata
-5. 125003 - `francesinha` - Francesinha / 波尔图肉酱三明治 / Francesinha
-6. 125004 - `caldo-verde` - Caldo Verde / 葡式青菜土豆汤 / Caldo verde
-7. 125005 - `piri-piri-chicken` - Piri-Piri Chicken / 霹雳辣椒烤鸡 / Frango piri-piri
-8. 125006 - `ameijoas-a-bulhao-pato` - Clams Bulhao Pato / 蒜香白酒蛤蜊 / Amêijoas à Bulhão Pato
-9. 125007 - `arroz-de-marisco` - Arroz de Marisco / 葡式海鲜饭 / Arroz de marisco
-10. 125008 - `bitoque` - Bitoque / 葡式煎牛排配蛋 / Bitoque
-11. 125009 - `polvo-a-lagareiro` - Polvo a Lagareiro / 橄榄油烤章鱼 / Polvo à lagareiro
-12. 125010 - `bifana` - Bifana / 葡式猪扒小面包 / Bifana
-13. 125012 - `queijadas` - Queijadas / 葡式乳酪小塔 / Queijadas
-14. 125013 - `bacalhau-com-natas` - Bacalhau com Natas / 奶油盐鳕鱼焗土豆 / Bacalhau com natas
-15. 125014 - `bacalhau-a-gomes-de-sa` - Bacalhau a Gomes de Sa / 土豆鸡蛋盐鳕鱼 / Bacalhau à Gomes de Sá
-16. 125015 - `bacalhau-espiritual` - Bacalhau Espiritual / 胡萝卜白酱盐鳕鱼焗菜 / Bacalhau espiritual
-17. 125016 - `sardinhas-assadas` - Sardinhas Assadas / 烤沙丁鱼 / Sardinhas assadas
-18. 125017 - `dourada-grelhada` - Dourada Grelhada / 烤海鲷 / Dourada grelhada
-19. 125018 - `cataplana-de-marisco` - Cataplana de Marisco / 葡式铜锅海鲜 / Cataplana de marisco
-20. 125019 - `feijoada-portuguesa` - Feijoada Portuguesa / 葡式豆子猪肉炖菜 / Feijoada portuguesa
-21. 125020 - `cozido-a-portuguesa` - Cozido a Portuguesa / 葡式杂肉蔬菜锅 / Cozido à portuguesa
-22. 125021 - `leitao-assado` - Leitao Assado / 烤乳猪 / Leitão assado
-23. 125022 - `alheira` - Alheira / 葡式阿列拉香肠 / Alheira
-24. 125023 - `prego` - Prego / 葡式牛排小面包 / Prego
-25. 125024 - `arroz-de-pato` - Arroz de Pato / 葡式鸭肉焗饭 / Arroz de pato
-26. 125026 - `peixinhos-da-horta` - Peixinhos da Horta / 葡式炸四季豆 / Peixinhos da horta
-27. 125027 - `bolinhos-de-bacalhau` - Bolinhos de Bacalhau / 葡式盐鳕鱼球 / Bolinhos de bacalhau
-28. 125028 - `arroz-doce` - Arroz Doce / 葡式肉桂米布丁 / Arroz doce
-29. 125029 - `serradura` - Serradura / 木糠布丁 / Serradura
-30. 125030 - `bolo-de-bolacha` - Bolo de Bolacha / 葡式饼干咖啡奶油蛋糕 / Bolo de bolacha
+2. 125032 - `pataniscas-de-bacalhau` - Pataniscas de Bacalhau / 葡式鳕鱼煎饼 / Pataniscas de Bacalhau
+3. 125033 - `acorda-alentejana` - Acorda Alentejana / 阿连特茹面包蒜汤 / Acorda Alentejana
+4. 125034 - `arroz-de-polvo` - Arroz de Polvo / 葡式章鱼饭 / Arroz de Polvo
+5. 125035 - `polvo-guisado` - Polvo Guisado / 葡式炖章鱼 / Polvo Guisado
+6. 125036 - `carne-de-porco-a-alentejana` - Carne de Porco a Alentejana / 阿连特茹猪肉蛤蜊 / Carne de porco à Alentejana
+7. 125037 - `rojoes` - Rojoes / 葡式炸炖猪肉块 / Rojoes
+8. 125038 - `febras` - Febras / 葡式猪排 / Febras
+9. 125039 - `entrecosto` - Entrecosto / 葡式猪肋排 / Entrecosto
+10. 125040 - `bifinhos-com-cogumelos` - Bifinhos com Cogumelos / 蘑菇酱小牛排 / Bifinhos com Cogumelos
+11. 125041 - `sopa-da-pedra` - Sopa da Pedra / 葡式豆肉浓汤 / Sopa da Pedra
+12. 125042 - `canja-de-galinha` - Canja de Galinha / 葡式鸡汤米粥 / Canja de Galinha
+13. 125043 - `feijoada-a-transmontana` - Feijoada a Transmontana / 葡北豆肉炖锅 / Feijoada a Transmontana
+14. 125044 - `chanfana` - Chanfana / 红酒炖山羊肉 / Chanfana
+15. 125045 - `cabrito-assado` - Cabrito Assado / 烤小山羊 / Cabrito Assado
+16. 125046 - `arroz-de-tamboril` - Arroz de Tamboril / 安康鱼米饭 / Arroz de Tamboril
+17. 125047 - `lulas-recheadas` - Lulas Recheadas / 葡式酿鱿鱼 / Lulas Recheadas
+18. 125048 - `chocos-fritos` - Chocos Fritos / 葡式炸墨鱼 / Chocos Fritos
+19. 125049 - `caldeirada` - Caldeirada / 葡式鱼锅 / Caldeirada
+20. 125053 - `salada-de-polvo` - Salada de Polvo / 葡式章鱼沙拉 / Salada de Polvo
+21. 125001 - `bacalhau-a-bras` - Bacalhau a Bras / 金丝土豆炒盐鳕鱼 / Bacalhau à Brás
+22. 125002 - `pastel-de-nata` - Pastel de Nata / 葡式蛋挞 / Pastel de nata
+23. 125003 - `francesinha` - Francesinha / 波尔图肉酱三明治 / Francesinha
+24. 125004 - `caldo-verde` - Caldo Verde / 葡式青菜土豆汤 / Caldo verde
+25. 125005 - `piri-piri-chicken` - Piri-Piri Chicken / 霹雳辣椒烤鸡 / Frango piri-piri
+26. 125006 - `ameijoas-a-bulhao-pato` - Clams Bulhao Pato / 蒜香白酒蛤蜊 / Amêijoas à Bulhão Pato
+27. 125007 - `arroz-de-marisco` - Arroz de Marisco / 葡式海鲜饭 / Arroz de marisco
+28. 125008 - `bitoque` - Bitoque / 葡式煎牛排配蛋 / Bitoque
+29. 125009 - `polvo-a-lagareiro` - Polvo a Lagareiro / 橄榄油烤章鱼 / Polvo à lagareiro
+30. 125010 - `bifana` - Bifana / 葡式猪扒小面包 / Bifana
+31. 125012 - `queijadas` - Queijadas / 葡式乳酪小塔 / Queijadas
+32. 125013 - `bacalhau-com-natas` - Bacalhau com Natas / 奶油盐鳕鱼焗土豆 / Bacalhau com natas
+33. 125014 - `bacalhau-a-gomes-de-sa` - Bacalhau a Gomes de Sa / 土豆鸡蛋盐鳕鱼 / Bacalhau à Gomes de Sá
+34. 125015 - `bacalhau-espiritual` - Bacalhau Espiritual / 胡萝卜白酱盐鳕鱼焗菜 / Bacalhau espiritual
+35. 125016 - `sardinhas-assadas` - Sardinhas Assadas / 烤沙丁鱼 / Sardinhas assadas
+36. 125017 - `dourada-grelhada` - Dourada Grelhada / 烤海鲷 / Dourada grelhada
+37. 125018 - `cataplana-de-marisco` - Cataplana de Marisco / 葡式铜锅海鲜 / Cataplana de marisco
+38. 125019 - `feijoada-portuguesa` - Feijoada Portuguesa / 葡式豆子猪肉炖菜 / Feijoada portuguesa
+39. 125020 - `cozido-a-portuguesa` - Cozido a Portuguesa / 葡式杂肉蔬菜锅 / Cozido à portuguesa
+40. 125021 - `leitao-assado` - Leitao Assado / 烤乳猪 / Leitão assado
+41. 125022 - `alheira` - Alheira / 葡式阿列拉香肠 / Alheira
+42. 125023 - `prego` - Prego / 葡式牛排小面包 / Prego
+43. 125024 - `arroz-de-pato` - Arroz de Pato / 葡式鸭肉焗饭 / Arroz de pato
+44. 125026 - `peixinhos-da-horta` - Peixinhos da Horta / 葡式炸四季豆 / Peixinhos da horta
+45. 125027 - `bolinhos-de-bacalhau` - Bolinhos de Bacalhau / 葡式盐鳕鱼球 / Bolinhos de bacalhau
+46. 125028 - `arroz-doce` - Arroz Doce / 葡式肉桂米布丁 / Arroz doce
+47. 125029 - `serradura` - Serradura / 木糠布丁 / Serradura
+48. 125030 - `bolo-de-bolacha` - Bolo de Bolacha / 葡式饼干咖啡奶油蛋糕 / Bolo de bolacha
 
 ## Scandinavian (scandinavian) - 31
 
@@ -786,19 +887,38 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 105029 - `spanish-flan` - Flan / 西班牙焦糖布丁 / Flan
 30. 105030 - `bocadillo-de-calamares` - Bocadillo de Calamares / 炸鱿鱼圈长棍三明治 / Bocadillo de calamares
 
-## Surinamese (surinamese) - 11
+## Surinamese (surinamese) - 30
 
 1. 126001 - `roti-roll` - Surinamese Roti / 苏里南咖喱 roti / roti
-2. 126003 - `saoto-soep` - Saoto Soup / 苏里南 Saoto 鸡汤 / saoto soep
-3. 126004 - `broodje-kip-kerrie` - Broodje Kip Kerrie / 苏里南咖喱鸡三明治 / broodje kip kerrie
-4. 126005 - `broodje-bakkeljauw` - Broodje Bakkeljauw / 苏里南咸鳕鱼三明治 / broodje bakkeljauw
-5. 126006 - `bara` - Bara / 苏里南炸豆饼 / bara
-6. 126007 - `teloh` - Teloh / 炸木薯配咸鳕鱼 / teloh
-7. 126008 - `mokshire-meti` - Moksi Meti / 苏里南混合烤肉 / moksi meti
-8. 126009 - `nasi-surinamese` - Surinamese Nasi / 苏里南炒饭 / nasi
-9. 126010 - `bami-surinamese` - Surinamese Bami / 苏里南炒面 / bami
-10. 126011 - `peanut-soup-surinamese` - Surinamese Peanut Soup / 苏里南花生汤 / pindasoep
-11. 126012 - `bojo` - Bojo / 苏里南椰香木薯糕 / bojo
+2. 126002 - `pom` - Pom / 苏里南波姆烤鸡木薯 / pom
+3. 126003 - `saoto-soep` - Saoto Soup / 苏里南 Saoto 鸡汤 / saoto soep
+4. 126004 - `broodje-kip-kerrie` - Broodje Kip Kerrie / 苏里南咖喱鸡三明治 / broodje kip kerrie
+5. 126005 - `broodje-bakkeljauw` - Broodje Bakkeljauw / 苏里南咸鳕鱼三明治 / broodje bakkeljauw
+6. 126006 - `bara` - Bara / 苏里南炸豆饼 / bara
+7. 126007 - `teloh` - Teloh / 炸木薯配咸鳕鱼 / teloh
+8. 126008 - `mokshire-meti` - Moksi Meti / 苏里南混合烤肉 / moksi meti
+9. 126009 - `nasi-surinamese` - Surinamese Nasi / 苏里南炒饭 / nasi
+10. 126010 - `bami-surinamese` - Surinamese Bami / 苏里南炒面 / bami
+11. 126011 - `peanut-soup-surinamese` - Surinamese Peanut Soup / 苏里南花生汤 / pindasoep
+12. 126012 - `bojo` - Bojo / 苏里南椰香木薯糕 / bojo
+13. 126013 - `kip-kerrie` - Kip Kerrie / 苏里南咖喱鸡 / kip kerrie
+14. 126014 - `bruine-bonen-met-rijst` - Bruine Bonen met Rijst / 红豆米饭 / bruine bonen met rijst
+15. 126015 - `pastei-surinamese` - Surinamese Pastei / 苏里南鸡肉派 / pastei
+16. 126016 - `doksa` - Doksa / 苏里南鸭肉咖喱 / doksa
+17. 126017 - `herheri` - Herheri / 苏里南根茎鱼盘 / herheri
+18. 126018 - `pepre-watra` - Pepre Watra / 苏里南辣鱼汤 / pepre watra
+19. 126019 - `goedangan` - Goedangan / 苏里南椰丝蔬菜沙拉 / goedangan
+20. 126020 - `pitjel` - Pitjel / 苏里南花生蔬菜 / pitjel
+21. 126021 - `bakabana` - Bakabana / 炸香蕉 / bakabana
+22. 126022 - `dawet` - Dawet / 苏里南椰奶饮甜品 / dawet
+23. 126023 - `fiadoe` - Fiadoe / 苏里南甜面包卷 / fiadoe
+24. 126024 - `maizena-koekjes` - Maizena Koekjes / 玉米淀粉小饼干 / maizena koekjes
+25. 126025 - `telo-bakkeljauw` - Telo Bakkeljauw / 炸木薯配咸鱼 / telo bakkeljauw
+26. 126026 - `kip-sate-surinamese` - Surinamese Kip Saté / 苏里南鸡肉沙爹 / kip saté
+27. 126027 - `cha-siu-surinamese` - Surinamese Cha Siu / 苏里南叉烧 / cha siu
+28. 126028 - `pom-sandwich` - Broodje Pom / 苏里南波姆三明治 / broodje pom
+29. 126029 - `roti-kip-kerrie` - Roti Kip Kerrie / 咖喱鸡薄饼套餐 / roti kip kerrie
+30. 126030 - `nasi-moksi-meti` - Nasi Moksi Meti / 混肉炒饭 / nasi moksi meti
 
 ## Thai (thai) - 30
 

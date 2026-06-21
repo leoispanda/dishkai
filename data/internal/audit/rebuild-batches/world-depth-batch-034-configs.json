@@ -1,0 +1,3350 @@
+[
+  {
+    "id": "french-toast",
+    "metadataCode": "122013",
+    "imageCode": "122013",
+    "cuisineId": "american",
+    "names": {
+      "en": "French Toast",
+      "zh": "法式吐司",
+      "nl": "Wentelteefjes",
+      "local": "French toast"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "fried",
+      "toasted"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "French Toast is bread soaked in egg and dairy, pan-browned and served sweet with syrup or fruit.",
+      "zh": "法式吐司通常是浸过蛋奶的面包煎香后配糖浆或水果，整体偏甜。",
+      "nl": "Wentelteefjes is meestal in ei en zuivel geweekt brood, goudbruin gebakken en zoet geserveerd met siroop of fruit."
+    },
+    "cookingProfile": {
+      "en": "Expect a soft custardy middle, browned edges, and a sweet brunch feel.",
+      "zh": "点餐时可预期内里柔软像蛋奶布丁，边缘煎香，适合甜口早午餐。",
+      "nl": "Verwacht een zachte custardkern, bruine randjes en een zoete brunchstijl."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is a soft custardy middle, browned edges, and a sweet brunch feel.",
+        "zh": "点餐识别重点是内里柔软像蛋奶布丁，边缘煎香，适合甜口早午餐。",
+        "nl": "Het herkenningspunt is een zachte custardkern, bruine randjes en een zoete brunchstijl."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        45,
+        "base"
+      ],
+      [
+        "egg",
+        20,
+        "component"
+      ],
+      [
+        "cream",
+        15,
+        "richness"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "maple-syrup",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "maple-syrup",
+      "cinnamon",
+      "vanilla"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "buttery"
+    ],
+    "textureProfile": [
+      "custardy center",
+      "browned edges",
+      "syrupy finish"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want sweet, soft brunch with syrup; skip if you want a light or savory breakfast.",
+      "zh": "想吃带糖浆的柔软甜早午餐时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je zoete, zachte brunch met siroop wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/122013-french-toast.webp",
+    "thumbPath": "/assets/dishes/thumb/122013-french-toast.webp"
+  },
+  {
+    "id": "eggs-benedict",
+    "metadataCode": "122014",
+    "imageCode": "122014",
+    "cuisineId": "american",
+    "names": {
+      "en": "Eggs Benedict",
+      "zh": "班尼迪克蛋",
+      "nl": "Eggs Benedict",
+      "local": "eggs benedict"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Eggs Benedict is poached eggs on a muffin or toast with ham and hollandaise sauce.",
+      "zh": "班尼迪克蛋通常是英式松饼或吐司上放火腿、水波蛋和荷兰酱。",
+      "nl": "Eggs Benedict is meestal gepocheerde eieren op muffin of toast met ham en hollandaisesaus."
+    },
+    "cookingProfile": {
+      "en": "Expect runny egg yolk, buttery sauce, and a fairly rich plate.",
+      "zh": "点餐时可预期流心水波蛋配黄油感荷兰酱，整体比较浓郁。",
+      "nl": "Verwacht lopende eidooier, botersaus en een vrij rijk bord."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is runny egg yolk, buttery sauce, and a fairly rich plate.",
+        "zh": "点餐识别重点是流心水波蛋配黄油感荷兰酱，整体比较浓郁。",
+        "nl": "Het herkenningspunt is lopende eidooier, botersaus en een vrij rijk bord."
+      }
+    },
+    "composition": [
+      [
+        "egg",
+        30,
+        "component"
+      ],
+      [
+        "bread",
+        25,
+        "base"
+      ],
+      [
+        "ham",
+        20,
+        "protein"
+      ],
+      [
+        "hollandaise-sauce",
+        20,
+        "richness"
+      ],
+      [
+        "black-pepper",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "hollandaise-sauce",
+      "egg",
+      "ham"
+    ],
+    "basicTaste": [
+      "rich",
+      "savory",
+      "buttery"
+    ],
+    "textureProfile": [
+      "runny egg",
+      "creamy sauce",
+      "soft bread"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-dairy",
+      "contains-gluten",
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "dairy-free",
+      "gluten-free",
+      "no-pork"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a classic rich brunch plate; skip if you dislike hollandaise, ham, or runny eggs.",
+      "zh": "想吃经典浓郁早午餐时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een klassieke rijke brunch wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/122014-eggs-benedict.webp",
+    "thumbPath": "/assets/dishes/thumb/122014-eggs-benedict.webp"
+  },
+  {
+    "id": "avocado-toast",
+    "metadataCode": "122015",
+    "imageCode": "122015",
+    "cuisineId": "american",
+    "names": {
+      "en": "Avocado Toast",
+      "zh": "牛油果吐司",
+      "nl": "Avocadotoast",
+      "local": "avocado toast"
+    },
+    "category": "bread",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "assembled",
+      "toasted"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Avocado Toast is crisp toast topped with mashed or sliced avocado and optional egg, cheese, chili, or seeds.",
+      "zh": "牛油果吐司通常是脆吐司上铺牛油果泥或切片，可加鸡蛋、奶酪或辣椒。",
+      "nl": "Avocadotoast is meestal krokante toast met geprakte of gesneden avocado en soms ei, kaas of chili."
+    },
+    "cookingProfile": {
+      "en": "Expect creamy avocado on toast; toppings decide whether it is light or filling.",
+      "zh": "点餐时可预期酥脆吐司配奶油感牛油果，是否饱腹主要看配料。",
+      "nl": "Verwacht romige avocado op toast; toppings bepalen hoe vullend het wordt."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is creamy avocado on toast; toppings decide whether it is light or filling.",
+        "zh": "点餐识别重点是酥脆吐司配奶油感牛油果，是否饱腹主要看配料。",
+        "nl": "Het herkenningspunt is romige avocado op toast; toppings bepalen hoe vullend het wordt."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        40,
+        "base"
+      ],
+      [
+        "avocado",
+        35,
+        "component"
+      ],
+      [
+        "egg",
+        15,
+        "component"
+      ],
+      [
+        "feta",
+        5,
+        "richness"
+      ],
+      [
+        "chili",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "avocado",
+      "chili",
+      "olive-oil"
+    ],
+    "basicTaste": [
+      "mild",
+      "creamy",
+      "fresh"
+    ],
+    "textureProfile": [
+      "crisp toast",
+      "creamy avocado",
+      "optional runny egg"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "can-be-vegetarian"
+    ],
+    "goodForTags": [
+      "sandwich-or-bread"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want fresh creamy toast with flexible toppings; skip if you need guaranteed vegan or gluten-free food.",
+      "zh": "想吃清爽奶油感吐司时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je frisse romige toast met flexibele toppings wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/122015-avocado-toast.webp",
+    "thumbPath": "/assets/dishes/thumb/122015-avocado-toast.webp"
+  },
+  {
+    "id": "granola-bowl",
+    "metadataCode": "122016",
+    "imageCode": "122016",
+    "cuisineId": "american",
+    "names": {
+      "en": "Granola Bowl",
+      "zh": "格兰诺拉酸奶碗",
+      "nl": "Granolabowl",
+      "local": "granola bowl"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "assembled",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Granola Bowl is a chilled yogurt bowl with granola, fruit, and a sweet drizzle.",
+      "zh": "格兰诺拉酸奶碗通常是冷酸奶碗配格兰诺拉麦片、水果和少量甜味淋酱。",
+      "nl": "Granolabowl is meestal een koude yoghurtkom met granola, fruit en iets zoets."
+    },
+    "cookingProfile": {
+      "en": "Expect creamy yogurt, crunchy oats, and fresh fruit rather than a hot breakfast.",
+      "zh": "点餐时可预期酸奶顺滑、麦片酥脆、水果清新，不是热早餐。",
+      "nl": "Verwacht romige yoghurt, krokante granola en vers fruit in plaats van warm ontbijt."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is creamy yogurt, crunchy oats, and fresh fruit rather than a hot breakfast.",
+        "zh": "点餐识别重点是酸奶顺滑、麦片酥脆、水果清新，不是热早餐。",
+        "nl": "Het herkenningspunt is romige yoghurt, krokante granola en vers fruit in plaats van warm ontbijt."
+      }
+    },
+    "composition": [
+      [
+        "yogurt",
+        40,
+        "richness"
+      ],
+      [
+        "granola",
+        25,
+        "component"
+      ],
+      [
+        "berries",
+        20,
+        "fruit-or-sweetness"
+      ],
+      [
+        "banana",
+        10,
+        "fruit-or-sweetness"
+      ],
+      [
+        "honey",
+        5,
+        "distinctive-seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "yogurt",
+      "berries",
+      "honey"
+    ],
+    "basicTaste": [
+      "sweet",
+      "tangy",
+      "fresh"
+    ],
+    "textureProfile": [
+      "creamy yogurt",
+      "crunchy granola",
+      "juicy fruit"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-gluten",
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "gluten-free",
+      "tree-nut-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a lighter sweet breakfast bowl; skip if you avoid dairy, nuts, or hidden sugar.",
+      "zh": "想吃较轻的甜口早餐碗时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een lichtere zoete ontbijtkom wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/122016-granola-bowl.webp",
+    "thumbPath": "/assets/dishes/thumb/122016-granola-bowl.webp"
+  },
+  {
+    "id": "club-sandwich",
+    "metadataCode": "122017",
+    "imageCode": "122017",
+    "cuisineId": "american",
+    "names": {
+      "en": "Club Sandwich",
+      "zh": "总汇三明治",
+      "nl": "Club Sandwich",
+      "local": "club sandwich"
+    },
+    "category": "bread",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "assembled",
+      "toasted"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Club Sandwich is a layered toasted sandwich with chicken or turkey, bacon, egg, lettuce-style vegetables, and mayonnaise.",
+      "zh": "总汇三明治通常是多层烤三明治，常有鸡肉或火鸡、培根、鸡蛋、蔬菜和蛋黄酱。",
+      "nl": "Club Sandwich is meestal een gelaagde tosti-achtige sandwich met kip of kalkoen, spek, ei, groente en mayonaise."
+    },
+    "cookingProfile": {
+      "en": "Expect a filling stacked sandwich with salty bacon and creamy sauce.",
+      "zh": "点餐时可预期分量较足，培根咸香，酱感明显。",
+      "nl": "Verwacht een vullende gestapelde sandwich met zout spek en romige saus."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is a filling stacked sandwich with salty bacon and creamy sauce.",
+        "zh": "点餐识别重点是分量较足，培根咸香，酱感明显。",
+        "nl": "Het herkenningspunt is een vullende gestapelde sandwich met zout spek en romige saus."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        35,
+        "base"
+      ],
+      [
+        "chicken",
+        25,
+        "protein"
+      ],
+      [
+        "bacon",
+        15,
+        "protein"
+      ],
+      [
+        "egg",
+        10,
+        "component"
+      ],
+      [
+        "mayonnaise",
+        10,
+        "richness"
+      ],
+      [
+        "tomato",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "bacon",
+      "mayonnaise",
+      "black-pepper"
+    ],
+    "basicTaste": [
+      "savory",
+      "creamy",
+      "salty"
+    ],
+    "textureProfile": [
+      "layered toast",
+      "crisp bacon",
+      "creamy sauce"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "sandwich-or-bread"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "no-pork"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a substantial cafe sandwich; skip if you avoid pork, egg, or mayonnaise.",
+      "zh": "想吃分量足的咖啡馆三明治时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een stevige cafésandwich wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/122017-club-sandwich.webp",
+    "thumbPath": "/assets/dishes/thumb/122017-club-sandwich.webp"
+  },
+  {
+    "id": "bagel-cream-cheese",
+    "metadataCode": "122018",
+    "imageCode": "122018",
+    "cuisineId": "american",
+    "names": {
+      "en": "Bagel with Cream Cheese",
+      "zh": "奶油奶酪贝果",
+      "nl": "Bagel met Roomkaas",
+      "local": "bagel with cream cheese"
+    },
+    "category": "bread",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "assembled",
+      "toasted"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Bagel with Cream Cheese is a chewy bagel served with a thick cream cheese spread.",
+      "zh": "奶油奶酪贝果通常是有嚼劲的贝果配厚厚奶油奶酪。",
+      "nl": "Bagel met Roomkaas is meestal een taaie bagel met een dikke laag roomkaas."
+    },
+    "cookingProfile": {
+      "en": "Expect dense bread and cool tangy dairy, usually simple and filling.",
+      "zh": "点餐时可预期面包体扎实，奶油奶酪清凉微酸，通常简单但顶饱。",
+      "nl": "Verwacht compact brood met koele friszure zuivel, meestal eenvoudig en vullend."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is dense bread and cool tangy dairy, usually simple and filling.",
+        "zh": "点餐识别重点是面包体扎实，奶油奶酪清凉微酸，通常简单但顶饱。",
+        "nl": "Het herkenningspunt is compact brood met koele friszure zuivel, meestal eenvoudig en vullend."
+      }
+    },
+    "composition": [
+      [
+        "bagel",
+        65,
+        "base"
+      ],
+      [
+        "cream-cheese",
+        30,
+        "richness"
+      ],
+      [
+        "cucumber",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cream-cheese",
+      "sea-salt"
+    ],
+    "basicTaste": [
+      "mild",
+      "creamy",
+      "tangy"
+    ],
+    "textureProfile": [
+      "chewy bagel",
+      "thick spread",
+      "cool bite"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "sandwich-or-bread"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a mild filling bagel; skip if you avoid dairy or dense bread.",
+      "zh": "想吃温和顶饱的贝果时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een milde vullende bagel wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/122018-bagel-cream-cheese.webp",
+    "thumbPath": "/assets/dishes/thumb/122018-bagel-cream-cheese.webp"
+  },
+  {
+    "id": "smoked-salmon-bagel",
+    "metadataCode": "122019",
+    "imageCode": "122019",
+    "cuisineId": "american",
+    "names": {
+      "en": "Smoked Salmon Bagel",
+      "zh": "烟熏三文鱼贝果",
+      "nl": "Bagel met Gerookte Zalm",
+      "local": "smoked salmon bagel"
+    },
+    "category": "bread",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "assembled",
+      "toasted"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Smoked Salmon Bagel is a bagel layered with smoked salmon, cream cheese, and often capers or cucumber.",
+      "zh": "烟熏三文鱼贝果通常是贝果夹烟熏三文鱼、奶油奶酪，常配酸豆或黄瓜。",
+      "nl": "Bagel met Gerookte Zalm is meestal een bagel met gerookte zalm, roomkaas en vaak kappertjes of komkommer."
+    },
+    "cookingProfile": {
+      "en": "Expect salty silky fish, tangy dairy, and a chewy bread base.",
+      "zh": "点餐时可预期烟熏鱼咸鲜滑嫩，配微酸奶油奶酪和有嚼劲贝果。",
+      "nl": "Verwacht zoute zachte vis, frisse zuivel en een taaie broodbasis."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is salty silky fish, tangy dairy, and a chewy bread base.",
+        "zh": "点餐识别重点是烟熏鱼咸鲜滑嫩，配微酸奶油奶酪和有嚼劲贝果。",
+        "nl": "Het herkenningspunt is zoute zachte vis, frisse zuivel en een taaie broodbasis."
+      }
+    },
+    "composition": [
+      [
+        "bagel",
+        40,
+        "base"
+      ],
+      [
+        "smoked-salmon",
+        30,
+        "component"
+      ],
+      [
+        "cream-cheese",
+        20,
+        "richness"
+      ],
+      [
+        "cucumber",
+        5,
+        "component"
+      ],
+      [
+        "capers",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "smoked-salmon",
+      "cream-cheese",
+      "capers"
+    ],
+    "basicTaste": [
+      "salty",
+      "creamy",
+      "briny"
+    ],
+    "textureProfile": [
+      "chewy bagel",
+      "silky salmon",
+      "cool cream cheese"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-fish"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "sandwich-or-bread"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "fish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a briny creamy salmon bagel; skip if you avoid fish, dairy, or capers.",
+      "zh": "想吃咸鲜奶油感三文鱼贝果时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een zilte romige zalmbagel wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/122019-smoked-salmon-bagel.webp",
+    "thumbPath": "/assets/dishes/thumb/122019-smoked-salmon-bagel.webp"
+  },
+  {
+    "id": "banana-bread",
+    "metadataCode": "122020",
+    "imageCode": "122020",
+    "cuisineId": "american",
+    "names": {
+      "en": "Banana Bread",
+      "zh": "香蕉蛋糕",
+      "nl": "Bananenbrood",
+      "local": "banana bread"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Banana Bread is a moist banana loaf cake often sold as a cafe snack.",
+      "zh": "香蕉蛋糕通常是湿润的香蕉蛋糕条，常作为咖啡馆小点。",
+      "nl": "Bananenbrood is meestal een vochtige bananencake, vaak als cafésnack."
+    },
+    "cookingProfile": {
+      "en": "Expect soft cake texture and banana sweetness rather than savory bread.",
+      "zh": "点餐时可预期口感更像软蛋糕，香蕉甜味明显，不是咸面包。",
+      "nl": "Verwacht zachte cake en bananenzachtheid, geen hartig brood."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is soft cake texture and banana sweetness rather than savory bread.",
+        "zh": "点餐识别重点是口感更像软蛋糕，香蕉甜味明显，不是咸面包。",
+        "nl": "Het herkenningspunt is zachte cake en bananenzachtheid, geen hartig brood."
+      }
+    },
+    "composition": [
+      [
+        "banana",
+        35,
+        "fruit-or-sweetness"
+      ],
+      [
+        "wheat-flour",
+        30,
+        "base"
+      ],
+      [
+        "egg",
+        15,
+        "component"
+      ],
+      [
+        "sugar",
+        10,
+        "component"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "banana",
+      "vanilla",
+      "cinnamon"
+    ],
+    "basicTaste": [
+      "sweet",
+      "banana",
+      "soft"
+    ],
+    "textureProfile": [
+      "moist cake",
+      "soft crumb",
+      "sweet loaf"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a sweet snack with coffee; skip if you want a savory or very light breakfast.",
+      "zh": "想配咖啡吃一份小甜点时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een zoete snack bij koffie wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/122020-banana-bread.webp",
+    "thumbPath": "/assets/dishes/thumb/122020-banana-bread.webp"
+  },
+  {
+    "id": "meatloaf",
+    "metadataCode": "122021",
+    "imageCode": "122021",
+    "cuisineId": "american",
+    "names": {
+      "en": "Meatloaf",
+      "zh": "美式肉糕",
+      "nl": "Meatloaf",
+      "local": "meatloaf"
+    },
+    "category": "meat",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Meatloaf is a baked loaf of seasoned ground meat, often sliced with tomato glaze or gravy.",
+      "zh": "美式肉糕通常是调味肉末烤成可切片肉糕，常配番茄酱面或肉汁。",
+      "nl": "Meatloaf is meestal een gebakken gehaktbrood, vaak in plakken met tomatenglazuur of jus."
+    },
+    "cookingProfile": {
+      "en": "Expect soft ground-meat slices, mild seasoning, and a comfort-food portion.",
+      "zh": "点餐时可预期肉末切片柔软，调味温和，分量有家常饱腹感。",
+      "nl": "Verwacht zachte plakken gehakt, milde kruiding en een vullend comfortfoodgevoel."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is soft ground-meat slices, mild seasoning, and a comfort-food portion.",
+        "zh": "点餐识别重点是肉末切片柔软，调味温和，分量有家常饱腹感。",
+        "nl": "Het herkenningspunt is zachte plakken gehakt, milde kruiding en een vullend comfortfoodgevoel."
+      }
+    },
+    "composition": [
+      [
+        "ground-meat",
+        55,
+        "protein"
+      ],
+      [
+        "bread",
+        15,
+        "base"
+      ],
+      [
+        "egg",
+        10,
+        "component"
+      ],
+      [
+        "tomato-sauce",
+        10,
+        "component"
+      ],
+      [
+        "onion",
+        10,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "tomato-sauce",
+      "black-pepper",
+      "onion"
+    ],
+    "basicTaste": [
+      "savory",
+      "meaty",
+      "mild"
+    ],
+    "textureProfile": [
+      "sliceable loaf",
+      "moist ground meat",
+      "glazed edge"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want mild American comfort meat; skip if you dislike ground-meat texture.",
+      "zh": "想吃温和美式家常肉菜时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je mild Amerikaans comfortvlees wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/122021-meatloaf.webp",
+    "thumbPath": "/assets/dishes/thumb/122021-meatloaf.webp"
+  },
+  {
+    "id": "pulled-pork-sandwich",
+    "metadataCode": "122022",
+    "imageCode": "122022",
+    "cuisineId": "american",
+    "names": {
+      "en": "Pulled Pork Sandwich",
+      "zh": "手撕猪肉三明治",
+      "nl": "Pulled pork sandwich",
+      "local": "pulled pork sandwich"
+    },
+    "category": "bread",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "braised",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Pulled Pork Sandwich is a soft bun filled with shredded slow-cooked pork and barbecue-style sauce.",
+      "zh": "手撕猪肉三明治通常是软面包夹慢炖手撕猪肉和甜酸烟熏感酱汁。",
+      "nl": "Pulled pork sandwich is meestal een zacht broodje met draadjesvarkensvlees en barbecueachtige saus."
+    },
+    "cookingProfile": {
+      "en": "Expect tender shredded meat, sweet-tangy sauce, and a messy sandwich feel.",
+      "zh": "点餐时可预期肉丝柔软，酱汁甜酸带烟熏感，吃起来容易多汁散落。",
+      "nl": "Verwacht mals draadjesvlees, zoet-zure saus en een rommelige sandwich."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food"
+      ],
+      "description": {
+        "en": "The ordering cue is tender shredded meat, sweet-tangy sauce, and a messy sandwich feel.",
+        "zh": "点餐识别重点是肉丝柔软，酱汁甜酸带烟熏感，吃起来容易多汁散落。",
+        "nl": "Het herkenningspunt is mals draadjesvlees, zoet-zure saus en een rommelige sandwich."
+      }
+    },
+    "composition": [
+      [
+        "pork",
+        55,
+        "protein"
+      ],
+      [
+        "brioche-bun",
+        25,
+        "base"
+      ],
+      [
+        "tomato-sauce",
+        10,
+        "component"
+      ],
+      [
+        "vinegar",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "pickles",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "pork",
+      "vinegar",
+      "smoked-paprika"
+    ],
+    "basicTaste": [
+      "savory",
+      "sweet-tangy",
+      "smoky"
+    ],
+    "textureProfile": [
+      "shredded pork",
+      "soft bun",
+      "saucy"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "sandwich-or-bread"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want saucy pulled pork in bread; skip if you avoid pork or sweet barbecue sauce.",
+      "zh": "想吃多汁酱感手撕猪肉三明治时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je sauzig pulled pork op brood wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/122022-pulled-pork-sandwich.webp",
+    "thumbPath": "/assets/dishes/thumb/122022-pulled-pork-sandwich.webp"
+  },
+  {
+    "id": "philly-cheesesteak",
+    "metadataCode": "122023",
+    "imageCode": "122023",
+    "cuisineId": "american",
+    "names": {
+      "en": "Philly Cheesesteak",
+      "zh": "费城芝士牛肉三明治",
+      "nl": "Philly cheesesteak",
+      "local": "philly cheesesteak"
+    },
+    "category": "bread",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Philly Cheesesteak is a long roll filled with thin beef, melted cheese, and often onions or peppers.",
+      "zh": "费城芝士牛肉三明治通常是长面包夹薄切牛肉、融化奶酪，常加洋葱或甜椒。",
+      "nl": "Philly cheesesteak is meestal een lang broodje met dun rundvlees, gesmolten kaas en vaak ui of paprika."
+    },
+    "cookingProfile": {
+      "en": "Expect hot sliced beef, melted cheese, and a heavy sandwich portion.",
+      "zh": "点餐时可预期热牛肉片配融化奶酪，三明治分量较重。",
+      "nl": "Verwacht warme rundvleesplakjes, gesmolten kaas en een zware sandwichportie."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food"
+      ],
+      "description": {
+        "en": "The ordering cue is hot sliced beef, melted cheese, and a heavy sandwich portion.",
+        "zh": "点餐识别重点是热牛肉片配融化奶酪，三明治分量较重。",
+        "nl": "Het herkenningspunt is warme rundvleesplakjes, gesmolten kaas en een zware sandwichportie."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        45,
+        "protein"
+      ],
+      [
+        "bread",
+        30,
+        "base"
+      ],
+      [
+        "cheese",
+        15,
+        "richness"
+      ],
+      [
+        "onion",
+        5,
+        "component"
+      ],
+      [
+        "bell-pepper",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "beef",
+      "cheese",
+      "onion"
+    ],
+    "basicTaste": [
+      "savory",
+      "cheesy",
+      "meaty"
+    ],
+    "textureProfile": [
+      "thin beef",
+      "melty cheese",
+      "soft roll"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "sandwich-or-bread"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a hot beef-and-cheese sandwich; skip if you want something light or dairy-free.",
+      "zh": "想吃热的牛肉奶酪三明治时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een warme rundvlees-kaassandwich wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/122023-philly-cheesesteak.webp",
+    "thumbPath": "/assets/dishes/thumb/122023-philly-cheesesteak.webp"
+  },
+  {
+    "id": "grilled-cheese",
+    "metadataCode": "122024",
+    "imageCode": "122024",
+    "cuisineId": "american",
+    "names": {
+      "en": "Grilled Cheese",
+      "zh": "烤奶酪三明治",
+      "nl": "Grilled cheese",
+      "local": "grilled cheese"
+    },
+    "category": "bread",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "toasted",
+      "fried"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Grilled Cheese is a toasted sandwich centered on melted cheese.",
+      "zh": "烤奶酪三明治通常是以融化奶酪为核心的煎烤三明治。",
+      "nl": "Grilled cheese is meestal een geroosterde sandwich met gesmolten kaas als kern."
+    },
+    "cookingProfile": {
+      "en": "Expect crisp buttered bread and a molten cheese center.",
+      "zh": "点餐时可预期黄油煎香的脆面包包着流动奶酪。",
+      "nl": "Verwacht knapperig beboterde brood en gesmolten kaas."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is crisp buttered bread and a molten cheese center.",
+        "zh": "点餐识别重点是黄油煎香的脆面包包着流动奶酪。",
+        "nl": "Het herkenningspunt is knapperig beboterde brood en gesmolten kaas."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        45,
+        "base"
+      ],
+      [
+        "cheddar",
+        40,
+        "richness"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "tomato-sauce",
+        5,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cheddar",
+      "butter"
+    ],
+    "basicTaste": [
+      "cheesy",
+      "buttery",
+      "mild"
+    ],
+    "textureProfile": [
+      "crisp bread",
+      "melted cheese",
+      "soft center"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "sandwich-or-bread"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want simple melted-cheese comfort food; skip if you avoid dairy or want protein-heavy food.",
+      "zh": "想吃简单有安慰感的奶酪三明治时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je simpel comforteten met gesmolten kaas wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/122024-grilled-cheese.webp",
+    "thumbPath": "/assets/dishes/thumb/122024-grilled-cheese.webp"
+  },
+  {
+    "id": "cornbread",
+    "metadataCode": "122025",
+    "imageCode": "122025",
+    "cuisineId": "american",
+    "names": {
+      "en": "Cornbread",
+      "zh": "美式玉米面包",
+      "nl": "Cornbread",
+      "local": "cornbread"
+    },
+    "category": "bread",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Cornbread is a soft crumbly cornmeal-style bread served as a side or snack.",
+      "zh": "美式玉米面包通常是松软微碎的玉米面包，常作配菜或小点。",
+      "nl": "Cornbread is meestal een zacht kruimelig maisbrood, vaak als bijgerecht of snack."
+    },
+    "cookingProfile": {
+      "en": "Expect a slightly sweet corn crumb and buttery edge.",
+      "zh": "点餐时可预期玉米香微甜，组织松散，边缘有黄油香。",
+      "nl": "Verwacht licht zoete maiskruim en een boterige rand."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is a slightly sweet corn crumb and buttery edge.",
+        "zh": "点餐识别重点是玉米香微甜，组织松散，边缘有黄油香。",
+        "nl": "Het herkenningspunt is licht zoete maiskruim en een boterige rand."
+      }
+    },
+    "composition": [
+      [
+        "corn",
+        45,
+        "starch-or-legume"
+      ],
+      [
+        "wheat-flour",
+        25,
+        "base"
+      ],
+      [
+        "egg",
+        10,
+        "component"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "honey",
+        10,
+        "distinctive-seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "corn",
+      "butter",
+      "honey"
+    ],
+    "basicTaste": [
+      "mildly sweet",
+      "buttery",
+      "corny"
+    ],
+    "textureProfile": [
+      "crumbly",
+      "soft",
+      "slightly grainy"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "sandwich-or-bread"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a gentle side with barbecue or stews; skip if you need gluten-free bread without checking.",
+      "zh": "想配烧烤或炖菜吃温和面包时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een mild bijgerecht bij barbecue of stoofgerechten wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/122025-cornbread.webp",
+    "thumbPath": "/assets/dishes/thumb/122025-cornbread.webp"
+  },
+  {
+    "id": "jambalaya",
+    "metadataCode": "122026",
+    "imageCode": "122026",
+    "cuisineId": "american",
+    "names": {
+      "en": "Jambalaya",
+      "zh": "美式什锦香料饭",
+      "nl": "Jambalaya",
+      "local": "jambalaya"
+    },
+    "category": "rice",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Jambalaya is a Louisiana seasoned rice dish with sausage, chicken, shrimp, and vegetables.",
+      "zh": "美式什锦香料饭通常是路易斯安那风味香料饭，常有香肠、鸡肉、虾和蔬菜。",
+      "nl": "Jambalaya is meestal een Louisiaans gekruid rijstgerecht met worst, kip, garnalen en groente."
+    },
+    "cookingProfile": {
+      "en": "Expect spiced rice with smoky meat and seafood mixed through.",
+      "zh": "点餐时可预期香料米饭里混有烟熏感肉类和海鲜。",
+      "nl": "Verwacht gekruide rijst met rokerig vlees en zeevruchten erdoor."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish",
+        "spicy"
+      ],
+      "description": {
+        "en": "The ordering cue is spiced rice with smoky meat and seafood mixed through.",
+        "zh": "点餐识别重点是香料米饭里混有烟熏感肉类和海鲜。",
+        "nl": "Het herkenningspunt is gekruide rijst met rokerig vlees en zeevruchten erdoor."
+      }
+    },
+    "composition": [
+      [
+        "steamed-rice",
+        40,
+        "starch-or-legume"
+      ],
+      [
+        "sausage",
+        20,
+        "protein"
+      ],
+      [
+        "chicken",
+        15,
+        "protein"
+      ],
+      [
+        "shrimp",
+        10,
+        "seafood"
+      ],
+      [
+        "bell-pepper",
+        10,
+        "component"
+      ],
+      [
+        "paprika",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "paprika",
+      "chili",
+      "sausage"
+    ],
+    "basicTaste": [
+      "savory",
+      "spiced",
+      "smoky"
+    ],
+    "textureProfile": [
+      "seasoned rice",
+      "mixed proteins",
+      "one-pot texture"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-pork",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "rice",
+      "spicy"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "no-pork",
+      "no-spicy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a spiced rice main with mixed protein; skip if you avoid shellfish, pork, or spice.",
+      "zh": "想吃香料米饭和多种肉海鲜时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een gekruide rijstmaaltijd met gemengde eiwitten wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/122026-jambalaya.webp",
+    "thumbPath": "/assets/dishes/thumb/122026-jambalaya.webp"
+  },
+  {
+    "id": "gumbo",
+    "metadataCode": "122027",
+    "imageCode": "122027",
+    "cuisineId": "american",
+    "names": {
+      "en": "Gumbo",
+      "zh": "美式秋葵浓汤",
+      "nl": "Gumbo",
+      "local": "gumbo"
+    },
+    "category": "soup",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Gumbo is a thick Louisiana stew with okra, seafood or sausage, and rice.",
+      "zh": "美式秋葵浓汤通常是路易斯安那浓炖菜，常有秋葵、海鲜或香肠，并配米饭。",
+      "nl": "Gumbo is meestal een dikke Louisiaanse stoofsoep met okra, zeevruchten of worst en rijst."
+    },
+    "cookingProfile": {
+      "en": "Expect a dark thick stew, soft okra, and rice soaking up the broth.",
+      "zh": "点餐时可预期深色浓汤感炖菜，秋葵柔软，米饭会吸汤。",
+      "nl": "Verwacht een donkere dikke stoofpot, zachte okra en rijst die bouillon opneemt."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish",
+        "spicy"
+      ],
+      "description": {
+        "en": "The ordering cue is a dark thick stew, soft okra, and rice soaking up the broth.",
+        "zh": "点餐识别重点是深色浓汤感炖菜，秋葵柔软，米饭会吸汤。",
+        "nl": "Het herkenningspunt is een donkere dikke stoofpot, zachte okra en rijst die bouillon opneemt."
+      }
+    },
+    "composition": [
+      [
+        "okra",
+        20,
+        "component"
+      ],
+      [
+        "seafood-mix",
+        25,
+        "seafood"
+      ],
+      [
+        "sausage",
+        15,
+        "protein"
+      ],
+      [
+        "steamed-rice",
+        20,
+        "starch-or-legume"
+      ],
+      [
+        "bell-pepper",
+        10,
+        "component"
+      ],
+      [
+        "smoked-paprika",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "okra",
+      "smoked-paprika",
+      "seafood-mix"
+    ],
+    "basicTaste": [
+      "savory",
+      "spiced",
+      "earthy"
+    ],
+    "textureProfile": [
+      "thick stew",
+      "soft okra",
+      "rice base"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-fish",
+      "contains-pork",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "soup",
+      "spicy"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "fish-allergy",
+      "no-pork",
+      "no-spicy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a hearty spiced stew over rice; skip if you dislike okra texture or avoid seafood.",
+      "zh": "想吃浓厚香料炖菜配米饭时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een stevige gekruide stoofpot met rijst wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 2,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/122027-gumbo.webp",
+    "thumbPath": "/assets/dishes/thumb/122027-gumbo.webp"
+  },
+  {
+    "id": "key-lime-pie",
+    "metadataCode": "122028",
+    "imageCode": "122028",
+    "cuisineId": "american",
+    "names": {
+      "en": "Key Lime Pie",
+      "zh": "青柠派",
+      "nl": "Key lime pie",
+      "local": "key lime pie"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "baked",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Key Lime Pie is a chilled tart-sweet pie with lime custard and a crumb crust.",
+      "zh": "青柠派通常是冷食酸甜青柠蛋奶派，底部是碎饼感派皮。",
+      "nl": "Key lime pie is meestal een gekoelde zoet-zure limoentaart met romige vulling en kruimelbodem."
+    },
+    "cookingProfile": {
+      "en": "Expect cool creamy lime filling and a crisp-sandy crust.",
+      "zh": "点餐时可预期冰凉奶油感青柠馅，派底酥碎。",
+      "nl": "Verwacht koele romige limoenvulling en een kruimelige bodem."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is cool creamy lime filling and a crisp-sandy crust.",
+        "zh": "点餐识别重点是冰凉奶油感青柠馅，派底酥碎。",
+        "nl": "Het herkenningspunt is koele romige limoenvulling en een kruimelige bodem."
+      }
+    },
+    "composition": [
+      [
+        "pastry-crust",
+        35,
+        "base"
+      ],
+      [
+        "lime",
+        20,
+        "fruit-or-sweetness"
+      ],
+      [
+        "egg",
+        20,
+        "component"
+      ],
+      [
+        "cream",
+        15,
+        "richness"
+      ],
+      [
+        "sugar",
+        10,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lime",
+      "cream",
+      "vanilla"
+    ],
+    "basicTaste": [
+      "sweet",
+      "tart",
+      "creamy"
+    ],
+    "textureProfile": [
+      "crumb crust",
+      "set filling",
+      "cool slice"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a bright tart dessert; skip if you dislike citrus desserts.",
+      "zh": "想吃清爽酸甜甜点时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een frisse zure zoete dessertpunt wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/122028-key-lime-pie.webp",
+    "thumbPath": "/assets/dishes/thumb/122028-key-lime-pie.webp"
+  },
+  {
+    "id": "brownie",
+    "metadataCode": "122029",
+    "imageCode": "122029",
+    "cuisineId": "american",
+    "names": {
+      "en": "Brownie",
+      "zh": "布朗尼",
+      "nl": "Brownie",
+      "local": "brownie"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Brownie is a dense chocolate baked square, fudgy or cake-like depending on the cafe.",
+      "zh": "布朗尼通常是浓巧克力烤方块，可能湿润软糯，也可能更像蛋糕。",
+      "nl": "Brownie is meestal een compacte chocoladesnack, fudgy of cakeachtig afhankelijk van de zaak."
+    },
+    "cookingProfile": {
+      "en": "Expect deep chocolate sweetness and a dense bite.",
+      "zh": "点餐时可预期巧克力味浓，口感扎实。",
+      "nl": "Verwacht diepe chocoladesmaak en een compacte beet."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is deep chocolate sweetness and a dense bite.",
+        "zh": "点餐识别重点是巧克力味浓，口感扎实。",
+        "nl": "Het herkenningspunt is diepe chocoladesmaak en een compacte beet."
+      }
+    },
+    "composition": [
+      [
+        "chocolate",
+        35,
+        "component"
+      ],
+      [
+        "butter",
+        20,
+        "richness"
+      ],
+      [
+        "sugar",
+        20,
+        "component"
+      ],
+      [
+        "wheat-flour",
+        15,
+        "base"
+      ],
+      [
+        "egg",
+        10,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "chocolate",
+      "cocoa",
+      "butter"
+    ],
+    "basicTaste": [
+      "sweet",
+      "chocolatey",
+      "rich"
+    ],
+    "textureProfile": [
+      "dense square",
+      "fudgy or cakey",
+      "soft center"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a dense chocolate dessert; skip if you want something light or low-sugar.",
+      "zh": "想吃扎实巧克力甜点时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een compacte chocoladedessert wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/122029-brownie.webp",
+    "thumbPath": "/assets/dishes/thumb/122029-brownie.webp"
+  },
+  {
+    "id": "cheesecake-american",
+    "metadataCode": "122030",
+    "imageCode": "122030",
+    "cuisineId": "american",
+    "names": {
+      "en": "American Cheesecake",
+      "zh": "美式芝士蛋糕",
+      "nl": "Amerikaanse cheesecake",
+      "local": "cheesecake"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "baked",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "American Cheesecake is a dense cream-cheese cake on a crumb crust, often served chilled.",
+      "zh": "美式芝士蛋糕通常是厚重奶油奶酪蛋糕，底部常有碎饼派底，通常冷食。",
+      "nl": "Amerikaanse cheesecake is meestal een dichte roomkaastaart op kruimelbodem, vaak gekoeld geserveerd."
+    },
+    "cookingProfile": {
+      "en": "Expect a rich cool slice with tangy dairy and a crumb base.",
+      "zh": "点餐时可预期冷食切片浓郁，奶酪微酸，底部酥碎。",
+      "nl": "Verwacht een rijke koele punt met friszure zuivel en kruimelbodem."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is a rich cool slice with tangy dairy and a crumb base.",
+        "zh": "点餐识别重点是冷食切片浓郁，奶酪微酸，底部酥碎。",
+        "nl": "Het herkenningspunt is een rijke koele punt met friszure zuivel en kruimelbodem."
+      }
+    },
+    "composition": [
+      [
+        "cream-cheese",
+        45,
+        "richness"
+      ],
+      [
+        "pastry-crust",
+        20,
+        "base"
+      ],
+      [
+        "egg",
+        15,
+        "component"
+      ],
+      [
+        "sugar",
+        15,
+        "component"
+      ],
+      [
+        "vanilla",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cream-cheese",
+      "vanilla",
+      "fruit-sauce-or-caramel"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "tangy"
+    ],
+    "textureProfile": [
+      "dense creamy slice",
+      "crumb crust",
+      "cool finish"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a dense creamy cake; skip if you want a light dessert or avoid dairy.",
+      "zh": "想吃浓郁奶酪蛋糕时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een dichte romige taart wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/122030-cheesecake-american.webp",
+    "thumbPath": "/assets/dishes/thumb/122030-cheesecake-american.webp"
+  },
+  {
+    "id": "pom",
+    "metadataCode": "126002",
+    "imageCode": "126002",
+    "cuisineId": "surinamese",
+    "names": {
+      "en": "Pom",
+      "zh": "苏里南波姆烤鸡木薯",
+      "nl": "Pom",
+      "local": "pom"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Pom is a Surinamese oven dish of grated pomtayer root with chicken and citrusy-spiced sauce.",
+      "zh": "苏里南波姆烤鸡木薯通常是苏里南烤菜，用磨碎的蓬芋根配鸡肉和带酸香辣味的酱汁。",
+      "nl": "Pom is meestal een Surinaamse ovenschotel van geraspte pomtayer met kip en kruidig frisse saus."
+    },
+    "cookingProfile": {
+      "en": "Expect a soft starchy bake with chicken pieces and bright chili heat.",
+      "zh": "点餐时可预期根茎泥烤后柔软，夹鸡肉，带明亮辣味。",
+      "nl": "Verwacht een zachte zetmeelrijke ovenschotel met kip en frisse chiliwarmte."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish",
+        "spicy"
+      ],
+      "description": {
+        "en": "The ordering cue is a soft starchy bake with chicken pieces and bright chili heat.",
+        "zh": "点餐识别重点是根茎泥烤后柔软，夹鸡肉，带明亮辣味。",
+        "nl": "Het herkenningspunt is een zachte zetmeelrijke ovenschotel met kip en frisse chiliwarmte."
+      }
+    },
+    "composition": [
+      [
+        "tayer-root",
+        45,
+        "starch-or-legume"
+      ],
+      [
+        "chicken",
+        30,
+        "protein"
+      ],
+      [
+        "tomato-sauce",
+        10,
+        "component"
+      ],
+      [
+        "onion",
+        10,
+        "component"
+      ],
+      [
+        "madame-jeanette-chili",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "tayer-root",
+      "chicken",
+      "madame-jeanette-chili"
+    ],
+    "basicTaste": [
+      "savory",
+      "tangy",
+      "mildly spicy"
+    ],
+    "textureProfile": [
+      "soft grated-root bake",
+      "tender chicken",
+      "saucy edges"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "spicy"
+    ],
+    "avoidIfTags": [
+      "no-spicy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a Surinamese baked chicken-root dish; skip if you dislike soft starchy bakes.",
+      "zh": "想吃苏里南鸡肉根茎烤菜时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een Surinaamse ovenschotel met kip en knol wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/126002-pom.webp",
+    "thumbPath": "/assets/dishes/thumb/126002-pom.webp"
+  },
+  {
+    "id": "kip-kerrie",
+    "metadataCode": "126013",
+    "imageCode": "126013",
+    "cuisineId": "surinamese",
+    "names": {
+      "en": "Kip Kerrie",
+      "zh": "苏里南咖喱鸡",
+      "nl": "Kip kerrie",
+      "local": "kip kerrie"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Kip Kerrie is Surinamese curry chicken, often served with rice, roti, or vegetables.",
+      "zh": "苏里南咖喱鸡通常是苏里南咖喱鸡，常配米饭、薄饼或蔬菜。",
+      "nl": "Kip kerrie is meestal Surinaamse kerriekip, vaak met rijst, roti of groente."
+    },
+    "cookingProfile": {
+      "en": "Expect yellow curry aroma, tender chicken, and sauce that suits rice or roti.",
+      "zh": "点餐时可预期黄色咖喱香明显，鸡肉柔软，酱汁适合配饭或薄饼。",
+      "nl": "Verwacht gele kerriegeur, malse kip en saus voor rijst of roti."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish",
+        "spicy"
+      ],
+      "description": {
+        "en": "The ordering cue is yellow curry aroma, tender chicken, and sauce that suits rice or roti.",
+        "zh": "点餐识别重点是黄色咖喱香明显，鸡肉柔软，酱汁适合配饭或薄饼。",
+        "nl": "Het herkenningspunt is gele kerriegeur, malse kip en saus voor rijst of roti."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        45,
+        "protein"
+      ],
+      [
+        "steamed-rice",
+        30,
+        "starch-or-legume"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "component"
+      ],
+      [
+        "curry-masala",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "madame-jeanette-chili",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "curry-masala",
+      "madame-jeanette-chili",
+      "chicken"
+    ],
+    "basicTaste": [
+      "savory",
+      "warm-spiced",
+      "can-be-spicy"
+    ],
+    "textureProfile": [
+      "tender chicken",
+      "curry sauce",
+      "rice-friendly"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "spicy"
+    ],
+    "avoidIfTags": [
+      "no-spicy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want warm-spiced chicken curry; skip if you avoid chili or curry spices.",
+      "zh": "想吃香料感咖喱鸡时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je warm gekruide kipkerrie wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/126013-kip-kerrie.webp",
+    "thumbPath": "/assets/dishes/thumb/126013-kip-kerrie.webp"
+  },
+  {
+    "id": "bruine-bonen-met-rijst",
+    "metadataCode": "126014",
+    "imageCode": "126014",
+    "cuisineId": "surinamese",
+    "names": {
+      "en": "Bruine Bonen met Rijst",
+      "zh": "红豆米饭",
+      "nl": "Bruine bonen met rijst",
+      "local": "bruine bonen met rijst"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Bruine Bonen met Rijst is a Surinamese brown-bean stew served over rice, sometimes with salted meat.",
+      "zh": "红豆米饭通常是苏里南豆炖饭，豆子炖软后盖在米饭上，可能含咸肉。",
+      "nl": "Bruine bonen met rijst is meestal een Surinaamse bruinebonenstoof op rijst, soms met gezouten vlees."
+    },
+    "cookingProfile": {
+      "en": "Expect soft beans, rice, and a gentle salty stew feel.",
+      "zh": "点餐时可预期豆子柔软，配米饭，有温和咸香炖菜感。",
+      "nl": "Verwacht zachte bonen, rijst en een mild zoute stoofsmaak."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is soft beans, rice, and a gentle salty stew feel.",
+        "zh": "点餐识别重点是豆子柔软，配米饭，有温和咸香炖菜感。",
+        "nl": "Het herkenningspunt is zachte bonen, rijst en een mild zoute stoofsmaak."
+      }
+    },
+    "composition": [
+      [
+        "red-kidney-beans",
+        40,
+        "starch-or-legume"
+      ],
+      [
+        "steamed-rice",
+        35,
+        "starch-or-legume"
+      ],
+      [
+        "pork",
+        15,
+        "protein"
+      ],
+      [
+        "onion",
+        5,
+        "component"
+      ],
+      [
+        "black-pepper",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "beans",
+      "black-pepper",
+      "pork"
+    ],
+    "basicTaste": [
+      "savory",
+      "hearty",
+      "mild"
+    ],
+    "textureProfile": [
+      "soft beans",
+      "steamed rice",
+      "stew-like sauce"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "no-pork"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a hearty bean-and-rice plate; skip if you avoid pork or heavy bean dishes.",
+      "zh": "想吃扎实豆子米饭时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een stevig bord bonen met rijst wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/126014-bruine-bonen-met-rijst.webp",
+    "thumbPath": "/assets/dishes/thumb/126014-bruine-bonen-met-rijst.webp"
+  },
+  {
+    "id": "pastei-surinamese",
+    "metadataCode": "126015",
+    "imageCode": "126015",
+    "cuisineId": "surinamese",
+    "names": {
+      "en": "Surinamese Pastei",
+      "zh": "苏里南鸡肉派",
+      "nl": "Surinaamse pastei",
+      "local": "pastei"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Surinamese Pastei is a Surinamese chicken pie with a flaky crust and soft savory filling.",
+      "zh": "苏里南鸡肉派通常是苏里南鸡肉派，外层酥皮，内里是柔软咸香馅料。",
+      "nl": "Surinaamse pastei is meestal een Surinaamse kippastei met bladerige korst en zachte hartige vulling."
+    },
+    "cookingProfile": {
+      "en": "Expect buttery pastry and a mild chicken-vegetable filling.",
+      "zh": "点餐时可预期黄油感酥皮配温和鸡肉蔬菜馅。",
+      "nl": "Verwacht boterig deeg met milde kip-groentevulling."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is buttery pastry and a mild chicken-vegetable filling.",
+        "zh": "点餐识别重点是黄油感酥皮配温和鸡肉蔬菜馅。",
+        "nl": "Het herkenningspunt is boterig deeg met milde kip-groentevulling."
+      }
+    },
+    "composition": [
+      [
+        "pastry-crust",
+        40,
+        "base"
+      ],
+      [
+        "chicken",
+        30,
+        "protein"
+      ],
+      [
+        "mixed-vegetables",
+        15,
+        "component"
+      ],
+      [
+        "egg",
+        10,
+        "component"
+      ],
+      [
+        "black-pepper",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "black-pepper",
+      "chicken",
+      "pastry-crust"
+    ],
+    "basicTaste": [
+      "savory",
+      "buttery",
+      "mild"
+    ],
+    "textureProfile": [
+      "flaky crust",
+      "soft chicken filling",
+      "sliceable pie"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a mild savory pie; skip if you avoid pastry, egg, or dairy.",
+      "zh": "想吃温和咸派时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een milde hartige pastei wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/126015-pastei-surinamese.webp",
+    "thumbPath": "/assets/dishes/thumb/126015-pastei-surinamese.webp"
+  },
+  {
+    "id": "doksa",
+    "metadataCode": "126016",
+    "imageCode": "126016",
+    "cuisineId": "surinamese",
+    "names": {
+      "en": "Doksa",
+      "zh": "苏里南鸭肉咖喱",
+      "nl": "Doksa",
+      "local": "doksa"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Doksa is Surinamese duck curry, usually richer and deeper than chicken curry.",
+      "zh": "苏里南鸭肉咖喱通常是苏里南鸭肉咖喱，通常比鸡肉咖喱更浓厚。",
+      "nl": "Doksa is meestal Surinaamse eendencurry, meestal rijker en dieper dan kipkerrie."
+    },
+    "cookingProfile": {
+      "en": "Expect rich duck meat in spiced sauce, best with rice or roti.",
+      "zh": "点餐时可预期鸭肉浓郁，香料酱汁适合配饭或薄饼。",
+      "nl": "Verwacht rijke eend in kruidige saus, goed met rijst of roti."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "spicy"
+      ],
+      "description": {
+        "en": "The ordering cue is rich duck meat in spiced sauce, best with rice or roti.",
+        "zh": "点餐识别重点是鸭肉浓郁，香料酱汁适合配饭或薄饼。",
+        "nl": "Het herkenningspunt is rijke eend in kruidige saus, goed met rijst of roti."
+      }
+    },
+    "composition": [
+      [
+        "duck",
+        55,
+        "protein"
+      ],
+      [
+        "steamed-rice",
+        25,
+        "starch-or-legume"
+      ],
+      [
+        "curry-masala",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "distinctive-seasoning"
+      ],
+      [
+        "madame-jeanette-chili",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "duck",
+      "curry-masala",
+      "madame-jeanette-chili"
+    ],
+    "basicTaste": [
+      "savory",
+      "rich",
+      "spiced"
+    ],
+    "textureProfile": [
+      "tender duck",
+      "curry sauce",
+      "rice-friendly"
+    ],
+    "riskFlags": [
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "spicy"
+    ],
+    "avoidIfTags": [
+      "no-spicy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want rich duck curry; skip if you dislike duck or stronger curry.",
+      "zh": "想吃浓郁鸭肉咖喱时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je rijke eendencurry wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 2,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/126016-doksa.webp",
+    "thumbPath": "/assets/dishes/thumb/126016-doksa.webp"
+  },
+  {
+    "id": "herheri",
+    "metadataCode": "126017",
+    "imageCode": "126017",
+    "cuisineId": "surinamese",
+    "names": {
+      "en": "Herheri",
+      "zh": "苏里南根茎鱼盘",
+      "nl": "Herheri",
+      "local": "herheri"
+    },
+    "category": "main",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "boiled",
+      "assembled"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Herheri is a Surinamese plate of boiled root vegetables and plantain, often with salted fish and egg.",
+      "zh": "苏里南根茎鱼盘通常是苏里南根茎拼盘，常有水煮木薯、大蕉、红薯，配咸鱼和鸡蛋。",
+      "nl": "Herheri is meestal een Surinaams bord met gekookte knollen en bakbanaan, vaak met bakkeljauw en ei."
+    },
+    "cookingProfile": {
+      "en": "Expect plain starchy roots balanced by salty fish.",
+      "zh": "点餐时可预期根茎口感朴实顶饱，靠咸鱼增加咸鲜。",
+      "nl": "Verwacht eenvoudige zetmeelrijke knollen met zoute vis als tegenwicht."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "The ordering cue is plain starchy roots balanced by salty fish.",
+        "zh": "点餐识别重点是根茎口感朴实顶饱，靠咸鱼增加咸鲜。",
+        "nl": "Het herkenningspunt is eenvoudige zetmeelrijke knollen met zoute vis als tegenwicht."
+      }
+    },
+    "composition": [
+      [
+        "cassava",
+        30,
+        "starch-or-legume"
+      ],
+      [
+        "plantain",
+        25,
+        "starch-or-legume"
+      ],
+      [
+        "sweet-potato",
+        20,
+        "component"
+      ],
+      [
+        "salt-cod",
+        15,
+        "seafood"
+      ],
+      [
+        "egg",
+        10,
+        "component"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "salt-cod",
+      "plantain",
+      "cassava"
+    ],
+    "basicTaste": [
+      "starchy",
+      "salty",
+      "mild"
+    ],
+    "textureProfile": [
+      "boiled roots",
+      "firm fish",
+      "simple plate"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [],
+    "avoidIfTags": [
+      "fish-allergy",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a filling root-vegetable plate; skip if you dislike boiled roots or salted fish.",
+      "zh": "想吃根茎类饱腹拼盘时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een vullend bord knolgroenten wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/126017-herheri.webp",
+    "thumbPath": "/assets/dishes/thumb/126017-herheri.webp"
+  },
+  {
+    "id": "pepre-watra",
+    "metadataCode": "126018",
+    "imageCode": "126018",
+    "cuisineId": "surinamese",
+    "names": {
+      "en": "Pepre Watra",
+      "zh": "苏里南辣鱼汤",
+      "nl": "Pepre watra",
+      "local": "pepre watra"
+    },
+    "category": "soup",
+    "mealRole": "main",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Pepre Watra is a Surinamese peppery fish soup with chili, lime, and a clear savory broth.",
+      "zh": "苏里南辣鱼汤通常是苏里南辣鱼汤，有辣椒、青柠和清亮咸鲜汤底。",
+      "nl": "Pepre watra is meestal een Surinaamse pittige vissoep met chili, limoen en heldere hartige bouillon."
+    },
+    "cookingProfile": {
+      "en": "Expect fish in a hot chili broth with bright acidity.",
+      "zh": "点餐时可预期鱼肉在热辣汤里，带明亮酸香。",
+      "nl": "Verwacht vis in hete chilibouillon met frisse zuren."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "spicy"
+      ],
+      "description": {
+        "en": "The ordering cue is fish in a hot chili broth with bright acidity.",
+        "zh": "点餐识别重点是鱼肉在热辣汤里，带明亮酸香。",
+        "nl": "Het herkenningspunt is vis in hete chilibouillon met frisse zuren."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        45,
+        "seafood"
+      ],
+      [
+        "broth",
+        25,
+        "component"
+      ],
+      [
+        "madame-jeanette-chili",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "lime",
+        10,
+        "fruit-or-sweetness"
+      ],
+      [
+        "garlic",
+        10,
+        "distinctive-seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "madame-jeanette-chili",
+      "fish-fillet",
+      "lime"
+    ],
+    "basicTaste": [
+      "spicy",
+      "fishy-savory",
+      "bright"
+    ],
+    "textureProfile": [
+      "hot broth",
+      "fish pieces",
+      "chili aroma"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "soup",
+      "spicy"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "no-spicy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a spicy fish soup; skip if you avoid fish or chili heat.",
+      "zh": "想喝辣味鱼汤时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een pittige vissoep wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 2,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/126018-pepre-watra.webp",
+    "thumbPath": "/assets/dishes/thumb/126018-pepre-watra.webp"
+  },
+  {
+    "id": "goedangan",
+    "metadataCode": "126019",
+    "imageCode": "126019",
+    "cuisineId": "surinamese",
+    "names": {
+      "en": "Goedangan",
+      "zh": "苏里南椰丝蔬菜沙拉",
+      "nl": "Goedangan",
+      "local": "goedangan"
+    },
+    "category": "salad",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "assembled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Goedangan is a Surinamese-Javanese vegetable salad dressed with seasoned coconut.",
+      "zh": "苏里南椰丝蔬菜沙拉通常是苏里南爪哇风蔬菜沙拉，拌调味椰丝。",
+      "nl": "Goedangan is meestal een Surinaams-Javaanse groentesalade met gekruide kokos."
+    },
+    "cookingProfile": {
+      "en": "Expect cool vegetables with coconut and peanut aroma.",
+      "zh": "点餐时可预期蔬菜清爽，椰香和花生香明显。",
+      "nl": "Verwacht koele groente met kokos- en pindageur."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish",
+        "spicy"
+      ],
+      "description": {
+        "en": "The ordering cue is cool vegetables with coconut and peanut aroma.",
+        "zh": "点餐识别重点是蔬菜清爽，椰香和花生香明显。",
+        "nl": "Het herkenningspunt is koele groente met kokos- en pindageur."
+      }
+    },
+    "composition": [
+      [
+        "mixed-vegetables",
+        40,
+        "component"
+      ],
+      [
+        "cabbage",
+        20,
+        "component"
+      ],
+      [
+        "grated-coconut",
+        20,
+        "component"
+      ],
+      [
+        "peanuts",
+        15,
+        "component"
+      ],
+      [
+        "chili",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "grated-coconut",
+      "peanuts",
+      "chili"
+    ],
+    "basicTaste": [
+      "fresh",
+      "nutty",
+      "mildly spicy"
+    ],
+    "textureProfile": [
+      "mixed vegetables",
+      "coconut crumble",
+      "peanut crunch"
+    ],
+    "riskFlags": [
+      "contains-peanut",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [
+      "can-be-vegan"
+    ],
+    "goodForTags": [
+      "spicy"
+    ],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "no-spicy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a fresh coconut vegetable side; skip if you have peanut allergy or dislike coconut.",
+      "zh": "想吃清爽椰香蔬菜时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een frisse kokosgroente wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 2,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/126019-goedangan.webp",
+    "thumbPath": "/assets/dishes/thumb/126019-goedangan.webp"
+  },
+  {
+    "id": "pitjel",
+    "metadataCode": "126020",
+    "imageCode": "126020",
+    "cuisineId": "surinamese",
+    "names": {
+      "en": "Pitjel",
+      "zh": "苏里南花生蔬菜",
+      "nl": "Pitjel",
+      "local": "pitjel"
+    },
+    "category": "salad",
+    "mealRole": "starter-or-side",
+    "portionType": "individual",
+    "goodForSharing": false,
+    "cookingMethods": [
+      "assembled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Pitjel is Surinamese-Javanese vegetables served with a thick peanut sauce.",
+      "zh": "苏里南花生蔬菜通常是苏里南爪哇风蔬菜配浓花生酱。",
+      "nl": "Pitjel is meestal Surinaams-Javaanse groente met dikke pindasaus."
+    },
+    "cookingProfile": {
+      "en": "Expect vegetables under a rich nutty sauce, usually eaten as a side or light meal.",
+      "zh": "点餐时可预期蔬菜淋浓厚花生酱，常作配菜或轻食。",
+      "nl": "Verwacht groente met rijke pindasaus, vaak bijgerecht of lichte maaltijd."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish",
+        "spicy"
+      ],
+      "description": {
+        "en": "The ordering cue is vegetables under a rich nutty sauce, usually eaten as a side or light meal.",
+        "zh": "点餐识别重点是蔬菜淋浓厚花生酱，常作配菜或轻食。",
+        "nl": "Het herkenningspunt is groente met rijke pindasaus, vaak bijgerecht of lichte maaltijd."
+      }
+    },
+    "composition": [
+      [
+        "mixed-vegetables",
+        45,
+        "component"
+      ],
+      [
+        "green-beans",
+        20,
+        "component"
+      ],
+      [
+        "peanuts",
+        20,
+        "component"
+      ],
+      [
+        "satay-sauce",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "chili",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "satay-sauce",
+      "peanuts",
+      "chili"
+    ],
+    "basicTaste": [
+      "nutty",
+      "savory",
+      "mildly spicy"
+    ],
+    "textureProfile": [
+      "blanched vegetables",
+      "thick peanut sauce",
+      "soft-crunchy mix"
+    ],
+    "riskFlags": [
+      "contains-peanut",
+      "can-be-spicy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "spicy"
+    ],
+    "avoidIfTags": [
+      "peanut-allergy",
+      "no-spicy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want peanut-sauced vegetables; skip if you avoid peanuts.",
+      "zh": "想吃花生酱蔬菜时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je groente met pindasaus wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 2,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "high",
+    "imagePath": "/assets/dishes/main/126020-pitjel.webp",
+    "thumbPath": "/assets/dishes/thumb/126020-pitjel.webp"
+  },
+  {
+    "id": "bakabana",
+    "metadataCode": "126021",
+    "imageCode": "126021",
+    "cuisineId": "surinamese",
+    "names": {
+      "en": "Bakabana",
+      "zh": "炸香蕉",
+      "nl": "Bakabana",
+      "local": "bakabana"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "deep-fried"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Bakabana is fried ripe plantain, often battered and served as a sweet snack.",
+      "zh": "炸香蕉通常是成熟大蕉裹浆炸成甜口小吃。",
+      "nl": "Bakabana is meestal gefrituurde rijpe bakbanaan, vaak met beslag als zoete snack."
+    },
+    "cookingProfile": {
+      "en": "Expect a soft sweet center with a lightly crisp outside.",
+      "zh": "点餐时可预期里面软甜，外层轻微酥脆。",
+      "nl": "Verwacht een zachte zoete kern met licht krokante buitenkant."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is a soft sweet center with a lightly crisp outside.",
+        "zh": "点餐识别重点是里面软甜，外层轻微酥脆。",
+        "nl": "Het herkenningspunt is een zachte zoete kern met licht krokante buitenkant."
+      }
+    },
+    "composition": [
+      [
+        "plantain",
+        70,
+        "starch-or-legume"
+      ],
+      [
+        "wheat-flour",
+        15,
+        "base"
+      ],
+      [
+        "neutral-frying-oil",
+        10,
+        "component"
+      ],
+      [
+        "cinnamon",
+        5,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "plantain",
+      "cinnamon"
+    ],
+    "basicTaste": [
+      "sweet",
+      "fried",
+      "mild"
+    ],
+    "textureProfile": [
+      "soft banana",
+      "light batter",
+      "crisp edge"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "can-be-vegan"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a warm fried plantain snack; skip if you avoid fried sweets.",
+      "zh": "想吃热的炸大蕉甜点时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een warme gefrituurde bakbananensnack wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/126021-bakabana.webp",
+    "thumbPath": "/assets/dishes/thumb/126021-bakabana.webp"
+  },
+  {
+    "id": "dawet",
+    "metadataCode": "126022",
+    "imageCode": "126022",
+    "cuisineId": "surinamese",
+    "names": {
+      "en": "Dawet",
+      "zh": "苏里南椰奶饮甜品",
+      "nl": "Dawet",
+      "local": "dawet"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "chilled",
+      "assembled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Dawet is a cold coconut-milk dessert drink with pandan jelly strands.",
+      "zh": "苏里南椰奶饮甜品通常是冷椰奶甜品饮，里面有斑兰冻条。",
+      "nl": "Dawet is meestal een koude kokosmelk-dessertdrank met pandan-gelei."
+    },
+    "cookingProfile": {
+      "en": "Expect cold sweet coconut liquid and slippery jelly pieces.",
+      "zh": "点餐时可预期冰凉甜椰奶配滑滑冻条。",
+      "nl": "Verwacht koude zoete kokosdrank met gladde gelei."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is cold sweet coconut liquid and slippery jelly pieces.",
+        "zh": "点餐识别重点是冰凉甜椰奶配滑滑冻条。",
+        "nl": "Het herkenningspunt is koude zoete kokosdrank met gladde gelei."
+      }
+    },
+    "composition": [
+      [
+        "pandan-jelly",
+        35,
+        "component"
+      ],
+      [
+        "coconut-milk",
+        30,
+        "distinctive-seasoning",
+        "seasoning"
+      ],
+      [
+        "sugar",
+        20,
+        "component"
+      ],
+      [
+        "milk-solids",
+        15,
+        "richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "pandan",
+      "coconut-milk"
+    ],
+    "basicTaste": [
+      "sweet",
+      "coconut",
+      "cool"
+    ],
+    "textureProfile": [
+      "jelly strands",
+      "milky liquid",
+      "cold dessert drink"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a cold coconut jelly dessert; skip if you dislike sweet milky drinks.",
+      "zh": "想喝冷椰香甜品时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een koud kokos-gelei dessert wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/126022-dawet.webp",
+    "thumbPath": "/assets/dishes/thumb/126022-dawet.webp"
+  },
+  {
+    "id": "fiadoe",
+    "metadataCode": "126023",
+    "imageCode": "126023",
+    "cuisineId": "surinamese",
+    "names": {
+      "en": "Fiadoe",
+      "zh": "苏里南甜面包卷",
+      "nl": "Fiadoe",
+      "local": "fiadoe"
+    },
+    "category": "dessert",
+    "mealRole": "dessert",
+    "portionType": "individual",
+    "goodForSharing": true,
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "hot",
+    "rawnessLevel": "fully-cooked",
+    "shortDescription": {
+      "en": "Fiadoe is a Surinamese sweet baked bread or roll with dried fruit and spice.",
+      "zh": "苏里南甜面包卷通常是苏里南甜面包卷，常有果干和香料。",
+      "nl": "Fiadoe is meestal een Surinaams zoet brood of rol met gedroogd fruit en specerij."
+    },
+    "cookingProfile": {
+      "en": "Expect soft sweet bread with raisin spice aroma.",
+      "zh": "点餐时可预期面包柔软偏甜，葡萄干和香料味明显。",
+      "nl": "Verwacht zacht zoet brood met rozijnen en specerijgeur."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "The ordering cue is soft sweet bread with raisin spice aroma.",
+        "zh": "点餐识别重点是面包柔软偏甜，葡萄干和香料味明显。",
+        "nl": "Het herkenningspunt is zacht zoet brood met rozijnen en specerijgeur."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        35,
+        "base"
+      ],
+      [
+        "raisins",
+        25,
+        "fruit-or-sweetness"
+      ],
+      [
+        "butter",
+        15,
+        "richness"
+      ],
+      [
+        "sugar",
+        15,
+        "component"
+      ],
+      [
+        "cinnamon",
+        10,
+        "distinctive-seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "raisins",
+      "cinnamon",
+      "butter"
+    ],
+    "basicTaste": [
+      "sweet",
+      "spiced",
+      "buttery"
+    ],
+    "textureProfile": [
+      "soft bread layers",
+      "raisin filling",
+      "sticky-sweet"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a sweet spiced bread snack; skip if you dislike raisins or sweet bread.",
+      "zh": "想吃香料果干甜面包时可以点；如果不适合这些主料、口感或过敏风险，请谨慎。",
+      "nl": "Kies dit als je een zoet gekruid brood wilt; sla over als allergenen, hoofdstructuur of textuur niet passen."
+    },
+    "confidenceTag": "audited-world-depth-batch-034",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/126023-fiadoe.webp",
+    "thumbPath": "/assets/dishes/thumb/126023-fiadoe.webp"
+  }
+]

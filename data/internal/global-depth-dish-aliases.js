@@ -2849,7 +2849,7 @@ export const globalDepthDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "cheesecake",
+    "alias": "New York cheesecake",
     "dishId": "cheesecake-american",
     "language": "menu",
     "matchType": "canonical",
@@ -2968,7 +2968,7 @@ export const globalDepthDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "kibe",
+    "alias": "quibe brasileiro",
     "dishId": "kibe-brazilian",
     "language": "menu",
     "matchType": "canonical",
@@ -2996,7 +2996,7 @@ export const globalDepthDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "tapioca",
+    "alias": "Brazilian tapioca",
     "dishId": "tapioca-crepe",
     "language": "menu",
     "matchType": "canonical",
@@ -5894,7 +5894,7 @@ export const globalDepthDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "pastei",
+    "alias": "Surinaamse pastei",
     "dishId": "pastei-surinamese",
     "language": "menu",
     "matchType": "canonical",
@@ -6069,7 +6069,7 @@ export const globalDepthDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "kip saté",
+    "alias": "Surinamese kip sate",
     "dishId": "kip-sate-surinamese",
     "language": "menu",
     "matchType": "canonical",
@@ -6090,7 +6090,7 @@ export const globalDepthDishAliases = [
     "confidence": 0.94
   },
   {
-    "alias": "kip sate",
+    "alias": "Surinaamse kip sate",
     "dishId": "kip-sate-surinamese",
     "language": "menu",
     "matchType": "translated-name",
@@ -6104,7 +6104,7 @@ export const globalDepthDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "cha siu",
+    "alias": "Surinamese cha siu pork",
     "dishId": "cha-siu-surinamese",
     "language": "menu",
     "matchType": "canonical",
@@ -7049,7 +7049,7 @@ export const globalDepthDishAliases = [
     "confidence": 1
   },
   {
-    "alias": "alfajores",
+    "alias": "alfajores peruanos",
     "dishId": "alfajores-peruvian",
     "language": "menu",
     "matchType": "canonical",
