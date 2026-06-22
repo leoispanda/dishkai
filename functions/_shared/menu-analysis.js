@@ -8,6 +8,8 @@ export const MAX_MENU_IMAGE_BYTES = 8 * 1024 * 1024;
 const AI_FALLBACK_MAX_ITEMS = 30;
 const OPENAI_CHAT_COMPLETIONS_URL = "https://api.openai.com/v1/chat/completions";
 const SUPPORTED_IMAGE_TYPES = new Set(["image/jpeg", "image/png", "image/webp", "image/gif"]);
+const CHEF_SPECIAL_IMAGE_PATH = "/assets/dishes/fallback/chef-special-pasta.webp";
+const CHEF_SPECIAL_THUMB_PATH = "/assets/dishes/fallback/chef-special-pasta-thumb.webp";
 const MENU_EXTRACTION_RESPONSE_FORMAT = {
   type: "json_schema",
   json_schema: {
@@ -130,6 +132,8 @@ export const iconTags = {
   "first-timer-friendly": { icon: "✅", en: "First-timer friendly", zh: "新手友好", nl: "Geschikt voor beginners" },
   "internationally-known": { icon: "🌍", en: "Well-known", zh: "知名度高", nl: "Bekend" },
   "safe-choice": { icon: "✅", en: "Safe", zh: "安全", nl: "Veilig" },
+  "chef-special": { icon: "★", en: "Chef special", zh: "主厨特别", nl: "Chefsspecial" },
+  "ask-staff": { icon: "?", en: "Ask the staff", zh: "询问服务员", nl: "Vraag personeel" },
   noodle: { icon: "🍜", en: "Noodles", zh: "面/粉", nl: "Noedels" },
   pasta: { icon: "🍝", en: "Pasta", zh: "意面", nl: "Pasta" },
   pizza: { icon: "🍕", en: "Pizza", zh: "披萨", nl: "Pizza" },
@@ -783,6 +787,8 @@ function buildCard(dish, originalName, targetLanguage) {
 }
 
 function unmatchedCard(item, targetLanguage) {
+  if (isChefSpecialItem(item)) return chefSpecialCard(item, targetLanguage);
+
   const message = {
     en: "This dish is not in the starter database yet.",
     zh: "这道菜暂时还不在 DishKAI 初始数据库中。",
@@ -795,6 +801,122 @@ function unmatchedCard(item, targetLanguage) {
     shortDescription: message[targetLanguage] || message.en,
     aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.",
     iconTags: [],
+    metadataSource: "unmatched",
+    verified: false,
+  };
+}
+
+function isChefSpecialItem(item) {
+  const names = [
+    item.originalName,
+    item.cleanName,
+    item.normalizedName,
+    item.canonicalCandidate,
+    ...(item.matchCandidates || []),
+  ].map(normalizeName).filter(Boolean);
+  return names.some((name) => (
+    name.includes("chef special")
+    || name.includes("chefs special")
+    || name.includes("chef s special")
+    || name.includes("chef special pasta")
+    || name.includes("special pasta")
+    || name.includes("pasta of the chef")
+    || name.includes("pasta van de chef")
+    || name.includes("pasta del chef")
+    || name.includes("pasta dello chef")
+    || name.includes("daily special")
+    || name.includes("special of the day")
+    || name.includes("主厨")
+    || name.includes("厨师推荐")
+  ));
+}
+
+function chefSpecialCard(item, targetLanguage) {
+  const content = {
+    en: {
+      familiarName: "Chef Special Pasta",
+      cuisineName: "Ask the staff",
+      orderVerdict: "Potentially worth asking about. Confirm today's sauce, main ingredients, allergens, and portion before ordering.",
+      shortDescription: "A restaurant-defined pasta special, often based on the chef's current sauce, seasonal ingredients, or daily recommendation rather than a fixed recipe.",
+      cookingProfile: "Usually served in the restaurant's current chef style; the exact sauce and toppings vary by place and day.",
+      composition: [
+        "pasta base",
+        "today's sauce",
+        "chef's chosen topping",
+        "cheese, herbs, or finish",
+      ],
+      basicTaste: ["ask staff", "restaurant-specific"],
+      distinctiveFlavorSources: ["today's sauce", "seasonal ingredients", "chef's style"],
+      texture: ["depends on sauce", "pasta bite varies"],
+      watchOuts: ["Ask whether it contains dairy, gluten, seafood, nuts, pork, or alcohol."],
+      visualDisclaimer: "Surprise reference only. Actual dish depends on the restaurant.",
+      aiImageLabel: "Visual prompt to ask the staff. Not a verified DishKAI recipe or fixed dish photo.",
+    },
+    zh: {
+      familiarName: "主厨特别意面",
+      cuisineName: "请询问服务员",
+      orderVerdict: "这通常是餐厅自定义菜，可能值得点；下单前建议确认今日酱汁、主要配料、过敏原和份量。",
+      shortDescription: "这不是固定标准菜名，通常代表当天推荐、季节食材或主厨风格的意面。",
+      cookingProfile: "通常按餐厅当天的主厨风格出餐，具体酱汁和配料会随店家变化。",
+      composition: [
+        "意面基底",
+        "今日酱汁",
+        "主厨选择的配料",
+        "奶酪、香草或收尾",
+      ],
+      basicTaste: ["需要询问", "随餐厅而变"],
+      distinctiveFlavorSources: ["今日酱汁", "季节食材", "主厨风格"],
+      texture: ["取决于酱汁", "意面口感可能不同"],
+      watchOuts: ["建议询问是否含乳制品、麸质、海鲜、坚果、猪肉或酒精。"],
+      visualDisclaimer: "惊喜参考图。实际出品取决于餐厅。",
+      aiImageLabel: "这是提醒顾客询问服务员的视觉参考，不是 DishKAI 已验证菜谱或固定实物图。",
+    },
+    nl: {
+      familiarName: "Pasta van de chef",
+      cuisineName: "Vraag het personeel",
+      orderVerdict: "Mogelijk interessant om naar te vragen. Check voor het bestellen de saus van vandaag, hoofdingredienten, allergenen en portie.",
+      shortDescription: "Een restaurantspecifieke pastaspecial, vaak gebaseerd op de saus van de chef, seizoensproducten of dagaanbeveling in plaats van een vast recept.",
+      cookingProfile: "Meestal geserveerd in de actuele stijl van de chef; saus en toppings verschillen per restaurant en dag.",
+      composition: [
+        "pastabasis",
+        "saus van vandaag",
+        "topping gekozen door de chef",
+        "kaas, kruiden of afwerking",
+      ],
+      basicTaste: ["vraag personeel", "restaurantspecifiek"],
+      distinctiveFlavorSources: ["saus van vandaag", "seizoensproducten", "stijl van de chef"],
+      texture: ["hangt af van de saus", "pastabite kan verschillen"],
+      watchOuts: ["Vraag of het zuivel, gluten, zeevruchten, noten, varkensvlees of alcohol bevat."],
+      visualDisclaimer: "Verrassingsreferentie. Het echte gerecht hangt af van het restaurant.",
+      aiImageLabel: "Visuele hint om het personeel te vragen. Geen geverifieerd DishKAI-recept of vaste gerechtfoto.",
+    },
+  };
+  const copy = content[targetLanguage] || content.en;
+  return {
+    originalName: item.originalName,
+    familiarName: copy.familiarName,
+    imagePath: CHEF_SPECIAL_IMAGE_PATH,
+    thumbPath: CHEF_SPECIAL_THUMB_PATH,
+    orderVerdict: copy.orderVerdict,
+    cuisineName: copy.cuisineName,
+    cooking: {
+      methods: [],
+      profile: copy.cookingProfile,
+    },
+    shortDescription: copy.shortDescription,
+    composition: copy.composition.map((name, index) => ({
+      name,
+      estimatedPercent: [40, 30, 20, 10][index],
+      role: "ask-staff",
+      optional: index > 1,
+    })),
+    basicTaste: copy.basicTaste,
+    distinctiveFlavorSources: copy.distinctiveFlavorSources,
+    texture: copy.texture,
+    watchOuts: copy.watchOuts,
+    visualDisclaimer: copy.visualDisclaimer,
+    aiImageLabel: copy.aiImageLabel,
+    iconTags: ["chef-special", "ask-staff", "pasta"].map((id) => tagLabel(id, targetLanguage)),
     metadataSource: "unmatched",
     verified: false,
   };
