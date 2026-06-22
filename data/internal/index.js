@@ -12,6 +12,7 @@ import { cafeBrunchDepthDishAliases } from "./cafe-brunch-depth-dish-aliases.js"
 import { europeDepthDishAliases } from "./europe-depth-dish-aliases.js";
 import { greekDepthDishAliases } from "./greek-depth-dish-aliases.js";
 import { globalDepthDishAliases } from "./global-depth-dish-aliases.js";
+import { realMenuMissDishAliases } from "./real-menu-miss-dish-aliases.js";
 import { worldDishAliases } from "./world-dish-aliases.js";
 import { belgianDishes } from "./dishes/belgian.js";
 import { chineseDishes } from "./dishes/chinese.js";
@@ -24,6 +25,7 @@ import { greekDepthDishes } from "./dishes/greek-depth-dishes.js";
 import { globalDepthDishes } from "./dishes/global-depth-dishes.js";
 import { italianDishes } from "./dishes/italian.js";
 import { expandedDishes } from "./dishes/expanded-dishes.js";
+import { realMenuMissDishes } from "./dishes/real-menu-miss-dishes.js";
 import { worldDishes } from "./dishes/world-dishes.js";
 import { japaneseDishes } from "./dishes/japanese.js";
 import { koreanDishes } from "./dishes/korean.js";
@@ -33,6 +35,7 @@ const trustedCandidateDishAliases = [
   ...baseDishAliases,
   ...cafeBrunchDepthDishAliases,
   ...greekDepthDishAliases,
+  ...realMenuMissDishAliases,
 ];
 
 const generatedCandidateDishAliases = [
@@ -1117,16 +1120,19 @@ function clearsVerifiedGate(dish) {
 }
 
 const reviewedGeneratedDishes = generatedCandidateDishes.filter((dish) => auditedGeneratedDishIds.has(dish.id));
+const reviewedRealMenuMissDishes = realMenuMissDishes;
 
 export const dishes = [
   ...trustedCandidateDishes,
   ...reviewedGeneratedDishes,
+  ...reviewedRealMenuMissDishes,
 ].filter(clearsVerifiedGate);
 const verifiedDishIds = new Set(dishes.map((dish) => dish.id));
 
 export const quarantinedDishes = [
   ...trustedCandidateDishes.filter((dish) => !verifiedDishIds.has(dish.id)),
   ...generatedCandidateDishes.filter((dish) => !verifiedDishIds.has(dish.id)),
+  ...reviewedRealMenuMissDishes.filter((dish) => !verifiedDishIds.has(dish.id)),
 ];
 
 export const dishAliases = [

@@ -1,0 +1,118 @@
+export const realMenuMissDishAliases = [
+  ...aliases("pad-prik-kaeng", [
+    ["pad prik kaeng", "canonical", 1],
+    ["pad prik khing", "spelling-variant", 0.96],
+    ["pad prik king", "spelling-variant", 0.95],
+    ["phad prik kaeng", "spelling-variant", 0.94],
+    ["ผัดพริกแกง", "local-name", 1],
+    ["泰式红咖喱酱炒菜", "translated-name", 0.94],
+  ]),
+  ...aliases("pad-pong-karee", [
+    ["pad pong karee", "canonical", 1],
+    ["pad pong curry", "spelling-variant", 0.95],
+    ["phad pong karee", "spelling-variant", 0.94],
+    ["poo pad pong karee", "protein-variant", 0.95],
+    ["pu pad pong karee", "protein-variant", 0.95],
+    ["ผัดผงกะหรี่", "local-name", 1],
+    ["泰式咖喱粉炒蛋海鲜", "translated-name", 0.94],
+  ]),
+  ...aliases("teriyaki-salmon", [
+    ["teriyaki salmon", "canonical", 1],
+    ["salmon teriyaki", "word-order-variant", 0.98],
+    ["zalm teriyaki", "translated-name", 0.98],
+    ["sake teriyaki", "local-name", 0.94],
+    ["サーモン照り焼き", "local-name", 1],
+    ["照烧三文鱼", "translated-name", 0.96],
+  ]),
+  ...aliases("mojama", [
+    ["mojama", "canonical", 1],
+    ["mojama de atun", "descriptive-name", 0.96],
+    ["mojama de atún", "descriptive-name", 0.96],
+    ["spanish cured tuna", "descriptive-name", 0.92],
+    ["西班牙风干金枪鱼片", "translated-name", 0.94],
+  ]),
+  ...aliases("pan-de-cristal", [
+    ["pan de cristal", "canonical", 1],
+    ["crystal bread", "translated-name", 0.94],
+    ["spanish crystal bread", "descriptive-name", 0.94],
+    ["西班牙水晶面包", "translated-name", 0.94],
+  ]),
+  ...aliases("ravioles-gratin", [
+    ["gratin de ravioles", "canonical", 1],
+    ["ravioles gratin", "word-order-variant", 0.96],
+    ["ravioles gratinées", "spelling-variant", 0.96],
+    ["ravioles gratinees", "spelling-variant", 0.96],
+    ["gratin de ravioles sauce aux noix", "descriptive-name", 0.95],
+    ["gratin de ravioles au st marcellin", "descriptive-name", 0.94],
+    ["法式小馄饨奶酪焗盘", "translated-name", 0.94],
+  ]),
+  ...aliases("onglet-de-boeuf", [
+    ["onglet de boeuf", "canonical", 1],
+    ["onglet de bœuf", "canonical", 1],
+    ["onglet steak", "translated-name", 0.94],
+    ["hanger steak", "translated-name", 0.92],
+    ["法式牛隔膜肉排", "translated-name", 0.94],
+  ]),
+  ...aliases("andouillette", [
+    ["andouillette", "canonical", 1],
+    ["法式猪肠香肠", "translated-name", 0.94],
+  ]),
+  ...aliases("tete-de-veau", [
+    ["tête de veau", "canonical", 1],
+    ["tete de veau", "spelling-variant", 0.98],
+    ["calf head", "translated-name", 0.92],
+    ["calf's head", "translated-name", 0.92],
+    ["法式小牛头肉", "translated-name", 0.94],
+  ]),
+  ...aliases("truite-grenobloise", [
+    ["truite grenobloise", "canonical", 1],
+    ["trout grenobloise", "translated-name", 0.96],
+    ["grenoble trout", "translated-name", 0.94],
+    ["格勒诺布尔风味鳟鱼", "translated-name", 0.94],
+  ]),
+  ...aliases("truite-aux-amandes", [
+    ["truite aux amandes", "canonical", 1],
+    ["trout with almonds", "translated-name", 0.96],
+    ["trout almondine", "translated-name", 0.95],
+    ["trout amandine", "translated-name", 0.95],
+    ["杏仁鳟鱼", "translated-name", 0.94],
+  ]),
+  ...aliases("moelleux-au-chocolat", [
+    ["moelleux au chocolat", "canonical", 1],
+    ["chocolate lava cake", "translated-name", 0.96],
+    ["lava cake", "translated-name", 0.9],
+    ["molten chocolate cake", "translated-name", 0.95],
+    ["法式熔心巧克力蛋糕", "translated-name", 0.94],
+  ]),
+  ...aliases("cilbir", [
+    ["cilbir (turkish eggs)", "descriptive-name", 0.96],
+    ["turkish eggs", "translated-name", 0.94],
+    ["çılbır eggs", "descriptive-name", 0.95],
+  ]),
+  ...aliases("bbq-ribs", [
+    ["spareribs", "descriptive-name", 0.94],
+    ["smokey spareribs", "descriptive-name", 0.93],
+    ["smoky spareribs", "descriptive-name", 0.93],
+  ]),
+  ...aliases("sticky-toffee-pudding", [
+    ["sticky date cake", "descriptive-name", 0.94],
+    ["sticky date pudding", "descriptive-name", 0.94],
+  ]),
+  ...aliases("jamon-iberico", [
+    ["pata negra", "descriptive-name", 0.95],
+    ["bellota", "descriptive-name", 0.9],
+    ["jamon de bellota", "descriptive-name", 0.94],
+    ["jamón de bellota", "descriptive-name", 0.94],
+    ["iberico bellota ham", "descriptive-name", 0.94],
+  ]),
+];
+
+function aliases(dishId, rows) {
+  return rows.map(([alias, matchType, confidence]) => ({
+    alias,
+    dishId,
+    language: "menu",
+    matchType,
+    confidence,
+  }));
+}

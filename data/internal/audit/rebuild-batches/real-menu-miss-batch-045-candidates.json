@@ -1,0 +1,122 @@
+[
+  {
+    "dishId": "pad-prik-kaeng",
+    "metadataCode": "108031",
+    "cuisineId": "thai",
+    "sourceFile": "data/internal/dishes/real-menu-miss-dishes.js",
+    "name": "Pad Prik Kaeng",
+    "imagePath": "/assets/dishes/main/108031-pad-prik-kaeng.webp",
+    "thumbPath": "/assets/dishes/thumb/108031-pad-prik-kaeng.webp",
+    "decision": "keep-verified"
+  },
+  {
+    "dishId": "pad-pong-karee",
+    "metadataCode": "108032",
+    "cuisineId": "thai",
+    "sourceFile": "data/internal/dishes/real-menu-miss-dishes.js",
+    "name": "Pad Pong Karee",
+    "imagePath": "/assets/dishes/main/108032-pad-pong-karee.webp",
+    "thumbPath": "/assets/dishes/thumb/108032-pad-pong-karee.webp",
+    "decision": "keep-verified"
+  },
+  {
+    "dishId": "teriyaki-salmon",
+    "metadataCode": "109031",
+    "cuisineId": "japanese",
+    "sourceFile": "data/internal/dishes/real-menu-miss-dishes.js",
+    "name": "Teriyaki Salmon",
+    "imagePath": "/assets/dishes/main/109031-teriyaki-salmon.webp",
+    "thumbPath": "/assets/dishes/thumb/109031-teriyaki-salmon.webp",
+    "decision": "keep-verified"
+  },
+  {
+    "dishId": "mojama",
+    "metadataCode": "105061",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/real-menu-miss-dishes.js",
+    "name": "Mojama",
+    "imagePath": "/assets/dishes/main/105061-mojama.webp",
+    "thumbPath": "/assets/dishes/thumb/105061-mojama.webp",
+    "decision": "keep-verified"
+  },
+  {
+    "dishId": "pan-de-cristal",
+    "metadataCode": "105062",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/real-menu-miss-dishes.js",
+    "name": "Pan de Cristal",
+    "imagePath": "/assets/dishes/main/105062-pan-de-cristal.webp",
+    "thumbPath": "/assets/dishes/thumb/105062-pan-de-cristal.webp",
+    "decision": "keep-verified"
+  },
+  {
+    "dishId": "ravioles-gratin",
+    "metadataCode": "103061",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/real-menu-miss-dishes.js",
+    "name": "Ravioles Gratin",
+    "imagePath": "/assets/dishes/main/103061-ravioles-gratin.webp",
+    "thumbPath": "/assets/dishes/thumb/103061-ravioles-gratin.webp",
+    "decision": "keep-verified"
+  },
+  {
+    "dishId": "onglet-de-boeuf",
+    "metadataCode": "103062",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/real-menu-miss-dishes.js",
+    "name": "Onglet de Boeuf",
+    "imagePath": "/assets/dishes/main/103062-onglet-de-boeuf.webp",
+    "thumbPath": "/assets/dishes/thumb/103062-onglet-de-boeuf.webp",
+    "decision": "keep-verified"
+  },
+  {
+    "dishId": "andouillette",
+    "metadataCode": "103063",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/real-menu-miss-dishes.js",
+    "name": "Andouillette",
+    "imagePath": "/assets/dishes/main/103063-andouillette.webp",
+    "thumbPath": "/assets/dishes/thumb/103063-andouillette.webp",
+    "decision": "keep-verified"
+  },
+  {
+    "dishId": "tete-de-veau",
+    "metadataCode": "103064",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/real-menu-miss-dishes.js",
+    "name": "Tete de Veau",
+    "imagePath": "/assets/dishes/main/103064-tete-de-veau.webp",
+    "thumbPath": "/assets/dishes/thumb/103064-tete-de-veau.webp",
+    "decision": "keep-verified"
+  },
+  {
+    "dishId": "truite-grenobloise",
+    "metadataCode": "103065",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/real-menu-miss-dishes.js",
+    "name": "Truite Grenobloise",
+    "imagePath": "/assets/dishes/main/103065-truite-grenobloise.webp",
+    "thumbPath": "/assets/dishes/thumb/103065-truite-grenobloise.webp",
+    "decision": "keep-verified"
+  },
+  {
+    "dishId": "truite-aux-amandes",
+    "metadataCode": "103066",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/real-menu-miss-dishes.js",
+    "name": "Truite aux Amandes",
+    "imagePath": "/assets/dishes/main/103066-truite-aux-amandes.webp",
+    "thumbPath": "/assets/dishes/thumb/103066-truite-aux-amandes.webp",
+    "decision": "keep-verified"
+  },
+  {
+    "dishId": "moelleux-au-chocolat",
+    "metadataCode": "103067",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/real-menu-miss-dishes.js",
+    "name": "Moelleux au Chocolat",
+    "imagePath": "/assets/dishes/main/103067-moelleux-au-chocolat.webp",
+    "thumbPath": "/assets/dishes/thumb/103067-moelleux-au-chocolat.webp",
+    "decision": "keep-verified"
+  }
+]

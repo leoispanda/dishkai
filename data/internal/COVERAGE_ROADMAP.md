@@ -8,9 +8,9 @@ Verified metadata is the source of truth. It should be curated for high-frequenc
 
 Current verified starter database:
 
-- 1089 verified dishes
+- 1101 verified dishes
 - 27 cuisines
-- 3042 verified aliases
+- 3116 verified aliases
 
 Recent depth progress:
 
@@ -26,11 +26,12 @@ Recent depth progress:
 - World Depth Batches 031-033 rebuilt 90 rows across Turkish, Middle Eastern, Mexican, Moroccan, and Ethiopian coverage. Existing candidate images were rejected as shifted/mismatched, all accepted rows received restaurant-realistic generated replacements with visible metadataCode stamps, and `makloubeh` was kept out as a duplicate transliteration of `maqluba` while `kunafa` became the independent replacement. These five cuisines now have 30 verified dishes each.
 - World Depth Batches 034-037 rebuilt 120 rows across American, Surinamese, Peruvian, Brazilian, British-Irish, and Portuguese coverage. American, Surinamese, Peruvian, and Brazilian now each have 30 verified dishes; British-Irish and Portuguese gained optional reviewed depth. Eight existing American cafe/brunch images were accepted, the other 112 rows received restaurant-realistic generated replacement images with visible metadataCode stamps, and cross-cuisine-prone aliases such as bare `cheesecake`, `cha siu`, `kip sate`, `tapioca`, and `alfajores` were narrowed.
 - Remaining European Depth Batches 039-044 rebuilt 158 additional rows across Dutch, Spanish, German, Belgian, Scandinavian, Greek, and Portuguese coverage. Dutch, Spanish, German, and Scandinavian now have 60 verified dishes; Belgian is 56 after duplicate rejection, Portuguese is 59, and Greek is 45. `cataplana` and `makloubeh` stayed quarantined under prior duplicate decisions, and Belgian duplicate aliases were narrowed to canonical verified targets.
+- Real Menu Miss Batch 045 reviewed the centralized unmatched/AI-generated KV backlog snapshot and accepted 12 real, reusable restaurant dishes plus safe alias fixes. Generic proteins, sides, menu buckets, and restaurant-specific specials stayed unverified/fallback-only. Verified export is now 1101 dishes / 3116 aliases.
 
 Next verified coverage targets:
 
 1. Keep rebuilding quarantined rows only in <=30-dish batches when replacement-quality images are available.
-2. Prioritize real-menu misses now that every registered cuisine has at least 30 verified dishes.
+2. Keep processing central real-menu misses in strict <=30-dish batches; promote only stable reusable dishes and add aliases for already covered verified dishes before creating new dish cards.
 3. Re-audit optional depth only when it helps real ordering coverage. Italian, French, German, Dutch, Spanish, and Scandinavian are reviewed to 60; Belgian, British-Irish, Portuguese, and Greek have partial reviewed depth because duplicate or unsafe rows stayed quarantined.
 
 Verified metadata should stay concise and ordering-focused. Do not turn cards into recipes.

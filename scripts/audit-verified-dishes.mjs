@@ -9,6 +9,7 @@ import { cafeBrunchDepthDishAliases } from "../data/internal/cafe-brunch-depth-d
 import { europeDepthDishAliases } from "../data/internal/europe-depth-dish-aliases.js";
 import { greekDepthDishAliases } from "../data/internal/greek-depth-dish-aliases.js";
 import { globalDepthDishAliases } from "../data/internal/global-depth-dish-aliases.js";
+import { realMenuMissDishAliases } from "../data/internal/real-menu-miss-dish-aliases.js";
 import { worldDishAliases } from "../data/internal/world-dish-aliases.js";
 import { belgianDishes } from "../data/internal/dishes/belgian.js";
 import { chineseDishes } from "../data/internal/dishes/chinese.js";
@@ -21,6 +22,7 @@ import { greekDepthDishes } from "../data/internal/dishes/greek-depth-dishes.js"
 import { globalDepthDishes } from "../data/internal/dishes/global-depth-dishes.js";
 import { italianDishes } from "../data/internal/dishes/italian.js";
 import { expandedDishes } from "../data/internal/dishes/expanded-dishes.js";
+import { realMenuMissDishes } from "../data/internal/dishes/real-menu-miss-dishes.js";
 import { worldDishes } from "../data/internal/dishes/world-dishes.js";
 import { japaneseDishes } from "../data/internal/dishes/japanese.js";
 import { koreanDishes } from "../data/internal/dishes/korean.js";
@@ -47,6 +49,7 @@ const dishSources = [
   source("data/internal/dishes/europe-depth-dishes.js", "quarantined-generated", europeDepthDishes, true),
   source("data/internal/dishes/world-dishes.js", "quarantined-generated", worldDishes, true),
   source("data/internal/dishes/global-depth-dishes.js", "quarantined-generated", globalDepthDishes, true),
+  source("data/internal/dishes/real-menu-miss-dishes.js", "trusted-depth", realMenuMissDishes),
 ];
 
 const aliasSources = [
@@ -57,6 +60,7 @@ const aliasSources = [
   aliasSource("data/internal/europe-depth-dish-aliases.js", "quarantined-generated", europeDepthDishAliases, true),
   aliasSource("data/internal/world-dish-aliases.js", "quarantined-generated", worldDishAliases, true),
   aliasSource("data/internal/global-depth-dish-aliases.js", "quarantined-generated", globalDepthDishAliases, true),
+  aliasSource("data/internal/real-menu-miss-dish-aliases.js", "trusted-depth", realMenuMissDishAliases),
 ];
 
 const templatePatterns = [

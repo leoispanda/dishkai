@@ -88,6 +88,7 @@ export const seasonings = [
   seasoning("dill", "300014", "dill", "莳萝", "dille", ["fresh", "herbal"], "dill-fresh-grassy", []),
   seasoning("cinnamon", "300015", "cinnamon", "肉桂", "kaneel", ["warm", "sweet"], "cinnamon-warm-sweet-spice", []),
   seasoning("maple-syrup", "300016", "maple syrup", "枫糖浆", "ahornsiroop", ["sweet", "caramel"], "maple-warm-caramel-sweetness", []),
+  seasoning("capers", "300017", "capers", "酸豆", "kappertjes", ["salty", "sour"], "capers-briny-tang", []),
   seasoning("curry-masala", "326001", "Surinamese curry masala", "苏里南咖喱香料", "Surinaamse kerriemasala", ["warm", "spiced"], "surinamese-curry-masala-warmth", []),
   seasoning("madame-jeanette-chili", "326002", "Madame Jeanette chili", "苏里南黄灯笼辣椒", "Madame Jeanette-peper", ["spicy", "fruity"], "madame-jeanette-fruity-heat", []),
   seasoning("berbere", "327001", "berbere", "埃塞 berbere 香料", "berbere", ["spicy", "warm"], "berbere-chili-warm-spice", []),

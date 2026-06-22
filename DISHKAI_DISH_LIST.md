@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 1089
-- Total aliases: 3042
+- Total verified dishes: 1101
+- Total aliases: 3116
 - Total cuisines: 27
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -323,7 +323,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 127029 - `spris` - Spris / 埃塞分层果汁 / spris
 30. 127030 - `ambasha` - Ambasha / 埃塞花纹庆典面包 / ambasha
 
-## French (french) - 60
+## French (french) - 67
 
 1. 103001 - `boeuf-bourguignon` - Boeuf Bourguignon / 勃艮第红酒炖牛肉 / Boeuf bourguignon
 2. 103002 - `coq-au-vin` - Coq au Vin / 红酒炖鸡 / Coq au vin
@@ -385,6 +385,13 @@ Generated from data/internal/index.js after the verified database quarantine aud
 58. 103028 - `madeleines` - Madeleines / 玛德琳小蛋糕 / Madeleines
 59. 103029 - `profiteroles` - Profiteroles / 泡芙冰淇淋巧克力酱 / Profiteroles
 60. 103030 - `paris-brest` - Paris-Brest / 巴黎布雷斯特泡芙 / Paris-Brest
+61. 103061 - `ravioles-gratin` - Ravioles Gratin / 法式小馄饨奶酪焗盘 / Gratin de ravioles
+62. 103062 - `onglet-de-boeuf` - Onglet de Boeuf / 法式牛隔膜肉排 / Onglet de boeuf
+63. 103063 - `andouillette` - Andouillette / 法式猪肠香肠 / Andouillette
+64. 103064 - `tete-de-veau` - Tete de Veau / 法式小牛头肉 / Tête de veau
+65. 103065 - `truite-grenobloise` - Truite Grenobloise / 格勒诺布尔风味鳟鱼 / Truite grenobloise
+66. 103066 - `truite-aux-amandes` - Truite aux Amandes / 杏仁鳟鱼 / Truite aux amandes
+67. 103067 - `moelleux-au-chocolat` - Moelleux au Chocolat / 法式熔心巧克力蛋糕 / Moelleux au chocolat
 
 ## German (german) - 60
 
@@ -626,7 +633,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 59. 101029 - `vitello-tonnato` - Vitello Tonnato / 金枪鱼酱小牛肉 / Vitello tonnato
 60. 101030 - `affogato` - Affogato / 意式冰淇淋咖啡 / Affogato
 
-## Japanese (japanese) - 30
+## Japanese (japanese) - 31
 
 1. 109001 - `sushi` - Sushi / 寿司 / 寿司
 2. 109002 - `ramen` - Ramen / 拉面 / ラーメン
@@ -658,6 +665,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 28. 109028 - `tamago-yaki` - Tamagoyaki / 日式玉子烧 / 卵焼き
 29. 109029 - `matcha-ice-cream` - Matcha Ice Cream / 抹茶冰淇淋 / 抹茶アイス
 30. 109030 - `dorayaki` - Dorayaki / 铜锣烧 / どら焼き
+31. 109031 - `teriyaki-salmon` - Teriyaki Salmon / 照烧三文鱼 / サーモン照り焼き
 
 ## Korean (korean) - 30
 
@@ -982,7 +990,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 59. 128029 - `aebleskiver` - Aebleskiver / 丹麦圆球小煎饼 / Æbleskiver
 60. 128030 - `brunost-toast` - Brunost Toast / 挪威棕奶酪吐司 / Brunost toast
 
-## Spanish (spanish) - 60
+## Spanish (spanish) - 62
 
 1. 105031 - `escalivada` - Escalivada / 加泰罗尼亚烤蔬菜 / Escalivada
 2. 105032 - `esqueixada` - Esqueixada / 加泰罗尼亚盐鳕鱼沙拉 / Esqueixada
@@ -1044,6 +1052,8 @@ Generated from data/internal/index.js after the verified database quarantine aud
 58. 105028 - `tarta-de-santiago` - Tarta de Santiago / 圣地亚哥杏仁蛋糕 / Tarta de Santiago
 59. 105029 - `spanish-flan` - Flan / 西班牙焦糖布丁 / Flan
 60. 105030 - `bocadillo-de-calamares` - Bocadillo de Calamares / 炸鱿鱼圈长棍三明治 / Bocadillo de calamares
+61. 105061 - `mojama` - Mojama / 西班牙风干金枪鱼片 / Mojama
+62. 105062 - `pan-de-cristal` - Pan de Cristal / 西班牙水晶面包 / Pan de cristal
 
 ## Surinamese (surinamese) - 30
 
@@ -1078,7 +1088,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 126029 - `roti-kip-kerrie` - Roti Kip Kerrie / 咖喱鸡薄饼套餐 / roti kip kerrie
 30. 126030 - `nasi-moksi-meti` - Nasi Moksi Meti / 混肉炒饭 / nasi moksi meti
 
-## Thai (thai) - 30
+## Thai (thai) - 32
 
 1. 108001 - `pad-thai` - Pad Thai / 泰式炒河粉 / ผัดไทย
 2. 108002 - `tom-yum-goong` - Tom Yum Goong / 冬阴功虾汤 / ต้มยำกุ้ง
@@ -1110,6 +1120,8 @@ Generated from data/internal/index.js after the verified database quarantine aud
 28. 108028 - `tod-mun-pla` - Tod Mun Pla / 泰式炸鱼饼 / ทอดมันปลา
 29. 108029 - `nam-tok` - Nam Tok / 泰式酸辣烤肉沙拉 / น้ำตก
 30. 108030 - `kanom-krok` - Kanom Krok / 泰式椰奶小煎糕 / ขนมครก
+31. 108031 - `pad-prik-kaeng` - Pad Prik Kaeng / 泰式红咖喱酱炒菜 / ผัดพริกแกง
+32. 108032 - `pad-pong-karee` - Pad Pong Karee / 泰式咖喱粉炒蛋海鲜 / ผัดผงกะหรี่
 
 ## Turkish (turkish) - 30
 
