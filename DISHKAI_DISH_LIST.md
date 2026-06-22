@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 1110
-- Total aliases: 3160
+- Total verified dishes: 1118
+- Total aliases: 3219
 - Total cuisines: 27
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -324,7 +324,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 127029 - `spris` - Spris / 埃塞分层果汁 / spris
 30. 127030 - `ambasha` - Ambasha / 埃塞花纹庆典面包 / ambasha
 
-## French (french) - 70
+## French (french) - 76
 
 1. 103001 - `boeuf-bourguignon` - Boeuf Bourguignon / 勃艮第红酒炖牛肉 / Boeuf bourguignon
 2. 103002 - `coq-au-vin` - Coq au Vin / 红酒炖鸡 / Coq au vin
@@ -396,6 +396,12 @@ Generated from data/internal/index.js after the verified database quarantine aud
 68. 103065 - `truite-grenobloise` - Truite Grenobloise / 格勒诺布尔风味鳟鱼 / Truite grenobloise
 69. 103066 - `truite-aux-amandes` - Truite aux Amandes / 杏仁鳟鱼 / Truite aux amandes
 70. 103067 - `moelleux-au-chocolat` - Moelleux au Chocolat / 法式熔心巧克力蛋糕 / Moelleux au chocolat
+71. 103071 - `fromage-blanc-dessert` - Fromage Blanc Dessert / 法式白奶酪甜品 / Fromage blanc
+72. 103072 - `religieuse` - Religieuse / 法式修女泡芙 / Religieuse
+73. 103073 - `tarte-amandine` - Tarte Amandine / 法式杏仁塔 / Tarte amandine
+74. 103074 - `cafe-gourmand` - Cafe Gourmand / 法式咖啡小甜点拼盘 / Cafe gourmand
+75. 103075 - `chocolat-liegeois` - Chocolat Liegeois / 巧克力列日杯 / Chocolat liegeois
+76. 103076 - `cafe-liegeois` - Cafe Liegeois / 咖啡列日杯 / Cafe liegeois
 
 ## German (german) - 60
 
@@ -460,7 +466,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 59. 106029 - `rinderroulade` - Rinderroulade / 德式牛肉卷 / Rinderroulade
 60. 106030 - `kartoffelsuppe` - Kartoffelsuppe / 德式土豆汤 / Kartoffelsuppe
 
-## Greek (greek) - 45
+## Greek (greek) - 47
 
 1. 104013 - `fava` - Fava / 希腊黄豌豆泥 / φάβα
 2. 104014 - `melitzanosalata` - Melitzanosalata / 希腊烤茄子酱 / μελιτζανοσαλάτα
@@ -507,6 +513,8 @@ Generated from data/internal/index.js after the verified database quarantine aud
 43. 104010 - `saganaki` - Saganaki / 煎奶酪 / σαγανάκι
 44. 104011 - `baklava` - Baklava / 果仁蜜酥 / μπακλαβάς
 45. 104012 - `loukoumades` - Loukoumades / 希腊蜂蜜小炸球 / λουκουμάδες
+46. 104061 - `bekri-mezes` - Bekri Mezes / 希腊酒香猪肉小盘 / Bekri mezes
+47. 104062 - `arnaki-tigania` - Arnaki Tigania / 希腊煎锅羊肉 / Arnaki tigania
 
 ## Indian (indian) - 31
 

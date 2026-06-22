@@ -1,0 +1,98 @@
+[
+  {
+    "batch": "real-menu-miss-batch-047",
+    "metadataCode": "104061",
+    "dishId": "bekri-mezes",
+    "name": "Bekri Mezes",
+    "cuisineId": "greek",
+    "sourceSignal": "Cloudflare unmatched menu item: bekri mezes",
+    "decision": "accepted",
+    "reason": "Stable Greek taverna meze, not a one-off restaurant invention.",
+    "imagePath": "/assets/dishes/main/104061-bekri-mezes.webp",
+    "thumbPath": "/assets/dishes/thumb/104061-bekri-mezes.webp"
+  },
+  {
+    "batch": "real-menu-miss-batch-047",
+    "metadataCode": "104062",
+    "dishId": "arnaki-tigania",
+    "name": "Arnaki Tigania",
+    "cuisineId": "greek",
+    "sourceSignal": "Cloudflare unmatched menu item: lamb tigania",
+    "decision": "accepted",
+    "reason": "Stable Greek lamb pan-meze; useful alias target for English menu phrasing.",
+    "imagePath": "/assets/dishes/main/104062-arnaki-tigania.webp",
+    "thumbPath": "/assets/dishes/thumb/104062-arnaki-tigania.webp"
+  },
+  {
+    "batch": "real-menu-miss-batch-047",
+    "metadataCode": "103071",
+    "dishId": "fromage-blanc-dessert",
+    "name": "Fromage Blanc Dessert",
+    "cuisineId": "french",
+    "sourceSignal": "Cloudflare unmatched menu item: fromage blanc",
+    "decision": "accepted",
+    "reason": "Common French dairy dessert; stable enough for verified metadata.",
+    "imagePath": "/assets/dishes/main/103071-fromage-blanc-dessert.webp",
+    "thumbPath": "/assets/dishes/thumb/103071-fromage-blanc-dessert.webp"
+  },
+  {
+    "batch": "real-menu-miss-batch-047",
+    "metadataCode": "103072",
+    "dishId": "religieuse",
+    "name": "Religieuse",
+    "cuisineId": "french",
+    "sourceSignal": "Cloudflare unmatched menu item: religieuse",
+    "decision": "accepted",
+    "reason": "Classic French patisserie item with stable visual and risk profile.",
+    "imagePath": "/assets/dishes/main/103072-religieuse.webp",
+    "thumbPath": "/assets/dishes/thumb/103072-religieuse.webp"
+  },
+  {
+    "batch": "real-menu-miss-batch-047",
+    "metadataCode": "103073",
+    "dishId": "tarte-amandine",
+    "name": "Tarte Amandine",
+    "cuisineId": "french",
+    "sourceSignal": "Cloudflare unmatched menu item: tarte amandine",
+    "decision": "accepted",
+    "reason": "Classic French almond tart; important nut-allergen card.",
+    "imagePath": "/assets/dishes/main/103073-tarte-amandine.webp",
+    "thumbPath": "/assets/dishes/thumb/103073-tarte-amandine.webp"
+  },
+  {
+    "batch": "real-menu-miss-batch-047",
+    "metadataCode": "103074",
+    "dishId": "cafe-gourmand",
+    "name": "Cafe Gourmand",
+    "cuisineId": "french",
+    "sourceSignal": "Cloudflare unmatched menu item: cafe gourmand",
+    "decision": "accepted",
+    "reason": "Common French restaurant dessert format; high restaurant variation documented.",
+    "imagePath": "/assets/dishes/main/103074-cafe-gourmand.webp",
+    "thumbPath": "/assets/dishes/thumb/103074-cafe-gourmand.webp"
+  },
+  {
+    "batch": "real-menu-miss-batch-047",
+    "metadataCode": "103075",
+    "dishId": "chocolat-liegeois",
+    "name": "Chocolat Liegeois",
+    "cuisineId": "french",
+    "sourceSignal": "Cloudflare unmatched menu item: chocolat liegeois",
+    "decision": "accepted",
+    "reason": "Recognizable brasserie dessert glass; stable enough despite serving variation.",
+    "imagePath": "/assets/dishes/main/103075-chocolat-liegeois.webp",
+    "thumbPath": "/assets/dishes/thumb/103075-chocolat-liegeois.webp"
+  },
+  {
+    "batch": "real-menu-miss-batch-047",
+    "metadataCode": "103076",
+    "dishId": "cafe-liegeois",
+    "name": "Cafe Liegeois",
+    "cuisineId": "french",
+    "sourceSignal": "Cloudflare unmatched menu item: cafe liegeois",
+    "decision": "accepted",
+    "reason": "Recognizable brasserie coffee dessert glass; helps avoid confusing it with plain coffee.",
+    "imagePath": "/assets/dishes/main/103076-cafe-liegeois.webp",
+    "thumbPath": "/assets/dishes/thumb/103076-cafe-liegeois.webp"
+  }
+]
