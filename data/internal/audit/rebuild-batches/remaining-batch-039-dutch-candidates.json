@@ -1,0 +1,272 @@
+[
+  {
+    "dishId": "boerenkoolstamppot",
+    "metadataCode": "102032",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Boerenkoolstamppot",
+    "imagePath": "/assets/dishes/main/102032-boerenkoolstamppot.webp",
+    "thumbPath": "/assets/dishes/thumb/102032-boerenkoolstamppot.webp"
+  },
+  {
+    "dishId": "hete-bliksem",
+    "metadataCode": "102033",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Hete Bliksem",
+    "imagePath": "/assets/dishes/main/102033-hete-bliksem.webp",
+    "thumbPath": "/assets/dishes/thumb/102033-hete-bliksem.webp"
+  },
+  {
+    "dishId": "kapucijners-met-spek",
+    "metadataCode": "102034",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Kapucijners met Spek",
+    "imagePath": "/assets/dishes/main/102034-kapucijners-met-spek.webp",
+    "thumbPath": "/assets/dishes/thumb/102034-kapucijners-met-spek.webp"
+  },
+  {
+    "dishId": "draadjesvlees",
+    "metadataCode": "102035",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Draadjesvlees",
+    "imagePath": "/assets/dishes/main/102035-draadjesvlees.webp",
+    "thumbPath": "/assets/dishes/thumb/102035-draadjesvlees.webp"
+  },
+  {
+    "dishId": "gehaktbal",
+    "metadataCode": "102036",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Gehaktbal",
+    "imagePath": "/assets/dishes/main/102036-gehaktbal.webp",
+    "thumbPath": "/assets/dishes/thumb/102036-gehaktbal.webp"
+  },
+  {
+    "dishId": "slavink",
+    "metadataCode": "102037",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Slavink",
+    "imagePath": "/assets/dishes/main/102037-slavink.webp",
+    "thumbPath": "/assets/dishes/thumb/102037-slavink.webp"
+  },
+  {
+    "dishId": "rookworst",
+    "metadataCode": "102038",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Rookworst",
+    "imagePath": "/assets/dishes/main/102038-rookworst.webp",
+    "thumbPath": "/assets/dishes/thumb/102038-rookworst.webp"
+  },
+  {
+    "dishId": "mosselen-naturel",
+    "metadataCode": "102040",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Mosselen Naturel",
+    "imagePath": "/assets/dishes/main/102040-mosselen-naturel.webp",
+    "thumbPath": "/assets/dishes/thumb/102040-mosselen-naturel.webp"
+  },
+  {
+    "dishId": "asperges-met-ham-en-ei",
+    "metadataCode": "102041",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Asperges met Ham en Ei",
+    "imagePath": "/assets/dishes/main/102041-asperges-met-ham-en-ei.webp",
+    "thumbPath": "/assets/dishes/thumb/102041-asperges-met-ham-en-ei.webp"
+  },
+  {
+    "dishId": "broodje-bal",
+    "metadataCode": "102042",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Broodje Bal",
+    "imagePath": "/assets/dishes/main/102042-broodje-bal.webp",
+    "thumbPath": "/assets/dishes/thumb/102042-broodje-bal.webp"
+  },
+  {
+    "dishId": "broodje-haring",
+    "metadataCode": "102043",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Broodje Haring",
+    "imagePath": "/assets/dishes/main/102043-broodje-haring.webp",
+    "thumbPath": "/assets/dishes/thumb/102043-broodje-haring.webp"
+  },
+  {
+    "dishId": "broodje-kroket",
+    "metadataCode": "102044",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Broodje Kroket",
+    "imagePath": "/assets/dishes/main/102044-broodje-kroket.webp",
+    "thumbPath": "/assets/dishes/thumb/102044-broodje-kroket.webp"
+  },
+  {
+    "dishId": "broodje-shoarma",
+    "metadataCode": "102045",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Broodje Shoarma",
+    "imagePath": "/assets/dishes/main/102045-broodje-shoarma.webp",
+    "thumbPath": "/assets/dishes/thumb/102045-broodje-shoarma.webp"
+  },
+  {
+    "dishId": "uitsmijter-ham-kaas",
+    "metadataCode": "102046",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Uitsmijter Ham Kaas",
+    "imagePath": "/assets/dishes/main/102046-uitsmijter-ham-kaas.webp",
+    "thumbPath": "/assets/dishes/thumb/102046-uitsmijter-ham-kaas.webp"
+  },
+  {
+    "dishId": "huzarensalade",
+    "metadataCode": "102047",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Huzarensalade",
+    "imagePath": "/assets/dishes/main/102047-huzarensalade.webp",
+    "thumbPath": "/assets/dishes/thumb/102047-huzarensalade.webp"
+  },
+  {
+    "dishId": "zalmsalade",
+    "metadataCode": "102048",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Zalmsalade",
+    "imagePath": "/assets/dishes/main/102048-zalmsalade.webp",
+    "thumbPath": "/assets/dishes/thumb/102048-zalmsalade.webp"
+  },
+  {
+    "dishId": "eierbal",
+    "metadataCode": "102049",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Eierbal",
+    "imagePath": "/assets/dishes/main/102049-eierbal.webp",
+    "thumbPath": "/assets/dishes/thumb/102049-eierbal.webp"
+  },
+  {
+    "dishId": "appelflap",
+    "metadataCode": "102052",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Appelflap",
+    "imagePath": "/assets/dishes/main/102052-appelflap.webp",
+    "thumbPath": "/assets/dishes/thumb/102052-appelflap.webp"
+  },
+  {
+    "dishId": "boterkoek",
+    "metadataCode": "102054",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Boterkoek",
+    "imagePath": "/assets/dishes/main/102054-boterkoek.webp",
+    "thumbPath": "/assets/dishes/thumb/102054-boterkoek.webp"
+  },
+  {
+    "dishId": "speculaas",
+    "metadataCode": "102055",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Speculaas",
+    "imagePath": "/assets/dishes/main/102055-speculaas.webp",
+    "thumbPath": "/assets/dishes/thumb/102055-speculaas.webp"
+  },
+  {
+    "dishId": "ontbijtkoek",
+    "metadataCode": "102056",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Ontbijtkoek",
+    "imagePath": "/assets/dishes/main/102056-ontbijtkoek.webp",
+    "thumbPath": "/assets/dishes/thumb/102056-ontbijtkoek.webp"
+  },
+  {
+    "dishId": "beschuit-met-muisjes",
+    "metadataCode": "102057",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Beschuit met Muisjes",
+    "imagePath": "/assets/dishes/main/102057-beschuit-met-muisjes.webp",
+    "thumbPath": "/assets/dishes/thumb/102057-beschuit-met-muisjes.webp"
+  },
+  {
+    "dishId": "vlaflip",
+    "metadataCode": "102058",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Vlaflip",
+    "imagePath": "/assets/dishes/main/102058-vlaflip.webp",
+    "thumbPath": "/assets/dishes/thumb/102058-vlaflip.webp"
+  },
+  {
+    "dishId": "griesmeelpudding",
+    "metadataCode": "102059",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Griesmeelpudding",
+    "imagePath": "/assets/dishes/main/102059-griesmeelpudding.webp",
+    "thumbPath": "/assets/dishes/thumb/102059-griesmeelpudding.webp"
+  },
+  {
+    "dishId": "hangop",
+    "metadataCode": "102060",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Hangop",
+    "imagePath": "/assets/dishes/main/102060-hangop.webp",
+    "thumbPath": "/assets/dishes/thumb/102060-hangop.webp"
+  },
+  {
+    "dishId": "jodenkoek",
+    "metadataCode": "102061",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Jodenkoek",
+    "imagePath": "/assets/dishes/main/102061-jodenkoek.webp",
+    "thumbPath": "/assets/dishes/thumb/102061-jodenkoek.webp"
+  },
+  {
+    "dishId": "babi-pangang",
+    "metadataCode": "102024",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Babi Pangang",
+    "imagePath": "/assets/dishes/main/102024-babi-pangang.webp",
+    "thumbPath": "/assets/dishes/thumb/102024-babi-pangang.webp"
+  },
+  {
+    "dishId": "gevulde-koek",
+    "metadataCode": "102029",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Gevulde Koek",
+    "imagePath": "/assets/dishes/main/102029-gevulde-koek.webp",
+    "thumbPath": "/assets/dishes/thumb/102029-gevulde-koek.webp"
+  },
+  {
+    "dishId": "krentenbol",
+    "metadataCode": "102030",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Krentenbol",
+    "imagePath": "/assets/dishes/main/102030-krentenbol.webp",
+    "thumbPath": "/assets/dishes/thumb/102030-krentenbol.webp"
+  },
+  {
+    "dishId": "vla",
+    "metadataCode": "102031",
+    "cuisineId": "dutch",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Vla",
+    "imagePath": "/assets/dishes/main/102031-vla.webp",
+    "thumbPath": "/assets/dishes/thumb/102031-vla.webp"
+  }
+]

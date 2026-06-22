@@ -1,0 +1,272 @@
+[
+  {
+    "dishId": "hackbraten",
+    "metadataCode": "106032",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Hackbraten",
+    "imagePath": "/assets/dishes/main/106032-hackbraten.webp",
+    "thumbPath": "/assets/dishes/thumb/106032-hackbraten.webp"
+  },
+  {
+    "dishId": "schupfnudeln",
+    "metadataCode": "106033",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Schupfnudeln",
+    "imagePath": "/assets/dishes/main/106033-schupfnudeln.webp",
+    "thumbPath": "/assets/dishes/thumb/106033-schupfnudeln.webp"
+  },
+  {
+    "dishId": "bratkartoffeln",
+    "metadataCode": "106034",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Bratkartoffeln",
+    "imagePath": "/assets/dishes/main/106034-bratkartoffeln.webp",
+    "thumbPath": "/assets/dishes/thumb/106034-bratkartoffeln.webp"
+  },
+  {
+    "dishId": "kartoffelknoedel",
+    "metadataCode": "106035",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Kartoffelknoedel",
+    "imagePath": "/assets/dishes/main/106035-kartoffelknoedel.webp",
+    "thumbPath": "/assets/dishes/thumb/106035-kartoffelknoedel.webp"
+  },
+  {
+    "dishId": "schweinebraten",
+    "metadataCode": "106036",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Schweinebraten",
+    "imagePath": "/assets/dishes/main/106036-schweinebraten.webp",
+    "thumbPath": "/assets/dishes/thumb/106036-schweinebraten.webp"
+  },
+  {
+    "dishId": "kasseler",
+    "metadataCode": "106037",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Kasseler",
+    "imagePath": "/assets/dishes/main/106037-kasseler.webp",
+    "thumbPath": "/assets/dishes/thumb/106037-kasseler.webp"
+  },
+  {
+    "dishId": "erbsensuppe",
+    "metadataCode": "106038",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Erbsensuppe",
+    "imagePath": "/assets/dishes/main/106038-erbsensuppe.webp",
+    "thumbPath": "/assets/dishes/thumb/106038-erbsensuppe.webp"
+  },
+  {
+    "dishId": "linseneintopf",
+    "metadataCode": "106039",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Linseneintopf",
+    "imagePath": "/assets/dishes/main/106039-linseneintopf.webp",
+    "thumbPath": "/assets/dishes/thumb/106039-linseneintopf.webp"
+  },
+  {
+    "dishId": "gruenkohl-mit-pinkel",
+    "metadataCode": "106040",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Gruenkohl mit Pinkel",
+    "imagePath": "/assets/dishes/main/106040-gruenkohl-mit-pinkel.webp",
+    "thumbPath": "/assets/dishes/thumb/106040-gruenkohl-mit-pinkel.webp"
+  },
+  {
+    "dishId": "fischbroetchen",
+    "metadataCode": "106041",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Fischbroetchen",
+    "imagePath": "/assets/dishes/main/106041-fischbroetchen.webp",
+    "thumbPath": "/assets/dishes/thumb/106041-fischbroetchen.webp"
+  },
+  {
+    "dishId": "rollmops",
+    "metadataCode": "106042",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Rollmops",
+    "imagePath": "/assets/dishes/main/106042-rollmops.webp",
+    "thumbPath": "/assets/dishes/thumb/106042-rollmops.webp"
+  },
+  {
+    "dishId": "heringssalat",
+    "metadataCode": "106043",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Heringssalat",
+    "imagePath": "/assets/dishes/main/106043-heringssalat.webp",
+    "thumbPath": "/assets/dishes/thumb/106043-heringssalat.webp"
+  },
+  {
+    "dishId": "backfisch",
+    "metadataCode": "106044",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Backfisch",
+    "imagePath": "/assets/dishes/main/106044-backfisch.webp",
+    "thumbPath": "/assets/dishes/thumb/106044-backfisch.webp"
+  },
+  {
+    "dishId": "zwiebelrostbraten",
+    "metadataCode": "106045",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Zwiebelrostbraten",
+    "imagePath": "/assets/dishes/main/106045-zwiebelrostbraten.webp",
+    "thumbPath": "/assets/dishes/thumb/106045-zwiebelrostbraten.webp"
+  },
+  {
+    "dishId": "jaegerschnitzel",
+    "metadataCode": "106046",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Jaegerschnitzel",
+    "imagePath": "/assets/dishes/main/106046-jaegerschnitzel.webp",
+    "thumbPath": "/assets/dishes/thumb/106046-jaegerschnitzel.webp"
+  },
+  {
+    "dishId": "rahmschnitzel",
+    "metadataCode": "106047",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Rahmschnitzel",
+    "imagePath": "/assets/dishes/main/106047-rahmschnitzel.webp",
+    "thumbPath": "/assets/dishes/thumb/106047-rahmschnitzel.webp"
+  },
+  {
+    "dishId": "wurstsalat",
+    "metadataCode": "106048",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Wurstsalat",
+    "imagePath": "/assets/dishes/main/106048-wurstsalat.webp",
+    "thumbPath": "/assets/dishes/thumb/106048-wurstsalat.webp"
+  },
+  {
+    "dishId": "leberknoedelsuppe",
+    "metadataCode": "106050",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Leberknoedelsuppe",
+    "imagePath": "/assets/dishes/main/106050-leberknoedelsuppe.webp",
+    "thumbPath": "/assets/dishes/thumb/106050-leberknoedelsuppe.webp"
+  },
+  {
+    "dishId": "bienenstich",
+    "metadataCode": "106051",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Bienenstich",
+    "imagePath": "/assets/dishes/main/106051-bienenstich.webp",
+    "thumbPath": "/assets/dishes/thumb/106051-bienenstich.webp"
+  },
+  {
+    "dishId": "zwetschgenkuchen",
+    "metadataCode": "106052",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Zwetschgenkuchen",
+    "imagePath": "/assets/dishes/main/106052-zwetschgenkuchen.webp",
+    "thumbPath": "/assets/dishes/thumb/106052-zwetschgenkuchen.webp"
+  },
+  {
+    "dishId": "rote-gruetze",
+    "metadataCode": "106053",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Rote Gruetze",
+    "imagePath": "/assets/dishes/main/106053-rote-gruetze.webp",
+    "thumbPath": "/assets/dishes/thumb/106053-rote-gruetze.webp"
+  },
+  {
+    "dishId": "dampfnudel",
+    "metadataCode": "106054",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Dampfnudel",
+    "imagePath": "/assets/dishes/main/106054-dampfnudel.webp",
+    "thumbPath": "/assets/dishes/thumb/106054-dampfnudel.webp"
+  },
+  {
+    "dishId": "berliner-pfannkuchen",
+    "metadataCode": "106055",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Berliner Pfannkuchen",
+    "imagePath": "/assets/dishes/main/106055-berliner-pfannkuchen.webp",
+    "thumbPath": "/assets/dishes/thumb/106055-berliner-pfannkuchen.webp"
+  },
+  {
+    "dishId": "flammende-herzen",
+    "metadataCode": "106056",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Flammende Herzen",
+    "imagePath": "/assets/dishes/main/106056-flammende-herzen.webp",
+    "thumbPath": "/assets/dishes/thumb/106056-flammende-herzen.webp"
+  },
+  {
+    "dishId": "zwiebelkuchen",
+    "metadataCode": "106057",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Zwiebelkuchen",
+    "imagePath": "/assets/dishes/main/106057-zwiebelkuchen.webp",
+    "thumbPath": "/assets/dishes/thumb/106057-zwiebelkuchen.webp"
+  },
+  {
+    "dishId": "kartoffelgratin-german",
+    "metadataCode": "106058",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Kartoffelgratin",
+    "imagePath": "/assets/dishes/main/106058-kartoffelgratin-german.webp",
+    "thumbPath": "/assets/dishes/thumb/106058-kartoffelgratin-german.webp"
+  },
+  {
+    "dishId": "blaukraut",
+    "metadataCode": "106059",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Blaukraut",
+    "imagePath": "/assets/dishes/main/106059-blaukraut.webp",
+    "thumbPath": "/assets/dishes/thumb/106059-blaukraut.webp"
+  },
+  {
+    "dishId": "spargel-mit-sauce-hollandaise",
+    "metadataCode": "106060",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Spargel mit Sauce Hollandaise",
+    "imagePath": "/assets/dishes/main/106060-spargel-mit-sauce-hollandaise.webp",
+    "thumbPath": "/assets/dishes/thumb/106060-spargel-mit-sauce-hollandaise.webp"
+  },
+  {
+    "dishId": "lebkuchen",
+    "metadataCode": "106028",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Lebkuchen",
+    "imagePath": "/assets/dishes/main/106028-lebkuchen.webp",
+    "thumbPath": "/assets/dishes/thumb/106028-lebkuchen.webp"
+  },
+  {
+    "dishId": "rinderroulade",
+    "metadataCode": "106029",
+    "cuisineId": "german",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Rinderroulade",
+    "imagePath": "/assets/dishes/main/106029-rinderroulade.webp",
+    "thumbPath": "/assets/dishes/thumb/106029-rinderroulade.webp"
+  }
+]

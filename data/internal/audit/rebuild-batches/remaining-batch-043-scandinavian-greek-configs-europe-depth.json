@@ -1,0 +1,3083 @@
+[
+  {
+    "id": "flaskpannkaka",
+    "metadataCode": "128031",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Fläskpannkaka",
+      "zh": "瑞典培根烤煎饼",
+      "nl": "Zweedse spekpannenkoek",
+      "local": "Fläskpannkaka"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Swedish oven pancake with pork or bacon baked into a thick soft slice, usually served with lingonberry jam.",
+      "zh": "瑞典烤箱厚煎饼，里面有猪肉或培根丁，常配越橘果酱。",
+      "nl": "Zweedse ovenpannenkoek met spek in een dikke zachte plak, vaak met vossenbessenjam."
+    },
+    "cookingProfile": {
+      "en": "Expect a soft eggy pancake with salty pork and a sweet-tart jam contrast.",
+      "zh": "口感像柔软蛋香厚煎饼，咸猪肉和酸甜果酱形成对比。",
+      "nl": "Verwacht een zachte eierige pannenkoek met zout spek en zoetzure jam."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "A familiar Swedish home-style lunch plate built around sweet-savory contrast.",
+        "zh": "瑞典家常午餐经典，重点是甜咸对比。",
+        "nl": "Een bekende Zweedse lunchklassieker met zoet-zout contrast."
+      }
+    },
+    "composition": [
+      [
+        "pancake-batter",
+        50,
+        "oven pancake"
+      ],
+      [
+        "bacon",
+        20,
+        "pork pieces"
+      ],
+      [
+        "egg",
+        10,
+        "batter richness"
+      ],
+      [
+        "lingonberry-jam",
+        15,
+        "sweet-tart side"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "bacon",
+      "lingonberry jam",
+      "eggy pancake"
+    ],
+    "basicTaste": [
+      "savory",
+      "sweet-tart",
+      "mild"
+    ],
+    "textureProfile": [
+      "soft pancake",
+      "chewy pork bits",
+      "jammy side"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy",
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free",
+      "pork-free"
+    ],
+    "orderVerdict": {
+      "en": "Good if you like a filling sweet-savory pancake; skip if pork or eggy batter is not for you.",
+      "zh": "喜欢甜咸厚煎饼会适合；不吃猪肉或不爱蛋香面糊则避开。",
+      "nl": "Goed als je een vullende zoet-hartige pannenkoek wilt; sla over bij varkensvlees of eierbeslag."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "imageCode": "128031",
+    "imagePath": "/assets/dishes/main/128031-flaskpannkaka.webp",
+    "thumbPath": "/assets/dishes/thumb/128031-flaskpannkaka.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "isterband",
+    "metadataCode": "128032",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Isterband",
+      "zh": "瑞典酸烟熏香肠",
+      "nl": "Isterband",
+      "local": "Isterband"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "fried",
+      "grilled"
+    ],
+    "shortDescription": {
+      "en": "Swedish lightly sour smoked sausage, usually served hot with potatoes and pickled beetroot.",
+      "zh": "瑞典微酸烟熏香肠，通常热食，配土豆和腌甜菜。",
+      "nl": "Zweedse licht zure rookworst, meestal warm met aardappel en ingelegde biet."
+    },
+    "cookingProfile": {
+      "en": "It feels rustic, smoky, fatty, and a little tangy rather than like a mild hot dog.",
+      "zh": "风格粗犷、烟熏、油润并带轻酸，不像温和热狗。",
+      "nl": "Rustiek, rokerig, vet en licht zuur, niet als een milde hotdog."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A southern Swedish sausage plate with a distinctive fermented tang.",
+        "zh": "瑞典南部常见香肠菜，特点是轻发酵酸香。",
+        "nl": "Een Zuid-Zweedse worstschotel met herkenbare zurige toets."
+      }
+    },
+    "composition": [
+      [
+        "sausage",
+        45,
+        "smoked sausage"
+      ],
+      [
+        "potato",
+        30,
+        "boiled side"
+      ],
+      [
+        "beetroot",
+        15,
+        "pickled side"
+      ],
+      [
+        "mustard",
+        5,
+        "sharp condiment",
+        "seasoning"
+      ],
+      [
+        "butter",
+        5,
+        "potato richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "smoked sausage",
+      "pickled beetroot",
+      "mustard"
+    ],
+    "basicTaste": [
+      "salty",
+      "smoky",
+      "tangy"
+    ],
+    "textureProfile": [
+      "snappy sausage",
+      "soft potatoes",
+      "firm beetroot"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "meat",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "pork-free",
+      "avoids-smoky-food"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a hearty sausage plate with a slight sour note.",
+      "zh": "想吃扎实香肠盘且能接受轻酸味时可点。",
+      "nl": "Kies dit voor stevige worst met een licht zure toets."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "imageCode": "128032",
+    "imagePath": "/assets/dishes/main/128032-isterband.webp",
+    "thumbPath": "/assets/dishes/thumb/128032-isterband.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "falukorv",
+    "metadataCode": "128033",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Falukorv",
+      "zh": "瑞典法伦香肠",
+      "nl": "Falukorv",
+      "local": "Falukorv"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "fried",
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Mild Swedish ring sausage served sliced, often with potatoes, macaroni, tomato, or mustard.",
+      "zh": "温和的瑞典环形香肠，常切片配土豆、通心粉、番茄或芥末。",
+      "nl": "Milde Zweedse ringworst in plakken, vaak met aardappel, macaroni, tomaat of mosterd."
+    },
+    "cookingProfile": {
+      "en": "Expect a soft, mild, processed-sausage comfort plate rather than a smoky artisanal sausage.",
+      "zh": "预期是柔软温和的加工香肠舒适菜，不是强烟熏手工肠。",
+      "nl": "Verwacht zachte milde comfortworst, geen sterk gerookte ambachtelijke worst."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "common-dish",
+        "first-timer-friendly"
+      ],
+      "description": {
+        "en": "A common Swedish family-restaurant sausage item and easy entry point.",
+        "zh": "瑞典家庭餐厅常见香肠菜，入口友好。",
+        "nl": "Een gewone Zweedse familieworst en toegankelijke keuze."
+      }
+    },
+    "composition": [
+      [
+        "sausage",
+        45,
+        "sliced sausage"
+      ],
+      [
+        "pasta",
+        25,
+        "macaroni or side"
+      ],
+      [
+        "cream",
+        10,
+        "creamy side"
+      ],
+      [
+        "tomato-sauce",
+        10,
+        "optional bake sauce",
+        "seasoning"
+      ],
+      [
+        "mustard",
+        5,
+        "condiment",
+        "seasoning"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "mild sausage",
+      "mustard",
+      "creamy macaroni"
+    ],
+    "basicTaste": [
+      "savory",
+      "mild",
+      "slightly sweet"
+    ],
+    "textureProfile": [
+      "soft sausage slices",
+      "creamy side",
+      "light browning"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-dairy",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "safe-choice"
+    ],
+    "avoidIfTags": [
+      "pork-free",
+      "dairy-free",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "A safe mild sausage order, especially if you want something familiar and not intense.",
+      "zh": "想点熟悉、温和、不刺激的香肠菜时很稳。",
+      "nl": "Een veilige milde worstkeuze als je iets vertrouwds wilt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "imageCode": "128033",
+    "imagePath": "/assets/dishes/main/128033-falukorv.webp",
+    "thumbPath": "/assets/dishes/thumb/128033-falukorv.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "wallenbergare",
+    "metadataCode": "128034",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Wallenbergare",
+      "zh": "瑞典小牛肉饼",
+      "nl": "Wallenbergare",
+      "local": "Wallenbergare"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "fried"
+    ],
+    "shortDescription": {
+      "en": "A delicate Swedish veal patty served with mashed potatoes, peas, browned butter, and lingonberry jam.",
+      "zh": "细腻的瑞典小牛肉饼，配土豆泥、豌豆、焦化黄油和越橘果酱。",
+      "nl": "Fijne Zweedse kalfsburger met puree, erwten, gebruinde boter en vossenbessenjam."
+    },
+    "cookingProfile": {
+      "en": "It is softer and more refined than a regular burger, with creamy sides and a berry contrast.",
+      "zh": "比普通汉堡肉饼更柔软精致，配菜奶香，果酱带对比。",
+      "nl": "Zachter en verfijnder dan een gewone burger, met romige bijgerechten en bessencontrast."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "A classic Swedish bistro plate that balances mild veal, butter, and berries.",
+        "zh": "经典瑞典小酒馆菜，平衡小牛肉、黄油和浆果味。",
+        "nl": "Een klassieke Zweedse bistroschotel met kalf, boter en bessen."
+      }
+    },
+    "composition": [
+      [
+        "veal",
+        35,
+        "veal patty"
+      ],
+      [
+        "potato",
+        30,
+        "mash"
+      ],
+      [
+        "cream",
+        10,
+        "patty and mash richness"
+      ],
+      [
+        "egg",
+        5,
+        "binder"
+      ],
+      [
+        "peas",
+        10,
+        "side"
+      ],
+      [
+        "lingonberry-jam",
+        10,
+        "sweet-tart side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "veal patty",
+      "browned butter",
+      "lingonberry jam"
+    ],
+    "basicTaste": [
+      "savory",
+      "creamy",
+      "sweet-tart"
+    ],
+    "textureProfile": [
+      "tender patty",
+      "smooth mash",
+      "soft peas"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "classic-dish",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "A polished, gentle meat choice if you want Nordic comfort without strong flavors.",
+      "zh": "想吃温和精致的北欧肉类舒适菜时适合。",
+      "nl": "Een verfijnde milde vleeskeuze zonder zware smaken."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "imageCode": "128034",
+    "imagePath": "/assets/dishes/main/128034-wallenbergare.webp",
+    "thumbPath": "/assets/dishes/thumb/128034-wallenbergare.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "medisterpolse",
+    "metadataCode": "128036",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Medisterpølse",
+      "zh": "丹麦煎猪肉香肠",
+      "nl": "Medisterworst",
+      "local": "Medisterpølse"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "fried",
+      "grilled"
+    ],
+    "shortDescription": {
+      "en": "Danish coiled pork sausage, browned and served with potatoes, gravy, and red cabbage.",
+      "zh": "丹麦盘卷猪肉香肠，煎至上色，配土豆、肉汁和红卷心菜。",
+      "nl": "Deense gekrulde varkensworst met aardappel, jus en rode kool."
+    },
+    "cookingProfile": {
+      "en": "Expect a juicy, fatty sausage plate with sweet-sour cabbage and gravy.",
+      "zh": "口感多汁偏油润，红卷心菜酸甜，肉汁浓。",
+      "nl": "Sappige vette worst met zoetzure rode kool en jus."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "A Danish classic sausage plate, especially common in colder-season meals.",
+        "zh": "丹麦经典香肠菜，冷季餐桌常见。",
+        "nl": "Een klassieke Deense worstschotel, vooral in koudere seizoenen."
+      }
+    },
+    "composition": [
+      [
+        "sausage",
+        45,
+        "pork sausage"
+      ],
+      [
+        "potato",
+        25,
+        "boiled side"
+      ],
+      [
+        "red-cabbage",
+        15,
+        "sweet-sour side"
+      ],
+      [
+        "broth",
+        10,
+        "gravy"
+      ],
+      [
+        "black-pepper",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "pork sausage",
+      "brown gravy",
+      "red cabbage"
+    ],
+    "basicTaste": [
+      "savory",
+      "fatty",
+      "sweet-sour"
+    ],
+    "textureProfile": [
+      "snappy sausage",
+      "soft potato",
+      "tender cabbage"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "meat"
+    ],
+    "avoidIfTags": [
+      "pork-free"
+    ],
+    "orderVerdict": {
+      "en": "Good for a hearty sausage-and-potatoes mood; avoid if pork fat feels too heavy.",
+      "zh": "想吃香肠土豆类饱足菜时适合；怕猪肉油脂则避开。",
+      "nl": "Goed voor stevige worst met aardappel; vermijd bij zware varkensvetten."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "imageCode": "128036",
+    "imagePath": "/assets/dishes/main/128036-medisterpolse.webp",
+    "thumbPath": "/assets/dishes/thumb/128036-medisterpolse.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "biksemad",
+    "metadataCode": "128037",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Biksemad",
+      "zh": "丹麦土豆肉丁煎盘",
+      "nl": "Biksemad",
+      "local": "Biksemad"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "fried"
+    ],
+    "shortDescription": {
+      "en": "Danish hash of fried potatoes, onions, and meat, often topped with a fried egg and pickled beetroot.",
+      "zh": "丹麦土豆、洋葱和肉丁煎盘，常加煎蛋和腌甜菜。",
+      "nl": "Deense hash van gebakken aardappel, ui en vlees, vaak met spiegelei en biet."
+    },
+    "cookingProfile": {
+      "en": "It is a browned, savory leftover-style skillet plate with a runny egg option.",
+      "zh": "是煎香的咸口剩菜风格煎盘，常有流心煎蛋。",
+      "nl": "Een hartige opgebakken restjesschotel, vaak met zacht ei."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "common-dish",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "A practical Danish tavern-style plate for a filling casual meal.",
+        "zh": "实用的丹麦酒馆风格饱腹简餐。",
+        "nl": "Een praktische Deense kroegschotel voor een vullende maaltijd."
+      }
+    },
+    "composition": [
+      [
+        "potato",
+        40,
+        "fried cubes"
+      ],
+      [
+        "beef",
+        20,
+        "meat cubes"
+      ],
+      [
+        "pork",
+        15,
+        "meat cubes"
+      ],
+      [
+        "onion",
+        10,
+        "fried aromatic"
+      ],
+      [
+        "egg",
+        10,
+        "fried topping"
+      ],
+      [
+        "beetroot",
+        5,
+        "pickled side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fried potato",
+      "browned meat",
+      "pickled beetroot"
+    ],
+    "basicTaste": [
+      "savory",
+      "salty",
+      "slightly sweet-sour"
+    ],
+    "textureProfile": [
+      "crisp potato edges",
+      "chewy meat",
+      "runny egg"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "filling"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "pork-free"
+    ],
+    "orderVerdict": {
+      "en": "Order it when you want a filling, familiar fried potato-and-meat plate.",
+      "zh": "想吃熟悉、饱足的土豆肉丁煎盘时可点。",
+      "nl": "Bestel dit voor een vertrouwde vullende aardappel-vleesschotel."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "imageCode": "128037",
+    "imagePath": "/assets/dishes/main/128037-biksemad.webp",
+    "thumbPath": "/assets/dishes/thumb/128037-biksemad.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "rugbrod",
+    "metadataCode": "128038",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Rugbrød",
+      "zh": "丹麦黑麦面包",
+      "nl": "Roggebrood",
+      "local": "Rugbrød"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "room-temperature",
+    "shortDescription": {
+      "en": "Dense Danish dark rye bread, often used as the base for smørrebrød or served with butter.",
+      "zh": "丹麦深色黑麦面包，质地扎实，常作开放三明治底或配黄油。",
+      "nl": "Dicht Deens roggebrood, basis voor smørrebrød of met boter."
+    },
+    "cookingProfile": {
+      "en": "Expect a dense, tangy, seedy bread rather than a fluffy loaf.",
+      "zh": "预期是紧实、微酸、有籽感的面包，不是蓬松白面包。",
+      "nl": "Verwacht dicht, licht zuur brood met zaden, geen luchtig brood."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "bread"
+      ],
+      "description": {
+        "en": "A foundational Danish bread and common menu side.",
+        "zh": "丹麦饮食基础面包，也是常见配菜。",
+        "nl": "Een fundamenteel Deens brood en veelvoorkomend bijgerecht."
+      }
+    },
+    "composition": [
+      [
+        "rye-bread",
+        80,
+        "dense bread"
+      ],
+      [
+        "butter",
+        10,
+        "spread"
+      ],
+      [
+        "sesame-seeds",
+        5,
+        "seed texture"
+      ],
+      [
+        "sea-salt",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "rye tang",
+      "butter",
+      "toasted seeds"
+    ],
+    "basicTaste": [
+      "earthy",
+      "mildly sour",
+      "savory"
+    ],
+    "textureProfile": [
+      "dense crumb",
+      "chewy slices",
+      "firm crust"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-sesame"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "bread",
+      "side"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "sesame-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Useful as a hearty bread side or smørrebrød base, not a light white bread.",
+      "zh": "适合作扎实面包配菜或开放三明治底，不是轻白面包。",
+      "nl": "Handig als stevig brood of smørrebrød-basis, geen licht witbrood."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "128038",
+    "imagePath": "/assets/dishes/main/128038-rugbrod.webp",
+    "thumbPath": "/assets/dishes/thumb/128038-rugbrod.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "rommegrot",
+    "metadataCode": "128039",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Rømmegrøt",
+      "zh": "挪威酸奶油粥",
+      "nl": "Noorse zure-roompap",
+      "local": "Rømmegrøt"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Norwegian sour-cream porridge served thick, usually with butter, cinnamon, and sugar.",
+      "zh": "挪威酸奶油浓粥，通常配黄油、肉桂和糖。",
+      "nl": "Noorse zure-roompap, dik geserveerd met boter, kaneel en suiker."
+    },
+    "cookingProfile": {
+      "en": "It is rich, creamy, and spoonable, closer to a dairy porridge than a grain bowl.",
+      "zh": "浓郁奶香、可用勺吃，更像乳制品粥而非谷物碗。",
+      "nl": "Rijk, romig en lepelbaar, meer zuivelpap dan graankom."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "A traditional Norwegian porridge often tied to holidays and rural meals.",
+        "zh": "传统挪威粥，常与节日和乡村餐相关。",
+        "nl": "Een traditionele Noorse pap, vaak verbonden met feest- en plattelandsmaaltijden."
+      }
+    },
+    "composition": [
+      [
+        "sour-cream",
+        45,
+        "porridge base"
+      ],
+      [
+        "wheat-flour",
+        20,
+        "thickener"
+      ],
+      [
+        "butter",
+        15,
+        "butter pool"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
+      ],
+      [
+        "cinnamon",
+        10,
+        "warm topping",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "sour cream",
+      "butter",
+      "cinnamon sugar"
+    ],
+    "basicTaste": [
+      "creamy",
+      "sweet",
+      "slightly tangy"
+    ],
+    "textureProfile": [
+      "thick porridge",
+      "glossy butter",
+      "smooth spoonfuls"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "comfort-food",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a very rich creamy comfort bowl; skip if sour cream sounds too heavy.",
+      "zh": "想吃非常浓郁奶香舒适粥时适合；怕酸奶油厚重则避开。",
+      "nl": "Kies dit voor een zeer rijke romige kom; sla over als zure room te zwaar klinkt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "imageCode": "128039",
+    "imagePath": "/assets/dishes/main/128039-rommegrot.webp",
+    "thumbPath": "/assets/dishes/thumb/128039-rommegrot.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "pinnekjott",
+    "metadataCode": "128041",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Pinnekjøtt",
+      "zh": "挪威盐干羊肋",
+      "nl": "Pinnekjøtt",
+      "local": "Pinnekjøtt"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "steamed"
+    ],
+    "shortDescription": {
+      "en": "Norwegian salted and dried lamb ribs, steamed and served with potatoes and rutabaga mash.",
+      "zh": "挪威盐干羊肋条，蒸熟后配土豆和芜菁泥。",
+      "nl": "Noorse gezouten gedroogde lamsribben, gestoomd met aardappel en koolraappuree."
+    },
+    "cookingProfile": {
+      "en": "Expect salty, intensely lamby ribs with soft root-vegetable sides.",
+      "zh": "预期是咸香、羊味明显的肋条，配柔软根茎类配菜。",
+      "nl": "Verwacht zoute uitgesproken lamsribben met zachte wortelgroentebijgerechten."
+    },
+    "cuisineRole": {
+      "level": "festival",
+      "tags": [
+        "festival",
+        "regional-dish"
+      ],
+      "description": {
+        "en": "A Norwegian Christmas classic with a strong lamb and salt-cure identity.",
+        "zh": "挪威圣诞经典，羊肉和盐干风味很突出。",
+        "nl": "Een Noorse kerstklassieker met sterke lams- en pekelsmaak."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        55,
+        "salted ribs"
+      ],
+      [
+        "potato",
+        20,
+        "boiled side"
+      ],
+      [
+        "turnip",
+        15,
+        "rutabaga mash"
+      ],
+      [
+        "butter",
+        5,
+        "mash richness"
+      ],
+      [
+        "black-pepper",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "salted lamb",
+      "rutabaga mash",
+      "pepper"
+    ],
+    "basicTaste": [
+      "salty",
+      "savory",
+      "gamey"
+    ],
+    "textureProfile": [
+      "fibrous ribs",
+      "soft potato",
+      "smooth mash"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "meat",
+      "festival"
+    ],
+    "avoidIfTags": [
+      "avoids-gamey-meat",
+      "low-salt"
+    ],
+    "orderVerdict": {
+      "en": "Best for lamb lovers; it is salty and traditional, not a neutral meat plate.",
+      "zh": "适合喜欢羊肉的人；它偏咸且传统，不是中性肉菜。",
+      "nl": "Voor lamsliefhebbers; zout en traditioneel, geen neutrale vleesschotel."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 3,
+    "imageCode": "128041",
+    "imagePath": "/assets/dishes/main/128041-pinnekjott.webp",
+    "thumbPath": "/assets/dishes/thumb/128041-pinnekjott.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "ribbe-norwegian",
+    "metadataCode": "128042",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Norwegian Ribbe",
+      "zh": "挪威脆皮烤猪肋",
+      "nl": "Noorse ribbe",
+      "local": "Ribbe"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Norwegian roast pork belly or ribs with crisp crackling, potatoes, red cabbage, and gravy.",
+      "zh": "挪威烤猪五花或肋肉，带脆皮，配土豆、红卷心菜和肉汁。",
+      "nl": "Noorse geroosterde buikspek/ribbe met krokant zwoerd, aardappel, rode kool en jus."
+    },
+    "cookingProfile": {
+      "en": "It is rich and fatty, with the crackling skin as the main texture cue.",
+      "zh": "这道菜浓郁偏油，脆皮是最重要的口感信号。",
+      "nl": "Rijk en vet, met krokant zwoerd als belangrijkste textuur."
+    },
+    "cuisineRole": {
+      "level": "festival",
+      "tags": [
+        "festival",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Norwegian holiday pork centerpiece, especially around Christmas.",
+        "zh": "挪威节庆猪肉主菜，尤其常见于圣诞。",
+        "nl": "Een Noors feestelijk varkensgerecht, vooral rond kerst."
+      }
+    },
+    "composition": [
+      [
+        "pork-belly",
+        55,
+        "roast pork"
+      ],
+      [
+        "potato",
+        20,
+        "boiled side"
+      ],
+      [
+        "red-cabbage",
+        15,
+        "sweet-sour side"
+      ],
+      [
+        "broth",
+        5,
+        "gravy"
+      ],
+      [
+        "black-pepper",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "crisp pork crackling",
+      "brown gravy",
+      "red cabbage"
+    ],
+    "basicTaste": [
+      "savory",
+      "fatty",
+      "sweet-sour"
+    ],
+    "textureProfile": [
+      "crisp skin",
+      "tender fatty pork",
+      "soft potato"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "meat",
+      "festival"
+    ],
+    "avoidIfTags": [
+      "pork-free",
+      "prefers-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Order it for a rich pork roast with crackling; skip if fatty meat feels too heavy.",
+      "zh": "想吃浓郁脆皮烤猪肉时适合；怕肥肉厚重则避开。",
+      "nl": "Bestel voor rijke varkensribbe met zwoerd; sla over als vet vlees te zwaar is."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 5,
+    "acquiredTasteLevel": 1,
+    "imageCode": "128042",
+    "imagePath": "/assets/dishes/main/128042-ribbe-norwegian.webp",
+    "thumbPath": "/assets/dishes/thumb/128042-ribbe-norwegian.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "fiskegrateng",
+    "metadataCode": "128043",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Fiskegrateng",
+      "zh": "挪威奶油鱼焗菜",
+      "nl": "Noorse visgratin",
+      "local": "Fiskegrateng"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Norwegian baked fish gratin with white fish, macaroni or sauce, and a golden breadcrumb top.",
+      "zh": "挪威白鱼焗菜，常有通心粉或白酱，表面是金黄面包屑。",
+      "nl": "Noorse visgratin met witte vis, macaroni of saus en goud kruimellaagje."
+    },
+    "cookingProfile": {
+      "en": "Expect a mild creamy fish casserole rather than a sharp seafood dish.",
+      "zh": "预期是温和奶油鱼焗菜，不是强烈海鲜味。",
+      "nl": "Verwacht milde romige visgratin, geen scherpe zeevruchtensmaak."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "common-dish",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "A common Norwegian family-style fish dish that is approachable for first-timers.",
+        "zh": "挪威常见家庭式鱼菜，对第一次尝试者友好。",
+        "nl": "Een gewone Noorse familievisschotel, toegankelijk voor beginners."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        40,
+        "white fish"
+      ],
+      [
+        "pasta",
+        20,
+        "macaroni"
+      ],
+      [
+        "bechamel-sauce",
+        20,
+        "creamy binder"
+      ],
+      [
+        "panko-breadcrumbs",
+        10,
+        "crisp top"
+      ],
+      [
+        "carrot",
+        10,
+        "side salad"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "white fish",
+      "creamy sauce",
+      "breadcrumb crust"
+    ],
+    "basicTaste": [
+      "creamy",
+      "mild",
+      "savory"
+    ],
+    "textureProfile": [
+      "soft casserole",
+      "flaky fish",
+      "crisp top"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-dairy",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "comfort-food",
+      "seafood"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "dairy-free",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "A gentle fish choice if creamy baked dishes appeal.",
+      "zh": "喜欢温和奶油焗菜时，这道鱼菜很稳。",
+      "nl": "Een zachte viskeuze als romige ovenschotels je aanspreken."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "imageCode": "128043",
+    "imagePath": "/assets/dishes/main/128043-fiskegrateng.webp",
+    "thumbPath": "/assets/dishes/thumb/128043-fiskegrateng.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "skrei",
+    "metadataCode": "128044",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Skrei",
+      "zh": "挪威季节鳕鱼",
+      "nl": "Skrei",
+      "local": "Skrei"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "boiled",
+      "fried"
+    ],
+    "shortDescription": {
+      "en": "Seasonal Norwegian Arctic cod, usually served as a clean white fish plate with potatoes and butter sauce.",
+      "zh": "挪威季节性北极鳕鱼，通常做成清爽白鱼主菜，配土豆和黄油汁。",
+      "nl": "Seizoensgebonden Noorse kabeljauw, schoon geserveerd met aardappel en botersaus."
+    },
+    "cookingProfile": {
+      "en": "Expect firm, flaky, mild cod where freshness matters more than strong seasoning.",
+      "zh": "口感紧实片状、味道温和，重点是新鲜度而非重调味。",
+      "nl": "Stevige vlokkige milde kabeljauw waarbij versheid belangrijker is dan sterke kruiden."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "seafood"
+      ],
+      "description": {
+        "en": "A seasonal Nordic cod dish recognized for clean fish texture.",
+        "zh": "北欧季节鳕鱼菜，重点是干净的鱼肉质地。",
+        "nl": "Een seizoensgebonden Noordse kabeljauwschotel met heldere vistextuur."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        55,
+        "cod loin"
+      ],
+      [
+        "potato",
+        20,
+        "boiled side"
+      ],
+      [
+        "carrot",
+        10,
+        "vegetable side"
+      ],
+      [
+        "butter",
+        10,
+        "sauce"
+      ],
+      [
+        "dill",
+        5,
+        "herb",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fresh cod",
+      "butter sauce",
+      "dill"
+    ],
+    "basicTaste": [
+      "mild",
+      "savory",
+      "buttery"
+    ],
+    "textureProfile": [
+      "flaky cod",
+      "soft potato",
+      "light sauce"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "seafood",
+      "lighter-choice"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Good if you want a clean mild fish main rather than a saucy seafood dish.",
+      "zh": "想吃清爽温和鱼类主菜时适合，不是浓酱海鲜。",
+      "nl": "Goed voor een schone milde vismain, niet voor zware saus."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "128044",
+    "imagePath": "/assets/dishes/main/128044-skrei.webp",
+    "thumbPath": "/assets/dishes/thumb/128044-skrei.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "smalahove",
+    "metadataCode": "128045",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Smalahove",
+      "zh": "挪威羊头菜",
+      "nl": "Smalahove",
+      "local": "Smalahove"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "steamed",
+      "boiled"
+    ],
+    "shortDescription": {
+      "en": "Traditional Norwegian cooked sheep head, usually served with potatoes and rutabaga mash.",
+      "zh": "传统挪威熟羊头菜，通常配土豆和芜菁泥。",
+      "nl": "Traditionele Noorse gekookte schapenkop, meestal met aardappel en koolraappuree."
+    },
+    "cookingProfile": {
+      "en": "This is a strong acquired-taste dish with offal-like texture and lamb flavor.",
+      "zh": "这是明显后天口味菜，带内脏感口感和羊肉味。",
+      "nl": "Een uitgesproken acquired-taste gerecht met orgaanachtige textuur en lamsmaak."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "acquired-taste"
+      ],
+      "description": {
+        "en": "A very traditional Norwegian regional dish, more adventurous than everyday comfort food.",
+        "zh": "很传统的挪威地区菜，比日常舒适菜更冒险。",
+        "nl": "Een zeer traditioneel Noors streekgerecht, avontuurlijker dan dagelijkse kost."
+      }
+    },
+    "composition": [
+      [
+        "lamb",
+        55,
+        "sheep head meat"
+      ],
+      [
+        "offal",
+        15,
+        "head cuts"
+      ],
+      [
+        "potato",
+        15,
+        "boiled side"
+      ],
+      [
+        "turnip",
+        10,
+        "rutabaga mash"
+      ],
+      [
+        "black-pepper",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "lamb",
+      "salted meat",
+      "root-vegetable mash"
+    ],
+    "basicTaste": [
+      "savory",
+      "gamey",
+      "salty"
+    ],
+    "textureProfile": [
+      "soft meat",
+      "gelatinous bits",
+      "smooth mash"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "regional-dish",
+      "adventurous"
+    ],
+    "avoidIfTags": [
+      "avoids-offal",
+      "avoids-gamey-meat"
+    ],
+    "orderVerdict": {
+      "en": "Only choose it if you are comfortable with traditional head meat and strong lamb character.",
+      "zh": "只有能接受传统羊头肉和明显羊味时才建议点。",
+      "nl": "Kies dit alleen als je traditioneel kopvlees en sterke lamsmaak aankunt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 5,
+    "imageCode": "128045",
+    "imagePath": "/assets/dishes/main/128045-smalahove.webp",
+    "thumbPath": "/assets/dishes/thumb/128045-smalahove.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "blabarsoppa",
+    "metadataCode": "128046",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Blåbärssoppa",
+      "zh": "瑞典蓝莓汤",
+      "nl": "Zweedse bosbessensoep",
+      "local": "Blåbärssoppa"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Swedish blueberry soup, served warm or chilled as a sweet-tart drinkable or spoonable dessert.",
+      "zh": "瑞典蓝莓汤，可温食或冷食，是酸甜可喝也可勺吃的甜品。",
+      "nl": "Zweedse bosbessensoep, warm of koud als zoetzuur drink- of lepeldessert."
+    },
+    "cookingProfile": {
+      "en": "Expect a smooth berry soup, lighter than cake but sweeter than fruit juice.",
+      "zh": "预期是顺滑莓果汤，比蛋糕轻，但比果汁更甜更稠。",
+      "nl": "Verwacht gladde bessensoep, lichter dan cake maar zoeter en dikker dan sap."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "A recognizable Swedish berry dessert often associated with winter sports and cafes.",
+        "zh": "有辨识度的瑞典莓果甜品，常与冬季运动和咖啡馆相关。",
+        "nl": "Een herkenbaar Zweeds bessendessert, vaak gelinkt aan wintersport en cafés."
+      }
+    },
+    "composition": [
+      [
+        "berries",
+        65,
+        "blueberry base"
+      ],
+      [
+        "sugar",
+        20,
+        "sweetness"
+      ],
+      [
+        "potato-starch",
+        5,
+        "thickener"
+      ],
+      [
+        "cream",
+        5,
+        "optional finish"
+      ],
+      [
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "blueberry",
+      "light tartness",
+      "cream"
+    ],
+    "basicTaste": [
+      "sweet-tart",
+      "fruity",
+      "mild"
+    ],
+    "textureProfile": [
+      "smooth soup",
+      "glossy surface",
+      "soft berry body"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "lighter-choice"
+    ],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "A light fruity dessert choice; ask about cream if avoiding dairy.",
+      "zh": "想吃轻盈水果甜品时适合；避乳制品要问是否加奶油。",
+      "nl": "Een licht fruitig dessert; vraag naar room bij zuivelvrij."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "imageCode": "128046",
+    "imagePath": "/assets/dishes/main/128046-blabarsoppa.webp",
+    "thumbPath": "/assets/dishes/thumb/128046-blabarsoppa.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "kanelsnegle",
+    "metadataCode": "128048",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Kanelsnegle",
+      "zh": "丹麦肉桂蜗牛卷",
+      "nl": "Deense kaneelsnegle",
+      "local": "Kanelsnegle"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Danish spiral cinnamon pastry with buttery dough, cinnamon sugar, and often a light icing.",
+      "zh": "丹麦螺旋肉桂酥点，有黄油面团、肉桂糖，常带少量糖霜。",
+      "nl": "Deens spiraalvormig kaneelgebak met boterdeeg, kaneelsuiker en vaak glazuur."
+    },
+    "cookingProfile": {
+      "en": "Expect a sweet buttery bakery pastry with clear cinnamon aroma.",
+      "zh": "预期是黄油香明显的甜烘焙点心，肉桂香突出。",
+      "nl": "Verwacht zoet boterig gebak met duidelijke kaneelgeur."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "A classic Danish bakery sweet and easy coffee pairing.",
+        "zh": "丹麦经典烘焙甜点，适合配咖啡。",
+        "nl": "Een klassieke Deense bakkerijzoetigheid bij koffie."
+      }
+    },
+    "composition": [
+      [
+        "croissant-pastry",
+        45,
+        "laminated dough"
+      ],
+      [
+        "butter",
+        20,
+        "richness"
+      ],
+      [
+        "sugar",
+        15,
+        "sweetness"
+      ],
+      [
+        "cinnamon",
+        15,
+        "spice",
+        "seasoning"
+      ],
+      [
+        "cream",
+        5,
+        "icing"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cinnamon sugar",
+      "butter",
+      "icing"
+    ],
+    "basicTaste": [
+      "sweet",
+      "warm-spiced",
+      "buttery"
+    ],
+    "textureProfile": [
+      "flaky pastry",
+      "sticky cinnamon swirl",
+      "soft center"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "bakery"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Good for a sweet cinnamon pastry; not a light or savory snack.",
+      "zh": "想吃甜肉桂酥点时适合；不是清淡或咸味小吃。",
+      "nl": "Goed voor zoet kaneelgebak; geen lichte of hartige snack."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "128048",
+    "imagePath": "/assets/dishes/main/128048-kanelsnegle.webp",
+    "thumbPath": "/assets/dishes/thumb/128048-kanelsnegle.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "wienerbrod",
+    "metadataCode": "128049",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Wienerbrød",
+      "zh": "丹麦酥",
+      "nl": "Wienerbrød",
+      "local": "Wienerbrød"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Danish laminated pastry, often filled with custard, almond, or fruit jam.",
+      "zh": "丹麦层酥点心，常有卡仕达、杏仁或果酱馅。",
+      "nl": "Deens bladerdeeggebak, vaak met banketroom, amandel of jam."
+    },
+    "cookingProfile": {
+      "en": "It is flaky, buttery, and sweet, closer to a pastry than a bread roll.",
+      "zh": "口感酥脆黄油香、偏甜，更像点心而非面包卷。",
+      "nl": "Schilferig, boterig en zoet, meer gebak dan broodje."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "A flagship Danish bakery item recognized by laminated layers and sweet filling.",
+        "zh": "丹麦烘焙代表，重点是层酥和甜馅。",
+        "nl": "Een Deens bakkerij-icoon met laagjes en zoete vulling."
+      }
+    },
+    "composition": [
+      [
+        "puff-pastry",
+        50,
+        "flaky pastry"
+      ],
+      [
+        "vanilla-custard",
+        20,
+        "custard filling"
+      ],
+      [
+        "fruit-sauce-or-caramel",
+        10,
+        "jam"
+      ],
+      [
+        "butter",
+        15,
+        "lamination richness"
+      ],
+      [
+        "sugar",
+        5,
+        "glaze"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "buttery pastry",
+      "custard",
+      "fruit jam"
+    ],
+    "basicTaste": [
+      "sweet",
+      "buttery",
+      "creamy"
+    ],
+    "textureProfile": [
+      "flaky layers",
+      "soft custard",
+      "sticky glaze"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "bakery"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "A safe bakery choice if you want buttery sweet pastry.",
+      "zh": "想吃黄油香甜酥点时是稳妥选择。",
+      "nl": "Een veilige bakkerijkeuze voor boterig zoet gebak."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "128049",
+    "imagePath": "/assets/dishes/main/128049-wienerbrod.webp",
+    "thumbPath": "/assets/dishes/thumb/128049-wienerbrod.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "kransekake",
+    "metadataCode": "128050",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Kransekake",
+      "zh": "北欧杏仁圈塔",
+      "nl": "Kransekake",
+      "local": "Kransekake"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Scandinavian celebration cake made from stacked almond cookie rings with white icing.",
+      "zh": "北欧庆典蛋糕，由一圈圈杏仁饼干叠成塔，并有白色糖霜。",
+      "nl": "Scandinavische feesttaart van gestapelde amandelringen met wit glazuur."
+    },
+    "cookingProfile": {
+      "en": "Expect chewy almond sweetness rather than a soft cream cake.",
+      "zh": "预期是有嚼劲的杏仁甜味，不是柔软奶油蛋糕。",
+      "nl": "Verwacht taaie amandelzoetheid, geen zachte slagroomtaart."
+    },
+    "cuisineRole": {
+      "level": "festival",
+      "tags": [
+        "festival",
+        "dessert"
+      ],
+      "description": {
+        "en": "A festive Nordic cake for weddings, holidays, and special occasions.",
+        "zh": "北欧婚礼、节日和庆典常见的节庆蛋糕。",
+        "nl": "Een feestelijke Noordse cake voor bruiloften en feestdagen."
+      }
+    },
+    "composition": [
+      [
+        "almond-paste",
+        50,
+        "almond ring dough"
+      ],
+      [
+        "almonds",
+        15,
+        "nut body"
+      ],
+      [
+        "sugar",
+        20,
+        "sweetness"
+      ],
+      [
+        "egg",
+        10,
+        "binder"
+      ],
+      [
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "almond paste",
+      "sugar icing",
+      "vanilla"
+    ],
+    "basicTaste": [
+      "sweet",
+      "nutty",
+      "mild"
+    ],
+    "textureProfile": [
+      "chewy rings",
+      "crisp edges",
+      "firm stack"
+    ],
+    "riskFlags": [
+      "contains-tree-nut",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "festival"
+    ],
+    "avoidIfTags": [
+      "nut-allergy",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it if almond desserts appeal; avoid with nut allergies.",
+      "zh": "喜欢杏仁甜点时适合；坚果过敏需避开。",
+      "nl": "Kies dit bij amandeldesserts; vermijd bij notenallergie."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "128050",
+    "imagePath": "/assets/dishes/main/128050-kransekake.webp",
+    "thumbPath": "/assets/dishes/thumb/128050-kransekake.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "lefse",
+    "metadataCode": "128051",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Lefse",
+      "zh": "挪威土豆软饼",
+      "nl": "Lefse",
+      "local": "Lefse"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "toasted"
+    ],
+    "servingTemperature": "room-temperature",
+    "shortDescription": {
+      "en": "Norwegian soft potato flatbread, often served folded with butter, sugar, and cinnamon.",
+      "zh": "挪威土豆软薄饼，常抹黄油、糖和肉桂后折起。",
+      "nl": "Noorse zachte aardappelflatbread, vaak met boter, suiker en kaneel."
+    },
+    "cookingProfile": {
+      "en": "It feels like a soft thin flatbread, mildly sweet if served as a snack.",
+      "zh": "口感像柔软薄饼，作为小食时常带轻甜味。",
+      "nl": "Zacht dun platbrood, licht zoet als snack."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "bread"
+      ],
+      "description": {
+        "en": "A classic Norwegian flatbread that can be a side or sweet snack.",
+        "zh": "经典挪威薄饼，可作配菜也可作甜小食。",
+        "nl": "Een klassieke Noorse flatbread, als bijgerecht of zoete snack."
+      }
+    },
+    "composition": [
+      [
+        "potato",
+        35,
+        "flatbread base"
+      ],
+      [
+        "wheat-flour",
+        35,
+        "dough"
+      ],
+      [
+        "butter",
+        15,
+        "spread"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
+      ],
+      [
+        "cinnamon",
+        5,
+        "spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "potato flatbread",
+      "butter",
+      "cinnamon sugar"
+    ],
+    "basicTaste": [
+      "mild",
+      "sweet",
+      "buttery"
+    ],
+    "textureProfile": [
+      "soft flatbread",
+      "pliable folds",
+      "smooth butter"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "bread",
+      "snack"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Good as a soft mild bread or sweet snack; not a full main unless filled.",
+      "zh": "适合作柔软温和面饼或甜小食；不夹馅时不是主菜。",
+      "nl": "Goed als zachte milde flatbread of zoete snack, geen hoofdgerecht zonder vulling."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "imageCode": "128051",
+    "imagePath": "/assets/dishes/main/128051-lefse.webp",
+    "thumbPath": "/assets/dishes/thumb/128051-lefse.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "pannukakku",
+    "metadataCode": "128052",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Pannukakku",
+      "zh": "芬兰烤箱煎饼",
+      "nl": "Finse ovenpannenkoek",
+      "local": "Pannukakku"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Finnish oven pancake, usually cut into squares and served with jam or berries.",
+      "zh": "芬兰烤箱厚煎饼，常切成方块，配果酱或莓果。",
+      "nl": "Finse ovenpannenkoek, in stukken met jam of bessen."
+    },
+    "cookingProfile": {
+      "en": "Expect a custardy, eggy pancake slice with a sweet jam side.",
+      "zh": "预期是蛋奶感厚煎饼块，配甜果酱。",
+      "nl": "Verwacht een custardachtige eierige pannenkoek met jam."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "A Finnish home-style pancake dessert or cafe snack.",
+        "zh": "芬兰家常煎饼甜点或咖啡馆小食。",
+        "nl": "Een Finse huiselijke pannenkoek als dessert of cafésnack."
+      }
+    },
+    "composition": [
+      [
+        "pancake-batter",
+        55,
+        "oven pancake"
+      ],
+      [
+        "egg",
+        15,
+        "custardy structure"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "fruit-sauce-or-caramel",
+        15,
+        "jam side"
+      ],
+      [
+        "sugar",
+        5,
+        "sweetness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "eggy pancake",
+      "berry jam",
+      "butter"
+    ],
+    "basicTaste": [
+      "sweet",
+      "mild",
+      "eggy"
+    ],
+    "textureProfile": [
+      "soft custardy slice",
+      "light browned edges",
+      "jammy side"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "A friendly sweet pancake choice if you want something simple and comforting.",
+      "zh": "想吃简单舒适的甜煎饼时很友好。",
+      "nl": "Een toegankelijke zoete pannenkoek als je iets eenvoudigs wilt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "128052",
+    "imagePath": "/assets/dishes/main/128052-pannukakku.webp",
+    "thumbPath": "/assets/dishes/thumb/128052-pannukakku.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "poronkaristys",
+    "metadataCode": "128053",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Poronkäristys",
+      "zh": "芬兰炒驯鹿肉",
+      "nl": "Gebakken rendiervlees",
+      "local": "Poronkäristys"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "fried",
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Finnish sautéed reindeer slices served with mashed potatoes and lingonberry jam.",
+      "zh": "芬兰薄片驯鹿肉炒/炖后配土豆泥和越橘果酱。",
+      "nl": "Fins gebakken rendiervlees met aardappelpuree en vossenbessenjam."
+    },
+    "cookingProfile": {
+      "en": "Expect lean, slightly gamey meat with creamy mash and sweet-tart jam.",
+      "zh": "预期是偏瘦、轻野味的肉，配奶香土豆泥和酸甜果酱。",
+      "nl": "Mager licht wild vlees met romige puree en zoetzure jam."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "meat"
+      ],
+      "description": {
+        "en": "A Lapland-associated dish where reindeer is the main identity.",
+        "zh": "与拉普兰相关的代表菜，核心是驯鹿肉。",
+        "nl": "Een gerecht uit Lapland waarin rendier centraal staat."
+      }
+    },
+    "composition": [
+      [
+        "reindeer",
+        55,
+        "sautéed meat"
+      ],
+      [
+        "potato",
+        25,
+        "mash"
+      ],
+      [
+        "lingonberry-jam",
+        10,
+        "sweet-tart side"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
+      ],
+      [
+        "broth",
+        5,
+        "light gravy"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "reindeer",
+      "lingonberry",
+      "butter gravy"
+    ],
+    "basicTaste": [
+      "savory",
+      "gamey",
+      "sweet-tart"
+    ],
+    "textureProfile": [
+      "thin meat slices",
+      "smooth mash",
+      "jammy side"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "regional-dish",
+      "meat"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "avoids-gamey-meat"
+    ],
+    "orderVerdict": {
+      "en": "Good for trying Nordic game meat; skip if reindeer or gamey flavor feels uncomfortable.",
+      "zh": "想尝北欧野味肉时适合；不接受驯鹿或野味感则避开。",
+      "nl": "Goed om Noordse wildsmaak te proberen; sla over als rendier ongemakkelijk voelt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "imageCode": "128053",
+    "imagePath": "/assets/dishes/main/128053-poronkaristys.webp",
+    "thumbPath": "/assets/dishes/thumb/128053-poronkaristys.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "karjalanpaisti",
+    "metadataCode": "128054",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Karjalanpaisti",
+      "zh": "芬兰卡累利阿炖肉",
+      "nl": "Karelische stoofpot",
+      "local": "Karjalanpaisti"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "braised",
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Finnish Karelian stew of beef and pork with root vegetables, served simply with potatoes.",
+      "zh": "芬兰卡累利阿炖肉，用牛肉和猪肉配根茎蔬菜慢炖，常配土豆。",
+      "nl": "Finse Karelische stoofpot van rund en varken met wortelgroenten."
+    },
+    "cookingProfile": {
+      "en": "It is mild, brothy, and meat-forward rather than tomatoey or spicy.",
+      "zh": "味道温和、汤汁感明显、肉味为主，不是番茄或辣味炖菜。",
+      "nl": "Mild, bouillonachtig en vlezig, niet tomatig of pittig."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "A Finnish-Karelian comfort stew with straightforward meat and broth flavors.",
+        "zh": "芬兰卡累利阿舒适炖菜，重点是肉和清汤香。",
+        "nl": "Een Fins-Karelische stoofpot met eenvoudige vlees- en bouillonsmaak."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        35,
+        "stew meat"
+      ],
+      [
+        "pork",
+        25,
+        "stew meat"
+      ],
+      [
+        "potato",
+        20,
+        "side"
+      ],
+      [
+        "carrot",
+        10,
+        "root vegetable"
+      ],
+      [
+        "onion",
+        5,
+        "aromatic"
+      ],
+      [
+        "broth",
+        5,
+        "stew liquid"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "beef and pork",
+      "clear broth",
+      "root vegetables"
+    ],
+    "basicTaste": [
+      "savory",
+      "mild",
+      "meaty"
+    ],
+    "textureProfile": [
+      "tender meat chunks",
+      "soft vegetables",
+      "light broth"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "meat"
+    ],
+    "avoidIfTags": [
+      "pork-free"
+    ],
+    "orderVerdict": {
+      "en": "A gentle hearty stew if you want meat without heavy spice or cream.",
+      "zh": "想吃不辣不奶油的温和肉类炖菜时适合。",
+      "nl": "Een milde stevige stoofpot zonder veel kruiden of room."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "imageCode": "128054",
+    "imagePath": "/assets/dishes/main/128054-karjalanpaisti.webp",
+    "thumbPath": "/assets/dishes/thumb/128054-karjalanpaisti.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "silakkapihvit",
+    "metadataCode": "128055",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Silakkapihvit",
+      "zh": "芬兰煎鲱鱼排",
+      "nl": "Gebakken Oostzeeharing",
+      "local": "Silakkapihvit"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "fried"
+    ],
+    "shortDescription": {
+      "en": "Finnish fried Baltic herring fillets, often served with potatoes, dill, and lemon.",
+      "zh": "芬兰煎波罗的海鲱鱼片，常配土豆、莳萝和柠檬。",
+      "nl": "Finse gebakken Oostzeeharingfilets met aardappel, dille en citroen."
+    },
+    "cookingProfile": {
+      "en": "Expect small crisp-edged fish fillets with a clear briny herring flavor.",
+      "zh": "预期是小片鱼排，边缘煎脆，有明显鲱鱼咸鲜味。",
+      "nl": "Kleine knapperige visfilets met duidelijke haringsmaak."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "seafood"
+      ],
+      "description": {
+        "en": "A Finnish everyday fish plate for diners who like small oily fish.",
+        "zh": "芬兰日常鱼类菜，适合喜欢小型油脂鱼的人。",
+        "nl": "Een Finse dagelijkse visschotel voor liefhebbers van kleine vette vis."
+      }
+    },
+    "composition": [
+      [
+        "herring",
+        55,
+        "fried fillets"
+      ],
+      [
+        "potato",
+        25,
+        "side"
+      ],
+      [
+        "butter",
+        10,
+        "frying richness"
+      ],
+      [
+        "lemon",
+        5,
+        "brightness"
+      ],
+      [
+        "dill",
+        5,
+        "herb",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fried herring",
+      "dill",
+      "lemon"
+    ],
+    "basicTaste": [
+      "salty",
+      "briny",
+      "buttery"
+    ],
+    "textureProfile": [
+      "crisp fish edges",
+      "soft potato",
+      "flaky fillets"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "seafood",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "dairy-free",
+      "avoids-oily-fish"
+    ],
+    "orderVerdict": {
+      "en": "Good if you enjoy small briny fish; skip if herring sounds too strong.",
+      "zh": "喜欢咸鲜小鱼时适合；不爱鲱鱼味则避开。",
+      "nl": "Goed als je kleine zilte vis lust; sla over als haring te sterk klinkt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "imageCode": "128055",
+    "imagePath": "/assets/dishes/main/128055-silakkapihvit.webp",
+    "thumbPath": "/assets/dishes/thumb/128055-silakkapihvit.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "hernekeitto",
+    "metadataCode": "128056",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Hernekeitto",
+      "zh": "芬兰豌豆汤",
+      "nl": "Finse erwtensoep",
+      "local": "Hernekeitto"
+    },
+    "category": "soup",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Finnish pea soup, usually thick and simple, often with ham or pork and mustard.",
+      "zh": "芬兰豌豆汤，通常浓稠朴素，常有火腿或猪肉和芥末。",
+      "nl": "Finse erwtensoep, dik en eenvoudig, vaak met ham of varken en mosterd."
+    },
+    "cookingProfile": {
+      "en": "Expect a filling, mild pea soup more earthy than spicy.",
+      "zh": "预期是饱腹、温和的豌豆汤，偏豆香土味，不辣。",
+      "nl": "Een vullende milde erwtensoep, aards eerder dan pittig."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "common-dish",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "A common Finnish soup and cafeteria-style comfort choice.",
+        "zh": "芬兰常见汤品和食堂式舒适选择。",
+        "nl": "Een gewone Finse soep en kantineachtige comfortkeuze."
+      }
+    },
+    "composition": [
+      [
+        "peas",
+        45,
+        "pea base"
+      ],
+      [
+        "pork",
+        20,
+        "ham or pork"
+      ],
+      [
+        "broth",
+        20,
+        "soup liquid"
+      ],
+      [
+        "mustard",
+        5,
+        "condiment",
+        "seasoning"
+      ],
+      [
+        "rye-bread",
+        10,
+        "bread side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "peas",
+      "pork",
+      "mustard"
+    ],
+    "basicTaste": [
+      "savory",
+      "earthy",
+      "mild"
+    ],
+    "textureProfile": [
+      "thick soup",
+      "soft peas",
+      "small meat pieces"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "soup",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "pork-free",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "A filling mild soup; good if pea soup with pork sounds comforting.",
+      "zh": "温和饱腹汤；喜欢豌豆汤配猪肉会适合。",
+      "nl": "Een vullende milde soep als erwtensoep met varken goed klinkt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "imageCode": "128056",
+    "imagePath": "/assets/dishes/main/128056-hernekeitto.webp",
+    "thumbPath": "/assets/dishes/thumb/128056-hernekeitto.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "rakmacka",
+    "metadataCode": "128057",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Räkmacka",
+      "zh": "瑞典虾开放三明治",
+      "nl": "Zweedse garnalensandwich",
+      "local": "Räkmacka"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "assembled",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Swedish open shrimp sandwich with boiled egg, lettuce, mayonnaise, dill, and lemon.",
+      "zh": "瑞典开放式虾三明治，配水煮蛋、生菜、蛋黄酱、莳萝和柠檬。",
+      "nl": "Zweedse open garnalensandwich met ei, sla, mayonaise, dille en citroen."
+    },
+    "cookingProfile": {
+      "en": "It is cold, fresh, creamy, and seafood-forward, often eaten as lunch.",
+      "zh": "冷食、清爽带奶油感，虾味突出，常作午餐。",
+      "nl": "Koud, fris, romig en garnalengericht, vaak als lunch."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "seafood"
+      ],
+      "description": {
+        "en": "A Swedish cafe classic and approachable seafood sandwich.",
+        "zh": "瑞典咖啡馆经典，容易接受的海鲜三明治。",
+        "nl": "Een Zweedse caféklassieker en toegankelijke zeevruchtensandwich."
+      }
+    },
+    "composition": [
+      [
+        "shrimp",
+        45,
+        "shrimp topping"
+      ],
+      [
+        "bread",
+        20,
+        "base"
+      ],
+      [
+        "egg",
+        15,
+        "boiled egg"
+      ],
+      [
+        "mayonnaise",
+        10,
+        "creamy sauce"
+      ],
+      [
+        "lemon",
+        5,
+        "brightness"
+      ],
+      [
+        "dill",
+        5,
+        "herb",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "shrimp",
+      "dill",
+      "lemon mayonnaise"
+    ],
+    "basicTaste": [
+      "fresh",
+      "creamy",
+      "briny"
+    ],
+    "textureProfile": [
+      "tender shrimp",
+      "soft egg",
+      "crisp lettuce"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-egg",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "seafood",
+      "lunch"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "egg-allergy",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "A strong lunch choice if you like cold shrimp and creamy open sandwiches.",
+      "zh": "喜欢冷虾和奶油感开放三明治时很适合。",
+      "nl": "Een sterke lunchkeuze als je koude garnalen en romige open sandwiches lust."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "128057",
+    "imagePath": "/assets/dishes/main/128057-rakmacka.webp",
+    "thumbPath": "/assets/dishes/thumb/128057-rakmacka.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "silltallrik",
+    "metadataCode": "128058",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Silltallrik",
+      "zh": "瑞典腌鲱鱼拼盘",
+      "nl": "Zweedse haringplank",
+      "local": "Silltallrik"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "chilled",
+      "assembled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Swedish cold herring plate with pickled herring, potatoes, sour cream, onion, and dill.",
+      "zh": "瑞典冷食腌鲱鱼拼盘，配土豆、酸奶油、洋葱和莳萝。",
+      "nl": "Zweedse koude haringplank met aardappel, zure room, ui en dille."
+    },
+    "cookingProfile": {
+      "en": "Expect briny, tangy fish in small portions with cooling dairy and potatoes.",
+      "zh": "预期是咸酸鲱鱼小份拼盘，酸奶油和土豆降低冲击。",
+      "nl": "Zilte zurige vis in kleine porties met verkoelende zuivel en aardappel."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "seafood"
+      ],
+      "description": {
+        "en": "A classic Swedish herring plate, often ordered as a starter or buffet item.",
+        "zh": "经典瑞典鲱鱼拼盘，常作前菜或自助餐项。",
+        "nl": "Een klassieke Zweedse haringplank, vaak starter of buffetitem."
+      }
+    },
+    "composition": [
+      [
+        "herring",
+        45,
+        "pickled herring"
+      ],
+      [
+        "potato",
+        20,
+        "boiled side"
+      ],
+      [
+        "sour-cream",
+        15,
+        "cooling side"
+      ],
+      [
+        "onion",
+        10,
+        "sharp garnish"
+      ],
+      [
+        "dill",
+        5,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "rye-bread",
+        5,
+        "crispbread side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "pickled herring",
+      "dill",
+      "sour cream"
+    ],
+    "basicTaste": [
+      "salty",
+      "sour",
+      "briny"
+    ],
+    "textureProfile": [
+      "silky herring",
+      "soft potato",
+      "crisp bread"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-dairy",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "seafood",
+      "starter"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "dairy-free",
+      "gluten-free",
+      "avoids-pickled-fish"
+    ],
+    "orderVerdict": {
+      "en": "Choose it if you like pickled fish; it is not a neutral seafood plate.",
+      "zh": "喜欢腌鱼时适合；这不是中性海鲜拼盘。",
+      "nl": "Kies dit als je ingelegde vis lust; geen neutrale zeevruchtenschotel."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 3,
+    "imageCode": "128058",
+    "imagePath": "/assets/dishes/main/128058-silltallrik.webp",
+    "thumbPath": "/assets/dishes/thumb/128058-silltallrik.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "gravlax-toast",
+    "metadataCode": "128059",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Gravlax Toast",
+      "zh": "莳萝腌三文鱼吐司",
+      "nl": "Gravlax toast",
+      "local": "Gravlax toast"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "assembled",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "cured-raw",
+    "shortDescription": {
+      "en": "Toast topped with cured salmon, dill, mustard sauce, lemon, and sometimes capers.",
+      "zh": "吐司上铺腌三文鱼、莳萝、芥末酱、柠檬，有时加酸豆。",
+      "nl": "Toast met gepekelde zalm, dille, mosterdsaus, citroen en soms kappertjes."
+    },
+    "cookingProfile": {
+      "en": "It gives the silky cured-salmon experience in a smaller toast format.",
+      "zh": "以小吐司形式呈现丝滑腌三文鱼体验。",
+      "nl": "Geeft de zijdezachte gravlaxervaring in toastvorm."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "seafood"
+      ],
+      "description": {
+        "en": "A Nordic starter that turns gravlax into an easy open-toast order.",
+        "zh": "北欧前菜，把 gravlax 做成容易点的开放吐司。",
+        "nl": "Een Noordse starter die gravlax toegankelijk maakt als toast."
+      }
+    },
+    "composition": [
+      [
+        "salmon",
+        55,
+        "cured salmon"
+      ],
+      [
+        "bread",
+        20,
+        "toast"
+      ],
+      [
+        "mustard",
+        10,
+        "mustard sauce",
+        "seasoning"
+      ],
+      [
+        "dill",
+        5,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "brightness"
+      ],
+      [
+        "capers",
+        5,
+        "briny garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cured salmon",
+      "dill mustard sauce",
+      "lemon"
+    ],
+    "basicTaste": [
+      "salty",
+      "fresh",
+      "sweet-savory"
+    ],
+    "textureProfile": [
+      "silky salmon",
+      "crisp toast",
+      "creamy sauce"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-raw-fish",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "starter",
+      "seafood"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "avoids-raw-fish",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "A good starter if you want cured salmon without a large fish plate.",
+      "zh": "想吃腌三文鱼但不想点大鱼盘时适合。",
+      "nl": "Een goede starter voor gravlax zonder grote visschotel."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "128059",
+    "imagePath": "/assets/dishes/main/128059-gravlax-toast.webp",
+    "thumbPath": "/assets/dishes/thumb/128059-gravlax-toast.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "rabarberpaj",
+    "metadataCode": "128060",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Rabarberpaj",
+      "zh": "瑞典大黄派",
+      "nl": "Rabarbertaart",
+      "local": "Rabarberpaj"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Swedish rhubarb crumble pie or tart, usually served warm with vanilla sauce or cream.",
+      "zh": "瑞典大黄酥粒派或挞，通常温热上桌，配香草酱或奶油。",
+      "nl": "Zweedse rabarbertaart of crumble, vaak warm met vanillesaus of room."
+    },
+    "cookingProfile": {
+      "en": "Expect a sweet-tart fruit dessert with a buttery crumb rather than a cream cake.",
+      "zh": "预期是酸甜水果甜品，带黄油酥粒，不是奶油蛋糕。",
+      "nl": "Zoetzuur fruitdessert met boterige kruimel, geen roomcake."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "A Scandinavian spring-summer dessert recognized by rhubarb tartness.",
+        "zh": "北欧春夏甜点，重点是大黄的酸味。",
+        "nl": "Een Scandinavisch lente-zomerdessert met rabarberzuur."
+      }
+    },
+    "composition": [
+      [
+        "rhubarb",
+        45,
+        "tart filling"
+      ],
+      [
+        "wheat-flour",
+        25,
+        "crumble or crust"
+      ],
+      [
+        "butter",
+        15,
+        "crumb richness"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
+      ],
+      [
+        "vanilla-custard",
+        5,
+        "sauce"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "rhubarb tartness",
+      "buttery crumble",
+      "vanilla sauce"
+    ],
+    "basicTaste": [
+      "sweet-tart",
+      "fruity",
+      "buttery"
+    ],
+    "textureProfile": [
+      "soft rhubarb",
+      "crisp crumble",
+      "smooth sauce"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "lighter-choice"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Good if you want a tart fruit dessert; skip if you prefer chocolate or cream-heavy sweets.",
+      "zh": "想吃酸甜水果甜点时适合；偏好巧克力或厚奶油则不是首选。",
+      "nl": "Goed voor een friszuur fruitdessert; minder voor chocolade of zware room."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "128060",
+    "imagePath": "/assets/dishes/main/128060-rabarberpaj.webp",
+    "thumbPath": "/assets/dishes/thumb/128060-rabarberpaj.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "tiropita",
+    "metadataCode": "104059",
+    "cuisineId": "greek",
+    "names": {
+      "en": "Tiropita",
+      "zh": "希腊奶酪派",
+      "nl": "Griekse kaasfilotaart",
+      "local": "Τυρόπιτα"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Greek flaky phyllo cheese pie filled with feta or mixed cheeses, served as a snack or light meal.",
+      "zh": "希腊酥皮奶酪派，内馅多为菲达或混合奶酪，可作小食或轻餐。",
+      "nl": "Griekse filodeeg-kaastaart met feta of gemengde kazen, als snack of lichte maaltijd."
+    },
+    "cookingProfile": {
+      "en": "Expect crisp flaky pastry around a salty creamy cheese filling.",
+      "zh": "预期是酥脆层状外皮包住咸香奶酪馅。",
+      "nl": "Krokant schilferig deeg rond zoute romige kaasvulling."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "street-food"
+      ],
+      "description": {
+        "en": "A classic Greek bakery and cafe item, easy to order as a snack.",
+        "zh": "经典希腊烘焙店和咖啡馆小食，点起来很容易。",
+        "nl": "Een klassieke Griekse bakkerij- en cafésnack."
+      }
+    },
+    "composition": [
+      [
+        "phyllo-pastry",
+        45,
+        "flaky pastry"
+      ],
+      [
+        "feta",
+        35,
+        "cheese filling"
+      ],
+      [
+        "egg",
+        10,
+        "binder"
+      ],
+      [
+        "butter",
+        5,
+        "pastry richness"
+      ],
+      [
+        "olive-oil",
+        5,
+        "finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "feta cheese",
+      "buttery phyllo",
+      "olive oil"
+    ],
+    "basicTaste": [
+      "salty",
+      "creamy",
+      "buttery"
+    ],
+    "textureProfile": [
+      "crisp layers",
+      "soft cheese filling",
+      "flaky edges"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "snack",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "A safe savory pastry if you like salty cheese and crisp phyllo.",
+      "zh": "喜欢咸奶酪和酥皮时，这是稳妥咸点心。",
+      "nl": "Een veilige hartige snack als je zoute kaas en filodeeg lust."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "104059",
+    "imagePath": "/assets/dishes/main/104059-tiropita.webp",
+    "thumbPath": "/assets/dishes/thumb/104059-tiropita.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  }
+]

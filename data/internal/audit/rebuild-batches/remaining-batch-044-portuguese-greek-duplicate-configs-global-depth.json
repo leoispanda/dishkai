@@ -1,0 +1,109 @@
+[
+  {
+    "id": "ervilhas-com-ovos",
+    "metadataCode": "125025",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Ervilhas com Ovos",
+      "zh": "葡萄牙豌豆炖蛋",
+      "nl": "Ervilhas com ovos",
+      "local": "Ervilhas com ovos"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Portuguese peas simmered in tomato-onion sauce with poached eggs, sometimes with chouriço.",
+      "zh": "葡萄牙豌豆用番茄洋葱酱炖煮，上面卧蛋，有时加葡萄牙香肠。",
+      "nl": "Portugese erwten in tomaat-uiensaus met gepocheerde eieren, soms met chouriço."
+    },
+    "cookingProfile": {
+      "en": "Expect a saucy peas-and-eggs comfort dish, mild and home-style.",
+      "zh": "预期是带酱汁的豌豆鸡蛋家常菜，温和舒适。",
+      "nl": "Een huiselijke schotel van erwten en ei in saus, mild en troostend."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "common-dish",
+        "comfort-food"
+      ],
+      "description": {
+        "en": "A common Portuguese home-style plate that works as a light main.",
+        "zh": "常见葡萄牙家常菜，可作轻主菜。",
+        "nl": "Een gewone Portugese thuisschotel die als lichte hoofdschotel werkt."
+      }
+    },
+    "composition": [
+      [
+        "peas",
+        45,
+        "pea base"
+      ],
+      [
+        "egg",
+        25,
+        "poached eggs"
+      ],
+      [
+        "tomato-sauce",
+        15,
+        "sauce base",
+        "seasoning"
+      ],
+      [
+        "chourico",
+        10,
+        "optional sausage"
+      ],
+      [
+        "onion",
+        5,
+        "aromatic"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "peas",
+      "poached egg",
+      "tomato onion sauce"
+    ],
+    "basicTaste": [
+      "savory",
+      "mild",
+      "slightly sweet"
+    ],
+    "textureProfile": [
+      "soft peas",
+      "runny egg",
+      "saucy base"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "lighter-main"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "pork-free"
+    ],
+    "orderVerdict": {
+      "en": "A gentle comfort main if peas and poached eggs sound appealing; ask about chouriço if avoiding pork.",
+      "zh": "喜欢豌豆和卧蛋时是温和舒适主菜；不吃猪肉要问是否加香肠。",
+      "nl": "Een zachte comfortmaaltijd met erwten en ei; vraag naar chouriço bij varkensvrij."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "125025",
+    "imagePath": "/assets/dishes/main/125025-ervilhas-com-ovos.webp",
+    "thumbPath": "/assets/dishes/thumb/125025-ervilhas-com-ovos.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  }
+]

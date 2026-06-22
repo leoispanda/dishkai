@@ -645,21 +645,21 @@ export const globalDepthDishAliases = [
   },
   {
     "alias": "Grey Shrimp Tomato",
-    "dishId": "grey-shrimp-tomato",
+    "dishId": "tomate-crevette",
     "language": "menu",
-    "matchType": "canonical",
-    "confidence": 1
+    "matchType": "menu-variant",
+    "confidence": 0.96
   },
   {
     "alias": "tomaat garnaal",
-    "dishId": "grey-shrimp-tomato",
+    "dishId": "tomate-crevette",
     "language": "menu",
-    "matchType": "canonical",
-    "confidence": 1
+    "matchType": "menu-variant",
+    "confidence": 0.96
   },
   {
     "alias": "灰虾番茄",
-    "dishId": "grey-shrimp-tomato",
+    "dishId": "tomate-crevette",
     "language": "menu",
     "matchType": "translated-name",
     "confidence": 0.94

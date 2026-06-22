@@ -1,0 +1,433 @@
+[
+  {
+    "id": "babi-pangang",
+    "metadataCode": "102024",
+    "imageCode": "102024",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Babi Pangang",
+      "zh": "荷式印尼红酱烤猪肉",
+      "nl": "Babi pangang",
+      "local": "Babi pangang"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "grilled",
+      "sauce-tossed"
+    ],
+    "shortDescription": {
+      "en": "Crispy or roasted pork served with a glossy red sweet-sour sauce, often with rice.",
+      "zh": "酥烤猪肉配亮红甜酸酱，常搭配米饭。",
+      "nl": "Krokant of geroosterd varkensvlees met glanzende rode zoetzure saus, vaak met rijst."
+    },
+    "cookingProfile": {
+      "en": "The appeal is sweet-sour sauce over meaty pork, usually richer than a stir-fry.",
+      "zh": "重点是甜酸酱裹猪肉，比普通快炒更浓更重。",
+      "nl": "Het draait om zoetzure saus over varkensvlees, meestal rijker dan roerbak."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Dutch-Indonesian restaurant staple recognized by crispy pork and red sweet-sour sauce.",
+        "zh": "荷式印尼餐馆常见菜，重点是酥香猪肉和红色甜酸酱。",
+        "nl": "Een Chinees-Indisch restaurantgerecht met krokant varkensvlees en rode zoetzure saus."
+      }
+    },
+    "composition": [
+      [
+        "pork",
+        50,
+        "crispy meat"
+      ],
+      [
+        "tomato-sauce",
+        20,
+        "red sauce",
+        "seasoning"
+      ],
+      [
+        "steamed-rice",
+        15,
+        "side"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "pickled or side vegetables"
+      ],
+      [
+        "vinegar",
+        5,
+        "sweet-sour tang",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "red sweet-sour sauce",
+      "crispy pork",
+      "pickled vegetables"
+    ],
+    "basicTaste": [
+      "sweet-sour",
+      "savory",
+      "meaty"
+    ],
+    "textureProfile": [
+      "sliced pork",
+      "glossy sauce",
+      "soft rice"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-soy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "classic-dish",
+      "saucy-main"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "avoid-sweet-sour-sauce"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a saucy sweet-sour pork plate; skip if you avoid pork or dislike sweet sauces.",
+      "zh": "想吃甜酸红酱猪肉时可以点；不吃猪肉或不爱甜酱则避开。",
+      "nl": "Kies dit voor zoetzure varkenssaus; sla over bij geen varken of zoete sauzen."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102024-babi-pangang.webp",
+    "thumbPath": "/assets/dishes/thumb/102024-babi-pangang.webp"
+  },
+  {
+    "id": "gevulde-koek",
+    "metadataCode": "102029",
+    "imageCode": "102029",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Gevulde Koek",
+      "zh": "荷兰杏仁夹心饼",
+      "nl": "Gevulde koek",
+      "local": "Gevulde koek"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "A round cookie filled with sweet almond paste, often topped with an almond.",
+      "zh": "圆形饼干夹甜杏仁膏，常在表面放一颗杏仁。",
+      "nl": "Een ronde koek gevuld met zoete amandelspijs, vaak met amandel erop."
+    },
+    "cookingProfile": {
+      "en": "Expect a soft-dense almond center inside a golden cookie shell.",
+      "zh": "金黄饼皮里是柔软厚实的杏仁馅。",
+      "nl": "Verwacht zachte dichte amandelvulling in een goudbruine koek."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "sweet",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Dutch bakery cookie defined by almond paste filling.",
+        "zh": "荷兰面包房常见饼点，重点是杏仁膏夹心。",
+        "nl": "Een bakkerskoek herkenbaar aan amandelspijsvulling."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        35,
+        "cookie shell"
+      ],
+      [
+        "almond-paste",
+        35,
+        "filling"
+      ],
+      [
+        "butter",
+        15,
+        "richness"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
+      ],
+      [
+        "egg",
+        5,
+        "glaze"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "almond paste",
+      "butter",
+      "golden cookie"
+    ],
+    "basicTaste": [
+      "sweet",
+      "nutty",
+      "buttery"
+    ],
+    "textureProfile": [
+      "soft almond center",
+      "crumbly shell",
+      "glossy top"
+    ],
+    "riskFlags": [
+      "contains-tree-nut",
+      "contains-gluten",
+      "contains-dairy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "bakery"
+    ],
+    "avoidIfTags": [
+      "tree-nut-allergy",
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "A good bakery sweet if you like almond paste; avoid with nut allergies.",
+      "zh": "喜欢杏仁馅点心时很合适；坚果过敏者避开。",
+      "nl": "Goed als je amandelspijs lekker vindt; vermijd bij notenallergie."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102029-gevulde-koek.webp",
+    "thumbPath": "/assets/dishes/thumb/102029-gevulde-koek.webp"
+  },
+  {
+    "id": "krentenbol",
+    "metadataCode": "102030",
+    "imageCode": "102030",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Krentenbol",
+      "zh": "荷兰葡萄干小圆面包",
+      "nl": "Krentenbol",
+      "local": "Krentenbol"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "A soft bun studded with currants or raisins, often eaten with butter.",
+      "zh": "柔软小面包里有葡萄干或黑加仑干，常抹黄油。",
+      "nl": "Een zacht broodje met krenten of rozijnen, vaak met boter."
+    },
+    "cookingProfile": {
+      "en": "It is mildly sweet and bready, lighter than a pastry but more filling than a cookie.",
+      "zh": "微甜面包感，比酥点轻，但比饼干更饱腹。",
+      "nl": "Licht zoet en broodachtig, minder rijk dan gebak maar vullender dan koek."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "breakfast"
+      ],
+      "description": {
+        "en": "A Dutch currant bun often eaten for breakfast or a simple snack.",
+        "zh": "荷兰葡萄干小面包，常作早餐或简单点心。",
+        "nl": "Een Nederlands krentenbroodje voor ontbijt of tussendoor."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        55,
+        "bun"
+      ],
+      [
+        "raisins",
+        25,
+        "dried fruit"
+      ],
+      [
+        "wheat-flour",
+        10,
+        "dough body"
+      ],
+      [
+        "butter",
+        5,
+        "spread"
+      ],
+      [
+        "sugar",
+        5,
+        "light sweetness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "raisins",
+      "soft bread",
+      "butter"
+    ],
+    "basicTaste": [
+      "mildly-sweet",
+      "bready",
+      "buttery"
+    ],
+    "textureProfile": [
+      "soft bun",
+      "chewy raisins",
+      "light crumb"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "breakfast",
+      "sweet-snack"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Good for a mild breakfast snack; skip if you want a dessert-level sweet.",
+      "zh": "适合温和早餐点心；想吃浓甜甜品时可能不够。",
+      "nl": "Goed als milde ontbijtsnack; sla over als je echt dessertzoet wilt."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102030-krentenbol.webp",
+    "thumbPath": "/assets/dishes/thumb/102030-krentenbol.webp"
+  },
+  {
+    "id": "vla",
+    "metadataCode": "102031",
+    "imageCode": "102031",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Vla",
+      "zh": "荷兰香草奶黄",
+      "nl": "Vla",
+      "local": "Vla"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "stirred",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Smooth pourable custard, often vanilla, served cold in a bowl or glass.",
+      "zh": "顺滑可倒的奶黄，常为香草味，冷食。",
+      "nl": "Gladde schenkbare custard, vaak vanille, koud geserveerd."
+    },
+    "cookingProfile": {
+      "en": "Expect cool, smooth, milky sweetness rather than baked texture.",
+      "zh": "口感冷而顺滑，奶香甜，不是烘焙口感。",
+      "nl": "Koel, glad en melkzoet, geen gebakken structuur."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "sweet",
+        "first-timer-friendly"
+      ],
+      "description": {
+        "en": "A Dutch custard dessert recognized by its smooth spoonable dairy texture.",
+        "zh": "荷兰奶黄甜品，重点是顺滑可舀的乳制口感。",
+        "nl": "Een Nederlands vladessert herkenbaar aan gladde lepelbare zuivel."
+      }
+    },
+    "composition": [
+      [
+        "vanilla-custard",
+        65,
+        "custard base"
+      ],
+      [
+        "milk-solids",
+        20,
+        "dairy body"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
+      ],
+      [
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "vanilla custard",
+      "milk",
+      "sugar"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "mild"
+    ],
+    "textureProfile": [
+      "smooth custard",
+      "pourable",
+      "cool spoon dessert"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "A safe mild dessert if you like custard; skip if you want texture or pastry crunch.",
+      "zh": "喜欢奶黄时很稳；想要有咀嚼感或酥脆甜点则不适合。",
+      "nl": "Een veilige milde keuze als je vla lust; sla over als je textuur of krokant gebak wilt."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102031-vla.webp",
+    "thumbPath": "/assets/dishes/thumb/102031-vla.webp"
+  }
+]

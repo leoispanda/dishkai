@@ -1,0 +1,230 @@
+[
+  {
+    "id": "lebkuchen",
+    "metadataCode": "106028",
+    "cuisineId": "german",
+    "names": {
+      "en": "Lebkuchen",
+      "zh": "德式姜饼",
+      "nl": "Lebkuchen",
+      "local": "Lebkuchen"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "German spiced gingerbread cookies or cakes, often glazed or chocolate-dipped.",
+      "zh": "德式香料姜饼，可做成饼干或小蛋糕，常有糖霜或巧克力外层。",
+      "nl": "Duitse kruidige peperkoekkoeken of cakejes, vaak geglazuurd of met chocolade."
+    },
+    "cookingProfile": {
+      "en": "Expect warm spice, honeyed sweetness, and a chewy-soft or cakey bite.",
+      "zh": "风味是温暖香料和蜂蜜般甜味，口感可软韧或像小蛋糕。",
+      "nl": "Verwacht warme kruiden, honingzoetheid en een zachte of cakeachtige beet."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "A classic German bakery sweet strongly associated with warm spices and holidays.",
+        "zh": "经典德式烘焙甜点，和温暖香料及节日感关联很强。",
+        "nl": "Een klassieke Duitse bakkerszoetigheid met warme kruiden en feestgevoel."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        40,
+        "gingerbread base"
+      ],
+      [
+        "sugar",
+        20,
+        "sweetness"
+      ],
+      [
+        "almonds",
+        15,
+        "nut body"
+      ],
+      [
+        "chocolate",
+        10,
+        "optional coating"
+      ],
+      [
+        "cinnamon",
+        10,
+        "warm spice",
+        "seasoning"
+      ],
+      [
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "warm spices",
+      "almonds",
+      "chocolate glaze"
+    ],
+    "basicTaste": [
+      "sweet",
+      "spiced",
+      "nutty"
+    ],
+    "textureProfile": [
+      "soft-chewy cookie",
+      "glazed surface",
+      "nutty bits"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-tree-nut",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "nut-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Good for a spiced bakery sweet; skip if you dislike gingerbread-style spices.",
+      "zh": "想吃香料感烘焙甜点时适合；不喜欢姜饼香料则避开。",
+      "nl": "Goed voor kruidige bakkerszoetigheid; sla over als je peperkoekkruiden niet lust."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "106028",
+    "imagePath": "/assets/dishes/main/106028-lebkuchen.webp",
+    "thumbPath": "/assets/dishes/thumb/106028-lebkuchen.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "rinderroulade",
+    "metadataCode": "106029",
+    "cuisineId": "german",
+    "names": {
+      "en": "Rinderroulade",
+      "zh": "德式牛肉卷",
+      "nl": "Rinderroulade",
+      "local": "Rinderroulade"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "braised"
+    ],
+    "shortDescription": {
+      "en": "Thin beef rolls filled with bacon, onion, mustard, and pickle, braised in brown gravy.",
+      "zh": "薄牛肉卷入培根、洋葱、芥末和酸黄瓜，再用棕色肉汁炖煮。",
+      "nl": "Dunne rundvleesrolletjes met spek, ui, mosterd en augurk, gestoofd in bruine jus."
+    },
+    "cookingProfile": {
+      "en": "Expect tender rolled beef with a tangy pickle-mustard center and rich gravy.",
+      "zh": "入口是软嫩牛肉卷，内馅有酸黄瓜和芥末的酸香，外面是浓肉汁。",
+      "nl": "Verwacht malse rundvleesrol met zurige augurk-mosterdvulling en rijke jus."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A classic German Sunday-style beef roll recognized by its filled spiral slices.",
+        "zh": "经典德国周日式牛肉卷，识别重点是有馅料的卷状切面。",
+        "nl": "Een klassieke Duitse zondagsrol van rundvlees met gevulde spiraalplakken."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        55,
+        "rolled beef"
+      ],
+      [
+        "bacon",
+        15,
+        "filling"
+      ],
+      [
+        "pickles",
+        10,
+        "tangy filling"
+      ],
+      [
+        "onion",
+        10,
+        "filling aroma"
+      ],
+      [
+        "mustard",
+        5,
+        "sharp filling",
+        "seasoning"
+      ],
+      [
+        "red-wine",
+        5,
+        "gravy depth",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "mustard",
+      "pickle filling",
+      "brown beef gravy"
+    ],
+    "basicTaste": [
+      "savory",
+      "tangy",
+      "rich"
+    ],
+    "textureProfile": [
+      "tender rolled beef",
+      "soft filling",
+      "glossy gravy"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-alcohol"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "classic-dish",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "avoid-alcohol"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a traditional saucy beef main; skip if pickle-mustard filling sounds too sharp.",
+      "zh": "想吃传统带酱牛肉主菜时适合；不喜欢酸黄瓜芥末内馅则谨慎。",
+      "nl": "Kies dit voor een traditionele sauzige rundvleesmaaltijd; sla over als augurk-mosterd te scherp klinkt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "imageCode": "106029",
+    "imagePath": "/assets/dishes/main/106029-rinderroulade.webp",
+    "thumbPath": "/assets/dishes/thumb/106029-rinderroulade.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  }
+]

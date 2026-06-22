@@ -1,0 +1,1197 @@
+[
+  {
+    "id": "gigantes-plaki",
+    "metadataCode": "104060",
+    "cuisineId": "greek",
+    "names": {
+      "en": "Gigantes Plaki",
+      "zh": "希腊番茄烤大豆",
+      "nl": "Gigantes plaki",
+      "local": "Γίγαντες πλακί"
+    },
+    "category": "vegetable",
+    "cookingMethods": [
+      "baked",
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Greek baked giant beans in tomato, olive oil, onion, and herbs, served as a meze or vegetarian main.",
+      "zh": "希腊大白豆用番茄、橄榄油、洋葱和香草烤/焖，可作小菜或素主菜。",
+      "nl": "Griekse reuzenbonen in tomaat, olijfolie, ui en kruiden, als meze of vegetarisch hoofdgerecht."
+    },
+    "cookingProfile": {
+      "en": "Expect soft creamy beans in a rich tomato-olive oil sauce, not a soup.",
+      "zh": "预期是软糯大豆裹浓番茄橄榄油酱，不是汤。",
+      "nl": "Zachte romige bonen in rijke tomaat-olijfoliesaus, geen soep."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "vegetarian"
+      ],
+      "description": {
+        "en": "A classic Greek bean dish and useful vegetarian menu anchor.",
+        "zh": "经典希腊豆类菜，也是素食点餐的实用锚点。",
+        "nl": "Een klassieke Griekse bonenschotel en nuttige vegetarische keuze."
+      }
+    },
+    "composition": [
+      [
+        "white-beans",
+        55,
+        "giant beans"
+      ],
+      [
+        "tomato-sauce",
+        25,
+        "sauce base",
+        "seasoning"
+      ],
+      [
+        "onion",
+        10,
+        "aromatic"
+      ],
+      [
+        "olive-oil",
+        5,
+        "richness",
+        "seasoning"
+      ],
+      [
+        "parsley",
+        5,
+        "herb",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "tomato sauce",
+      "olive oil",
+      "soft giant beans"
+    ],
+    "basicTaste": [
+      "savory",
+      "tomatoey",
+      "mild"
+    ],
+    "textureProfile": [
+      "creamy beans",
+      "thick sauce",
+      "soft onions"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegan",
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "vegetarian",
+      "meze"
+    ],
+    "avoidIfTags": [
+      "dislikes-beans"
+    ],
+    "orderVerdict": {
+      "en": "A strong vegetarian choice if baked beans in tomato sauce sound appealing.",
+      "zh": "如果喜欢番茄酱焖烤豆类，这是很稳的素食选择。",
+      "nl": "Een sterke vegetarische keuze als bonen in tomatensaus goed klinken."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "imageCode": "104060",
+    "imagePath": "/assets/dishes/main/104060-gigantes-plaki.webp",
+    "thumbPath": "/assets/dishes/thumb/104060-gigantes-plaki.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "queijo-da-serra",
+    "metadataCode": "125050",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Queijo da Serra",
+      "zh": "塞拉山软奶酪",
+      "nl": "Queijo da Serra",
+      "local": "Queijo da Serra"
+    },
+    "category": "cheese",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "servingTemperature": "room-temperature",
+    "shortDescription": {
+      "en": "Portuguese soft sheep cheese with a creamy center, often eaten with bread or quince paste.",
+      "zh": "葡萄牙软质羊奶酪，内心细腻流心，常配面包或榅桲果膏。",
+      "nl": "Portugese zachte schapenkaas met romig midden, vaak met brood of kweepeerpasta."
+    },
+    "cookingProfile": {
+      "en": "Expect a rich, salty, creamy cheese course rather than a cooked dish.",
+      "zh": "预期是浓郁咸香的奶酪盘，不是热菜。",
+      "nl": "Verwacht een rijke zoute romige kaasschotel, geen warm gerecht."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "cheese"
+      ],
+      "description": {
+        "en": "A distinctive Portuguese mountain cheese with a soft spoonable center.",
+        "zh": "有代表性的葡萄牙山区奶酪，中心柔软可舀。",
+        "nl": "Een kenmerkende Portugese bergkaas met zachte lepelbare kern."
+      }
+    },
+    "composition": [
+      [
+        "serra-cheese",
+        65,
+        "soft cheese"
+      ],
+      [
+        "bread",
+        20,
+        "bread side"
+      ],
+      [
+        "quince-paste",
+        10,
+        "sweet pairing"
+      ],
+      [
+        "olive-oil",
+        5,
+        "optional finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "sheep cheese",
+      "creamy center",
+      "quince paste"
+    ],
+    "basicTaste": [
+      "salty",
+      "creamy",
+      "slightly tangy"
+    ],
+    "textureProfile": [
+      "soft oozy cheese",
+      "crusty bread",
+      "firm sweet paste"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "cheese",
+      "starter"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "gluten-free",
+      "dislikes-strong-cheese"
+    ],
+    "orderVerdict": {
+      "en": "Worth ordering if you like rich soft cheeses; skip if dairy or sheep-cheese funk is an issue.",
+      "zh": "喜欢浓郁软奶酪时值得点；避乳制品或不爱羊奶酪风味则避开。",
+      "nl": "Aanrader voor liefhebbers van rijke zachte kaas; sla over bij zuivel of schapenkaassmaak."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "imageCode": "125050",
+    "imagePath": "/assets/dishes/main/125050-queijo-da-serra.webp",
+    "thumbPath": "/assets/dishes/thumb/125050-queijo-da-serra.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "farinheira",
+    "metadataCode": "125051",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Farinheira",
+      "zh": "葡萄牙法里涅拉香肠",
+      "nl": "Farinheira",
+      "local": "Farinheira"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "fried"
+    ],
+    "shortDescription": {
+      "en": "Portuguese smoked flour-based sausage, often fried and served with eggs or potatoes.",
+      "zh": "葡萄牙烟熏面粉香肠，常煎后配鸡蛋或土豆。",
+      "nl": "Portugese gerookte bloemworst, vaak gebakken met ei of aardappel."
+    },
+    "cookingProfile": {
+      "en": "It is soft, smoky, and rich, with a crumbly filling rather than a firm meat sausage bite.",
+      "zh": "质地柔软、烟熏、浓郁，内馅略松散，不像紧实肉肠。",
+      "nl": "Zacht, rokerig en rijk, met kruimelige vulling in plaats van stevige vleesworst."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "regional-dish"
+      ],
+      "description": {
+        "en": "A classic Portuguese enchido with a distinctive flour-and-smoke texture.",
+        "zh": "经典葡萄牙腌熏肠类，特点是面粉内馅和烟熏感。",
+        "nl": "Een klassieke Portugese enchido met herkenbare bloem- en rooksmaak."
+      }
+    },
+    "composition": [
+      [
+        "farinheira-sausage",
+        50,
+        "sausage"
+      ],
+      [
+        "egg",
+        25,
+        "scrambled egg side"
+      ],
+      [
+        "potato",
+        15,
+        "fried side"
+      ],
+      [
+        "olive-oil",
+        5,
+        "frying fat",
+        "seasoning"
+      ],
+      [
+        "black-pepper",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "smoked farinheira",
+      "egg",
+      "olive oil"
+    ],
+    "basicTaste": [
+      "smoky",
+      "savory",
+      "rich"
+    ],
+    "textureProfile": [
+      "soft sausage filling",
+      "creamy eggs",
+      "crisp potato edges"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-gluten",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "meat",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "pork-free",
+      "gluten-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Good if smoky soft sausage with eggs sounds comforting; avoid if you expect a firm grilled sausage.",
+      "zh": "喜欢烟熏软香肠配蛋会适合；想吃紧实烤肠则不一定。",
+      "nl": "Goed als zachte rokerige worst met ei je aanspreekt; minder als je stevige worst verwacht."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "imageCode": "125051",
+    "imagePath": "/assets/dishes/main/125051-farinheira.webp",
+    "thumbPath": "/assets/dishes/thumb/125051-farinheira.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "morcela-portuguesa",
+    "metadataCode": "125052",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Morcela Portuguesa",
+      "zh": "葡萄牙血肠",
+      "nl": "Portugese morcela",
+      "local": "Morcela portuguesa"
+    },
+    "category": "meat",
+    "cookingMethods": [
+      "fried",
+      "grilled"
+    ],
+    "shortDescription": {
+      "en": "Portuguese dark blood sausage, usually sliced and fried or grilled, often served with potatoes or fruit.",
+      "zh": "葡萄牙深色血肠，通常切片煎或烤，常配土豆或水果。",
+      "nl": "Portugese donkere bloedworst, in plakken gebakken of gegrild, vaak met aardappel of fruit."
+    },
+    "cookingProfile": {
+      "en": "Expect a rich iron-like blood sausage flavor with a soft dense bite.",
+      "zh": "预期是血肠特有的浓郁铁质风味和柔密口感。",
+      "nl": "Verwacht rijke ijzerachtige bloedworstsmaak met zachte dichte beet."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "acquired-taste"
+      ],
+      "description": {
+        "en": "A traditional Portuguese blood sausage item, distinctive but not for every diner.",
+        "zh": "传统葡萄牙血肠，很有特色但不是每个人都适合。",
+        "nl": "Een traditionele Portugese bloedworst, uitgesproken maar niet voor iedereen."
+      }
+    },
+    "composition": [
+      [
+        "blood-sausage",
+        60,
+        "sausage slices"
+      ],
+      [
+        "potato",
+        20,
+        "boiled side"
+      ],
+      [
+        "apple",
+        10,
+        "sweet side"
+      ],
+      [
+        "olive-oil",
+        5,
+        "frying fat",
+        "seasoning"
+      ],
+      [
+        "black-pepper",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "blood sausage",
+      "black pepper",
+      "apple sweetness"
+    ],
+    "basicTaste": [
+      "savory",
+      "iron-rich",
+      "slightly sweet"
+    ],
+    "textureProfile": [
+      "dense sausage",
+      "soft potato",
+      "crisp browned edges"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "regional-dish",
+      "meat"
+    ],
+    "avoidIfTags": [
+      "pork-free",
+      "avoids-blood-sausage"
+    ],
+    "orderVerdict": {
+      "en": "Choose it only if blood sausage sounds appealing; the flavor is distinctive and rich.",
+      "zh": "只有对血肠有兴趣时才建议点，风味很鲜明厚重。",
+      "nl": "Kies dit alleen als bloedworst je aanspreekt; de smaak is uitgesproken en rijk."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 4,
+    "imageCode": "125052",
+    "imagePath": "/assets/dishes/main/125052-morcela-portuguesa.webp",
+    "thumbPath": "/assets/dishes/thumb/125052-morcela-portuguesa.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "migas-portuguesas",
+    "metadataCode": "125054",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Migas Portuguesas",
+      "zh": "葡萄牙炒面包碎",
+      "nl": "Portugese migas",
+      "local": "Migas portuguesas"
+    },
+    "category": "side",
+    "cookingMethods": [
+      "fried",
+      "stirred"
+    ],
+    "shortDescription": {
+      "en": "Portuguese rustic bread-based migas, sautéed with garlic, olive oil, greens, and sometimes pork.",
+      "zh": "葡萄牙乡村面包碎菜，用蒜、橄榄油、绿叶菜炒制，有时加猪肉。",
+      "nl": "Portugese rustieke broodmigas met knoflook, olijfolie, groen en soms varken."
+    },
+    "cookingProfile": {
+      "en": "It is a hearty crumbly bread side, savory and oily rather than saucy.",
+      "zh": "这是扎实的面包碎配菜，咸香油润，不是酱汁菜。",
+      "nl": "Een stevige kruimelige broodbasis, hartig en olieachtig, niet sauzig."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "side"
+      ],
+      "description": {
+        "en": "A Portuguese regional side that turns bread into a filling savory plate.",
+        "zh": "葡萄牙地区配菜，把面包做成饱足咸味盘。",
+        "nl": "Een Portugese streekbijgerecht dat brood tot vullende hartige schotel maakt."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        45,
+        "crumb base"
+      ],
+      [
+        "collard-greens",
+        20,
+        "greens"
+      ],
+      [
+        "pork",
+        15,
+        "optional meat"
+      ],
+      [
+        "garlic",
+        10,
+        "aromatic"
+      ],
+      [
+        "olive-oil",
+        10,
+        "frying fat",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "garlic olive oil",
+      "bread crumbs",
+      "greens"
+    ],
+    "basicTaste": [
+      "savory",
+      "garlicky",
+      "earthy"
+    ],
+    "textureProfile": [
+      "crumbly bread",
+      "tender greens",
+      "crisp edges"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "side",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "pork-free",
+      "prefers-light-food"
+    ],
+    "orderVerdict": {
+      "en": "Good as a filling rustic side; ask about pork if you need it vegetarian.",
+      "zh": "适合作饱足乡村配菜；需要素食时要问是否含猪肉。",
+      "nl": "Goed als vullend rustiek bijgerecht; vraag naar varken bij vegetarisch eten."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "imageCode": "125054",
+    "imagePath": "/assets/dishes/main/125054-migas-portuguesas.webp",
+    "thumbPath": "/assets/dishes/thumb/125054-migas-portuguesas.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "broa",
+    "metadataCode": "125055",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Broa",
+      "zh": "葡萄牙玉米面包",
+      "nl": "Portugese broa",
+      "local": "Broa"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "baked"
+    ],
+    "servingTemperature": "room-temperature",
+    "shortDescription": {
+      "en": "Rustic Portuguese corn and wheat bread with a dense yellow crumb and cracked crust.",
+      "zh": "葡萄牙乡村玉米小麦面包，黄色面包芯紧实，外壳有裂纹。",
+      "nl": "Rustiek Portugees mais-tarwebrood met dichte gele kruim en gebarsten korst."
+    },
+    "cookingProfile": {
+      "en": "Expect a hearty coarse bread, often used with soups, stews, or cheese.",
+      "zh": "预期是粗粝扎实的面包，常配汤、炖菜或奶酪。",
+      "nl": "Stevig grof brood, vaak bij soep, stoof of kaas."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "bread"
+      ],
+      "description": {
+        "en": "A classic Portuguese bread side, especially in northern and rural meals.",
+        "zh": "经典葡萄牙面包配菜，北部和乡村餐中常见。",
+        "nl": "Een klassiek Portugees broodbijgerecht, vooral noordelijk en landelijk."
+      }
+    },
+    "composition": [
+      [
+        "corn",
+        40,
+        "cornmeal crumb"
+      ],
+      [
+        "wheat-flour",
+        35,
+        "bread structure"
+      ],
+      [
+        "olive-oil",
+        10,
+        "richness",
+        "seasoning"
+      ],
+      [
+        "sea-salt",
+        5,
+        "seasoning",
+        "seasoning"
+      ],
+      [
+        "bread",
+        10,
+        "starter dough"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cornmeal",
+      "crusty bread",
+      "olive oil"
+    ],
+    "basicTaste": [
+      "mild",
+      "corny",
+      "savory"
+    ],
+    "textureProfile": [
+      "dense crumb",
+      "cracked crust",
+      "coarse bite"
+    ],
+    "riskFlags": [
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "bread",
+      "side"
+    ],
+    "avoidIfTags": [
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Useful as a rustic bread side; do not expect a soft fluffy roll.",
+      "zh": "适合作乡村面包配菜；不要期待松软小餐包。",
+      "nl": "Goed als rustiek broodbijgerecht; verwacht geen zacht luchtig broodje."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "125055",
+    "imagePath": "/assets/dishes/main/125055-broa.webp",
+    "thumbPath": "/assets/dishes/thumb/125055-broa.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "bolas-de-berlim",
+    "metadataCode": "125056",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Bolas de Berlim",
+      "zh": "葡式奶油炸甜包",
+      "nl": "Bolas de Berlim",
+      "local": "Bolas de Berlim"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "deep-fried"
+    ],
+    "shortDescription": {
+      "en": "Portuguese sugar-dusted fried doughnut, usually filled with thick egg custard.",
+      "zh": "葡萄牙撒糖油炸甜面包，通常夹浓厚蛋奶馅。",
+      "nl": "Portugese gesuikerde gefrituurde bol, meestal gevuld met dikke eiercrème."
+    },
+    "cookingProfile": {
+      "en": "Expect a sweet fried doughnut with a creamy custard center.",
+      "zh": "预期是甜油炸面团，中间有顺滑蛋奶馅。",
+      "nl": "Zoete gefrituurde bol met romige banketroomvulling."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "A widely recognized Portuguese bakery and beach pastry.",
+        "zh": "广为人知的葡萄牙烘焙/海滩甜点。",
+        "nl": "Een bekende Portugese bakkerij- en strandzoetigheid."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        40,
+        "fried dough"
+      ],
+      [
+        "vanilla-custard",
+        30,
+        "custard filling"
+      ],
+      [
+        "sugar",
+        15,
+        "coating"
+      ],
+      [
+        "egg",
+        10,
+        "dough and custard"
+      ],
+      [
+        "neutral-frying-oil",
+        5,
+        "frying"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fried dough",
+      "egg custard",
+      "sugar"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "fried"
+    ],
+    "textureProfile": [
+      "soft doughnut",
+      "smooth custard",
+      "sugary surface"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "bakery"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a sweet custard-filled fried pastry; it is not a light dessert.",
+      "zh": "想吃奶油夹心油炸甜点时适合；不是清淡甜品。",
+      "nl": "Kies dit voor een zoete gefrituurde roomvulling; niet licht."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "imageCode": "125056",
+    "imagePath": "/assets/dishes/main/125056-bolas-de-berlim.webp",
+    "thumbPath": "/assets/dishes/thumb/125056-bolas-de-berlim.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "travesseiros",
+    "metadataCode": "125057",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Travesseiros",
+      "zh": "辛特拉枕头酥",
+      "nl": "Travesseiros",
+      "local": "Travesseiros"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Sintra pillow-shaped puff pastries filled with almond and egg cream, dusted with sugar.",
+      "zh": "辛特拉长枕形酥皮点心，内有杏仁蛋奶馅，表面撒糖。",
+      "nl": "Sintra-kussenvormig bladerdeeg met amandel-eicrème en suiker."
+    },
+    "cookingProfile": {
+      "en": "It is flaky outside and sweet almond-creamy inside.",
+      "zh": "外层酥，内馅是甜杏仁奶油感。",
+      "nl": "Schilferig buiten en zoet amandelromig binnen."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "A famous Sintra pastry with a very specific pillow shape.",
+        "zh": "辛特拉著名点心，形状是很明确的枕头状。",
+        "nl": "Een beroemde Sintra-patisserie met duidelijke kussenvorm."
+      }
+    },
+    "composition": [
+      [
+        "puff-pastry",
+        45,
+        "flaky pastry"
+      ],
+      [
+        "almond-paste",
+        25,
+        "filling"
+      ],
+      [
+        "egg",
+        15,
+        "custard richness"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
+      ],
+      [
+        "butter",
+        5,
+        "pastry richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "almond filling",
+      "buttery pastry",
+      "powdered sugar"
+    ],
+    "basicTaste": [
+      "sweet",
+      "nutty",
+      "buttery"
+    ],
+    "textureProfile": [
+      "flaky pastry",
+      "soft filling",
+      "powdered top"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy",
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free",
+      "nut-allergy"
+    ],
+    "orderVerdict": {
+      "en": "A good pastry choice if almond filling and flaky layers appeal.",
+      "zh": "喜欢杏仁馅和层酥时很适合。",
+      "nl": "Een goede keuze bij amandelvulling en bladerige lagen."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "125057",
+    "imagePath": "/assets/dishes/main/125057-travesseiros.webp",
+    "thumbPath": "/assets/dishes/thumb/125057-travesseiros.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "pao-de-lo",
+    "metadataCode": "125058",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Pão de Ló",
+      "zh": "葡萄牙海绵蛋糕",
+      "nl": "Pão de ló",
+      "local": "Pão de Ló"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Portuguese egg-rich sponge cake, sometimes airy and dry, sometimes moist in the center.",
+      "zh": "葡萄牙蛋香海绵蛋糕，有的轻盈偏干，有的中心湿润。",
+      "nl": "Portugese eierige sponscake, soms luchtig droog, soms vochtig in het midden."
+    },
+    "cookingProfile": {
+      "en": "Expect a simple egg-forward cake rather than a frosted layer cake.",
+      "zh": "预期是简单蛋香蛋糕，不是有糖霜夹层的蛋糕。",
+      "nl": "Eenvoudige eierige cake, geen geglazuurde laagjescake."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "A classic Portuguese celebration and bakery cake with strong egg character.",
+        "zh": "经典葡萄牙庆典/烘焙蛋糕，蛋香突出。",
+        "nl": "Een klassieke Portugese feest- en bakkerijcake met duidelijke eiersmaak."
+      }
+    },
+    "composition": [
+      [
+        "sponge-cake",
+        50,
+        "cake body"
+      ],
+      [
+        "egg",
+        25,
+        "eggy structure"
+      ],
+      [
+        "sugar",
+        15,
+        "sweetness"
+      ],
+      [
+        "wheat-flour",
+        10,
+        "crumb"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "egg-rich sponge",
+      "sugar",
+      "light crust"
+    ],
+    "basicTaste": [
+      "sweet",
+      "eggy",
+      "mild"
+    ],
+    "textureProfile": [
+      "airy sponge",
+      "soft crumb",
+      "moist center possible"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "cake"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Good if you want a simple eggy cake; skip if you need chocolate or cream.",
+      "zh": "想吃简单蛋香蛋糕时适合；想要巧克力或奶油则不是首选。",
+      "nl": "Goed voor simpele eierige cake; minder voor chocolade of room."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "125058",
+    "imagePath": "/assets/dishes/main/125058-pao-de-lo.webp",
+    "thumbPath": "/assets/dishes/thumb/125058-pao-de-lo.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "toucinho-do-ceu",
+    "metadataCode": "125059",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Toucinho do Céu",
+      "zh": "葡萄牙杏仁蛋黄糕",
+      "nl": "Toucinho do céu",
+      "local": "Toucinho do Céu"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Dense Portuguese almond and egg-yolk cake, rich, sweet, and often served in small slices.",
+      "zh": "密实的葡萄牙杏仁蛋黄糕，浓郁偏甜，常切小块。",
+      "nl": "Dichte Portugese amandel-eigeelcake, rijk en zoet, vaak in kleine stukken."
+    },
+    "cookingProfile": {
+      "en": "Expect a rich almond sweet with a moist dense crumb, not a fluffy cake.",
+      "zh": "预期是浓郁杏仁甜点，湿润密实，不是蓬松蛋糕。",
+      "nl": "Rijke amandelzoetigheid met vochtige dichte kruim, geen luchtige cake."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "A traditional convent-style Portuguese sweet built on almonds and egg yolks.",
+        "zh": "传统葡萄牙修道院甜点，以杏仁和蛋黄为核心。",
+        "nl": "Een traditioneel Portugees kloostergebak op basis van amandel en eigeel."
+      }
+    },
+    "composition": [
+      [
+        "almonds",
+        35,
+        "almond base"
+      ],
+      [
+        "egg",
+        25,
+        "egg-yolk richness"
+      ],
+      [
+        "sugar",
+        25,
+        "sweetness"
+      ],
+      [
+        "almond-paste",
+        10,
+        "dense body"
+      ],
+      [
+        "cinnamon",
+        5,
+        "warm note",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "almond",
+      "egg yolk",
+      "sugar"
+    ],
+    "basicTaste": [
+      "sweet",
+      "nutty",
+      "rich"
+    ],
+    "textureProfile": [
+      "dense cake",
+      "moist crumb",
+      "powdered surface"
+    ],
+    "riskFlags": [
+      "contains-tree-nut",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "small-sweet"
+    ],
+    "avoidIfTags": [
+      "nut-allergy",
+      "egg-allergy",
+      "prefers-light-desserts"
+    ],
+    "orderVerdict": {
+      "en": "Best as a small rich sweet if almond and egg-yolk desserts appeal.",
+      "zh": "适合想吃小份浓郁杏仁蛋黄甜点时。",
+      "nl": "Het beste als kleine rijke zoetigheid bij amandel en eigeel."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "imageCode": "125059",
+    "imagePath": "/assets/dishes/main/125059-toucinho-do-ceu.webp",
+    "thumbPath": "/assets/dishes/thumb/125059-toucinho-do-ceu.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "sericaia",
+    "metadataCode": "125060",
+    "cuisineId": "portuguese",
+    "names": {
+      "en": "Sericaia",
+      "zh": "葡萄牙肉桂蛋奶甜点",
+      "nl": "Sericaia",
+      "local": "Sericaia"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Alentejo egg and cinnamon pudding-cake, often served with syrupy plums.",
+      "zh": "阿连特茹蛋奶肉桂布丁蛋糕，常配糖浆李子。",
+      "nl": "Alentejo eier-kaneelpuddingcake, vaak met pruimen op siroop."
+    },
+    "cookingProfile": {
+      "en": "Expect a soft custardy dessert with cinnamon aroma and a light baked top.",
+      "zh": "预期是柔软蛋奶质地，带肉桂香和轻微烘烤表面。",
+      "nl": "Zacht custardachtig dessert met kaneelgeur en licht gebakken bovenkant."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "A regional Alentejo dessert recognized by cinnamon and plum pairing.",
+        "zh": "阿连特茹地区甜点，肉桂和李子搭配很有辨识度。",
+        "nl": "Een regionaal Alentejo-dessert met kaneel en pruim."
+      }
+    },
+    "composition": [
+      [
+        "egg",
+        35,
+        "custard structure"
+      ],
+      [
+        "cream",
+        25,
+        "dairy body"
+      ],
+      [
+        "sugar",
+        15,
+        "sweetness"
+      ],
+      [
+        "plum-compote",
+        15,
+        "plum side"
+      ],
+      [
+        "cinnamon",
+        10,
+        "spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cinnamon",
+      "egg custard",
+      "syrupy plums"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "soft pudding-cake",
+      "light baked top",
+      "jammy plum side"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Good if you like custardy desserts with cinnamon; lighter than dense almond cakes.",
+      "zh": "喜欢肉桂蛋奶甜点时适合，比密实杏仁糕轻一些。",
+      "nl": "Goed bij custarddesserts met kaneel; lichter dan dichte amandelcake."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "125060",
+    "imagePath": "/assets/dishes/main/125060-sericaia.webp",
+    "thumbPath": "/assets/dishes/thumb/125060-sericaia.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  }
+]

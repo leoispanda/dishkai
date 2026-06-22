@@ -1,0 +1,272 @@
+[
+  {
+    "dishId": "escalivada",
+    "metadataCode": "105031",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Escalivada",
+    "imagePath": "/assets/dishes/main/105031-escalivada.webp",
+    "thumbPath": "/assets/dishes/thumb/105031-escalivada.webp"
+  },
+  {
+    "dishId": "esqueixada",
+    "metadataCode": "105032",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Esqueixada",
+    "imagePath": "/assets/dishes/main/105032-esqueixada.webp",
+    "thumbPath": "/assets/dishes/thumb/105032-esqueixada.webp"
+  },
+  {
+    "dishId": "pisto",
+    "metadataCode": "105033",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Pisto",
+    "imagePath": "/assets/dishes/main/105033-pisto.webp",
+    "thumbPath": "/assets/dishes/thumb/105033-pisto.webp"
+  },
+  {
+    "dishId": "pipirrana",
+    "metadataCode": "105034",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Pipirrana",
+    "imagePath": "/assets/dishes/main/105034-pipirrana.webp",
+    "thumbPath": "/assets/dishes/thumb/105034-pipirrana.webp"
+  },
+  {
+    "dishId": "migas",
+    "metadataCode": "105035",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Migas",
+    "imagePath": "/assets/dishes/main/105035-migas.webp",
+    "thumbPath": "/assets/dishes/thumb/105035-migas.webp"
+  },
+  {
+    "dishId": "callos-a-la-madrilena",
+    "metadataCode": "105036",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Callos a la Madrilena",
+    "imagePath": "/assets/dishes/main/105036-callos-a-la-madrilena.webp",
+    "thumbPath": "/assets/dishes/thumb/105036-callos-a-la-madrilena.webp"
+  },
+  {
+    "dishId": "sepia-a-la-plancha",
+    "metadataCode": "105037",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Sepia a la Plancha",
+    "imagePath": "/assets/dishes/main/105037-sepia-a-la-plancha.webp",
+    "thumbPath": "/assets/dishes/thumb/105037-sepia-a-la-plancha.webp"
+  },
+  {
+    "dishId": "navajas-a-la-plancha",
+    "metadataCode": "105038",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Navajas a la Plancha",
+    "imagePath": "/assets/dishes/main/105038-navajas-a-la-plancha.webp",
+    "thumbPath": "/assets/dishes/thumb/105038-navajas-a-la-plancha.webp"
+  },
+  {
+    "dishId": "zamburinas",
+    "metadataCode": "105039",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Zamburinas",
+    "imagePath": "/assets/dishes/main/105039-zamburinas.webp",
+    "thumbPath": "/assets/dishes/thumb/105039-zamburinas.webp"
+  },
+  {
+    "dishId": "marmitako",
+    "metadataCode": "105040",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Marmitako",
+    "imagePath": "/assets/dishes/main/105040-marmitako.webp",
+    "thumbPath": "/assets/dishes/thumb/105040-marmitako.webp"
+  },
+  {
+    "dishId": "bacalao-a-la-vizcaina",
+    "metadataCode": "105041",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Bacalao a la Vizcaina",
+    "imagePath": "/assets/dishes/main/105041-bacalao-a-la-vizcaina.webp",
+    "thumbPath": "/assets/dishes/thumb/105041-bacalao-a-la-vizcaina.webp"
+  },
+  {
+    "dishId": "chipirones-en-su-tinta",
+    "metadataCode": "105042",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Chipirones en su Tinta",
+    "imagePath": "/assets/dishes/main/105042-chipirones-en-su-tinta.webp",
+    "thumbPath": "/assets/dishes/thumb/105042-chipirones-en-su-tinta.webp"
+  },
+  {
+    "dishId": "arroz-a-banda",
+    "metadataCode": "105043",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Arroz a Banda",
+    "imagePath": "/assets/dishes/main/105043-arroz-a-banda.webp",
+    "thumbPath": "/assets/dishes/thumb/105043-arroz-a-banda.webp"
+  },
+  {
+    "dishId": "arroz-del-senyoret",
+    "metadataCode": "105044",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Arroz del Senyoret",
+    "imagePath": "/assets/dishes/main/105044-arroz-del-senyoret.webp",
+    "thumbPath": "/assets/dishes/thumb/105044-arroz-del-senyoret.webp"
+  },
+  {
+    "dishId": "calcots",
+    "metadataCode": "105045",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Calcots",
+    "imagePath": "/assets/dishes/main/105045-calcots.webp",
+    "thumbPath": "/assets/dishes/thumb/105045-calcots.webp"
+  },
+  {
+    "dishId": "butifarra",
+    "metadataCode": "105046",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Butifarra",
+    "imagePath": "/assets/dishes/main/105046-butifarra.webp",
+    "thumbPath": "/assets/dishes/thumb/105046-butifarra.webp"
+  },
+  {
+    "dishId": "sobrasada",
+    "metadataCode": "105047",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Sobrasada",
+    "imagePath": "/assets/dishes/main/105047-sobrasada.webp",
+    "thumbPath": "/assets/dishes/thumb/105047-sobrasada.webp"
+  },
+  {
+    "dishId": "coca-de-recapte",
+    "metadataCode": "105048",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Coca de Recapte",
+    "imagePath": "/assets/dishes/main/105048-coca-de-recapte.webp",
+    "thumbPath": "/assets/dishes/thumb/105048-coca-de-recapte.webp"
+  },
+  {
+    "dishId": "empanada-gallega",
+    "metadataCode": "105049",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Empanada Gallega",
+    "imagePath": "/assets/dishes/main/105049-empanada-gallega.webp",
+    "thumbPath": "/assets/dishes/thumb/105049-empanada-gallega.webp"
+  },
+  {
+    "dishId": "lacon-con-grelos",
+    "metadataCode": "105050",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Lacon con Grelos",
+    "imagePath": "/assets/dishes/main/105050-lacon-con-grelos.webp",
+    "thumbPath": "/assets/dishes/thumb/105050-lacon-con-grelos.webp"
+  },
+  {
+    "dishId": "oreja-a-la-plancha",
+    "metadataCode": "105051",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Oreja a la Plancha",
+    "imagePath": "/assets/dishes/main/105051-oreja-a-la-plancha.webp",
+    "thumbPath": "/assets/dishes/thumb/105051-oreja-a-la-plancha.webp"
+  },
+  {
+    "dishId": "txangurro",
+    "metadataCode": "105052",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Txangurro",
+    "imagePath": "/assets/dishes/main/105052-txangurro.webp",
+    "thumbPath": "/assets/dishes/thumb/105052-txangurro.webp"
+  },
+  {
+    "dishId": "kokotxas",
+    "metadataCode": "105053",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Kokotxas",
+    "imagePath": "/assets/dishes/main/105053-kokotxas.webp",
+    "thumbPath": "/assets/dishes/thumb/105053-kokotxas.webp"
+  },
+  {
+    "dishId": "tarta-de-queso-vasca",
+    "metadataCode": "105054",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Basque Cheesecake",
+    "imagePath": "/assets/dishes/main/105054-tarta-de-queso-vasca.webp",
+    "thumbPath": "/assets/dishes/thumb/105054-tarta-de-queso-vasca.webp"
+  },
+  {
+    "dishId": "torrijas",
+    "metadataCode": "105055",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Torrijas",
+    "imagePath": "/assets/dishes/main/105055-torrijas.webp",
+    "thumbPath": "/assets/dishes/thumb/105055-torrijas.webp"
+  },
+  {
+    "dishId": "leche-frita",
+    "metadataCode": "105056",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Leche Frita",
+    "imagePath": "/assets/dishes/main/105056-leche-frita.webp",
+    "thumbPath": "/assets/dishes/thumb/105056-leche-frita.webp"
+  },
+  {
+    "dishId": "natillas",
+    "metadataCode": "105057",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Natillas",
+    "imagePath": "/assets/dishes/main/105057-natillas.webp",
+    "thumbPath": "/assets/dishes/thumb/105057-natillas.webp"
+  },
+  {
+    "dishId": "tocino-de-cielo",
+    "metadataCode": "105058",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Tocino de Cielo",
+    "imagePath": "/assets/dishes/main/105058-tocino-de-cielo.webp",
+    "thumbPath": "/assets/dishes/thumb/105058-tocino-de-cielo.webp"
+  },
+  {
+    "dishId": "ensaimada",
+    "metadataCode": "105059",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Ensaimada",
+    "imagePath": "/assets/dishes/main/105059-ensaimada.webp",
+    "thumbPath": "/assets/dishes/thumb/105059-ensaimada.webp"
+  },
+  {
+    "dishId": "queso-manchego",
+    "metadataCode": "105060",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Queso Manchego",
+    "imagePath": "/assets/dishes/main/105060-queso-manchego.webp",
+    "thumbPath": "/assets/dishes/thumb/105060-queso-manchego.webp"
+  }
+]

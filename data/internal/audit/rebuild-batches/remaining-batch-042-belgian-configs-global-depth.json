@@ -1,0 +1,444 @@
+[
+  {
+    "id": "stoofvlees",
+    "metadataCode": "107019",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Stoofvlees",
+      "zh": "佛兰德啤酒炖牛肉",
+      "nl": "Stoofvlees",
+      "local": "Stoofvlees"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "braised"
+    ],
+    "shortDescription": {
+      "en": "Flemish beef stew braised in beer, usually served with Belgian fries.",
+      "zh": "佛兰德牛肉用啤酒炖煮，通常配比利时薯条。",
+      "nl": "Vlaams rundvleesstoofpotje met bier, meestal met friet."
+    },
+    "cookingProfile": {
+      "en": "Expect dark, sweet-savory beef gravy and tender beef chunks.",
+      "zh": "入口是深色甜咸肉汁和软烂牛肉块。",
+      "nl": "Verwacht donkere zoet-hartige jus en mals rundvlees."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "signature-dish"
+      ],
+      "description": {
+        "en": "A Belgian classic beef stew where beer gravy and fries are the key cues.",
+        "zh": "比利时经典炖牛肉，重点是啤酒肉汁和薯条。",
+        "nl": "Een Belgische klassieker met bierjus en friet."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        55,
+        "stewed beef"
+      ],
+      [
+        "beer",
+        15,
+        "braising liquid",
+        "seasoning"
+      ],
+      [
+        "onion",
+        10,
+        "sweet base"
+      ],
+      [
+        "fries",
+        15,
+        "side"
+      ],
+      [
+        "mustard",
+        5,
+        "tang",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "beer gravy",
+      "slow-braised beef",
+      "fries"
+    ],
+    "basicTaste": [
+      "savory",
+      "malty",
+      "sweet-rich"
+    ],
+    "textureProfile": [
+      "tender beef chunks",
+      "thick gravy",
+      "crisp fries"
+    ],
+    "riskFlags": [
+      "contains-alcohol",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "classic-dish",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "avoid-alcohol",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "A strong Belgian comfort choice; pick it if beef stew with fries sounds good.",
+      "zh": "非常稳的比利时家常选择；想吃炖牛肉配薯条时适合。",
+      "nl": "Een sterke Belgische comfortkeuze; kies dit als stoofvlees met friet goed klinkt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "imageCode": "107019",
+    "imagePath": "/assets/dishes/main/107019-stoofvlees.webp",
+    "thumbPath": "/assets/dishes/thumb/107019-stoofvlees.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "paling-in-t-groen",
+    "metadataCode": "107020",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Paling in het Groen",
+      "zh": "绿酱鳗鱼",
+      "nl": "Paling in 't groen",
+      "local": "Paling in 't groen"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Eel pieces served in a bright green herb sauce, often with potatoes.",
+      "zh": "鳗鱼段配鲜绿色香草酱，常搭土豆。",
+      "nl": "Stukken paling in groene kruidensaus, vaak met aardappelen."
+    },
+    "cookingProfile": {
+      "en": "The sauce is herbal and fresh, while eel is rich and soft.",
+      "zh": "酱汁青草香明显，鳗鱼本身柔软肥润。",
+      "nl": "De saus is kruidig en fris, de paling rijk en zacht."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Belgian regional eel dish recognized by vivid green herb sauce.",
+        "zh": "比利时地区鳗鱼菜，重点是鲜绿色香草酱。",
+        "nl": "Een Belgische streekschotel met paling in felgroene kruidensaus."
+      }
+    },
+    "composition": [
+      [
+        "eel",
+        55,
+        "fish"
+      ],
+      [
+        "green-onion",
+        10,
+        "green herb base"
+      ],
+      [
+        "parsley",
+        10,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "aroma",
+        "seasoning"
+      ],
+      [
+        "vinegar",
+        5,
+        "brightness",
+        "seasoning"
+      ],
+      [
+        "potato",
+        15,
+        "side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "eel",
+      "green herb sauce",
+      "garlic"
+    ],
+    "basicTaste": [
+      "herbal",
+      "rich",
+      "savory"
+    ],
+    "textureProfile": [
+      "soft eel pieces",
+      "smooth green sauce",
+      "tender potatoes"
+    ],
+    "riskFlags": [
+      "contains-fish"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "regional-dish",
+      "seafood"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "dislikes-eel"
+    ],
+    "orderVerdict": {
+      "en": "Order if eel and herb sauce sound appealing; skip if eel texture worries you.",
+      "zh": "喜欢鳗鱼和香草酱时可点；不适应鳗鱼口感则谨慎。",
+      "nl": "Bestel als paling en kruidensaus je aanspreken; sla over als palingtextuur lastig is."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "imageCode": "107020",
+    "imagePath": "/assets/dishes/main/107020-paling-in-t-groen.webp",
+    "thumbPath": "/assets/dishes/thumb/107020-paling-in-t-groen.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "sirop-de-liege-dessert",
+    "metadataCode": "107028",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Sirop de Liège Dessert",
+      "zh": "列日果膏配奶酪",
+      "nl": "Luikse siroop dessert",
+      "local": "Sirop de Liège"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Dark apple-pear syrup served with bread, cheese, or a simple dessert plate.",
+      "zh": "深色苹果梨果膏，常配面包、奶酪或简单甜点盘。",
+      "nl": "Donkere appel-perensiroop met brood, kaas of eenvoudig dessertbord."
+    },
+    "cookingProfile": {
+      "en": "It is thick, fruity, and sweet-sour, closer to a condiment-pairing dessert than cake.",
+      "zh": "质地浓稠，果味甜酸，更像配奶酪面包的果膏，不是蛋糕。",
+      "nl": "Dik, fruitig en zoetzuur, eerder een dessertbeleg dan cake."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish"
+      ],
+      "description": {
+        "en": "A Liège regional fruit syrup often paired with cheese or bread.",
+        "zh": "列日地区果膏，常和奶酪或面包搭配。",
+        "nl": "Een Luikse vruchtensiroop vaak met kaas of brood."
+      }
+    },
+    "composition": [
+      [
+        "fruit-sauce-or-caramel",
+        45,
+        "dark fruit syrup"
+      ],
+      [
+        "cheese",
+        25,
+        "pairing"
+      ],
+      [
+        "bread",
+        20,
+        "side"
+      ],
+      [
+        "apple",
+        10,
+        "fruit cue"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "apple-pear syrup",
+      "cheese pairing",
+      "bread"
+    ],
+    "basicTaste": [
+      "sweet-sour",
+      "fruity",
+      "rich"
+    ],
+    "textureProfile": [
+      "thick glossy syrup",
+      "firm cheese",
+      "crusty bread"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "regional-dish",
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "gluten-free",
+      "avoid-sweet-sour"
+    ],
+    "orderVerdict": {
+      "en": "Good for a regional sweet-cheese pairing; skip if you expect a full pastry.",
+      "zh": "适合尝地区果膏配奶酪；如果期待完整糕点则不适合。",
+      "nl": "Goed voor regionale zoet-kaascombinatie; geen volwaardig gebak."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "imageCode": "107028",
+    "imagePath": "/assets/dishes/main/107028-sirop-de-liege-dessert.webp",
+    "thumbPath": "/assets/dishes/thumb/107028-sirop-de-liege-dessert.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "belgian-endive-salad",
+    "metadataCode": "107029",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Belgian Endive Salad",
+      "zh": "比利时菊苣沙拉",
+      "nl": "Witlofsalade",
+      "local": "Belgian endive salad"
+    },
+    "category": "salad",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Raw Belgian endive salad with apple, nuts, herbs, and a light creamy dressing.",
+      "zh": "生比利时菊苣沙拉，配苹果、坚果、香草和轻奶油酱。",
+      "nl": "Rauwe witlofsalade met appel, noten, kruiden en lichte romige dressing."
+    },
+    "cookingProfile": {
+      "en": "Expect crisp, slightly bitter leaves balanced by apple sweetness and dressing.",
+      "zh": "口感爽脆，菊苣微苦，苹果和酱汁带来平衡。",
+      "nl": "Knapperig en licht bitter, in balans met appel en dressing."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "lighter-choice"
+      ],
+      "description": {
+        "en": "A common Belgian salad where raw endive bitterness is the main cue.",
+        "zh": "比利时常见沙拉，重点是生菊苣的微苦脆感。",
+        "nl": "Een veelvoorkomende Belgische salade met rauw witloof."
+      }
+    },
+    "composition": [
+      [
+        "endive",
+        55,
+        "raw leaves"
+      ],
+      [
+        "apple",
+        15,
+        "sweet crunch"
+      ],
+      [
+        "almonds",
+        10,
+        "nutty crunch"
+      ],
+      [
+        "mayonnaise",
+        10,
+        "creamy dressing"
+      ],
+      [
+        "vinegar",
+        5,
+        "brightness",
+        "seasoning"
+      ],
+      [
+        "parsley",
+        5,
+        "finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "Belgian endive",
+      "apple",
+      "creamy vinaigrette"
+    ],
+    "basicTaste": [
+      "fresh",
+      "slightly bitter",
+      "sweet-sour"
+    ],
+    "textureProfile": [
+      "crisp leaves",
+      "juicy apple",
+      "creamy dressing"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "lighter-choice",
+      "salad"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "nut-allergy",
+      "dislikes-bitter"
+    ],
+    "orderVerdict": {
+      "en": "A lighter Belgian choice; skip if bitter raw endive is not appealing.",
+      "zh": "是较清爽的比利时选择；不喜欢生菊苣微苦则避开。",
+      "nl": "Een lichtere Belgische keuze; sla over als rauw witloof te bitter is."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 2,
+    "imageCode": "107029",
+    "imagePath": "/assets/dishes/main/107029-belgian-endive-salad.webp",
+    "thumbPath": "/assets/dishes/thumb/107029-belgian-endive-salad.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  }
+]

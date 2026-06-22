@@ -1,0 +1,272 @@
+[
+  {
+    "dishId": "tarte-al-djote",
+    "metadataCode": "107033",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Tarte al Djote",
+    "imagePath": "/assets/dishes/main/107033-tarte-al-djote.webp",
+    "thumbPath": "/assets/dishes/thumb/107033-tarte-al-djote.webp"
+  },
+  {
+    "dishId": "potjevleesch",
+    "metadataCode": "107034",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Potjevleesch",
+    "imagePath": "/assets/dishes/main/107034-potjevleesch.webp",
+    "thumbPath": "/assets/dishes/thumb/107034-potjevleesch.webp"
+  },
+  {
+    "dishId": "boudin-blanc",
+    "metadataCode": "107035",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Boudin Blanc",
+    "imagePath": "/assets/dishes/main/107035-boudin-blanc.webp",
+    "thumbPath": "/assets/dishes/thumb/107035-boudin-blanc.webp"
+  },
+  {
+    "dishId": "boudin-noir",
+    "metadataCode": "107036",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Boudin Noir",
+    "imagePath": "/assets/dishes/main/107036-boudin-noir.webp",
+    "thumbPath": "/assets/dishes/thumb/107036-boudin-noir.webp"
+  },
+  {
+    "dishId": "americain-prepare",
+    "metadataCode": "107037",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Americain Prepare",
+    "imagePath": "/assets/dishes/main/107037-americain-prepare.webp",
+    "thumbPath": "/assets/dishes/thumb/107037-americain-prepare.webp"
+  },
+  {
+    "dishId": "belgian-spaghetti-bolognese",
+    "metadataCode": "107038",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Belgian Spaghetti Bolognese",
+    "imagePath": "/assets/dishes/main/107038-belgian-spaghetti-bolognese.webp",
+    "thumbPath": "/assets/dishes/thumb/107038-belgian-spaghetti-bolognese.webp"
+  },
+  {
+    "dishId": "crevettes-grises-cocktail",
+    "metadataCode": "107039",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Crevettes Grises Cocktail",
+    "imagePath": "/assets/dishes/main/107039-crevettes-grises-cocktail.webp",
+    "thumbPath": "/assets/dishes/thumb/107039-crevettes-grises-cocktail.webp"
+  },
+  {
+    "dishId": "cod-with-leeks",
+    "metadataCode": "107040",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Cod with Leeks",
+    "imagePath": "/assets/dishes/main/107040-cod-with-leeks.webp",
+    "thumbPath": "/assets/dishes/thumb/107040-cod-with-leeks.webp"
+  },
+  {
+    "dishId": "hesp-rolletjes",
+    "metadataCode": "107043",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Hesp Rolletjes",
+    "imagePath": "/assets/dishes/main/107043-hesp-rolletjes.webp",
+    "thumbPath": "/assets/dishes/thumb/107043-hesp-rolletjes.webp"
+  },
+  {
+    "dishId": "kip-aan-t-spit",
+    "metadataCode": "107044",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Kip aan t Spit",
+    "imagePath": "/assets/dishes/main/107044-kip-aan-t-spit.webp",
+    "thumbPath": "/assets/dishes/thumb/107044-kip-aan-t-spit.webp"
+  },
+  {
+    "dishId": "vlaamse-stoofkarbonaden",
+    "metadataCode": "107046",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Vlaamse Stoofkarbonaden",
+    "imagePath": "/assets/dishes/main/107046-vlaamse-stoofkarbonaden.webp",
+    "thumbPath": "/assets/dishes/thumb/107046-vlaamse-stoofkarbonaden.webp"
+  },
+  {
+    "dishId": "lacquemants",
+    "metadataCode": "107048",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Lacquemants",
+    "imagePath": "/assets/dishes/main/107048-lacquemants.webp",
+    "thumbPath": "/assets/dishes/thumb/107048-lacquemants.webp"
+  },
+  {
+    "dishId": "cuberdon",
+    "metadataCode": "107049",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Cuberdon",
+    "imagePath": "/assets/dishes/main/107049-cuberdon.webp",
+    "thumbPath": "/assets/dishes/thumb/107049-cuberdon.webp"
+  },
+  {
+    "dishId": "merveilleux",
+    "metadataCode": "107050",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Merveilleux",
+    "imagePath": "/assets/dishes/main/107050-merveilleux.webp",
+    "thumbPath": "/assets/dishes/thumb/107050-merveilleux.webp"
+  },
+  {
+    "dishId": "miserable-cake",
+    "metadataCode": "107051",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Miserable Cake",
+    "imagePath": "/assets/dishes/main/107051-miserable-cake.webp",
+    "thumbPath": "/assets/dishes/thumb/107051-miserable-cake.webp"
+  },
+  {
+    "dishId": "cougnou",
+    "metadataCode": "107052",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Cougnou",
+    "imagePath": "/assets/dishes/main/107052-cougnou.webp",
+    "thumbPath": "/assets/dishes/thumb/107052-cougnou.webp"
+  },
+  {
+    "dishId": "cramique",
+    "metadataCode": "107053",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Cramique",
+    "imagePath": "/assets/dishes/main/107053-cramique.webp",
+    "thumbPath": "/assets/dishes/thumb/107053-cramique.webp"
+  },
+  {
+    "dishId": "suikerbrood-belgian",
+    "metadataCode": "107054",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Belgian Suikerbrood",
+    "imagePath": "/assets/dishes/main/107054-suikerbrood-belgian.webp",
+    "thumbPath": "/assets/dishes/thumb/107054-suikerbrood-belgian.webp"
+  },
+  {
+    "dishId": "rijstpap",
+    "metadataCode": "107055",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Rijstpap",
+    "imagePath": "/assets/dishes/main/107055-rijstpap.webp",
+    "thumbPath": "/assets/dishes/thumb/107055-rijstpap.webp"
+  },
+  {
+    "dishId": "pistolet",
+    "metadataCode": "107056",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Pistolet",
+    "imagePath": "/assets/dishes/main/107056-pistolet.webp",
+    "thumbPath": "/assets/dishes/thumb/107056-pistolet.webp"
+  },
+  {
+    "dishId": "smoutebollen",
+    "metadataCode": "107057",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Smoutebollen",
+    "imagePath": "/assets/dishes/main/107057-smoutebollen.webp",
+    "thumbPath": "/assets/dishes/thumb/107057-smoutebollen.webp"
+  },
+  {
+    "dishId": "gaufres-de-liege",
+    "metadataCode": "107058",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Gaufres de Liege",
+    "imagePath": "/assets/dishes/main/107058-gaufres-de-liege.webp",
+    "thumbPath": "/assets/dishes/thumb/107058-gaufres-de-liege.webp"
+  },
+  {
+    "dishId": "gaufres-de-bruxelles",
+    "metadataCode": "107059",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Gaufres de Bruxelles",
+    "imagePath": "/assets/dishes/main/107059-gaufres-de-bruxelles.webp",
+    "thumbPath": "/assets/dishes/thumb/107059-gaufres-de-bruxelles.webp"
+  },
+  {
+    "dishId": "boule-de-berlin-belgian",
+    "metadataCode": "107060",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Belgian Boule de Berlin",
+    "imagePath": "/assets/dishes/main/107060-boule-de-berlin-belgian.webp",
+    "thumbPath": "/assets/dishes/thumb/107060-boule-de-berlin-belgian.webp"
+  },
+  {
+    "dishId": "stoofvlees",
+    "metadataCode": "107019",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Stoofvlees",
+    "imagePath": "/assets/dishes/main/107019-stoofvlees.webp",
+    "thumbPath": "/assets/dishes/thumb/107019-stoofvlees.webp"
+  },
+  {
+    "dishId": "paling-in-t-groen",
+    "metadataCode": "107020",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Paling in het Groen",
+    "imagePath": "/assets/dishes/main/107020-paling-in-t-groen.webp",
+    "thumbPath": "/assets/dishes/thumb/107020-paling-in-t-groen.webp"
+  },
+  {
+    "dishId": "grey-shrimp-tomato",
+    "metadataCode": "107022",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Grey Shrimp Tomato",
+    "imagePath": "/assets/dishes/main/107022-grey-shrimp-tomato.webp",
+    "thumbPath": "/assets/dishes/thumb/107022-grey-shrimp-tomato.webp"
+  },
+  {
+    "dishId": "sirop-de-liege-dessert",
+    "metadataCode": "107028",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Sirop de Liège Dessert",
+    "imagePath": "/assets/dishes/main/107028-sirop-de-liege-dessert.webp",
+    "thumbPath": "/assets/dishes/thumb/107028-sirop-de-liege-dessert.webp"
+  },
+  {
+    "dishId": "belgian-endive-salad",
+    "metadataCode": "107029",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Belgian Endive Salad",
+    "imagePath": "/assets/dishes/main/107029-belgian-endive-salad.webp",
+    "thumbPath": "/assets/dishes/thumb/107029-belgian-endive-salad.webp"
+  },
+  {
+    "dishId": "beef-tartare-belgian",
+    "metadataCode": "107030",
+    "cuisineId": "belgian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Belgian Steak Tartare",
+    "imagePath": "/assets/dishes/main/107030-beef-tartare-belgian.webp",
+    "thumbPath": "/assets/dishes/thumb/107030-beef-tartare-belgian.webp"
+  }
+]

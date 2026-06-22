@@ -62,7 +62,10 @@ def main():
         sheet.paste(tile, (x, y))
         draw.rectangle((x, y, x + image_size, y + image_size), outline="#d8cec2", width=1)
         label_y = y + image_size + 7
-        draw.text((x, label_y), f"{row['metadataCode']} {row['dishId']}", fill="#2d2924", font=font_bold)
+        title = f"{row['metadataCode']} {row['dishId']}"
+        if len(title) > 27:
+            title = title[:24] + "..."
+        draw.text((x, label_y), title, fill="#2d2924", font=font_bold)
         name = row.get("name", "")
         if len(name) > 26:
             name = name[:23] + "..."

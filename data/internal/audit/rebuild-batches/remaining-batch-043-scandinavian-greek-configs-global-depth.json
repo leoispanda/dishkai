@@ -1,0 +1,230 @@
+[
+  {
+    "id": "open-faced-herring",
+    "metadataCode": "128023",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Herring Smørrebrød",
+      "zh": "鲱鱼开放三明治",
+      "nl": "Haring smørrebrød",
+      "local": "Sild smørrebrød"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "assembled",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Danish open-faced rye sandwich topped with pickled herring, onion, dill, and sauce.",
+      "zh": "丹麦黑麦开放三明治，上面铺腌鲱鱼、洋葱、莳萝和酱。",
+      "nl": "Deense open roggebroodsnede met ingelegde haring, ui, dille en saus."
+    },
+    "cookingProfile": {
+      "en": "It is cold, briny, and bread-based, more like a composed lunch toast than a fish platter.",
+      "zh": "冷食、咸鲜、以面包为底，更像组合午餐吐司而非鱼拼盘。",
+      "nl": "Koud, zilt en broodgericht, meer lunchtoast dan visplank."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "seafood"
+      ],
+      "description": {
+        "en": "A classic Danish smørrebrød variant with herring as the main topping.",
+        "zh": "经典丹麦开放三明治变体，以鲱鱼为主料。",
+        "nl": "Een klassieke Deense smørrebrødvariant met haring als topping."
+      }
+    },
+    "composition": [
+      [
+        "rye-bread",
+        30,
+        "open sandwich base"
+      ],
+      [
+        "herring",
+        40,
+        "pickled topping"
+      ],
+      [
+        "onion",
+        10,
+        "sharp garnish"
+      ],
+      [
+        "sour-cream",
+        10,
+        "cooling sauce"
+      ],
+      [
+        "dill",
+        5,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "capers",
+        5,
+        "briny garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "pickled herring",
+      "rye bread",
+      "dill sauce"
+    ],
+    "basicTaste": [
+      "salty",
+      "sour",
+      "earthy"
+    ],
+    "textureProfile": [
+      "dense rye bread",
+      "silky herring",
+      "crisp onion"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "lunch",
+      "seafood"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "gluten-free",
+      "dairy-free",
+      "avoids-pickled-fish"
+    ],
+    "orderVerdict": {
+      "en": "Order if pickled herring on rye sounds appealing; avoid if briny fish is not your thing.",
+      "zh": "喜欢黑麦面包配腌鲱鱼时适合；不爱咸鲜腌鱼则避开。",
+      "nl": "Bestel als haring op rogge je aanspreekt; vermijd bij afkeer van zilte vis."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 3,
+    "imageCode": "128023",
+    "imagePath": "/assets/dishes/main/128023-open-faced-herring.webp",
+    "thumbPath": "/assets/dishes/thumb/128023-open-faced-herring.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "brunost-toast",
+    "metadataCode": "128030",
+    "cuisineId": "scandinavian",
+    "names": {
+      "en": "Brunost Toast",
+      "zh": "挪威棕奶酪吐司",
+      "nl": "Brunost toast",
+      "local": "Brunost toast"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "toasted"
+    ],
+    "shortDescription": {
+      "en": "Norwegian toast with caramel-brown brunost cheese, often paired with jam or fruit.",
+      "zh": "挪威吐司配焦糖棕色 brunost 奶酪，常配果酱或水果。",
+      "nl": "Noorse toast met karamelbruine brunost, vaak met jam of fruit."
+    },
+    "cookingProfile": {
+      "en": "Expect a sweet-salty caramel dairy flavor, more unusual than regular cheese toast.",
+      "zh": "预期是甜咸焦糖乳香，比普通奶酪吐司更特别。",
+      "nl": "Zoet-zoute karamelzuivelsmaak, ongebruikelijker dan gewone kaastosti."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "breakfast"
+      ],
+      "description": {
+        "en": "A Norwegian cafe/breakfast item built around distinctive brown cheese.",
+        "zh": "挪威咖啡馆/早餐小食，核心是特色棕奶酪。",
+        "nl": "Een Noors café- of ontbijtgerecht rond bruine kaas."
+      }
+    },
+    "composition": [
+      [
+        "brunost-cheese",
+        45,
+        "brown cheese"
+      ],
+      [
+        "bread",
+        30,
+        "toast"
+      ],
+      [
+        "butter",
+        10,
+        "toast richness"
+      ],
+      [
+        "lingonberry-jam",
+        10,
+        "berry side"
+      ],
+      [
+        "apple",
+        5,
+        "fresh side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "brunost caramel dairy",
+      "toast",
+      "berry jam"
+    ],
+    "basicTaste": [
+      "sweet-savory",
+      "caramel-like",
+      "mildly salty"
+    ],
+    "textureProfile": [
+      "firm cheese slices",
+      "crisp toast",
+      "jammy side"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "breakfast",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "gluten-free",
+      "dislikes-sweet-cheese"
+    ],
+    "orderVerdict": {
+      "en": "Worth trying if caramel-like cheese sounds fun; skip if sweet cheese feels odd.",
+      "zh": "如果对焦糖感奶酪好奇值得尝；不接受甜奶酪则避开。",
+      "nl": "Leuk om te proberen als karamelachtige kaas je aanspreekt; sla over bij zoete kaas."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "imageCode": "128030",
+    "imagePath": "/assets/dishes/main/128030-brunost-toast.webp",
+    "thumbPath": "/assets/dishes/thumb/128030-brunost-toast.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  }
+]

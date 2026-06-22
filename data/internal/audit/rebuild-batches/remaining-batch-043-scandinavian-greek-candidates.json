@@ -1,0 +1,272 @@
+[
+  {
+    "dishId": "flaskpannkaka",
+    "metadataCode": "128031",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Flaskpannkaka",
+    "imagePath": "/assets/dishes/main/128031-flaskpannkaka.webp",
+    "thumbPath": "/assets/dishes/thumb/128031-flaskpannkaka.webp"
+  },
+  {
+    "dishId": "isterband",
+    "metadataCode": "128032",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Isterband",
+    "imagePath": "/assets/dishes/main/128032-isterband.webp",
+    "thumbPath": "/assets/dishes/thumb/128032-isterband.webp"
+  },
+  {
+    "dishId": "falukorv",
+    "metadataCode": "128033",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Falukorv",
+    "imagePath": "/assets/dishes/main/128033-falukorv.webp",
+    "thumbPath": "/assets/dishes/thumb/128033-falukorv.webp"
+  },
+  {
+    "dishId": "wallenbergare",
+    "metadataCode": "128034",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Wallenbergare",
+    "imagePath": "/assets/dishes/main/128034-wallenbergare.webp",
+    "thumbPath": "/assets/dishes/thumb/128034-wallenbergare.webp"
+  },
+  {
+    "dishId": "medisterpolse",
+    "metadataCode": "128036",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Medisterpolse",
+    "imagePath": "/assets/dishes/main/128036-medisterpolse.webp",
+    "thumbPath": "/assets/dishes/thumb/128036-medisterpolse.webp"
+  },
+  {
+    "dishId": "biksemad",
+    "metadataCode": "128037",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Biksemad",
+    "imagePath": "/assets/dishes/main/128037-biksemad.webp",
+    "thumbPath": "/assets/dishes/thumb/128037-biksemad.webp"
+  },
+  {
+    "dishId": "rugbrod",
+    "metadataCode": "128038",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Rugbrod",
+    "imagePath": "/assets/dishes/main/128038-rugbrod.webp",
+    "thumbPath": "/assets/dishes/thumb/128038-rugbrod.webp"
+  },
+  {
+    "dishId": "rommegrot",
+    "metadataCode": "128039",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Rommegrot",
+    "imagePath": "/assets/dishes/main/128039-rommegrot.webp",
+    "thumbPath": "/assets/dishes/thumb/128039-rommegrot.webp"
+  },
+  {
+    "dishId": "pinnekjott",
+    "metadataCode": "128041",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Pinnekjott",
+    "imagePath": "/assets/dishes/main/128041-pinnekjott.webp",
+    "thumbPath": "/assets/dishes/thumb/128041-pinnekjott.webp"
+  },
+  {
+    "dishId": "ribbe-norwegian",
+    "metadataCode": "128042",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Norwegian Ribbe",
+    "imagePath": "/assets/dishes/main/128042-ribbe-norwegian.webp",
+    "thumbPath": "/assets/dishes/thumb/128042-ribbe-norwegian.webp"
+  },
+  {
+    "dishId": "fiskegrateng",
+    "metadataCode": "128043",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Fiskegrateng",
+    "imagePath": "/assets/dishes/main/128043-fiskegrateng.webp",
+    "thumbPath": "/assets/dishes/thumb/128043-fiskegrateng.webp"
+  },
+  {
+    "dishId": "skrei",
+    "metadataCode": "128044",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Skrei",
+    "imagePath": "/assets/dishes/main/128044-skrei.webp",
+    "thumbPath": "/assets/dishes/thumb/128044-skrei.webp"
+  },
+  {
+    "dishId": "smalahove",
+    "metadataCode": "128045",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Smalahove",
+    "imagePath": "/assets/dishes/main/128045-smalahove.webp",
+    "thumbPath": "/assets/dishes/thumb/128045-smalahove.webp"
+  },
+  {
+    "dishId": "blabarsoppa",
+    "metadataCode": "128046",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Blabarsoppa",
+    "imagePath": "/assets/dishes/main/128046-blabarsoppa.webp",
+    "thumbPath": "/assets/dishes/thumb/128046-blabarsoppa.webp"
+  },
+  {
+    "dishId": "kanelsnegle",
+    "metadataCode": "128048",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Kanelsnegle",
+    "imagePath": "/assets/dishes/main/128048-kanelsnegle.webp",
+    "thumbPath": "/assets/dishes/thumb/128048-kanelsnegle.webp"
+  },
+  {
+    "dishId": "wienerbrod",
+    "metadataCode": "128049",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Wienerbrod",
+    "imagePath": "/assets/dishes/main/128049-wienerbrod.webp",
+    "thumbPath": "/assets/dishes/thumb/128049-wienerbrod.webp"
+  },
+  {
+    "dishId": "kransekake",
+    "metadataCode": "128050",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Kransekake",
+    "imagePath": "/assets/dishes/main/128050-kransekake.webp",
+    "thumbPath": "/assets/dishes/thumb/128050-kransekake.webp"
+  },
+  {
+    "dishId": "lefse",
+    "metadataCode": "128051",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Lefse",
+    "imagePath": "/assets/dishes/main/128051-lefse.webp",
+    "thumbPath": "/assets/dishes/thumb/128051-lefse.webp"
+  },
+  {
+    "dishId": "pannukakku",
+    "metadataCode": "128052",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Pannukakku",
+    "imagePath": "/assets/dishes/main/128052-pannukakku.webp",
+    "thumbPath": "/assets/dishes/thumb/128052-pannukakku.webp"
+  },
+  {
+    "dishId": "poronkaristys",
+    "metadataCode": "128053",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Poronkaristys",
+    "imagePath": "/assets/dishes/main/128053-poronkaristys.webp",
+    "thumbPath": "/assets/dishes/thumb/128053-poronkaristys.webp"
+  },
+  {
+    "dishId": "karjalanpaisti",
+    "metadataCode": "128054",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Karjalanpaisti",
+    "imagePath": "/assets/dishes/main/128054-karjalanpaisti.webp",
+    "thumbPath": "/assets/dishes/thumb/128054-karjalanpaisti.webp"
+  },
+  {
+    "dishId": "silakkapihvit",
+    "metadataCode": "128055",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Silakkapihvit",
+    "imagePath": "/assets/dishes/main/128055-silakkapihvit.webp",
+    "thumbPath": "/assets/dishes/thumb/128055-silakkapihvit.webp"
+  },
+  {
+    "dishId": "hernekeitto",
+    "metadataCode": "128056",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Hernekeitto",
+    "imagePath": "/assets/dishes/main/128056-hernekeitto.webp",
+    "thumbPath": "/assets/dishes/thumb/128056-hernekeitto.webp"
+  },
+  {
+    "dishId": "rakmacka",
+    "metadataCode": "128057",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Rakmacka",
+    "imagePath": "/assets/dishes/main/128057-rakmacka.webp",
+    "thumbPath": "/assets/dishes/thumb/128057-rakmacka.webp"
+  },
+  {
+    "dishId": "silltallrik",
+    "metadataCode": "128058",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Silltallrik",
+    "imagePath": "/assets/dishes/main/128058-silltallrik.webp",
+    "thumbPath": "/assets/dishes/thumb/128058-silltallrik.webp"
+  },
+  {
+    "dishId": "gravlax-toast",
+    "metadataCode": "128059",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Gravlax Toast",
+    "imagePath": "/assets/dishes/main/128059-gravlax-toast.webp",
+    "thumbPath": "/assets/dishes/thumb/128059-gravlax-toast.webp"
+  },
+  {
+    "dishId": "rabarberpaj",
+    "metadataCode": "128060",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Rabarberpaj",
+    "imagePath": "/assets/dishes/main/128060-rabarberpaj.webp",
+    "thumbPath": "/assets/dishes/thumb/128060-rabarberpaj.webp"
+  },
+  {
+    "dishId": "open-faced-herring",
+    "metadataCode": "128023",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Herring Smørrebrød",
+    "imagePath": "/assets/dishes/main/128023-open-faced-herring.webp",
+    "thumbPath": "/assets/dishes/thumb/128023-open-faced-herring.webp"
+  },
+  {
+    "dishId": "brunost-toast",
+    "metadataCode": "128030",
+    "cuisineId": "scandinavian",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Brunost Toast",
+    "imagePath": "/assets/dishes/main/128030-brunost-toast.webp",
+    "thumbPath": "/assets/dishes/thumb/128030-brunost-toast.webp"
+  },
+  {
+    "dishId": "tiropita",
+    "metadataCode": "104059",
+    "cuisineId": "greek",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Tiropita",
+    "imagePath": "/assets/dishes/main/104059-tiropita.webp",
+    "thumbPath": "/assets/dishes/thumb/104059-tiropita.webp"
+  }
+]

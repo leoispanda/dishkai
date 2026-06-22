@@ -1,0 +1,2362 @@
+[
+  {
+    "id": "tarte-al-djote",
+    "metadataCode": "107033",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Tarte al Djote",
+      "zh": "比利时绿叶奶酪咸派",
+      "nl": "Tarte al djote",
+      "local": "Tarte al djote"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "A savory tart from Nivelles filled with chard or beet greens and local cheese.",
+      "zh": "尼韦勒地区咸派，内馅是甜菜叶或莙荙菜和本地奶酪。",
+      "nl": "Een hartige taart uit Nijvel met snijbiet of bietengroen en lokale kaas."
+    },
+    "cookingProfile": {
+      "en": "Expect a rich green-cheese filling in a crisp tart crust.",
+      "zh": "入口是浓郁绿叶奶酪馅和酥脆派皮。",
+      "nl": "Verwacht een rijke groen-kaasvulling in krokant deeg."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish"
+      ],
+      "description": {
+        "en": "A Walloon regional tart recognized by leafy greens and cheese filling.",
+        "zh": "瓦隆地区代表性咸派，重点是绿叶菜和奶酪馅。",
+        "nl": "Een Waalse streektaart met bladgroen en kaasvulling."
+      }
+    },
+    "composition": [
+      [
+        "pastry-crust",
+        35,
+        "tart shell"
+      ],
+      [
+        "chard-greens",
+        30,
+        "leafy filling"
+      ],
+      [
+        "curd-cheese",
+        20,
+        "cheese filling"
+      ],
+      [
+        "egg",
+        10,
+        "binder"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "leafy greens",
+      "local cheese",
+      "buttery crust"
+    ],
+    "basicTaste": [
+      "savory",
+      "creamy",
+      "green"
+    ],
+    "textureProfile": [
+      "crisp crust",
+      "soft leafy filling",
+      "creamy cheese"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "regional-dish",
+      "starter"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Good for a regional savory tart; skip if leafy cheese fillings are not appealing.",
+      "zh": "想尝地区咸派时适合；不喜欢绿叶菜奶酪馅则谨慎。",
+      "nl": "Goed voor een regionale hartige taart; sla over als bladgroen met kaas niet past."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "107033",
+    "imagePath": "/assets/dishes/main/107033-tarte-al-djote.webp",
+    "thumbPath": "/assets/dishes/thumb/107033-tarte-al-djote.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "potjevleesch",
+    "metadataCode": "107034",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Potjevleesch",
+      "zh": "冷肉冻",
+      "nl": "Potjevleesch",
+      "local": "Potjevleesch"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "set",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Cold jellied terrine of mixed white meats, often eaten with fries and pickles.",
+      "zh": "冷食混合白肉冻，常配薯条和酸黄瓜。",
+      "nl": "Koude vleesterrine in gelei, vaak met friet en augurk."
+    },
+    "cookingProfile": {
+      "en": "The meat is firm and cold in clear jelly, not a hot stew.",
+      "zh": "肉块在透明肉冻中冷食，质地紧实，不是热炖菜。",
+      "nl": "Het vlees is koud en stevig in heldere gelei, geen warme stoof."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish"
+      ],
+      "description": {
+        "en": "A Flemish and northern French regional cold meat dish with visible aspic.",
+        "zh": "佛兰德及法国北部地区冷肉菜，重点是透明肉冻。",
+        "nl": "Een Vlaams en Noord-Frans koud vleesgerecht met zichtbare aspic."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        30,
+        "white meat"
+      ],
+      [
+        "pork",
+        25,
+        "meat pieces"
+      ],
+      [
+        "rabbit",
+        20,
+        "meat pieces"
+      ],
+      [
+        "gelatin",
+        15,
+        "aspic"
+      ],
+      [
+        "fries",
+        10,
+        "side"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cold aspic",
+      "mixed meats",
+      "pickles"
+    ],
+    "basicTaste": [
+      "savory",
+      "cool",
+      "mildly tangy"
+    ],
+    "textureProfile": [
+      "firm cold meat",
+      "wobbly aspic",
+      "crisp fries"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "regional-dish",
+      "cold-starter"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "dislikes-aspic"
+    ],
+    "orderVerdict": {
+      "en": "Order if a cold jellied meat terrine sounds interesting; skip if aspic texture is difficult.",
+      "zh": "想尝冷肉冻时可点；不适应肉冻口感则避开。",
+      "nl": "Bestel als koude vleesgelei je aanspreekt; sla over als aspic lastig is."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "imageCode": "107034",
+    "imagePath": "/assets/dishes/main/107034-potjevleesch.webp",
+    "thumbPath": "/assets/dishes/thumb/107034-potjevleesch.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "boudin-blanc",
+    "metadataCode": "107035",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Boudin Blanc",
+      "zh": "白香肠",
+      "nl": "Witte pens",
+      "local": "Boudin blanc"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "fried"
+    ],
+    "shortDescription": {
+      "en": "Pale white sausage, usually pan-seared and served with potatoes or apples.",
+      "zh": "浅色白香肠，通常煎香，配土豆或苹果。",
+      "nl": "Witte worst, meestal gebakken met aardappel of appel."
+    },
+    "cookingProfile": {
+      "en": "It is mild and soft inside, with a browned casing when pan-fried.",
+      "zh": "内里温和柔软，外皮煎后微焦。",
+      "nl": "Mild en zacht vanbinnen, met gebakken vel."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Belgian and French-style white sausage dish recognized by pale sausage links.",
+        "zh": "比利时和法国常见白香肠菜，识别重点是浅色香肠。",
+        "nl": "Een Belgisch-Franse witte worstschotel met bleke worsten."
+      }
+    },
+    "composition": [
+      [
+        "sausage",
+        60,
+        "white sausage"
+      ],
+      [
+        "potato",
+        20,
+        "side"
+      ],
+      [
+        "apple",
+        10,
+        "sweet side"
+      ],
+      [
+        "butter",
+        5,
+        "pan richness"
+      ],
+      [
+        "mustard",
+        5,
+        "condiment",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "mild white sausage",
+      "apple",
+      "mustard"
+    ],
+    "basicTaste": [
+      "savory",
+      "mild",
+      "slightly sweet"
+    ],
+    "textureProfile": [
+      "soft sausage",
+      "snappy casing",
+      "soft potato"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "A mild sausage choice; good if black pudding sounds too strong.",
+      "zh": "是温和香肠选择；如果觉得血肠太重，可以选它。",
+      "nl": "Een milde worstkeuze; goed als bloedworst te sterk klinkt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "imageCode": "107035",
+    "imagePath": "/assets/dishes/main/107035-boudin-blanc.webp",
+    "thumbPath": "/assets/dishes/thumb/107035-boudin-blanc.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "boudin-noir",
+    "metadataCode": "107036",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Boudin Noir",
+      "zh": "黑血肠",
+      "nl": "Bloedworst",
+      "local": "Boudin noir"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "fried"
+    ],
+    "shortDescription": {
+      "en": "Dark blood sausage, often pan-fried and paired with apple or mashed potatoes.",
+      "zh": "深色血肠，常煎香后配苹果或土豆泥。",
+      "nl": "Donkere bloedworst, vaak gebakken met appel of puree."
+    },
+    "cookingProfile": {
+      "en": "Expect a soft, rich, iron-like sausage flavor with sweet apple balance.",
+      "zh": "风味浓厚，带血肠特有的铁质感，苹果带来甜味平衡。",
+      "nl": "Rijk en zacht met typische bloedworstsmaak, vaak in balans met appel."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A classic Belgian blood sausage plate with a strong acquired-taste cue.",
+        "zh": "经典比利时血肠菜，风味明显，需要一定接受度。",
+        "nl": "Een klassieke Belgische bloedworstschotel met uitgesproken smaak."
+      }
+    },
+    "composition": [
+      [
+        "blood-sausage",
+        60,
+        "black sausage"
+      ],
+      [
+        "apple-sauce",
+        20,
+        "sweet side"
+      ],
+      [
+        "potato",
+        15,
+        "mash side"
+      ],
+      [
+        "butter",
+        5,
+        "pan richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "blood sausage",
+      "apple sweetness",
+      "pan browning"
+    ],
+    "basicTaste": [
+      "rich",
+      "savory",
+      "sweet contrast"
+    ],
+    "textureProfile": [
+      "soft dark sausage",
+      "creamy mash",
+      "smooth apple side"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "offal-averse",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it only if blood sausage sounds appealing; otherwise boudin blanc is safer.",
+      "zh": "只有能接受血肠风味时才建议点；否则白香肠更稳。",
+      "nl": "Kies dit alleen als bloedworst je aanspreekt; anders is witte pens veiliger."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "imageCode": "107036",
+    "imagePath": "/assets/dishes/main/107036-boudin-noir.webp",
+    "thumbPath": "/assets/dishes/thumb/107036-boudin-noir.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "belgian-spaghetti-bolognese",
+    "metadataCode": "107038",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Belgian Spaghetti Bolognese",
+      "zh": "比利时肉酱意面",
+      "nl": "Spaghetti bolognese",
+      "local": "Spaghetti bolognese"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "boiled",
+      "sauce-tossed"
+    ],
+    "shortDescription": {
+      "en": "Belgian brasserie-style spaghetti with a generous meat-tomato sauce and grated cheese.",
+      "zh": "比利时小餐馆风格意面，肉番茄酱分量足，常撒奶酪。",
+      "nl": "Belgische brasserie-spaghetti met ruime vleestomatensaus en geraspte kaas."
+    },
+    "cookingProfile": {
+      "en": "Expect a saucy, familiar pasta plate rather than a delicate Italian version.",
+      "zh": "是酱汁多、熟悉感强的意面，不是精致意式版本。",
+      "nl": "Verwacht een sauzige vertrouwde pasta, geen verfijnde Italiaanse versie."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "safe-choice"
+      ],
+      "description": {
+        "en": "A common Belgian cafe dish useful as a familiar safe-choice menu item.",
+        "zh": "比利时咖啡馆常见菜，适合作为熟悉稳妥选择。",
+        "nl": "Een veelvoorkomend Belgisch cafégerecht als veilige bekende keuze."
+      }
+    },
+    "composition": [
+      [
+        "pasta",
+        50,
+        "spaghetti"
+      ],
+      [
+        "ground-meat",
+        25,
+        "meat sauce"
+      ],
+      [
+        "tomato-sauce",
+        15,
+        "sauce base",
+        "seasoning"
+      ],
+      [
+        "cheese",
+        5,
+        "finish"
+      ],
+      [
+        "black-pepper",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "meat tomato sauce",
+      "grated cheese",
+      "black pepper"
+    ],
+    "basicTaste": [
+      "savory",
+      "tomato-rich",
+      "mild"
+    ],
+    "textureProfile": [
+      "soft spaghetti",
+      "thick meat sauce",
+      "grated cheese"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "safe-choice"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "A safe familiar main when you do not want surprises; skip if you want uniquely Belgian flavor.",
+      "zh": "不想冒险时是稳妥熟悉主食；想要强比利时特色则不够。",
+      "nl": "Een veilige bekende hoofdschotel; minder geschikt als je iets uitgesproken Belgisch wilt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 0,
+    "imageCode": "107038",
+    "imagePath": "/assets/dishes/main/107038-belgian-spaghetti-bolognese.webp",
+    "thumbPath": "/assets/dishes/thumb/107038-belgian-spaghetti-bolognese.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "crevettes-grises-cocktail",
+    "metadataCode": "107039",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Crevettes Grises Cocktail",
+      "zh": "灰虾鸡尾酒杯",
+      "nl": "Grijze garnalencocktail",
+      "local": "Crevettes grises cocktail"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "assembled",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "North Sea grey shrimp served cold with cocktail sauce, lettuce, and lemon.",
+      "zh": "北海灰虾冷食，配鸡尾酒酱、生菜和柠檬。",
+      "nl": "Noordzeegarnaaltjes koud geserveerd met cocktailsaus, sla en citroen."
+    },
+    "cookingProfile": {
+      "en": "It is cool, creamy, and briny, lighter than fried seafood.",
+      "zh": "口感冷、奶油感和咸鲜，比炸海鲜更清爽。",
+      "nl": "Koel, romig en zilt, lichter dan gefrituurde zeevruchten."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "seafood"
+      ],
+      "description": {
+        "en": "A Belgian seafood starter centered on small grey shrimp.",
+        "zh": "比利时经典海鲜前菜，核心是小灰虾。",
+        "nl": "Een Belgische zeevruchtenstarter rond kleine grijze garnalen."
+      }
+    },
+    "composition": [
+      [
+        "shrimp",
+        55,
+        "grey shrimp"
+      ],
+      [
+        "mayonnaise",
+        20,
+        "cocktail sauce"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "lettuce garnish"
+      ],
+      [
+        "lemon",
+        10,
+        "brightness"
+      ],
+      [
+        "parsley",
+        5,
+        "finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "grey shrimp",
+      "cocktail sauce",
+      "lemon"
+    ],
+    "basicTaste": [
+      "briny",
+      "creamy",
+      "fresh"
+    ],
+    "textureProfile": [
+      "small firm shrimp",
+      "creamy sauce",
+      "crisp lettuce"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "seafood",
+      "cold-starter"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Good if you like cold creamy shrimp starters; skip with shellfish or egg allergy.",
+      "zh": "喜欢冷食奶油感虾前菜时适合；甲壳类或鸡蛋过敏则避开。",
+      "nl": "Goed als je koude romige garnalen lust; sla over bij schaal- of ei-allergie."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "imageCode": "107039",
+    "imagePath": "/assets/dishes/main/107039-crevettes-grises-cocktail.webp",
+    "thumbPath": "/assets/dishes/thumb/107039-crevettes-grises-cocktail.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "cod-with-leeks",
+    "metadataCode": "107040",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Cod with Leeks",
+      "zh": "鳕鱼配韭葱",
+      "nl": "Kabeljauw met prei",
+      "local": "Cabillaud aux poireaux"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "simmered",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "White cod fillet served with soft leeks, often in a light creamy sauce.",
+      "zh": "白鳕鱼柳配软韭葱，常带轻奶油酱。",
+      "nl": "Kabeljauwfilet met zachte prei, vaak in lichte roomsaus."
+    },
+    "cookingProfile": {
+      "en": "Expect mild flaky fish and sweet leeks, not a fried seafood plate.",
+      "zh": "是温和片状白鱼和甜软韭葱，不是炸海鲜盘。",
+      "nl": "Milde vlokkige vis met zoete prei, geen gefrituurde visschotel."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "seafood",
+        "lighter-choice"
+      ],
+      "description": {
+        "en": "A Belgian-style fish main where cod and leeks are the ordering cues.",
+        "zh": "比利时风格鱼类主菜，重点是鳕鱼和韭葱。",
+        "nl": "Een Belgische vismaaltijd met kabeljauw en prei als herkenning."
+      }
+    },
+    "composition": [
+      [
+        "fish-fillet",
+        55,
+        "cod fillet"
+      ],
+      [
+        "leek",
+        25,
+        "soft vegetable"
+      ],
+      [
+        "potato",
+        10,
+        "side"
+      ],
+      [
+        "cream",
+        5,
+        "light sauce"
+      ],
+      [
+        "parsley",
+        5,
+        "finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cod",
+      "sweet leeks",
+      "cream sauce"
+    ],
+    "basicTaste": [
+      "mild",
+      "savory",
+      "lightly creamy"
+    ],
+    "textureProfile": [
+      "flaky fish",
+      "soft leeks",
+      "smooth sauce"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "lighter-choice",
+      "seafood"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "A gentle seafood main; good if you want fish without frying.",
+      "zh": "温和鱼类主菜；想吃不油炸的鱼时适合。",
+      "nl": "Een zachte vismaaltijd; goed als je vis zonder frituur wilt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "107040",
+    "imagePath": "/assets/dishes/main/107040-cod-with-leeks.webp",
+    "thumbPath": "/assets/dishes/thumb/107040-cod-with-leeks.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "hesp-rolletjes",
+    "metadataCode": "107043",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Hesp Rolletjes",
+      "zh": "火腿菊苣奶酪卷",
+      "nl": "Hespenrolletjes",
+      "local": "Hesp rolletjes"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Ham rolls wrapped around Belgian endive, baked in creamy cheese sauce.",
+      "zh": "火腿包裹比利时菊苣，再用奶酪奶油酱烤制。",
+      "nl": "Hamrolletjes rond witloof, gebakken in romige kaassaus."
+    },
+    "cookingProfile": {
+      "en": "Expect bitter-soft endive inside salty ham with a rich cheese sauce.",
+      "zh": "内里是微苦柔软菊苣，外层咸香火腿，酱汁浓郁。",
+      "nl": "Zacht licht bitter witloof in zoute ham met rijke kaassaus."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Belgian home-style classic recognized by ham-wrapped endive and cheese sauce.",
+        "zh": "比利时家常经典菜，重点是火腿卷菊苣和奶酪酱。",
+        "nl": "Een Belgische thuiskeukenklassieker met witloof in ham en kaassaus."
+      }
+    },
+    "composition": [
+      [
+        "endive",
+        35,
+        "wrapped vegetable"
+      ],
+      [
+        "ham",
+        30,
+        "outer wrap"
+      ],
+      [
+        "cheese",
+        15,
+        "sauce"
+      ],
+      [
+        "cream",
+        15,
+        "sauce base"
+      ],
+      [
+        "black-pepper",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "Belgian endive",
+      "ham",
+      "cheese sauce"
+    ],
+    "basicTaste": [
+      "savory",
+      "creamy",
+      "slightly bitter"
+    ],
+    "textureProfile": [
+      "soft endive",
+      "salty ham",
+      "browned creamy sauce"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "classic-dish",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "dairy-free",
+      "dislikes-bitter"
+    ],
+    "orderVerdict": {
+      "en": "A rich Belgian comfort dish; skip if endive bitterness or dairy is not for you.",
+      "zh": "浓郁比利时家常菜；不爱菊苣苦味或避乳制品则不适合。",
+      "nl": "Rijke Belgische comfortkost; sla over bij witloofbitterheid of zuivel."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "imageCode": "107043",
+    "imagePath": "/assets/dishes/main/107043-hesp-rolletjes.webp",
+    "thumbPath": "/assets/dishes/thumb/107043-hesp-rolletjes.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "kip-aan-t-spit",
+    "metadataCode": "107044",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Kip aan 't Spit",
+      "zh": "烤转炉鸡",
+      "nl": "Kip aan 't spit",
+      "local": "Kip aan 't spit"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "shortDescription": {
+      "en": "Rotisserie-style roast chicken, often sold with fries or salad.",
+      "zh": "转炉烤鸡，常配薯条或沙拉。",
+      "nl": "Kip van het spit, vaak met friet of salade."
+    },
+    "cookingProfile": {
+      "en": "Expect browned chicken skin and juicy roast meat rather than fried coating.",
+      "zh": "重点是焦香鸡皮和多汁烤肉，不是炸鸡外壳。",
+      "nl": "Verwacht bruine kippenhuid en sappig gebraad, geen frituurkorst."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "safe-choice"
+      ],
+      "description": {
+        "en": "A common Belgian takeaway and brasserie chicken plate.",
+        "zh": "比利时外带店和小餐馆常见鸡肉菜。",
+        "nl": "Een veelvoorkomende Belgische afhaal- en brasseriekeuze."
+      }
+    },
+    "composition": [
+      [
+        "chicken",
+        65,
+        "roast chicken"
+      ],
+      [
+        "fries",
+        20,
+        "side"
+      ],
+      [
+        "mixed-vegetables",
+        10,
+        "salad side"
+      ],
+      [
+        "black-pepper",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "roast chicken skin",
+      "fries",
+      "pepper seasoning"
+    ],
+    "basicTaste": [
+      "savory",
+      "roasty",
+      "mild"
+    ],
+    "textureProfile": [
+      "crisp browned skin",
+      "juicy meat",
+      "crisp fries"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "safe-choice"
+    ],
+    "avoidIfTags": [
+      "wants-vegetarian"
+    ],
+    "orderVerdict": {
+      "en": "A very safe familiar main; skip if you want a more distinctive Belgian specialty.",
+      "zh": "非常稳妥熟悉的主菜；想尝更有特色的比利时菜则不够。",
+      "nl": "Een heel veilige bekende hoofdschotel; minder uniek Belgisch."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 0,
+    "imageCode": "107044",
+    "imagePath": "/assets/dishes/main/107044-kip-aan-t-spit.webp",
+    "thumbPath": "/assets/dishes/thumb/107044-kip-aan-t-spit.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "lacquemants",
+    "metadataCode": "107048",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Lacquemants",
+      "zh": "列日糖浆薄华夫",
+      "nl": "Lacquemants",
+      "local": "Lacquemants"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Thin Liège fair waffles filled or glazed with sticky orange-brown syrup.",
+      "zh": "列日集市常见薄华夫，夹或刷橙棕色黏糖浆。",
+      "nl": "Dunne Luikse kermiswafels met kleverige oranjebruine siroop."
+    },
+    "cookingProfile": {
+      "en": "They are thin, sticky, and very sweet, not thick breakfast waffles.",
+      "zh": "口感薄、黏、非常甜，不是厚早餐华夫。",
+      "nl": "Dun, kleverig en erg zoet, geen dikke ontbijtwafel."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "street-food"
+      ],
+      "description": {
+        "en": "A Liège fair sweet recognized by thin syrupy waffles.",
+        "zh": "列日集市甜点，重点是薄华夫和糖浆。",
+        "nl": "Een Luikse kermiszoetigheid met dunne siroopwafels."
+      }
+    },
+    "composition": [
+      [
+        "waffle-batter",
+        50,
+        "thin waffle"
+      ],
+      [
+        "sugar",
+        20,
+        "sweetness"
+      ],
+      [
+        "fruit-sauce-or-caramel",
+        20,
+        "syrup filling"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "sticky syrup",
+      "thin waffle",
+      "butter"
+    ],
+    "basicTaste": [
+      "very sweet",
+      "caramel",
+      "buttery"
+    ],
+    "textureProfile": [
+      "thin waffle layers",
+      "sticky syrup",
+      "soft chew"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "street-food"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free",
+      "avoid-very-sweet"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a very sweet fair-style snack; skip if sticky syrup is too much.",
+      "zh": "想吃很甜的集市小吃时适合；怕黏甜糖浆则避开。",
+      "nl": "Kies dit voor een erg zoete kermissnack; sla over als siroop te veel is."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "107048",
+    "imagePath": "/assets/dishes/main/107048-lacquemants.webp",
+    "thumbPath": "/assets/dishes/thumb/107048-lacquemants.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "cuberdon",
+    "metadataCode": "107049",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Cuberdon",
+      "zh": "紫色锥形软糖",
+      "nl": "Cuberdon",
+      "local": "Cuberdon"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "set"
+    ],
+    "shortDescription": {
+      "en": "Purple cone-shaped Belgian candy with a firm shell and soft raspberry-like syrup center.",
+      "zh": "紫色锥形比利时糖果，外壳较硬，内里是覆盆子风味软糖浆。",
+      "nl": "Paarse kegelvormige Belgische snoep met harde buitenkant en zachte framboosachtige kern."
+    },
+    "cookingProfile": {
+      "en": "Expect an intensely sweet candy, not a plated dessert.",
+      "zh": "这是甜度很高的糖果，不是盘装甜点。",
+      "nl": "Verwacht zeer zoet snoep, geen borddessert."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "A recognizable Belgian confection known for its purple cone shape.",
+        "zh": "辨识度很高的比利时糖果，特点是紫色锥形。",
+        "nl": "Een herkenbaar Belgisch snoepje met paarse kegelvorm."
+      }
+    },
+    "composition": [
+      [
+        "sugar",
+        65,
+        "candy base"
+      ],
+      [
+        "berries",
+        20,
+        "raspberry-like center"
+      ],
+      [
+        "gelatin",
+        10,
+        "set shell"
+      ],
+      [
+        "fruit-sauce-or-caramel",
+        5,
+        "syrup center"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "raspberry-like syrup",
+      "sugar shell"
+    ],
+    "basicTaste": [
+      "very sweet",
+      "fruity"
+    ],
+    "textureProfile": [
+      "firm shell",
+      "soft syrup center",
+      "sticky bite"
+    ],
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "signature-dish"
+    ],
+    "avoidIfTags": [
+      "avoid-very-sweet"
+    ],
+    "orderVerdict": {
+      "en": "Try it as a Belgian candy curiosity; skip if you dislike very sweet sweets.",
+      "zh": "想尝比利时特色糖果时可以；不爱高甜软糖则避开。",
+      "nl": "Probeer als Belgisch snoep; sla over als je erg zoet niet lust."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "imageCode": "107049",
+    "imagePath": "/assets/dishes/main/107049-cuberdon.webp",
+    "thumbPath": "/assets/dishes/thumb/107049-cuberdon.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "merveilleux",
+    "metadataCode": "107050",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Merveilleux",
+      "zh": "蛋白霜奶油巧克力甜点",
+      "nl": "Merveilleux",
+      "local": "Merveilleux"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "assembled",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Meringue and whipped cream dessert covered with chocolate shavings.",
+      "zh": "蛋白霜和打发奶油组成的甜点，外层裹巧克力碎。",
+      "nl": "Dessert van meringue en slagroom bedekt met chocoladeschaafsel."
+    },
+    "cookingProfile": {
+      "en": "It is airy, creamy, and sweet with crisp meringue inside.",
+      "zh": "口感轻盈、奶油感强，内部有酥脆蛋白霜。",
+      "nl": "Luchtig, romig en zoet met krokante meringue binnenin."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "A Belgian and northern French pastry recognized by cream and chocolate shavings.",
+        "zh": "比利时和法国北部经典甜点，重点是奶油和巧克力碎。",
+        "nl": "Een Belgisch en Noord-Frans gebakje met room en chocoladeschaafsel."
+      }
+    },
+    "composition": [
+      [
+        "meringue",
+        35,
+        "crisp layers"
+      ],
+      [
+        "cream",
+        35,
+        "whipped cream"
+      ],
+      [
+        "chocolate",
+        20,
+        "shavings"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "meringue",
+      "whipped cream",
+      "chocolate shavings"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "chocolatey"
+    ],
+    "textureProfile": [
+      "airy cream",
+      "crisp meringue",
+      "soft chilled bite"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "dairy-free",
+      "avoid-very-sweet"
+    ],
+    "orderVerdict": {
+      "en": "Good if you want a light-looking but creamy sweet dessert.",
+      "zh": "想吃看起来轻、实际奶油感强的甜点时适合。",
+      "nl": "Goed als je een luchtig ogend maar romig dessert wilt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "107050",
+    "imagePath": "/assets/dishes/main/107050-merveilleux.webp",
+    "thumbPath": "/assets/dishes/thumb/107050-merveilleux.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "miserable-cake",
+    "metadataCode": "107051",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Misérable Cake",
+      "zh": "杏仁奶油夹心蛋糕",
+      "nl": "Misérabletaart",
+      "local": "Misérable"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked",
+      "layered"
+    ],
+    "shortDescription": {
+      "en": "Belgian almond sponge cake layered with pale buttercream.",
+      "zh": "比利时杏仁海绵蛋糕，中间夹浅色黄油奶油。",
+      "nl": "Belgische amandelcake in lagen met lichte botercrème."
+    },
+    "cookingProfile": {
+      "en": "Expect nutty sponge and rich buttercream, more refined than a simple slice cake.",
+      "zh": "入口有杏仁蛋糕体和浓郁黄油奶油，比普通蛋糕更精致。",
+      "nl": "Nootachtig biscuit en rijke botercrème, verfijnder dan gewone cake."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "A Belgian patisserie classic recognized by almond sponge and buttercream layers.",
+        "zh": "比利时糕点经典，重点是杏仁蛋糕体和奶油层。",
+        "nl": "Een Belgische patisserieklassieker met amandelbiscuit en botercrème."
+      }
+    },
+    "composition": [
+      [
+        "almonds",
+        30,
+        "almond sponge"
+      ],
+      [
+        "sponge-cake",
+        25,
+        "cake layers"
+      ],
+      [
+        "butter",
+        20,
+        "buttercream"
+      ],
+      [
+        "sugar",
+        15,
+        "sweetness"
+      ],
+      [
+        "vanilla",
+        10,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "almond sponge",
+      "buttercream",
+      "vanilla"
+    ],
+    "basicTaste": [
+      "sweet",
+      "nutty",
+      "creamy"
+    ],
+    "textureProfile": [
+      "soft sponge",
+      "smooth buttercream",
+      "light nutty crumb"
+    ],
+    "riskFlags": [
+      "contains-tree-nut",
+      "contains-gluten",
+      "contains-dairy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "nut-allergy",
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for almond and buttercream; skip with nut or dairy concerns.",
+      "zh": "喜欢杏仁和黄油奶油时适合；坚果或乳制品问题则避开。",
+      "nl": "Kies dit voor amandel en botercrème; sla over bij noten of zuivel."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "imageCode": "107051",
+    "imagePath": "/assets/dishes/main/107051-miserable-cake.webp",
+    "thumbPath": "/assets/dishes/thumb/107051-miserable-cake.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "cougnou",
+    "metadataCode": "107052",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Cougnou",
+      "zh": "圣诞甜面包",
+      "nl": "Cougnou",
+      "local": "Cougnou"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Belgian Christmas brioche-like bread, often shaped like a swaddled baby and dotted with sugar or raisins.",
+      "zh": "比利时圣诞甜面包，常做成襁褓婴儿形，带糖粒或葡萄干。",
+      "nl": "Belgisch kerstbrood, briocheachtig en vaak met suiker of rozijnen."
+    },
+    "cookingProfile": {
+      "en": "It is soft, bready, and mildly sweet rather than a creamy dessert.",
+      "zh": "口感柔软像面包，甜度温和，不是奶油甜点。",
+      "nl": "Zacht, broodachtig en mild zoet, geen romig dessert."
+    },
+    "cuisineRole": {
+      "level": "festival",
+      "tags": [
+        "festival",
+        "dessert"
+      ],
+      "description": {
+        "en": "A Belgian Christmas bakery item recognized by its shaped sweet bread form.",
+        "zh": "比利时圣诞烘焙甜面包，特点是特殊造型。",
+        "nl": "Een Belgisch kerstbrood herkenbaar aan de gevormde zoete broodvorm."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        45,
+        "sweet bread"
+      ],
+      [
+        "egg",
+        15,
+        "dough richness"
+      ],
+      [
+        "butter",
+        15,
+        "richness"
+      ],
+      [
+        "sugar",
+        15,
+        "sweetness"
+      ],
+      [
+        "raisins",
+        10,
+        "optional fruit"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "sweet bread",
+      "butter",
+      "raisins"
+    ],
+    "basicTaste": [
+      "mildly sweet",
+      "buttery",
+      "bready"
+    ],
+    "textureProfile": [
+      "soft bread crumb",
+      "glossy crust",
+      "small raisins"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "festival"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Good as a festive sweet bread; skip if you want a plated dessert.",
+      "zh": "适合作为节日甜面包；想吃盘装甜点则不是首选。",
+      "nl": "Goed als feestelijk zoet brood; minder als borddessert."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "107052",
+    "imagePath": "/assets/dishes/main/107052-cougnou.webp",
+    "thumbPath": "/assets/dishes/thumb/107052-cougnou.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "cramique",
+    "metadataCode": "107053",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Cramique",
+      "zh": "葡萄干甜面包",
+      "nl": "Cramique",
+      "local": "Cramique"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Soft Belgian raisin bread, usually sliced and eaten with butter.",
+      "zh": "柔软比利时葡萄干面包，通常切片配黄油。",
+      "nl": "Zacht Belgisch rozijnenbrood, meestal gesneden met boter."
+    },
+    "cookingProfile": {
+      "en": "Expect a tender sweet loaf with raisins, lighter than cake.",
+      "zh": "口感是柔软甜面包和葡萄干，比蛋糕更轻。",
+      "nl": "Zacht zoet brood met rozijnen, lichter dan cake."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A common Belgian bakery bread recognized by raisins in a soft loaf.",
+        "zh": "比利时常见烘焙面包，重点是柔软面包里的葡萄干。",
+        "nl": "Een veelvoorkomend Belgisch bakkersbrood met rozijnen."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        50,
+        "bread loaf"
+      ],
+      [
+        "raisins",
+        20,
+        "fruit"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "egg",
+        10,
+        "dough richness"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "raisins",
+      "sweet bread",
+      "butter"
+    ],
+    "basicTaste": [
+      "mildly sweet",
+      "bready",
+      "fruity"
+    ],
+    "textureProfile": [
+      "soft crumb",
+      "chewy raisins",
+      "light crust"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "breakfast",
+      "bakery"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "A gentle bakery choice for breakfast or coffee; not a full dessert plate.",
+      "zh": "适合早餐或配咖啡的温和烘焙选择；不是完整甜点盘。",
+      "nl": "Een zachte bakkerskeuze bij ontbijt of koffie; geen volledig dessert."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 0,
+    "imageCode": "107053",
+    "imagePath": "/assets/dishes/main/107053-cramique.webp",
+    "thumbPath": "/assets/dishes/thumb/107053-cramique.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "suikerbrood-belgian",
+    "metadataCode": "107054",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Belgian Suikerbrood",
+      "zh": "比利时糖粒面包",
+      "nl": "Belgisch suikerbrood",
+      "local": "Suikerbrood"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Sweet bread with pockets of pearl sugar baked through the loaf.",
+      "zh": "甜面包里烤入珍珠糖粒，切开可见糖洞。",
+      "nl": "Zoet brood met parelsuiker in het kruim."
+    },
+    "cookingProfile": {
+      "en": "It is soft and buttery, with crunchy or sticky sugar pockets.",
+      "zh": "面包柔软带黄油香，糖粒有脆感或黏甜感。",
+      "nl": "Zacht en boterig, met krokante of kleverige suikerplekjes."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "bakery"
+      ],
+      "description": {
+        "en": "A Belgian bakery bread where pearl sugar is the main cue.",
+        "zh": "比利时烘焙面包，核心识别是珍珠糖。",
+        "nl": "Een Belgisch bakkersbrood met parelsuiker als herkenning."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        45,
+        "bread loaf"
+      ],
+      [
+        "sugar",
+        25,
+        "pearl sugar"
+      ],
+      [
+        "butter",
+        15,
+        "richness"
+      ],
+      [
+        "egg",
+        10,
+        "dough richness"
+      ],
+      [
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "pearl sugar",
+      "butter",
+      "sweet bread"
+    ],
+    "basicTaste": [
+      "sweet",
+      "buttery",
+      "bready"
+    ],
+    "textureProfile": [
+      "soft crumb",
+      "sugar pockets",
+      "glossy crust"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "bakery",
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy",
+      "avoid-very-sweet"
+    ],
+    "orderVerdict": {
+      "en": "Good if you want a sweet bread rather than a pastry cream dessert.",
+      "zh": "想吃甜面包而不是奶油糕点时适合。",
+      "nl": "Goed als je zoet brood wilt in plaats van roomgebak."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 0,
+    "imageCode": "107054",
+    "imagePath": "/assets/dishes/main/107054-suikerbrood-belgian.webp",
+    "thumbPath": "/assets/dishes/thumb/107054-suikerbrood-belgian.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "rijstpap",
+    "metadataCode": "107055",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Rijstpap",
+      "zh": "比利时米布丁",
+      "nl": "Rijstpap",
+      "local": "Rijstpap"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Creamy Belgian rice pudding, sometimes yellow from saffron and topped with brown sugar.",
+      "zh": "比利时米布丁，常有淡黄色藏红花色泽，可撒红糖。",
+      "nl": "Romige Belgische rijstpap, soms geel van saffraan en met bruine suiker."
+    },
+    "cookingProfile": {
+      "en": "Expect visible rice grains in a soft creamy pudding, served cool or room temperature.",
+      "zh": "能吃到米粒，整体柔软奶香，常冷食或常温食用。",
+      "nl": "Zichtbare rijstkorrels in romige pap, koud of op kamertemperatuur."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "A classic Belgian dairy dessert recognized by creamy rice and yellow tint.",
+        "zh": "经典比利时乳制甜点，重点是奶香米粒和淡黄色泽。",
+        "nl": "Een klassiek Belgisch zuiveldessert met romige rijst en gele tint."
+      }
+    },
+    "composition": [
+      [
+        "rice-custard",
+        55,
+        "rice pudding"
+      ],
+      [
+        "cream",
+        20,
+        "dairy base"
+      ],
+      [
+        "sugar",
+        15,
+        "sweetness"
+      ],
+      [
+        "saffron",
+        5,
+        "color aroma",
+        "seasoning"
+      ],
+      [
+        "cinnamon",
+        5,
+        "finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "creamy rice",
+      "saffron tint",
+      "brown sugar"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "mild"
+    ],
+    "textureProfile": [
+      "soft rice grains",
+      "creamy pudding",
+      "light sugar crunch"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "A gentle creamy dessert; skip if rice pudding texture is not your thing.",
+      "zh": "温和奶香甜点；不喜欢米布丁口感则避开。",
+      "nl": "Een zacht romig dessert; sla over als rijstpaptextuur niet past."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "imageCode": "107055",
+    "imagePath": "/assets/dishes/main/107055-rijstpap.webp",
+    "thumbPath": "/assets/dishes/thumb/107055-rijstpap.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "pistolet",
+    "metadataCode": "107056",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Pistolet",
+      "zh": "比利时圆小面包",
+      "nl": "Pistolet",
+      "local": "Pistolet"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Crisp round Belgian bread roll, often filled with ham, cheese, or spread.",
+      "zh": "比利时圆形脆皮小面包，常夹火腿、奶酪或抹酱。",
+      "nl": "Krokant rond Belgisch broodje, vaak belegd met ham, kaas of beleg."
+    },
+    "cookingProfile": {
+      "en": "Expect a crusty white roll; the filling matters if it is served as a sandwich.",
+      "zh": "重点是白面包脆皮；若做三明治，馅料决定风味。",
+      "nl": "Verwacht een krokant wit broodje; beleg bepaalt de smaak."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "bakery"
+      ],
+      "description": {
+        "en": "A common Belgian bakery roll and sandwich base.",
+        "zh": "比利时常见面包店小圆包，也是三明治底。",
+        "nl": "Een veelvoorkomend Belgisch broodje en sandwichbasis."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        65,
+        "crusty roll"
+      ],
+      [
+        "ham",
+        15,
+        "possible filling"
+      ],
+      [
+        "cheese",
+        10,
+        "possible filling"
+      ],
+      [
+        "butter",
+        5,
+        "spread"
+      ],
+      [
+        "mustard",
+        5,
+        "optional condiment",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "crusty roll",
+      "butter",
+      "simple filling"
+    ],
+    "basicTaste": [
+      "bready",
+      "mild",
+      "savory if filled"
+    ],
+    "textureProfile": [
+      "crisp crust",
+      "soft crumb",
+      "optional soft filling"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "safe-choice",
+      "bakery"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "no-pork"
+    ],
+    "orderVerdict": {
+      "en": "A simple bread or sandwich choice; check the filling before judging the meal.",
+      "zh": "是简单面包或三明治选择；是否值得点主要看夹馅。",
+      "nl": "Een eenvoudige brood- of sandwichkeuze; beoordeel vooral het beleg."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 0,
+    "imageCode": "107056",
+    "imagePath": "/assets/dishes/main/107056-pistolet.webp",
+    "thumbPath": "/assets/dishes/thumb/107056-pistolet.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "smoutebollen",
+    "metadataCode": "107057",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Smoutebollen",
+      "zh": "比利时炸面团球",
+      "nl": "Smoutebollen",
+      "local": "Smoutebollen"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "deep-fried"
+    ],
+    "shortDescription": {
+      "en": "Belgian fairground fried dough balls dusted with powdered sugar.",
+      "zh": "比利时集市炸面团球，表面撒大量糖粉。",
+      "nl": "Belgische kermisdeegbollen, gefrituurd en met poedersuiker."
+    },
+    "cookingProfile": {
+      "en": "Expect hot fluffy fried dough and lots of powdered sugar.",
+      "zh": "入口是热的蓬松油炸面团和大量糖粉。",
+      "nl": "Verwacht warme luchtige gefrituurde deegbollen met veel suiker."
+    },
+    "cuisineRole": {
+      "level": "street-food",
+      "tags": [
+        "street-food",
+        "festival"
+      ],
+      "description": {
+        "en": "A Belgian fair snack recognized by small powdered fried dough balls.",
+        "zh": "比利时集市小吃，重点是糖粉炸面团球。",
+        "nl": "Een Belgische kermissnack met kleine gesuikerde deegbollen."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        45,
+        "dough"
+      ],
+      [
+        "egg",
+        15,
+        "dough richness"
+      ],
+      [
+        "sugar",
+        20,
+        "powdered sugar"
+      ],
+      [
+        "butter",
+        10,
+        "richness"
+      ],
+      [
+        "vanilla",
+        10,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fried dough",
+      "powdered sugar",
+      "vanilla"
+    ],
+    "basicTaste": [
+      "sweet",
+      "fried",
+      "mild"
+    ],
+    "textureProfile": [
+      "fluffy center",
+      "light crisp outside",
+      "powdered sugar surface"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "street-food",
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free",
+      "avoid-fried-food"
+    ],
+    "orderVerdict": {
+      "en": "Great as a fair-style sweet snack; skip if you want something light.",
+      "zh": "适合集市风甜小吃；想清淡则不适合。",
+      "nl": "Mooi als kermiszoetigheid; sla over als je iets lichts zoekt."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 0,
+    "imageCode": "107057",
+    "imagePath": "/assets/dishes/main/107057-smoutebollen.webp",
+    "thumbPath": "/assets/dishes/thumb/107057-smoutebollen.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "gaufres-de-liege",
+    "metadataCode": "107058",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Gaufre de Liège",
+      "zh": "列日华夫",
+      "nl": "Luikse wafel",
+      "local": "Gaufre de Liège"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Dense chewy Liège waffle with caramelized pearl sugar in the dough.",
+      "zh": "列日华夫质地较密、有嚼劲，面团中有焦糖化珍珠糖。",
+      "nl": "Dichte Luikse wafel met gekaramelliseerde parelsuiker in het deeg."
+    },
+    "cookingProfile": {
+      "en": "It is richer and chewier than a Brussels waffle, often eaten plain.",
+      "zh": "比布鲁塞尔华夫更厚实有嚼劲，常直接吃。",
+      "nl": "Rijker en steviger dan Brusselse wafel, vaak zonder topping gegeten."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish",
+        "street-food"
+      ],
+      "description": {
+        "en": "A Belgian signature waffle recognized by caramelized pearl sugar and irregular shape.",
+        "zh": "比利时代表华夫，重点是珍珠糖和不规则厚实形状。",
+        "nl": "Een Belgische signatuurwafel met parelsuiker en onregelmatige vorm."
+      }
+    },
+    "composition": [
+      [
+        "waffle-batter",
+        50,
+        "dense waffle"
+      ],
+      [
+        "sugar",
+        25,
+        "pearl sugar"
+      ],
+      [
+        "butter",
+        15,
+        "richness"
+      ],
+      [
+        "egg",
+        10,
+        "dough richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "caramelized pearl sugar",
+      "butter",
+      "yeasted waffle dough"
+    ],
+    "basicTaste": [
+      "sweet",
+      "caramel",
+      "buttery"
+    ],
+    "textureProfile": [
+      "chewy dense crumb",
+      "crisp sugar bits",
+      "sticky edges"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "signature-dish",
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free",
+      "avoid-very-sweet"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for the iconic caramelized Belgian waffle experience.",
+      "zh": "想吃经典焦糖珍珠糖比利时华夫时选它。",
+      "nl": "Kies dit voor de iconische gekaramelliseerde Belgische wafel."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 0,
+    "imageCode": "107058",
+    "imagePath": "/assets/dishes/main/107058-gaufres-de-liege.webp",
+    "thumbPath": "/assets/dishes/thumb/107058-gaufres-de-liege.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "gaufres-de-bruxelles",
+    "metadataCode": "107059",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Gaufre de Bruxelles",
+      "zh": "布鲁塞尔华夫",
+      "nl": "Brusselse wafel",
+      "local": "Gaufre de Bruxelles"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Light rectangular Brussels waffle with deep pockets, often topped with sugar, cream, or fruit.",
+      "zh": "布鲁塞尔华夫呈长方形、格子深，口感较轻，常配糖粉、奶油或水果。",
+      "nl": "Lichte rechthoekige Brusselse wafel met diepe vakken, vaak met suiker, room of fruit."
+    },
+    "cookingProfile": {
+      "en": "It is airy and crisp, more topping-friendly than a dense Liège waffle.",
+      "zh": "口感轻盈酥脆，比列日华夫更适合加配料。",
+      "nl": "Luchtig en krokant, meer geschikt voor toppings dan Luikse wafel."
+    },
+    "cuisineRole": {
+      "level": "signature",
+      "tags": [
+        "signature-dish",
+        "dessert"
+      ],
+      "description": {
+        "en": "A Belgian signature waffle recognized by rectangular deep-grid shape.",
+        "zh": "比利时代表华夫，识别重点是长方形深格。",
+        "nl": "Een Belgische signatuurwafel met rechthoekig diep raster."
+      }
+    },
+    "composition": [
+      [
+        "waffle-batter",
+        60,
+        "light waffle"
+      ],
+      [
+        "sugar",
+        15,
+        "topping"
+      ],
+      [
+        "cream",
+        10,
+        "optional topping"
+      ],
+      [
+        "berries",
+        10,
+        "fruit topping"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "crisp waffle",
+      "powdered sugar",
+      "cream topping"
+    ],
+    "basicTaste": [
+      "sweet",
+      "light",
+      "buttery"
+    ],
+    "textureProfile": [
+      "crisp outside",
+      "airy inside",
+      "deep waffle pockets"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "signature-dish",
+      "dessert"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a lighter Belgian waffle, especially if you want toppings.",
+      "zh": "想吃较轻盈、适合加料的比利时华夫时选它。",
+      "nl": "Kies dit voor een lichtere Belgische wafel, zeker met toppings."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 0,
+    "imageCode": "107059",
+    "imagePath": "/assets/dishes/main/107059-gaufres-de-bruxelles.webp",
+    "thumbPath": "/assets/dishes/thumb/107059-gaufres-de-bruxelles.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "boule-de-berlin-belgian",
+    "metadataCode": "107060",
+    "cuisineId": "belgian",
+    "names": {
+      "en": "Belgian Boule de Berlin",
+      "zh": "比利时夹心甜甜圈",
+      "nl": "Boule de Berlin",
+      "local": "Boule de Berlin"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "deep-fried"
+    ],
+    "shortDescription": {
+      "en": "Round fried doughnut filled with pastry cream or jam and dusted with sugar.",
+      "zh": "圆形油炸甜面团，内有卡仕达或果酱馅，表面撒糖粉。",
+      "nl": "Ronde gefrituurde bol met banketbakkersroom of jam en suiker."
+    },
+    "cookingProfile": {
+      "en": "Expect a soft fried doughnut with a sweet creamy or fruity center.",
+      "zh": "入口是柔软油炸面团，中间有甜奶油或果酱馅。",
+      "nl": "Zachte gefrituurde bol met zoete romige of fruitige vulling."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "dessert",
+        "bakery"
+      ],
+      "description": {
+        "en": "A common Belgian bakery doughnut recognized by round filled shape.",
+        "zh": "比利时常见烘焙甜点，特点是圆形夹心炸面团。",
+        "nl": "Een veelvoorkomende Belgische gevulde deegbol."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        45,
+        "fried dough"
+      ],
+      [
+        "vanilla-custard",
+        25,
+        "cream filling"
+      ],
+      [
+        "sugar",
+        15,
+        "dusting"
+      ],
+      [
+        "egg",
+        10,
+        "dough richness"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fried dough",
+      "pastry cream",
+      "powdered sugar"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "fried"
+    ],
+    "textureProfile": [
+      "soft dough",
+      "creamy center",
+      "sugared surface"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "bakery"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free",
+      "avoid-fried-food"
+    ],
+    "orderVerdict": {
+      "en": "A familiar sweet bakery choice; heavier than a small cookie.",
+      "zh": "是熟悉的甜面包店选择；比分量小的饼干更厚重。",
+      "nl": "Een vertrouwde zoete bakkerskeuze; zwaarder dan een klein koekje."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 0,
+    "imageCode": "107060",
+    "imagePath": "/assets/dishes/main/107060-boule-de-berlin-belgian.webp",
+    "thumbPath": "/assets/dishes/thumb/107060-boule-de-berlin-belgian.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  }
+]

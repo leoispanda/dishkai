@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 931
-- Total aliases: 2713
+- Total verified dishes: 1089
+- Total aliases: 3042
 - Total cuisines: 27
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -40,7 +40,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 122029 - `brownie` - Brownie / 布朗尼 / brownie
 30. 122030 - `cheesecake-american` - American Cheesecake / 美式芝士蛋糕 / cheesecake
 
-## Belgian (belgian) - 30
+## Belgian (belgian) - 56
 
 1. 107001 - `moules-frites` - Moules-Frites / 比利时贻贝配薯条 / Moules-frites
 2. 107002 - `belgian-waffle` - Belgian Waffle / 比利时华夫饼 / Gaufre belge
@@ -61,17 +61,43 @@ Generated from data/internal/index.js after the verified database quarantine aud
 17. 107017 - `speculoos` - Speculoos / 比利时焦糖香料饼干 / Speculoos
 18. 107031 - `salade-liegeoise` - Salade Liégeoise / 列日土豆培根四季豆沙拉 / Salade liégeoise
 19. 107032 - `flamiche` - Flamiche / 比利时韭葱奶酪派 / Flamiche
-20. 107041 - `waterkerssoep` - Watercress Soup / 西洋菜汤 / Waterkerssoep
-21. 107042 - `asperges-op-vlaamse-wijze` - Asperges op Vlaamse Wijze / 佛兰德白芦笋 / Asperges op Vlaamse wijze
-22. 107045 - `konijn-met-pruimen` - Konijn met Pruimen / 梅子炖兔肉 / Konijn met pruimen
-23. 107047 - `mattentaart` - Mattentaart / 比利时凝乳挞 / Mattentaart
-24. 107018 - `mitraillette` - Mitraillette / 比利时薯条肉排长棍 / Mitraillette
-25. 107021 - `solettes-meuniere` - Solettes Meunière / 黄油煎小鳎鱼 / Solettes meunière
-26. 107023 - `bloedworst` - Bloedworst / 比利时血肠 / Bloedworst
-27. 107024 - `jambon-dardenne` - Jambon d'Ardenne / 阿登火腿 / Jambon d'Ardenne
-28. 107025 - `boulets-sauce-tomate` - Boulets Sauce Tomate / 番茄酱肉丸 / Boulets sauce tomate
-29. 107026 - `crepe-mikado` - Crêpe Mikado / 巧克力冰淇淋薄饼 / Crêpe Mikado
-30. 107027 - `rijsttaart` - Rijsttaart / 比利时米布丁塔 / Rijsttaart
+20. 107033 - `tarte-al-djote` - Tarte al Djote / 比利时绿叶奶酪咸派 / Tarte al djote
+21. 107034 - `potjevleesch` - Potjevleesch / 冷肉冻 / Potjevleesch
+22. 107035 - `boudin-blanc` - Boudin Blanc / 白香肠 / Boudin blanc
+23. 107036 - `boudin-noir` - Boudin Noir / 黑血肠 / Boudin noir
+24. 107038 - `belgian-spaghetti-bolognese` - Belgian Spaghetti Bolognese / 比利时肉酱意面 / Spaghetti bolognese
+25. 107039 - `crevettes-grises-cocktail` - Crevettes Grises Cocktail / 灰虾鸡尾酒杯 / Crevettes grises cocktail
+26. 107040 - `cod-with-leeks` - Cod with Leeks / 鳕鱼配韭葱 / Cabillaud aux poireaux
+27. 107041 - `waterkerssoep` - Watercress Soup / 西洋菜汤 / Waterkerssoep
+28. 107042 - `asperges-op-vlaamse-wijze` - Asperges op Vlaamse Wijze / 佛兰德白芦笋 / Asperges op Vlaamse wijze
+29. 107043 - `hesp-rolletjes` - Hesp Rolletjes / 火腿菊苣奶酪卷 / Hesp rolletjes
+30. 107044 - `kip-aan-t-spit` - Kip aan 't Spit / 烤转炉鸡 / Kip aan 't spit
+31. 107045 - `konijn-met-pruimen` - Konijn met Pruimen / 梅子炖兔肉 / Konijn met pruimen
+32. 107047 - `mattentaart` - Mattentaart / 比利时凝乳挞 / Mattentaart
+33. 107048 - `lacquemants` - Lacquemants / 列日糖浆薄华夫 / Lacquemants
+34. 107049 - `cuberdon` - Cuberdon / 紫色锥形软糖 / Cuberdon
+35. 107050 - `merveilleux` - Merveilleux / 蛋白霜奶油巧克力甜点 / Merveilleux
+36. 107051 - `miserable-cake` - Misérable Cake / 杏仁奶油夹心蛋糕 / Misérable
+37. 107052 - `cougnou` - Cougnou / 圣诞甜面包 / Cougnou
+38. 107053 - `cramique` - Cramique / 葡萄干甜面包 / Cramique
+39. 107054 - `suikerbrood-belgian` - Belgian Suikerbrood / 比利时糖粒面包 / Suikerbrood
+40. 107055 - `rijstpap` - Rijstpap / 比利时米布丁 / Rijstpap
+41. 107056 - `pistolet` - Pistolet / 比利时圆小面包 / Pistolet
+42. 107057 - `smoutebollen` - Smoutebollen / 比利时炸面团球 / Smoutebollen
+43. 107058 - `gaufres-de-liege` - Gaufre de Liège / 列日华夫 / Gaufre de Liège
+44. 107059 - `gaufres-de-bruxelles` - Gaufre de Bruxelles / 布鲁塞尔华夫 / Gaufre de Bruxelles
+45. 107060 - `boule-de-berlin-belgian` - Belgian Boule de Berlin / 比利时夹心甜甜圈 / Boule de Berlin
+46. 107018 - `mitraillette` - Mitraillette / 比利时薯条肉排长棍 / Mitraillette
+47. 107019 - `stoofvlees` - Stoofvlees / 佛兰德啤酒炖牛肉 / Stoofvlees
+48. 107020 - `paling-in-t-groen` - Paling in het Groen / 绿酱鳗鱼 / Paling in 't groen
+49. 107021 - `solettes-meuniere` - Solettes Meunière / 黄油煎小鳎鱼 / Solettes meunière
+50. 107023 - `bloedworst` - Bloedworst / 比利时血肠 / Bloedworst
+51. 107024 - `jambon-dardenne` - Jambon d'Ardenne / 阿登火腿 / Jambon d'Ardenne
+52. 107025 - `boulets-sauce-tomate` - Boulets Sauce Tomate / 番茄酱肉丸 / Boulets sauce tomate
+53. 107026 - `crepe-mikado` - Crêpe Mikado / 巧克力冰淇淋薄饼 / Crêpe Mikado
+54. 107027 - `rijsttaart` - Rijsttaart / 比利时米布丁塔 / Rijsttaart
+55. 107028 - `sirop-de-liege-dessert` - Sirop de Liège Dessert / 列日果膏配奶酪 / Sirop de Liège
+56. 107029 - `belgian-endive-salad` - Belgian Endive Salad / 比利时菊苣沙拉 / Belgian endive salad
 
 ## Brazilian (brazilian) - 30
 
@@ -201,7 +227,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 111029 - `yu-xiang-eggplant` - Yu Xiang Eggplant / 鱼香茄子 / 鱼香茄子
 30. 111030 - `scallion-pancake` - Scallion Pancake / 葱油饼 / 葱油饼
 
-## Dutch (dutch) - 30
+## Dutch (dutch) - 60
 
 1. 102001 - `bitterballen` - Bitterballen / 荷兰炸肉丸 / Bitterballen
 2. 102002 - `stamppot` - Stamppot / 荷兰土豆蔬菜泥 / Stamppot
@@ -222,17 +248,47 @@ Generated from data/internal/index.js after the verified database quarantine aud
 17. 102015 - `sate` - Saté / 荷兰印尼沙嗲 / Saté
 18. 102016 - `rijsttafel` - Rijsttafel / 荷兰印尼米饭拼盘 / Rijsttafel
 19. 102017 - `hachee` - Hachee / 荷兰洋葱炖牛肉 / Hachee
-20. 102039 - `lekkerbekje` - Lekkerbekje / 荷兰炸鱼排 / Lekkerbekje
-21. 102050 - `saucijzenbroodje` - Saucijzenbroodje / 荷兰酥皮香肠卷 / Saucijzenbroodje
-22. 102051 - `kaassouffle` - Kaassoufflé / 荷兰炸奶酪酥 / Kaassoufflé
-23. 102053 - `tompouce` - Tompouce / 粉色糖霜奶油酥皮 / Tompouce
-24. 102021 - `hutspot` - Hutspot / 胡萝卜洋葱土豆泥 / Hutspot
-25. 102022 - `zuurkoolstamppot` - Zuurkoolstamppot / 酸菜土豆泥 / Zuurkoolstamppot
-26. 102023 - `andijviestamppot` - Andijviestamppot / 荷兰菊苣叶土豆泥 / Andijviestamppot
-27. 102025 - `nasi-goreng-dutch` - Dutch-Indonesian Nasi Goreng / 荷兰印尼炒饭 / Nasi goreng
-28. 102026 - `bami-goreng-dutch` - Dutch-Indonesian Bami Goreng / 荷兰印尼炒面 / Bami goreng
-29. 102027 - `loempia` - Loempia / 荷兰炸春卷 / Loempia
-30. 102028 - `oliebol` - Oliebol / 荷兰油炸甜面团 / Oliebol
+20. 102032 - `boerenkoolstamppot` - Boerenkoolstamppot / 荷兰羽衣甘蓝土豆泥 / Boerenkoolstamppot
+21. 102033 - `hete-bliksem` - Hete Bliksem / 苹果土豆泥配培根 / Hete bliksem
+22. 102034 - `kapucijners-met-spek` - Kapucijners met Spek / 荷兰褐豌豆配培根 / Kapucijners met spek
+23. 102035 - `draadjesvlees` - Draadjesvlees / 荷兰慢炖手撕牛肉 / Draadjesvlees
+24. 102036 - `gehaktbal` - Gehaktbal / 荷兰肉丸 / Gehaktbal
+25. 102037 - `slavink` - Slavink / 培根包肉卷 / Slavink
+26. 102038 - `rookworst` - Rookworst / 荷兰烟熏香肠 / Rookworst
+27. 102039 - `lekkerbekje` - Lekkerbekje / 荷兰炸鱼排 / Lekkerbekje
+28. 102040 - `mosselen-naturel` - Mosselen Naturel / 原味清蒸贻贝 / Mosselen naturel
+29. 102041 - `asperges-met-ham-en-ei` - Asperges met Ham en Ei / 白芦笋配火腿和鸡蛋 / Asperges met ham en ei
+30. 102042 - `broodje-bal` - Broodje Bal / 荷兰肉丸面包 / Broodje bal
+31. 102043 - `broodje-haring` - Broodje Haring / 荷兰鲱鱼面包 / Broodje haring
+32. 102044 - `broodje-kroket` - Broodje Kroket / 荷兰可乐饼面包 / Broodje kroket
+33. 102045 - `broodje-shoarma` - Broodje Shoarma / 荷兰沙威玛面包 / Broodje shoarma
+34. 102046 - `uitsmijter-ham-kaas` - Uitsmijter Ham Kaas / 火腿奶酪煎蛋开放三明治 / Uitsmijter ham kaas
+35. 102047 - `huzarensalade` - Huzarensalade / 荷兰土豆肉丁沙拉 / Huzarensalade
+36. 102048 - `zalmsalade` - Zalmsalade / 荷兰三文鱼土豆沙拉 / Zalmsalade
+37. 102049 - `eierbal` - Eierbal / 荷兰炸鸡蛋球 / Eierbal
+38. 102050 - `saucijzenbroodje` - Saucijzenbroodje / 荷兰酥皮香肠卷 / Saucijzenbroodje
+39. 102051 - `kaassouffle` - Kaassoufflé / 荷兰炸奶酪酥 / Kaassoufflé
+40. 102052 - `appelflap` - Appelflap / 荷兰苹果酥角 / Appelflap
+41. 102053 - `tompouce` - Tompouce / 粉色糖霜奶油酥皮 / Tompouce
+42. 102054 - `boterkoek` - Boterkoek / 荷兰黄油蛋糕 / Boterkoek
+43. 102055 - `speculaas` - Speculaas / 荷兰香料饼干 / Speculaas
+44. 102056 - `ontbijtkoek` - Ontbijtkoek / 荷兰香料早餐蛋糕 / Ontbijtkoek
+45. 102057 - `beschuit-met-muisjes` - Beschuit met Muisjes / 荷兰脆圆饼配彩色茴香糖粒 / Beschuit met muisjes
+46. 102058 - `vlaflip` - Vlaflip / 荷兰奶黄酸奶分层甜品 / Vlaflip
+47. 102059 - `griesmeelpudding` - Griesmeelpudding / 荷兰粗麦粉布丁 / Griesmeelpudding
+48. 102060 - `hangop` - Hangop / 荷兰滤酸奶甜品 / Hangop
+49. 102061 - `jodenkoek` - Jodenkoek / 荷兰大圆黄油饼干 / Jodenkoek
+50. 102021 - `hutspot` - Hutspot / 胡萝卜洋葱土豆泥 / Hutspot
+51. 102022 - `zuurkoolstamppot` - Zuurkoolstamppot / 酸菜土豆泥 / Zuurkoolstamppot
+52. 102023 - `andijviestamppot` - Andijviestamppot / 荷兰菊苣叶土豆泥 / Andijviestamppot
+53. 102024 - `babi-pangang` - Babi Pangang / 荷式印尼红酱烤猪肉 / Babi pangang
+54. 102025 - `nasi-goreng-dutch` - Dutch-Indonesian Nasi Goreng / 荷兰印尼炒饭 / Nasi goreng
+55. 102026 - `bami-goreng-dutch` - Dutch-Indonesian Bami Goreng / 荷兰印尼炒面 / Bami goreng
+56. 102027 - `loempia` - Loempia / 荷兰炸春卷 / Loempia
+57. 102028 - `oliebol` - Oliebol / 荷兰油炸甜面团 / Oliebol
+58. 102029 - `gevulde-koek` - Gevulde Koek / 荷兰杏仁夹心饼 / Gevulde koek
+59. 102030 - `krentenbol` - Krentenbol / 荷兰葡萄干小圆面包 / Krentenbol
+60. 102031 - `vla` - Vla / 荷兰香草奶黄 / Vla
 
 ## Ethiopian (ethiopian) - 30
 
@@ -330,7 +386,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 59. 103029 - `profiteroles` - Profiteroles / 泡芙冰淇淋巧克力酱 / Profiteroles
 60. 103030 - `paris-brest` - Paris-Brest / 巴黎布雷斯特泡芙 / Paris-Brest
 
-## German (german) - 30
+## German (german) - 60
 
 1. 106001 - `schnitzel` - Schnitzel / 德式炸肉排 / Schnitzel
 2. 106002 - `bratwurst` - Bratwurst / 德式煎香肠 / Bratwurst
@@ -350,20 +406,50 @@ Generated from data/internal/index.js after the verified database quarantine aud
 16. 106016 - `apfelstrudel` - Apfelstrudel / 苹果卷 / Apfelstrudel
 17. 106017 - `black-forest-cake` - Black Forest Cake / 黑森林蛋糕 / Schwarzwälder Kirschtorte
 18. 106031 - `frikadellen-german` - Frikadellen / 德式煎肉饼 / Frikadellen
-19. 106049 - `obatzda` - Obatzda / 巴伐利亚奶酪抹酱 / Obatzda
-20. 106018 - `goulash-german` - German Goulash / 德式炖牛肉 / Gulasch
-21. 106019 - `eisbein` - Eisbein / 德式水煮猪肘 / Eisbein
-22. 106020 - `kartoffelpuffer` - Kartoffelpuffer / 德式土豆饼 / Kartoffelpuffer
-23. 106021 - `sauerkraut` - Sauerkraut / 德国酸菜 / Sauerkraut
-24. 106022 - `red-cabbage-german` - Rotkohl / 德式红甘蓝 / Rotkohl
-25. 106023 - `matjes-herring` - Matjes Herring / 嫩鲱鱼 / Matjes
-26. 106024 - `labskaus` - Labskaus / 北德咸牛肉土豆泥 / Labskaus
-27. 106025 - `zanderfilet` - Zanderfilet / 煎梭鲈鱼柳 / Zanderfilet
-28. 106026 - `germknoedel` - Germknödel / 甜酵母团子 / Germknödel
-29. 106027 - `kaiserschmarrn` - Kaiserschmarrn / 皇帝煎饼 / Kaiserschmarrn
-30. 106030 - `kartoffelsuppe` - Kartoffelsuppe / 德式土豆汤 / Kartoffelsuppe
+19. 106032 - `hackbraten` - Hackbraten / 德式肉糜烤排 / Hackbraten
+20. 106033 - `schupfnudeln` - Schupfnudeln / 德式土豆手指面 / Schupfnudeln
+21. 106034 - `bratkartoffeln` - Bratkartoffeln / 德式煎土豆 / Bratkartoffeln
+22. 106035 - `kartoffelknoedel` - Kartoffelknödel / 德式土豆丸子 / Kartoffelknödel
+23. 106036 - `schweinebraten` - Schweinebraten / 德式烤猪肉 / Schweinebraten
+24. 106037 - `kasseler` - Kasseler / 德式烟熏腌猪肉 / Kasseler
+25. 106038 - `erbsensuppe` - Erbsensuppe / 德式豌豆浓汤 / Erbsensuppe
+26. 106039 - `linseneintopf` - Linseneintopf / 德式扁豆炖汤 / Linseneintopf
+27. 106040 - `gruenkohl-mit-pinkel` - Grünkohl mit Pinkel / 羽衣甘蓝炖香肠 / Grünkohl mit Pinkel
+28. 106041 - `fischbroetchen` - Fischbrötchen / 德式鱼肉小面包 / Fischbrötchen
+29. 106042 - `rollmops` - Rollmops / 卷鲱鱼酸黄瓜 / Rollmops
+30. 106043 - `heringssalat` - Heringssalat / 德式鲱鱼沙拉 / Heringssalat
+31. 106044 - `backfisch` - Backfisch / 德式炸鱼 / Backfisch
+32. 106045 - `zwiebelrostbraten` - Zwiebelrostbraten / 炸洋葱烤牛肉 / Zwiebelrostbraten
+33. 106046 - `jaegerschnitzel` - Jägerschnitzel / 蘑菇汁炸猪排 / Jägerschnitzel
+34. 106047 - `rahmschnitzel` - Rahmschnitzel / 奶油汁炸猪排 / Rahmschnitzel
+35. 106048 - `wurstsalat` - Wurstsalat / 德式香肠沙拉 / Wurstsalat
+36. 106049 - `obatzda` - Obatzda / 巴伐利亚奶酪抹酱 / Obatzda
+37. 106050 - `leberknoedelsuppe` - Leberknödelsuppe / 肝丸清汤 / Leberknödelsuppe
+38. 106051 - `bienenstich` - Bienenstich / 蜜蜂蜇蛋糕 / Bienenstich
+39. 106052 - `zwetschgenkuchen` - Zwetschgenkuchen / 德式李子蛋糕 / Zwetschgenkuchen
+40. 106053 - `rote-gruetze` - Rote Grütze / 红莓果羹 / Rote Grütze
+41. 106054 - `dampfnudel` - Dampfnudel / 德式蒸甜面团 / Dampfnudel
+42. 106055 - `berliner-pfannkuchen` - Berliner Pfannkuchen / 德式果酱甜甜圈 / Berliner Pfannkuchen
+43. 106056 - `flammende-herzen` - Flammende Herzen / 心形夹心奶油饼干 / Flammende Herzen
+44. 106057 - `zwiebelkuchen` - Zwiebelkuchen / 德式洋葱咸派 / Zwiebelkuchen
+45. 106058 - `kartoffelgratin-german` - Kartoffelgratin / 德式奶油烤土豆 / Kartoffelgratin
+46. 106059 - `blaukraut` - Blaukraut / 德式炖红甘蓝 / Blaukraut
+47. 106060 - `spargel-mit-sauce-hollandaise` - Spargel mit Sauce Hollandaise / 白芦笋配荷兰酱 / Spargel mit Sauce Hollandaise
+48. 106018 - `goulash-german` - German Goulash / 德式炖牛肉 / Gulasch
+49. 106019 - `eisbein` - Eisbein / 德式水煮猪肘 / Eisbein
+50. 106020 - `kartoffelpuffer` - Kartoffelpuffer / 德式土豆饼 / Kartoffelpuffer
+51. 106021 - `sauerkraut` - Sauerkraut / 德国酸菜 / Sauerkraut
+52. 106022 - `red-cabbage-german` - Rotkohl / 德式红甘蓝 / Rotkohl
+53. 106023 - `matjes-herring` - Matjes Herring / 嫩鲱鱼 / Matjes
+54. 106024 - `labskaus` - Labskaus / 北德咸牛肉土豆泥 / Labskaus
+55. 106025 - `zanderfilet` - Zanderfilet / 煎梭鲈鱼柳 / Zanderfilet
+56. 106026 - `germknoedel` - Germknödel / 甜酵母团子 / Germknödel
+57. 106027 - `kaiserschmarrn` - Kaiserschmarrn / 皇帝煎饼 / Kaiserschmarrn
+58. 106028 - `lebkuchen` - Lebkuchen / 德式姜饼 / Lebkuchen
+59. 106029 - `rinderroulade` - Rinderroulade / 德式牛肉卷 / Rinderroulade
+60. 106030 - `kartoffelsuppe` - Kartoffelsuppe / 德式土豆汤 / Kartoffelsuppe
 
-## Greek (greek) - 43
+## Greek (greek) - 45
 
 1. 104013 - `fava` - Fava / 希腊黄豌豆泥 / φάβα
 2. 104014 - `melitzanosalata` - Melitzanosalata / 希腊烤茄子酱 / μελιτζανοσαλάτα
@@ -396,18 +482,20 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 104041 - `bougatsa` - Bougatsa / 希腊奶油酥皮派 / μπουγάτσα
 30. 104042 - `portokalopita` - Portokalopita / 希腊橙香糖浆蛋糕 / πορτοκαλόπιτα
 31. 104046 - `lavraki` - Lavraki / 希腊烤海鲈鱼 / λαβράκι
-32. 104001 - `moussaka` - Moussaka / 希腊肉酱茄子烤菜 / μουσακάς
-33. 104002 - `souvlaki` - Souvlaki / 希腊烤肉串 / σουβλάκι
-34. 104003 - `gyros` - Gyros / 希腊旋转烤肉卷 / γύρος
-35. 104004 - `greek-salad` - Greek Salad / 希腊沙拉 / χωριάτικη σαλάτα
-36. 104005 - `spanakopita` - Spanakopita / 希腊菠菜奶酪派 / σπανακόπιτα
-37. 104006 - `tzatziki` - Tzatziki / 希腊酸奶黄瓜酱 / τζατζίκι
-38. 104007 - `dolmades` - Dolmades / 葡萄叶米卷 / ντολμάδες
-39. 104008 - `pastitsio` - Pastitsio / 希腊烤通心粉 / παστίτσιο
-40. 104009 - `kleftiko` - Kleftiko / 希腊慢烤羊肉 / κλέφτικο
-41. 104010 - `saganaki` - Saganaki / 煎奶酪 / σαγανάκι
-42. 104011 - `baklava` - Baklava / 果仁蜜酥 / μπακλαβάς
-43. 104012 - `loukoumades` - Loukoumades / 希腊蜂蜜小炸球 / λουκουμάδες
+32. 104059 - `tiropita` - Tiropita / 希腊奶酪派 / Τυρόπιτα
+33. 104060 - `gigantes-plaki` - Gigantes Plaki / 希腊番茄烤大豆 / Γίγαντες πλακί
+34. 104001 - `moussaka` - Moussaka / 希腊肉酱茄子烤菜 / μουσακάς
+35. 104002 - `souvlaki` - Souvlaki / 希腊烤肉串 / σουβλάκι
+36. 104003 - `gyros` - Gyros / 希腊旋转烤肉卷 / γύρος
+37. 104004 - `greek-salad` - Greek Salad / 希腊沙拉 / χωριάτικη σαλάτα
+38. 104005 - `spanakopita` - Spanakopita / 希腊菠菜奶酪派 / σπανακόπιτα
+39. 104006 - `tzatziki` - Tzatziki / 希腊酸奶黄瓜酱 / τζατζίκι
+40. 104007 - `dolmades` - Dolmades / 葡萄叶米卷 / ντολμάδες
+41. 104008 - `pastitsio` - Pastitsio / 希腊烤通心粉 / παστίτσιο
+42. 104009 - `kleftiko` - Kleftiko / 希腊慢烤羊肉 / κλέφτικο
+43. 104010 - `saganaki` - Saganaki / 煎奶酪 / σαγανάκι
+44. 104011 - `baklava` - Baklava / 果仁蜜酥 / μπακλαβάς
+45. 104012 - `loukoumades` - Loukoumades / 希腊蜂蜜小炸球 / λουκουμάδες
 
 ## Indian (indian) - 30
 
@@ -769,7 +857,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 129029 - `mazamorra-morada` - Mazamorra Morada / 紫玉米甜羹 / mazamorra morada
 30. 129030 - `alfajores-peruvian` - Peruvian Alfajores / 秘鲁焦糖夹心饼 / alfajores
 
-## Portuguese (portuguese) - 48
+## Portuguese (portuguese) - 59
 
 1. 125031 - `bacalhau-a-lagareiro` - Bacalhau a Lagareiro / 橄榄油烤盐鳕鱼 / Bacalhau à lagareiro
 2. 125032 - `pataniscas-de-bacalhau` - Pataniscas de Bacalhau / 葡式鳕鱼煎饼 / Pataniscas de Bacalhau
@@ -790,102 +878,172 @@ Generated from data/internal/index.js after the verified database quarantine aud
 17. 125047 - `lulas-recheadas` - Lulas Recheadas / 葡式酿鱿鱼 / Lulas Recheadas
 18. 125048 - `chocos-fritos` - Chocos Fritos / 葡式炸墨鱼 / Chocos Fritos
 19. 125049 - `caldeirada` - Caldeirada / 葡式鱼锅 / Caldeirada
-20. 125053 - `salada-de-polvo` - Salada de Polvo / 葡式章鱼沙拉 / Salada de Polvo
-21. 125001 - `bacalhau-a-bras` - Bacalhau a Bras / 金丝土豆炒盐鳕鱼 / Bacalhau à Brás
-22. 125002 - `pastel-de-nata` - Pastel de Nata / 葡式蛋挞 / Pastel de nata
-23. 125003 - `francesinha` - Francesinha / 波尔图肉酱三明治 / Francesinha
-24. 125004 - `caldo-verde` - Caldo Verde / 葡式青菜土豆汤 / Caldo verde
-25. 125005 - `piri-piri-chicken` - Piri-Piri Chicken / 霹雳辣椒烤鸡 / Frango piri-piri
-26. 125006 - `ameijoas-a-bulhao-pato` - Clams Bulhao Pato / 蒜香白酒蛤蜊 / Amêijoas à Bulhão Pato
-27. 125007 - `arroz-de-marisco` - Arroz de Marisco / 葡式海鲜饭 / Arroz de marisco
-28. 125008 - `bitoque` - Bitoque / 葡式煎牛排配蛋 / Bitoque
-29. 125009 - `polvo-a-lagareiro` - Polvo a Lagareiro / 橄榄油烤章鱼 / Polvo à lagareiro
-30. 125010 - `bifana` - Bifana / 葡式猪扒小面包 / Bifana
-31. 125012 - `queijadas` - Queijadas / 葡式乳酪小塔 / Queijadas
-32. 125013 - `bacalhau-com-natas` - Bacalhau com Natas / 奶油盐鳕鱼焗土豆 / Bacalhau com natas
-33. 125014 - `bacalhau-a-gomes-de-sa` - Bacalhau a Gomes de Sa / 土豆鸡蛋盐鳕鱼 / Bacalhau à Gomes de Sá
-34. 125015 - `bacalhau-espiritual` - Bacalhau Espiritual / 胡萝卜白酱盐鳕鱼焗菜 / Bacalhau espiritual
-35. 125016 - `sardinhas-assadas` - Sardinhas Assadas / 烤沙丁鱼 / Sardinhas assadas
-36. 125017 - `dourada-grelhada` - Dourada Grelhada / 烤海鲷 / Dourada grelhada
-37. 125018 - `cataplana-de-marisco` - Cataplana de Marisco / 葡式铜锅海鲜 / Cataplana de marisco
-38. 125019 - `feijoada-portuguesa` - Feijoada Portuguesa / 葡式豆子猪肉炖菜 / Feijoada portuguesa
-39. 125020 - `cozido-a-portuguesa` - Cozido a Portuguesa / 葡式杂肉蔬菜锅 / Cozido à portuguesa
-40. 125021 - `leitao-assado` - Leitao Assado / 烤乳猪 / Leitão assado
-41. 125022 - `alheira` - Alheira / 葡式阿列拉香肠 / Alheira
-42. 125023 - `prego` - Prego / 葡式牛排小面包 / Prego
-43. 125024 - `arroz-de-pato` - Arroz de Pato / 葡式鸭肉焗饭 / Arroz de pato
-44. 125026 - `peixinhos-da-horta` - Peixinhos da Horta / 葡式炸四季豆 / Peixinhos da horta
-45. 125027 - `bolinhos-de-bacalhau` - Bolinhos de Bacalhau / 葡式盐鳕鱼球 / Bolinhos de bacalhau
-46. 125028 - `arroz-doce` - Arroz Doce / 葡式肉桂米布丁 / Arroz doce
-47. 125029 - `serradura` - Serradura / 木糠布丁 / Serradura
-48. 125030 - `bolo-de-bolacha` - Bolo de Bolacha / 葡式饼干咖啡奶油蛋糕 / Bolo de bolacha
+20. 125050 - `queijo-da-serra` - Queijo da Serra / 塞拉山软奶酪 / Queijo da Serra
+21. 125051 - `farinheira` - Farinheira / 葡萄牙法里涅拉香肠 / Farinheira
+22. 125052 - `morcela-portuguesa` - Morcela Portuguesa / 葡萄牙血肠 / Morcela portuguesa
+23. 125053 - `salada-de-polvo` - Salada de Polvo / 葡式章鱼沙拉 / Salada de Polvo
+24. 125054 - `migas-portuguesas` - Migas Portuguesas / 葡萄牙炒面包碎 / Migas portuguesas
+25. 125055 - `broa` - Broa / 葡萄牙玉米面包 / Broa
+26. 125056 - `bolas-de-berlim` - Bolas de Berlim / 葡式奶油炸甜包 / Bolas de Berlim
+27. 125057 - `travesseiros` - Travesseiros / 辛特拉枕头酥 / Travesseiros
+28. 125058 - `pao-de-lo` - Pão de Ló / 葡萄牙海绵蛋糕 / Pão de Ló
+29. 125059 - `toucinho-do-ceu` - Toucinho do Céu / 葡萄牙杏仁蛋黄糕 / Toucinho do Céu
+30. 125060 - `sericaia` - Sericaia / 葡萄牙肉桂蛋奶甜点 / Sericaia
+31. 125001 - `bacalhau-a-bras` - Bacalhau a Bras / 金丝土豆炒盐鳕鱼 / Bacalhau à Brás
+32. 125002 - `pastel-de-nata` - Pastel de Nata / 葡式蛋挞 / Pastel de nata
+33. 125003 - `francesinha` - Francesinha / 波尔图肉酱三明治 / Francesinha
+34. 125004 - `caldo-verde` - Caldo Verde / 葡式青菜土豆汤 / Caldo verde
+35. 125005 - `piri-piri-chicken` - Piri-Piri Chicken / 霹雳辣椒烤鸡 / Frango piri-piri
+36. 125006 - `ameijoas-a-bulhao-pato` - Clams Bulhao Pato / 蒜香白酒蛤蜊 / Amêijoas à Bulhão Pato
+37. 125007 - `arroz-de-marisco` - Arroz de Marisco / 葡式海鲜饭 / Arroz de marisco
+38. 125008 - `bitoque` - Bitoque / 葡式煎牛排配蛋 / Bitoque
+39. 125009 - `polvo-a-lagareiro` - Polvo a Lagareiro / 橄榄油烤章鱼 / Polvo à lagareiro
+40. 125010 - `bifana` - Bifana / 葡式猪扒小面包 / Bifana
+41. 125012 - `queijadas` - Queijadas / 葡式乳酪小塔 / Queijadas
+42. 125013 - `bacalhau-com-natas` - Bacalhau com Natas / 奶油盐鳕鱼焗土豆 / Bacalhau com natas
+43. 125014 - `bacalhau-a-gomes-de-sa` - Bacalhau a Gomes de Sa / 土豆鸡蛋盐鳕鱼 / Bacalhau à Gomes de Sá
+44. 125015 - `bacalhau-espiritual` - Bacalhau Espiritual / 胡萝卜白酱盐鳕鱼焗菜 / Bacalhau espiritual
+45. 125016 - `sardinhas-assadas` - Sardinhas Assadas / 烤沙丁鱼 / Sardinhas assadas
+46. 125017 - `dourada-grelhada` - Dourada Grelhada / 烤海鲷 / Dourada grelhada
+47. 125018 - `cataplana-de-marisco` - Cataplana de Marisco / 葡式铜锅海鲜 / Cataplana de marisco
+48. 125019 - `feijoada-portuguesa` - Feijoada Portuguesa / 葡式豆子猪肉炖菜 / Feijoada portuguesa
+49. 125020 - `cozido-a-portuguesa` - Cozido a Portuguesa / 葡式杂肉蔬菜锅 / Cozido à portuguesa
+50. 125021 - `leitao-assado` - Leitao Assado / 烤乳猪 / Leitão assado
+51. 125022 - `alheira` - Alheira / 葡式阿列拉香肠 / Alheira
+52. 125023 - `prego` - Prego / 葡式牛排小面包 / Prego
+53. 125024 - `arroz-de-pato` - Arroz de Pato / 葡式鸭肉焗饭 / Arroz de pato
+54. 125025 - `ervilhas-com-ovos` - Ervilhas com Ovos / 葡萄牙豌豆炖蛋 / Ervilhas com ovos
+55. 125026 - `peixinhos-da-horta` - Peixinhos da Horta / 葡式炸四季豆 / Peixinhos da horta
+56. 125027 - `bolinhos-de-bacalhau` - Bolinhos de Bacalhau / 葡式盐鳕鱼球 / Bolinhos de bacalhau
+57. 125028 - `arroz-doce` - Arroz Doce / 葡式肉桂米布丁 / Arroz doce
+58. 125029 - `serradura` - Serradura / 木糠布丁 / Serradura
+59. 125030 - `bolo-de-bolacha` - Bolo de Bolacha / 葡式饼干咖啡奶油蛋糕 / Bolo de bolacha
 
-## Scandinavian (scandinavian) - 31
+## Scandinavian (scandinavian) - 60
 
-1. 128035 - `stegt-flaesk` - Stegt Flaesk / 丹麦脆煎五花肉 / Stegt flæsk
-2. 128040 - `raspeballer` - Raspeballer / 挪威土豆团子 / Raspeballer
-3. 128047 - `kladdkaka` - Kladdkaka / 瑞典黏心巧克力蛋糕 / Kladdkaka
-4. 128001 - `gravlax` - Gravlax / 莳萝腌三文鱼 / Gravlax
-5. 128002 - `swedish-meatballs` - Swedish Meatballs / 瑞典肉丸 / Köttbullar
-6. 128003 - `smorrebrod` - Smorrebrod / 丹麦开放三明治 / Smørrebrød
-7. 128004 - `pickled-herring` - Pickled Herring / 腌鲱鱼 / Sill
-8. 128005 - `fiskesuppe` - Fiskesuppe / 北欧奶油鱼汤 / Fiskesuppe
-9. 128006 - `reindeer-stew` - Reindeer Stew / 驯鹿肉炖菜 / Renskav
-10. 128007 - `pyttipanna` - Pyttipanna / 北欧土豆肉丁煎锅 / Pyttipanna
-11. 128008 - `rakfisk` - Rakfisk / 发酵鳟鱼 / Rakfisk
-12. 128009 - `kanelbullar` - Kanelbullar / 瑞典肉桂卷 / Kanelbullar
-13. 128010 - `skagen-toast` - Toast Skagen / 瑞典虾仁吐司 / Toast Skagen
-14. 128011 - `lutefisk` - Lutefisk / 碱水鳕鱼 / Lutefisk
-15. 128012 - `cloudberry-dessert` - Cloudberry Dessert / 北欧云莓甜点 / molte dessert
-16. 128013 - `frikadeller` - Frikadeller / 丹麦煎肉丸 / Frikadeller
-17. 128014 - `karjalanpiirakka` - Karelian Pie / 卡累利阿米粥派 / Karjalanpiirakka
-18. 128015 - `lohikeitto` - Lohikeitto / 芬兰奶油三文鱼汤 / Lohikeitto
-19. 128016 - `kalops` - Kalops / 瑞典牛肉炖菜 / Kalops
-20. 128017 - `raggmunk` - Raggmunk / 瑞典土豆煎饼 / Raggmunk
-21. 128018 - `janssons-frestelse` - Jansson's Temptation / 瑞典奶油鳀鱼土豆焗菜 / Janssons frestelse
-22. 128019 - `kroppkakor` - Kroppkakor / 瑞典土豆肉馅团子 / Kroppkakor
-23. 128020 - `farikal` - Farikal / 挪威羊肉卷心菜炖菜 / Fårikål
-24. 128021 - `kjottkaker` - Kjottkaker / 挪威肉饼 / Kjøttkaker
-25. 128022 - `leverpostej` - Leverpostej / 丹麦肝酱 / Leverpostej
-26. 128024 - `fish-cakes-scandinavian` - Scandinavian Fish Cakes / 北欧鱼饼 / Fiskekaker
-27. 128025 - `pea-soup-pancakes` - Pea Soup and Pancakes / 豌豆汤配薄饼 / Ärtsoppa och pannkakor
-28. 128026 - `princess-cake` - Princess Cake / 瑞典公主蛋糕 / Prinsesstårta
-29. 128027 - `semla` - Semla / 瑞典奶油杏仁甜面包 / Semla
-30. 128028 - `riskrem` - Riskrem / 挪威奶油米布丁 / Riskrem
-31. 128029 - `aebleskiver` - Aebleskiver / 丹麦圆球小煎饼 / Æbleskiver
+1. 128031 - `flaskpannkaka` - Fläskpannkaka / 瑞典培根烤煎饼 / Fläskpannkaka
+2. 128032 - `isterband` - Isterband / 瑞典酸烟熏香肠 / Isterband
+3. 128033 - `falukorv` - Falukorv / 瑞典法伦香肠 / Falukorv
+4. 128034 - `wallenbergare` - Wallenbergare / 瑞典小牛肉饼 / Wallenbergare
+5. 128035 - `stegt-flaesk` - Stegt Flaesk / 丹麦脆煎五花肉 / Stegt flæsk
+6. 128036 - `medisterpolse` - Medisterpølse / 丹麦煎猪肉香肠 / Medisterpølse
+7. 128037 - `biksemad` - Biksemad / 丹麦土豆肉丁煎盘 / Biksemad
+8. 128038 - `rugbrod` - Rugbrød / 丹麦黑麦面包 / Rugbrød
+9. 128039 - `rommegrot` - Rømmegrøt / 挪威酸奶油粥 / Rømmegrøt
+10. 128040 - `raspeballer` - Raspeballer / 挪威土豆团子 / Raspeballer
+11. 128041 - `pinnekjott` - Pinnekjøtt / 挪威盐干羊肋 / Pinnekjøtt
+12. 128042 - `ribbe-norwegian` - Norwegian Ribbe / 挪威脆皮烤猪肋 / Ribbe
+13. 128043 - `fiskegrateng` - Fiskegrateng / 挪威奶油鱼焗菜 / Fiskegrateng
+14. 128044 - `skrei` - Skrei / 挪威季节鳕鱼 / Skrei
+15. 128045 - `smalahove` - Smalahove / 挪威羊头菜 / Smalahove
+16. 128046 - `blabarsoppa` - Blåbärssoppa / 瑞典蓝莓汤 / Blåbärssoppa
+17. 128047 - `kladdkaka` - Kladdkaka / 瑞典黏心巧克力蛋糕 / Kladdkaka
+18. 128048 - `kanelsnegle` - Kanelsnegle / 丹麦肉桂蜗牛卷 / Kanelsnegle
+19. 128049 - `wienerbrod` - Wienerbrød / 丹麦酥 / Wienerbrød
+20. 128050 - `kransekake` - Kransekake / 北欧杏仁圈塔 / Kransekake
+21. 128051 - `lefse` - Lefse / 挪威土豆软饼 / Lefse
+22. 128052 - `pannukakku` - Pannukakku / 芬兰烤箱煎饼 / Pannukakku
+23. 128053 - `poronkaristys` - Poronkäristys / 芬兰炒驯鹿肉 / Poronkäristys
+24. 128054 - `karjalanpaisti` - Karjalanpaisti / 芬兰卡累利阿炖肉 / Karjalanpaisti
+25. 128055 - `silakkapihvit` - Silakkapihvit / 芬兰煎鲱鱼排 / Silakkapihvit
+26. 128056 - `hernekeitto` - Hernekeitto / 芬兰豌豆汤 / Hernekeitto
+27. 128057 - `rakmacka` - Räkmacka / 瑞典虾开放三明治 / Räkmacka
+28. 128058 - `silltallrik` - Silltallrik / 瑞典腌鲱鱼拼盘 / Silltallrik
+29. 128059 - `gravlax-toast` - Gravlax Toast / 莳萝腌三文鱼吐司 / Gravlax toast
+30. 128060 - `rabarberpaj` - Rabarberpaj / 瑞典大黄派 / Rabarberpaj
+31. 128001 - `gravlax` - Gravlax / 莳萝腌三文鱼 / Gravlax
+32. 128002 - `swedish-meatballs` - Swedish Meatballs / 瑞典肉丸 / Köttbullar
+33. 128003 - `smorrebrod` - Smorrebrod / 丹麦开放三明治 / Smørrebrød
+34. 128004 - `pickled-herring` - Pickled Herring / 腌鲱鱼 / Sill
+35. 128005 - `fiskesuppe` - Fiskesuppe / 北欧奶油鱼汤 / Fiskesuppe
+36. 128006 - `reindeer-stew` - Reindeer Stew / 驯鹿肉炖菜 / Renskav
+37. 128007 - `pyttipanna` - Pyttipanna / 北欧土豆肉丁煎锅 / Pyttipanna
+38. 128008 - `rakfisk` - Rakfisk / 发酵鳟鱼 / Rakfisk
+39. 128009 - `kanelbullar` - Kanelbullar / 瑞典肉桂卷 / Kanelbullar
+40. 128010 - `skagen-toast` - Toast Skagen / 瑞典虾仁吐司 / Toast Skagen
+41. 128011 - `lutefisk` - Lutefisk / 碱水鳕鱼 / Lutefisk
+42. 128012 - `cloudberry-dessert` - Cloudberry Dessert / 北欧云莓甜点 / molte dessert
+43. 128013 - `frikadeller` - Frikadeller / 丹麦煎肉丸 / Frikadeller
+44. 128014 - `karjalanpiirakka` - Karelian Pie / 卡累利阿米粥派 / Karjalanpiirakka
+45. 128015 - `lohikeitto` - Lohikeitto / 芬兰奶油三文鱼汤 / Lohikeitto
+46. 128016 - `kalops` - Kalops / 瑞典牛肉炖菜 / Kalops
+47. 128017 - `raggmunk` - Raggmunk / 瑞典土豆煎饼 / Raggmunk
+48. 128018 - `janssons-frestelse` - Jansson's Temptation / 瑞典奶油鳀鱼土豆焗菜 / Janssons frestelse
+49. 128019 - `kroppkakor` - Kroppkakor / 瑞典土豆肉馅团子 / Kroppkakor
+50. 128020 - `farikal` - Farikal / 挪威羊肉卷心菜炖菜 / Fårikål
+51. 128021 - `kjottkaker` - Kjottkaker / 挪威肉饼 / Kjøttkaker
+52. 128022 - `leverpostej` - Leverpostej / 丹麦肝酱 / Leverpostej
+53. 128023 - `open-faced-herring` - Herring Smørrebrød / 鲱鱼开放三明治 / Sild smørrebrød
+54. 128024 - `fish-cakes-scandinavian` - Scandinavian Fish Cakes / 北欧鱼饼 / Fiskekaker
+55. 128025 - `pea-soup-pancakes` - Pea Soup and Pancakes / 豌豆汤配薄饼 / Ärtsoppa och pannkakor
+56. 128026 - `princess-cake` - Princess Cake / 瑞典公主蛋糕 / Prinsesstårta
+57. 128027 - `semla` - Semla / 瑞典奶油杏仁甜面包 / Semla
+58. 128028 - `riskrem` - Riskrem / 挪威奶油米布丁 / Riskrem
+59. 128029 - `aebleskiver` - Aebleskiver / 丹麦圆球小煎饼 / Æbleskiver
+60. 128030 - `brunost-toast` - Brunost Toast / 挪威棕奶酪吐司 / Brunost toast
 
-## Spanish (spanish) - 30
+## Spanish (spanish) - 60
 
-1. 105001 - `paella` - Paella / 西班牙海鲜饭 / Paella
-2. 105002 - `tortilla-espanola` - Tortilla Española / 西班牙土豆蛋饼 / Tortilla española
-3. 105003 - `patatas-bravas` - Patatas Bravas / 西班牙辣酱土豆 / Patatas bravas
-4. 105004 - `croquetas` - Croquetas / 西班牙可乐饼 / Croquetas
-5. 105005 - `jamon-iberico` - Jamón Ibérico / 伊比利亚火腿 / Jamón ibérico
-6. 105006 - `gambas-al-ajillo` - Gambas al Ajillo / 蒜香虾 / Gambas al ajillo
-7. 105007 - `gazpacho` - Gazpacho / 西班牙冷番茄汤 / Gazpacho
-8. 105008 - `pulpo-a-la-gallega` - Pulpo a la Gallega / 加利西亚章鱼 / Pulpo a la gallega
-9. 105009 - `pan-con-tomate` - Pan con Tomate / 番茄面包 / Pan con tomate
-10. 105010 - `churros` - Churros / 西班牙油条 / Churros
-11. 105011 - `crema-catalana` - Crema Catalana / 加泰罗尼亚焦糖奶冻 / Crema catalana
-12. 105012 - `fabada` - Fabada / 阿斯图里亚斯豆肉炖菜 / Fabada
-13. 105013 - `albondigas` - Albóndigas / 西班牙肉丸 / Albóndigas
-14. 105014 - `pimientos-de-padron` - Pimientos de Padrón / 帕德龙小青椒 / Pimientos de Padrón
-15. 105015 - `boquerones-en-vinagre` - Boquerones en Vinagre / 醋渍凤尾鱼 / Boquerones en vinagre
-16. 105016 - `ensaladilla-rusa` - Ensaladilla Rusa / 西班牙俄式土豆沙拉 / Ensaladilla rusa
-17. 105017 - `salmorejo` - Salmorejo / 安达卢西亚浓番茄冷汤 / Salmorejo
-18. 105018 - `calamares-a-la-romana` - Calamares a la Romana / 西班牙炸鱿鱼圈 / Calamares a la romana
-19. 105019 - `fideua` - Fideuà / 西班牙海鲜短面 / Fideuà
-20. 105020 - `arroz-negro` - Arroz Negro / 西班牙墨鱼汁黑饭 / Arroz negro
-21. 105021 - `bacalao-al-pil-pil` - Bacalao al Pil Pil / 盐鳕鱼橄榄油乳化酱 / Bacalao al pil pil
-22. 105022 - `merluza-a-la-vasca` - Merluza a la Vasca / 巴斯克绿酱无须鳕 / Merluza a la vasca
-23. 105023 - `pollo-al-ajillo` - Pollo al Ajillo / 西班牙蒜香鸡 / Pollo al ajillo
-24. 105024 - `rabo-de-toro` - Rabo de Toro / 西班牙炖牛尾 / Rabo de toro
-25. 105025 - `carrillada` - Carrillada / 西班牙炖猪颊肉 / Carrillada
-26. 105026 - `cocido-madrileno` - Cocido Madrileño / 马德里鹰嘴豆炖肉 / Cocido madrileño
-27. 105027 - `huevos-rotos` - Huevos Rotos / 碎蛋薯条火腿 / Huevos rotos
-28. 105028 - `tarta-de-santiago` - Tarta de Santiago / 圣地亚哥杏仁蛋糕 / Tarta de Santiago
-29. 105029 - `spanish-flan` - Flan / 西班牙焦糖布丁 / Flan
-30. 105030 - `bocadillo-de-calamares` - Bocadillo de Calamares / 炸鱿鱼圈长棍三明治 / Bocadillo de calamares
+1. 105031 - `escalivada` - Escalivada / 加泰罗尼亚烤蔬菜 / Escalivada
+2. 105032 - `esqueixada` - Esqueixada / 加泰罗尼亚盐鳕鱼沙拉 / Esqueixada
+3. 105033 - `pisto` - Pisto / 西班牙蔬菜番茄炖菜 / Pisto
+4. 105034 - `pipirrana` - Pipirrana / 安达卢西亚碎蔬菜沙拉 / Pipirrana
+5. 105035 - `migas` - Migas / 西班牙炒面包屑 / Migas
+6. 105036 - `callos-a-la-madrilena` - Callos a la Madrilena / 马德里牛肚炖菜 / Callos a la madrileña
+7. 105037 - `sepia-a-la-plancha` - Sepia a la Plancha / 铁板煎墨鱼 / Sepia a la plancha
+8. 105038 - `navajas-a-la-plancha` - Navajas a la Plancha / 铁板煎竹蛏 / Navajas a la plancha
+9. 105039 - `zamburinas` - Zamburinas / 西班牙小扇贝 / Zamburiñas
+10. 105040 - `marmitako` - Marmitako / 巴斯克金枪鱼土豆炖菜 / Marmitako
+11. 105041 - `bacalao-a-la-vizcaina` - Bacalao a la Vizcaina / 比斯开红椒酱鳕鱼 / Bacalao a la vizcaína
+12. 105042 - `chipirones-en-su-tinta` - Chipirones en su Tinta / 墨汁小鱿鱼 / Chipirones en su tinta
+13. 105043 - `arroz-a-banda` - Arroz a Banda / 瓦伦西亚鱼汤海鲜饭 / Arroz a banda
+14. 105044 - `arroz-del-senyoret` - Arroz del Senyoret / 去壳海鲜饭 / Arroz del senyoret
+15. 105045 - `calcots` - Calcots / 加泰罗尼亚烤葱配坚果酱 / Calçots
+16. 105046 - `butifarra` - Butifarra / 加泰罗尼亚香肠配白豆 / Botifarra
+17. 105047 - `sobrasada` - Sobrasada / 马略卡红椒猪肉酱肠 / Sobrasada
+18. 105048 - `coca-de-recapte` - Coca de Recapte / 加泰罗尼亚烤蔬菜咸饼 / Coca de recapte
+19. 105049 - `empanada-gallega` - Empanada Gallega / 加利西亚咸派 / Empanada gallega
+20. 105050 - `lacon-con-grelos` - Lacon con Grelos / 加利西亚猪肩配芜菁叶 / Lacón con grelos
+21. 105051 - `oreja-a-la-plancha` - Oreja a la Plancha / 铁板煎猪耳 / Oreja a la plancha
+22. 105052 - `txangurro` - Txangurro / 巴斯克焗蟹壳 / Txangurro
+23. 105053 - `kokotxas` - Kokotxas / 巴斯克鱼脸颊肉 / Kokotxas
+24. 105054 - `tarta-de-queso-vasca` - Basque Cheesecake / 巴斯克焦香芝士蛋糕 / Tarta de queso vasca
+25. 105055 - `torrijas` - Torrijas / 西班牙牛奶浸炸面包 / Torrijas
+26. 105056 - `leche-frita` - Leche Frita / 西班牙炸牛奶 / Leche frita
+27. 105057 - `natillas` - Natillas / 西班牙蛋奶冻 / Natillas
+28. 105058 - `tocino-de-cielo` - Tocino de Cielo / 西班牙蛋黄金糕布丁 / Tocino de cielo
+29. 105059 - `ensaimada` - Ensaimada / 马略卡螺旋甜面包 / Ensaïmada
+30. 105060 - `queso-manchego` - Queso Manchego / 曼切戈奶酪 / Queso manchego
+31. 105001 - `paella` - Paella / 西班牙海鲜饭 / Paella
+32. 105002 - `tortilla-espanola` - Tortilla Española / 西班牙土豆蛋饼 / Tortilla española
+33. 105003 - `patatas-bravas` - Patatas Bravas / 西班牙辣酱土豆 / Patatas bravas
+34. 105004 - `croquetas` - Croquetas / 西班牙可乐饼 / Croquetas
+35. 105005 - `jamon-iberico` - Jamón Ibérico / 伊比利亚火腿 / Jamón ibérico
+36. 105006 - `gambas-al-ajillo` - Gambas al Ajillo / 蒜香虾 / Gambas al ajillo
+37. 105007 - `gazpacho` - Gazpacho / 西班牙冷番茄汤 / Gazpacho
+38. 105008 - `pulpo-a-la-gallega` - Pulpo a la Gallega / 加利西亚章鱼 / Pulpo a la gallega
+39. 105009 - `pan-con-tomate` - Pan con Tomate / 番茄面包 / Pan con tomate
+40. 105010 - `churros` - Churros / 西班牙油条 / Churros
+41. 105011 - `crema-catalana` - Crema Catalana / 加泰罗尼亚焦糖奶冻 / Crema catalana
+42. 105012 - `fabada` - Fabada / 阿斯图里亚斯豆肉炖菜 / Fabada
+43. 105013 - `albondigas` - Albóndigas / 西班牙肉丸 / Albóndigas
+44. 105014 - `pimientos-de-padron` - Pimientos de Padrón / 帕德龙小青椒 / Pimientos de Padrón
+45. 105015 - `boquerones-en-vinagre` - Boquerones en Vinagre / 醋渍凤尾鱼 / Boquerones en vinagre
+46. 105016 - `ensaladilla-rusa` - Ensaladilla Rusa / 西班牙俄式土豆沙拉 / Ensaladilla rusa
+47. 105017 - `salmorejo` - Salmorejo / 安达卢西亚浓番茄冷汤 / Salmorejo
+48. 105018 - `calamares-a-la-romana` - Calamares a la Romana / 西班牙炸鱿鱼圈 / Calamares a la romana
+49. 105019 - `fideua` - Fideuà / 西班牙海鲜短面 / Fideuà
+50. 105020 - `arroz-negro` - Arroz Negro / 西班牙墨鱼汁黑饭 / Arroz negro
+51. 105021 - `bacalao-al-pil-pil` - Bacalao al Pil Pil / 盐鳕鱼橄榄油乳化酱 / Bacalao al pil pil
+52. 105022 - `merluza-a-la-vasca` - Merluza a la Vasca / 巴斯克绿酱无须鳕 / Merluza a la vasca
+53. 105023 - `pollo-al-ajillo` - Pollo al Ajillo / 西班牙蒜香鸡 / Pollo al ajillo
+54. 105024 - `rabo-de-toro` - Rabo de Toro / 西班牙炖牛尾 / Rabo de toro
+55. 105025 - `carrillada` - Carrillada / 西班牙炖猪颊肉 / Carrillada
+56. 105026 - `cocido-madrileno` - Cocido Madrileño / 马德里鹰嘴豆炖肉 / Cocido madrileño
+57. 105027 - `huevos-rotos` - Huevos Rotos / 碎蛋薯条火腿 / Huevos rotos
+58. 105028 - `tarta-de-santiago` - Tarta de Santiago / 圣地亚哥杏仁蛋糕 / Tarta de Santiago
+59. 105029 - `spanish-flan` - Flan / 西班牙焦糖布丁 / Flan
+60. 105030 - `bocadillo-de-calamares` - Bocadillo de Calamares / 炸鱿鱼圈长棍三明治 / Bocadillo de calamares
 
 ## Surinamese (surinamese) - 30
 

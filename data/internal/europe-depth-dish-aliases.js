@@ -2213,14 +2213,14 @@ export const europeDepthDishAliases = [
   },
   {
     "alias": "Americain Prepare",
-    "dishId": "americain-prepare",
+    "dishId": "filet-americain",
     "language": "menu",
-    "matchType": "canonical",
-    "confidence": 1
+    "matchType": "menu-variant",
+    "confidence": 0.96
   },
   {
     "alias": "比利时生牛肉抹酱",
-    "dishId": "americain-prepare",
+    "dishId": "filet-americain",
     "language": "menu",
     "matchType": "translated-name",
     "confidence": 0.94
@@ -2339,14 +2339,14 @@ export const europeDepthDishAliases = [
   },
   {
     "alias": "Vlaamse Stoofkarbonaden",
-    "dishId": "vlaamse-stoofkarbonaden",
+    "dishId": "stoofvlees",
     "language": "menu",
-    "matchType": "canonical",
-    "confidence": 1
+    "matchType": "menu-variant",
+    "confidence": 0.96
   },
   {
     "alias": "佛兰德啤酒炖牛肉",
-    "dishId": "vlaamse-stoofkarbonaden",
+    "dishId": "carbonnade-flamande",
     "language": "menu",
     "matchType": "translated-name",
     "confidence": 0.94

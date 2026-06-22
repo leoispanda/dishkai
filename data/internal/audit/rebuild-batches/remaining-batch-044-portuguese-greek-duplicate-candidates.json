@@ -1,0 +1,128 @@
+[
+  {
+    "dishId": "gigantes-plaki",
+    "metadataCode": "104060",
+    "cuisineId": "greek",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Gigantes Plaki",
+    "imagePath": "/assets/dishes/main/104060-gigantes-plaki.webp",
+    "thumbPath": "/assets/dishes/thumb/104060-gigantes-plaki.webp"
+  },
+  {
+    "dishId": "queijo-da-serra",
+    "metadataCode": "125050",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Queijo da Serra",
+    "imagePath": "/assets/dishes/main/125050-queijo-da-serra.webp",
+    "thumbPath": "/assets/dishes/thumb/125050-queijo-da-serra.webp"
+  },
+  {
+    "dishId": "farinheira",
+    "metadataCode": "125051",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Farinheira",
+    "imagePath": "/assets/dishes/main/125051-farinheira.webp",
+    "thumbPath": "/assets/dishes/thumb/125051-farinheira.webp"
+  },
+  {
+    "dishId": "morcela-portuguesa",
+    "metadataCode": "125052",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Morcela Portuguesa",
+    "imagePath": "/assets/dishes/main/125052-morcela-portuguesa.webp",
+    "thumbPath": "/assets/dishes/thumb/125052-morcela-portuguesa.webp"
+  },
+  {
+    "dishId": "migas-portuguesas",
+    "metadataCode": "125054",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Migas Portuguesas",
+    "imagePath": "/assets/dishes/main/125054-migas-portuguesas.webp",
+    "thumbPath": "/assets/dishes/thumb/125054-migas-portuguesas.webp"
+  },
+  {
+    "dishId": "broa",
+    "metadataCode": "125055",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Broa",
+    "imagePath": "/assets/dishes/main/125055-broa.webp",
+    "thumbPath": "/assets/dishes/thumb/125055-broa.webp"
+  },
+  {
+    "dishId": "bolas-de-berlim",
+    "metadataCode": "125056",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Bolas de Berlim",
+    "imagePath": "/assets/dishes/main/125056-bolas-de-berlim.webp",
+    "thumbPath": "/assets/dishes/thumb/125056-bolas-de-berlim.webp"
+  },
+  {
+    "dishId": "travesseiros",
+    "metadataCode": "125057",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Travesseiros",
+    "imagePath": "/assets/dishes/main/125057-travesseiros.webp",
+    "thumbPath": "/assets/dishes/thumb/125057-travesseiros.webp"
+  },
+  {
+    "dishId": "pao-de-lo",
+    "metadataCode": "125058",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Pao de Lo",
+    "imagePath": "/assets/dishes/main/125058-pao-de-lo.webp",
+    "thumbPath": "/assets/dishes/thumb/125058-pao-de-lo.webp"
+  },
+  {
+    "dishId": "toucinho-do-ceu",
+    "metadataCode": "125059",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Toucinho do Ceu",
+    "imagePath": "/assets/dishes/main/125059-toucinho-do-ceu.webp",
+    "thumbPath": "/assets/dishes/thumb/125059-toucinho-do-ceu.webp"
+  },
+  {
+    "dishId": "sericaia",
+    "metadataCode": "125060",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/europe-depth-dishes.js",
+    "name": "Sericaia",
+    "imagePath": "/assets/dishes/main/125060-sericaia.webp",
+    "thumbPath": "/assets/dishes/thumb/125060-sericaia.webp"
+  },
+  {
+    "dishId": "cataplana",
+    "metadataCode": "125011",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/world-dishes.js",
+    "name": "Cataplana",
+    "imagePath": "/assets/dishes/main/125011-cataplana.webp",
+    "thumbPath": "/assets/dishes/thumb/125011-cataplana.webp"
+  },
+  {
+    "dishId": "ervilhas-com-ovos",
+    "metadataCode": "125025",
+    "cuisineId": "portuguese",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Ervilhas com Ovos",
+    "imagePath": "/assets/dishes/main/125025-ervilhas-com-ovos.webp",
+    "thumbPath": "/assets/dishes/thumb/125025-ervilhas-com-ovos.webp"
+  },
+  {
+    "dishId": "makloubeh",
+    "metadataCode": "120023",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/global-depth-dishes.js",
+    "name": "Makloubeh",
+    "imagePath": "/assets/dishes/main/120023-makloubeh.webp",
+    "thumbPath": "/assets/dishes/thumb/120023-makloubeh.webp"
+  }
+]

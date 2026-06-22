@@ -1,0 +1,2780 @@
+[
+  {
+    "id": "boerenkoolstamppot",
+    "metadataCode": "102032",
+    "imageCode": "102032",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Boerenkoolstamppot",
+      "zh": "荷兰羽衣甘蓝土豆泥",
+      "nl": "Boerenkoolstamppot",
+      "local": "Boerenkoolstamppot"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "boiled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Mashed potatoes mixed with chopped kale, usually topped with smoked sausage.",
+      "zh": "土豆泥拌切碎羽衣甘蓝，通常配烟熏香肠。",
+      "nl": "Aardappelpuree gemengd met boerenkool, meestal met rookworst erbovenop."
+    },
+    "cookingProfile": {
+      "en": "Expect soft green-flecked mash with salty smoked sausage richness.",
+      "zh": "入口是柔软土豆泥和菜叶感，烟熏香肠带来咸香油脂。",
+      "nl": "Verwacht zachte puree met boerenkool en zoute, rokerige rookworst."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A winter Dutch stamppot where kale-mashed potatoes and smoked sausage are the ordering cues.",
+        "zh": "典型荷兰冬季土豆泥菜，识别重点是羽衣甘蓝土豆泥和烟熏香肠。",
+        "nl": "Een klassieke winterse stamppot waarbij boerenkoolpuree en rookworst de herkenningspunten zijn."
+      }
+    },
+    "composition": [
+      [
+        "potato",
+        55,
+        "mashed base"
+      ],
+      [
+        "kale",
+        25,
+        "greens"
+      ],
+      [
+        "smoked-sausage",
+        15,
+        "smoked topping"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "kale stamppot",
+      "smoked sausage",
+      "butter"
+    ],
+    "basicTaste": [
+      "savory",
+      "smoky",
+      "hearty"
+    ],
+    "textureProfile": [
+      "soft mash",
+      "leafy bits",
+      "firm sausage slices"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "classic-dish",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a hearty Dutch comfort plate; skip if you avoid pork or want something light.",
+      "zh": "想吃荷兰家常厚实主食时很稳；不吃猪肉或想要清淡菜时不适合。",
+      "nl": "Kies dit voor stevige Nederlandse comfortkost; sla over bij geen varken of als je iets lichts wilt."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102032-boerenkoolstamppot.webp",
+    "thumbPath": "/assets/dishes/thumb/102032-boerenkoolstamppot.webp"
+  },
+  {
+    "id": "hete-bliksem",
+    "metadataCode": "102033",
+    "imageCode": "102033",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Hete Bliksem",
+      "zh": "苹果土豆泥配培根",
+      "nl": "Hete bliksem",
+      "local": "Hete bliksem"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "boiled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "A mash of potato and apple with bacon or smoked sausage for a sweet-salty comfort flavor.",
+      "zh": "土豆和苹果压成泥，配培根或烟熏香肠，带甜咸对比。",
+      "nl": "Een puree van aardappel en appel met spek of rookworst voor een zoet-zoute smaak."
+    },
+    "cookingProfile": {
+      "en": "The apple makes the mash softer and lightly sweet, while bacon adds salt and smoke.",
+      "zh": "苹果让土豆泥更柔软微甜，培根增加咸香和烟熏感。",
+      "nl": "Appel maakt de puree zachter en licht zoet, terwijl spek zout en rook geeft."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A traditional Dutch mash recognized by potato, apple, and bacon or sausage.",
+        "zh": "传统荷兰土豆泥菜，重点是土豆、苹果和培根或香肠的甜咸组合。",
+        "nl": "Een traditionele stamppot herkenbaar aan aardappel, appel en spek of worst."
+      }
+    },
+    "composition": [
+      [
+        "potato",
+        50,
+        "mash base"
+      ],
+      [
+        "apple",
+        25,
+        "sweet fruit"
+      ],
+      [
+        "bacon",
+        15,
+        "salty pork"
+      ],
+      [
+        "onion",
+        5,
+        "savory base"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "apple sweetness",
+      "bacon",
+      "butter"
+    ],
+    "basicTaste": [
+      "sweet-savory",
+      "salty",
+      "mild"
+    ],
+    "textureProfile": [
+      "soft mash",
+      "small apple pieces",
+      "crisp bacon bits"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Good if sweet apple in a savory mash sounds appealing; skip if you dislike sweet-salty mains.",
+      "zh": "喜欢咸味土豆泥里带苹果甜味时可以点；不爱甜咸主菜则谨慎。",
+      "nl": "Goed als appel in hartige puree je aanspreekt; sla over als zoet-zout niet past."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102033-hete-bliksem.webp",
+    "thumbPath": "/assets/dishes/thumb/102033-hete-bliksem.webp"
+  },
+  {
+    "id": "kapucijners-met-spek",
+    "metadataCode": "102034",
+    "imageCode": "102034",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Kapucijners met Spek",
+      "zh": "荷兰褐豌豆配培根",
+      "nl": "Kapucijners met spek",
+      "local": "Kapucijners met spek"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "simmered",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Brown capuchin peas served with bacon, onions, and often pickles or mustard.",
+      "zh": "褐豌豆配培根、洋葱，常搭配酸黄瓜或芥末。",
+      "nl": "Kapucijners met spek, ui en vaak augurk of mosterd."
+    },
+    "cookingProfile": {
+      "en": "Expect earthy beans with salty bacon and sharp pickled accents.",
+      "zh": "入口是豆香和培根咸香，酸黄瓜带一点清爽酸味。",
+      "nl": "Verwacht aardse bonen met zout spek en frisse zuren."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Dutch brown-pea plate where bacon, pickles, and onions make it a hearty cafe dish.",
+        "zh": "荷兰褐豌豆家常菜，培根、酸黄瓜和洋葱让它更像厚实小餐馆主食。",
+        "nl": "Een bord met kapucijners waarbij spek, zuur en ui het stevig maken."
+      }
+    },
+    "composition": [
+      [
+        "beans",
+        55,
+        "brown peas"
+      ],
+      [
+        "bacon",
+        20,
+        "salty pork"
+      ],
+      [
+        "onion",
+        10,
+        "aromatic"
+      ],
+      [
+        "pickles",
+        10,
+        "acidic side"
+      ],
+      [
+        "mustard",
+        5,
+        "sharp condiment",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "brown peas",
+      "bacon",
+      "pickles"
+    ],
+    "basicTaste": [
+      "savory",
+      "salty",
+      "earthy"
+    ],
+    "textureProfile": [
+      "soft beans",
+      "crisp bacon",
+      "pickle crunch"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "no-pork"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for an old-school Dutch bean plate; skip if beans or bacon-heavy dishes are not your thing.",
+      "zh": "想吃老派荷兰豆类主食时可点；不爱豆子或培根重口味则不适合。",
+      "nl": "Kies dit voor een ouderwets bonengerecht; sla over als bonen of spek niet passen."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102034-kapucijners-met-spek.webp",
+    "thumbPath": "/assets/dishes/thumb/102034-kapucijners-met-spek.webp"
+  },
+  {
+    "id": "draadjesvlees",
+    "metadataCode": "102035",
+    "imageCode": "102035",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Draadjesvlees",
+      "zh": "荷兰慢炖手撕牛肉",
+      "nl": "Draadjesvlees",
+      "local": "Draadjesvlees"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "braised"
+    ],
+    "shortDescription": {
+      "en": "Slow-braised beef that falls into strands, usually served with potatoes and gravy.",
+      "zh": "慢炖到能拉成肉丝的牛肉，常配土豆和肉汁。",
+      "nl": "Lang gestoofd rundvlees dat in draadjes uit elkaar valt, vaak met aardappelen en jus."
+    },
+    "cookingProfile": {
+      "en": "The meat should feel tender, saucy, and deeper than a quick grilled beef dish.",
+      "zh": "牛肉应当软烂多汁，比快煎牛肉更深、更家常。",
+      "nl": "Het vlees is mals en sauzig, dieper van smaak dan snel gebakken rundvlees."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Dutch braised beef classic known for soft strands and dark gravy.",
+        "zh": "经典荷兰炖牛肉，识别重点是软烂肉丝和深色肉汁。",
+        "nl": "Een klassieker van gestoofd rundvlees met draadjes en donkere jus."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        55,
+        "braised meat"
+      ],
+      [
+        "broth",
+        20,
+        "gravy"
+      ],
+      [
+        "potato",
+        15,
+        "side"
+      ],
+      [
+        "onion",
+        5,
+        "braise base"
+      ],
+      [
+        "red-wine",
+        5,
+        "braise depth",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "braised beef",
+      "dark gravy",
+      "onion"
+    ],
+    "basicTaste": [
+      "savory",
+      "rich",
+      "meaty"
+    ],
+    "textureProfile": [
+      "shredded tender beef",
+      "glossy gravy",
+      "soft potatoes"
+    ],
+    "riskFlags": [
+      "contains-alcohol"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "meat-main"
+    ],
+    "avoidIfTags": [
+      "avoid-heavy-food"
+    ],
+    "orderVerdict": {
+      "en": "A strong choice for tender beef and gravy; skip if you want a lighter or crisp dish.",
+      "zh": "想吃软烂牛肉和肉汁时很适合；想要清爽或酥脆口感则不推荐。",
+      "nl": "Een goede keuze voor mals rundvlees met jus; sla over als je licht of krokant wilt."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102035-draadjesvlees.webp",
+    "thumbPath": "/assets/dishes/thumb/102035-draadjesvlees.webp"
+  },
+  {
+    "id": "gehaktbal",
+    "metadataCode": "102036",
+    "imageCode": "102036",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Gehaktbal",
+      "zh": "荷兰肉丸",
+      "nl": "Gehaktbal",
+      "local": "Gehaktbal"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "fried",
+      "braised"
+    ],
+    "shortDescription": {
+      "en": "A large browned meatball, often served with gravy, potatoes, and vegetables.",
+      "zh": "煎至上色的大颗肉丸，常配肉汁、土豆和蔬菜。",
+      "nl": "Een grote gebraden gehaktbal, vaak met jus, aardappelen en groente."
+    },
+    "cookingProfile": {
+      "en": "Expect a firm but juicy meatball with mild seasoning and brown gravy.",
+      "zh": "肉丸通常紧实多汁，调味温和，配棕色肉汁。",
+      "nl": "Verwacht een stevige maar sappige bal met milde kruiden en bruine jus."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A common Dutch meatball order, usually valued for gravy and comfort rather than spice.",
+        "zh": "常见荷兰肉丸，重点是肉汁和家常感，不是辛辣风味。",
+        "nl": "Een veelvoorkomende gehaktbal waarbij jus en comfort belangrijker zijn dan pit."
+      }
+    },
+    "composition": [
+      [
+        "ground-meat",
+        55,
+        "meatball"
+      ],
+      [
+        "bread",
+        10,
+        "binder"
+      ],
+      [
+        "egg",
+        10,
+        "binder"
+      ],
+      [
+        "broth",
+        15,
+        "gravy"
+      ],
+      [
+        "onion",
+        5,
+        "aromatic"
+      ],
+      [
+        "black-pepper",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "brown gravy",
+      "ground meat",
+      "black pepper"
+    ],
+    "basicTaste": [
+      "savory",
+      "meaty",
+      "mild"
+    ],
+    "textureProfile": [
+      "firm meatball",
+      "juicy center",
+      "saucy gravy"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "safe-choice"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Reliable if you want a mild meat-and-gravy plate; skip if you need gluten-free or very light food.",
+      "zh": "想要温和肉丸配肉汁时很稳；需要无麸质或很清淡时不适合。",
+      "nl": "Betrouwbaar voor vlees met jus; minder geschikt bij glutenvrij of heel licht eten."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102036-gehaktbal.webp",
+    "thumbPath": "/assets/dishes/thumb/102036-gehaktbal.webp"
+  },
+  {
+    "id": "slavink",
+    "metadataCode": "102037",
+    "imageCode": "102037",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Slavink",
+      "zh": "培根包肉卷",
+      "nl": "Slavink",
+      "local": "Slavink"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "fried"
+    ],
+    "shortDescription": {
+      "en": "A minced meat roll wrapped in bacon and pan-browned, usually served with potatoes.",
+      "zh": "肉馅卷外包培根后煎香，通常配土豆。",
+      "nl": "Een gehaktrol omwikkeld met spek en gebakken, meestal met aardappelen."
+    },
+    "cookingProfile": {
+      "en": "It eats salty and meaty, with bacon giving the outside a firmer browned bite.",
+      "zh": "入口咸香肉感明显，外层培根带来更紧实的焦香口感。",
+      "nl": "Zout en vlezig, met spek dat de buitenkant steviger en bruiner maakt."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Dutch butcher-style meat roll recognized by minced meat wrapped in bacon.",
+        "zh": "荷兰肉店风格肉卷，重点是肉馅外包培根。",
+        "nl": "Een slagersklassieker van gehakt omwikkeld met spek."
+      }
+    },
+    "composition": [
+      [
+        "ground-meat",
+        55,
+        "meat filling"
+      ],
+      [
+        "bacon",
+        25,
+        "wrapped outside"
+      ],
+      [
+        "potato",
+        15,
+        "side"
+      ],
+      [
+        "mustard",
+        5,
+        "condiment",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "bacon wrap",
+      "pan-browned meat",
+      "mustard"
+    ],
+    "basicTaste": [
+      "savory",
+      "salty",
+      "meaty"
+    ],
+    "textureProfile": [
+      "firm bacon outside",
+      "soft minced center",
+      "pan-browned edges"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "meat-main",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "no-pork"
+    ],
+    "orderVerdict": {
+      "en": "Good for a simple salty meat main; skip if pork or bacon is a problem.",
+      "zh": "想吃简单咸香肉类主菜时可点；不吃猪肉或培根则避开。",
+      "nl": "Goed voor een eenvoudige zoute vleesschotel; sla over bij geen varken of spek."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102037-slavink.webp",
+    "thumbPath": "/assets/dishes/thumb/102037-slavink.webp"
+  },
+  {
+    "id": "rookworst",
+    "metadataCode": "102038",
+    "imageCode": "102038",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Rookworst",
+      "zh": "荷兰烟熏香肠",
+      "nl": "Rookworst",
+      "local": "Rookworst"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "A smoky, juicy Dutch sausage often served sliced with mash or mustard.",
+      "zh": "多汁烟熏香肠，常切片配土豆泥或芥末。",
+      "nl": "Een rokerige, sappige worst, vaak in plakken met puree of mosterd."
+    },
+    "cookingProfile": {
+      "en": "The main cue is salty smoke and a snappy sausage bite rather than a complex sauce.",
+      "zh": "重点是咸香烟熏味和香肠弹性，不是复杂酱汁。",
+      "nl": "Het draait om zoute rook en een stevige worstbeet, niet om complexe saus."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Dutch smoked sausage commonly served with stamppot or pea soup.",
+        "zh": "荷兰烟熏香肠，常配土豆泥菜或豌豆汤。",
+        "nl": "Een Nederlandse rookworst die vaak bij stamppot of erwtensoep hoort."
+      }
+    },
+    "composition": [
+      [
+        "smoked-sausage",
+        65,
+        "sausage"
+      ],
+      [
+        "potato",
+        20,
+        "side mash"
+      ],
+      [
+        "kale",
+        10,
+        "stamppot side"
+      ],
+      [
+        "mustard",
+        5,
+        "condiment",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "smoked sausage",
+      "mustard",
+      "stamppot side"
+    ],
+    "basicTaste": [
+      "smoky",
+      "salty",
+      "savory"
+    ],
+    "textureProfile": [
+      "snappy casing",
+      "juicy sausage",
+      "soft mash"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "classic-dish",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "no-pork"
+    ],
+    "orderVerdict": {
+      "en": "Choose it when you want a smoky sausage-centered plate; skip if you avoid pork or salty cured meat.",
+      "zh": "想吃烟熏香肠为主的盘子时适合；不吃猪肉或怕咸则不推荐。",
+      "nl": "Kies dit voor een bord rond rookworst; sla over bij geen varken of zout vlees."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102038-rookworst.webp",
+    "thumbPath": "/assets/dishes/thumb/102038-rookworst.webp"
+  },
+  {
+    "id": "mosselen-naturel",
+    "metadataCode": "102040",
+    "imageCode": "102040",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Mosselen Naturel",
+      "zh": "原味清蒸贻贝",
+      "nl": "Mosselen naturel",
+      "local": "Mosselen naturel"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "steamed"
+    ],
+    "shortDescription": {
+      "en": "Steamed mussels served simply with aromatics and a light broth.",
+      "zh": "贻贝用香料蔬菜清蒸，配清淡汤汁。",
+      "nl": "Gestoomde mosselen met aromaten en lichte bouillon."
+    },
+    "cookingProfile": {
+      "en": "Expect briny shellfish, light broth, and a hands-on eating style from the shells.",
+      "zh": "可预期贝类咸鲜、汤汁清淡，需要从壳里取肉吃。",
+      "nl": "Verwacht zilte mosselen, lichte bouillon en eten uit de schelp."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "seafood"
+      ],
+      "description": {
+        "en": "A Dutch-Belgian mussel order where the shellfish and light broth are the main cues.",
+        "zh": "荷比常见贻贝菜，识别重点是贝类本味和清淡汤汁。",
+        "nl": "Een Nederlands-Belgische mosselpan waarbij mosselen en lichte bouillon centraal staan."
+      }
+    },
+    "composition": [
+      [
+        "mussels",
+        75,
+        "shellfish"
+      ],
+      [
+        "broth",
+        10,
+        "steaming liquid"
+      ],
+      [
+        "onion",
+        5,
+        "aromatic"
+      ],
+      [
+        "garlic",
+        5,
+        "aromatic"
+      ],
+      [
+        "parsley",
+        5,
+        "fresh finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "mussels",
+      "light broth",
+      "parsley"
+    ],
+    "basicTaste": [
+      "briny",
+      "savory",
+      "light"
+    ],
+    "textureProfile": [
+      "tender mussels",
+      "brothy shells",
+      "fresh herbs"
+    ],
+    "riskFlags": [
+      "contains-shellfish"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "seafood",
+      "lighter-choice"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "A good pick for shellfish lovers wanting a lighter pot; avoid with shellfish allergy.",
+      "zh": "喜欢贝类且想吃较清淡一锅时适合；甲壳或贝类过敏者避开。",
+      "nl": "Goed voor liefhebbers van schelpdieren die iets lichts willen; vermijd bij schelpdierallergie."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102040-mosselen-naturel.webp",
+    "thumbPath": "/assets/dishes/thumb/102040-mosselen-naturel.webp"
+  },
+  {
+    "id": "asperges-met-ham-en-ei",
+    "metadataCode": "102041",
+    "imageCode": "102041",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Asperges met Ham en Ei",
+      "zh": "白芦笋配火腿和鸡蛋",
+      "nl": "Asperges met ham en ei",
+      "local": "Asperges met ham en ei"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "boiled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "White asparagus served with ham, boiled egg, and melted butter or hollandaise-style sauce.",
+      "zh": "白芦笋配火腿、煮鸡蛋和融化黄油或类似荷兰汁。",
+      "nl": "Witte asperges met ham, gekookt ei en gesmolten boter of hollandaisesaus."
+    },
+    "cookingProfile": {
+      "en": "It is gentle and buttery, with soft asparagus and salty ham accents.",
+      "zh": "整体温和带黄油香，芦笋柔软，火腿增加咸香。",
+      "nl": "Zacht en boterig, met malse asperges en zoute ham."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish"
+      ],
+      "description": {
+        "en": "A spring asparagus plate where white asparagus, ham, egg, and butter sauce define the order.",
+        "zh": "春季白芦笋盘，白芦笋、火腿、鸡蛋和黄油汁是关键。",
+        "nl": "Een lentegerecht waarbij witte asperges, ham, ei en botersaus herkenbaar zijn."
+      }
+    },
+    "composition": [
+      [
+        "white-asparagus",
+        50,
+        "vegetable base"
+      ],
+      [
+        "ham",
+        20,
+        "salty meat"
+      ],
+      [
+        "egg",
+        15,
+        "boiled egg"
+      ],
+      [
+        "butter",
+        10,
+        "sauce richness"
+      ],
+      [
+        "parsley",
+        5,
+        "fresh finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "white asparagus",
+      "butter",
+      "ham"
+    ],
+    "basicTaste": [
+      "mild",
+      "buttery",
+      "savory"
+    ],
+    "textureProfile": [
+      "soft asparagus",
+      "silky butter",
+      "crumbled egg"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "seasonal-dish",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a mild seasonal asparagus plate; skip if ham, egg, or butter sauce is an issue.",
+      "zh": "想吃温和春季白芦笋时可点；不吃火腿、鸡蛋或奶制黄油时不适合。",
+      "nl": "Kies dit voor een mild seizoensbord met asperges; sla over bij ham, ei of botersaus."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102041-asperges-met-ham-en-ei.webp",
+    "thumbPath": "/assets/dishes/thumb/102041-asperges-met-ham-en-ei.webp"
+  },
+  {
+    "id": "broodje-bal",
+    "metadataCode": "102042",
+    "imageCode": "102042",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Broodje Bal",
+      "zh": "荷兰肉丸面包",
+      "nl": "Broodje bal",
+      "local": "Broodje bal"
+    },
+    "category": "sandwich",
+    "cookingMethods": [
+      "fried",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "A soft roll filled with a large meatball, often with gravy or mustard.",
+      "zh": "软面包夹大肉丸，常有肉汁或芥末。",
+      "nl": "Een zacht broodje met een grote gehaktbal, vaak met jus of mosterd."
+    },
+    "cookingProfile": {
+      "en": "Expect a filling meatball sandwich that is saucy rather than crisp.",
+      "zh": "它是饱腹肉丸三明治，重点是肉汁感，不是酥脆。",
+      "nl": "Verwacht een vullend broodje gehaktbal met saus, niet iets krokants."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "street-food"
+      ],
+      "description": {
+        "en": "A Dutch lunch-counter sandwich recognized by a meatball in a soft roll.",
+        "zh": "荷兰午餐柜台常见面包，重点是一颗肉丸夹在软面包里。",
+        "nl": "Een lunchbroodje herkenbaar aan een gehaktbal in een zacht broodje."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        40,
+        "roll"
+      ],
+      [
+        "ground-meat",
+        40,
+        "meatball"
+      ],
+      [
+        "broth",
+        10,
+        "gravy"
+      ],
+      [
+        "mustard",
+        5,
+        "condiment",
+        "seasoning"
+      ],
+      [
+        "onion",
+        5,
+        "aromatic"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "meatball",
+      "brown gravy",
+      "mustard"
+    ],
+    "basicTaste": [
+      "savory",
+      "meaty",
+      "mild"
+    ],
+    "textureProfile": [
+      "soft roll",
+      "juicy meatball",
+      "saucy filling"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "quick-lunch"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Good for a quick filling lunch; skip if you want a lighter sandwich.",
+      "zh": "想快速吃饱时合适；想要清爽轻食三明治则不推荐。",
+      "nl": "Goed voor een snelle vullende lunch; sla over als je iets lichts wilt."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102042-broodje-bal.webp",
+    "thumbPath": "/assets/dishes/thumb/102042-broodje-bal.webp"
+  },
+  {
+    "id": "broodje-haring",
+    "metadataCode": "102043",
+    "imageCode": "102043",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Broodje Haring",
+      "zh": "荷兰鲱鱼面包",
+      "nl": "Broodje haring",
+      "local": "Broodje haring"
+    },
+    "category": "sandwich",
+    "cookingMethods": [
+      "assembled",
+      "raw"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "raw-seafood",
+    "shortDescription": {
+      "en": "A soft roll with Dutch cured herring, chopped onion, and often pickles.",
+      "zh": "软面包夹荷兰腌鲱鱼、洋葱碎，常配酸黄瓜。",
+      "nl": "Een zacht broodje met Hollandse haring, gesnipperde ui en vaak augurk."
+    },
+    "cookingProfile": {
+      "en": "It tastes briny and fish-forward, served cool rather than cooked hot.",
+      "zh": "冷食，咸鲜鱼味明显，不是热熟鱼。",
+      "nl": "Koel geserveerd, zilt en duidelijk visachtig, niet warm gegaard."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "street-food",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Dutch herring sandwich where raw cured herring, onion, and pickle are the defining cues.",
+        "zh": "经典荷兰鲱鱼面包，重点是腌生鲱鱼、洋葱和酸黄瓜。",
+        "nl": "Een klassiek broodje met rauwe gezouten haring, ui en zuur."
+      }
+    },
+    "composition": [
+      [
+        "raw-herring",
+        55,
+        "cured fish"
+      ],
+      [
+        "bread",
+        30,
+        "roll"
+      ],
+      [
+        "onion",
+        10,
+        "sharp topping"
+      ],
+      [
+        "pickles",
+        5,
+        "acidic crunch"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cured herring",
+      "raw onion",
+      "pickle"
+    ],
+    "basicTaste": [
+      "briny",
+      "savory",
+      "sharp"
+    ],
+    "textureProfile": [
+      "soft fish",
+      "soft roll",
+      "crunchy onion"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-raw-fish",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "pregnancy-raw-fish",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Order if you like briny cured fish; skip if raw fish texture or strong herring aroma is difficult for you.",
+      "zh": "喜欢咸鲜腌鱼时很值得；不接受生冷鱼口感或鲱鱼气味则避开。",
+      "nl": "Bestel dit als je zoute haring lekker vindt; sla over bij moeite met rauwe vis of sterke haringgeur."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102043-broodje-haring.webp",
+    "thumbPath": "/assets/dishes/thumb/102043-broodje-haring.webp"
+  },
+  {
+    "id": "broodje-kroket",
+    "metadataCode": "102044",
+    "imageCode": "102044",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Broodje Kroket",
+      "zh": "荷兰可乐饼面包",
+      "nl": "Broodje kroket",
+      "local": "Broodje kroket"
+    },
+    "category": "sandwich",
+    "cookingMethods": [
+      "deep-fried",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "A soft roll filled with a deep-fried beef ragout croquette, usually with mustard.",
+      "zh": "软面包夹油炸牛肉酱可乐饼，通常配芥末。",
+      "nl": "Een zacht broodje met gefrituurde rundvleesragoutkroket, meestal met mosterd."
+    },
+    "cookingProfile": {
+      "en": "The contrast is soft bread around a hot crisp shell and creamy ragout center.",
+      "zh": "软面包包住热的酥壳和浓稠肉酱内馅，对比明显。",
+      "nl": "Zacht brood rond een hete krokante korst en romige ragoutvulling."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "street-food",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Dutch snack-bar classic: crisp ragout croquette inside a soft roll.",
+        "zh": "荷兰小吃店经典，软面包里夹酥脆肉酱可乐饼。",
+        "nl": "Een snackbarclassic: krokante ragoutkroket in een zacht broodje."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        35,
+        "roll"
+      ],
+      [
+        "beef-ragout",
+        35,
+        "croquette filling"
+      ],
+      [
+        "panko-breadcrumbs",
+        15,
+        "crisp coating"
+      ],
+      [
+        "neutral-frying-oil",
+        10,
+        "fried exterior"
+      ],
+      [
+        "mustard",
+        5,
+        "condiment",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "beef ragout",
+      "fried crumb",
+      "mustard"
+    ],
+    "basicTaste": [
+      "savory",
+      "fried",
+      "creamy"
+    ],
+    "textureProfile": [
+      "soft roll",
+      "crisp croquette",
+      "creamy filling"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "quick-lunch"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "avoid-fried-food"
+    ],
+    "orderVerdict": {
+      "en": "A strong snack choice if you want hot crispy comfort; skip if fried food or gluten is a concern.",
+      "zh": "想吃热乎酥脆小吃时很稳；介意油炸或麸质时不适合。",
+      "nl": "Sterk als warme krokante snack; minder geschikt bij frituur of gluten."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102044-broodje-kroket.webp",
+    "thumbPath": "/assets/dishes/thumb/102044-broodje-kroket.webp"
+  },
+  {
+    "id": "broodje-shoarma",
+    "metadataCode": "102045",
+    "imageCode": "102045",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Broodje Shoarma",
+      "zh": "荷兰沙威玛面包",
+      "nl": "Broodje shoarma",
+      "local": "Broodje shoarma"
+    },
+    "category": "sandwich",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "A pita or roll filled with browned shoarma meat, salad, and garlic sauce.",
+      "zh": "皮塔或软面包夹焦香沙威玛肉、蔬菜和蒜味酱。",
+      "nl": "Een pita of broodje met gebakken shoarmavlees, salade en knoflooksaus."
+    },
+    "cookingProfile": {
+      "en": "Expect warm spiced meat, cool salad crunch, and creamy garlic sauce.",
+      "zh": "可预期热香料肉、清爽蔬菜脆感和蒜味奶油感酱汁。",
+      "nl": "Verwacht warm gekruid vlees, frisse salade en romige knoflooksaus."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "street-food"
+      ],
+      "description": {
+        "en": "A Dutch late-night sandwich built around spiced shoarma meat and garlic sauce.",
+        "zh": "荷兰常见夜宵面包，重点是香料烤肉和蒜味白酱。",
+        "nl": "Een veelvoorkomend broodje met gekruid shoarmavlees en knoflooksaus."
+      }
+    },
+    "composition": [
+      [
+        "shawarma-meat",
+        50,
+        "spiced meat"
+      ],
+      [
+        "bread",
+        25,
+        "pita or roll"
+      ],
+      [
+        "cucumber",
+        10,
+        "fresh crunch"
+      ],
+      [
+        "tomato",
+        10,
+        "fresh topping"
+      ],
+      [
+        "garlic-sauce",
+        5,
+        "sauce"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "shoarma spices",
+      "garlic sauce",
+      "grilled meat"
+    ],
+    "basicTaste": [
+      "savory",
+      "garlicky",
+      "spiced"
+    ],
+    "textureProfile": [
+      "soft bread",
+      "browned meat",
+      "creamy sauce"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "late-night-food"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "avoid-garlic"
+    ],
+    "orderVerdict": {
+      "en": "Good for a filling spiced sandwich; skip if garlic sauce or heavy meat is not appealing.",
+      "zh": "想吃有香料感的饱腹肉夹馍时合适；不爱蒜酱或厚重肉食则谨慎。",
+      "nl": "Goed voor een vullend gekruid broodje; sla over als knoflooksaus of zwaar vlees niet past."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102045-broodje-shoarma.webp",
+    "thumbPath": "/assets/dishes/thumb/102045-broodje-shoarma.webp"
+  },
+  {
+    "id": "uitsmijter-ham-kaas",
+    "metadataCode": "102046",
+    "imageCode": "102046",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Uitsmijter Ham Kaas",
+      "zh": "火腿奶酪煎蛋开放三明治",
+      "nl": "Uitsmijter ham kaas",
+      "local": "Uitsmijter ham kaas"
+    },
+    "category": "brunch",
+    "cookingMethods": [
+      "fried",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Open-faced bread topped with ham, cheese, and fried eggs.",
+      "zh": "开放式面包上放火腿、奶酪和煎蛋。",
+      "nl": "Open brood met ham, kaas en gebakken eieren."
+    },
+    "cookingProfile": {
+      "en": "It is warm, eggy, and familiar, with richness from yolk and cheese.",
+      "zh": "热食，鸡蛋感明显，蛋黄和奶酪带来浓郁感。",
+      "nl": "Warm, eierig en vertrouwd, met rijkdom van dooier en kaas."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "safe-choice"
+      ],
+      "description": {
+        "en": "A Dutch cafe lunch recognized by fried eggs on bread with ham and cheese.",
+        "zh": "荷兰咖啡馆午餐，重点是面包上铺煎蛋、火腿和奶酪。",
+        "nl": "Een cafelunch met gebakken eieren op brood met ham en kaas."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        35,
+        "toast base"
+      ],
+      [
+        "egg",
+        30,
+        "fried eggs"
+      ],
+      [
+        "ham",
+        15,
+        "meat layer"
+      ],
+      [
+        "cheese",
+        15,
+        "melted topping"
+      ],
+      [
+        "butter",
+        5,
+        "frying richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fried egg",
+      "ham",
+      "melted cheese"
+    ],
+    "basicTaste": [
+      "savory",
+      "eggy",
+      "cheesy"
+    ],
+    "textureProfile": [
+      "runny or set yolk",
+      "soft bread",
+      "melted cheese"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-pork",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "safe-choice",
+      "brunch"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "no-pork",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "A safe cafe choice for eggs, ham, and cheese; skip if you need something lighter or allergen-free.",
+      "zh": "想吃熟悉的鸡蛋火腿奶酪午餐时很稳；想要清淡或避开过敏原则不适合。",
+      "nl": "Een veilige cafekeuze voor ei, ham en kaas; sla over als je licht of allergeenvrij wilt."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102046-uitsmijter-ham-kaas.webp",
+    "thumbPath": "/assets/dishes/thumb/102046-uitsmijter-ham-kaas.webp"
+  },
+  {
+    "id": "huzarensalade",
+    "metadataCode": "102047",
+    "imageCode": "102047",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Huzarensalade",
+      "zh": "荷兰土豆肉丁沙拉",
+      "nl": "Huzarensalade",
+      "local": "Huzarensalade"
+    },
+    "category": "salad",
+    "cookingMethods": [
+      "boiled",
+      "chilled",
+      "assembled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Cold potato-based salad mixed with diced meat, vegetables, mayonnaise, and pickles.",
+      "zh": "以土豆为主的冷沙拉，拌肉丁、蔬菜、蛋黄酱和酸黄瓜。",
+      "nl": "Koude aardappelsalade met vleesblokjes, groente, mayonaise en augurk."
+    },
+    "cookingProfile": {
+      "en": "Expect creamy cold salad with small diced textures and a mild tang.",
+      "zh": "入口是冷的奶油感沙拉，小丁口感明显，带轻微酸味。",
+      "nl": "Verwacht romige koude salade met blokjesstructuur en lichte zuren."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A cold Dutch composed salad where potato, mayo, meat, and pickles define the plate.",
+        "zh": "荷兰冷拌组合沙拉，重点是土豆、蛋黄酱、肉丁和酸味配料。",
+        "nl": "Een koude samengestelde salade met aardappel, mayo, vlees en zuur."
+      }
+    },
+    "composition": [
+      [
+        "potato",
+        35,
+        "salad base"
+      ],
+      [
+        "mayonnaise",
+        25,
+        "creamy binder"
+      ],
+      [
+        "mixed-vegetables",
+        15,
+        "dice"
+      ],
+      [
+        "ham",
+        10,
+        "meat dice"
+      ],
+      [
+        "pickles",
+        10,
+        "acidic crunch"
+      ],
+      [
+        "egg",
+        5,
+        "garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "mayonnaise",
+      "pickles",
+      "potato salad"
+    ],
+    "basicTaste": [
+      "creamy",
+      "mild",
+      "tangy"
+    ],
+    "textureProfile": [
+      "cold diced salad",
+      "creamy binder",
+      "pickle crunch"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "cold-starter",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "no-pork",
+      "avoid-mayonnaise"
+    ],
+    "orderVerdict": {
+      "en": "Good as a cold creamy side or starter; skip if mayonnaise-heavy salads are not for you.",
+      "zh": "适合作为冷的奶油感配菜或前菜；不喜欢蛋黄酱沙拉则避开。",
+      "nl": "Goed als koude romige bijlage of starter; sla over als mayo-salades niet passen."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102047-huzarensalade.webp",
+    "thumbPath": "/assets/dishes/thumb/102047-huzarensalade.webp"
+  },
+  {
+    "id": "zalmsalade",
+    "metadataCode": "102048",
+    "imageCode": "102048",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Zalmsalade",
+      "zh": "荷兰三文鱼土豆沙拉",
+      "nl": "Zalmsalade",
+      "local": "Zalmsalade"
+    },
+    "category": "salad",
+    "cookingMethods": [
+      "boiled",
+      "chilled",
+      "assembled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Cold salmon salad with potato, mayonnaise, egg, and fresh garnish.",
+      "zh": "冷三文鱼沙拉，拌土豆、蛋黄酱、鸡蛋和清爽配料。",
+      "nl": "Koude zalmsalade met aardappel, mayonaise, ei en frisse garnering."
+    },
+    "cookingProfile": {
+      "en": "It is creamy and fish-forward but milder than raw fish dishes.",
+      "zh": "口感奶油感明显，有鱼香，但比生鱼菜温和。",
+      "nl": "Romig en duidelijk visachtig, maar milder dan rauwe visgerechten."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "seafood"
+      ],
+      "description": {
+        "en": "A cold Dutch salmon salad where fish, potato, egg, and mayonnaise are the key cues.",
+        "zh": "荷兰冷三文鱼沙拉，重点是鱼肉、土豆、鸡蛋和蛋黄酱。",
+        "nl": "Een koude zalmsalade waarin vis, aardappel, ei en mayonaise centraal staan."
+      }
+    },
+    "composition": [
+      [
+        "salmon",
+        35,
+        "fish"
+      ],
+      [
+        "potato",
+        25,
+        "salad base"
+      ],
+      [
+        "mayonnaise",
+        20,
+        "creamy binder"
+      ],
+      [
+        "egg",
+        10,
+        "garnish"
+      ],
+      [
+        "cucumber",
+        5,
+        "fresh crunch"
+      ],
+      [
+        "dill",
+        5,
+        "herbal finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "salmon",
+      "mayonnaise",
+      "dill"
+    ],
+    "basicTaste": [
+      "creamy",
+      "savory",
+      "mildly-briny"
+    ],
+    "textureProfile": [
+      "cold creamy salad",
+      "soft salmon flakes",
+      "egg garnish"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "seafood",
+      "cold-starter"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "egg-allergy",
+      "avoid-mayonnaise"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a mild cold salmon salad; skip if fish or mayonnaise is a problem.",
+      "zh": "想吃温和冷三文鱼沙拉时可以点；鱼类或蛋黄酱不适合则避开。",
+      "nl": "Kies dit voor een milde koude zalmsalade; sla over bij vis of mayo."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102048-zalmsalade.webp",
+    "thumbPath": "/assets/dishes/thumb/102048-zalmsalade.webp"
+  },
+  {
+    "id": "eierbal",
+    "metadataCode": "102049",
+    "imageCode": "102049",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Eierbal",
+      "zh": "荷兰炸鸡蛋球",
+      "nl": "Eierbal",
+      "local": "Eierbal"
+    },
+    "category": "fried-snack",
+    "cookingMethods": [
+      "deep-fried"
+    ],
+    "shortDescription": {
+      "en": "A breaded deep-fried ball with a boiled egg inside creamy ragout.",
+      "zh": "裹粉油炸的圆球，里面是煮鸡蛋和浓稠肉酱。",
+      "nl": "Een gepaneerde gefrituurde bal met gekookt ei in romige ragout."
+    },
+    "cookingProfile": {
+      "en": "Expect a crisp shell, creamy ragout, and a firm boiled egg center.",
+      "zh": "外壳酥脆，内层是浓稠肉酱，中心是煮鸡蛋。",
+      "nl": "Verwacht een krokante korst, romige ragout en stevig gekookt ei."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "street-food"
+      ],
+      "description": {
+        "en": "A Groningen snack recognized by a whole egg inside a fried ragout ball.",
+        "zh": "格罗宁根地区小吃，重点是整颗鸡蛋包在炸肉酱球里。",
+        "nl": "Een Groningse snack met een heel ei in een gefrituurde ragoutbal."
+      }
+    },
+    "composition": [
+      [
+        "egg",
+        40,
+        "whole center"
+      ],
+      [
+        "beef-ragout",
+        30,
+        "ragout layer"
+      ],
+      [
+        "panko-breadcrumbs",
+        15,
+        "crisp coating"
+      ],
+      [
+        "neutral-frying-oil",
+        10,
+        "fried exterior"
+      ],
+      [
+        "mustard",
+        5,
+        "condiment",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fried crumb",
+      "boiled egg",
+      "mustard"
+    ],
+    "basicTaste": [
+      "savory",
+      "fried",
+      "creamy"
+    ],
+    "textureProfile": [
+      "crisp shell",
+      "soft ragout",
+      "firm egg center"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "gluten-free",
+      "dairy-free",
+      "avoid-fried-food"
+    ],
+    "orderVerdict": {
+      "en": "Worth trying if you like Dutch fried snacks and boiled egg; skip if the egg center sounds too heavy.",
+      "zh": "喜欢荷兰油炸小吃和煮鸡蛋时值得尝；觉得整颗蛋太厚重则不推荐。",
+      "nl": "Leuk als je gefrituurde snacks en ei lust; sla over als een heel ei te zwaar klinkt."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102049-eierbal.webp",
+    "thumbPath": "/assets/dishes/thumb/102049-eierbal.webp"
+  },
+  {
+    "id": "appelflap",
+    "metadataCode": "102052",
+    "imageCode": "102052",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Appelflap",
+      "zh": "荷兰苹果酥角",
+      "nl": "Appelflap",
+      "local": "Appelflap"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Triangular puff pastry filled with apple, cinnamon, and sugar.",
+      "zh": "三角酥皮包苹果、肉桂和糖馅。",
+      "nl": "Driehoekig bladerdeeg gevuld met appel, kaneel en suiker."
+    },
+    "cookingProfile": {
+      "en": "It should be flaky outside with soft sweet-tart apple inside.",
+      "zh": "外层酥松，里面是柔软甜酸苹果馅。",
+      "nl": "Krokant en bladerig buiten, zacht zoetzuur appelvulling binnenin."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "sweet"
+      ],
+      "description": {
+        "en": "A Dutch bakery sweet recognized by flaky pastry and warm apple filling.",
+        "zh": "荷兰常见甜点，识别重点是酥皮和苹果内馅。",
+        "nl": "Een bakkerijzoetigheid herkenbaar aan bladerdeeg en appelvulling."
+      }
+    },
+    "composition": [
+      [
+        "puff-pastry",
+        45,
+        "flaky pastry"
+      ],
+      [
+        "apple",
+        35,
+        "fruit filling"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
+      ],
+      [
+        "butter",
+        5,
+        "pastry richness"
+      ],
+      [
+        "cinnamon",
+        5,
+        "spice",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "apple",
+      "cinnamon",
+      "buttery pastry"
+    ],
+    "basicTaste": [
+      "sweet",
+      "buttery",
+      "warm-spiced"
+    ],
+    "textureProfile": [
+      "flaky pastry",
+      "soft apple filling",
+      "sugar crust"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "bakery"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "A safe sweet pastry if you like apple and cinnamon; skip if you want a creamy dessert instead.",
+      "zh": "喜欢苹果和肉桂酥点时很稳；想要奶油类甜点则可换别的。",
+      "nl": "Een veilige zoete keuze bij appel en kaneel; sla over als je iets romigs wilt."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102052-appelflap.webp",
+    "thumbPath": "/assets/dishes/thumb/102052-appelflap.webp"
+  },
+  {
+    "id": "boterkoek",
+    "metadataCode": "102054",
+    "imageCode": "102054",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Boterkoek",
+      "zh": "荷兰黄油蛋糕",
+      "nl": "Boterkoek",
+      "local": "Boterkoek"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "A dense, flat butter cake cut into small rich slices.",
+      "zh": "扁平扎实的黄油蛋糕，通常切小块食用。",
+      "nl": "Een dichte, platte boterkoek in kleine rijke stukken."
+    },
+    "cookingProfile": {
+      "en": "Expect a chewy-dense bite and strong butter sweetness, not a fluffy sponge.",
+      "zh": "口感紧实略有嚼劲，黄油甜香明显，不是松软海绵蛋糕。",
+      "nl": "Verwacht dicht en boterig, niet luchtig als cake."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "sweet",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Dutch butter cake where dense crumb and butter richness are the point.",
+        "zh": "荷兰黄油蛋糕，重点是扎实糕体和浓黄油香。",
+        "nl": "Een Nederlandse boterkoek waarbij dicht kruim en boterrijkdom centraal staan."
+      }
+    },
+    "composition": [
+      [
+        "butter",
+        35,
+        "richness"
+      ],
+      [
+        "wheat-flour",
+        30,
+        "cake base"
+      ],
+      [
+        "sugar",
+        25,
+        "sweetness"
+      ],
+      [
+        "egg",
+        5,
+        "glaze binder"
+      ],
+      [
+        "almonds",
+        5,
+        "optional garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "butter",
+      "sugar",
+      "almond"
+    ],
+    "basicTaste": [
+      "sweet",
+      "buttery",
+      "rich"
+    ],
+    "textureProfile": [
+      "dense cake",
+      "soft chew",
+      "glossy top"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-egg",
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "bakery"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy",
+      "tree-nut-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a small rich butter sweet; skip if you prefer light cakes.",
+      "zh": "想吃小块浓黄油甜点时适合；喜欢轻盈蛋糕则不推荐。",
+      "nl": "Kies dit voor een klein rijk botergebak; sla over als je luchtige cake wilt."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102054-boterkoek.webp",
+    "thumbPath": "/assets/dishes/thumb/102054-boterkoek.webp"
+  },
+  {
+    "id": "speculaas",
+    "metadataCode": "102055",
+    "imageCode": "102055",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Speculaas",
+      "zh": "荷兰香料饼干",
+      "nl": "Speculaas",
+      "local": "Speculaas"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Crisp brown spiced biscuits, often molded with decorative patterns.",
+      "zh": "棕色酥脆香料饼干，常有压模花纹。",
+      "nl": "Krokante bruine kruidkoekjes, vaak met reliëfpatronen."
+    },
+    "cookingProfile": {
+      "en": "The bite is crisp and dry, with warm spice rather than creaminess.",
+      "zh": "口感酥脆偏干，重点是温暖香料，不是奶油感。",
+      "nl": "Krokant en droog, met warme kruiden in plaats van romigheid."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "sweet",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Dutch spiced biscuit recognized by cinnamon-heavy speculaas spice.",
+        "zh": "荷兰香料饼干，重点是肉桂等香料气味。",
+        "nl": "Een Nederlands kruidkoekje herkenbaar aan speculaaskruiden."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        45,
+        "biscuit base"
+      ],
+      [
+        "sugar",
+        25,
+        "sweetness"
+      ],
+      [
+        "butter",
+        15,
+        "richness"
+      ],
+      [
+        "speculaas-spice",
+        10,
+        "spice blend",
+        "seasoning"
+      ],
+      [
+        "almonds",
+        5,
+        "optional garnish"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "speculaas spice",
+      "brown sugar",
+      "butter"
+    ],
+    "basicTaste": [
+      "sweet",
+      "warm-spiced",
+      "toasty"
+    ],
+    "textureProfile": [
+      "crisp biscuit",
+      "dry snap",
+      "crumbly edge"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy",
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "bakery"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "tree-nut-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Good with coffee if you like cinnamon-spice cookies; skip if you want a soft dessert.",
+      "zh": "喜欢肉桂香料饼干配咖啡时可点；想吃柔软甜点则不合适。",
+      "nl": "Goed bij koffie als je kruidige koekjes wilt; sla over als je zacht dessert zoekt."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102055-speculaas.webp",
+    "thumbPath": "/assets/dishes/thumb/102055-speculaas.webp"
+  },
+  {
+    "id": "ontbijtkoek",
+    "metadataCode": "102056",
+    "imageCode": "102056",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Ontbijtkoek",
+      "zh": "荷兰香料早餐蛋糕",
+      "nl": "Ontbijtkoek",
+      "local": "Ontbijtkoek"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "A dark spiced loaf cake, usually sliced and sometimes spread with butter.",
+      "zh": "深色香料长条糕，常切片，有时抹黄油。",
+      "nl": "Een donkere kruidkoek in plakken, soms met boter."
+    },
+    "cookingProfile": {
+      "en": "It is soft-sticky and spiced, lighter than butter cake but still sweet.",
+      "zh": "口感柔软微黏、有香料味，比黄油蛋糕轻一些但仍偏甜。",
+      "nl": "Zacht en licht kleverig met kruiden, lichter dan boterkoek maar zoet."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "sweet"
+      ],
+      "description": {
+        "en": "A Dutch spiced loaf often eaten as breakfast or snack slices.",
+        "zh": "荷兰香料长条糕，常作为早餐或点心切片吃。",
+        "nl": "Een kruidige ontbijtkoek die vaak in plakken wordt gegeten."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        45,
+        "loaf base"
+      ],
+      [
+        "sugar",
+        25,
+        "sweetness"
+      ],
+      [
+        "honey",
+        15,
+        "sticky sweetness"
+      ],
+      [
+        "cinnamon",
+        10,
+        "warm spice",
+        "seasoning"
+      ],
+      [
+        "butter",
+        5,
+        "optional spread"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "honey",
+      "spices",
+      "butter spread"
+    ],
+    "basicTaste": [
+      "sweet",
+      "warm-spiced",
+      "mild"
+    ],
+    "textureProfile": [
+      "soft slice",
+      "slightly sticky crumb",
+      "dense loaf"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "breakfast",
+      "sweet-snack"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a simple spiced sweet slice; skip if you want a fresh pastry.",
+      "zh": "想吃简单香料甜切片时合适；想要新鲜酥皮点心则不推荐。",
+      "nl": "Kies dit voor een eenvoudige kruidige plak; sla over als je vers bladerdeeg wilt."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102056-ontbijtkoek.webp",
+    "thumbPath": "/assets/dishes/thumb/102056-ontbijtkoek.webp"
+  },
+  {
+    "id": "beschuit-met-muisjes",
+    "metadataCode": "102057",
+    "imageCode": "102057",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Beschuit met Muisjes",
+      "zh": "荷兰脆圆饼配彩色茴香糖粒",
+      "nl": "Beschuit met muisjes",
+      "local": "Beschuit met muisjes"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "assembled"
+    ],
+    "servingTemperature": "room-temperature",
+    "shortDescription": {
+      "en": "Crisp round rusks spread with butter and covered in anise sugar sprinkles.",
+      "zh": "圆形脆饼抹黄油，撒满茴香糖粒。",
+      "nl": "Ronde beschuiten met boter en anijssuikertjes."
+    },
+    "cookingProfile": {
+      "en": "Expect a dry crisp base, buttery layer, and crunchy sweet anise topping.",
+      "zh": "底部干脆，黄油一层带润感，糖粒有甜脆和茴香香气。",
+      "nl": "Droog krokant beschuit, boter en knapperige zoete anijs."
+    },
+    "cuisineRole": {
+      "level": "festival",
+      "tags": [
+        "regional-dish",
+        "sweet"
+      ],
+      "description": {
+        "en": "A Dutch celebratory rusk recognized by butter and pink or blue anise sprinkles.",
+        "zh": "荷兰庆生传统点心，重点是黄油和粉色或蓝色茴香糖粒。",
+        "nl": "Een Nederlandse geboortetraditie met beschuit, boter en roze of blauwe muisjes."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        45,
+        "rusk base"
+      ],
+      [
+        "butter",
+        25,
+        "spread"
+      ],
+      [
+        "sugar",
+        25,
+        "sprinkle sweetness"
+      ],
+      [
+        "herbs",
+        5,
+        "anise-like aroma"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "anise sprinkles",
+      "butter",
+      "crisp rusk"
+    ],
+    "basicTaste": [
+      "sweet",
+      "buttery",
+      "aromatic"
+    ],
+    "textureProfile": [
+      "dry crisp rusk",
+      "butter layer",
+      "crunchy sprinkles"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "sweet-snack",
+      "festival"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "avoid-anise"
+    ],
+    "orderVerdict": {
+      "en": "Try it as a light sweet cultural snack; skip if dry crisp textures or anise notes are not appealing.",
+      "zh": "想体验轻甜荷兰传统点心时可试；不爱干脆口感或茴香味则谨慎。",
+      "nl": "Probeer dit als lichte culturele zoetigheid; sla over bij droge textuur of anijs."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102057-beschuit-met-muisjes.webp",
+    "thumbPath": "/assets/dishes/thumb/102057-beschuit-met-muisjes.webp"
+  },
+  {
+    "id": "vlaflip",
+    "metadataCode": "102058",
+    "imageCode": "102058",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Vlaflip",
+      "zh": "荷兰奶黄酸奶分层甜品",
+      "nl": "Vlaflip",
+      "local": "Vlaflip"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "assembled",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "A cold layered dessert of vanilla custard, yogurt, and red fruit syrup.",
+      "zh": "冷的分层甜品，由香草奶黄、酸奶和红色果酱糖浆组成。",
+      "nl": "Een koud laagjesdessert van vanillevla, yoghurt en rode vruchtensiroop."
+    },
+    "cookingProfile": {
+      "en": "It is creamy, cool, sweet-tart, and usually eaten by the spoon.",
+      "zh": "入口冷、顺滑，甜中带一点酸，通常用勺吃。",
+      "nl": "Koel, romig en zoetzuur, meestal met een lepel gegeten."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "sweet"
+      ],
+      "description": {
+        "en": "A Dutch layered dairy dessert with custard, yogurt, and fruit syrup.",
+        "zh": "荷兰分层乳制甜品，重点是奶黄、酸奶和果酱糖浆。",
+        "nl": "Een Nederlands laagjesdessert met vla, yoghurt en vruchtensiroop."
+      }
+    },
+    "composition": [
+      [
+        "vanilla-custard",
+        45,
+        "custard layer"
+      ],
+      [
+        "yogurt",
+        30,
+        "tangy dairy"
+      ],
+      [
+        "berries",
+        15,
+        "fruit layer"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "vanilla custard",
+      "yogurt tang",
+      "berry syrup"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "tangy"
+    ],
+    "textureProfile": [
+      "smooth layers",
+      "cool spoon dessert",
+      "soft fruit syrup"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Good for a light creamy dessert; skip if you avoid dairy or prefer baked sweets.",
+      "zh": "想要清爽奶香甜品时适合；不吃奶制品或想吃烘焙点心则避开。",
+      "nl": "Goed voor een licht romig dessert; sla over bij zuivelvrij of als je gebak wilt."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102058-vlaflip.webp",
+    "thumbPath": "/assets/dishes/thumb/102058-vlaflip.webp"
+  },
+  {
+    "id": "griesmeelpudding",
+    "metadataCode": "102059",
+    "imageCode": "102059",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Griesmeelpudding",
+      "zh": "荷兰粗麦粉布丁",
+      "nl": "Griesmeelpudding",
+      "local": "Griesmeelpudding"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "simmered",
+      "set",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Soft semolina pudding, often served cold with red berry sauce.",
+      "zh": "柔软粗麦粉布丁，常冷食并配红果酱汁。",
+      "nl": "Zachte griesmeelpudding, vaak koud met rode bessensaus."
+    },
+    "cookingProfile": {
+      "en": "Expect a smooth grain-soft pudding rather than a baked cake.",
+      "zh": "它是顺滑略有谷物感的布丁，不是烘焙蛋糕。",
+      "nl": "Verwacht gladde pudding met zachte korrel, geen gebakken cake."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "sweet"
+      ],
+      "description": {
+        "en": "A Dutch semolina pudding where a soft set texture and berry sauce are common cues.",
+        "zh": "荷兰粗麦粉布丁，常见特点是柔软定型和红果酱汁。",
+        "nl": "Een griesmeelpudding met zachte structuur en vaak bessensaus."
+      }
+    },
+    "composition": [
+      [
+        "semolina",
+        35,
+        "pudding base"
+      ],
+      [
+        "milk-solids",
+        35,
+        "dairy body"
+      ],
+      [
+        "sugar",
+        15,
+        "sweetness"
+      ],
+      [
+        "berries",
+        10,
+        "sauce"
+      ],
+      [
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "semolina pudding",
+      "vanilla",
+      "berry sauce"
+    ],
+    "basicTaste": [
+      "sweet",
+      "milky",
+      "mild"
+    ],
+    "textureProfile": [
+      "soft set pudding",
+      "smooth spoonfuls",
+      "fruit sauce"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "mild"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a mild spoon dessert; skip if you want crisp pastry or chocolate intensity.",
+      "zh": "想吃温和勺食甜品时可点；想要酥皮或浓巧克力则不合适。",
+      "nl": "Kies dit voor een mild lepeldessert; sla over als je krokant gebak of chocolade zoekt."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102059-griesmeelpudding.webp",
+    "thumbPath": "/assets/dishes/thumb/102059-griesmeelpudding.webp"
+  },
+  {
+    "id": "hangop",
+    "metadataCode": "102060",
+    "imageCode": "102060",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Hangop",
+      "zh": "荷兰滤酸奶甜品",
+      "nl": "Hangop",
+      "local": "Hangop"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Thick strained yogurt served cold with fruit, berry sauce, or sugar.",
+      "zh": "浓稠滤酸奶冷食，常配水果、莓果酱或糖。",
+      "nl": "Dikke uitgelekte yoghurt, koud geserveerd met fruit of saus."
+    },
+    "cookingProfile": {
+      "en": "It is tangy and creamy but lighter than custard or butter cake.",
+      "zh": "酸奶感和奶油感明显，但比奶黄或黄油蛋糕更轻。",
+      "nl": "Friszuur en romig, maar lichter dan vla of boterkoek."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "sweet"
+      ],
+      "description": {
+        "en": "A Dutch strained yogurt dessert known for thick dairy texture and fruit topping.",
+        "zh": "荷兰滤酸奶甜品，重点是浓厚乳制口感和水果配料。",
+        "nl": "Een Nederlands dessert van uitgelekte yoghurt met fruit."
+      }
+    },
+    "composition": [
+      [
+        "yogurt",
+        65,
+        "strained dairy"
+      ],
+      [
+        "berries",
+        20,
+        "fruit topping"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
+      ],
+      [
+        "cream",
+        5,
+        "optional richness"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "strained yogurt",
+      "berries",
+      "light sugar"
+    ],
+    "basicTaste": [
+      "tangy",
+      "creamy",
+      "fresh"
+    ],
+    "textureProfile": [
+      "thick yogurt",
+      "cool spoon dessert",
+      "soft fruit"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "lighter-choice"
+    ],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "A good pick for a cool tangy dessert; skip if dairy tang is not appealing.",
+      "zh": "想要冷的微酸奶香甜品时适合；不喜欢酸奶味则不推荐。",
+      "nl": "Goed voor een koel friszuur dessert; sla over als yoghurtzuur niet aanspreekt."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102060-hangop.webp",
+    "thumbPath": "/assets/dishes/thumb/102060-hangop.webp"
+  },
+  {
+    "id": "jodenkoek",
+    "metadataCode": "102061",
+    "imageCode": "102061",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Jodenkoek",
+      "zh": "荷兰大圆黄油饼干",
+      "nl": "Jodenkoek",
+      "local": "Jodenkoek"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Large, thin, round butter cookies with a crisp snap.",
+      "zh": "大而薄的圆形黄油饼干，口感酥脆。",
+      "nl": "Grote dunne ronde boterkoeken met krokante beet."
+    },
+    "cookingProfile": {
+      "en": "Expect a simple crisp cookie, not a filled or creamy pastry.",
+      "zh": "它是简单酥脆饼干，不是夹馅或奶油点心。",
+      "nl": "Verwacht een simpel krokant koekje, geen gevuld of romig gebak."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "sweet"
+      ],
+      "description": {
+        "en": "A large round Dutch butter cookie valued for crisp simplicity.",
+        "zh": "荷兰大圆黄油饼干，特点是简单酥脆。",
+        "nl": "Een grote ronde Nederlandse boterkoek, vooral krokant en eenvoudig."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        45,
+        "cookie base"
+      ],
+      [
+        "butter",
+        25,
+        "richness"
+      ],
+      [
+        "sugar",
+        25,
+        "sweetness"
+      ],
+      [
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "butter cookie",
+      "vanilla",
+      "toasted sugar"
+    ],
+    "basicTaste": [
+      "sweet",
+      "buttery",
+      "mild"
+    ],
+    "textureProfile": [
+      "large crisp cookie",
+      "crumbly edge",
+      "dry snap"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "sweet-snack",
+      "coffee-pairing"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Good as a simple coffee cookie; skip if you want a moist dessert.",
+      "zh": "适合配咖啡的简单饼干；想吃湿润甜品时不推荐。",
+      "nl": "Goed als simpel koekje bij koffie; sla over als je een sappig dessert wilt."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102061-jodenkoek.webp",
+    "thumbPath": "/assets/dishes/thumb/102061-jodenkoek.webp"
+  }
+]

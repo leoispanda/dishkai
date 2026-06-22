@@ -2264,102 +2264,112 @@ const globalDepthDishConfigs = [
       "en": "Lebkuchen",
       "zh": "德式姜饼",
       "nl": "Lebkuchen",
-      "local": "lebkuchen"
+      "local": "Lebkuchen"
     },
     "category": "dessert",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Lebkuchen is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式姜饼是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Lebkuchen is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "German spiced gingerbread cookies or cakes, often glazed or chocolate-dipped.",
+      "zh": "德式香料姜饼，可做成饼干或小蛋糕，常有糖霜或巧克力外层。",
+      "nl": "Duitse kruidige peperkoekkoeken of cakejes, vaak geglazuurd of met chocolade."
     },
     "cookingProfile": {
-      "en": "Usually served with soft dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect warm spice, honeyed sweetness, and a chewy-soft or cakey bite.",
+      "zh": "风味是温暖香料和蜂蜜般甜味，口感可软韧或像小蛋糕。",
+      "nl": "Verwacht warme kruiden, honingzoetheid en een zachte of cakeachtige beet."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A high-frequency German menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将德国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Duits menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic German bakery sweet strongly associated with warm spices and holidays.",
+        "zh": "经典德式烘焙甜点，和温暖香料及节日感关联很强。",
+        "nl": "Een klassieke Duitse bakkerszoetigheid met warme kruiden en feestgevoel."
       }
     },
     "composition": [
       [
+        "wheat-flour",
+        40,
+        "gingerbread base"
+      ],
+      [
         "sugar",
-        30,
+        20,
         "sweetness"
       ],
       [
-        "cream",
-        25,
-        "base"
-      ],
-      [
-        "egg",
+        "almonds",
         15,
-        "richness"
+        "nut body"
       ],
       [
-        "wheat-flour",
-        15,
-        "structure"
-      ],
-      [
-        "vanilla",
+        "chocolate",
         10,
-        "aroma",
+        "optional coating"
+      ],
+      [
+        "cinnamon",
+        10,
+        "warm spice",
         "seasoning"
       ],
       [
-        "fruit-sauce-or-caramel",
+        "vanilla",
         5,
-        "finish"
+        "aroma",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "vanilla",
-      "cream",
-      "sweet finish"
+      "warm spices",
+      "almonds",
+      "chocolate glaze"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "spiced",
+      "nutty"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft-chewy cookie",
+      "glazed surface",
+      "nutty bits"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
+      "contains-tree-nut",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
       "dessert"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "nut-allergy",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good for a spiced bakery sweet; skip if you dislike gingerbread-style spices.",
+      "zh": "想吃香料感烘焙甜点时适合；不喜欢姜饼香料则避开。",
+      "nl": "Goed voor kruidige bakkerszoetigheid; sla over als je peperkoekkruiden niet lust."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "imageCode": "106028",
+    "imagePath": "/assets/dishes/main/106028-lebkuchen.webp",
+    "thumbPath": "/assets/dishes/thumb/106028-lebkuchen.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -2370,97 +2380,108 @@ const globalDepthDishConfigs = [
       "en": "Rinderroulade",
       "zh": "德式牛肉卷",
       "nl": "Rinderroulade",
-      "local": "rinderroulade"
+      "local": "Rinderroulade"
     },
-    "category": "meat",
+    "category": "main",
     "cookingMethods": [
       "braised"
     ],
     "shortDescription": {
-      "en": "Rinderroulade is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式牛肉卷是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Rinderroulade is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Thin beef rolls filled with bacon, onion, mustard, and pickle, braised in brown gravy.",
+      "zh": "薄牛肉卷入培根、洋葱、芥末和酸黄瓜，再用棕色肉汁炖煮。",
+      "nl": "Dunne rundvleesrolletjes met spek, ui, mosterd en augurk, gestoofd in bruine jus."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect tender rolled beef with a tangy pickle-mustard center and rich gravy.",
+      "zh": "入口是软嫩牛肉卷，内馅有酸黄瓜和芥末的酸香，外面是浓肉汁。",
+      "nl": "Verwacht malse rundvleesrol met zurige augurk-mosterdvulling en rijke jus."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency German menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将德国菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Duits menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic German Sunday-style beef roll recognized by its filled spiral slices.",
+        "zh": "经典德国周日式牛肉卷，识别重点是有馅料的卷状切面。",
+        "nl": "Een klassieke Duitse zondagsrol van rundvlees met gevulde spiraalplakken."
       }
     },
     "composition": [
       [
         "beef",
-        60,
-        "main"
+        55,
+        "rolled beef"
       ],
       [
-        "potato",
+        "bacon",
         15,
-        "side"
+        "filling"
       ],
       [
-        "mixed-vegetables",
+        "pickles",
         10,
-        "body"
+        "tangy filling"
       ],
       [
-        "tomato-sauce",
+        "onion",
+        10,
+        "filling aroma"
+      ],
+      [
+        "mustard",
         5,
-        "sauce",
+        "sharp filling",
         "seasoning"
       ],
       [
-        "black-pepper",
+        "red-wine",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
+        "gravy depth",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "beef",
-      "sauce",
-      "herbs"
+      "mustard",
+      "pickle filling",
+      "brown beef gravy"
     ],
     "basicTaste": [
       "savory",
+      "tangy",
       "rich"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "tender rolled beef",
+      "soft filling",
+      "glossy gravy"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-pork",
+      "contains-alcohol"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "classic-dish",
+      "comfort-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "no-pork",
+      "avoid-alcohol"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a traditional saucy beef main; skip if pickle-mustard filling sounds too sharp.",
+      "zh": "想吃传统带酱牛肉主菜时适合；不喜欢酸黄瓜芥末内馅则谨慎。",
+      "nl": "Kies dit voor een traditionele sauzige rundvleesmaaltijd; sla over als augurk-mosterd te scherp klinkt."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "imageCode": "106029",
+    "imagePath": "/assets/dishes/main/106029-rinderroulade.webp",
+    "thumbPath": "/assets/dishes/thumb/106029-rinderroulade.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -2883,107 +2904,110 @@ const globalDepthDishConfigs = [
   {
     "id": "babi-pangang",
     "metadataCode": "102024",
+    "imageCode": "102024",
     "cuisineId": "dutch",
     "names": {
       "en": "Babi Pangang",
-      "zh": "荷式印尼甜酸烤猪肉",
+      "zh": "荷式印尼红酱烤猪肉",
       "nl": "Babi pangang",
-      "local": "babi pangang"
+      "local": "Babi pangang"
     },
-    "category": "meat",
+    "category": "main",
     "cookingMethods": [
-      "braised"
+      "grilled",
+      "sauce-tossed"
     ],
     "shortDescription": {
-      "en": "Babi Pangang is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷式印尼甜酸烤猪肉是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Babi pangang is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Crispy or roasted pork served with a glossy red sweet-sour sauce, often with rice.",
+      "zh": "酥烤猪肉配亮红甜酸酱，常搭配米饭。",
+      "nl": "Krokant of geroosterd varkensvlees met glanzende rode zoetzure saus, vaak met rijst."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The appeal is sweet-sour sauce over meaty pork, usually richer than a stir-fry.",
+      "zh": "重点是甜酸酱裹猪肉，比普通快炒更浓更重。",
+      "nl": "Het draait om zoetzure saus over varkensvlees, meestal rijker dan roerbak."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Dutch menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将荷兰菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Nederlands menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Dutch-Indonesian restaurant staple recognized by crispy pork and red sweet-sour sauce.",
+        "zh": "荷式印尼餐馆常见菜，重点是酥香猪肉和红色甜酸酱。",
+        "nl": "Een Chinees-Indisch restaurantgerecht met krokant varkensvlees en rode zoetzure saus."
       }
     },
     "composition": [
       [
         "pork",
-        60,
-        "main"
+        50,
+        "crispy meat"
       ],
       [
-        "potato",
+        "tomato-sauce",
+        20,
+        "red sauce",
+        "seasoning"
+      ],
+      [
+        "steamed-rice",
         15,
         "side"
       ],
       [
         "mixed-vegetables",
         10,
-        "body"
+        "pickled or side vegetables"
       ],
       [
-        "tomato-sauce",
+        "vinegar",
         5,
-        "sauce",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
+        "sweet-sour tang",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "sauce",
-      "herbs"
+      "red sweet-sour sauce",
+      "crispy pork",
+      "pickled vegetables"
     ],
     "basicTaste": [
+      "sweet-sour",
       "savory",
-      "rich"
+      "meaty"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "sliced pork",
+      "glossy sauce",
+      "soft rice"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-soy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "classic-dish",
+      "saucy-main"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "no-pork",
+      "avoid-sweet-sour-sauce"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check pork if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a saucy sweet-sour pork plate; skip if you avoid pork or dislike sweet sauces.",
+      "zh": "想吃甜酸红酱猪肉时可以点；不吃猪肉或不爱甜酱则避开。",
+      "nl": "Kies dit voor zoetzure varkenssaus; sla over bij geen varken of zoete sauzen."
     },
-    "spiceLevel": 0,
-    "weightLevel": 3,
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 1,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102024-babi-pangang.webp",
+    "thumbPath": "/assets/dishes/thumb/102024-babi-pangang.webp"
   },
   {
     "id": "nasi-goreng-dutch",
@@ -3458,320 +3482,325 @@ const globalDepthDishConfigs = [
   {
     "id": "gevulde-koek",
     "metadataCode": "102029",
+    "imageCode": "102029",
     "cuisineId": "dutch",
     "names": {
       "en": "Gevulde Koek",
       "zh": "荷兰杏仁夹心饼",
       "nl": "Gevulde koek",
-      "local": "gevulde koek"
+      "local": "Gevulde koek"
     },
     "category": "dessert",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Gevulde Koek is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰杏仁夹心饼是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Gevulde koek is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A round cookie filled with sweet almond paste, often topped with an almond.",
+      "zh": "圆形饼干夹甜杏仁膏，常在表面放一颗杏仁。",
+      "nl": "Een ronde koek gevuld met zoete amandelspijs, vaak met amandel erop."
     },
     "cookingProfile": {
-      "en": "Usually served with soft dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a soft-dense almond center inside a golden cookie shell.",
+      "zh": "金黄饼皮里是柔软厚实的杏仁馅。",
+      "nl": "Verwacht zachte dichte amandelvulling in een goudbruine koek."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "sweet",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Dutch menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将荷兰菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Nederlands menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Dutch bakery cookie defined by almond paste filling.",
+        "zh": "荷兰面包房常见饼点，重点是杏仁膏夹心。",
+        "nl": "Een bakkerskoek herkenbaar aan amandelspijsvulling."
       }
     },
     "composition": [
       [
-        "sugar",
-        30,
-        "sweetness"
+        "wheat-flour",
+        35,
+        "cookie shell"
       ],
       [
-        "cream",
-        25,
-        "base"
+        "almond-paste",
+        35,
+        "filling"
       ],
       [
-        "egg",
+        "butter",
         15,
         "richness"
       ],
       [
-        "walnuts",
-        15,
-        "structure"
-      ],
-      [
-        "vanilla",
+        "sugar",
         10,
-        "aroma",
-        "seasoning"
+        "sweetness"
       ],
       [
-        "fruit-sauce-or-caramel",
+        "egg",
         5,
-        "finish"
+        "glaze"
       ]
     ],
     "distinctiveFlavorSources": [
-      "nutty aroma",
-      "cream",
-      "sweet finish"
+      "almond paste",
+      "butter",
+      "golden cookie"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "nutty",
+      "buttery"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft almond center",
+      "crumbly shell",
+      "glossy top"
     ],
     "riskFlags": [
+      "contains-tree-nut",
       "contains-gluten",
-      "contains-egg",
       "contains-dairy",
-      "contains-tree-nut"
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage"
+      "dessert",
+      "bakery"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "tree-nut-allergy",
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good bakery sweet if you like almond paste; avoid with nut allergies.",
+      "zh": "喜欢杏仁馅点心时很合适；坚果过敏者避开。",
+      "nl": "Goed als je amandelspijs lekker vindt; vermijd bij notenallergie."
     },
+    "confidenceTag": "audited-remaining-batch-039",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102029-gevulde-koek.webp",
+    "thumbPath": "/assets/dishes/thumb/102029-gevulde-koek.webp"
   },
   {
     "id": "krentenbol",
     "metadataCode": "102030",
+    "imageCode": "102030",
     "cuisineId": "dutch",
     "names": {
       "en": "Krentenbol",
-      "zh": "葡萄干小圆面包",
+      "zh": "荷兰葡萄干小圆面包",
       "nl": "Krentenbol",
-      "local": "krentenbol"
+      "local": "Krentenbol"
     },
     "category": "bread",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Krentenbol is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡萄干小圆面包是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Krentenbol is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A soft bun studded with currants or raisins, often eaten with butter.",
+      "zh": "柔软小面包里有葡萄干或黑加仑干，常抹黄油。",
+      "nl": "Een zacht broodje met krenten of rozijnen, vaak met boter."
     },
     "cookingProfile": {
-      "en": "Usually served with chewy bread, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现chewy bread，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met chewy bread; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is mildly sweet and bready, lighter than a pastry but more filling than a cookie.",
+      "zh": "微甜面包感，比酥点轻，但比饼干更饱腹。",
+      "nl": "Licht zoet en broodachtig, minder rijk dan gebak maar vullender dan koek."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "breakfast"
       ],
       "description": {
-        "en": "A high-frequency Dutch menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将荷兰菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Nederlands menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Dutch currant bun often eaten for breakfast or a simple snack.",
+        "zh": "荷兰葡萄干小面包，常作早餐或简单点心。",
+        "nl": "Een Nederlands krentenbroodje voor ontbijt of tussendoor."
       }
     },
     "composition": [
       [
         "bread",
-        45,
-        "base"
+        55,
+        "bun"
       ],
       [
-        "chicken",
+        "raisins",
         25,
-        "filling"
-      ],
-      [
-        "cheese",
-        15,
-        "body"
-      ],
-      [
-        "tomato",
-        5,
-        "freshness"
-      ],
-      [
-        "olive-oil",
-        5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "sea-salt",
-        5,
-        "seasoning",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "chicken",
-      "cheese",
-      "toasted bread"
-    ],
-    "basicTaste": [
-      "savory",
-      "bready"
-    ],
-    "textureProfile": [
-      "chewy bread",
-      "filled center"
-    ],
-    "riskFlags": [
-      "contains-gluten",
-      "contains-dairy"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "restaurant-coverage"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, bready profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要savory、bready的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, bready je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "vla",
-    "metadataCode": "102031",
-    "cuisineId": "dutch",
-    "names": {
-      "en": "Vla",
-      "zh": "荷兰奶黄布丁",
-      "nl": "Vla",
-      "local": "vla"
-    },
-    "category": "dessert",
-    "cookingMethods": [
-      "baked"
-    ],
-    "shortDescription": {
-      "en": "Vla is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰奶黄布丁是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Vla is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with soft dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "common",
-      "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
-      ],
-      "description": {
-        "en": "A high-frequency Dutch menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将荷兰菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Nederlands menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
-      }
-    },
-    "composition": [
-      [
-        "sugar",
-        30,
-        "sweetness"
-      ],
-      [
-        "cream",
-        25,
-        "base"
-      ],
-      [
-        "egg",
-        15,
-        "richness"
+        "dried fruit"
       ],
       [
         "wheat-flour",
-        15,
-        "structure"
-      ],
-      [
-        "vanilla",
         10,
-        "aroma",
-        "seasoning"
+        "dough body"
       ],
       [
-        "fruit-sauce-or-caramel",
+        "butter",
         5,
-        "finish"
+        "spread"
+      ],
+      [
+        "sugar",
+        5,
+        "light sweetness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "vanilla",
-      "cream",
-      "sweet finish"
+      "raisins",
+      "soft bread",
+      "butter"
     ],
     "basicTaste": [
-      "sweet",
-      "creamy"
+      "mildly-sweet",
+      "bready",
+      "buttery"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft bun",
+      "chewy raisins",
+      "light crumb"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
       "contains-dairy"
     ],
     "dietaryFlags": [
       "vegetarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "breakfast",
+      "sweet-snack"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good for a mild breakfast snack; skip if you want a dessert-level sweet.",
+      "zh": "适合温和早餐点心；想吃浓甜甜品时可能不够。",
+      "nl": "Goed als milde ontbijtsnack; sla over als je echt dessertzoet wilt."
     },
+    "confidenceTag": "audited-remaining-batch-039",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102030-krentenbol.webp",
+    "thumbPath": "/assets/dishes/thumb/102030-krentenbol.webp"
+  },
+  {
+    "id": "vla",
+    "metadataCode": "102031",
+    "imageCode": "102031",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Vla",
+      "zh": "荷兰香草奶黄",
+      "nl": "Vla",
+      "local": "Vla"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "stirred",
+      "chilled"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "shortDescription": {
+      "en": "Smooth pourable custard, often vanilla, served cold in a bowl or glass.",
+      "zh": "顺滑可倒的奶黄，常为香草味，冷食。",
+      "nl": "Gladde schenkbare custard, vaak vanille, koud geserveerd."
+    },
+    "cookingProfile": {
+      "en": "Expect cool, smooth, milky sweetness rather than baked texture.",
+      "zh": "口感冷而顺滑，奶香甜，不是烘焙口感。",
+      "nl": "Koel, glad en melkzoet, geen gebakken structuur."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "sweet",
+        "first-timer-friendly"
+      ],
+      "description": {
+        "en": "A Dutch custard dessert recognized by its smooth spoonable dairy texture.",
+        "zh": "荷兰奶黄甜品，重点是顺滑可舀的乳制口感。",
+        "nl": "Een Nederlands vladessert herkenbaar aan gladde lepelbare zuivel."
+      }
+    },
+    "composition": [
+      [
+        "vanilla-custard",
+        65,
+        "custard base"
+      ],
+      [
+        "milk-solids",
+        20,
+        "dairy body"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
+      ],
+      [
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "vanilla custard",
+      "milk",
+      "sugar"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "mild"
+    ],
+    "textureProfile": [
+      "smooth custard",
+      "pourable",
+      "cool spoon dessert"
+    ],
+    "riskFlags": [
+      "contains-dairy"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "A safe mild dessert if you like custard; skip if you want texture or pastry crunch.",
+      "zh": "喜欢奶黄时很稳；想要有咀嚼感或酥脆甜点则不适合。",
+      "nl": "Een veilige milde keuze als je vla lust; sla over als je textuur of krokant gebak wilt."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102031-vla.webp",
+    "thumbPath": "/assets/dishes/thumb/102031-vla.webp"
   },
   {
     "id": "mitraillette",
@@ -3886,99 +3915,106 @@ const globalDepthDishConfigs = [
     "cuisineId": "belgian",
     "names": {
       "en": "Stoofvlees",
-      "zh": "佛兰德炖牛肉",
+      "zh": "佛兰德啤酒炖牛肉",
       "nl": "Stoofvlees",
-      "local": "stoofvlees"
+      "local": "Stoofvlees"
     },
-    "category": "meat",
+    "category": "main",
     "cookingMethods": [
       "braised"
     ],
     "shortDescription": {
-      "en": "Stoofvlees is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "佛兰德炖牛肉是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Stoofvlees is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Flemish beef stew braised in beer, usually served with Belgian fries.",
+      "zh": "佛兰德牛肉用啤酒炖煮，通常配比利时薯条。",
+      "nl": "Vlaams rundvleesstoofpotje met bier, meestal met friet."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect dark, sweet-savory beef gravy and tender beef chunks.",
+      "zh": "入口是深色甜咸肉汁和软烂牛肉块。",
+      "nl": "Verwacht donkere zoet-hartige jus en mals rundvlees."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "signature-dish"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将比利时菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Belgisch menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Belgian classic beef stew where beer gravy and fries are the key cues.",
+        "zh": "比利时经典炖牛肉，重点是啤酒肉汁和薯条。",
+        "nl": "Een Belgische klassieker met bierjus en friet."
       }
     },
     "composition": [
       [
-        "chicken",
-        60,
-        "main"
+        "beef",
+        55,
+        "stewed beef"
       ],
       [
-        "potato",
+        "beer",
+        15,
+        "braising liquid",
+        "seasoning"
+      ],
+      [
+        "onion",
+        10,
+        "sweet base"
+      ],
+      [
+        "fries",
         15,
         "side"
       ],
       [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "tomato-sauce",
+        "mustard",
         5,
-        "sauce",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
+        "tang",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "sauce",
-      "herbs"
+      "beer gravy",
+      "slow-braised beef",
+      "fries"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "malty",
+      "sweet-rich"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "tender beef chunks",
+      "thick gravy",
+      "crisp fries"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-alcohol",
+      "contains-gluten"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "classic-dish",
+      "comfort-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "avoid-alcohol",
+      "gluten-free"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A strong Belgian comfort choice; pick it if beef stew with fries sounds good.",
+      "zh": "非常稳的比利时家常选择；想吃炖牛肉配薯条时适合。",
+      "nl": "Een sterke Belgische comfortkeuze; kies dit als stoofvlees met friet goed klinkt."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "imageCode": "107019",
+    "imagePath": "/assets/dishes/main/107019-stoofvlees.webp",
+    "thumbPath": "/assets/dishes/thumb/107019-stoofvlees.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -3988,81 +4024,84 @@ const globalDepthDishConfigs = [
     "names": {
       "en": "Paling in het Groen",
       "zh": "绿酱鳗鱼",
-      "nl": "Paling in het groen",
-      "local": "paling in het groen"
+      "nl": "Paling in 't groen",
+      "local": "Paling in 't groen"
     },
-    "category": "seafood",
+    "category": "main",
     "cookingMethods": [
-      "grilled"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Paling in het Groen is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "绿酱鳗鱼是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Paling in het groen is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Eel pieces served in a bright green herb sauce, often with potatoes.",
+      "zh": "鳗鱼段配鲜绿色香草酱，常搭土豆。",
+      "nl": "Stukken paling in groene kruidensaus, vaak met aardappelen."
     },
     "cookingProfile": {
-      "en": "Usually served with tender seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The sauce is herbal and fresh, while eel is rich and soft.",
+      "zh": "酱汁青草香明显，鳗鱼本身柔软肥润。",
+      "nl": "De saus is kruidig en fris, de paling rijk en zacht."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "regional-dish",
+        "classic-dish"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将比利时菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Belgisch menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Belgian regional eel dish recognized by vivid green herb sauce.",
+        "zh": "比利时地区鳗鱼菜，重点是鲜绿色香草酱。",
+        "nl": "Een Belgische streekschotel met paling in felgroene kruidensaus."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        60,
-        "main"
+        "eel",
+        55,
+        "fish"
       ],
       [
-        "steamed-rice",
-        15,
-        "base or side"
-      ],
-      [
-        "mixed-vegetables",
+        "green-onion",
         10,
-        "side"
-      ],
-      [
-        "lemon",
-        5,
-        "finish"
-      ],
-      [
-        "olive-oil",
-        5,
-        "finish",
-        "seasoning"
+        "green herb base"
       ],
       [
         "parsley",
+        10,
+        "herb",
+        "seasoning"
+      ],
+      [
+        "garlic",
         5,
         "aroma",
         "seasoning"
+      ],
+      [
+        "vinegar",
+        5,
+        "brightness",
+        "seasoning"
+      ],
+      [
+        "potato",
+        15,
+        "side"
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-fillet",
-      "lemon",
-      "olive-oil"
+      "eel",
+      "green herb sauce",
+      "garlic"
     ],
     "basicTaste": [
-      "savory",
-      "briny"
+      "herbal",
+      "rich",
+      "savory"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "soft eel pieces",
+      "smooth green sauce",
+      "tender potatoes"
     ],
     "riskFlags": [
       "contains-fish"
@@ -4071,20 +4110,26 @@ const globalDepthDishConfigs = [
       "pescatarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "regional-dish",
+      "seafood"
     ],
     "avoidIfTags": [
-      "avoids-fish"
+      "fish-allergy",
+      "dislikes-eel"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check fish if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order if eel and herb sauce sound appealing; skip if eel texture worries you.",
+      "zh": "喜欢鳗鱼和香草酱时可点；不适应鳗鱼口感则谨慎。",
+      "nl": "Bestel als paling en kruidensaus je aanspreken; sla over als palingtextuur lastig is."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.74,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "imageCode": "107020",
+    "imagePath": "/assets/dishes/main/107020-paling-in-t-groen.webp",
+    "thumbPath": "/assets/dishes/thumb/107020-paling-in-t-groen.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -4832,104 +4877,101 @@ const globalDepthDishConfigs = [
     "cuisineId": "belgian",
     "names": {
       "en": "Sirop de Liège Dessert",
-      "zh": "列日水果糖浆甜点",
+      "zh": "列日果膏配奶酪",
       "nl": "Luikse siroop dessert",
-      "local": "sirop de liège"
+      "local": "Sirop de Liège"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Sirop de Liège Dessert is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "列日水果糖浆甜点是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Luikse siroop dessert is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Dark apple-pear syrup served with bread, cheese, or a simple dessert plate.",
+      "zh": "深色苹果梨果膏，常配面包、奶酪或简单甜点盘。",
+      "nl": "Donkere appel-perensiroop met brood, kaas of eenvoudig dessertbord."
     },
     "cookingProfile": {
-      "en": "Usually served with soft dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现soft dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met soft dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is thick, fruity, and sweet-sour, closer to a condiment-pairing dessert than cake.",
+      "zh": "质地浓稠，果味甜酸，更像配奶酪面包的果膏，不是蛋糕。",
+      "nl": "Dik, fruitig en zoetzuur, eerder een dessertbeleg dan cake."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "regional-dish"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将比利时菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Belgisch menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Liège regional fruit syrup often paired with cheese or bread.",
+        "zh": "列日地区果膏，常和奶酪或面包搭配。",
+        "nl": "Een Luikse vruchtensiroop vaak met kaas of brood."
       }
     },
     "composition": [
       [
-        "sugar",
-        30,
-        "sweetness"
-      ],
-      [
-        "cream",
-        25,
-        "base"
-      ],
-      [
-        "egg",
-        15,
-        "richness"
-      ],
-      [
-        "wheat-flour",
-        15,
-        "structure"
-      ],
-      [
-        "vanilla",
-        10,
-        "aroma",
-        "seasoning"
-      ],
-      [
         "fruit-sauce-or-caramel",
-        5,
-        "finish"
+        45,
+        "dark fruit syrup"
+      ],
+      [
+        "cheese",
+        25,
+        "pairing"
+      ],
+      [
+        "bread",
+        20,
+        "side"
+      ],
+      [
+        "apple",
+        10,
+        "fruit cue"
       ]
     ],
     "distinctiveFlavorSources": [
-      "vanilla",
-      "cream",
-      "sweet finish"
+      "apple-pear syrup",
+      "cheese pairing",
+      "bread"
     ],
     "basicTaste": [
-      "sweet",
-      "creamy"
+      "sweet-sour",
+      "fruity",
+      "rich"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "thick glossy syrup",
+      "firm cheese",
+      "crusty bread"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-gluten"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "restaurant-coverage",
+      "regional-dish",
       "dessert"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "dairy-free",
+      "gluten-free",
+      "avoid-sweet-sour"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good for a regional sweet-cheese pairing; skip if you expect a full pastry.",
+      "zh": "适合尝地区果膏配奶酪；如果期待完整糕点则不适合。",
+      "nl": "Goed voor regionale zoet-kaascombinatie; geen volwaardig gebak."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "acquiredTasteLevel": 2,
+    "imageCode": "107028",
+    "imagePath": "/assets/dishes/main/107028-sirop-de-liege-dessert.webp",
+    "thumbPath": "/assets/dishes/thumb/107028-sirop-de-liege-dessert.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -4939,99 +4981,113 @@ const globalDepthDishConfigs = [
     "names": {
       "en": "Belgian Endive Salad",
       "zh": "比利时菊苣沙拉",
-      "nl": "Witloofsalade",
-      "local": "witloofsalade"
+      "nl": "Witlofsalade",
+      "local": "Belgian endive salad"
     },
     "category": "salad",
     "cookingMethods": [
       "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Belgian Endive Salad is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "比利时菊苣沙拉是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Witloofsalade is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Raw Belgian endive salad with apple, nuts, herbs, and a light creamy dressing.",
+      "zh": "生比利时菊苣沙拉，配苹果、坚果、香草和轻奶油酱。",
+      "nl": "Rauwe witlofsalade met appel, noten, kruiden en lichte romige dressing."
     },
     "cookingProfile": {
-      "en": "Usually served with crisp vegetables, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现crisp vegetables，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met crisp vegetables; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect crisp, slightly bitter leaves balanced by apple sweetness and dressing.",
+      "zh": "口感爽脆，菊苣微苦，苹果和酱汁带来平衡。",
+      "nl": "Knapperig en licht bitter, in balans met appel en dressing."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "lighter-choice"
       ],
       "description": {
-        "en": "A high-frequency Belgian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将比利时菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Belgisch menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common Belgian salad where raw endive bitterness is the main cue.",
+        "zh": "比利时常见沙拉，重点是生菊苣的微苦脆感。",
+        "nl": "Een veelvoorkomende Belgische salade met rauw witloof."
       }
     },
     "composition": [
       [
-        "mixed-vegetables",
-        40,
-        "base"
+        "endive",
+        55,
+        "raw leaves"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "main or topping"
-      ],
-      [
-        "tomato",
+        "apple",
         15,
-        "freshness"
+        "sweet crunch"
       ],
       [
-        "cucumber",
+        "almonds",
         10,
-        "freshness"
+        "nutty crunch"
       ],
       [
-        "olive-oil",
+        "mayonnaise",
         10,
-        "finish",
-        "seasoning"
+        "creamy dressing"
       ],
       [
         "vinegar",
         5,
-        "tang",
+        "brightness",
+        "seasoning"
+      ],
+      [
+        "parsley",
+        5,
+        "finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "mixed-vegetables",
-      "olive-oil",
-      "vinegar"
+      "Belgian endive",
+      "apple",
+      "creamy vinaigrette"
     ],
     "basicTaste": [
       "fresh",
-      "tangy"
+      "slightly bitter",
+      "sweet-sour"
     ],
     "textureProfile": [
-      "fresh vegetables",
-      "light dressing"
+      "crisp leaves",
+      "juicy apple",
+      "creamy dressing"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-egg",
+      "contains-tree-nut"
+    ],
     "dietaryFlags": [
       "vegetarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "lighter-choice",
+      "salad"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "nut-allergy",
+      "dislikes-bitter"
+    ],
     "orderVerdict": {
-      "en": "Order if this fresh, tangy profile sounds appealing.",
-      "zh": "如果你想要fresh、tangy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van fresh, tangy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A lighter Belgian choice; skip if bitter raw endive is not appealing.",
+      "zh": "是较清爽的比利时选择；不喜欢生菊苣微苦则避开。",
+      "nl": "Een lichtere Belgische keuze; sla over als rauw witloof te bitter is."
     },
     "spiceLevel": 0,
     "weightLevel": 1,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "acquiredTasteLevel": 2,
+    "imageCode": "107029",
+    "imagePath": "/assets/dishes/main/107029-belgian-endive-salad.webp",
+    "thumbPath": "/assets/dishes/thumb/107029-belgian-endive-salad.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -33598,101 +33654,105 @@ const globalDepthDishConfigs = [
     "cuisineId": "portuguese",
     "names": {
       "en": "Ervilhas com Ovos",
-      "zh": "豌豆炖蛋",
-      "nl": "Erwten met eieren",
-      "local": "ervilhas com ovos"
+      "zh": "葡萄牙豌豆炖蛋",
+      "nl": "Ervilhas com ovos",
+      "local": "Ervilhas com ovos"
     },
-    "category": "starter",
+    "category": "main",
     "cookingMethods": [
-      "assembled"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Ervilhas com Ovos is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "豌豆炖蛋是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Erwten met eieren is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Portuguese peas simmered in tomato-onion sauce with poached eggs, sometimes with chouriço.",
+      "zh": "葡萄牙豌豆用番茄洋葱酱炖煮，上面卧蛋，有时加葡萄牙香肠。",
+      "nl": "Portugese erwten in tomaat-uiensaus met gepocheerde eieren, soms met chouriço."
     },
     "cookingProfile": {
-      "en": "Usually served with small bites, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small bites，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small bites; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a saucy peas-and-eggs comfort dish, mild and home-style.",
+      "zh": "预期是带酱汁的豌豆鸡蛋家常菜，温和舒适。",
+      "nl": "Een huiselijke schotel van erwten en ei in saus, mild en troostend."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "common-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A high-frequency Portuguese menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将葡萄牙菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Portugees menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A common Portuguese home-style plate that works as a light main.",
+        "zh": "常见葡萄牙家常菜，可作轻主菜。",
+        "nl": "Een gewone Portugese thuisschotel die als lichte hoofdschotel werkt."
       }
     },
     "composition": [
       [
-        "chicken",
-        40,
-        "main"
+        "peas",
+        45,
+        "pea base"
       ],
       [
-        "mixed-vegetables",
+        "egg",
         25,
-        "body"
+        "poached eggs"
       ],
       [
-        "potato",
+        "tomato-sauce",
         15,
-        "richness"
+        "sauce base",
+        "seasoning"
       ],
       [
-        "olive-oil",
+        "chourico",
         10,
-        "finish",
-        "seasoning"
+        "optional sausage"
       ],
       [
-        "sea-salt",
+        "onion",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
+        "aromatic"
       ]
     ],
     "distinctiveFlavorSources": [
-      "chicken",
-      "olive-oil",
-      "herbs"
+      "peas",
+      "poached egg",
+      "tomato onion sauce"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "mild",
+      "slightly sweet"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "soft peas",
+      "runny egg",
+      "saucy base"
     ],
     "riskFlags": [
-      "contains-egg"
+      "contains-egg",
+      "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "restaurant-coverage"
+      "comfort-food",
+      "lighter-main"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "pork-free"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check egg if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A gentle comfort main if peas and poached eggs sound appealing; ask about chouriço if avoiding pork.",
+      "zh": "喜欢豌豆和卧蛋时是温和舒适主菜；不吃猪肉要问是否加香肠。",
+      "nl": "Een zachte comfortmaaltijd met erwten en ei; vraag naar chouriço bij varkensvrij."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "imageCode": "125025",
+    "imagePath": "/assets/dishes/main/125025-ervilhas-com-ovos.webp",
+    "thumbPath": "/assets/dishes/thumb/125025-ervilhas-com-ovos.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -39242,102 +39302,115 @@ const globalDepthDishConfigs = [
       "en": "Herring Smørrebrød",
       "zh": "鲱鱼开放三明治",
       "nl": "Haring smørrebrød",
-      "local": "sild smørrebrød"
+      "local": "Sild smørrebrød"
     },
     "category": "seafood",
     "cookingMethods": [
-      "grilled"
+      "assembled",
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Herring Smørrebrød is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "鲱鱼开放三明治是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Haring smørrebrød is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Danish open-faced rye sandwich topped with pickled herring, onion, dill, and sauce.",
+      "zh": "丹麦黑麦开放三明治，上面铺腌鲱鱼、洋葱、莳萝和酱。",
+      "nl": "Deense open roggebroodsnede met ingelegde haring, ui, dille en saus."
     },
     "cookingProfile": {
-      "en": "Usually served with tender seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is cold, briny, and bread-based, more like a composed lunch toast than a fish platter.",
+      "zh": "冷食、咸鲜、以面包为底，更像组合午餐吐司而非鱼拼盘。",
+      "nl": "Koud, zilt en broodgericht, meer lunchtoast dan visplank."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "classic-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A high-frequency Scandinavian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将北欧菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Scandinavisch menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A classic Danish smørrebrød variant with herring as the main topping.",
+        "zh": "经典丹麦开放三明治变体，以鲱鱼为主料。",
+        "nl": "Een klassieke Deense smørrebrødvariant met haring als topping."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        60,
-        "main"
+        "rye-bread",
+        30,
+        "open sandwich base"
       ],
       [
-        "steamed-rice",
-        15,
-        "base or side"
+        "herring",
+        40,
+        "pickled topping"
       ],
       [
-        "mixed-vegetables",
+        "onion",
         10,
-        "side"
+        "sharp garnish"
       ],
       [
-        "lemon",
-        5,
-        "finish"
+        "sour-cream",
+        10,
+        "cooling sauce"
       ],
       [
-        "olive-oil",
+        "dill",
         5,
-        "finish",
+        "herb",
         "seasoning"
       ],
       [
-        "parsley",
+        "capers",
         5,
-        "aroma",
-        "seasoning"
+        "briny garnish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "fish-fillet",
-      "lemon",
-      "olive-oil"
+      "pickled herring",
+      "rye bread",
+      "dill sauce"
     ],
     "basicTaste": [
-      "savory",
-      "briny"
+      "salty",
+      "sour",
+      "earthy"
     ],
     "textureProfile": [
-      "tender seafood",
-      "fresh finish"
+      "dense rye bread",
+      "silky herring",
+      "crisp onion"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-gluten",
+      "contains-dairy"
     ],
     "dietaryFlags": [
       "pescatarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "lunch",
+      "seafood"
     ],
     "avoidIfTags": [
-      "avoids-fish"
+      "fish-allergy",
+      "gluten-free",
+      "dairy-free",
+      "avoids-pickled-fish"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check fish if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order if pickled herring on rye sounds appealing; avoid if briny fish is not your thing.",
+      "zh": "喜欢黑麦面包配腌鲱鱼时适合；不爱咸鲜腌鱼则避开。",
+      "nl": "Bestel als haring op rogge je aanspreekt; vermijd bij afkeer van zilte vis."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.74,
+    "acquiredTasteLevel": 3,
+    "imageCode": "128023",
+    "imagePath": "/assets/dishes/main/128023-open-faced-herring.webp",
+    "thumbPath": "/assets/dishes/thumb/128023-open-faced-herring.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -40003,103 +40076,105 @@ const globalDepthDishConfigs = [
       "en": "Brunost Toast",
       "zh": "挪威棕奶酪吐司",
       "nl": "Brunost toast",
-      "local": "brunost toast"
+      "local": "Brunost toast"
     },
     "category": "bread",
     "cookingMethods": [
-      "baked"
+      "toasted"
     ],
     "shortDescription": {
-      "en": "Brunost Toast is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "挪威棕奶酪吐司是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Brunost toast is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Norwegian toast with caramel-brown brunost cheese, often paired with jam or fruit.",
+      "zh": "挪威吐司配焦糖棕色 brunost 奶酪，常配果酱或水果。",
+      "nl": "Noorse toast met karamelbruine brunost, vaak met jam of fruit."
     },
     "cookingProfile": {
-      "en": "Usually served with chewy bread, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现chewy bread，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met chewy bread; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a sweet-salty caramel dairy flavor, more unusual than regular cheese toast.",
+      "zh": "预期是甜咸焦糖乳香，比普通奶酪吐司更特别。",
+      "nl": "Zoet-zoute karamelzuivelsmaak, ongebruikelijker dan gewone kaastosti."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "restaurant-coverage"
+        "regional-dish",
+        "breakfast"
       ],
       "description": {
-        "en": "A high-frequency Scandinavian menu item added to bring this cuisine to 30 verified DishKAI references.",
-        "zh": "为将北欧菜覆盖补齐到 30 道 verified references 而加入的高频菜单菜品。",
-        "nl": "Een vaak voorkomend Scandinavisch menu-item om deze keuken naar 30 geverifieerde DishKAI-referenties te brengen."
+        "en": "A Norwegian cafe/breakfast item built around distinctive brown cheese.",
+        "zh": "挪威咖啡馆/早餐小食，核心是特色棕奶酪。",
+        "nl": "Een Noors café- of ontbijtgerecht rond bruine kaas."
       }
     },
     "composition": [
       [
-        "bread",
+        "brunost-cheese",
         45,
-        "base"
+        "brown cheese"
       ],
       [
-        "cheese",
-        25,
-        "filling"
+        "bread",
+        30,
+        "toast"
       ],
       [
-        "cheese",
-        15,
-        "body"
+        "butter",
+        10,
+        "toast richness"
       ],
       [
-        "tomato",
+        "lingonberry-jam",
+        10,
+        "berry side"
+      ],
+      [
+        "apple",
         5,
-        "freshness"
-      ],
-      [
-        "olive-oil",
-        5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "sea-salt",
-        5,
-        "seasoning",
-        "seasoning"
+        "fresh side"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cheese",
-      "cheese",
-      "toasted bread"
+      "brunost caramel dairy",
+      "toast",
+      "berry jam"
     ],
     "basicTaste": [
-      "savory",
-      "bready"
+      "sweet-savory",
+      "caramel-like",
+      "mildly salty"
     ],
     "textureProfile": [
-      "chewy bread",
-      "filled center"
+      "firm cheese slices",
+      "crisp toast",
+      "jammy side"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-gluten"
     ],
     "dietaryFlags": [
       "vegetarian"
     ],
     "goodForTags": [
-      "restaurant-coverage"
+      "breakfast",
+      "regional-dish"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "dairy-free",
+      "gluten-free",
+      "dislikes-sweet-cheese"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, bready profile sounds appealing; check gluten if that matters.",
-      "zh": "如果你想要savory、bready的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, bready je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Worth trying if caramel-like cheese sounds fun; skip if sweet cheese feels odd.",
+      "zh": "如果对焦糖感奶酪好奇值得尝；不接受甜奶酪则避开。",
+      "nl": "Leuk om te proberen als karamelachtige kaas je aanspreekt; sla over bij zoete kaas."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.74,
+    "acquiredTasteLevel": 2,
+    "imageCode": "128030",
+    "imagePath": "/assets/dishes/main/128030-brunost-toast.webp",
+    "thumbPath": "/assets/dishes/thumb/128030-brunost-toast.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {

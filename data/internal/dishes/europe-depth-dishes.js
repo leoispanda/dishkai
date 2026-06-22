@@ -3315,471 +3315,256 @@ const europeDepthDishConfigs = [
   {
     "id": "boerenkoolstamppot",
     "metadataCode": "102032",
+    "imageCode": "102032",
     "cuisineId": "dutch",
     "names": {
       "en": "Boerenkoolstamppot",
-      "zh": "羽衣甘蓝土豆泥配香肠",
+      "zh": "荷兰羽衣甘蓝土豆泥",
       "nl": "Boerenkoolstamppot",
       "local": "Boerenkoolstamppot"
     },
-    "category": "potato",
+    "category": "main",
     "cookingMethods": [
-      "baked"
+      "boiled",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Boerenkoolstamppot is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "羽衣甘蓝土豆泥配香肠是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Boerenkoolstamppot is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Mashed potatoes mixed with chopped kale, usually topped with smoked sausage.",
+      "zh": "土豆泥拌切碎羽衣甘蓝，通常配烟熏香肠。",
+      "nl": "Aardappelpuree gemengd met boerenkool, meestal met rookworst erbovenop."
     },
     "cookingProfile": {
-      "en": "Usually served with potato dish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现potato dish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met potato dish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect soft green-flecked mash with salty smoked sausage richness.",
+      "zh": "入口是柔软土豆泥和菜叶感，烟熏香肠带来咸香油脂。",
+      "nl": "Verwacht zachte puree met boerenkool en zoute, rokerige rookworst."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A winter Dutch stamppot where kale-mashed potatoes and smoked sausage are the ordering cues.",
+        "zh": "典型荷兰冬季土豆泥菜，识别重点是羽衣甘蓝土豆泥和烟熏香肠。",
+        "nl": "Een klassieke winterse stamppot waarbij boerenkoolpuree en rookworst de herkenningspunten zijn."
       }
     },
     "composition": [
       [
         "potato",
         55,
-        "base"
+        "mashed base"
       ],
       [
-        "cream",
+        "kale",
+        25,
+        "greens"
+      ],
+      [
+        "smoked-sausage",
         15,
-        "richness"
-      ],
-      [
-        "cheese",
-        10,
-        "richness"
+        "smoked topping"
       ],
       [
         "butter",
-        10,
+        5,
         "richness"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "kale stamppot",
+      "smoked sausage",
+      "butter"
     ],
     "basicTaste": [
       "savory",
+      "smoky",
       "hearty"
     ],
     "textureProfile": [
-      "soft potato",
-      "browned or creamy edges"
+      "soft mash",
+      "leafy bits",
+      "firm sausage slices"
     ],
     "riskFlags": [
+      "contains-pork",
       "contains-dairy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "potato"
+      "classic-dish",
+      "comfort-food"
     ],
     "avoidIfTags": [
-      "dairy-allergy"
+      "no-pork",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a hearty Dutch comfort plate; skip if you avoid pork or want something light.",
+      "zh": "想吃荷兰家常厚实主食时很稳；不吃猪肉或想要清淡菜时不适合。",
+      "nl": "Kies dit voor stevige Nederlandse comfortkost; sla over bij geen varken of als je iets lichts wilt."
     },
+    "confidenceTag": "audited-remaining-batch-039",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102032-boerenkoolstamppot.webp",
+    "thumbPath": "/assets/dishes/thumb/102032-boerenkoolstamppot.webp"
   },
   {
     "id": "hete-bliksem",
     "metadataCode": "102033",
+    "imageCode": "102033",
     "cuisineId": "dutch",
     "names": {
       "en": "Hete Bliksem",
-      "zh": "苹果土豆泥",
-      "nl": "Hete Bliksem",
-      "local": "Hete Bliksem"
+      "zh": "苹果土豆泥配培根",
+      "nl": "Hete bliksem",
+      "local": "Hete bliksem"
     },
-    "category": "potato",
+    "category": "main",
     "cookingMethods": [
-      "baked"
+      "boiled",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Hete Bliksem is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "苹果土豆泥是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Hete Bliksem is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A mash of potato and apple with bacon or smoked sausage for a sweet-salty comfort flavor.",
+      "zh": "土豆和苹果压成泥，配培根或烟熏香肠，带甜咸对比。",
+      "nl": "Een puree van aardappel en appel met spek of rookworst voor een zoet-zoute smaak."
     },
     "cookingProfile": {
-      "en": "Usually served with potato dish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现potato dish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met potato dish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The apple makes the mash softer and lightly sweet, while bacon adds salt and smoke.",
+      "zh": "苹果让土豆泥更柔软微甜，培根增加咸香和烟熏感。",
+      "nl": "Appel maakt de puree zachter en licht zoet, terwijl spek zout en rook geeft."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A traditional Dutch mash recognized by potato, apple, and bacon or sausage.",
+        "zh": "传统荷兰土豆泥菜，重点是土豆、苹果和培根或香肠的甜咸组合。",
+        "nl": "Een traditionele stamppot herkenbaar aan aardappel, appel en spek of worst."
       }
     },
     "composition": [
       [
         "potato",
-        55,
-        "base"
+        50,
+        "mash base"
       ],
       [
-        "cream",
+        "apple",
+        25,
+        "sweet fruit"
+      ],
+      [
+        "bacon",
         15,
-        "richness"
+        "salty pork"
       ],
       [
-        "cheese",
-        10,
-        "richness"
+        "onion",
+        5,
+        "savory base"
       ],
       [
         "butter",
-        10,
+        5,
         "richness"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "apple sweetness",
+      "bacon",
+      "butter"
     ],
     "basicTaste": [
-      "savory",
-      "hearty"
+      "sweet-savory",
+      "salty",
+      "mild"
     ],
     "textureProfile": [
-      "soft potato",
-      "browned or creamy edges"
+      "soft mash",
+      "small apple pieces",
+      "crisp bacon bits"
     ],
     "riskFlags": [
+      "contains-pork",
       "contains-dairy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "potato"
+      "comfort-food"
     ],
     "avoidIfTags": [
-      "dairy-allergy"
+      "no-pork",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if sweet apple in a savory mash sounds appealing; skip if you dislike sweet-salty mains.",
+      "zh": "喜欢咸味土豆泥里带苹果甜味时可以点；不爱甜咸主菜则谨慎。",
+      "nl": "Goed als appel in hartige puree je aanspreekt; sla over als zoet-zout niet past."
     },
+    "confidenceTag": "audited-remaining-batch-039",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102033-hete-bliksem.webp",
+    "thumbPath": "/assets/dishes/thumb/102033-hete-bliksem.webp"
   },
   {
     "id": "kapucijners-met-spek",
     "metadataCode": "102034",
+    "imageCode": "102034",
     "cuisineId": "dutch",
     "names": {
       "en": "Kapucijners met Spek",
-      "zh": "荷兰豌豆培根",
-      "nl": "Kapucijners met Spek",
-      "local": "Kapucijners met Spek"
+      "zh": "荷兰褐豌豆配培根",
+      "nl": "Kapucijners met spek",
+      "local": "Kapucijners met spek"
     },
-    "category": "pork",
+    "category": "main",
     "cookingMethods": [
-      "grilled"
+      "simmered",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Kapucijners met Spek is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰豌豆培根是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Kapucijners met Spek is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Brown capuchin peas served with bacon, onions, and often pickles or mustard.",
+      "zh": "褐豌豆配培根、洋葱，常搭配酸黄瓜或芥末。",
+      "nl": "Kapucijners met spek, ui en vaak augurk of mosterd."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect earthy beans with salty bacon and sharp pickled accents.",
+      "zh": "入口是豆香和培根咸香，酸黄瓜带一点清爽酸味。",
+      "nl": "Verwacht aardse bonen met zout spek en frisse zuren."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Dutch brown-pea plate where bacon, pickles, and onions make it a hearty cafe dish.",
+        "zh": "荷兰褐豌豆家常菜，培根、酸黄瓜和洋葱让它更像厚实小餐馆主食。",
+        "nl": "Een bord met kapucijners waarbij spek, zuur en ui het stevig maken."
       }
     },
     "composition": [
       [
-        "pork",
-        50,
-        "main"
+        "beans",
+        55,
+        "brown peas"
       ],
       [
-        "potato",
+        "bacon",
         20,
-        "side"
-      ],
-      [
-        "cabbage",
-        10,
-        "body"
-      ],
-      [
-        "mustard",
-        5,
-        "condiment",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
-    ],
-    "basicTaste": [
-      "savory",
-      "rich"
-    ],
-    "textureProfile": [
-      "savory meat",
-      "browned edges"
-    ],
-    "riskFlags": [
-      "contains-pork"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "pork"
-    ],
-    "avoidIfTags": [
-      "no-pork"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "draadjesvlees",
-    "metadataCode": "102035",
-    "cuisineId": "dutch",
-    "names": {
-      "en": "Draadjesvlees",
-      "zh": "荷兰慢炖牛肉丝",
-      "nl": "Draadjesvlees",
-      "local": "Draadjesvlees"
-    },
-    "category": "stew",
-    "cookingMethods": [
-      "simmered"
-    ],
-    "shortDescription": {
-      "en": "Draadjesvlees is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰慢炖牛肉丝是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Draadjesvlees is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with slow-cooked stew, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现slow-cooked stew，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met slow-cooked stew; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "beef",
-        35,
-        "main"
-      ],
-      [
-        "potato",
-        20,
-        "body"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "broth",
-        15,
-        "base"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
-    ],
-    "basicTaste": [
-      "savory",
-      "hearty"
-    ],
-    "textureProfile": [
-      "soft vegetables",
-      "rich broth"
-    ],
-    "riskFlags": [],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "stew"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "gehaktbal",
-    "metadataCode": "102036",
-    "cuisineId": "dutch",
-    "names": {
-      "en": "Gehaktbal",
-      "zh": "荷兰肉丸",
-      "nl": "Gehaktbal",
-      "local": "Gehaktbal"
-    },
-    "category": "meat",
-    "cookingMethods": [
-      "braised"
-    ],
-    "shortDescription": {
-      "en": "Gehaktbal is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰肉丸是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Gehaktbal is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "beef",
-        45,
-        "main"
-      ],
-      [
-        "potato",
-        20,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
-        15,
-        "body"
+        "salty pork"
       ],
       [
         "onion",
@@ -3787,52 +3572,276 @@ const europeDepthDishConfigs = [
         "aromatic"
       ],
       [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
+        "pickles",
+        10,
+        "acidic side"
       ],
       [
-        "parsley",
+        "mustard",
         5,
-        "finish",
+        "sharp condiment",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "brown peas",
+      "bacon",
+      "pickles"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "salty",
+      "earthy"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "soft beans",
+      "crisp bacon",
+      "pickle crunch"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-pork"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "meat"
+      "comfort-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "no-pork"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for an old-school Dutch bean plate; skip if beans or bacon-heavy dishes are not your thing.",
+      "zh": "想吃老派荷兰豆类主食时可点；不爱豆子或培根重口味则不适合。",
+      "nl": "Kies dit voor een ouderwets bonengerecht; sla over als bonen of spek niet passen."
     },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102034-kapucijners-met-spek.webp",
+    "thumbPath": "/assets/dishes/thumb/102034-kapucijners-met-spek.webp"
+  },
+  {
+    "id": "draadjesvlees",
+    "metadataCode": "102035",
+    "imageCode": "102035",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Draadjesvlees",
+      "zh": "荷兰慢炖手撕牛肉",
+      "nl": "Draadjesvlees",
+      "local": "Draadjesvlees"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "braised"
+    ],
+    "shortDescription": {
+      "en": "Slow-braised beef that falls into strands, usually served with potatoes and gravy.",
+      "zh": "慢炖到能拉成肉丝的牛肉，常配土豆和肉汁。",
+      "nl": "Lang gestoofd rundvlees dat in draadjes uit elkaar valt, vaak met aardappelen en jus."
+    },
+    "cookingProfile": {
+      "en": "The meat should feel tender, saucy, and deeper than a quick grilled beef dish.",
+      "zh": "牛肉应当软烂多汁，比快煎牛肉更深、更家常。",
+      "nl": "Het vlees is mals en sauzig, dieper van smaak dan snel gebakken rundvlees."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Dutch braised beef classic known for soft strands and dark gravy.",
+        "zh": "经典荷兰炖牛肉，识别重点是软烂肉丝和深色肉汁。",
+        "nl": "Een klassieker van gestoofd rundvlees met draadjes en donkere jus."
+      }
+    },
+    "composition": [
+      [
+        "beef",
+        55,
+        "braised meat"
+      ],
+      [
+        "broth",
+        20,
+        "gravy"
+      ],
+      [
+        "potato",
+        15,
+        "side"
+      ],
+      [
+        "onion",
+        5,
+        "braise base"
+      ],
+      [
+        "red-wine",
+        5,
+        "braise depth",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "braised beef",
+      "dark gravy",
+      "onion"
+    ],
+    "basicTaste": [
+      "savory",
+      "rich",
+      "meaty"
+    ],
+    "textureProfile": [
+      "shredded tender beef",
+      "glossy gravy",
+      "soft potatoes"
+    ],
+    "riskFlags": [
+      "contains-alcohol"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "meat-main"
+    ],
+    "avoidIfTags": [
+      "avoid-heavy-food"
+    ],
+    "orderVerdict": {
+      "en": "A strong choice for tender beef and gravy; skip if you want a lighter or crisp dish.",
+      "zh": "想吃软烂牛肉和肉汁时很适合；想要清爽或酥脆口感则不推荐。",
+      "nl": "Een goede keuze voor mals rundvlees met jus; sla over als je licht of krokant wilt."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102035-draadjesvlees.webp",
+    "thumbPath": "/assets/dishes/thumb/102035-draadjesvlees.webp"
+  },
+  {
+    "id": "gehaktbal",
+    "metadataCode": "102036",
+    "imageCode": "102036",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Gehaktbal",
+      "zh": "荷兰肉丸",
+      "nl": "Gehaktbal",
+      "local": "Gehaktbal"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "fried",
+      "braised"
+    ],
+    "shortDescription": {
+      "en": "A large browned meatball, often served with gravy, potatoes, and vegetables.",
+      "zh": "煎至上色的大颗肉丸，常配肉汁、土豆和蔬菜。",
+      "nl": "Een grote gebraden gehaktbal, vaak met jus, aardappelen en groente."
+    },
+    "cookingProfile": {
+      "en": "Expect a firm but juicy meatball with mild seasoning and brown gravy.",
+      "zh": "肉丸通常紧实多汁，调味温和，配棕色肉汁。",
+      "nl": "Verwacht een stevige maar sappige bal met milde kruiden en bruine jus."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A common Dutch meatball order, usually valued for gravy and comfort rather than spice.",
+        "zh": "常见荷兰肉丸，重点是肉汁和家常感，不是辛辣风味。",
+        "nl": "Een veelvoorkomende gehaktbal waarbij jus en comfort belangrijker zijn dan pit."
+      }
+    },
+    "composition": [
+      [
+        "ground-meat",
+        55,
+        "meatball"
+      ],
+      [
+        "bread",
+        10,
+        "binder"
+      ],
+      [
+        "egg",
+        10,
+        "binder"
+      ],
+      [
+        "broth",
+        15,
+        "gravy"
+      ],
+      [
+        "onion",
+        5,
+        "aromatic"
+      ],
+      [
+        "black-pepper",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "brown gravy",
+      "ground meat",
+      "black pepper"
+    ],
+    "basicTaste": [
+      "savory",
+      "meaty",
+      "mild"
+    ],
+    "textureProfile": [
+      "firm meatball",
+      "juicy center",
+      "saucy gravy"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food",
+      "safe-choice"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Reliable if you want a mild meat-and-gravy plate; skip if you need gluten-free or very light food.",
+      "zh": "想要温和肉丸配肉汁时很稳；需要无麸质或很清淡时不适合。",
+      "nl": "Betrouwbaar voor vlees met jus; minder geschikt bij glutenvrij of heel licht eten."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102036-gehaktbal.webp",
+    "thumbPath": "/assets/dishes/thumb/102036-gehaktbal.webp"
   },
   {
     "id": "slavink",
     "metadataCode": "102037",
+    "imageCode": "102037",
     "cuisineId": "dutch",
     "names": {
       "en": "Slavink",
@@ -3840,105 +3849,98 @@ const europeDepthDishConfigs = [
       "nl": "Slavink",
       "local": "Slavink"
     },
-    "category": "pork",
+    "category": "main",
     "cookingMethods": [
-      "grilled"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Slavink is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "培根包肉卷是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Slavink is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A minced meat roll wrapped in bacon and pan-browned, usually served with potatoes.",
+      "zh": "肉馅卷外包培根后煎香，通常配土豆。",
+      "nl": "Een gehaktrol omwikkeld met spek en gebakken, meestal met aardappelen."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It eats salty and meaty, with bacon giving the outside a firmer browned bite.",
+      "zh": "入口咸香肉感明显，外层培根带来更紧实的焦香口感。",
+      "nl": "Zout en vlezig, met spek dat de buitenkant steviger en bruiner maakt."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Dutch butcher-style meat roll recognized by minced meat wrapped in bacon.",
+        "zh": "荷兰肉店风格肉卷，重点是肉馅外包培根。",
+        "nl": "Een slagersklassieker van gehakt omwikkeld met spek."
       }
     },
     "composition": [
       [
-        "pork",
-        50,
-        "main"
+        "ground-meat",
+        55,
+        "meat filling"
+      ],
+      [
+        "bacon",
+        25,
+        "wrapped outside"
       ],
       [
         "potato",
-        20,
+        15,
         "side"
-      ],
-      [
-        "cabbage",
-        10,
-        "body"
       ],
       [
         "mustard",
         5,
         "condiment",
         "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
+      "bacon wrap",
+      "pan-browned meat",
+      "mustard"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "salty",
+      "meaty"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "firm bacon outside",
+      "soft minced center",
+      "pan-browned edges"
     ],
     "riskFlags": [
       "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pork"
+      "meat-main",
+      "comfort-food"
     ],
     "avoidIfTags": [
       "no-pork"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good for a simple salty meat main; skip if pork or bacon is a problem.",
+      "zh": "想吃简单咸香肉类主菜时可点；不吃猪肉或培根则避开。",
+      "nl": "Goed voor een eenvoudige zoute vleesschotel; sla over bij geen varken of spek."
     },
+    "confidenceTag": "audited-remaining-batch-039",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102037-slavink.webp",
+    "thumbPath": "/assets/dishes/thumb/102037-slavink.webp"
   },
   {
     "id": "rookworst",
     "metadataCode": "102038",
+    "imageCode": "102038",
     "cuisineId": "dutch",
     "names": {
       "en": "Rookworst",
@@ -3946,101 +3948,93 @@ const europeDepthDishConfigs = [
       "nl": "Rookworst",
       "local": "Rookworst"
     },
-    "category": "pork",
+    "category": "main",
     "cookingMethods": [
-      "grilled"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Rookworst is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰烟熏香肠是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Rookworst is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A smoky, juicy Dutch sausage often served sliced with mash or mustard.",
+      "zh": "多汁烟熏香肠，常切片配土豆泥或芥末。",
+      "nl": "Een rokerige, sappige worst, vaak in plakken met puree of mosterd."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The main cue is salty smoke and a snappy sausage bite rather than a complex sauce.",
+      "zh": "重点是咸香烟熏味和香肠弹性，不是复杂酱汁。",
+      "nl": "Het draait om zoute rook en een stevige worstbeet, niet om complexe saus."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Dutch smoked sausage commonly served with stamppot or pea soup.",
+        "zh": "荷兰烟熏香肠，常配土豆泥菜或豌豆汤。",
+        "nl": "Een Nederlandse rookworst die vaak bij stamppot of erwtensoep hoort."
       }
     },
     "composition": [
       [
-        "pork",
-        50,
-        "main"
+        "smoked-sausage",
+        65,
+        "sausage"
       ],
       [
         "potato",
         20,
-        "side"
+        "side mash"
       ],
       [
-        "cabbage",
+        "kale",
         10,
-        "body"
+        "stamppot side"
       ],
       [
         "mustard",
         5,
         "condiment",
         "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
+      "smoked sausage",
+      "mustard",
+      "stamppot side"
     ],
     "basicTaste": [
-      "savory",
-      "rich"
+      "smoky",
+      "salty",
+      "savory"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "snappy casing",
+      "juicy sausage",
+      "soft mash"
     ],
     "riskFlags": [
       "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pork"
+      "classic-dish",
+      "comfort-food"
     ],
     "avoidIfTags": [
       "no-pork"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it when you want a smoky sausage-centered plate; skip if you avoid pork or salty cured meat.",
+      "zh": "想吃烟熏香肠为主的盘子时适合；不吃猪肉或怕咸则不推荐。",
+      "nl": "Kies dit voor een bord rond rookworst; sla over bij geen varken of zout vlees."
     },
+    "confidenceTag": "audited-remaining-batch-039",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102038-rookworst.webp",
+    "thumbPath": "/assets/dishes/thumb/102038-rookworst.webp"
   },
   {
     "id": "lekkerbekje",
@@ -4148,726 +4142,761 @@ const europeDepthDishConfigs = [
   {
     "id": "mosselen-naturel",
     "metadataCode": "102040",
+    "imageCode": "102040",
     "cuisineId": "dutch",
     "names": {
       "en": "Mosselen Naturel",
-      "zh": "荷兰清煮贻贝",
-      "nl": "Mosselen Naturel",
-      "local": "Mosselen Naturel"
+      "zh": "原味清蒸贻贝",
+      "nl": "Mosselen naturel",
+      "local": "Mosselen naturel"
     },
     "category": "seafood",
     "cookingMethods": [
-      "grilled"
+      "steamed"
     ],
     "shortDescription": {
-      "en": "Mosselen Naturel is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰清煮贻贝是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Mosselen Naturel is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Steamed mussels served simply with aromatics and a light broth.",
+      "zh": "贻贝用香料蔬菜清蒸，配清淡汤汁。",
+      "nl": "Gestoomde mosselen met aromaten en lichte bouillon."
     },
     "cookingProfile": {
-      "en": "Usually served with fish or seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish or seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish or seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect briny shellfish, light broth, and a hands-on eating style from the shells.",
+      "zh": "可预期贝类咸鲜、汤汁清淡，需要从壳里取肉吃。",
+      "nl": "Verwacht zilte mosselen, lichte bouillon en eten uit de schelp."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Dutch-Belgian mussel order where the shellfish and light broth are the main cues.",
+        "zh": "荷比常见贻贝菜，识别重点是贝类本味和清淡汤汁。",
+        "nl": "Een Nederlands-Belgische mosselpan waarbij mosselen en lichte bouillon centraal staan."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        40,
-        "main"
-      ],
-      [
         "mussels",
-        20,
-        "seafood"
+        75,
+        "shellfish"
       ],
       [
-        "potato",
-        15,
-        "side"
-      ],
-      [
-        "lemon",
+        "broth",
         10,
-        "brightness"
+        "steaming liquid"
       ],
       [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
+        "onion",
+        5,
+        "aromatic"
+      ],
+      [
+        "garlic",
+        5,
+        "aromatic"
       ],
       [
         "parsley",
         5,
-        "finish",
+        "fresh finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "mussels",
+      "light broth",
+      "parsley"
     ],
     "basicTaste": [
+      "briny",
       "savory",
-      "briny"
+      "light"
     ],
     "textureProfile": [
-      "tender seafood",
-      "bright savory finish"
+      "tender mussels",
+      "brothy shells",
+      "fresh herbs"
     ],
     "riskFlags": [
-      "contains-fish",
       "contains-shellfish"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "seafood"
+      "seafood",
+      "lighter-choice"
     ],
     "avoidIfTags": [
-      "fish-allergy",
       "shellfish-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good pick for shellfish lovers wanting a lighter pot; avoid with shellfish allergy.",
+      "zh": "喜欢贝类且想吃较清淡一锅时适合；甲壳或贝类过敏者避开。",
+      "nl": "Goed voor liefhebbers van schelpdieren die iets lichts willen; vermijd bij schelpdierallergie."
     },
+    "confidenceTag": "audited-remaining-batch-039",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102040-mosselen-naturel.webp",
+    "thumbPath": "/assets/dishes/thumb/102040-mosselen-naturel.webp"
   },
   {
     "id": "asperges-met-ham-en-ei",
     "metadataCode": "102041",
+    "imageCode": "102041",
     "cuisineId": "dutch",
     "names": {
       "en": "Asperges met Ham en Ei",
-      "zh": "白芦笋火腿鸡蛋",
-      "nl": "Asperges met Ham en Ei",
-      "local": "Asperges met Ham en Ei"
+      "zh": "白芦笋配火腿和鸡蛋",
+      "nl": "Asperges met ham en ei",
+      "local": "Asperges met ham en ei"
     },
-    "category": "starter",
+    "category": "main",
     "cookingMethods": [
+      "boiled",
       "assembled"
     ],
     "shortDescription": {
-      "en": "Asperges met Ham en Ei is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "白芦笋火腿鸡蛋是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Asperges met Ham en Ei is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "White asparagus served with ham, boiled egg, and melted butter or hollandaise-style sauce.",
+      "zh": "白芦笋配火腿、煮鸡蛋和融化黄油或类似荷兰汁。",
+      "nl": "Witte asperges met ham, gekookt ei en gesmolten boter of hollandaisesaus."
     },
     "cookingProfile": {
-      "en": "Usually served with small starter, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small starter，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small starter; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is gentle and buttery, with soft asparagus and salty ham accents.",
+      "zh": "整体温和带黄油香，芦笋柔软，火腿增加咸香。",
+      "nl": "Zacht en boterig, met malse asperges en zoute ham."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A spring asparagus plate where white asparagus, ham, egg, and butter sauce define the order.",
+        "zh": "春季白芦笋盘，白芦笋、火腿、鸡蛋和黄油汁是关键。",
+        "nl": "Een lentegerecht waarbij witte asperges, ham, ei en botersaus herkenbaar zijn."
       }
     },
     "composition": [
       [
-        "bread",
-        30,
-        "base"
-      ],
-      [
-        "cheese",
-        20,
-        "richness"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
+        "white-asparagus",
+        50,
+        "vegetable base"
       ],
       [
         "ham",
-        15,
-        "main"
-      ],
-      [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "herbs",
-        5,
-        "finish"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
-    ],
-    "basicTaste": [
-      "savory",
-      "mild"
-    ],
-    "textureProfile": [
-      "small bites",
-      "savory finish"
-    ],
-    "riskFlags": [],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "starter"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 1,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "broodje-bal",
-    "metadataCode": "102042",
-    "cuisineId": "dutch",
-    "names": {
-      "en": "Broodje Bal",
-      "zh": "荷兰肉丸三明治",
-      "nl": "Broodje Bal",
-      "local": "Broodje Bal"
-    },
-    "category": "meat",
-    "cookingMethods": [
-      "braised"
-    ],
-    "shortDescription": {
-      "en": "Broodje Bal is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰肉丸三明治是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Broodje Bal is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "beef",
-        45,
-        "main"
-      ],
-      [
-        "potato",
         20,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
-        15,
-        "body"
-      ],
-      [
-        "onion",
-        10,
-        "aromatic"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
-    ],
-    "basicTaste": [
-      "savory",
-      "rich"
-    ],
-    "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
-    ],
-    "riskFlags": [],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "meat"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "broodje-haring",
-    "metadataCode": "102043",
-    "cuisineId": "dutch",
-    "names": {
-      "en": "Broodje Haring",
-      "zh": "生鲱鱼三明治",
-      "nl": "Broodje Haring",
-      "local": "Broodje Haring"
-    },
-    "category": "fish",
-    "cookingMethods": [
-      "grilled"
-    ],
-    "shortDescription": {
-      "en": "Broodje Haring is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "生鲱鱼三明治是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Broodje Haring is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "fish-fillet",
-        60,
-        "main"
-      ],
-      [
-        "potato",
-        15,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "lemon",
-        5,
-        "brightness"
-      ],
-      [
-        "olive-oil",
-        5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
-    ],
-    "basicTaste": [
-      "savory",
-      "mild"
-    ],
-    "textureProfile": [
-      "tender fish",
-      "light flaky bite"
-    ],
-    "riskFlags": [
-      "contains-fish"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "fish"
-    ],
-    "avoidIfTags": [
-      "fish-allergy"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "broodje-kroket",
-    "metadataCode": "102044",
-    "cuisineId": "dutch",
-    "names": {
-      "en": "Broodje Kroket",
-      "zh": "炸肉卷三明治",
-      "nl": "Broodje Kroket",
-      "local": "Broodje Kroket"
-    },
-    "category": "fried",
-    "cookingMethods": [
-      "fried"
-    ],
-    "shortDescription": {
-      "en": "Broodje Kroket is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "炸肉卷三明治是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Broodje Kroket is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with fried snack or main, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fried snack or main，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fried snack or main; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "wheat-flour",
-        25,
-        "coating"
-      ],
-      [
-        "potato",
-        25,
-        "body"
-      ],
-      [
-        "fish-fillet",
-        20,
-        "main"
+        "salty meat"
       ],
       [
         "egg",
-        10,
-        "binder"
+        15,
+        "boiled egg"
       ],
       [
         "butter",
         10,
-        "richness"
-      ],
-      [
-        "sea-salt",
-        10,
-        "seasoning",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
-    ],
-    "basicTaste": [
-      "savory",
-      "rich"
-    ],
-    "textureProfile": [
-      "crisp outside",
-      "soft center"
-    ],
-    "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-fish"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "fried"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "broodje-shoarma",
-    "metadataCode": "102045",
-    "cuisineId": "dutch",
-    "names": {
-      "en": "Broodje Shoarma",
-      "zh": "荷式沙威玛面包",
-      "nl": "Broodje Shoarma",
-      "local": "Broodje Shoarma"
-    },
-    "category": "meat",
-    "cookingMethods": [
-      "braised"
-    ],
-    "shortDescription": {
-      "en": "Broodje Shoarma is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷式沙威玛面包是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Broodje Shoarma is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "beef",
-        45,
-        "main"
-      ],
-      [
-        "potato",
-        20,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
-        15,
-        "body"
-      ],
-      [
-        "onion",
-        10,
-        "aromatic"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
+        "sauce richness"
       ],
       [
         "parsley",
         5,
-        "finish",
+        "fresh finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "white asparagus",
+      "butter",
+      "ham"
     ],
     "basicTaste": [
-      "savory",
-      "rich"
+      "mild",
+      "buttery",
+      "savory"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "soft asparagus",
+      "silky butter",
+      "crumbled egg"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-pork",
+      "contains-egg",
+      "contains-dairy"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "meat"
+      "seasonal-dish",
+      "classic-dish"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "no-pork",
+      "egg-allergy",
+      "dairy-free"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a mild seasonal asparagus plate; skip if ham, egg, or butter sauce is an issue.",
+      "zh": "想吃温和春季白芦笋时可点；不吃火腿、鸡蛋或奶制黄油时不适合。",
+      "nl": "Kies dit voor een mild seizoensbord met asperges; sla over bij ham, ei of botersaus."
     },
+    "confidenceTag": "audited-remaining-batch-039",
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102041-asperges-met-ham-en-ei.webp",
+    "thumbPath": "/assets/dishes/thumb/102041-asperges-met-ham-en-ei.webp"
   },
   {
-    "id": "uitsmijter-ham-kaas",
-    "metadataCode": "102046",
+    "id": "broodje-bal",
+    "metadataCode": "102042",
+    "imageCode": "102042",
     "cuisineId": "dutch",
     "names": {
-      "en": "Uitsmijter Ham Kaas",
-      "zh": "火腿奶酪煎蛋吐司",
-      "nl": "Uitsmijter Ham Kaas",
-      "local": "Uitsmijter Ham Kaas"
+      "en": "Broodje Bal",
+      "zh": "荷兰肉丸面包",
+      "nl": "Broodje bal",
+      "local": "Broodje bal"
     },
-    "category": "starter",
+    "category": "sandwich",
     "cookingMethods": [
+      "fried",
       "assembled"
     ],
     "shortDescription": {
-      "en": "Uitsmijter Ham Kaas is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "火腿奶酪煎蛋吐司是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Uitsmijter Ham Kaas is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A soft roll filled with a large meatball, often with gravy or mustard.",
+      "zh": "软面包夹大肉丸，常有肉汁或芥末。",
+      "nl": "Een zacht broodje met een grote gehaktbal, vaak met jus of mosterd."
     },
     "cookingProfile": {
-      "en": "Usually served with small starter, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small starter，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small starter; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a filling meatball sandwich that is saucy rather than crisp.",
+      "zh": "它是饱腹肉丸三明治，重点是肉汁感，不是酥脆。",
+      "nl": "Verwacht een vullend broodje gehaktbal met saus, niet iets krokants."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "street-food"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Dutch lunch-counter sandwich recognized by a meatball in a soft roll.",
+        "zh": "荷兰午餐柜台常见面包，重点是一颗肉丸夹在软面包里。",
+        "nl": "Een lunchbroodje herkenbaar aan een gehaktbal in een zacht broodje."
       }
     },
     "composition": [
       [
         "bread",
+        40,
+        "roll"
+      ],
+      [
+        "ground-meat",
+        40,
+        "meatball"
+      ],
+      [
+        "broth",
+        10,
+        "gravy"
+      ],
+      [
+        "mustard",
+        5,
+        "condiment",
+        "seasoning"
+      ],
+      [
+        "onion",
+        5,
+        "aromatic"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "meatball",
+      "brown gravy",
+      "mustard"
+    ],
+    "basicTaste": [
+      "savory",
+      "meaty",
+      "mild"
+    ],
+    "textureProfile": [
+      "soft roll",
+      "juicy meatball",
+      "saucy filling"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "quick-lunch"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Good for a quick filling lunch; skip if you want a lighter sandwich.",
+      "zh": "想快速吃饱时合适；想要清爽轻食三明治则不推荐。",
+      "nl": "Goed voor een snelle vullende lunch; sla over als je iets lichts wilt."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102042-broodje-bal.webp",
+    "thumbPath": "/assets/dishes/thumb/102042-broodje-bal.webp"
+  },
+  {
+    "id": "broodje-haring",
+    "metadataCode": "102043",
+    "imageCode": "102043",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Broodje Haring",
+      "zh": "荷兰鲱鱼面包",
+      "nl": "Broodje haring",
+      "local": "Broodje haring"
+    },
+    "category": "sandwich",
+    "cookingMethods": [
+      "assembled",
+      "raw"
+    ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "raw-seafood",
+    "shortDescription": {
+      "en": "A soft roll with Dutch cured herring, chopped onion, and often pickles.",
+      "zh": "软面包夹荷兰腌鲱鱼、洋葱碎，常配酸黄瓜。",
+      "nl": "Een zacht broodje met Hollandse haring, gesnipperde ui en vaak augurk."
+    },
+    "cookingProfile": {
+      "en": "It tastes briny and fish-forward, served cool rather than cooked hot.",
+      "zh": "冷食，咸鲜鱼味明显，不是热熟鱼。",
+      "nl": "Koel geserveerd, zilt en duidelijk visachtig, niet warm gegaard."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "street-food",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Dutch herring sandwich where raw cured herring, onion, and pickle are the defining cues.",
+        "zh": "经典荷兰鲱鱼面包，重点是腌生鲱鱼、洋葱和酸黄瓜。",
+        "nl": "Een klassiek broodje met rauwe gezouten haring, ui en zuur."
+      }
+    },
+    "composition": [
+      [
+        "raw-herring",
+        55,
+        "cured fish"
+      ],
+      [
+        "bread",
         30,
-        "base"
+        "roll"
       ],
       [
-        "cheese",
-        20,
-        "richness"
+        "onion",
+        10,
+        "sharp topping"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
+        "pickles",
+        5,
+        "acidic crunch"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cured herring",
+      "raw onion",
+      "pickle"
+    ],
+    "basicTaste": [
+      "briny",
+      "savory",
+      "sharp"
+    ],
+    "textureProfile": [
+      "soft fish",
+      "soft roll",
+      "crunchy onion"
+    ],
+    "riskFlags": [
+      "contains-fish",
+      "contains-raw-fish",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "pregnancy-raw-fish",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "Order if you like briny cured fish; skip if raw fish texture or strong herring aroma is difficult for you.",
+      "zh": "喜欢咸鲜腌鱼时很值得；不接受生冷鱼口感或鲱鱼气味则避开。",
+      "nl": "Bestel dit als je zoute haring lekker vindt; sla over bij moeite met rauwe vis of sterke haringgeur."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102043-broodje-haring.webp",
+    "thumbPath": "/assets/dishes/thumb/102043-broodje-haring.webp"
+  },
+  {
+    "id": "broodje-kroket",
+    "metadataCode": "102044",
+    "imageCode": "102044",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Broodje Kroket",
+      "zh": "荷兰可乐饼面包",
+      "nl": "Broodje kroket",
+      "local": "Broodje kroket"
+    },
+    "category": "sandwich",
+    "cookingMethods": [
+      "deep-fried",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "A soft roll filled with a deep-fried beef ragout croquette, usually with mustard.",
+      "zh": "软面包夹油炸牛肉酱可乐饼，通常配芥末。",
+      "nl": "Een zacht broodje met gefrituurde rundvleesragoutkroket, meestal met mosterd."
+    },
+    "cookingProfile": {
+      "en": "The contrast is soft bread around a hot crisp shell and creamy ragout center.",
+      "zh": "软面包包住热的酥壳和浓稠肉酱内馅，对比明显。",
+      "nl": "Zacht brood rond een hete krokante korst en romige ragoutvulling."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "street-food",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Dutch snack-bar classic: crisp ragout croquette inside a soft roll.",
+        "zh": "荷兰小吃店经典，软面包里夹酥脆肉酱可乐饼。",
+        "nl": "Een snackbarclassic: krokante ragoutkroket in een zacht broodje."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        35,
+        "roll"
+      ],
+      [
+        "beef-ragout",
+        35,
+        "croquette filling"
+      ],
+      [
+        "panko-breadcrumbs",
+        15,
+        "crisp coating"
+      ],
+      [
+        "neutral-frying-oil",
+        10,
+        "fried exterior"
+      ],
+      [
+        "mustard",
+        5,
+        "condiment",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "beef ragout",
+      "fried crumb",
+      "mustard"
+    ],
+    "basicTaste": [
+      "savory",
+      "fried",
+      "creamy"
+    ],
+    "textureProfile": [
+      "soft roll",
+      "crisp croquette",
+      "creamy filling"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "quick-lunch"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "avoid-fried-food"
+    ],
+    "orderVerdict": {
+      "en": "A strong snack choice if you want hot crispy comfort; skip if fried food or gluten is a concern.",
+      "zh": "想吃热乎酥脆小吃时很稳；介意油炸或麸质时不适合。",
+      "nl": "Sterk als warme krokante snack; minder geschikt bij frituur of gluten."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102044-broodje-kroket.webp",
+    "thumbPath": "/assets/dishes/thumb/102044-broodje-kroket.webp"
+  },
+  {
+    "id": "broodje-shoarma",
+    "metadataCode": "102045",
+    "imageCode": "102045",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Broodje Shoarma",
+      "zh": "荷兰沙威玛面包",
+      "nl": "Broodje shoarma",
+      "local": "Broodje shoarma"
+    },
+    "category": "sandwich",
+    "cookingMethods": [
+      "grilled",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "A pita or roll filled with browned shoarma meat, salad, and garlic sauce.",
+      "zh": "皮塔或软面包夹焦香沙威玛肉、蔬菜和蒜味酱。",
+      "nl": "Een pita of broodje met gebakken shoarmavlees, salade en knoflooksaus."
+    },
+    "cookingProfile": {
+      "en": "Expect warm spiced meat, cool salad crunch, and creamy garlic sauce.",
+      "zh": "可预期热香料肉、清爽蔬菜脆感和蒜味奶油感酱汁。",
+      "nl": "Verwacht warm gekruid vlees, frisse salade en romige knoflooksaus."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "street-food"
+      ],
+      "description": {
+        "en": "A Dutch late-night sandwich built around spiced shoarma meat and garlic sauce.",
+        "zh": "荷兰常见夜宵面包，重点是香料烤肉和蒜味白酱。",
+        "nl": "Een veelvoorkomend broodje met gekruid shoarmavlees en knoflooksaus."
+      }
+    },
+    "composition": [
+      [
+        "shawarma-meat",
+        50,
+        "spiced meat"
+      ],
+      [
+        "bread",
+        25,
+        "pita or roll"
+      ],
+      [
+        "cucumber",
+        10,
+        "fresh crunch"
+      ],
+      [
+        "tomato",
+        10,
+        "fresh topping"
+      ],
+      [
+        "garlic-sauce",
+        5,
+        "sauce"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "shoarma spices",
+      "garlic sauce",
+      "grilled meat"
+    ],
+    "basicTaste": [
+      "savory",
+      "garlicky",
+      "spiced"
+    ],
+    "textureProfile": [
+      "soft bread",
+      "browned meat",
+      "creamy sauce"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "late-night-food"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free",
+      "avoid-garlic"
+    ],
+    "orderVerdict": {
+      "en": "Good for a filling spiced sandwich; skip if garlic sauce or heavy meat is not appealing.",
+      "zh": "想吃有香料感的饱腹肉夹馍时合适；不爱蒜酱或厚重肉食则谨慎。",
+      "nl": "Goed voor een vullend gekruid broodje; sla over als knoflooksaus of zwaar vlees niet past."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 1,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102045-broodje-shoarma.webp",
+    "thumbPath": "/assets/dishes/thumb/102045-broodje-shoarma.webp"
+  },
+  {
+    "id": "uitsmijter-ham-kaas",
+    "metadataCode": "102046",
+    "imageCode": "102046",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Uitsmijter Ham Kaas",
+      "zh": "火腿奶酪煎蛋开放三明治",
+      "nl": "Uitsmijter ham kaas",
+      "local": "Uitsmijter ham kaas"
+    },
+    "category": "brunch",
+    "cookingMethods": [
+      "fried",
+      "assembled"
+    ],
+    "shortDescription": {
+      "en": "Open-faced bread topped with ham, cheese, and fried eggs.",
+      "zh": "开放式面包上放火腿、奶酪和煎蛋。",
+      "nl": "Open brood met ham, kaas en gebakken eieren."
+    },
+    "cookingProfile": {
+      "en": "It is warm, eggy, and familiar, with richness from yolk and cheese.",
+      "zh": "热食，鸡蛋感明显，蛋黄和奶酪带来浓郁感。",
+      "nl": "Warm, eierig en vertrouwd, met rijkdom van dooier en kaas."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish",
+        "safe-choice"
+      ],
+      "description": {
+        "en": "A Dutch cafe lunch recognized by fried eggs on bread with ham and cheese.",
+        "zh": "荷兰咖啡馆午餐，重点是面包上铺煎蛋、火腿和奶酪。",
+        "nl": "Een cafelunch met gebakken eieren op brood met ham en kaas."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        35,
+        "toast base"
+      ],
+      [
+        "egg",
+        30,
+        "fried eggs"
       ],
       [
         "ham",
         15,
-        "main"
+        "meat layer"
       ],
       [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
+        "cheese",
+        15,
+        "melted topping"
       ],
       [
-        "herbs",
+        "butter",
         5,
-        "finish"
+        "frying richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "fried egg",
+      "ham",
+      "melted cheese"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "eggy",
+      "cheesy"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "runny or set yolk",
+      "soft bread",
+      "melted cheese"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-pork",
+      "contains-dairy"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "starter"
+      "safe-choice",
+      "brunch"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy",
+      "no-pork",
+      "dairy-free"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A safe cafe choice for eggs, ham, and cheese; skip if you need something lighter or allergen-free.",
+      "zh": "想吃熟悉的鸡蛋火腿奶酪午餐时很稳；想要清淡或避开过敏原则不适合。",
+      "nl": "Een veilige cafekeuze voor ei, ham en kaas; sla over als je licht of allergeenvrij wilt."
     },
+    "confidenceTag": "audited-remaining-batch-039",
     "spiceLevel": 0,
-    "weightLevel": 1,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102046-uitsmijter-ham-kaas.webp",
+    "thumbPath": "/assets/dishes/thumb/102046-uitsmijter-ham-kaas.webp"
   },
   {
     "id": "huzarensalade",
     "metadataCode": "102047",
+    "imageCode": "102047",
     "cuisineId": "dutch",
     "names": {
       "en": "Huzarensalade",
@@ -4877,301 +4906,331 @@ const europeDepthDishConfigs = [
     },
     "category": "salad",
     "cookingMethods": [
+      "boiled",
+      "chilled",
       "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Huzarensalade is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰土豆肉丁沙拉是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Huzarensalade is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Cold potato-based salad mixed with diced meat, vegetables, mayonnaise, and pickles.",
+      "zh": "以土豆为主的冷沙拉，拌肉丁、蔬菜、蛋黄酱和酸黄瓜。",
+      "nl": "Koude aardappelsalade met vleesblokjes, groente, mayonaise en augurk."
     },
     "cookingProfile": {
-      "en": "Usually served with fresh salad, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fresh salad，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fresh salad; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect creamy cold salad with small diced textures and a mild tang.",
+      "zh": "入口是冷的奶油感沙拉，小丁口感明显，带轻微酸味。",
+      "nl": "Verwacht romige koude salade met blokjesstructuur en lichte zuren."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A cold Dutch composed salad where potato, mayo, meat, and pickles define the plate.",
+        "zh": "荷兰冷拌组合沙拉，重点是土豆、蛋黄酱、肉丁和酸味配料。",
+        "nl": "Een koude samengestelde salade met aardappel, mayo, vlees en zuur."
       }
     },
     "composition": [
       [
+        "potato",
+        35,
+        "salad base"
+      ],
+      [
+        "mayonnaise",
+        25,
+        "creamy binder"
+      ],
+      [
         "mixed-vegetables",
-        45,
-        "base"
-      ],
-      [
-        "tomato",
         15,
-        "body"
+        "dice"
       ],
       [
-        "cheese",
-        15,
-        "richness"
-      ],
-      [
-        "olive-oil",
+        "ham",
         10,
-        "dressing",
-        "seasoning"
+        "meat dice"
       ],
       [
-        "vinegar",
+        "pickles",
         10,
-        "dressing",
-        "seasoning"
+        "acidic crunch"
       ],
       [
-        "herbs",
+        "egg",
         5,
-        "finish"
+        "garnish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "mayonnaise",
+      "pickles",
+      "potato salad"
     ],
     "basicTaste": [
-      "savory",
-      "fresh"
+      "creamy",
+      "mild",
+      "tangy"
     ],
     "textureProfile": [
-      "crisp vegetables",
-      "bright dressing"
+      "cold diced salad",
+      "creamy binder",
+      "pickle crunch"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-egg",
+      "contains-pork"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "salad"
+      "cold-starter",
+      "classic-dish"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "no-pork",
+      "avoid-mayonnaise"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, fresh profile sounds appealing.",
-      "zh": "如果你想要savory、fresh的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, fresh je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good as a cold creamy side or starter; skip if mayonnaise-heavy salads are not for you.",
+      "zh": "适合作为冷的奶油感配菜或前菜；不喜欢蛋黄酱沙拉则避开。",
+      "nl": "Goed als koude romige bijlage of starter; sla over als mayo-salades niet passen."
     },
+    "confidenceTag": "audited-remaining-batch-039",
     "spiceLevel": 0,
-    "weightLevel": 1,
+    "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102047-huzarensalade.webp",
+    "thumbPath": "/assets/dishes/thumb/102047-huzarensalade.webp"
   },
   {
     "id": "zalmsalade",
     "metadataCode": "102048",
+    "imageCode": "102048",
     "cuisineId": "dutch",
     "names": {
       "en": "Zalmsalade",
-      "zh": "荷兰三文鱼沙拉",
+      "zh": "荷兰三文鱼土豆沙拉",
       "nl": "Zalmsalade",
       "local": "Zalmsalade"
     },
     "category": "salad",
     "cookingMethods": [
+      "boiled",
+      "chilled",
       "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Zalmsalade is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰三文鱼沙拉是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Zalmsalade is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Cold salmon salad with potato, mayonnaise, egg, and fresh garnish.",
+      "zh": "冷三文鱼沙拉，拌土豆、蛋黄酱、鸡蛋和清爽配料。",
+      "nl": "Koude zalmsalade met aardappel, mayonaise, ei en frisse garnering."
     },
     "cookingProfile": {
-      "en": "Usually served with fresh salad, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fresh salad，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fresh salad; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is creamy and fish-forward but milder than raw fish dishes.",
+      "zh": "口感奶油感明显，有鱼香，但比生鱼菜温和。",
+      "nl": "Romig en duidelijk visachtig, maar milder dan rauwe visgerechten."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "seafood"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A cold Dutch salmon salad where fish, potato, egg, and mayonnaise are the key cues.",
+        "zh": "荷兰冷三文鱼沙拉，重点是鱼肉、土豆、鸡蛋和蛋黄酱。",
+        "nl": "Een koude zalmsalade waarin vis, aardappel, ei en mayonaise centraal staan."
       }
     },
     "composition": [
       [
-        "mixed-vegetables",
-        45,
-        "base"
-      ],
-      [
-        "tomato",
-        15,
-        "body"
-      ],
-      [
-        "cheese",
-        15,
-        "richness"
-      ],
-      [
-        "olive-oil",
-        10,
-        "dressing",
-        "seasoning"
-      ],
-      [
-        "vinegar",
-        10,
-        "dressing",
-        "seasoning"
-      ],
-      [
-        "herbs",
-        5,
-        "finish"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
-    ],
-    "basicTaste": [
-      "savory",
-      "fresh"
-    ],
-    "textureProfile": [
-      "crisp vegetables",
-      "bright dressing"
-    ],
-    "riskFlags": [],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "salad"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Order if this savory, fresh profile sounds appealing.",
-      "zh": "如果你想要savory、fresh的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, fresh je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 1,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "eierbal",
-    "metadataCode": "102049",
-    "cuisineId": "dutch",
-    "names": {
-      "en": "Eierbal",
-      "zh": "荷兰炸蛋球",
-      "nl": "Eierbal",
-      "local": "Eierbal"
-    },
-    "category": "fried",
-    "cookingMethods": [
-      "fried"
-    ],
-    "shortDescription": {
-      "en": "Eierbal is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰炸蛋球是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Eierbal is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with fried snack or main, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fried snack or main，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fried snack or main; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "wheat-flour",
-        25,
-        "coating"
+        "salmon",
+        35,
+        "fish"
       ],
       [
         "potato",
         25,
-        "body"
+        "salad base"
       ],
       [
-        "fish-fillet",
+        "mayonnaise",
         20,
-        "main"
+        "creamy binder"
       ],
       [
         "egg",
         10,
-        "binder"
+        "garnish"
       ],
       [
-        "butter",
-        10,
-        "richness"
+        "cucumber",
+        5,
+        "fresh crunch"
       ],
       [
-        "sea-salt",
-        10,
-        "seasoning",
+        "dill",
+        5,
+        "herbal finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "salmon",
+      "mayonnaise",
+      "dill"
     ],
     "basicTaste": [
+      "creamy",
       "savory",
-      "rich"
+      "mildly-briny"
     ],
     "textureProfile": [
-      "crisp outside",
-      "soft center"
+      "cold creamy salad",
+      "soft salmon flakes",
+      "egg garnish"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-fish"
+      "contains-fish",
+      "contains-egg"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "fried"
+      "seafood",
+      "cold-starter"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "fish-allergy",
+      "egg-allergy",
+      "avoid-mayonnaise"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a mild cold salmon salad; skip if fish or mayonnaise is a problem.",
+      "zh": "想吃温和冷三文鱼沙拉时可以点；鱼类或蛋黄酱不适合则避开。",
+      "nl": "Kies dit voor een milde koude zalmsalade; sla over bij vis of mayo."
     },
+    "confidenceTag": "audited-remaining-batch-039",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102048-zalmsalade.webp",
+    "thumbPath": "/assets/dishes/thumb/102048-zalmsalade.webp"
+  },
+  {
+    "id": "eierbal",
+    "metadataCode": "102049",
+    "imageCode": "102049",
+    "cuisineId": "dutch",
+    "names": {
+      "en": "Eierbal",
+      "zh": "荷兰炸鸡蛋球",
+      "nl": "Eierbal",
+      "local": "Eierbal"
+    },
+    "category": "fried-snack",
+    "cookingMethods": [
+      "deep-fried"
+    ],
+    "shortDescription": {
+      "en": "A breaded deep-fried ball with a boiled egg inside creamy ragout.",
+      "zh": "裹粉油炸的圆球，里面是煮鸡蛋和浓稠肉酱。",
+      "nl": "Een gepaneerde gefrituurde bal met gekookt ei in romige ragout."
+    },
+    "cookingProfile": {
+      "en": "Expect a crisp shell, creamy ragout, and a firm boiled egg center.",
+      "zh": "外壳酥脆，内层是浓稠肉酱，中心是煮鸡蛋。",
+      "nl": "Verwacht een krokante korst, romige ragout en stevig gekookt ei."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "street-food"
+      ],
+      "description": {
+        "en": "A Groningen snack recognized by a whole egg inside a fried ragout ball.",
+        "zh": "格罗宁根地区小吃，重点是整颗鸡蛋包在炸肉酱球里。",
+        "nl": "Een Groningse snack met een heel ei in een gefrituurde ragoutbal."
+      }
+    },
+    "composition": [
+      [
+        "egg",
+        40,
+        "whole center"
+      ],
+      [
+        "beef-ragout",
+        30,
+        "ragout layer"
+      ],
+      [
+        "panko-breadcrumbs",
+        15,
+        "crisp coating"
+      ],
+      [
+        "neutral-frying-oil",
+        10,
+        "fried exterior"
+      ],
+      [
+        "mustard",
+        5,
+        "condiment",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fried crumb",
+      "boiled egg",
+      "mustard"
+    ],
+    "basicTaste": [
+      "savory",
+      "fried",
+      "creamy"
+    ],
+    "textureProfile": [
+      "crisp shell",
+      "soft ragout",
+      "firm egg center"
+    ],
+    "riskFlags": [
+      "contains-egg",
+      "contains-gluten",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "street-food",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "egg-allergy",
+      "gluten-free",
+      "dairy-free",
+      "avoid-fried-food"
+    ],
+    "orderVerdict": {
+      "en": "Worth trying if you like Dutch fried snacks and boiled egg; skip if the egg center sounds too heavy.",
+      "zh": "喜欢荷兰油炸小吃和煮鸡蛋时值得尝；觉得整颗蛋太厚重则不推荐。",
+      "nl": "Leuk als je gefrituurde snacks en ei lust; sla over als een heel ei te zwaar klinkt."
+    },
+    "confidenceTag": "audited-remaining-batch-039",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102049-eierbal.webp",
+    "thumbPath": "/assets/dishes/thumb/102049-eierbal.webp"
   },
   {
     "id": "saucijzenbroodje",
@@ -5387,6 +5446,7 @@ const europeDepthDishConfigs = [
   {
     "id": "appelflap",
     "metadataCode": "102052",
+    "imageCode": "102052",
     "cuisineId": "dutch",
     "names": {
       "en": "Appelflap",
@@ -5399,95 +5459,97 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Appelflap is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰苹果酥角是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Appelflap is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Triangular puff pastry filled with apple, cinnamon, and sugar.",
+      "zh": "三角酥皮包苹果、肉桂和糖馅。",
+      "nl": "Driehoekig bladerdeeg gevuld met appel, kaneel en suiker."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It should be flaky outside with soft sweet-tart apple inside.",
+      "zh": "外层酥松，里面是柔软甜酸苹果馅。",
+      "nl": "Krokant en bladerig buiten, zacht zoetzuur appelvulling binnenin."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "sweet"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Dutch bakery sweet recognized by flaky pastry and warm apple filling.",
+        "zh": "荷兰常见甜点，识别重点是酥皮和苹果内馅。",
+        "nl": "Een bakkerijzoetigheid herkenbaar aan bladerdeeg en appelvulling."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "puff-pastry",
+        45,
+        "flaky pastry"
+      ],
+      [
+        "apple",
+        35,
+        "fruit filling"
       ],
       [
         "sugar",
-        20,
+        10,
         "sweetness"
       ],
       [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
         "butter",
-        10,
-        "richness"
+        5,
+        "pastry richness"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "cinnamon",
+        5,
+        "spice",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "apple",
+      "cinnamon",
+      "buttery pastry"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "buttery",
+      "warm-spiced"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "flaky pastry",
+      "soft apple filling",
+      "sugar crust"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "bakery"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A safe sweet pastry if you like apple and cinnamon; skip if you want a creamy dessert instead.",
+      "zh": "喜欢苹果和肉桂酥点时很稳；想要奶油类甜点则可换别的。",
+      "nl": "Een veilige zoete keuze bij appel en kaneel; sla over als je iets romigs wilt."
     },
+    "confidenceTag": "audited-remaining-batch-039",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102052-appelflap.webp",
+    "thumbPath": "/assets/dishes/thumb/102052-appelflap.webp"
   },
   {
     "id": "tompouce",
@@ -5594,6 +5656,7 @@ const europeDepthDishConfigs = [
   {
     "id": "boterkoek",
     "metadataCode": "102054",
+    "imageCode": "102054",
     "cuisineId": "dutch",
     "names": {
       "en": "Boterkoek",
@@ -5606,99 +5669,106 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Boterkoek is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰黄油蛋糕是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Boterkoek is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A dense, flat butter cake cut into small rich slices.",
+      "zh": "扁平扎实的黄油蛋糕，通常切小块食用。",
+      "nl": "Een dichte, platte boterkoek in kleine rijke stukken."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a chewy-dense bite and strong butter sweetness, not a fluffy sponge.",
+      "zh": "口感紧实略有嚼劲，黄油甜香明显，不是松软海绵蛋糕。",
+      "nl": "Verwacht dicht en boterig, niet luchtig als cake."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "sweet",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Dutch butter cake where dense crumb and butter richness are the point.",
+        "zh": "荷兰黄油蛋糕，重点是扎实糕体和浓黄油香。",
+        "nl": "Een Nederlandse boterkoek waarbij dicht kruim en boterrijkdom centraal staan."
       }
     },
     "composition": [
       [
+        "butter",
+        35,
+        "richness"
+      ],
+      [
         "wheat-flour",
-        25,
-        "base"
+        30,
+        "cake base"
       ],
       [
         "sugar",
-        20,
+        25,
         "sweetness"
       ],
       [
         "egg",
-        15,
-        "structure"
+        5,
+        "glaze binder"
       ],
       [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "almonds",
+        5,
+        "optional garnish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
+      "butter",
       "sugar",
-      "baked pastry"
+      "almond"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "buttery",
+      "rich"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "dense cake",
+      "soft chew",
+      "glossy top"
     ],
     "riskFlags": [
       "contains-gluten",
+      "contains-dairy",
       "contains-egg",
-      "contains-dairy"
+      "contains-tree-nut"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "bakery"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy",
+      "tree-nut-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a small rich butter sweet; skip if you prefer light cakes.",
+      "zh": "想吃小块浓黄油甜点时适合；喜欢轻盈蛋糕则不推荐。",
+      "nl": "Kies dit voor een klein rijk botergebak; sla over als je luchtige cake wilt."
     },
+    "confidenceTag": "audited-remaining-batch-039",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102054-boterkoek.webp",
+    "thumbPath": "/assets/dishes/thumb/102054-boterkoek.webp"
   },
   {
     "id": "speculaas",
     "metadataCode": "102055",
+    "imageCode": "102055",
     "cuisineId": "dutch",
     "names": {
       "en": "Speculaas",
@@ -5711,103 +5781,109 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Speculaas is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰香料饼干是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Speculaas is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Crisp brown spiced biscuits, often molded with decorative patterns.",
+      "zh": "棕色酥脆香料饼干，常有压模花纹。",
+      "nl": "Krokante bruine kruidkoekjes, vaak met reliëfpatronen."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The bite is crisp and dry, with warm spice rather than creaminess.",
+      "zh": "口感酥脆偏干，重点是温暖香料，不是奶油感。",
+      "nl": "Krokant en droog, met warme kruiden in plaats van romigheid."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "sweet",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Dutch spiced biscuit recognized by cinnamon-heavy speculaas spice.",
+        "zh": "荷兰香料饼干，重点是肉桂等香料气味。",
+        "nl": "Een Nederlands kruidkoekje herkenbaar aan speculaaskruiden."
       }
     },
     "composition": [
       [
         "wheat-flour",
-        25,
-        "base"
+        45,
+        "biscuit base"
       ],
       [
         "sugar",
-        20,
+        25,
         "sweetness"
       ],
       [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
         "butter",
-        10,
+        15,
         "richness"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "speculaas-spice",
+        10,
+        "spice blend",
+        "seasoning"
+      ],
+      [
+        "almonds",
+        5,
+        "optional garnish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "speculaas spice",
+      "brown sugar",
+      "butter"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "warm-spiced",
+      "toasty"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "crisp biscuit",
+      "dry snap",
+      "crumbly edge"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-tree-nut"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "bakery"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free",
+      "tree-nut-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good with coffee if you like cinnamon-spice cookies; skip if you want a soft dessert.",
+      "zh": "喜欢肉桂香料饼干配咖啡时可点；想吃柔软甜点则不合适。",
+      "nl": "Goed bij koffie als je kruidige koekjes wilt; sla over als je zacht dessert zoekt."
     },
+    "confidenceTag": "audited-remaining-batch-039",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102055-speculaas.webp",
+    "thumbPath": "/assets/dishes/thumb/102055-speculaas.webp"
   },
   {
     "id": "ontbijtkoek",
     "metadataCode": "102056",
+    "imageCode": "102056",
     "cuisineId": "dutch",
     "names": {
       "en": "Ontbijtkoek",
-      "zh": "荷兰早餐香料蛋糕",
+      "zh": "荷兰香料早餐蛋糕",
       "nl": "Ontbijtkoek",
       "local": "Ontbijtkoek"
     },
@@ -5816,304 +5892,309 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Ontbijtkoek is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰早餐香料蛋糕是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Ontbijtkoek is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A dark spiced loaf cake, usually sliced and sometimes spread with butter.",
+      "zh": "深色香料长条糕，常切片，有时抹黄油。",
+      "nl": "Een donkere kruidkoek in plakken, soms met boter."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is soft-sticky and spiced, lighter than butter cake but still sweet.",
+      "zh": "口感柔软微黏、有香料味，比黄油蛋糕轻一些但仍偏甜。",
+      "nl": "Zacht en licht kleverig met kruiden, lichter dan boterkoek maar zoet."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "sweet"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Dutch spiced loaf often eaten as breakfast or snack slices.",
+        "zh": "荷兰香料长条糕，常作为早餐或点心切片吃。",
+        "nl": "Een kruidige ontbijtkoek die vaak in plakken wordt gegeten."
       }
     },
     "composition": [
       [
         "wheat-flour",
-        25,
-        "base"
+        45,
+        "loaf base"
       ],
       [
         "sugar",
-        20,
+        25,
         "sweetness"
       ],
       [
-        "egg",
+        "honey",
         15,
-        "structure"
+        "sticky sweetness"
       ],
       [
-        "cream",
-        15,
-        "richness"
+        "cinnamon",
+        10,
+        "warm spice",
+        "seasoning"
       ],
       [
         "butter",
-        10,
-        "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        5,
+        "optional spread"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "honey",
+      "spices",
+      "butter spread"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "warm-spiced",
+      "mild"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft slice",
+      "slightly sticky crumb",
+      "dense loaf"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "breakfast",
+      "sweet-snack"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a simple spiced sweet slice; skip if you want a fresh pastry.",
+      "zh": "想吃简单香料甜切片时合适；想要新鲜酥皮点心则不推荐。",
+      "nl": "Kies dit voor een eenvoudige kruidige plak; sla over als je vers bladerdeeg wilt."
     },
+    "confidenceTag": "audited-remaining-batch-039",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102056-ontbijtkoek.webp",
+    "thumbPath": "/assets/dishes/thumb/102056-ontbijtkoek.webp"
   },
   {
     "id": "beschuit-met-muisjes",
     "metadataCode": "102057",
+    "imageCode": "102057",
     "cuisineId": "dutch",
     "names": {
       "en": "Beschuit met Muisjes",
-      "zh": "荷兰糖粒脆面包",
-      "nl": "Beschuit met Muisjes",
-      "local": "Beschuit met Muisjes"
+      "zh": "荷兰脆圆饼配彩色茴香糖粒",
+      "nl": "Beschuit met muisjes",
+      "local": "Beschuit met muisjes"
     },
-    "category": "bread",
+    "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "assembled"
     ],
+    "servingTemperature": "room-temperature",
     "shortDescription": {
-      "en": "Beschuit met Muisjes is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰糖粒脆面包是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Beschuit met Muisjes is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Crisp round rusks spread with butter and covered in anise sugar sprinkles.",
+      "zh": "圆形脆饼抹黄油，撒满茴香糖粒。",
+      "nl": "Ronde beschuiten met boter en anijssuikertjes."
     },
     "cookingProfile": {
-      "en": "Usually served with baked bread or pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现baked bread or pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met baked bread or pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a dry crisp base, buttery layer, and crunchy sweet anise topping.",
+      "zh": "底部干脆，黄油一层带润感，糖粒有甜脆和茴香香气。",
+      "nl": "Droog krokant beschuit, boter en knapperige zoete anijs."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "festival",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "sweet"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Dutch celebratory rusk recognized by butter and pink or blue anise sprinkles.",
+        "zh": "荷兰庆生传统点心，重点是黄油和粉色或蓝色茴香糖粒。",
+        "nl": "Een Nederlandse geboortetraditie met beschuit, boter en roze of blauwe muisjes."
       }
     },
     "composition": [
       [
         "bread",
         45,
-        "base"
-      ],
-      [
-        "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "cheese",
-        15,
-        "filling"
+        "rusk base"
       ],
       [
         "butter",
-        10,
-        "richness"
+        25,
+        "spread"
       ],
       [
-        "sea-salt",
+        "sugar",
+        25,
+        "sprinkle sweetness"
+      ],
+      [
+        "herbs",
         5,
-        "seasoning",
-        "seasoning"
+        "anise-like aroma"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "anise sprinkles",
+      "butter",
+      "crisp rusk"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "sweet",
+      "buttery",
+      "aromatic"
     ],
     "textureProfile": [
-      "soft bread",
-      "crisp edges"
+      "dry crisp rusk",
+      "butter layer",
+      "crunchy sprinkles"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "bread"
+      "sweet-snack",
+      "festival"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free",
+      "avoid-anise"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Try it as a light sweet cultural snack; skip if dry crisp textures or anise notes are not appealing.",
+      "zh": "想体验轻甜荷兰传统点心时可试；不爱干脆口感或茴香味则谨慎。",
+      "nl": "Probeer dit als lichte culturele zoetigheid; sla over bij droge textuur of anijs."
     },
+    "confidenceTag": "audited-remaining-batch-039",
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 1,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102057-beschuit-met-muisjes.webp",
+    "thumbPath": "/assets/dishes/thumb/102057-beschuit-met-muisjes.webp"
   },
   {
     "id": "vlaflip",
     "metadataCode": "102058",
+    "imageCode": "102058",
     "cuisineId": "dutch",
     "names": {
       "en": "Vlaflip",
-      "zh": "荷兰酸奶奶冻甜品",
+      "zh": "荷兰奶黄酸奶分层甜品",
       "nl": "Vlaflip",
       "local": "Vlaflip"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "assembled",
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Vlaflip is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰酸奶奶冻甜品是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Vlaflip is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A cold layered dessert of vanilla custard, yogurt, and red fruit syrup.",
+      "zh": "冷的分层甜品，由香草奶黄、酸奶和红色果酱糖浆组成。",
+      "nl": "Een koud laagjesdessert van vanillevla, yoghurt en rode vruchtensiroop."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is creamy, cool, sweet-tart, and usually eaten by the spoon.",
+      "zh": "入口冷、顺滑，甜中带一点酸，通常用勺吃。",
+      "nl": "Koel, romig en zoetzuur, meestal met een lepel gegeten."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "sweet"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Dutch layered dairy dessert with custard, yogurt, and fruit syrup.",
+        "zh": "荷兰分层乳制甜品，重点是奶黄、酸奶和果酱糖浆。",
+        "nl": "Een Nederlands laagjesdessert met vla, yoghurt en vruchtensiroop."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "vanilla-custard",
+        45,
+        "custard layer"
+      ],
+      [
+        "yogurt",
+        30,
+        "tangy dairy"
+      ],
+      [
+        "berries",
+        15,
+        "fruit layer"
       ],
       [
         "sugar",
-        20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
         10,
-        "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "sweetness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "vanilla custard",
+      "yogurt tang",
+      "berry syrup"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "tangy"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "smooth layers",
+      "cool spoon dessert",
+      "soft fruit syrup"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "first-timer-friendly"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good for a light creamy dessert; skip if you avoid dairy or prefer baked sweets.",
+      "zh": "想要清爽奶香甜品时适合；不吃奶制品或想吃烘焙点心则避开。",
+      "nl": "Goed voor een licht romig dessert; sla over bij zuivelvrij of als je gebak wilt."
     },
+    "confidenceTag": "audited-remaining-batch-039",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102058-vlaflip.webp",
+    "thumbPath": "/assets/dishes/thumb/102058-vlaflip.webp"
   },
   {
     "id": "griesmeelpudding",
     "metadataCode": "102059",
+    "imageCode": "102059",
     "cuisineId": "dutch",
     "names": {
       "en": "Griesmeelpudding",
@@ -6123,102 +6204,108 @@ const europeDepthDishConfigs = [
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "simmered",
+      "set",
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Griesmeelpudding is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰粗麦粉布丁是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Griesmeelpudding is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Soft semolina pudding, often served cold with red berry sauce.",
+      "zh": "柔软粗麦粉布丁，常冷食并配红果酱汁。",
+      "nl": "Zachte griesmeelpudding, vaak koud met rode bessensaus."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a smooth grain-soft pudding rather than a baked cake.",
+      "zh": "它是顺滑略有谷物感的布丁，不是烘焙蛋糕。",
+      "nl": "Verwacht gladde pudding met zachte korrel, geen gebakken cake."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "sweet"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Dutch semolina pudding where a soft set texture and berry sauce are common cues.",
+        "zh": "荷兰粗麦粉布丁，常见特点是柔软定型和红果酱汁。",
+        "nl": "Een griesmeelpudding met zachte structuur en vaak bessensaus."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "semolina",
+        35,
+        "pudding base"
+      ],
+      [
+        "milk-solids",
+        35,
+        "dairy body"
       ],
       [
         "sugar",
-        20,
+        15,
         "sweetness"
       ],
       [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
+        "berries",
         10,
-        "richness"
+        "sauce"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "semolina pudding",
+      "vanilla",
+      "berry sauce"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "milky",
+      "mild"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft set pudding",
+      "smooth spoonfuls",
+      "fruit sauce"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "mild"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a mild spoon dessert; skip if you want crisp pastry or chocolate intensity.",
+      "zh": "想吃温和勺食甜品时可点；想要酥皮或浓巧克力则不合适。",
+      "nl": "Kies dit voor een mild lepeldessert; sla over als je krokant gebak of chocolade zoekt."
     },
+    "confidenceTag": "audited-remaining-batch-039",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102059-griesmeelpudding.webp",
+    "thumbPath": "/assets/dishes/thumb/102059-griesmeelpudding.webp"
   },
   {
     "id": "hangop",
     "metadataCode": "102060",
+    "imageCode": "102060",
     "cuisineId": "dutch",
     "names": {
       "en": "Hangop",
@@ -6228,106 +6315,102 @@ const europeDepthDishConfigs = [
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Hangop is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰滤酸奶甜品是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Hangop is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Thick strained yogurt served cold with fruit, berry sauce, or sugar.",
+      "zh": "浓稠滤酸奶冷食，常配水果、莓果酱或糖。",
+      "nl": "Dikke uitgelekte yoghurt, koud geserveerd met fruit of saus."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is tangy and creamy but lighter than custard or butter cake.",
+      "zh": "酸奶感和奶油感明显，但比奶黄或黄油蛋糕更轻。",
+      "nl": "Friszuur en romig, maar lichter dan vla of boterkoek."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "sweet"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Dutch strained yogurt dessert known for thick dairy texture and fruit topping.",
+        "zh": "荷兰滤酸奶甜品，重点是浓厚乳制口感和水果配料。",
+        "nl": "Een Nederlands dessert van uitgelekte yoghurt met fruit."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "yogurt",
+        65,
+        "strained dairy"
+      ],
+      [
+        "berries",
+        20,
+        "fruit topping"
       ],
       [
         "sugar",
-        20,
+        10,
         "sweetness"
       ],
       [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
         "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        5,
+        "optional richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "strained yogurt",
+      "berries",
+      "light sugar"
     ],
     "basicTaste": [
-      "sweet",
-      "creamy"
+      "tangy",
+      "creamy",
+      "fresh"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "thick yogurt",
+      "cool spoon dessert",
+      "soft fruit"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "lighter-choice"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good pick for a cool tangy dessert; skip if dairy tang is not appealing.",
+      "zh": "想要冷的微酸奶香甜品时适合；不喜欢酸奶味则不推荐。",
+      "nl": "Goed voor een koel friszuur dessert; sla over als yoghurtzuur niet aanspreekt."
     },
+    "confidenceTag": "audited-remaining-batch-039",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102060-hangop.webp",
+    "thumbPath": "/assets/dishes/thumb/102060-hangop.webp"
   },
   {
     "id": "jodenkoek",
     "metadataCode": "102061",
+    "imageCode": "102061",
     "cuisineId": "dutch",
     "names": {
       "en": "Jodenkoek",
-      "zh": "荷兰黄油圆饼",
+      "zh": "荷兰大圆黄油饼干",
       "nl": "Jodenkoek",
       "local": "Jodenkoek"
     },
@@ -6336,95 +6419,92 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Jodenkoek is a common Dutch menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "荷兰黄油圆饼是常见荷兰菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Jodenkoek is een veelvoorkomend Nederlands menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Large, thin, round butter cookies with a crisp snap.",
+      "zh": "大而薄的圆形黄油饼干，口感酥脆。",
+      "nl": "Grote dunne ronde boterkoeken met krokante beet."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a simple crisp cookie, not a filled or creamy pastry.",
+      "zh": "它是简单酥脆饼干，不是夹馅或奶油点心。",
+      "nl": "Verwacht een simpel krokant koekje, geen gevuld of romig gebak."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "sweet"
       ],
       "description": {
-        "en": "A likely Dutch restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见荷兰菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Nederlands restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A large round Dutch butter cookie valued for crisp simplicity.",
+        "zh": "荷兰大圆黄油饼干，特点是简单酥脆。",
+        "nl": "Een grote ronde Nederlandse boterkoek, vooral krokant en eenvoudig."
       }
     },
     "composition": [
       [
         "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "sugar",
-        20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
+        45,
+        "cookie base"
       ],
       [
         "butter",
-        10,
+        25,
         "richness"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "sugar",
+        25,
+        "sweetness"
+      ],
+      [
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "butter cookie",
+      "vanilla",
+      "toasted sugar"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "buttery",
+      "mild"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "large crisp cookie",
+      "crumbly edge",
+      "dry snap"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "sweet-snack",
+      "coffee-pairing"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good as a simple coffee cookie; skip if you want a moist dessert.",
+      "zh": "适合配咖啡的简单饼干；想吃湿润甜品时不推荐。",
+      "nl": "Goed als simpel koekje bij koffie; sla over als je een sappig dessert wilt."
     },
+    "confidenceTag": "audited-remaining-batch-039",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/102061-jodenkoek.webp",
+    "thumbPath": "/assets/dishes/thumb/102061-jodenkoek.webp"
   },
   {
     "id": "salade-lyonnaise",
@@ -9379,103 +9459,108 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Tiropita",
       "zh": "希腊奶酪派",
-      "nl": "Tiropita",
-      "local": "Tiropita"
+      "nl": "Griekse kaasfilotaart",
+      "local": "Τυρόπιτα"
     },
-    "category": "pastry",
+    "category": "bread",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Tiropita is a common Greek menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "希腊奶酪派是常见希腊菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Tiropita is een veelvoorkomend Grieks menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Greek flaky phyllo cheese pie filled with feta or mixed cheeses, served as a snack or light meal.",
+      "zh": "希腊酥皮奶酪派，内馅多为菲达或混合奶酪，可作小食或轻餐。",
+      "nl": "Griekse filodeeg-kaastaart met feta of gemengde kazen, als snack of lichte maaltijd."
     },
     "cookingProfile": {
-      "en": "Usually served with savory pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现savory pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met savory pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect crisp flaky pastry around a salty creamy cheese filling.",
+      "zh": "预期是酥脆层状外皮包住咸香奶酪馅。",
+      "nl": "Krokant schilferig deeg rond zoute romige kaasvulling."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "street-food"
       ],
       "description": {
-        "en": "A likely Greek restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见希腊菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Grieks restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic Greek bakery and cafe item, easy to order as a snack.",
+        "zh": "经典希腊烘焙店和咖啡馆小食，点起来很容易。",
+        "nl": "Een klassieke Griekse bakkerij- en cafésnack."
       }
     },
     "composition": [
       [
-        "pastry-crust",
-        40,
-        "base"
+        "phyllo-pastry",
+        45,
+        "flaky pastry"
       ],
       [
-        "cheese",
-        20,
-        "filling"
+        "feta",
+        35,
+        "cheese filling"
       ],
       [
         "egg",
-        15,
+        10,
         "binder"
       ],
       [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
         "butter",
-        10,
-        "richness"
+        5,
+        "pastry richness"
       ],
       [
-        "black-pepper",
+        "olive-oil",
         5,
-        "seasoning",
+        "finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "feta cheese",
+      "buttery phyllo",
+      "olive oil"
     ],
     "basicTaste": [
-      "savory",
+      "salty",
+      "creamy",
       "buttery"
     ],
     "textureProfile": [
-      "flaky pastry",
-      "soft filling"
+      "crisp layers",
+      "soft cheese filling",
+      "flaky edges"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-dairy",
       "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "pastry"
+      "snack",
+      "first-timer-friendly"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, buttery profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、buttery的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, buttery je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A safe savory pastry if you like salty cheese and crisp phyllo.",
+      "zh": "喜欢咸奶酪和酥皮时，这是稳妥咸点心。",
+      "nl": "Een veilige hartige snack als je zoute kaas en filodeeg lust."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "104059",
+    "imagePath": "/assets/dishes/main/104059-tiropita.webp",
+    "thumbPath": "/assets/dishes/thumb/104059-tiropita.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -9484,104 +9569,113 @@ const europeDepthDishConfigs = [
     "cuisineId": "greek",
     "names": {
       "en": "Gigantes Plaki",
-      "zh": "番茄烤大白豆",
-      "nl": "Gigantes Plaki",
-      "local": "Gigantes Plaki"
+      "zh": "希腊番茄烤大豆",
+      "nl": "Gigantes plaki",
+      "local": "Γίγαντες πλακί"
     },
-    "category": "stew",
+    "category": "vegetable",
     "cookingMethods": [
+      "baked",
       "simmered"
     ],
     "shortDescription": {
-      "en": "Gigantes Plaki is a common Greek menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "番茄烤大白豆是常见希腊菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Gigantes Plaki is een veelvoorkomend Grieks menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Greek baked giant beans in tomato, olive oil, onion, and herbs, served as a meze or vegetarian main.",
+      "zh": "希腊大白豆用番茄、橄榄油、洋葱和香草烤/焖，可作小菜或素主菜。",
+      "nl": "Griekse reuzenbonen in tomaat, olijfolie, ui en kruiden, als meze of vegetarisch hoofdgerecht."
     },
     "cookingProfile": {
-      "en": "Usually served with slow-cooked stew, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现slow-cooked stew，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met slow-cooked stew; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect soft creamy beans in a rich tomato-olive oil sauce, not a soup.",
+      "zh": "预期是软糯大豆裹浓番茄橄榄油酱，不是汤。",
+      "nl": "Zachte romige bonen in rijke tomaat-olijfoliesaus, geen soep."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "vegetarian"
       ],
       "description": {
-        "en": "A likely Greek restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见希腊菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Grieks restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic Greek bean dish and useful vegetarian menu anchor.",
+        "zh": "经典希腊豆类菜，也是素食点餐的实用锚点。",
+        "nl": "Een klassieke Griekse bonenschotel en nuttige vegetarische keuze."
       }
     },
     "composition": [
       [
-        "beef",
-        35,
-        "main"
+        "white-beans",
+        55,
+        "giant beans"
       ],
       [
-        "potato",
-        20,
-        "body"
+        "tomato-sauce",
+        25,
+        "sauce base",
+        "seasoning"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
+        "onion",
+        10,
+        "aromatic"
       ],
       [
-        "broth",
-        15,
-        "base"
-      ],
-      [
-        "black-pepper",
+        "olive-oil",
         5,
-        "seasoning",
+        "richness",
         "seasoning"
       ],
       [
         "parsley",
         5,
-        "finish",
+        "herb",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "tomato sauce",
+      "olive oil",
+      "soft giant beans"
     ],
     "basicTaste": [
       "savory",
-      "hearty"
+      "tomatoey",
+      "mild"
     ],
     "textureProfile": [
-      "soft vegetables",
-      "rich broth"
+      "creamy beans",
+      "thick sauce",
+      "soft onions"
     ],
     "riskFlags": [],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "stew"
+    "dietaryFlags": [
+      "vegan",
+      "vegetarian"
     ],
-    "avoidIfTags": [],
+    "goodForTags": [
+      "vegetarian",
+      "meze"
+    ],
+    "avoidIfTags": [
+      "dislikes-beans"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A strong vegetarian choice if baked beans in tomato sauce sound appealing.",
+      "zh": "如果喜欢番茄酱焖烤豆类，这是很稳的素食选择。",
+      "nl": "Een sterke vegetarische keuze als bonen in tomatensaus goed klinken."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "104060",
+    "imagePath": "/assets/dishes/main/104060-gigantes-plaki.webp",
+    "thumbPath": "/assets/dishes/thumb/104060-gigantes-plaki.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
     "id": "escalivada",
     "metadataCode": "105031",
+    "imageCode": "105031",
     "cuisineId": "spanish",
     "names": {
       "en": "Escalivada",
@@ -9589,310 +9683,339 @@ const europeDepthDishConfigs = [
       "nl": "Escalivada",
       "local": "Escalivada"
     },
-    "category": "salad",
+    "category": "starter",
     "cookingMethods": [
+      "grilled",
       "assembled"
     ],
     "shortDescription": {
-      "en": "Escalivada is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "加泰罗尼亚烤蔬菜是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Escalivada is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Roasted eggplant, peppers, and onions served cool or warm with olive oil.",
+      "zh": "烤茄子、甜椒和洋葱，冷食或温食，淋橄榄油。",
+      "nl": "Geroosterde aubergine, paprika en ui, koud of lauw met olijfolie."
     },
     "cookingProfile": {
-      "en": "Usually served with fresh salad, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fresh salad，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fresh salad; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect soft smoky vegetables rather than a saucy stew.",
+      "zh": "入口是柔软带烟熏感的蔬菜，不是浓酱炖菜。",
+      "nl": "Verwacht zachte rokerige groente, geen sauzige stoof."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "vegetarian"
       ],
       "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Catalan roasted vegetable plate recognized by eggplant, peppers, onion, and olive oil.",
+        "zh": "加泰罗尼亚烤蔬菜盘，重点是茄子、甜椒、洋葱和橄榄油。",
+        "nl": "Een Catalaans groentegerecht met aubergine, paprika, ui en olijfolie."
       }
     },
     "composition": [
       [
-        "mixed-vegetables",
-        45,
-        "base"
+        "eggplant",
+        35,
+        "roasted vegetable"
+      ],
+      [
+        "bell-pepper",
+        30,
+        "roasted vegetable"
+      ],
+      [
+        "onion",
+        15,
+        "sweet aromatic"
       ],
       [
         "tomato",
-        15,
-        "body"
-      ],
-      [
-        "cheese",
-        15,
-        "richness"
+        10,
+        "juicy accent"
       ],
       [
         "olive-oil",
         10,
-        "dressing",
+        "finish",
         "seasoning"
-      ],
-      [
-        "vinegar",
-        10,
-        "dressing",
-        "seasoning"
-      ],
-      [
-        "herbs",
-        5,
-        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "roasted pepper",
+      "eggplant",
+      "olive oil"
     ],
     "basicTaste": [
+      "smoky",
       "savory",
-      "fresh"
+      "sweet"
     ],
     "textureProfile": [
-      "crisp vegetables",
-      "bright dressing"
+      "soft roasted strips",
+      "silky olive oil",
+      "tender vegetables"
     ],
     "riskFlags": [],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "salad"
+    "dietaryFlags": [
+      "vegan"
     ],
-    "avoidIfTags": [],
+    "goodForTags": [
+      "vegetarian",
+      "lighter-choice"
+    ],
+    "avoidIfTags": [
+      "wants-protein-main"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, fresh profile sounds appealing.",
-      "zh": "如果你想要savory、fresh的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, fresh je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for smoky vegetables and a light tapas plate; skip if you want a filling protein main.",
+      "zh": "想吃烟熏感蔬菜和轻 tapas 时适合；想要饱腹肉类主菜则不够。",
+      "nl": "Kies dit voor rokerige groente en lichte tapas; sla over als je een vullende eiwitmaaltijd wilt."
     },
+    "confidenceTag": "audited-remaining-batch-040",
     "spiceLevel": 0,
     "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105031-escalivada.webp",
+    "thumbPath": "/assets/dishes/thumb/105031-escalivada.webp"
   },
   {
     "id": "esqueixada",
     "metadataCode": "105032",
+    "imageCode": "105032",
     "cuisineId": "spanish",
     "names": {
       "en": "Esqueixada",
-      "zh": "加泰罗尼亚鳕鱼沙拉",
+      "zh": "加泰罗尼亚盐鳕鱼沙拉",
       "nl": "Esqueixada",
       "local": "Esqueixada"
     },
-    "category": "fish",
+    "category": "salad",
     "cookingMethods": [
-      "grilled"
+      "assembled",
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Esqueixada is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "加泰罗尼亚鳕鱼沙拉是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Esqueixada is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Shredded salt cod served cold with tomato, onion, olives, and olive oil.",
+      "zh": "手撕盐鳕鱼冷拌番茄、洋葱、橄榄和橄榄油。",
+      "nl": "Koude stukjes gezouten kabeljauw met tomaat, ui, olijven en olijfolie."
     },
     "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is briny and fresh, closer to a seafood salad than a cooked fish main.",
+      "zh": "咸鲜清爽，更像海鲜冷沙拉，不是热熟鱼主菜。",
+      "nl": "Zilt en fris, meer zeevruchtensalade dan warme vismaaltijd."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Catalan cold salt-cod salad with tomato, onion, olives, and olive oil.",
+        "zh": "加泰罗尼亚冷盐鳕鱼沙拉，重点是盐鳕鱼、番茄、洋葱和橄榄。",
+        "nl": "Een Catalaanse koude salade met gezouten kabeljauw, tomaat, ui en olijven."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        60,
-        "main"
+        "salt-cod",
+        45,
+        "salted fish"
       ],
       [
-        "potato",
-        15,
-        "side"
+        "tomato",
+        20,
+        "fresh vegetable"
       ],
       [
-        "mixed-vegetables",
+        "onion",
         10,
-        "body"
+        "sharp aromatic"
       ],
       [
-        "lemon",
-        5,
-        "brightness"
+        "olives",
+        10,
+        "briny garnish"
       ],
       [
         "olive-oil",
-        5,
-        "finish",
+        10,
+        "dressing",
         "seasoning"
       ],
       [
         "parsley",
         5,
-        "finish",
+        "fresh herb",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "salt cod",
+      "olive oil",
+      "olives"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "briny",
+      "fresh",
+      "savory"
     ],
     "textureProfile": [
-      "tender fish",
-      "light flaky bite"
+      "firm fish flakes",
+      "juicy tomato",
+      "crisp onion"
     ],
     "riskFlags": [
       "contains-fish"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "fish"
+      "seafood",
+      "cold-starter"
     ],
     "avoidIfTags": [
-      "fish-allergy"
+      "fish-allergy",
+      "avoid-salty-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you like cold briny seafood; skip if salt cod or raw-salad texture is not appealing.",
+      "zh": "喜欢咸鲜冷海鲜时可点；不爱盐鳕鱼或冷拌口感则避开。",
+      "nl": "Goed als je koude zilte zeevruchten lust; sla over als gezouten kabeljauw niet past."
     },
+    "confidenceTag": "audited-remaining-batch-040",
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 1,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105032-esqueixada.webp",
+    "thumbPath": "/assets/dishes/thumb/105032-esqueixada.webp"
   },
   {
     "id": "pisto",
     "metadataCode": "105033",
+    "imageCode": "105033",
     "cuisineId": "spanish",
     "names": {
       "en": "Pisto",
-      "zh": "西班牙番茄蔬菜炖菜",
+      "zh": "西班牙蔬菜番茄炖菜",
       "nl": "Pisto",
       "local": "Pisto"
     },
-    "category": "stew",
+    "category": "main",
     "cookingMethods": [
-      "simmered"
+      "simmered",
+      "fried"
     ],
     "shortDescription": {
-      "en": "Pisto is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "西班牙番茄蔬菜炖菜是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Pisto is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A tomato-based vegetable stew, often served with a fried egg on top.",
+      "zh": "番茄底的蔬菜炖菜，常在上面放煎蛋。",
+      "nl": "Een groentestoof op tomatenbasis, vaak met gebakken ei erbovenop."
     },
     "cookingProfile": {
-      "en": "Usually served with slow-cooked stew, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现slow-cooked stew，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met slow-cooked stew; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect soft saucy vegetables with egg richness rather than a crisp salad.",
+      "zh": "入口是柔软多汁蔬菜和鸡蛋浓郁感，不是爽脆沙拉。",
+      "nl": "Verwacht zachte sauzige groente met ei, geen knapperige salade."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "vegetarian",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Spanish vegetable stew often recognized by tomato, peppers, zucchini-like vegetables, and fried egg.",
+        "zh": "西班牙蔬菜番茄炖菜，常见识别点是番茄、甜椒、瓜类蔬菜和煎蛋。",
+        "nl": "Een Spaanse groentestoof met tomaat, paprika, courgette-achtige groente en vaak ei."
       }
     },
     "composition": [
       [
-        "beef",
-        35,
-        "main"
-      ],
-      [
-        "potato",
-        20,
-        "body"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "broth",
-        15,
-        "base"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
+        "tomato-sauce",
+        30,
+        "sauce base",
         "seasoning"
       ],
       [
-        "parsley",
-        5,
-        "finish",
+        "bell-pepper",
+        20,
+        "vegetable"
+      ],
+      [
+        "eggplant",
+        15,
+        "soft vegetable"
+      ],
+      [
+        "onion",
+        10,
+        "aromatic"
+      ],
+      [
+        "egg",
+        15,
+        "fried topping"
+      ],
+      [
+        "olive-oil",
+        10,
+        "cooking fat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "tomato",
+      "olive oil",
+      "fried egg"
     ],
     "basicTaste": [
       "savory",
-      "hearty"
+      "sweet",
+      "mild"
     ],
     "textureProfile": [
       "soft vegetables",
-      "rich broth"
+      "saucy base",
+      "fried egg"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "stew"
+      "vegetarian",
+      "comfort-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good vegetarian-friendly plate if you like soft tomato vegetables; skip if you want grilled meat.",
+      "zh": "喜欢柔软番茄蔬菜时很适合；想吃烤肉则不合适。",
+      "nl": "Goed vegetarisch als je zachte tomatengroente wilt; sla over als je gegrild vlees zoekt."
     },
+    "confidenceTag": "audited-remaining-batch-040",
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105033-pisto.webp",
+    "thumbPath": "/assets/dishes/thumb/105033-pisto.webp"
   },
   {
     "id": "pipirrana",
     "metadataCode": "105034",
+    "imageCode": "105034",
     "cuisineId": "spanish",
     "names": {
       "en": "Pipirrana",
-      "zh": "安达卢西亚番茄椒丁沙拉",
+      "zh": "安达卢西亚碎蔬菜沙拉",
       "nl": "Pipirrana",
       "local": "Pipirrana"
     },
@@ -9900,96 +10023,115 @@ const europeDepthDishConfigs = [
     "cookingMethods": [
       "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Pipirrana is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "安达卢西亚番茄椒丁沙拉是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Pipirrana is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Cold chopped tomato, cucumber, pepper, and onion salad, often with tuna and egg.",
+      "zh": "冷拌番茄、黄瓜、甜椒和洋葱碎，常加金枪鱼和鸡蛋。",
+      "nl": "Koude salade van tomaat, komkommer, paprika en ui, vaak met tonijn en ei."
     },
     "cookingProfile": {
-      "en": "Usually served with fresh salad, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fresh salad，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fresh salad; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is crunchy, cool, and bright, with tuna making it more filling.",
+      "zh": "口感清凉爽脆，金枪鱼让它更有饱腹感。",
+      "nl": "Knapperig, koel en fris, met tonijn voor meer vulling."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "An Andalusian chopped salad often served with tuna and egg.",
+        "zh": "安达卢西亚碎蔬菜沙拉，常配金枪鱼和鸡蛋。",
+        "nl": "Een Andalusische fijngesneden salade, vaak met tonijn en ei."
       }
     },
     "composition": [
       [
-        "mixed-vegetables",
-        45,
-        "base"
-      ],
-      [
         "tomato",
-        15,
-        "body"
+        25,
+        "fresh base"
       ],
       [
-        "cheese",
+        "cucumber",
+        20,
+        "crunch"
+      ],
+      [
+        "bell-pepper",
         15,
-        "richness"
+        "crunch"
+      ],
+      [
+        "onion",
+        10,
+        "sharp aromatic"
+      ],
+      [
+        "tuna",
+        15,
+        "fish topping"
+      ],
+      [
+        "egg",
+        10,
+        "boiled egg"
       ],
       [
         "olive-oil",
-        10,
-        "dressing",
-        "seasoning"
-      ],
-      [
-        "vinegar",
-        10,
-        "dressing",
-        "seasoning"
-      ],
-      [
-        "herbs",
         5,
-        "finish"
+        "dressing",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "fresh vegetables",
+      "tuna",
+      "olive oil"
     ],
     "basicTaste": [
+      "fresh",
       "savory",
-      "fresh"
+      "light"
     ],
     "textureProfile": [
-      "crisp vegetables",
-      "bright dressing"
+      "small diced vegetables",
+      "tuna flakes",
+      "egg pieces"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-fish",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
+      "lighter-choice",
       "salad"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "fish-allergy",
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, fresh profile sounds appealing.",
-      "zh": "如果你想要savory、fresh的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, fresh je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a cool chopped salad with protein; skip if raw onion or tuna is not appealing.",
+      "zh": "想吃清爽碎蔬菜沙拉并带一点蛋白质时适合；不爱生洋葱或金枪鱼则避开。",
+      "nl": "Kies dit voor koele salade met wat eiwit; sla over bij rauwe ui of tonijn."
     },
+    "confidenceTag": "audited-remaining-batch-040",
     "spiceLevel": 0,
     "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105034-pipirrana.webp",
+    "thumbPath": "/assets/dishes/thumb/105034-pipirrana.webp"
   },
   {
     "id": "migas",
     "metadataCode": "105035",
+    "imageCode": "105035",
     "cuisineId": "spanish",
     "names": {
       "en": "Migas",
@@ -9997,360 +10139,370 @@ const europeDepthDishConfigs = [
       "nl": "Migas",
       "local": "Migas"
     },
-    "category": "bread",
+    "category": "main",
     "cookingMethods": [
-      "baked"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Migas is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "西班牙炒面包屑是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Migas is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Golden fried breadcrumbs mixed with chorizo, pork, garlic, peppers, and sometimes egg.",
+      "zh": "金黄面包屑炒香肠、猪肉、蒜、青椒，有时配鸡蛋。",
+      "nl": "Goudgebakken broodkruim met chorizo, varken, knoflook, paprika en soms ei."
     },
     "cookingProfile": {
-      "en": "Usually served with baked bread or pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现baked bread or pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met baked bread or pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect crumbly, oily, salty bites, more rustic and heavy than a rice dish.",
+      "zh": "口感松散带油香和咸香，比米饭菜更乡土厚重。",
+      "nl": "Kruimelig, olieachtig en zout, rustieker en zwaarder dan rijst."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A rustic Spanish fried breadcrumb dish with pork, garlic, peppers, or egg.",
+        "zh": "西班牙乡土炒面包屑，常配猪肉、蒜、青椒或鸡蛋。",
+        "nl": "Een rustiek Spaans gerecht van gebakken broodkruim met varken, knoflook, paprika of ei."
       }
     },
     "composition": [
       [
         "bread",
         45,
-        "base"
+        "fried crumbs"
       ],
       [
-        "wheat-flour",
-        25,
-        "base"
+        "chorizo",
+        20,
+        "sausage"
       ],
       [
-        "cheese",
+        "pork-belly",
         15,
-        "filling"
+        "pork pieces"
       ],
       [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
-        "sea-salt",
+        "garlic",
         5,
-        "seasoning",
+        "aromatic"
+      ],
+      [
+        "bell-pepper",
+        10,
+        "pepper"
+      ],
+      [
+        "olive-oil",
+        5,
+        "frying fat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "fried breadcrumbs",
+      "chorizo",
+      "garlic"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "salty",
+      "smoky"
     ],
     "textureProfile": [
-      "soft bread",
+      "crumbly bread",
+      "chewy pork",
       "crisp edges"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-dairy"
+      "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "bread"
+      "regional-dish",
+      "comfort-food"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "no-pork",
+      "avoid-oily-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good for a rustic salty plate; skip if bread-heavy or oily dishes are not your style.",
+      "zh": "想吃乡土咸香主食时适合；不爱面包屑重或油感则避开。",
+      "nl": "Goed voor een rustiek zout bord; sla over bij broodrijk of olieachtig eten."
     },
+    "confidenceTag": "audited-remaining-batch-040",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105035-migas.webp",
+    "thumbPath": "/assets/dishes/thumb/105035-migas.webp"
   },
   {
     "id": "callos-a-la-madrilena",
     "metadataCode": "105036",
+    "imageCode": "105036",
     "cuisineId": "spanish",
     "names": {
       "en": "Callos a la Madrilena",
-      "zh": "马德里炖牛肚",
+      "zh": "马德里牛肚炖菜",
       "nl": "Callos a la Madrilena",
-      "local": "Callos a la Madrilena"
+      "local": "Callos a la madrileña"
     },
-    "category": "stew",
+    "category": "main",
     "cookingMethods": [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Callos a la Madrilena is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "马德里炖牛肚是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Callos a la Madrilena is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A rich tripe stew with chorizo, morcilla, chickpeas, and paprika sauce.",
+      "zh": "浓郁牛肚炖菜，配西班牙辣香肠、血肠、鹰嘴豆和红椒酱汁。",
+      "nl": "Een rijke stoof van pens met chorizo, morcilla, kikkererwten en paprikasaus."
     },
     "cookingProfile": {
-      "en": "Usually served with slow-cooked stew, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现slow-cooked stew，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met slow-cooked stew; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect gelatinous tripe, smoky sausage, and a heavy stew texture.",
+      "zh": "可预期牛肚胶质口感、烟熏香肠味和厚重炖菜质地。",
+      "nl": "Verwacht gelatineuze pens, rokerige worst en een zware stoofstructuur."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Madrid tripe stew with chorizo, morcilla, and paprika-rich sauce.",
+        "zh": "马德里经典牛肚炖菜，常有辣香肠、血肠和红椒香料酱汁。",
+        "nl": "Een Madrileense pensstoof met chorizo, morcilla en paprikasaus."
       }
     },
     "composition": [
       [
-        "beef",
-        35,
-        "main"
+        "tripe",
+        40,
+        "offal"
       ],
       [
-        "potato",
+        "chorizo",
         20,
-        "body"
+        "smoked sausage"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "broth",
+        "morcilla",
         15,
-        "base"
+        "blood sausage"
       ],
       [
-        "black-pepper",
+        "chickpeas",
+        15,
+        "beans"
+      ],
+      [
+        "smoked-paprika",
         5,
-        "seasoning",
+        "paprika depth",
         "seasoning"
       ],
       [
-        "parsley",
+        "tomato-sauce",
         5,
-        "finish",
+        "sauce",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "tripe",
+      "chorizo",
+      "smoked paprika"
     ],
     "basicTaste": [
       "savory",
-      "hearty"
+      "smoky",
+      "rich"
     ],
     "textureProfile": [
-      "soft vegetables",
-      "rich broth"
+      "gelatinous tripe",
+      "soft chickpeas",
+      "thick sauce"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-pork"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "stew"
+      "regional-dish",
+      "offal"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "no-pork",
+      "avoid-offal",
+      "avoid-heavy-food"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order only if offal and rich stews sound good; skip if chewy tripe is a problem.",
+      "zh": "只有能接受内脏和厚重炖菜时才推荐；不喜欢牛肚嚼感则避开。",
+      "nl": "Bestel dit alleen als orgaanvlees en rijke stoof aanspreken; sla over bij moeite met pens."
     },
+    "confidenceTag": "audited-remaining-batch-040",
     "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 5,
+    "acquiredTasteLevel": 4,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105036-callos-a-la-madrilena.webp",
+    "thumbPath": "/assets/dishes/thumb/105036-callos-a-la-madrilena.webp"
   },
   {
     "id": "sepia-a-la-plancha",
     "metadataCode": "105037",
+    "imageCode": "105037",
     "cuisineId": "spanish",
     "names": {
       "en": "Sepia a la Plancha",
-      "zh": "铁板墨鱼",
-      "nl": "Sepia a la Plancha",
-      "local": "Sepia a la Plancha"
+      "zh": "铁板煎墨鱼",
+      "nl": "Sepia a la plancha",
+      "local": "Sepia a la plancha"
     },
     "category": "seafood",
     "cookingMethods": [
       "grilled"
     ],
     "shortDescription": {
-      "en": "Sepia a la Plancha is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "铁板墨鱼是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Sepia a la Plancha is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Grilled cuttlefish or sepia served with garlic, parsley, olive oil, and lemon.",
+      "zh": "煎烤墨鱼配蒜、欧芹、橄榄油和柠檬。",
+      "nl": "Gegrilde zeekat met knoflook, peterselie, olijfolie en citroen."
     },
     "cookingProfile": {
-      "en": "Usually served with fish or seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish or seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish or seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect firm springy seafood with char and a garlicky finish.",
+      "zh": "可预期紧实弹牙的海鲜口感、煎烤香和蒜香收尾。",
+      "nl": "Verwacht stevige veerkrachtige zeevrucht met grillsmaak en knoflook."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "seafood"
       ],
       "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Spanish grilled cuttlefish plate with garlic parsley oil and lemon.",
+        "zh": "西班牙煎烤墨鱼，重点是蒜香欧芹油和柠檬。",
+        "nl": "Een Spaanse gegrilde zeekat met knoflook-peterselieolie en citroen."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        40,
-        "main"
-      ],
-      [
-        "mussels",
-        20,
-        "seafood"
-      ],
-      [
-        "potato",
-        15,
-        "side"
-      ],
-      [
-        "lemon",
-        10,
-        "brightness"
+        "squid",
+        70,
+        "cuttlefish body"
       ],
       [
         "olive-oil",
         10,
-        "finish",
+        "grill finish",
         "seasoning"
+      ],
+      [
+        "garlic",
+        10,
+        "aromatic"
       ],
       [
         "parsley",
         5,
-        "finish",
+        "fresh herb",
         "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "acid"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "grilled cuttlefish",
+      "garlic parsley oil",
+      "lemon"
     ],
     "basicTaste": [
       "savory",
+      "garlicky",
       "briny"
     ],
     "textureProfile": [
-      "tender seafood",
-      "bright savory finish"
+      "springy seafood",
+      "light char",
+      "slick oil"
     ],
     "riskFlags": [
-      "contains-fish",
       "contains-shellfish"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "seafood"
+      "seafood",
+      "lighter-choice"
     ],
     "avoidIfTags": [
-      "fish-allergy",
-      "shellfish-allergy"
+      "shellfish-allergy",
+      "avoid-garlic"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good for simple grilled seafood; skip if springy squid-like texture is not appealing.",
+      "zh": "想吃简单煎烤海鲜时合适；不喜欢墨鱼弹牙口感则避开。",
+      "nl": "Goed voor simpele gegrilde zeevrucht; sla over als stevige inktvistextuur niet past."
     },
+    "confidenceTag": "audited-remaining-batch-040",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105037-sepia-a-la-plancha.webp",
+    "thumbPath": "/assets/dishes/thumb/105037-sepia-a-la-plancha.webp"
   },
   {
     "id": "navajas-a-la-plancha",
     "metadataCode": "105038",
+    "imageCode": "105038",
     "cuisineId": "spanish",
     "names": {
       "en": "Navajas a la Plancha",
-      "zh": "铁板竹蛏",
-      "nl": "Navajas a la Plancha",
-      "local": "Navajas a la Plancha"
+      "zh": "铁板煎竹蛏",
+      "nl": "Navajas a la plancha",
+      "local": "Navajas a la plancha"
     },
     "category": "seafood",
     "cookingMethods": [
       "grilled"
     ],
     "shortDescription": {
-      "en": "Navajas a la Plancha is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "铁板竹蛏是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Navajas a la Plancha is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Grilled razor clams in long shells with garlic, parsley, olive oil, and lemon.",
+      "zh": "长壳竹蛏煎烤后配蒜、欧芹、橄榄油和柠檬。",
+      "nl": "Gegrilde scheermessen in lange schelpen met knoflook, peterselie, olijfolie en citroen."
     },
     "cookingProfile": {
-      "en": "Usually served with fish or seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish or seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish or seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect briny shellfish with a delicate chew and simple garlic oil.",
+      "zh": "贝类咸鲜，口感细嫩略有嚼劲，蒜油调味直接。",
+      "nl": "Zilt schelpdier met fijne beet en eenvoudige knoflookolie."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "seafood",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Spanish razor-clam tapas plate with garlic parsley oil.",
+        "zh": "西班牙竹蛏 tapas，重点是长壳贝和蒜香欧芹油。",
+        "nl": "Een tapasbord met scheermessen en knoflook-peterselieolie."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        40,
-        "main"
-      ],
-      [
-        "mussels",
-        20,
-        "seafood"
-      ],
-      [
-        "potato",
-        15,
-        "side"
-      ],
-      [
-        "lemon",
-        10,
-        "brightness"
+        "clams",
+        75,
+        "razor clams"
       ],
       [
         "olive-oil",
@@ -10359,105 +10511,107 @@ const europeDepthDishConfigs = [
         "seasoning"
       ],
       [
+        "garlic",
+        5,
+        "aromatic"
+      ],
+      [
         "parsley",
         5,
-        "finish",
+        "fresh herb",
         "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "acid"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "razor clams",
+      "garlic oil",
+      "lemon"
     ],
     "basicTaste": [
-      "savory",
-      "briny"
+      "briny",
+      "garlicky",
+      "fresh"
     ],
     "textureProfile": [
-      "tender seafood",
-      "bright savory finish"
+      "tender shellfish",
+      "long shells",
+      "light oil"
     ],
     "riskFlags": [
-      "contains-fish",
       "contains-shellfish"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "seafood"
+      "seafood",
+      "tapas"
     ],
     "avoidIfTags": [
-      "fish-allergy",
       "shellfish-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for clean shellfish flavor; skip with shellfish allergy or if small shellfish portions disappoint you.",
+      "zh": "想吃清爽贝类本味时适合；贝类过敏或想要大份主菜则不适合。",
+      "nl": "Kies dit voor pure schelpdierensmaak; sla over bij allergie of als je grote porties zoekt."
     },
+    "confidenceTag": "audited-remaining-batch-040",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105038-navajas-a-la-plancha.webp",
+    "thumbPath": "/assets/dishes/thumb/105038-navajas-a-la-plancha.webp"
   },
   {
     "id": "zamburinas",
     "metadataCode": "105039",
+    "imageCode": "105039",
     "cuisineId": "spanish",
     "names": {
       "en": "Zamburinas",
       "zh": "西班牙小扇贝",
       "nl": "Zamburinas",
-      "local": "Zamburinas"
+      "local": "Zamburiñas"
     },
     "category": "seafood",
     "cookingMethods": [
-      "grilled"
+      "grilled",
+      "baked"
     ],
     "shortDescription": {
-      "en": "Zamburinas is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "西班牙小扇贝是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Zamburinas is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Small scallops served in their shells, often seared or lightly gratinated with garlic oil.",
+      "zh": "小扇贝连壳上桌，常煎烤或轻焗，配蒜香油。",
+      "nl": "Kleine schelpen met sint-jakobsschelpen, vaak gebakken of licht gegratineerd met knoflookolie."
     },
     "cookingProfile": {
-      "en": "Usually served with fish or seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish or seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish or seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect sweet tender shellfish in small rich bites.",
+      "zh": "入口是小份鲜甜柔嫩贝肉，油香较集中。",
+      "nl": "Verwacht zoete zachte schelpdierhapjes, klein maar rijk."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "seafood",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Galician-style small scallop tapa, usually served in shells.",
+        "zh": "加利西亚风格小扇贝 tapas，通常连壳上桌。",
+        "nl": "Een Galicische tapa van kleine sint-jakobsschelpen in de schelp."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        40,
-        "main"
-      ],
-      [
-        "mussels",
-        20,
-        "seafood"
-      ],
-      [
-        "potato",
-        15,
-        "side"
-      ],
-      [
-        "lemon",
-        10,
-        "brightness"
+        "scallops",
+        75,
+        "small scallops"
       ],
       [
         "olive-oil",
@@ -10466,2088 +10620,2208 @@ const europeDepthDishConfigs = [
         "seasoning"
       ],
       [
+        "garlic",
+        5,
+        "aromatic"
+      ],
+      [
         "parsley",
         5,
-        "finish",
+        "fresh herb",
         "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "acid"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "scallops",
+      "garlic oil",
+      "parsley"
     ],
     "basicTaste": [
-      "savory",
-      "briny"
+      "sweet",
+      "briny",
+      "savory"
     ],
     "textureProfile": [
-      "tender seafood",
-      "bright savory finish"
+      "tender scallop",
+      "shell presentation",
+      "light gratin"
     ],
     "riskFlags": [
-      "contains-fish",
       "contains-shellfish"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "seafood"
+      "seafood",
+      "tapas"
     ],
     "avoidIfTags": [
-      "fish-allergy",
       "shellfish-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good for a small seafood tapa; skip if shellfish is unsafe or you want a full main.",
+      "zh": "适合想吃小份贝类 tapas；贝类过敏或想要饱腹主菜则避开。",
+      "nl": "Goed als kleine zeevruchtentapa; sla over bij schelpdierallergie of als je een hoofdgerecht wilt."
     },
+    "confidenceTag": "audited-remaining-batch-040",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105039-zamburinas.webp",
+    "thumbPath": "/assets/dishes/thumb/105039-zamburinas.webp"
   },
   {
     "id": "marmitako",
     "metadataCode": "105040",
+    "imageCode": "105040",
     "cuisineId": "spanish",
     "names": {
       "en": "Marmitako",
-      "zh": "巴斯克金枪鱼土豆炖锅",
+      "zh": "巴斯克金枪鱼土豆炖菜",
       "nl": "Marmitako",
       "local": "Marmitako"
     },
-    "category": "fish",
+    "category": "main",
     "cookingMethods": [
-      "grilled"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Marmitako is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "巴斯克金枪鱼土豆炖锅是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Marmitako is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Tuna and potato stew in a peppery tomato broth.",
+      "zh": "金枪鱼和土豆在甜椒番茄汤汁中炖煮。",
+      "nl": "Stoof van tonijn en aardappel in paprika-tomatenbouillon."
     },
     "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect soft potatoes and firm tuna chunks in a warm rustic broth.",
+      "zh": "可预期柔软土豆、紧实金枪鱼块和温热乡土汤汁。",
+      "nl": "Verwacht zachte aardappel en stevige tonijn in warme rustieke bouillon."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Basque fisherman stew with tuna, potatoes, peppers, and tomato broth.",
+        "zh": "巴斯克渔夫炖菜，重点是金枪鱼、土豆、甜椒和番茄汤汁。",
+        "nl": "Een Baskische vissersstoof met tonijn, aardappel, paprika en tomatenbouillon."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        60,
-        "main"
+        "tuna",
+        35,
+        "fish"
       ],
       [
         "potato",
+        30,
+        "stew body"
+      ],
+      [
+        "bell-pepper",
         15,
-        "side"
+        "pepper"
       ],
       [
-        "mixed-vegetables",
+        "tomato-sauce",
         10,
-        "body"
+        "broth base",
+        "seasoning"
       ],
       [
-        "lemon",
+        "onion",
         5,
-        "brightness"
+        "aromatic"
       ],
       [
         "olive-oil",
         5,
         "finish",
         "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "tuna",
+      "pepper tomato broth",
+      "olive oil"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "brothy",
+      "mildly-sweet"
     ],
     "textureProfile": [
-      "tender fish",
-      "light flaky bite"
+      "firm tuna",
+      "soft potatoes",
+      "warm broth"
     ],
     "riskFlags": [
       "contains-fish"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "fish"
+      "seafood",
+      "comfort-food"
     ],
     "avoidIfTags": [
       "fish-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good seafood stew if you want something warm and filling; skip if tuna in stew sounds dry to you.",
+      "zh": "想吃温热饱腹海鲜炖菜时适合；若不喜欢炖金枪鱼口感则谨慎。",
+      "nl": "Goed als warme vullende visstoof; sla over als tonijn in stoof niet aanspreekt."
     },
+    "confidenceTag": "audited-remaining-batch-040",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105040-marmitako.webp",
+    "thumbPath": "/assets/dishes/thumb/105040-marmitako.webp"
   },
   {
     "id": "bacalao-a-la-vizcaina",
     "metadataCode": "105041",
+    "imageCode": "105041",
     "cuisineId": "spanish",
     "names": {
       "en": "Bacalao a la Vizcaina",
-      "zh": "巴斯克红椒鳕鱼",
+      "zh": "比斯开红椒酱鳕鱼",
       "nl": "Bacalao a la Vizcaina",
-      "local": "Bacalao a la Vizcaina"
+      "local": "Bacalao a la vizcaína"
     },
-    "category": "fish",
+    "category": "seafood",
     "cookingMethods": [
-      "grilled"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Bacalao a la Vizcaina is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "巴斯克红椒鳕鱼是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Bacalao a la Vizcaina is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Salt cod served in a deep red pepper and tomato-style sauce.",
+      "zh": "盐鳕鱼配深红色甜椒番茄风格酱汁。",
+      "nl": "Gezouten kabeljauw in een dieprode paprika-tomatensaus."
     },
     "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The fish is firm and salty, while the sauce is sweet, red, and mellow.",
+      "zh": "鱼肉紧实偏咸，酱汁红亮、甜润、温和。",
+      "nl": "De vis is stevig en zout, de saus rood, zoet en zacht."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Basque salt-cod dish defined by red pepper sauce.",
+        "zh": "巴斯克盐鳕鱼菜，重点是红椒酱汁。",
+        "nl": "Een Baskisch gerecht van gezouten kabeljauw met rode paprikasaus."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        60,
-        "main"
+        "salt-cod",
+        55,
+        "fish"
       ],
       [
-        "potato",
-        15,
-        "side"
+        "bell-pepper",
+        20,
+        "red sauce"
       ],
       [
-        "mixed-vegetables",
+        "tomato-sauce",
         10,
-        "body"
+        "sauce base",
+        "seasoning"
       ],
       [
-        "lemon",
+        "onion",
         5,
-        "brightness"
+        "aromatic"
       ],
       [
         "olive-oil",
         5,
-        "finish",
+        "richness",
         "seasoning"
       ],
       [
-        "parsley",
+        "garlic",
         5,
-        "finish",
-        "seasoning"
+        "aromatic"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "salt cod",
+      "red pepper sauce",
+      "olive oil"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "briny",
+      "sweet-savory",
+      "mellow"
     ],
     "textureProfile": [
-      "tender fish",
-      "light flaky bite"
+      "firm fish flakes",
+      "smooth red sauce",
+      "soft vegetables"
     ],
     "riskFlags": [
       "contains-fish"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "fish"
+      "seafood",
+      "regional-dish"
     ],
     "avoidIfTags": [
-      "fish-allergy"
+      "fish-allergy",
+      "avoid-salty-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for saucy salt cod; skip if salty preserved fish is not appealing.",
+      "zh": "想吃红酱盐鳕鱼时适合；不喜欢偏咸腌鱼则避开。",
+      "nl": "Kies dit voor gezouten kabeljauw met saus; sla over als zoute vis niet past."
     },
+    "confidenceTag": "audited-remaining-batch-040",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105041-bacalao-a-la-vizcaina.webp",
+    "thumbPath": "/assets/dishes/thumb/105041-bacalao-a-la-vizcaina.webp"
   },
   {
     "id": "chipirones-en-su-tinta",
     "metadataCode": "105042",
+    "imageCode": "105042",
     "cuisineId": "spanish",
     "names": {
       "en": "Chipirones en su Tinta",
       "zh": "墨汁小鱿鱼",
-      "nl": "Chipirones en su Tinta",
-      "local": "Chipirones en su Tinta"
+      "nl": "Chipirones en su tinta",
+      "local": "Chipirones en su tinta"
     },
     "category": "seafood",
     "cookingMethods": [
-      "grilled"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Chipirones en su Tinta is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "墨汁小鱿鱼是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Chipirones en su Tinta is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Baby squid cooked in glossy black squid ink sauce, often served with rice.",
+      "zh": "小鱿鱼用黑色墨汁酱烹制，常配米饭。",
+      "nl": "Kleine inktvis in glanzende zwarte inkt saus, vaak met rijst."
     },
     "cookingProfile": {
-      "en": "Usually served with fish or seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish or seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish or seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect briny, deep seafood flavor and a dark sauce that can look intense.",
+      "zh": "可预期咸鲜深海味，黑色酱汁视觉存在感强。",
+      "nl": "Verwacht diepe zilte zeesmaak en een opvallend donkere saus."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "seafood",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Spanish baby squid dish recognized by its black squid-ink sauce.",
+        "zh": "西班牙小鱿鱼菜，识别重点是黑色墨汁酱。",
+        "nl": "Een Spaans gerecht van kleine pijlinktvis in zwarte inkt saus."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        40,
-        "main"
+        "squid",
+        55,
+        "baby squid"
       ],
       [
-        "mussels",
+        "squid-ink",
         20,
-        "seafood"
+        "black sauce",
+        "seasoning"
       ],
       [
-        "potato",
+        "steamed-rice",
         15,
         "side"
       ],
       [
-        "lemon",
-        10,
-        "brightness"
+        "onion",
+        5,
+        "sauce base"
       ],
       [
         "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "parsley",
         5,
         "finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "squid ink",
+      "baby squid",
+      "olive oil"
     ],
     "basicTaste": [
+      "briny",
       "savory",
-      "briny"
+      "deep"
     ],
     "textureProfile": [
-      "tender seafood",
-      "bright savory finish"
+      "tender squid",
+      "glossy sauce",
+      "soft rice"
     ],
     "riskFlags": [
-      "contains-fish",
       "contains-shellfish"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "seafood"
+      "seafood",
+      "adventurous"
     ],
     "avoidIfTags": [
-      "fish-allergy",
-      "shellfish-allergy"
+      "shellfish-allergy",
+      "avoid-dark-seafood-sauce"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you enjoy squid and strong seafood cues; skip if black ink sauce feels too intense.",
+      "zh": "喜欢鱿鱼和浓海味时值得；若黑色墨汁酱让你抗拒则不推荐。",
+      "nl": "Goed als je inktvis en sterke zeesmaak lust; sla over als zwarte inkt te intens klinkt."
     },
+    "confidenceTag": "audited-remaining-batch-040",
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105042-chipirones-en-su-tinta.webp",
+    "thumbPath": "/assets/dishes/thumb/105042-chipirones-en-su-tinta.webp"
   },
   {
     "id": "arroz-a-banda",
     "metadataCode": "105043",
+    "imageCode": "105043",
     "cuisineId": "spanish",
     "names": {
       "en": "Arroz a Banda",
-      "zh": "海鲜高汤米饭",
-      "nl": "Arroz a Banda",
-      "local": "Arroz a Banda"
+      "zh": "瓦伦西亚鱼汤海鲜饭",
+      "nl": "Arroz a banda",
+      "local": "Arroz a banda"
     },
-    "category": "seafood",
+    "category": "rice",
     "cookingMethods": [
-      "grilled"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Arroz a Banda is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "海鲜高汤米饭是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Arroz a Banda is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Short-grain rice cooked in seafood or fish stock, often served with aioli.",
+      "zh": "短粒米用海鲜或鱼汤煮成，常配蒜蛋黄酱。",
+      "nl": "Kortkorrelige rijst gekookt in vis- of zeevruchtenbouillon, vaak met aioli."
     },
     "cookingProfile": {
-      "en": "Usually served with fish or seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish or seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish or seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect savory fish-stock rice, less shell-heavy than many paellas.",
+      "zh": "重点是鱼汤入味的米饭，贝壳堆料通常少于很多海鲜饭。",
+      "nl": "Verwacht hartige visbouillonrijst, minder schelprijk dan veel paella."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Valencian seafood rice cooked in fish stock, usually simpler than showy paella.",
+        "zh": "瓦伦西亚鱼汤米饭，通常比展示型海鲜饭更简洁。",
+        "nl": "Een Valenciaanse rijst met visbouillon, soberder dan showpaella."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        40,
-        "main"
+        "short-grain-rice",
+        55,
+        "rice base"
       ],
       [
-        "mussels",
+        "broth",
         20,
-        "seafood"
+        "fish stock"
       ],
       [
-        "potato",
+        "seafood-mix",
         15,
-        "side"
-      ],
-      [
-        "lemon",
-        10,
-        "brightness"
+        "seafood pieces"
       ],
       [
         "olive-oil",
-        10,
-        "finish",
+        5,
+        "cooking fat",
         "seasoning"
       ],
       [
-        "parsley",
+        "garlic",
         5,
-        "finish",
-        "seasoning"
+        "aioli cue"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "fish stock",
+      "saffron rice",
+      "aioli"
     ],
     "basicTaste": [
       "savory",
-      "briny"
+      "briny",
+      "garlicky"
     ],
     "textureProfile": [
-      "tender seafood",
-      "bright savory finish"
+      "separate rice grains",
+      "light seafood pieces",
+      "sauce on side"
     ],
     "riskFlags": [
+      "contains-shellfish",
       "contains-fish",
-      "contains-shellfish"
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
+      "rice",
       "seafood"
     ],
     "avoidIfTags": [
+      "shellfish-allergy",
       "fish-allergy",
-      "shellfish-allergy"
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good order if you want seafood flavor carried by rice, not a shellfish pile.",
+      "zh": "想吃鱼汤味米饭而不是满盘带壳海鲜时适合。",
+      "nl": "Goed als je zeevruchtensmaak in rijst wilt, geen berg schelpen."
     },
+    "confidenceTag": "audited-remaining-batch-040",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105043-arroz-a-banda.webp",
+    "thumbPath": "/assets/dishes/thumb/105043-arroz-a-banda.webp"
   },
   {
     "id": "arroz-del-senyoret",
     "metadataCode": "105044",
+    "imageCode": "105044",
     "cuisineId": "spanish",
     "names": {
       "en": "Arroz del Senyoret",
       "zh": "去壳海鲜饭",
-      "nl": "Arroz del Senyoret",
-      "local": "Arroz del Senyoret"
+      "nl": "Arroz del senyoret",
+      "local": "Arroz del senyoret"
     },
-    "category": "seafood",
+    "category": "rice",
     "cookingMethods": [
-      "grilled"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Arroz del Senyoret is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "去壳海鲜饭是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Arroz del Senyoret is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Seafood rice with peeled shrimp, squid, and boneless seafood so it is easy to eat.",
+      "zh": "米饭配去壳虾、鱿鱼和无骨海鲜，吃起来方便。",
+      "nl": "Zeevruchtenrijst met gepelde garnalen, inktvis en graatloze zeevrucht."
     },
     "cookingProfile": {
-      "en": "Usually served with fish or seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish or seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish or seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect paella-like rice without much shell-cracking work.",
+      "zh": "有海鲜饭风味，但基本不需要剥壳。",
+      "nl": "Paella-achtige rijst zonder veel pelwerk."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Valencian peeled seafood rice where the shellfish is ready to eat.",
+        "zh": "瓦伦西亚去壳海鲜饭，特点是海鲜已处理好，方便直接吃。",
+        "nl": "Een Valenciaanse rijst waarbij de zeevruchten al gepeld zijn."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        40,
-        "main"
+        "short-grain-rice",
+        55,
+        "rice base"
       ],
       [
-        "mussels",
+        "shrimp",
         20,
+        "peeled shellfish"
+      ],
+      [
+        "squid",
+        15,
         "seafood"
       ],
       [
-        "potato",
-        15,
-        "side"
+        "broth",
+        5,
+        "stock"
       ],
       [
-        "lemon",
+        "saffron",
+        5,
+        "aroma",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "peeled seafood",
+      "saffron rice",
+      "fish stock"
+    ],
+    "basicTaste": [
+      "savory",
+      "briny",
+      "aromatic"
+    ],
+    "textureProfile": [
+      "separate rice",
+      "tender shrimp",
+      "soft squid"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-fish"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "rice",
+      "seafood",
+      "easy-to-eat"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "fish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it if you want seafood rice without messy shells; skip if shellfish is unsafe.",
+      "zh": "想吃方便入口的海鲜饭时适合；贝类或虾类过敏者避开。",
+      "nl": "Kies dit voor zeevruchtenrijst zonder rommelige schelpen; sla over bij allergie."
+    },
+    "confidenceTag": "audited-remaining-batch-040",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105044-arroz-del-senyoret.webp",
+    "thumbPath": "/assets/dishes/thumb/105044-arroz-del-senyoret.webp"
+  },
+  {
+    "id": "calcots",
+    "metadataCode": "105045",
+    "imageCode": "105045",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Calcots",
+      "zh": "加泰罗尼亚烤葱配坚果酱",
+      "nl": "Calcots",
+      "local": "Calçots"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "shortDescription": {
+      "en": "Charred young onions or leeks served with romesco sauce.",
+      "zh": "炭烤嫩葱或小韭葱，配红椒坚果酱。",
+      "nl": "Geblakerde jonge uien of prei met romescosaus."
+    },
+    "cookingProfile": {
+      "en": "It is smoky, messy, and sweet-oniony, with nutty sauce for dipping.",
+      "zh": "烟熏味明显，葱甜，常蘸坚果红椒酱，吃法较随意。",
+      "nl": "Rokerig, zoet-uiig en vaak met nootachtige dip."
+    },
+    "cuisineRole": {
+      "level": "festival",
+      "tags": [
+        "regional-dish",
+        "vegetarian"
+      ],
+      "description": {
+        "en": "A Catalan seasonal grilled onion dish served with romesco sauce.",
+        "zh": "加泰罗尼亚季节性烤葱菜，常配 romesco 坚果红椒酱。",
+        "nl": "Een Catalaans seizoensgerecht van gegrilde jonge ui met romescosaus."
+      }
+    },
+    "composition": [
+      [
+        "leek",
+        65,
+        "grilled onions"
+      ],
+      [
+        "bell-pepper",
         10,
-        "brightness"
+        "romesco base"
+      ],
+      [
+        "almonds",
+        10,
+        "nutty sauce"
       ],
       [
         "olive-oil",
         10,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "aromatic"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "charred onions",
+      "romesco sauce",
+      "almonds"
+    ],
+    "basicTaste": [
+      "smoky",
+      "sweet",
+      "nutty"
+    ],
+    "textureProfile": [
+      "soft onion layers",
+      "charred skin",
+      "thick sauce"
+    ],
+    "riskFlags": [
+      "contains-tree-nut"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "regional-dish",
+      "vegetarian"
+    ],
+    "avoidIfTags": [
+      "tree-nut-allergy",
+      "avoid-messy-food"
+    ],
+    "orderVerdict": {
+      "en": "Great for a seasonal Catalan vegetable experience; skip if smoky onions or nut sauce do not appeal.",
+      "zh": "想体验加泰罗尼亚季节烤葱时很适合；不爱烟熏葱或坚果酱则避开。",
+      "nl": "Mooi voor seizoensgroente uit Catalonië; sla over bij rookui of notensaus."
+    },
+    "confidenceTag": "audited-remaining-batch-040",
+    "spiceLevel": 0,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105045-calcots.webp",
+    "thumbPath": "/assets/dishes/thumb/105045-calcots.webp"
+  },
+  {
+    "id": "butifarra",
+    "metadataCode": "105046",
+    "imageCode": "105046",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Butifarra",
+      "zh": "加泰罗尼亚香肠配白豆",
+      "nl": "Butifarra",
+      "local": "Botifarra"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "grilled"
+    ],
+    "shortDescription": {
+      "en": "Grilled Catalan pork sausage, commonly served with white beans and garlic oil.",
+      "zh": "烤加泰罗尼亚猪肉香肠，常配白豆和蒜香油。",
+      "nl": "Gegrilde Catalaanse varkensworst, vaak met witte bonen en knoflookolie."
+    },
+    "cookingProfile": {
+      "en": "Expect a simple meaty sausage plate with creamy beans.",
+      "zh": "可预期直接的肉香肠和绵软白豆。",
+      "nl": "Verwacht een eenvoudig vlezig bord met romige bonen."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "regional-dish",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Catalan sausage often served with white beans.",
+        "zh": "加泰罗尼亚香肠菜，常配白豆。",
+        "nl": "Een Catalaanse worst die vaak met witte bonen wordt geserveerd."
+      }
+    },
+    "composition": [
+      [
+        "sausage-global",
+        55,
+        "pork sausage"
+      ],
+      [
+        "white-beans",
+        30,
+        "bean side"
+      ],
+      [
+        "garlic",
+        5,
+        "aromatic"
+      ],
+      [
+        "olive-oil",
+        5,
         "finish",
         "seasoning"
       ],
       [
         "parsley",
         5,
-        "finish",
+        "fresh herb",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "grilled sausage",
+      "white beans",
+      "garlic oil"
     ],
     "basicTaste": [
       "savory",
-      "briny"
+      "meaty",
+      "mild"
     ],
     "textureProfile": [
-      "tender seafood",
-      "bright savory finish"
+      "firm sausage",
+      "soft beans",
+      "light char"
     ],
     "riskFlags": [
-      "contains-fish",
-      "contains-shellfish"
+      "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "seafood"
+      "meat-main",
+      "regional-dish"
     ],
     "avoidIfTags": [
-      "fish-allergy",
-      "shellfish-allergy"
+      "no-pork"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A reliable order for sausage and beans; skip if pork is off the table.",
+      "zh": "想吃香肠配豆子的稳妥主菜时适合；不吃猪肉则避开。",
+      "nl": "Betrouwbaar voor worst met bonen; sla over bij geen varken."
     },
+    "confidenceTag": "audited-remaining-batch-040",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105046-butifarra.webp",
+    "thumbPath": "/assets/dishes/thumb/105046-butifarra.webp"
   },
   {
-    "id": "calcots",
-    "metadataCode": "105045",
+    "id": "sobrasada",
+    "metadataCode": "105047",
+    "imageCode": "105047",
     "cuisineId": "spanish",
     "names": {
-      "en": "Calcots",
-      "zh": "加泰烤葱",
-      "nl": "Calcots",
-      "local": "Calcots"
+      "en": "Sobrasada",
+      "zh": "马略卡红椒猪肉酱肠",
+      "nl": "Sobrasada",
+      "local": "Sobrasada"
     },
     "category": "starter",
     "cookingMethods": [
       "assembled"
     ],
     "shortDescription": {
-      "en": "Calcots is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "加泰烤葱是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Calcots is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Soft spreadable cured pork sausage with paprika, served on toast or bread.",
+      "zh": "柔软可涂抹的红椒风干猪肉肠，常配烤面包。",
+      "nl": "Zachte smeerbare gedroogde varkensworst met paprika, op toast of brood."
     },
     "cookingProfile": {
-      "en": "Usually served with small starter, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small starter，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small starter; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is fatty, smoky-red, and spreadable, closer to a rich tapa than a sliced sausage.",
+      "zh": "脂香浓、红椒烟熏感明显，是可涂抹 tapas，不像切片香肠。",
+      "nl": "Vet, rood en smeerbaar, meer rijke tapa dan plakjes worst."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "tapas"
       ],
       "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Mallorcan spreadable paprika pork sausage, often served on bread.",
+        "zh": "马略卡可涂抹红椒猪肉肠，常抹在面包上。",
+        "nl": "Een Mallorcaanse smeerbare paprikaworst, vaak op brood."
       }
     },
     "composition": [
       [
+        "pork",
+        45,
+        "cured sausage"
+      ],
+      [
+        "smoked-paprika",
+        20,
+        "paprika flavor",
+        "seasoning"
+      ],
+      [
         "bread",
-        30,
-        "base"
-      ],
-      [
-        "cheese",
-        20,
-        "richness"
-      ],
-      [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "ham",
-        15,
-        "main"
+        25,
+        "toast base"
       ],
       [
         "olive-oil",
-        10,
+        5,
         "finish",
         "seasoning"
       ],
       [
-        "herbs",
+        "honey",
         5,
-        "finish"
+        "optional sweet pairing"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "paprika pork",
+      "toast",
+      "olive oil"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
-    ],
-    "textureProfile": [
-      "small bites",
-      "savory finish"
-    ],
-    "riskFlags": [],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "starter"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 1,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "butifarra",
-    "metadataCode": "105046",
-    "cuisineId": "spanish",
-    "names": {
-      "en": "Butifarra",
-      "zh": "加泰罗尼亚香肠",
-      "nl": "Butifarra",
-      "local": "Butifarra"
-    },
-    "category": "pork",
-    "cookingMethods": [
-      "grilled"
-    ],
-    "shortDescription": {
-      "en": "Butifarra is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "加泰罗尼亚香肠是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Butifarra is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "pork",
-        50,
-        "main"
-      ],
-      [
-        "potato",
-        20,
-        "side"
-      ],
-      [
-        "cabbage",
-        10,
-        "body"
-      ],
-      [
-        "mustard",
-        5,
-        "condiment",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
-    ],
-    "basicTaste": [
+      "smoky",
       "savory",
       "rich"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "spreadable sausage",
+      "crisp toast",
+      "fatty finish"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-gluten"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pork"
+      "tapas",
+      "regional-dish"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "no-pork",
+      "gluten-free",
+      "avoid-fatty-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Try it if rich paprika pork on toast sounds good; skip if fatty cured meat is too much.",
+      "zh": "喜欢红椒猪肉酱配烤面包时可试；怕油脂重或不吃猪肉则避开。",
+      "nl": "Probeer dit bij rijke paprikaworst op toast; sla over als vet vlees te zwaar is."
     },
+    "confidenceTag": "audited-remaining-batch-040",
     "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "sobrasada",
-    "metadataCode": "105047",
-    "cuisineId": "spanish",
-    "names": {
-      "en": "Sobrasada",
-      "zh": "马略卡辣味猪肉肠酱",
-      "nl": "Sobrasada",
-      "local": "Sobrasada"
-    },
-    "category": "pork",
-    "cookingMethods": [
-      "grilled"
-    ],
-    "shortDescription": {
-      "en": "Sobrasada is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "马略卡辣味猪肉肠酱是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Sobrasada is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "pork",
-        50,
-        "main"
-      ],
-      [
-        "potato",
-        20,
-        "side"
-      ],
-      [
-        "cabbage",
-        10,
-        "body"
-      ],
-      [
-        "mustard",
-        5,
-        "condiment",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
-    ],
-    "basicTaste": [
-      "savory",
-      "rich"
-    ],
-    "textureProfile": [
-      "savory meat",
-      "browned edges"
-    ],
-    "riskFlags": [
-      "contains-pork"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "pork"
-    ],
-    "avoidIfTags": [
-      "no-pork"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105047-sobrasada.webp",
+    "thumbPath": "/assets/dishes/thumb/105047-sobrasada.webp"
   },
   {
     "id": "coca-de-recapte",
     "metadataCode": "105048",
+    "imageCode": "105048",
     "cuisineId": "spanish",
     "names": {
       "en": "Coca de Recapte",
-      "zh": "加泰咸烤饼",
-      "nl": "Coca de Recapte",
-      "local": "Coca de Recapte"
+      "zh": "加泰罗尼亚烤蔬菜咸饼",
+      "nl": "Coca de recapte",
+      "local": "Coca de recapte"
     },
     "category": "bread",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Coca de Recapte is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "加泰咸烤饼是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Coca de Recapte is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Thin savory flatbread with roasted peppers, eggplant, onion, and often anchovy or sausage.",
+      "zh": "薄咸饼上铺烤甜椒、茄子、洋葱，常加鳀鱼或香肠。",
+      "nl": "Dunne hartige plaatkoek met geroosterde paprika, aubergine, ui en vaak ansjovis of worst."
     },
     "cookingProfile": {
-      "en": "Usually served with baked bread or pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现baked bread or pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met baked bread or pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a crisp-chewy bread base with smoky vegetables.",
+      "zh": "底部有薄面饼的脆韧感，上面是烟熏感烤蔬菜。",
+      "nl": "Krokant-taai brood met rokerige groente."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Catalan savory flatbread topped with roasted vegetables and sometimes anchovy or sausage.",
+        "zh": "加泰罗尼亚咸味扁面饼，上面常有烤蔬菜，也可能有鳀鱼或香肠。",
+        "nl": "Een Catalaanse hartige plaatkoek met geroosterde groente en soms ansjovis of worst."
+      }
+    },
+    "composition": [
+      [
+        "bread",
+        40,
+        "flatbread base"
+      ],
+      [
+        "bell-pepper",
+        20,
+        "roasted topping"
+      ],
+      [
+        "eggplant",
+        15,
+        "roasted topping"
+      ],
+      [
+        "onion",
+        10,
+        "sweet aromatic"
+      ],
+      [
+        "anchovies",
+        10,
+        "salty topping"
+      ],
+      [
+        "olive-oil",
+        5,
+        "finish",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "roasted vegetables",
+      "olive oil",
+      "anchovy"
+    ],
+    "basicTaste": [
+      "savory",
+      "smoky",
+      "briny"
+    ],
+    "textureProfile": [
+      "thin bread",
+      "soft vegetables",
+      "salty topping"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-fish"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "regional-dish",
+      "tapas"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "fish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Good if you want a savory flatbread with roasted vegetables; skip if anchovy is unwelcome.",
+      "zh": "想吃烤蔬菜咸味面饼时适合；不喜欢鳀鱼咸鲜则谨慎。",
+      "nl": "Goed voor hartige plaatkoek met groente; sla over als ansjovis niet past."
+    },
+    "confidenceTag": "audited-remaining-batch-040",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105048-coca-de-recapte.webp",
+    "thumbPath": "/assets/dishes/thumb/105048-coca-de-recapte.webp"
+  },
+  {
+    "id": "empanada-gallega",
+    "metadataCode": "105049",
+    "imageCode": "105049",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Empanada Gallega",
+      "zh": "加利西亚咸派",
+      "nl": "Empanada Gallega",
+      "local": "Empanada gallega"
+    },
+    "category": "bread",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Golden baked savory pie filled with tuna or meat, peppers, onion, and tomato.",
+      "zh": "金黄烘烤咸派，内馅常有金枪鱼或肉、甜椒、洋葱和番茄。",
+      "nl": "Goudgebakken hartige taart met tonijn of vlees, paprika, ui en tomaat."
+    },
+    "cookingProfile": {
+      "en": "Expect a bready pastry shell and saucy filling, more filling than a small tapa.",
+      "zh": "外层是面点皮，内馅带汁，比小 tapas 更有饱腹感。",
+      "nl": "Broodachtig deeg met smeuïge vulling, vullender dan kleine tapas."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish"
+      ],
+      "description": {
+        "en": "A Galician savory pie often filled with tuna, peppers, onion, and tomato.",
+        "zh": "加利西亚咸派，常以金枪鱼、甜椒、洋葱和番茄为馅。",
+        "nl": "Een Galicische hartige pastei, vaak met tonijn, paprika, ui en tomaat."
+      }
+    },
+    "composition": [
+      [
+        "wheat-flour",
+        35,
+        "pie dough"
+      ],
+      [
+        "tuna",
+        25,
+        "fish filling"
+      ],
+      [
+        "bell-pepper",
+        15,
+        "filling"
+      ],
+      [
+        "onion",
+        10,
+        "aromatic"
+      ],
+      [
+        "tomato-sauce",
+        10,
+        "sauce",
+        "seasoning"
+      ],
+      [
+        "olive-oil",
+        5,
+        "richness",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "tuna filling",
+      "pepper tomato sofrito",
+      "baked crust"
+    ],
+    "basicTaste": [
+      "savory",
+      "bready",
+      "mild"
+    ],
+    "textureProfile": [
+      "golden crust",
+      "soft filling",
+      "sliceable pie"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-fish"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "regional-dish",
+      "sharing"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "fish-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a filling savory pie slice; skip if you want something light or gluten-free.",
+      "zh": "想吃饱腹咸派切片时适合；想要清淡或无麸质则避开。",
+      "nl": "Kies dit voor een vullende hartige punt; sla over als je licht of glutenvrij wilt."
+    },
+    "confidenceTag": "audited-remaining-batch-040",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105049-empanada-gallega.webp",
+    "thumbPath": "/assets/dishes/thumb/105049-empanada-gallega.webp"
+  },
+  {
+    "id": "lacon-con-grelos",
+    "metadataCode": "105050",
+    "imageCode": "105050",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Lacon con Grelos",
+      "zh": "加利西亚猪肩配芜菁叶",
+      "nl": "Lacon con grelos",
+      "local": "Lacón con grelos"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "boiled",
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Cured pork shoulder served with turnip greens, potatoes, and chorizo.",
+      "zh": "腌猪肩肉配芜菁叶、土豆和西班牙辣香肠。",
+      "nl": "Gepekelde varkensschouder met raapstelen, aardappelen en chorizo."
+    },
+    "cookingProfile": {
+      "en": "Expect salty pork, bitter greens, and boiled potatoes in a hearty plate.",
+      "zh": "可预期咸香猪肉、略苦青菜和水煮土豆，整体厚实。",
+      "nl": "Zout varkensvlees, licht bittere groente en gekookte aardappel."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish"
+      ],
+      "description": {
+        "en": "A Galician pork shoulder plate with turnip greens, potatoes, and chorizo.",
+        "zh": "加利西亚猪肩肉盘，配芜菁叶、土豆和辣香肠。",
+        "nl": "Een Galicisch bord met varkensschouder, raapstelen, aardappel en chorizo."
+      }
+    },
+    "composition": [
+      [
+        "pork",
+        45,
+        "cured shoulder"
+      ],
+      [
+        "turnip-greens",
+        25,
+        "greens"
+      ],
+      [
+        "potato",
+        20,
+        "side"
+      ],
+      [
+        "chorizo",
+        10,
+        "sausage"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cured pork",
+      "turnip greens",
+      "chorizo"
+    ],
+    "basicTaste": [
+      "salty",
+      "savory",
+      "earthy"
+    ],
+    "textureProfile": [
+      "tender pork slices",
+      "leafy greens",
+      "soft potatoes"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "regional-dish",
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "avoid-salty-food"
+    ],
+    "orderVerdict": {
+      "en": "Good for a rustic pork-and-greens main; skip if cured pork is too salty for you.",
+      "zh": "想吃乡土猪肉配青菜主菜时适合；怕腌猪肉偏咸则谨慎。",
+      "nl": "Goed voor rustiek varken met groente; sla over als gepekeld vlees te zout is."
+    },
+    "confidenceTag": "audited-remaining-batch-040",
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105050-lacon-con-grelos.webp",
+    "thumbPath": "/assets/dishes/thumb/105050-lacon-con-grelos.webp"
+  },
+  {
+    "id": "oreja-a-la-plancha",
+    "metadataCode": "105051",
+    "imageCode": "105051",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Oreja a la Plancha",
+      "zh": "铁板煎猪耳",
+      "nl": "Oreja a la plancha",
+      "local": "Oreja a la plancha"
+    },
+    "category": "starter",
+    "cookingMethods": [
+      "grilled",
+      "fried"
+    ],
+    "shortDescription": {
+      "en": "Sliced pig ear grilled or pan-fried until chewy with crisp browned edges.",
+      "zh": "猪耳切片煎烤，口感有嚼劲，边缘焦脆。",
+      "nl": "Plakjes varkensoor gegrild of gebakken tot taai met krokante randjes."
+    },
+    "cookingProfile": {
+      "en": "Expect chewy gelatinous pork texture, not tender steak.",
+      "zh": "可预期胶质有嚼劲的猪肉口感，不是嫩牛排。",
+      "nl": "Verwacht taaie gelatineuze varkenstextuur, geen malse steak."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "tapas",
+        "regional-dish"
+      ],
+      "description": {
+        "en": "A Spanish tapas dish of grilled pig ear with crisp edges.",
+        "zh": "西班牙 tapas 猪耳，重点是煎烤后的脆边和胶质嚼感。",
+        "nl": "Een Spaanse tapa van gegrild varkensoor met krokante randjes."
+      }
+    },
+    "composition": [
+      [
+        "pig-ear",
+        70,
+        "offal"
+      ],
+      [
+        "olive-oil",
+        10,
+        "griddle fat",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        10,
+        "aromatic"
+      ],
+      [
+        "parsley",
+        5,
+        "fresh herb",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "acid"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "grilled pig ear",
+      "garlic parsley",
+      "lemon"
+    ],
+    "basicTaste": [
+      "savory",
+      "garlicky",
+      "rich"
+    ],
+    "textureProfile": [
+      "chewy ear",
+      "crisp edges",
+      "oily finish"
+    ],
+    "riskFlags": [
+      "contains-pork"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "tapas",
+      "adventurous"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "avoid-offal",
+      "avoid-chewy-texture"
+    ],
+    "orderVerdict": {
+      "en": "Order only if chewy offal tapas sounds appealing; skip if gelatinous pork texture is uncomfortable.",
+      "zh": "只有能接受有嚼劲内脏类 tapas 时才推荐；不喜欢胶质猪耳则避开。",
+      "nl": "Bestel alleen als taaie orgaantapa aanspreekt; sla over bij moeite met varkensoor."
+    },
+    "confidenceTag": "audited-remaining-batch-040",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 4,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105051-oreja-a-la-plancha.webp",
+    "thumbPath": "/assets/dishes/thumb/105051-oreja-a-la-plancha.webp"
+  },
+  {
+    "id": "txangurro",
+    "metadataCode": "105052",
+    "imageCode": "105052",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Txangurro",
+      "zh": "巴斯克焗蟹壳",
+      "nl": "Txangurro",
+      "local": "Txangurro"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "baked",
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Cooked crab meat mixed with tomato, onion, and brandy-like depth, served in the shell.",
+      "zh": "熟蟹肉拌番茄、洋葱和酒香调味，装在蟹壳里上桌。",
+      "nl": "Gekookt krabvlees met tomaat, ui en brandyachtige diepte, in de schaal geserveerd."
+    },
+    "cookingProfile": {
+      "en": "Expect sweet crab meat with a saucy baked top, richer than plain boiled crab.",
+      "zh": "蟹肉鲜甜，表层带酱汁焗香，比清煮蟹更浓。",
+      "nl": "Zoet krabvlees met sauzige gegratineerde bovenkant, rijker dan gekookte krab."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "seafood"
+      ],
+      "description": {
+        "en": "A Basque stuffed crab dish often served gratinated in the shell.",
+        "zh": "巴斯克蟹肉菜，常把蟹肉调味后装回壳中焗烤。",
+        "nl": "Een Baskisch krabgerecht, vaak gegratineerd in de schaal."
+      }
+    },
+    "composition": [
+      [
+        "crab",
+        60,
+        "crab meat"
+      ],
+      [
+        "tomato-sauce",
+        15,
+        "sauce base",
+        "seasoning"
+      ],
+      [
+        "onion",
+        10,
+        "aromatic"
+      ],
+      [
+        "wine",
+        5,
+        "brandy-like depth"
+      ],
+      [
+        "bread",
+        5,
+        "crumb topping"
+      ],
+      [
+        "olive-oil",
+        5,
+        "richness",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "crab",
+      "tomato onion sofrito",
+      "brandy-like depth"
+    ],
+    "basicTaste": [
+      "sweet",
+      "savory",
+      "briny"
+    ],
+    "textureProfile": [
+      "shredded crab",
+      "saucy shell filling",
+      "light gratin"
+    ],
+    "riskFlags": [
+      "contains-shellfish",
+      "contains-gluten",
+      "contains-alcohol"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "seafood",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "shellfish-allergy",
+      "gluten-free",
+      "avoid-alcohol"
+    ],
+    "orderVerdict": {
+      "en": "A strong pick for crab lovers; skip if shellfish or rich seafood stuffing is an issue.",
+      "zh": "喜欢蟹肉时很值得；贝类过敏或不爱浓郁蟹馅则避开。",
+      "nl": "Sterk voor krabliefhebbers; sla over bij schelpdierallergie of rijke vulling."
+    },
+    "confidenceTag": "audited-remaining-batch-040",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105052-txangurro.webp",
+    "thumbPath": "/assets/dishes/thumb/105052-txangurro.webp"
+  },
+  {
+    "id": "kokotxas",
+    "metadataCode": "105053",
+    "imageCode": "105053",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Kokotxas",
+      "zh": "巴斯克鱼脸颊肉",
+      "nl": "Kokotxas",
+      "local": "Kokotxas"
+    },
+    "category": "seafood",
+    "cookingMethods": [
+      "simmered"
+    ],
+    "shortDescription": {
+      "en": "Tender fish cheeks served in glossy garlic olive-oil sauce.",
+      "zh": "嫩鱼脸颊肉配蒜香橄榄油乳化酱汁。",
+      "nl": "Malse viswangen in glanzende knoflook-olijfoliesaus."
+    },
+    "cookingProfile": {
+      "en": "Expect gelatinous tender fish pieces and a rich emulsified sauce.",
+      "zh": "可预期胶质嫩滑的鱼肉小块和浓润乳化酱汁。",
+      "nl": "Verwacht gelatineuze malse visstukjes en rijke geëmulgeerde saus."
+    },
+    "cuisineRole": {
+      "level": "regional",
+      "tags": [
+        "regional-dish",
+        "seafood"
+      ],
+      "description": {
+        "en": "A Basque delicacy of hake or cod cheeks in pil-pil style sauce.",
+        "zh": "巴斯克鱼脸颊肉菜，常用蒜香橄榄油乳化汁。",
+        "nl": "Een Baskische delicatesse van heek- of kabeljauwwangen in pil-pilsaus."
+      }
+    },
+    "composition": [
+      [
+        "fish-cheeks",
+        65,
+        "fish cheeks"
+      ],
+      [
+        "olive-oil",
+        20,
+        "pil-pil sauce",
+        "seasoning"
+      ],
+      [
+        "garlic",
+        5,
+        "aromatic"
+      ],
+      [
+        "parsley",
+        5,
+        "fresh herb",
+        "seasoning"
+      ],
+      [
+        "lemon",
+        5,
+        "acid"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fish cheeks",
+      "garlic olive oil",
+      "parsley"
+    ],
+    "basicTaste": [
+      "savory",
+      "garlicky",
+      "delicate"
+    ],
+    "textureProfile": [
+      "gelatinous fish",
+      "glossy sauce",
+      "tender bites"
+    ],
+    "riskFlags": [
+      "contains-fish"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
+    "goodForTags": [
+      "seafood",
+      "regional-dish"
+    ],
+    "avoidIfTags": [
+      "fish-allergy",
+      "avoid-gelatinous-texture"
+    ],
+    "orderVerdict": {
+      "en": "Good for diners who enjoy delicate fish textures; skip if gelatinous seafood feels strange.",
+      "zh": "适合喜欢细嫩鱼肉口感的人；不习惯胶质海鲜则谨慎。",
+      "nl": "Goed voor wie delicate visstructuur waardeert; sla over als gelatineuze zeevrucht vreemd voelt."
+    },
+    "confidenceTag": "audited-remaining-batch-040",
+    "spiceLevel": 0,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105053-kokotxas.webp",
+    "thumbPath": "/assets/dishes/thumb/105053-kokotxas.webp"
+  },
+  {
+    "id": "tarta-de-queso-vasca",
+    "metadataCode": "105054",
+    "imageCode": "105054",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Basque Cheesecake",
+      "zh": "巴斯克焦香芝士蛋糕",
+      "nl": "Baskische cheesecake",
+      "local": "Tarta de queso vasca"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "baked"
+    ],
+    "shortDescription": {
+      "en": "Crustless cheesecake with a deeply browned top and creamy center.",
+      "zh": "无饼底芝士蛋糕，顶部深焦色，中心柔滑。",
+      "nl": "Cheesecake zonder bodem met donkere bovenkant en romige kern."
+    },
+    "cookingProfile": {
+      "en": "Expect rich dairy, caramelized bitterness, and a soft custardy middle.",
+      "zh": "可预期浓乳香、焦糖微苦和柔软布丁感内心。",
+      "nl": "Rijk zuivel, gekaramelliseerde bitterheid en zachte custardkern."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "dessert",
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A Basque-style burnt cheesecake with a browned top and soft center.",
+        "zh": "巴斯克风格焦香芝士蛋糕，顶部深色，内部柔软。",
+        "nl": "Een Baskische cheesecake met gebrande bovenkant en zachte kern."
+      }
+    },
+    "composition": [
+      [
+        "cream-cheese",
+        45,
+        "cheese body"
+      ],
+      [
+        "cream",
+        25,
+        "richness"
+      ],
+      [
+        "egg",
+        15,
+        "set structure"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
+      ],
+      [
+        "wheat-flour",
+        5,
+        "light binder"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "cream cheese",
+      "burnt top",
+      "caramelized sugar"
+    ],
+    "basicTaste": [
+      "sweet",
+      "creamy",
+      "caramelized"
+    ],
+    "textureProfile": [
+      "soft center",
+      "browned top",
+      "dense slice"
+    ],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-egg",
+      "contains-gluten"
+    ],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
+    "goodForTags": [
+      "dessert",
+      "first-timer-friendly"
+    ],
+    "avoidIfTags": [
+      "dairy-free",
+      "egg-allergy",
+      "gluten-free"
+    ],
+    "orderVerdict": {
+      "en": "A strong dessert pick if you like rich cheesecake; skip if you want something light or dairy-free.",
+      "zh": "喜欢浓郁芝士蛋糕时很稳；想要清淡或无乳制品则不适合。",
+      "nl": "Sterk dessert als je rijke cheesecake wilt; sla over bij licht of zuivelvrij."
+    },
+    "confidenceTag": "audited-remaining-batch-040",
+    "spiceLevel": 0,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 1,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105054-tarta-de-queso-vasca.webp",
+    "thumbPath": "/assets/dishes/thumb/105054-tarta-de-queso-vasca.webp"
+  },
+  {
+    "id": "torrijas",
+    "metadataCode": "105055",
+    "imageCode": "105055",
+    "cuisineId": "spanish",
+    "names": {
+      "en": "Torrijas",
+      "zh": "西班牙牛奶浸炸面包",
+      "nl": "Torrijas",
+      "local": "Torrijas"
+    },
+    "category": "dessert",
+    "cookingMethods": [
+      "fried"
+    ],
+    "shortDescription": {
+      "en": "Thick bread slices soaked in milk or wine, fried, and finished with cinnamon sugar or syrup.",
+      "zh": "厚面包片用牛奶或酒浸泡后煎炸，撒肉桂糖或淋糖浆。",
+      "nl": "Dikke sneetjes brood geweekt in melk of wijn, gebakken en afgewerkt met kaneelsuiker of siroop."
+    },
+    "cookingProfile": {
+      "en": "Expect soft custardy bread with a browned sweet outside.",
+      "zh": "内部像布丁般柔软，外层煎至甜香上色。",
+      "nl": "Zacht custardachtig brood met zoete bruine buitenkant."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "dessert",
+        "festival"
+      ],
+      "description": {
+        "en": "A Spanish milk-soaked fried bread dessert often served with cinnamon and syrup.",
+        "zh": "西班牙牛奶浸炸面包甜点，常配肉桂和糖浆。",
+        "nl": "Een Spaans dessert van in melk geweekt gebakken brood met kaneel en siroop."
       }
     },
     "composition": [
       [
         "bread",
         45,
-        "base"
+        "soaked bread"
       ],
       [
-        "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "cheese",
-        15,
-        "filling"
-      ],
-      [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
-        "sea-salt",
-        5,
-        "seasoning",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
-    ],
-    "basicTaste": [
-      "savory",
-      "mild"
-    ],
-    "textureProfile": [
-      "soft bread",
-      "crisp edges"
-    ],
-    "riskFlags": [
-      "contains-gluten",
-      "contains-dairy"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "bread"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "empanada-gallega",
-    "metadataCode": "105049",
-    "cuisineId": "spanish",
-    "names": {
-      "en": "Empanada Gallega",
-      "zh": "加利西亚馅饼",
-      "nl": "Empanada Gallega",
-      "local": "Empanada Gallega"
-    },
-    "category": "pastry",
-    "cookingMethods": [
-      "baked"
-    ],
-    "shortDescription": {
-      "en": "Empanada Gallega is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "加利西亚馅饼是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Empanada Gallega is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with savory pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现savory pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met savory pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "common",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "pastry-crust",
-        40,
-        "base"
-      ],
-      [
-        "cheese",
+        "milk-solids",
         20,
-        "filling"
+        "soak"
       ],
       [
         "egg",
         15,
-        "binder"
+        "coating"
       ],
       [
-        "mixed-vegetables",
+        "sugar",
         10,
-        "body"
+        "sweetness"
       ],
       [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
-        "black-pepper",
+        "cinnamon",
         5,
-        "seasoning",
+        "spice",
         "seasoning"
+      ],
+      [
+        "honey",
+        5,
+        "syrup"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "cinnamon sugar",
+      "milk-soaked bread",
+      "honey syrup"
     ],
     "basicTaste": [
-      "savory",
-      "buttery"
+      "sweet",
+      "warm-spiced",
+      "milky"
     ],
     "textureProfile": [
-      "flaky pastry",
-      "soft filling"
+      "soft soaked center",
+      "fried edges",
+      "sticky syrup"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-dairy",
       "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "pastry"
+      "dessert",
+      "festival"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, buttery profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、buttery的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, buttery je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good for a warm sweet bread dessert; skip if soft soaked bread texture is not appealing.",
+      "zh": "想吃温热甜面包甜点时适合；不喜欢浸软面包口感则避开。",
+      "nl": "Goed voor warm zoet brooddessert; sla over als geweekt brood niet past."
     },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "lacon-con-grelos",
-    "metadataCode": "105050",
-    "cuisineId": "spanish",
-    "names": {
-      "en": "Lacon con Grelos",
-      "zh": "加利西亚猪肩配芜菁叶",
-      "nl": "Lacon con Grelos",
-      "local": "Lacon con Grelos"
-    },
-    "category": "pork",
-    "cookingMethods": [
-      "grilled"
-    ],
-    "shortDescription": {
-      "en": "Lacon con Grelos is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "加利西亚猪肩配芜菁叶是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Lacon con Grelos is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "pork",
-        50,
-        "main"
-      ],
-      [
-        "potato",
-        20,
-        "side"
-      ],
-      [
-        "cabbage",
-        10,
-        "body"
-      ],
-      [
-        "mustard",
-        5,
-        "condiment",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
-    ],
-    "basicTaste": [
-      "savory",
-      "rich"
-    ],
-    "textureProfile": [
-      "savory meat",
-      "browned edges"
-    ],
-    "riskFlags": [
-      "contains-pork"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "pork"
-    ],
-    "avoidIfTags": [
-      "no-pork"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
-    },
+    "confidenceTag": "audited-remaining-batch-040",
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "oreja-a-la-plancha",
-    "metadataCode": "105051",
-    "cuisineId": "spanish",
-    "names": {
-      "en": "Oreja a la Plancha",
-      "zh": "铁板猪耳",
-      "nl": "Oreja a la Plancha",
-      "local": "Oreja a la Plancha"
-    },
-    "category": "pork",
-    "cookingMethods": [
-      "grilled"
-    ],
-    "shortDescription": {
-      "en": "Oreja a la Plancha is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "铁板猪耳是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Oreja a la Plancha is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "pork",
-        50,
-        "main"
-      ],
-      [
-        "potato",
-        20,
-        "side"
-      ],
-      [
-        "cabbage",
-        10,
-        "body"
-      ],
-      [
-        "mustard",
-        5,
-        "condiment",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
-    ],
-    "basicTaste": [
-      "savory",
-      "rich"
-    ],
-    "textureProfile": [
-      "savory meat",
-      "browned edges"
-    ],
-    "riskFlags": [
-      "contains-pork"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "pork"
-    ],
-    "avoidIfTags": [
-      "no-pork"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "txangurro",
-    "metadataCode": "105052",
-    "cuisineId": "spanish",
-    "names": {
-      "en": "Txangurro",
-      "zh": "巴斯克蟹肉盅",
-      "nl": "Txangurro",
-      "local": "Txangurro"
-    },
-    "category": "seafood",
-    "cookingMethods": [
-      "grilled"
-    ],
-    "shortDescription": {
-      "en": "Txangurro is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "巴斯克蟹肉盅是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Txangurro is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with fish or seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish or seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish or seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "fish-fillet",
-        40,
-        "main"
-      ],
-      [
-        "mussels",
-        20,
-        "seafood"
-      ],
-      [
-        "potato",
-        15,
-        "side"
-      ],
-      [
-        "lemon",
-        10,
-        "brightness"
-      ],
-      [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
-    ],
-    "basicTaste": [
-      "savory",
-      "briny"
-    ],
-    "textureProfile": [
-      "tender seafood",
-      "bright savory finish"
-    ],
-    "riskFlags": [
-      "contains-fish",
-      "contains-shellfish"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "seafood"
-    ],
-    "avoidIfTags": [
-      "fish-allergy",
-      "shellfish-allergy"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "kokotxas",
-    "metadataCode": "105053",
-    "cuisineId": "spanish",
-    "names": {
-      "en": "Kokotxas",
-      "zh": "巴斯克鱼颊",
-      "nl": "Kokotxas",
-      "local": "Kokotxas"
-    },
-    "category": "fish",
-    "cookingMethods": [
-      "grilled"
-    ],
-    "shortDescription": {
-      "en": "Kokotxas is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "巴斯克鱼颊是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Kokotxas is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "fish-fillet",
-        60,
-        "main"
-      ],
-      [
-        "potato",
-        15,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "lemon",
-        5,
-        "brightness"
-      ],
-      [
-        "olive-oil",
-        5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
-    ],
-    "basicTaste": [
-      "savory",
-      "mild"
-    ],
-    "textureProfile": [
-      "tender fish",
-      "light flaky bite"
-    ],
-    "riskFlags": [
-      "contains-fish"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "fish"
-    ],
-    "avoidIfTags": [
-      "fish-allergy"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "tarta-de-queso-vasca",
-    "metadataCode": "105054",
-    "cuisineId": "spanish",
-    "names": {
-      "en": "Basque Cheesecake",
-      "zh": "巴斯克芝士蛋糕",
-      "nl": "Basque Cheesecake",
-      "local": "Basque Cheesecake"
-    },
-    "category": "dessert",
-    "cookingMethods": [
-      "baked"
-    ],
-    "shortDescription": {
-      "en": "Basque Cheesecake is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "巴斯克芝士蛋糕是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Basque Cheesecake is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "common",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "sugar",
-        20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
-    ],
-    "basicTaste": [
-      "sweet",
-      "creamy"
-    ],
-    "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
-    ],
-    "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "dessert"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
-    ],
-    "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "torrijas",
-    "metadataCode": "105055",
-    "cuisineId": "spanish",
-    "names": {
-      "en": "Torrijas",
-      "zh": "西班牙炸牛奶吐司",
-      "nl": "Torrijas",
-      "local": "Torrijas"
-    },
-    "category": "dessert",
-    "cookingMethods": [
-      "baked"
-    ],
-    "shortDescription": {
-      "en": "Torrijas is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "西班牙炸牛奶吐司是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Torrijas is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "common",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "sugar",
-        20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
-    ],
-    "basicTaste": [
-      "sweet",
-      "creamy"
-    ],
-    "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
-    ],
-    "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "dessert"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
-    ],
-    "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105055-torrijas.webp",
+    "thumbPath": "/assets/dishes/thumb/105055-torrijas.webp"
   },
   {
     "id": "leche-frita",
     "metadataCode": "105056",
+    "imageCode": "105056",
     "cuisineId": "spanish",
     "names": {
       "en": "Leche Frita",
       "zh": "西班牙炸牛奶",
-      "nl": "Leche Frita",
-      "local": "Leche Frita"
+      "nl": "Leche frita",
+      "local": "Leche frita"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "set",
+      "fried"
     ],
     "shortDescription": {
-      "en": "Leche Frita is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "西班牙炸牛奶是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Leche Frita is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Set milk custard cut into squares, fried, and dusted with cinnamon sugar.",
+      "zh": "牛奶卡仕达凝固后切方块油炸，再撒肉桂糖。",
+      "nl": "Opgestijfde melkcustard in blokjes, gebakken en bestrooid met kaneelsuiker."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a crisp sweet outside and soft creamy center.",
+      "zh": "外层甜脆，中心柔软奶香。",
+      "nl": "Krokant zoet buiten, zacht romig binnen."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "dessert"
       ],
       "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Spanish fried milk custard dessert with cinnamon sugar.",
+        "zh": "西班牙炸牛奶甜点，常配肉桂糖。",
+        "nl": "Een Spaans dessert van gefrituurde melkcustard met kaneelsuiker."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "milk-solids",
+        40,
+        "milk custard"
       ],
       [
-        "sugar",
+        "cornstarch",
         20,
-        "sweetness"
+        "set binder"
       ],
       [
         "egg",
         15,
-        "structure"
+        "coating"
       ],
       [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
+        "wheat-flour",
         10,
-        "richness"
+        "coating"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "sugar",
+        10,
+        "sweetness"
+      ],
+      [
+        "cinnamon",
+        5,
+        "spice",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "milk custard",
+      "cinnamon sugar",
+      "fried coating"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "milky",
+      "warm-spiced"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "crisp exterior",
+      "soft custard center",
+      "sugar dusting"
     ],
     "riskFlags": [
-      "contains-gluten",
+      "contains-dairy",
       "contains-egg",
-      "contains-dairy"
+      "contains-gluten"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
       "dessert"
     ],
     "avoidIfTags": [
+      "dairy-free",
+      "egg-allergy",
       "gluten-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for creamy fried custard; skip if fried desserts feel too heavy.",
+      "zh": "想吃外脆内软奶香甜点时适合；不爱油炸甜品则避开。",
+      "nl": "Kies dit voor romige gefrituurde custard; sla over als frituurd dessert te zwaar is."
     },
+    "confidenceTag": "audited-remaining-batch-040",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105056-leche-frita.webp",
+    "thumbPath": "/assets/dishes/thumb/105056-leche-frita.webp"
   },
   {
     "id": "natillas",
     "metadataCode": "105057",
+    "imageCode": "105057",
     "cuisineId": "spanish",
     "names": {
       "en": "Natillas",
-      "zh": "西班牙蛋奶甜品",
+      "zh": "西班牙蛋奶冻",
       "nl": "Natillas",
       "local": "Natillas"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "stirred",
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Natillas is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "西班牙蛋奶甜品是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Natillas is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Smooth egg custard served chilled with cinnamon and often a biscuit on top.",
+      "zh": "顺滑蛋奶冻冷食，撒肉桂，常放一块饼干。",
+      "nl": "Gladde eiercustard, gekoeld met kaneel en vaak een koekje."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a spoonable, mild, creamy dessert.",
+      "zh": "可预期温和顺滑、奶香明显的勺食甜品。",
+      "nl": "Verwacht een mild romig lepeldessert."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "dessert",
+        "first-timer-friendly"
       ],
       "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Spanish custard dessert commonly flavored with cinnamon and topped with a biscuit.",
+        "zh": "西班牙蛋奶冻甜品，常有肉桂和饼干。",
+        "nl": "Een Spaans custarddessert met kaneel en vaak een koekje."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "sugar",
-        20,
-        "sweetness"
+        "vanilla-custard",
+        55,
+        "custard"
       ],
       [
         "egg",
         15,
-        "structure"
+        "set richness"
       ],
       [
-        "cream",
+        "milk-solids",
         15,
-        "richness"
+        "dairy"
       ],
       [
-        "butter",
+        "maria-biscuits",
         10,
-        "richness"
+        "biscuit topping"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "cinnamon",
+        5,
+        "spice",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "custard",
+      "cinnamon",
+      "biscuit"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "warm-spiced"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "smooth custard",
+      "soft spoonfuls",
+      "biscuit topping"
     ],
     "riskFlags": [
-      "contains-gluten",
+      "contains-dairy",
       "contains-egg",
-      "contains-dairy"
+      "contains-gluten"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "first-timer-friendly"
     ],
     "avoidIfTags": [
+      "dairy-free",
+      "egg-allergy",
       "gluten-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A safe gentle dessert if you like custard; skip if you want texture or chocolate intensity.",
+      "zh": "喜欢温和蛋奶冻时很稳；想要强口感或巧克力浓味则不适合。",
+      "nl": "Veilig en mild als je custard lust; sla over als je textuur of chocolade zoekt."
     },
+    "confidenceTag": "audited-remaining-batch-040",
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105057-natillas.webp",
+    "thumbPath": "/assets/dishes/thumb/105057-natillas.webp"
   },
   {
     "id": "tocino-de-cielo",
     "metadataCode": "105058",
+    "imageCode": "105058",
     "cuisineId": "spanish",
     "names": {
       "en": "Tocino de Cielo",
-      "zh": "西班牙蛋黄焦糖布丁",
-      "nl": "Tocino de Cielo",
-      "local": "Tocino de Cielo"
+      "zh": "西班牙蛋黄金糕布丁",
+      "nl": "Tocino de cielo",
+      "local": "Tocino de cielo"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "set",
+      "steamed"
     ],
     "shortDescription": {
-      "en": "Tocino de Cielo is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "西班牙蛋黄焦糖布丁是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Tocino de Cielo is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Dense glossy egg-yolk custard with caramel syrup.",
+      "zh": "浓密光滑的蛋黄布丁，配焦糖糖浆。",
+      "nl": "Dichte glanzende eidooiercustard met karamelsiroop."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect intense sweetness and egg-yolk richness in a small portion.",
+      "zh": "小份但甜度和蛋黄浓郁感都很强。",
+      "nl": "Klein van portie maar intens zoet en eidooier-rijk."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "dessert"
       ],
       "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A very rich Spanish egg-yolk caramel custard.",
+        "zh": "非常浓郁的西班牙蛋黄焦糖布丁。",
+        "nl": "Een zeer rijke Spaanse eidooier-karamelcustard."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "egg",
+        45,
+        "egg yolk custard"
       ],
       [
         "sugar",
-        20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
-        10,
-        "richness"
+        35,
+        "caramel syrup"
       ],
       [
         "fruit-sauce-or-caramel",
         15,
-        "topping"
+        "caramel finish"
+      ],
+      [
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "egg yolk",
+      "caramel",
+      "vanilla"
     ],
     "basicTaste": [
-      "sweet",
-      "creamy"
+      "very-sweet",
+      "eggy",
+      "caramel"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "dense custard",
+      "glossy syrup",
+      "smooth set"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
       "dessert"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "egg-allergy",
+      "avoid-very-sweet"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Best for people who love very sweet custards; skip if eggy desserts are too intense.",
+      "zh": "适合喜欢高甜蛋奶甜品的人；不爱蛋味重的甜点则避开。",
+      "nl": "Voor liefhebbers van zeer zoete custard; sla over als eierige desserts te intens zijn."
     },
+    "confidenceTag": "audited-remaining-batch-040",
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "acquiredTasteLevel": 2,
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105058-tocino-de-cielo.webp",
+    "thumbPath": "/assets/dishes/thumb/105058-tocino-de-cielo.webp"
   },
   {
     "id": "ensaimada",
     "metadataCode": "105059",
+    "imageCode": "105059",
     "cuisineId": "spanish",
     "names": {
       "en": "Ensaimada",
       "zh": "马略卡螺旋甜面包",
       "nl": "Ensaimada",
-      "local": "Ensaimada"
+      "local": "Ensaïmada"
     },
     "category": "dessert",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Ensaimada is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "马略卡螺旋甜面包是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Ensaimada is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Large spiral pastry with airy layers and powdered sugar.",
+      "zh": "大号螺旋形甜面包，层次松软，撒糖粉。",
+      "nl": "Groot spiraalgebak met luchtige lagen en poedersuiker."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a light flaky-bready pastry, sweeter and airier than plain bread.",
+      "zh": "口感介于酥皮和面包之间，比普通面包更甜更轻。",
+      "nl": "Licht bladerig-broodachtig, zoeter en luchtiger dan gewoon brood."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "dessert",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Mallorcan spiral pastry dusted with powdered sugar.",
+        "zh": "马略卡螺旋甜面包，表面常撒糖粉。",
+        "nl": "Een Mallorcaanse spiraalvormige zoete broodsnack met poedersuiker."
       }
     },
     "composition": [
       [
         "wheat-flour",
+        40,
+        "dough"
+      ],
+      [
+        "butter",
         25,
-        "base"
+        "fat-rich layers"
       ],
       [
         "sugar",
@@ -12556,168 +12830,163 @@ const europeDepthDishConfigs = [
       ],
       [
         "egg",
-        15,
-        "structure"
+        10,
+        "dough richness"
       ],
       [
         "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        5,
+        "optional filling"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "sweet dough",
+      "buttery layers",
+      "powdered sugar"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "buttery",
+      "mild"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "spiral pastry",
+      "airy layers",
+      "soft crumb"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "bakery"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good for a lighter sweet pastry; skip if you want a creamy plated dessert.",
+      "zh": "想吃较轻的甜面包酥点时适合；想要盘装奶油甜点则可换别的。",
+      "nl": "Goed voor lichter zoet gebak; sla over als je romig dessert wilt."
     },
+    "confidenceTag": "audited-remaining-batch-040",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105059-ensaimada.webp",
+    "thumbPath": "/assets/dishes/thumb/105059-ensaimada.webp"
   },
   {
     "id": "queso-manchego",
     "metadataCode": "105060",
+    "imageCode": "105060",
     "cuisineId": "spanish",
     "names": {
       "en": "Queso Manchego",
       "zh": "曼切戈奶酪",
-      "nl": "Queso Manchego",
-      "local": "Queso Manchego"
+      "nl": "Manchego-kaas",
+      "local": "Queso manchego"
     },
-    "category": "cheese",
+    "category": "starter",
     "cookingMethods": [
       "assembled"
     ],
+    "servingTemperature": "room-temperature",
     "shortDescription": {
-      "en": "Queso Manchego is a common Spanish menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "曼切戈奶酪是常见西班牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Queso Manchego is een veelvoorkomend Spaans menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Firm sheep milk cheese served in wedges or slices, often with quince paste.",
+      "zh": "硬质羊奶奶酪切片或切块上桌，常配榅桲果膏。",
+      "nl": "Stevige schapenkaas in plakken of punten, vaak met kweepeerpasta."
     },
     "cookingProfile": {
-      "en": "Usually served with cheese-focused dish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现cheese-focused dish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met cheese-focused dish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect nutty salty cheese, firm texture, and sweet fruit paste contrast.",
+      "zh": "可预期坚果感咸香奶酪、紧实口感和甜果膏对比。",
+      "nl": "Notig-zoute kaas met stevige beet en zoete fruitpasta."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "tapas"
       ],
       "description": {
-        "en": "A likely Spanish restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见西班牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Spaans restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Spanish sheep-cheese plate often served with quince paste or olives.",
+        "zh": "西班牙羊奶硬质奶酪，常配榅桲果膏或橄榄。",
+        "nl": "Een Spaanse schapenkaas, vaak met kweepeerpasta of olijven."
       }
     },
     "composition": [
       [
-        "cheese",
-        45,
-        "main"
+        "manchego-cheese",
+        70,
+        "cheese"
       ],
       [
-        "bread",
-        20,
-        "base"
-      ],
-      [
-        "mixed-vegetables",
+        "quince-paste",
         15,
-        "body"
+        "sweet pairing"
+      ],
+      [
+        "olives",
+        10,
+        "briny side"
       ],
       [
         "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
         5,
         "finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cheese",
-      "cream",
-      "pepper"
+      "sheep cheese",
+      "quince paste",
+      "olives"
     ],
     "basicTaste": [
-      "savory",
-      "creamy"
+      "salty",
+      "nutty",
+      "sweet-savory"
     ],
     "textureProfile": [
-      "creamy or firm cheese",
-      "savory finish"
+      "firm cheese slices",
+      "dense fruit paste",
+      "briny olives"
     ],
     "riskFlags": [
-      "contains-dairy",
-      "contains-gluten"
+      "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "cheese"
+      "tapas",
+      "cheese-plate"
     ],
     "avoidIfTags": [
       "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A safe tapas choice for cheese lovers; skip if you avoid dairy or want a hot dish.",
+      "zh": "喜欢奶酪拼盘时很稳；不吃奶制品或想吃热菜则不适合。",
+      "nl": "Veilige tapas voor kaasliefhebbers; sla over bij zuivelvrij of als je warm eten wilt."
     },
+    "confidenceTag": "audited-remaining-batch-040",
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium",
+    "imagePath": "/assets/dishes/main/105060-queso-manchego.webp",
+    "thumbPath": "/assets/dishes/thumb/105060-queso-manchego.webp"
   },
   {
     "id": "frikadellen-german",
@@ -12829,51 +13098,51 @@ const europeDepthDishConfigs = [
     "cuisineId": "german",
     "names": {
       "en": "Hackbraten",
-      "zh": "德式肉卷",
+      "zh": "德式肉糜烤排",
       "nl": "Hackbraten",
       "local": "Hackbraten"
     },
-    "category": "meat",
+    "category": "main",
     "cookingMethods": [
-      "braised"
+      "baked"
     ],
     "shortDescription": {
-      "en": "Hackbraten is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式肉卷是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Hackbraten is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "German-style meatloaf, usually sliced and served with gravy, potatoes, and vegetables.",
+      "zh": "德式肉糜烤排，通常切片配肉汁、土豆和蔬菜。",
+      "nl": "Duitse gehaktbroodschijf, meestal met jus, aardappelen en groente."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a tender, compact meat slice with brown gravy rather than a crisp cutlet.",
+      "zh": "入口是紧实柔软的肉糜切片和棕色肉汁，不是酥炸肉排。",
+      "nl": "Verwacht een malse, compacte plak gehaktbrood met bruine jus, geen krokante schnitzel."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic German comfort plate recognized by sliced meatloaf and gravy.",
+        "zh": "经典德国家常肉类菜，识别重点是肉糜烤排切片和肉汁。",
+        "nl": "Een klassieke Duitse comfortmaaltijd met plakjes gehaktbrood en jus."
       }
     },
     "composition": [
       [
-        "beef",
-        45,
-        "main"
+        "ground-meat",
+        55,
+        "meatloaf base"
       ],
       [
-        "potato",
-        20,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
+        "bread",
         15,
-        "body"
+        "binder"
+      ],
+      [
+        "egg",
+        10,
+        "binder"
       ],
       [
         "onion",
@@ -12894,34 +13163,45 @@ const europeDepthDishConfigs = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "brown gravy",
+      "onion",
+      "black pepper"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "meaty",
+      "mild"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "compact tender meatloaf",
+      "saucy surface",
+      "soft potato side"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "meat"
+      "comfort-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a mild, filling meat-and-gravy plate; skip if you want a crisp or light dish.",
+      "zh": "想吃温和饱腹的肉汁肉排时可点；想要清爽或酥脆菜则不适合。",
+      "nl": "Kies dit voor een milde, vullende vlees-jusmaaltijd; sla over als je iets lichts of krokants wilt."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "106032",
+    "imagePath": "/assets/dishes/main/106032-hackbraten.webp",
+    "thumbPath": "/assets/dishes/thumb/106032-hackbraten.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -12934,58 +13214,58 @@ const europeDepthDishConfigs = [
       "nl": "Schupfnudeln",
       "local": "Schupfnudeln"
     },
-    "category": "potato",
+    "category": "main",
     "cookingMethods": [
-      "baked"
+      "boiled",
+      "fried"
     ],
     "shortDescription": {
-      "en": "Schupfnudeln is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式土豆手指面是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Schupfnudeln is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Finger-shaped German potato noodles, often pan-fried and served with sauerkraut or bacon.",
+      "zh": "手指形土豆面团，常煎至微焦，配酸菜或培根。",
+      "nl": "Vingervormige aardappelnoedels, vaak gebakken met zuurkool of spek."
     },
     "cookingProfile": {
-      "en": "Usually served with potato dish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现potato dish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met potato dish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "They feel chewy-soft with browned edges, more like potato dumplings than pasta.",
+      "zh": "口感软糯带轻微嚼劲，边缘煎香，更像土豆团子而不是意面。",
+      "nl": "Ze zijn zacht en licht taai met gebakken randjes, meer aardappeldeeg dan pasta."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A southern German and Alpine-style potato noodle dish with a pan-fried cue.",
+        "zh": "德国南部和阿尔卑斯地区常见土豆面菜，重点是手指形和煎香表面。",
+        "nl": "Een Zuid-Duits en alpien aardappelnoedelgerecht met gebakken herkenning."
       }
     },
     "composition": [
       [
         "potato",
-        55,
-        "base"
+        50,
+        "potato dough"
       ],
       [
-        "cream",
-        15,
-        "richness"
+        "wheat-flour",
+        20,
+        "structure"
       ],
       [
-        "cheese",
+        "egg",
         10,
-        "richness"
+        "binder"
       ],
       [
-        "butter",
+        "sauerkraut",
         10,
-        "richness"
+        "tangy side"
       ],
       [
-        "black-pepper",
+        "bacon",
         5,
-        "seasoning",
-        "seasoning"
+        "optional savory bits"
       ],
       [
         "parsley",
@@ -12995,38 +13275,47 @@ const europeDepthDishConfigs = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "fried potato dough",
+      "sauerkraut tang",
+      "bacon"
     ],
     "basicTaste": [
       "savory",
+      "mildly tangy",
       "hearty"
     ],
     "textureProfile": [
-      "soft potato",
-      "browned or creamy edges"
+      "chewy-soft noodles",
+      "browned edges",
+      "tangy cabbage"
     ],
     "riskFlags": [
-      "contains-dairy"
+      "contains-gluten",
+      "contains-egg",
+      "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "potato"
+      "comfort-food"
     ],
     "avoidIfTags": [
-      "dairy-allergy"
+      "gluten-free",
+      "egg-allergy",
+      "no-pork"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you like chewy potato dumplings; check whether the version includes bacon.",
+      "zh": "喜欢软糯土豆团子口感时适合；不吃猪肉要确认是否加培根。",
+      "nl": "Goed als je zachte aardappeldeeg-noedels lust; vraag of er spek in zit."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "106033",
+    "imagePath": "/assets/dishes/main/106033-schupfnudeln.webp",
+    "thumbPath": "/assets/dishes/thumb/106033-schupfnudeln.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -13039,58 +13328,51 @@ const europeDepthDishConfigs = [
       "nl": "Bratkartoffeln",
       "local": "Bratkartoffeln"
     },
-    "category": "potato",
+    "category": "side",
     "cookingMethods": [
-      "baked"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Bratkartoffeln is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式煎土豆是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Bratkartoffeln is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Pan-fried potato slices with browned edges, usually mixed with onion and sometimes bacon.",
+      "zh": "切片土豆煎至金黄，常拌洋葱，有时加培根。",
+      "nl": "Gebakken aardappelschijfjes met ui en soms spek."
     },
     "cookingProfile": {
-      "en": "Usually served with potato dish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现potato dish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met potato dish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect crisp-edged potatoes with oily, salty comfort rather than a creamy gratin.",
+      "zh": "入口是边缘焦香的油润土豆，不是奶油烤土豆。",
+      "nl": "Verwacht aardappels met krokante randjes, niet een romige gratin."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A very common German potato side that can also appear as a simple comfort plate.",
+        "zh": "德国菜单上常见土豆配菜，也可作为简单家常盘。",
+        "nl": "Een veelvoorkomend Duits aardappelbijgerecht of eenvoudige comfortmaaltijd."
       }
     },
     "composition": [
       [
         "potato",
-        55,
-        "base"
+        65,
+        "fried slices"
       ],
       [
-        "cream",
+        "onion",
         15,
-        "richness"
+        "aromatic"
       ],
       [
-        "cheese",
+        "bacon",
         10,
-        "richness"
+        "optional savory bits"
       ],
       [
         "butter",
-        10,
-        "richness"
-      ],
-      [
-        "black-pepper",
         5,
-        "seasoning",
-        "seasoning"
+        "frying richness"
       ],
       [
         "parsley",
@@ -13100,38 +13382,46 @@ const europeDepthDishConfigs = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "pan-browned potato",
+      "onion",
+      "bacon"
     ],
     "basicTaste": [
       "savory",
+      "salty",
       "hearty"
     ],
     "textureProfile": [
-      "soft potato",
-      "browned or creamy edges"
+      "crisp edges",
+      "soft potato centers",
+      "small onion pieces"
     ],
     "riskFlags": [
+      "contains-pork",
       "contains-dairy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "potato"
+      "safe-choice",
+      "comfort-food"
     ],
     "avoidIfTags": [
-      "dairy-allergy"
+      "no-pork",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A safe hearty potato side; ask about bacon if you avoid pork.",
+      "zh": "是稳妥厚实的土豆配菜；不吃猪肉要问是否加培根。",
+      "nl": "Een veilige stevige aardappelkeuze; vraag naar spek als je geen varken eet."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "106034",
+    "imagePath": "/assets/dishes/main/106034-bratkartoffeln.webp",
+    "thumbPath": "/assets/dishes/thumb/106034-bratkartoffeln.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -13139,63 +13429,56 @@ const europeDepthDishConfigs = [
     "metadataCode": "106035",
     "cuisineId": "german",
     "names": {
-      "en": "Kartoffelknoedel",
+      "en": "Kartoffelknödel",
       "zh": "德式土豆丸子",
       "nl": "Kartoffelknoedel",
-      "local": "Kartoffelknoedel"
+      "local": "Kartoffelknödel"
     },
-    "category": "potato",
+    "category": "side",
     "cookingMethods": [
-      "baked"
+      "boiled"
     ],
     "shortDescription": {
-      "en": "Kartoffelknoedel is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式土豆丸子是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Kartoffelknoedel is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Large soft potato dumplings usually served with roast meat and gravy.",
+      "zh": "大颗柔软土豆丸子，常配烤肉和肉汁。",
+      "nl": "Grote zachte aardappelknoedels, vaak met gebraad en jus."
     },
     "cookingProfile": {
-      "en": "Usually served with potato dish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现potato dish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met potato dish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "They are filling, soft, and gravy-soaking, closer to dumplings than bread.",
+      "zh": "口感饱腹柔软，很吸肉汁，更接近团子而不是面包。",
+      "nl": "Ze zijn vullend, zacht en nemen jus op, meer knoedel dan brood."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic German roast side where the dumpling absorbs sauce.",
+        "zh": "经典德国烤肉配菜，重点是土豆丸子吸肉汁。",
+        "nl": "Een klassiek Duits bijgerecht bij gebraad, bedoeld om jus op te nemen."
       }
     },
     "composition": [
       [
+        "potato-dumpling",
+        70,
+        "dumpling base"
+      ],
+      [
         "potato",
-        55,
-        "base"
-      ],
-      [
-        "cream",
         15,
-        "richness"
+        "starchy body"
       ],
       [
-        "cheese",
-        10,
-        "richness"
+        "egg",
+        5,
+        "binder"
       ],
       [
         "butter",
-        10,
-        "richness"
-      ],
-      [
-        "black-pepper",
         5,
-        "seasoning",
-        "seasoning"
+        "richness"
       ],
       [
         "parsley",
@@ -13205,38 +13488,47 @@ const europeDepthDishConfigs = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "potato dumpling",
+      "brown gravy",
+      "butter"
     ],
     "basicTaste": [
+      "mild",
       "savory",
-      "hearty"
+      "starchy"
     ],
     "textureProfile": [
-      "soft potato",
-      "browned or creamy edges"
+      "soft dense dumpling",
+      "smooth potato bite",
+      "sauce-soaked surface"
     ],
     "riskFlags": [
+      "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "potato"
+      "comfort-food"
     ],
     "avoidIfTags": [
-      "dairy-allergy"
+      "egg-allergy",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good with saucy roasts; skip if you want a crisp or low-carb side.",
+      "zh": "配有酱汁的烤肉很合适；想要酥脆或低碳水配菜则不适合。",
+      "nl": "Goed bij sauzig gebraad; sla over als je iets krokants of koolhydraatarm wilt."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "106035",
+    "imagePath": "/assets/dishes/main/106035-kartoffelknoedel.webp",
+    "thumbPath": "/assets/dishes/thumb/106035-kartoffelknoedel.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -13249,52 +13541,58 @@ const europeDepthDishConfigs = [
       "nl": "Schweinebraten",
       "local": "Schweinebraten"
     },
-    "category": "pork",
+    "category": "main",
     "cookingMethods": [
-      "grilled"
+      "baked",
+      "braised"
     ],
     "shortDescription": {
-      "en": "Schweinebraten is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式烤猪肉是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Schweinebraten is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "German roast pork served in slices with brown gravy, often with dumplings and red cabbage.",
+      "zh": "德式烤猪肉切片，配棕色肉汁，常搭土豆丸子和红甘蓝。",
+      "nl": "Duits varkensgebraad in plakken met bruine jus, vaak met knoedels en rode kool."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect tender pork and gravy richness, sometimes with a browned fatty edge.",
+      "zh": "常见体验是软嫩猪肉和浓郁肉汁，有时带焦香肥边。",
+      "nl": "Verwacht mals varkensvlees met rijke jus en soms een gebraden vetrand."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic German roast plate centered on pork, gravy, and dumpling sides.",
+        "zh": "经典德国烤肉盘，核心是猪肉、肉汁和丸子配菜。",
+        "nl": "Een klassieke Duitse braadschotel met varken, jus en knoedels."
       }
     },
     "composition": [
       [
         "pork",
-        50,
-        "main"
+        60,
+        "roast slices"
       ],
       [
-        "potato",
-        20,
+        "potato-dumpling",
+        15,
         "side"
       ],
       [
-        "cabbage",
+        "red-cabbage",
         10,
-        "body"
+        "sweet-sour side"
       ],
       [
-        "mustard",
+        "beer",
         5,
-        "condiment",
+        "braising depth",
+        "seasoning"
+      ],
+      [
+        "caraway",
+        5,
+        "warm spice",
         "seasoning"
       ],
       [
@@ -13302,47 +13600,49 @@ const europeDepthDishConfigs = [
         5,
         "seasoning",
         "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
+      "roast pork",
+      "brown gravy",
+      "caraway"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "rich",
+      "mildly sweet-sour"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "tender pork slices",
+      "saucy gravy",
+      "soft dumpling side"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-gluten"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pork"
+      "classic-dish",
+      "comfort-food"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "no-pork",
+      "gluten-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a traditional filling roast plate; skip if you avoid pork or heavy gravy.",
+      "zh": "想吃传统饱腹烤肉盘时可点；不吃猪肉或不想吃厚肉汁则避开。",
+      "nl": "Kies dit voor een traditionele stevige braadmaaltijd; sla over bij geen varken of zware jus."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "106036",
+    "imagePath": "/assets/dishes/main/106036-schweinebraten.webp",
+    "thumbPath": "/assets/dishes/thumb/106036-schweinebraten.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -13351,104 +13651,97 @@ const europeDepthDishConfigs = [
     "cuisineId": "german",
     "names": {
       "en": "Kasseler",
-      "zh": "德式烟熏猪排",
+      "zh": "德式烟熏腌猪肉",
       "nl": "Kasseler",
       "local": "Kasseler"
     },
-    "category": "pork",
+    "category": "main",
     "cookingMethods": [
-      "grilled"
+      "braised"
     ],
     "shortDescription": {
-      "en": "Kasseler is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式烟熏猪排是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Kasseler is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Smoked cured pork loin or chop, usually served with sauerkraut and potatoes.",
+      "zh": "烟熏腌制猪里脊或猪排，常配酸菜和土豆。",
+      "nl": "Gerookte gepekelde varkensrug of karbonade, vaak met zuurkool en aardappelen."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It tastes saltier and smokier than plain roast pork, with a ham-like pink interior.",
+      "zh": "比普通烤猪肉更咸、更烟熏，肉色常接近火腿的粉红。",
+      "nl": "Zouter en rokeriger dan gewoon gebraad, met een hamachtige roze binnenkant."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic Central German smoked pork plate recognized by cured pink slices.",
+        "zh": "德国中部经典烟熏猪肉菜，识别重点是粉红腌肉切片。",
+        "nl": "Een klassieke Duits gerookte varkensschotel met gepekelde roze plakken."
       }
     },
     "composition": [
       [
         "pork",
-        50,
-        "main"
+        60,
+        "smoked cured meat"
+      ],
+      [
+        "sauerkraut",
+        20,
+        "tangy side"
       ],
       [
         "potato",
-        20,
+        15,
         "side"
-      ],
-      [
-        "cabbage",
-        10,
-        "body"
       ],
       [
         "mustard",
         5,
-        "condiment",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
+        "sharp condiment",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
+      "smoked cured pork",
+      "sauerkraut",
+      "mustard"
     ],
     "basicTaste": [
-      "savory",
-      "rich"
+      "salty",
+      "smoky",
+      "savory"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "firm cured pork",
+      "soft sauerkraut",
+      "tender potatoes"
     ],
     "riskFlags": [
       "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pork"
+      "classic-dish"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "no-pork",
+      "avoid-salty-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you like smoky cured pork; skip if salty ham-like meat is not appealing.",
+      "zh": "喜欢烟熏腌猪肉时适合；不爱咸火腿感肉类则谨慎。",
+      "nl": "Goed als je gerookt gepekeld varken lust; sla over als zout hamachtig vlees niet past."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "imageCode": "106037",
+    "imagePath": "/assets/dishes/main/106037-kasseler.webp",
+    "thumbPath": "/assets/dishes/thumb/106037-kasseler.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -13457,8 +13750,8 @@ const europeDepthDishConfigs = [
     "cuisineId": "german",
     "names": {
       "en": "Erbsensuppe",
-      "zh": "德式豌豆汤",
-      "nl": "Erbsensuppe",
+      "zh": "德式豌豆浓汤",
+      "nl": "Erwtensoep",
       "local": "Erbsensuppe"
     },
     "category": "soup",
@@ -13466,90 +13759,99 @@ const europeDepthDishConfigs = [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Erbsensuppe is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式豌豆汤是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Erbsensuppe is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Thick split pea soup with vegetables and smoked sausage or pork.",
+      "zh": "浓稠豌豆汤，常有蔬菜和烟熏香肠或猪肉。",
+      "nl": "Dikke spliterwtensoep met groente en rookworst of varkensvlees."
     },
     "cookingProfile": {
-      "en": "Usually served with warm soup, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现warm soup，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met warm soup; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a thick, spoon-coating soup that eats like a small meal.",
+      "zh": "质地浓稠挂勺，更像一小份主食而不是清汤。",
+      "nl": "Verwacht een dikke soep die bijna als maaltijd eet."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A wintery German soup recognized by split peas and sausage.",
+        "zh": "德国冬季常见浓汤，重点是豌豆和香肠。",
+        "nl": "Een winterse Duitse soep herkenbaar aan spliterwten en worst."
       }
     },
     "composition": [
       [
-        "broth",
-        35,
-        "base"
+        "peas",
+        50,
+        "soup base"
       ],
       [
-        "mixed-vegetables",
-        25,
-        "body"
+        "sausage",
+        20,
+        "smoked pork garnish"
       ],
       [
         "potato",
-        15,
+        10,
         "body"
       ],
       [
-        "cream",
+        "carrot",
         10,
-        "richness"
+        "vegetable"
       ],
       [
-        "black-pepper",
+        "leek",
         5,
-        "seasoning",
-        "seasoning"
+        "aromatic"
       ],
       [
         "parsley",
-        10,
+        5,
         "finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "split peas",
+      "smoked sausage",
+      "vegetable broth"
     ],
     "basicTaste": [
       "savory",
-      "warming"
+      "smoky",
+      "hearty"
     ],
     "textureProfile": [
-      "brothy or creamy",
-      "soft bite"
+      "thick soup",
+      "soft peas",
+      "firm sausage slices"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-pork"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
+      "comfort-food",
       "soup"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "no-pork"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, warming profile sounds appealing.",
-      "zh": "如果你想要savory、warming的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, warming je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a filling soup; ask if it includes sausage when avoiding pork.",
+      "zh": "想要饱腹浓汤时可点；不吃猪肉要问是否有香肠。",
+      "nl": "Kies dit voor een vullende soep; vraag naar worst als je geen varken eet."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "106038",
+    "imagePath": "/assets/dishes/main/106038-erbsensuppe.webp",
+    "thumbPath": "/assets/dishes/thumb/106038-erbsensuppe.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -13559,60 +13861,59 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Linseneintopf",
       "zh": "德式扁豆炖汤",
-      "nl": "Linseneintopf",
+      "nl": "Linzenstoof",
       "local": "Linseneintopf"
     },
-    "category": "stew",
+    "category": "soup",
     "cookingMethods": [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Linseneintopf is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式扁豆炖汤是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Linseneintopf is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A hearty lentil stew with root vegetables and often slices of sausage.",
+      "zh": "浓厚扁豆炖汤，常有根茎蔬菜和香肠片。",
+      "nl": "Een stevige linzenstoof met wortelgroente en vaak plakjes worst."
     },
     "cookingProfile": {
-      "en": "Usually served with slow-cooked stew, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现slow-cooked stew，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met slow-cooked stew; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is earthy and thick, with lentils giving more body than a clear soup.",
+      "zh": "味道偏朴实浓厚，扁豆让汤体比清汤更有分量。",
+      "nl": "Aards en dik, met meer vulling dan een heldere soep."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "comfort-food"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A common German one-pot lentil dish for a simple filling meal.",
+        "zh": "德国常见一锅扁豆菜，适合简单饱腹。",
+        "nl": "Een veelvoorkomende Duitse eenpans-linzenmaaltijd."
       }
     },
     "composition": [
       [
-        "beef",
-        35,
-        "main"
+        "lentils",
+        50,
+        "stew base"
+      ],
+      [
+        "sausage",
+        15,
+        "savory slices"
+      ],
+      [
+        "carrot",
+        15,
+        "vegetable"
       ],
       [
         "potato",
-        20,
+        10,
         "body"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "broth",
-        15,
-        "base"
-      ],
-      [
-        "black-pepper",
+        "vinegar",
         5,
-        "seasoning",
+        "bright finish",
         "seasoning"
       ],
       [
@@ -13623,34 +13924,43 @@ const europeDepthDishConfigs = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "lentils",
+      "sausage",
+      "vinegar finish"
     ],
     "basicTaste": [
       "savory",
-      "hearty"
+      "earthy",
+      "lightly tangy"
     ],
     "textureProfile": [
-      "soft vegetables",
-      "rich broth"
+      "soft lentils",
+      "chunky vegetables",
+      "sausage slices"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-pork"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "stew"
+      "comfort-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "no-pork"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A practical filling choice if you like lentils; skip if you want a light starter soup.",
+      "zh": "喜欢扁豆、想吃饱时实用；想要轻盈前菜汤则不适合。",
+      "nl": "Een praktische vullende keuze als je linzen lust; minder geschikt als lichte soep."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "106039",
+    "imagePath": "/assets/dishes/main/106039-linseneintopf.webp",
+    "thumbPath": "/assets/dishes/thumb/106039-linseneintopf.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -13658,42 +13968,47 @@ const europeDepthDishConfigs = [
     "metadataCode": "106040",
     "cuisineId": "german",
     "names": {
-      "en": "Gruenkohl mit Pinkel",
-      "zh": "羽衣甘蓝配烟熏香肠",
-      "nl": "Gruenkohl mit Pinkel",
-      "local": "Gruenkohl mit Pinkel"
+      "en": "Grünkohl mit Pinkel",
+      "zh": "羽衣甘蓝炖香肠",
+      "nl": "Boerenkool met Pinkel",
+      "local": "Grünkohl mit Pinkel"
     },
-    "category": "pork",
+    "category": "main",
     "cookingMethods": [
-      "grilled"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Gruenkohl mit Pinkel is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "羽衣甘蓝配烟熏香肠是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Gruenkohl mit Pinkel is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "North German cooked kale served with Pinkel sausage and potatoes.",
+      "zh": "德国北部炖羽衣甘蓝，配 Pinkel 香肠和土豆。",
+      "nl": "Noord-Duitse gestoofde boerenkool met Pinkelworst en aardappelen."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect dark soft kale with smoky, fatty sausage and a very wintery feel.",
+      "zh": "入口是软炖深绿色菜叶，加烟熏油脂感香肠，冬季感很强。",
+      "nl": "Verwacht donkere zachte kool met rokerige vette worst, heel winters."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A North German winter dish where kale and Pinkel sausage are the identity.",
+        "zh": "德国北部冬季代表菜，核心是羽衣甘蓝和 Pinkel 香肠。",
+        "nl": "Een Noord-Duits wintergerecht met boerenkool en Pinkelworst als kern."
       }
     },
     "composition": [
       [
-        "pork",
-        50,
-        "main"
+        "kale",
+        45,
+        "cooked greens"
+      ],
+      [
+        "sausage",
+        25,
+        "Pinkel sausage"
       ],
       [
         "potato",
@@ -13701,14 +14016,9 @@ const europeDepthDishConfigs = [
         "side"
       ],
       [
-        "cabbage",
-        10,
-        "body"
-      ],
-      [
         "mustard",
         5,
-        "condiment",
+        "sharp condiment",
         "seasoning"
       ],
       [
@@ -13716,47 +14026,47 @@ const europeDepthDishConfigs = [
         5,
         "seasoning",
         "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
+      "cooked kale",
+      "smoked sausage",
+      "mustard"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "smoky",
+      "earthy"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "soft greens",
+      "firm sausage slices",
+      "tender potatoes"
     ],
     "riskFlags": [
       "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pork"
+      "regional-dish",
+      "comfort-food"
     ],
     "avoidIfTags": [
       "no-pork"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good for a smoky winter comfort plate; skip if soft cooked greens are not your thing.",
+      "zh": "适合想吃烟熏冬季家常菜时点；不喜欢软炖绿叶菜则谨慎。",
+      "nl": "Goed voor rokerige winterse comfortkost; sla over als zachte kool je niet aanspreekt."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "imageCode": "106040",
+    "imagePath": "/assets/dishes/main/106040-gruenkohl-mit-pinkel.webp",
+    "thumbPath": "/assets/dishes/thumb/106040-gruenkohl-mit-pinkel.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -13764,104 +14074,111 @@ const europeDepthDishConfigs = [
     "metadataCode": "106041",
     "cuisineId": "german",
     "names": {
-      "en": "Fischbroetchen",
-      "zh": "德式鱼三明治",
-      "nl": "Fischbroetchen",
-      "local": "Fischbroetchen"
+      "en": "Fischbrötchen",
+      "zh": "德式鱼肉小面包",
+      "nl": "Fischbrötchen",
+      "local": "Fischbrötchen"
     },
-    "category": "fish",
+    "category": "sandwich",
     "cookingMethods": [
-      "grilled"
+      "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Fischbroetchen is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式鱼三明治是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Fischbroetchen is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A North German fish sandwich, often with herring, onion, pickles, and remoulade.",
+      "zh": "德国北部鱼肉小面包，常夹鲱鱼、洋葱、酸黄瓜和蛋黄酱类酱汁。",
+      "nl": "Een Noord-Duits visbroodje, vaak met haring, ui, augurk en remoulade."
     },
     "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is usually cool, briny, and fresh rather than hot fried fish.",
+      "zh": "通常偏冷食，咸鲜清爽，不一定是热炸鱼。",
+      "nl": "Meestal koel, zilt en fris, niet per se warme gebakken vis."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "street-food",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A coastal North German street-food sandwich recognized by fish in a crusty roll.",
+        "zh": "德国北部沿海街头小吃，重点是小面包夹鱼。",
+        "nl": "Een kust-Noord-Duits streetfoodbroodje met vis in een krokant broodje."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        60,
-        "main"
+        "bread",
+        40,
+        "roll"
       ],
       [
-        "potato",
-        15,
-        "side"
+        "herring",
+        35,
+        "fish filling"
       ],
       [
-        "mixed-vegetables",
+        "onion",
         10,
-        "body"
+        "sharp garnish"
       ],
       [
-        "lemon",
-        5,
-        "brightness"
+        "pickles",
+        10,
+        "tangy garnish"
       ],
       [
-        "olive-oil",
+        "remoulade-sauce",
         5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
+        "creamy sauce",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "herring",
+      "pickles",
+      "remoulade"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "briny",
+      "tangy",
+      "savory"
     ],
     "textureProfile": [
-      "tender fish",
-      "light flaky bite"
+      "crusty roll",
+      "silky fish",
+      "crisp onion"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-gluten",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "fish"
+      "street-food",
+      "seafood"
     ],
     "avoidIfTags": [
-      "fish-allergy"
+      "fish-allergy",
+      "gluten-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Great for a quick coastal fish bite; skip if cold briny fish is not appealing.",
+      "zh": "想快速尝德国沿海鱼类小吃时很适合；不爱冷咸鱼则避开。",
+      "nl": "Mooi voor een snelle kustvis-hap; sla over als koude zilte vis niet past."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "acquiredTasteLevel": 2,
+    "imageCode": "106041",
+    "imagePath": "/assets/dishes/main/106041-fischbroetchen.webp",
+    "thumbPath": "/assets/dishes/thumb/106041-fischbroetchen.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -13870,103 +14187,101 @@ const europeDepthDishConfigs = [
     "cuisineId": "german",
     "names": {
       "en": "Rollmops",
-      "zh": "腌鲱鱼卷",
+      "zh": "卷鲱鱼酸黄瓜",
       "nl": "Rollmops",
       "local": "Rollmops"
     },
-    "category": "fish",
+    "category": "starter",
     "cookingMethods": [
-      "grilled"
+      "assembled",
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Rollmops is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "腌鲱鱼卷是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Rollmops is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Pickled herring fillets rolled around onion or pickle, served cold.",
+      "zh": "腌鲱鱼片卷洋葱或酸黄瓜，冷食。",
+      "nl": "Ingelegde haringfilets opgerold rond ui of augurk, koud geserveerd."
     },
     "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a sharp, briny, vinegar-forward bite rather than a mild fish fillet.",
+      "zh": "味道咸鲜酸爽、醋感明显，不是温和熟鱼片。",
+      "nl": "Verwacht een scherpe zilte azijnhap, geen milde visfilet."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic German pickled fish starter with rolled herring as the visual cue.",
+        "zh": "经典德国腌鱼前菜，识别重点是卷起的鲱鱼。",
+        "nl": "Een klassieke Duitse ingelegde visstarter met opgerolde haring."
       }
     },
     "composition": [
       [
-        "fish-fillet",
+        "matjes-herring",
         60,
-        "main"
+        "pickled fish"
       ],
       [
-        "potato",
+        "pickles",
         15,
-        "side"
+        "filling"
       ],
       [
-        "mixed-vegetables",
+        "onion",
+        15,
+        "sharp garnish"
+      ],
+      [
+        "vinegar",
         10,
-        "body"
-      ],
-      [
-        "lemon",
-        5,
-        "brightness"
-      ],
-      [
-        "olive-oil",
-        5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
+        "pickling tang",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "pickled herring",
+      "vinegar",
+      "onion"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "briny",
+      "sour",
+      "sharp"
     ],
     "textureProfile": [
-      "tender fish",
-      "light flaky bite"
+      "silky fish",
+      "crisp pickle",
+      "cold firm bite"
     ],
     "riskFlags": [
       "contains-fish"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "fish"
+      "cold-starter"
     ],
     "avoidIfTags": [
-      "fish-allergy"
+      "fish-allergy",
+      "avoid-sour-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order only if pickled fish sounds good; it is sharp and acquired-taste.",
+      "zh": "只有喜欢腌鱼酸咸味时才建议点；这是比较需要适应的风味。",
+      "nl": "Bestel alleen als ingelegde vis je aanspreekt; scherp en wat verworven."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 1,
+    "acquiredTasteLevel": 3,
+    "imageCode": "106042",
+    "imagePath": "/assets/dishes/main/106042-rollmops.webp",
+    "thumbPath": "/assets/dishes/thumb/106042-rollmops.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -13976,98 +14291,112 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Heringssalat",
       "zh": "德式鲱鱼沙拉",
-      "nl": "Heringssalat",
+      "nl": "Haringsalade",
       "local": "Heringssalat"
     },
     "category": "salad",
     "cookingMethods": [
-      "assembled"
+      "assembled",
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Heringssalat is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式鲱鱼沙拉是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Heringssalat is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Cold herring salad with beetroot, potato, apple, pickles, and a creamy dressing.",
+      "zh": "冷鲱鱼沙拉，拌甜菜根、土豆、苹果、酸黄瓜和奶油感酱汁。",
+      "nl": "Koude haringsalade met rode biet, aardappel, appel, augurk en romige dressing."
     },
     "cookingProfile": {
-      "en": "Usually served with fresh salad, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fresh salad，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fresh salad; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is creamy, briny, and slightly sweet-earthy from beetroot.",
+      "zh": "口味奶油感、咸鲜，甜菜根带轻微甜土味。",
+      "nl": "Romig, zilt en licht zoet-aards door rode biet."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A German cold salad where herring and beetroot are the main signals.",
+        "zh": "德国常见冷沙拉，重点是鲱鱼和甜菜根。",
+        "nl": "Een Duitse koude salade met haring en rode biet als herkenning."
       }
     },
     "composition": [
       [
-        "mixed-vegetables",
-        45,
-        "base"
+        "matjes-herring",
+        35,
+        "fish"
       ],
       [
-        "tomato",
+        "beetroot",
+        20,
+        "earthy vegetable"
+      ],
+      [
+        "potato",
         15,
         "body"
       ],
       [
-        "cheese",
-        15,
-        "richness"
-      ],
-      [
-        "olive-oil",
+        "apple",
         10,
-        "dressing",
-        "seasoning"
+        "sweet crunch"
       ],
       [
-        "vinegar",
+        "pickles",
         10,
-        "dressing",
-        "seasoning"
+        "tang"
       ],
       [
-        "herbs",
-        5,
-        "finish"
+        "mayonnaise",
+        10,
+        "creamy dressing"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "herring",
+      "beetroot",
+      "creamy dressing"
     ],
     "basicTaste": [
-      "savory",
-      "fresh"
+      "briny",
+      "creamy",
+      "sweet-sour"
     ],
     "textureProfile": [
-      "crisp vegetables",
-      "bright dressing"
+      "creamy diced salad",
+      "firm fish pieces",
+      "soft potato"
     ],
-    "riskFlags": [],
-    "dietaryFlags": [],
+    "riskFlags": [
+      "contains-fish",
+      "contains-egg"
+    ],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "salad"
+      "cold-starter",
+      "seafood"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "fish-allergy",
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, fresh profile sounds appealing.",
-      "zh": "如果你想要savory、fresh的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, fresh je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you like creamy cold fish salads; skip if beetroot or herring is a deal-breaker.",
+      "zh": "喜欢奶油感冷鱼沙拉时适合；不爱甜菜根或鲱鱼则避开。",
+      "nl": "Goed als je romige koude vissalades lust; sla over bij rode biet of haringaversie."
     },
     "spiceLevel": 0,
-    "weightLevel": 1,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "imageCode": "106043",
+    "imagePath": "/assets/dishes/main/106043-heringssalat.webp",
+    "thumbPath": "/assets/dishes/thumb/106043-heringssalat.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -14080,100 +14409,105 @@ const europeDepthDishConfigs = [
       "nl": "Backfisch",
       "local": "Backfisch"
     },
-    "category": "fried",
+    "category": "main",
     "cookingMethods": [
-      "fried"
+      "deep-fried"
     ],
     "shortDescription": {
-      "en": "Backfisch is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式炸鱼是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Backfisch is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Battered fried fish, often served with remoulade, lemon, and fries or potato salad.",
+      "zh": "裹浆油炸鱼，常配酸黄瓜蛋黄酱、柠檬和薯条或土豆沙拉。",
+      "nl": "Gefrituurde vis in beslag, vaak met remoulade, citroen en friet of aardappelsalade."
     },
     "cookingProfile": {
-      "en": "Usually served with fried snack or main, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fried snack or main，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fried snack or main; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect crisp batter and mild flaky fish inside, similar in feel to fish and chips.",
+      "zh": "外层酥脆、内里白鱼柔嫩，体验接近炸鱼薯条。",
+      "nl": "Verwacht krokant beslag en milde vlokkige vis, vergelijkbaar met fish and chips."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "street-food",
+        "seafood"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A German fish-stand classic centered on crisp battered fish.",
+        "zh": "德国鱼摊经典菜，核心是酥脆裹浆炸鱼。",
+        "nl": "Een Duitse viskraamklassieker met krokante vis in beslag."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "coating"
-      ],
-      [
-        "potato",
-        25,
-        "body"
-      ],
-      [
         "fish-fillet",
+        55,
+        "fried fish"
+      ],
+      [
+        "wheat-flour",
         20,
-        "main"
+        "batter"
       ],
       [
         "egg",
         10,
-        "binder"
+        "batter binder"
       ],
       [
-        "butter",
+        "fries",
         10,
-        "richness"
+        "side"
       ],
       [
-        "sea-salt",
-        10,
-        "seasoning",
+        "remoulade-sauce",
+        5,
+        "sauce",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "fried batter",
+      "white fish",
+      "remoulade"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "crispy",
+      "mild"
     ],
     "textureProfile": [
-      "crisp outside",
-      "soft center"
+      "crisp coating",
+      "flaky fish",
+      "creamy sauce"
     ],
     "riskFlags": [
+      "contains-fish",
       "contains-gluten",
-      "contains-egg",
-      "contains-fish"
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "fried"
+      "street-food",
+      "seafood"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "fish-allergy",
+      "gluten-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A friendly fried fish choice; skip if you want something light or not oily.",
+      "zh": "是好懂的炸鱼选择；想吃清淡或少油时不适合。",
+      "nl": "Een toegankelijke gefrituurde viskeuze; sla over als je licht of niet-vet wilt eten."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "106044",
+    "imagePath": "/assets/dishes/main/106044-backfisch.webp",
+    "thumbPath": "/assets/dishes/thumb/106044-backfisch.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -14182,62 +14516,274 @@ const europeDepthDishConfigs = [
     "cuisineId": "german",
     "names": {
       "en": "Zwiebelrostbraten",
-      "zh": "洋葱煎牛排",
+      "zh": "炸洋葱烤牛肉",
       "nl": "Zwiebelrostbraten",
       "local": "Zwiebelrostbraten"
     },
-    "category": "meat",
+    "category": "main",
     "cookingMethods": [
+      "fried",
       "braised"
     ],
     "shortDescription": {
-      "en": "Zwiebelrostbraten is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "洋葱煎牛排是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Zwiebelrostbraten is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Beef steak or roast with brown gravy and a generous topping of fried onions.",
+      "zh": "牛排或烤牛肉配棕色肉汁，上面铺大量炸洋葱。",
+      "nl": "Biefstuk of gebraad met bruine jus en veel gebakken ui."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The fried onion topping gives crunch and sweetness over a rich beef-and-gravy base.",
+      "zh": "炸洋葱带来脆感和甜香，底部是浓郁牛肉和肉汁。",
+      "nl": "De gebakken ui geeft crunch en zoetheid bovenop rijke rundvleesjus."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A German and Austrian classic recognized by beef under fried onions.",
+        "zh": "德奥经典牛肉菜，识别重点是牛肉上铺炸洋葱。",
+        "nl": "Een Duits-Oostenrijkse klassieker met rundvlees onder gebakken ui."
       }
     },
     "composition": [
       [
-        "beef",
-        45,
-        "main"
+        "beef-entrecote",
+        55,
+        "beef steak"
       ],
       [
-        "potato",
+        "fried-onions",
         20,
-        "side"
+        "crisp topping"
       ],
       [
-        "mixed-vegetables",
+        "egg-noodles",
         15,
-        "body"
+        "spaetzle side"
       ],
       [
-        "onion",
-        10,
-        "aromatic"
+        "red-wine",
+        5,
+        "gravy depth",
+        "seasoning"
       ],
       [
         "black-pepper",
         5,
         "seasoning",
         "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "fried onions",
+      "beef gravy",
+      "black pepper"
+    ],
+    "basicTaste": [
+      "savory",
+      "rich",
+      "sweet onion"
+    ],
+    "textureProfile": [
+      "tender beef",
+      "crisp onions",
+      "saucy noodles"
+    ],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-alcohol"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "classic-dish"
+    ],
+    "avoidIfTags": [
+      "gluten-free",
+      "egg-allergy"
+    ],
+    "orderVerdict": {
+      "en": "Choose it for a rich beef plate with onion crunch; skip if heavy gravy feels too much.",
+      "zh": "想吃浓郁牛肉和炸洋葱脆感时适合；怕厚重肉汁则谨慎。",
+      "nl": "Kies dit voor rijke rundvleesjus met uiencrunch; sla over als zware jus te veel is."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "imageCode": "106045",
+    "imagePath": "/assets/dishes/main/106045-zwiebelrostbraten.webp",
+    "thumbPath": "/assets/dishes/thumb/106045-zwiebelrostbraten.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "jaegerschnitzel",
+    "metadataCode": "106046",
+    "cuisineId": "german",
+    "names": {
+      "en": "Jägerschnitzel",
+      "zh": "蘑菇汁炸猪排",
+      "nl": "Jägerschnitzel",
+      "local": "Jägerschnitzel"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "fried",
+      "sauce-tossed"
+    ],
+    "shortDescription": {
+      "en": "Pork schnitzel served with a mushroom gravy, usually with fries or spätzle.",
+      "zh": "猪排炸或煎后配蘑菇肉汁，常搭薯条或蛋面疙瘩。",
+      "nl": "Varkensschnitzel met champignonjus, meestal met friet of spätzle."
+    },
+    "cookingProfile": {
+      "en": "Expect a browned schnitzel softened by earthy mushroom sauce.",
+      "zh": "炸排外层有焦香，但蘑菇酱会让表面更柔软多汁。",
+      "nl": "Verwacht gebakken schnitzel die zachter wordt door aardse champignonsaus."
+    },
+    "cuisineRole": {
+      "level": "classic",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A German schnitzel variation where mushroom gravy is the key cue.",
+        "zh": "德国炸肉排变体，关键识别是蘑菇肉汁。",
+        "nl": "Een Duitse schnitzelvariant waarbij champignonjus de herkenning is."
+      }
+    },
+    "composition": [
+      [
+        "pork-cutlet",
+        55,
+        "schnitzel"
+      ],
+      [
+        "mushrooms",
+        20,
+        "sauce"
+      ],
+      [
+        "egg-noodles",
+        15,
+        "spaetzle side"
+      ],
+      [
+        "cream",
+        5,
+        "sauce richness"
+      ],
+      [
+        "black-pepper",
+        5,
+        "seasoning",
+        "seasoning"
+      ]
+    ],
+    "distinctiveFlavorSources": [
+      "mushroom gravy",
+      "fried pork cutlet",
+      "black pepper"
+    ],
+    "basicTaste": [
+      "savory",
+      "earthy",
+      "rich"
+    ],
+    "textureProfile": [
+      "crisp-edged cutlet",
+      "soft mushroom sauce",
+      "springy spaetzle"
+    ],
+    "riskFlags": [
+      "contains-pork",
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy"
+    ],
+    "dietaryFlags": [],
+    "goodForTags": [
+      "comfort-food"
+    ],
+    "avoidIfTags": [
+      "no-pork",
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
+    ],
+    "orderVerdict": {
+      "en": "Good if you want schnitzel plus sauce; skip if you need the coating to stay crisp.",
+      "zh": "想吃带酱炸猪排时适合；想保持外皮酥脆则不如点干式炸排。",
+      "nl": "Goed als je schnitzel met saus wilt; minder als de korst knapperig moet blijven."
+    },
+    "spiceLevel": 0,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 1,
+    "imageCode": "106046",
+    "imagePath": "/assets/dishes/main/106046-jaegerschnitzel.webp",
+    "thumbPath": "/assets/dishes/thumb/106046-jaegerschnitzel.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
+    "restaurantVariationLevel": "medium"
+  },
+  {
+    "id": "rahmschnitzel",
+    "metadataCode": "106047",
+    "cuisineId": "german",
+    "names": {
+      "en": "Rahmschnitzel",
+      "zh": "奶油汁炸猪排",
+      "nl": "Rahmschnitzel",
+      "local": "Rahmschnitzel"
+    },
+    "category": "main",
+    "cookingMethods": [
+      "fried",
+      "sauce-tossed"
+    ],
+    "shortDescription": {
+      "en": "Pork schnitzel covered with a creamy sauce, commonly served with spätzle.",
+      "zh": "猪排配奶油酱，常搭德国蛋面疙瘩。",
+      "nl": "Varkensschnitzel met roomsaus, vaak met spätzle."
+    },
+    "cookingProfile": {
+      "en": "Cream sauce makes it richer and softer than plain crisp schnitzel.",
+      "zh": "奶油酱让它比干式炸猪排更浓郁、更柔软。",
+      "nl": "Roomsaus maakt het rijker en zachter dan een droge krokante schnitzel."
+    },
+    "cuisineRole": {
+      "level": "common",
+      "tags": [
+        "classic-dish"
+      ],
+      "description": {
+        "en": "A common German schnitzel order for diners who want a creamy sauce.",
+        "zh": "德国常见炸肉排点法，适合想要奶油酱的人。",
+        "nl": "Een veelvoorkomende Duitse schnitzelkeuze voor wie roomsaus wil."
+      }
+    },
+    "composition": [
+      [
+        "pork-cutlet",
+        55,
+        "schnitzel"
+      ],
+      [
+        "cream",
+        20,
+        "cream sauce"
+      ],
+      [
+        "egg-noodles",
+        15,
+        "spaetzle side"
+      ],
+      [
+        "butter",
+        5,
+        "richness"
       ],
       [
         "parsley",
@@ -14247,246 +14793,49 @@ const europeDepthDishConfigs = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "cream sauce",
+      "fried pork cutlet",
+      "butter"
     ],
     "basicTaste": [
+      "creamy",
       "savory",
-      "rich"
+      "mild"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
-    ],
-    "riskFlags": [],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "meat"
-    ],
-    "avoidIfTags": [],
-    "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "jaegerschnitzel",
-    "metadataCode": "106046",
-    "cuisineId": "german",
-    "names": {
-      "en": "Jaegerschnitzel",
-      "zh": "蘑菇酱炸肉排",
-      "nl": "Jaegerschnitzel",
-      "local": "Jaegerschnitzel"
-    },
-    "category": "fried",
-    "cookingMethods": [
-      "fried"
-    ],
-    "shortDescription": {
-      "en": "Jaegerschnitzel is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "蘑菇酱炸肉排是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Jaegerschnitzel is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with fried snack or main, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fried snack or main，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fried snack or main; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "wheat-flour",
-        25,
-        "coating"
-      ],
-      [
-        "potato",
-        25,
-        "body"
-      ],
-      [
-        "fish-fillet",
-        20,
-        "main"
-      ],
-      [
-        "egg",
-        10,
-        "binder"
-      ],
-      [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
-        "sea-salt",
-        10,
-        "seasoning",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
-    ],
-    "basicTaste": [
-      "savory",
-      "rich"
-    ],
-    "textureProfile": [
-      "crisp outside",
-      "soft center"
+      "softened schnitzel",
+      "smooth cream sauce",
+      "springy spaetzle"
     ],
     "riskFlags": [
+      "contains-pork",
       "contains-gluten",
       "contains-egg",
-      "contains-fish"
+      "contains-dairy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "fried"
+      "comfort-food"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "no-pork",
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for creamy comfort; skip if dairy or heavy sauces are a problem.",
+      "zh": "想吃奶油感家常肉排时适合；避乳制品或不想吃厚酱则不适合。",
+      "nl": "Kies dit voor romige comfortkost; sla over bij zuivel of zware sauzen."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
-    "restaurantVariationLevel": "medium"
-  },
-  {
-    "id": "rahmschnitzel",
-    "metadataCode": "106047",
-    "cuisineId": "german",
-    "names": {
-      "en": "Rahmschnitzel",
-      "zh": "奶油酱炸肉排",
-      "nl": "Rahmschnitzel",
-      "local": "Rahmschnitzel"
-    },
-    "category": "fried",
-    "cookingMethods": [
-      "fried"
-    ],
-    "shortDescription": {
-      "en": "Rahmschnitzel is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "奶油酱炸肉排是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Rahmschnitzel is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
-    },
-    "cookingProfile": {
-      "en": "Usually served with fried snack or main, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fried snack or main，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fried snack or main; rijkdom, saus en portiegrootte bepalen de ervaring."
-    },
-    "cuisineRole": {
-      "level": "classic",
-      "tags": [
-        "common-menu-item",
-        "europe-depth"
-      ],
-      "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
-      }
-    },
-    "composition": [
-      [
-        "wheat-flour",
-        25,
-        "coating"
-      ],
-      [
-        "potato",
-        25,
-        "body"
-      ],
-      [
-        "fish-fillet",
-        20,
-        "main"
-      ],
-      [
-        "egg",
-        10,
-        "binder"
-      ],
-      [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
-        "sea-salt",
-        10,
-        "seasoning",
-        "seasoning"
-      ]
-    ],
-    "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
-    ],
-    "basicTaste": [
-      "savory",
-      "rich"
-    ],
-    "textureProfile": [
-      "crisp outside",
-      "soft center"
-    ],
-    "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-fish"
-    ],
-    "dietaryFlags": [],
-    "goodForTags": [
-      "europe-depth",
-      "fried"
-    ],
-    "avoidIfTags": [
-      "gluten-free"
-    ],
-    "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
-    },
-    "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "106047",
+    "imagePath": "/assets/dishes/main/106047-rahmschnitzel.webp",
+    "thumbPath": "/assets/dishes/thumb/106047-rahmschnitzel.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -14501,51 +14850,46 @@ const europeDepthDishConfigs = [
     },
     "category": "salad",
     "cookingMethods": [
-      "assembled"
+      "assembled",
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Wurstsalat is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式香肠沙拉是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Wurstsalat is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Cold sliced sausage salad with onion, pickles, and a vinegar dressing.",
+      "zh": "冷拌切丝香肠沙拉，配洋葱、酸黄瓜和醋汁。",
+      "nl": "Koude worstsalade met ui, augurk en azijndressing."
     },
     "cookingProfile": {
-      "en": "Usually served with fresh salad, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fresh salad，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fresh salad; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is tangy and salty, more like a cold deli plate than a leafy salad.",
+      "zh": "味道酸咸，更像冷肉盘，不是绿叶沙拉。",
+      "nl": "Zuur en zout, meer koude vleeswaren dan groene salade."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A German cold pub salad where sausage strips and vinegar define the dish.",
+        "zh": "德国常见冷拌酒馆沙拉，重点是香肠丝和醋汁。",
+        "nl": "Een Duitse koude kroegsalade met worstreepjes en azijn."
       }
     },
     "composition": [
       [
-        "mixed-vegetables",
-        45,
-        "base"
+        "sausage",
+        55,
+        "cold sausage strips"
       ],
       [
-        "tomato",
+        "onion",
         15,
-        "body"
+        "sharp garnish"
       ],
       [
-        "cheese",
+        "pickles",
         15,
-        "richness"
-      ],
-      [
-        "olive-oil",
-        10,
-        "dressing",
-        "seasoning"
+        "tangy crunch"
       ],
       [
         "vinegar",
@@ -14554,40 +14898,51 @@ const europeDepthDishConfigs = [
         "seasoning"
       ],
       [
-        "herbs",
+        "parsley",
         5,
-        "finish"
+        "finish",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "cold sausage",
+      "vinegar dressing",
+      "pickles"
     ],
     "basicTaste": [
-      "savory",
-      "fresh"
+      "salty",
+      "sour",
+      "savory"
     ],
     "textureProfile": [
-      "crisp vegetables",
-      "bright dressing"
+      "firm sausage strips",
+      "crisp onion",
+      "juicy pickles"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-pork"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "salad"
+      "cold-starter"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "no-pork",
+      "avoid-sour-food"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, fresh profile sounds appealing.",
-      "zh": "如果你想要savory、fresh的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, fresh je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good as a salty cold pub plate; skip if you expect a light vegetable salad.",
+      "zh": "适合想吃咸香冷肉小菜时点；如果期待清爽蔬菜沙拉则会失望。",
+      "nl": "Goed als zoute koude kroeghap; sla over als je een lichte groentesalade verwacht."
     },
     "spiceLevel": 0,
-    "weightLevel": 1,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 2,
+    "acquiredTasteLevel": 2,
+    "imageCode": "106048",
+    "imagePath": "/assets/dishes/main/106048-wurstsalat.webp",
+    "thumbPath": "/assets/dishes/thumb/106048-wurstsalat.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -14714,100 +15069,112 @@ const europeDepthDishConfigs = [
     "metadataCode": "106050",
     "cuisineId": "german",
     "names": {
-      "en": "Leberknoedelsuppe",
-      "zh": "肝丸汤",
-      "nl": "Leberknoedelsuppe",
-      "local": "Leberknoedelsuppe"
+      "en": "Leberknödelsuppe",
+      "zh": "肝丸清汤",
+      "nl": "Leverknoedelsoep",
+      "local": "Leberknödelsuppe"
     },
     "category": "soup",
     "cookingMethods": [
+      "boiled",
       "simmered"
     ],
     "shortDescription": {
-      "en": "Leberknoedelsuppe is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "肝丸汤是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Leberknoedelsuppe is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Clear broth with large savory liver dumplings, usually served as a starter soup.",
+      "zh": "清汤里放大颗咸香肝丸，常作为前菜汤。",
+      "nl": "Heldere bouillon met grote hartige leverknoedels, meestal als voorgerecht."
     },
     "cookingProfile": {
-      "en": "Usually served with warm soup, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现warm soup，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met warm soup; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The broth is light, but the liver dumpling itself is dense and strongly savory.",
+      "zh": "汤底清，但肝丸本身紧实、肉香和内脏风味明显。",
+      "nl": "De bouillon is licht, maar de leverknoedel is stevig en sterk hartig."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A German and Austrian soup recognized by one large liver dumpling in clear broth.",
+        "zh": "德奥常见汤品，识别重点是清汤里的大颗肝丸。",
+        "nl": "Een Duits-Oostenrijkse soep met een grote leverknoedel in heldere bouillon."
       }
     },
     "composition": [
       [
-        "broth",
-        35,
-        "base"
+        "liver-dumpling",
+        45,
+        "main dumpling"
       ],
       [
-        "mixed-vegetables",
-        25,
-        "body"
+        "beef",
+        20,
+        "broth base"
       ],
       [
-        "potato",
+        "bread",
         15,
-        "body"
+        "dumpling binder"
       ],
       [
-        "cream",
+        "egg",
         10,
-        "richness"
+        "binder"
       ],
       [
-        "black-pepper",
+        "carrot",
         5,
-        "seasoning",
-        "seasoning"
+        "broth vegetable"
       ],
       [
         "parsley",
-        10,
+        5,
         "finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "liver dumpling",
+      "clear beef broth",
+      "parsley"
     ],
     "basicTaste": [
       "savory",
-      "warming"
+      "brothy",
+      "mineral-rich"
     ],
     "textureProfile": [
-      "brothy or creamy",
-      "soft bite"
+      "clear broth",
+      "dense dumpling",
+      "soft vegetable slices"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-egg"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "soup"
+      "soup",
+      "classic-dish"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "offal-averse",
+      "gluten-free",
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, warming profile sounds appealing.",
-      "zh": "如果你想要savory、warming的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, warming je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good classic soup if you enjoy liver flavor; skip if offal tastes are difficult for you.",
+      "zh": "喜欢肝味和传统清汤时可点；不接受内脏风味则不建议。",
+      "nl": "Een goede klassieke soep als je lever lust; sla over als orgaansmaak lastig is."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "acquiredTasteLevel": 3,
+    "imageCode": "106050",
+    "imagePath": "/assets/dishes/main/106050-leberknoedelsuppe.webp",
+    "thumbPath": "/assets/dishes/thumb/106050-leberknoedelsuppe.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -14816,103 +15183,110 @@ const europeDepthDishConfigs = [
     "cuisineId": "german",
     "names": {
       "en": "Bienenstich",
-      "zh": "蜂刺蛋糕",
+      "zh": "蜜蜂蜇蛋糕",
       "nl": "Bienenstich",
       "local": "Bienenstich"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "baked",
+      "layered"
     ],
     "shortDescription": {
-      "en": "Bienenstich is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "蜂刺蛋糕是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Bienenstich is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "German yeast cake with vanilla cream filling and a caramelized almond topping.",
+      "zh": "德式酵母蛋糕，夹香草奶油，上层是焦糖杏仁。",
+      "nl": "Duitse gistcake met vanilleroom en gekaramelliseerde amandeltopping."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect soft cake, creamy filling, and a sticky nutty top.",
+      "zh": "口感是柔软蛋糕、奶油夹层和带黏感的坚果顶。",
+      "nl": "Verwacht zachte cake, romige vulling en een kleverige nootachtige bovenkant."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic German bakery cake identified by cream filling and almond topping.",
+        "zh": "经典德式烘焙蛋糕，重点是奶油夹层和杏仁顶。",
+        "nl": "Een klassieke Duitse bakkerscake met roomvulling en amandeltop."
       }
     },
     "composition": [
       [
         "wheat-flour",
+        35,
+        "cake base"
+      ],
+      [
+        "vanilla-custard",
         25,
-        "base"
+        "cream filling"
+      ],
+      [
+        "almonds",
+        15,
+        "topping"
       ],
       [
         "sugar",
-        20,
-        "sweetness"
-      ],
-      [
-        "egg",
         15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
+        "caramel sweetness"
       ],
       [
         "butter",
         10,
         "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "vanilla cream",
+      "caramelized almonds",
+      "butter"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "nutty"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft cake",
+      "smooth cream",
+      "sticky crunchy almond top"
     ],
     "riskFlags": [
       "contains-gluten",
+      "contains-dairy",
       "contains-egg",
-      "contains-dairy"
+      "contains-tree-nut"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
       "dessert"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy",
+      "nut-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a creamy nutty cake; skip if almonds or dairy are an issue.",
+      "zh": "想吃奶油坚果蛋糕时适合；坚果或乳制品过敏则避开。",
+      "nl": "Kies dit voor romige nootcake; sla over bij amandel- of zuivelproblemen."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "106051",
+    "imagePath": "/assets/dishes/main/106051-bienenstich.webp",
+    "thumbPath": "/assets/dishes/thumb/106051-bienenstich.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -14921,8 +15295,8 @@ const europeDepthDishConfigs = [
     "cuisineId": "german",
     "names": {
       "en": "Zwetschgenkuchen",
-      "zh": "李子蛋糕",
-      "nl": "Zwetschgenkuchen",
+      "zh": "德式李子蛋糕",
+      "nl": "Pruimentaart",
       "local": "Zwetschgenkuchen"
     },
     "category": "dessert",
@@ -14930,47 +15304,42 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Zwetschgenkuchen is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "李子蛋糕是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Zwetschgenkuchen is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "German plum cake with rows of purple plums over a yeast or shortcrust base.",
+      "zh": "德式李子蛋糕，紫色李子铺在酵母或酥皮底上。",
+      "nl": "Duitse pruimentaart met rijen paarse pruimen op gist- of kruimeldeeg."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is fruit-forward and lightly tart, less creamy than many cakes.",
+      "zh": "果味突出、带轻酸，比奶油蛋糕清爽。",
+      "nl": "Fruitig en licht zuur, minder romig dan veel taarten."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A seasonal German bakery cake recognized by plum rows on a flat cake base.",
+        "zh": "德式季节烘焙蛋糕，重点是平铺李子和扁平蛋糕底。",
+        "nl": "Een seizoensgebonden Duitse bakkerscake met pruimenrijen."
       }
     },
     "composition": [
       [
+        "plum-compote",
+        40,
+        "plum topping"
+      ],
+      [
         "wheat-flour",
-        25,
-        "base"
+        35,
+        "cake base"
       ],
       [
         "sugar",
-        20,
+        10,
         "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
       ],
       [
         "butter",
@@ -14978,46 +15347,55 @@ const europeDepthDishConfigs = [
         "richness"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "cinnamon",
+        5,
+        "warm spice",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "plums",
+      "buttery cake base",
+      "cinnamon"
     ],
     "basicTaste": [
-      "sweet",
-      "creamy"
+      "sweet-tart",
+      "fruity",
+      "buttery"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft cake base",
+      "juicy plum topping",
+      "light crumb"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "lighter-choice"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you want a fruity cake rather than a creamy dessert.",
+      "zh": "想吃水果感蛋糕时适合；想吃奶油厚重甜点则不是首选。",
+      "nl": "Goed als je fruitige taart wilt in plaats van een romig dessert."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "106052",
+    "imagePath": "/assets/dishes/main/106052-zwetschgenkuchen.webp",
+    "thumbPath": "/assets/dishes/thumb/106052-zwetschgenkuchen.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -15025,42 +15403,44 @@ const europeDepthDishConfigs = [
     "metadataCode": "106053",
     "cuisineId": "german",
     "names": {
-      "en": "Rote Gruetze",
-      "zh": "红果羹",
-      "nl": "Rote Gruetze",
-      "local": "Rote Gruetze"
+      "en": "Rote Grütze",
+      "zh": "红莓果羹",
+      "nl": "Rode grutze",
+      "local": "Rote Grütze"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "simmered",
+      "set"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Rote Gruetze is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "红果羹是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Rote Gruetze is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Red berry pudding or compote, often served with vanilla sauce or cream.",
+      "zh": "红莓果羹或果冻状甜品，常配香草酱或奶油。",
+      "nl": "Rode bessenpudding of compote, vaak met vanillesaus of room."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a cool spoon dessert that is tangy-fruity rather than cakey.",
+      "zh": "是冷食勺子甜点，酸甜果味明显，不是蛋糕类。",
+      "nl": "Een koel lepeldessert, fruitig en friszuur, geen cake."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A northern German red-berry dessert recognized by glossy red compote.",
+        "zh": "德国北部经典红莓甜点，识别重点是亮红色果羹。",
+        "nl": "Een Noord-Duits bessendessert met glanzende rode compote."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "berries",
+        55,
+        "red berry base"
       ],
       [
         "sugar",
@@ -15068,61 +15448,65 @@ const europeDepthDishConfigs = [
         "sweetness"
       ],
       [
-        "egg",
+        "vanilla-custard",
         15,
-        "structure"
+        "sauce"
       ],
       [
         "cream",
-        15,
-        "richness"
+        5,
+        "optional richness"
       ],
       [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "red berries",
+      "vanilla sauce",
+      "light tartness"
     ],
     "basicTaste": [
-      "sweet",
+      "sweet-tart",
+      "fruity",
       "creamy"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "glossy berry compote",
+      "soft set",
+      "smooth vanilla sauce"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "lighter-choice"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "dairy-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a fruity, refreshing dessert; ask about vanilla sauce if avoiding dairy or egg.",
+      "zh": "想吃清爽水果甜点时适合；避乳制品或鸡蛋要问香草酱。",
+      "nl": "Kies dit voor een fris fruitdessert; vraag naar vanillesaus bij zuivel of ei."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "106053",
+    "imagePath": "/assets/dishes/main/106053-rote-gruetze.webp",
+    "thumbPath": "/assets/dishes/thumb/106053-rote-gruetze.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -15131,103 +15515,108 @@ const europeDepthDishConfigs = [
     "cuisineId": "german",
     "names": {
       "en": "Dampfnudel",
-      "zh": "德式蒸甜面包",
+      "zh": "德式蒸甜面团",
       "nl": "Dampfnudel",
       "local": "Dampfnudel"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "steamed"
     ],
     "shortDescription": {
-      "en": "Dampfnudel is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式蒸甜面包是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Dampfnudel is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A large steamed yeast dumpling, often served with vanilla sauce and plum compote.",
+      "zh": "大颗蒸酵母面团，常配香草酱和李子果酱。",
+      "nl": "Een grote gestoomde gistknoedel, vaak met vanillesaus en pruimencompote."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is soft, bready, and filling, closer to a sweet dumpling than a small pastry.",
+      "zh": "口感柔软像面包且很有分量，更像甜面团团子，不是小糕点。",
+      "nl": "Zacht, broodachtig en vullend, meer zoete knoedel dan klein gebak."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A southern German sweet dumpling plate recognized by vanilla sauce.",
+        "zh": "德国南部常见甜面团菜，重点是大团子和香草酱。",
+        "nl": "Een Zuid-Duitse zoete knoedel met vanillesaus als herkenning."
       }
     },
     "composition": [
       [
         "wheat-flour",
+        45,
+        "yeast dumpling"
+      ],
+      [
+        "vanilla-custard",
         25,
-        "base"
+        "sauce"
       ],
       [
         "sugar",
-        20,
+        10,
         "sweetness"
       ],
       [
         "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
         10,
-        "richness"
+        "dough richness"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "plum-compote",
+        10,
+        "fruit side"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "vanilla sauce",
+      "yeast dumpling",
+      "plum compote"
     ],
     "basicTaste": [
       "sweet",
+      "mild",
       "creamy"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft steamed dough",
+      "smooth sauce",
+      "jammy fruit side"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "comfort-food"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good as a warm filling dessert; skip if you only want a small light sweet.",
+      "zh": "适合作为温热饱腹甜点；只想吃轻小甜品时不合适。",
+      "nl": "Goed als warm vullend dessert; sla over als je iets kleins en lichts wilt."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "106054",
+    "imagePath": "/assets/dishes/main/106054-dampfnudel.webp",
+    "thumbPath": "/assets/dishes/thumb/106054-dampfnudel.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -15237,40 +15626,40 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Berliner Pfannkuchen",
       "zh": "德式果酱甜甜圈",
-      "nl": "Berliner Pfannkuchen",
+      "nl": "Berliner bol",
       "local": "Berliner Pfannkuchen"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "deep-fried"
     ],
     "shortDescription": {
-      "en": "Berliner Pfannkuchen is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式果酱甜甜圈是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Berliner Pfannkuchen is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A round fried doughnut filled with jam and dusted with sugar.",
+      "zh": "圆形油炸甜面团，内有果酱馅，表面撒糖粉。",
+      "nl": "Een ronde gefrituurde bol met jamvulling en suiker."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a fluffy fried doughnut with a sweet jam center.",
+      "zh": "口感是蓬松油炸面团，中间有甜果酱。",
+      "nl": "Verwacht een luchtige gefrituurde bol met zoete jamvulling."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A German bakery and festival sweet recognized by the jam-filled fried dough.",
+        "zh": "德国烘焙店和节庆常见甜点，重点是果酱夹心油炸面团。",
+        "nl": "Een Duitse bakkers- en feestklassieker met jamgevulde gefrituurde deegbol."
       }
     },
     "composition": [
       [
         "wheat-flour",
-        25,
-        "base"
+        45,
+        "dough"
       ],
       [
         "sugar",
@@ -15278,61 +15667,65 @@ const europeDepthDishConfigs = [
         "sweetness"
       ],
       [
-        "egg",
+        "fruit-sauce-or-caramel",
         15,
-        "structure"
+        "jam filling"
       ],
       [
-        "cream",
-        15,
-        "richness"
+        "egg",
+        10,
+        "dough richness"
       ],
       [
         "butter",
         10,
         "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "fried dough",
+      "jam filling",
+      "powdered sugar"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "fried",
+      "fruity"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "fluffy dough",
+      "soft jam center",
+      "sugared surface"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
       "dessert"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A familiar sweet bakery choice; skip if you want a lighter dessert.",
+      "zh": "是好懂的甜面包店点心；想吃轻盈甜品时不适合。",
+      "nl": "Een vertrouwde zoete bakkerskeuze; sla over als je iets lichts wilt."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "106055",
+    "imagePath": "/assets/dishes/main/106055-berliner-pfannkuchen.webp",
+    "thumbPath": "/assets/dishes/thumb/106055-berliner-pfannkuchen.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -15341,7 +15734,7 @@ const europeDepthDishConfigs = [
     "cuisineId": "german",
     "names": {
       "en": "Flammende Herzen",
-      "zh": "德式心形夹心饼",
+      "zh": "心形夹心奶油饼干",
       "nl": "Flammende Herzen",
       "local": "Flammende Herzen"
     },
@@ -15350,94 +15743,96 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Flammende Herzen is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式心形夹心饼是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Flammende Herzen is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Heart-shaped piped shortbread cookies, often sandwiched with cream or jam and dipped in chocolate.",
+      "zh": "心形挤花酥饼，常夹奶油或果酱，并蘸巧克力。",
+      "nl": "Hartvormige spritskoeken, vaak gevuld met room of jam en deels in chocolade gedipt."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "They are crumbly, buttery, and sweet, closer to bakery cookies than cake.",
+      "zh": "口感酥松、黄油香和甜味明显，更像烘焙饼干而不是蛋糕。",
+      "nl": "Kruimelig, boterig en zoet, meer koek dan cake."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "dessert"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A German bakery cookie recognized by heart shape and chocolate-dipped edges.",
+        "zh": "德式烘焙饼干，识别重点是心形和巧克力蘸边。",
+        "nl": "Een Duitse bakkerskoek met hartvorm en chocoladerand."
       }
     },
     "composition": [
       [
         "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "sugar",
-        20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
+        40,
+        "cookie base"
       ],
       [
         "butter",
-        10,
-        "richness"
+        25,
+        "shortbread richness"
       ],
       [
-        "fruit-sauce-or-caramel",
+        "sugar",
         15,
-        "topping"
+        "sweetness"
+      ],
+      [
+        "chocolate",
+        15,
+        "dipped edge"
+      ],
+      [
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "butter cookie",
+      "chocolate",
+      "vanilla"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "buttery",
+      "chocolatey"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "crumbly cookie",
+      "smooth chocolate edge",
+      "soft filling if present"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
       "dessert"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good with coffee if you want a buttery cookie; skip if you prefer soft spoon desserts.",
+      "zh": "想配咖啡吃黄油饼干时适合；偏好柔软勺子甜点则不是首选。",
+      "nl": "Goed bij koffie als je boterkoekjes wilt; minder als je een zacht lepeldessert zoekt."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "106056",
+    "imagePath": "/assets/dishes/main/106056-flammende-herzen.webp",
+    "thumbPath": "/assets/dishes/thumb/106056-flammende-herzen.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -15447,103 +15842,105 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Zwiebelkuchen",
       "zh": "德式洋葱咸派",
-      "nl": "Zwiebelkuchen",
+      "nl": "Uientaart",
       "local": "Zwiebelkuchen"
     },
-    "category": "pastry",
+    "category": "starter",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Zwiebelkuchen is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式洋葱咸派是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Zwiebelkuchen is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Savory onion tart with a creamy egg filling, often including bacon.",
+      "zh": "咸味洋葱派，常有奶油鸡蛋馅和培根。",
+      "nl": "Hartige uientaart met romige eiervulling, vaak met spek."
     },
     "cookingProfile": {
-      "en": "Usually served with savory pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现savory pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met savory pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect sweet-soft onions in a rich custard on a crust, not a pizza.",
+      "zh": "入口是甜软洋葱和浓郁蛋奶馅，底部有派皮，不是披萨。",
+      "nl": "Verwacht zachte zoete ui in rijke custard op deegbodem, geen pizza."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A German wine-region tart where onions and custard are the main cues.",
+        "zh": "德国葡萄酒产区常见咸派，重点是洋葱和蛋奶馅。",
+        "nl": "Een Duitse wijnstreektaart met ui en custard als herkenning."
       }
     },
     "composition": [
       [
-        "pastry-crust",
+        "onion",
         40,
-        "base"
+        "sweet onion filling"
       ],
       [
-        "cheese",
-        20,
-        "filling"
+        "pastry-crust",
+        25,
+        "crust"
       ],
       [
         "egg",
         15,
-        "binder"
+        "custard"
       ],
       [
-        "mixed-vegetables",
+        "cream",
         10,
-        "body"
+        "custard richness"
       ],
       [
-        "butter",
+        "bacon",
         10,
-        "richness"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
+        "savory bits"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "soft onion",
+      "egg-cream custard",
+      "bacon"
     ],
     "basicTaste": [
       "savory",
-      "buttery"
+      "sweet onion",
+      "rich"
     ],
     "textureProfile": [
-      "flaky pastry",
-      "soft filling"
+      "tender onion filling",
+      "crumbly crust",
+      "creamy custard"
     ],
     "riskFlags": [
       "contains-gluten",
+      "contains-egg",
       "contains-dairy",
-      "contains-egg"
+      "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pastry"
+      "starter-or-side"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free",
+      "no-pork"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, buttery profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、buttery的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, buttery je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good as a rich savory slice; ask about bacon if avoiding pork.",
+      "zh": "适合点一块浓郁咸派；不吃猪肉要问是否有培根。",
+      "nl": "Goed als rijke hartige punt; vraag naar spek als je geen varken eet."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "106057",
+    "imagePath": "/assets/dishes/main/106057-zwiebelkuchen.webp",
+    "thumbPath": "/assets/dishes/thumb/106057-zwiebelkuchen.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -15552,103 +15949,104 @@ const europeDepthDishConfigs = [
     "cuisineId": "german",
     "names": {
       "en": "Kartoffelgratin",
-      "zh": "德式奶油焗土豆",
-      "nl": "Kartoffelgratin",
+      "zh": "德式奶油烤土豆",
+      "nl": "Aardappelgratin",
       "local": "Kartoffelgratin"
     },
-    "category": "potato",
+    "category": "side",
     "cookingMethods": [
-      "baked"
+      "baked",
+      "layered"
     ],
     "shortDescription": {
-      "en": "Kartoffelgratin is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式奶油焗土豆是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Kartoffelgratin is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Layered sliced potatoes baked with cream and cheese until browned.",
+      "zh": "土豆切片层叠，和奶油奶酪一起烤至金黄。",
+      "nl": "Laagjes aardappelschijfjes gebakken met room en kaas."
     },
     "cookingProfile": {
-      "en": "Usually served with potato dish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现potato dish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met potato dish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is creamy, soft, and rich, with a browned top rather than crisp fried potato.",
+      "zh": "口感奶油浓郁、柔软，上层烤焦香，不是煎土豆的脆感。",
+      "nl": "Romig, zacht en rijk, met bruine bovenkant in plaats van gebakken crunch."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "comfort-food"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A common rich potato side that signals cream and baked layers.",
+        "zh": "常见浓郁土豆配菜，重点是奶油和层叠烘烤。",
+        "nl": "Een veelvoorkomend rijk aardappelbijgerecht met room en lagen."
       }
     },
     "composition": [
       [
         "potato",
-        55,
-        "base"
+        60,
+        "sliced layers"
       ],
       [
         "cream",
-        15,
-        "richness"
+        20,
+        "sauce"
       ],
       [
         "cheese",
         10,
-        "richness"
+        "browned topping"
       ],
       [
         "butter",
-        10,
+        5,
         "richness"
       ],
       [
-        "black-pepper",
+        "nutmeg",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
+        "warm dairy aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "cream",
+      "baked cheese",
+      "nutmeg"
     ],
     "basicTaste": [
+      "creamy",
       "savory",
-      "hearty"
+      "mild"
     ],
     "textureProfile": [
-      "soft potato",
-      "browned or creamy edges"
+      "soft potato layers",
+      "creamy sauce",
+      "browned top"
     ],
     "riskFlags": [
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "potato"
+      "comfort-food"
     ],
     "avoidIfTags": [
-      "dairy-allergy"
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A rich potato side for comfort; skip if you need something light or dairy-free.",
+      "zh": "适合想要浓郁土豆配菜时点；想清淡或避乳制品则不适合。",
+      "nl": "Een rijk aardappelbijgerecht; sla over als je licht of zuivelvrij wilt."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "106058",
+    "imagePath": "/assets/dishes/main/106058-kartoffelgratin-german.webp",
+    "thumbPath": "/assets/dishes/thumb/106058-kartoffelgratin-german.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -15657,103 +16055,103 @@ const europeDepthDishConfigs = [
     "cuisineId": "german",
     "names": {
       "en": "Blaukraut",
-      "zh": "德式红卷心菜",
-      "nl": "Blaukraut",
+      "zh": "德式炖红甘蓝",
+      "nl": "Rode kool",
       "local": "Blaukraut"
     },
-    "category": "potato",
+    "category": "side",
     "cookingMethods": [
-      "baked"
+      "braised"
     ],
     "shortDescription": {
-      "en": "Blaukraut is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "德式红卷心菜是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Blaukraut is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Braised red cabbage, often sweet-sour with apple and warm spices.",
+      "zh": "炖红甘蓝，常带苹果甜味、酸味和温暖香料。",
+      "nl": "Gestoofde rode kool, vaak zoetzuur met appel en warme kruiden."
     },
     "cookingProfile": {
-      "en": "Usually served with potato dish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现potato dish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met potato dish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect soft glossy cabbage with a sweet-sour balance, usually as a roast side.",
+      "zh": "口感柔软油亮，甜酸平衡，常作为烤肉配菜。",
+      "nl": "Zachte glanzende kool met zoetzuur evenwicht, vaak bij gebraad."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic German roast side recognized by purple-red braised cabbage.",
+        "zh": "经典德国烤肉配菜，识别重点是紫红色炖甘蓝。",
+        "nl": "Een klassiek Duits bijgerecht bij gebraad met paarsrode gestoofde kool."
       }
     },
     "composition": [
       [
-        "potato",
-        55,
-        "base"
+        "red-cabbage",
+        65,
+        "braised cabbage"
       ],
       [
-        "cream",
+        "apple",
         15,
-        "richness"
+        "sweet fruit"
       ],
       [
-        "cheese",
+        "vinegar",
         10,
-        "richness"
-      ],
-      [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
+        "sour balance",
         "seasoning"
       ],
       [
-        "parsley",
+        "sugar",
         5,
-        "finish",
+        "sweetness"
+      ],
+      [
+        "caraway",
+        5,
+        "warm spice",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "red cabbage",
+      "apple",
+      "vinegar"
     ],
     "basicTaste": [
-      "savory",
-      "hearty"
+      "sweet-sour",
+      "earthy",
+      "mild"
     ],
     "textureProfile": [
-      "soft potato",
-      "browned or creamy edges"
+      "soft shredded cabbage",
+      "glossy sauce",
+      "small apple pieces"
     ],
-    "riskFlags": [
-      "contains-dairy"
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegan"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "potato"
+      "vegetarian",
+      "side-dish"
     ],
     "avoidIfTags": [
-      "dairy-allergy"
+      "avoid-sour-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good side if you like sweet-sour vegetables with roast dishes.",
+      "zh": "喜欢烤肉旁边有甜酸蔬菜配菜时很适合。",
+      "nl": "Een goed bijgerecht als je zoetzure groente bij gebraad lust."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "106059",
+    "imagePath": "/assets/dishes/main/106059-blaukraut.webp",
+    "thumbPath": "/assets/dishes/thumb/106059-blaukraut.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -15763,97 +16161,107 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Spargel mit Sauce Hollandaise",
       "zh": "白芦笋配荷兰酱",
-      "nl": "Spargel mit Sauce Hollandaise",
+      "nl": "Witte asperges met hollandaisesaus",
       "local": "Spargel mit Sauce Hollandaise"
     },
-    "category": "starter",
+    "category": "main",
     "cookingMethods": [
+      "boiled",
       "assembled"
     ],
     "shortDescription": {
-      "en": "Spargel mit Sauce Hollandaise is a common German menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "白芦笋配荷兰酱是常见德国菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Spargel mit Sauce Hollandaise is een veelvoorkomend Duits menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "White asparagus served with hollandaise sauce, potatoes, and often ham.",
+      "zh": "白芦笋配荷兰酱、土豆，常搭火腿。",
+      "nl": "Witte asperges met hollandaisesaus, aardappelen en vaak ham."
     },
     "cookingProfile": {
-      "en": "Usually served with small starter, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small starter，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small starter; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The asparagus is tender and delicate, while hollandaise adds rich buttery sauce.",
+      "zh": "白芦笋柔嫩清淡，荷兰酱带来浓厚黄油感。",
+      "nl": "De asperges zijn zacht en delicaat; hollandaise geeft rijke botersaus."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "seasonal"
       ],
       "description": {
-        "en": "A likely German restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见德国菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Duits restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A German asparagus-season classic identified by white asparagus and hollandaise.",
+        "zh": "德国芦笋季经典菜，重点是白芦笋和荷兰酱。",
+        "nl": "Een Duitse aspergeseizoensklassieker met witte asperges en hollandaise."
       }
     },
     "composition": [
       [
-        "bread",
-        30,
-        "base"
+        "white-asparagus",
+        50,
+        "main vegetable"
       ],
       [
-        "cheese",
+        "hollandaise-sauce",
         20,
-        "richness"
+        "rich sauce"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
+        "potato",
+        15,
+        "side"
       ],
       [
         "ham",
-        15,
-        "main"
+        10,
+        "optional side"
       ],
       [
-        "olive-oil",
-        10,
+        "parsley",
+        5,
         "finish",
         "seasoning"
-      ],
-      [
-        "herbs",
-        5,
-        "finish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "white asparagus",
+      "hollandaise sauce",
+      "ham"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "delicate",
+      "buttery",
+      "savory"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "tender asparagus",
+      "smooth buttery sauce",
+      "soft potatoes"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-egg",
+      "contains-dairy",
+      "contains-pork"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "starter"
+      "seasonal-dish",
+      "lighter-choice"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "dairy-free",
+      "no-pork"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a seasonal lighter German plate; ask to omit ham if needed.",
+      "zh": "想吃季节性、相对清爽的德国菜时适合；不吃猪肉可问能否不加火腿。",
+      "nl": "Kies dit voor een seizoensgebonden lichtere Duitse keuze; vraag zonder ham indien nodig."
     },
     "spiceLevel": 0,
-    "weightLevel": 1,
+    "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "106060",
+    "imagePath": "/assets/dishes/main/106060-spargel-mit-sauce-hollandaise.webp",
+    "thumbPath": "/assets/dishes/thumb/106060-spargel-mit-sauce-hollandaise.webp",
+    "confidenceTag": "audited-remaining-batch-041",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -16072,104 +16480,107 @@ const europeDepthDishConfigs = [
     "cuisineId": "belgian",
     "names": {
       "en": "Tarte al Djote",
-      "zh": "尼韦勒奶酪甜菜派",
-      "nl": "Tarte al Djote",
-      "local": "Tarte al Djote"
+      "zh": "比利时绿叶奶酪咸派",
+      "nl": "Tarte al djote",
+      "local": "Tarte al djote"
     },
-    "category": "pastry",
+    "category": "starter",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Tarte al Djote is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "尼韦勒奶酪甜菜派是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Tarte al Djote is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A savory tart from Nivelles filled with chard or beet greens and local cheese.",
+      "zh": "尼韦勒地区咸派，内馅是甜菜叶或莙荙菜和本地奶酪。",
+      "nl": "Een hartige taart uit Nijvel met snijbiet of bietengroen en lokale kaas."
     },
     "cookingProfile": {
-      "en": "Usually served with savory pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现savory pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met savory pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a rich green-cheese filling in a crisp tart crust.",
+      "zh": "入口是浓郁绿叶奶酪馅和酥脆派皮。",
+      "nl": "Verwacht een rijke groen-kaasvulling in krokant deeg."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Walloon regional tart recognized by leafy greens and cheese filling.",
+        "zh": "瓦隆地区代表性咸派，重点是绿叶菜和奶酪馅。",
+        "nl": "Een Waalse streektaart met bladgroen en kaasvulling."
       }
     },
     "composition": [
       [
         "pastry-crust",
-        40,
-        "base"
+        35,
+        "tart shell"
       ],
       [
-        "cheese",
+        "chard-greens",
+        30,
+        "leafy filling"
+      ],
+      [
+        "curd-cheese",
         20,
-        "filling"
+        "cheese filling"
       ],
       [
         "egg",
-        15,
+        10,
         "binder"
       ],
       [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
         "butter",
-        10,
-        "richness"
-      ],
-      [
-        "black-pepper",
         5,
-        "seasoning",
-        "seasoning"
+        "richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "leafy greens",
+      "local cheese",
+      "buttery crust"
     ],
     "basicTaste": [
       "savory",
-      "buttery"
+      "creamy",
+      "green"
     ],
     "textureProfile": [
-      "flaky pastry",
-      "soft filling"
+      "crisp crust",
+      "soft leafy filling",
+      "creamy cheese"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-dairy",
       "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "pastry"
+      "regional-dish",
+      "starter"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, buttery profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、buttery的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, buttery je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good for a regional savory tart; skip if leafy cheese fillings are not appealing.",
+      "zh": "想尝地区咸派时适合；不喜欢绿叶菜奶酪馅则谨慎。",
+      "nl": "Goed voor een regionale hartige taart; sla over als bladgroen met kaas niet past."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "107033",
+    "imagePath": "/assets/dishes/main/107033-tarte-al-djote.webp",
+    "thumbPath": "/assets/dishes/thumb/107033-tarte-al-djote.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -16178,98 +16589,104 @@ const europeDepthDishConfigs = [
     "cuisineId": "belgian",
     "names": {
       "en": "Potjevleesch",
-      "zh": "冷肉冻罐",
+      "zh": "冷肉冻",
       "nl": "Potjevleesch",
       "local": "Potjevleesch"
     },
     "category": "starter",
     "cookingMethods": [
-      "assembled"
+      "set",
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Potjevleesch is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "冷肉冻罐是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Potjevleesch is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Cold jellied terrine of mixed white meats, often eaten with fries and pickles.",
+      "zh": "冷食混合白肉冻，常配薯条和酸黄瓜。",
+      "nl": "Koude vleesterrine in gelei, vaak met friet en augurk."
     },
     "cookingProfile": {
-      "en": "Usually served with small starter, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现small starter，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met small starter; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "The meat is firm and cold in clear jelly, not a hot stew.",
+      "zh": "肉块在透明肉冻中冷食，质地紧实，不是热炖菜。",
+      "nl": "Het vlees is koud en stevig in heldere gelei, geen warme stoof."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Flemish and northern French regional cold meat dish with visible aspic.",
+        "zh": "佛兰德及法国北部地区冷肉菜，重点是透明肉冻。",
+        "nl": "Een Vlaams en Noord-Frans koud vleesgerecht met zichtbare aspic."
       }
     },
     "composition": [
       [
-        "bread",
+        "chicken",
         30,
-        "base"
+        "white meat"
       ],
       [
-        "cheese",
+        "pork",
+        25,
+        "meat pieces"
+      ],
+      [
+        "rabbit",
         20,
-        "richness"
+        "meat pieces"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
-      ],
-      [
-        "ham",
+        "gelatin",
         15,
-        "main"
+        "aspic"
       ],
       [
-        "olive-oil",
+        "fries",
         10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "herbs",
-        5,
-        "finish"
+        "side"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "cold aspic",
+      "mixed meats",
+      "pickles"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "cool",
+      "mildly tangy"
     ],
     "textureProfile": [
-      "small bites",
-      "savory finish"
+      "firm cold meat",
+      "wobbly aspic",
+      "crisp fries"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-pork"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "starter"
+      "regional-dish",
+      "cold-starter"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "no-pork",
+      "dislikes-aspic"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order if a cold jellied meat terrine sounds interesting; skip if aspic texture is difficult.",
+      "zh": "想尝冷肉冻时可点；不适应肉冻口感则避开。",
+      "nl": "Bestel als koude vleesgelei je aanspreekt; sla over als aspic lastig is."
     },
     "spiceLevel": 0,
-    "weightLevel": 1,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 3,
+    "imageCode": "107034",
+    "imagePath": "/assets/dishes/main/107034-potjevleesch.webp",
+    "thumbPath": "/assets/dishes/thumb/107034-potjevleesch.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -16279,40 +16696,39 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Boudin Blanc",
       "zh": "白香肠",
-      "nl": "Boudin Blanc",
-      "local": "Boudin Blanc"
+      "nl": "Witte pens",
+      "local": "Boudin blanc"
     },
-    "category": "pork",
+    "category": "main",
     "cookingMethods": [
-      "grilled"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Boudin Blanc is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "白香肠是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Boudin Blanc is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Pale white sausage, usually pan-seared and served with potatoes or apples.",
+      "zh": "浅色白香肠，通常煎香，配土豆或苹果。",
+      "nl": "Witte worst, meestal gebakken met aardappel of appel."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is mild and soft inside, with a browned casing when pan-fried.",
+      "zh": "内里温和柔软，外皮煎后微焦。",
+      "nl": "Mild en zacht vanbinnen, met gebakken vel."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Belgian and French-style white sausage dish recognized by pale sausage links.",
+        "zh": "比利时和法国常见白香肠菜，识别重点是浅色香肠。",
+        "nl": "Een Belgisch-Franse witte worstschotel met bleke worsten."
       }
     },
     "composition": [
       [
-        "pork",
-        50,
-        "main"
+        "sausage",
+        60,
+        "white sausage"
       ],
       [
         "potato",
@@ -16320,62 +16736,62 @@ const europeDepthDishConfigs = [
         "side"
       ],
       [
-        "cabbage",
+        "apple",
         10,
-        "body"
+        "sweet side"
+      ],
+      [
+        "butter",
+        5,
+        "pan richness"
       ],
       [
         "mustard",
         5,
         "condiment",
         "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
+      "mild white sausage",
+      "apple",
+      "mustard"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "mild",
+      "slightly sweet"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "soft sausage",
+      "snappy casing",
+      "soft potato"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-dairy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pork"
+      "classic-dish"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "no-pork",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A mild sausage choice; good if black pudding sounds too strong.",
+      "zh": "是温和香肠选择；如果觉得血肠太重，可以选它。",
+      "nl": "Een milde worstkeuze; goed als bloedworst te sterk klinkt."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "107035",
+    "imagePath": "/assets/dishes/main/107035-boudin-blanc.webp",
+    "thumbPath": "/assets/dishes/thumb/107035-boudin-blanc.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -16384,104 +16800,98 @@ const europeDepthDishConfigs = [
     "cuisineId": "belgian",
     "names": {
       "en": "Boudin Noir",
-      "zh": "血肠",
-      "nl": "Boudin Noir",
-      "local": "Boudin Noir"
+      "zh": "黑血肠",
+      "nl": "Bloedworst",
+      "local": "Boudin noir"
     },
-    "category": "pork",
+    "category": "main",
     "cookingMethods": [
-      "grilled"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Boudin Noir is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "血肠是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Boudin Noir is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Dark blood sausage, often pan-fried and paired with apple or mashed potatoes.",
+      "zh": "深色血肠，常煎香后配苹果或土豆泥。",
+      "nl": "Donkere bloedworst, vaak gebakken met appel of puree."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a soft, rich, iron-like sausage flavor with sweet apple balance.",
+      "zh": "风味浓厚，带血肠特有的铁质感，苹果带来甜味平衡。",
+      "nl": "Rijk en zacht met typische bloedworstsmaak, vaak in balans met appel."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic Belgian blood sausage plate with a strong acquired-taste cue.",
+        "zh": "经典比利时血肠菜，风味明显，需要一定接受度。",
+        "nl": "Een klassieke Belgische bloedworstschotel met uitgesproken smaak."
       }
     },
     "composition": [
       [
-        "pork",
-        50,
-        "main"
+        "blood-sausage",
+        60,
+        "black sausage"
+      ],
+      [
+        "apple-sauce",
+        20,
+        "sweet side"
       ],
       [
         "potato",
-        20,
-        "side"
+        15,
+        "mash side"
       ],
       [
-        "cabbage",
-        10,
-        "body"
-      ],
-      [
-        "mustard",
+        "butter",
         5,
-        "condiment",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
+        "pan richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
+      "blood sausage",
+      "apple sweetness",
+      "pan browning"
     ],
     "basicTaste": [
+      "rich",
       "savory",
-      "rich"
+      "sweet contrast"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "soft dark sausage",
+      "creamy mash",
+      "smooth apple side"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-dairy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pork"
+      "classic-dish"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "no-pork",
+      "offal-averse",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it only if blood sausage sounds appealing; otherwise boudin blanc is safer.",
+      "zh": "只有能接受血肠风味时才建议点；否则白香肠更稳。",
+      "nl": "Kies dit alleen als bloedworst je aanspreekt; anders is witte pens veiliger."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "acquiredTasteLevel": 3,
+    "imageCode": "107036",
+    "imagePath": "/assets/dishes/main/107036-boudin-noir.webp",
+    "thumbPath": "/assets/dishes/thumb/107036-boudin-noir.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -16599,98 +17009,104 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Belgian Spaghetti Bolognese",
       "zh": "比利时肉酱意面",
-      "nl": "Belgian Spaghetti Bolognese",
-      "local": "Belgian Spaghetti Bolognese"
+      "nl": "Spaghetti bolognese",
+      "local": "Spaghetti bolognese"
     },
-    "category": "pasta",
+    "category": "main",
     "cookingMethods": [
+      "boiled",
       "sauce-tossed"
     ],
     "shortDescription": {
-      "en": "Belgian Spaghetti Bolognese is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "比利时肉酱意面是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Belgian Spaghetti Bolognese is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Belgian brasserie-style spaghetti with a generous meat-tomato sauce and grated cheese.",
+      "zh": "比利时小餐馆风格意面，肉番茄酱分量足，常撒奶酪。",
+      "nl": "Belgische brasserie-spaghetti met ruime vleestomatensaus en geraspte kaas."
     },
     "cookingProfile": {
-      "en": "Usually served with saucy pasta, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现saucy pasta，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met saucy pasta; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a saucy, familiar pasta plate rather than a delicate Italian version.",
+      "zh": "是酱汁多、熟悉感强的意面，不是精致意式版本。",
+      "nl": "Verwacht een sauzige vertrouwde pasta, geen verfijnde Italiaanse versie."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "safe-choice"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A common Belgian cafe dish useful as a familiar safe-choice menu item.",
+        "zh": "比利时咖啡馆常见菜，适合作为熟悉稳妥选择。",
+        "nl": "Een veelvoorkomend Belgisch cafégerecht als veilige bekende keuze."
       }
     },
     "composition": [
       [
         "pasta",
-        45,
-        "base"
+        50,
+        "spaghetti"
+      ],
+      [
+        "ground-meat",
+        25,
+        "meat sauce"
       ],
       [
         "tomato-sauce",
-        20,
-        "sauce",
+        15,
+        "sauce base",
         "seasoning"
       ],
       [
         "cheese",
-        10,
-        "richness"
-      ],
-      [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "herbs",
         5,
         "finish"
+      ],
+      [
+        "black-pepper",
+        5,
+        "seasoning",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "meat tomato sauce",
+      "grated cheese",
+      "black pepper"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "tomato-rich",
+      "mild"
     ],
     "textureProfile": [
-      "tender pasta",
-      "saucy finish"
+      "soft spaghetti",
+      "thick meat sauce",
+      "grated cheese"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-gluten",
+      "contains-dairy"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pasta"
+      "safe-choice"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "gluten-free",
+      "dairy-free"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A safe familiar main when you do not want surprises; skip if you want uniquely Belgian flavor.",
+      "zh": "不想冒险时是稳妥熟悉主食；想要强比利时特色则不够。",
+      "nl": "Een veilige bekende hoofdschotel; minder geschikt als je iets uitgesproken Belgisch wilt."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "acquiredTasteLevel": 0,
+    "imageCode": "107038",
+    "imagePath": "/assets/dishes/main/107038-belgian-spaghetti-bolognese.webp",
+    "thumbPath": "/assets/dishes/thumb/107038-belgian-spaghetti-bolognese.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -16699,62 +17115,58 @@ const europeDepthDishConfigs = [
     "cuisineId": "belgian",
     "names": {
       "en": "Crevettes Grises Cocktail",
-      "zh": "灰虾鸡尾酒",
-      "nl": "Crevettes Grises Cocktail",
-      "local": "Crevettes Grises Cocktail"
+      "zh": "灰虾鸡尾酒杯",
+      "nl": "Grijze garnalencocktail",
+      "local": "Crevettes grises cocktail"
     },
-    "category": "seafood",
+    "category": "starter",
     "cookingMethods": [
-      "grilled"
+      "assembled",
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Crevettes Grises Cocktail is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "灰虾鸡尾酒是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Crevettes Grises Cocktail is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "North Sea grey shrimp served cold with cocktail sauce, lettuce, and lemon.",
+      "zh": "北海灰虾冷食，配鸡尾酒酱、生菜和柠檬。",
+      "nl": "Noordzeegarnaaltjes koud geserveerd met cocktailsaus, sla en citroen."
     },
     "cookingProfile": {
-      "en": "Usually served with fish or seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish or seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish or seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is cool, creamy, and briny, lighter than fried seafood.",
+      "zh": "口感冷、奶油感和咸鲜，比炸海鲜更清爽。",
+      "nl": "Koel, romig en zilt, lichter dan gefrituurde zeevruchten."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Belgian seafood starter centered on small grey shrimp.",
+        "zh": "比利时经典海鲜前菜，核心是小灰虾。",
+        "nl": "Een Belgische zeevruchtenstarter rond kleine grijze garnalen."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        40,
-        "main"
+        "shrimp",
+        55,
+        "grey shrimp"
       ],
       [
-        "mussels",
+        "mayonnaise",
         20,
-        "seafood"
+        "cocktail sauce"
       ],
       [
-        "potato",
-        15,
-        "side"
+        "mixed-vegetables",
+        10,
+        "lettuce garnish"
       ],
       [
         "lemon",
         10,
         "brightness"
-      ],
-      [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
       ],
       [
         "parsley",
@@ -16764,40 +17176,48 @@ const europeDepthDishConfigs = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "grey shrimp",
+      "cocktail sauce",
+      "lemon"
     ],
     "basicTaste": [
-      "savory",
-      "briny"
+      "briny",
+      "creamy",
+      "fresh"
     ],
     "textureProfile": [
-      "tender seafood",
-      "bright savory finish"
+      "small firm shrimp",
+      "creamy sauce",
+      "crisp lettuce"
     ],
     "riskFlags": [
-      "contains-fish",
-      "contains-shellfish"
+      "contains-shellfish",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "seafood"
+      "seafood",
+      "cold-starter"
     ],
     "avoidIfTags": [
-      "fish-allergy",
-      "shellfish-allergy"
+      "shellfish-allergy",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you like cold creamy shrimp starters; skip with shellfish or egg allergy.",
+      "zh": "喜欢冷食奶油感虾前菜时适合；甲壳类或鸡蛋过敏则避开。",
+      "nl": "Goed als je koude romige garnalen lust; sla over bij schaal- of ei-allergie."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "107039",
+    "imagePath": "/assets/dishes/main/107039-crevettes-grises-cocktail.webp",
+    "thumbPath": "/assets/dishes/thumb/107039-crevettes-grises-cocktail.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -16806,62 +17226,57 @@ const europeDepthDishConfigs = [
     "cuisineId": "belgian",
     "names": {
       "en": "Cod with Leeks",
-      "zh": "韭葱鳕鱼",
-      "nl": "Cod with Leeks",
-      "local": "Cod with Leeks"
+      "zh": "鳕鱼配韭葱",
+      "nl": "Kabeljauw met prei",
+      "local": "Cabillaud aux poireaux"
     },
-    "category": "fish",
+    "category": "main",
     "cookingMethods": [
-      "grilled"
+      "simmered",
+      "assembled"
     ],
     "shortDescription": {
-      "en": "Cod with Leeks is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "韭葱鳕鱼是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Cod with Leeks is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "White cod fillet served with soft leeks, often in a light creamy sauce.",
+      "zh": "白鳕鱼柳配软韭葱，常带轻奶油酱。",
+      "nl": "Kabeljauwfilet met zachte prei, vaak in lichte roomsaus."
     },
     "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect mild flaky fish and sweet leeks, not a fried seafood plate.",
+      "zh": "是温和片状白鱼和甜软韭葱，不是炸海鲜盘。",
+      "nl": "Milde vlokkige vis met zoete prei, geen gefrituurde visschotel."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "seafood",
+        "lighter-choice"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Belgian-style fish main where cod and leeks are the ordering cues.",
+        "zh": "比利时风格鱼类主菜，重点是鳕鱼和韭葱。",
+        "nl": "Een Belgische vismaaltijd met kabeljauw en prei als herkenning."
       }
     },
     "composition": [
       [
         "fish-fillet",
-        60,
-        "main"
+        55,
+        "cod fillet"
+      ],
+      [
+        "leek",
+        25,
+        "soft vegetable"
       ],
       [
         "potato",
-        15,
+        10,
         "side"
       ],
       [
-        "mixed-vegetables",
-        10,
-        "body"
-      ],
-      [
-        "lemon",
+        "cream",
         5,
-        "brightness"
-      ],
-      [
-        "olive-oil",
-        5,
-        "finish",
-        "seasoning"
+        "light sauce"
       ],
       [
         "parsley",
@@ -16871,38 +17286,48 @@ const europeDepthDishConfigs = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "cod",
+      "sweet leeks",
+      "cream sauce"
     ],
     "basicTaste": [
+      "mild",
       "savory",
-      "mild"
+      "lightly creamy"
     ],
     "textureProfile": [
-      "tender fish",
-      "light flaky bite"
+      "flaky fish",
+      "soft leeks",
+      "smooth sauce"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "fish"
+      "lighter-choice",
+      "seafood"
     ],
     "avoidIfTags": [
-      "fish-allergy"
+      "fish-allergy",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A gentle seafood main; good if you want fish without frying.",
+      "zh": "温和鱼类主菜；想吃不油炸的鱼时适合。",
+      "nl": "Een zachte vismaaltijd; goed als je vis zonder frituur wilt."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "107040",
+    "imagePath": "/assets/dishes/main/107040-cod-with-leeks.webp",
+    "thumbPath": "/assets/dishes/thumb/107040-cod-with-leeks.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -17125,104 +17550,105 @@ const europeDepthDishConfigs = [
     "cuisineId": "belgian",
     "names": {
       "en": "Hesp Rolletjes",
-      "zh": "火腿卷菊苣",
-      "nl": "Hesp Rolletjes",
-      "local": "Hesp Rolletjes"
+      "zh": "火腿菊苣奶酪卷",
+      "nl": "Hespenrolletjes",
+      "local": "Hesp rolletjes"
     },
-    "category": "pork",
+    "category": "main",
     "cookingMethods": [
-      "grilled"
+      "baked"
     ],
     "shortDescription": {
-      "en": "Hesp Rolletjes is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "火腿卷菊苣是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Hesp Rolletjes is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Ham rolls wrapped around Belgian endive, baked in creamy cheese sauce.",
+      "zh": "火腿包裹比利时菊苣，再用奶酪奶油酱烤制。",
+      "nl": "Hamrolletjes rond witloof, gebakken in romige kaassaus."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect bitter-soft endive inside salty ham with a rich cheese sauce.",
+      "zh": "内里是微苦柔软菊苣，外层咸香火腿，酱汁浓郁。",
+      "nl": "Zacht licht bitter witloof in zoute ham met rijke kaassaus."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Belgian home-style classic recognized by ham-wrapped endive and cheese sauce.",
+        "zh": "比利时家常经典菜，重点是火腿卷菊苣和奶酪酱。",
+        "nl": "Een Belgische thuiskeukenklassieker met witloof in ham en kaassaus."
       }
     },
     "composition": [
       [
-        "pork",
-        50,
-        "main"
+        "endive",
+        35,
+        "wrapped vegetable"
       ],
       [
-        "potato",
-        20,
-        "side"
+        "ham",
+        30,
+        "outer wrap"
       ],
       [
-        "cabbage",
-        10,
-        "body"
+        "cheese",
+        15,
+        "sauce"
       ],
       [
-        "mustard",
-        5,
-        "condiment",
-        "seasoning"
+        "cream",
+        15,
+        "sauce base"
       ],
       [
         "black-pepper",
         5,
         "seasoning",
         "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
+      "Belgian endive",
+      "ham",
+      "cheese sauce"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "creamy",
+      "slightly bitter"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "soft endive",
+      "salty ham",
+      "browned creamy sauce"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-dairy"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pork"
+      "classic-dish",
+      "comfort-food"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "no-pork",
+      "dairy-free",
+      "dislikes-bitter"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A rich Belgian comfort dish; skip if endive bitterness or dairy is not for you.",
+      "zh": "浓郁比利时家常菜；不爱菊苣苦味或避乳制品则不适合。",
+      "nl": "Rijke Belgische comfortkost; sla over bij witloofbitterheid of zuivel."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "acquiredTasteLevel": 2,
+    "imageCode": "107043",
+    "imagePath": "/assets/dishes/main/107043-hesp-rolletjes.webp",
+    "thumbPath": "/assets/dishes/thumb/107043-hesp-rolletjes.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -17230,100 +17656,95 @@ const europeDepthDishConfigs = [
     "metadataCode": "107044",
     "cuisineId": "belgian",
     "names": {
-      "en": "Kip aan t Spit",
-      "zh": "比利时烤鸡",
-      "nl": "Kip aan t Spit",
-      "local": "Kip aan t Spit"
+      "en": "Kip aan 't Spit",
+      "zh": "烤转炉鸡",
+      "nl": "Kip aan 't spit",
+      "local": "Kip aan 't spit"
     },
-    "category": "chicken",
+    "category": "main",
     "cookingMethods": [
       "grilled"
     ],
     "shortDescription": {
-      "en": "Kip aan t Spit is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "比利时烤鸡是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Kip aan t Spit is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Rotisserie-style roast chicken, often sold with fries or salad.",
+      "zh": "转炉烤鸡，常配薯条或沙拉。",
+      "nl": "Kip van het spit, vaak met friet of salade."
     },
     "cookingProfile": {
-      "en": "Usually served with chicken, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现chicken，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met chicken; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect browned chicken skin and juicy roast meat rather than fried coating.",
+      "zh": "重点是焦香鸡皮和多汁烤肉，不是炸鸡外壳。",
+      "nl": "Verwacht bruine kippenhuid en sappig gebraad, geen frituurkorst."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "safe-choice"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A common Belgian takeaway and brasserie chicken plate.",
+        "zh": "比利时外带店和小餐馆常见鸡肉菜。",
+        "nl": "Een veelvoorkomende Belgische afhaal- en brasseriekeuze."
       }
     },
     "composition": [
       [
         "chicken",
-        55,
-        "main"
+        65,
+        "roast chicken"
       ],
       [
-        "potato",
-        15,
+        "fries",
+        20,
         "side"
       ],
       [
         "mixed-vegetables",
-        15,
-        "body"
-      ],
-      [
-        "cream",
-        5,
-        "sauce"
+        10,
+        "salad side"
       ],
       [
         "black-pepper",
         5,
         "seasoning",
         "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "roast chicken skin",
+      "fries",
+      "pepper seasoning"
     ],
     "basicTaste": [
       "savory",
+      "roasty",
       "mild"
     ],
     "textureProfile": [
-      "tender chicken",
-      "savory finish"
+      "crisp browned skin",
+      "juicy meat",
+      "crisp fries"
     ],
     "riskFlags": [],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "chicken"
+      "safe-choice"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "wants-vegetarian"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A very safe familiar main; skip if you want a more distinctive Belgian specialty.",
+      "zh": "非常稳妥熟悉的主菜；想尝更有特色的比利时菜则不够。",
+      "nl": "Een heel veilige bekende hoofdschotel; minder uniek Belgisch."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 0,
+    "imageCode": "107044",
+    "imagePath": "/assets/dishes/main/107044-kip-aan-t-spit.webp",
+    "thumbPath": "/assets/dishes/thumb/107044-kip-aan-t-spit.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -17646,7 +18067,7 @@ const europeDepthDishConfigs = [
     "cuisineId": "belgian",
     "names": {
       "en": "Lacquemants",
-      "zh": "列日糖浆薄饼",
+      "zh": "列日糖浆薄华夫",
       "nl": "Lacquemants",
       "local": "Lacquemants"
     },
@@ -17655,32 +18076,32 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Lacquemants is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "列日糖浆薄饼是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Lacquemants is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Thin Liège fair waffles filled or glazed with sticky orange-brown syrup.",
+      "zh": "列日集市常见薄华夫，夹或刷橙棕色黏糖浆。",
+      "nl": "Dunne Luikse kermiswafels met kleverige oranjebruine siroop."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "They are thin, sticky, and very sweet, not thick breakfast waffles.",
+      "zh": "口感薄、黏、非常甜，不是厚早餐华夫。",
+      "nl": "Dun, kleverig en erg zoet, geen dikke ontbijtwafel."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "street-food"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Liège fair sweet recognized by thin syrupy waffles.",
+        "zh": "列日集市甜点，重点是薄华夫和糖浆。",
+        "nl": "Een Luikse kermiszoetigheid met dunne siroopwafels."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "waffle-batter",
+        50,
+        "thin waffle"
       ],
       [
         "sugar",
@@ -17688,61 +18109,62 @@ const europeDepthDishConfigs = [
         "sweetness"
       ],
       [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
+        "fruit-sauce-or-caramel",
+        20,
+        "syrup filling"
       ],
       [
         "butter",
         10,
         "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "sticky syrup",
+      "thin waffle",
+      "butter"
     ],
     "basicTaste": [
-      "sweet",
-      "creamy"
+      "very sweet",
+      "caramel",
+      "buttery"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "thin waffle layers",
+      "sticky syrup",
+      "soft chew"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "street-food"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free",
+      "avoid-very-sweet"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a very sweet fair-style snack; skip if sticky syrup is too much.",
+      "zh": "想吃很甜的集市小吃时适合；怕黏甜糖浆则避开。",
+      "nl": "Kies dit voor een erg zoete kermissnack; sla over als siroop te veel is."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "107048",
+    "imagePath": "/assets/dishes/main/107048-lacquemants.webp",
+    "thumbPath": "/assets/dishes/thumb/107048-lacquemants.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -17751,103 +18173,95 @@ const europeDepthDishConfigs = [
     "cuisineId": "belgian",
     "names": {
       "en": "Cuberdon",
-      "zh": "比利时覆盆子糖锥",
+      "zh": "紫色锥形软糖",
       "nl": "Cuberdon",
       "local": "Cuberdon"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "set"
     ],
     "shortDescription": {
-      "en": "Cuberdon is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "比利时覆盆子糖锥是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Cuberdon is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Purple cone-shaped Belgian candy with a firm shell and soft raspberry-like syrup center.",
+      "zh": "紫色锥形比利时糖果，外壳较硬，内里是覆盆子风味软糖浆。",
+      "nl": "Paarse kegelvormige Belgische snoep met harde buitenkant en zachte framboosachtige kern."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect an intensely sweet candy, not a plated dessert.",
+      "zh": "这是甜度很高的糖果，不是盘装甜点。",
+      "nl": "Verwacht zeer zoet snoep, geen borddessert."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "signature",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "signature-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A recognizable Belgian confection known for its purple cone shape.",
+        "zh": "辨识度很高的比利时糖果，特点是紫色锥形。",
+        "nl": "Een herkenbaar Belgisch snoepje met paarse kegelvorm."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
-      ],
-      [
         "sugar",
+        65,
+        "candy base"
+      ],
+      [
+        "berries",
         20,
-        "sweetness"
+        "raspberry-like center"
       ],
       [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
+        "gelatin",
         10,
-        "richness"
+        "set shell"
       ],
       [
         "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        5,
+        "syrup center"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "raspberry-like syrup",
+      "sugar shell"
     ],
     "basicTaste": [
-      "sweet",
-      "creamy"
+      "very sweet",
+      "fruity"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "firm shell",
+      "soft syrup center",
+      "sticky bite"
     ],
-    "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+    "riskFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
     ],
-    "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "signature-dish"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "avoid-very-sweet"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Try it as a Belgian candy curiosity; skip if you dislike very sweet sweets.",
+      "zh": "想尝比利时特色糖果时可以；不爱高甜软糖则避开。",
+      "nl": "Probeer als Belgisch snoep; sla over als je erg zoet niet lust."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "107049",
+    "imagePath": "/assets/dishes/main/107049-cuberdon.webp",
+    "thumbPath": "/assets/dishes/thumb/107049-cuberdon.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -17856,103 +18270,103 @@ const europeDepthDishConfigs = [
     "cuisineId": "belgian",
     "names": {
       "en": "Merveilleux",
-      "zh": "蛋白霜奶油甜点",
+      "zh": "蛋白霜奶油巧克力甜点",
       "nl": "Merveilleux",
       "local": "Merveilleux"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "assembled",
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Merveilleux is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "蛋白霜奶油甜点是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Merveilleux is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Meringue and whipped cream dessert covered with chocolate shavings.",
+      "zh": "蛋白霜和打发奶油组成的甜点，外层裹巧克力碎。",
+      "nl": "Dessert van meringue en slagroom bedekt met chocoladeschaafsel."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is airy, creamy, and sweet with crisp meringue inside.",
+      "zh": "口感轻盈、奶油感强，内部有酥脆蛋白霜。",
+      "nl": "Luchtig, romig en zoet met krokante meringue binnenin."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Belgian and northern French pastry recognized by cream and chocolate shavings.",
+        "zh": "比利时和法国北部经典甜点，重点是奶油和巧克力碎。",
+        "nl": "Een Belgisch en Noord-Frans gebakje met room en chocoladeschaafsel."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "sugar",
-        20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
+        "meringue",
+        35,
+        "crisp layers"
       ],
       [
         "cream",
-        15,
-        "richness"
+        35,
+        "whipped cream"
       ],
       [
-        "butter",
+        "chocolate",
+        20,
+        "shavings"
+      ],
+      [
+        "sugar",
         10,
-        "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "sweetness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "meringue",
+      "whipped cream",
+      "chocolate shavings"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "chocolatey"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "airy cream",
+      "crisp meringue",
+      "soft chilled bite"
     ],
     "riskFlags": [
-      "contains-gluten",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
       "dessert"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "egg-allergy",
+      "dairy-free",
+      "avoid-very-sweet"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you want a light-looking but creamy sweet dessert.",
+      "zh": "想吃看起来轻、实际奶油感强的甜点时适合。",
+      "nl": "Goed als je een luchtig ogend maar romig dessert wilt."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "107050",
+    "imagePath": "/assets/dishes/main/107050-merveilleux.webp",
+    "thumbPath": "/assets/dishes/thumb/107050-merveilleux.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -17960,104 +18374,112 @@ const europeDepthDishConfigs = [
     "metadataCode": "107051",
     "cuisineId": "belgian",
     "names": {
-      "en": "Miserable Cake",
-      "zh": "比利时杏仁奶油蛋糕",
-      "nl": "Miserable Cake",
-      "local": "Miserable Cake"
+      "en": "Misérable Cake",
+      "zh": "杏仁奶油夹心蛋糕",
+      "nl": "Misérabletaart",
+      "local": "Misérable"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "baked",
+      "layered"
     ],
     "shortDescription": {
-      "en": "Miserable Cake is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "比利时杏仁奶油蛋糕是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Miserable Cake is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Belgian almond sponge cake layered with pale buttercream.",
+      "zh": "比利时杏仁海绵蛋糕，中间夹浅色黄油奶油。",
+      "nl": "Belgische amandelcake in lagen met lichte botercrème."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect nutty sponge and rich buttercream, more refined than a simple slice cake.",
+      "zh": "入口有杏仁蛋糕体和浓郁黄油奶油，比普通蛋糕更精致。",
+      "nl": "Nootachtig biscuit en rijke botercrème, verfijnder dan gewone cake."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Belgian patisserie classic recognized by almond sponge and buttercream layers.",
+        "zh": "比利时糕点经典，重点是杏仁蛋糕体和奶油层。",
+        "nl": "Een Belgische patisserieklassieker met amandelbiscuit en botercrème."
       }
     },
     "composition": [
       [
-        "wheat-flour",
+        "almonds",
+        30,
+        "almond sponge"
+      ],
+      [
+        "sponge-cake",
         25,
-        "base"
-      ],
-      [
-        "sugar",
-        20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
+        "cake layers"
       ],
       [
         "butter",
-        10,
-        "richness"
+        20,
+        "buttercream"
       ],
       [
-        "fruit-sauce-or-caramel",
+        "sugar",
         15,
-        "topping"
+        "sweetness"
+      ],
+      [
+        "vanilla",
+        10,
+        "aroma",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "almond sponge",
+      "buttercream",
+      "vanilla"
     ],
     "basicTaste": [
       "sweet",
+      "nutty",
       "creamy"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft sponge",
+      "smooth buttercream",
+      "light nutty crumb"
     ],
     "riskFlags": [
+      "contains-tree-nut",
       "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
       "dessert"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "nut-allergy",
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for almond and buttercream; skip with nut or dairy concerns.",
+      "zh": "喜欢杏仁和黄油奶油时适合；坚果或乳制品问题则避开。",
+      "nl": "Kies dit voor amandel en botercrème; sla over bij noten of zuivel."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "107051",
+    "imagePath": "/assets/dishes/main/107051-miserable-cake.webp",
+    "thumbPath": "/assets/dishes/thumb/107051-miserable-cake.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -18066,7 +18488,7 @@ const europeDepthDishConfigs = [
     "cuisineId": "belgian",
     "names": {
       "en": "Cougnou",
-      "zh": "比利时圣诞奶油面包",
+      "zh": "圣诞甜面包",
       "nl": "Cougnou",
       "local": "Cougnou"
     },
@@ -18075,94 +18497,99 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Cougnou is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "比利时圣诞奶油面包是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Cougnou is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Belgian Christmas brioche-like bread, often shaped like a swaddled baby and dotted with sugar or raisins.",
+      "zh": "比利时圣诞甜面包，常做成襁褓婴儿形，带糖粒或葡萄干。",
+      "nl": "Belgisch kerstbrood, briocheachtig en vaak met suiker of rozijnen."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is soft, bready, and mildly sweet rather than a creamy dessert.",
+      "zh": "口感柔软像面包，甜度温和，不是奶油甜点。",
+      "nl": "Zacht, broodachtig en mild zoet, geen romig dessert."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "festival",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "festival",
+        "dessert"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Belgian Christmas bakery item recognized by its shaped sweet bread form.",
+        "zh": "比利时圣诞烘焙甜面包，特点是特殊造型。",
+        "nl": "Een Belgisch kerstbrood herkenbaar aan de gevormde zoete broodvorm."
       }
     },
     "composition": [
       [
         "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "sugar",
-        20,
-        "sweetness"
+        45,
+        "sweet bread"
       ],
       [
         "egg",
         15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
+        "dough richness"
       ],
       [
         "butter",
-        10,
+        15,
         "richness"
       ],
       [
-        "fruit-sauce-or-caramel",
+        "sugar",
         15,
-        "topping"
+        "sweetness"
+      ],
+      [
+        "raisins",
+        10,
+        "optional fruit"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "sweet bread",
+      "butter",
+      "raisins"
     ],
     "basicTaste": [
-      "sweet",
-      "creamy"
+      "mildly sweet",
+      "buttery",
+      "bready"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft bread crumb",
+      "glossy crust",
+      "small raisins"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "festival"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good as a festive sweet bread; skip if you want a plated dessert.",
+      "zh": "适合作为节日甜面包；想吃盘装甜点则不是首选。",
+      "nl": "Goed als feestelijk zoet brood; minder als borddessert."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "107052",
+    "imagePath": "/assets/dishes/main/107052-cougnou.webp",
+    "thumbPath": "/assets/dishes/thumb/107052-cougnou.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -18171,7 +18598,7 @@ const europeDepthDishConfigs = [
     "cuisineId": "belgian",
     "names": {
       "en": "Cramique",
-      "zh": "葡萄干奶油面包",
+      "zh": "葡萄干甜面包",
       "nl": "Cramique",
       "local": "Cramique"
     },
@@ -18180,42 +18607,36 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Cramique is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡萄干奶油面包是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Cramique is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Soft Belgian raisin bread, usually sliced and eaten with butter.",
+      "zh": "柔软比利时葡萄干面包，通常切片配黄油。",
+      "nl": "Zacht Belgisch rozijnenbrood, meestal gesneden met boter."
     },
     "cookingProfile": {
-      "en": "Usually served with baked bread or pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现baked bread or pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met baked bread or pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a tender sweet loaf with raisins, lighter than cake.",
+      "zh": "口感是柔软甜面包和葡萄干，比蛋糕更轻。",
+      "nl": "Zacht zoet brood met rozijnen, lichter dan cake."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A common Belgian bakery bread recognized by raisins in a soft loaf.",
+        "zh": "比利时常见烘焙面包，重点是柔软面包里的葡萄干。",
+        "nl": "Een veelvoorkomend Belgisch bakkersbrood met rozijnen."
       }
     },
     "composition": [
       [
-        "bread",
-        45,
-        "base"
-      ],
-      [
         "wheat-flour",
-        25,
-        "base"
+        50,
+        "bread loaf"
       ],
       [
-        "cheese",
-        15,
-        "filling"
+        "raisins",
+        20,
+        "fruit"
       ],
       [
         "butter",
@@ -18223,46 +18644,61 @@ const europeDepthDishConfigs = [
         "richness"
       ],
       [
-        "sea-salt",
-        5,
-        "seasoning",
-        "seasoning"
+        "egg",
+        10,
+        "dough richness"
+      ],
+      [
+        "sugar",
+        10,
+        "sweetness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "raisins",
+      "sweet bread",
+      "butter"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "mildly sweet",
+      "bready",
+      "fruity"
     ],
     "textureProfile": [
-      "soft bread",
-      "crisp edges"
+      "soft crumb",
+      "chewy raisins",
+      "light crust"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "bread"
+      "breakfast",
+      "bakery"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A gentle bakery choice for breakfast or coffee; not a full dessert plate.",
+      "zh": "适合早餐或配咖啡的温和烘焙选择；不是完整甜点盘。",
+      "nl": "Een zachte bakkerskeuze bij ontbijt of koffie; geen volledig dessert."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "acquiredTasteLevel": 0,
+    "imageCode": "107053",
+    "imagePath": "/assets/dishes/main/107053-cramique.webp",
+    "thumbPath": "/assets/dishes/thumb/107053-cramique.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -18271,98 +18707,109 @@ const europeDepthDishConfigs = [
     "cuisineId": "belgian",
     "names": {
       "en": "Belgian Suikerbrood",
-      "zh": "比利时糖面包",
-      "nl": "Belgian Suikerbrood",
-      "local": "Belgian Suikerbrood"
+      "zh": "比利时糖粒面包",
+      "nl": "Belgisch suikerbrood",
+      "local": "Suikerbrood"
     },
     "category": "bread",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Belgian Suikerbrood is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "比利时糖面包是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Belgian Suikerbrood is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Sweet bread with pockets of pearl sugar baked through the loaf.",
+      "zh": "甜面包里烤入珍珠糖粒，切开可见糖洞。",
+      "nl": "Zoet brood met parelsuiker in het kruim."
     },
     "cookingProfile": {
-      "en": "Usually served with baked bread or pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现baked bread or pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met baked bread or pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is soft and buttery, with crunchy or sticky sugar pockets.",
+      "zh": "面包柔软带黄油香，糖粒有脆感或黏甜感。",
+      "nl": "Zacht en boterig, met krokante of kleverige suikerplekjes."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "bakery"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Belgian bakery bread where pearl sugar is the main cue.",
+        "zh": "比利时烘焙面包，核心识别是珍珠糖。",
+        "nl": "Een Belgisch bakkersbrood met parelsuiker als herkenning."
       }
     },
     "composition": [
       [
-        "bread",
-        45,
-        "base"
-      ],
-      [
         "wheat-flour",
-        25,
-        "base"
+        45,
+        "bread loaf"
       ],
       [
-        "cheese",
-        15,
-        "filling"
+        "sugar",
+        25,
+        "pearl sugar"
       ],
       [
         "butter",
-        10,
+        15,
         "richness"
       ],
       [
-        "sea-salt",
+        "egg",
+        10,
+        "dough richness"
+      ],
+      [
+        "vanilla",
         5,
-        "seasoning",
+        "aroma",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "pearl sugar",
+      "butter",
+      "sweet bread"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "sweet",
+      "buttery",
+      "bready"
     ],
     "textureProfile": [
-      "soft bread",
-      "crisp edges"
+      "soft crumb",
+      "sugar pockets",
+      "glossy crust"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "bread"
+      "bakery",
+      "dessert"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy",
+      "avoid-very-sweet"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you want a sweet bread rather than a pastry cream dessert.",
+      "zh": "想吃甜面包而不是奶油糕点时适合。",
+      "nl": "Goed als je zoet brood wilt in plaats van roomgebak."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "acquiredTasteLevel": 0,
+    "imageCode": "107054",
+    "imagePath": "/assets/dishes/main/107054-suikerbrood-belgian.webp",
+    "thumbPath": "/assets/dishes/thumb/107054-suikerbrood-belgian.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -18377,97 +18824,103 @@ const europeDepthDishConfigs = [
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "simmered"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Rijstpap is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "比利时米布丁是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Rijstpap is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Creamy Belgian rice pudding, sometimes yellow from saffron and topped with brown sugar.",
+      "zh": "比利时米布丁，常有淡黄色藏红花色泽，可撒红糖。",
+      "nl": "Romige Belgische rijstpap, soms geel van saffraan en met bruine suiker."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect visible rice grains in a soft creamy pudding, served cool or room temperature.",
+      "zh": "能吃到米粒，整体柔软奶香，常冷食或常温食用。",
+      "nl": "Zichtbare rijstkorrels in romige pap, koud of op kamertemperatuur."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic Belgian dairy dessert recognized by creamy rice and yellow tint.",
+        "zh": "经典比利时乳制甜点，重点是奶香米粒和淡黄色泽。",
+        "nl": "Een klassiek Belgisch zuiveldessert met romige rijst en gele tint."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "sugar",
-        20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
+        "rice-custard",
+        55,
+        "rice pudding"
       ],
       [
         "cream",
-        15,
-        "richness"
+        20,
+        "dairy base"
       ],
       [
-        "butter",
-        10,
-        "richness"
+        "sugar",
+        15,
+        "sweetness"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "saffron",
+        5,
+        "color aroma",
+        "seasoning"
+      ],
+      [
+        "cinnamon",
+        5,
+        "finish",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "creamy rice",
+      "saffron tint",
+      "brown sugar"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "mild"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft rice grains",
+      "creamy pudding",
+      "light sugar crunch"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "classic-dish"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "dairy-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A gentle creamy dessert; skip if rice pudding texture is not your thing.",
+      "zh": "温和奶香甜点；不喜欢米布丁口感则避开。",
+      "nl": "Een zacht romig dessert; sla over als rijstpaptextuur niet past."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "107055",
+    "imagePath": "/assets/dishes/main/107055-rijstpap.webp",
+    "thumbPath": "/assets/dishes/thumb/107055-rijstpap.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -18476,7 +18929,7 @@ const europeDepthDishConfigs = [
     "cuisineId": "belgian",
     "names": {
       "en": "Pistolet",
-      "zh": "比利时小圆面包",
+      "zh": "比利时圆小面包",
       "nl": "Pistolet",
       "local": "Pistolet"
     },
@@ -18485,89 +18938,97 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Pistolet is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "比利时小圆面包是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Pistolet is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Crisp round Belgian bread roll, often filled with ham, cheese, or spread.",
+      "zh": "比利时圆形脆皮小面包，常夹火腿、奶酪或抹酱。",
+      "nl": "Krokant rond Belgisch broodje, vaak belegd met ham, kaas of beleg."
     },
     "cookingProfile": {
-      "en": "Usually served with baked bread or pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现baked bread or pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met baked bread or pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a crusty white roll; the filling matters if it is served as a sandwich.",
+      "zh": "重点是白面包脆皮；若做三明治，馅料决定风味。",
+      "nl": "Verwacht een krokant wit broodje; beleg bepaalt de smaak."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "bakery"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A common Belgian bakery roll and sandwich base.",
+        "zh": "比利时常见面包店小圆包，也是三明治底。",
+        "nl": "Een veelvoorkomend Belgisch broodje en sandwichbasis."
       }
     },
     "composition": [
       [
         "bread",
-        45,
-        "base"
+        65,
+        "crusty roll"
       ],
       [
-        "wheat-flour",
-        25,
-        "base"
+        "ham",
+        15,
+        "possible filling"
       ],
       [
         "cheese",
-        15,
-        "filling"
+        10,
+        "possible filling"
       ],
       [
         "butter",
-        10,
-        "richness"
+        5,
+        "spread"
       ],
       [
-        "sea-salt",
+        "mustard",
         5,
-        "seasoning",
+        "optional condiment",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "crusty roll",
+      "butter",
+      "simple filling"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "bready",
+      "mild",
+      "savory if filled"
     ],
     "textureProfile": [
-      "soft bread",
-      "crisp edges"
+      "crisp crust",
+      "soft crumb",
+      "optional soft filling"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "bread"
+      "safe-choice",
+      "bakery"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free",
+      "no-pork"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A simple bread or sandwich choice; check the filling before judging the meal.",
+      "zh": "是简单面包或三明治选择；是否值得点主要看夹馅。",
+      "nl": "Een eenvoudige brood- of sandwichkeuze; beoordeel vooral het beleg."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "acquiredTasteLevel": 0,
+    "imageCode": "107056",
+    "imagePath": "/assets/dishes/main/107056-pistolet.webp",
+    "thumbPath": "/assets/dishes/thumb/107056-pistolet.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -18576,56 +19037,51 @@ const europeDepthDishConfigs = [
     "cuisineId": "belgian",
     "names": {
       "en": "Smoutebollen",
-      "zh": "比利时油炸甜球",
+      "zh": "比利时炸面团球",
       "nl": "Smoutebollen",
       "local": "Smoutebollen"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "deep-fried"
     ],
     "shortDescription": {
-      "en": "Smoutebollen is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "比利时油炸甜球是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Smoutebollen is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Belgian fairground fried dough balls dusted with powdered sugar.",
+      "zh": "比利时集市炸面团球，表面撒大量糖粉。",
+      "nl": "Belgische kermisdeegbollen, gefrituurd en met poedersuiker."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect hot fluffy fried dough and lots of powdered sugar.",
+      "zh": "入口是热的蓬松油炸面团和大量糖粉。",
+      "nl": "Verwacht warme luchtige gefrituurde deegbollen met veel suiker."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "street-food",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "street-food",
+        "festival"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Belgian fair snack recognized by small powdered fried dough balls.",
+        "zh": "比利时集市小吃，重点是糖粉炸面团球。",
+        "nl": "Een Belgische kermissnack met kleine gesuikerde deegbollen."
       }
     },
     "composition": [
       [
         "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "sugar",
-        20,
-        "sweetness"
+        45,
+        "dough"
       ],
       [
         "egg",
         15,
-        "structure"
+        "dough richness"
       ],
       [
-        "cream",
-        15,
-        "richness"
+        "sugar",
+        20,
+        "powdered sugar"
       ],
       [
         "butter",
@@ -18633,46 +19089,58 @@ const europeDepthDishConfigs = [
         "richness"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "vanilla",
+        10,
+        "aroma",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "fried dough",
+      "powdered sugar",
+      "vanilla"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "fried",
+      "mild"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "fluffy center",
+      "light crisp outside",
+      "powdered sugar surface"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
+      "street-food",
       "dessert"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free",
+      "avoid-fried-food"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Great as a fair-style sweet snack; skip if you want something light.",
+      "zh": "适合集市风甜小吃；想清淡则不适合。",
+      "nl": "Mooi als kermiszoetigheid; sla over als je iets lichts zoekt."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 0,
+    "imageCode": "107057",
+    "imagePath": "/assets/dishes/main/107057-smoutebollen.webp",
+    "thumbPath": "/assets/dishes/thumb/107057-smoutebollen.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -18680,104 +19148,105 @@ const europeDepthDishConfigs = [
     "metadataCode": "107058",
     "cuisineId": "belgian",
     "names": {
-      "en": "Gaufres de Liege",
+      "en": "Gaufre de Liège",
       "zh": "列日华夫",
-      "nl": "Gaufres de Liege",
-      "local": "Gaufres de Liege"
+      "nl": "Luikse wafel",
+      "local": "Gaufre de Liège"
     },
     "category": "dessert",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Gaufres de Liege is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "列日华夫是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Gaufres de Liege is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Dense chewy Liège waffle with caramelized pearl sugar in the dough.",
+      "zh": "列日华夫质地较密、有嚼劲，面团中有焦糖化珍珠糖。",
+      "nl": "Dichte Luikse wafel met gekaramelliseerde parelsuiker in het deeg."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is richer and chewier than a Brussels waffle, often eaten plain.",
+      "zh": "比布鲁塞尔华夫更厚实有嚼劲，常直接吃。",
+      "nl": "Rijker en steviger dan Brusselse wafel, vaak zonder topping gegeten."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "signature",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "signature-dish",
+        "street-food"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Belgian signature waffle recognized by caramelized pearl sugar and irregular shape.",
+        "zh": "比利时代表华夫，重点是珍珠糖和不规则厚实形状。",
+        "nl": "Een Belgische signatuurwafel met parelsuiker en onregelmatige vorm."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "waffle-batter",
+        50,
+        "dense waffle"
       ],
       [
         "sugar",
-        20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
+        25,
+        "pearl sugar"
       ],
       [
         "butter",
-        10,
+        15,
         "richness"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "egg",
+        10,
+        "dough richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "caramelized pearl sugar",
+      "butter",
+      "yeasted waffle dough"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "caramel",
+      "buttery"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "chewy dense crumb",
+      "crisp sugar bits",
+      "sticky edges"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
+      "signature-dish",
       "dessert"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free",
+      "avoid-very-sweet"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for the iconic caramelized Belgian waffle experience.",
+      "zh": "想吃经典焦糖珍珠糖比利时华夫时选它。",
+      "nl": "Kies dit voor de iconische gekaramelliseerde Belgische wafel."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 0,
+    "imageCode": "107058",
+    "imagePath": "/assets/dishes/main/107058-gaufres-de-liege.webp",
+    "thumbPath": "/assets/dishes/thumb/107058-gaufres-de-liege.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -18785,104 +19254,109 @@ const europeDepthDishConfigs = [
     "metadataCode": "107059",
     "cuisineId": "belgian",
     "names": {
-      "en": "Gaufres de Bruxelles",
+      "en": "Gaufre de Bruxelles",
       "zh": "布鲁塞尔华夫",
-      "nl": "Gaufres de Bruxelles",
-      "local": "Gaufres de Bruxelles"
+      "nl": "Brusselse wafel",
+      "local": "Gaufre de Bruxelles"
     },
     "category": "dessert",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Gaufres de Bruxelles is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "布鲁塞尔华夫是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Gaufres de Bruxelles is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Light rectangular Brussels waffle with deep pockets, often topped with sugar, cream, or fruit.",
+      "zh": "布鲁塞尔华夫呈长方形、格子深，口感较轻，常配糖粉、奶油或水果。",
+      "nl": "Lichte rechthoekige Brusselse wafel met diepe vakken, vaak met suiker, room of fruit."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is airy and crisp, more topping-friendly than a dense Liège waffle.",
+      "zh": "口感轻盈酥脆，比列日华夫更适合加配料。",
+      "nl": "Luchtig en krokant, meer geschikt voor toppings dan Luikse wafel."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "signature",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "signature-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Belgian signature waffle recognized by rectangular deep-grid shape.",
+        "zh": "比利时代表华夫，识别重点是长方形深格。",
+        "nl": "Een Belgische signatuurwafel met rechthoekig diep raster."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "waffle-batter",
+        60,
+        "light waffle"
       ],
       [
         "sugar",
-        20,
-        "sweetness"
-      ],
-      [
-        "egg",
         15,
-        "structure"
+        "topping"
       ],
       [
         "cream",
-        15,
-        "richness"
+        10,
+        "optional topping"
+      ],
+      [
+        "berries",
+        10,
+        "fruit topping"
       ],
       [
         "butter",
-        10,
+        5,
         "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "crisp waffle",
+      "powdered sugar",
+      "cream topping"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "light",
+      "buttery"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "crisp outside",
+      "airy inside",
+      "deep waffle pockets"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
+      "signature-dish",
       "dessert"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a lighter Belgian waffle, especially if you want toppings.",
+      "zh": "想吃较轻盈、适合加料的比利时华夫时选它。",
+      "nl": "Kies dit voor een lichtere Belgische wafel, zeker met toppings."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "acquiredTasteLevel": 0,
+    "imageCode": "107059",
+    "imagePath": "/assets/dishes/main/107059-gaufres-de-bruxelles.webp",
+    "thumbPath": "/assets/dishes/thumb/107059-gaufres-de-bruxelles.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -18891,103 +19365,109 @@ const europeDepthDishConfigs = [
     "cuisineId": "belgian",
     "names": {
       "en": "Belgian Boule de Berlin",
-      "zh": "比利时柏林球",
-      "nl": "Belgian Boule de Berlin",
-      "local": "Belgian Boule de Berlin"
+      "zh": "比利时夹心甜甜圈",
+      "nl": "Boule de Berlin",
+      "local": "Boule de Berlin"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "deep-fried"
     ],
     "shortDescription": {
-      "en": "Belgian Boule de Berlin is a common Belgian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "比利时柏林球是常见比利时菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Belgian Boule de Berlin is een veelvoorkomend Belgisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Round fried doughnut filled with pastry cream or jam and dusted with sugar.",
+      "zh": "圆形油炸甜面团，内有卡仕达或果酱馅，表面撒糖粉。",
+      "nl": "Ronde gefrituurde bol met banketbakkersroom of jam en suiker."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a soft fried doughnut with a sweet creamy or fruity center.",
+      "zh": "入口是柔软油炸面团，中间有甜奶油或果酱馅。",
+      "nl": "Zachte gefrituurde bol met zoete romige of fruitige vulling."
     },
     "cuisineRole": {
       "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "dessert",
+        "bakery"
       ],
       "description": {
-        "en": "A likely Belgian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见比利时菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Belgisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A common Belgian bakery doughnut recognized by round filled shape.",
+        "zh": "比利时常见烘焙甜点，特点是圆形夹心炸面团。",
+        "nl": "Een veelvoorkomende Belgische gevulde deegbol."
       }
     },
     "composition": [
       [
         "wheat-flour",
+        45,
+        "fried dough"
+      ],
+      [
+        "vanilla-custard",
         25,
-        "base"
+        "cream filling"
       ],
       [
         "sugar",
-        20,
-        "sweetness"
+        15,
+        "dusting"
       ],
       [
         "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
+        10,
+        "dough richness"
       ],
       [
         "butter",
-        10,
+        5,
         "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "fried dough",
+      "pastry cream",
+      "powdered sugar"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "fried"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft dough",
+      "creamy center",
+      "sugared surface"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "bakery"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free",
+      "avoid-fried-food"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A familiar sweet bakery choice; heavier than a small cookie.",
+      "zh": "是熟悉的甜面包店选择；比分量小的饼干更厚重。",
+      "nl": "Een vertrouwde zoete bakkerskeuze; zwaarder dan een klein koekje."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 0,
+    "imageCode": "107060",
+    "imagePath": "/assets/dishes/main/107060-boule-de-berlin-belgian.webp",
+    "thumbPath": "/assets/dishes/thumb/107060-boule-de-berlin-belgian.webp",
+    "confidenceTag": "audited-remaining-batch-042",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -24387,7 +24867,7 @@ const europeDepthDishConfigs = [
     "cuisineId": "portuguese",
     "names": {
       "en": "Queijo da Serra",
-      "zh": "塞拉软奶酪",
+      "zh": "塞拉山软奶酪",
       "nl": "Queijo da Serra",
       "local": "Queijo da Serra"
     },
@@ -24395,97 +24875,96 @@ const europeDepthDishConfigs = [
     "cookingMethods": [
       "assembled"
     ],
+    "servingTemperature": "room-temperature",
     "shortDescription": {
-      "en": "Queijo da Serra is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "塞拉软奶酪是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Queijo da Serra is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Portuguese soft sheep cheese with a creamy center, often eaten with bread or quince paste.",
+      "zh": "葡萄牙软质羊奶酪，内心细腻流心，常配面包或榅桲果膏。",
+      "nl": "Portugese zachte schapenkaas met romig midden, vaak met brood of kweepeerpasta."
     },
     "cookingProfile": {
-      "en": "Usually served with cheese-focused dish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现cheese-focused dish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met cheese-focused dish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a rich, salty, creamy cheese course rather than a cooked dish.",
+      "zh": "预期是浓郁咸香的奶酪盘，不是热菜。",
+      "nl": "Verwacht een rijke zoute romige kaasschotel, geen warm gerecht."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "cheese"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A distinctive Portuguese mountain cheese with a soft spoonable center.",
+        "zh": "有代表性的葡萄牙山区奶酪，中心柔软可舀。",
+        "nl": "Een kenmerkende Portugese bergkaas met zachte lepelbare kern."
       }
     },
     "composition": [
       [
-        "cheese",
-        45,
-        "main"
+        "serra-cheese",
+        65,
+        "soft cheese"
       ],
       [
         "bread",
         20,
-        "base"
+        "bread side"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "body"
+        "quince-paste",
+        10,
+        "sweet pairing"
       ],
       [
         "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
+        "optional finish",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cheese",
-      "cream",
-      "pepper"
+      "sheep cheese",
+      "creamy center",
+      "quince paste"
     ],
     "basicTaste": [
-      "savory",
-      "creamy"
+      "salty",
+      "creamy",
+      "slightly tangy"
     ],
     "textureProfile": [
-      "creamy or firm cheese",
-      "savory finish"
+      "soft oozy cheese",
+      "crusty bread",
+      "firm sweet paste"
     ],
     "riskFlags": [
       "contains-dairy",
       "contains-gluten"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "cheese"
+      "cheese",
+      "starter"
     ],
     "avoidIfTags": [
-      "dairy-free"
+      "dairy-free",
+      "gluten-free",
+      "dislikes-strong-cheese"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Worth ordering if you like rich soft cheeses; skip if dairy or sheep-cheese funk is an issue.",
+      "zh": "喜欢浓郁软奶酪时值得点；避乳制品或不爱羊奶酪风味则避开。",
+      "nl": "Aanrader voor liefhebbers van rijke zachte kaas; sla over bij zuivel of schapenkaassmaak."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 3,
+    "acquiredTasteLevel": 2,
+    "imageCode": "125050",
+    "imagePath": "/assets/dishes/main/125050-queijo-da-serra.webp",
+    "thumbPath": "/assets/dishes/thumb/125050-queijo-da-serra.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -24494,56 +24973,56 @@ const europeDepthDishConfigs = [
     "cuisineId": "portuguese",
     "names": {
       "en": "Farinheira",
-      "zh": "葡式面粉香肠",
+      "zh": "葡萄牙法里涅拉香肠",
       "nl": "Farinheira",
       "local": "Farinheira"
     },
-    "category": "pork",
+    "category": "meat",
     "cookingMethods": [
-      "grilled"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Farinheira is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡式面粉香肠是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Farinheira is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Portuguese smoked flour-based sausage, often fried and served with eggs or potatoes.",
+      "zh": "葡萄牙烟熏面粉香肠，常煎后配鸡蛋或土豆。",
+      "nl": "Portugese gerookte bloemworst, vaak gebakken met ei of aardappel."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is soft, smoky, and rich, with a crumbly filling rather than a firm meat sausage bite.",
+      "zh": "质地柔软、烟熏、浓郁，内馅略松散，不像紧实肉肠。",
+      "nl": "Zacht, rokerig en rijk, met kruimelige vulling in plaats van stevige vleesworst."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic Portuguese enchido with a distinctive flour-and-smoke texture.",
+        "zh": "经典葡萄牙腌熏肠类，特点是面粉内馅和烟熏感。",
+        "nl": "Een klassieke Portugese enchido met herkenbare bloem- en rooksmaak."
       }
     },
     "composition": [
       [
-        "pork",
+        "farinheira-sausage",
         50,
-        "main"
+        "sausage"
+      ],
+      [
+        "egg",
+        25,
+        "scrambled egg side"
       ],
       [
         "potato",
-        20,
-        "side"
+        15,
+        "fried side"
       ],
       [
-        "cabbage",
-        10,
-        "body"
-      ],
-      [
-        "mustard",
+        "olive-oil",
         5,
-        "condiment",
+        "frying fat",
         "seasoning"
       ],
       [
@@ -24551,47 +25030,51 @@ const europeDepthDishConfigs = [
         5,
         "seasoning",
         "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
+      "smoked farinheira",
+      "egg",
+      "olive oil"
     ],
     "basicTaste": [
+      "smoky",
       "savory",
       "rich"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "soft sausage filling",
+      "creamy eggs",
+      "crisp potato edges"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-gluten",
+      "contains-egg"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pork"
+      "meat",
+      "regional-dish"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "pork-free",
+      "gluten-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if smoky soft sausage with eggs sounds comforting; avoid if you expect a firm grilled sausage.",
+      "zh": "喜欢烟熏软香肠配蛋会适合；想吃紧实烤肠则不一定。",
+      "nl": "Goed als zachte rokerige worst met ei je aanspreekt; minder als je stevige worst verwacht."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "acquiredTasteLevel": 2,
+    "imageCode": "125051",
+    "imagePath": "/assets/dishes/main/125051-farinheira.webp",
+    "thumbPath": "/assets/dishes/thumb/125051-farinheira.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -24600,56 +25083,57 @@ const europeDepthDishConfigs = [
     "cuisineId": "portuguese",
     "names": {
       "en": "Morcela Portuguesa",
-      "zh": "葡式血肠",
-      "nl": "Morcela Portuguesa",
-      "local": "Morcela Portuguesa"
+      "zh": "葡萄牙血肠",
+      "nl": "Portugese morcela",
+      "local": "Morcela portuguesa"
     },
-    "category": "pork",
+    "category": "meat",
     "cookingMethods": [
+      "fried",
       "grilled"
     ],
     "shortDescription": {
-      "en": "Morcela Portuguesa is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡式血肠是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Morcela Portuguesa is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Portuguese dark blood sausage, usually sliced and fried or grilled, often served with potatoes or fruit.",
+      "zh": "葡萄牙深色血肠，通常切片煎或烤，常配土豆或水果。",
+      "nl": "Portugese donkere bloedworst, in plakken gebakken of gegrild, vaak met aardappel of fruit."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a rich iron-like blood sausage flavor with a soft dense bite.",
+      "zh": "预期是血肠特有的浓郁铁质风味和柔密口感。",
+      "nl": "Verwacht rijke ijzerachtige bloedworstsmaak met zachte dichte beet."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "acquired-taste"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A traditional Portuguese blood sausage item, distinctive but not for every diner.",
+        "zh": "传统葡萄牙血肠，很有特色但不是每个人都适合。",
+        "nl": "Een traditionele Portugese bloedworst, uitgesproken maar niet voor iedereen."
       }
     },
     "composition": [
       [
-        "pork",
-        50,
-        "main"
+        "blood-sausage",
+        60,
+        "sausage slices"
       ],
       [
         "potato",
         20,
-        "side"
+        "boiled side"
       ],
       [
-        "cabbage",
+        "apple",
         10,
-        "body"
+        "sweet side"
       ],
       [
-        "mustard",
+        "olive-oil",
         5,
-        "condiment",
+        "frying fat",
         "seasoning"
       ],
       [
@@ -24657,47 +25141,48 @@ const europeDepthDishConfigs = [
         5,
         "seasoning",
         "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
+      "blood sausage",
+      "black pepper",
+      "apple sweetness"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "iron-rich",
+      "slightly sweet"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "dense sausage",
+      "soft potato",
+      "crisp browned edges"
     ],
     "riskFlags": [
       "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pork"
+      "regional-dish",
+      "meat"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "pork-free",
+      "avoids-blood-sausage"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it only if blood sausage sounds appealing; the flavor is distinctive and rich.",
+      "zh": "只有对血肠有兴趣时才建议点，风味很鲜明厚重。",
+      "nl": "Kies dit alleen als bloedworst je aanspreekt; de smaak is uitgesproken en rijk."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "acquiredTasteLevel": 4,
+    "imageCode": "125052",
+    "imagePath": "/assets/dishes/main/125052-morcela-portuguesa.webp",
+    "thumbPath": "/assets/dishes/thumb/125052-morcela-portuguesa.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -24815,98 +25300,107 @@ const europeDepthDishConfigs = [
     "cuisineId": "portuguese",
     "names": {
       "en": "Migas Portuguesas",
-      "zh": "葡式面包碎配菜",
-      "nl": "Migas Portuguesas",
-      "local": "Migas Portuguesas"
+      "zh": "葡萄牙炒面包碎",
+      "nl": "Portugese migas",
+      "local": "Migas portuguesas"
     },
-    "category": "bread",
+    "category": "side",
     "cookingMethods": [
-      "baked"
+      "fried",
+      "stirred"
     ],
     "shortDescription": {
-      "en": "Migas Portuguesas is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡式面包碎配菜是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Migas Portuguesas is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Portuguese rustic bread-based migas, sautéed with garlic, olive oil, greens, and sometimes pork.",
+      "zh": "葡萄牙乡村面包碎菜，用蒜、橄榄油、绿叶菜炒制，有时加猪肉。",
+      "nl": "Portugese rustieke broodmigas met knoflook, olijfolie, groen en soms varken."
     },
     "cookingProfile": {
-      "en": "Usually served with baked bread or pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现baked bread or pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met baked bread or pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is a hearty crumbly bread side, savory and oily rather than saucy.",
+      "zh": "这是扎实的面包碎配菜，咸香油润，不是酱汁菜。",
+      "nl": "Een stevige kruimelige broodbasis, hartig en olieachtig, niet sauzig."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "side"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Portuguese regional side that turns bread into a filling savory plate.",
+        "zh": "葡萄牙地区配菜，把面包做成饱足咸味盘。",
+        "nl": "Een Portugese streekbijgerecht dat brood tot vullende hartige schotel maakt."
       }
     },
     "composition": [
       [
         "bread",
         45,
-        "base"
+        "crumb base"
       ],
       [
-        "wheat-flour",
-        25,
-        "base"
+        "collard-greens",
+        20,
+        "greens"
       ],
       [
-        "cheese",
+        "pork",
         15,
-        "filling"
+        "optional meat"
       ],
       [
-        "butter",
+        "garlic",
         10,
-        "richness"
+        "aromatic"
       ],
       [
-        "sea-salt",
-        5,
-        "seasoning",
+        "olive-oil",
+        10,
+        "frying fat",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "garlic olive oil",
+      "bread crumbs",
+      "greens"
     ],
     "basicTaste": [
       "savory",
-      "mild"
+      "garlicky",
+      "earthy"
     ],
     "textureProfile": [
-      "soft bread",
+      "crumbly bread",
+      "tender greens",
       "crisp edges"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-dairy"
+      "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "bread"
+      "side",
+      "comfort-food"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "pork-free",
+      "prefers-light-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good as a filling rustic side; ask about pork if you need it vegetarian.",
+      "zh": "适合作饱足乡村配菜；需要素食时要问是否含猪肉。",
+      "nl": "Goed als vullend rustiek bijgerecht; vraag naar varken bij vegetarisch eten."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "125054",
+    "imagePath": "/assets/dishes/main/125054-migas-portuguesas.webp",
+    "thumbPath": "/assets/dishes/thumb/125054-migas-portuguesas.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -24915,98 +25409,107 @@ const europeDepthDishConfigs = [
     "cuisineId": "portuguese",
     "names": {
       "en": "Broa",
-      "zh": "葡式玉米面包",
-      "nl": "Broa",
+      "zh": "葡萄牙玉米面包",
+      "nl": "Portugese broa",
       "local": "Broa"
     },
     "category": "bread",
     "cookingMethods": [
       "baked"
     ],
+    "servingTemperature": "room-temperature",
     "shortDescription": {
-      "en": "Broa is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡式玉米面包是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Broa is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Rustic Portuguese corn and wheat bread with a dense yellow crumb and cracked crust.",
+      "zh": "葡萄牙乡村玉米小麦面包，黄色面包芯紧实，外壳有裂纹。",
+      "nl": "Rustiek Portugees mais-tarwebrood met dichte gele kruim en gebarsten korst."
     },
     "cookingProfile": {
-      "en": "Usually served with baked bread or pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现baked bread or pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met baked bread or pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a hearty coarse bread, often used with soups, stews, or cheese.",
+      "zh": "预期是粗粝扎实的面包，常配汤、炖菜或奶酪。",
+      "nl": "Stevig grof brood, vaak bij soep, stoof of kaas."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "bread"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic Portuguese bread side, especially in northern and rural meals.",
+        "zh": "经典葡萄牙面包配菜，北部和乡村餐中常见。",
+        "nl": "Een klassiek Portugees broodbijgerecht, vooral noordelijk en landelijk."
       }
     },
     "composition": [
       [
-        "bread",
-        45,
-        "base"
+        "corn",
+        40,
+        "cornmeal crumb"
       ],
       [
         "wheat-flour",
-        25,
-        "base"
+        35,
+        "bread structure"
       ],
       [
-        "cheese",
-        15,
-        "filling"
-      ],
-      [
-        "butter",
+        "olive-oil",
         10,
-        "richness"
+        "richness",
+        "seasoning"
       ],
       [
         "sea-salt",
         5,
         "seasoning",
         "seasoning"
+      ],
+      [
+        "bread",
+        10,
+        "starter dough"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "cornmeal",
+      "crusty bread",
+      "olive oil"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "mild",
+      "corny",
+      "savory"
     ],
     "textureProfile": [
-      "soft bread",
-      "crisp edges"
+      "dense crumb",
+      "cracked crust",
+      "coarse bite"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-dairy"
+      "contains-gluten"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "bread"
+      "bread",
+      "side"
     ],
     "avoidIfTags": [
       "gluten-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Useful as a rustic bread side; do not expect a soft fluffy roll.",
+      "zh": "适合作乡村面包配菜；不要期待松软小餐包。",
+      "nl": "Goed als rustiek broodbijgerecht; verwacht geen zacht luchtig broodje."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "125055",
+    "imagePath": "/assets/dishes/main/125055-broa.webp",
+    "thumbPath": "/assets/dishes/thumb/125055-broa.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -25015,103 +25518,108 @@ const europeDepthDishConfigs = [
     "cuisineId": "portuguese",
     "names": {
       "en": "Bolas de Berlim",
-      "zh": "葡式柏林甜甜圈",
+      "zh": "葡式奶油炸甜包",
       "nl": "Bolas de Berlim",
       "local": "Bolas de Berlim"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "deep-fried"
     ],
     "shortDescription": {
-      "en": "Bolas de Berlim is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡式柏林甜甜圈是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Bolas de Berlim is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Portuguese sugar-dusted fried doughnut, usually filled with thick egg custard.",
+      "zh": "葡萄牙撒糖油炸甜面包，通常夹浓厚蛋奶馅。",
+      "nl": "Portugese gesuikerde gefrituurde bol, meestal gevuld met dikke eiercrème."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a sweet fried doughnut with a creamy custard center.",
+      "zh": "预期是甜油炸面团，中间有顺滑蛋奶馅。",
+      "nl": "Zoete gefrituurde bol met romige banketroomvulling."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A widely recognized Portuguese bakery and beach pastry.",
+        "zh": "广为人知的葡萄牙烘焙/海滩甜点。",
+        "nl": "Een bekende Portugese bakkerij- en strandzoetigheid."
       }
     },
     "composition": [
       [
         "wheat-flour",
-        25,
-        "base"
+        40,
+        "fried dough"
+      ],
+      [
+        "vanilla-custard",
+        30,
+        "custard filling"
       ],
       [
         "sugar",
-        20,
-        "sweetness"
+        15,
+        "coating"
       ],
       [
         "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
         10,
-        "richness"
+        "dough and custard"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "neutral-frying-oil",
+        5,
+        "frying"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "fried dough",
+      "egg custard",
+      "sugar"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "fried"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft doughnut",
+      "smooth custard",
+      "sugary surface"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "bakery"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a sweet custard-filled fried pastry; it is not a light dessert.",
+      "zh": "想吃奶油夹心油炸甜点时适合；不是清淡甜品。",
+      "nl": "Kies dit voor een zoete gefrituurde roomvulling; niet licht."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "125056",
+    "imagePath": "/assets/dishes/main/125056-bolas-de-berlim.webp",
+    "thumbPath": "/assets/dishes/thumb/125056-bolas-de-berlim.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -25120,7 +25628,7 @@ const europeDepthDishConfigs = [
     "cuisineId": "portuguese",
     "names": {
       "en": "Travesseiros",
-      "zh": "辛特拉杏仁枕头酥",
+      "zh": "辛特拉枕头酥",
       "nl": "Travesseiros",
       "local": "Travesseiros"
     },
@@ -25129,94 +25637,101 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Travesseiros is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "辛特拉杏仁枕头酥是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Travesseiros is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Sintra pillow-shaped puff pastries filled with almond and egg cream, dusted with sugar.",
+      "zh": "辛特拉长枕形酥皮点心，内有杏仁蛋奶馅，表面撒糖。",
+      "nl": "Sintra-kussenvormig bladerdeeg met amandel-eicrème en suiker."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is flaky outside and sweet almond-creamy inside.",
+      "zh": "外层酥，内馅是甜杏仁奶油感。",
+      "nl": "Schilferig buiten en zoet amandelromig binnen."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A famous Sintra pastry with a very specific pillow shape.",
+        "zh": "辛特拉著名点心，形状是很明确的枕头状。",
+        "nl": "Een beroemde Sintra-patisserie met duidelijke kussenvorm."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "puff-pastry",
+        45,
+        "flaky pastry"
       ],
       [
-        "sugar",
-        20,
-        "sweetness"
+        "almond-paste",
+        25,
+        "filling"
       ],
       [
         "egg",
         15,
-        "structure"
+        "custard richness"
       ],
       [
-        "cream",
-        15,
-        "richness"
+        "sugar",
+        10,
+        "sweetness"
       ],
       [
         "butter",
-        10,
-        "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        5,
+        "pastry richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "almond filling",
+      "buttery pastry",
+      "powdered sugar"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "nutty",
+      "buttery"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "flaky pastry",
+      "soft filling",
+      "powdered top"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-tree-nut"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "regional-dish"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free",
+      "nut-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good pastry choice if almond filling and flaky layers appeal.",
+      "zh": "喜欢杏仁馅和层酥时很适合。",
+      "nl": "Een goede keuze bij amandelvulling en bladerige lagen."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "125057",
+    "imagePath": "/assets/dishes/main/125057-travesseiros.webp",
+    "thumbPath": "/assets/dishes/thumb/125057-travesseiros.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -25224,104 +25739,102 @@ const europeDepthDishConfigs = [
     "metadataCode": "125058",
     "cuisineId": "portuguese",
     "names": {
-      "en": "Pao de Lo",
-      "zh": "葡式海绵蛋糕",
-      "nl": "Pao de Lo",
-      "local": "Pao de Lo"
+      "en": "Pão de Ló",
+      "zh": "葡萄牙海绵蛋糕",
+      "nl": "Pão de ló",
+      "local": "Pão de Ló"
     },
     "category": "dessert",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Pao de Lo is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "葡式海绵蛋糕是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Pao de Lo is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Portuguese egg-rich sponge cake, sometimes airy and dry, sometimes moist in the center.",
+      "zh": "葡萄牙蛋香海绵蛋糕，有的轻盈偏干，有的中心湿润。",
+      "nl": "Portugese eierige sponscake, soms luchtig droog, soms vochtig in het midden."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a simple egg-forward cake rather than a frosted layer cake.",
+      "zh": "预期是简单蛋香蛋糕，不是有糖霜夹层的蛋糕。",
+      "nl": "Eenvoudige eierige cake, geen geglazuurde laagjescake."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic Portuguese celebration and bakery cake with strong egg character.",
+        "zh": "经典葡萄牙庆典/烘焙蛋糕，蛋香突出。",
+        "nl": "Een klassieke Portugese feest- en bakkerijcake met duidelijke eiersmaak."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "sugar",
-        20,
-        "sweetness"
+        "sponge-cake",
+        50,
+        "cake body"
       ],
       [
         "egg",
-        15,
-        "structure"
+        25,
+        "eggy structure"
       ],
       [
-        "cream",
+        "sugar",
         15,
-        "richness"
+        "sweetness"
       ],
       [
-        "butter",
+        "wheat-flour",
         10,
-        "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "crumb"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
+      "egg-rich sponge",
       "sugar",
-      "baked pastry"
+      "light crust"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "eggy",
+      "mild"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "airy sponge",
+      "soft crumb",
+      "moist center possible"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "cake"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you want a simple eggy cake; skip if you need chocolate or cream.",
+      "zh": "想吃简单蛋香蛋糕时适合；想要巧克力或奶油则不是首选。",
+      "nl": "Goed voor simpele eierige cake; minder voor chocolade of room."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "125058",
+    "imagePath": "/assets/dishes/main/125058-pao-de-lo.webp",
+    "thumbPath": "/assets/dishes/thumb/125058-pao-de-lo.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -25329,104 +25842,109 @@ const europeDepthDishConfigs = [
     "metadataCode": "125059",
     "cuisineId": "portuguese",
     "names": {
-      "en": "Toucinho do Ceu",
-      "zh": "杏仁蛋黄蛋糕",
-      "nl": "Toucinho do Ceu",
-      "local": "Toucinho do Ceu"
+      "en": "Toucinho do Céu",
+      "zh": "葡萄牙杏仁蛋黄糕",
+      "nl": "Toucinho do céu",
+      "local": "Toucinho do Céu"
     },
     "category": "dessert",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Toucinho do Ceu is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "杏仁蛋黄蛋糕是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Toucinho do Ceu is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Dense Portuguese almond and egg-yolk cake, rich, sweet, and often served in small slices.",
+      "zh": "密实的葡萄牙杏仁蛋黄糕，浓郁偏甜，常切小块。",
+      "nl": "Dichte Portugese amandel-eigeelcake, rijk en zoet, vaak in kleine stukken."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a rich almond sweet with a moist dense crumb, not a fluffy cake.",
+      "zh": "预期是浓郁杏仁甜点，湿润密实，不是蓬松蛋糕。",
+      "nl": "Rijke amandelzoetigheid met vochtige dichte kruim, geen luchtige cake."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A traditional convent-style Portuguese sweet built on almonds and egg yolks.",
+        "zh": "传统葡萄牙修道院甜点，以杏仁和蛋黄为核心。",
+        "nl": "Een traditioneel Portugees kloostergebak op basis van amandel en eigeel."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "sugar",
-        20,
-        "sweetness"
+        "almonds",
+        35,
+        "almond base"
       ],
       [
         "egg",
-        15,
-        "structure"
+        25,
+        "egg-yolk richness"
       ],
       [
-        "cream",
-        15,
-        "richness"
+        "sugar",
+        25,
+        "sweetness"
       ],
       [
-        "butter",
+        "almond-paste",
         10,
-        "richness"
+        "dense body"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "cinnamon",
+        5,
+        "warm note",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "almond",
+      "egg yolk",
+      "sugar"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "nutty",
+      "rich"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "dense cake",
+      "moist crumb",
+      "powdered surface"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-tree-nut",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "small-sweet"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "nut-allergy",
+      "egg-allergy",
+      "prefers-light-desserts"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Best as a small rich sweet if almond and egg-yolk desserts appeal.",
+      "zh": "适合想吃小份浓郁杏仁蛋黄甜点时。",
+      "nl": "Het beste als kleine rijke zoetigheid bij amandel en eigeel."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "125059",
+    "imagePath": "/assets/dishes/main/125059-toucinho-do-ceu.webp",
+    "thumbPath": "/assets/dishes/thumb/125059-toucinho-do-ceu.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -25435,7 +25953,7 @@ const europeDepthDishConfigs = [
     "cuisineId": "portuguese",
     "names": {
       "en": "Sericaia",
-      "zh": "阿连特茹蛋奶甜品",
+      "zh": "葡萄牙肉桂蛋奶甜点",
       "nl": "Sericaia",
       "local": "Sericaia"
     },
@@ -25444,94 +25962,98 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Sericaia is a common Portuguese menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "阿连特茹蛋奶甜品是常见葡萄牙菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Sericaia is een veelvoorkomend Portugees menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Alentejo egg and cinnamon pudding-cake, often served with syrupy plums.",
+      "zh": "阿连特茹蛋奶肉桂布丁蛋糕，常配糖浆李子。",
+      "nl": "Alentejo eier-kaneelpuddingcake, vaak met pruimen op siroop."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a soft custardy dessert with cinnamon aroma and a light baked top.",
+      "zh": "预期是柔软蛋奶质地，带肉桂香和轻微烘烤表面。",
+      "nl": "Zacht custardachtig dessert met kaneelgeur en licht gebakken bovenkant."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely Portuguese restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见葡萄牙菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Portugees restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A regional Alentejo dessert recognized by cinnamon and plum pairing.",
+        "zh": "阿连特茹地区甜点，肉桂和李子搭配很有辨识度。",
+        "nl": "Een regionaal Alentejo-dessert met kaneel en pruim."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "sugar",
-        20,
-        "sweetness"
-      ],
-      [
         "egg",
-        15,
-        "structure"
+        35,
+        "custard structure"
       ],
       [
         "cream",
-        15,
-        "richness"
+        25,
+        "dairy body"
       ],
       [
-        "butter",
+        "sugar",
+        15,
+        "sweetness"
+      ],
+      [
+        "plum-compote",
+        15,
+        "plum side"
+      ],
+      [
+        "cinnamon",
         10,
-        "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "spice",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "cinnamon",
+      "egg custard",
+      "syrupy plums"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "creamy",
+      "warm-spiced"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft pudding-cake",
+      "light baked top",
+      "jammy plum side"
     ],
     "riskFlags": [
-      "contains-gluten",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "regional-dish"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "egg-allergy",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you like custardy desserts with cinnamon; lighter than dense almond cakes.",
+      "zh": "喜欢肉桂蛋奶甜点时适合，比密实杏仁糕轻一些。",
+      "nl": "Goed bij custarddesserts met kaneel; lichter dan dichte amandelcake."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "125060",
+    "imagePath": "/assets/dishes/main/125060-sericaia.webp",
+    "thumbPath": "/assets/dishes/thumb/125060-sericaia.webp",
+    "confidenceTag": "audited-remaining-batch-044",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -25539,105 +26061,109 @@ const europeDepthDishConfigs = [
     "metadataCode": "128031",
     "cuisineId": "scandinavian",
     "names": {
-      "en": "Flaskpannkaka",
+      "en": "Fläskpannkaka",
       "zh": "瑞典培根烤煎饼",
-      "nl": "Flaskpannkaka",
-      "local": "Flaskpannkaka"
+      "nl": "Zweedse spekpannenkoek",
+      "local": "Fläskpannkaka"
     },
-    "category": "pork",
+    "category": "main",
     "cookingMethods": [
-      "grilled"
+      "baked"
     ],
     "shortDescription": {
-      "en": "Flaskpannkaka is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "瑞典培根烤煎饼是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Flaskpannkaka is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Swedish oven pancake with pork or bacon baked into a thick soft slice, usually served with lingonberry jam.",
+      "zh": "瑞典烤箱厚煎饼，里面有猪肉或培根丁，常配越橘果酱。",
+      "nl": "Zweedse ovenpannenkoek met spek in een dikke zachte plak, vaak met vossenbessenjam."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a soft eggy pancake with salty pork and a sweet-tart jam contrast.",
+      "zh": "口感像柔软蛋香厚煎饼，咸猪肉和酸甜果酱形成对比。",
+      "nl": "Verwacht een zachte eierige pannenkoek met zout spek en zoetzure jam."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A familiar Swedish home-style lunch plate built around sweet-savory contrast.",
+        "zh": "瑞典家常午餐经典，重点是甜咸对比。",
+        "nl": "Een bekende Zweedse lunchklassieker met zoet-zout contrast."
       }
     },
     "composition": [
       [
-        "pork",
+        "pancake-batter",
         50,
-        "main"
+        "oven pancake"
       ],
       [
-        "potato",
+        "bacon",
         20,
-        "side"
+        "pork pieces"
       ],
       [
-        "cabbage",
+        "egg",
         10,
-        "body"
+        "batter richness"
       ],
       [
-        "mustard",
+        "lingonberry-jam",
+        15,
+        "sweet-tart side"
+      ],
+      [
+        "butter",
         5,
-        "condiment",
-        "seasoning"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
+        "richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
+      "bacon",
+      "lingonberry jam",
+      "eggy pancake"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "sweet-tart",
+      "mild"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "soft pancake",
+      "chewy pork bits",
+      "jammy side"
     ],
     "riskFlags": [
+      "contains-gluten",
+      "contains-egg",
+      "contains-dairy",
       "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pork"
+      "comfort-food",
+      "first-timer-friendly"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free",
+      "pork-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you like a filling sweet-savory pancake; skip if pork or eggy batter is not for you.",
+      "zh": "喜欢甜咸厚煎饼会适合；不吃猪肉或不爱蛋香面糊则避开。",
+      "nl": "Goed als je een vullende zoet-hartige pannenkoek wilt; sla over bij varkensvlees of eierbeslag."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "128031",
+    "imagePath": "/assets/dishes/main/128031-flaskpannkaka.webp",
+    "thumbPath": "/assets/dishes/thumb/128031-flaskpannkaka.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -25646,104 +26172,105 @@ const europeDepthDishConfigs = [
     "cuisineId": "scandinavian",
     "names": {
       "en": "Isterband",
-      "zh": "瑞典烟熏香肠",
+      "zh": "瑞典酸烟熏香肠",
       "nl": "Isterband",
       "local": "Isterband"
     },
-    "category": "pork",
+    "category": "meat",
     "cookingMethods": [
+      "fried",
       "grilled"
     ],
     "shortDescription": {
-      "en": "Isterband is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "瑞典烟熏香肠是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Isterband is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Swedish lightly sour smoked sausage, usually served hot with potatoes and pickled beetroot.",
+      "zh": "瑞典微酸烟熏香肠，通常热食，配土豆和腌甜菜。",
+      "nl": "Zweedse licht zure rookworst, meestal warm met aardappel en ingelegde biet."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It feels rustic, smoky, fatty, and a little tangy rather than like a mild hot dog.",
+      "zh": "风格粗犷、烟熏、油润并带轻酸，不像温和热狗。",
+      "nl": "Rustiek, rokerig, vet en licht zuur, niet als een milde hotdog."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A southern Swedish sausage plate with a distinctive fermented tang.",
+        "zh": "瑞典南部常见香肠菜，特点是轻发酵酸香。",
+        "nl": "Een Zuid-Zweedse worstschotel met herkenbare zurige toets."
       }
     },
     "composition": [
       [
-        "pork",
-        50,
-        "main"
+        "sausage",
+        45,
+        "smoked sausage"
       ],
       [
         "potato",
-        20,
-        "side"
+        30,
+        "boiled side"
       ],
       [
-        "cabbage",
-        10,
-        "body"
+        "beetroot",
+        15,
+        "pickled side"
       ],
       [
         "mustard",
         5,
-        "condiment",
+        "sharp condiment",
         "seasoning"
       ],
       [
-        "black-pepper",
+        "butter",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
+        "potato richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
+      "smoked sausage",
+      "pickled beetroot",
+      "mustard"
     ],
     "basicTaste": [
-      "savory",
-      "rich"
+      "salty",
+      "smoky",
+      "tangy"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "snappy sausage",
+      "soft potatoes",
+      "firm beetroot"
     ],
     "riskFlags": [
       "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pork"
+      "meat",
+      "regional-dish"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "pork-free",
+      "avoids-smoky-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a hearty sausage plate with a slight sour note.",
+      "zh": "想吃扎实香肠盘且能接受轻酸味时可点。",
+      "nl": "Kies dit voor stevige worst met een licht zure toets."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "acquiredTasteLevel": 2,
+    "imageCode": "128032",
+    "imagePath": "/assets/dishes/main/128032-isterband.webp",
+    "thumbPath": "/assets/dishes/thumb/128032-isterband.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -25756,47 +26283,54 @@ const europeDepthDishConfigs = [
       "nl": "Falukorv",
       "local": "Falukorv"
     },
-    "category": "pork",
+    "category": "meat",
     "cookingMethods": [
-      "grilled"
+      "fried",
+      "baked"
     ],
     "shortDescription": {
-      "en": "Falukorv is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "瑞典法伦香肠是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Falukorv is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Mild Swedish ring sausage served sliced, often with potatoes, macaroni, tomato, or mustard.",
+      "zh": "温和的瑞典环形香肠，常切片配土豆、通心粉、番茄或芥末。",
+      "nl": "Milde Zweedse ringworst in plakken, vaak met aardappel, macaroni, tomaat of mosterd."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a soft, mild, processed-sausage comfort plate rather than a smoky artisanal sausage.",
+      "zh": "预期是柔软温和的加工香肠舒适菜，不是强烟熏手工肠。",
+      "nl": "Verwacht zachte milde comfortworst, geen sterk gerookte ambachtelijke worst."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "common-dish",
+        "first-timer-friendly"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A common Swedish family-restaurant sausage item and easy entry point.",
+        "zh": "瑞典家庭餐厅常见香肠菜，入口友好。",
+        "nl": "Een gewone Zweedse familieworst en toegankelijke keuze."
       }
     },
     "composition": [
       [
-        "pork",
-        50,
-        "main"
+        "sausage",
+        45,
+        "sliced sausage"
       ],
       [
-        "potato",
-        20,
-        "side"
+        "pasta",
+        25,
+        "macaroni or side"
       ],
       [
-        "cabbage",
+        "cream",
         10,
-        "body"
+        "creamy side"
+      ],
+      [
+        "tomato-sauce",
+        10,
+        "optional bake sauce",
+        "seasoning"
       ],
       [
         "mustard",
@@ -25805,51 +26339,54 @@ const europeDepthDishConfigs = [
         "seasoning"
       ],
       [
-        "black-pepper",
+        "butter",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
+        "richness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
+      "mild sausage",
+      "mustard",
+      "creamy macaroni"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "mild",
+      "slightly sweet"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "soft sausage slices",
+      "creamy side",
+      "light browning"
     ],
     "riskFlags": [
-      "contains-pork"
+      "contains-pork",
+      "contains-dairy",
+      "contains-gluten"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pork"
+      "comfort-food",
+      "safe-choice"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "pork-free",
+      "dairy-free",
+      "gluten-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A safe mild sausage order, especially if you want something familiar and not intense.",
+      "zh": "想点熟悉、温和、不刺激的香肠菜时很稳。",
+      "nl": "Een veilige milde worstkeuze als je iets vertrouwds wilt."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "128033",
+    "imagePath": "/assets/dishes/main/128033-falukorv.webp",
+    "thumbPath": "/assets/dishes/thumb/128033-falukorv.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -25864,93 +26401,103 @@ const europeDepthDishConfigs = [
     },
     "category": "meat",
     "cookingMethods": [
-      "braised"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Wallenbergare is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "瑞典小牛肉饼是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Wallenbergare is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "A delicate Swedish veal patty served with mashed potatoes, peas, browned butter, and lingonberry jam.",
+      "zh": "细腻的瑞典小牛肉饼，配土豆泥、豌豆、焦化黄油和越橘果酱。",
+      "nl": "Fijne Zweedse kalfsburger met puree, erwten, gebruinde boter en vossenbessenjam."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is softer and more refined than a regular burger, with creamy sides and a berry contrast.",
+      "zh": "比普通汉堡肉饼更柔软精致，配菜奶香，果酱带对比。",
+      "nl": "Zachter en verfijnder dan een gewone burger, met romige bijgerechten en bessencontrast."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic Swedish bistro plate that balances mild veal, butter, and berries.",
+        "zh": "经典瑞典小酒馆菜，平衡小牛肉、黄油和浆果味。",
+        "nl": "Een klassieke Zweedse bistroschotel met kalf, boter en bessen."
       }
     },
     "composition": [
       [
-        "beef",
-        45,
-        "main"
+        "veal",
+        35,
+        "veal patty"
       ],
       [
         "potato",
-        20,
+        30,
+        "mash"
+      ],
+      [
+        "cream",
+        10,
+        "patty and mash richness"
+      ],
+      [
+        "egg",
+        5,
+        "binder"
+      ],
+      [
+        "peas",
+        10,
         "side"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "body"
-      ],
-      [
-        "onion",
+        "lingonberry-jam",
         10,
-        "aromatic"
-      ],
-      [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
+        "sweet-tart side"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "veal patty",
+      "browned butter",
+      "lingonberry jam"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "creamy",
+      "sweet-tart"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "tender patty",
+      "smooth mash",
+      "soft peas"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-dairy",
+      "contains-egg"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "meat"
+      "classic-dish",
+      "first-timer-friendly"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "dairy-free",
+      "egg-allergy"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A polished, gentle meat choice if you want Nordic comfort without strong flavors.",
+      "zh": "想吃温和精致的北欧肉类舒适菜时适合。",
+      "nl": "Een verfijnde milde vleeskeuze zonder zware smaken."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "128034",
+    "imagePath": "/assets/dishes/main/128034-wallenbergare.webp",
+    "thumbPath": "/assets/dishes/thumb/128034-wallenbergare.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -26064,105 +26611,105 @@ const europeDepthDishConfigs = [
     "metadataCode": "128036",
     "cuisineId": "scandinavian",
     "names": {
-      "en": "Medisterpolse",
-      "zh": "丹麦香肠",
-      "nl": "Medisterpolse",
-      "local": "Medisterpolse"
+      "en": "Medisterpølse",
+      "zh": "丹麦煎猪肉香肠",
+      "nl": "Medisterworst",
+      "local": "Medisterpølse"
     },
-    "category": "pork",
+    "category": "meat",
     "cookingMethods": [
+      "fried",
       "grilled"
     ],
     "shortDescription": {
-      "en": "Medisterpolse is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "丹麦香肠是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Medisterpolse is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Danish coiled pork sausage, browned and served with potatoes, gravy, and red cabbage.",
+      "zh": "丹麦盘卷猪肉香肠，煎至上色，配土豆、肉汁和红卷心菜。",
+      "nl": "Deense gekrulde varkensworst met aardappel, jus en rode kool."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a juicy, fatty sausage plate with sweet-sour cabbage and gravy.",
+      "zh": "口感多汁偏油润，红卷心菜酸甜，肉汁浓。",
+      "nl": "Sappige vette worst met zoetzure rode kool en jus."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Danish classic sausage plate, especially common in colder-season meals.",
+        "zh": "丹麦经典香肠菜，冷季餐桌常见。",
+        "nl": "Een klassieke Deense worstschotel, vooral in koudere seizoenen."
       }
     },
     "composition": [
       [
-        "pork",
-        50,
-        "main"
+        "sausage",
+        45,
+        "pork sausage"
       ],
       [
         "potato",
-        20,
-        "side"
+        25,
+        "boiled side"
       ],
       [
-        "cabbage",
+        "red-cabbage",
+        15,
+        "sweet-sour side"
+      ],
+      [
+        "broth",
         10,
-        "body"
-      ],
-      [
-        "mustard",
-        5,
-        "condiment",
-        "seasoning"
+        "gravy"
       ],
       [
         "black-pepper",
         5,
         "seasoning",
         "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
+      "pork sausage",
+      "brown gravy",
+      "red cabbage"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "fatty",
+      "sweet-sour"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "snappy sausage",
+      "soft potato",
+      "tender cabbage"
     ],
     "riskFlags": [
       "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pork"
+      "comfort-food",
+      "meat"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "pork-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good for a hearty sausage-and-potatoes mood; avoid if pork fat feels too heavy.",
+      "zh": "想吃香肠土豆类饱足菜时适合；怕猪肉油脂则避开。",
+      "nl": "Goed voor stevige worst met aardappel; vermijd bij zware varkensvetten."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "128036",
+    "imagePath": "/assets/dishes/main/128036-medisterpolse.webp",
+    "thumbPath": "/assets/dishes/thumb/128036-medisterpolse.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -26171,99 +26718,109 @@ const europeDepthDishConfigs = [
     "cuisineId": "scandinavian",
     "names": {
       "en": "Biksemad",
-      "zh": "丹麦土豆肉丁锅",
+      "zh": "丹麦土豆肉丁煎盘",
       "nl": "Biksemad",
       "local": "Biksemad"
     },
-    "category": "meat",
+    "category": "main",
     "cookingMethods": [
-      "braised"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Biksemad is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "丹麦土豆肉丁锅是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Biksemad is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Danish hash of fried potatoes, onions, and meat, often topped with a fried egg and pickled beetroot.",
+      "zh": "丹麦土豆、洋葱和肉丁煎盘，常加煎蛋和腌甜菜。",
+      "nl": "Deense hash van gebakken aardappel, ui en vlees, vaak met spiegelei en biet."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is a browned, savory leftover-style skillet plate with a runny egg option.",
+      "zh": "是煎香的咸口剩菜风格煎盘，常有流心煎蛋。",
+      "nl": "Een hartige opgebakken restjesschotel, vaak met zacht ei."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "common-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A practical Danish tavern-style plate for a filling casual meal.",
+        "zh": "实用的丹麦酒馆风格饱腹简餐。",
+        "nl": "Een praktische Deense kroegschotel voor een vullende maaltijd."
       }
     },
     "composition": [
       [
-        "beef",
-        45,
-        "main"
-      ],
-      [
         "potato",
-        20,
-        "side"
+        40,
+        "fried cubes"
       ],
       [
-        "mixed-vegetables",
+        "beef",
+        20,
+        "meat cubes"
+      ],
+      [
+        "pork",
         15,
-        "body"
+        "meat cubes"
       ],
       [
         "onion",
         10,
-        "aromatic"
+        "fried aromatic"
       ],
       [
-        "black-pepper",
-        5,
-        "seasoning",
-        "seasoning"
+        "egg",
+        10,
+        "fried topping"
       ],
       [
-        "parsley",
+        "beetroot",
         5,
-        "finish",
-        "seasoning"
+        "pickled side"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "fried potato",
+      "browned meat",
+      "pickled beetroot"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "salty",
+      "slightly sweet-sour"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "crisp potato edges",
+      "chewy meat",
+      "runny egg"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-egg",
+      "contains-pork"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "meat"
+      "comfort-food",
+      "filling"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "egg-allergy",
+      "pork-free"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order it when you want a filling, familiar fried potato-and-meat plate.",
+      "zh": "想吃熟悉、饱足的土豆肉丁煎盘时可点。",
+      "nl": "Bestel dit voor een vertrouwde vullende aardappel-vleesschotel."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "128037",
+    "imagePath": "/assets/dishes/main/128037-biksemad.webp",
+    "thumbPath": "/assets/dishes/thumb/128037-biksemad.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -26271,57 +26828,53 @@ const europeDepthDishConfigs = [
     "metadataCode": "128038",
     "cuisineId": "scandinavian",
     "names": {
-      "en": "Rugbrod",
+      "en": "Rugbrød",
       "zh": "丹麦黑麦面包",
-      "nl": "Rugbrod",
-      "local": "Rugbrod"
+      "nl": "Roggebrood",
+      "local": "Rugbrød"
     },
     "category": "bread",
     "cookingMethods": [
       "baked"
     ],
+    "servingTemperature": "room-temperature",
     "shortDescription": {
-      "en": "Rugbrod is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "丹麦黑麦面包是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Rugbrod is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Dense Danish dark rye bread, often used as the base for smørrebrød or served with butter.",
+      "zh": "丹麦深色黑麦面包，质地扎实，常作开放三明治底或配黄油。",
+      "nl": "Dicht Deens roggebrood, basis voor smørrebrød of met boter."
     },
     "cookingProfile": {
-      "en": "Usually served with baked bread or pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现baked bread or pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met baked bread or pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a dense, tangy, seedy bread rather than a fluffy loaf.",
+      "zh": "预期是紧实、微酸、有籽感的面包，不是蓬松白面包。",
+      "nl": "Verwacht dicht, licht zuur brood met zaden, geen luchtig brood."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "bread"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A foundational Danish bread and common menu side.",
+        "zh": "丹麦饮食基础面包，也是常见配菜。",
+        "nl": "Een fundamenteel Deens brood en veelvoorkomend bijgerecht."
       }
     },
     "composition": [
       [
-        "bread",
-        45,
-        "base"
-      ],
-      [
-        "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "cheese",
-        15,
-        "filling"
+        "rye-bread",
+        80,
+        "dense bread"
       ],
       [
         "butter",
         10,
-        "richness"
+        "spread"
+      ],
+      [
+        "sesame-seeds",
+        5,
+        "seed texture"
       ],
       [
         "sea-salt",
@@ -26331,39 +26884,50 @@ const europeDepthDishConfigs = [
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "rye tang",
+      "butter",
+      "toasted seeds"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "earthy",
+      "mildly sour",
+      "savory"
     ],
     "textureProfile": [
-      "soft bread",
-      "crisp edges"
+      "dense crumb",
+      "chewy slices",
+      "firm crust"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-sesame"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "bread"
+      "bread",
+      "side"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free",
+      "sesame-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Useful as a hearty bread side or smørrebrød base, not a light white bread.",
+      "zh": "适合作扎实面包配菜或开放三明治底，不是轻白面包。",
+      "nl": "Handig als stevig brood of smørrebrød-basis, geen licht witbrood."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "128038",
+    "imagePath": "/assets/dishes/main/128038-rugbrod.webp",
+    "thumbPath": "/assets/dishes/thumb/128038-rugbrod.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -26371,104 +26935,108 @@ const europeDepthDishConfigs = [
     "metadataCode": "128039",
     "cuisineId": "scandinavian",
     "names": {
-      "en": "Rommegrot",
+      "en": "Rømmegrøt",
       "zh": "挪威酸奶油粥",
-      "nl": "Rommegrot",
-      "local": "Rommegrot"
+      "nl": "Noorse zure-roompap",
+      "local": "Rømmegrøt"
     },
-    "category": "dessert",
+    "category": "main",
     "cookingMethods": [
-      "baked"
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Rommegrot is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "挪威酸奶油粥是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Rommegrot is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Norwegian sour-cream porridge served thick, usually with butter, cinnamon, and sugar.",
+      "zh": "挪威酸奶油浓粥，通常配黄油、肉桂和糖。",
+      "nl": "Noorse zure-roompap, dik geserveerd met boter, kaneel en suiker."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is rich, creamy, and spoonable, closer to a dairy porridge than a grain bowl.",
+      "zh": "浓郁奶香、可用勺吃，更像乳制品粥而非谷物碗。",
+      "nl": "Rijk, romig en lepelbaar, meer zuivelpap dan graankom."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A traditional Norwegian porridge often tied to holidays and rural meals.",
+        "zh": "传统挪威粥，常与节日和乡村餐相关。",
+        "nl": "Een traditionele Noorse pap, vaak verbonden met feest- en plattelandsmaaltijden."
       }
     },
     "composition": [
       [
+        "sour-cream",
+        45,
+        "porridge base"
+      ],
+      [
         "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "sugar",
         20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
+        "thickener"
       ],
       [
         "butter",
-        10,
-        "richness"
+        15,
+        "butter pool"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "sugar",
+        10,
+        "sweetness"
+      ],
+      [
+        "cinnamon",
+        10,
+        "warm topping",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "sour cream",
+      "butter",
+      "cinnamon sugar"
     ],
     "basicTaste": [
+      "creamy",
       "sweet",
-      "creamy"
+      "slightly tangy"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "thick porridge",
+      "glossy butter",
+      "smooth spoonfuls"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-gluten"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "comfort-food",
+      "regional-dish"
     ],
     "avoidIfTags": [
+      "dairy-free",
       "gluten-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it for a very rich creamy comfort bowl; skip if sour cream sounds too heavy.",
+      "zh": "想吃非常浓郁奶香舒适粥时适合；怕酸奶油厚重则避开。",
+      "nl": "Kies dit voor een zeer rijke romige kom; sla over als zure room te zwaar klinkt."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 2,
+    "imageCode": "128039",
+    "imagePath": "/assets/dishes/main/128039-rommegrot.webp",
+    "thumbPath": "/assets/dishes/thumb/128039-rommegrot.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -26582,100 +27150,103 @@ const europeDepthDishConfigs = [
     "metadataCode": "128041",
     "cuisineId": "scandinavian",
     "names": {
-      "en": "Pinnekjott",
-      "zh": "挪威风干羊排",
-      "nl": "Pinnekjott",
-      "local": "Pinnekjott"
+      "en": "Pinnekjøtt",
+      "zh": "挪威盐干羊肋",
+      "nl": "Pinnekjøtt",
+      "local": "Pinnekjøtt"
     },
     "category": "meat",
     "cookingMethods": [
-      "braised"
+      "steamed"
     ],
     "shortDescription": {
-      "en": "Pinnekjott is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "挪威风干羊排是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Pinnekjott is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Norwegian salted and dried lamb ribs, steamed and served with potatoes and rutabaga mash.",
+      "zh": "挪威盐干羊肋条，蒸熟后配土豆和芜菁泥。",
+      "nl": "Noorse gezouten gedroogde lamsribben, gestoomd met aardappel en koolraappuree."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect salty, intensely lamby ribs with soft root-vegetable sides.",
+      "zh": "预期是咸香、羊味明显的肋条，配柔软根茎类配菜。",
+      "nl": "Verwacht zoute uitgesproken lamsribben met zachte wortelgroentebijgerechten."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "festival",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "festival",
+        "regional-dish"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Norwegian Christmas classic with a strong lamb and salt-cure identity.",
+        "zh": "挪威圣诞经典，羊肉和盐干风味很突出。",
+        "nl": "Een Noorse kerstklassieker met sterke lams- en pekelsmaak."
       }
     },
     "composition": [
       [
-        "beef",
-        45,
-        "main"
+        "lamb",
+        55,
+        "salted ribs"
       ],
       [
         "potato",
         20,
-        "side"
+        "boiled side"
       ],
       [
-        "mixed-vegetables",
+        "turnip",
         15,
-        "body"
+        "rutabaga mash"
       ],
       [
-        "onion",
-        10,
-        "aromatic"
+        "butter",
+        5,
+        "mash richness"
       ],
       [
         "black-pepper",
         5,
         "seasoning",
         "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "salted lamb",
+      "rutabaga mash",
+      "pepper"
     ],
     "basicTaste": [
+      "salty",
       "savory",
-      "rich"
+      "gamey"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "fibrous ribs",
+      "soft potato",
+      "smooth mash"
     ],
     "riskFlags": [],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "meat"
+      "meat",
+      "festival"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "avoids-gamey-meat",
+      "low-salt"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Best for lamb lovers; it is salty and traditional, not a neutral meat plate.",
+      "zh": "适合喜欢羊肉的人；它偏咸且传统，不是中性肉菜。",
+      "nl": "Voor lamsliefhebbers; zout en traditioneel, geen neutrale vleesschotel."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 3,
+    "imageCode": "128041",
+    "imagePath": "/assets/dishes/main/128041-pinnekjott.webp",
+    "thumbPath": "/assets/dishes/thumb/128041-pinnekjott.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -26685,103 +27256,103 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Norwegian Ribbe",
       "zh": "挪威脆皮烤猪肋",
-      "nl": "Norwegian Ribbe",
-      "local": "Norwegian Ribbe"
+      "nl": "Noorse ribbe",
+      "local": "Ribbe"
     },
-    "category": "pork",
+    "category": "meat",
     "cookingMethods": [
-      "grilled"
+      "baked"
     ],
     "shortDescription": {
-      "en": "Norwegian Ribbe is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "挪威脆皮烤猪肋是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Norwegian Ribbe is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Norwegian roast pork belly or ribs with crisp crackling, potatoes, red cabbage, and gravy.",
+      "zh": "挪威烤猪五花或肋肉，带脆皮，配土豆、红卷心菜和肉汁。",
+      "nl": "Noorse geroosterde buikspek/ribbe met krokant zwoerd, aardappel, rode kool en jus."
     },
     "cookingProfile": {
-      "en": "Usually served with pork or cured meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现pork or cured meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met pork or cured meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is rich and fatty, with the crackling skin as the main texture cue.",
+      "zh": "这道菜浓郁偏油，脆皮是最重要的口感信号。",
+      "nl": "Rijk en vet, met krokant zwoerd als belangrijkste textuur."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "festival",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "festival",
+        "classic-dish"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Norwegian holiday pork centerpiece, especially around Christmas.",
+        "zh": "挪威节庆猪肉主菜，尤其常见于圣诞。",
+        "nl": "Een Noors feestelijk varkensgerecht, vooral rond kerst."
       }
     },
     "composition": [
       [
-        "pork",
-        50,
-        "main"
+        "pork-belly",
+        55,
+        "roast pork"
       ],
       [
         "potato",
         20,
-        "side"
+        "boiled side"
       ],
       [
-        "cabbage",
-        10,
-        "body"
+        "red-cabbage",
+        15,
+        "sweet-sour side"
       ],
       [
-        "mustard",
+        "broth",
         5,
-        "condiment",
-        "seasoning"
+        "gravy"
       ],
       [
         "black-pepper",
         5,
         "seasoning",
         "seasoning"
-      ],
-      [
-        "parsley",
-        10,
-        "finish",
-        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "pork",
-      "pepper",
-      "browned edges"
+      "crisp pork crackling",
+      "brown gravy",
+      "red cabbage"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "fatty",
+      "sweet-sour"
     ],
     "textureProfile": [
-      "savory meat",
-      "browned edges"
+      "crisp skin",
+      "tender fatty pork",
+      "soft potato"
     ],
     "riskFlags": [
       "contains-pork"
     ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "pork"
+      "meat",
+      "festival"
     ],
     "avoidIfTags": [
-      "no-pork"
+      "pork-free",
+      "prefers-light-food"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Order it for a rich pork roast with crackling; skip if fatty meat feels too heavy.",
+      "zh": "想吃浓郁脆皮烤猪肉时适合；怕肥肉厚重则避开。",
+      "nl": "Bestel voor rijke varkensribbe met zwoerd; sla over als vet vlees te zwaar is."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 5,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "128042",
+    "imagePath": "/assets/dishes/main/128042-ribbe-norwegian.webp",
+    "thumbPath": "/assets/dishes/thumb/128042-ribbe-norwegian.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -26790,103 +27361,108 @@ const europeDepthDishConfigs = [
     "cuisineId": "scandinavian",
     "names": {
       "en": "Fiskegrateng",
-      "zh": "挪威鱼肉焗烤",
-      "nl": "Fiskegrateng",
+      "zh": "挪威奶油鱼焗菜",
+      "nl": "Noorse visgratin",
       "local": "Fiskegrateng"
     },
-    "category": "fish",
+    "category": "seafood",
     "cookingMethods": [
-      "grilled"
+      "baked"
     ],
     "shortDescription": {
-      "en": "Fiskegrateng is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "挪威鱼肉焗烤是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Fiskegrateng is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Norwegian baked fish gratin with white fish, macaroni or sauce, and a golden breadcrumb top.",
+      "zh": "挪威白鱼焗菜，常有通心粉或白酱，表面是金黄面包屑。",
+      "nl": "Noorse visgratin met witte vis, macaroni of saus en goud kruimellaagje."
     },
     "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a mild creamy fish casserole rather than a sharp seafood dish.",
+      "zh": "预期是温和奶油鱼焗菜，不是强烈海鲜味。",
+      "nl": "Verwacht milde romige visgratin, geen scherpe zeevruchtensmaak."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "common-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A common Norwegian family-style fish dish that is approachable for first-timers.",
+        "zh": "挪威常见家庭式鱼菜，对第一次尝试者友好。",
+        "nl": "Een gewone Noorse familievisschotel, toegankelijk voor beginners."
       }
     },
     "composition": [
       [
         "fish-fillet",
-        60,
-        "main"
+        40,
+        "white fish"
       ],
       [
-        "potato",
-        15,
-        "side"
+        "pasta",
+        20,
+        "macaroni"
       ],
       [
-        "mixed-vegetables",
+        "bechamel-sauce",
+        20,
+        "creamy binder"
+      ],
+      [
+        "panko-breadcrumbs",
         10,
-        "body"
+        "crisp top"
       ],
       [
-        "lemon",
-        5,
-        "brightness"
-      ],
-      [
-        "olive-oil",
-        5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
+        "carrot",
+        10,
+        "side salad"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "white fish",
+      "creamy sauce",
+      "breadcrumb crust"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "creamy",
+      "mild",
+      "savory"
     ],
     "textureProfile": [
-      "tender fish",
-      "light flaky bite"
+      "soft casserole",
+      "flaky fish",
+      "crisp top"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-dairy",
+      "contains-gluten"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "fish"
+      "comfort-food",
+      "seafood"
     ],
     "avoidIfTags": [
-      "fish-allergy"
+      "fish-allergy",
+      "dairy-free",
+      "gluten-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A gentle fish choice if creamy baked dishes appeal.",
+      "zh": "喜欢温和奶油焗菜时，这道鱼菜很稳。",
+      "nl": "Een zachte viskeuze als romige ovenschotels je aanspreken."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "128043",
+    "imagePath": "/assets/dishes/main/128043-fiskegrateng.webp",
+    "thumbPath": "/assets/dishes/thumb/128043-fiskegrateng.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -26895,103 +27471,108 @@ const europeDepthDishConfigs = [
     "cuisineId": "scandinavian",
     "names": {
       "en": "Skrei",
-      "zh": "挪威冬鳕",
+      "zh": "挪威季节鳕鱼",
       "nl": "Skrei",
       "local": "Skrei"
     },
-    "category": "fish",
+    "category": "seafood",
     "cookingMethods": [
-      "grilled"
+      "boiled",
+      "fried"
     ],
     "shortDescription": {
-      "en": "Skrei is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "挪威冬鳕是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Skrei is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Seasonal Norwegian Arctic cod, usually served as a clean white fish plate with potatoes and butter sauce.",
+      "zh": "挪威季节性北极鳕鱼，通常做成清爽白鱼主菜，配土豆和黄油汁。",
+      "nl": "Seizoensgebonden Noorse kabeljauw, schoon geserveerd met aardappel en botersaus."
     },
     "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect firm, flaky, mild cod where freshness matters more than strong seasoning.",
+      "zh": "口感紧实片状、味道温和，重点是新鲜度而非重调味。",
+      "nl": "Stevige vlokkige milde kabeljauw waarbij versheid belangrijker is dan sterke kruiden."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A seasonal Nordic cod dish recognized for clean fish texture.",
+        "zh": "北欧季节鳕鱼菜，重点是干净的鱼肉质地。",
+        "nl": "Een seizoensgebonden Noordse kabeljauwschotel met heldere vistextuur."
       }
     },
     "composition": [
       [
         "fish-fillet",
-        60,
-        "main"
+        55,
+        "cod loin"
       ],
       [
         "potato",
-        15,
-        "side"
+        20,
+        "boiled side"
       ],
       [
-        "mixed-vegetables",
+        "carrot",
         10,
-        "body"
+        "vegetable side"
       ],
       [
-        "lemon",
-        5,
-        "brightness"
+        "butter",
+        10,
+        "sauce"
       ],
       [
-        "olive-oil",
+        "dill",
         5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
+        "herb",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "fresh cod",
+      "butter sauce",
+      "dill"
     ],
     "basicTaste": [
+      "mild",
       "savory",
-      "mild"
+      "buttery"
     ],
     "textureProfile": [
-      "tender fish",
-      "light flaky bite"
+      "flaky cod",
+      "soft potato",
+      "light sauce"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "fish"
+      "seafood",
+      "lighter-choice"
     ],
     "avoidIfTags": [
-      "fish-allergy"
+      "fish-allergy",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you want a clean mild fish main rather than a saucy seafood dish.",
+      "zh": "想吃清爽温和鱼类主菜时适合，不是浓酱海鲜。",
+      "nl": "Goed voor een schone milde vismain, niet voor zware saus."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "128044",
+    "imagePath": "/assets/dishes/main/128044-skrei.webp",
+    "thumbPath": "/assets/dishes/thumb/128044-skrei.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -27000,99 +27581,103 @@ const europeDepthDishConfigs = [
     "cuisineId": "scandinavian",
     "names": {
       "en": "Smalahove",
-      "zh": "挪威羊头",
+      "zh": "挪威羊头菜",
       "nl": "Smalahove",
       "local": "Smalahove"
     },
     "category": "meat",
     "cookingMethods": [
-      "braised"
+      "steamed",
+      "boiled"
     ],
     "shortDescription": {
-      "en": "Smalahove is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "挪威羊头是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Smalahove is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Traditional Norwegian cooked sheep head, usually served with potatoes and rutabaga mash.",
+      "zh": "传统挪威熟羊头菜，通常配土豆和芜菁泥。",
+      "nl": "Traditionele Noorse gekookte schapenkop, meestal met aardappel en koolraappuree."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "This is a strong acquired-taste dish with offal-like texture and lamb flavor.",
+      "zh": "这是明显后天口味菜，带内脏感口感和羊肉味。",
+      "nl": "Een uitgesproken acquired-taste gerecht met orgaanachtige textuur en lamsmaak."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "acquired-taste"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A very traditional Norwegian regional dish, more adventurous than everyday comfort food.",
+        "zh": "很传统的挪威地区菜，比日常舒适菜更冒险。",
+        "nl": "Een zeer traditioneel Noors streekgerecht, avontuurlijker dan dagelijkse kost."
       }
     },
     "composition": [
       [
-        "beef",
-        45,
-        "main"
+        "lamb",
+        55,
+        "sheep head meat"
+      ],
+      [
+        "offal",
+        15,
+        "head cuts"
       ],
       [
         "potato",
-        20,
-        "side"
-      ],
-      [
-        "mixed-vegetables",
         15,
-        "body"
+        "boiled side"
       ],
       [
-        "onion",
+        "turnip",
         10,
-        "aromatic"
+        "rutabaga mash"
       ],
       [
         "black-pepper",
         5,
         "seasoning",
         "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "lamb",
+      "salted meat",
+      "root-vegetable mash"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "gamey",
+      "salty"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "soft meat",
+      "gelatinous bits",
+      "smooth mash"
     ],
     "riskFlags": [],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "meat"
+      "regional-dish",
+      "adventurous"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "avoids-offal",
+      "avoids-gamey-meat"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Only choose it if you are comfortable with traditional head meat and strong lamb character.",
+      "zh": "只有能接受传统羊头肉和明显羊味时才建议点。",
+      "nl": "Kies dit alleen als je traditioneel kopvlees en sterke lamsmaak aankunt."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
-    "acquiredTasteLevel": 2,
-    "metadataConfidence": 0.72,
+    "weightLevel": 4,
+    "acquiredTasteLevel": 5,
+    "imageCode": "128045",
+    "imagePath": "/assets/dishes/main/128045-smalahove.webp",
+    "thumbPath": "/assets/dishes/thumb/128045-smalahove.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -27100,42 +27685,43 @@ const europeDepthDishConfigs = [
     "metadataCode": "128046",
     "cuisineId": "scandinavian",
     "names": {
-      "en": "Blabarsoppa",
+      "en": "Blåbärssoppa",
       "zh": "瑞典蓝莓汤",
-      "nl": "Blabarsoppa",
-      "local": "Blabarsoppa"
+      "nl": "Zweedse bosbessensoep",
+      "local": "Blåbärssoppa"
     },
     "category": "dessert",
     "cookingMethods": [
-      "baked"
+      "simmered"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Blabarsoppa is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "瑞典蓝莓汤是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Blabarsoppa is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Swedish blueberry soup, served warm or chilled as a sweet-tart drinkable or spoonable dessert.",
+      "zh": "瑞典蓝莓汤，可温食或冷食，是酸甜可喝也可勺吃的甜品。",
+      "nl": "Zweedse bosbessensoep, warm of koud als zoetzuur drink- of lepeldessert."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a smooth berry soup, lighter than cake but sweeter than fruit juice.",
+      "zh": "预期是顺滑莓果汤，比蛋糕轻，但比果汁更甜更稠。",
+      "nl": "Verwacht gladde bessensoep, lichter dan cake maar zoeter en dikker dan sap."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A recognizable Swedish berry dessert often associated with winter sports and cafes.",
+        "zh": "有辨识度的瑞典莓果甜品，常与冬季运动和咖啡馆相关。",
+        "nl": "Een herkenbaar Zweeds bessendessert, vaak gelinkt aan wintersport en cafés."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "berries",
+        65,
+        "blueberry base"
       ],
       [
         "sugar",
@@ -27143,61 +27729,63 @@ const europeDepthDishConfigs = [
         "sweetness"
       ],
       [
-        "egg",
-        15,
-        "structure"
+        "potato-starch",
+        5,
+        "thickener"
       ],
       [
         "cream",
-        15,
-        "richness"
+        5,
+        "optional finish"
       ],
       [
-        "butter",
-        10,
-        "richness"
-      ],
-      [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "blueberry",
+      "light tartness",
+      "cream"
     ],
     "basicTaste": [
-      "sweet",
-      "creamy"
+      "sweet-tart",
+      "fruity",
+      "mild"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "smooth soup",
+      "glossy surface",
+      "soft berry body"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "lighter-choice"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A light fruity dessert choice; ask about cream if avoiding dairy.",
+      "zh": "想吃轻盈水果甜品时适合；避乳制品要问是否加奶油。",
+      "nl": "Een licht fruitig dessert; vraag naar room bij zuivelvrij."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "128046",
+    "imagePath": "/assets/dishes/main/128046-blabarsoppa.webp",
+    "thumbPath": "/assets/dishes/thumb/128046-blabarsoppa.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -27315,8 +27903,8 @@ const europeDepthDishConfigs = [
     "cuisineId": "scandinavian",
     "names": {
       "en": "Kanelsnegle",
-      "zh": "丹麦肉桂卷",
-      "nl": "Kanelsnegle",
+      "zh": "丹麦肉桂蜗牛卷",
+      "nl": "Deense kaneelsnegle",
       "local": "Kanelsnegle"
     },
     "category": "dessert",
@@ -27324,94 +27912,100 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Kanelsnegle is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "丹麦肉桂卷是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Kanelsnegle is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Danish spiral cinnamon pastry with buttery dough, cinnamon sugar, and often a light icing.",
+      "zh": "丹麦螺旋肉桂酥点，有黄油面团、肉桂糖，常带少量糖霜。",
+      "nl": "Deens spiraalvormig kaneelgebak met boterdeeg, kaneelsuiker en vaak glazuur."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a sweet buttery bakery pastry with clear cinnamon aroma.",
+      "zh": "预期是黄油香明显的甜烘焙点心，肉桂香突出。",
+      "nl": "Verwacht zoet boterig gebak met duidelijke kaneelgeur."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic Danish bakery sweet and easy coffee pairing.",
+        "zh": "丹麦经典烘焙甜点，适合配咖啡。",
+        "nl": "Een klassieke Deense bakkerijzoetigheid bij koffie."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "sugar",
-        20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
+        "croissant-pastry",
+        45,
+        "laminated dough"
       ],
       [
         "butter",
-        10,
+        20,
         "richness"
       ],
       [
-        "fruit-sauce-or-caramel",
+        "sugar",
         15,
-        "topping"
+        "sweetness"
+      ],
+      [
+        "cinnamon",
+        15,
+        "spice",
+        "seasoning"
+      ],
+      [
+        "cream",
+        5,
+        "icing"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "cinnamon sugar",
+      "butter",
+      "icing"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "warm-spiced",
+      "buttery"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "flaky pastry",
+      "sticky cinnamon swirl",
+      "soft center"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "bakery"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good for a sweet cinnamon pastry; not a light or savory snack.",
+      "zh": "想吃甜肉桂酥点时适合；不是清淡或咸味小吃。",
+      "nl": "Goed voor zoet kaneelgebak; geen lichte of hartige snack."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "128048",
+    "imagePath": "/assets/dishes/main/128048-kanelsnegle.webp",
+    "thumbPath": "/assets/dishes/thumb/128048-kanelsnegle.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -27419,104 +28013,109 @@ const europeDepthDishConfigs = [
     "metadataCode": "128049",
     "cuisineId": "scandinavian",
     "names": {
-      "en": "Wienerbrod",
-      "zh": "丹麦酥皮点心",
-      "nl": "Wienerbrod",
-      "local": "Wienerbrod"
+      "en": "Wienerbrød",
+      "zh": "丹麦酥",
+      "nl": "Wienerbrød",
+      "local": "Wienerbrød"
     },
     "category": "dessert",
     "cookingMethods": [
       "baked"
     ],
     "shortDescription": {
-      "en": "Wienerbrod is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "丹麦酥皮点心是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Wienerbrod is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Danish laminated pastry, often filled with custard, almond, or fruit jam.",
+      "zh": "丹麦层酥点心，常有卡仕达、杏仁或果酱馅。",
+      "nl": "Deens bladerdeeggebak, vaak met banketroom, amandel of jam."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is flaky, buttery, and sweet, closer to a pastry than a bread roll.",
+      "zh": "口感酥脆黄油香、偏甜，更像点心而非面包卷。",
+      "nl": "Schilferig, boterig en zoet, meer gebak dan broodje."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A flagship Danish bakery item recognized by laminated layers and sweet filling.",
+        "zh": "丹麦烘焙代表，重点是层酥和甜馅。",
+        "nl": "Een Deens bakkerij-icoon met laagjes en zoete vulling."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "puff-pastry",
+        50,
+        "flaky pastry"
       ],
       [
-        "sugar",
+        "vanilla-custard",
         20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
-        10,
-        "richness"
+        "custard filling"
       ],
       [
         "fruit-sauce-or-caramel",
+        10,
+        "jam"
+      ],
+      [
+        "butter",
         15,
-        "topping"
+        "lamination richness"
+      ],
+      [
+        "sugar",
+        5,
+        "glaze"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "buttery pastry",
+      "custard",
+      "fruit jam"
     ],
     "basicTaste": [
       "sweet",
+      "buttery",
       "creamy"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "flaky layers",
+      "soft custard",
+      "sticky glaze"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "bakery"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A safe bakery choice if you want buttery sweet pastry.",
+      "zh": "想吃黄油香甜酥点时是稳妥选择。",
+      "nl": "Een veilige bakkerijkeuze voor boterig zoet gebak."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "128049",
+    "imagePath": "/assets/dishes/main/128049-wienerbrod.webp",
+    "thumbPath": "/assets/dishes/thumb/128049-wienerbrod.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -27525,7 +28124,7 @@ const europeDepthDishConfigs = [
     "cuisineId": "scandinavian",
     "names": {
       "en": "Kransekake",
-      "zh": "挪威杏仁圈塔",
+      "zh": "北欧杏仁圈塔",
       "nl": "Kransekake",
       "local": "Kransekake"
     },
@@ -27534,32 +28133,37 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Kransekake is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "挪威杏仁圈塔是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Kransekake is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Scandinavian celebration cake made from stacked almond cookie rings with white icing.",
+      "zh": "北欧庆典蛋糕，由一圈圈杏仁饼干叠成塔，并有白色糖霜。",
+      "nl": "Scandinavische feesttaart van gestapelde amandelringen met wit glazuur."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect chewy almond sweetness rather than a soft cream cake.",
+      "zh": "预期是有嚼劲的杏仁甜味，不是柔软奶油蛋糕。",
+      "nl": "Verwacht taaie amandelzoetheid, geen zachte slagroomtaart."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "festival",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "festival",
+        "dessert"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A festive Nordic cake for weddings, holidays, and special occasions.",
+        "zh": "北欧婚礼、节日和庆典常见的节庆蛋糕。",
+        "nl": "Een feestelijke Noordse cake voor bruiloften en feestdagen."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
+        "almond-paste",
+        50,
+        "almond ring dough"
+      ],
+      [
+        "almonds",
+        15,
+        "nut body"
       ],
       [
         "sugar",
@@ -27568,60 +28172,59 @@ const europeDepthDishConfigs = [
       ],
       [
         "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
-      ],
-      [
-        "butter",
         10,
-        "richness"
+        "binder"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "vanilla",
+        5,
+        "aroma",
+        "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "almond paste",
+      "sugar icing",
+      "vanilla"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "nutty",
+      "mild"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "chewy rings",
+      "crisp edges",
+      "firm stack"
     ],
     "riskFlags": [
-      "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-tree-nut",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "festival"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "nut-allergy",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it if almond desserts appeal; avoid with nut allergies.",
+      "zh": "喜欢杏仁甜点时适合；坚果过敏需避开。",
+      "nl": "Kies dit bij amandeldesserts; vermijd bij notenallergie."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "128050",
+    "imagePath": "/assets/dishes/main/128050-kransekake.webp",
+    "thumbPath": "/assets/dishes/thumb/128050-kransekake.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -27630,98 +28233,108 @@ const europeDepthDishConfigs = [
     "cuisineId": "scandinavian",
     "names": {
       "en": "Lefse",
-      "zh": "挪威土豆薄饼",
+      "zh": "挪威土豆软饼",
       "nl": "Lefse",
       "local": "Lefse"
     },
     "category": "bread",
     "cookingMethods": [
-      "baked"
+      "toasted"
     ],
+    "servingTemperature": "room-temperature",
     "shortDescription": {
-      "en": "Lefse is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "挪威土豆薄饼是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Lefse is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Norwegian soft potato flatbread, often served folded with butter, sugar, and cinnamon.",
+      "zh": "挪威土豆软薄饼，常抹黄油、糖和肉桂后折起。",
+      "nl": "Noorse zachte aardappelflatbread, vaak met boter, suiker en kaneel."
     },
     "cookingProfile": {
-      "en": "Usually served with baked bread or pastry, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现baked bread or pastry，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met baked bread or pastry; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It feels like a soft thin flatbread, mildly sweet if served as a snack.",
+      "zh": "口感像柔软薄饼，作为小食时常带轻甜味。",
+      "nl": "Zacht dun platbrood, licht zoet als snack."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "bread"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic Norwegian flatbread that can be a side or sweet snack.",
+        "zh": "经典挪威薄饼，可作配菜也可作甜小食。",
+        "nl": "Een klassieke Noorse flatbread, als bijgerecht of zoete snack."
       }
     },
     "composition": [
       [
-        "bread",
-        45,
-        "base"
+        "potato",
+        35,
+        "flatbread base"
       ],
       [
         "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "cheese",
-        15,
-        "filling"
+        35,
+        "dough"
       ],
       [
         "butter",
-        10,
-        "richness"
+        15,
+        "spread"
       ],
       [
-        "sea-salt",
+        "sugar",
+        10,
+        "sweetness"
+      ],
+      [
+        "cinnamon",
         5,
-        "seasoning",
+        "spice",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "potato flatbread",
+      "butter",
+      "cinnamon sugar"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "mild",
+      "sweet",
+      "buttery"
     ],
     "textureProfile": [
-      "soft bread",
-      "crisp edges"
+      "soft flatbread",
+      "pliable folds",
+      "smooth butter"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "bread"
+      "bread",
+      "snack"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good as a soft mild bread or sweet snack; not a full main unless filled.",
+      "zh": "适合作柔软温和面饼或甜小食；不夹馅时不是主菜。",
+      "nl": "Goed als zachte milde flatbread of zoete snack, geen hoofdgerecht zonder vulling."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 1,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "128051",
+    "imagePath": "/assets/dishes/main/128051-lefse.webp",
+    "thumbPath": "/assets/dishes/thumb/128051-lefse.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -27730,8 +28343,8 @@ const europeDepthDishConfigs = [
     "cuisineId": "scandinavian",
     "names": {
       "en": "Pannukakku",
-      "zh": "芬兰烤煎饼",
-      "nl": "Pannukakku",
+      "zh": "芬兰烤箱煎饼",
+      "nl": "Finse ovenpannenkoek",
       "local": "Pannukakku"
     },
     "category": "dessert",
@@ -27739,47 +28352,37 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Pannukakku is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "芬兰烤煎饼是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Pannukakku is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Finnish oven pancake, usually cut into squares and served with jam or berries.",
+      "zh": "芬兰烤箱厚煎饼，常切成方块，配果酱或莓果。",
+      "nl": "Finse ovenpannenkoek, in stukken met jam of bessen."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a custardy, eggy pancake slice with a sweet jam side.",
+      "zh": "预期是蛋奶感厚煎饼块，配甜果酱。",
+      "nl": "Verwacht een custardachtige eierige pannenkoek met jam."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Finnish home-style pancake dessert or cafe snack.",
+        "zh": "芬兰家常煎饼甜点或咖啡馆小食。",
+        "nl": "Een Finse huiselijke pannenkoek als dessert of cafésnack."
       }
     },
     "composition": [
       [
-        "wheat-flour",
-        25,
-        "base"
-      ],
-      [
-        "sugar",
-        20,
-        "sweetness"
+        "pancake-batter",
+        55,
+        "oven pancake"
       ],
       [
         "egg",
         15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
+        "custardy structure"
       ],
       [
         "butter",
@@ -27789,44 +28392,59 @@ const europeDepthDishConfigs = [
       [
         "fruit-sauce-or-caramel",
         15,
-        "topping"
+        "jam side"
+      ],
+      [
+        "sugar",
+        5,
+        "sweetness"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "eggy pancake",
+      "berry jam",
+      "butter"
     ],
     "basicTaste": [
       "sweet",
-      "creamy"
+      "mild",
+      "eggy"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft custardy slice",
+      "light browned edges",
+      "jammy side"
     ],
     "riskFlags": [
       "contains-gluten",
       "contains-egg",
       "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "first-timer-friendly"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "egg-allergy",
+      "dairy-free"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A friendly sweet pancake choice if you want something simple and comforting.",
+      "zh": "想吃简单舒适的甜煎饼时很友好。",
+      "nl": "Een toegankelijke zoete pannenkoek als je iets eenvoudigs wilt."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "128052",
+    "imagePath": "/assets/dishes/main/128052-pannukakku.webp",
+    "thumbPath": "/assets/dishes/thumb/128052-pannukakku.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -27834,100 +28452,105 @@ const europeDepthDishConfigs = [
     "metadataCode": "128053",
     "cuisineId": "scandinavian",
     "names": {
-      "en": "Poronkaristys",
+      "en": "Poronkäristys",
       "zh": "芬兰炒驯鹿肉",
-      "nl": "Poronkaristys",
-      "local": "Poronkaristys"
+      "nl": "Gebakken rendiervlees",
+      "local": "Poronkäristys"
     },
     "category": "meat",
     "cookingMethods": [
-      "braised"
+      "fried",
+      "simmered"
     ],
     "shortDescription": {
-      "en": "Poronkaristys is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "芬兰炒驯鹿肉是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Poronkaristys is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Finnish sautéed reindeer slices served with mashed potatoes and lingonberry jam.",
+      "zh": "芬兰薄片驯鹿肉炒/炖后配土豆泥和越橘果酱。",
+      "nl": "Fins gebakken rendiervlees met aardappelpuree en vossenbessenjam."
     },
     "cookingProfile": {
-      "en": "Usually served with tender meat, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现tender meat，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met tender meat; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect lean, slightly gamey meat with creamy mash and sweet-tart jam.",
+      "zh": "预期是偏瘦、轻野味的肉，配奶香土豆泥和酸甜果酱。",
+      "nl": "Mager licht wild vlees met romige puree en zoetzure jam."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "meat"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Lapland-associated dish where reindeer is the main identity.",
+        "zh": "与拉普兰相关的代表菜，核心是驯鹿肉。",
+        "nl": "Een gerecht uit Lapland waarin rendier centraal staat."
       }
     },
     "composition": [
       [
-        "beef",
-        45,
-        "main"
+        "reindeer",
+        55,
+        "sautéed meat"
       ],
       [
         "potato",
-        20,
-        "side"
+        25,
+        "mash"
       ],
       [
-        "mixed-vegetables",
-        15,
-        "body"
-      ],
-      [
-        "onion",
+        "lingonberry-jam",
         10,
-        "aromatic"
+        "sweet-tart side"
       ],
       [
-        "black-pepper",
+        "butter",
         5,
-        "seasoning",
-        "seasoning"
+        "richness"
       ],
       [
-        "parsley",
+        "broth",
         5,
-        "finish",
-        "seasoning"
+        "light gravy"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "reindeer",
+      "lingonberry",
+      "butter gravy"
     ],
     "basicTaste": [
       "savory",
-      "rich"
+      "gamey",
+      "sweet-tart"
     ],
     "textureProfile": [
-      "tender meat",
-      "saucy or browned edges"
+      "thin meat slices",
+      "smooth mash",
+      "jammy side"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-dairy"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
+      "regional-dish",
       "meat"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "dairy-free",
+      "avoids-gamey-meat"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, rich profile sounds appealing.",
-      "zh": "如果你想要savory、rich的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, rich je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good for trying Nordic game meat; skip if reindeer or gamey flavor feels uncomfortable.",
+      "zh": "想尝北欧野味肉时适合；不接受驯鹿或野味感则避开。",
+      "nl": "Goed om Noordse wildsmaak te proberen; sla over als rendier ongemakkelijk voelt."
     },
     "spiceLevel": 0,
     "weightLevel": 3,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "acquiredTasteLevel": 3,
+    "imageCode": "128053",
+    "imagePath": "/assets/dishes/main/128053-poronkaristys.webp",
+    "thumbPath": "/assets/dishes/thumb/128053-poronkaristys.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -27936,99 +28559,108 @@ const europeDepthDishConfigs = [
     "cuisineId": "scandinavian",
     "names": {
       "en": "Karjalanpaisti",
-      "zh": "卡累利阿炖肉",
-      "nl": "Karjalanpaisti",
+      "zh": "芬兰卡累利阿炖肉",
+      "nl": "Karelische stoofpot",
       "local": "Karjalanpaisti"
     },
-    "category": "stew",
+    "category": "meat",
     "cookingMethods": [
+      "braised",
       "simmered"
     ],
     "shortDescription": {
-      "en": "Karjalanpaisti is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "卡累利阿炖肉是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Karjalanpaisti is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Finnish Karelian stew of beef and pork with root vegetables, served simply with potatoes.",
+      "zh": "芬兰卡累利阿炖肉，用牛肉和猪肉配根茎蔬菜慢炖，常配土豆。",
+      "nl": "Finse Karelische stoofpot van rund en varken met wortelgroenten."
     },
     "cookingProfile": {
-      "en": "Usually served with slow-cooked stew, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现slow-cooked stew，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met slow-cooked stew; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is mild, brothy, and meat-forward rather than tomatoey or spicy.",
+      "zh": "味道温和、汤汁感明显、肉味为主，不是番茄或辣味炖菜。",
+      "nl": "Mild, bouillonachtig en vlezig, niet tomatig of pittig."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "regional",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "regional-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Finnish-Karelian comfort stew with straightforward meat and broth flavors.",
+        "zh": "芬兰卡累利阿舒适炖菜，重点是肉和清汤香。",
+        "nl": "Een Fins-Karelische stoofpot met eenvoudige vlees- en bouillonsmaak."
       }
     },
     "composition": [
       [
         "beef",
         35,
-        "main"
+        "stew meat"
+      ],
+      [
+        "pork",
+        25,
+        "stew meat"
       ],
       [
         "potato",
         20,
-        "body"
+        "side"
       ],
       [
-        "mixed-vegetables",
-        20,
-        "body"
+        "carrot",
+        10,
+        "root vegetable"
+      ],
+      [
+        "onion",
+        5,
+        "aromatic"
       ],
       [
         "broth",
-        15,
-        "base"
-      ],
-      [
-        "black-pepper",
         5,
-        "seasoning",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
+        "stew liquid"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "beef and pork",
+      "clear broth",
+      "root vegetables"
     ],
     "basicTaste": [
       "savory",
-      "hearty"
+      "mild",
+      "meaty"
     ],
     "textureProfile": [
+      "tender meat chunks",
       "soft vegetables",
-      "rich broth"
+      "light broth"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-pork"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "stew"
+      "comfort-food",
+      "meat"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "pork-free"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, hearty profile sounds appealing.",
-      "zh": "如果你想要savory、hearty的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, hearty je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A gentle hearty stew if you want meat without heavy spice or cream.",
+      "zh": "想吃不辣不奶油的温和肉类炖菜时适合。",
+      "nl": "Een milde stevige stoofpot zonder veel kruiden of room."
     },
     "spiceLevel": 0,
-    "weightLevel": 3,
+    "weightLevel": 4,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "128054",
+    "imagePath": "/assets/dishes/main/128054-karjalanpaisti.webp",
+    "thumbPath": "/assets/dishes/thumb/128054-karjalanpaisti.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -28038,50 +28670,50 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Silakkapihvit",
       "zh": "芬兰煎鲱鱼排",
-      "nl": "Silakkapihvit",
+      "nl": "Gebakken Oostzeeharing",
       "local": "Silakkapihvit"
     },
-    "category": "fish",
+    "category": "seafood",
     "cookingMethods": [
-      "grilled"
+      "fried"
     ],
     "shortDescription": {
-      "en": "Silakkapihvit is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "芬兰煎鲱鱼排是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Silakkapihvit is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Finnish fried Baltic herring fillets, often served with potatoes, dill, and lemon.",
+      "zh": "芬兰煎波罗的海鲱鱼片，常配土豆、莳萝和柠檬。",
+      "nl": "Finse gebakken Oostzeeharingfilets met aardappel, dille en citroen."
     },
     "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect small crisp-edged fish fillets with a clear briny herring flavor.",
+      "zh": "预期是小片鱼排，边缘煎脆，有明显鲱鱼咸鲜味。",
+      "nl": "Kleine knapperige visfilets met duidelijke haringsmaak."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Finnish everyday fish plate for diners who like small oily fish.",
+        "zh": "芬兰日常鱼类菜，适合喜欢小型油脂鱼的人。",
+        "nl": "Een Finse dagelijkse visschotel voor liefhebbers van kleine vette vis."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        60,
-        "main"
+        "herring",
+        55,
+        "fried fillets"
       ],
       [
         "potato",
-        15,
+        25,
         "side"
       ],
       [
-        "mixed-vegetables",
+        "butter",
         10,
-        "body"
+        "frying richness"
       ],
       [
         "lemon",
@@ -28089,51 +28721,56 @@ const europeDepthDishConfigs = [
         "brightness"
       ],
       [
-        "olive-oil",
+        "dill",
         5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
+        "herb",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "fried herring",
+      "dill",
+      "lemon"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "salty",
+      "briny",
+      "buttery"
     ],
     "textureProfile": [
-      "tender fish",
-      "light flaky bite"
+      "crisp fish edges",
+      "soft potato",
+      "flaky fillets"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-dairy"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "fish"
+      "seafood",
+      "classic-dish"
     ],
     "avoidIfTags": [
-      "fish-allergy"
+      "fish-allergy",
+      "dairy-free",
+      "avoids-oily-fish"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you enjoy small briny fish; skip if herring sounds too strong.",
+      "zh": "喜欢咸鲜小鱼时适合；不爱鲱鱼味则避开。",
+      "nl": "Goed als je kleine zilte vis lust; sla over als haring te sterk klinkt."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "acquiredTasteLevel": 2,
+    "imageCode": "128055",
+    "imagePath": "/assets/dishes/main/128055-silakkapihvit.webp",
+    "thumbPath": "/assets/dishes/thumb/128055-silakkapihvit.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -28143,7 +28780,7 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Hernekeitto",
       "zh": "芬兰豌豆汤",
-      "nl": "Hernekeitto",
+      "nl": "Finse erwtensoep",
       "local": "Hernekeitto"
     },
     "category": "soup",
@@ -28151,90 +28788,96 @@ const europeDepthDishConfigs = [
       "simmered"
     ],
     "shortDescription": {
-      "en": "Hernekeitto is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "芬兰豌豆汤是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Hernekeitto is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Finnish pea soup, usually thick and simple, often with ham or pork and mustard.",
+      "zh": "芬兰豌豆汤，通常浓稠朴素，常有火腿或猪肉和芥末。",
+      "nl": "Finse erwtensoep, dik en eenvoudig, vaak met ham of varken en mosterd."
     },
     "cookingProfile": {
-      "en": "Usually served with warm soup, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现warm soup，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met warm soup; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a filling, mild pea soup more earthy than spicy.",
+      "zh": "预期是饱腹、温和的豌豆汤，偏豆香土味，不辣。",
+      "nl": "Een vullende milde erwtensoep, aards eerder dan pittig."
     },
     "cuisineRole": {
-      "level": "classic",
+      "level": "common",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "common-dish",
+        "comfort-food"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A common Finnish soup and cafeteria-style comfort choice.",
+        "zh": "芬兰常见汤品和食堂式舒适选择。",
+        "nl": "Een gewone Finse soep en kantineachtige comfortkeuze."
       }
     },
     "composition": [
       [
+        "peas",
+        45,
+        "pea base"
+      ],
+      [
+        "pork",
+        20,
+        "ham or pork"
+      ],
+      [
         "broth",
-        35,
-        "base"
+        20,
+        "soup liquid"
       ],
       [
-        "mixed-vegetables",
-        25,
-        "body"
-      ],
-      [
-        "potato",
-        15,
-        "body"
-      ],
-      [
-        "cream",
-        10,
-        "richness"
-      ],
-      [
-        "black-pepper",
+        "mustard",
         5,
-        "seasoning",
+        "condiment",
         "seasoning"
       ],
       [
-        "parsley",
+        "rye-bread",
         10,
-        "finish",
-        "seasoning"
+        "bread side"
       ]
     ],
     "distinctiveFlavorSources": [
-      "herbs",
-      "sauce",
-      "savory base"
+      "peas",
+      "pork",
+      "mustard"
     ],
     "basicTaste": [
       "savory",
-      "warming"
+      "earthy",
+      "mild"
     ],
     "textureProfile": [
-      "brothy or creamy",
-      "soft bite"
+      "thick soup",
+      "soft peas",
+      "small meat pieces"
     ],
-    "riskFlags": [],
+    "riskFlags": [
+      "contains-pork",
+      "contains-gluten"
+    ],
     "dietaryFlags": [],
     "goodForTags": [
-      "europe-depth",
-      "soup"
+      "soup",
+      "comfort-food"
     ],
-    "avoidIfTags": [],
+    "avoidIfTags": [
+      "pork-free",
+      "gluten-free"
+    ],
     "orderVerdict": {
-      "en": "Order if this savory, warming profile sounds appealing.",
-      "zh": "如果你想要savory、warming的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, warming je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A filling mild soup; good if pea soup with pork sounds comforting.",
+      "zh": "温和饱腹汤；喜欢豌豆汤配猪肉会适合。",
+      "nl": "Een vullende milde soep als erwtensoep met varken goed klinkt."
     },
     "spiceLevel": 0,
-    "weightLevel": 2,
+    "weightLevel": 3,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "128056",
+    "imagePath": "/assets/dishes/main/128056-hernekeitto.webp",
+    "thumbPath": "/assets/dishes/thumb/128056-hernekeitto.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -28242,106 +28885,117 @@ const europeDepthDishConfigs = [
     "metadataCode": "128057",
     "cuisineId": "scandinavian",
     "names": {
-      "en": "Rakmacka",
-      "zh": "瑞典虾仁开放三明治",
-      "nl": "Rakmacka",
-      "local": "Rakmacka"
+      "en": "Räkmacka",
+      "zh": "瑞典虾开放三明治",
+      "nl": "Zweedse garnalensandwich",
+      "local": "Räkmacka"
     },
     "category": "seafood",
     "cookingMethods": [
-      "grilled"
+      "assembled",
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Rakmacka is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "瑞典虾仁开放三明治是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Rakmacka is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Swedish open shrimp sandwich with boiled egg, lettuce, mayonnaise, dill, and lemon.",
+      "zh": "瑞典开放式虾三明治，配水煮蛋、生菜、蛋黄酱、莳萝和柠檬。",
+      "nl": "Zweedse open garnalensandwich met ei, sla, mayonaise, dille en citroen."
     },
     "cookingProfile": {
-      "en": "Usually served with fish or seafood, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish or seafood，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish or seafood; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It is cold, fresh, creamy, and seafood-forward, often eaten as lunch.",
+      "zh": "冷食、清爽带奶油感，虾味突出，常作午餐。",
+      "nl": "Koud, fris, romig en garnalengericht, vaak als lunch."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Swedish cafe classic and approachable seafood sandwich.",
+        "zh": "瑞典咖啡馆经典，容易接受的海鲜三明治。",
+        "nl": "Een Zweedse caféklassieker en toegankelijke zeevruchtensandwich."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        40,
-        "main"
+        "shrimp",
+        45,
+        "shrimp topping"
       ],
       [
-        "mussels",
+        "bread",
         20,
-        "seafood"
+        "base"
       ],
       [
-        "potato",
+        "egg",
         15,
-        "side"
+        "boiled egg"
+      ],
+      [
+        "mayonnaise",
+        10,
+        "creamy sauce"
       ],
       [
         "lemon",
-        10,
+        5,
         "brightness"
       ],
       [
-        "olive-oil",
-        10,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "parsley",
+        "dill",
         5,
-        "finish",
+        "herb",
         "seasoning"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "shrimp",
+      "dill",
+      "lemon mayonnaise"
     ],
     "basicTaste": [
-      "savory",
+      "fresh",
+      "creamy",
       "briny"
     ],
     "textureProfile": [
-      "tender seafood",
-      "bright savory finish"
+      "tender shrimp",
+      "soft egg",
+      "crisp lettuce"
     ],
     "riskFlags": [
-      "contains-fish",
-      "contains-shellfish"
+      "contains-shellfish",
+      "contains-egg",
+      "contains-gluten"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "seafood"
+      "seafood",
+      "lunch"
     ],
     "avoidIfTags": [
-      "fish-allergy",
-      "shellfish-allergy"
+      "shellfish-allergy",
+      "egg-allergy",
+      "gluten-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, briny profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、briny的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, briny je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A strong lunch choice if you like cold shrimp and creamy open sandwiches.",
+      "zh": "喜欢冷虾和奶油感开放三明治时很适合。",
+      "nl": "Een sterke lunchkeuze als je koude garnalen en romige open sandwiches lust."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "128057",
+    "imagePath": "/assets/dishes/main/128057-rakmacka.webp",
+    "thumbPath": "/assets/dishes/thumb/128057-rakmacka.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -28350,103 +29004,117 @@ const europeDepthDishConfigs = [
     "cuisineId": "scandinavian",
     "names": {
       "en": "Silltallrik",
-      "zh": "北欧鲱鱼拼盘",
-      "nl": "Silltallrik",
+      "zh": "瑞典腌鲱鱼拼盘",
+      "nl": "Zweedse haringplank",
       "local": "Silltallrik"
     },
-    "category": "fish",
+    "category": "seafood",
     "cookingMethods": [
-      "grilled"
+      "chilled",
+      "assembled"
     ],
+    "servingTemperature": "cold-or-cool",
     "shortDescription": {
-      "en": "Silltallrik is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "北欧鲱鱼拼盘是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Silltallrik is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Swedish cold herring plate with pickled herring, potatoes, sour cream, onion, and dill.",
+      "zh": "瑞典冷食腌鲱鱼拼盘，配土豆、酸奶油、洋葱和莳萝。",
+      "nl": "Zweedse koude haringplank met aardappel, zure room, ui en dille."
     },
     "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect briny, tangy fish in small portions with cooling dairy and potatoes.",
+      "zh": "预期是咸酸鲱鱼小份拼盘，酸奶油和土豆降低冲击。",
+      "nl": "Zilte zurige vis in kleine porties met verkoelende zuivel en aardappel."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A classic Swedish herring plate, often ordered as a starter or buffet item.",
+        "zh": "经典瑞典鲱鱼拼盘，常作前菜或自助餐项。",
+        "nl": "Een klassieke Zweedse haringplank, vaak starter of buffetitem."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        60,
-        "main"
+        "herring",
+        45,
+        "pickled herring"
       ],
       [
         "potato",
+        20,
+        "boiled side"
+      ],
+      [
+        "sour-cream",
         15,
-        "side"
+        "cooling side"
       ],
       [
-        "mixed-vegetables",
+        "onion",
         10,
-        "body"
+        "sharp garnish"
       ],
       [
-        "lemon",
+        "dill",
         5,
-        "brightness"
-      ],
-      [
-        "olive-oil",
-        5,
-        "finish",
+        "herb",
         "seasoning"
       ],
       [
-        "parsley",
+        "rye-bread",
         5,
-        "finish",
-        "seasoning"
+        "crispbread side"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "pickled herring",
+      "dill",
+      "sour cream"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "salty",
+      "sour",
+      "briny"
     ],
     "textureProfile": [
-      "tender fish",
-      "light flaky bite"
+      "silky herring",
+      "soft potato",
+      "crisp bread"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-dairy",
+      "contains-gluten"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "fish"
+      "seafood",
+      "starter"
     ],
     "avoidIfTags": [
-      "fish-allergy"
+      "fish-allergy",
+      "dairy-free",
+      "gluten-free",
+      "avoids-pickled-fish"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Choose it if you like pickled fish; it is not a neutral seafood plate.",
+      "zh": "喜欢腌鱼时适合；这不是中性海鲜拼盘。",
+      "nl": "Kies dit als je ingelegde vis lust; geen neutrale zeevruchtenschotel."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
-    "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "acquiredTasteLevel": 3,
+    "imageCode": "128058",
+    "imagePath": "/assets/dishes/main/128058-silltallrik.webp",
+    "thumbPath": "/assets/dishes/thumb/128058-silltallrik.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -28455,51 +29123,61 @@ const europeDepthDishConfigs = [
     "cuisineId": "scandinavian",
     "names": {
       "en": "Gravlax Toast",
-      "zh": "腌三文鱼吐司",
-      "nl": "Gravlax Toast",
-      "local": "Gravlax Toast"
+      "zh": "莳萝腌三文鱼吐司",
+      "nl": "Gravlax toast",
+      "local": "Gravlax toast"
     },
-    "category": "fish",
+    "category": "seafood",
     "cookingMethods": [
-      "grilled"
+      "assembled",
+      "chilled"
     ],
+    "servingTemperature": "cold-or-cool",
+    "rawnessLevel": "cured-raw",
     "shortDescription": {
-      "en": "Gravlax Toast is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "腌三文鱼吐司是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Gravlax Toast is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Toast topped with cured salmon, dill, mustard sauce, lemon, and sometimes capers.",
+      "zh": "吐司上铺腌三文鱼、莳萝、芥末酱、柠檬，有时加酸豆。",
+      "nl": "Toast met gepekelde zalm, dille, mosterdsaus, citroen en soms kappertjes."
     },
     "cookingProfile": {
-      "en": "Usually served with fish, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现fish，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met fish; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "It gives the silky cured-salmon experience in a smaller toast format.",
+      "zh": "以小吐司形式呈现丝滑腌三文鱼体验。",
+      "nl": "Geeft de zijdezachte gravlaxervaring in toastvorm."
     },
     "cuisineRole": {
       "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "seafood"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Nordic starter that turns gravlax into an easy open-toast order.",
+        "zh": "北欧前菜，把 gravlax 做成容易点的开放吐司。",
+        "nl": "Een Noordse starter die gravlax toegankelijk maakt als toast."
       }
     },
     "composition": [
       [
-        "fish-fillet",
-        60,
-        "main"
+        "salmon",
+        55,
+        "cured salmon"
       ],
       [
-        "potato",
-        15,
-        "side"
+        "bread",
+        20,
+        "toast"
       ],
       [
-        "mixed-vegetables",
+        "mustard",
         10,
-        "body"
+        "mustard sauce",
+        "seasoning"
+      ],
+      [
+        "dill",
+        5,
+        "herb",
+        "seasoning"
       ],
       [
         "lemon",
@@ -28507,51 +29185,56 @@ const europeDepthDishConfigs = [
         "brightness"
       ],
       [
-        "olive-oil",
+        "capers",
         5,
-        "finish",
-        "seasoning"
-      ],
-      [
-        "parsley",
-        5,
-        "finish",
-        "seasoning"
+        "briny garnish"
       ]
     ],
     "distinctiveFlavorSources": [
-      "seafood",
-      "lemon",
-      "herbs"
+      "cured salmon",
+      "dill mustard sauce",
+      "lemon"
     ],
     "basicTaste": [
-      "savory",
-      "mild"
+      "salty",
+      "fresh",
+      "sweet-savory"
     ],
     "textureProfile": [
-      "tender fish",
-      "light flaky bite"
+      "silky salmon",
+      "crisp toast",
+      "creamy sauce"
     ],
     "riskFlags": [
-      "contains-fish"
+      "contains-fish",
+      "contains-raw-fish",
+      "contains-gluten"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "pescatarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "fish"
+      "starter",
+      "seafood"
     ],
     "avoidIfTags": [
-      "fish-allergy"
+      "fish-allergy",
+      "avoids-raw-fish",
+      "gluten-free"
     ],
     "orderVerdict": {
-      "en": "Order if this savory, mild profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要savory、mild的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van savory, mild je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "A good starter if you want cured salmon without a large fish plate.",
+      "zh": "想吃腌三文鱼但不想点大鱼盘时适合。",
+      "nl": "Een goede starter voor gravlax zonder grote visschotel."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "128059",
+    "imagePath": "/assets/dishes/main/128059-gravlax-toast.webp",
+    "thumbPath": "/assets/dishes/thumb/128059-gravlax-toast.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   },
   {
@@ -28561,7 +29244,7 @@ const europeDepthDishConfigs = [
     "names": {
       "en": "Rabarberpaj",
       "zh": "瑞典大黄派",
-      "nl": "Rabarberpaj",
+      "nl": "Rabarbertaart",
       "local": "Rabarberpaj"
     },
     "category": "dessert",
@@ -28569,94 +29252,99 @@ const europeDepthDishConfigs = [
       "baked"
     ],
     "shortDescription": {
-      "en": "Rabarberpaj is a common Scandinavian menu item; DishKAI explains it by taste, texture, portion feel, and ordering watch-outs rather than recipe steps.",
-      "zh": "瑞典大黄派是常见北欧菜菜单菜品，重点帮助判断它是什么、口味如何、是否适合点。",
-      "nl": "Rabarberpaj is een veelvoorkomend Scandinavisch menu-item, beschreven voor snelle bestelkeuzes."
+      "en": "Swedish rhubarb crumble pie or tart, usually served warm with vanilla sauce or cream.",
+      "zh": "瑞典大黄酥粒派或挞，通常温热上桌，配香草酱或奶油。",
+      "nl": "Zweedse rabarbertaart of crumble, vaak warm met vanillesaus of room."
     },
     "cookingProfile": {
-      "en": "Usually served with sweet dessert, so the ordering experience depends on richness, sauce, and portion size.",
-      "zh": "常见做法风格会呈现sweet dessert，点餐时主要看浓郁度、酱汁和分量。",
-      "nl": "Meestal met sweet dessert; rijkdom, saus en portiegrootte bepalen de ervaring."
+      "en": "Expect a sweet-tart fruit dessert with a buttery crumb rather than a cream cake.",
+      "zh": "预期是酸甜水果甜品，带黄油酥粒，不是奶油蛋糕。",
+      "nl": "Zoetzuur fruitdessert met boterige kruimel, geen roomcake."
     },
     "cuisineRole": {
-      "level": "common",
+      "level": "classic",
       "tags": [
-        "common-menu-item",
-        "europe-depth"
+        "classic-dish",
+        "dessert"
       ],
       "description": {
-        "en": "A likely Scandinavian restaurant-menu item added for the European depth pass toward 60 verified DishKAI references per cuisine.",
-        "zh": "欧洲菜系深度补全中加入的常见北欧菜餐厅菜单菜品，用于将该菜系补到 60 道 verified references。",
-        "nl": "Een waarschijnlijk Scandinavisch restaurantmenu-item voor de Europese verdiepingsronde naar 60 geverifieerde DishKAI-referenties per keuken."
+        "en": "A Scandinavian spring-summer dessert recognized by rhubarb tartness.",
+        "zh": "北欧春夏甜点，重点是大黄的酸味。",
+        "nl": "Een Scandinavisch lente-zomerdessert met rabarberzuur."
       }
     },
     "composition": [
       [
+        "rhubarb",
+        45,
+        "tart filling"
+      ],
+      [
         "wheat-flour",
         25,
-        "base"
-      ],
-      [
-        "sugar",
-        20,
-        "sweetness"
-      ],
-      [
-        "egg",
-        15,
-        "structure"
-      ],
-      [
-        "cream",
-        15,
-        "richness"
+        "crumble or crust"
       ],
       [
         "butter",
-        10,
-        "richness"
+        15,
+        "crumb richness"
       ],
       [
-        "fruit-sauce-or-caramel",
-        15,
-        "topping"
+        "sugar",
+        10,
+        "sweetness"
+      ],
+      [
+        "vanilla-custard",
+        5,
+        "sauce"
       ]
     ],
     "distinctiveFlavorSources": [
-      "cream",
-      "sugar",
-      "baked pastry"
+      "rhubarb tartness",
+      "buttery crumble",
+      "vanilla sauce"
     ],
     "basicTaste": [
-      "sweet",
-      "creamy"
+      "sweet-tart",
+      "fruity",
+      "buttery"
     ],
     "textureProfile": [
-      "sweet dessert",
-      "soft or crisp bite"
+      "soft rhubarb",
+      "crisp crumble",
+      "smooth sauce"
     ],
     "riskFlags": [
       "contains-gluten",
-      "contains-egg",
-      "contains-dairy"
+      "contains-dairy",
+      "contains-egg"
     ],
-    "dietaryFlags": [],
+    "dietaryFlags": [
+      "vegetarian"
+    ],
     "goodForTags": [
-      "europe-depth",
-      "dessert"
+      "dessert",
+      "lighter-choice"
     ],
     "avoidIfTags": [
-      "gluten-free"
+      "gluten-free",
+      "dairy-free",
+      "egg-allergy"
     ],
     "orderVerdict": {
-      "en": "Order if this sweet, creamy profile sounds appealing; check allergens or diet limits if that matters.",
-      "zh": "如果你想要sweet、creamy的口味，可以考虑点；有饮食限制时先确认配料。",
-      "nl": "Bestel dit als dit profiel van sweet, creamy je aanspreekt; check ingrediënten bij dieetwensen."
+      "en": "Good if you want a tart fruit dessert; skip if you prefer chocolate or cream-heavy sweets.",
+      "zh": "想吃酸甜水果甜点时适合；偏好巧克力或厚奶油则不是首选。",
+      "nl": "Goed voor een friszuur fruitdessert; minder voor chocolade of zware room."
     },
     "spiceLevel": 0,
     "weightLevel": 2,
     "acquiredTasteLevel": 1,
-    "metadataConfidence": 0.72,
+    "imageCode": "128060",
+    "imagePath": "/assets/dishes/main/128060-rabarberpaj.webp",
+    "thumbPath": "/assets/dishes/thumb/128060-rabarberpaj.webp",
+    "confidenceTag": "audited-remaining-batch-043",
+    "metadataConfidence": 0.84,
     "restaurantVariationLevel": "medium"
   }
 ];
