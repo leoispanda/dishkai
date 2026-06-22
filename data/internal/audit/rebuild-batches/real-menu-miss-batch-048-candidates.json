@@ -1,0 +1,26 @@
+[
+  {
+    "batch": "real-menu-miss-batch-048",
+    "metadataCode": "105065",
+    "dishId": "almendras-fritas",
+    "name": "Almendras Fritas",
+    "cuisineId": "spanish",
+    "sourceSignal": "Cloudflare unmatched menu item: Almendras Fritas",
+    "decision": "accepted",
+    "reason": "Stable Spanish tapas/bar snack with a clear nut-allergen ordering signal.",
+    "imagePath": "/assets/dishes/main/105065-almendras-fritas.webp",
+    "thumbPath": "/assets/dishes/thumb/105065-almendras-fritas.webp"
+  },
+  {
+    "batch": "real-menu-miss-batch-048",
+    "metadataCode": "103077",
+    "dishId": "murcon-aux-ravioles",
+    "name": "Murcon aux Ravioles",
+    "cuisineId": "french",
+    "sourceSignal": "Cloudflare unmatched menu item: Murçon artisanal de La Mure aux ravioles",
+    "decision": "accepted",
+    "reason": "Stable regional French sausage-plus-ravioles plate; accepted as a narrow regional dish, not a generic sausage alias.",
+    "imagePath": "/assets/dishes/main/103077-murcon-aux-ravioles.webp",
+    "thumbPath": "/assets/dishes/thumb/103077-murcon-aux-ravioles.webp"
+  }
+]

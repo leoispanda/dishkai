@@ -8,9 +8,9 @@ Verified metadata is the source of truth. It should be curated for high-frequenc
 
 Current verified starter database:
 
-- 1118 verified dishes
+- 1120 verified dishes
 - 27 cuisines
-- 3219 verified aliases
+- 3238 verified aliases
 
 Recent depth progress:
 
@@ -29,6 +29,7 @@ Recent depth progress:
 - Real Menu Miss Batch 045 reviewed the centralized unmatched/AI-generated KV backlog snapshot and accepted 12 real, reusable restaurant dishes plus safe alias fixes. Generic proteins, sides, menu buckets, and restaurant-specific specials stayed unverified/fallback-only. Verified export is now 1101 dishes / 3116 aliases.
 - Compound Menu Miss Batch 046 accepted 9 stable compound or assembled dishes from the remaining real-menu miss backlog: Italian schiacciata, French baked egg and sauced chicken preparations, Spanish preserved tapas, Indian tandoori chicken naan, Middle Eastern blackened eggplant with tahini, and American/Hawaiian poke bowl. Bare generic aliases and restaurant-specific garnish stacks stayed out. Verified export is now 1110 dishes / 3160 aliases.
 - Real Menu Miss Batch 047 accepted 8 stable Greek/French real-menu misses: `bekri-mezes`, `arnaki-tigania`, `fromage-blanc-dessert`, `religieuse`, `tarte-amandine`, `cafe-gourmand`, `chocolat-liegeois`, and `cafe-liegeois`. It also mapped `cheese platter` / `cheese plate` / `assiette de fromages` to existing `plateau-de-fromages`. Generic proteins, drinks, and one-off dessert names stayed out. Verified export is now 1118 dishes / 3219 aliases.
+- Real Menu Miss Batch 048 accepted 2 stable items from the remaining backlog: Spanish `almendras-fritas` and French regional `murcon-aux-ravioles`. It also remapped explicit Belgian tartare aliases to existing `filet-americain` instead of creating duplicate `beef-tartare-belgian`. Bokit, Accra, and Coconut pie stayed deferred until DishKAI has an appropriate Caribbean/French-Caribbean cuisine taxonomy. Verified export is now 1120 dishes / 3238 aliases.
 
 Next verified coverage targets:
 

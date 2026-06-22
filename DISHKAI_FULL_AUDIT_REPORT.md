@@ -4,24 +4,24 @@ Generated: 2026-06-22
 
 ## Executive summary
 
-- Raw dish records reviewed from source files: 1140
-- Current verified export after quarantine: 1118 dishes, 3219 aliases
+- Raw dish records reviewed from source files: 1142
+- Current verified export after quarantine: 1120 dishes, 3238 aliases
 - Generated high-risk dishes quarantined from verified export: 6
-- Verified export rows with automated keep-verified status: 1108
+- Verified export rows with automated keep-verified status: 1110
 - Verified export rows requiring metadata/image follow-up: 10
 
 The audit found systemic template language, low confidence values, repeated compositions, and placeholder localized text in the generated expansion layers. Those layers remain quarantined from `metadata.dishes` and `metadata.dishAliases` except for rows restored through documented review batches of at most 30 dishes.
 
 ## Status counts
 
-- keep-verified: 1108
+- keep-verified: 1110
 - rebuild: 6
 - remove: 26
 
 ## Risk counts
 
 - high: 32
-- low: 1108
+- low: 1110
 
 ## Source counts
 
@@ -39,7 +39,7 @@ The audit found systemic template language, low confidence values, repeated comp
 - data/internal/dishes/italian.js: 15
 - data/internal/dishes/japanese.js: 5
 - data/internal/dishes/korean.js: 5
-- data/internal/dishes/real-menu-miss-dishes.js: 20
+- data/internal/dishes/real-menu-miss-dishes.js: 22
 - data/internal/dishes/thai.js: 5
 - data/internal/dishes/world-dishes.js: 234
 
@@ -47,17 +47,17 @@ The audit found systemic template language, low confidence values, repeated comp
 
 - quarantinedOrUnreferencedMainAssets: 22
 - quarantinedOrUnreferencedThumbAssets: 22
-- totalMainAssets: 1140
-- totalThumbAssets: 1140
-- verifiedMainAssetsReferenced: 1118
-- verifiedThumbAssetsReferenced: 1118
+- totalMainAssets: 1142
+- totalThumbAssets: 1142
+- verifiedMainAssetsReferenced: 1120
+- verifiedThumbAssetsReferenced: 1120
 
 Quarantined/unreferenced assets were intentionally left in place. They are not deleted because they may be reused only after semantic image review and metadata rebuild.
 
 ## Alias audit summary
 
-- Raw aliases reviewed: 3320
-- Aliases in verified export: 3219
+- Raw aliases reviewed: 3339
+- Aliases in verified export: 3238
 - Alias rows flagged for review: 12
 
 | alias | dishId | sourceFile | confidence | status | notes |
@@ -117,6 +117,7 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 - Batch 036: [image overview](data/internal/audit/image-overviews/batch-036.html)
 - Batch 037: [image overview](data/internal/audit/image-overviews/batch-037.html)
 - Batch 038: [image overview](data/internal/audit/image-overviews/batch-038.html)
+- Batch 039: [image overview](data/internal/audit/image-overviews/batch-039.html)
 
 ## Batch audit tables
 
@@ -1449,3 +1450,10 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | cafe-gourmand | 103074 | french | data/internal/dishes/real-menu-miss-dishes.js | /assets/dishes/main/103074-cafe-gourmand.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | chocolat-liegeois | 103075 | french | data/internal/dishes/real-menu-miss-dishes.js | /assets/dishes/main/103075-chocolat-liegeois.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | cafe-liegeois | 103076 | french | data/internal/dishes/real-menu-miss-dishes.js | /assets/dishes/main/103076-cafe-liegeois.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 039
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| almendras-fritas | 105065 | spanish | data/internal/dishes/real-menu-miss-dishes.js | /assets/dishes/main/105065-almendras-fritas.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| murcon-aux-ravioles | 103077 | french | data/internal/dishes/real-menu-miss-dishes.js | /assets/dishes/main/103077-murcon-aux-ravioles.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |

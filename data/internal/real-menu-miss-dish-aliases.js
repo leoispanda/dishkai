@@ -182,6 +182,31 @@ export const realMenuMissDishAliases = [
     ["cafe liegois", "spelling-variant", 0.93],
     ["咖啡列日杯", "translated-name", 0.94],
   ]),
+  ...aliases("filet-americain", [
+    ["belgian steak tartare", "descriptive-name", 0.96],
+    ["steak tartare belge", "descriptive-name", 0.95],
+    ["steak tartaar belgisch", "descriptive-name", 0.95],
+    ["belgian beef tartare", "descriptive-name", 0.94],
+    ["américain préparé", "local-name", 0.96],
+    ["americain prepare", "spelling-variant", 0.96],
+  ]),
+  ...aliases("almendras-fritas", [
+    ["almendras fritas", "canonical", 1],
+    ["fried almonds", "translated-name", 0.96],
+    ["spanish fried almonds", "descriptive-name", 0.95],
+    ["almendras saladas", "descriptive-name", 0.92],
+    ["西班牙油炸杏仁", "translated-name", 0.94],
+  ]),
+  ...aliases("murcon-aux-ravioles", [
+    ["murçon aux ravioles", "canonical", 1],
+    ["murcon aux ravioles", "spelling-variant", 1],
+    ["murçon", "local-name", 0.94],
+    ["murcon", "spelling-variant", 0.94],
+    ["murçon artisanal de la mure aux ravioles", "menu-description", 0.95],
+    ["murcon artisanal de la mure aux ravioles", "menu-description", 0.95],
+    ["french murcon sausage with ravioles", "descriptive-name", 0.92],
+    ["法式穆尔松香肠配小馄饨", "translated-name", 0.94],
+  ]),
 ];
 
 function aliases(dishId, rows) {

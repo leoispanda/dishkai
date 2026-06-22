@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 1118
-- Total aliases: 3219
+- Total verified dishes: 1120
+- Total aliases: 3238
 - Total cuisines: 27
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -324,7 +324,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 127029 - `spris` - Spris / 埃塞分层果汁 / spris
 30. 127030 - `ambasha` - Ambasha / 埃塞花纹庆典面包 / ambasha
 
-## French (french) - 76
+## French (french) - 77
 
 1. 103001 - `boeuf-bourguignon` - Boeuf Bourguignon / 勃艮第红酒炖牛肉 / Boeuf bourguignon
 2. 103002 - `coq-au-vin` - Coq au Vin / 红酒炖鸡 / Coq au vin
@@ -402,6 +402,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 74. 103074 - `cafe-gourmand` - Cafe Gourmand / 法式咖啡小甜点拼盘 / Cafe gourmand
 75. 103075 - `chocolat-liegeois` - Chocolat Liegeois / 巧克力列日杯 / Chocolat liegeois
 76. 103076 - `cafe-liegeois` - Cafe Liegeois / 咖啡列日杯 / Cafe liegeois
+77. 103077 - `murcon-aux-ravioles` - Murcon aux Ravioles / 法式穆尔松香肠配小馄饨 / Murçon aux ravioles
 
 ## German (german) - 60
 
@@ -1005,7 +1006,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 59. 128029 - `aebleskiver` - Aebleskiver / 丹麦圆球小煎饼 / Æbleskiver
 60. 128030 - `brunost-toast` - Brunost Toast / 挪威棕奶酪吐司 / Brunost toast
 
-## Spanish (spanish) - 64
+## Spanish (spanish) - 65
 
 1. 105031 - `escalivada` - Escalivada / 加泰罗尼亚烤蔬菜 / Escalivada
 2. 105032 - `esqueixada` - Esqueixada / 加泰罗尼亚盐鳕鱼沙拉 / Esqueixada
@@ -1071,6 +1072,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 62. 105064 - `sardinas-en-aceite` - Sardines in Olive Oil / 西班牙橄榄油沙丁鱼 / Sardinas en aceite
 63. 105061 - `mojama` - Mojama / 西班牙风干金枪鱼片 / Mojama
 64. 105062 - `pan-de-cristal` - Pan de Cristal / 西班牙水晶面包 / Pan de cristal
+65. 105065 - `almendras-fritas` - Almendras Fritas / 西班牙油炸杏仁 / Almendras fritas
 
 ## Surinamese (surinamese) - 30
 
