@@ -1,4 +1,5 @@
 import { metadata } from "../../data/internal/index.js";
+import { universalMenuItems } from "./universal-menu-items.js";
 
 export const TEXT_MODEL = "@cf/meta/llama-3.1-8b-instruct";
 export const DEFAULT_OPENAI_MODEL = "gpt-5.4-mini";
@@ -208,6 +209,12 @@ const aliasIndex = metadata.dishAliases.map((alias) => ({
   ...alias,
   normalizedAlias: normalizeName(alias.alias),
 }));
+const universalAliasIndex = universalMenuItems.flatMap((item) =>
+  item.aliases.map((alias) => ({
+    item,
+    normalizedAlias: normalizeName(alias),
+  })),
+);
 
 function splitMenuText(menuText) {
   return String(menuText || "")
@@ -630,6 +637,32 @@ function findBestAliasMatch(item) {
   };
 }
 
+function findUniversalMenuItem(item) {
+  const candidates = candidateDishNames(item);
+  for (const candidate of candidates) {
+    const normalizedName = normalizeName(candidate);
+    if (!normalizedName) continue;
+    const match = universalAliasIndex.find((entry) => entry.normalizedAlias === normalizedName);
+    if (match) {
+      return {
+        item: match.item,
+        normalizedName,
+        matchedCandidate: candidate,
+        candidateNames: candidates,
+        confidence: match.item.confidence || 0.74,
+      };
+    }
+  }
+
+  return {
+    item: null,
+    normalizedName: normalizeName(item.cleanName || item.originalName),
+    matchedCandidate: "",
+    candidateNames: candidates,
+    confidence: 0,
+  };
+}
+
 function itemDisplayName(item, language) {
   return localize(item.names, language);
 }
@@ -784,6 +817,52 @@ function buildCard(dish, originalName, targetLanguage) {
     iconTags: deriveIconTagIds(dish).map((id) => tagLabel(id, targetLanguage)),
     metadataSource: "dishkai-database",
     verified: true,
+  };
+}
+
+function universalMenuCard(universalItem, item, targetLanguage) {
+  const copy = universalItem.copy[targetLanguage] || universalItem.copy.en;
+  return {
+    originalName: item.originalName,
+    familiarName: copy.familiarName,
+    orderVerdict: copy.orderVerdict,
+    cuisineName: localize({
+      en: "Universal menu item",
+      zh: "通用菜单项",
+      nl: "Algemeen menu-item",
+    }, targetLanguage),
+    cuisineRole: {
+      level: "universal",
+      note: localize({
+        en: "This is broad ordering guidance for common menu items, not a verified fixed dish recipe.",
+        zh: "这是常见菜单项的通用点餐参考，不是某一道固定菜的已验证做法。",
+        nl: "Dit is brede bestelrichtlijn voor veelvoorkomende menu-items, geen geverifieerd vast gerecht.",
+      }, targetLanguage),
+    },
+    cooking: {
+      methods: [],
+      profile: copy.cookingProfile,
+    },
+    shortDescription: copy.shortDescription,
+    composition: copy.composition.map(([name, estimatedPercent, role, optional]) => ({
+      name,
+      estimatedPercent,
+      role,
+      optional: Boolean(optional),
+    })),
+    basicTaste: copy.basicTaste,
+    distinctiveFlavorSources: copy.distinctiveFlavorSources,
+    texture: copy.texture,
+    watchOuts: copy.watchOuts,
+    visualDisclaimer: copy.visualDisclaimer,
+    aiImageLabel: localize({
+      en: "Universal guidance. Ask the restaurant for exact ingredients, allergens, and preparation.",
+      zh: "通用参考。具体配料、过敏原和做法请向餐厅确认。",
+      nl: "Algemene richtlijn. Vraag het restaurant naar exacte ingredienten, allergenen en bereiding.",
+    }, targetLanguage),
+    iconTags: (universalItem.iconTags || ["ask-staff"]).map((id) => tagLabel(id, targetLanguage)),
+    metadataSource: "universal-generic",
+    verified: false,
   };
 }
 
@@ -1092,6 +1171,20 @@ async function buildMenuAnalysis({ sourceLanguage, targetLanguage, extraction, e
     const match = findBestAliasMatch(item);
     const dish = match.alias ? dishById.get(match.alias.dishId) : null;
     if (!dish) {
+      const universalMatch = findUniversalMenuItem(item);
+      if (universalMatch.item) {
+        return {
+          ...item,
+          normalizedName: universalMatch.normalizedName,
+          matchedCandidate: universalMatch.matchedCandidate,
+          matchCandidates: universalMatch.candidateNames,
+          matchedDishId: null,
+          matchedUniversalId: universalMatch.item.id,
+          matchStatus: "universal",
+          matchConfidence: universalMatch.confidence,
+          card: universalMenuCard(universalMatch.item, item, targetLanguage),
+        };
+      }
       return {
         ...item,
         normalizedName: match.normalizedName,
@@ -1145,6 +1238,7 @@ async function buildMenuAnalysis({ sourceLanguage, targetLanguage, extraction, e
     items,
     unmatchedItems: items.filter((item) => item.matchStatus === "unmatched"),
     aiGeneratedItems: items.filter((item) => item.matchStatus === "ai-generated"),
+    universalItems: items.filter((item) => item.matchStatus === "universal"),
   };
 }
 

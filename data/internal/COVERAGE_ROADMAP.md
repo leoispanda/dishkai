@@ -1,6 +1,6 @@
 # DishKAI Coverage Roadmap
 
-DishKAI should feel useful in real restaurants, not only in demo menus. Real-world coverage needs two layers.
+DishKAI should feel useful in real restaurants, not only in demo menus. Real-world coverage needs three layers.
 
 ## Layer 1: Verified DishKAI metadata
 
@@ -37,7 +37,19 @@ Next verified coverage targets:
 
 Verified metadata should stay concise and ordering-focused. Do not turn cards into recipes.
 
-## Layer 2: AI fallback for unmatched dishes
+## Layer 2: Universal generic ordering cards
+
+Universal generic cards cover broad high-frequency menu words that appear in many restaurants but are not stable enough to become verified dish records, such as fries, salad, steak/ribeye, grilled chicken, prawns/shrimp, dessert, and drinks.
+
+They reduce avoidable unmatched results while preserving the verified database boundary:
+
+- matchStatus: universal
+- metadataSource: universal-generic
+- verified: false
+
+Universal cards should not be saved to the unmatched KV backlog and should not be promoted to verified dishes unless a future task turns a specific, stable dish into a reviewed verified record.
+
+## Layer 3: AI fallback for unmatched dishes
 
 AI fallback is for practical coverage when a dish is not in verified metadata yet. It must remain temporary and clearly labeled:
 
@@ -52,5 +64,6 @@ AI fallback should never be saved as verified metadata without manual review.
 The goal is not to claim that DishKAI has verified knowledge for every possible restaurant dish. The goal is:
 
 - verified cards for high-frequency dishes
+- universal guidance for broad restaurant-common menu terms
 - useful AI estimates for long-tail menu items
 - clear labeling so Leo and Cindy can trust what is verified and what is estimated

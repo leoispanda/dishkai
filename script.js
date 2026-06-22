@@ -1,4 +1,4 @@
-const APP_VERSION = "DishKAI v0.2.27-public-beta";
+const APP_VERSION = "DishKAI v0.2.28-public-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
 const USAGE_COUNT_KEY = "dishkai-local-usage-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
@@ -33,7 +33,7 @@ const translations = {
     legalRequired: "Please accept the disclaimer before using DishKAI.",
     enterApp: "Enter DishKAI",
     visitCountLabel: "Local visits",
-    matched: "matched", unmatched: "Not in starter database yet", aiEstimated: "AI estimate", tapForDetails: "Tap for details", tapForEstimate: "Tap for note", aiGenerated: "AI-generated estimate. Not yet verified in DishKAI database.", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "Original", familiar: "Familiar", verdict: "Order verdict", description: "What it is", preparation: "How it is usually prepared", composition: "Estimated composition", taste: "Basic taste", flavor: "Distinctive flavor", texture: "Texture", watchOut: "Watch out", variations: "Common variations", disclaimer: "Visual note", summary: "items", unknownNote: "This dish is not in the starter database yet."
+    matched: "matched", universal: "universal", unmatched: "Not in starter database yet", aiEstimated: "AI estimate", tapForDetails: "Tap for details", tapForUniversal: "Universal ordering guide", tapForEstimate: "Tap for note", aiGenerated: "AI-generated estimate. Not yet verified in DishKAI database.", universalGuidance: "Universal guidance, not a verified fixed dish.", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "Original", familiar: "Familiar", verdict: "Order verdict", description: "What it is", preparation: "How it is usually prepared", composition: "Estimated composition", taste: "Basic taste", flavor: "Distinctive flavor", texture: "Texture", watchOut: "Watch out", variations: "Common variations", disclaimer: "Visual note", summary: "items", unknownNote: "This dish is not in the starter database yet."
   },
   zh: {
     legalGateTitle: "使用 DishKAI 之前",
@@ -62,7 +62,7 @@ const translations = {
     legalRequired: "使用 DishKAI 前请先确认免责声明。",
     enterApp: "进入 DishKAI",
     visitCountLabel: "本机访问次数",
-    matched: "已匹配", unmatched: "暂未收录", aiEstimated: "AI 估算", tapForDetails: "点击查看详情", tapForEstimate: "点击查看未收录提示", aiGenerated: "AI 估算结果，尚未进入 DishKAI 已验证数据库。", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "原始菜名", familiar: "熟悉名称", verdict: "点餐建议", description: "这是什么", preparation: "常见做法风格", composition: "估算成分", taste: "基础味道", flavor: "特色风味", texture: "口感", watchOut: "注意事项", variations: "常见变体", disclaimer: "图片说明", summary: "项", unknownNote: "这道菜暂时还不在 DishKAI 初始数据库中。"
+    matched: "已匹配", universal: "通用项", unmatched: "暂未收录", aiEstimated: "AI 估算", tapForDetails: "点击查看详情", tapForUniversal: "通用点餐参考", tapForEstimate: "点击查看未收录提示", aiGenerated: "AI 估算结果，尚未进入 DishKAI 已验证数据库。", universalGuidance: "通用参考，不是已验证固定菜。", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "原始菜名", familiar: "熟悉名称", verdict: "点餐建议", description: "这是什么", preparation: "常见做法风格", composition: "估算成分", taste: "基础味道", flavor: "特色风味", texture: "口感", watchOut: "注意事项", variations: "常见变体", disclaimer: "图片说明", summary: "项", unknownNote: "这道菜暂时还不在 DishKAI 初始数据库中。"
   },
   nl: {
     legalGateTitle: "Voordat je DishKAI gebruikt",
@@ -91,7 +91,7 @@ const translations = {
     legalRequired: "Accepteer de disclaimer voordat je DishKAI gebruikt.",
     enterApp: "Open DishKAI",
     visitCountLabel: "Lokale bezoeken",
-    matched: "gekoppeld", unmatched: "nog niet in database", aiEstimated: "AI-schatting", tapForDetails: "Tik voor details", tapForEstimate: "Tik voor notitie", aiGenerated: "AI-schatting. Nog niet geverifieerd in de DishKAI-database.", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "Origineel", familiar: "Vertrouwd", verdict: "Besteladvies", description: "Wat het is", preparation: "Hoe het meestal wordt bereid", composition: "Geschatte samenstelling", taste: "Basissmaak", flavor: "Kenmerkende smaak", texture: "Textuur", watchOut: "Let op", variations: "Veelvoorkomende variaties", disclaimer: "Visuele noot", summary: "items", unknownNote: "Dit gerecht staat nog niet in de startdatabase."
+    matched: "gekoppeld", universal: "algemeen", unmatched: "nog niet in database", aiEstimated: "AI-schatting", tapForDetails: "Tik voor details", tapForUniversal: "Algemene bestelrichtlijn", tapForEstimate: "Tik voor notitie", aiGenerated: "AI-schatting. Nog niet geverifieerd in de DishKAI-database.", universalGuidance: "Algemene richtlijn, geen geverifieerd vast gerecht.", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "Origineel", familiar: "Vertrouwd", verdict: "Besteladvies", description: "Wat het is", preparation: "Hoe het meestal wordt bereid", composition: "Geschatte samenstelling", taste: "Basissmaak", flavor: "Kenmerkende smaak", texture: "Textuur", watchOut: "Let op", variations: "Veelvoorkomende variaties", disclaimer: "Visuele noot", summary: "items", unknownNote: "Dit gerecht staat nog niet in de startdatabase."
   }
 };
 
@@ -438,12 +438,15 @@ function renderAnalysis(result) {
 
 function renderSummary(result) {
   const matched = result.items.filter((item) => item.matchStatus === "matched").length;
+  const universal = result.items.filter((item) => item.matchStatus === "universal").length;
   const aiGenerated = result.items.filter((item) => item.matchStatus === "ai-generated").length;
   const unmatched = result.items.filter((item) => item.matchStatus === "unmatched").length;
+  const universalSummary = universal ? `<span>${universal} ${t("universal")}</span>` : "";
   const aiSummary = aiGenerated ? `<span>${aiGenerated} ${t("aiEstimated")}</span>` : "";
   $("#menuSummary").innerHTML = `
     <span>${result.items.length} ${t("summary")}</span>
     <span>${matched} ${t("matched")}</span>
+    ${universalSummary}
     ${aiSummary}
     <span>${unmatched} ${t("unmatched")}</span>
   `;
@@ -460,7 +463,13 @@ function renderVisualMenu(items) {
     const thumbPath = safeImagePath(card.thumbPath || card.imagePath);
     const thumbMarkup = thumbPath ? `<span class="menu-card-thumb" aria-hidden="true"><img src="${escapeAttribute(thumbPath)}" alt="" loading="lazy"></span>` : "";
     const tags = (card.iconTags || []).slice(0, 5).map((tag) => `<span class="icon-tag" title="${escapeHtml(tag.label)}">${tag.icon ? `${tag.icon} ` : ""}${escapeHtml(tag.label)}</span>`).join("");
-    const statusLabel = item.matchStatus === "matched" ? t("tapForDetails") : item.matchStatus === "ai-generated" ? t("aiGenerated") : t("tapForEstimate");
+    const statusLabel = item.matchStatus === "matched"
+      ? t("tapForDetails")
+      : item.matchStatus === "universal"
+        ? t("tapForUniversal")
+        : item.matchStatus === "ai-generated"
+          ? t("aiGenerated")
+          : t("tapForEstimate");
     return `
       <article class="menu-card ${item.matchStatus}" data-order-index="${item.orderIndex}">
         <button class="menu-card-button ${thumbPath ? "has-thumb" : "no-thumb"}" type="button" data-open-card="${item.orderIndex}">
@@ -499,6 +508,7 @@ function renderKnowledgeCard(item) {
   const tags = (card.iconTags || []).map((tag) => `<span class="icon-tag">${tag.icon} ${escapeHtml(tag.label)}</span>`).join("");
   const variations = renderVariations(card.commonVariations);
   const unverified = card.verified === false && card.metadataSource === "ai-fallback" ? `<p class="notice">${t("aiGenerated")}</p>` : "";
+  const universalNotice = card.verified === false && card.metadataSource === "universal-generic" ? `<p class="notice">${t("universalGuidance")}</p>` : "";
   $("#dishCard").className = "knowledge-card";
   $("#dishCard").innerHTML = `
     <div class="knowledge-image">${imagePath ? `<img src="${escapeAttribute(imagePath)}" alt="" loading="lazy">` : ""}</div>
@@ -509,6 +519,7 @@ function renderKnowledgeCard(item) {
       <p class="verdict">${escapeHtml(card.orderVerdict || t("unknownNote"))}</p>
       <p class="notice">${escapeHtml(card.aiImageLabel || t("aiImageLabel"))}</p>
       ${unverified}
+      ${universalNotice}
       ${card.cuisineRole?.note ? `<p>${escapeHtml(card.cuisineRole.note)}</p>` : ""}
       <dl>
         <div><dt>${t("description")}</dt><dd>${escapeHtml(card.shortDescription || t("unknownNote"))}</dd></div>

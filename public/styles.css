@@ -413,6 +413,7 @@ select, input { min-height: 46px; }
   background: rgba(255, 255, 255, 0.78);
   box-shadow: 0 16px 34px rgba(31, 40, 35, 0.1);
 }
+.menu-card.universal { border-color: rgba(184, 122, 55, 0.34); background: rgba(255, 248, 238, 0.66); }
 .menu-card.unmatched { border-style: dashed; background: rgba(255, 255, 255, 0.44); }
 .menu-card-button {
   width: 100%;
