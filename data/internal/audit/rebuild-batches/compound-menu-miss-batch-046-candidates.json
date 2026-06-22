@@ -1,0 +1,83 @@
+[
+  {
+    "dishId": "schiacciata-mortadella-stracciatella",
+    "metadataCode": "101061",
+    "cuisineId": "italian",
+    "sourceFile": "data/internal/dishes/compound-menu-miss-dishes.js",
+    "name": "Schiacciata with Mortadella and Stracciatella",
+    "imagePath": "/assets/dishes/main/101061-schiacciata-mortadella-stracciatella.webp",
+    "thumbPath": "/assets/dishes/thumb/101061-schiacciata-mortadella-stracciatella.webp"
+  },
+  {
+    "dishId": "oeuf-en-cocotte",
+    "metadataCode": "103068",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/compound-menu-miss-dishes.js",
+    "name": "Oeuf en Cocotte",
+    "imagePath": "/assets/dishes/main/103068-oeuf-en-cocotte.webp",
+    "thumbPath": "/assets/dishes/thumb/103068-oeuf-en-cocotte.webp"
+  },
+  {
+    "dishId": "poulet-aux-ecrevisses",
+    "metadataCode": "103069",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/compound-menu-miss-dishes.js",
+    "name": "Poulet aux Ecrevisses",
+    "imagePath": "/assets/dishes/main/103069-poulet-aux-ecrevisses.webp",
+    "thumbPath": "/assets/dishes/thumb/103069-poulet-aux-ecrevisses.webp"
+  },
+  {
+    "dishId": "poulet-aux-morilles",
+    "metadataCode": "103070",
+    "cuisineId": "french",
+    "sourceFile": "data/internal/dishes/compound-menu-miss-dishes.js",
+    "name": "Poulet aux Morilles",
+    "imagePath": "/assets/dishes/main/103070-poulet-aux-morilles.webp",
+    "thumbPath": "/assets/dishes/thumb/103070-poulet-aux-morilles.webp"
+  },
+  {
+    "dishId": "aceitunas-rellenas-de-anchoas",
+    "metadataCode": "105063",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/compound-menu-miss-dishes.js",
+    "name": "Anchovy-Stuffed Olives",
+    "imagePath": "/assets/dishes/main/105063-aceitunas-rellenas-de-anchoas.webp",
+    "thumbPath": "/assets/dishes/thumb/105063-aceitunas-rellenas-de-anchoas.webp"
+  },
+  {
+    "dishId": "sardinas-en-aceite",
+    "metadataCode": "105064",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/compound-menu-miss-dishes.js",
+    "name": "Sardines in Olive Oil",
+    "imagePath": "/assets/dishes/main/105064-sardinas-en-aceite.webp",
+    "thumbPath": "/assets/dishes/thumb/105064-sardinas-en-aceite.webp"
+  },
+  {
+    "dishId": "tandoori-chicken-naan",
+    "metadataCode": "115031",
+    "cuisineId": "indian",
+    "sourceFile": "data/internal/dishes/compound-menu-miss-dishes.js",
+    "name": "Tandoori Chicken Naan",
+    "imagePath": "/assets/dishes/main/115031-tandoori-chicken-naan.webp",
+    "thumbPath": "/assets/dishes/thumb/115031-tandoori-chicken-naan.webp"
+  },
+  {
+    "dishId": "blackened-eggplant-tahini",
+    "metadataCode": "120032",
+    "cuisineId": "middle-eastern",
+    "sourceFile": "data/internal/dishes/compound-menu-miss-dishes.js",
+    "name": "Blackened Eggplant with Tahini",
+    "imagePath": "/assets/dishes/main/120032-blackened-eggplant-tahini.webp",
+    "thumbPath": "/assets/dishes/thumb/120032-blackened-eggplant-tahini.webp"
+  },
+  {
+    "dishId": "poke-bowl",
+    "metadataCode": "122031",
+    "cuisineId": "american",
+    "sourceFile": "data/internal/dishes/compound-menu-miss-dishes.js",
+    "name": "Poke Bowl",
+    "imagePath": "/assets/dishes/main/122031-poke-bowl.webp",
+    "thumbPath": "/assets/dishes/thumb/122031-poke-bowl.webp"
+  }
+]

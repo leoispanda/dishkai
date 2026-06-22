@@ -8,9 +8,9 @@ Verified metadata is the source of truth. It should be curated for high-frequenc
 
 Current verified starter database:
 
-- 1101 verified dishes
+- 1110 verified dishes
 - 27 cuisines
-- 3116 verified aliases
+- 3160 verified aliases
 
 Recent depth progress:
 
@@ -27,6 +27,7 @@ Recent depth progress:
 - World Depth Batches 034-037 rebuilt 120 rows across American, Surinamese, Peruvian, Brazilian, British-Irish, and Portuguese coverage. American, Surinamese, Peruvian, and Brazilian now each have 30 verified dishes; British-Irish and Portuguese gained optional reviewed depth. Eight existing American cafe/brunch images were accepted, the other 112 rows received restaurant-realistic generated replacement images with visible metadataCode stamps, and cross-cuisine-prone aliases such as bare `cheesecake`, `cha siu`, `kip sate`, `tapioca`, and `alfajores` were narrowed.
 - Remaining European Depth Batches 039-044 rebuilt 158 additional rows across Dutch, Spanish, German, Belgian, Scandinavian, Greek, and Portuguese coverage. Dutch, Spanish, German, and Scandinavian now have 60 verified dishes; Belgian is 56 after duplicate rejection, Portuguese is 59, and Greek is 45. `cataplana` and `makloubeh` stayed quarantined under prior duplicate decisions, and Belgian duplicate aliases were narrowed to canonical verified targets.
 - Real Menu Miss Batch 045 reviewed the centralized unmatched/AI-generated KV backlog snapshot and accepted 12 real, reusable restaurant dishes plus safe alias fixes. Generic proteins, sides, menu buckets, and restaurant-specific specials stayed unverified/fallback-only. Verified export is now 1101 dishes / 3116 aliases.
+- Compound Menu Miss Batch 046 accepted 9 stable compound or assembled dishes from the remaining real-menu miss backlog: Italian schiacciata, French baked egg and sauced chicken preparations, Spanish preserved tapas, Indian tandoori chicken naan, Middle Eastern blackened eggplant with tahini, and American/Hawaiian poke bowl. Bare generic aliases and restaurant-specific garnish stacks stayed out. Verified export is now 1110 dishes / 3160 aliases.
 
 Next verified coverage targets:
 

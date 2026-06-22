@@ -665,12 +665,13 @@ const allergenRiskMap = {
 
 const porkIngredientIds = new Set([
   "pork", "bacon", "pork-cutlet", "sausage", "smoked-sausage", "minced-pork", "guanciale-or-pancetta",
+  "mortadella",
 ]);
 const glutenIngredientIds = new Set([
   "pasta", "spaghetti", "pasta-sheets", "pizza-dough", "wheat-flour", "bread", "ladyfingers",
   "potato-gnocchi", "ravioli-dough", "ramen-noodles", "tempura-batter", "dumpling-wrapper",
   "wheat-noodles", "egg-noodles", "pretzel-dough", "pastry-crust", "pancake-batter", "waffle-batter",
-  "tortilla", "pita", "couscous", "brioche-bun",
+  "tortilla", "pita", "couscous", "brioche-bun", "naan-bread",
 ]);
 const rawFishIngredientIds = new Set(["raw-fish", "raw-herring", "raw-white-fish"]);
 

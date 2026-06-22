@@ -322,6 +322,9 @@ export const ingredients = [
   ingredient("cornstarch", "200059", "cornstarch", "玉米淀粉", "maizena", ["powdery", "crumbly-when-baked"], ["vegan"], []),
   ingredient("acai-puree", "200060", "acai puree", "巴西莓果泥", "acaipuree", ["smooth", "frozen"], ["vegan"], []),
   ingredient("rhubarb", "200061", "rhubarb", "大黄茎", "rabarber", ["tender", "tart"], ["vegan"], []),
+  ingredient("crayfish", "200062", "crayfish", "小龙虾/淡水螯虾", "rivierkreeft", ["sweet", "tender"], ["pescatarian"], ["shellfish"]),
+  ingredient("morel-mushrooms", "200063", "morel mushrooms", "羊肚菌", "morieljes", ["soft", "earthy"], ["vegan"], []),
+  ingredient("naan-bread", "200064", "naan bread", "印度烤饼", "naanbrood", ["soft", "chewy"], ["vegetarian"], ["gluten", "dairy"]),
   italian("pasta", "201001", "pasta", "意面", "pasta", ["soft", "springy"], ["vegetarian"], ["gluten"]),
   italian("spaghetti", "201002", "spaghetti", "意大利细面", "spaghetti", ["long", "springy"], ["vegetarian"], ["gluten"]),
   italian("pasta-sheets", "201003", "pasta sheets", "千层面片", "pastavellen", ["soft", "layered"], ["vegetarian"], ["gluten"]),
@@ -376,6 +379,8 @@ export const ingredients = [
   italian("tripe", "201052", "tripe", "牛肚", "pens", ["chewy", "soft"], [], []),
   italian("arugula", "201053", "arugula", "芝麻菜", "rucola", ["peppery", "leafy"], ["vegan"], []),
   italian("bresaola", "201054", "bresaola", "意式风干牛肉", "bresaola", ["silky", "lean"], [], []),
+  italian("mortadella", "201055", "mortadella", "意式熟猪肉香肠", "mortadella", ["silky", "fatty"], [], ["pork"]),
+  italian("stracciatella-cheese", "201056", "stracciatella cheese", "意式布拉塔奶酪馅", "stracciatella", ["creamy", "soft"], ["vegetarian"], ["dairy"]),
 ];
 
 function ingredient(id, metadataCode, en, zh, nl, texture = [], dietaryFlags = [], allergens = []) {

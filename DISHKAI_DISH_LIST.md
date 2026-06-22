@@ -2,12 +2,12 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 1101
-- Total aliases: 3116
+- Total verified dishes: 1110
+- Total aliases: 3160
 - Total cuisines: 27
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
-## American (american) - 30
+## American (american) - 31
 
 1. 122013 - `french-toast` - French Toast / 法式吐司 / French toast
 2. 122014 - `eggs-benedict` - Eggs Benedict / 班尼迪克蛋 / eggs benedict
@@ -39,6 +39,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 28. 122028 - `key-lime-pie` - Key Lime Pie / 青柠派 / key lime pie
 29. 122029 - `brownie` - Brownie / 布朗尼 / brownie
 30. 122030 - `cheesecake-american` - American Cheesecake / 美式芝士蛋糕 / cheesecake
+31. 122031 - `poke-bowl` - Poke Bowl / 夏威夷生鱼饭碗 / Poke bowl
 
 ## Belgian (belgian) - 56
 
@@ -323,7 +324,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 127029 - `spris` - Spris / 埃塞分层果汁 / spris
 30. 127030 - `ambasha` - Ambasha / 埃塞花纹庆典面包 / ambasha
 
-## French (french) - 67
+## French (french) - 70
 
 1. 103001 - `boeuf-bourguignon` - Boeuf Bourguignon / 勃艮第红酒炖牛肉 / Boeuf bourguignon
 2. 103002 - `coq-au-vin` - Coq au Vin / 红酒炖鸡 / Coq au vin
@@ -385,13 +386,16 @@ Generated from data/internal/index.js after the verified database quarantine aud
 58. 103028 - `madeleines` - Madeleines / 玛德琳小蛋糕 / Madeleines
 59. 103029 - `profiteroles` - Profiteroles / 泡芙冰淇淋巧克力酱 / Profiteroles
 60. 103030 - `paris-brest` - Paris-Brest / 巴黎布雷斯特泡芙 / Paris-Brest
-61. 103061 - `ravioles-gratin` - Ravioles Gratin / 法式小馄饨奶酪焗盘 / Gratin de ravioles
-62. 103062 - `onglet-de-boeuf` - Onglet de Boeuf / 法式牛隔膜肉排 / Onglet de boeuf
-63. 103063 - `andouillette` - Andouillette / 法式猪肠香肠 / Andouillette
-64. 103064 - `tete-de-veau` - Tete de Veau / 法式小牛头肉 / Tête de veau
-65. 103065 - `truite-grenobloise` - Truite Grenobloise / 格勒诺布尔风味鳟鱼 / Truite grenobloise
-66. 103066 - `truite-aux-amandes` - Truite aux Amandes / 杏仁鳟鱼 / Truite aux amandes
-67. 103067 - `moelleux-au-chocolat` - Moelleux au Chocolat / 法式熔心巧克力蛋糕 / Moelleux au chocolat
+61. 103068 - `oeuf-en-cocotte` - Oeuf en Cocotte / 法式小盅烤蛋 / Oeuf en cocotte
+62. 103069 - `poulet-aux-ecrevisses` - Poulet aux Ecrevisses / 法式小龙虾奶油鸡 / Poulet aux écrevisses
+63. 103070 - `poulet-aux-morilles` - Poulet aux Morilles / 法式羊肚菌奶油鸡 / Poulet aux morilles
+64. 103061 - `ravioles-gratin` - Ravioles Gratin / 法式小馄饨奶酪焗盘 / Gratin de ravioles
+65. 103062 - `onglet-de-boeuf` - Onglet de Boeuf / 法式牛隔膜肉排 / Onglet de boeuf
+66. 103063 - `andouillette` - Andouillette / 法式猪肠香肠 / Andouillette
+67. 103064 - `tete-de-veau` - Tete de Veau / 法式小牛头肉 / Tête de veau
+68. 103065 - `truite-grenobloise` - Truite Grenobloise / 格勒诺布尔风味鳟鱼 / Truite grenobloise
+69. 103066 - `truite-aux-amandes` - Truite aux Amandes / 杏仁鳟鱼 / Truite aux amandes
+70. 103067 - `moelleux-au-chocolat` - Moelleux au Chocolat / 法式熔心巧克力蛋糕 / Moelleux au chocolat
 
 ## German (german) - 60
 
@@ -504,7 +508,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 44. 104011 - `baklava` - Baklava / 果仁蜜酥 / μπακλαβάς
 45. 104012 - `loukoumades` - Loukoumades / 希腊蜂蜜小炸球 / λουκουμάδες
 
-## Indian (indian) - 30
+## Indian (indian) - 31
 
 1. 115001 - `butter-chicken` - Butter Chicken / 黄油鸡 / murgh makhani
 2. 115002 - `chicken-tikka-masala` - Chicken Tikka Masala / 马萨拉烤鸡咖喱 / chicken tikka masala
@@ -536,6 +540,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 28. 115028 - `vada` - Vada / 印度炸豆饼 / medu vada
 29. 115029 - `pakora` - Pakora / 印度炸蔬菜 / pakora
 30. 115030 - `kulfi` - Kulfi / 印度奶香冰淇淋 / kulfi
+31. 115031 - `tandoori-chicken-naan` - Tandoori Chicken Naan / 印度烤鸡烤饼卷 / Tandoori chicken naan
 
 ## Indonesian (indonesian) - 30
 
@@ -570,7 +575,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 117029 - `es-cendol` - Es Cendol / 印尼珍多椰奶冰 / es cendol
 30. 117030 - `sambal-goreng-kentang` - Sambal Goreng Kentang / 印尼参巴辣土豆 / sambal goreng kentang
 
-## Italian (italian) - 60
+## Italian (italian) - 61
 
 1. 101001 - `carbonara` - Carbonara / 卡邦尼意面
 2. 101002 - `margherita-pizza` - Margherita Pizza / 玛格丽特披萨
@@ -632,6 +637,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 58. 101028 - `prosciutto-e-melone` - Prosciutto e Melone / 火腿蜜瓜 / Prosciutto e melone
 59. 101029 - `vitello-tonnato` - Vitello Tonnato / 金枪鱼酱小牛肉 / Vitello tonnato
 60. 101030 - `affogato` - Affogato / 意式冰淇淋咖啡 / Affogato
+61. 101061 - `schiacciata-mortadella-stracciatella` - Schiacciata with Mortadella and Stracciatella / 意式扁面包夹熟火腿和奶酪 / Schiacciata mortadella e stracciatella
 
 ## Japanese (japanese) - 31
 
@@ -766,7 +772,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 29. 121029 - `tres-leches-cake` - Tres Leches Cake / 三奶蛋糕 / tres leches
 30. 121030 - `arroz-con-leche-mexican` - Mexican Arroz con Leche / 墨西哥肉桂米布丁 / arroz con leche
 
-## Middle Eastern (middle-eastern) - 30
+## Middle Eastern (middle-eastern) - 31
 
 1. 120013 - `shakshuka` - Shakshuka / 番茄炖蛋 / shakshuka
 2. 120001 - `hummus` - Hummus / 鹰嘴豆泥 / hummus
@@ -798,6 +804,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 28. 120029 - `umm-ali` - Umm Ali / 埃及奶香面包布丁 / umm ali
 29. 120030 - `basbousa` - Basbousa / 中东粗粒小麦糖浆蛋糕 / basbousa
 30. 120031 - `kunafa` - Kunafa / 库纳法奶酪甜点 / knafeh
+31. 120032 - `blackened-eggplant-tahini` - Blackened Eggplant with Tahini / 中东烤茄子芝麻酱 / Blackened eggplant tahini
 
 ## Moroccan (moroccan) - 30
 
@@ -990,7 +997,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 59. 128029 - `aebleskiver` - Aebleskiver / 丹麦圆球小煎饼 / Æbleskiver
 60. 128030 - `brunost-toast` - Brunost Toast / 挪威棕奶酪吐司 / Brunost toast
 
-## Spanish (spanish) - 62
+## Spanish (spanish) - 64
 
 1. 105031 - `escalivada` - Escalivada / 加泰罗尼亚烤蔬菜 / Escalivada
 2. 105032 - `esqueixada` - Esqueixada / 加泰罗尼亚盐鳕鱼沙拉 / Esqueixada
@@ -1052,8 +1059,10 @@ Generated from data/internal/index.js after the verified database quarantine aud
 58. 105028 - `tarta-de-santiago` - Tarta de Santiago / 圣地亚哥杏仁蛋糕 / Tarta de Santiago
 59. 105029 - `spanish-flan` - Flan / 西班牙焦糖布丁 / Flan
 60. 105030 - `bocadillo-de-calamares` - Bocadillo de Calamares / 炸鱿鱼圈长棍三明治 / Bocadillo de calamares
-61. 105061 - `mojama` - Mojama / 西班牙风干金枪鱼片 / Mojama
-62. 105062 - `pan-de-cristal` - Pan de Cristal / 西班牙水晶面包 / Pan de cristal
+61. 105063 - `aceitunas-rellenas-de-anchoas` - Anchovy-Stuffed Olives / 西班牙鳀鱼夹心橄榄 / Aceitunas rellenas de anchoas
+62. 105064 - `sardinas-en-aceite` - Sardines in Olive Oil / 西班牙橄榄油沙丁鱼 / Sardinas en aceite
+63. 105061 - `mojama` - Mojama / 西班牙风干金枪鱼片 / Mojama
+64. 105062 - `pan-de-cristal` - Pan de Cristal / 西班牙水晶面包 / Pan de cristal
 
 ## Surinamese (surinamese) - 30
 

@@ -4,30 +4,31 @@ Generated: 2026-06-22
 
 ## Executive summary
 
-- Raw dish records reviewed from source files: 1123
-- Current verified export after quarantine: 1101 dishes, 3116 aliases
+- Raw dish records reviewed from source files: 1132
+- Current verified export after quarantine: 1110 dishes, 3160 aliases
 - Generated high-risk dishes quarantined from verified export: 6
-- Verified export rows with automated keep-verified status: 1091
+- Verified export rows with automated keep-verified status: 1100
 - Verified export rows requiring metadata/image follow-up: 10
 
 The audit found systemic template language, low confidence values, repeated compositions, and placeholder localized text in the generated expansion layers. Those layers remain quarantined from `metadata.dishes` and `metadata.dishAliases` except for rows restored through documented review batches of at most 30 dishes.
 
 ## Status counts
 
-- keep-verified: 1091
+- keep-verified: 1100
 - rebuild: 6
 - remove: 26
 
 ## Risk counts
 
 - high: 32
-- low: 1091
+- low: 1100
 
 ## Source counts
 
 - data/internal/dishes/belgian.js: 5
 - data/internal/dishes/cafe-brunch-depth-dishes.js: 18
 - data/internal/dishes/chinese.js: 5
+- data/internal/dishes/compound-menu-miss-dishes.js: 9
 - data/internal/dishes/dutch.js: 5
 - data/internal/dishes/europe-depth-dishes.js: 272
 - data/internal/dishes/expanded-dishes.js: 108
@@ -46,17 +47,17 @@ The audit found systemic template language, low confidence values, repeated comp
 
 - quarantinedOrUnreferencedMainAssets: 22
 - quarantinedOrUnreferencedThumbAssets: 22
-- totalMainAssets: 1123
-- totalThumbAssets: 1123
-- verifiedMainAssetsReferenced: 1101
-- verifiedThumbAssetsReferenced: 1101
+- totalMainAssets: 1132
+- totalThumbAssets: 1132
+- verifiedMainAssetsReferenced: 1110
+- verifiedThumbAssetsReferenced: 1110
 
 Quarantined/unreferenced assets were intentionally left in place. They are not deleted because they may be reused only after semantic image review and metadata rebuild.
 
 ## Alias audit summary
 
-- Raw aliases reviewed: 3217
-- Aliases in verified export: 3116
+- Raw aliases reviewed: 3261
+- Aliases in verified export: 3160
 - Alias rows flagged for review: 12
 
 | alias | dishId | sourceFile | confidence | status | notes |
@@ -1419,6 +1420,15 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | kunafa | 120031 | middle-eastern | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/120031-kunafa.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| schiacciata-mortadella-stracciatella | 101061 | italian | data/internal/dishes/compound-menu-miss-dishes.js | /assets/dishes/main/101061-schiacciata-mortadella-stracciatella.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| oeuf-en-cocotte | 103068 | french | data/internal/dishes/compound-menu-miss-dishes.js | /assets/dishes/main/103068-oeuf-en-cocotte.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| poulet-aux-ecrevisses | 103069 | french | data/internal/dishes/compound-menu-miss-dishes.js | /assets/dishes/main/103069-poulet-aux-ecrevisses.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| poulet-aux-morilles | 103070 | french | data/internal/dishes/compound-menu-miss-dishes.js | /assets/dishes/main/103070-poulet-aux-morilles.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| aceitunas-rellenas-de-anchoas | 105063 | spanish | data/internal/dishes/compound-menu-miss-dishes.js | /assets/dishes/main/105063-aceitunas-rellenas-de-anchoas.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| sardinas-en-aceite | 105064 | spanish | data/internal/dishes/compound-menu-miss-dishes.js | /assets/dishes/main/105064-sardinas-en-aceite.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| tandoori-chicken-naan | 115031 | indian | data/internal/dishes/compound-menu-miss-dishes.js | /assets/dishes/main/115031-tandoori-chicken-naan.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| blackened-eggplant-tahini | 120032 | middle-eastern | data/internal/dishes/compound-menu-miss-dishes.js | /assets/dishes/main/120032-blackened-eggplant-tahini.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| poke-bowl | 122031 | american | data/internal/dishes/compound-menu-miss-dishes.js | /assets/dishes/main/122031-poke-bowl.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | pad-prik-kaeng | 108031 | thai | data/internal/dishes/real-menu-miss-dishes.js | /assets/dishes/main/108031-pad-prik-kaeng.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | pad-pong-karee | 108032 | thai | data/internal/dishes/real-menu-miss-dishes.js | /assets/dishes/main/108032-pad-pong-karee.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | teriyaki-salmon | 109031 | japanese | data/internal/dishes/real-menu-miss-dishes.js | /assets/dishes/main/109031-teriyaki-salmon.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
