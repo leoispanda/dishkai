@@ -1,0 +1,92 @@
+[
+  {
+    "dishId": "waffles",
+    "metadataCode": "100025",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Waffles",
+    "imagePath": "/assets/dishes/main/100025-waffles.webp",
+    "thumbPath": "/assets/dishes/thumb/100025-waffles.webp"
+  },
+  {
+    "dishId": "grilled-salmon",
+    "metadataCode": "100026",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Grilled Salmon",
+    "imagePath": "/assets/dishes/main/100026-grilled-salmon.webp",
+    "thumbPath": "/assets/dishes/thumb/100026-grilled-salmon.webp"
+  },
+  {
+    "dishId": "mixed-grill",
+    "metadataCode": "100027",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Mixed Grill",
+    "imagePath": "/assets/dishes/main/100027-mixed-grill.webp",
+    "thumbPath": "/assets/dishes/thumb/100027-mixed-grill.webp"
+  },
+  {
+    "dishId": "tuna-salad",
+    "metadataCode": "100028",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Tuna Salad",
+    "imagePath": "/assets/dishes/main/100028-tuna-salad.webp",
+    "thumbPath": "/assets/dishes/thumb/100028-tuna-salad.webp"
+  },
+  {
+    "dishId": "chicken-wings",
+    "metadataCode": "100029",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Chicken Wings",
+    "imagePath": "/assets/dishes/main/100029-chicken-wings.webp",
+    "thumbPath": "/assets/dishes/thumb/100029-chicken-wings.webp"
+  },
+  {
+    "dishId": "roast-chicken",
+    "metadataCode": "100030",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Roast Chicken",
+    "imagePath": "/assets/dishes/main/100030-roast-chicken.webp",
+    "thumbPath": "/assets/dishes/thumb/100030-roast-chicken.webp"
+  },
+  {
+    "dishId": "side-salad",
+    "metadataCode": "100031",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Side Salad",
+    "imagePath": "/assets/dishes/main/100031-side-salad.webp",
+    "thumbPath": "/assets/dishes/thumb/100031-side-salad.webp"
+  },
+  {
+    "dishId": "fruit-salad",
+    "metadataCode": "100032",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Fruit Salad",
+    "imagePath": "/assets/dishes/main/100032-fruit-salad.webp",
+    "thumbPath": "/assets/dishes/thumb/100032-fruit-salad.webp"
+  },
+  {
+    "dishId": "cheesecake",
+    "metadataCode": "100033",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Cheesecake",
+    "imagePath": "/assets/dishes/main/100033-cheesecake.webp",
+    "thumbPath": "/assets/dishes/thumb/100033-cheesecake.webp"
+  },
+  {
+    "dishId": "chocolate-cake",
+    "metadataCode": "100034",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Chocolate Cake",
+    "imagePath": "/assets/dishes/main/100034-chocolate-cake.webp",
+    "thumbPath": "/assets/dishes/thumb/100034-chocolate-cake.webp"
+  }
+]

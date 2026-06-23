@@ -4,24 +4,24 @@ Generated: 2026-06-23
 
 ## Executive summary
 
-- Raw dish records reviewed from source files: 1167
-- Current verified export after quarantine: 1145 dishes, 3444 aliases
+- Raw dish records reviewed from source files: 1177
+- Current verified export after quarantine: 1155 dishes, 3531 aliases
 - Generated high-risk dishes quarantined from verified export: 6
-- Verified export rows with automated keep-verified status: 1135
+- Verified export rows with automated keep-verified status: 1145
 - Verified export rows requiring metadata/image follow-up: 10
 
 The audit found systemic template language, low confidence values, repeated compositions, and placeholder localized text in the generated expansion layers. Those layers remain quarantined from `metadata.dishes` and `metadata.dishAliases` except for rows restored through documented review batches of at most 30 dishes.
 
 ## Status counts
 
-- keep-verified: 1135
+- keep-verified: 1145
 - rebuild: 6
 - remove: 26
 
 ## Risk counts
 
 - high: 32
-- low: 1135
+- low: 1145
 
 ## Source counts
 
@@ -33,7 +33,7 @@ The audit found systemic template language, low confidence values, repeated comp
 - data/internal/dishes/europe-depth-dishes.js: 272
 - data/internal/dishes/expanded-dishes.js: 108
 - data/internal/dishes/french.js: 5
-- data/internal/dishes/general.js: 24
+- data/internal/dishes/general.js: 34
 - data/internal/dishes/german.js: 5
 - data/internal/dishes/global-depth-dishes.js: 378
 - data/internal/dishes/greek-depth-dishes.js: 46
@@ -48,24 +48,24 @@ The audit found systemic template language, low confidence values, repeated comp
 
 - quarantinedOrUnreferencedMainAssets: 22
 - quarantinedOrUnreferencedThumbAssets: 22
-- totalMainAssets: 1167
-- totalThumbAssets: 1167
-- verifiedMainAssetsReferenced: 1145
-- verifiedThumbAssetsReferenced: 1145
+- totalMainAssets: 1177
+- totalThumbAssets: 1177
+- verifiedMainAssetsReferenced: 1155
+- verifiedThumbAssetsReferenced: 1155
 
 Quarantined/unreferenced assets were intentionally left in place. They are not deleted because they may be reused only after semantic image review and metadata rebuild.
 
 ## Alias audit summary
 
-- Raw aliases reviewed: 3543
-- Aliases in verified export: 3444
+- Raw aliases reviewed: 3623
+- Aliases in verified export: 3531
 - Alias rows flagged for review: 12
 
 | alias | dishId | sourceFile | confidence | status | notes |
 | --- | --- | --- | --- | --- | --- |
 | hot pot | hot-pot | data/internal/dish-aliases.js | 1 | review | generic alias may overmatch menus; generic alias has high confidence |
-| mixed grill | greek-mixed-grill | data/internal/greek-depth-dish-aliases.js | 0.94 | review | generic alias may overmatch menus; generic alias has high confidence |
 | seafood pasta | seafood-pasta-greek | data/internal/greek-depth-dish-aliases.js | 0.94 | review | generic alias may overmatch menus; generic alias has high confidence |
+| mixed grill | mixed-grill | data/internal/general-dish-aliases.js | 1 | review | generic alias may overmatch menus; generic alias has high confidence |
 | baklava | baklava | data/internal/world-dish-aliases.js | 1 | review | generic alias may overmatch menus; generic alias has high confidence |
 | satay | satay | data/internal/world-dish-aliases.js | 1 | review | generic alias may overmatch menus; generic alias has high confidence |
 | cataplana | cataplana | data/internal/world-dish-aliases.js | 1 | review | alias source is quarantined/untrusted |
@@ -119,6 +119,7 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 - Batch 037: [image overview](data/internal/audit/image-overviews/batch-037.html)
 - Batch 038: [image overview](data/internal/audit/image-overviews/batch-038.html)
 - Batch 039: [image overview](data/internal/audit/image-overviews/batch-039.html)
+- Batch 040: [image overview](data/internal/audit/image-overviews/batch-040.html)
 
 ## Batch audit tables
 
@@ -289,6 +290,21 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | chicken-fillet-mushroom-sauce | 100022 | general | data/internal/dishes/general.js | /assets/dishes/main/100022-chicken-fillet-mushroom-sauce.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | lamb-chops | 100023 | general | data/internal/dishes/general.js | /assets/dishes/main/100023-lamb-chops.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | sole-fillet | 100024 | general | data/internal/dishes/general.js | /assets/dishes/main/100024-sole-fillet.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| waffles | 100025 | general | data/internal/dishes/general.js | /assets/dishes/main/100025-waffles.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| grilled-salmon | 100026 | general | data/internal/dishes/general.js | /assets/dishes/main/100026-grilled-salmon.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| mixed-grill | 100027 | general | data/internal/dishes/general.js | /assets/dishes/main/100027-mixed-grill.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| tuna-salad | 100028 | general | data/internal/dishes/general.js | /assets/dishes/main/100028-tuna-salad.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| chicken-wings | 100029 | general | data/internal/dishes/general.js | /assets/dishes/main/100029-chicken-wings.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| roast-chicken | 100030 | general | data/internal/dishes/general.js | /assets/dishes/main/100030-roast-chicken.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| side-salad | 100031 | general | data/internal/dishes/general.js | /assets/dishes/main/100031-side-salad.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 006
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| fruit-salad | 100032 | general | data/internal/dishes/general.js | /assets/dishes/main/100032-fruit-salad.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| cheesecake | 100033 | general | data/internal/dishes/general.js | /assets/dishes/main/100033-cheesecake.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+| chocolate-cake | 100034 | general | data/internal/dishes/general.js | /assets/dishes/main/100034-chocolate-cake.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | pad-see-ew | 108006 | thai | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/108006-pad-see-ew.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | pad-kra-pao | 108007 | thai | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/108007-pad-kra-pao.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | khao-pad | 108008 | thai | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/108008-khao-pad.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -296,11 +312,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | red-curry | 108010 | thai | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/108010-red-curry.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | panang-curry | 108011 | thai | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/108011-panang-curry.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | yellow-curry | 108012 | thai | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/108012-yellow-curry.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 006
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | larb | 108013 | thai | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/108013-larb.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | thai-satay | 108014 | thai | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/108014-thai-satay.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | mango-sticky-rice | 108015 | thai | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/108015-mango-sticky-rice.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -321,6 +332,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | japchae | 110006 | korean | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/110006-japchae.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | samgyeopsal | 110007 | korean | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/110007-samgyeopsal.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | galbi | 110008 | korean | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/110008-galbi.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 007
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | kimchi-fried-rice | 110009 | korean | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/110009-kimchi-fried-rice.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | sundubu-jjigae | 110010 | korean | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/110010-sundubu-jjigae.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | doenjang-jjigae | 110011 | korean | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/110011-doenjang-jjigae.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -331,11 +347,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | haemul-pajeon | 110016 | korean | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/110016-haemul-pajeon.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | kimbap | 110017 | korean | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/110017-kimbap.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | kung-pao-chicken | 111006 | chinese | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/111006-kung-pao-chicken.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 007
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | sweet-and-sour-pork | 111007 | chinese | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/111007-sweet-and-sour-pork.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | dan-dan-noodles | 111008 | chinese | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/111008-dan-dan-noodles.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | wonton-soup | 111009 | chinese | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/111009-wonton-soup.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -356,6 +367,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | calamari-fritti | 101022 | italian | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/101022-calamari-fritti.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | carpaccio | 101023 | italian | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/101023-carpaccio.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | polenta | 101024 | italian | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/101024-polenta.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 008
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | saltimbocca | 101025 | italian | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/101025-saltimbocca.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | cannoli | 101026 | italian | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/101026-cannoli.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | gelato | 101027 | italian | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/101027-gelato.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -366,11 +382,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | salade-nicoise | 103010 | french | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/103010-salade-nicoise.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | croque-monsieur | 103011 | french | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/103011-croque-monsieur.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | cassoulet | 103012 | french | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/103012-cassoulet.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 008
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | steak-tartare | 103013 | french | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/103013-steak-tartare.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | bouillabaisse | 103014 | french | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/103014-bouillabaisse.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | sole-meuniere | 103015 | french | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/103015-sole-meuniere.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -391,6 +402,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | kroket | 102006 | dutch | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/102006-kroket.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | patat | 102007 | dutch | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/102007-patat.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | kapsalon | 102008 | dutch | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/102008-kapsalon.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 009
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | pannenkoeken | 102009 | dutch | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/102009-pannenkoeken.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | uitsmijter | 102010 | dutch | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/102010-uitsmijter.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | appeltaart | 102011 | dutch | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/102011-appeltaart.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -401,11 +417,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | rijsttafel | 102016 | dutch | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/102016-rijsttafel.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | hachee | 102017 | dutch | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/102017-hachee.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | vol-au-vent | 107006 | belgian | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/107006-vol-au-vent.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 009
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | shrimp-croquettes | 107007 | belgian | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/107007-shrimp-croquettes.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | stoemp | 107008 | belgian | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/107008-stoemp.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | tomate-crevette | 107009 | belgian | data/internal/dishes/expanded-dishes.js | /assets/dishes/main/107009-tomate-crevette.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -426,6 +437,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | ribollita | 101037 | italian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/101037-ribollita.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | pappa-al-pomodoro | 101038 | italian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/101038-pappa-al-pomodoro.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | panzanella | 101039 | italian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/101039-panzanella.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 010
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | insalata-di-mare | 101040 | italian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/101040-insalata-di-mare.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | fritto-misto | 101041 | italian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/101041-fritto-misto.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | baccala-mantecato | 101042 | italian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/101042-baccala-mantecato.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -436,11 +452,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | trippa-alla-romana | 101047 | italian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/101047-trippa-alla-romana.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | suppli | 101048 | italian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/101048-suppli.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | panzerotti | 101049 | italian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/101049-panzerotti.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 010
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | piadina | 101050 | italian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/101050-piadina.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | pinsa-romana | 101051 | italian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/101051-pinsa-romana.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | calzone | 101052 | italian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/101052-calzone.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -461,6 +472,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | rookworst | 102038 | dutch | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/102038-rookworst.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | lekkerbekje | 102039 | dutch | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/102039-lekkerbekje.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | mosselen-naturel | 102040 | dutch | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/102040-mosselen-naturel.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 011
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | asperges-met-ham-en-ei | 102041 | dutch | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/102041-asperges-met-ham-en-ei.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | broodje-bal | 102042 | dutch | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/102042-broodje-bal.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | broodje-haring | 102043 | dutch | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/102043-broodje-haring.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -471,11 +487,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | zalmsalade | 102048 | dutch | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/102048-zalmsalade.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | eierbal | 102049 | dutch | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/102049-eierbal.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | saucijzenbroodje | 102050 | dutch | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/102050-saucijzenbroodje.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 011
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | kaassouffle | 102051 | dutch | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/102051-kaassouffle.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | appelflap | 102052 | dutch | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/102052-appelflap.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | tompouce | 102053 | dutch | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/102053-tompouce.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -496,6 +507,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | raclette | 103037 | french | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/103037-raclette.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | fondue-savoyarde | 103038 | french | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/103038-fondue-savoyarde.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | tartare-de-saumon | 103039 | french | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/103039-tartare-de-saumon.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 012
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | magret-de-canard | 103040 | french | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/103040-magret-de-canard.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | entrecote-bordelaise | 103041 | french | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/103041-entrecote-bordelaise.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | poulet-basquaise | 103042 | french | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/103042-poulet-basquaise.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -506,11 +522,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | pate-de-campagne | 103047 | french | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/103047-pate-de-campagne.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | rillettes | 103048 | french | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/103048-rillettes.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | terrine | 103049 | french | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/103049-terrine.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 012
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | plateau-de-fromages | 103050 | french | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/103050-plateau-de-fromages.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | charcuterie-board-french | 103051 | french | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/103051-charcuterie-board-french.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | ile-flottante | 103052 | french | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/103052-ile-flottante.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -531,6 +542,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | migas | 105035 | spanish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/105035-migas.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | callos-a-la-madrilena | 105036 | spanish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/105036-callos-a-la-madrilena.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | sepia-a-la-plancha | 105037 | spanish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/105037-sepia-a-la-plancha.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 013
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | navajas-a-la-plancha | 105038 | spanish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/105038-navajas-a-la-plancha.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | zamburinas | 105039 | spanish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/105039-zamburinas.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | marmitako | 105040 | spanish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/105040-marmitako.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -541,11 +557,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | calcots | 105045 | spanish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/105045-calcots.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | butifarra | 105046 | spanish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/105046-butifarra.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | sobrasada | 105047 | spanish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/105047-sobrasada.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 013
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | coca-de-recapte | 105048 | spanish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/105048-coca-de-recapte.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | empanada-gallega | 105049 | spanish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/105049-empanada-gallega.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | lacon-con-grelos | 105050 | spanish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/105050-lacon-con-grelos.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -566,6 +577,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | kartoffelknoedel | 106035 | german | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/106035-kartoffelknoedel.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | schweinebraten | 106036 | german | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/106036-schweinebraten.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | kasseler | 106037 | german | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/106037-kasseler.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 014
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | erbsensuppe | 106038 | german | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/106038-erbsensuppe.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | linseneintopf | 106039 | german | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/106039-linseneintopf.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | gruenkohl-mit-pinkel | 106040 | german | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/106040-gruenkohl-mit-pinkel.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -576,11 +592,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | zwiebelrostbraten | 106045 | german | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/106045-zwiebelrostbraten.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | jaegerschnitzel | 106046 | german | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/106046-jaegerschnitzel.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | rahmschnitzel | 106047 | german | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/106047-rahmschnitzel.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 014
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | wurstsalat | 106048 | german | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/106048-wurstsalat.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | obatzda | 106049 | german | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/106049-obatzda.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | leberknoedelsuppe | 106050 | german | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/106050-leberknoedelsuppe.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -601,6 +612,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | boudin-blanc | 107035 | belgian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/107035-boudin-blanc.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | boudin-noir | 107036 | belgian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/107036-boudin-noir.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | americain-prepare | 107037 | belgian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/107037-americain-prepare.webp | high | rebuild | source layer is quarantined/untrusted; metadataConfidence 0.72 below 0.78; template-dishkai-explainer; template-common-menu-item; template-coverage-fill; template-order-verdict; template-europe-depth; Chinese localized field contains English placeholder words | quarantine from verified export; rebuild in <=30 dish batch |
+
+### Batch 015
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | belgian-spaghetti-bolognese | 107038 | belgian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/107038-belgian-spaghetti-bolognese.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | crevettes-grises-cocktail | 107039 | belgian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/107039-crevettes-grises-cocktail.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | cod-with-leeks | 107040 | belgian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/107040-cod-with-leeks.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -611,11 +627,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | konijn-met-pruimen | 107045 | belgian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/107045-konijn-met-pruimen.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | vlaamse-stoofkarbonaden | 107046 | belgian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/107046-vlaamse-stoofkarbonaden.webp | high | rebuild | source layer is quarantined/untrusted; metadataConfidence 0.72 below 0.78; template-dishkai-explainer; template-common-menu-item; template-coverage-fill; template-order-verdict; template-europe-depth; Chinese localized field contains English placeholder words | quarantine from verified export; rebuild in <=30 dish batch |
 | mattentaart | 107047 | belgian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/107047-mattentaart.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 015
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | lacquemants | 107048 | belgian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/107048-lacquemants.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | cuberdon | 107049 | belgian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/107049-cuberdon.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | merveilleux | 107050 | belgian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/107050-merveilleux.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -636,6 +647,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | bacon-butty | 123035 | british-irish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/123035-bacon-butty.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | chip-butty | 123036 | british-irish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/123036-chip-butty.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | jellied-eels | 123037 | british-irish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/123037-jellied-eels.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 016
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | pie-and-mash | 123038 | british-irish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/123038-pie-and-mash.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | welsh-cawl | 123039 | british-irish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/123039-welsh-cawl.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | lancashire-hotpot | 123040 | british-irish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/123040-lancashire-hotpot.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -646,11 +662,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | irish-breakfast | 123045 | british-irish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/123045-irish-breakfast.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | kippers | 123046 | british-irish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/123046-kippers.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | kedgeree | 123047 | british-irish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/123047-kedgeree.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 016
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | coronation-chicken | 123048 | british-irish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/123048-coronation-chicken.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | gammon-steak | 123049 | british-irish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/123049-gammon-steak.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | cauliflower-cheese | 123050 | british-irish | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/123050-cauliflower-cheese.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -671,6 +682,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | polvo-guisado | 125035 | portuguese | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/125035-polvo-guisado.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | carne-de-porco-a-alentejana | 125036 | portuguese | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/125036-carne-de-porco-a-alentejana.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | rojoes | 125037 | portuguese | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/125037-rojoes.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 017
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | febras | 125038 | portuguese | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/125038-febras.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | entrecosto | 125039 | portuguese | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/125039-entrecosto.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | bifinhos-com-cogumelos | 125040 | portuguese | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/125040-bifinhos-com-cogumelos.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -681,11 +697,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | cabrito-assado | 125045 | portuguese | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/125045-cabrito-assado.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | arroz-de-tamboril | 125046 | portuguese | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/125046-arroz-de-tamboril.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | lulas-recheadas | 125047 | portuguese | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/125047-lulas-recheadas.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 017
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | chocos-fritos | 125048 | portuguese | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/125048-chocos-fritos.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | caldeirada | 125049 | portuguese | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/125049-caldeirada.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | queijo-da-serra | 125050 | portuguese | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/125050-queijo-da-serra.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -706,6 +717,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | stegt-flaesk | 128035 | scandinavian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/128035-stegt-flaesk.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | medisterpolse | 128036 | scandinavian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/128036-medisterpolse.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | biksemad | 128037 | scandinavian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/128037-biksemad.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 018
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | rugbrod | 128038 | scandinavian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/128038-rugbrod.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | rommegrot | 128039 | scandinavian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/128039-rommegrot.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | raspeballer | 128040 | scandinavian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/128040-raspeballer.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -716,11 +732,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | smalahove | 128045 | scandinavian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/128045-smalahove.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | blabarsoppa | 128046 | scandinavian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/128046-blabarsoppa.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | kladdkaka | 128047 | scandinavian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/128047-kladdkaka.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 018
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | kanelsnegle | 128048 | scandinavian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/128048-kanelsnegle.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | wienerbrod | 128049 | scandinavian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/128049-wienerbrod.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | kransekake | 128050 | scandinavian | data/internal/dishes/europe-depth-dishes.js | /assets/dishes/main/128050-kransekake.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -741,6 +752,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | spanakopita | 104005 | greek | data/internal/dishes/world-dishes.js | /assets/dishes/main/104005-spanakopita.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | tzatziki | 104006 | greek | data/internal/dishes/world-dishes.js | /assets/dishes/main/104006-tzatziki.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | dolmades | 104007 | greek | data/internal/dishes/world-dishes.js | /assets/dishes/main/104007-dolmades.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 019
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | pastitsio | 104008 | greek | data/internal/dishes/world-dishes.js | /assets/dishes/main/104008-pastitsio.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | kleftiko | 104009 | greek | data/internal/dishes/world-dishes.js | /assets/dishes/main/104009-kleftiko.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | saganaki | 104010 | greek | data/internal/dishes/world-dishes.js | /assets/dishes/main/104010-saganaki.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -751,11 +767,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | patatas-bravas | 105003 | spanish | data/internal/dishes/world-dishes.js | /assets/dishes/main/105003-patatas-bravas.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | croquetas | 105004 | spanish | data/internal/dishes/world-dishes.js | /assets/dishes/main/105004-croquetas.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | jamon-iberico | 105005 | spanish | data/internal/dishes/world-dishes.js | /assets/dishes/main/105005-jamon-iberico.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 019
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | gambas-al-ajillo | 105006 | spanish | data/internal/dishes/world-dishes.js | /assets/dishes/main/105006-gambas-al-ajillo.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | gazpacho | 105007 | spanish | data/internal/dishes/world-dishes.js | /assets/dishes/main/105007-gazpacho.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | pulpo-a-la-gallega | 105008 | spanish | data/internal/dishes/world-dishes.js | /assets/dishes/main/105008-pulpo-a-la-gallega.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -776,6 +787,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | pollo-al-ajillo | 105023 | spanish | data/internal/dishes/world-dishes.js | /assets/dishes/main/105023-pollo-al-ajillo.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | rabo-de-toro | 105024 | spanish | data/internal/dishes/world-dishes.js | /assets/dishes/main/105024-rabo-de-toro.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | carrillada | 105025 | spanish | data/internal/dishes/world-dishes.js | /assets/dishes/main/105025-carrillada.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 020
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | cocido-madrileno | 105026 | spanish | data/internal/dishes/world-dishes.js | /assets/dishes/main/105026-cocido-madrileno.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | huevos-rotos | 105027 | spanish | data/internal/dishes/world-dishes.js | /assets/dishes/main/105027-huevos-rotos.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | tarta-de-santiago | 105028 | spanish | data/internal/dishes/world-dishes.js | /assets/dishes/main/105028-tarta-de-santiago.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -786,11 +802,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | biryani | 115003 | indian | data/internal/dishes/world-dishes.js | /assets/dishes/main/115003-biryani.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | palak-paneer | 115004 | indian | data/internal/dishes/world-dishes.js | /assets/dishes/main/115004-palak-paneer.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | dal-makhani | 115005 | indian | data/internal/dishes/world-dishes.js | /assets/dishes/main/115005-dal-makhani.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 020
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | chana-masala | 115006 | indian | data/internal/dishes/world-dishes.js | /assets/dishes/main/115006-chana-masala.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | samosa | 115007 | indian | data/internal/dishes/world-dishes.js | /assets/dishes/main/115007-samosa.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | naan | 115008 | indian | data/internal/dishes/world-dishes.js | /assets/dishes/main/115008-naan.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -811,6 +822,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | bo-luc-lac | 116011 | vietnamese | data/internal/dishes/world-dishes.js | /assets/dishes/main/116011-bo-luc-lac.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | che | 116012 | vietnamese | data/internal/dishes/world-dishes.js | /assets/dishes/main/116012-che.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | nasi-goreng | 117001 | indonesian | data/internal/dishes/world-dishes.js | /assets/dishes/main/117001-nasi-goreng.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 021
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | mie-goreng | 117002 | indonesian | data/internal/dishes/world-dishes.js | /assets/dishes/main/117002-mie-goreng.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | rendang | 117003 | indonesian | data/internal/dishes/world-dishes.js | /assets/dishes/main/117003-rendang.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | gado-gado | 117004 | indonesian | data/internal/dishes/world-dishes.js | /assets/dishes/main/117004-gado-gado.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -821,11 +837,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | ayam-penyet | 117009 | indonesian | data/internal/dishes/world-dishes.js | /assets/dishes/main/117009-ayam-penyet.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | tempeh | 117010 | indonesian | data/internal/dishes/world-dishes.js | /assets/dishes/main/117010-tempeh.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | ikan-bakar | 117011 | indonesian | data/internal/dishes/world-dishes.js | /assets/dishes/main/117011-ikan-bakar.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 021
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | pisang-goreng | 117012 | indonesian | data/internal/dishes/world-dishes.js | /assets/dishes/main/117012-pisang-goreng.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | laksa | 118001 | malaysian-singaporean | data/internal/dishes/world-dishes.js | /assets/dishes/main/118001-laksa.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | hainanese-chicken-rice | 118002 | malaysian-singaporean | data/internal/dishes/world-dishes.js | /assets/dishes/main/118002-hainanese-chicken-rice.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -846,6 +857,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | menemen | 119005 | turkish | data/internal/dishes/world-dishes.js | /assets/dishes/main/119005-menemen.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | manti | 119006 | turkish | data/internal/dishes/world-dishes.js | /assets/dishes/main/119006-manti.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | imam-bayildi | 119007 | turkish | data/internal/dishes/world-dishes.js | /assets/dishes/main/119007-imam-bayildi.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 022
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | mercimek-corbasi | 119008 | turkish | data/internal/dishes/world-dishes.js | /assets/dishes/main/119008-mercimek-corbasi.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | borek | 119009 | turkish | data/internal/dishes/world-dishes.js | /assets/dishes/main/119009-borek.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | kofte | 119010 | turkish | data/internal/dishes/world-dishes.js | /assets/dishes/main/119010-kofte.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -856,11 +872,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | shawarma | 120003 | middle-eastern | data/internal/dishes/world-dishes.js | /assets/dishes/main/120003-shawarma.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | tabbouleh | 120004 | middle-eastern | data/internal/dishes/world-dishes.js | /assets/dishes/main/120004-tabbouleh.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | fattoush | 120005 | middle-eastern | data/internal/dishes/world-dishes.js | /assets/dishes/main/120005-fattoush.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 022
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | baba-ganoush | 120006 | middle-eastern | data/internal/dishes/world-dishes.js | /assets/dishes/main/120006-baba-ganoush.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | kibbeh | 120007 | middle-eastern | data/internal/dishes/world-dishes.js | /assets/dishes/main/120007-kibbeh.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | kofta | 120008 | middle-eastern | data/internal/dishes/world-dishes.js | /assets/dishes/main/120008-kofta.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -881,6 +892,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | ceviche-mexican | 121011 | mexican | data/internal/dishes/world-dishes.js | /assets/dishes/main/121011-ceviche-mexican.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | flan | 121012 | mexican | data/internal/dishes/world-dishes.js | /assets/dishes/main/121012-flan.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | burger | 122001 | american | data/internal/dishes/world-dishes.js | /assets/dishes/main/122001-burger.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 023
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | bbq-ribs | 122002 | american | data/internal/dishes/world-dishes.js | /assets/dishes/main/122002-bbq-ribs.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | mac-and-cheese | 122003 | american | data/internal/dishes/world-dishes.js | /assets/dishes/main/122003-mac-and-cheese.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | fried-chicken-american | 122004 | american | data/internal/dishes/world-dishes.js | /assets/dishes/main/122004-fried-chicken-american.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -891,11 +907,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | hot-dog | 122009 | american | data/internal/dishes/world-dishes.js | /assets/dishes/main/122009-hot-dog.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | apple-pie | 122010 | american | data/internal/dishes/world-dishes.js | /assets/dishes/main/122010-apple-pie.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | cobb-salad | 122011 | american | data/internal/dishes/world-dishes.js | /assets/dishes/main/122011-cobb-salad.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 023
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | lobster-roll | 122012 | american | data/internal/dishes/world-dishes.js | /assets/dishes/main/122012-lobster-roll.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | fish-and-chips | 123001 | british-irish | data/internal/dishes/world-dishes.js | /assets/dishes/main/123001-fish-and-chips.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | shepherds-pie | 123002 | british-irish | data/internal/dishes/world-dishes.js | /assets/dishes/main/123002-shepherds-pie.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -916,6 +927,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | pastilla | 124005 | moroccan | data/internal/dishes/world-dishes.js | /assets/dishes/main/124005-pastilla.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | zaalouk | 124006 | moroccan | data/internal/dishes/world-dishes.js | /assets/dishes/main/124006-zaalouk.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | kefta-tagine | 124007 | moroccan | data/internal/dishes/world-dishes.js | /assets/dishes/main/124007-kefta-tagine.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 024
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | moroccan-briouat | 124008 | moroccan | data/internal/dishes/world-dishes.js | /assets/dishes/main/124008-moroccan-briouat.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | mechoui | 124009 | moroccan | data/internal/dishes/world-dishes.js | /assets/dishes/main/124009-mechoui.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | moroccan-salad | 124010 | moroccan | data/internal/dishes/world-dishes.js | /assets/dishes/main/124010-moroccan-salad.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -926,11 +942,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | francesinha | 125003 | portuguese | data/internal/dishes/world-dishes.js | /assets/dishes/main/125003-francesinha.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | caldo-verde | 125004 | portuguese | data/internal/dishes/world-dishes.js | /assets/dishes/main/125004-caldo-verde.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | piri-piri-chicken | 125005 | portuguese | data/internal/dishes/world-dishes.js | /assets/dishes/main/125005-piri-piri-chicken.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 024
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ameijoas-a-bulhao-pato | 125006 | portuguese | data/internal/dishes/world-dishes.js | /assets/dishes/main/125006-ameijoas-a-bulhao-pato.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | arroz-de-marisco | 125007 | portuguese | data/internal/dishes/world-dishes.js | /assets/dishes/main/125007-arroz-de-marisco.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | bitoque | 125008 | portuguese | data/internal/dishes/world-dishes.js | /assets/dishes/main/125008-bitoque.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -951,6 +962,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | peanut-soup-surinamese | 126011 | surinamese | data/internal/dishes/world-dishes.js | /assets/dishes/main/126011-peanut-soup-surinamese.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | bojo | 126012 | surinamese | data/internal/dishes/world-dishes.js | /assets/dishes/main/126012-bojo.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | doro-wat | 127001 | ethiopian | data/internal/dishes/world-dishes.js | /assets/dishes/main/127001-doro-wat.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 025
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | tibs | 127002 | ethiopian | data/internal/dishes/world-dishes.js | /assets/dishes/main/127002-tibs.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | injera-platter | 127003 | ethiopian | data/internal/dishes/world-dishes.js | /assets/dishes/main/127003-injera-platter.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | shiro | 127004 | ethiopian | data/internal/dishes/world-dishes.js | /assets/dishes/main/127004-shiro.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -961,11 +977,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | bayenetu | 127009 | ethiopian | data/internal/dishes/world-dishes.js | /assets/dishes/main/127009-bayenetu.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | asa-tibs | 127010 | ethiopian | data/internal/dishes/world-dishes.js | /assets/dishes/main/127010-asa-tibs.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | sambusa | 127011 | ethiopian | data/internal/dishes/world-dishes.js | /assets/dishes/main/127011-sambusa.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 025
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ethiopian-coffee-snacks | 127012 | ethiopian | data/internal/dishes/world-dishes.js | /assets/dishes/main/127012-ethiopian-coffee-snacks.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | gravlax | 128001 | scandinavian | data/internal/dishes/world-dishes.js | /assets/dishes/main/128001-gravlax.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | swedish-meatballs | 128002 | scandinavian | data/internal/dishes/world-dishes.js | /assets/dishes/main/128002-swedish-meatballs.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -986,6 +997,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | anticuchos | 129005 | peruvian | data/internal/dishes/world-dishes.js | /assets/dishes/main/129005-anticuchos.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | papa-a-la-huancaina | 129006 | peruvian | data/internal/dishes/world-dishes.js | /assets/dishes/main/129006-papa-a-la-huancaina.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | arroz-chaufa | 129007 | peruvian | data/internal/dishes/world-dishes.js | /assets/dishes/main/129007-arroz-chaufa.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 026
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | pollo-a-la-brasa | 129008 | peruvian | data/internal/dishes/world-dishes.js | /assets/dishes/main/129008-pollo-a-la-brasa.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | rocoto-relleno | 129009 | peruvian | data/internal/dishes/world-dishes.js | /assets/dishes/main/129009-rocoto-relleno.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | tiradito | 129010 | peruvian | data/internal/dishes/world-dishes.js | /assets/dishes/main/129010-tiradito.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -996,11 +1012,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | coxinha | 130003 | brazilian | data/internal/dishes/world-dishes.js | /assets/dishes/main/130003-coxinha.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | moqueca | 130004 | brazilian | data/internal/dishes/world-dishes.js | /assets/dishes/main/130004-moqueca.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | churrasco | 130005 | brazilian | data/internal/dishes/world-dishes.js | /assets/dishes/main/130005-churrasco.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 026
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | acaraje | 130006 | brazilian | data/internal/dishes/world-dishes.js | /assets/dishes/main/130006-acaraje.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | farofa | 130007 | brazilian | data/internal/dishes/world-dishes.js | /assets/dishes/main/130007-farofa.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | brigadeiro | 130008 | brazilian | data/internal/dishes/world-dishes.js | /assets/dishes/main/130008-brigadeiro.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1021,6 +1032,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | paris-brest | 103030 | french | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/103030-paris-brest.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | goulash-german | 106018 | german | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/106018-goulash-german.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | eisbein | 106019 | german | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/106019-eisbein.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 027
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | kartoffelpuffer | 106020 | german | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/106020-kartoffelpuffer.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | sauerkraut | 106021 | german | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/106021-sauerkraut.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | red-cabbage-german | 106022 | german | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/106022-red-cabbage-german.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1031,11 +1047,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | kaiserschmarrn | 106027 | german | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/106027-kaiserschmarrn.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | lebkuchen | 106028 | german | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/106028-lebkuchen.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | rinderroulade | 106029 | german | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/106029-rinderroulade.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 027
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | kartoffelsuppe | 106030 | german | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/106030-kartoffelsuppe.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | hutspot | 102021 | dutch | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/102021-hutspot.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | zuurkoolstamppot | 102022 | dutch | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/102022-zuurkoolstamppot.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1056,6 +1067,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | bloedworst | 107023 | belgian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/107023-bloedworst.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | jambon-dardenne | 107024 | belgian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/107024-jambon-dardenne.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | boulets-sauce-tomate | 107025 | belgian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/107025-boulets-sauce-tomate.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 028
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | crepe-mikado | 107026 | belgian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/107026-crepe-mikado.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | rijsttaart | 107027 | belgian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/107027-rijsttaart.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | sirop-de-liege-dessert | 107028 | belgian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/107028-sirop-de-liege-dessert.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1066,11 +1082,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | yum-woon-sen | 108020 | thai | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/108020-yum-woon-sen.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | moo-ping | 108021 | thai | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/108021-moo-ping.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | gai-yang | 108022 | thai | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/108022-gai-yang.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 028
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | khao-man-gai | 108023 | thai | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/108023-khao-man-gai.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | boat-noodles | 108024 | thai | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/108024-boat-noodles.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | rad-na | 108025 | thai | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/108025-rad-na.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1091,6 +1102,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | chawanmushi | 109027 | japanese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/109027-chawanmushi.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | tamago-yaki | 109028 | japanese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/109028-tamago-yaki.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | matcha-ice-cream | 109029 | japanese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/109029-matcha-ice-cream.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 029
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | dorayaki | 109030 | japanese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/109030-dorayaki.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | dak-galbi | 110018 | korean | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/110018-dak-galbi.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | galbitang | 110019 | korean | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/110019-galbitang.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1101,11 +1117,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | bibim-naengmyeon | 110024 | korean | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/110024-bibim-naengmyeon.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | dakgangjeong | 110025 | korean | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/110025-dakgangjeong.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | godeungeo-gui | 110026 | korean | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/110026-godeungeo-gui.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 029
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ojingeo-bokkeum | 110027 | korean | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/110027-ojingeo-bokkeum.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | gyeran-jjim | 110028 | korean | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/110028-gyeran-jjim.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | hotteok | 110029 | korean | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/110029-hotteok.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1126,6 +1137,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | toad-in-the-hole | 123014 | british-irish | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/123014-toad-in-the-hole.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | yorkshire-pudding | 123015 | british-irish | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/123015-yorkshire-pudding.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | sunday-roast | 123016 | british-irish | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/123016-sunday-roast.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 030
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | roast-beef | 123017 | british-irish | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/123017-roast-beef.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | chicken-tikka-masala-british | 123018 | british-irish | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/123018-chicken-tikka-masala-british.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | welsh-rarebit | 123019 | british-irish | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/123019-welsh-rarebit.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1136,11 +1152,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | cullen-skink | 123024 | british-irish | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/123024-cullen-skink.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | haggis | 123025 | british-irish | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/123025-haggis.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | black-pudding | 123026 | british-irish | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/123026-black-pudding.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 030
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | trifle | 123027 | british-irish | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/123027-trifle.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | eton-mess | 123028 | british-irish | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/123028-eton-mess.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | bread-and-butter-pudding | 123029 | british-irish | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/123029-bread-and-butter-pudding.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1161,6 +1172,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | batata-harra | 120027 | middle-eastern | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/120027-batata-harra.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | muhammara | 120028 | middle-eastern | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/120028-muhammara.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | umm-ali | 120029 | middle-eastern | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/120029-umm-ali.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 031
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | basbousa | 120030 | middle-eastern | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/120030-basbousa.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | meatloaf | 122021 | american | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/122021-meatloaf.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | pulled-pork-sandwich | 122022 | american | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/122022-pulled-pork-sandwich.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1171,11 +1187,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | gumbo | 122027 | american | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/122027-gumbo.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | key-lime-pie | 122028 | american | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/122028-key-lime-pie.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | brownie | 122029 | american | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/122029-brownie.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 031
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | cheesecake-american | 122030 | american | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/122030-cheesecake-american.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | picanha | 130014 | brazilian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/130014-picanha.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | escondidinho | 130015 | brazilian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/130015-escondidinho.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1196,6 +1207,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | tapioca-pudding-brazilian | 130030 | brazilian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/130030-tapioca-pudding-brazilian.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | paneer-tikka | 115013 | indian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/115013-paneer-tikka.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | aloo-gobi | 115014 | indian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/115014-aloo-gobi.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 032
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | saag-paneer | 115015 | indian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/115015-saag-paneer.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | malai-kofta | 115016 | indian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/115016-malai-kofta.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | rajma | 115017 | indian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/115017-rajma.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1206,11 +1222,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | bhuna | 115022 | indian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/115022-bhuna.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | dhansak | 115023 | indian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/115023-dhansak.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | prawn-curry-indian | 115024 | indian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/115024-prawn-curry-indian.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 032
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | fish-curry-indian | 115025 | indian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/115025-fish-curry-indian.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | dosa | 115026 | indian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/115026-dosa.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | idli | 115027 | indian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/115027-idli.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1231,6 +1242,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | canh-chua | 116024 | vietnamese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/116024-canh-chua.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | goi-ga | 116025 | vietnamese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/116025-goi-ga.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | nom-hoa-chuoi | 116026 | vietnamese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/116026-nom-hoa-chuoi.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 033
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | cha-ca-la-vong | 116027 | vietnamese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/116027-cha-ca-la-vong.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | xoi-man | 116028 | vietnamese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/116028-xoi-man.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | banh-flan-vietnamese | 116029 | vietnamese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/116029-banh-flan-vietnamese.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1241,11 +1257,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | opor-ayam | 117016 | indonesian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/117016-opor-ayam.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | rawon | 117017 | indonesian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/117017-rawon.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | sayur-lodeh | 117018 | indonesian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/117018-sayur-lodeh.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 033
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | pecel | 117019 | indonesian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/117019-pecel.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | ketoprak | 117020 | indonesian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/117020-ketoprak.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | lontong-sayur | 117021 | indonesian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/117021-lontong-sayur.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1266,6 +1277,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | mee-pok | 118018 | malaysian-singaporean | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/118018-mee-pok.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | wantan-mee | 118019 | malaysian-singaporean | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/118019-wantan-mee.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | fish-head-curry | 118020 | malaysian-singaporean | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/118020-fish-head-curry.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 034
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | beef-rendang-malaysian | 118021 | malaysian-singaporean | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/118021-beef-rendang-malaysian.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | ayam-masak-merah | 118022 | malaysian-singaporean | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/118022-ayam-masak-merah.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | otak-otak | 118023 | malaysian-singaporean | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/118023-otak-otak.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1276,11 +1292,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | ondeh-ondeh | 118028 | malaysian-singaporean | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/118028-ondeh-ondeh.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | kuih-lapis | 118029 | malaysian-singaporean | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/118029-kuih-lapis.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | pulut-hitam | 118030 | malaysian-singaporean | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/118030-pulut-hitam.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 034
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | iskender-kebab | 119013 | turkish | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/119013-iskender-kebab.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | beyti-kebab | 119014 | turkish | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/119014-beyti-kebab.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | shish-kebab-turkish | 119015 | turkish | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/119015-shish-kebab-turkish.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1301,6 +1312,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | sutlac | 119030 | turkish | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/119030-sutlac.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | fajitas | 121013 | mexican | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/121013-fajitas.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | tostadas | 121014 | mexican | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/121014-tostadas.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 035
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | sopes | 121015 | mexican | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/121015-sopes.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | gorditas | 121016 | mexican | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/121016-gorditas.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | elote | 121017 | mexican | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/121017-elote.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1311,11 +1327,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | birria-tacos | 121022 | mexican | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/121022-birria-tacos.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | barbacoa | 121023 | mexican | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/121023-barbacoa.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | carnitas | 121024 | mexican | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/121024-carnitas.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 035
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | al-pastor | 121025 | mexican | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/121025-al-pastor.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | cochinita-pibil | 121026 | mexican | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/121026-cochinita-pibil.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | sopa-de-lima | 121027 | mexican | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/121027-sopa-de-lima.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1336,6 +1347,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | sardines-chermoula | 124024 | moroccan | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/124024-sardines-chermoula.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | fish-tagine | 124025 | moroccan | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/124025-fish-tagine.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | chicken-bastilla | 124026 | moroccan | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/124026-chicken-bastilla.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 036
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | almond-briouat | 124027 | moroccan | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/124027-almond-briouat.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | chebakia | 124028 | moroccan | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/124028-chebakia.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | mhancha | 124029 | moroccan | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/124029-mhancha.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1346,11 +1362,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | sardinhas-assadas | 125016 | portuguese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/125016-sardinhas-assadas.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | dourada-grelhada | 125017 | portuguese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/125017-dourada-grelhada.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | cataplana-de-marisco | 125018 | portuguese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/125018-cataplana-de-marisco.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 036
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | feijoada-portuguesa | 125019 | portuguese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/125019-feijoada-portuguesa.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | cozido-a-portuguesa | 125020 | portuguese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/125020-cozido-a-portuguesa.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | leitao-assado | 125021 | portuguese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/125021-leitao-assado.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1371,6 +1382,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | pepre-watra | 126018 | surinamese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/126018-pepre-watra.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | goedangan | 126019 | surinamese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/126019-goedangan.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | pitjel | 126020 | surinamese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/126020-pitjel.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 037
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | bakabana | 126021 | surinamese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/126021-bakabana.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | dawet | 126022 | surinamese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/126022-dawet.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | fiadoe | 126023 | surinamese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/126023-fiadoe.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1381,11 +1397,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | pom-sandwich | 126028 | surinamese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/126028-pom-sandwich.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | roti-kip-kerrie | 126029 | surinamese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/126029-roti-kip-kerrie.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | nasi-moksi-meti | 126030 | surinamese | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/126030-nasi-moksi-meti.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 037
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | key-wat | 127013 | ethiopian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/127013-key-wat.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | alicha-wat | 127014 | ethiopian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/127014-alicha-wat.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | minchet-abish | 127015 | ethiopian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/127015-minchet-abish.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1406,6 +1417,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | ambasha | 127030 | ethiopian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/127030-ambasha.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | frikadeller | 128013 | scandinavian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/128013-frikadeller.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | karjalanpiirakka | 128014 | scandinavian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/128014-karjalanpiirakka.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 038
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | lohikeitto | 128015 | scandinavian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/128015-lohikeitto.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | kalops | 128016 | scandinavian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/128016-kalops.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | raggmunk | 128017 | scandinavian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/128017-raggmunk.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1416,11 +1432,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | leverpostej | 128022 | scandinavian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/128022-leverpostej.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | open-faced-herring | 128023 | scandinavian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/128023-open-faced-herring.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | fish-cakes-scandinavian | 128024 | scandinavian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/128024-fish-cakes-scandinavian.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 038
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | pea-soup-pancakes | 128025 | scandinavian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/128025-pea-soup-pancakes.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | princess-cake | 128026 | scandinavian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/128026-princess-cake.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | semla | 128027 | scandinavian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/128027-semla.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1441,6 +1452,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | sopa-criolla | 129024 | peruvian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/129024-sopa-criolla.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | chupe-de-camarones | 129025 | peruvian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/129025-chupe-de-camarones.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | carapulcra | 129026 | peruvian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/129026-carapulcra.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 039
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | adobo-arequipeno | 129027 | peruvian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/129027-adobo-arequipeno.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | pachamanca | 129028 | peruvian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/129028-pachamanca.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | mazamorra-morada | 129029 | peruvian | data/internal/dishes/global-depth-dishes.js | /assets/dishes/main/129029-mazamorra-morada.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1451,11 +1467,6 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | poulet-aux-ecrevisses | 103069 | french | data/internal/dishes/compound-menu-miss-dishes.js | /assets/dishes/main/103069-poulet-aux-ecrevisses.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | poulet-aux-morilles | 103070 | french | data/internal/dishes/compound-menu-miss-dishes.js | /assets/dishes/main/103070-poulet-aux-morilles.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | aceitunas-rellenas-de-anchoas | 105063 | spanish | data/internal/dishes/compound-menu-miss-dishes.js | /assets/dishes/main/105063-aceitunas-rellenas-de-anchoas.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
-
-### Batch 039
-
-| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | sardinas-en-aceite | 105064 | spanish | data/internal/dishes/compound-menu-miss-dishes.js | /assets/dishes/main/105064-sardinas-en-aceite.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | tandoori-chicken-naan | 115031 | indian | data/internal/dishes/compound-menu-miss-dishes.js | /assets/dishes/main/115031-tandoori-chicken-naan.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | blackened-eggplant-tahini | 120032 | middle-eastern | data/internal/dishes/compound-menu-miss-dishes.js | /assets/dishes/main/120032-blackened-eggplant-tahini.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
@@ -1476,6 +1487,11 @@ Each overview page contains at most 30 dishes and uses small thumbnails from the
 | arnaki-tigania | 104062 | greek | data/internal/dishes/real-menu-miss-dishes.js | /assets/dishes/main/104062-arnaki-tigania.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | fromage-blanc-dessert | 103071 | french | data/internal/dishes/real-menu-miss-dishes.js | /assets/dishes/main/103071-fromage-blanc-dessert.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | religieuse | 103072 | french | data/internal/dishes/real-menu-miss-dishes.js | /assets/dishes/main/103072-religieuse.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
+
+### Batch 040
+
+| dishId | metadataCode | cuisineId | sourceFile | imagePath | riskLevel | auditStatus | notes | recommendedAction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | tarte-amandine | 103073 | french | data/internal/dishes/real-menu-miss-dishes.js | /assets/dishes/main/103073-tarte-amandine.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | cafe-gourmand | 103074 | french | data/internal/dishes/real-menu-miss-dishes.js | /assets/dishes/main/103074-cafe-gourmand.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |
 | chocolat-liegeois | 103075 | french | data/internal/dishes/real-menu-miss-dishes.js | /assets/dishes/main/103075-chocolat-liegeois.webp | low | keep-verified | No automated metadata/asset flags. Visual semantics still need human spot-check. | retain in verified export; schedule visual spot-check |

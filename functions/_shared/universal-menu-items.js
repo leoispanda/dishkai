@@ -44,7 +44,7 @@ export const universalMenuItems = [
   }),
   universalItem({
     id: "universal-salad",
-    aliases: ["salad", "fresh salad", "green salad", "side salad", "mixed salad", "house salad", "salade", "salade verte", "salade mixte", "groene salade", "gemengde salade"],
+    aliases: ["salad", "fresh salad", "salade"],
     iconTags: ["salad", "ask-staff"],
     copy: {
       en: {
@@ -216,42 +216,42 @@ export const universalMenuItems = [
   }),
   universalItem({
     id: "universal-grilled-chicken",
-    aliases: ["grilled chicken", "grilled chicken breast", "chicken breast", "chicken fillet", "half chicken", "whole chicken", "half or whole chicken", "roast chicken", "roasted chicken", "gegrilde kip", "gegrilde kipfilet", "kipfilet", "kip van het spit", "poulet grille", "poulet grillé"],
+    aliases: ["grilled chicken", "grilled chicken breast", "chicken breast", "chicken fillet", "gegrilde kip", "gegrilde kipfilet", "kipfilet", "poulet grille", "poulet grillé"],
     iconTags: ["main", "ask-staff"],
     copy: {
       en: {
-        familiarName: "Grilled or Roasted Chicken",
+        familiarName: "Grilled Chicken",
         orderVerdict: "A familiar lower-risk main, but ask whether it is spicy, served with sauce, or cooked on shared grills.",
-        shortDescription: "A universal chicken main, often grilled, roasted, or served as half/whole chicken.",
-        cookingProfile: "Usually grilled or roasted; breast is leaner, while half or whole chicken can be juicier and heavier.",
+        shortDescription: "A universal grilled chicken main when the menu names chicken but not a more specific verified dish.",
+        cookingProfile: "Usually grilled until browned; breast or fillet portions are leaner and can dry out if overcooked.",
         composition: [["chicken", 70, "main"], ["marinade or seasoning", 10, "flavor"], ["sauce", 5, "optional finish", true], ["fries, salad, rice, or vegetables", 15, "common side", true]],
         basicTaste: ["savory", "mild", "can be smoky"],
         distinctiveFlavorSources: ["grill browning", "marinade", "sauce"],
-        texture: ["lean or juicy", "can be smoky", "skin may be crisp"],
+        texture: ["lean or juicy", "can be smoky", "may feel dry if overcooked"],
         watchOuts: ["Marinades and sauces may contain dairy, gluten, soy, nuts, mustard, or chili. Cross-contact can matter on shared grills."],
         visualDisclaimer: "Universal guidance only. Cut, marinade, sauce, and side vary by restaurant.",
       },
       zh: {
         familiarName: "烤鸡",
         orderVerdict: "熟悉、相对稳妥的主菜；建议询问是否辣、是否带酱、是否与其他食材共用烤炉。",
-        shortDescription: "通用鸡肉主菜，常见为烤鸡胸、半只鸡或整鸡。",
-        cookingProfile: "通常烤制或烘烤；鸡胸更瘦，半只或整鸡可能更多汁也更厚重。",
+        shortDescription: "当菜单只写烤鸡肉、鸡胸或鸡柳，但不是更具体 verified 菜时使用的通用鸡肉主菜。",
+        cookingProfile: "通常烤至表面焦香；鸡胸或鸡柳更瘦，过熟时可能偏干。",
         composition: [["鸡肉", 70, "主体"], ["腌料或调味", 10, "风味"], ["酱汁", 5, "可选收尾", true], ["薯条、沙拉、米饭或蔬菜", 15, "常见配菜", true]],
         basicTaste: ["咸香", "温和", "可能有烟熏感"],
         distinctiveFlavorSources: ["烤制焦香", "腌料", "酱汁"],
-        texture: ["可能偏瘦或多汁", "可能带烟熏感", "鸡皮可能酥"],
+        texture: ["可能偏瘦或多汁", "可能带烟熏感", "过熟时可能偏干"],
         watchOuts: ["腌料和酱汁可能含乳制品、麸质、大豆、坚果、芥末或辣椒。共用烤炉可能有交叉接触。"],
         visualDisclaimer: "仅为通用点餐参考。部位、腌料、酱汁和配菜会因餐厅而变。",
       },
       nl: {
-        familiarName: "Gegrilde of geroosterde kip",
+        familiarName: "Gegrilde kip",
         orderVerdict: "Een bekende hoofdgerechtkeuze, maar vraag of het pittig is, saus heeft of op een gedeelde grill ligt.",
-        shortDescription: "Een universeel kiphoofdgerecht, vaak gegrild, geroosterd of als halve/hele kip.",
-        cookingProfile: "Meestal gegrild of geroosterd; borst is magerder, halve of hele kip vaak sappiger en zwaarder.",
+        shortDescription: "Een universeel kiphoofdgerecht wanneer het menu kip noemt maar geen specifieker geverifieerd gerecht.",
+        cookingProfile: "Meestal gegrild met bruine rand; borst of filet is magerder en kan droog worden.",
         composition: [["kip", 70, "hoofdingredient"], ["marinade of kruiden", 10, "smaak"], ["saus", 5, "optionele afwerking", true], ["friet, salade, rijst of groente", 15, "bijgerecht", true]],
         basicTaste: ["hartig", "mild", "kan rokerig zijn"],
         distinctiveFlavorSources: ["grillkorst", "marinade", "saus"],
-        texture: ["mager of sappig", "kan rokerig zijn", "vel kan krokant zijn"],
+        texture: ["mager of sappig", "kan rokerig zijn", "kan droog zijn als te gaar"],
         watchOuts: ["Marinades en sauzen kunnen zuivel, gluten, soja, noten, mosterd of chili bevatten. Gedeelde grills kunnen kruiscontact geven."],
         visualDisclaimer: "Algemene bestelrichtlijn. Stuk, marinade, saus en bijgerecht verschillen per restaurant.",
       },
@@ -302,7 +302,7 @@ export const universalMenuItems = [
   }),
   universalItem({
     id: "universal-dessert",
-    aliases: ["dessert", "desserts", "sweet", "sweets", "cake", "cheesecake", "cheese cake", "white chocolate dessert", "ice cream", "sorbet", "nagerecht", "toetje", "dessert van de dag", "dessert du jour"],
+    aliases: ["dessert", "desserts", "sweet", "sweets", "cake", "white chocolate dessert", "ice cream", "sorbet", "nagerecht", "toetje", "dessert van de dag", "dessert du jour"],
     iconTags: ["dessert", "ask-staff"],
     copy: {
       en: {

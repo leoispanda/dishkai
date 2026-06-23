@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 1145
-- Total aliases: 3444
+- Total verified dishes: 1155
+- Total aliases: 3531
 - Total cuisines: 28
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -404,7 +404,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 76. 103076 - `cafe-liegeois` - Cafe Liegeois / 咖啡列日杯 / Cafe liegeois
 77. 103077 - `murcon-aux-ravioles` - Murcon aux Ravioles / 法式穆尔松香肠配小馄饨 / Murçon aux ravioles
 
-## General (general) - 24
+## General (general) - 34
 
 1. 100001 - `coleslaw` - Coleslaw / 凉拌卷心菜 / coleslaw
 2. 100002 - `corn-on-the-cob` - Corn on the Cob / 玉米棒 / corn on the cob
@@ -430,6 +430,16 @@ Generated from data/internal/index.js after the verified database quarantine aud
 22. 100022 - `chicken-fillet-mushroom-sauce` - Chicken Fillet with Mushroom Sauce / 蘑菇汁鸡柳 / chicken fillet with mushroom sauce
 23. 100023 - `lamb-chops` - Lamb Chops / 羊排 / lamb chops
 24. 100024 - `sole-fillet` - Sole Fillet / 龙利鱼柳 / sole fillet
+25. 100025 - `waffles` - Waffles / 华夫饼 / waffles
+26. 100026 - `grilled-salmon` - Grilled Salmon / 烤三文鱼 / grilled salmon
+27. 100027 - `mixed-grill` - Mixed Grill / 混合烤肉拼盘 / mixed grill
+28. 100028 - `tuna-salad` - Tuna Salad / 金枪鱼沙拉 / tuna salad
+29. 100029 - `chicken-wings` - Chicken Wings / 鸡翅 / chicken wings
+30. 100030 - `roast-chicken` - Roast Chicken / 烤鸡 / roast chicken
+31. 100031 - `side-salad` - Side Salad / 配菜沙拉 / side salad
+32. 100032 - `fruit-salad` - Fruit Salad / 水果沙拉 / fruit salad
+33. 100033 - `cheesecake` - Cheesecake / 芝士蛋糕 / cheesecake
+34. 100034 - `chocolate-cake` - Chocolate Cake / 巧克力蛋糕 / chocolate cake
 
 ## German (german) - 60
 
