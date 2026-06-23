@@ -150,6 +150,83 @@ export const generalDishAliases = [
     ["茄汁焗豆", "translated-name", 0.94],
     ["番茄酱豆", "translated-name", 0.92],
   ]),
+  ...aliases("smoothie-bowl", [
+    ["smoothie bowl", "canonical", 1],
+    ["smoothiebowl", "spelling-variant", 0.98],
+    ["acai bowl", "descriptive-name", 0.94],
+    ["açaí bowl", "descriptive-name", 0.94],
+    ["smoothie bowl with fruit", "descriptive-name", 0.94],
+    ["smoothie bowl met fruit", "translated-name", 0.94],
+    ["思慕雪碗", "translated-name", 0.94],
+  ]),
+  ...aliases("ice-cream-sundae", [
+    ["ice cream sundae", "canonical", 1],
+    ["sundae", "spelling-variant", 0.97],
+    ["ice cream cup", "descriptive-name", 0.93],
+    ["ice cream dessert", "descriptive-name", 0.92],
+    ["ijscoupe", "translated-name", 0.96],
+    ["ijs coupe", "spelling-variant", 0.95],
+    ["coupe ijs", "translated-name", 0.94],
+    ["冰淇淋圣代", "translated-name", 0.94],
+  ]),
+  ...aliases("fruit-sorbet-plate", [
+    ["fruit and sorbet plate", "canonical", 1],
+    ["fruit sorbet plate", "spelling-variant", 0.98],
+    ["fruit with sorbet", "descriptive-name", 0.96],
+    ["fresh fruit sorbet", "descriptive-name", 0.94],
+    ["sorbet with fruit", "word-order-variant", 0.95],
+    ["fruit en sorbet", "translated-name", 0.95],
+    ["fruit met sorbet", "translated-name", 0.95],
+    ["水果雪葩拼盘", "translated-name", 0.94],
+  ]),
+  ...aliases("applesauce-side", [
+    ["applesauce", "canonical", 1],
+    ["apple sauce", "spelling-variant", 1],
+    ["applesauce side", "descriptive-name", 0.95],
+    ["appelmoes", "translated-name", 0.98],
+    ["appel compote", "translated-name", 0.92],
+    ["苹果酱", "translated-name", 0.94],
+  ]),
+  ...aliases("chicken-skewer", [
+    ["chicken skewer", "canonical", 1],
+    ["chicken skewers", "plural", 1],
+    ["grilled chicken skewer", "descriptive-name", 0.96],
+    ["grilled chicken skewers", "descriptive-name", 0.96],
+    ["chicken kebab skewer", "descriptive-name", 0.92],
+    ["kipspies", "translated-name", 0.96],
+    ["kipspiesjes", "translated-name", 0.96],
+    ["鸡肉串", "translated-name", 0.94],
+  ]),
+  ...aliases("chicken-fillet-mushroom-sauce", [
+    ["chicken fillet with mushroom sauce", "canonical", 1],
+    ["chicken with mushroom sauce", "descriptive-name", 0.97],
+    ["chicken mushroom sauce", "descriptive-name", 0.94],
+    ["chicken breast mushroom sauce", "descriptive-name", 0.94],
+    ["kipfilet met champignonsaus", "translated-name", 0.98],
+    ["kip met champignonsaus", "translated-name", 0.96],
+    ["poulet sauce champignons", "translated-name", 0.94],
+    ["蘑菇汁鸡柳", "translated-name", 0.94],
+  ]),
+  ...aliases("lamb-chops", [
+    ["lamb chops", "canonical", 1],
+    ["lamb chop", "singular", 0.98],
+    ["grilled lamb chops", "descriptive-name", 0.96],
+    ["lamb cutlets", "translated-name", 0.94],
+    ["lamskoteletten", "translated-name", 0.96],
+    ["lamskotelet", "translated-name", 0.95],
+    ["gegrilde lamskoteletten", "translated-name", 0.94],
+    ["羊排", "translated-name", 0.94],
+  ]),
+  ...aliases("sole-fillet", [
+    ["sole fillet", "canonical", 1],
+    ["sole filet", "spelling-variant", 0.98],
+    ["pan fried sole fillet", "descriptive-name", 0.95],
+    ["fried sole fillet", "descriptive-name", 0.94],
+    ["tongfilet", "translated-name", 0.96],
+    ["gebakken tongfilet", "translated-name", 0.94],
+    ["filet de sole", "translated-name", 0.94],
+    ["龙利鱼柳", "translated-name", 0.94],
+  ]),
 ];
 
 function aliases(dishId, rows) {
@@ -166,6 +243,6 @@ function inferLanguage(alias) {
   if (/[\u4e00-\u9fff]/.test(alias)) return "zh";
   if (/[àéèêëïîôöûüç]/i.test(alias)) return "fr";
   if (/\b(soupe)\b/i.test(alias)) return "fr";
-  if (/\b(koolsla|koolsalade|maiskolf|knoflookbrood|uienringen|aardappelpuree|gemengde|groenten|groentenmix|witte|rijst|gestoomde|aardappelpartjes|aardappels|aardappelen|gepofte|pofaardappel|tomatensoep|champignonsoep|romige|gebonden|knoflookchampignons|knoflookboter|bonen|tomatensaus|gebakken|mozzarellasticks|gefrituurde)\b/i.test(alias)) return "nl";
+  if (/\b(koolsla|koolsalade|maiskolf|knoflookbrood|uienringen|aardappelpuree|gemengde|groenten|groentenmix|witte|rijst|gestoomde|aardappelpartjes|aardappels|aardappelen|gepofte|pofaardappel|tomatensoep|champignonsoep|romige|gebonden|knoflookchampignons|knoflookboter|bonen|tomatensaus|gebakken|mozzarellasticks|gefrituurde|smoothiebowl|ijscoupe|ijs|appelmoes|kipspies|kipspiesjes|kipfilet|champignonsaus|lamskoteletten|lamskotelet|gegrilde|tongfilet)\b/i.test(alias)) return "nl";
   return "en";
 }

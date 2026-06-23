@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 1136
-- Total aliases: 3357
+- Total verified dishes: 1145
+- Total aliases: 3444
 - Total cuisines: 28
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -404,7 +404,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 76. 103076 - `cafe-liegeois` - Cafe Liegeois / 咖啡列日杯 / Cafe liegeois
 77. 103077 - `murcon-aux-ravioles` - Murcon aux Ravioles / 法式穆尔松香肠配小馄饨 / Murçon aux ravioles
 
-## General (general) - 16
+## General (general) - 24
 
 1. 100001 - `coleslaw` - Coleslaw / 凉拌卷心菜 / coleslaw
 2. 100002 - `corn-on-the-cob` - Corn on the Cob / 玉米棒 / corn on the cob
@@ -422,6 +422,14 @@ Generated from data/internal/index.js after the verified database quarantine aud
 14. 100014 - `mozzarella-sticks` - Mozzarella Sticks / 炸马苏里拉芝士条 / mozzarella sticks
 15. 100015 - `garlic-mushrooms` - Garlic Mushrooms / 蒜香蘑菇 / garlic mushrooms
 16. 100016 - `baked-beans` - Baked Beans / 茄汁焗豆 / baked beans
+17. 100017 - `smoothie-bowl` - Smoothie Bowl / 思慕雪碗 / smoothie bowl
+18. 100018 - `ice-cream-sundae` - Ice Cream Sundae / 冰淇淋圣代 / ice cream sundae
+19. 100019 - `fruit-sorbet-plate` - Fruit and Sorbet Plate / 水果雪葩拼盘 / fruit and sorbet plate
+20. 100020 - `applesauce-side` - Applesauce Side / 苹果酱配菜 / applesauce
+21. 100021 - `chicken-skewer` - Chicken Skewer / 鸡肉串 / chicken skewer
+22. 100022 - `chicken-fillet-mushroom-sauce` - Chicken Fillet with Mushroom Sauce / 蘑菇汁鸡柳 / chicken fillet with mushroom sauce
+23. 100023 - `lamb-chops` - Lamb Chops / 羊排 / lamb chops
+24. 100024 - `sole-fillet` - Sole Fillet / 龙利鱼柳 / sole fillet
 
 ## German (german) - 60
 
@@ -1025,7 +1033,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 59. 128029 - `aebleskiver` - Aebleskiver / 丹麦圆球小煎饼 / Æbleskiver
 60. 128030 - `brunost-toast` - Brunost Toast / 挪威棕奶酪吐司 / Brunost toast
 
-## Spanish (spanish) - 65
+## Spanish (spanish) - 66
 
 1. 105031 - `escalivada` - Escalivada / 加泰罗尼亚烤蔬菜 / Escalivada
 2. 105032 - `esqueixada` - Esqueixada / 加泰罗尼亚盐鳕鱼沙拉 / Esqueixada
@@ -1092,6 +1100,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 63. 105061 - `mojama` - Mojama / 西班牙风干金枪鱼片 / Mojama
 64. 105062 - `pan-de-cristal` - Pan de Cristal / 西班牙水晶面包 / Pan de cristal
 65. 105065 - `almendras-fritas` - Almendras Fritas / 西班牙油炸杏仁 / Almendras fritas
+66. 105066 - `chorizo-tapas` - Chorizo Tapas / 西班牙辣香肠小盘 / Chorizo
 
 ## Surinamese (surinamese) - 30
 

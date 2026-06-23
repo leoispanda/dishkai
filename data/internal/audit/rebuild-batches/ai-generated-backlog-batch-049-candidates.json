@@ -1,0 +1,83 @@
+[
+  {
+    "dishId": "chorizo-tapas",
+    "metadataCode": "105066",
+    "cuisineId": "spanish",
+    "sourceFile": "data/internal/dishes/real-menu-miss-dishes.js",
+    "name": "Chorizo Tapas",
+    "imagePath": "/assets/dishes/main/105066-chorizo-tapas.webp",
+    "thumbPath": "/assets/dishes/thumb/105066-chorizo-tapas.webp"
+  },
+  {
+    "dishId": "smoothie-bowl",
+    "metadataCode": "100017",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Smoothie Bowl",
+    "imagePath": "/assets/dishes/main/100017-smoothie-bowl.webp",
+    "thumbPath": "/assets/dishes/thumb/100017-smoothie-bowl.webp"
+  },
+  {
+    "dishId": "ice-cream-sundae",
+    "metadataCode": "100018",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Ice Cream Sundae",
+    "imagePath": "/assets/dishes/main/100018-ice-cream-sundae.webp",
+    "thumbPath": "/assets/dishes/thumb/100018-ice-cream-sundae.webp"
+  },
+  {
+    "dishId": "fruit-sorbet-plate",
+    "metadataCode": "100019",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Fruit and Sorbet Plate",
+    "imagePath": "/assets/dishes/main/100019-fruit-sorbet-plate.webp",
+    "thumbPath": "/assets/dishes/thumb/100019-fruit-sorbet-plate.webp"
+  },
+  {
+    "dishId": "applesauce-side",
+    "metadataCode": "100020",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Applesauce Side",
+    "imagePath": "/assets/dishes/main/100020-applesauce-side.webp",
+    "thumbPath": "/assets/dishes/thumb/100020-applesauce-side.webp"
+  },
+  {
+    "dishId": "chicken-skewer",
+    "metadataCode": "100021",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Chicken Skewer",
+    "imagePath": "/assets/dishes/main/100021-chicken-skewer.webp",
+    "thumbPath": "/assets/dishes/thumb/100021-chicken-skewer.webp"
+  },
+  {
+    "dishId": "chicken-fillet-mushroom-sauce",
+    "metadataCode": "100022",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Chicken Fillet with Mushroom Sauce",
+    "imagePath": "/assets/dishes/main/100022-chicken-fillet-mushroom-sauce.webp",
+    "thumbPath": "/assets/dishes/thumb/100022-chicken-fillet-mushroom-sauce.webp"
+  },
+  {
+    "dishId": "lamb-chops",
+    "metadataCode": "100023",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Lamb Chops",
+    "imagePath": "/assets/dishes/main/100023-lamb-chops.webp",
+    "thumbPath": "/assets/dishes/thumb/100023-lamb-chops.webp"
+  },
+  {
+    "dishId": "sole-fillet",
+    "metadataCode": "100024",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Sole Fillet",
+    "imagePath": "/assets/dishes/main/100024-sole-fillet.webp",
+    "thumbPath": "/assets/dishes/thumb/100024-sole-fillet.webp"
+  }
+]

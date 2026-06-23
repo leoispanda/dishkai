@@ -87,7 +87,7 @@ export const universalMenuItems = [
   }),
   universalItem({
     id: "universal-steak",
-    aliases: ["steak", "grilled steak", "ribeye", "ribeye steak", "rib eye steak", "filet mignon", "fillet steak", "tenderloin steak", "flank steak", "bavette steak", "bbq steak", "biefstuk", "entrecote", "entrecôte", "steak frites"],
+    aliases: ["steak", "grilled steak", "ribeye", "ribeye steak", "rib eye steak", "filet mignon", "fillet steak", "tenderloin steak", "beef tenderloin", "beef tenderloin steak", "flank steak", "bavette steak", "bbq steak", "biefstuk", "ossenhaas", "runderhaas", "entrecote", "entrecôte", "steak frites"],
     iconTags: ["meat", "ask-staff"],
     copy: {
       en: {
@@ -129,8 +129,94 @@ export const universalMenuItems = [
     },
   }),
   universalItem({
+    id: "universal-lamb",
+    aliases: ["lamb", "grilled lamb", "lamb fillet", "lamb filet", "lamb loin", "lamb cutlet", "lamb cutlets", "lamsfilet", "lamsrug", "gegrild lam"],
+    iconTags: ["meat", "ask-staff"],
+    copy: {
+      en: {
+        familiarName: "Lamb",
+        orderVerdict: "Ask for the cut, doneness, sauce, and whether it is strongly seasoned. Lamb can range from mild and tender to quite gamey.",
+        shortDescription: "A universal lamb item when the menu names lamb but not a precise verified dish.",
+        cookingProfile: "Often grilled, roasted, braised, or pan-seared depending on the cut.",
+        composition: [["lamb", 70, "main meat"], ["sauce, herbs, or marinade", 10, "flavor"], ["potatoes, salad, rice, or vegetables", 20, "common side", true]],
+        basicTaste: ["savory", "meaty", "can be gamey"],
+        distinctiveFlavorSources: ["lamb cut", "grill or roast browning", "herbs or sauce"],
+        texture: ["depends on cut", "can be tender", "can be fatty or chewy"],
+        watchOuts: ["Ask about doneness, bones, mint sauce, dairy in sauces, and whether the lamb flavor is strong."],
+        visualDisclaimer: "Universal guidance only. Cut, doneness, sauce, and side vary by restaurant.",
+      },
+      zh: {
+        familiarName: "羊肉",
+        orderVerdict: "建议询问部位、熟度、酱汁和调味强度。羊肉可能很嫩很温和，也可能羊膻味更明显。",
+        shortDescription: "当菜单只写 lamb 或羊肉部位、但不是某道固定已验证菜时使用的通用提示卡。",
+        cookingProfile: "常见为烤、煎、炖或烘烤，具体取决于部位。",
+        composition: [["羊肉", 70, "主体肉类"], ["酱汁、香草或腌料", 10, "风味"], ["土豆、沙拉、米饭或蔬菜", 20, "常见配菜", true]],
+        basicTaste: ["咸香", "肉香", "可能有羊肉气味"],
+        distinctiveFlavorSources: ["羊肉部位", "煎烤焦香", "香草或酱汁"],
+        texture: ["取决于部位", "可能很嫩", "也可能偏肥或有嚼劲"],
+        watchOuts: ["建议询问熟度、是否带骨、是否有薄荷酱、酱汁是否含乳制品，以及羊肉味是否明显。"],
+        visualDisclaimer: "仅为通用点餐参考。部位、熟度、酱汁和配菜会因餐厅而变。",
+      },
+      nl: {
+        familiarName: "Lamsvlees",
+        orderVerdict: "Vraag naar het stuk, de garing, saus en kruiding. Lam kan mild en mals zijn, maar ook duidelijker wild smaken.",
+        shortDescription: "Een universele lamskaart wanneer het menu lam noemt maar geen precies geverifieerd gerecht.",
+        cookingProfile: "Vaak gegrild, geroosterd, gestoofd of gebakken, afhankelijk van het stuk.",
+        composition: [["lamsvlees", 70, "hoofdingredient"], ["saus, kruiden of marinade", 10, "smaak"], ["aardappel, salade, rijst of groente", 20, "bijgerecht", true]],
+        basicTaste: ["hartig", "vlezig", "kan wild smaken"],
+        distinctiveFlavorSources: ["lamsstuk", "grill- of braadkorst", "kruiden of saus"],
+        texture: ["hangt af van het stuk", "kan mals zijn", "kan vet of stevig zijn"],
+        watchOuts: ["Vraag naar garing, botjes, muntsaus, zuivel in sauzen en hoe sterk de lamsmaak is."],
+        visualDisclaimer: "Algemene bestelrichtlijn. Stuk, garing, saus en bijgerecht verschillen per restaurant.",
+      },
+    },
+  }),
+  universalItem({
+    id: "universal-pork-tenderloin",
+    aliases: ["pork tenderloin", "pork fillet", "pork filet", "pork medallions", "varkenshaas", "varkensfilet", "varkenshaas medaillons"],
+    iconTags: ["meat", "ask-staff"],
+    copy: {
+      en: {
+        familiarName: "Pork Tenderloin",
+        orderVerdict: "A lean pork main; ask about sauce, doneness, and whether it is wrapped in bacon or served with cream sauce.",
+        shortDescription: "A universal pork tenderloin item when the menu names the cut but not a fixed regional dish.",
+        cookingProfile: "Usually pan-seared, roasted, or grilled; the sauce often decides whether it feels light or rich.",
+        composition: [["pork tenderloin", 70, "main meat"], ["sauce or butter", 10, "finish", true], ["potatoes, fries, salad, or vegetables", 20, "common side", true]],
+        basicTaste: ["savory", "mild pork", "can be rich"],
+        distinctiveFlavorSources: ["lean pork", "pan browning", "sauce or bacon when present"],
+        texture: ["lean", "tender when not overcooked", "can feel dry"],
+        watchOuts: ["Contains pork. Sauces may contain dairy, gluten, alcohol, mustard, or pepper; some versions are bacon-wrapped."],
+        visualDisclaimer: "Universal guidance only. Sauce, doneness, side, and bacon wrapping vary by restaurant.",
+      },
+      zh: {
+        familiarName: "猪里脊",
+        orderVerdict: "偏瘦的猪肉主菜；建议询问酱汁、熟度，以及是否包培根或配奶油酱。",
+        shortDescription: "当菜单写 pork tenderloin / varkenshaas 这类部位、但不是固定地方菜时使用的通用提示卡。",
+        cookingProfile: "通常煎、烤或炙烤；酱汁决定它更清淡还是更浓郁。",
+        composition: [["猪里脊", 70, "主体肉类"], ["酱汁或黄油", 10, "收尾", true], ["土豆、薯条、沙拉或蔬菜", 20, "常见配菜", true]],
+        basicTaste: ["咸香", "温和猪肉味", "可能偏浓郁"],
+        distinctiveFlavorSources: ["瘦猪肉", "煎烤焦香", "酱汁或培根"],
+        texture: ["偏瘦", "火候好时较嫩", "也可能偏干"],
+        watchOuts: ["含猪肉。酱汁可能含乳制品、麸质、酒精、芥末或黑胡椒；有些版本会包培根。"],
+        visualDisclaimer: "仅为通用点餐参考。酱汁、熟度、配菜和是否包培根会因餐厅而变。",
+      },
+      nl: {
+        familiarName: "Varkenshaas",
+        orderVerdict: "Een mager varkensgerecht; vraag naar saus, garing en of het met spek of roomsaus komt.",
+        shortDescription: "Een universele varkenshaaskaart wanneer het menu het stuk noemt maar geen vast streekgerecht.",
+        cookingProfile: "Meestal gebakken, geroosterd of gegrild; de saus bepaalt of het licht of rijk eet.",
+        composition: [["varkenshaas", 70, "hoofdingredient"], ["saus of boter", 10, "afwerking", true], ["aardappel, friet, salade of groente", 20, "bijgerecht", true]],
+        basicTaste: ["hartig", "mild varkensvlees", "kan rijk zijn"],
+        distinctiveFlavorSources: ["mager varkensvlees", "bakrand", "saus of spek wanneer aanwezig"],
+        texture: ["mager", "mals als niet te gaar", "kan droog zijn"],
+        watchOuts: ["Bevat varkensvlees. Sauzen kunnen zuivel, gluten, alcohol, mosterd of peper bevatten; sommige versies zijn met spek omwikkeld."],
+        visualDisclaimer: "Algemene bestelrichtlijn. Saus, garing, bijgerecht en spek verschillen per restaurant.",
+      },
+    },
+  }),
+  universalItem({
     id: "universal-grilled-chicken",
-    aliases: ["grilled chicken", "grilled chicken breast", "chicken breast", "half chicken", "whole chicken", "half or whole chicken", "roast chicken", "roasted chicken", "gegrilde kip", "gegrilde kipfilet", "kipfilet", "kip van het spit", "poulet grille", "poulet grillé"],
+    aliases: ["grilled chicken", "grilled chicken breast", "chicken breast", "chicken fillet", "half chicken", "whole chicken", "half or whole chicken", "roast chicken", "roasted chicken", "gegrilde kip", "gegrilde kipfilet", "kipfilet", "kip van het spit", "poulet grille", "poulet grillé"],
     iconTags: ["main", "ask-staff"],
     copy: {
       en: {
@@ -216,7 +302,7 @@ export const universalMenuItems = [
   }),
   universalItem({
     id: "universal-dessert",
-    aliases: ["dessert", "desserts", "sweet", "sweets", "cake", "ice cream", "sorbet", "nagerecht", "toetje", "dessert van de dag", "dessert du jour"],
+    aliases: ["dessert", "desserts", "sweet", "sweets", "cake", "cheesecake", "cheese cake", "white chocolate dessert", "ice cream", "sorbet", "nagerecht", "toetje", "dessert van de dag", "dessert du jour"],
     iconTags: ["dessert", "ask-staff"],
     copy: {
       en: {
