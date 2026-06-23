@@ -9,6 +9,7 @@ import { cafeBrunchDepthDishAliases } from "../data/internal/cafe-brunch-depth-d
 import { europeDepthDishAliases } from "../data/internal/europe-depth-dish-aliases.js";
 import { greekDepthDishAliases } from "../data/internal/greek-depth-dish-aliases.js";
 import { globalDepthDishAliases } from "../data/internal/global-depth-dish-aliases.js";
+import { generalDishAliases } from "../data/internal/general-dish-aliases.js";
 import { compoundMenuMissDishAliases } from "../data/internal/compound-menu-miss-dish-aliases.js";
 import { realMenuMissDishAliases } from "../data/internal/real-menu-miss-dish-aliases.js";
 import { worldDishAliases } from "../data/internal/world-dish-aliases.js";
@@ -21,6 +22,7 @@ import { cafeBrunchDepthDishes } from "../data/internal/dishes/cafe-brunch-depth
 import { europeDepthDishes } from "../data/internal/dishes/europe-depth-dishes.js";
 import { greekDepthDishes } from "../data/internal/dishes/greek-depth-dishes.js";
 import { globalDepthDishes } from "../data/internal/dishes/global-depth-dishes.js";
+import { generalDishes } from "../data/internal/dishes/general.js";
 import { italianDishes } from "../data/internal/dishes/italian.js";
 import { expandedDishes } from "../data/internal/dishes/expanded-dishes.js";
 import { compoundMenuMissDishes } from "../data/internal/dishes/compound-menu-miss-dishes.js";
@@ -47,6 +49,7 @@ const dishSources = [
   source("data/internal/dishes/belgian.js", "base-core", belgianDishes),
   source("data/internal/dishes/cafe-brunch-depth-dishes.js", "trusted-depth", cafeBrunchDepthDishes),
   source("data/internal/dishes/greek-depth-dishes.js", "trusted-depth", greekDepthDishes),
+  source("data/internal/dishes/general.js", "trusted-depth", generalDishes),
   source("data/internal/dishes/expanded-dishes.js", "quarantined-generated", expandedDishes, true),
   source("data/internal/dishes/europe-depth-dishes.js", "quarantined-generated", europeDepthDishes, true),
   source("data/internal/dishes/world-dishes.js", "quarantined-generated", worldDishes, true),
@@ -59,6 +62,7 @@ const aliasSources = [
   aliasSource("data/internal/dish-aliases.js", "base-core", baseDishAliases),
   aliasSource("data/internal/cafe-brunch-depth-dish-aliases.js", "trusted-depth", cafeBrunchDepthDishAliases),
   aliasSource("data/internal/greek-depth-dish-aliases.js", "trusted-depth", greekDepthDishAliases),
+  aliasSource("data/internal/general-dish-aliases.js", "trusted-depth", generalDishAliases),
   aliasSource("data/internal/expanded-dish-aliases.js", "quarantined-generated", expandedDishAliases, true),
   aliasSource("data/internal/europe-depth-dish-aliases.js", "quarantined-generated", europeDepthDishAliases, true),
   aliasSource("data/internal/world-dish-aliases.js", "quarantined-generated", worldDishAliases, true),

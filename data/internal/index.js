@@ -12,6 +12,7 @@ import { cafeBrunchDepthDishAliases } from "./cafe-brunch-depth-dish-aliases.js"
 import { europeDepthDishAliases } from "./europe-depth-dish-aliases.js";
 import { greekDepthDishAliases } from "./greek-depth-dish-aliases.js";
 import { globalDepthDishAliases } from "./global-depth-dish-aliases.js";
+import { generalDishAliases } from "./general-dish-aliases.js";
 import { compoundMenuMissDishAliases } from "./compound-menu-miss-dish-aliases.js";
 import { realMenuMissDishAliases } from "./real-menu-miss-dish-aliases.js";
 import { worldDishAliases } from "./world-dish-aliases.js";
@@ -24,6 +25,7 @@ import { cafeBrunchDepthDishes } from "./dishes/cafe-brunch-depth-dishes.js";
 import { europeDepthDishes } from "./dishes/europe-depth-dishes.js";
 import { greekDepthDishes } from "./dishes/greek-depth-dishes.js";
 import { globalDepthDishes } from "./dishes/global-depth-dishes.js";
+import { generalDishes } from "./dishes/general.js";
 import { italianDishes } from "./dishes/italian.js";
 import { expandedDishes } from "./dishes/expanded-dishes.js";
 import { compoundMenuMissDishes } from "./dishes/compound-menu-miss-dishes.js";
@@ -37,6 +39,7 @@ const trustedCandidateDishAliases = [
   ...baseDishAliases,
   ...cafeBrunchDepthDishAliases,
   ...greekDepthDishAliases,
+  ...generalDishAliases,
   ...compoundMenuMissDishAliases,
   ...realMenuMissDishAliases,
 ];
@@ -1060,6 +1063,7 @@ const trustedCandidateDishes = [
   ...belgianDishes,
   ...cafeBrunchDepthDishes,
   ...greekDepthDishes,
+  ...generalDishes,
 ];
 
 const generatedCandidateDishes = [

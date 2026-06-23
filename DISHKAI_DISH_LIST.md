@@ -2,9 +2,9 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 1120
-- Total aliases: 3238
-- Total cuisines: 27
+- Total verified dishes: 1128
+- Total aliases: 3296
+- Total cuisines: 28
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
 ## American (american) - 31
@@ -403,6 +403,17 @@ Generated from data/internal/index.js after the verified database quarantine aud
 75. 103075 - `chocolat-liegeois` - Chocolat Liegeois / 巧克力列日杯 / Chocolat liegeois
 76. 103076 - `cafe-liegeois` - Cafe Liegeois / 咖啡列日杯 / Cafe liegeois
 77. 103077 - `murcon-aux-ravioles` - Murcon aux Ravioles / 法式穆尔松香肠配小馄饨 / Murçon aux ravioles
+
+## General (general) - 8
+
+1. 100001 - `coleslaw` - Coleslaw / 凉拌卷心菜 / coleslaw
+2. 100002 - `corn-on-the-cob` - Corn on the Cob / 玉米棒 / corn on the cob
+3. 100003 - `garlic-bread` - Garlic Bread / 蒜香面包 / garlic bread
+4. 100004 - `onion-rings` - Onion Rings / 洋葱圈 / onion rings
+5. 100005 - `mashed-potatoes` - Mashed Potatoes / 土豆泥 / mashed potatoes
+6. 100006 - `mixed-vegetables` - Mixed Vegetables / 混合蔬菜 / mixed vegetables
+7. 100007 - `grilled-vegetables` - Grilled Vegetables / 烤蔬菜 / grilled vegetables
+8. 100008 - `side-rice` - Side Rice / 白饭 / side rice
 
 ## German (german) - 60
 

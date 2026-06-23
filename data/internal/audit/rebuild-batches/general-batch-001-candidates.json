@@ -1,0 +1,74 @@
+[
+  {
+    "dishId": "coleslaw",
+    "metadataCode": "100001",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Coleslaw",
+    "imagePath": "/assets/dishes/main/100001-coleslaw.webp",
+    "thumbPath": "/assets/dishes/thumb/100001-coleslaw.webp"
+  },
+  {
+    "dishId": "corn-on-the-cob",
+    "metadataCode": "100002",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Corn on the Cob",
+    "imagePath": "/assets/dishes/main/100002-corn-on-the-cob.webp",
+    "thumbPath": "/assets/dishes/thumb/100002-corn-on-the-cob.webp"
+  },
+  {
+    "dishId": "garlic-bread",
+    "metadataCode": "100003",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Garlic Bread",
+    "imagePath": "/assets/dishes/main/100003-garlic-bread.webp",
+    "thumbPath": "/assets/dishes/thumb/100003-garlic-bread.webp"
+  },
+  {
+    "dishId": "onion-rings",
+    "metadataCode": "100004",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Onion Rings",
+    "imagePath": "/assets/dishes/main/100004-onion-rings.webp",
+    "thumbPath": "/assets/dishes/thumb/100004-onion-rings.webp"
+  },
+  {
+    "dishId": "mashed-potatoes",
+    "metadataCode": "100005",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Mashed Potatoes",
+    "imagePath": "/assets/dishes/main/100005-mashed-potatoes.webp",
+    "thumbPath": "/assets/dishes/thumb/100005-mashed-potatoes.webp"
+  },
+  {
+    "dishId": "mixed-vegetables",
+    "metadataCode": "100006",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Mixed Vegetables",
+    "imagePath": "/assets/dishes/main/100006-mixed-vegetables.webp",
+    "thumbPath": "/assets/dishes/thumb/100006-mixed-vegetables.webp"
+  },
+  {
+    "dishId": "grilled-vegetables",
+    "metadataCode": "100007",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Grilled Vegetables",
+    "imagePath": "/assets/dishes/main/100007-grilled-vegetables.webp",
+    "thumbPath": "/assets/dishes/thumb/100007-grilled-vegetables.webp"
+  },
+  {
+    "dishId": "side-rice",
+    "metadataCode": "100008",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Side Rice",
+    "imagePath": "/assets/dishes/main/100008-side-rice.webp",
+    "thumbPath": "/assets/dishes/thumb/100008-side-rice.webp"
+  }
+]

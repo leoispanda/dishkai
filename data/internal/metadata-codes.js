@@ -11,6 +11,7 @@ export const metadataCodeSystem = {
   },
   groupCodes: {
     global: "00",
+    general: "00",
     italian: "01",
     dutch: "02",
     french: "03",

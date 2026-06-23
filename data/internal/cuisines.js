@@ -1,4 +1,5 @@
 export const cuisines = [
+  { id: "general", metadataCode: "400001", regionId: "global-fusion", names: { en: "General", zh: "通用菜", nl: "Algemeen" } },
   { id: "thai", metadataCode: "408001", regionId: "southeast-asia", names: { en: "Thai", zh: "泰国菜", nl: "Thais" } },
   { id: "japanese", metadataCode: "409001", regionId: "east-asia", names: { en: "Japanese", zh: "日本菜", nl: "Japans" } },
   { id: "korean", metadataCode: "410001", regionId: "east-asia", names: { en: "Korean", zh: "韩国菜", nl: "Koreaans" } },

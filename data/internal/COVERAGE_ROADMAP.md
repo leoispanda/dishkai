@@ -8,9 +8,9 @@ Verified metadata is the source of truth. It should be curated for high-frequenc
 
 Current verified starter database:
 
-- 1120 verified dishes
-- 27 cuisines
-- 3238 verified aliases
+- 1128 verified dishes
+- 28 cuisines
+- 3296 verified aliases
 
 Recent depth progress:
 
@@ -30,6 +30,7 @@ Recent depth progress:
 - Compound Menu Miss Batch 046 accepted 9 stable compound or assembled dishes from the remaining real-menu miss backlog: Italian schiacciata, French baked egg and sauced chicken preparations, Spanish preserved tapas, Indian tandoori chicken naan, Middle Eastern blackened eggplant with tahini, and American/Hawaiian poke bowl. Bare generic aliases and restaurant-specific garnish stacks stayed out. Verified export is now 1110 dishes / 3160 aliases.
 - Real Menu Miss Batch 047 accepted 8 stable Greek/French real-menu misses: `bekri-mezes`, `arnaki-tigania`, `fromage-blanc-dessert`, `religieuse`, `tarte-amandine`, `cafe-gourmand`, `chocolat-liegeois`, and `cafe-liegeois`. It also mapped `cheese platter` / `cheese plate` / `assiette de fromages` to existing `plateau-de-fromages`. Generic proteins, drinks, and one-off dessert names stayed out. Verified export is now 1118 dishes / 3219 aliases.
 - Real Menu Miss Batch 048 accepted 2 stable items from the remaining backlog: Spanish `almendras-fritas` and French regional `murcon-aux-ravioles`. It also remapped explicit Belgian tartare aliases to existing `filet-americain` instead of creating duplicate `beef-tartare-belgian`. Bokit, Accra, and Coconut pie stayed deferred until DishKAI has an appropriate Caribbean/French-Caribbean cuisine taxonomy. Verified export is now 1120 dishes / 3238 aliases.
+- General Batch 001 added a new verified `general` cuisine for stable cross-restaurant dishes and sides that are more specific than universal fallback cards: `coleslaw`, `corn-on-the-cob`, `garlic-bread`, `onion-rings`, `mashed-potatoes`, `mixed-vegetables`, `grilled-vegetables`, and `side-rice`. It uses group `00` dish metadata codes (`100001`-`100008`) with generated restaurant-realistic code-stamped assets. Verified export is now 1128 dishes / 3296 aliases across 28 cuisines.
 
 Next verified coverage targets:
 
@@ -42,6 +43,8 @@ Verified metadata should stay concise and ordering-focused. Do not turn cards in
 ## Layer 2: Universal generic ordering cards
 
 Universal generic cards cover broad high-frequency menu words that appear in many restaurants but are not stable enough to become verified dish records, such as fries, salad, steak/ribeye, grilled chicken, prawns/shrimp, dessert, and drinks.
+
+The verified `general` cuisine is separate from this layer. General dishes are specific reviewed menu items with image assets and stable metadata; universal cards remain broad guidance only.
 
 They reduce avoidable unmatched results while preserving the verified database boundary:
 
