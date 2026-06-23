@@ -2,8 +2,8 @@
 
 Generated from data/internal/index.js after the verified database quarantine audit.
 
-- Total verified dishes: 1128
-- Total aliases: 3296
+- Total verified dishes: 1136
+- Total aliases: 3357
 - Total cuisines: 28
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 
@@ -404,7 +404,7 @@ Generated from data/internal/index.js after the verified database quarantine aud
 76. 103076 - `cafe-liegeois` - Cafe Liegeois / 咖啡列日杯 / Cafe liegeois
 77. 103077 - `murcon-aux-ravioles` - Murcon aux Ravioles / 法式穆尔松香肠配小馄饨 / Murçon aux ravioles
 
-## General (general) - 8
+## General (general) - 16
 
 1. 100001 - `coleslaw` - Coleslaw / 凉拌卷心菜 / coleslaw
 2. 100002 - `corn-on-the-cob` - Corn on the Cob / 玉米棒 / corn on the cob
@@ -414,6 +414,14 @@ Generated from data/internal/index.js after the verified database quarantine aud
 6. 100006 - `mixed-vegetables` - Mixed Vegetables / 混合蔬菜 / mixed vegetables
 7. 100007 - `grilled-vegetables` - Grilled Vegetables / 烤蔬菜 / grilled vegetables
 8. 100008 - `side-rice` - Side Rice / 白饭 / side rice
+9. 100009 - `potato-wedges` - Potato Wedges / 土豆角 / potato wedges
+10. 100010 - `roasted-potatoes` - Roasted Potatoes / 烤土豆 / roasted potatoes
+11. 100011 - `baked-potato` - Baked Potato / 带皮烤土豆 / baked potato
+12. 100012 - `tomato-soup` - Tomato Soup / 番茄汤 / tomato soup
+13. 100013 - `cream-of-mushroom-soup` - Cream of Mushroom Soup / 奶油蘑菇汤 / cream of mushroom soup
+14. 100014 - `mozzarella-sticks` - Mozzarella Sticks / 炸马苏里拉芝士条 / mozzarella sticks
+15. 100015 - `garlic-mushrooms` - Garlic Mushrooms / 蒜香蘑菇 / garlic mushrooms
+16. 100016 - `baked-beans` - Baked Beans / 茄汁焗豆 / baked beans
 
 ## German (german) - 60
 

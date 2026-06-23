@@ -73,6 +73,83 @@ export const generalDishAliases = [
     ["白饭", "translated-name", 0.94],
     ["米饭", "translated-name", 0.92],
   ]),
+  ...aliases("potato-wedges", [
+    ["potato wedges", "canonical", 1],
+    ["spiced potato wedges", "descriptive-name", 0.94],
+    ["crispy potato wedges", "descriptive-name", 0.94],
+    ["aardappelpartjes", "translated-name", 0.96],
+    ["gekruide aardappelpartjes", "translated-name", 0.93],
+    ["土豆角", "translated-name", 0.94],
+    ["烤土豆角", "translated-name", 0.93],
+  ]),
+  ...aliases("roasted-potatoes", [
+    ["roasted potatoes", "canonical", 1],
+    ["roast potatoes", "spelling-variant", 0.98],
+    ["oven roasted potatoes", "descriptive-name", 0.95],
+    ["geroosterde aardappels", "translated-name", 0.96],
+    ["geroosterde aardappelen", "translated-name", 0.96],
+    ["烤土豆", "translated-name", 0.94],
+    ["烤小土豆", "translated-name", 0.93],
+  ]),
+  ...aliases("baked-potato", [
+    ["baked potato", "canonical", 1],
+    ["jacket potato", "translated-name", 0.98],
+    ["loaded baked potato", "descriptive-name", 0.93],
+    ["baked potato with sour cream", "descriptive-name", 0.94],
+    ["gepofte aardappel", "translated-name", 0.96],
+    ["pofaardappel", "translated-name", 0.94],
+    ["带皮烤土豆", "translated-name", 0.94],
+    ["夹心烤土豆", "translated-name", 0.92],
+  ]),
+  ...aliases("tomato-soup", [
+    ["tomato soup", "canonical", 1],
+    ["cream of tomato soup", "descriptive-name", 0.94],
+    ["tomatensoep", "translated-name", 0.96],
+    ["gebonden tomatensoep", "descriptive-name", 0.94],
+    ["soupe de tomate", "translated-name", 0.95],
+    ["tomatensuppe", "translated-name", 0.94],
+    ["番茄汤", "translated-name", 0.94],
+    ["西红柿汤", "translated-name", 0.94],
+    ["奶油番茄汤", "translated-name", 0.92],
+  ]),
+  ...aliases("cream-of-mushroom-soup", [
+    ["cream of mushroom soup", "canonical", 1],
+    ["mushroom cream soup", "word-order-variant", 0.96],
+    ["creamy mushroom soup", "descriptive-name", 0.95],
+    ["champignonsoep", "translated-name", 0.96],
+    ["romige champignonsoep", "translated-name", 0.95],
+    ["gebonden champignonsoep", "descriptive-name", 0.94],
+    ["soupe aux champignons", "translated-name", 0.94],
+    ["奶油蘑菇汤", "translated-name", 0.94],
+    ["蘑菇奶油汤", "translated-name", 0.94],
+  ]),
+  ...aliases("mozzarella-sticks", [
+    ["mozzarella sticks", "canonical", 1],
+    ["fried mozzarella sticks", "descriptive-name", 0.96],
+    ["mozzarella cheese sticks", "descriptive-name", 0.95],
+    ["mozzarella fingers", "descriptive-name", 0.92],
+    ["gefrituurde mozzarella sticks", "translated-name", 0.94],
+    ["马苏里拉芝士条", "translated-name", 0.94],
+    ["炸马苏里拉芝士条", "translated-name", 0.94],
+  ]),
+  ...aliases("garlic-mushrooms", [
+    ["garlic mushrooms", "canonical", 1],
+    ["mushrooms in garlic butter", "descriptive-name", 0.96],
+    ["garlic butter mushrooms", "word-order-variant", 0.96],
+    ["knoflookchampignons", "translated-name", 0.95],
+    ["champignons in knoflookboter", "translated-name", 0.95],
+    ["蒜香蘑菇", "translated-name", 0.94],
+    ["黄油蒜香蘑菇", "translated-name", 0.93],
+  ]),
+  ...aliases("baked-beans", [
+    ["baked beans", "canonical", 1],
+    ["beans in tomato sauce", "descriptive-name", 0.96],
+    ["tomato baked beans", "descriptive-name", 0.94],
+    ["witte bonen in tomatensaus", "translated-name", 0.96],
+    ["gebakken bonen", "translated-name", 0.94],
+    ["茄汁焗豆", "translated-name", 0.94],
+    ["番茄酱豆", "translated-name", 0.92],
+  ]),
 ];
 
 function aliases(dishId, rows) {
@@ -88,6 +165,7 @@ function aliases(dishId, rows) {
 function inferLanguage(alias) {
   if (/[\u4e00-\u9fff]/.test(alias)) return "zh";
   if (/[àéèêëïîôöûüç]/i.test(alias)) return "fr";
-  if (/\b(koolsla|koolsalade|maiskolf|knoflookbrood|uienringen|aardappelpuree|gemengde|groenten|groentenmix|witte|rijst|gestoomde)\b/i.test(alias)) return "nl";
+  if (/\b(soupe)\b/i.test(alias)) return "fr";
+  if (/\b(koolsla|koolsalade|maiskolf|knoflookbrood|uienringen|aardappelpuree|gemengde|groenten|groentenmix|witte|rijst|gestoomde|aardappelpartjes|aardappels|aardappelen|gepofte|pofaardappel|tomatensoep|champignonsoep|romige|gebonden|knoflookchampignons|knoflookboter|bonen|tomatensaus|gebakken|mozzarellasticks|gefrituurde)\b/i.test(alias)) return "nl";
   return "en";
 }

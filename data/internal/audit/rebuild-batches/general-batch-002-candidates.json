@@ -1,0 +1,74 @@
+[
+  {
+    "dishId": "potato-wedges",
+    "metadataCode": "100009",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Potato Wedges",
+    "imagePath": "/assets/dishes/main/100009-potato-wedges.webp",
+    "thumbPath": "/assets/dishes/thumb/100009-potato-wedges.webp"
+  },
+  {
+    "dishId": "roasted-potatoes",
+    "metadataCode": "100010",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Roasted Potatoes",
+    "imagePath": "/assets/dishes/main/100010-roasted-potatoes.webp",
+    "thumbPath": "/assets/dishes/thumb/100010-roasted-potatoes.webp"
+  },
+  {
+    "dishId": "baked-potato",
+    "metadataCode": "100011",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Baked Potato",
+    "imagePath": "/assets/dishes/main/100011-baked-potato.webp",
+    "thumbPath": "/assets/dishes/thumb/100011-baked-potato.webp"
+  },
+  {
+    "dishId": "tomato-soup",
+    "metadataCode": "100012",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Tomato Soup",
+    "imagePath": "/assets/dishes/main/100012-tomato-soup.webp",
+    "thumbPath": "/assets/dishes/thumb/100012-tomato-soup.webp"
+  },
+  {
+    "dishId": "cream-of-mushroom-soup",
+    "metadataCode": "100013",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Cream of Mushroom Soup",
+    "imagePath": "/assets/dishes/main/100013-cream-of-mushroom-soup.webp",
+    "thumbPath": "/assets/dishes/thumb/100013-cream-of-mushroom-soup.webp"
+  },
+  {
+    "dishId": "mozzarella-sticks",
+    "metadataCode": "100014",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Mozzarella Sticks",
+    "imagePath": "/assets/dishes/main/100014-mozzarella-sticks.webp",
+    "thumbPath": "/assets/dishes/thumb/100014-mozzarella-sticks.webp"
+  },
+  {
+    "dishId": "garlic-mushrooms",
+    "metadataCode": "100015",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Garlic Mushrooms",
+    "imagePath": "/assets/dishes/main/100015-garlic-mushrooms.webp",
+    "thumbPath": "/assets/dishes/thumb/100015-garlic-mushrooms.webp"
+  },
+  {
+    "dishId": "baked-beans",
+    "metadataCode": "100016",
+    "cuisineId": "general",
+    "sourceFile": "data/internal/dishes/general.js",
+    "name": "Baked Beans",
+    "imagePath": "/assets/dishes/main/100016-baked-beans.webp",
+    "thumbPath": "/assets/dishes/thumb/100016-baked-beans.webp"
+  }
+]

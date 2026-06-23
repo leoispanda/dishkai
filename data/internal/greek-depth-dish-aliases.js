@@ -42,7 +42,7 @@ export const greekDepthDishAliases = [
   ...aliases("vegan-moussaka", ["vegan moussaka", "veganistische moussaka", "plant-based moussaka", "纯素希腊茄子烤菜"]),
   ...aliases("vegetarian-souvlaki", ["vegetarische souvlaki", "vegetarian souvlaki", "veggie souvlaki", "vegetable souvlaki", "素食希腊烤串"]),
   ...aliases("souvlaki", ["kipsouvlaki", "kip souvlaki", "chicken souvlaki", "varkenssouvlaki", "varkens souvlaki", "pork souvlaki"]),
-  ...aliases("greek-restaurant-sides", ["friet", "frieten", "greek fries", "geroosterde aardappels", "roasted potatoes", "seizoensgroenten", "seasonal vegetables", "rijst in tomatensaus", "tomato rice", "kleine groene salade", "small green salad"]),
+  ...aliases("greek-restaurant-sides", ["friet", "frieten", "greek fries", "seizoensgroenten", "seasonal vegetables", "rijst in tomatensaus", "tomato rice", "kleine groene salade", "small green salad"]),
   ...aliases("kids-fried-menu-items", ["kindermenu gefrituurd", "kids fried menu", "儿童炸物菜单项"]),
   ...aliases("kids-chicken-nuggets", ["kipnuggets", "chicken nuggets", "kids chicken nuggets", "儿童鸡块"]),
   ...aliases("fried-meatballs-kids", ["gefrituurde gehaktballetjes", "fried meatballs", "kids meatballs", "炸肉丸"]),

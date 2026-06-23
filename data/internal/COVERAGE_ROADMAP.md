@@ -8,9 +8,9 @@ Verified metadata is the source of truth. It should be curated for high-frequenc
 
 Current verified starter database:
 
-- 1128 verified dishes
+- 1136 verified dishes
 - 28 cuisines
-- 3296 verified aliases
+- 3357 verified aliases
 
 Recent depth progress:
 
@@ -31,6 +31,7 @@ Recent depth progress:
 - Real Menu Miss Batch 047 accepted 8 stable Greek/French real-menu misses: `bekri-mezes`, `arnaki-tigania`, `fromage-blanc-dessert`, `religieuse`, `tarte-amandine`, `cafe-gourmand`, `chocolat-liegeois`, and `cafe-liegeois`. It also mapped `cheese platter` / `cheese plate` / `assiette de fromages` to existing `plateau-de-fromages`. Generic proteins, drinks, and one-off dessert names stayed out. Verified export is now 1118 dishes / 3219 aliases.
 - Real Menu Miss Batch 048 accepted 2 stable items from the remaining backlog: Spanish `almendras-fritas` and French regional `murcon-aux-ravioles`. It also remapped explicit Belgian tartare aliases to existing `filet-americain` instead of creating duplicate `beef-tartare-belgian`. Bokit, Accra, and Coconut pie stayed deferred until DishKAI has an appropriate Caribbean/French-Caribbean cuisine taxonomy. Verified export is now 1120 dishes / 3238 aliases.
 - General Batch 001 added a new verified `general` cuisine for stable cross-restaurant dishes and sides that are more specific than universal fallback cards: `coleslaw`, `corn-on-the-cob`, `garlic-bread`, `onion-rings`, `mashed-potatoes`, `mixed-vegetables`, `grilled-vegetables`, and `side-rice`. It uses group `00` dish metadata codes (`100001`-`100008`) with generated restaurant-realistic code-stamped assets. Verified export is now 1128 dishes / 3296 aliases across 28 cuisines.
+- General Batch 002 added eight more verified `general` dishes: `potato-wedges`, `roasted-potatoes`, `baked-potato`, `tomato-soup`, `cream-of-mushroom-soup`, `mozzarella-sticks`, `garlic-mushrooms`, and `baked-beans`. It uses group `00` dish metadata codes (`100009`-`100016`), generated restaurant-realistic code-stamped assets, and narrow English/Dutch/Chinese aliases. The old overbroad `roasted potatoes` mapping was removed from `greek-restaurant-sides` so the verified general card owns that exact dish. Verified export is now 1136 dishes / 3357 aliases across 28 cuisines.
 
 Next verified coverage targets:
 
