@@ -1,4 +1,4 @@
-const APP_VERSION = "DishKAI v0.2.30-public-beta";
+const APP_VERSION = "DishKAI v0.2.31-public-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
 const USAGE_COUNT_KEY = "dishkai-local-usage-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
@@ -139,7 +139,7 @@ function renderAppMeta() {
   const visitCount = Number(localStorage.getItem(VISIT_COUNT_KEY) || 0);
   const usageCount = Number(localStorage.getItem(USAGE_COUNT_KEY) || 0);
   if ($("#appVersion")) $("#appVersion").textContent = APP_VERSION;
-  if ($("#footerVersion")) $("#footerVersion").textContent = APP_VERSION;
+  if ($("#footerVersion")) $("#footerVersion").textContent = APP_VERSION.replace(/^DishKAI\s+/, "");
   if ($("#visitCount")) $("#visitCount").textContent = `${t("visitCountLabel")}: ${visitCount}`;
   if ($("#footerVisitTotal")) $("#footerVisitTotal").textContent = String(visitCount);
   if ($("#footerUsageTotal")) $("#footerUsageTotal").textContent = String(usageCount);
