@@ -1,4 +1,4 @@
-const APP_VERSION = "DishKAI v0.2.29-public-beta";
+const APP_VERSION = "DishKAI v0.2.30-public-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
 const USAGE_COUNT_KEY = "dishkai-local-usage-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";

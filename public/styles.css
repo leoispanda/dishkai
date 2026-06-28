@@ -1645,11 +1645,104 @@ input[type="file"] {
 }
 
 .footer-main {
-  grid-template-columns: minmax(160px, 0.5fr) minmax(260px, 1fr) minmax(140px, 0.38fr) minmax(180px, 0.5fr);
+  grid-template-columns: auto minmax(280px, 1fr) auto auto;
+  align-items: center;
+  gap: 18px;
+}
+
+.footer {
+  padding: 18px clamp(18px, 3vw, 30px);
+  border-radius: 28px;
+}
+
+.footer-brand,
+.footer-contact,
+.footer-disclaimer {
+  align-items: center;
+  align-content: center;
+}
+
+.footer-brand {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-logo {
+  font-size: 18px;
+}
+
+.footer-version,
+.footer-contact a,
+.footer-disclaimer summary {
+  min-height: 36px;
+  border-color: rgba(255, 130, 20, 0.18);
+  background: rgba(255, 250, 243, 0.54);
+  color: rgba(171, 78, 11, 0.9);
+  padding: 0 14px;
+  font-size: 13px;
+  font-weight: 820;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.72) inset,
+    0 10px 24px rgba(112, 46, 0, 0.06);
+}
+
+.footer-summary {
+  max-width: none;
+  justify-self: center;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.footer-summary span:first-child {
+  color: rgba(21, 15, 10, 0.78);
+  font-size: 15px;
+  font-weight: 760;
 }
 
 .footer-summary span:last-child {
   display: none;
+}
+
+.footer-contact strong {
+  display: none;
+}
+
+.footer-contact a {
+  min-width: 156px;
+  justify-content: center;
+  color: #ff6b00;
+}
+
+.footer-disclaimer {
+  position: relative;
+  width: auto;
+  justify-self: end;
+}
+
+.footer-disclaimer summary {
+  gap: 10px;
+  font-size: 13px;
+  padding: 0 8px 0 14px;
+}
+
+.footer-disclaimer summary::after {
+  width: 22px;
+  height: 22px;
+  border-color: rgba(255, 130, 20, 0.18);
+  background: rgba(255, 255, 255, 0.54);
+  font-size: 14px;
+}
+
+.footer-disclaimer-body {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 12px);
+  z-index: 5;
+  width: min(620px, calc(100vw - 48px));
+  text-align: left;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.76) inset,
+    0 22px 62px rgba(112, 46, 0, 0.16);
 }
 
 .footer-stats {
@@ -1801,11 +1894,37 @@ input[type="file"] {
 
   .footer {
     width: min(100vw - 18px, 620px);
+    padding: 16px;
   }
 
   .footer-main {
     grid-template-columns: 1fr;
-    gap: 12px;
+    gap: 10px;
+    justify-items: stretch;
+  }
+
+  .footer-brand {
+    justify-content: space-between;
+  }
+
+  .footer-summary {
+    justify-self: stretch;
+    text-align: left;
+  }
+
+  .footer-contact a,
+  .footer-disclaimer summary {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .footer-disclaimer {
+    justify-self: stretch;
+  }
+
+  .footer-disclaimer-body {
+    position: static;
+    width: auto;
   }
 
   .footer-contact,
