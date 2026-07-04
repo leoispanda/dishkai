@@ -1673,10 +1673,13 @@ input[type="file"] {
 
 .footer-contact a,
 .footer-disclaimer summary {
+  --footer-action: #ff6b00;
+  --footer-action-bg: rgba(255, 250, 243, 0.58);
+  --footer-action-border: rgba(255, 130, 20, 0.2);
   min-height: 36px;
-  border-color: rgba(255, 130, 20, 0.18);
-  background: rgba(255, 250, 243, 0.54);
-  color: rgba(171, 78, 11, 0.9);
+  border-color: var(--footer-action-border);
+  background: var(--footer-action-bg);
+  color: var(--footer-action);
   padding: 0 14px;
   font-size: 13px;
   font-weight: 820;
@@ -1724,7 +1727,6 @@ input[type="file"] {
 .footer-contact a {
   min-width: 156px;
   justify-content: center;
-  color: #ff6b00;
 }
 
 .footer-disclaimer {
@@ -1742,8 +1744,9 @@ input[type="file"] {
 .footer-disclaimer summary::after {
   width: 22px;
   height: 22px;
-  border-color: rgba(255, 130, 20, 0.18);
-  background: rgba(255, 255, 255, 0.54);
+  border-color: var(--footer-action-border);
+  background: rgba(255, 255, 255, 0.58);
+  color: var(--footer-action);
   font-size: 14px;
 }
 
@@ -1893,13 +1896,19 @@ input[type="file"] {
     min-height: 48px;
   }
 
-  .menu-card-button,
-  .menu-card-button.has-thumb {
+  .menu-card-button {
     grid-template-columns: 32px minmax(0, 1fr) 16px;
   }
 
+  .menu-card-button.has-thumb {
+    grid-template-columns: 32px 58px minmax(0, 1fr) 16px;
+    gap: 9px;
+  }
+
   .menu-card-thumb {
-    display: none;
+    display: block;
+    width: 58px;
+    border-radius: 14px;
   }
 
   .legal-gate {
