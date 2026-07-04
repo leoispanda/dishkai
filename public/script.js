@@ -1,4 +1,4 @@
-const APP_VERSION = "DishKAI v0.2.33-public-beta";
+const APP_VERSION = "DishKAI v0.2.34-public-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
 const USAGE_COUNT_KEY = "dishkai-local-usage-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
@@ -98,6 +98,7 @@ const translations = {
 let uiLang = localStorage.getItem("dishkai-ui-lang") || "en";
 let inputMode = "text";
 let latestResult = null;
+let expandedOrderIndex = null;
 let pdcState = loadPdcState();
 let privateAccessGranted = false;
 
@@ -431,9 +432,9 @@ async function analyzeImage() {
 }
 
 function renderAnalysis(result) {
+  expandedOrderIndex = null;
   renderSummary(result);
   renderVisualMenu(result.items || []);
-  resetKnowledgeCard();
 }
 
 function renderSummary(result) {
@@ -463,6 +464,8 @@ function renderVisualMenu(items) {
     const thumbPath = safeImagePath(card.thumbPath || card.imagePath);
     const thumbMarkup = thumbPath ? `<span class="menu-card-thumb" aria-hidden="true"><img src="${escapeAttribute(thumbPath)}" alt="" loading="lazy"></span>` : "";
     const tags = (card.iconTags || []).slice(0, 5).map((tag) => `<span class="icon-tag" title="${escapeHtml(tag.label)}">${tag.icon ? `${tag.icon} ` : ""}${escapeHtml(tag.label)}</span>`).join("");
+    const detailId = `dish-detail-${String(item.orderIndex).replace(/[^a-zA-Z0-9_-]/g, "-")}`;
+    const isExpanded = String(item.orderIndex) === String(expandedOrderIndex);
     const statusLabel = item.matchStatus === "matched"
       ? t("tapForDetails")
       : item.matchStatus === "universal"
@@ -471,8 +474,8 @@ function renderVisualMenu(items) {
           ? t("aiGenerated")
           : t("tapForEstimate");
     return `
-      <article class="menu-card ${item.matchStatus}" data-order-index="${item.orderIndex}">
-        <button class="menu-card-button ${thumbPath ? "has-thumb" : "no-thumb"}" type="button" data-open-card="${item.orderIndex}">
+      <article class="menu-card ${item.matchStatus} ${isExpanded ? "expanded" : ""}" data-order-index="${item.orderIndex}">
+        <button class="menu-card-button ${thumbPath ? "has-thumb" : "no-thumb"}" type="button" data-open-card="${item.orderIndex}" aria-expanded="${isExpanded ? "true" : "false"}" aria-controls="${escapeAttribute(detailId)}">
           <span class="order-index">${item.orderIndex}</span>
           ${thumbMarkup}
           <div class="menu-card-copy">
@@ -482,24 +485,21 @@ function renderVisualMenu(items) {
             <small>${statusLabel}</small>
           </div>
         </button>
+        ${isExpanded ? `<div id="${escapeAttribute(detailId)}" class="inline-knowledge-card">${renderKnowledgeCardMarkup(item)}</div>` : ""}
       </article>
     `;
   }).join("");
   grid.querySelectorAll("[data-open-card]").forEach((button) => {
     button.addEventListener("click", () => {
       const item = items.find((entry) => String(entry.orderIndex) === button.dataset.openCard);
-      if (item) renderKnowledgeCard(item);
-      $("#knowledge-card").scrollIntoView({ behavior: "smooth", block: "start" });
+      if (!item) return;
+      expandedOrderIndex = String(expandedOrderIndex) === String(item.orderIndex) ? null : item.orderIndex;
+      renderVisualMenu(items);
     });
   });
 }
 
-function resetKnowledgeCard() {
-  $("#dishCard").className = "knowledge-card empty";
-  $("#dishCard").innerHTML = `<p>${t("emptyCard")}</p>`;
-}
-
-function renderKnowledgeCard(item) {
+function renderKnowledgeCardMarkup(item) {
   const card = item.card || {};
   const imagePath = safeImagePath(card.imagePath);
   const composition = (card.composition || []).map((part) => `
@@ -509,8 +509,8 @@ function renderKnowledgeCard(item) {
   const variations = renderVariations(card.commonVariations);
   const unverified = card.verified === false && card.metadataSource === "ai-fallback" ? `<p class="notice">${t("aiGenerated")}</p>` : "";
   const universalNotice = card.verified === false && card.metadataSource === "universal-generic" ? `<p class="notice">${t("universalGuidance")}</p>` : "";
-  $("#dishCard").className = "knowledge-card";
-  $("#dishCard").innerHTML = `
+  return `
+    <div class="knowledge-card">
     <div class="knowledge-image">${imagePath ? `<img src="${escapeAttribute(imagePath)}" alt="" loading="lazy">` : ""}</div>
     <div class="knowledge-copy">
       <p class="eyebrow">${escapeHtml(card.cuisineName || item.matchStatus)}</p>
@@ -533,6 +533,7 @@ function renderKnowledgeCard(item) {
         <div><dt>${t("disclaimer")}</dt><dd>${escapeHtml(card.visualDisclaimer || "")}</dd></div>
       </dl>
       <div class="icon-row">${tags}</div>
+    </div>
     </div>
   `;
 }

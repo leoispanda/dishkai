@@ -413,6 +413,9 @@ select, input { min-height: 46px; }
   background: rgba(255, 255, 255, 0.78);
   box-shadow: 0 16px 34px rgba(31, 40, 35, 0.1);
 }
+.menu-card.expanded:hover {
+  transform: none;
+}
 .menu-card.universal { border-color: rgba(184, 122, 55, 0.34); background: rgba(255, 248, 238, 0.66); }
 .menu-card.unmatched { border-style: dashed; background: rgba(255, 255, 255, 0.44); }
 .menu-card-button {
@@ -476,6 +479,22 @@ select, input { min-height: 46px; }
 .menu-card h3 { font-size: 18px; line-height: 1.12; }
 .menu-card p, .menu-card small { margin: 0; color: var(--muted); }
 .menu-card small { font-weight: 700; }
+.inline-knowledge-card {
+  border-top: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.36);
+}
+.inline-knowledge-card .knowledge-card {
+  position: relative;
+  top: auto;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+.inline-knowledge-card .knowledge-image {
+  height: clamp(220px, 28vw, 340px);
+}
 .icon-row { display: flex; flex-wrap: wrap; gap: 6px; }
 .icon-tag {
   display: inline-flex;
@@ -530,6 +549,7 @@ select, input { min-height: 46px; }
   grid-row: 1 / span 2;
   padding: 0;
 }
+.knowledge-section[hidden] { display: none; }
 .knowledge-card.empty { display: block; color: var(--muted); min-height: 220px; box-shadow: var(--shadow-soft); }
 .knowledge-image {
   min-height: auto;
@@ -1235,8 +1255,7 @@ body {
   padding: clamp(10px, 2vh, 22px) 0 56px;
   grid-template-columns: minmax(390px, 0.95fr) minmax(480px, 1.05fr);
   grid-template-areas:
-    "hero list"
-    "hero card";
+    "hero list";
   gap: 18px 46px;
   align-items: start;
 }
@@ -1455,11 +1474,19 @@ input[type="file"] {
   background: rgba(255, 255, 255, 0.58);
   box-shadow: 0 14px 34px rgba(112, 46, 0, 0.1);
 }
+.menu-card.expanded {
+  border-color: rgba(255, 122, 18, 0.4);
+  background: rgba(255, 255, 255, 0.58);
+}
 
 .menu-card-button {
   grid-template-columns: 36px minmax(0, 1fr) 18px;
   padding: 12px 14px;
   align-items: center;
+}
+.menu-card.expanded .menu-card-button {
+  height: auto;
+  border-bottom: 1px solid rgba(86, 54, 32, 0.1);
 }
 
 .menu-card-button::after {
@@ -1467,6 +1494,11 @@ input[type="file"] {
   color: rgba(21, 15, 10, 0.42);
   font-size: 30px;
   line-height: 1;
+  transition: transform 160ms ease;
+}
+
+.menu-card.expanded .menu-card-button::after {
+  transform: rotate(90deg);
 }
 
 .menu-card-button.has-thumb {
@@ -1492,6 +1524,25 @@ input[type="file"] {
 
 .menu-card p {
   display: none;
+}
+
+.menu-card .inline-knowledge-card p {
+  display: block;
+}
+
+.inline-knowledge-card {
+  border-top-color: rgba(255, 255, 255, 0.52);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.3), rgba(255, 246, 236, 0.2)),
+    rgba(255, 255, 255, 0.24);
+}
+
+.inline-knowledge-card .knowledge-card {
+  padding: 16px;
+}
+
+.inline-knowledge-card .knowledge-copy h3 {
+  font-size: clamp(27px, 3.2vw, 38px);
 }
 
 .icon-row {
@@ -1777,8 +1828,7 @@ input[type="file"] {
     grid-template-columns: 1fr;
     grid-template-areas:
       "hero"
-      "list"
-      "card";
+      "list";
     gap: 14px;
   }
 
@@ -1909,6 +1959,19 @@ input[type="file"] {
     display: block;
     width: 58px;
     border-radius: 14px;
+  }
+
+  .inline-knowledge-card .knowledge-card {
+    padding: 14px;
+  }
+
+  .inline-knowledge-card .knowledge-image {
+    height: clamp(210px, 56vw, 300px);
+    border-radius: 18px;
+  }
+
+  .inline-knowledge-card .knowledge-copy h3 {
+    font-size: clamp(27px, 8vw, 36px);
   }
 
   .legal-gate {
