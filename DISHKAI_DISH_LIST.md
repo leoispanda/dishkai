@@ -3,7 +3,7 @@
 Generated from data/internal/index.js after the verified database quarantine audit.
 
 - Total verified dishes: 1155
-- Total aliases: 3531
+- Total aliases: 3368
 - Total cuisines: 28
 - Generated layers remain quarantined except for rows restored through a documented human audit batch.
 

@@ -1,4 +1,4 @@
-const APP_VERSION = "DishKAI v0.2.34-public-beta";
+const APP_VERSION = "DishKAI v0.2.35-public-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
 const USAGE_COUNT_KEY = "dishkai-local-usage-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
@@ -99,8 +99,9 @@ let uiLang = localStorage.getItem("dishkai-ui-lang") || "en";
 let inputMode = "text";
 let latestResult = null;
 let expandedOrderIndex = null;
-let pdcState = loadPdcState();
+let pdcState = { rounds: [] };
 let privateAccessGranted = false;
+let privateToolsInitialized = false;
 
 const $ = (selector) => document.querySelector(selector);
 
@@ -148,8 +149,17 @@ function renderAppMeta() {
 
 function setMode(mode) {
   inputMode = mode;
-  document.querySelectorAll("[data-mode]").forEach((button) => button.classList.toggle("active", button.dataset.mode === mode));
-  document.querySelectorAll("[data-input-panel]").forEach((panel) => panel.classList.toggle("active", panel.dataset.inputPanel === mode));
+  document.querySelectorAll("[data-mode]").forEach((button) => {
+    const active = button.dataset.mode === mode;
+    button.classList.toggle("active", active);
+    button.setAttribute("aria-selected", String(active));
+    button.tabIndex = active ? 0 : -1;
+  });
+  document.querySelectorAll("[data-input-panel]").forEach((panel) => {
+    const active = panel.dataset.inputPanel === mode;
+    panel.classList.toggle("active", active);
+    panel.hidden = !active;
+  });
 }
 
 function setStatus(message, tone = "") {
@@ -221,12 +231,20 @@ function setPrivateAccess(granted) {
   document.querySelectorAll("#privateLogoutTop").forEach((element) => {
     element.hidden = !privateAccessGranted;
   });
+  const openPdcButton = $("#openPdcButton");
+  if (openPdcButton) {
+    openPdcButton.hidden = !privateAccessGranted;
+    openPdcButton.setAttribute("aria-hidden", String(!privateAccessGranted));
+    openPdcButton.tabIndex = privateAccessGranted ? 0 : -1;
+  }
   document.querySelectorAll("#pdcForm input, #pdcForm textarea, #pdcForm select, #pdcForm button, #pdcInterventionForm textarea, #pdcInterventionForm button").forEach((element) => {
     element.disabled = !privateAccessGranted;
   });
   setStatus("");
   updateLegalGate();
   if (wasGranted && !privateAccessGranted) clearPrivateLocalData();
+  if (privateAccessGranted && window.location.hash === "#personal-pdc") openPdcRoom();
+  if (!privateAccessGranted && $("#personal-pdc")) $("#personal-pdc").hidden = true;
 }
 
 function legalAccepted() {
@@ -321,8 +339,10 @@ async function compressMenuImage(file) {
 async function checkPrivateAccess() {
   try {
     const { result } = await fetchJson("/api/private-status", { cache: "no-store" });
-    setPrivateAccess(Boolean(result.authenticated));
-    setPrivateStatus(result.authenticated ? t("privateUnlocked") : t("privateLocked"), result.authenticated ? "" : "error");
+    const authenticated = Boolean(result.authenticated);
+    if (result.ok && !authenticated) clearPrivateLocalData();
+    setPrivateAccess(authenticated);
+    setPrivateStatus(authenticated ? t("privateUnlocked") : t("privateLocked"), authenticated ? "" : "error");
   } catch {
     setPrivateAccess(false);
     setPrivateStatus(t("privateLocked"), "error");
@@ -367,8 +387,28 @@ async function logoutPrivateAccess() {
 
 function clearPrivateLocalData() {
   localStorage.removeItem("dishkai-pdc-state");
+  localStorage.removeItem("personalPdcCustomGroups");
   pdcState = { rounds: [] };
+  ["#pdcTopic", "#pdcContext", "#pdcIntervention"].forEach((selector) => {
+    const field = $(selector);
+    if (field) field.value = "";
+  });
+  if (privateToolsInitialized) {
+    renderPdcRoleCards([]);
+    updatePdcDiscussionUi();
+  }
   renderPdcRounds();
+}
+
+async function initializePrivateTools() {
+  updatePrivateAccessVisibility();
+  if (privateToolsInitialized || !shouldShowPrivateAccessPanel()) return;
+  privateToolsInitialized = true;
+  pdcState = loadPdcState();
+  renderPdcRoleCards();
+  updatePdcDiscussionUi();
+  renderPdcRounds();
+  await checkPrivateAccess();
 }
 
 async function analyzeText() {
@@ -642,6 +682,10 @@ function setPdcStatus(message, tone = "") {
 }
 
 function openPdcRoom() {
+  if (!privateAccessGranted) {
+    updatePrivateAccessVisibility();
+    return;
+  }
   const section = $("#personal-pdc");
   section.hidden = false;
   restorePdcGroupingSettings();
@@ -975,6 +1019,16 @@ document.querySelectorAll("[data-ui-lang]").forEach((button) => {
 
 document.querySelectorAll("[data-mode]").forEach((button) => {
   button.addEventListener("click", () => setMode(button.dataset.mode));
+  button.addEventListener("keydown", (event) => {
+    if (!["ArrowLeft", "ArrowRight"].includes(event.key)) return;
+    const buttons = [...document.querySelectorAll("[data-mode]")];
+    const currentIndex = buttons.indexOf(button);
+    const direction = event.key === "ArrowRight" ? 1 : -1;
+    const nextButton = buttons[(currentIndex + direction + buttons.length) % buttons.length];
+    event.preventDefault();
+    setMode(nextButton.dataset.mode);
+    nextButton.focus();
+  });
 });
 
 $("#menuForm").addEventListener("submit", (event) => {
@@ -1018,16 +1072,18 @@ $("#privateAccessForm")?.addEventListener("submit", submitPrivateAccess);
 $("#clearRecentScans")?.addEventListener("click", clearRecentScans);
 $("#privateLogout")?.addEventListener("click", logoutPrivateAccess);
 $("#privateLogoutTop")?.addEventListener("click", logoutPrivateAccess);
-window.addEventListener("hashchange", updatePrivateAccessVisibility);
+window.addEventListener("hashchange", () => {
+  updatePrivateAccessVisibility();
+  void initializePrivateTools();
+});
 $("#enterAppButton")?.addEventListener("click", enterApp);
 if ($("#legalAccepted")) {
   $("#legalAccepted").checked = localStorage.getItem(LEGAL_ACCEPTED_KEY) === "true";
   $("#legalAccepted").addEventListener("change", updateLegalGate);
 }
-renderPdcRoleCards();
-updatePdcDiscussionUi();
 renderLegalStep();
 
 incrementVisitCount();
 applyLanguage();
-checkPrivateAccess();
+updatePrivateAccessVisibility();
+void initializePrivateTools();

@@ -1,4 +1,4 @@
-import { json } from "../_shared/menu-analysis.js";
+import { json } from "../_shared/http.js";
 import { runPdcRound } from "../_shared/pdc-engine.js";
 import { checkRateLimit, readJsonBody, requirePrivateSession, requireSameOrigin, securityHeaders } from "../_shared/security.js";
 

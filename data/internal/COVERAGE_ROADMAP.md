@@ -10,7 +10,7 @@ Current verified starter database:
 
 - 1155 verified dishes
 - 28 cuisines
-- 3531 verified aliases
+- 3368 normalized, conflict-free verified aliases
 
 Recent depth progress:
 
@@ -34,6 +34,7 @@ Recent depth progress:
 - General Batch 002 added eight more verified `general` dishes: `potato-wedges`, `roasted-potatoes`, `baked-potato`, `tomato-soup`, `cream-of-mushroom-soup`, `mozzarella-sticks`, `garlic-mushrooms`, and `baked-beans`. It uses group `00` dish metadata codes (`100009`-`100016`), generated restaurant-realistic code-stamped assets, and narrow English/Dutch/Chinese aliases. The old overbroad `roasted potatoes` mapping was removed from `greek-restaurant-sides` so the verified general card owns that exact dish. Verified export is now 1136 dishes / 3357 aliases across 28 cuisines.
 - AI Generated Backlog Batch 049 accepted nine stable items from the live AI-generated backlog: Spanish `chorizo-tapas` plus general `smoothie-bowl`, `ice-cream-sundae`, `fruit-sorbet-plate`, `applesauce-side`, `chicken-skewer`, `chicken-fillet-mushroom-sauce`, `lamb-chops`, and `sole-fillet`. It also added safe alias fixes for existing verified `cilbir`, `satay-ayam`, `fried-chicken-american`, `plateau-de-fromages`, and `pan-con-tomate`, while keeping `cheesecake`, `beef tenderloin`, `pork tenderloin`, `lamb fillet`, and white-chocolate dessert requests in the universal fallback layer. Verified export is now 1145 dishes / 3444 aliases across 28 cuisines.
 - General Batch 003 added ten more verified `general` dishes: `waffles`, `grilled-salmon`, `mixed-grill`, `tuna-salad`, `chicken-wings`, `roast-chicken`, `side-salad`, `fruit-salad`, `cheesecake`, and `chocolate-cake`. It uses group `00` dish metadata codes (`100025`-`100034`), generated restaurant-realistic code-stamped assets, and narrow English/Dutch/Chinese aliases plus Greek salmon menu names. Exact `grilled salmon`, `zalm`, `solomos`, `mixed grill`, `roast chicken`, `side salad`, and `cheesecake` terms now prefer verified general cards, while broad `salad`, `dessert`, `cake`, and `grilled chicken` stay universal. Verified export is now 1155 dishes / 3531 aliases across 28 cuisines.
+- Alias Safety Pass 2026-07-10 kept 1155 verified dishes while reducing the runtime export to 3368 normalized aliases. It removed redundant case/source duplicates, resolved 23 known cross-dish names to one explicit canonical owner, quarantined the generic Chinese aliases `血肠`, `葡萄叶米卷`, and `酿辣椒`, and added matching regression checks so future conflicts fail validation.
 
 Next verified coverage targets:
 

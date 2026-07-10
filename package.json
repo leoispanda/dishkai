@@ -1,12 +1,13 @@
 {
   "name": "dishkai",
-  "version": "0.2.34",
+  "version": "0.2.35",
   "private": true,
   "type": "module",
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
     "validate:metadata": "node scripts/validate-metadata.mjs",
+    "check:menu-matching": "node scripts/check-menu-matching.mjs",
     "audit:verified-dishes": "node scripts/audit-verified-dishes.mjs",
     "check:dish-assets": "node scripts/check-dish-assets.mjs",
     "dev:cloudflare": "wrangler pages dev public",

@@ -1,8 +1,10 @@
-import { MAX_MENU_IMAGE_BYTES, analyzeMenuImage, json } from "../_shared/menu-analysis.js";
+import { json, readBoundedFormData } from "../_shared/http.js";
+import { MAX_MENU_IMAGE_REQUEST_BYTES, analyzeMenuImage } from "../_shared/menu-analysis.js";
 import { checkRateLimit, requireSameOrigin, securityHeaders } from "../_shared/security.js";
 import { recordUnmatchedDishes } from "../_shared/unmatched-dishes.js";
 
-export async function onRequestPost({ request, env }) {
+export async function onRequestPost(context) {
+  const { request, env } = context;
   try {
     const crossOrigin = requireSameOrigin(request, json);
     if (crossOrigin) return crossOrigin;
@@ -10,16 +12,7 @@ export async function onRequestPost({ request, env }) {
     const limited = checkRateLimit(request, json, "analyze-menu-image", 10, 60_000);
     if (limited) return limited;
 
-    const contentLength = Number(request.headers.get("Content-Length") || 0);
-    if (Number.isFinite(contentLength) && contentLength > MAX_MENU_IMAGE_BYTES + 2048) {
-      return json({
-        ok: false,
-        error: "IMAGE_TOO_LARGE",
-        message: "Image is too large. Please upload a smaller menu photo.",
-      }, 413, securityHeaders());
-    }
-
-    const formData = await request.formData().catch(() => null);
+    const formData = await readBoundedFormData(request, MAX_MENU_IMAGE_REQUEST_BYTES);
     const image = formData?.get("image");
     const result = await analyzeMenuImage({
       image,
@@ -27,14 +20,14 @@ export async function onRequestPost({ request, env }) {
       targetLanguage: formData?.get("targetLanguage") || "en",
       env,
     });
-    if (result.ok) await recordUnmatchedDishes({ result, env, sourceType: "image" });
+    if (result.ok) context.waitUntil(recordUnmatchedDishes({ result, env, sourceType: "image" }));
     return json(result, result.ok ? 200 : result.statusCode || 400, securityHeaders());
   } catch (error) {
     return json({
       ok: false,
       error: error?.code || "IMAGE_ENDPOINT_FAILED",
       message: error?.message || "Menu photo analysis failed before it could return a normal response.",
-    }, 500, securityHeaders());
+    }, error?.statusCode || 500, securityHeaders());
   }
 }
 

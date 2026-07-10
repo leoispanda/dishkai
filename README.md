@@ -22,12 +22,14 @@ Text input works with starter metadata. Image analysis uses the server-side Open
 
 ## Metadata coverage
 
-DishKAI's internal verified metadata currently includes 931 dishes and 2713 aliases across 27 registered cuisine groups. Every registered cuisine now has at least 30 verified dishes after strict re-audit; Italian and French have optional 60-dish depth coverage, British-Irish and Portuguese have additional reviewed depth, and generated expansion layers remain quarantined unless a row is restored through a documented <=30-dish review batch with dish-specific metadata and verified visual assets.
+DishKAI's internal verified metadata currently includes 1155 dishes and 3368 normalized, conflict-free aliases across 28 registered cuisine groups. Every registered cuisine has at least 30 verified dishes after strict re-audit; optional depth remains available only where rows passed the same dish-specific metadata and image gate. Generated expansion layers remain quarantined unless a row is restored through a documented <=30-dish review batch.
 
 Validate metadata integrity with:
 
 ```bash
 npm run validate:metadata
+npm run check:menu-matching
+npm run check:dish-assets
 ```
 
 ## Cloudflare Pages
@@ -87,6 +89,8 @@ Privacy and misuse protections:
 - The local Node dev server serves static files from `public/` only, so source files and local configuration are not exposed by static routes.
 - DishKAI currently does not enforce a shared daily public quota; the footer only gives a simple approximate API-cost note for AI scans.
 - The private access-code panel is hidden from the normal public app page. Internal testing can reveal it with `?internal=1`, while backend private APIs remain protected.
+- Public page loads do not call private-session or PDC endpoints unless an internal URL is explicitly opened.
+- Menu image request bodies are stream-bounded before multipart parsing; the accepted upload formats are JPEG, PNG, WebP, and GIF.
 
 For local Wrangler testing, Workers AI may require:
 

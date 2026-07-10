@@ -1,7 +1,7 @@
 import { createServer } from "node:http";
 import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { dirname, extname, join, normalize, resolve, sep } from "node:path";
-import { MAX_MENU_IMAGE_BYTES, analyzeMenuImage, analyzeMenuText } from "./functions/_shared/menu-analysis.js";
+import { MAX_MENU_IMAGE_REQUEST_BYTES, analyzeMenuImage, analyzeMenuText } from "./functions/_shared/menu-analysis.js";
 import { runPdcRound } from "./functions/_shared/pdc-engine.js";
 import {
   checkRateLimit,
@@ -139,7 +139,7 @@ const server = createServer(async (request, response) => {
       const limited = checkRateLimit(webRequest, localJson, "analyze-menu-image", 10, 60_000);
       if (limited) return sendWebJson(response, limited);
 
-      const formData = await readMultipartFormData(request, url, MAX_MENU_IMAGE_BYTES + 2048);
+      const formData = await readMultipartFormData(request, url, MAX_MENU_IMAGE_REQUEST_BYTES);
       const result = await analyzeMenuImage({
         image: formData.get("image"),
         sourceLanguage: formData.get("sourceLanguage") || "auto",

@@ -1,6 +1,7 @@
 const SESSION_COOKIE = "dishkai_session";
 const SESSION_TTL_SECONDS = 60 * 60 * 24 * 7;
 const DEFAULT_JSON_BODY_LIMIT_BYTES = 64 * 1024;
+const MAX_RATE_BUCKETS = 5000;
 const rateBuckets = new Map();
 
 export function securityHeaders() {
@@ -91,6 +92,7 @@ export function checkRateLimit(request, json, scope, limit = 20, windowMs = 60_0
   const bucket = rateBuckets.get(key);
 
   if (!bucket || bucket.resetAt <= now) {
+    if (rateBuckets.size >= MAX_RATE_BUCKETS) pruneRateBuckets(now);
     rateBuckets.set(key, { count: 1, resetAt: now + windowMs });
     return null;
   }
@@ -105,6 +107,17 @@ export function checkRateLimit(request, json, scope, limit = 20, windowMs = 60_0
     ...securityHeaders(),
     "Retry-After": String(Math.ceil((bucket.resetAt - now) / 1000)),
   });
+}
+
+function pruneRateBuckets(now) {
+  for (const [key, bucket] of rateBuckets) {
+    if (bucket.resetAt <= now) rateBuckets.delete(key);
+  }
+  while (rateBuckets.size >= MAX_RATE_BUCKETS) {
+    const oldestKey = rateBuckets.keys().next().value;
+    if (oldestKey === undefined) break;
+    rateBuckets.delete(oldestKey);
+  }
 }
 
 export async function readJsonBody(request, json, maxBytes = DEFAULT_JSON_BODY_LIMIT_BYTES) {

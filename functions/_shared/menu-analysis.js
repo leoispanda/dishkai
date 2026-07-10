@@ -6,7 +6,9 @@ export const DEFAULT_OPENAI_MODEL = "gpt-5.4-mini";
 
 const MAX_MENU_TEXT_LENGTH = 12000;
 export const MAX_MENU_IMAGE_BYTES = 8 * 1024 * 1024;
+export const MAX_MENU_IMAGE_REQUEST_BYTES = MAX_MENU_IMAGE_BYTES + 32 * 1024;
 const AI_FALLBACK_MAX_ITEMS = 30;
+const OPENAI_REQUEST_TIMEOUT_MS = 45_000;
 const OPENAI_CHAT_COMPLETIONS_URL = "https://api.openai.com/v1/chat/completions";
 const SUPPORTED_IMAGE_TYPES = new Set(["image/jpeg", "image/png", "image/webp", "image/gif"]);
 const CHEF_SPECIAL_IMAGE_PATH = "/assets/dishes/fallback/chef-special-pasta.webp";
@@ -173,13 +175,6 @@ function jsonSafeText(value, maxLength = 400) {
   return String(value || "").trim().slice(0, maxLength);
 }
 
-export function json(data, status = 200, headers = {}) {
-  return new Response(JSON.stringify(data), {
-    status,
-    headers: { "Content-Type": "application/json; charset=utf-8", ...headers },
-  });
-}
-
 export function normalizeName(value) {
   return String(value || "")
     .toLowerCase()
@@ -209,6 +204,12 @@ const aliasIndex = metadata.dishAliases.map((alias) => ({
   ...alias,
   normalizedAlias: normalizeName(alias.alias),
 }));
+const partialAliasIndex = aliasIndex
+  .filter((alias) => alias.normalizedAlias.length >= 6)
+  .sort((left, right) => (
+    right.normalizedAlias.length - left.normalizedAlias.length
+    || Number(right.confidence || 0) - Number(left.confidence || 0)
+  ));
 const universalAliasIndex = universalMenuItems.flatMap((item) =>
   item.aliases.map((alias) => ({
     item,
@@ -290,7 +291,7 @@ function hasOpenAiApiKey(env) {
 }
 
 async function runOpenAiJson(prompt, env, { maxTokens = 1200, temperature = 0.1, responseFormat } = {}) {
-  const response = await fetch(OPENAI_CHAT_COMPLETIONS_URL, {
+  const response = await fetchWithTimeout(OPENAI_CHAT_COMPLETIONS_URL, {
     method: "POST",
     headers: {
       Authorization: `Bearer ${env.DISHKAI_AI_API_KEY}`,
@@ -306,7 +307,7 @@ async function runOpenAiJson(prompt, env, { maxTokens = 1200, temperature = 0.1,
       max_completion_tokens: maxTokens,
       temperature,
     }),
-  });
+  }, OPENAI_REQUEST_TIMEOUT_MS);
 
   if (!response.ok) {
     const errorText = await response.text().catch(() => "");
@@ -317,7 +318,7 @@ async function runOpenAiJson(prompt, env, { maxTokens = 1200, temperature = 0.1,
 }
 
 async function runOpenAiVisionJson(prompt, imageDataUrl, env, { maxTokens = 1400, temperature = 0.1, responseFormat } = {}) {
-  const response = await fetch(OPENAI_CHAT_COMPLETIONS_URL, {
+  const response = await fetchWithTimeout(OPENAI_CHAT_COMPLETIONS_URL, {
     method: "POST",
     headers: {
       Authorization: `Bearer ${env.DISHKAI_AI_API_KEY}`,
@@ -339,7 +340,7 @@ async function runOpenAiVisionJson(prompt, imageDataUrl, env, { maxTokens = 1400
       max_completion_tokens: maxTokens,
       temperature,
     }),
-  });
+  }, OPENAI_REQUEST_TIMEOUT_MS);
 
   if (!response.ok) {
     const errorText = await response.text().catch(() => "");
@@ -560,14 +561,31 @@ function findAliasMatch(cleanName, { exactOnly = false } = {}) {
   if (exact) return { alias: exact, normalizedName, confidence: exact.confidence || 1 };
   if (exactOnly) return { alias: null, normalizedName, confidence: 0 };
 
-  const includes = aliasIndex.find((alias) => {
+  const includes = partialAliasIndex.find((alias) => {
     return normalizedName.includes(alias.normalizedAlias);
   });
-  if (includes && Math.min(normalizedName.length, includes.normalizedAlias.length) >= 6) {
+  if (includes) {
     return { alias: includes, normalizedName, confidence: Math.min(includes.confidence || 0.82, 0.86) };
   }
 
   return { alias: null, normalizedName, confidence: 0 };
+}
+
+async function fetchWithTimeout(url, options, timeoutMs) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    return await fetch(url, { ...options, signal: controller.signal });
+  } catch (error) {
+    if (error?.name === "AbortError") {
+      const timeoutError = new Error("AI request timed out. Please try again.");
+      timeoutError.code = "AI_REQUEST_TIMEOUT";
+      throw timeoutError;
+    }
+    throw error;
+  } finally {
+    clearTimeout(timeout);
+  }
 }
 
 function candidateDishNames(item) {

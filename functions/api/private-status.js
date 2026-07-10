@@ -1,4 +1,4 @@
-import { json } from "../_shared/menu-analysis.js";
+import { json } from "../_shared/http.js";
 import { hasValidSession, securityHeaders } from "../_shared/security.js";
 
 export async function onRequestGet({ request, env }) {

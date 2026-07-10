@@ -1,4 +1,4 @@
-import { metadata } from "../data/internal/index.js";
+import { dishAliasResolutionPolicy, metadata } from "../data/internal/index.js";
 
 function duplicates(items, key) {
   const counts = new Map();
@@ -19,6 +19,25 @@ ${label}:`);
   return true;
 }
 
+function normalizeAlias(value) {
+  return String(value || "")
+    .toLowerCase()
+    .normalize("NFKC")
+    .replace(/[()[\]{}.,;:!?'\"]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function aliasGroups(aliases) {
+  const groups = new Map();
+  for (const alias of aliases) {
+    const normalized = normalizeAlias(alias.alias);
+    if (!groups.has(normalized)) groups.set(normalized, []);
+    groups.get(normalized).push(alias);
+  }
+  return groups;
+}
+
 const ingredientIds = new Set(metadata.ingredients.map((item) => item.id));
 const seasoningIds = new Set(metadata.seasonings.map((item) => item.id));
 const cuisineIds = new Set(metadata.cuisines.map((item) => item.id));
@@ -32,6 +51,9 @@ const badMethods = [];
 const badRiskFlags = [];
 const badAliases = [];
 const badLocalizedFields = [];
+const aliasConflicts = [];
+const duplicateNormalizedAliases = [];
+const badAliasPolicy = [];
 
 for (const dish of metadata.dishes) {
   if (!cuisineIds.has(dish.cuisineId)) badCuisines.push(`${dish.id}: ${dish.cuisineId}`);
@@ -55,6 +77,28 @@ for (const alias of metadata.dishAliases) {
   if (!dishIds.has(alias.dishId)) badAliases.push(`${alias.alias} -> ${alias.dishId}`);
 }
 
+const normalizedAliasGroups = aliasGroups(metadata.dishAliases);
+for (const [normalizedAlias, aliases] of normalizedAliasGroups) {
+  const dishIdsForAlias = [...new Set(aliases.map((alias) => alias.dishId))];
+  if (dishIdsForAlias.length > 1) aliasConflicts.push(`${normalizedAlias}: ${dishIdsForAlias.join(", ")}`);
+  if (aliases.length > 1 && dishIdsForAlias.length === 1) {
+    duplicateNormalizedAliases.push(`${normalizedAlias} -> ${dishIdsForAlias[0]} (${aliases.length})`);
+  }
+}
+
+for (const [alias, expectedDishId] of Object.entries(dishAliasResolutionPolicy.preferredDishIds)) {
+  const exported = normalizedAliasGroups.get(normalizeAlias(alias)) || [];
+  const exportedDishIds = [...new Set(exported.map((item) => item.dishId))];
+  if (exportedDishIds.length !== 1 || exportedDishIds[0] !== expectedDishId) {
+    badAliasPolicy.push(`${alias}: expected ${expectedDishId}, exported ${exportedDishIds.join(", ") || "none"}`);
+  }
+}
+
+for (const alias of dishAliasResolutionPolicy.quarantinedAliases) {
+  const exported = normalizedAliasGroups.get(normalizeAlias(alias)) || [];
+  if (exported.length) badAliasPolicy.push(`${alias}: must remain quarantined`);
+}
+
 const byCuisine = metadata.dishes.reduce((acc, dish) => {
   acc[dish.cuisineId] = (acc[dish.cuisineId] || 0) + 1;
   return acc;
@@ -68,6 +112,9 @@ const failures = [
   fail("Invalid risk flags", badRiskFlags),
   fail("Invalid composition references", badComponents),
   fail("Aliases pointing to missing dishes", badAliases),
+  fail("Normalized aliases pointing to multiple dishes", aliasConflicts),
+  fail("Duplicate normalized aliases for the same dish", duplicateNormalizedAliases),
+  fail("Invalid alias resolution policy", badAliasPolicy),
   fail("Missing localized dish fields", badLocalizedFields),
 ];
 

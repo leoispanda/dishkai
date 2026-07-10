@@ -1,11 +1,11 @@
 # DishKAI Full Audit Report
 
-Generated: 2026-06-23
+Generated: 2026-07-10
 
 ## Executive summary
 
 - Raw dish records reviewed from source files: 1177
-- Current verified export after quarantine: 1155 dishes, 3531 aliases
+- Current verified export after quarantine: 1155 dishes, 3368 aliases
 - Generated high-risk dishes quarantined from verified export: 6
 - Verified export rows with automated keep-verified status: 1145
 - Verified export rows requiring metadata/image follow-up: 10
@@ -58,7 +58,7 @@ Quarantined/unreferenced assets were intentionally left in place. They are not d
 ## Alias audit summary
 
 - Raw aliases reviewed: 3623
-- Aliases in verified export: 3531
+- Aliases in verified export: 3368
 - Alias rows flagged for review: 12
 
 | alias | dishId | sourceFile | confidence | status | notes |

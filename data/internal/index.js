@@ -1145,10 +1145,57 @@ export const quarantinedDishes = [
   ...reviewedRealMenuMissDishes.filter((dish) => !verifiedDishIds.has(dish.id)),
 ];
 
-export const dishAliases = [
+export const dishAliasResolutionPolicy = {
+  preferredDishIds: {
+    "açaí bowl": "acai-bowl",
+    "acai bowl": "acai-bowl",
+    "uitsmijter ham kaas": "uitsmijter-ham-kaas",
+    "gegrilde lamskoteletten": "lamb-chops",
+    lamskoteletten: "lamb-chops",
+    "grilled lamb chops": "lamb-chops",
+    "mixed grill": "mixed-grill",
+    "德式牛肉卷": "rinderroulade",
+    pannenkoeken: "pannenkoeken",
+    appeltaart: "appeltaart",
+    sate: "sate",
+    "saté": "sate",
+    "绿酱鳗鱼": "paling-in-t-groen",
+    "paling in het groen": "paling-in-t-groen",
+    "nasi goreng": "nasi-goreng",
+    "韩式辣拌冷面": "bibim-naengmyeon",
+    "hainanese chicken rice": "hainanese-chicken-rice",
+    "海南鸡饭": "hainanese-chicken-rice",
+    "云吞面": "wonton-noodles",
+    "越南烤肉米粉": "bun-thit-nuong",
+    "土耳其红扁豆汤": "mercimek-corbasi",
+    "炸香蕉": "pisang-goreng",
+    "炸木薯配咸鱼": "teloh",
+  },
+  quarantinedAliases: [
+    "血肠",
+    "葡萄叶米卷",
+    "酿辣椒",
+  ],
+};
+
+const candidateDishAliases = [
   ...trustedCandidateDishAliases,
   ...generatedCandidateDishAliases.filter((alias) => auditedGeneratedDishIds.has(alias.dishId)),
-].filter((alias) => verifiedDishIds.has(alias.dishId));
+];
+
+const preferredAliasDishIds = new Map(
+  Object.entries(dishAliasResolutionPolicy.preferredDishIds)
+    .map(([alias, dishId]) => [normalizeAlias(alias), dishId]),
+);
+const quarantinedAliasNames = new Set(
+  dishAliasResolutionPolicy.quarantinedAliases.map(normalizeAlias),
+);
+
+export const dishAliases = dedupeVerifiedAliases(
+  candidateDishAliases
+    .filter((alias) => verifiedDishIds.has(alias.dishId))
+    .filter(clearsVerifiedAliasGate),
+);
 
 const verifiedDishAliasKeys = new Set(dishAliases.map(aliasKey));
 
@@ -1172,4 +1219,30 @@ export const metadata = {
 
 function aliasKey(alias) {
   return `${alias.alias}\u0000${alias.dishId}`;
+}
+
+function normalizeAlias(value) {
+  return String(value || "")
+    .toLowerCase()
+    .normalize("NFKC")
+    .replace(/[()[\]{}.,;:!?'\"]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function clearsVerifiedAliasGate(alias) {
+  const normalizedAlias = normalizeAlias(alias.alias);
+  if (!normalizedAlias || quarantinedAliasNames.has(normalizedAlias)) return false;
+  const preferredDishId = preferredAliasDishIds.get(normalizedAlias);
+  return !preferredDishId || alias.dishId === preferredDishId;
+}
+
+function dedupeVerifiedAliases(aliases) {
+  const seen = new Set();
+  return aliases.filter((alias) => {
+    const key = `${normalizeAlias(alias.alias)}\u0000${alias.dishId}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
