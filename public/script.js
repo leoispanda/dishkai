@@ -4,6 +4,8 @@ const USAGE_COUNT_KEY = "dishkai-local-usage-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
 const MENU_IMAGE_MAX_EDGE = 1800;
 const MENU_IMAGE_JPEG_QUALITY = 0.82;
+const HOME_TITLE = "DishKAI | Know the dish before you order";
+const TRANSPARENCY_PATH = "/ai-transparency";
 
 const translations = {
   en: {
@@ -18,6 +20,17 @@ const translations = {
     menuListEyebrow: "Menu list", menuListTitle: "Detected dishes", emptyCard: "Select a dish.",
     footerText: "Know the dish with AI before you order.",
     footerAbout: "DishKAI helps people quickly understand menu names, dish context, and ordering risks before choosing what to eat.",
+    footerAiDisclosure: "Contains AI-generated & AI-assisted content · For food inspiration · Check ingredients, allergens, and cooking safety",
+    aiTransparencyLink: "AI Transparency",
+    aiInteractionDisclosure: "You are interacting with an AI system. Recipes and recommendations may contain errors. Check ingredients, allergens, and food-safety instructions before use.",
+    foodSafetyNote: "Please check ingredients, allergens, substitutions, and cooking instructions before use.",
+    provenanceLabel: "Result source",
+    provenanceAiGenerated: "AI-generated", provenanceAiAssisted: "AI-assisted", provenanceAiAssistedHumanReviewed: "AI-assisted · Human reviewed", provenancePrepared: "Prepared content", provenanceLocal: "Local / rule-based result",
+    aiTransparencyEyebrow: "About DishKAI", aiTransparencyTitle: "AI Transparency", aiTransparencySubtitle: "How AI is used across DishKAI.", aiTransparencyBack: "Back to DishKAI",
+    aiTransparencyIntro: "DishKAI combines AI-assisted menu reading with prepared DishKAI metadata and local, rule-based matching. When temporary AI-generated estimates are enabled for an unknown item, we mark them clearly.",
+    aiTransparencyUseTitle: "Where AI may appear", aiTransparencyUse: "AI may help read menu photos, extract and normalize menu item names, and produce temporary estimates for menu items that are not in the verified DishKAI metadata. The private PDC room also sends prompts to a backend AI model.", aiTransparencyErrors: "AI output can be incomplete, outdated, mistranslated, or wrong. DishKAI is for food discovery and inspiration; it is not a substitute for checking with the restaurant.",
+    aiTransparencyCheckTitle: "Before you rely on an output", aiTransparencyCheck: "Independently check ingredients, allergens, dietary restrictions, substitutions, storage, preparation, temperatures, and food safety before relying on an output.", aiTransparencyProject: "DishKAI is an independent project. It is not a medical, nutritional, allergy, or food-safety advisory service.",
+    aiTransparencyLabelsTitle: "How to read result labels", aiTransparencyAiGenerated: "Text or a recommendation created by a live AI model. It is not verified DishKAI metadata.", aiTransparencyAiAssisted: "AI helped read, extract, translate, or normalize input; the final result may then use local matching or prepared DishKAI metadata.", aiTransparencyHumanReviewed: "AI helped produce a result and a person has reviewed that specific output. DishKAI only uses this label when that review is known.", aiTransparencyPrepared: "Content written or curated before your request, such as DishKAI metadata and explanatory copy. It is not live AI output.", aiTransparencyLocal: "A deterministic result from local data or fixed rules, such as alias matching or a local fallback. It is not AI-generated.",
     footerContact: "Contact",
     footerDisclaimerLabel: "View disclaimer",
     footerVisitTotalLabel: "Total views",
@@ -33,7 +46,7 @@ const translations = {
     legalRequired: "Please accept the disclaimer before using DishKAI.",
     enterApp: "Enter",
     visitCountLabel: "Local visits",
-    matched: "matched", universal: "universal", unmatched: "Not in starter database yet", aiEstimated: "AI estimate", tapForDetails: "Tap for details", tapForUniversal: "Universal ordering guide", tapForEstimate: "Tap for note", aiGenerated: "AI-generated estimate. Not yet verified in DishKAI database.", universalGuidance: "Universal guidance, not a verified fixed dish.", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "Original", familiar: "Familiar", verdict: "Order verdict", description: "What it is", preparation: "How it is usually prepared", composition: "Estimated composition", taste: "Basic taste", flavor: "Distinctive flavor", texture: "Texture", watchOut: "Watch out", variations: "Common variations", disclaimer: "Visual note", summary: "items", unknownNote: "This dish is not in the starter database yet."
+    matched: "matched", universal: "universal", unmatched: "Not in starter database yet", aiEstimated: "AI estimate", tapForDetails: "Tap for details", tapForUniversal: "Universal ordering guide", tapForEstimate: "Tap for note", aiGenerated: "AI-generated estimate. Not yet verified in DishKAI database.", universalGuidance: "Universal guidance, not a verified fixed dish.", aiImageLabel: "AI-generated image. Visual reference only. Actual dish may vary by restaurant.", original: "Original", familiar: "Familiar", verdict: "Order verdict", description: "What it is", preparation: "How it is usually prepared", composition: "Estimated composition", taste: "Basic taste", flavor: "Distinctive flavor", texture: "Texture", watchOut: "Potential allergens & watch-outs", variations: "Common variations", disclaimer: "Visual note", summary: "items", unknownNote: "This dish is not in the starter database yet."
   },
   zh: {
     legalGateTitle: "DishKAI",
@@ -47,6 +60,17 @@ const translations = {
     menuListEyebrow: "菜单列表", menuListTitle: "识别到的菜", emptyCard: "选择一道菜。",
     footerText: "用 AI 在点餐前看懂这道菜。",
     footerAbout: "DishKAI 帮助你在点餐前快速理解菜名、菜品背景和需要注意的风险。",
+    footerAiDisclosure: "包含 AI 生成与 AI 辅助内容 · 仅供食物探索灵感 · 请核对配料、过敏原和烹饪安全",
+    aiTransparencyLink: "AI 透明度",
+    aiInteractionDisclosure: "你正在与 AI 系统互动。食谱和建议可能存在错误。使用前请检查配料、过敏原和食品安全说明。",
+    foodSafetyNote: "使用前请检查配料、过敏原、替代食材和烹饪说明。",
+    provenanceLabel: "结果来源",
+    provenanceAiGenerated: "AI 生成", provenanceAiAssisted: "AI 辅助", provenanceAiAssistedHumanReviewed: "AI 辅助 · 人工审阅", provenancePrepared: "预先准备的内容", provenanceLocal: "本地 / 规则结果",
+    aiTransparencyEyebrow: "关于 DishKAI", aiTransparencyTitle: "AI 透明度", aiTransparencySubtitle: "AI 如何在 DishKAI 中使用。", aiTransparencyBack: "返回 DishKAI",
+    aiTransparencyIntro: "DishKAI 将 AI 辅助的菜单阅读与预先准备的 DishKAI 元数据、本地规则匹配结合起来。如果启用了针对未知菜品的临时 AI 估算，我们会清楚标记。",
+    aiTransparencyUseTitle: "AI 可能出现在哪里", aiTransparencyUse: "AI 可能帮助读取菜单照片、提取和规范化菜名，也可能为不在 DishKAI 已验证元数据中的菜品生成临时估算。私有 PDC 会议室也会向后端 AI 模型发送提示。", aiTransparencyErrors: "AI 输出可能不完整、过时、误译或错误。DishKAI 用于食物探索和灵感参考，不能替代向餐厅确认。",
+    aiTransparencyCheckTitle: "依赖输出前请先确认", aiTransparencyCheck: "在依赖任何输出前，请独立核对配料、过敏原、饮食限制、替代食材、储存、准备方式、温度和食品安全。", aiTransparencyProject: "DishKAI 是一个独立项目，不是医疗、营养、过敏或食品安全咨询服务。",
+    aiTransparencyLabelsTitle: "如何理解结果标签", aiTransparencyAiGenerated: "由实时 AI 模型生成的文字或建议，不是 DishKAI 已验证元数据。", aiTransparencyAiAssisted: "AI 帮助读取、提取、翻译或规范化输入；最终结果之后可能使用本地匹配或预先准备的 DishKAI 元数据。", aiTransparencyHumanReviewed: "AI 帮助生成结果，且有人审阅过这一次具体输出。只有在已知存在这类审阅时，DishKAI 才会使用这个标签。", aiTransparencyPrepared: "在你的请求之前已经编写或整理的内容，例如 DishKAI 元数据和解释文字，不是实时 AI 输出。", aiTransparencyLocal: "来自本地数据或固定规则的确定性结果，例如别名匹配或本地回退结果，不是 AI 生成内容。",
     footerContact: "联系",
     footerDisclaimerLabel: "查看免责声明",
     footerVisitTotalLabel: "总浏览次数",
@@ -62,7 +86,7 @@ const translations = {
     legalRequired: "使用 DishKAI 前请先确认免责声明。",
     enterApp: "进入",
     visitCountLabel: "本机访问次数",
-    matched: "已匹配", universal: "通用项", unmatched: "暂未收录", aiEstimated: "AI 估算", tapForDetails: "点击查看详情", tapForUniversal: "通用点餐参考", tapForEstimate: "点击查看未收录提示", aiGenerated: "AI 估算结果，尚未进入 DishKAI 已验证数据库。", universalGuidance: "通用参考，不是已验证固定菜。", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "原始菜名", familiar: "熟悉名称", verdict: "点餐建议", description: "这是什么", preparation: "常见做法风格", composition: "估算成分", taste: "基础味道", flavor: "特色风味", texture: "口感", watchOut: "注意事项", variations: "常见变体", disclaimer: "图片说明", summary: "项", unknownNote: "这道菜暂时还不在 DishKAI 初始数据库中。"
+    matched: "已匹配", universal: "通用项", unmatched: "暂未收录", aiEstimated: "AI 估算", tapForDetails: "点击查看详情", tapForUniversal: "通用点餐参考", tapForEstimate: "点击查看未收录提示", aiGenerated: "AI 估算结果，尚未进入 DishKAI 已验证数据库。", universalGuidance: "通用参考，不是已验证固定菜。", aiImageLabel: "AI 生成图片。仅供视觉参考，实际出品可能因餐厅而异。", original: "原始菜名", familiar: "熟悉名称", verdict: "点餐建议", description: "这是什么", preparation: "常见做法风格", composition: "估算成分", taste: "基础味道", flavor: "特色风味", texture: "口感", watchOut: "潜在过敏原与注意事项", variations: "常见变体", disclaimer: "图片说明", summary: "项", unknownNote: "这道菜暂时还不在 DishKAI 初始数据库中。"
   },
   nl: {
     legalGateTitle: "DishKAI",
@@ -76,6 +100,17 @@ const translations = {
     menuListEyebrow: "Menulijst", menuListTitle: "Gevonden gerechten", emptyCard: "Kies een gerecht.",
     footerText: "Ken het gerecht met AI voordat je bestelt.",
     footerAbout: "DishKAI helpt je snel menunamen, gerechtcontext en bestelrisico's te begrijpen voordat je kiest wat je eet.",
+    footerAiDisclosure: "Bevat AI-gegenereerde en AI-ondersteunde inhoud · Voor culinaire inspiratie · Controleer ingrediënten, allergenen en voedselveiligheid",
+    aiTransparencyLink: "AI-transparantie",
+    aiInteractionDisclosure: "Je communiceert met een AI-systeem. Recepten en aanbevelingen kunnen fouten bevatten. Controleer ingrediënten, allergenen en voedselveiligheidsinstructies voordat je ze gebruikt.",
+    foodSafetyNote: "Controleer ingrediënten, allergenen, vervangingen en bereidingsinstructies vóór gebruik.",
+    provenanceLabel: "Bron van resultaat",
+    provenanceAiGenerated: "AI-gegenereerd", provenanceAiAssisted: "AI-ondersteund", provenanceAiAssistedHumanReviewed: "AI-ondersteund · Door mensen beoordeeld", provenancePrepared: "Voorbereide inhoud", provenanceLocal: "Lokaal / regelgebaseerd resultaat",
+    aiTransparencyEyebrow: "Over DishKAI", aiTransparencyTitle: "AI-transparantie", aiTransparencySubtitle: "Hoe AI binnen DishKAI wordt gebruikt.", aiTransparencyBack: "Terug naar DishKAI",
+    aiTransparencyIntro: "DishKAI combineert AI-ondersteund menulezen met voorbereide DishKAI-metadata en lokale, regelgebaseerde matching. Wanneer tijdelijke AI-gegenereerde schattingen voor een onbekend item zijn ingeschakeld, markeren we die duidelijk.",
+    aiTransparencyUseTitle: "Waar AI kan voorkomen", aiTransparencyUse: "AI kan helpen bij het lezen van menufoto's, het extraheren en normaliseren van gerechtnamen en het maken van tijdelijke schattingen voor menu-items die niet in de geverifieerde DishKAI-metadata staan. De private PDC-ruimte stuurt ook prompts naar een AI-model op de backend.", aiTransparencyErrors: "AI-uitvoer kan onvolledig, verouderd, verkeerd vertaald of onjuist zijn. DishKAI is bedoeld voor culinaire ontdekking en inspiratie en vervangt geen controle bij het restaurant.",
+    aiTransparencyCheckTitle: "Controleer dit voordat je een resultaat gebruikt", aiTransparencyCheck: "Controleer zelfstandig ingrediënten, allergenen, dieetbeperkingen, vervangingen, opslag, bereiding, temperaturen en voedselveiligheid voordat je op een resultaat vertrouwt.", aiTransparencyProject: "DishKAI is een onafhankelijk project. Het is geen medisch, voedingskundig, allergie- of voedselveiligheidsadvies.",
+    aiTransparencyLabelsTitle: "Resultaatlabels begrijpen", aiTransparencyAiGenerated: "Tekst of een aanbeveling die door een live AI-model is gemaakt. Het is geen geverifieerde DishKAI-metadata.", aiTransparencyAiAssisted: "AI hielp bij het lezen, extraheren, vertalen of normaliseren van invoer; het uiteindelijke resultaat kan daarna lokale matching of voorbereide DishKAI-metadata gebruiken.", aiTransparencyHumanReviewed: "AI hielp een resultaat maken en iemand heeft die specifieke uitvoer beoordeeld. DishKAI gebruikt dit label alleen wanneer die beoordeling bekend is.", aiTransparencyPrepared: "Inhoud die vóór je verzoek is geschreven of samengesteld, zoals DishKAI-metadata en uitleg. Het is geen live AI-uitvoer.", aiTransparencyLocal: "Een deterministisch resultaat uit lokale gegevens of vaste regels, zoals alias-matching of een lokale fallback. Het is niet door AI gegenereerd.",
     footerContact: "Contact",
     footerDisclaimerLabel: "Bekijk disclaimer",
     footerVisitTotalLabel: "Totaal bezoeken",
@@ -91,7 +126,7 @@ const translations = {
     legalRequired: "Accepteer de disclaimer voordat je DishKAI gebruikt.",
     enterApp: "Open",
     visitCountLabel: "Lokale bezoeken",
-    matched: "gekoppeld", universal: "algemeen", unmatched: "nog niet in database", aiEstimated: "AI-schatting", tapForDetails: "Tik voor details", tapForUniversal: "Algemene bestelrichtlijn", tapForEstimate: "Tik voor notitie", aiGenerated: "AI-schatting. Nog niet geverifieerd in de DishKAI-database.", universalGuidance: "Algemene richtlijn, geen geverifieerd vast gerecht.", aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.", original: "Origineel", familiar: "Vertrouwd", verdict: "Besteladvies", description: "Wat het is", preparation: "Hoe het meestal wordt bereid", composition: "Geschatte samenstelling", taste: "Basissmaak", flavor: "Kenmerkende smaak", texture: "Textuur", watchOut: "Let op", variations: "Veelvoorkomende variaties", disclaimer: "Visuele noot", summary: "items", unknownNote: "Dit gerecht staat nog niet in de startdatabase."
+    matched: "gekoppeld", universal: "algemeen", unmatched: "nog niet in database", aiEstimated: "AI-schatting", tapForDetails: "Tik voor details", tapForUniversal: "Algemene bestelrichtlijn", tapForEstimate: "Tik voor notitie", aiGenerated: "AI-schatting. Nog niet geverifieerd in de DishKAI-database.", universalGuidance: "Algemene richtlijn, geen geverifieerd vast gerecht.", aiImageLabel: "AI-gegenereerde afbeelding. Alleen visuele referentie. Het gerecht kan per restaurant verschillen.", original: "Origineel", familiar: "Vertrouwd", verdict: "Besteladvies", description: "Wat het is", preparation: "Hoe het meestal wordt bereid", composition: "Geschatte samenstelling", taste: "Basissmaak", flavor: "Kenmerkende smaak", texture: "Textuur", watchOut: "Mogelijke allergenen en aandachtspunten", variations: "Veelvoorkomende variaties", disclaimer: "Visuele noot", summary: "items", unknownNote: "Dit gerecht staat nog niet in de startdatabase."
   }
 };
 
@@ -113,12 +148,30 @@ function template(key, values) {
   return Object.entries(values).reduce((text, [name, value]) => text.replaceAll(`{${name}}`, value), t(key));
 }
 
+function isAiTransparencyPage() {
+  const pathname = window.location.pathname.replace(/\/+$/, "") || "/";
+  return pathname === TRANSPARENCY_PATH;
+}
+
+function updatePageRoute() {
+  const transparencyPage = isAiTransparencyPage();
+  const page = $("#aiTransparencyPage");
+  if (page) {
+    page.hidden = !transparencyPage;
+    page.setAttribute("aria-hidden", String(!transparencyPage));
+  }
+  document.body.classList.toggle("transparency-route", transparencyPage);
+  document.title = transparencyPage ? t("aiTransparencyTitle") : HOME_TITLE;
+  return transparencyPage;
+}
+
 function applyLanguage() {
   document.documentElement.lang = uiLang === "zh" ? "zh-CN" : uiLang;
   document.querySelectorAll("[data-i18n]").forEach((el) => { el.textContent = t(el.dataset.i18n); });
   document.querySelectorAll("[data-i18n-placeholder]").forEach((el) => { el.placeholder = t(el.dataset.i18nPlaceholder); });
   document.querySelectorAll("[data-ui-lang]").forEach((button) => button.classList.toggle("active", button.dataset.uiLang === uiLang));
   if ($("#targetLanguage")) $("#targetLanguage").value = uiLang;
+  updatePageRoute();
   renderAppMeta();
   if (latestResult) renderAnalysis(latestResult);
 }
@@ -263,6 +316,11 @@ function setLegalGateStatus(message, tone = "") {
 }
 
 function renderLegalStep() {
+  if (updatePageRoute()) {
+    if ($("#legalGate")) $("#legalGate").hidden = true;
+    if ($("#appShell")) $("#appShell").hidden = true;
+    return;
+  }
   const accepted = storedLegalAccepted();
   document.body.classList.toggle("legal-step-complete", accepted);
   if ($("#legalGate")) $("#legalGate").hidden = accepted;
@@ -402,7 +460,7 @@ function clearPrivateLocalData() {
 
 async function initializePrivateTools() {
   updatePrivateAccessVisibility();
-  if (privateToolsInitialized || !shouldShowPrivateAccessPanel()) return;
+  if (isAiTransparencyPage() || privateToolsInitialized || !shouldShowPrivateAccessPanel()) return;
   privateToolsInitialized = true;
   pdcState = loadPdcState();
   renderPdcRoleCards();
@@ -473,8 +531,28 @@ async function analyzeImage() {
 
 function renderAnalysis(result) {
   expandedOrderIndex = null;
+  renderAnalysisProvenance(result);
   renderSummary(result);
   renderVisualMenu(result.items || []);
+}
+
+function renderAnalysisProvenance(result) {
+  const element = $("#analysisProvenance");
+  if (!element) return;
+  const extractionSource = String(result?.extractionSource || "").toLowerCase();
+  let extractionLabel = "";
+  if (extractionSource === "local-fallback") extractionLabel = t("provenanceLocal");
+  if (["openai", "openai-vision", "workers-ai"].includes(extractionSource)) extractionLabel = t("provenanceAiAssisted");
+  if (!extractionLabel) {
+    element.hidden = true;
+    element.textContent = "";
+    return;
+  }
+  const fallbackLabel = result?.aiFallbackSource && result.aiFallbackSource !== "none"
+    ? ` · ${t("provenanceAiGenerated")}`
+    : "";
+  element.textContent = `${t("provenanceLabel")}: ${extractionLabel}${fallbackLabel}`;
+  element.hidden = false;
 }
 
 function renderSummary(result) {
@@ -542,24 +620,29 @@ function renderVisualMenu(items) {
 function renderKnowledgeCardMarkup(item) {
   const card = item.card || {};
   const imagePath = safeImagePath(card.imagePath);
+  const provenance = contentProvenanceLabel(card, item);
   const composition = (card.composition || []).map((part) => `
     <li><span>${escapeHtml(part.name || part.role)}</span><strong>${Number(part.estimatedPercent || 0)}%</strong></li>
   `).join("") || `<li><span>—</span><strong></strong></li>`;
   const tags = (card.iconTags || []).map((tag) => `<span class="icon-tag">${tag.icon} ${escapeHtml(tag.label)}</span>`).join("");
   const variations = renderVariations(card.commonVariations);
+  const imageNotice = imagePath && card.aiImageLabel ? `<p class="notice">${escapeHtml(card.aiImageLabel)}</p>` : "";
   const unverified = card.verified === false && card.metadataSource === "ai-fallback" ? `<p class="notice">${t("aiGenerated")}</p>` : "";
   const universalNotice = card.verified === false && card.metadataSource === "universal-generic" ? `<p class="notice">${t("universalGuidance")}</p>` : "";
+  const foodSafetyNote = card.metadataSource === "ai-fallback" ? `<p class="notice food-safety-note">${escapeHtml(t("foodSafetyNote"))}</p>` : "";
   return `
     <div class="knowledge-card">
     <div class="knowledge-image">${imagePath ? `<img src="${escapeAttribute(imagePath)}" alt="" loading="lazy">` : ""}</div>
     <div class="knowledge-copy">
       <p class="eyebrow">${escapeHtml(card.cuisineName || item.matchStatus)}</p>
       <h3>${escapeHtml(card.familiarName || item.cleanName || item.originalName)}</h3>
+      ${provenance ? `<p class="provenance-label">${escapeHtml(provenance)}</p>` : ""}
       <p class="original-name"><strong>${t("original")}:</strong> ${escapeHtml(item.originalName)}</p>
       <p class="verdict">${escapeHtml(card.orderVerdict || t("unknownNote"))}</p>
-      <p class="notice">${escapeHtml(card.aiImageLabel || t("aiImageLabel"))}</p>
+      ${imageNotice}
       ${unverified}
       ${universalNotice}
+      ${foodSafetyNote}
       ${card.cuisineRole?.note ? `<p>${escapeHtml(card.cuisineRole.note)}</p>` : ""}
       <dl>
         <div><dt>${t("description")}</dt><dd>${escapeHtml(card.shortDescription || t("unknownNote"))}</dd></div>
@@ -576,6 +659,13 @@ function renderKnowledgeCardMarkup(item) {
     </div>
     </div>
   `;
+}
+
+function contentProvenanceLabel(card, item) {
+  if (card?.metadataSource === "ai-fallback" || item?.matchStatus === "ai-generated") return t("provenanceAiGenerated");
+  if (card?.metadataSource === "dishkai-database") return t("provenancePrepared");
+  if (["universal-generic", "unmatched"].includes(card?.metadataSource)) return t("provenanceLocal");
+  return "";
 }
 
 function renderCooking(cooking) {
@@ -969,7 +1059,7 @@ function renderPdcRound(round, index) {
     <section class="pdc-round">
       <div class="pdc-round-title">
         <span>第 ${index + 1} 轮 · ${result.meeting_mode || round.mode}</span>
-        <span>${round.mode === "user_intervention" ? "继续讨论" : "开场陈述"}</span>
+        <span class="pdc-round-meta"><span class="provenance-label">${escapeHtml(t("provenanceAiGenerated"))}</span>${round.mode === "user_intervention" ? "继续讨论" : "开场陈述"}</span>
       </div>
       ${userCard}
       ${cards}

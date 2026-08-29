@@ -10,7 +10,7 @@
 </head>
 <body>
   <header class="topbar compact">
-    <a class="brand" href="#home" aria-label="DishKAI home">
+    <a class="brand" href="/" aria-label="DishKAI home">
       <span class="brand-mark"><img src="/assets/brand/dishkai-cloche-logo.svg" alt=""></span>
       <span class="brand-wordmark"><span>Dish</span><span>KAI</span></span>
     </a>
@@ -113,6 +113,7 @@ Ratatouille</textarea>
           </select>
         </label>
 
+        <p class="ai-interaction-disclosure" data-i18n="aiInteractionDisclosure">You are interacting with an AI system. Recipes and recommendations may contain errors. Check ingredients, allergens, and food-safety instructions before use.</p>
         <button id="generateButton" class="button primary" type="submit" data-i18n="generate">Generate menu list</button>
         <p id="statusMessage" class="status" role="status"></p>
       </form>
@@ -123,6 +124,7 @@ Ratatouille</textarea>
         <p class="eyebrow" data-i18n="menuListEyebrow">Menu list</p>
         <h2 data-i18n="menuListTitle">Tap a dish to understand it.</h2>
       </div>
+      <p id="analysisProvenance" class="provenance-label analysis-provenance" hidden aria-live="polite"></p>
       <div id="menuSummary" class="summary-strip"></div>
       <div id="visualMenuGrid" class="menu-list"></div>
     </section>
@@ -139,6 +141,7 @@ Ratatouille</textarea>
           <p class="eyebrow">Personal PDC</p>
           <h2>个人 PDC 会议室</h2>
           <p>9 位 AI 合伙人，从增长、UX、执行、社群、视觉、用户洞察、战略、象征时机和镜像边界等角度挑战你的决策。</p>
+          <p class="ai-interaction-disclosure" data-i18n="aiInteractionDisclosure">You are interacting with an AI system. Recipes and recommendations may contain errors. Check ingredients, allergens, and food-safety instructions before use.</p>
         </div>
 
         <form id="pdcForm" class="pdc-form">
@@ -211,6 +214,68 @@ Ratatouille</textarea>
       </div>
     </section>
     </div>
+
+    <section id="aiTransparencyPage" class="section ai-transparency-page" hidden aria-labelledby="aiTransparencyTitle">
+      <div class="ai-transparency-shell">
+        <div class="ai-transparency-heading">
+          <div>
+            <p class="eyebrow" data-i18n="aiTransparencyEyebrow">About DishKAI</p>
+            <h1 id="aiTransparencyTitle" data-i18n="aiTransparencyTitle">AI Transparency</h1>
+            <p class="subtitle" data-i18n="aiTransparencySubtitle">How AI is used across DishKAI.</p>
+          </div>
+          <div class="ai-transparency-actions">
+            <div class="lang-toggle transparency-lang-toggle" aria-label="Language">
+              <button type="button" data-ui-lang="en">English</button>
+              <button type="button" data-ui-lang="zh">中文</button>
+              <button type="button" data-ui-lang="nl">Nederlands</button>
+            </div>
+            <a class="button" href="/" data-i18n="aiTransparencyBack">Back to DishKAI</a>
+          </div>
+        </div>
+
+        <p class="ai-transparency-lead" data-i18n="aiTransparencyIntro">DishKAI combines AI-assisted menu reading with prepared DishKAI metadata and local, rule-based matching. When temporary AI-generated estimates are enabled for an unknown item, we mark them clearly.</p>
+
+        <div class="ai-transparency-content">
+          <section class="ai-transparency-section">
+            <h2 data-i18n="aiTransparencyUseTitle">Where AI may appear</h2>
+            <p data-i18n="aiTransparencyUse">AI may help read menu photos, extract and normalize menu item names, and produce temporary estimates for menu items that are not in the verified DishKAI metadata. The private PDC room also sends prompts to a backend AI model.</p>
+            <p data-i18n="aiTransparencyErrors">AI output can be incomplete, outdated, mistranslated, or wrong. DishKAI is for food discovery and inspiration; it is not a substitute for checking with the restaurant.</p>
+          </section>
+
+          <section class="ai-transparency-section">
+            <h2 data-i18n="aiTransparencyCheckTitle">Before you rely on an output</h2>
+            <p data-i18n="aiTransparencyCheck">Independently check ingredients, allergens, dietary restrictions, substitutions, storage, preparation, temperatures, and food safety before relying on an output.</p>
+            <p data-i18n="aiTransparencyProject">DishKAI is an independent project. It is not a medical, nutritional, allergy, or food-safety advisory service.</p>
+          </section>
+
+          <section class="ai-transparency-section">
+            <h2 data-i18n="aiTransparencyLabelsTitle">How to read result labels</h2>
+            <dl class="ai-transparency-definitions">
+              <div>
+                <dt data-i18n="provenanceAiGenerated">AI-generated</dt>
+                <dd data-i18n="aiTransparencyAiGenerated">Text or a recommendation created by a live AI model. It is not verified DishKAI metadata.</dd>
+              </div>
+              <div>
+                <dt data-i18n="provenanceAiAssisted">AI-assisted</dt>
+                <dd data-i18n="aiTransparencyAiAssisted">AI helped read, extract, translate, or normalize input; the final result may then use local matching or prepared DishKAI metadata.</dd>
+              </div>
+              <div>
+                <dt data-i18n="provenanceAiAssistedHumanReviewed">AI-assisted · Human reviewed</dt>
+                <dd data-i18n="aiTransparencyHumanReviewed">AI helped produce a result and a person has reviewed that specific output. DishKAI only uses this label when that review is known.</dd>
+              </div>
+              <div>
+                <dt data-i18n="provenancePrepared">Prepared content</dt>
+                <dd data-i18n="aiTransparencyPrepared">Content written or curated before your request, such as DishKAI metadata and explanatory copy. It is not live AI output.</dd>
+              </div>
+              <div>
+                <dt data-i18n="provenanceLocal">Local / rule-based result</dt>
+                <dd data-i18n="aiTransparencyLocal">A deterministic result from local data or fixed rules, such as alias matching or a local fallback. It is not AI-generated.</dd>
+              </div>
+            </dl>
+          </section>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="footer compact">
@@ -241,6 +306,10 @@ Ratatouille</textarea>
         </div>
       </details>
     </div>
+    <p class="footer-ai-disclosure">
+      <span data-i18n="footerAiDisclosure">Contains AI-generated &amp; AI-assisted content · For food inspiration · Check ingredients, allergens, and cooking safety</span>
+      <a href="/ai-transparency" data-i18n="aiTransparencyLink">AI Transparency</a>
+    </p>
     <div class="footer-stats" aria-label="Usage statistics">
       <span><span data-i18n="footerVisitTotalLabel">Total views</span><strong id="footerVisitTotal">0</strong></span>
       <span><span data-i18n="footerUsageTotalLabel">Uses</span><strong id="footerUsageTotal">0</strong></span>

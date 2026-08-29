@@ -768,9 +768,9 @@ function localizedVariations(dish, targetLanguage) {
 
 function verifiedVisualNote(targetLanguage) {
   return localize({
-    en: "Visual reference only. Actual dish may vary by restaurant.",
-    zh: "图片仅供参考。实际出品会因餐厅而异。",
-    nl: "Alleen visuele referentie. Het gerecht kan per restaurant verschillen.",
+    en: "AI-generated image. Visual reference only. Actual dish may vary by restaurant.",
+    zh: "AI 生成图片。仅供视觉参考，实际出品可能因餐厅而异。",
+    nl: "AI-gegenereerde afbeelding. Alleen visuele referentie. Het gerecht kan per restaurant verschillen.",
   }, targetLanguage);
 }
 
@@ -897,7 +897,7 @@ function unmatchedCard(item, targetLanguage) {
     familiarName: item.cleanName,
     orderVerdict: message[targetLanguage] || message.en,
     shortDescription: message[targetLanguage] || message.en,
-    aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.",
+    aiImageLabel: "AI-generated image. Visual reference only. Actual dish may vary by restaurant.",
     iconTags: [],
     metadataSource: "unmatched",
     verified: false,
@@ -948,7 +948,7 @@ function chefSpecialCard(item, targetLanguage) {
       texture: ["depends on sauce", "pasta bite varies"],
       watchOuts: ["Ask whether it contains dairy, gluten, seafood, nuts, pork, or alcohol."],
       visualDisclaimer: "Surprise reference only. Actual dish depends on the restaurant.",
-      aiImageLabel: "Visual prompt to ask the staff. Not a verified DishKAI recipe or fixed dish photo.",
+      aiImageLabel: "AI-generated image. Visual reference only. Ask the staff about the actual dish.",
     },
     zh: {
       familiarName: "主厨特别意面",
@@ -967,7 +967,7 @@ function chefSpecialCard(item, targetLanguage) {
       texture: ["取决于酱汁", "意面口感可能不同"],
       watchOuts: ["建议询问是否含乳制品、麸质、海鲜、坚果、猪肉或酒精。"],
       visualDisclaimer: "惊喜参考图。实际出品取决于餐厅。",
-      aiImageLabel: "这是提醒顾客询问服务员的视觉参考，不是 DishKAI 已验证菜谱或固定实物图。",
+      aiImageLabel: "AI 生成图片，仅供视觉参考。实际菜品请向服务员确认。",
     },
     nl: {
       familiarName: "Pasta van de chef",
@@ -986,7 +986,7 @@ function chefSpecialCard(item, targetLanguage) {
       texture: ["hangt af van de saus", "pastabite kan verschillen"],
       watchOuts: ["Vraag of het zuivel, gluten, zeevruchten, noten, varkensvlees of alcohol bevat."],
       visualDisclaimer: "Verrassingsreferentie. Het echte gerecht hangt af van het restaurant.",
-      aiImageLabel: "Visuele hint om het personeel te vragen. Geen geverifieerd DishKAI-recept of vaste gerechtfoto.",
+      aiImageLabel: "AI-gegenereerde afbeelding. Alleen visuele referentie. Vraag het personeel naar het echte gerecht.",
     },
   };
   const copy = content[targetLanguage] || content.en;
@@ -1105,7 +1105,7 @@ function cleanAiFallbackCard(rawCard, item, targetLanguage) {
     texture: shortArray(rawCard?.texture),
     watchOuts: shortArray(rawCard?.watchOuts),
     visualDisclaimer: jsonSafeText(rawCard?.visualDisclaimer || fallbackMessage[targetLanguage] || fallbackMessage.en, 180),
-    aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.",
+    aiImageLabel: "AI-generated image. Visual reference only. Actual dish may vary by restaurant.",
     iconTags: [{ id: "ai-generated", icon: "AI", label: fallbackMessage[targetLanguage] || fallbackMessage.en }],
     metadataSource: "ai-fallback",
     verified: false,

@@ -14,7 +14,7 @@ export async function onRequestPost({ request, env }) {
   return json({
     ok: false,
     error: "IMAGE_GENERATION_DISABLED",
-    message: "AI image generation is disabled for now. AI-generated preview. For inspiration only. Actual dish may look different.",
+    message: "AI image generation is disabled for now. AI-generated image. Visual reference only. Actual dish may vary by restaurant.",
   }, 501, securityHeaders());
 }
 

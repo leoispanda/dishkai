@@ -72,6 +72,8 @@ Current API endpoints:
 - `POST /api/generate-dish-image`
 - `POST /api/clear-recent-scans`
 
+The public footer links to `/ai-transparency`, which explains where live AI, AI-assisted processing, prepared DishKAI content, and local/rule-based results may appear.
+
 Privacy and misuse protections:
 
 - Public menu recognition is available without private login; first-time users first choose a language, confirm the standalone disclaimer/privacy-risk step, then enter the menu tool with output defaulting to that language.
@@ -84,10 +86,10 @@ Privacy and misuse protections:
 - Uploaded menu images should be processed temporarily.
 - Store only structured dish data after Leo/Cindy manually confirms.
 - Users are warned not to upload images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.
-- AI dish images must be labeled: “AI-generated preview. For inspiration only. Actual dish may look different.”
+- AI dish images must be labeled: “AI-generated image. Visual reference only. Actual dish may vary by restaurant.”
 - If temporary scan records are introduced later, keep `/api/clear-recent-scans` able to clear them.
 - The local Node dev server serves static files from `public/` only, so source files and local configuration are not exposed by static routes.
-- DishKAI currently does not enforce a shared daily public quota; the footer only gives a simple approximate API-cost note for AI scans.
+- DishKAI currently does not enforce a shared daily public quota; the footer does not expose an approximate API-cost meter for AI scans.
 - The private access-code panel is hidden from the normal public app page. Internal testing can reveal it with `?internal=1`, while backend private APIs remain protected.
 - Public page loads do not call private-session or PDC endpoints unless an internal URL is explicitly opened.
 - Menu image request bodies are stream-bounded before multipart parsing; the accepted upload formats are JPEG, PNG, WebP, and GIF.
