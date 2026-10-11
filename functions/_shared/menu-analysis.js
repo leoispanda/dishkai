@@ -1,5 +1,6 @@
 import { metadata } from "../../data/internal/index.js";
 import { universalMenuItems } from "./universal-menu-items.js";
+import { aiError, requestOpenAiJson } from "./openai-client.js";
 
 export const TEXT_MODEL = "@cf/meta/llama-3.1-8b-instruct";
 export const DEFAULT_OPENAI_MODEL = "gpt-5.4-mini";
@@ -8,8 +9,7 @@ const MAX_MENU_TEXT_LENGTH = 12000;
 export const MAX_MENU_IMAGE_BYTES = 8 * 1024 * 1024;
 export const MAX_MENU_IMAGE_REQUEST_BYTES = MAX_MENU_IMAGE_BYTES + 32 * 1024;
 const AI_FALLBACK_MAX_ITEMS = 30;
-const OPENAI_REQUEST_TIMEOUT_MS = 45_000;
-const OPENAI_CHAT_COMPLETIONS_URL = "https://api.openai.com/v1/chat/completions";
+const MENU_IMAGE_OUTPUT_TOKENS = 12_000;
 const SUPPORTED_IMAGE_TYPES = new Set(["image/jpeg", "image/png", "image/webp", "image/gif"]);
 const CHEF_SPECIAL_IMAGE_PATH = "/assets/dishes/fallback/chef-special-pasta.webp";
 const CHEF_SPECIAL_THUMB_PATH = "/assets/dishes/fallback/chef-special-pasta-thumb.webp";
@@ -291,66 +291,45 @@ function hasOpenAiApiKey(env) {
 }
 
 async function runOpenAiJson(prompt, env, { maxTokens = 1200, temperature = 0.1, responseFormat } = {}) {
-  const response = await fetchWithTimeout(OPENAI_CHAT_COMPLETIONS_URL, {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${env.DISHKAI_AI_API_KEY}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      model: openAiModel(env),
-      messages: [
-        { role: "system", content: "Return valid JSON only. Do not include markdown." },
-        { role: "user", content: prompt },
-      ],
-      response_format: responseFormat || { type: "json_object" },
-      max_completion_tokens: maxTokens,
-      temperature,
-    }),
-  }, OPENAI_REQUEST_TIMEOUT_MS);
-
-  if (!response.ok) {
-    const errorText = await response.text().catch(() => "");
-    throw new Error(`OpenAI request failed: ${response.status} ${errorText.slice(0, 220)}`);
-  }
-
-  return response.json();
+  return requestOpenAiJson({
+    model: openAiModel(env),
+    messages: [
+      { role: "system", content: "Return valid JSON only. Do not include markdown." },
+      { role: "user", content: prompt },
+    ],
+    response_format: responseFormat || { type: "json_object" },
+    max_completion_tokens: maxTokens,
+    temperature,
+  }, env.DISHKAI_AI_API_KEY);
 }
 
 async function runOpenAiVisionJson(prompt, imageDataUrl, env, { maxTokens = 1400, temperature = 0.1, responseFormat } = {}) {
-  const response = await fetchWithTimeout(OPENAI_CHAT_COMPLETIONS_URL, {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${env.DISHKAI_AI_API_KEY}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      model: openAiVisionModel(env),
-      messages: [
-        { role: "system", content: "Return valid JSON only. Do not include markdown." },
-        {
-          role: "user",
-          content: [
-            { type: "text", text: prompt },
-            { type: "image_url", image_url: { url: imageDataUrl, detail: openAiImageDetail(env) } },
-          ],
-        },
-      ],
-      response_format: responseFormat || { type: "json_object" },
-      max_completion_tokens: maxTokens,
-      temperature,
-    }),
-  }, OPENAI_REQUEST_TIMEOUT_MS);
-
-  if (!response.ok) {
-    const errorText = await response.text().catch(() => "");
-    throw new Error(`OpenAI vision request failed: ${response.status} ${errorText.slice(0, 220)}`);
-  }
-
-  return response.json();
+  return requestOpenAiJson({
+    model: openAiVisionModel(env),
+    messages: [
+      { role: "system", content: "Return valid JSON only. Do not include markdown." },
+      {
+        role: "user",
+        content: [
+          { type: "text", text: prompt },
+          { type: "image_url", image_url: { url: imageDataUrl, detail: openAiImageDetail(env) } },
+        ],
+      },
+    ],
+    response_format: responseFormat || { type: "json_object" },
+    max_completion_tokens: maxTokens,
+    temperature,
+  }, env.DISHKAI_AI_API_KEY);
 }
 
 function extractJsonObject(value) {
+  const choice = value?.choices?.[0];
+  if (choice?.finish_reason === "length") {
+    throw aiError("AI_OUTPUT_TRUNCATED", "This menu is too long to read in one scan. Please crop it into smaller sections or paste menu text.");
+  }
+  if (choice?.message?.refusal || choice?.finish_reason === "content_filter") {
+    throw aiError("AI_RESPONSE_REFUSED", "The photo could not be read. Please upload a menu-only photo or paste menu text.", 422);
+  }
   const text = typeof value === "string"
     ? value
     : String(
@@ -361,8 +340,12 @@ function extractJsonObject(value) {
         || "",
     );
   const match = text.match(/\{[\s\S]*\}/);
-  if (!match) throw new Error("AI did not return JSON.");
-  return JSON.parse(match[0]);
+  if (!match) throw aiError("AI_INVALID_RESPONSE", "Menu reading returned an incomplete response. Please try again or paste menu text.");
+  try {
+    return JSON.parse(match[0]);
+  } catch {
+    throw aiError("AI_INVALID_RESPONSE", "Menu reading returned an incomplete response. Please try again or paste menu text.");
+  }
 }
 
 function cleanExtractedItems(value, fallbackItems) {
@@ -410,7 +393,7 @@ async function extractItems(menuText, sourceLanguage, targetLanguage, env) {
       const aiResult = await runOpenAiJson(
         buildExtractionPrompt(menuText, sourceLanguage, targetLanguage),
         env,
-        { maxTokens: 1200, temperature: 0.1, responseFormat: MENU_EXTRACTION_RESPONSE_FORMAT },
+        { maxTokens: Math.min(12_000, 1600 + fallbackItems.length * 160), temperature: 0.1, responseFormat: MENU_EXTRACTION_RESPONSE_FORMAT },
       );
       return {
         items: cleanExtractedItems(extractJsonObject(aiResult), fallbackItems),
@@ -503,7 +486,7 @@ async function extractItemsFromImage(image, sourceLanguage, targetLanguage, env)
     buildImageExtractionPrompt(sourceLanguage, targetLanguage),
     imageDataUrl,
     env,
-    { maxTokens: 2200, temperature: 0.1, responseFormat: MENU_EXTRACTION_RESPONSE_FORMAT },
+    { maxTokens: MENU_IMAGE_OUTPUT_TOKENS, temperature: 0.1, responseFormat: MENU_EXTRACTION_RESPONSE_FORMAT },
   );
   const parsed = extractJsonObject(aiResult);
   const fallbackItems = splitMenuText(parsed.menuText || "");
@@ -569,23 +552,6 @@ function findAliasMatch(cleanName, { exactOnly = false } = {}) {
   }
 
   return { alias: null, normalizedName, confidence: 0 };
-}
-
-async function fetchWithTimeout(url, options, timeoutMs) {
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), timeoutMs);
-  try {
-    return await fetch(url, { ...options, signal: controller.signal });
-  } catch (error) {
-    if (error?.name === "AbortError") {
-      const timeoutError = new Error("AI request timed out. Please try again.");
-      timeoutError.code = "AI_REQUEST_TIMEOUT";
-      throw timeoutError;
-    }
-    throw error;
-  } finally {
-    clearTimeout(timeout);
-  }
 }
 
 function candidateDishNames(item) {
@@ -1261,6 +1227,7 @@ async function buildMenuAnalysis({ sourceLanguage, targetLanguage, extraction, e
 }
 
 export async function analyzeMenuImage({ image, sourceLanguage = "auto", targetLanguage = "en", env } = {}) {
+  const started = Date.now();
   try {
     const extraction = await extractItemsFromImage(image, sourceLanguage, targetLanguage, env);
     if (!extraction.ok) {
@@ -1304,6 +1271,11 @@ export async function analyzeMenuImage({ image, sourceLanguage = "auto", targetL
       env,
     });
   } catch (error) {
+    console.warn("DishKAI menu photo analysis failed", {
+      code: error?.code || "IMAGE_ANALYSIS_FAILED",
+      model: openAiVisionModel(env),
+      elapsedMs: Date.now() - started,
+    });
     const statusByCode = {
       IMAGE_REQUIRED: 400,
       IMAGE_TOO_LARGE: 413,
@@ -1311,7 +1283,7 @@ export async function analyzeMenuImage({ image, sourceLanguage = "auto", targetL
     };
     return {
       ok: false,
-      statusCode: statusByCode[error?.code] || 502,
+      statusCode: statusByCode[error?.code] || error?.statusCode || 502,
       error: error?.code || "IMAGE_ANALYSIS_FAILED",
       message: error?.message || "Image analysis failed. Please try a clearer photo or paste menu text.",
       sourceLanguage,

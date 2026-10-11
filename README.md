@@ -98,6 +98,15 @@ For local Wrangler testing, Workers AI may require:
 wrangler pages dev public --ai AI
 ```
 
+### Menu scan reliability
+
+- Image extraction permits up to 12,000 output tokens; text extraction scales its budget with the menu line count, up to the same limit. This is an output ceiling, not a fixed token charge. A length-limited response is rejected with `AI_OUTPUT_TRUNCATED` so an incomplete menu is never silently presented as complete.
+- OpenAI requests use a 45-second deadline including response-body reading. Temporary rate-limit, server, or transport failures may retry once within a 60-second total budget. `Retry-After` is respected; delays above two seconds return the error instead of retrying early. Quota/billing, authentication, invalid requests, refusals, and timeouts are not retried.
+- The menu form prevents duplicate submissions and always releases its busy state. A 125-second browser deadline covers extraction and the optional unmatched-dish AI fallback. Connection failures and backend errors have English, Chinese, and Dutch guidance.
+- After compression, the browser checks accepted formats and the 8 MB limit before uploading. HEIC must be converted if the browser cannot decode it into JPEG. Uploaded images remain temporary.
+- Backend logs contain error codes, model, timing, and provider request IDs where available, without API keys, images, menu text, or raw provider error bodies. To investigate an intermittent failure, check the response code and the corresponding Cloudflare Function log; a working scan today cannot establish yesterday's failure cause.
+- Offline regressions: `npm run check:menu-ai`, `npm run check:menu-upload-frontend`, and `npm run check:menu-matching`. These use synthetic fixtures and no real credentials.
+
 ## Personal PDC Council Room V1.5
 
 DishKAI now hosts an internal Personal PDC Council Room as a technical test environment. This is a general personal decision system, not a DishKAI-specific food council.

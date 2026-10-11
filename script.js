@@ -1,9 +1,12 @@
-const APP_VERSION = "DishKAI v0.2.36-public-beta";
+const APP_VERSION = "DishKAI v0.2.37-public-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
 const USAGE_COUNT_KEY = "dishkai-local-usage-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
 const MENU_IMAGE_MAX_EDGE = 1800;
 const MENU_IMAGE_JPEG_QUALITY = 0.82;
+const MENU_IMAGE_MAX_BYTES = 8 * 1024 * 1024;
+const MENU_IMAGE_TYPES = new Set(["image/jpeg", "image/png", "image/webp", "image/gif"]);
+const MENU_REQUEST_TIMEOUT_MS = 125_000;
 const HOME_TITLE = "DishKAI | Know the dish before you order";
 const TRANSPARENCY_PATH = "/ai-transparency";
 
@@ -17,6 +20,22 @@ const translations = {
     privateAccessEyebrow: "Private tools", privateAccessTitle: "Leo & Cindy internal tools.", unauthorizedNotice: "Menu recognition is public. PDC and internal actions stay private.", privateAccessLabel: "Private access code", privateAccessPlaceholder: "Enter private access code", unlockPrivate: "Unlock private tools", privateUnlocked: "Private tools unlocked.", privateLocked: "Private tools are locked. Menu recognition is open.", privateDenied: "Private tools are locked.", clearRecentScans: "Clear recent scans", clearScansDone: "Recent scans cleared.", privateLogout: "Lock",
     textMode: "Text", imageMode: "Photo", menuTextLabel: "Menu text", menuTextPlaceholder: "Boeuf Bourguignon\nCoq au Vin\nRatatouille", menuImageLabel: "Menu photo", imageHelper: "Photo scan may fall back to text.", uploadWarning: "Avoid faces, payment details, addresses, and private information.",
     outputLanguage: "Language", generate: "Analyze menu", loading: "Analyzing menu...", compressionStatus: "Compressed {from} to {to}. Analyzing menu...", noItems: "No menu items were found. Please paste clearer menu text.", imageUnavailable: "Image analysis is not available yet. Please paste menu text instead.",
+    imageRequired: "Choose a menu photo before analyzing.",
+    imageTooLarge: "This photo is still larger than 8 MB after compression. Choose a smaller photo or crop the menu.",
+    imageUnsupported: "Please use a JPEG, PNG, WebP, or GIF photo. Convert HEIC photos to JPEG first.",
+    imageNoItems: "No dishes could be read from this photo. Try a clearer photo, crop to one menu section, or paste menu text.",
+    menuNetworkError: "The connection was interrupted. Check your internet connection and try again.",
+    menuTimeout: "Menu analysis took too long. Try a smaller menu section or paste menu text.",
+    menuServerResponse: "The server returned an unexpected response. Please try again shortly.",
+    aiRateLimited: "Menu recognition is busy. Please wait a moment before trying again.",
+    aiQuotaExceeded: "Menu recognition is unavailable because the AI service quota has been reached. Please try again later.",
+    aiAuthError: "Menu recognition is unavailable because the AI service connection needs attention. Please try again later.",
+    aiModelUnavailable: "The menu recognition model is unavailable. Please try again later.",
+    aiInvalidRequest: "The AI service could not process this menu. Try a smaller photo or paste menu text.",
+    aiServiceUnavailable: "The AI service is temporarily unavailable. Please try again shortly.",
+    aiOutputTruncated: "This menu was too long to read in one scan. Crop to one section or paste a shorter menu.",
+    aiInvalidResponse: "The AI service returned an incomplete result. Please try again or paste menu text.",
+    aiResponseRefused: "The AI service could not read this menu. Try another menu photo or paste menu text.",
     menuListEyebrow: "Menu list", menuListTitle: "Detected dishes", emptyCard: "Select a dish.",
     footerText: "Know the dish with AI before you order.",
     footerAbout: "DishKAI helps people quickly understand menu names, dish context, and ordering risks before choosing what to eat.",
@@ -48,6 +67,22 @@ const translations = {
     privateAccessEyebrow: "私有工具", privateAccessTitle: "Leo 和 Cindy 的内部工具。", unauthorizedNotice: "菜单识别已公开开放。PDC 和内部操作仍然保持私有。", privateAccessLabel: "私有访问码", privateAccessPlaceholder: "输入私有访问码", unlockPrivate: "解锁私有工具", privateUnlocked: "私有工具已解锁。", privateLocked: "私有工具已锁定。菜单识别已开放。", privateDenied: "私有工具已锁定。", clearRecentScans: "清除最近扫描", clearScansDone: "最近扫描已清除。", privateLogout: "锁定",
     textMode: "文字", imageMode: "照片", menuTextLabel: "菜单文字", menuTextPlaceholder: "Boeuf Bourguignon\nCoq au Vin\nRatatouille", menuImageLabel: "菜单照片", imageHelper: "照片识别不可用时会建议粘贴文字。", uploadWarning: "请避免上传人脸、支付信息、地址和隐私内容。",
     outputLanguage: "语言", generate: "分析菜单", loading: "正在分析菜单...", compressionStatus: "已将图片从 {from} 压缩到 {to}，正在分析菜单...", noItems: "没有找到菜单项。请粘贴更清晰的菜单文字。", imageUnavailable: "图片分析暂不可用。请粘贴菜单文字。",
+    imageRequired: "请先选择一张菜单照片。",
+    imageTooLarge: "图片压缩后仍超过 8 MB。请选择较小的照片，或裁剪菜单区域。",
+    imageUnsupported: "请使用 JPEG、PNG、WebP 或 GIF 图片。HEIC 照片请先转为 JPEG。",
+    imageNoItems: "没有读出照片中的菜品。请换清晰照片、裁剪一个菜单区域，或粘贴菜单文字。",
+    menuNetworkError: "连接中断了。请检查网络后重试。",
+    menuTimeout: "菜单识别耗时过长。请缩小菜单区域，或粘贴菜单文字。",
+    menuServerResponse: "服务器返回了异常响应，请稍后重试。",
+    aiRateLimited: "菜单识别服务繁忙，请稍等片刻再试。",
+    aiQuotaExceeded: "AI 服务额度已用完，菜单识别暂不可用，请稍后再试。",
+    aiAuthError: "AI 服务连接配置需要处理，菜单识别暂不可用，请稍后再试。",
+    aiModelUnavailable: "菜单识别模型暂不可用，请稍后再试。",
+    aiInvalidRequest: "AI 服务未能处理这份菜单。请缩小照片，或粘贴菜单文字。",
+    aiServiceUnavailable: "AI 服务暂时不可用，请稍后重试。",
+    aiOutputTruncated: "菜单太长，一次没有读完。请裁剪一个区域，或粘贴较短的菜单文字。",
+    aiInvalidResponse: "AI 服务返回的结果不完整。请重试，或粘贴菜单文字。",
+    aiResponseRefused: "AI 服务未能读取这份菜单。请换一张菜单照片，或粘贴菜单文字。",
     menuListEyebrow: "菜单列表", menuListTitle: "识别到的菜", emptyCard: "选择一道菜。",
     footerText: "用 AI 在点餐前看懂这道菜。",
     footerAbout: "DishKAI 帮助你在点餐前快速理解菜名、菜品背景和需要注意的风险。",
@@ -79,6 +114,22 @@ const translations = {
     privateAccessEyebrow: "Private tools", privateAccessTitle: "Interne tools voor Leo & Cindy.", unauthorizedNotice: "Menuherkenning is publiek. PDC en interne acties blijven privaat.", privateAccessLabel: "Private toegangscode", privateAccessPlaceholder: "Voer private toegangscode in", unlockPrivate: "Ontgrendel private tools", privateUnlocked: "Private tools ontgrendeld.", privateLocked: "Private tools zijn vergrendeld. Menuherkenning is open.", privateDenied: "Private tools zijn vergrendeld.", clearRecentScans: "Wis recente scans", clearScansDone: "Recente scans gewist.", privateLogout: "Vergrendel",
     textMode: "Tekst", imageMode: "Foto", menuTextLabel: "Menutekst", menuTextPlaceholder: "Boeuf Bourguignon\nCoq au Vin\nRatatouille", menuImageLabel: "Menufoto", imageHelper: "Fotoscan kan terugvallen op tekst.", uploadWarning: "Vermijd gezichten, betaalgegevens, adressen en privegegevens.",
     outputLanguage: "Taal", generate: "Analyseer menu", loading: "Menu analyseren...", compressionStatus: "Afbeelding verkleind van {from} naar {to}. Menu analyseren...", noItems: "Geen menu-items gevonden. Plak duidelijkere menutekst.", imageUnavailable: "Beeldanalyse is nog niet beschikbaar. Plak menutekst.",
+    imageRequired: "Kies eerst een menufoto.",
+    imageTooLarge: "De foto is na verkleinen nog groter dan 8 MB. Kies een kleinere foto of snijd het menu bij.",
+    imageUnsupported: "Gebruik een JPEG-, PNG-, WebP- of GIF-foto. Zet HEIC-foto's eerst om naar JPEG.",
+    imageNoItems: "Er zijn geen gerechten uit deze foto gelezen. Probeer een scherpere foto, snijd één menugedeelte uit of plak menutekst.",
+    menuNetworkError: "De verbinding werd onderbroken. Controleer je internetverbinding en probeer opnieuw.",
+    menuTimeout: "De menuanalyse duurde te lang. Probeer een kleiner menugedeelte of plak menutekst.",
+    menuServerResponse: "De server gaf een onverwacht antwoord. Probeer het zo nog eens.",
+    aiRateLimited: "De menuherkenning is druk. Wacht even voordat je het opnieuw probeert.",
+    aiQuotaExceeded: "Menuherkenning is niet beschikbaar omdat het quotum van de AI-dienst is bereikt. Probeer het later opnieuw.",
+    aiAuthError: "De verbinding met de AI-dienst heeft aandacht nodig. Menuherkenning is tijdelijk niet beschikbaar.",
+    aiModelUnavailable: "Het model voor menuherkenning is niet beschikbaar. Probeer het later opnieuw.",
+    aiInvalidRequest: "De AI-dienst kon dit menu niet verwerken. Probeer een kleinere foto of plak menutekst.",
+    aiServiceUnavailable: "De AI-dienst is tijdelijk niet beschikbaar. Probeer het zo nog eens.",
+    aiOutputTruncated: "Dit menu was te lang voor één scan. Snijd één gedeelte uit of plak een korter menu.",
+    aiInvalidResponse: "De AI-dienst gaf een onvolledig resultaat. Probeer opnieuw of plak menutekst.",
+    aiResponseRefused: "De AI-dienst kon dit menu niet lezen. Probeer een andere menufoto of plak menutekst.",
     menuListEyebrow: "Menulijst", menuListTitle: "Gevonden gerechten", emptyCard: "Kies een gerecht.",
     footerText: "Ken het gerecht met AI voordat je bestelt.",
     footerAbout: "DishKAI helpt je snel menunamen, gerechtcontext en bestelrisico's te begrijpen voordat je kiest wat je eet.",
@@ -110,6 +161,7 @@ let expandedOrderIndex = null;
 let pdcState = { rounds: [] };
 let privateAccessGranted = false;
 let privateToolsInitialized = false;
+let menuAnalysisPending = false;
 
 const $ = (selector) => document.querySelector(selector);
 
@@ -185,24 +237,66 @@ function focusMenuEntry() {
   }, 420);
 }
 
-async function fetchJson(url, options = {}) {
-  const response = await fetch(url, options);
-  const text = await response.text();
-  let result = {};
-  if (text) {
-    try {
-      result = JSON.parse(text);
-    } catch {
-      const looksLikeHtml = /^\s*</.test(text);
-      result = {
-        error: "INVALID_JSON",
-        message: looksLikeHtml
-          ? "Server returned an HTML error page instead of JSON. Please try again after the latest deploy finishes."
-          : text.slice(0, 180) || "Unexpected server response.",
-      };
+async function fetchJson(url, options = {}, timeoutMs = 0) {
+  const controller = timeoutMs > 0 ? new AbortController() : null;
+  let timedOut = false;
+  const timeout = controller ? window.setTimeout(() => {
+    timedOut = true;
+    controller.abort();
+  }, timeoutMs) : null;
+  try {
+    const response = await fetch(url, controller ? { ...options, signal: controller.signal } : options);
+    const text = await response.text();
+    let result = {};
+    if (text) {
+      try {
+        result = JSON.parse(text);
+      } catch {
+        result = {
+          error: "INVALID_JSON",
+          message: "Server returned an unexpected response. Please try again shortly.",
+        };
+      }
     }
+    return { response, result };
+  } catch (error) {
+    if (controller) {
+      const menuError = new Error(t(timedOut ? "menuTimeout" : "menuNetworkError"));
+      menuError.code = timedOut ? "MENU_CLIENT_TIMEOUT" : "MENU_NETWORK_ERROR";
+      throw menuError;
+    }
+    throw error;
+  } finally {
+    if (timeout !== null) window.clearTimeout(timeout);
   }
-  return { response, result };
+}
+
+const MENU_ERROR_TRANSLATIONS = {
+  AI_REQUEST_TIMEOUT: "menuTimeout",
+  MENU_CLIENT_TIMEOUT: "menuTimeout",
+  MENU_NETWORK_ERROR: "menuNetworkError",
+  INVALID_JSON: "menuServerResponse",
+  AI_RATE_LIMITED: "aiRateLimited",
+  RATE_LIMITED: "aiRateLimited",
+  AI_QUOTA_EXCEEDED: "aiQuotaExceeded",
+  AI_AUTH_ERROR: "aiAuthError",
+  AI_MODEL_UNAVAILABLE: "aiModelUnavailable",
+  AI_INVALID_REQUEST: "aiInvalidRequest",
+  AI_SERVICE_UNAVAILABLE: "aiServiceUnavailable",
+  AI_OUTPUT_TRUNCATED: "aiOutputTruncated",
+  AI_INVALID_RESPONSE: "aiInvalidResponse",
+  AI_RESPONSE_REFUSED: "aiResponseRefused",
+  NO_MENU_ITEMS_FOUND: "imageNoItems",
+  IMAGE_AI_NOT_CONFIGURED: "imageUnavailable",
+  IMAGE_REQUIRED: "imageRequired",
+  IMAGE_TOO_LARGE: "imageTooLarge",
+  REQUEST_BODY_TOO_LARGE: "imageTooLarge",
+  UNSUPPORTED_IMAGE_TYPE: "imageUnsupported",
+};
+
+function menuErrorMessage(result, fallback) {
+  const key = MENU_ERROR_TRANSLATIONS[result?.error || result?.code];
+  return key ? t(key) : apiErrorMessage(result, fallback);
 }
 
 function apiErrorMessage(result, fallback) {
@@ -295,13 +389,13 @@ function renderLegalStep() {
   document.body.classList.toggle("legal-step-complete", accepted);
   if ($("#legalGate")) $("#legalGate").hidden = accepted;
   if ($("#appShell")) $("#appShell").hidden = !accepted;
-  if ($("#generateButton")) $("#generateButton").disabled = !accepted;
+  if ($("#generateButton")) $("#generateButton").disabled = menuAnalysisPending || !accepted;
   if ($("#enterAppButton")) $("#enterAppButton").disabled = !legalAccepted();
 }
 
 function updateLegalGate() {
   if ($("#enterAppButton")) $("#enterAppButton").disabled = !legalAccepted();
-  if ($("#generateButton")) $("#generateButton").disabled = !storedLegalAccepted();
+  if ($("#generateButton")) $("#generateButton").disabled = menuAnalysisPending || !storedLegalAccepted();
 }
 
 function requireLegalAcceptance() {
@@ -455,10 +549,10 @@ async function analyzeText() {
       sourceLanguage: "auto",
       targetLanguage: $("#targetLanguage").value,
     }),
-  });
+  }, MENU_REQUEST_TIMEOUT_MS);
   if (!response.ok || !result.ok) {
     if (response.status === 401) setPrivateAccess(false);
-    setStatus(apiErrorMessage(result, t("noItems")), "error");
+    setStatus(menuErrorMessage(result, t("noItems")), "error");
     return;
   }
   latestResult = result;
@@ -472,11 +566,19 @@ async function analyzeImage() {
   if (!requireLegalAcceptance()) return;
   const image = $("#menuImage").files[0];
   if (!image) {
-    setStatus(t("imageUnavailable"), "error");
+    setStatus(t("imageRequired"), "error");
     return;
   }
   setStatus(t("loading"));
   const uploadImage = await compressMenuImage(image);
+  if (!MENU_IMAGE_TYPES.has(String(uploadImage.file.type || "").toLowerCase())) {
+    setStatus(t("imageUnsupported"), "error");
+    return;
+  }
+  if (uploadImage.file.size > MENU_IMAGE_MAX_BYTES) {
+    setStatus(t("imageTooLarge"), "error");
+    return;
+  }
   if (uploadImage.changed) {
     setStatus(template("compressionStatus", {
       from: formatBytes(uploadImage.originalSize),
@@ -487,16 +589,36 @@ async function analyzeImage() {
   formData.append("image", uploadImage.file);
   formData.append("sourceLanguage", "auto");
   formData.append("targetLanguage", $("#targetLanguage").value);
-  const { response, result } = await fetchJson("/api/analyze-menu-image", { method: "POST", body: formData });
+  const { response, result } = await fetchJson("/api/analyze-menu-image", { method: "POST", body: formData }, MENU_REQUEST_TIMEOUT_MS);
   if (!response.ok || !result.ok) {
     if (response.status === 401) setPrivateAccess(false);
-    setStatus(apiErrorMessage(result, t("imageUnavailable")), "error");
+    setStatus(menuErrorMessage(result, t("imageUnavailable")), "error");
     return;
   }
   latestResult = result;
   incrementUsageCount();
   renderAnalysis(result);
   setStatus(`${result.items.length} ${t("summary")}.`);
+}
+
+function setMenuAnalysisPending(pending) {
+  menuAnalysisPending = pending;
+  $("#menuForm").setAttribute("aria-busy", String(pending));
+  $("#generateButton").disabled = pending || !storedLegalAccepted();
+}
+
+async function submitMenu(event) {
+  event.preventDefault();
+  if (menuAnalysisPending || !requireLegalAcceptance()) return;
+  setMenuAnalysisPending(true);
+  try {
+    if (inputMode === "image") await analyzeImage();
+    else await analyzeText();
+  } catch (error) {
+    setStatus(menuErrorMessage(error, t("menuServerResponse")), "error");
+  } finally {
+    setMenuAnalysisPending(false);
+  }
 }
 
 function renderAnalysis(result) {
@@ -1089,11 +1211,7 @@ document.querySelectorAll("[data-mode]").forEach((button) => {
   });
 });
 
-$("#menuForm").addEventListener("submit", (event) => {
-  event.preventDefault();
-  if (inputMode === "image") analyzeImage();
-  else analyzeText();
-});
+$("#menuForm").addEventListener("submit", submitMenu);
 
 $("#targetLanguage").addEventListener("change", () => {
   uiLang = $("#targetLanguage").value;
