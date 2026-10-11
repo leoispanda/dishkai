@@ -1,6 +1,6 @@
 # DishKAI
 
-DishKAI is a public beta menu understanding assistant, with private internal tools still reserved for Leo & Cindy.
+DishKAI is a personally operated public beta menu understanding website for exploring AI application development, with private internal tools still reserved for Leo & Cindy. Questions, feedback and privacy requests can be sent to hello@dishkai.com.
 
 It turns unfamiliar menu names into visual, clickable Dish Knowledge Cards for fast ordering decisions.
 
@@ -123,7 +123,7 @@ wrangler pages dev public --ai AI
 
 The public `/ai-transparency` page explains actual menu/PDC capabilities, AI providers, content origin, limits and data handling in English, Chinese and Dutch. The [EU AI Act review](docs/ai-act-review.md) uses the current adopted law and records the assessed roles, applicable transparency issues and unresolved evidence. The [operations and literacy guide](docs/ai-operations.md) contains practical exercises and an uncompleted training record template; writing it is not proof that staff training occurred.
 
-Run `npm run check:ai-transparency` and `npm run check:image-provenance` for the new synthetic source, disclosure, opt-in, retention and guarded-import checks. Operator identity, provider contracts/processing settings, legacy retention and robust Article 50(2) marking/detection remain open. UI badges and declared JSON/DOM provenance are useful controls, not a full compliance certification.
+Run `npm run check:ai-transparency` and `npm run check:image-provenance` for the new synthetic source, disclosure, opt-in, retention and guarded-import checks. Personal operation, the AI application exploration purpose and the contact email are owner-confirmed. The operator's identifying public details, provider contracts/processing settings, legacy retention and robust Article 50(2) marking/detection remain open. UI badges and declared JSON/DOM provenance are useful controls, not a full compliance certification.
 
 ## Personal PDC Council Room V1.5
 

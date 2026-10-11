@@ -60,7 +60,7 @@ The remaining work is to obtain provider-specific marking/detection evidence, id
 
 These are related operational/GDPR matters, not duties invented under the AI Act. Article 2 preserves other applicable privacy and consumer law.
 
-- Confirm the legal operator/controller identity and a working contact channel before publishing that information. No identity has been inferred from the repository's personal names.
+- The owner confirmed on 11 October 2026 that DishKAI is personally operated for exploring AI application development and that hello@dishkai.com remains the contact email. The operator's identifying public details remain pending, and mailbox delivery has not been tested. No name or address has been inferred from repository/account information, and no exemption or nonprofit status is assumed from personal operation.
 - Verify Google, OpenAI and Cloudflare account terms, billing/service tier, prompt use, provider retention, processing regions, transfers, relevant DPA terms and the actual production fallback configuration. An inline request and absence of application image storage do not mean upstream providers retain nothing.
 - Confirm the legal basis and user-information requirements for analysis and optional contributions. A disclaimer checkbox is not a general privacy waiver, and the contribution opt-in is not proof that all processing is lawful.
 - New KV event records expire 90 days after writing. Stores without event storage and individual expiry decline new contributions; legacy compatibility aggregates remain readable by private tools without rewriting or deleting them. Production store behavior and legacy records still need an operator review. This review did not access production data.
