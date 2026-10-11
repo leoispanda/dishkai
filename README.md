@@ -65,7 +65,7 @@ Gemini uses the native [generateContent REST API](https://ai.google.dev/api/gene
 
 Optional Cloudflare bindings:
 
-- `DISHKAI_UNMATCHED_DISHES`: KV namespace binding used to collect unmatched and AI-estimated dish names from all public users. This stores structured dish names/examples only, not uploaded images or full menu text. The production binding is configured in `wrangler.toml` for the `dishkai_unmatched_dishes` KV namespace. If the binding is missing, menu analysis still works but the central backlog is not persisted.
+- `DISHKAI_UNMATCHED_DISHES`: KV namespace binding for **optional** unknown/AI-estimated dish-name contributions. The form starts unchecked; JSON APIs require `contributeUnknownDishes: true` and photo FormData requires the literal string `"true"`. Declining does not block analysis. New KV event records expire after 90 days and contain limited dish/language/source fields, with obvious personal-data filtering. Photos and full menus are not stored for contributions. Filtering does not guarantee anonymity. The production binding is configured in `wrangler.toml`; absent bindings do not prevent analysis. New contributions are declined if the store lacks event storage with individual expiry, including the compatibility local aggregate store. Legacy aggregate data remains readable by private tools, without rewriting or deleting it; historical retention requires an owner decision.
 
 Current API endpoints:
 
@@ -86,18 +86,18 @@ Current API endpoints:
 
 Privacy and misuse protections:
 
-- Public menu recognition is available without private login; first-time users first choose a language, confirm the standalone disclaimer/privacy-risk step, then enter the menu tool with output defaulting to that language.
+- Public menu recognition is available without private login; first-time users choose a language and acknowledge menu-reference/safety limits before entering the tool. This acknowledgment is not general consent or a waiver of statutory rights. Optional contributions use a separate unchecked choice.
 - Private access codes are verified server-side only for internal tools such as PDC and administrative actions.
 - Sessions use a signed `HttpOnly; Secure; SameSite=Lax` cookie.
 - Private POST APIs reject cross-origin browser requests when an unexpected `Origin` header is present.
 - Expensive/private APIs include best-effort per-IP rate limiting.
 - JSON API request bodies are size-limited before parsing to reduce accidental memory/cost abuse.
-- DishKAI should not permanently store uploaded menu images by default.
-- Uploaded menu images should be processed temporarily.
-- Store only structured dish data after Leo/Cindy manually confirms.
+- Application code does not persist uploaded menu images or full menu text. Inputs are sent to configured AI services for processing; provider terms, account tier, retention, logs, regions, DPA and transfer arrangements require operator verification. No promise of zero upstream retention is made.
+- New unknown-dish contributions are opt-in and limited as described above; legacy backlog records still require owner review.
 - Users are warned not to upload images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.
-- AI dish images must be labeled: “AI-generated preview. For inspiration only. Actual dish may look different.”
-- If temporary scan records are introduced later, keep `/api/clear-recent-scans` able to clear them.
+- AI dish illustrations are labelled at first thumbnail exposure and on the full image. They are visual references, not restaurant photographs. The image importer retains exact source bytes and origin/hashes, and blocks transformation when recognised content-credential markers are found. This conservative guard does not validate signatures or detect invisible watermarks, and does not certify robust machine marking or mark preservation.
+- Card/response provenance distinguishes stored knowledge, stored guidance, generated estimates and missing metadata. Ingredient percentages are estimates; restaurant confirmation is needed for allergens, substitutions and cross-contact.
+- The private browser PDC state expires after seven days (also on reads and before continuation); old records without expiry are removed from browser state. The clear-local-data action clears browser state and does not erase cloud contributions or AI-provider records.
 - The local Node dev server serves static files from `public/` only, so source files and local configuration are not exposed by static routes.
 - DishKAI currently does not enforce a shared daily public quota; the footer only gives a simple approximate API-cost note for AI scans.
 - The private access-code panel is hidden from the normal public app page. Internal testing can reveal it with `?internal=1`, while backend private APIs remain protected.
@@ -119,6 +119,12 @@ wrangler pages dev public --ai AI
 - Backend logs contain error codes, model, timing, and provider request IDs where available, without API keys, images, menu text, or raw provider error bodies. To investigate an intermittent failure, check the response code and the corresponding Cloudflare Function log; a working scan today cannot establish yesterday's failure cause.
 - Offline regressions: `npm run check:menu-ai`, `npm run check:menu-gemini`, `npm run check:menu-upload-frontend`, and `npm run check:menu-matching`. These use synthetic fixtures and no real credentials.
 
+## AI transparency and operations
+
+The public `/ai-transparency` page explains actual menu/PDC capabilities, AI providers, content origin, limits and data handling in English, Chinese and Dutch. The [EU AI Act review](docs/ai-act-review.md) uses the current adopted law and records the assessed roles, applicable transparency issues and unresolved evidence. The [operations and literacy guide](docs/ai-operations.md) contains practical exercises and an uncompleted training record template; writing it is not proof that staff training occurred.
+
+Run `npm run check:ai-transparency` and `npm run check:image-provenance` for the new synthetic source, disclosure, opt-in, retention and guarded-import checks. Operator identity, provider contracts/processing settings, legacy retention and robust Article 50(2) marking/detection remain open. UI badges and declared JSON/DOM provenance are useful controls, not a full compliance certification.
+
 ## Personal PDC Council Room V1.5
 
 DishKAI now hosts an internal Personal PDC Council Room as a technical test environment. This is a general personal decision system, not a DishKAI-specific food council.
@@ -131,7 +137,8 @@ The PDC room:
 - supports independent speaking and automatic round-robin grouping as the main path
 - keeps older modes such as `quick_mode`, `preset_team_debate`, `custom_team_debate`, and `hybrid_debate` compatible in the backend
 - uses Cloudflare Workers AI through the backend `AI` binding
-- does not use OpenAI API, login, database storage, voting, elimination, or PK
+- presents fictional AI role perspectives, not real experts; identifies AI responses, local fallback templates and rule-based summaries separately
+- does not use the menu's Gemini/OpenAI path, database storage, voting, elimination, or PK; private access is checked server-side
 - supports user intervention through follow-up rounds using `previous_summary`
 
 Future V2 ideas include likes, elimination, PK, and persistent meeting state.

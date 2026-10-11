@@ -1,6 +1,6 @@
 import { QUICK_AGENT_IDS, getAgentById, getCouncilAgents, normalizeAgentId } from "./pdc-agents.js";
 import { PDC_TEAMS } from "./pdc-teams.js";
-import { DEFAULT_CF_MODEL, MissingAiBindingError, callLLM, parseJsonFromLLM } from "./pdc-provider.js";
+import { DEFAULT_CF_MODEL, DEFAULT_PROVIDER, MissingAiBindingError, callLLM, parseJsonFromLLM } from "./pdc-provider.js";
 
 const VALID_MODES = new Set(["quick_mode", "individual_debate", "preset_team_debate", "custom_team_debate", "hybrid_debate", "auto_group_debate"]);
 const VALID_ROUNDS = new Set(["round_1a", "user_intervention"]);
@@ -54,6 +54,14 @@ export async function runPdcRound(input, env) {
       agent_outputs: participants.filter((item) => item.participant_type === "agent").map(toLegacyAgentOutput),
       team_outputs: participants.filter((item) => item.participant_type === "team").map(toLegacyTeamOutput),
       summary,
+      transparency: {
+        version: 1,
+        interaction: "ai-system",
+        provider: DEFAULT_PROVIDER,
+        model: DEFAULT_CF_MODEL,
+        participantOrigins: [...new Set(participants.map((item) => item.contentOrigin))],
+        summaryOrigin: "rule-based",
+      },
       next_step: "挑一个最尖锐的分歧继续追问，或补充真实限制、时间成本、用户反馈，让 PDC 继续收敛。",
     },
   };
@@ -193,7 +201,7 @@ async function runAgent({ agent, topic, context, mode, previousSummary, userInte
     return cleanAgentParticipant(parseJsonFromLLM(raw), agent);
   } catch (error) {
     if (error instanceof MissingAiBindingError) throw error;
-    return fallbackAgentParticipant(agent, error);
+    return fallbackAgentParticipant(agent);
   }
 }
 
@@ -233,7 +241,7 @@ ${memberText}`;
     return cleanTeamParticipant(parseJsonFromLLM(raw), plan, members);
   } catch (error) {
     if (error instanceof MissingAiBindingError) throw error;
-    return fallbackTeamParticipant(plan, members, error);
+    return fallbackTeamParticipant(plan, members);
   }
 }
 
@@ -241,6 +249,9 @@ function cleanAgentParticipant(value, agent) {
   const output = value || {};
   return {
     participant_type: "agent",
+    contentOrigin: "ai-generated",
+    provider: DEFAULT_PROVIDER,
+    model: DEFAULT_CF_MODEL,
     id: agent.id,
     name: agent.name,
     cn_name: agent.cn_name,
@@ -263,6 +274,9 @@ function cleanTeamParticipant(value, plan, members) {
   const output = value || {};
   return {
     participant_type: "team",
+    contentOrigin: "ai-generated",
+    provider: DEFAULT_PROVIDER,
+    model: DEFAULT_CF_MODEL,
     id: plan.id,
     name: plan.name,
     role_or_purpose: plan.purpose || plan.focus || "",
@@ -287,9 +301,13 @@ function cleanTeamParticipant(value, plan, members) {
   };
 }
 
-function fallbackAgentParticipant(agent, error) {
+function fallbackAgentParticipant(agent) {
   return {
     participant_type: "agent",
+    contentOrigin: "local-fallback",
+    provider: "none",
+    model: null,
+    errorCode: "PDC_PARTICIPANT_UNAVAILABLE",
     id: agent.id,
     name: agent.name,
     cn_name: agent.cn_name,
@@ -298,7 +316,7 @@ function fallbackAgentParticipant(agent, error) {
     role_or_purpose: agent.cn_role,
     members: [],
     decision_bias: "调用异常",
-    position: clean(error?.message, 180) || "该成员调用失败。",
+    position: "该成员暂时无法回应，请稍后重试。",
     response_to_user: "未能生成有效回应。",
     internal_tension: "",
     strongest_counterargument: "输出格式异常，需人工查看。",
@@ -308,16 +326,20 @@ function fallbackAgentParticipant(agent, error) {
   };
 }
 
-function fallbackTeamParticipant(plan, members, error) {
+function fallbackTeamParticipant(plan, members) {
   return {
     participant_type: "team",
+    contentOrigin: "local-fallback",
+    provider: "none",
+    model: null,
+    errorCode: "PDC_PARTICIPANT_UNAVAILABLE",
     id: plan.id,
     name: plan.name,
     role_or_purpose: plan.purpose || "",
     members: members.map((agent) => ({ agent_id: agent.id, name: agent.name, cn_name: agent.cn_name, role: agent.cn_role, responsibility: agent.core_responsibility })),
     member_traits: members.map((agent) => `${agent.cn_name}：${agent.short_trait}`),
     decision_bias: "调用异常",
-    position: clean(error?.message, 220) || "该小组调用失败。",
+    position: "该小组暂时无法回应，请稍后重试。",
     response_to_user: "未能生成有效回应。",
     internal_tension: plan.tensionHint || "组内张力未能生成。",
     strongest_counterargument: "输出格式异常，需人工查看。",
@@ -329,6 +351,8 @@ function fallbackTeamParticipant(plan, members, error) {
 
 function buildStructuredSummary(topic, participants) {
   return {
+    contentOrigin: "rule-based",
+    participantOrigins: [...new Set(participants.map((item) => item.contentOrigin))],
     focus: `围绕「${topic}」的本轮 PDC 判断。`,
     strongest_direction: clean(participants.map((item) => `${item.name}：${item.recommendation}`).join("；"), 900),
     missing_information: "需要更具体的时间成本、真实用户反馈、机会成本和下一步验证条件。",
@@ -338,6 +362,9 @@ function buildStructuredSummary(topic, participants) {
 
 function toLegacyAgentOutput(item) {
   return {
+    contentOrigin: item.contentOrigin,
+    provider: item.provider,
+    model: item.model,
     agent_id: item.id,
     name: item.name,
     cn_name: item.cn_name,
@@ -351,6 +378,9 @@ function toLegacyAgentOutput(item) {
 
 function toLegacyTeamOutput(item) {
   return {
+    contentOrigin: item.contentOrigin,
+    provider: item.provider,
+    model: item.model,
     team_id: item.id,
     team_name: item.name,
     members: item.members.map((member) => member.name),

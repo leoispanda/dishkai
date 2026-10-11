@@ -20,7 +20,9 @@ export async function onRequestPost(context) {
       targetLanguage: formData?.get("targetLanguage") || "en",
       env,
     });
-    if (result.ok) context.waitUntil(recordUnmatchedDishes({ result, env, sourceType: "image" }));
+    if (result.ok && formData?.get("contributeUnknownDishes") === "true") {
+      context.waitUntil(recordUnmatchedDishes({ result, env, sourceType: "image" }));
+    }
     return json(result, result.ok ? 200 : result.statusCode || 400, securityHeaders());
   } catch (error) {
     return json({

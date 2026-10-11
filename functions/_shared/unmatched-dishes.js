@@ -1,5 +1,6 @@
 export const UNMATCHED_DISH_EVENT_PREFIX = "dishkai:unmatched-dishes:v1:event:";
 export const UNMATCHED_DISH_AGGREGATE_KEY = "dishkai:unmatched-dishes:v1:aggregate";
+export const UNMATCHED_DISH_RETENTION_SECONDS = 90 * 24 * 60 * 60;
 
 const MAX_EXAMPLES = 5;
 const MAX_ITEMS = 2000;
@@ -16,12 +17,15 @@ export function collectUnmatchedDishEntries(result, now = new Date().toISOString
     : (result?.items || []).filter((item) => ["unmatched", "ai-generated"].includes(item?.matchStatus));
 
   return sourceItems
-    .filter((item) => item?.originalName || item?.cleanName || item?.canonicalCandidate)
+    .filter((item) => item?.cleanName || item?.canonicalCandidate)
     .map((item) => {
-      const name = cleanText(item.cleanName || item.originalName || item.canonicalCandidate, 160);
-      const canonicalCandidate = cleanText(item.canonicalCandidate, 160);
+      // This is a cautious filter, not a guarantee that contributed names are anonymous.
+      if ([item.originalName, item.cleanName, item.canonicalCandidate, item.possibleCategory]
+        .some(containsObviousPersonalData)) return null;
+      const name = cleanDishName(item.cleanName || item.canonicalCandidate);
+      const canonicalCandidate = cleanDishName(item.canonicalCandidate);
       const id = backlogKey(canonicalCandidate || name);
-      if (!id) return null;
+      if (!id || !name) return null;
 
       return {
         id,
@@ -35,7 +39,7 @@ export function collectUnmatchedDishEntries(result, now = new Date().toISOString
         firstSeenAt: now,
         lastSeenAt: now,
         seenCount: 1,
-        examples: cleanText(item.originalName || name, 180) ? [cleanText(item.originalName || name, 180)] : [],
+        examples: [canonicalCandidate || name],
       };
     })
     .filter(Boolean)
@@ -51,35 +55,28 @@ export async function recordUnmatchedDishes({ result, env, sourceType = "unknown
   if (!store) {
     return { ok: false, configured: false, stored: false, count: entries.length, error: "UNMATCHED_DISH_STORE_NOT_CONFIGURED" };
   }
+  // Contributions need independent expirations; a shared aggregate key would renew old entries.
+  if (typeof store.list !== "function") {
+    return { ok: false, configured: true, stored: false, count: entries.length, error: "UNMATCHED_DISH_EVENT_STORE_REQUIRED" };
+  }
 
   try {
-    if (typeof store.list === "function") {
-      const key = `${UNMATCHED_DISH_EVENT_PREFIX}${now}:${randomId()}`;
-      await store.put(key, JSON.stringify({
-        version: 1,
-        createdAt: now,
-        sourceType,
-        sourceLanguage: cleanText(result?.sourceLanguage, 32),
-        targetLanguage: cleanText(result?.targetLanguage, 32),
-        extractionSource: cleanText(result?.extractionSource, 48),
-        model: cleanText(result?.model, 80),
-        aiFallbackSource: cleanText(result?.aiFallbackSource, 48),
-        aiFallbackModel: cleanText(result?.aiFallbackModel, 80),
-        items: entries,
-      }));
-      return { ok: true, configured: true, stored: true, count: entries.length, storage: "kv-events" };
-    }
-
-    const current = await readAggregate(store);
-    const nextItems = mergeUnmatchedDishEntries(current.items, entries);
-    await store.put(UNMATCHED_DISH_AGGREGATE_KEY, JSON.stringify({
+    const key = `${UNMATCHED_DISH_EVENT_PREFIX}${now}:${randomId()}`;
+    await store.put(key, JSON.stringify({
       version: 1,
-      updatedAt: now,
-      items: nextItems,
-    }));
-    return { ok: true, configured: true, stored: true, count: entries.length, storage: "aggregate" };
+      createdAt: now,
+      sourceType,
+      sourceLanguage: cleanText(result?.sourceLanguage, 32),
+      targetLanguage: cleanText(result?.targetLanguage, 32),
+      extractionSource: cleanText(result?.extractionSource, 48),
+      model: cleanText(result?.model, 80),
+      aiFallbackSource: cleanText(result?.aiFallbackSource, 48),
+      aiFallbackModel: cleanText(result?.aiFallbackModel, 80),
+      items: entries,
+    }), { expirationTtl: UNMATCHED_DISH_RETENTION_SECONDS });
+    return { ok: true, configured: true, stored: true, count: entries.length, storage: "kv-events" };
   } catch (error) {
-    console.error("DishKAI unmatched dish cloud collection failed:", error);
+    console.error("DishKAI unmatched dish cloud collection failed", { code: "UNMATCHED_DISH_STORE_FAILED" });
     return { ok: false, configured: true, stored: false, count: entries.length, error: "UNMATCHED_DISH_STORE_FAILED" };
   }
 }
@@ -214,6 +211,26 @@ function parseJson(raw) {
 
 function cleanText(value, maxLength = 400) {
   return String(value || "").trim().slice(0, maxLength);
+}
+
+function cleanDishName(value) {
+  return cleanText(String(value || "").normalize("NFKC")
+    .replace(/[\u0000-\u001f\u007f-\u009f\u200b-\u200f\u202a-\u202e\u2066-\u2069]/g, " ")
+    .replace(/\s+/g, " "), 160);
+}
+
+function containsObviousPersonalData(value) {
+  const text = String(value || "").normalize("NFKC");
+  if (!text) return false;
+  if (/[\w.%+-]+@[\w.-]+\.[a-z]{2,}/i.test(text)) return true;
+  if (/\b(?:https?:\/\/|www\.)|\b[\w-]+\.(?:com|net|org|io|nl|eu|be|de|fr)\b/i.test(text)) return true;
+  if (/\b(?:tel(?:ephone)?|phone|mobile|fax)\s*[:.]?\s*\+?\d/i.test(text)) return true;
+  const numbers = text.match(/\+?\d[\d\s().-]{5,}\d/g) || [];
+  if (numbers.some((number) => number.replace(/\D/g, "").length >= 7)) return true;
+  if (/\b(?:address|postcode|postal\s*code)\s*:|(?:地址|住所)\s*[:：]/i.test(text)) return true;
+  if (/\b\d{4}\s?[a-z]{2}\b/i.test(text)) return true;
+  if (/\b\d+\s+[\p{L}\p{M}.' -]{1,70}\b(?:street|st\.?|avenue|ave\.?|road|rd\.?|lane|ln\.?|drive|dr\.?|boulevard|blvd\.?|rue|strasse|straße)\b/iu.test(text)) return true;
+  return /\b[\p{L}\p{M}.' -]{1,70}(?:straat|weg|laan|gracht|plein|straße|strasse)\s+\d|\b(?:rue|avenue|street|road)\s+[\p{L}\p{M}.' -]{1,70}\s+\d/iu.test(text);
 }
 
 function cleanExamples(value) {

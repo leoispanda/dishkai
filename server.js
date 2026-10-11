@@ -106,7 +106,7 @@ const server = createServer(async (request, response) => {
         targetLanguage: body.targetLanguage || "en",
         env: localEnv(),
       });
-      if (result.ok) await recordUnmatchedDishes({ result, env: localEnv(), sourceType: "text" });
+      if (result.ok && body.contributeUnknownDishes === true) await recordUnmatchedDishes({ result, env: localEnv(), sourceType: "text" });
       sendJson(response, result.ok ? 200 : 400, result, securityHeaders());
       return;
     }
@@ -126,7 +126,7 @@ const server = createServer(async (request, response) => {
         targetLanguage: body.targetLanguage || "en",
         env: localEnv(),
       });
-      if (result.ok) await recordUnmatchedDishes({ result, env: localEnv(), sourceType: "text" });
+      if (result.ok && body.contributeUnknownDishes === true) await recordUnmatchedDishes({ result, env: localEnv(), sourceType: "text" });
       sendJson(response, result.ok ? 200 : 400, result, securityHeaders());
       return;
     }
@@ -146,7 +146,7 @@ const server = createServer(async (request, response) => {
         targetLanguage: formData.get("targetLanguage") || "en",
         env: localEnv(),
       });
-      if (result.ok) await recordUnmatchedDishes({ result, env: localEnv(), sourceType: "image" });
+      if (result.ok && formData.get("contributeUnknownDishes") === "true") await recordUnmatchedDishes({ result, env: localEnv(), sourceType: "image" });
       sendJson(response, result.ok ? 200 : result.statusCode || 400, result, securityHeaders());
       return;
     }

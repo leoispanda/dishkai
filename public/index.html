@@ -6,7 +6,7 @@
   <meta name="description" content="DishKAI helps people understand unfamiliar menu names before ordering.">
   <title>DishKAI | Know the dish before you order</title>
   <link rel="icon" href="/assets/brand/dishkai-cloche-logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=0.2.38">
+  <link rel="stylesheet" href="styles.css?v=0.2.39">
 </head>
 <body>
   <header class="topbar compact">
@@ -46,13 +46,13 @@
             <li data-i18n="legalPrivate">DishKAI is a public beta menu helper. It is not a professional, medical, nutritional, allergy, legal, or restaurant advisory service.</li>
             <li data-i18n="legalAccuracy">Dish names, ingredients, allergens, dietary flags, translations, images, AI estimates, and ordering advice may be incomplete, outdated, mistranslated, or wrong.</li>
             <li data-i18n="legalAllergy">Do not rely on DishKAI for allergies, pregnancy, medical conditions, religious restrictions, food safety, alcohol, raw food, or other high-risk decisions. Ask the restaurant directly.</li>
-            <li data-i18n="legalPrivacy">Do not upload images containing faces, payment details, addresses, phone numbers, private conversations, or other personal/sensitive information unless you have permission and accept the risk.</li>
-            <li data-i18n="legalResponsibility">You are solely responsible for what you upload and what you choose to order. DishKAI is provided without warranties and the maintainers accept no liability for decisions made from its output.</li>
+            <li data-i18n="legalPrivacy">Upload only the menu. Do not include faces, payment details, addresses, phone numbers, private conversations, or other personal or sensitive information. See the data notice for AI processing and optional contributions.</li>
+            <li data-i18n="legalResponsibility">You choose what to upload and order. These limitations do not exclude rights or responsibilities that applicable law does not allow us to exclude.</li>
           </ul>
         </details>
         <label class="legal-acceptance">
           <input id="legalAccepted" type="checkbox">
-          <span data-i18n="legalAccept">I understand and accept these limits before using DishKAI.</span>
+          <span data-i18n="legalAccept">I understand the menu-reference and safety limits. This does not consent to optional data contributions.</span>
         </label>
         <button id="enterAppButton" class="button primary" type="button" data-i18n="enterApp">Enter DishKAI</button>
         <p id="legalGateStatus" class="status" role="status"></p>
@@ -78,7 +78,7 @@
           <button class="button primary" type="submit" data-i18n="unlockPrivate">Unlock private tools</button>
         </form>
         <div class="private-actions">
-          <button id="clearRecentScans" class="button" type="button" data-i18n="clearRecentScans">Clear recent scans</button>
+          <button id="clearRecentScans" class="button" type="button" data-i18n="clearRecentScans">Clear local PDC history</button>
           <button id="privateLogout" class="button" type="button" data-i18n="privateLogout">Lock</button>
         </div>
         <p id="privateAccessStatus" class="status" role="status"></p>
@@ -92,7 +92,9 @@
 
         <div class="ai-interaction-note" role="note">
           <div class="provenance-label provenance-ai-assisted"><span aria-hidden="true">ⓘ</span><strong data-i18n="aiInteractionLabel">AI-assisted menu analysis</strong></div>
-          <p data-i18n="aiInteractionDisclosure">You are interacting with an AI system. Recipes and recommendations may contain errors. Check ingredients, allergens, and food-safety instructions before use.</p>
+          <p data-i18n="aiInteractionDisclosure">AI helps read this menu and may misread dishes. Check the original menu and confirm ingredients and allergens with the restaurant.</p>
+          <p data-i18n="uploadProcessingNotice">Menu text and photos may be sent to Google Gemini, with OpenAI as a backup; text may also use Cloudflare Workers AI. Avoid personal information.</p>
+          <a class="footer-ai-link" href="/ai-transparency#data" data-i18n="dataNoticeLink">AI and data details</a>
         </div>
 
         <div id="textModePanel" class="input-mode active" role="tabpanel" aria-labelledby="textModeTab" data-input-panel="text">
@@ -118,6 +120,11 @@ Ratatouille</textarea>
           </select>
         </label>
 
+        <label class="contribution-choice">
+          <input id="contributeUnknownDishes" name="contributeUnknownDishes" type="checkbox">
+          <span data-i18n="contributeUnknownDishes">Optional: share unknown dish-name suggestions to improve DishKAI (kept for up to 90 days). No photo or full menu is saved for this contribution.</span>
+        </label>
+
         <button id="generateButton" class="button primary" type="submit" data-i18n="generate">Generate menu list</button>
         <p id="statusMessage" class="status" role="status"></p>
       </form>
@@ -128,7 +135,7 @@ Ratatouille</textarea>
         <p class="eyebrow" data-i18n="menuListEyebrow">Menu list</p>
         <h2 data-i18n="menuListTitle">Tap a dish to understand it.</h2>
       </div>
-      <div id="menuSummary" class="summary-strip"></div>
+      <div id="menuSummary" class="summary-strip" role="status" aria-live="polite"></div>
       <div id="visualMenuGrid" class="menu-list"></div>
     </section>
 
@@ -144,6 +151,7 @@ Ratatouille</textarea>
           <p class="eyebrow">Personal PDC</p>
           <h2>个人 PDC 会议室</h2>
           <p>9 位 AI 合伙人，从增长、UX、执行、社群、视觉、用户洞察、战略、象征时机和镜像边界等角度挑战你的决策。</p>
+          <p class="helper" data-i18n="pdcDisclosure">These are simulated AI roles, not real advisers. Topics, context, and follow-ups are sent to Cloudflare Workers AI. History and settings are saved in this browser, expire after 7 days of inactivity, and are cleared when you next open private tools. Avoid personal or sensitive information.</p>
         </div>
 
         <form id="pdcForm" class="pdc-form">
@@ -233,49 +241,59 @@ Ratatouille</textarea>
           <p class="subtitle" data-i18n="aiTransparencySubtitle">How AI is used across DishKAI.</p>
         </div>
         <div class="ai-transparency-copy">
-          <p data-i18n="aiTransparencyIntro">DishKAI uses artificial intelligence to create and assist with recipes, meal ideas, food descriptions, recommendations, summaries, images, and other culinary content.</p>
-          <p data-i18n="aiTransparencyContentMix">Some content may be generated primarily by AI, while other content may be AI-assisted, prepared in advance, selected, edited, or reviewed by a human.</p>
-          <p data-i18n="aiTransparencyLimitations">AI-generated or AI-assisted content may contain errors, omissions, unsuitable ingredient combinations, inaccurate quantities, incorrect nutritional estimates, or unsafe assumptions.</p>
-          <p data-i18n="aiTransparencyPurpose">DishKAI is designed for food discovery, inspiration, and learning.</p>
+          <p data-i18n="aiTransparencyIntro">DishKAI uses AI to read menu photos, extract and normalise dish names, and help match them to a stored knowledge base. Optional AI estimates may describe dishes that are not in the database.</p>
+          <p data-i18n="aiTransparencyContentMix">Menu reading and dish knowledge are separate. Stored knowledge may include AI-assisted drafting and project checks; it is general dish information, not confirmation of a restaurant's recipe. Live AI estimates are temporary and unverified.</p>
+          <p data-i18n="aiTransparencyLimitations">AI can misread a menu, translate incorrectly, match the wrong dish, or miss ingredients and allergens. Composition percentages are estimates; recipes and cross-contact risks vary by restaurant.</p>
+          <p data-i18n="aiTransparencyPurpose">DishKAI helps you understand unfamiliar menu names before ordering. It does not provide recipes or certify whether food is safe for you.</p>
           <div class="ai-transparency-checks">
-            <p data-i18n="aiTransparencyCheckIntro">Before preparing or consuming food, users should independently check:</p>
+            <p data-i18n="aiTransparencyCheckIntro">Before ordering, confirm with the restaurant:</p>
             <ul>
-              <li data-i18n="aiCheckIngredients">ingredients</li>
-              <li data-i18n="aiCheckAllergens">allergens</li>
-              <li data-i18n="aiCheckDietary">dietary restrictions</li>
-              <li data-i18n="aiCheckSubstitutions">ingredient substitutions</li>
-              <li data-i18n="aiCheckStorage">food storage</li>
-              <li data-i18n="aiCheckPreparation">preparation methods</li>
-              <li data-i18n="aiCheckTemperatures">cooking temperatures</li>
-              <li data-i18n="aiCheckSafety">food safety instructions</li>
+              <li data-i18n="aiCheckIngredients">actual ingredients</li>
+              <li data-i18n="aiCheckAllergens">allergens and cross-contact</li>
+              <li data-i18n="aiCheckDietary">dietary and religious restrictions</li>
+              <li data-i18n="aiCheckSubstitutions">substitutions and restaurant variations</li>
+              <li data-i18n="aiCheckSafety">raw ingredients, alcohol, and any food-safety concerns</li>
             </ul>
           </div>
-          <p data-i18n="aiTransparencyIndependent">DishKAI is an independent food discovery and inspiration project.</p>
-          <p data-i18n="aiTransparencyBoundary">It is not a medical, nutritional, dietary, allergy, or professional food-safety advisory service.</p>
-          <p data-i18n="aiTransparencyLabelsIntro">Where appropriate, DishKAI may use transparency labels to help users understand how content was produced.</p>
+          <p data-i18n="aiTransparencyIndependent">DishKAI is an independent public beta menu-understanding project.</p>
+          <p data-i18n="aiTransparencyBoundary">DishKAI is not a medical, nutritional, allergy, or professional food-safety advisory service. Familiarity or ordering tags do not mean allergy-safe.</p>
+          <p data-i18n="aiTransparencyLabelsIntro">Labels distinguish how a menu was read, where dish knowledge comes from, and whether an image was generated. A database match is not a guarantee of the restaurant's ingredients.</p>
+
+          <section id="data" class="ai-transparency-section" aria-labelledby="aiDataTitle">
+            <h2 id="aiDataTitle" data-i18n="aiDataTitle">Your menu and data</h2>
+            <p data-i18n="aiDataProcessing">Processing: submitting a menu sends the text or photo to DishKAI on Cloudflare. Configured services may process it using Google Gemini, OpenAI as a backup, or Cloudflare Workers AI for text. A backup may receive the same input after an error.</p>
+            <p data-i18n="aiDataRetention">Storage: this menu-processing code does not save uploaded photos or full menus. AI providers and hosting services may process or retain data under their account settings and terms; DishKAI does not promise that they retain nothing or never use data for training.</p>
+            <p data-i18n="aiDataContribution">Optional contributions: the unchecked box shares only unknown dish-name suggestions and limited language/source metadata for knowledge-base improvement, retained for up to 90 days. Analysis works without this option. Do not include personal information in dish names.</p>
+            <p data-i18n="aiDataLegacy">Previously collected unknown-dish records need a separate operator review and deletion or retention decision; this update does not claim they have already been cleared.</p>
+            <p data-i18n="aiDataLocal">This browser stores your language, safety acknowledgment, and local usage counts. Private login uses a session cookie. Private PDC history and settings expire after 7 days of inactivity; expired records are removed when private tools next open. Use Clear local PDC history or clear site data to remove them sooner.</p>
+            <p data-i18n="aiDataPdc">Private PDC sends your topic, context, and follow-up input to Cloudflare Workers AI. Its personas are simulated AI roles, not real professionals; it provides reflection rather than professional advice.</p>
+            <p data-i18n="aiDataRights">For an incorrect result, privacy question, or access/deletion request, contact hello@dishkai.com. You may also contact your competent data-protection authority. The safety acknowledgment is not consent to optional contributions.</p>
+            <h3 data-i18n="aiDataTermsTitle">Provider data terms</h3>
+            <ul>
+              <li><a href="https://ai.google.dev/gemini-api/terms">Google Gemini API</a></li>
+              <li><a href="https://platform.openai.com/docs/guides/your-data">OpenAI API</a></li>
+              <li><a href="https://www.cloudflare.com/privacypolicy/">Cloudflare</a></li>
+            </ul>
+          </section>
 
           <section class="ai-transparency-section" aria-labelledby="aiTransparencyLabelsTitle">
             <h2 id="aiTransparencyLabelsTitle" data-i18n="aiTransparencyLabelsTitle">Transparency labels</h2>
             <dl class="ai-transparency-labels">
               <div>
                 <dt data-i18n="aiLabelGenerated">AI-generated</dt>
-                <dd data-i18n="aiLabelGeneratedDescription">Content primarily generated by an AI system.</dd>
+                <dd data-i18n="aiLabelGeneratedDescription">A live AI estimate or an image generated by AI. Live dish estimates are unverified; generated images are illustrations rather than restaurant photographs.</dd>
               </div>
               <div>
                 <dt data-i18n="aiLabelAssisted">AI-assisted</dt>
-                <dd data-i18n="aiLabelAssistedDescription">AI materially contributed to drafting, transforming, organising, summarising, recommending, or presenting the content.</dd>
+                <dd data-i18n="aiLabelAssistedDescription">AI helped read, extract, translate, or organise the menu. The dish description may separately come from stored knowledge.</dd>
               </div>
               <div>
-                <dt data-i18n="aiLabelHumanReviewed">AI-assisted · Human reviewed</dt>
-                <dd data-i18n="aiLabelHumanReviewedDescription">AI contributed to the content, followed by meaningful human review or editing.</dd>
+                <dt data-i18n="aiLabelPrepared">DishKAI knowledge base</dt>
+                <dd data-i18n="aiLabelPreparedDescription">General dish information stored in advance. It is not live AI output or restaurant confirmation; it may have involved AI-assisted drafting and project checks.</dd>
               </div>
               <div>
-                <dt data-i18n="aiLabelPrepared">Prepared content</dt>
-                <dd data-i18n="aiLabelPreparedDescription">Content written or stored in advance rather than generated live for the current interaction.</dd>
-              </div>
-              <div>
-                <dt data-i18n="aiLabelLocal">Local / rule-based result</dt>
-                <dd data-i18n="aiLabelLocalDescription">Content or recommendations calculated using deterministic rules, stored data, or local logic rather than generated by an AI model.</dd>
+                <dt data-i18n="aiLabelLocal">Rule-based guidance</dt>
+                <dd data-i18n="aiLabelLocalDescription">A result assembled from stored data or deterministic rules. In PDC, a rule-based summary combines participant outputs without another model call.</dd>
               </div>
             </dl>
           </section>
@@ -293,8 +311,9 @@ Ratatouille</textarea>
       <div class="footer-summary">
         <span class="footer-tagline" data-i18n="footerText">Know the dish with AI before you order.</span>
         <span class="footer-about" data-i18n="footerAbout">DishKAI helps people quickly understand menu names, dish context, and ordering risks before choosing what to eat.</span>
-        <span class="footer-ai-disclosure" data-i18n="footerAiDisclosure">Contains AI-generated &amp; AI-assisted content · For food inspiration · Check ingredients, allergens, and cooking safety</span>
+        <span class="footer-ai-disclosure" data-i18n="footerAiDisclosure">AI menu reading and illustrative images · Check dishes and allergens with the restaurant</span>
         <a class="footer-ai-link" href="/ai-transparency" data-i18n="footerAiTransparency">AI Transparency</a>
+        <a class="footer-ai-link" href="/ai-transparency#data" data-i18n="dataNoticeLink">AI and data details</a>
       </div>
       <div class="footer-contact">
         <strong data-i18n="footerContact">Contact</strong>
@@ -308,8 +327,8 @@ Ratatouille</textarea>
             <li data-i18n="legalPrivate">DishKAI is a public beta menu helper. It is not a professional, medical, nutritional, allergy, legal, or restaurant advisory service.</li>
             <li data-i18n="legalAccuracy">Dish names, ingredients, allergens, dietary flags, translations, images, AI estimates, and ordering advice may be incomplete, outdated, mistranslated, or wrong.</li>
             <li data-i18n="legalAllergy">Do not rely on DishKAI for allergies, pregnancy, medical conditions, religious restrictions, food safety, alcohol, raw food, or other high-risk decisions. Ask the restaurant directly.</li>
-            <li data-i18n="legalPrivacy">Do not upload images containing faces, payment details, addresses, phone numbers, private conversations, or other personal/sensitive information unless you have permission and accept the risk.</li>
-            <li data-i18n="legalResponsibility">You are solely responsible for what you upload and what you choose to order. DishKAI is provided without warranties and the maintainers accept no liability for decisions made from its output.</li>
+            <li data-i18n="legalPrivacy">Upload only the menu. Do not include faces, payment details, addresses, phone numbers, private conversations, or other personal or sensitive information. See the data notice for AI processing and optional contributions.</li>
+            <li data-i18n="legalResponsibility">You choose what to upload and order. These limitations do not exclude rights or responsibilities that applicable law does not allow us to exclude.</li>
           </ul>
         </div>
       </details>
@@ -320,6 +339,6 @@ Ratatouille</textarea>
     </div>
   </footer>
 
-  <script src="script.js?v=0.2.38"></script>
+  <script src="script.js?v=0.2.39"></script>
 </body>
 </html>

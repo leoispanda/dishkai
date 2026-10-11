@@ -20,7 +20,9 @@ export async function onRequestPost(context) {
     targetLanguage: body.targetLanguage || "en",
     env,
   });
-  if (result.ok) context.waitUntil(recordUnmatchedDishes({ result, env, sourceType: "text" }));
+  if (result.ok && body.contributeUnknownDishes === true) {
+    context.waitUntil(recordUnmatchedDishes({ result, env, sourceType: "text" }));
+  }
   return json(result, result.ok ? 200 : 400, securityHeaders());
 }
 

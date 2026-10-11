@@ -135,7 +135,7 @@ export const iconTags = {
   "regional-dish": { icon: "📍", en: "Regional", zh: "地区特色", nl: "Regionaal" },
   "first-timer-friendly": { icon: "✅", en: "First-timer friendly", zh: "新手友好", nl: "Geschikt voor beginners" },
   "internationally-known": { icon: "🌍", en: "Well-known", zh: "知名度高", nl: "Bekend" },
-  "safe-choice": { icon: "✅", en: "Safe", zh: "安全", nl: "Veilig" },
+  "safe-choice": { icon: "○", en: "Familiar flavors", zh: "熟悉口味", nl: "Vertrouwde smaken" },
   "chef-special": { icon: "★", en: "Chef special", zh: "主厨特别", nl: "Chefsspecial" },
   "ask-staff": { icon: "?", en: "Ask the staff", zh: "询问服务员", nl: "Vraag personeel" },
   noodle: { icon: "🍜", en: "Noodles", zh: "面/粉", nl: "Noedels" },
@@ -826,10 +826,25 @@ export function deriveIconTagIds(dish) {
   return [...new Set(tagIds)].slice(0, 7);
 }
 
+function cardTransparency(targetLanguage, contentOrigin, hasGeneratedImage = false) {
+  return {
+    contentOrigin,
+    imageOrigin: hasGeneratedImage ? "ai-generated" : "none",
+    restaurantConfirmed: false,
+    allergenStatus: "not-restaurant-confirmed",
+    compositionDisclaimer: localize({
+      en: "Estimated composition. Ingredients and proportions may vary by restaurant.",
+      zh: "估算配料比例。实际配料和比例可能因餐厅而异。",
+      nl: "Geschatte samenstelling. Ingrediënten en verhoudingen kunnen per restaurant verschillen.",
+    }, targetLanguage),
+  };
+}
+
 function buildCard(dish, originalName, targetLanguage) {
   const cuisine = cuisineById.get(dish.cuisineId);
   const riskFlags = riskFlagsForDish(dish);
   return {
+    ...cardTransparency(targetLanguage, "stored-knowledge", Boolean(dish.imagePath || dish.thumbPath)),
     originalName,
     familiarName: itemDisplayName(dish, targetLanguage),
     imagePath: dish.imagePath,
@@ -866,6 +881,7 @@ function buildCard(dish, originalName, targetLanguage) {
 function universalMenuCard(universalItem, item, targetLanguage) {
   const copy = universalItem.copy[targetLanguage] || universalItem.copy.en;
   return {
+    ...cardTransparency(targetLanguage, "stored-guidance"),
     originalName: item.originalName,
     familiarName: copy.familiarName,
     orderVerdict: copy.orderVerdict,
@@ -918,11 +934,11 @@ function unmatchedCard(item, targetLanguage) {
     nl: "Dit gerecht staat nog niet in de startdatabase.",
   };
   return {
+    ...cardTransparency(targetLanguage, "missing-metadata"),
     originalName: item.originalName,
     familiarName: item.cleanName,
     orderVerdict: message[targetLanguage] || message.en,
     shortDescription: message[targetLanguage] || message.en,
-    aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.",
     iconTags: [],
     metadataSource: "unmatched",
     verified: false,
@@ -1016,6 +1032,7 @@ function chefSpecialCard(item, targetLanguage) {
   };
   const copy = content[targetLanguage] || content.en;
   return {
+    ...cardTransparency(targetLanguage, "stored-guidance", true),
     originalName: item.originalName,
     familiarName: copy.familiarName,
     imagePath: CHEF_SPECIAL_IMAGE_PATH,
@@ -1110,6 +1127,7 @@ function cleanAiFallbackCard(rawCard, item, targetLanguage) {
   };
   const composition = Array.isArray(rawCard?.composition) ? rawCard.composition : [];
   return {
+    ...cardTransparency(targetLanguage, "ai-generated"),
     originalName: item.originalName,
     familiarName: jsonSafeText(rawCard?.familiarName || item.cleanName || item.originalName, 120),
     cuisineName: jsonSafeText(rawCard?.cuisineName || "AI estimate", 80),
@@ -1130,7 +1148,6 @@ function cleanAiFallbackCard(rawCard, item, targetLanguage) {
     texture: shortArray(rawCard?.texture),
     watchOuts: shortArray(rawCard?.watchOuts),
     visualDisclaimer: jsonSafeText(rawCard?.visualDisclaimer || fallbackMessage[targetLanguage] || fallbackMessage.en, 180),
-    aiImageLabel: "AI-generated preview. For inspiration only. Actual dish may look different.",
     iconTags: [{ id: "ai-generated", icon: "AI", label: fallbackMessage[targetLanguage] || fallbackMessage.en }],
     metadataSource: "ai-fallback",
     verified: false,
@@ -1272,9 +1289,17 @@ async function buildMenuAnalysis({ sourceLanguage, targetLanguage, extraction, e
     model: extraction.model,
     aiFallbackSource: aiFallback.source,
     aiFallbackModel: aiFallback.model,
+    transparency: {
+      version: 1,
+      extraction: { source: extraction.extractionSource, model: extraction.model || null },
+      estimates: { source: aiFallback.source, model: aiFallback.model || null },
+      generatedTextCount: items.filter((item) => item.card.contentOrigin === "ai-generated").length,
+      restaurantConfirmed: false,
+      marking: "declared-provenance-only",
+    },
     privacy: {
       uploadedImagesStored: false,
-      note: "DishKAI does not permanently store uploaded menu images by default. Store only structured dish data after Leo/Cindy manually confirms.",
+      note: "DishKAI does not persist uploaded images or full menus. Input is processed by the selected AI services, whose terms and retention policies also apply. Unknown dish contributions require a separate optional choice; new KV event records expire after 90 days.",
     },
     items,
     unmatchedItems: items.filter((item) => item.matchStatus === "unmatched"),
