@@ -1,4 +1,4 @@
-const APP_VERSION = "DishKAI v0.2.45-private-beta";
+const APP_VERSION = "DishKAI v0.2.46-private-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
 const USAGE_COUNT_KEY = "dishkai-local-usage-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
@@ -59,10 +59,8 @@ const translations = {
     aiResponseRefused: "The AI service could not read this menu. Try another menu photo or paste menu text.",
     menuListEyebrow: "Menu list", menuListTitle: "Detected dishes", emptyCard: "Select a dish.",
     footerText: "Know the dish with AI before you order.",
-    footerAbout: "DishKAI helps people quickly understand menu names, dish context, and ordering risks before choosing what to eat.",
     footerAiDisclosure: "AI menu reading and illustrative images · Check dishes and allergens with the restaurant",
     footerAiTransparency: "AI Transparency",
-    footerContact: "Contact",
     footerDisclaimerLabel: "View disclaimer",
     footerVisitTotalLabel: "Total views",
     footerUsageTotalLabel: "Uses",
@@ -127,10 +125,8 @@ const translations = {
     aiResponseRefused: "AI 服务未能读取这份菜单。请换一张菜单照片，或粘贴菜单文字。",
     menuListEyebrow: "菜单列表", menuListTitle: "识别到的菜", emptyCard: "选择一道菜。",
     footerText: "用 AI 在点餐前看懂这道菜。",
-    footerAbout: "DishKAI 帮助你在点餐前快速理解菜名、菜品背景和需要注意的风险。",
     footerAiDisclosure: "AI 菜单识别与示意图片 · 请向餐厅确认菜品和过敏原",
     footerAiTransparency: "AI 透明度",
-    footerContact: "联系",
     footerDisclaimerLabel: "查看免责声明",
     footerVisitTotalLabel: "总浏览次数",
     footerUsageTotalLabel: "使用次数",
@@ -195,10 +191,8 @@ const translations = {
     aiResponseRefused: "De AI-dienst kon dit menu niet lezen. Probeer een andere menufoto of plak menutekst.",
     menuListEyebrow: "Menulijst", menuListTitle: "Gevonden gerechten", emptyCard: "Kies een gerecht.",
     footerText: "Ken het gerecht met AI voordat je bestelt.",
-    footerAbout: "DishKAI helpt je snel menunamen, gerechtcontext en bestelrisico's te begrijpen voordat je kiest wat je eet.",
     footerAiDisclosure: "AI-menuherkenning en illustratieve afbeeldingen · Bevestig gerechten en allergenen bij het restaurant",
     footerAiTransparency: "AI-transparantie",
-    footerContact: "Contact",
     footerDisclaimerLabel: "Bekijk disclaimer",
     footerVisitTotalLabel: "Totaal bezoeken",
     footerUsageTotalLabel: "Gebruik",
