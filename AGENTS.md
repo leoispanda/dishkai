@@ -29,6 +29,8 @@ Leo requested a password gate to use DishKAI as a personal AI application experi
 
 Leo subsequently authorised restricting historical deployment access and requested a new password. Keep passwords solely in secure server configuration, never public source or notices; credential entry/saving in the browser is an owner handoff. Reject sessions issued before the owner-only cutover. The public login notice should explain the owner's personal decision based on European AI regulations and potential risks, without asserting a legal requirement to add a password or a blanket exemption. Historical hash/branch URLs now have a Cloudflare Access allowlist for only the owner's account email; do not broaden it without owner authorisation.
 
+The visitor notice identifies Leo's personal AI exploration tool and invites his close friends to contact him if interested. Keep English visible on the default Chinese login page as requested. This invitation is a contact request, not permission to share credentials or grant access. Reassess the scope before enabling use by others; do not assume the personal-use exception covers it.
+
 The output should first be an ordered list, not large visual cards.
 
 Large images and full metadata belong in the clicked Dish Knowledge Card.

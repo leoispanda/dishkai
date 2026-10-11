@@ -7,8 +7,8 @@
   <meta name="description" content="DishKAI 私人 AI 应用实验空间。">
   <title>私人实验室 · DishKAI</title>
   <link rel="icon" href="/assets/brand/dishkai-cloche-logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/login.css?v=0.2.42">
-  <script src="/login.js?v=0.2.42" defer></script>
+  <link rel="stylesheet" href="/login.css?v=0.2.43">
+  <script src="/login.js?v=0.2.43" defer></script>
 </head>
 <body>
   <main class="login-shell">
@@ -24,7 +24,14 @@
       </div>
       <p class="eyebrow" data-login-i18n="eyebrow">PRIVATE EXPERIMENT</p>
       <h1 id="loginTitle" data-login-i18n="title">私人实验室</h1>
-      <p class="intro" data-login-i18n="intro">考虑到欧洲 AI 法规及潜在风险，我决定为这个个人开发的网站增加密码，仅供自己使用。</p>
+      <div class="access-notice">
+        <p class="intro" data-login-i18n="intro">DishKAI 是 Leo 用于探索 AI 应用的个人工具。考虑到欧洲 AI 法规可能涉及的义务，目前设有密码，暂不对公众开放。</p>
+        <p class="friend-contact" data-login-i18n="contact">Leo 的好朋友如希望使用，请直接联系 Leo。</p>
+        <div id="englishAccessNotice" class="english-notice" lang="en">
+          <p data-english-i18n="intro">DishKAI is Leo’s personal tool for exploring AI applications. It is password-protected and is not currently open to the public while he reviews potential obligations under European AI regulations.</p>
+          <p data-english-i18n="contact">If you’re a close friend of Leo and would like to use it, please contact him directly.</p>
+        </div>
+      </div>
       <form id="loginForm" autocomplete="on">
         <label for="loginPassword" data-login-i18n="passwordLabel">访问密码</label>
         <input id="loginPassword" name="accessCode" type="password" autocomplete="current-password" required maxlength="512" aria-describedby="loginPrivacy loginStatus">
@@ -34,7 +41,7 @@
       <button id="retryLoginStatus" class="retry-button" type="button" hidden data-login-i18n="retry">重新检查连接</button>
       <p id="loginPrivacy" class="privacy-note" data-login-i18n="privacy">密码由服务器验证。此应用使用安全会话 Cookie，AI 功能会调用外部服务。</p>
     </section>
-    <p class="login-footer" data-login-i18n="footer">我的 AI 菜单工具与个人 PDC 实验空间。</p>
+    <p class="login-footer" data-login-i18n="footer">Leo 的 AI 菜单工具与个人 PDC 实验空间。</p>
   </main>
 </body>
 </html>

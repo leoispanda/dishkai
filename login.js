@@ -1,24 +1,27 @@
 const loginStrings = {
   zh: {
-    eyebrow: "PRIVATE EXPERIMENT", title: "私人实验室", intro: "考虑到欧洲 AI 法规及潜在风险，我决定为这个个人开发的网站增加密码，仅供自己使用。",
+    eyebrow: "PRIVATE EXPERIMENT", title: "私人实验室", intro: "DishKAI 是 Leo 用于探索 AI 应用的个人工具。考虑到欧洲 AI 法规可能涉及的义务，目前设有密码，暂不对公众开放。",
+    contact: "Leo 的好朋友如希望使用，请直接联系 Leo。",
     passwordLabel: "访问密码", enter: "进入实验室", checking: "正在确认会话…", signingIn: "正在验证…",
     required: "请输入访问密码。", denied: "密码未通过验证，请重试。", unavailable: "暂时无法完成请求，请检查网络后重试。",
     notConfigured: "私人访问尚未配置，暂时无法登录。", rateLimited: "尝试过于频繁，请稍后再试。", retry: "重新检查连接",
-    privacy: "密码由服务器验证。此应用使用安全会话 Cookie，AI 功能会调用外部服务。", footer: "我的 AI 菜单工具与个人 PDC 实验空间。",
+    privacy: "密码由服务器验证。此应用使用安全会话 Cookie，AI 功能会调用外部服务。", footer: "Leo 的 AI 菜单工具与个人 PDC 实验空间。",
   },
   en: {
-    eyebrow: "PRIVATE EXPERIMENT", title: "Private workspace", intro: "In light of European AI regulations and potential risks, I've decided to password-protect this personally developed website for my own use only.",
+    eyebrow: "PRIVATE EXPERIMENT", title: "Private workspace", intro: "DishKAI is Leo’s personal tool for exploring AI applications. It is password-protected and is not currently open to the public while he reviews potential obligations under European AI regulations.",
+    contact: "If you’re a close friend of Leo and would like to use it, please contact him directly.",
     passwordLabel: "Access password", enter: "Enter workspace", checking: "Checking your session…", signingIn: "Verifying…",
     required: "Enter your access password.", denied: "The password was not accepted. Please try again.", unavailable: "The request could not be completed. Check your connection and try again.",
     notConfigured: "Private access is not configured, so sign-in is unavailable.", rateLimited: "Too many attempts. Please try again later.", retry: "Check connection again",
-    privacy: "The server verifies your password. This app uses a secure session cookie, and AI features call external services.", footer: "My experimental space for the AI menu tool and Personal PDC.",
+    privacy: "The server verifies your password. This app uses a secure session cookie, and AI features call external services.", footer: "Leo’s experimental space for the AI menu tool and Personal PDC.",
   },
   nl: {
-    eyebrow: "PRIVÉ-EXPERIMENT", title: "Privéwerkruimte", intro: "Met het oog op Europese AI-regelgeving en mogelijke risico’s heb ik besloten deze zelf ontwikkelde website met een wachtwoord te beveiligen, alleen voor eigen gebruik.",
+    eyebrow: "PRIVÉ-EXPERIMENT", title: "Privéwerkruimte", intro: "DishKAI is Leo’s persoonlijke tool om AI-toepassingen te verkennen. De site is beveiligd met een wachtwoord en voorlopig niet openbaar toegankelijk, terwijl hij mogelijke verplichtingen onder Europese AI-regelgeving beoordeelt.",
+    contact: "Ben je een goede vriend van Leo en wil je de tool gebruiken? Neem dan rechtstreeks contact met hem op.",
     passwordLabel: "Toegangswachtwoord", enter: "Open werkruimte", checking: "Je sessie wordt gecontroleerd…", signingIn: "Controleren…",
     required: "Voer je toegangswachtwoord in.", denied: "Het wachtwoord is niet geaccepteerd. Probeer opnieuw.", unavailable: "Het verzoek kon niet worden voltooid. Controleer je verbinding en probeer opnieuw.",
     notConfigured: "Privétoegang is niet ingesteld. Inloggen is niet beschikbaar.", rateLimited: "Te veel pogingen. Probeer het later opnieuw.", retry: "Controleer verbinding opnieuw",
-    privacy: "De server controleert je wachtwoord. Deze app gebruikt een beveiligde sessiecookie; AI-functies gebruiken externe diensten.", footer: "Mijn experimenteerruimte voor de AI-menutool en Personal PDC.",
+    privacy: "De server controleert je wachtwoord. Deze app gebruikt een beveiligde sessiecookie; AI-functies gebruiken externe diensten.", footer: "Leo’s experimenteerruimte voor de AI-menutool en Personal PDC.",
   },
 };
 
@@ -69,6 +72,10 @@ function renderLoginLanguage() {
   document.querySelectorAll("[data-login-i18n]").forEach((element) => {
     element.textContent = loginText(element.dataset.loginI18n);
   });
+  document.querySelectorAll("[data-english-i18n]").forEach((element) => {
+    element.textContent = loginStrings.en[element.dataset.englishI18n];
+  });
+  loginElement("#englishAccessNotice").hidden = loginLanguage === "en";
   document.querySelectorAll("[data-login-language]").forEach((button) => {
     button.setAttribute("aria-pressed", String(button.dataset.loginLanguage === loginLanguage));
   });

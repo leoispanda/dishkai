@@ -21,8 +21,8 @@ button:disabled { cursor: wait; opacity: 0.6; }
   background: radial-gradient(ellipse at 15% 10%, #ffe3be 0%, transparent 48%), radial-gradient(ellipse at 90% 85%, #ffe9d4 0%, transparent 50%);
 }
 .login-card {
-  width: min(100%, 460px);
-  padding: 38px;
+  width: min(100%, 520px);
+  padding: 32px;
   border: 1px solid #efd4b8;
   border-radius: 28px;
   background: #fffcf7;
@@ -32,12 +32,17 @@ button:disabled { cursor: wait; opacity: 0.6; }
 .brand-icon { display: grid; width: 46px; height: 46px; place-items: center; border: 1px solid #f2d2b1; border-radius: 14px; background: #fff0dd; }
 .brand-icon img { display: block; width: 29px; height: 29px; }
 .brand-accent { color: #d96919; }
-.language-switch { display: flex; gap: 3px; width: fit-content; padding: 3px; margin: 24px 0 32px; border-radius: 12px; background: #f8eddf; }
+.language-switch { display: flex; gap: 3px; width: fit-content; padding: 3px; margin: 22px 0 24px; border-radius: 12px; background: #f8eddf; }
 .language-switch button { padding: 7px 10px; border: 0; border-radius: 9px; background: transparent; color: #806452; font-size: 12px; }
 .language-switch button[aria-pressed="true"] { background: #fffcf7; color: #623621; box-shadow: 0 1px 4px #78432112; }
 .eyebrow { margin: 0 0 9px; font-size: 11px; font-weight: 740; letter-spacing: 1.8px; color: #b4642d; }
 h1 { margin: 0; font-size: clamp(28px, 7vw, 36px); font-weight: 720; letter-spacing: -1px; }
-.intro { margin: 12px 0 28px; color: #8a6b55; font-size: 15px; line-height: 1.75; }
+.access-notice { margin: 12px 0 24px; color: #8a6b55; }
+.intro { margin: 0; font-size: 15px; line-height: 1.75; }
+.friend-contact { margin: 10px 0 0; color: #72503b; font-size: 14px; line-height: 1.65; }
+.english-notice { margin-top: 16px; padding-top: 14px; border-top: 1px solid #f0dfcd; font-size: 13px; line-height: 1.65; }
+.english-notice p { margin: 0; }
+.english-notice p + p { margin-top: 8px; color: #72503b; }
 form { display: grid; gap: 10px; }
 form label { font-size: 13px; font-weight: 680; }
 input { width: 100%; min-height: 50px; border: 1px solid #e8cdb3; border-radius: 13px; padding: 12px 14px; background: #fffdfa; color: #523324; }

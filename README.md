@@ -2,6 +2,8 @@
 
 DishKAI is a personally operated menu-understanding experiment for exploring AI application development. The current application requires a password and is intended for the owner's personal use. Earlier publicly deployed versions need a separate access-control review. Questions, feedback and privacy requests can be sent to hello@dishkai.com.
 
+The public login notice explains that DishKAI is Leo's personal AI exploration tool and is not currently open to the public while he reviews potential European AI regulatory obligations. It invites close friends to contact Leo if interested, without granting access. English is also visible in the default Chinese view. Any actual use by friends requires a fresh scope assessment; the wording alone does not establish a legal exemption.
+
 It turns unfamiliar menu names into visual, clickable Dish Knowledge Cards for fast ordering decisions.
 
 ## Local development
