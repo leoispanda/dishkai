@@ -69,6 +69,8 @@ const context = vm.createContext({
 });
 vm.runInContext(script.slice(0, bindingsStart), context);
 vm.runInContext(`
+  sessionVerified = true;
+  privateAccessGranted = true;
   globalThis.frontend = {
     translations, renderVisualMenu, renderKnowledgeCardMarkup,
     renderPdcParticipantCard, renderPdcRound, renderSummary,
@@ -88,10 +90,10 @@ for (const match of html.matchAll(/data-i18n="([^"]+)"/g)) {
 }
 assert.ok(html.includes('id="data"'), "The data notice must have a direct anchor.");
 assert.ok(html.includes('href="/ai-transparency#data"'));
-assert.equal(app.isTransparencyPage(), true, "A data anchor must remain on the public transparency route.");
+assert.equal(app.isTransparencyPage(), true, "A data anchor must remain on the authenticated transparency route.");
 storage.delete("dishkai-legal-disclaimer-accepted-v1");
 app.renderPageRoute();
-assert.equal(transparencyPage.hidden, false, "The data notice must be readable before accepting the safety gate.");
+assert.equal(transparencyPage.hidden, false, "An authenticated user must be able to read the data notice before the safety acknowledgment.");
 assert.equal(legalGate.hidden, true);
 assert.equal(appShell.hidden, true);
 storage.set("dishkai-legal-disclaimer-accepted-v1", "true");

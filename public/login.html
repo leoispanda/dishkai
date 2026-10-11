@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="description" content="DishKAI 私人 AI 应用实验空间。">
+  <title>私人实验室 · DishKAI</title>
+  <link rel="icon" href="/assets/brand/dishkai-cloche-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/login.css?v=0.2.41">
+  <script src="/login.js?v=0.2.41" defer></script>
+</head>
+<body>
+  <main class="login-shell">
+    <section class="login-card" aria-labelledby="loginTitle">
+      <div class="login-brand">
+        <span class="brand-icon"><img src="/assets/brand/dishkai-cloche-logo.svg" alt=""></span>
+        <span>Dish<span class="brand-accent">KAI</span></span>
+      </div>
+      <div class="language-switch" role="group" aria-label="Language">
+        <button type="button" data-login-language="zh" aria-pressed="true">中文</button>
+        <button type="button" data-login-language="en" aria-pressed="false">English</button>
+        <button type="button" data-login-language="nl" aria-pressed="false">Nederlands</button>
+      </div>
+      <p class="eyebrow" data-login-i18n="eyebrow">PRIVATE EXPERIMENT</p>
+      <h1 id="loginTitle" data-login-i18n="title">私人实验室</h1>
+      <p class="intro" data-login-i18n="intro">输入密码，继续探索 AI 菜单工具与个人 PDC。</p>
+      <form id="loginForm" autocomplete="on">
+        <label for="loginPassword" data-login-i18n="passwordLabel">访问密码</label>
+        <input id="loginPassword" name="accessCode" type="password" autocomplete="current-password" required maxlength="512" aria-describedby="loginPrivacy loginStatus">
+        <button id="loginButton" class="login-button" type="submit" data-login-i18n="enter">进入实验室</button>
+      </form>
+      <p id="loginStatus" class="login-status" role="status" aria-live="polite"></p>
+      <button id="retryLoginStatus" class="retry-button" type="button" hidden data-login-i18n="retry">重新检查连接</button>
+      <p id="loginPrivacy" class="privacy-note" data-login-i18n="privacy">密码由服务器验证。此应用使用安全会话 Cookie，AI 功能会调用外部服务。</p>
+    </section>
+    <p class="login-footer" data-login-i18n="footer">一个安静的 AI 应用实验空间。</p>
+  </main>
+</body>
+</html>

@@ -1,4 +1,4 @@
-const APP_VERSION = "DishKAI v0.2.40-public-beta";
+const APP_VERSION = "DishKAI v0.2.41-private-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
 const USAGE_COUNT_KEY = "dishkai-local-usage-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
@@ -13,6 +13,11 @@ const TRANSPARENCY_PATH = "/ai-transparency";
 
 const translations = {
   en: {
+    sessionChecking: "Checking your private session…",
+    sessionUnavailable: "The session could not be checked. Check your connection and try again.",
+    sessionRetry: "Check session again",
+    logoutFailed: "Sign-out was not completed. Check your connection and try again.",
+    sessionExpired: "Please sign in again to continue.",
     uploadProcessingNotice: "Menu text and photos may be sent to Google Gemini, with OpenAI as a backup; text may also use Cloudflare Workers AI. Avoid personal information.",
     dataNoticeLink: "AI and data details",
     contributeUnknownDishes: "Optional: share unknown dish-name suggestions to improve DishKAI (kept for up to 90 days). No photo or full menu is saved for this contribution.",
@@ -42,7 +47,7 @@ const translations = {
     legalLanguageLabel: "Language",
     heroTitle: "Know the dish before you order.",
     heroSubtitle: "Paste text or upload a photo. Get a clear dish list in seconds.",
-    privateAccessEyebrow: "Private tools", privateAccessTitle: "Leo & Cindy internal tools.", unauthorizedNotice: "Menu recognition is public. PDC and internal actions stay private.", privateAccessLabel: "Private access code", privateAccessPlaceholder: "Enter private access code", unlockPrivate: "Unlock private tools", privateUnlocked: "Private tools unlocked.", privateLocked: "Private tools are locked. Menu recognition is open.", privateDenied: "Private tools are locked.", clearRecentScans: "Clear local PDC history", clearScansDone: "Local PDC history and settings cleared.", privateLogout: "Lock",
+    privateAccessEyebrow: "Private experiment", privateAccessTitle: "Your AI application workspace.", unauthorizedNotice: "Menu analysis and PDC require a private session.", privateAccessLabel: "Private access code", privateAccessPlaceholder: "Enter private access code", unlockPrivate: "Unlock private tools", privateUnlocked: "Private session verified.", privateLocked: "Sign in to continue.", privateDenied: "Your private session has expired. Please sign in again.", clearRecentScans: "Clear local PDC history", clearScansDone: "Local PDC history and settings cleared.", privateLogout: "Sign out",
     textMode: "Text", imageMode: "Photo", menuTextLabel: "Menu text", menuTextPlaceholder: "Boeuf Bourguignon\nCoq au Vin\nRatatouille", menuImageLabel: "Menu photo", imageHelper: "Photo scan may fall back to text.", uploadWarning: "Avoid faces, payment details, addresses, and private information.",
     outputLanguage: "Language", generate: "Analyze menu", loading: "Analyzing menu...", compressionStatus: "Compressed {from} to {to}. Analyzing menu...", noItems: "No menu items were found. Please paste clearer menu text.", imageUnavailable: "Image analysis is not available yet. Please paste menu text instead.",
     imageRequired: "Choose a menu photo before analyzing.",
@@ -72,7 +77,7 @@ const translations = {
     footerUsageTotalLabel: "Uses",
     legalEyebrow: "Important disclaimer",
     legalTitle: "Use as a menu guide only.",
-    legalPrivate: "DishKAI is a public beta menu helper. It is not a professional, medical, nutritional, allergy, legal, or restaurant advisory service.",
+    legalPrivate: "DishKAI is a private AI application experiment for menu understanding. It is not a professional, medical, nutritional, allergy, legal, or restaurant advisory service.",
     legalAccuracy: "Dish names, ingredients, allergens, dietary flags, translations, images, AI estimates, and ordering advice may be incomplete, outdated, mistranslated, or wrong.",
     legalAllergy: "Do not rely on DishKAI for allergies, pregnancy, medical conditions, religious restrictions, food safety, alcohol, raw food, or other high-risk decisions. Ask the restaurant directly.",
     legalPrivacy: "Upload only the menu. Do not include faces, payment details, addresses, phone numbers, private conversations, or other personal or sensitive information. See the data notice for AI processing and optional contributions.",
@@ -81,9 +86,14 @@ const translations = {
     legalRequired: "Please acknowledge the menu-reference and safety limits before using DishKAI.",
     enterApp: "Enter",
     visitCountLabel: "Local visits",
-    matched: "matched", universal: "universal", unmatched: "Not in starter database yet", aiEstimated: "AI estimate", tapForDetails: "Tap for details", tapForUniversal: "Universal ordering guide", tapForEstimate: "Tap for note", aiGenerated: "AI-generated estimate. Not yet verified in DishKAI database.", universalGuidance: "Universal guidance, not a verified fixed dish.", aiImageLabel: "AI-generated visual reference. Actual dish may vary by restaurant.", aiInteractionLabel: "AI-assisted menu analysis", aiInteractionDisclosure: "AI helps read this menu and may misread dishes. Check the original menu and confirm ingredients and allergens with the restaurant.", safetyNote: "Ingredients and allergens are not confirmed by the restaurant. Ask staff about actual ingredients, substitutions, and cross-contact.", potentialAllergens: "Potential allergens & watch-outs", aiGeneratedLabel: "AI-generated", aiAssistedLabel: "AI-assisted", preparedContentLabel: "DishKAI knowledge base", localRuleBasedLabel: "Rule-based guidance", aiGeneratedImageLabel: "AI-generated image", aiTransparencyBack: "Back to DishKAI", aiTransparencyEyebrow: "AI Transparency", aiTransparencyTitle: "AI Transparency", aiTransparencySubtitle: "How AI is used across DishKAI.", aiTransparencyIntro: "DishKAI uses AI to read menu photos, extract and normalise dish names, and help match them to a stored knowledge base. Optional AI estimates may describe dishes that are not in the database.", aiTransparencyContentMix: "Menu reading and dish knowledge are separate. Stored knowledge may include AI-assisted drafting and project checks; it is general dish information, not confirmation of a restaurant's recipe. Live AI estimates are temporary and unverified.", aiTransparencyLimitations: "AI can misread a menu, translate incorrectly, match the wrong dish, or miss ingredients and allergens. Composition percentages are estimates; recipes and cross-contact risks vary by restaurant.", aiTransparencyPurpose: "DishKAI helps you understand unfamiliar menu names before ordering. It does not provide recipes or certify whether food is safe for you.", aiTransparencyCheckIntro: "Before ordering, confirm with the restaurant:", aiCheckIngredients: "actual ingredients", aiCheckAllergens: "allergens and cross-contact", aiCheckDietary: "dietary and religious restrictions", aiCheckSubstitutions: "substitutions and restaurant variations", aiCheckSafety: "raw ingredients, alcohol, and any food-safety concerns", aiTransparencyIndependent: "DishKAI is a personally operated public beta menu-understanding website for exploring AI application development. Questions or feedback: hello@dishkai.com.", aiTransparencyBoundary: "DishKAI is not a medical, nutritional, allergy, or professional food-safety advisory service. Familiarity or ordering tags do not mean allergy-safe.", aiTransparencyLabelsIntro: "Labels distinguish how a menu was read, where dish knowledge comes from, and whether an image was generated. A database match is not a guarantee of the restaurant's ingredients.", aiTransparencyLabelsTitle: "Transparency labels", aiLabelGenerated: "AI-generated", aiLabelGeneratedDescription: "A live AI estimate or an image generated by AI. Live dish estimates are unverified; generated images are illustrations rather than restaurant photographs.", aiLabelAssisted: "AI-assisted", aiLabelAssistedDescription: "AI helped read, extract, translate, or organise the menu. The dish description may separately come from stored knowledge.", aiLabelPrepared: "DishKAI knowledge base", aiLabelPreparedDescription: "General dish information stored in advance. It is not live AI output or restaurant confirmation; it may have involved AI-assisted drafting and project checks.", aiLabelLocal: "Rule-based guidance", aiLabelLocalDescription: "A result assembled from stored data or deterministic rules. In PDC, a rule-based summary combines participant outputs without another model call.", original: "Original", familiar: "Familiar", verdict: "Order verdict", description: "What it is", preparation: "How it is usually prepared", composition: "Estimated composition", taste: "Basic taste", flavor: "Distinctive flavor", texture: "Texture", watchOut: "Watch out", variations: "Common variations", disclaimer: "Visual note", summary: "items", unknownNote: "This dish is not in the starter database yet."
+    matched: "matched", universal: "universal", unmatched: "Not in starter database yet", aiEstimated: "AI estimate", tapForDetails: "Tap for details", tapForUniversal: "Universal ordering guide", tapForEstimate: "Tap for note", aiGenerated: "AI-generated estimate. Not yet verified in DishKAI database.", universalGuidance: "Universal guidance, not a verified fixed dish.", aiImageLabel: "AI-generated visual reference. Actual dish may vary by restaurant.", aiInteractionLabel: "AI-assisted menu analysis", aiInteractionDisclosure: "AI helps read this menu and may misread dishes. Check the original menu and confirm ingredients and allergens with the restaurant.", safetyNote: "Ingredients and allergens are not confirmed by the restaurant. Ask staff about actual ingredients, substitutions, and cross-contact.", potentialAllergens: "Potential allergens & watch-outs", aiGeneratedLabel: "AI-generated", aiAssistedLabel: "AI-assisted", preparedContentLabel: "DishKAI knowledge base", localRuleBasedLabel: "Rule-based guidance", aiGeneratedImageLabel: "AI-generated image", aiTransparencyBack: "Back to DishKAI", aiTransparencyEyebrow: "AI Transparency", aiTransparencyTitle: "AI Transparency", aiTransparencySubtitle: "How AI is used across DishKAI.", aiTransparencyIntro: "DishKAI uses AI to read menu photos, extract and normalise dish names, and help match them to a stored knowledge base. Optional AI estimates may describe dishes that are not in the database.", aiTransparencyContentMix: "Menu reading and dish knowledge are separate. Stored knowledge may include AI-assisted drafting and project checks; it is general dish information, not confirmation of a restaurant's recipe. Live AI estimates are temporary and unverified.", aiTransparencyLimitations: "AI can misread a menu, translate incorrectly, match the wrong dish, or miss ingredients and allergens. Composition percentages are estimates; recipes and cross-contact risks vary by restaurant.", aiTransparencyPurpose: "DishKAI helps you understand unfamiliar menu names before ordering. It does not provide recipes or certify whether food is safe for you.", aiTransparencyCheckIntro: "Before ordering, confirm with the restaurant:", aiCheckIngredients: "actual ingredients", aiCheckAllergens: "allergens and cross-contact", aiCheckDietary: "dietary and religious restrictions", aiCheckSubstitutions: "substitutions and restaurant variations", aiCheckSafety: "raw ingredients, alcohol, and any food-safety concerns", aiTransparencyIndependent: "DishKAI is a personally operated private menu-understanding experiment for exploring AI application development. Questions or feedback: hello@dishkai.com.", aiTransparencyBoundary: "DishKAI is not a medical, nutritional, allergy, or professional food-safety advisory service. Familiarity or ordering tags do not mean allergy-safe.", aiTransparencyLabelsIntro: "Labels distinguish how a menu was read, where dish knowledge comes from, and whether an image was generated. A database match is not a guarantee of the restaurant's ingredients.", aiTransparencyLabelsTitle: "Transparency labels", aiLabelGenerated: "AI-generated", aiLabelGeneratedDescription: "A live AI estimate or an image generated by AI. Live dish estimates are unverified; generated images are illustrations rather than restaurant photographs.", aiLabelAssisted: "AI-assisted", aiLabelAssistedDescription: "AI helped read, extract, translate, or organise the menu. The dish description may separately come from stored knowledge.", aiLabelPrepared: "DishKAI knowledge base", aiLabelPreparedDescription: "General dish information stored in advance. It is not live AI output or restaurant confirmation; it may have involved AI-assisted drafting and project checks.", aiLabelLocal: "Rule-based guidance", aiLabelLocalDescription: "A result assembled from stored data or deterministic rules. In PDC, a rule-based summary combines participant outputs without another model call.", original: "Original", familiar: "Familiar", verdict: "Order verdict", description: "What it is", preparation: "How it is usually prepared", composition: "Estimated composition", taste: "Basic taste", flavor: "Distinctive flavor", texture: "Texture", watchOut: "Watch out", variations: "Common variations", disclaimer: "Visual note", summary: "items", unknownNote: "This dish is not in the starter database yet."
   },
   zh: {
+    sessionChecking: "正在确认私人会话…",
+    sessionUnavailable: "暂时无法确认会话，请检查网络后重试。",
+    sessionRetry: "重新确认会话",
+    logoutFailed: "退出登录未完成，请检查网络后重试。",
+    sessionExpired: "请重新登录后继续。",
     uploadProcessingNotice: "菜单文字和照片可能发送至 Google Gemini，OpenAI 用作备用；文字还可能使用 Cloudflare Workers AI。请避免个人信息。",
     dataNoticeLink: "AI 与数据处理说明",
     contributeUnknownDishes: "可选：分享未收录菜名建议，帮助完善 DishKAI（最多保留 90 天）。此贡献不会保存照片或完整菜单。",
@@ -113,7 +123,7 @@ const translations = {
     legalLanguageLabel: "语言",
     heroTitle: "点餐前，先看懂这道菜。",
     heroSubtitle: "粘贴文字或上传照片，几秒生成清晰菜品列表。",
-    privateAccessEyebrow: "私有工具", privateAccessTitle: "Leo 和 Cindy 的内部工具。", unauthorizedNotice: "菜单识别已公开开放。PDC 和内部操作仍然保持私有。", privateAccessLabel: "私有访问码", privateAccessPlaceholder: "输入私有访问码", unlockPrivate: "解锁私有工具", privateUnlocked: "私有工具已解锁。", privateLocked: "私有工具已锁定。菜单识别已开放。", privateDenied: "私有工具已锁定。", clearRecentScans: "清除本机 PDC 记录", clearScansDone: "已清除本机 PDC 记录和设置。", privateLogout: "锁定",
+    privateAccessEyebrow: "私人实验", privateAccessTitle: "你的 AI 应用实验空间。", unauthorizedNotice: "菜单分析和 PDC 都需要私人会话。", privateAccessLabel: "私有访问码", privateAccessPlaceholder: "输入私有访问码", unlockPrivate: "解锁私有工具", privateUnlocked: "私人会话已确认。", privateLocked: "请登录后继续。", privateDenied: "私人会话已过期，请重新登录。", clearRecentScans: "清除本机 PDC 记录", clearScansDone: "已清除本机 PDC 记录和设置。", privateLogout: "退出登录",
     textMode: "文字", imageMode: "照片", menuTextLabel: "菜单文字", menuTextPlaceholder: "Boeuf Bourguignon\nCoq au Vin\nRatatouille", menuImageLabel: "菜单照片", imageHelper: "照片识别不可用时会建议粘贴文字。", uploadWarning: "请避免上传人脸、支付信息、地址和隐私内容。",
     outputLanguage: "语言", generate: "分析菜单", loading: "正在分析菜单...", compressionStatus: "已将图片从 {from} 压缩到 {to}，正在分析菜单...", noItems: "没有找到菜单项。请粘贴更清晰的菜单文字。", imageUnavailable: "图片分析暂不可用。请粘贴菜单文字。",
     imageRequired: "请先选择一张菜单照片。",
@@ -143,7 +153,7 @@ const translations = {
     footerUsageTotalLabel: "使用次数",
     legalEyebrow: "重要免责声明",
     legalTitle: "仅作为菜单参考工具使用。",
-    legalPrivate: "DishKAI 是公开 beta 菜单辅助工具，不是专业、医疗、营养、过敏、法律或餐厅顾问服务。",
+    legalPrivate: "DishKAI 是私人 AI 应用实验工具，用于理解菜单，不是专业、医疗、营养、过敏、法律或餐厅顾问服务。",
     legalAccuracy: "菜名、成分、过敏原、饮食标签、翻译、图片、AI 估算和点餐建议都可能不完整、过时、误译或错误。",
     legalAllergy: "不要把 DishKAI 用于过敏、怀孕、疾病、宗教饮食限制、食品安全、酒精、生食或其他高风险决策。请直接向餐厅确认。",
     legalPrivacy: "只上传菜单，请勿包含人脸、支付信息、地址、电话号码、私人对话或其他个人、敏感信息。AI 处理与可选贡献见数据说明。",
@@ -152,9 +162,14 @@ const translations = {
     legalRequired: "使用 DishKAI 前请先确认已了解菜单参考与安全限制。",
     enterApp: "进入",
     visitCountLabel: "本机访问次数",
-    matched: "已匹配", universal: "通用项", unmatched: "暂未收录", aiEstimated: "AI 估算", tapForDetails: "点击查看详情", tapForUniversal: "通用点餐参考", tapForEstimate: "点击查看未收录提示", aiGenerated: "AI 估算结果，尚未进入 DishKAI 已验证数据库。", universalGuidance: "通用参考，不是已验证固定菜。", aiImageLabel: "AI 生成的视觉参考。实际菜品可能因餐厅而异。", aiInteractionLabel: "AI 辅助菜单分析", aiInteractionDisclosure: "AI 协助识别菜单，可能读错菜名。请对照原菜单，并向餐厅确认成分和过敏原。", safetyNote: "成分和过敏原未经餐厅确认。请向店员询问实际配料、替代食材及交叉接触风险。", potentialAllergens: "可能过敏原和注意事项", aiGeneratedLabel: "AI 生成", aiAssistedLabel: "AI 辅助", preparedContentLabel: "DishKAI 知识库", localRuleBasedLabel: "规则参考", aiGeneratedImageLabel: "AI 生成图片", aiTransparencyBack: "返回 DishKAI", aiTransparencyEyebrow: "AI 透明度", aiTransparencyTitle: "AI 透明度", aiTransparencySubtitle: "AI 如何参与 DishKAI。", aiTransparencyIntro: "DishKAI 使用 AI 读取菜单照片、提取并规范菜名，协助匹配预存知识库。对于未收录菜品，可选 AI 估算会提供临时说明。", aiTransparencyContentMix: "菜单识别与菜品知识是不同环节。预存知识可能经过 AI 辅助起草和项目检查，属于通用菜品信息，不代表餐厅配方确认。实时 AI 估算是临时、未验证的内容。", aiTransparencyLimitations: "AI 可能读错菜单、误译、匹配错菜品或漏掉成分和过敏原。成分比例只是估算，实际配方和交叉接触风险因餐厅而异。", aiTransparencyPurpose: "DishKAI 帮助你在点餐前理解陌生菜名，不提供菜谱，也不认证食物对你是否安全。", aiTransparencyCheckIntro: "点餐前，请向餐厅确认：", aiCheckIngredients: "实际配料", aiCheckAllergens: "过敏原与交叉接触风险", aiCheckDietary: "饮食与宗教限制", aiCheckSubstitutions: "替代食材与餐厅做法变化", aiCheckSafety: "生食、酒精及其他食品安全疑问", aiTransparencyIndependent: "DishKAI 是个人运营的公开 beta 菜单理解网站，用于探索 AI 应用开发。如有问题或反馈，请联系 hello@dishkai.com。", aiTransparencyBoundary: "DishKAI 不是医疗、营养、过敏或专业食品安全咨询服务。熟悉程度和点餐标签不代表过敏安全。", aiTransparencyLabelsIntro: "标签区分菜单识别方式、菜品知识来源和图片是否由 AI 生成。匹配到数据库不保证餐厅的实际配料。", aiTransparencyLabelsTitle: "透明度标签", aiLabelGenerated: "AI 生成", aiLabelGeneratedDescription: "实时 AI 估算或 AI 生成图片。实时菜品估算未经验证；生成图片属于示意图，不是餐厅实拍。", aiLabelAssisted: "AI 辅助", aiLabelAssistedDescription: "AI 协助读取、提取、翻译或整理菜单，菜品说明则可能来自独立的预存知识。", aiLabelPrepared: "DishKAI 知识库", aiLabelPreparedDescription: "提前存储的通用菜品信息，不是实时 AI 输出或餐厅确认，可能经过 AI 辅助起草与项目检查。", aiLabelLocal: "规则参考", aiLabelLocalDescription: "依据存储数据或确定性规则整理的结果。PDC 的规则摘要组合角色输出，不再调用模型。", original: "原始菜名", familiar: "熟悉名称", verdict: "点餐建议", description: "这是什么", preparation: "常见做法风格", composition: "估算成分", taste: "基础味道", flavor: "特色风味", texture: "口感", watchOut: "注意事项", variations: "常见变体", disclaimer: "图片说明", summary: "项", unknownNote: "这道菜暂时还不在 DishKAI 初始数据库中。"
+    matched: "已匹配", universal: "通用项", unmatched: "暂未收录", aiEstimated: "AI 估算", tapForDetails: "点击查看详情", tapForUniversal: "通用点餐参考", tapForEstimate: "点击查看未收录提示", aiGenerated: "AI 估算结果，尚未进入 DishKAI 已验证数据库。", universalGuidance: "通用参考，不是已验证固定菜。", aiImageLabel: "AI 生成的视觉参考。实际菜品可能因餐厅而异。", aiInteractionLabel: "AI 辅助菜单分析", aiInteractionDisclosure: "AI 协助识别菜单，可能读错菜名。请对照原菜单，并向餐厅确认成分和过敏原。", safetyNote: "成分和过敏原未经餐厅确认。请向店员询问实际配料、替代食材及交叉接触风险。", potentialAllergens: "可能过敏原和注意事项", aiGeneratedLabel: "AI 生成", aiAssistedLabel: "AI 辅助", preparedContentLabel: "DishKAI 知识库", localRuleBasedLabel: "规则参考", aiGeneratedImageLabel: "AI 生成图片", aiTransparencyBack: "返回 DishKAI", aiTransparencyEyebrow: "AI 透明度", aiTransparencyTitle: "AI 透明度", aiTransparencySubtitle: "AI 如何参与 DishKAI。", aiTransparencyIntro: "DishKAI 使用 AI 读取菜单照片、提取并规范菜名，协助匹配预存知识库。对于未收录菜品，可选 AI 估算会提供临时说明。", aiTransparencyContentMix: "菜单识别与菜品知识是不同环节。预存知识可能经过 AI 辅助起草和项目检查，属于通用菜品信息，不代表餐厅配方确认。实时 AI 估算是临时、未验证的内容。", aiTransparencyLimitations: "AI 可能读错菜单、误译、匹配错菜品或漏掉成分和过敏原。成分比例只是估算，实际配方和交叉接触风险因餐厅而异。", aiTransparencyPurpose: "DishKAI 帮助你在点餐前理解陌生菜名，不提供菜谱，也不认证食物对你是否安全。", aiTransparencyCheckIntro: "点餐前，请向餐厅确认：", aiCheckIngredients: "实际配料", aiCheckAllergens: "过敏原与交叉接触风险", aiCheckDietary: "饮食与宗教限制", aiCheckSubstitutions: "替代食材与餐厅做法变化", aiCheckSafety: "生食、酒精及其他食品安全疑问", aiTransparencyIndependent: "DishKAI 是个人运营的私人菜单理解实验工具，用于探索 AI 应用开发。如有问题或反馈，请联系 hello@dishkai.com。", aiTransparencyBoundary: "DishKAI 不是医疗、营养、过敏或专业食品安全咨询服务。熟悉程度和点餐标签不代表过敏安全。", aiTransparencyLabelsIntro: "标签区分菜单识别方式、菜品知识来源和图片是否由 AI 生成。匹配到数据库不保证餐厅的实际配料。", aiTransparencyLabelsTitle: "透明度标签", aiLabelGenerated: "AI 生成", aiLabelGeneratedDescription: "实时 AI 估算或 AI 生成图片。实时菜品估算未经验证；生成图片属于示意图，不是餐厅实拍。", aiLabelAssisted: "AI 辅助", aiLabelAssistedDescription: "AI 协助读取、提取、翻译或整理菜单，菜品说明则可能来自独立的预存知识。", aiLabelPrepared: "DishKAI 知识库", aiLabelPreparedDescription: "提前存储的通用菜品信息，不是实时 AI 输出或餐厅确认，可能经过 AI 辅助起草与项目检查。", aiLabelLocal: "规则参考", aiLabelLocalDescription: "依据存储数据或确定性规则整理的结果。PDC 的规则摘要组合角色输出，不再调用模型。", original: "原始菜名", familiar: "熟悉名称", verdict: "点餐建议", description: "这是什么", preparation: "常见做法风格", composition: "估算成分", taste: "基础味道", flavor: "特色风味", texture: "口感", watchOut: "注意事项", variations: "常见变体", disclaimer: "图片说明", summary: "项", unknownNote: "这道菜暂时还不在 DishKAI 初始数据库中。"
   },
   nl: {
+    sessionChecking: "Je privésessie wordt gecontroleerd…",
+    sessionUnavailable: "De sessie kon niet worden gecontroleerd. Controleer je verbinding en probeer opnieuw.",
+    sessionRetry: "Controleer sessie opnieuw",
+    logoutFailed: "Uitloggen is niet voltooid. Controleer je verbinding en probeer opnieuw.",
+    sessionExpired: "Log opnieuw in om verder te gaan.",
     uploadProcessingNotice: "Menutekst en foto's kunnen naar Google Gemini worden gestuurd, met OpenAI als reserve; tekst kan ook Cloudflare Workers AI gebruiken. Vermijd persoonlijke informatie.",
     dataNoticeLink: "AI en gegevensverwerking",
     contributeUnknownDishes: "Optioneel: deel suggesties voor onbekende gerechtnamen om DishKAI te verbeteren (maximaal 90 dagen bewaard). Hiervoor wordt geen foto of volledig menu opgeslagen.",
@@ -184,7 +199,7 @@ const translations = {
     legalLanguageLabel: "Taal",
     heroTitle: "Ken het gerecht voordat je bestelt.",
     heroSubtitle: "Plak tekst of upload een foto. Krijg binnen seconden een heldere gerechtenlijst.",
-    privateAccessEyebrow: "Private tools", privateAccessTitle: "Interne tools voor Leo & Cindy.", unauthorizedNotice: "Menuherkenning is publiek. PDC en interne acties blijven privaat.", privateAccessLabel: "Private toegangscode", privateAccessPlaceholder: "Voer private toegangscode in", unlockPrivate: "Ontgrendel private tools", privateUnlocked: "Private tools ontgrendeld.", privateLocked: "Private tools zijn vergrendeld. Menuherkenning is open.", privateDenied: "Private tools zijn vergrendeld.", clearRecentScans: "Wis lokale PDC-geschiedenis", clearScansDone: "Lokale PDC-geschiedenis en instellingen gewist.", privateLogout: "Vergrendel",
+    privateAccessEyebrow: "Privé-experiment", privateAccessTitle: "Je werkruimte voor AI-toepassingen.", unauthorizedNotice: "Menuanalyse en PDC vereisen een privésessie.", privateAccessLabel: "Private toegangscode", privateAccessPlaceholder: "Voer private toegangscode in", unlockPrivate: "Ontgrendel private tools", privateUnlocked: "Privésessie bevestigd.", privateLocked: "Log in om verder te gaan.", privateDenied: "Je privésessie is verlopen. Log opnieuw in.", clearRecentScans: "Wis lokale PDC-geschiedenis", clearScansDone: "Lokale PDC-geschiedenis en instellingen gewist.", privateLogout: "Uitloggen",
     textMode: "Tekst", imageMode: "Foto", menuTextLabel: "Menutekst", menuTextPlaceholder: "Boeuf Bourguignon\nCoq au Vin\nRatatouille", menuImageLabel: "Menufoto", imageHelper: "Fotoscan kan terugvallen op tekst.", uploadWarning: "Vermijd gezichten, betaalgegevens, adressen en privegegevens.",
     outputLanguage: "Taal", generate: "Analyseer menu", loading: "Menu analyseren...", compressionStatus: "Afbeelding verkleind van {from} naar {to}. Menu analyseren...", noItems: "Geen menu-items gevonden. Plak duidelijkere menutekst.", imageUnavailable: "Beeldanalyse is nog niet beschikbaar. Plak menutekst.",
     imageRequired: "Kies eerst een menufoto.",
@@ -214,7 +229,7 @@ const translations = {
     footerUsageTotalLabel: "Gebruik",
     legalEyebrow: "Belangrijke disclaimer",
     legalTitle: "Gebruik dit alleen als menugids.",
-    legalPrivate: "DishKAI is een publieke beta-menuhelper. Het is geen professionele, medische, voedingskundige, allergie-, juridische of restaurantadviesdienst.",
+    legalPrivate: "DishKAI is een privé-experiment met AI-toepassingen voor menu-inzicht. Het is geen professionele, medische, voedingskundige, allergie-, juridische of restaurantadviesdienst.",
     legalAccuracy: "Gerechtnamen, ingredienten, allergenen, dieetlabels, vertalingen, afbeeldingen, AI-schattingen en besteladvies kunnen onvolledig, verouderd, verkeerd vertaald of onjuist zijn.",
     legalAllergy: "Vertrouw niet op DishKAI voor allergieen, zwangerschap, medische aandoeningen, religieuze dieetregels, voedselveiligheid, alcohol, rauw eten of andere risicovolle beslissingen. Vraag het restaurant rechtstreeks.",
     legalPrivacy: "Upload alleen het menu. Vermijd gezichten, betaalgegevens, adressen, telefoonnummers, privégesprekken en andere persoonlijke of gevoelige informatie. Zie de gegevensinformatie voor AI-verwerking en optionele bijdragen.",
@@ -223,11 +238,12 @@ const translations = {
     legalRequired: "Bevestig eerst dat je de beperkingen van de menureferentie en veiligheid begrijpt.",
     enterApp: "Open",
     visitCountLabel: "Lokale bezoeken",
-    matched: "gekoppeld", universal: "algemeen", unmatched: "nog niet in database", aiEstimated: "AI-schatting", tapForDetails: "Tik voor details", tapForUniversal: "Algemene bestelrichtlijn", tapForEstimate: "Tik voor notitie", aiGenerated: "AI-schatting. Nog niet geverifieerd in de DishKAI-database.", universalGuidance: "Algemene richtlijn, geen geverifieerd vast gerecht.", aiImageLabel: "AI-gegenereerde visuele referentie. Het echte gerecht kan per restaurant verschillen.", aiInteractionLabel: "AI-ondersteunde menuanalyse", aiInteractionDisclosure: "AI helpt dit menu lezen en kan gerechten verkeerd herkennen. Controleer het oorspronkelijke menu en bevestig ingrediënten en allergenen bij het restaurant.", safetyNote: "Ingrediënten en allergenen zijn niet door het restaurant bevestigd. Vraag het personeel naar de werkelijke ingrediënten, vervangingen en kruiscontact.", potentialAllergens: "Mogelijke allergenen en aandachtspunten", aiGeneratedLabel: "AI-gegenereerd", aiAssistedLabel: "AI-ondersteund", preparedContentLabel: "DishKAI-kennisbank", localRuleBasedLabel: "Regelgebaseerde richtlijn", aiGeneratedImageLabel: "AI-gegenereerde afbeelding", aiTransparencyBack: "Terug naar DishKAI", aiTransparencyEyebrow: "AI-transparantie", aiTransparencyTitle: "AI-transparantie", aiTransparencySubtitle: "Hoe AI wordt gebruikt binnen DishKAI.", aiTransparencyIntro: "DishKAI gebruikt AI om menufoto's te lezen, gerechtnamen te herkennen en te normaliseren en ze aan een opgeslagen kennisbank te koppelen. Optionele AI-schattingen kunnen niet-opgenomen gerechten beschrijven.", aiTransparencyContentMix: "Menuherkenning en gerechtkennis zijn aparte stappen. Opgeslagen kennis kan met AI zijn opgesteld en door het project zijn gecontroleerd; het is algemene gerechtinformatie, geen bevestiging van het restaurantrecept. Live AI-schattingen zijn tijdelijk en niet geverifieerd.", aiTransparencyLimitations: "AI kan een menu verkeerd lezen, verkeerd vertalen, een onjuist gerecht koppelen of ingrediënten en allergenen missen. Samenstellingspercentages zijn schattingen; recepten en risico's op kruiscontact verschillen per restaurant.", aiTransparencyPurpose: "DishKAI helpt je onbekende menunamen begrijpen voordat je bestelt. Het geeft geen recepten en certificeert niet of voedsel veilig voor je is.", aiTransparencyCheckIntro: "Bevestig vóór het bestellen bij het restaurant:", aiCheckIngredients: "werkelijke ingrediënten", aiCheckAllergens: "allergenen en kruiscontact", aiCheckDietary: "dieet- en religieuze beperkingen", aiCheckSubstitutions: "vervangingen en restaurantvariaties", aiCheckSafety: "rauwe ingrediënten, alcohol en vragen over voedselveiligheid", aiTransparencyIndependent: "DishKAI is een persoonlijk beheerde openbare bètawebsite voor menu-inzicht om de ontwikkeling van AI-toepassingen te verkennen. Vragen of feedback: hello@dishkai.com.", aiTransparencyBoundary: "DishKAI is geen medische, voedingskundige, allergie- of professionele voedselveiligheidsadviesdienst. Bekendheids- en bestellabels betekenen niet dat een gerecht veilig is bij allergieën.", aiTransparencyLabelsIntro: "Labels onderscheiden hoe het menu is gelezen, waar gerechtkennis vandaan komt en of een afbeelding is gegenereerd. Een databasekoppeling garandeert de restaurantingrediënten niet.", aiTransparencyLabelsTitle: "Transparantielabels", aiLabelGenerated: "AI-gegenereerd", aiLabelGeneratedDescription: "Een live AI-schatting of een door AI gemaakte afbeelding. Live gerechtinschattingen zijn niet geverifieerd; gegenereerde afbeeldingen zijn illustraties, geen restaurantfoto's.", aiLabelAssisted: "AI-ondersteund", aiLabelAssistedDescription: "AI hielp het menu lezen, herkennen, vertalen of ordenen. De gerechtbeschrijving kan afzonderlijk uit opgeslagen kennis komen.", aiLabelPrepared: "DishKAI-kennisbank", aiLabelPreparedDescription: "Algemene gerechtinformatie die vooraf is opgeslagen. Het is geen live AI-output of restaurantbevestiging; AI en projectcontroles kunnen eraan hebben bijgedragen.", aiLabelLocal: "Regelgebaseerde richtlijn", aiLabelLocalDescription: "Een resultaat samengesteld uit opgeslagen gegevens of vaste regels. Een PDC-samenvatting combineert deelnemersoutput zonder een nieuwe modelaanroep.", original: "Origineel", familiar: "Vertrouwd", verdict: "Besteladvies", description: "Wat het is", preparation: "Hoe het meestal wordt bereid", composition: "Geschatte samenstelling", taste: "Basissmaak", flavor: "Kenmerkende smaak", texture: "Textuur", watchOut: "Let op", variations: "Veelvoorkomende variaties", disclaimer: "Visuele noot", summary: "items", unknownNote: "Dit gerecht staat nog niet in de startdatabase."
+    matched: "gekoppeld", universal: "algemeen", unmatched: "nog niet in database", aiEstimated: "AI-schatting", tapForDetails: "Tik voor details", tapForUniversal: "Algemene bestelrichtlijn", tapForEstimate: "Tik voor notitie", aiGenerated: "AI-schatting. Nog niet geverifieerd in de DishKAI-database.", universalGuidance: "Algemene richtlijn, geen geverifieerd vast gerecht.", aiImageLabel: "AI-gegenereerde visuele referentie. Het echte gerecht kan per restaurant verschillen.", aiInteractionLabel: "AI-ondersteunde menuanalyse", aiInteractionDisclosure: "AI helpt dit menu lezen en kan gerechten verkeerd herkennen. Controleer het oorspronkelijke menu en bevestig ingrediënten en allergenen bij het restaurant.", safetyNote: "Ingrediënten en allergenen zijn niet door het restaurant bevestigd. Vraag het personeel naar de werkelijke ingrediënten, vervangingen en kruiscontact.", potentialAllergens: "Mogelijke allergenen en aandachtspunten", aiGeneratedLabel: "AI-gegenereerd", aiAssistedLabel: "AI-ondersteund", preparedContentLabel: "DishKAI-kennisbank", localRuleBasedLabel: "Regelgebaseerde richtlijn", aiGeneratedImageLabel: "AI-gegenereerde afbeelding", aiTransparencyBack: "Terug naar DishKAI", aiTransparencyEyebrow: "AI-transparantie", aiTransparencyTitle: "AI-transparantie", aiTransparencySubtitle: "Hoe AI wordt gebruikt binnen DishKAI.", aiTransparencyIntro: "DishKAI gebruikt AI om menufoto's te lezen, gerechtnamen te herkennen en te normaliseren en ze aan een opgeslagen kennisbank te koppelen. Optionele AI-schattingen kunnen niet-opgenomen gerechten beschrijven.", aiTransparencyContentMix: "Menuherkenning en gerechtkennis zijn aparte stappen. Opgeslagen kennis kan met AI zijn opgesteld en door het project zijn gecontroleerd; het is algemene gerechtinformatie, geen bevestiging van het restaurantrecept. Live AI-schattingen zijn tijdelijk en niet geverifieerd.", aiTransparencyLimitations: "AI kan een menu verkeerd lezen, verkeerd vertalen, een onjuist gerecht koppelen of ingrediënten en allergenen missen. Samenstellingspercentages zijn schattingen; recepten en risico's op kruiscontact verschillen per restaurant.", aiTransparencyPurpose: "DishKAI helpt je onbekende menunamen begrijpen voordat je bestelt. Het geeft geen recepten en certificeert niet of voedsel veilig voor je is.", aiTransparencyCheckIntro: "Bevestig vóór het bestellen bij het restaurant:", aiCheckIngredients: "werkelijke ingrediënten", aiCheckAllergens: "allergenen en kruiscontact", aiCheckDietary: "dieet- en religieuze beperkingen", aiCheckSubstitutions: "vervangingen en restaurantvariaties", aiCheckSafety: "rauwe ingrediënten, alcohol en vragen over voedselveiligheid", aiTransparencyIndependent: "DishKAI is een persoonlijk beheerd privé-experiment voor menu-inzicht en ontwikkeling van AI-toepassingen. Vragen of feedback: hello@dishkai.com.", aiTransparencyBoundary: "DishKAI is geen medische, voedingskundige, allergie- of professionele voedselveiligheidsadviesdienst. Bekendheids- en bestellabels betekenen niet dat een gerecht veilig is bij allergieën.", aiTransparencyLabelsIntro: "Labels onderscheiden hoe het menu is gelezen, waar gerechtkennis vandaan komt en of een afbeelding is gegenereerd. Een databasekoppeling garandeert de restaurantingrediënten niet.", aiTransparencyLabelsTitle: "Transparantielabels", aiLabelGenerated: "AI-gegenereerd", aiLabelGeneratedDescription: "Een live AI-schatting of een door AI gemaakte afbeelding. Live gerechtinschattingen zijn niet geverifieerd; gegenereerde afbeeldingen zijn illustraties, geen restaurantfoto's.", aiLabelAssisted: "AI-ondersteund", aiLabelAssistedDescription: "AI hielp het menu lezen, herkennen, vertalen of ordenen. De gerechtbeschrijving kan afzonderlijk uit opgeslagen kennis komen.", aiLabelPrepared: "DishKAI-kennisbank", aiLabelPreparedDescription: "Algemene gerechtinformatie die vooraf is opgeslagen. Het is geen live AI-output of restaurantbevestiging; AI en projectcontroles kunnen eraan hebben bijgedragen.", aiLabelLocal: "Regelgebaseerde richtlijn", aiLabelLocalDescription: "Een resultaat samengesteld uit opgeslagen gegevens of vaste regels. Een PDC-samenvatting combineert deelnemersoutput zonder een nieuwe modelaanroep.", original: "Origineel", familiar: "Vertrouwd", verdict: "Besteladvies", description: "Wat het is", preparation: "Hoe het meestal wordt bereid", composition: "Geschatte samenstelling", taste: "Basissmaak", flavor: "Kenmerkende smaak", texture: "Textuur", watchOut: "Let op", variations: "Veelvoorkomende variaties", disclaimer: "Visuele noot", summary: "items", unknownNote: "Dit gerecht staat nog niet in de startdatabase."
   }
 };
 
-let uiLang = localStorage.getItem("dishkai-ui-lang") || "en";
+const storedUiLang = localStorage.getItem("dishkai-ui-lang");
+let uiLang = ["en", "zh", "nl"].includes(storedUiLang) ? storedUiLang : "zh";
 let inputMode = "text";
 let latestResult = null;
 let expandedOrderIndex = null;
@@ -235,6 +251,10 @@ let pdcState = { rounds: [] };
 let privateAccessGranted = false;
 let privateToolsInitialized = false;
 let menuAnalysisPending = false;
+let sessionVerified = false;
+let sessionCheckPending = false;
+let logoutPending = false;
+let loginRedirectPending = false;
 
 const $ = (selector) => document.querySelector(selector);
 
@@ -319,6 +339,12 @@ async function fetchJson(url, options = {}, timeoutMs = 0) {
   }, timeoutMs) : null;
   try {
     const response = await fetch(url, controller ? { ...options, signal: controller.signal } : options);
+    if (response.status === 401) {
+      redirectToPrivateLogin();
+      const sessionError = new Error(t("sessionExpired"));
+      sessionError.code = "SESSION_REQUIRED";
+      throw sessionError;
+    }
     const text = await response.text();
     let result = {};
     if (text) {
@@ -333,6 +359,7 @@ async function fetchJson(url, options = {}, timeoutMs = 0) {
     }
     return { response, result };
   } catch (error) {
+    if (error?.code === "SESSION_REQUIRED") throw error;
     if (controller) {
       const menuError = new Error(t(timedOut ? "menuTimeout" : "menuNetworkError"));
       menuError.code = timedOut ? "MENU_CLIENT_TIMEOUT" : "MENU_NETWORK_ERROR";
@@ -345,6 +372,7 @@ async function fetchJson(url, options = {}, timeoutMs = 0) {
 }
 
 const MENU_ERROR_TRANSLATIONS = {
+  SESSION_REQUIRED: "sessionExpired",
   AI_REQUEST_TIMEOUT: "menuTimeout",
   MENU_CLIENT_TIMEOUT: "menuTimeout",
   MENU_NETWORK_ERROR: "menuNetworkError",
@@ -384,19 +412,22 @@ function setPrivateStatus(message, tone = "") {
   el.className = `status ${tone}`.trim();
 }
 
-function shouldShowPrivateAccessPanel() {
-  const params = new URLSearchParams(window.location.search);
-  return params.has("internal") || window.location.hash === "#internal" || window.location.hash === "#personal-pdc" || privateAccessGranted;
-}
-
 function updatePrivateAccessVisibility() {
   const panel = $("#privateAccess");
-  if (!panel) return;
-  const shouldHide = privateAccessGranted || !shouldShowPrivateAccessPanel();
-  panel.hidden = shouldHide;
-  panel.querySelectorAll("input, button").forEach((element) => {
-    element.disabled = shouldHide;
-  });
+  if (panel) panel.hidden = !sessionVerified || !privateAccessGranted;
+}
+
+function redirectToPrivateLogin({ preserveNext = true } = {}) {
+  if (loginRedirectPending) return;
+  loginRedirectPending = true;
+  sessionVerified = false;
+  privateAccessGranted = false;
+  document.body.classList.add("session-checking");
+  clearPrivateLocalData();
+  latestResult = null;
+  if ($("#visualMenuGrid")) $("#visualMenuGrid").innerHTML = "";
+  const next = `${window.location.pathname || "/"}${window.location.search || ""}${window.location.hash || ""}`;
+  window.location.replace(preserveNext ? `/login?next=${encodeURIComponent(next)}` : "/login");
 }
 
 function setPrivateAccess(granted) {
@@ -438,6 +469,12 @@ function isTransparencyPage() {
 }
 
 function renderPageRoute() {
+  if (!sessionVerified) {
+    if ($("#legalGate")) $("#legalGate").hidden = true;
+    if ($("#appShell")) $("#appShell").hidden = true;
+    if ($("#aiTransparencyPage")) $("#aiTransparencyPage").hidden = true;
+    return;
+  }
   const transparencyPage = isTransparencyPage();
   document.body.classList.toggle("transparency-page", transparencyPage);
   document.title = transparencyPage ? `${t("aiTransparencyTitle")} | DishKAI` : HOME_TITLE;
@@ -459,20 +496,24 @@ function setLegalGateStatus(message, tone = "") {
 }
 
 function renderLegalStep() {
-  const accepted = storedLegalAccepted();
+  const accepted = sessionVerified && storedLegalAccepted();
   document.body.classList.toggle("legal-step-complete", accepted);
   if ($("#legalGate")) $("#legalGate").hidden = accepted;
   if ($("#appShell")) $("#appShell").hidden = !accepted;
-  if ($("#generateButton")) $("#generateButton").disabled = menuAnalysisPending || !accepted;
+  if ($("#generateButton")) $("#generateButton").disabled = menuAnalysisPending || !accepted || !sessionVerified;
   if ($("#enterAppButton")) $("#enterAppButton").disabled = !legalAccepted();
 }
 
 function updateLegalGate() {
   if ($("#enterAppButton")) $("#enterAppButton").disabled = !legalAccepted();
-  if ($("#generateButton")) $("#generateButton").disabled = menuAnalysisPending || !storedLegalAccepted();
+  if ($("#generateButton")) $("#generateButton").disabled = menuAnalysisPending || !storedLegalAccepted() || !sessionVerified;
 }
 
 function requireLegalAcceptance() {
+  if (!sessionVerified || !privateAccessGranted) {
+    redirectToPrivateLogin();
+    return false;
+  }
   if (storedLegalAccepted()) return true;
   setStatus(t("legalRequired"), "error");
   setLegalGateStatus(t("legalRequired"), "error");
@@ -482,6 +523,10 @@ function requireLegalAcceptance() {
 }
 
 function enterApp() {
+  if (!sessionVerified || !privateAccessGranted) {
+    redirectToPrivateLogin();
+    return;
+  }
   if (!legalAccepted()) {
     setLegalGateStatus(t("legalRequired"), "error");
     $("#legalAccepted")?.focus();
@@ -533,36 +578,42 @@ async function compressMenuImage(file) {
 }
 
 async function checkPrivateAccess() {
+  if (sessionCheckPending || loginRedirectPending) return false;
+  sessionCheckPending = true;
+  sessionVerified = false;
+  document.body.classList.add("session-checking");
+  const sessionStatus = $("#sessionStatus");
+  const retryButton = $("#retrySessionButton");
+  if (sessionStatus) {
+    sessionStatus.hidden = false;
+    sessionStatus.textContent = t("sessionChecking");
+  }
+  if (retryButton) retryButton.hidden = true;
   try {
-    const { result } = await fetchJson("/api/private-status", { cache: "no-store" });
-    const authenticated = Boolean(result.authenticated);
-    if (result.ok && !authenticated) clearPrivateLocalData();
-    setPrivateAccess(authenticated);
-    setPrivateStatus(authenticated ? t("privateUnlocked") : t("privateLocked"), authenticated ? "" : "error");
-  } catch {
-    setPrivateAccess(false);
-    setPrivateStatus(t("privateLocked"), "error");
+    const { response, result } = await fetchJson("/api/private-status", { cache: "no-store", credentials: "same-origin" }, 10_000);
+    if (loginRedirectPending) return false;
+    if (!response.ok || result.ok !== true) throw new Error("SESSION_CHECK_FAILED");
+    if (result.configured !== true || result.authenticated !== true) {
+      redirectToPrivateLogin();
+      return false;
+    }
+    sessionVerified = true;
+    setPrivateAccess(true);
+    document.body.classList.remove("session-checking");
+    if (sessionStatus) sessionStatus.hidden = true;
+    if (retryButton) retryButton.hidden = true;
+    setPrivateStatus(t("privateUnlocked"));
+    await initializePrivateTools();
+    renderPageRoute();
+    return true;
+  } catch (error) {
+    if (error?.code === "SESSION_REQUIRED" || loginRedirectPending) return false;
+    if (sessionStatus) sessionStatus.textContent = t("sessionUnavailable");
+    if (retryButton) retryButton.hidden = false;
+    return false;
+  } finally {
+    sessionCheckPending = false;
   }
-  updatePrivateAccessVisibility();
-}
-
-async function submitPrivateAccess(event) {
-  event.preventDefault();
-  const accessCode = $("#privateAccessCode").value;
-  const { response, result } = await fetchJson("/api/private-login", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ accessCode }),
-  });
-  if (!response.ok || !result.ok) {
-    setPrivateAccess(false);
-    setPrivateStatus(apiErrorMessage(result, t("privateDenied")), "error");
-    return;
-  }
-  $("#privateAccessCode").value = "";
-  setPrivateAccess(true);
-  setPrivateStatus(t("privateUnlocked"));
-  focusMenuEntry();
 }
 
 async function clearRecentScans() {
@@ -571,10 +622,20 @@ async function clearRecentScans() {
 }
 
 async function logoutPrivateAccess() {
-  await fetch("/api/private-logout", { method: "POST" }).catch(() => {});
-  clearPrivateLocalData();
-  setPrivateAccess(false);
-  setPrivateStatus(t("privateLocked"), "error");
+  if (logoutPending) return;
+  logoutPending = true;
+  try {
+    const { response, result } = await fetchJson("/api/private-logout", {
+      method: "POST", cache: "no-store", credentials: "same-origin",
+    }, 10_000);
+    if (!response.ok || result.ok !== true) throw new Error("LOGOUT_FAILED");
+    clearPrivateLocalData();
+    redirectToPrivateLogin({ preserveNext: false });
+  } catch (error) {
+    if (error?.code !== "SESSION_REQUIRED") setPrivateStatus(t("logoutFailed"), "error");
+  } finally {
+    logoutPending = false;
+  }
 }
 
 function clearPrivateLocalData() {
@@ -594,13 +655,12 @@ function clearPrivateLocalData() {
 
 async function initializePrivateTools() {
   updatePrivateAccessVisibility();
-  if (privateToolsInitialized || !shouldShowPrivateAccessPanel()) return;
+  if (privateToolsInitialized || !sessionVerified || !privateAccessGranted) return;
   privateToolsInitialized = true;
   pdcState = loadPdcState();
   renderPdcRoleCards();
   updatePdcDiscussionUi();
   renderPdcRounds();
-  await checkPrivateAccess();
 }
 
 async function analyzeText() {
@@ -676,7 +736,7 @@ async function analyzeImage() {
 function setMenuAnalysisPending(pending) {
   menuAnalysisPending = pending;
   $("#menuForm").setAttribute("aria-busy", String(pending));
-  $("#generateButton").disabled = pending || !storedLegalAccepted();
+  $("#generateButton").disabled = pending || !storedLegalAccepted() || !sessionVerified;
 }
 
 async function submitMenu(event) {
@@ -958,7 +1018,7 @@ function setPdcStatus(message, tone = "") {
 }
 
 function openPdcRoom() {
-  if (!privateAccessGranted) {
+  if (!privateAccessGranted || !sessionVerified) {
     updatePrivateAccessVisibility();
     return;
   }
@@ -1126,7 +1186,7 @@ function safeImagePath(value) {
 
 async function startPdcRound(event) {
   event.preventDefault();
-  if (!privateAccessGranted) {
+  if (!privateAccessGranted || !sessionVerified) {
     setPdcStatus(t("privateDenied"), "error");
     return;
   }
@@ -1157,7 +1217,7 @@ async function startPdcRound(event) {
 
 async function continuePdcRound(event) {
   event.preventDefault();
-  if (!privateAccessGranted) {
+  if (!privateAccessGranted || !sessionVerified) {
     setPdcStatus(t("privateDenied"), "error");
     return;
   }
@@ -1350,13 +1410,12 @@ $("#pdcSelectPersonalQuick")?.addEventListener("click", () => {
 $("#pdcClearSelection")?.addEventListener("click", () => selectPdcAgents([]));
 $("#pdcForm")?.addEventListener("submit", startPdcRound);
 $("#pdcInterventionForm")?.addEventListener("submit", continuePdcRound);
-$("#privateAccessForm")?.addEventListener("submit", submitPrivateAccess);
 $("#clearRecentScans")?.addEventListener("click", clearRecentScans);
 $("#privateLogout")?.addEventListener("click", logoutPrivateAccess);
 $("#privateLogoutTop")?.addEventListener("click", logoutPrivateAccess);
 window.addEventListener("hashchange", () => {
   updatePrivateAccessVisibility();
-  void initializePrivateTools();
+  if (sessionVerified) void initializePrivateTools();
 });
 $("#enterAppButton")?.addEventListener("click", enterApp);
 if ($("#legalAccepted")) {
@@ -1368,4 +1427,13 @@ renderPageRoute();
 incrementVisitCount();
 applyLanguage();
 updatePrivateAccessVisibility();
-void initializePrivateTools();
+void checkPrivateAccess();
+
+$("#retrySessionButton")?.addEventListener("click", () => { void checkPrivateAccess(); });
+window.addEventListener("pageshow", (event) => {
+  if (event.persisted) void checkPrivateAccess();
+});
+window.addEventListener("pagehide", () => {
+  sessionVerified = false;
+  document.body.classList.add("session-checking");
+});

@@ -1,6 +1,6 @@
 # DishKAI EU AI Act review
 
-Review date: **11 October 2026**. Scope: the current public menu tool, its stored dish illustrations, optional generated estimate cards, unmatched-dish backlog, and private PDC room. This is a documented engineering and operational assessment, not a legal certification. Account settings, contracts, staff training, the production KV contents, and the operator's legal identity were not inspected or verified.
+Review date: **11 October 2026**. Original scope: the publicly available menu tool, its stored dish illustrations, optional generated estimate cards, unmatched-dish backlog, and private PDC room. The owner subsequently requested password protection for personal use; the conversion and its limits are recorded below. This is a documented engineering and operational assessment, not a legal certification. Provider contracts, staff training, the production KV contents, and the operator's legal identity were not inspected or verified. Only the limited hosting settings expressly noted below were read.
 
 ## Current legal basis
 
@@ -69,6 +69,18 @@ The EDPB-endorsed [WP260 transparency guidelines](https://www.edpb.europa.eu/sys
 Separate website-provider rules may require a name and establishment address where the activity qualifies as an information society service: see [Directive 2000/31/EC, Article 5](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02000L0031-20240217). Personal ownership alone does not decide economic scope. Operator country, commercial/indirect funding facts and applicable national implementation remain unconfirmed; this review does not establish an address-disclosure exemption or a complete Dutch-law conclusion.
 
 Keep the confirmed personal-project description and hello@dishkai.com. Do not publish inferred names or addresses, present the mailbox-only notice as complete, or treat the user's question as authorisation to disclose identity. Any further identity/address wording must follow a documented applicability assessment and explicit owner-provided details.
+
+## Private-use conversion — 11 October 2026
+
+The owner requested a password to use the project personally. The coordinated code update requires a backend-verified session for the main application, static dish data/images and menu/PDC APIs, with only a dedicated login page/assets and authentication endpoints open. It reuses the current access-code/session configuration; values have not been read or changed. Code and local checks must be followed by deployment verification.
+
+[Article 2(10)](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2) excludes deployer obligations for natural persons using AI in purely personal non-professional activity. The [Commission's final Article 50 guidelines](https://ec.europa.eu/newsroom/dae/redirection/document/131215), paragraphs 19–20, explain that this does not exclude the system or its provider obligations. DishKAI's own provider role needs independent assessment, and Gemini or other upstream providers do not become exempt because this application has a password. Paragraphs 21–22 distinguish solely scientific R&D and pre-market/pre-service testing from already deployed or real-world use. A private-use conversion does not retroactively establish those exceptions.
+
+GDPR's purely personal/household exception may apply to qualifying personal activities, while processors providing their tools remain subject to the applicable rules. A public login endpoint still receives external requests and IP-based security processing; earlier visitor records, correspondence and retained cloud data require separate assessment. Do not claim that password protection eliminates every privacy obligation or fulfils outstanding identity information.
+
+The Cloudflare production configuration was read: **Fail closed** was already enabled and both authentication-secret names existed as encrypted values. No credential contents or settings were changed. A historical v0.2.39 deployment URL was separately observed serving the public safety gate without a password. Current-code authentication cannot protect historical deployments running earlier code. Access restriction for all historical hash/branch URLs needs an explicit hosting-policy decision and verification; no historical deployment has been deleted.
+
+Anyone who knows the existing password or holds a still-valid signed session remains authorised by the current mechanism. To make access exclusive in practice, the owner must ensure the password is not shared and separately revoke old sessions if needed. Keep AI-origin, restaurant-uncertainty and provider-processing notices after login, and reassess the earlier public-operation scope before reopening access.
 
 ## Operational and privacy matters still open
 

@@ -7,11 +7,13 @@ import {
   checkRateLimit,
   clearSessionCookie,
   createSessionCookie,
+  hasConfiguredPrivateAccess,
   hasValidSession,
   requireSameOrigin,
   securityHeaders,
   verifyAccessCode,
 } from "./functions/_shared/security.js";
+import { privateResponseHeaders, requireSiteAccess } from "./functions/_shared/site-access.js";
 import {
   UNMATCHED_DISH_AGGREGATE_KEY,
   clearUnmatchedDishBacklog,
@@ -50,14 +52,20 @@ const server = createServer(async (request, response) => {
   try {
     const requestHost = request.headers.host || `${host}:${port}`;
     const url = new URL(request.url, `http://${requestHost}`);
+    const denied = await requireSiteAccess(toWebRequest(request, url), localEnv());
+    if (denied) {
+      response.writeHead(denied.status, Object.fromEntries(denied.headers.entries()));
+      response.end(request.method === "HEAD" ? undefined : await denied.text());
+      return;
+    }
 
     if (request.method === "GET" && url.pathname === "/api/health") {
       sendJson(response, 200, { ok: true, app: "DishKAI" });
       return;
     }
 
-    if (request.method === "GET" && url.pathname === "/api/private-status") {
-      sendJson(response, 200, { ok: true, authenticated: await hasValidSession(toWebRequest(request, url), localEnv()) }, securityHeaders());
+    if (["GET", "HEAD"].includes(request.method) && url.pathname === "/api/private-status") {
+      sendJson(response, 200, { ok: true, configured: hasConfiguredPrivateAccess(localEnv()), authenticated: await hasValidSession(toWebRequest(request, url), localEnv()) }, securityHeaders());
       return;
     }
 
@@ -65,6 +73,11 @@ const server = createServer(async (request, response) => {
       const webRequest = toWebRequest(request, url);
       const crossOrigin = requireSameOrigin(webRequest, localJson);
       if (crossOrigin) return sendWebJson(response, crossOrigin);
+
+      if (!hasConfiguredPrivateAccess(localEnv())) {
+        sendJson(response, 503, { error: "PRIVATE_ACCESS_CONFIG_ERROR", message: "Private access is not configured correctly." }, securityHeaders());
+        return;
+      }
 
       const limited = checkRateLimit(webRequest, localJson, "private-login", 8, 60_000);
       if (limited) return sendWebJson(response, limited);
@@ -213,7 +226,15 @@ const server = createServer(async (request, response) => {
       return;
     }
 
-    await serveStatic(url.pathname, response);
+    if (url.pathname.startsWith("/api/")) {
+      sendJson(response, 405, { error: "Method not allowed." }, securityHeaders());
+      return;
+    }
+    if (!["GET", "HEAD"].includes(request.method)) {
+      sendJson(response, 405, { error: "Method not allowed." }, securityHeaders());
+      return;
+    }
+    await serveStatic(url.pathname, response, request.method);
   } catch (error) {
     if (error?.code === "REQUEST_BODY_TOO_LARGE") {
       sendJson(response, 413, { error: "REQUEST_BODY_TOO_LARGE", message: "Request body is too large." }, securityHeaders());
@@ -227,8 +248,8 @@ const server = createServer(async (request, response) => {
   }
 });
 
-async function serveStatic(pathname, response) {
-  const requested = pathname === "/" ? "/index.html" : pathname;
+async function serveStatic(pathname, response, method = "GET") {
+  const requested = pathname === "/" ? "/index.html" : pathname === "/login" ? "/login.html" : pathname;
   const safePath = normalize(requested).replace(/^[/\\]+/, "");
   const filePath = resolve(publicRoot, safePath);
 
@@ -241,25 +262,30 @@ async function serveStatic(pathname, response) {
     const content = await readFile(filePath);
     response.writeHead(200, {
       "Content-Type": mimeTypes[extname(filePath)] || "application/octet-stream",
-      ...securityHeaders(),
+      ...Object.fromEntries(privateResponseHeaders()),
     });
-    response.end(content);
+    response.end(method === "HEAD" ? undefined : content);
   } catch {
+    if (pathname === "/login" || pathname === "/login.html") {
+      response.writeHead(503, { "Content-Type": "text/plain; charset=utf-8", ...Object.fromEntries(privateResponseHeaders()) });
+      response.end(method === "HEAD" ? undefined : "Private login is unavailable.");
+      return;
+    }
     if (!extname(filePath)) {
       const content = await readFile(join(publicRoot, "index.html"));
-      response.writeHead(200, { "Content-Type": mimeTypes[".html"], ...securityHeaders() });
-      response.end(content);
+      response.writeHead(200, { "Content-Type": mimeTypes[".html"], ...Object.fromEntries(privateResponseHeaders()) });
+      response.end(method === "HEAD" ? undefined : content);
       return;
     }
 
-    response.writeHead(404, { "Content-Type": "text/plain; charset=utf-8" });
-    response.end("Not found");
+    response.writeHead(404, { "Content-Type": "text/plain; charset=utf-8", ...Object.fromEntries(privateResponseHeaders()) });
+    response.end(method === "HEAD" ? undefined : "Not found");
   }
 }
 
 function sendJson(response, status, data, headers = {}) {
-  response.writeHead(status, { "Content-Type": "application/json; charset=utf-8", ...headers });
-  response.end(JSON.stringify(data));
+  response.writeHead(status, { "Content-Type": "application/json; charset=utf-8", ...Object.fromEntries(privateResponseHeaders(headers)) });
+  response.end(response.req?.method === "HEAD" ? undefined : JSON.stringify(data));
 }
 
 function localJson(data, status = 200, headers = {}) {

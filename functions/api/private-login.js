@@ -1,9 +1,13 @@
 import { json } from "../_shared/http.js";
-import { checkRateLimit, createSessionCookie, readJsonBody, requireSameOrigin, securityHeaders, verifyAccessCode } from "../_shared/security.js";
+import { checkRateLimit, createSessionCookie, hasConfiguredPrivateAccess, readJsonBody, requireSameOrigin, securityHeaders, verifyAccessCode } from "../_shared/security.js";
 
 export async function onRequestPost({ request, env }) {
   const crossOrigin = requireSameOrigin(request, json);
   if (crossOrigin) return crossOrigin;
+
+  if (!hasConfiguredPrivateAccess(env)) {
+    return json({ error: "PRIVATE_ACCESS_CONFIG_ERROR", message: "Private access is not configured correctly." }, 503, securityHeaders());
+  }
 
   const limited = checkRateLimit(request, json, "private-login", 8, 60_000);
   if (limited) return limited;

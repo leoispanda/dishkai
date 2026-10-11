@@ -1,12 +1,15 @@
 import { json } from "../_shared/http.js";
 import { analyzeMenuText } from "../_shared/menu-analysis.js";
-import { checkRateLimit, readJsonBody, requireSameOrigin, securityHeaders } from "../_shared/security.js";
+import { checkRateLimit, readJsonBody, requirePrivateSession, requireSameOrigin, securityHeaders } from "../_shared/security.js";
 import { recordUnmatchedDishes } from "../_shared/unmatched-dishes.js";
 
 export async function onRequestPost(context) {
   const { request, env } = context;
   const crossOrigin = requireSameOrigin(request, json);
   if (crossOrigin) return crossOrigin;
+
+  const unauthorized = await requirePrivateSession(request, env, json);
+  if (unauthorized) return unauthorized;
 
   const limited = checkRateLimit(request, json, "analyze-menu", 20, 60_000);
   if (limited) return limited;

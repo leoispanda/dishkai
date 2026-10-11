@@ -30,24 +30,35 @@ export function clearSessionCookie(env) {
   return `${SESSION_COOKIE}=; HttpOnly;${secureCookieAttribute(env)} SameSite=Lax; Path=/; Max-Age=0`;
 }
 
+export function hasConfiguredPrivateAccess(env) {
+  return Boolean(String(env?.DISHKAI_PRIVATE_ACCESS_CODE || "").trim()
+    && String(env?.DISHKAI_SESSION_SECRET || "").trim());
+}
+
 export async function hasValidSession(request, env) {
+  if (!hasConfiguredPrivateAccess(env)) return false;
   const secret = env?.DISHKAI_SESSION_SECRET;
-  if (!secret) return false;
   const cookie = parseCookies(request.headers.get("Cookie") || "")[SESSION_COOKIE];
-  if (!cookie || !cookie.includes(".")) return false;
-  const [payload, signature] = cookie.split(".");
-  const expected = await sign(payload, secret);
-  if (!timingSafeEqual(signature, expected)) return false;
+  if (!cookie || cookie.length > 2048) return false;
+  const parts = cookie.split(".");
+  if (parts.length !== 2 || parts.some((part) => !/^[\w-]+$/.test(part))) return false;
+  const [payload, signature] = parts;
 
   try {
+    const expected = await sign(payload, secret);
+    if (!timingSafeEqual(signature, expected)) return false;
     const decoded = JSON.parse(base64UrlDecode(payload));
-    return decoded.sub === "leo-cindy" && Number(decoded.exp) > Math.floor(Date.now() / 1000);
+    return decoded.sub === "leo-cindy" && Number.isFinite(Number(decoded.exp))
+      && Number(decoded.exp) > Math.floor(Date.now() / 1000);
   } catch {
     return false;
   }
 }
 
 export async function requirePrivateSession(request, env, json) {
+  if (!hasConfiguredPrivateAccess(env)) {
+    return json({ error: "PRIVATE_ACCESS_CONFIG_ERROR", message: "Private access is not configured correctly." }, 503, securityHeaders());
+  }
   if (await hasValidSession(request, env)) return null;
   return json({
     error: "PRIVATE_ACCESS_REQUIRED",

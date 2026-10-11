@@ -1,5 +1,7 @@
 # DishKAI AI operations and literacy guide
 
+The current application is intended for the owner's personal AI exploration and requires a server-verified password session. Keep the password private and do not accept other people's uploads merely because the site has a login page. Historical deployment links and still-valid sessions need separate review. Personal non-professional use can change legal scope; it does not automatically remove provider duties, upstream processing, or earlier retained-data responsibilities. See the [private-use conversion assessment](ai-act-review.md#private-use-conversion--11-october-2026).
+
 Date: **11 October 2026**. Audience: anyone operating, developing, reviewing metadata or producing assets on behalf of DishKAI. This guide supports the contextual measures in [current Article 4](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-4); it is not a completed training record or certification. Read the [scope and open issues](ai-act-review.md) before making compliance claims.
 
 ## Understand the workflow

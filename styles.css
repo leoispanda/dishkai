@@ -1203,7 +1203,7 @@ select, input { min-height: 46px; }
   }
 }
 
-/* v0.2.29 Apple/Revolut-inspired public surface */
+/* v0.2.29 Apple/Revolut-inspired application surface */
 :root {
   --ink: #150f0a;
   --muted: rgba(44, 35, 28, 0.62);
@@ -2359,3 +2359,27 @@ input[type="file"] {
     font-size: 10px;
   }
 }
+
+/* Keep cached private content hidden while the server checks the session. */
+body.session-checking > header,
+body.session-checking > main,
+body.session-checking > footer {
+  visibility: hidden;
+  pointer-events: none;
+}
+.session-check-panel {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  place-content: center;
+  justify-items: center;
+  gap: 16px;
+  padding: 28px;
+  background: var(--cream, #fff7ef);
+  color: var(--ink, #563620);
+  text-align: center;
+}
+body.session-checking .session-check-panel { display: grid; }
+.session-check-panel p { margin: 0; }
+.session-check-panel [hidden] { display: none; }

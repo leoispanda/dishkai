@@ -11,11 +11,14 @@ import { onRequestPost as analyzeLegacyText } from "../functions/api/analyze-men
 import { onRequestPost as analyzeImage } from "../functions/api/analyze-menu-image.js";
 import { runPdcRound } from "../functions/_shared/pdc-engine.js";
 import { analyzeMenuText } from "../functions/_shared/menu-analysis.js";
+import { createSessionCookie } from "../functions/_shared/security.js";
 
 // Exercise the actual collectors, endpoints and PDC engine with synthetic data only.
 // No credentials, live AI calls, file storage, or new dependencies are needed.
 const cases = [];
 function check(name, run) { cases.push({ name, run }); }
+const authEnv = { DISHKAI_PRIVATE_ACCESS_CODE: "synthetic-access-code", DISHKAI_SESSION_SECRET: "synthetic-session-secret" };
+const authCookie = (await createSessionCookie(authEnv)).split(";")[0];
 
 function unknownItem(name, originalName = name) {
   return {
@@ -179,10 +182,10 @@ check("menu analysis still succeeds when contributions cannot be stored with ind
   const response = await analyzeText({
     request: new Request("https://dishkai.test/api/menu", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: { "Content-Type": "application/json", Cookie: authCookie },
       body: JSON.stringify({ menuText: "Zorble Fantasia", contributeUnknownDishes: true }),
     }),
-    env: { DISHKAI_UNMATCHED_DISHES: {
+    env: { ...authEnv, DISHKAI_UNMATCHED_DISHES: {
       get: async () => null,
       put: async () => { writes += 1; },
     } },
@@ -234,10 +237,10 @@ for (const [label, endpoint] of [["text", analyzeText], ["legacy text", analyzeL
         const response = await endpoint({
           request: new Request("https://dishkai.test/api/menu", {
             method: "POST",
-            headers: { "Content-Type": "application/json" },
+            headers: { "Content-Type": "application/json", Cookie: authCookie },
             body: JSON.stringify({ menuText: "Zorble Fantasia", contributeUnknownDishes: flag }),
           }),
-          env: { DISHKAI_UNMATCHED_DISHES: store },
+          env: { ...authEnv, DISHKAI_UNMATCHED_DISHES: store },
           waitUntil: (promise) => pending.push(promise),
         });
         assert.equal(response.status, 200);
@@ -267,8 +270,8 @@ check("photo API requires the exact multipart opt-in value", async () => {
       const pending = [];
       const before = store.writes.length;
       const response = await analyzeImage({
-        request: new Request("https://dishkai.test/api/photo", { method: "POST", body: form }),
-        env: { DISHKAI_AI_API_KEY: "fake-not-a-real-key", DISHKAI_UNMATCHED_DISHES: store },
+        request: new Request("https://dishkai.test/api/photo", { method: "POST", body: form, headers: { Cookie: authCookie } }),
+        env: { ...authEnv, DISHKAI_AI_API_KEY: "fake-not-a-real-key", DISHKAI_UNMATCHED_DISHES: store },
         waitUntil: (promise) => pending.push(promise),
       });
       assert.equal(response.status, 200);

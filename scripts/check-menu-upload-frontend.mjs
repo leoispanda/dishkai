@@ -25,7 +25,7 @@ function makeApp() {
   element("#visual-menu", { scrollIntoView() {} });
   const timers = new Map();
   const requests = [];
-  const storage = new Map([["dishkai-legal-disclaimer-accepted-v1", "true"]]);
+  const storage = new Map([["dishkai-legal-disclaimer-accepted-v1", "true"], ["dishkai-ui-lang", "en"]]);
   let response = async () => ({ ok: true, status: 200, text: async () => '{"ok":true,"items":[]}' });
   const context = vm.createContext({
     console: { warn() {} },
@@ -43,6 +43,8 @@ function makeApp() {
   });
   vm.runInContext(script.slice(0, bindingsStart), context);
   vm.runInContext(`
+    sessionVerified = true;
+    privateAccessGranted = true;
     renderAnalysis = () => {};
     incrementUsageCount = () => {};
     globalThis.menuTest = {

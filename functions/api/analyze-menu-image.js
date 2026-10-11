@@ -1,6 +1,6 @@
 import { json, readBoundedFormData } from "../_shared/http.js";
 import { MAX_MENU_IMAGE_REQUEST_BYTES, analyzeMenuImage } from "../_shared/menu-analysis.js";
-import { checkRateLimit, requireSameOrigin, securityHeaders } from "../_shared/security.js";
+import { checkRateLimit, requirePrivateSession, requireSameOrigin, securityHeaders } from "../_shared/security.js";
 import { recordUnmatchedDishes } from "../_shared/unmatched-dishes.js";
 
 export async function onRequestPost(context) {
@@ -8,6 +8,9 @@ export async function onRequestPost(context) {
   try {
     const crossOrigin = requireSameOrigin(request, json);
     if (crossOrigin) return crossOrigin;
+
+    const unauthorized = await requirePrivateSession(request, env, json);
+    if (unauthorized) return unauthorized;
 
     const limited = checkRateLimit(request, json, "analyze-menu-image", 10, 60_000);
     if (limited) return limited;

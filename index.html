@@ -3,23 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
   <meta name="description" content="DishKAI helps people understand unfamiliar menu names before ordering.">
   <title>DishKAI | Know the dish before you order</title>
   <link rel="icon" href="/assets/brand/dishkai-cloche-logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=0.2.40">
+  <link rel="stylesheet" href="styles.css?v=0.2.41">
 </head>
-<body>
+<body class="session-checking">
+  <div class="session-check-panel" role="status">
+    <p id="sessionStatus" data-i18n="sessionChecking">Checking your private session…</p>
+    <button id="retrySessionButton" class="button" type="button" hidden data-i18n="sessionRetry">Check session again</button>
+  </div>
   <header class="topbar compact">
     <a class="brand" href="/" aria-label="DishKAI home">
       <span class="brand-mark"><img src="/assets/brand/dishkai-cloche-logo.svg" alt=""></span>
       <span class="brand-wordmark"><span>Dish</span><span>KAI</span></span>
     </a>
     <div class="app-meta" aria-label="Application status">
-      <span id="appVersion">Public beta</span>
+      <span id="appVersion">Private beta</span>
       <span id="visitCount">Visits: 0</span>
     </div>
     <button id="openPdcButton" class="internal-button" type="button" hidden aria-hidden="true" tabindex="-1">个人 PDC</button>
-    <button id="privateLogoutTop" class="internal-button session-lock" type="button" hidden data-i18n="privateLogout">Lock</button>
+    <button id="privateLogoutTop" class="internal-button session-lock" type="button" hidden data-i18n="privateLogout">Sign out</button>
   </header>
 
   <main>
@@ -43,7 +48,7 @@
         <details class="legal-details">
           <summary><span data-i18n="footerDisclaimerLabel">View disclaimer</span></summary>
           <ul>
-            <li data-i18n="legalPrivate">DishKAI is a public beta menu helper. It is not a professional, medical, nutritional, allergy, legal, or restaurant advisory service.</li>
+            <li data-i18n="legalPrivate">DishKAI is a private AI application experiment for menu understanding. It is not a professional, medical, nutritional, allergy, legal, or restaurant advisory service.</li>
             <li data-i18n="legalAccuracy">Dish names, ingredients, allergens, dietary flags, translations, images, AI estimates, and ordering advice may be incomplete, outdated, mistranslated, or wrong.</li>
             <li data-i18n="legalAllergy">Do not rely on DishKAI for allergies, pregnancy, medical conditions, religious restrictions, food safety, alcohol, raw food, or other high-risk decisions. Ask the restaurant directly.</li>
             <li data-i18n="legalPrivacy">Upload only the menu. Do not include faces, payment details, addresses, phone numbers, private conversations, or other personal or sensitive information. See the data notice for AI processing and optional contributions.</li>
@@ -67,19 +72,12 @@
       </div>
 
       <section id="privateAccess" class="private-access-panel" aria-label="Private access" hidden>
-        <p class="eyebrow" data-i18n="privateAccessEyebrow">Private tools</p>
-        <h2 data-i18n="privateAccessTitle">Leo &amp; Cindy internal tools.</h2>
-        <p data-i18n="unauthorizedNotice">Menu recognition is public. PDC and internal actions stay private.</p>
-        <form id="privateAccessForm" class="private-access-form">
-          <label for="privateAccessCode">
-            <span data-i18n="privateAccessLabel">Private access code</span>
-            <input id="privateAccessCode" name="privateAccessCode" type="password" autocomplete="current-password" data-i18n-placeholder="privateAccessPlaceholder" placeholder="Enter private access code">
-          </label>
-          <button class="button primary" type="submit" data-i18n="unlockPrivate">Unlock private tools</button>
-        </form>
+        <p class="eyebrow" data-i18n="privateAccessEyebrow">Private experiment</p>
+        <h2 data-i18n="privateAccessTitle">Your AI application workspace.</h2>
+        <p data-i18n="unauthorizedNotice">Menu analysis and PDC require a private session.</p>
         <div class="private-actions">
           <button id="clearRecentScans" class="button" type="button" data-i18n="clearRecentScans">Clear local PDC history</button>
-          <button id="privateLogout" class="button" type="button" data-i18n="privateLogout">Lock</button>
+          <button id="privateLogout" class="button" type="button" data-i18n="privateLogout">Sign out</button>
         </div>
         <p id="privateAccessStatus" class="status" role="status"></p>
       </section>
@@ -255,7 +253,7 @@ Ratatouille</textarea>
               <li data-i18n="aiCheckSafety">raw ingredients, alcohol, and any food-safety concerns</li>
             </ul>
           </div>
-          <p data-i18n="aiTransparencyIndependent">DishKAI is a personally operated public beta menu-understanding website for exploring AI application development. Questions or feedback: hello@dishkai.com.</p>
+          <p data-i18n="aiTransparencyIndependent">DishKAI is a personally operated private menu-understanding experiment for exploring AI application development. Questions or feedback: hello@dishkai.com.</p>
           <p data-i18n="aiTransparencyBoundary">DishKAI is not a medical, nutritional, allergy, or professional food-safety advisory service. Familiarity or ordering tags do not mean allergy-safe.</p>
           <p data-i18n="aiTransparencyLabelsIntro">Labels distinguish how a menu was read, where dish knowledge comes from, and whether an image was generated. A database match is not a guarantee of the restaurant's ingredients.</p>
 
@@ -306,7 +304,7 @@ Ratatouille</textarea>
     <div class="footer-main">
       <div class="footer-brand">
         <span class="footer-logo">DishKAI</span>
-        <span id="footerVersion" class="footer-version">Public beta</span>
+        <span id="footerVersion" class="footer-version">Private beta</span>
       </div>
       <div class="footer-summary">
         <span class="footer-tagline" data-i18n="footerText">Know the dish with AI before you order.</span>
@@ -324,7 +322,7 @@ Ratatouille</textarea>
         <div class="footer-disclaimer-body">
           <strong data-i18n="legalTitle">Use DishKAI as an experimental menu reference only.</strong>
           <ul>
-            <li data-i18n="legalPrivate">DishKAI is a public beta menu helper. It is not a professional, medical, nutritional, allergy, legal, or restaurant advisory service.</li>
+            <li data-i18n="legalPrivate">DishKAI is a private AI application experiment for menu understanding. It is not a professional, medical, nutritional, allergy, legal, or restaurant advisory service.</li>
             <li data-i18n="legalAccuracy">Dish names, ingredients, allergens, dietary flags, translations, images, AI estimates, and ordering advice may be incomplete, outdated, mistranslated, or wrong.</li>
             <li data-i18n="legalAllergy">Do not rely on DishKAI for allergies, pregnancy, medical conditions, religious restrictions, food safety, alcohol, raw food, or other high-risk decisions. Ask the restaurant directly.</li>
             <li data-i18n="legalPrivacy">Upload only the menu. Do not include faces, payment details, addresses, phone numbers, private conversations, or other personal or sensitive information. See the data notice for AI processing and optional contributions.</li>
@@ -339,6 +337,6 @@ Ratatouille</textarea>
     </div>
   </footer>
 
-  <script src="script.js?v=0.2.40"></script>
+  <script src="script.js?v=0.2.41"></script>
 </body>
 </html>

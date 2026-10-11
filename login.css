@@ -1,0 +1,57 @@
+:root {
+  color-scheme: light;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: #523324;
+  background: #fff4e8;
+  font-synthesis: none;
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 280px; }
+button, input { font: inherit; }
+button { cursor: pointer; }
+button:disabled { cursor: wait; opacity: 0.6; }
+[hidden] { display: none !important; }
+.login-shell {
+  display: grid;
+  min-height: 100svh;
+  place-content: center;
+  justify-items: center;
+  gap: 22px;
+  padding: 36px 20px;
+  background: radial-gradient(ellipse at 15% 10%, #ffe3be 0%, transparent 48%), radial-gradient(ellipse at 90% 85%, #ffe9d4 0%, transparent 50%);
+}
+.login-card {
+  width: min(100%, 460px);
+  padding: 38px;
+  border: 1px solid #efd4b8;
+  border-radius: 28px;
+  background: #fffcf7;
+  box-shadow: 0 24px 70px #9d4c1412;
+}
+.login-brand { display: flex; align-items: center; gap: 10px; font-size: 24px; font-weight: 760; letter-spacing: -0.7px; }
+.brand-icon { display: grid; width: 46px; height: 46px; place-items: center; border: 1px solid #f2d2b1; border-radius: 14px; background: #fff0dd; }
+.brand-icon img { display: block; width: 29px; height: 29px; }
+.brand-accent { color: #d96919; }
+.language-switch { display: flex; gap: 3px; width: fit-content; padding: 3px; margin: 24px 0 32px; border-radius: 12px; background: #f8eddf; }
+.language-switch button { padding: 7px 10px; border: 0; border-radius: 9px; background: transparent; color: #806452; font-size: 12px; }
+.language-switch button[aria-pressed="true"] { background: #fffcf7; color: #623621; box-shadow: 0 1px 4px #78432112; }
+.eyebrow { margin: 0 0 9px; font-size: 11px; font-weight: 740; letter-spacing: 1.8px; color: #b4642d; }
+h1 { margin: 0; font-size: clamp(28px, 7vw, 36px); font-weight: 720; letter-spacing: -1px; }
+.intro { margin: 12px 0 28px; color: #8a6b55; font-size: 15px; line-height: 1.75; }
+form { display: grid; gap: 10px; }
+form label { font-size: 13px; font-weight: 680; }
+input { width: 100%; min-height: 50px; border: 1px solid #e8cdb3; border-radius: 13px; padding: 12px 14px; background: #fffdfa; color: #523324; }
+input:focus-visible { outline: 3px solid #f8cda5; border-color: #d87328; outline-offset: 2px; }
+.login-button { min-height: 50px; margin-top: 6px; border: 1px solid #cc5a0a; border-radius: 13px; background: #e47724; color: #fffdf8; font-size: 15px; font-weight: 680; box-shadow: 0 5px 14px #db702226; }
+.login-button:hover:not(:disabled) { background: #d96918; }
+button:focus-visible { outline: 3px solid #a9470c; outline-offset: 3px; }
+.login-status { min-height: 22px; margin: 14px 0 0; color: #896953; font-size: 13px; line-height: 1.6; }
+.login-status.error { color: #a84227; }
+.retry-button { padding: 5px 0; border: 0; background: transparent; color: #a55322; font-size: 13px; text-decoration: underline; text-underline-offset: 3px; }
+.privacy-note { padding-top: 20px; margin: 14px 0 0; border-top: 1px solid #f0dfcd; color: #9b806b; font-size: 11px; line-height: 1.7; }
+.login-footer { margin: 0; color: #aa8a71; font-size: 12px; letter-spacing: 0.2px; text-align: center; }
+@media (max-width: 480px) {
+  .login-shell { padding: 24px 16px; }
+  .login-card { padding: 28px 24px; border-radius: 24px; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }

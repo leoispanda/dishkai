@@ -1,6 +1,6 @@
 # DishKAI
 
-DishKAI is a personally operated public beta menu understanding website for exploring AI application development, with private internal tools still reserved for Leo & Cindy. Questions, feedback and privacy requests can be sent to hello@dishkai.com.
+DishKAI is a personally operated menu-understanding experiment for exploring AI application development. The current application requires a password and is intended for the owner's personal use. Earlier publicly deployed versions need a separate access-control review. Questions, feedback and privacy requests can be sent to hello@dishkai.com.
 
 It turns unfamiliar menu names into visual, clickable Dish Knowledge Cards for fast ordering decisions.
 
@@ -11,6 +11,8 @@ npm run dev
 ```
 
 Open http://127.0.0.1:3000.
+
+Local development also requires the backend access-code and session-secret environment variables below. Use synthetic values for local checks; no development password or secret is embedded in the project. Missing configuration leaves protected routes closed.
 
 The local Node server supports the same starter text-analysis pipeline as the Pages Function fallback:
 
@@ -40,7 +42,7 @@ Cloudflare Pages Functions live under `functions/api/` and call AI providers onl
 
 Required Cloudflare secrets:
 
-- `DISHKAI_PRIVATE_ACCESS_CODE`: private access code for Leo/Cindy. Do not hardcode this in frontend code.
+- `DISHKAI_PRIVATE_ACCESS_CODE`: the access password for the current application. Do not hardcode this in frontend code. Anyone who already knows the existing value can still log in; the owner must change it separately if it was shared.
 - `DISHKAI_SESSION_SECRET`: strong random session signing secret for the `dishkai_session` httpOnly cookie.
 
 AI secrets (at least one is needed for photo analysis):
@@ -84,10 +86,20 @@ Current API endpoints:
 - `POST /api/generate-dish-image`
 - `POST /api/clear-recent-scans`
 
+Password protection:
+
+- `functions/_middleware.js` checks the signed session before serving the application, metadata, dish images or APIs. `public/_routes.json` includes every path with no exclusions; the local server uses the same gate. Only the dedicated `/login` page, its exact assets/logo, and the login/status/logout endpoints are accessible without a session.
+- The three menu APIs also check the session directly. An unauthenticated API call cannot invoke AI or add a contribution. Protected responses are private/no-store, and the frontend rechecks its session on startup and browser-history restoration.
+- This update reuses existing authentication configuration. Passwords are not read, generated, saved to browser storage or changed by the update. Existing unexpired signed sessions remain valid. Changing the access password does not invalidate existing sessions; rotating the session-signing secret is a separate owner action if revocation is needed.
+- Cloudflare Production Settings were read on 11 October 2026: **Fail closed** was already enabled, and both authentication-secret names were present as encrypted values. Their contents were not accessed. Keep fail-closed behavior so exhausted Functions allowance does not serve protected static files; see [Cloudflare routing guidance](https://developers.cloudflare.com/pages/functions/routing/#fail-open--closed).
+- Earlier hash-based and branch deployment URLs run their own historical code. One v0.2.39 hash URL was confirmed accessible without a password on 11 October 2026. The current middleware does not rewrite those deployments. Restrict them with Cloudflare Access and verify the exact scope before claiming only the owner can use every version; see [deployment access guidance](https://developers.cloudflare.com/pages/configuration/preview-deployments/#customize-preview-deployments-access). No older deployment was deleted or Cloudflare setting changed in this code update.
+
+Run `npm run check:private-access` and `npm run check:private-frontend` for synthetic session, routing, API denial, local HTTP, login-recovery and frontend session checks. They do not use production credentials or external AI services.
+
 Privacy and misuse protections:
 
-- Public menu recognition is available without private login; first-time users choose a language and acknowledge menu-reference/safety limits before entering the tool. This acknowledgment is not general consent or a waiver of statutory rights. Optional contributions use a separate unchecked choice.
-- Private access codes are verified server-side only for internal tools such as PDC and administrative actions.
+- Menu recognition and internal tools require server-verified login. After login, first-time users choose a language and acknowledge menu-reference/safety limits before entering the tool. This acknowledgment is not general consent or a waiver of statutory rights. Optional contributions use a separate unchecked choice.
+- Access passwords are verified server-side for the entire current application.
 - Sessions use a signed `HttpOnly; Secure; SameSite=Lax` cookie.
 - Private POST APIs reject cross-origin browser requests when an unexpected `Origin` header is present.
 - Expensive/private APIs include best-effort per-IP rate limiting.
@@ -99,9 +111,9 @@ Privacy and misuse protections:
 - Card/response provenance distinguishes stored knowledge, stored guidance, generated estimates and missing metadata. Ingredient percentages are estimates; restaurant confirmation is needed for allergens, substitutions and cross-contact.
 - The private browser PDC state expires after seven days (also on reads and before continuation); old records without expiry are removed from browser state. The clear-local-data action clears browser state and does not erase cloud contributions or AI-provider records.
 - The local Node dev server serves static files from `public/` only, so source files and local configuration are not exposed by static routes.
-- DishKAI currently does not enforce a shared daily public quota; the footer only gives a simple approximate API-cost note for AI scans.
-- The private access-code panel is hidden from the normal public app page. Internal testing can reveal it with `?internal=1`, while backend private APIs remain protected.
-- Public page loads do not call private-session or PDC endpoints unless an internal URL is explicitly opened.
+- DishKAI currently does not enforce a shared daily AI quota; the footer gives a simple approximate API-cost note for AI scans.
+- The dedicated login page comes before the application. A URL parameter such as `?internal=1` is not an access grant.
+- Application loads check private-session status. PDC requests still require opening and using the PDC tool.
 - Menu image request bodies are stream-bounded before multipart parsing; the accepted upload formats are JPEG, PNG, WebP, and GIF.
 
 For local Wrangler testing, Workers AI may require:
@@ -121,7 +133,7 @@ wrangler pages dev public --ai AI
 
 ## AI transparency and operations
 
-The public `/ai-transparency` page explains actual menu/PDC capabilities, AI providers, content origin, limits and data handling in English, Chinese and Dutch. The [EU AI Act review](docs/ai-act-review.md) uses the current adopted law and records the assessed roles, applicable transparency issues and unresolved evidence. The [operations and literacy guide](docs/ai-operations.md) contains practical exercises and an uncompleted training record template; writing it is not proof that staff training occurred.
+The password-protected `/ai-transparency` page explains actual menu/PDC capabilities, AI providers, content origin, limits and data handling in English, Chinese and Dutch. The [EU AI Act review](docs/ai-act-review.md) records the earlier public scope, the private-use conversion, applicable transparency issues and unresolved evidence. Purely personal non-professional use can change deployer obligations, but a password does not itself remove provider obligations or earlier public-operation facts. The [operations and literacy guide](docs/ai-operations.md) contains practical exercises and an uncompleted training record template; writing it is not proof that staff training occurred.
 
 Run `npm run check:ai-transparency` and `npm run check:image-provenance` for the new synthetic source, disclosure, opt-in, retention and guarded-import checks. Personal operation, the AI application exploration purpose and the contact email are owner-confirmed. The separate GDPR controller-identification assessment, provider contracts/processing settings, legacy retention and robust Article 50(2) marking/detection remain open. See the [operator identity follow-up](docs/ai-act-review.md#operator-identity-follow-up): Article 50 does not impose a general personal-name/home-address publication rule on this menu utility, but an email alone is not evidence of complete GDPR information. UI badges and declared JSON/DOM provenance are useful controls, not a full compliance certification.
 

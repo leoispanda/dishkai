@@ -1,6 +1,6 @@
 {
   "name": "dishkai",
-  "version": "0.2.40",
+  "version": "0.2.41",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,6 +11,8 @@
     "check:menu-ai": "node scripts/check-menu-ai.mjs",
     "check:menu-gemini": "node scripts/check-menu-gemini.mjs",
     "check:menu-upload-frontend": "node scripts/check-menu-upload-frontend.mjs",
+    "check:private-access": "node scripts/check-private-access.mjs",
+    "check:private-frontend": "node scripts/check-private-frontend.mjs",
     "check:ai-transparency": "node scripts/check-ai-transparency.mjs && node scripts/check-ai-transparency-frontend.mjs",
     "check:image-provenance": "python3 -B scripts/check-image-provenance.py",
     "audit:verified-dishes": "node scripts/audit-verified-dishes.mjs",

@@ -23,6 +23,10 @@ Do not prioritize user login, payment, restaurant maps, social sharing, full rec
 
 DishKAI homepage should stay minimal and action-first.
 
+## Current Access Mode — 11 October 2026
+
+Leo requested a password gate to use DishKAI as a personal AI application experiment. Require a server-verified session for menu analysis, the main application, dish data and dish images; keep only the dedicated login page/assets and authentication endpoints accessible without a session. Reuse the existing backend access-code/session configuration without exposing or changing credentials. This is a narrow access-control exception to the instruction not to prioritise user login; do not build accounts or a profile system. Preserve the menu-understanding product flow after login. Private access does not itself establish a legal exemption. Historical deployments and credentials previously shared with others require separate owner decisions; do not silently reopen public access.
+
 The output should first be an ordered list, not large visual cards.
 
 Large images and full metadata belong in the clicked Dish Knowledge Card.
