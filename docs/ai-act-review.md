@@ -56,6 +56,20 @@ The [final voluntary Transparency Code](https://ec.europa.eu/newsroom/dae/redire
 
 The remaining work is to obtain provider-specific marking/detection evidence, identify supported content formats, assess short versus longer text, test transformations and exports, and document an appropriate interoperable solution. No new signing key, paid toolchain, dependency or provider contract was established in this review. The launch-date transition assessment also remains open.
 
+## Operator identity follow-up
+
+The owner asked whether a personally operated AI exploration site must publish an individual's name or address. The current menu utility does not have a general personal-name or residential-address publication duty under [Article 50](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50). The provider name/contact-address requirement in [Article 16(b)](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-16) concerns **high-risk** systems; that classification was not identified here.
+
+This does not settle the separate privacy question. Where GDPR applies, [Article 13(1)(a)](https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng) requires the controller's identity and contact details when obtaining personal data. A project mailbox supplies a contact route; it does not by itself establish the responsible person's identity. Article 13 does not expressly require publishing a residential address. The Article 2(2)(c) household exception is narrower than personal ownership or a free service.
+
+The EDPB-endorsed [WP260 transparency guidelines](https://www.edpb.europa.eu/system/files/2023-09/wp260rev01_en.pdf), Annex entry for Article 13(1)(a), distinguish easy controller identification from preferred multiple contact methods; telephone, email and postal address are examples. This supports separating identity from an assumed duty to disclose a home address.
+
+`functions/_shared/security.js` uses visitor IP headers as in-memory rate-limit keys. Public upload processing and privacy correspondence also need assessment. The rate window is not a hard deletion deadline: expired buckets are replaced on reuse or pruned under capacity pressure. These are reasons to assess GDPR scope and retention, rather than assume that avoiding image/menu persistence removes personal-data processing. Platform logs, operator establishment and the actual controller remain unverified. The practical assessment is that controller identification is likely needed in an accessible privacy notice, while publication of a home address has not been established as necessary.
+
+Separate website-provider rules may require a name and establishment address where the activity qualifies as an information society service: see [Directive 2000/31/EC, Article 5](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02000L0031-20240217). Personal ownership alone does not decide economic scope. Operator country, commercial/indirect funding facts and applicable national implementation remain unconfirmed; this review does not establish an address-disclosure exemption or a complete Dutch-law conclusion.
+
+Keep the confirmed personal-project description and hello@dishkai.com. Do not publish inferred names or addresses, present the mailbox-only notice as complete, or treat the user's question as authorisation to disclose identity. Any further identity/address wording must follow a documented applicability assessment and explicit owner-provided details.
+
 ## Operational and privacy matters still open
 
 These are related operational/GDPR matters, not duties invented under the AI Act. Article 2 preserves other applicable privacy and consumer law.
