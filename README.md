@@ -17,7 +17,7 @@ The local Node server supports the same starter text-analysis pipeline as the Pa
 - `POST /api/analyze-menu-text`
 - `POST /api/analyze-menu-image`
 
-Text input works with starter metadata. Image analysis uses the server-side OpenAI key to read menu photos, then reuses the same verified DishKAI metadata and alias-matching pipeline as pasted text.
+Text input works with starter metadata. Image analysis uses a server-side Gemini or OpenAI key to read menu photos, then reuses the same verified DishKAI metadata and alias-matching pipeline as pasted text.
 
 
 ## Metadata coverage
@@ -36,20 +36,32 @@ npm run check:dish-assets
 
 Deploy the `public` directory. Root files and `public/` copies are kept synchronized for Pages deployment.
 
-Cloudflare Pages Functions live under `functions/api/` and call AI providers only from the backend. Menu extraction prefers OpenAI when `DISHKAI_AI_API_KEY` is configured, then falls back to the Cloudflare Workers AI `AI` binding when available.
+Cloudflare Pages Functions live under `functions/api/` and call AI providers only from the backend. With the default `auto` provider setting, menu extraction prefers Gemini when its key is configured, with OpenAI as a backup when its key is also configured. Without a Gemini key, the existing OpenAI behavior remains available. Text extraction can fall back to the Cloudflare Workers AI `AI` binding and then local parsing; photo extraction needs a configured Gemini or OpenAI key.
 
 Required Cloudflare secrets:
 
 - `DISHKAI_PRIVATE_ACCESS_CODE`: private access code for Leo/Cindy. Do not hardcode this in frontend code.
 - `DISHKAI_SESSION_SECRET`: strong random session signing secret for the `dishkai_session` httpOnly cookie.
-- `DISHKAI_AI_API_KEY`: OpenAI API key used server-side for higher-quality menu extraction and optional unmatched-dish estimates.
+
+AI secrets (at least one is needed for photo analysis):
+
+- `DISHKAI_GEMINI_API_KEY`: Gemini API key used only by the backend. `GEMINI_API_KEY` is accepted as an alias.
+- `DISHKAI_AI_API_KEY`: existing OpenAI API key, used as the backup when both providers are configured, or as the primary provider when no Gemini key is configured.
 
 Optional Cloudflare variables:
 
+- `DISHKAI_AI_PROVIDER`: `auto` (default), `gemini`, or `openai`. An explicit selection requires that provider's key; a missing selected key returns a configuration error for photos and local parsing for text.
+- `DISHKAI_AI_PROVIDER_FALLBACK`: defaults to `true`; set to `false` to disable switching to another AI provider after a failure. Text can still use local parsing. Safety refusals never switch providers.
+- `DISHKAI_GEMINI_MODEL`: defaults to `gemini-3.8-flash`, which supports image input and structured JSON output. See [Google's model documentation](https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash).
+- `DISHKAI_GEMINI_VISION_MODEL`: optional Gemini model override for menu photos; defaults to `DISHKAI_GEMINI_MODEL`.
 - `DISHKAI_AI_MODEL`: OpenAI model for menu AI. Defaults to `gpt-5.4-mini`. `OPENAI_MODEL` is also accepted as a compatibility alias.
 - `DISHKAI_AI_VISION_MODEL`: optional OpenAI model override for menu photo reading. Defaults to `DISHKAI_AI_MODEL`.
 - `DISHKAI_AI_IMAGE_DETAIL`: optional image-detail setting for OpenAI menu photo reading. Defaults to `original` for better OCR on photographed menus; use `high`, `auto`, or `low` only when cost/latency matters more than recognition quality.
 - `DISHKAI_ENABLE_AI_FALLBACK`: set to `true` only when unmatched menu items should receive temporary, unverified AI estimate cards.
+
+To activate Gemini, add the original key as an encrypted `DISHKAI_GEMINI_API_KEY` secret in **DishKAI's production environment**, then create a deployment that includes it. A secret stored in MapKAI is scoped to that project and is not automatically available to DishKAI; saved secret values cannot be read back from the dashboard. See [Cloudflare's bindings documentation](https://developers.cloudflare.com/pages/functions/bindings/). Do not put keys in source files, frontend code, chat, logs, or `wrangler.toml`. Reusing a compatible Google key shares that Google project's quota and billing.
+
+Gemini uses the native [generateContent REST API](https://ai.google.dev/api/generate-content), an `x-goog-api-key` header, inline image bytes, and structured JSON output. The response reports the actual extraction provider/model, including any OpenAI backup. Dish knowledge still comes from verified DishKAI metadata; optional generated cards remain unverified. The separate private PDC tool keeps its existing Workers AI binding.
 
 Optional Cloudflare bindings:
 
@@ -101,11 +113,11 @@ wrangler pages dev public --ai AI
 ### Menu scan reliability
 
 - Image extraction permits up to 12,000 output tokens; text extraction scales its budget with the menu line count, up to the same limit. This is an output ceiling, not a fixed token charge. A length-limited response is rejected with `AI_OUTPUT_TRUNCATED` so an incomplete menu is never silently presented as complete.
-- OpenAI requests use a 45-second deadline including response-body reading. Temporary rate-limit, server, or transport failures may retry once within a 60-second total budget. `Retry-After` is respected; delays above two seconds return the error instead of retrying early. Quota/billing, authentication, invalid requests, refusals, and timeouts are not retried.
+- Gemini and OpenAI requests use a 45-second attempt deadline including response-body reading. Temporary rate-limit, server, or transport failures may retry once per provider. Extraction and provider failover share a 60-second total budget; optional estimate cards have a separate 60-second budget. `Retry-After` and Gemini `RetryInfo` are respected; delays above two seconds skip the retry. Quota/billing, authentication, invalid requests, refusals, and timeouts are not retried on the same provider. Another configured provider may be used within the remaining budget, except after a safety refusal or when provider fallback is disabled.
 - The menu form prevents duplicate submissions and always releases its busy state. A 125-second browser deadline covers extraction and the optional unmatched-dish AI fallback. Connection failures and backend errors have English, Chinese, and Dutch guidance.
-- After compression, the browser checks accepted formats and the 8 MB limit before uploading. HEIC must be converted if the browser cannot decode it into JPEG. Uploaded images remain temporary.
+- After compression, the browser checks accepted formats and the 8 MB limit before uploading. HEIC must be converted if the browser cannot decode it into JPEG. Gemini accepts JPEG, PNG, and WebP; a direct GIF request uses OpenAI when backup is allowed, otherwise asks for conversion to JPEG. Uploaded images remain temporary and are sent inline, without using Gemini's persistent Files API.
 - Backend logs contain error codes, model, timing, and provider request IDs where available, without API keys, images, menu text, or raw provider error bodies. To investigate an intermittent failure, check the response code and the corresponding Cloudflare Function log; a working scan today cannot establish yesterday's failure cause.
-- Offline regressions: `npm run check:menu-ai`, `npm run check:menu-upload-frontend`, and `npm run check:menu-matching`. These use synthetic fixtures and no real credentials.
+- Offline regressions: `npm run check:menu-ai`, `npm run check:menu-gemini`, `npm run check:menu-upload-frontend`, and `npm run check:menu-matching`. These use synthetic fixtures and no real credentials.
 
 ## Personal PDC Council Room V1.5
 

@@ -1,6 +1,7 @@
 import { metadata } from "../../data/internal/index.js";
 import { universalMenuItems } from "./universal-menu-items.js";
 import { aiError, requestOpenAiJson } from "./openai-client.js";
+import { DEFAULT_GEMINI_MODEL, requestGeminiJson } from "./gemini-client.js";
 
 export const TEXT_MODEL = "@cf/meta/llama-3.1-8b-instruct";
 export const DEFAULT_OPENAI_MODEL = "gpt-5.4-mini";
@@ -290,7 +291,33 @@ function hasOpenAiApiKey(env) {
   return Boolean(String(env?.DISHKAI_AI_API_KEY || "").trim());
 }
 
-async function runOpenAiJson(prompt, env, { maxTokens = 1200, temperature = 0.1, responseFormat } = {}) {
+function geminiApiKey(env) {
+  return String(env?.DISHKAI_GEMINI_API_KEY || env?.GEMINI_API_KEY || "").trim();
+}
+
+function geminiModel(env, vision = false) {
+  return String((vision && env?.DISHKAI_GEMINI_VISION_MODEL) || env?.DISHKAI_GEMINI_MODEL || DEFAULT_GEMINI_MODEL).trim() || DEFAULT_GEMINI_MODEL;
+}
+
+function providerFallbackEnabled(env) {
+  return String(env?.DISHKAI_AI_PROVIDER_FALLBACK || "true").trim().toLowerCase() !== "false";
+}
+
+function menuProviders(env) {
+  const mode = String(env?.DISHKAI_AI_PROVIDER || "auto").trim().toLowerCase();
+  if (!["auto", "gemini", "openai"].includes(mode)) {
+    throw aiError("AI_PROVIDER_NOT_CONFIGURED", "The menu reading service configuration needs checking. Please paste menu text instead.", 503);
+  }
+  const configured = { gemini: Boolean(geminiApiKey(env)), openai: hasOpenAiApiKey(env) };
+  if (mode !== "auto" && !configured[mode]) {
+    throw aiError("AI_PROVIDER_NOT_CONFIGURED", "The selected menu reading service is not configured. Please paste menu text instead.", 503);
+  }
+  const preferred = mode === "openai" ? ["openai", "gemini"] : ["gemini", "openai"];
+  const providers = preferred.filter((provider) => configured[provider]);
+  return providerFallbackEnabled(env) ? providers : providers.slice(0, 1);
+}
+
+async function runOpenAiJson(prompt, env, { maxTokens = 1200, temperature = 0.1, responseFormat, budgetMs = 60_000 } = {}) {
   return requestOpenAiJson({
     model: openAiModel(env),
     messages: [
@@ -300,10 +327,10 @@ async function runOpenAiJson(prompt, env, { maxTokens = 1200, temperature = 0.1,
     response_format: responseFormat || { type: "json_object" },
     max_completion_tokens: maxTokens,
     temperature,
-  }, env.DISHKAI_AI_API_KEY);
+  }, env.DISHKAI_AI_API_KEY, { budgetMs });
 }
 
-async function runOpenAiVisionJson(prompt, imageDataUrl, env, { maxTokens = 1400, temperature = 0.1, responseFormat } = {}) {
+async function runOpenAiVisionJson(prompt, imageDataUrl, env, { maxTokens = 1400, temperature = 0.1, responseFormat, budgetMs = 60_000 } = {}) {
   return requestOpenAiJson({
     model: openAiVisionModel(env),
     messages: [
@@ -319,7 +346,42 @@ async function runOpenAiVisionJson(prompt, imageDataUrl, env, { maxTokens = 1400
     response_format: responseFormat || { type: "json_object" },
     max_completion_tokens: maxTokens,
     temperature,
-  }, env.DISHKAI_AI_API_KEY);
+  }, env.DISHKAI_AI_API_KEY, { budgetMs });
+}
+
+async function runRemoteMenuJson(prompt, env, { imageDataUrl, maxTokens, temperature = 0.1, responseFormat, providers = menuProviders(env) } = {}) {
+  if (!providers.length) return null;
+  // Provider failover shares one phase budget; optional estimate cards have their own phase.
+  const deadline = Date.now() + 60_000;
+  let lastError;
+  for (const provider of providers) {
+    const budgetMs = deadline - Date.now();
+    if (budgetMs <= 0) {
+      throw aiError("AI_REQUEST_TIMEOUT", "Menu reading took too long. Please try a cropped photo of one menu section or paste menu text.", 504);
+    }
+    const model = provider === "gemini" ? geminiModel(env, Boolean(imageDataUrl)) : imageDataUrl ? openAiVisionModel(env) : openAiModel(env);
+    try {
+      const parsed = provider === "gemini"
+        ? await requestGeminiJson({
+          prompt, imageDataUrl, model, apiKey: geminiApiKey(env), maxTokens,
+          temperature: 1, schema: responseFormat?.json_schema?.schema, budgetMs,
+        })
+        : extractJsonObject(await (imageDataUrl
+          ? runOpenAiVisionJson(prompt, imageDataUrl, env, { maxTokens, temperature, responseFormat, budgetMs })
+          : runOpenAiJson(prompt, env, { maxTokens, temperature, responseFormat, budgetMs })));
+      return { parsed, provider, model };
+    } catch (error) {
+      lastError = error;
+      console.warn("DishKAI menu provider failed", {
+        code: error?.code || "AI_SERVICE_UNAVAILABLE",
+        provider,
+        model: model.replace(/[^\w.-]/g, "").slice(0, 128),
+      });
+      // A safety refusal is terminal, including when another provider is configured.
+      if (error?.code === "AI_RESPONSE_REFUSED") throw error;
+    }
+  }
+  throw lastError;
 }
 
 function extractJsonObject(value) {
@@ -387,30 +449,30 @@ function isOptionOnlyLine(value) {
 async function extractItems(menuText, sourceLanguage, targetLanguage, env) {
   const fallbackItems = splitMenuText(menuText);
   if (!fallbackItems.length) return { items: fallbackItems, extractionSource: "local-fallback" };
+  const localResult = {
+    items: cleanExtractedItems({ items: fallbackItems }, fallbackItems),
+    extractionSource: "local-fallback",
+  };
 
-  if (hasOpenAiApiKey(env)) {
-    try {
-      const aiResult = await runOpenAiJson(
-        buildExtractionPrompt(menuText, sourceLanguage, targetLanguage),
-        env,
-        { maxTokens: Math.min(12_000, 1600 + fallbackItems.length * 160), temperature: 0.1, responseFormat: MENU_EXTRACTION_RESPONSE_FORMAT },
-      );
+  try {
+    const result = await runRemoteMenuJson(
+      buildExtractionPrompt(menuText, sourceLanguage, targetLanguage), env,
+      { maxTokens: Math.min(12_000, 1600 + fallbackItems.length * 160), responseFormat: MENU_EXTRACTION_RESPONSE_FORMAT },
+    );
+    if (result) {
       return {
-        items: cleanExtractedItems(extractJsonObject(aiResult), fallbackItems),
-        extractionSource: "openai",
-        model: openAiModel(env),
+        items: cleanExtractedItems(result.parsed, fallbackItems),
+        extractionSource: result.provider,
+        model: result.model,
       };
-    } catch (error) {
-      console.error("DishKAI OpenAI text extraction failed, trying next fallback:", error);
     }
+  } catch (error) {
+    console.warn("DishKAI remote text extraction failed", { code: error?.code || "AI_SERVICE_UNAVAILABLE" });
+    if (error?.code === "AI_RESPONSE_REFUSED") return { ...localResult, aiRefused: true };
+    if (error?.code === "AI_PROVIDER_NOT_CONFIGURED" || !providerFallbackEnabled(env)) return localResult;
   }
 
-  if (!env?.AI) {
-    return {
-      items: cleanExtractedItems({ items: fallbackItems }, fallbackItems),
-      extractionSource: "local-fallback",
-    };
-  }
+  if (!env?.AI) return localResult;
 
   try {
     const aiResult = await env.AI.run(TEXT_MODEL, {
@@ -424,11 +486,8 @@ async function extractItems(menuText, sourceLanguage, targetLanguage, env) {
       model: TEXT_MODEL,
     };
   } catch (error) {
-    console.error("DishKAI Workers AI text extraction failed, using local fallback:", error);
-    return {
-      items: cleanExtractedItems({ items: fallbackItems }, fallbackItems),
-      extractionSource: "local-fallback",
-    };
+    console.warn("DishKAI Workers AI text extraction failed", { code: error?.code || "AI_SERVICE_UNAVAILABLE" });
+    return localResult;
   }
 }
 
@@ -472,30 +531,30 @@ targetLanguage: ${targetLanguage}`;
 }
 
 async function extractItemsFromImage(image, sourceLanguage, targetLanguage, env) {
-  if (!hasOpenAiApiKey(env)) {
+  const providers = menuProviders(env);
+  if (!providers.length) {
     return {
       ok: false,
       statusCode: 503,
       error: "IMAGE_AI_NOT_CONFIGURED",
-      message: "Menu photo reading needs DISHKAI_AI_API_KEY configured on the backend.",
+      message: "Menu photo reading is not configured on the backend. Please paste menu text instead.",
     };
   }
 
   const imageDataUrl = await imageToDataUrl(image);
-  const aiResult = await runOpenAiVisionJson(
+  const result = await runRemoteMenuJson(
     buildImageExtractionPrompt(sourceLanguage, targetLanguage),
-    imageDataUrl,
     env,
-    { maxTokens: MENU_IMAGE_OUTPUT_TOKENS, temperature: 0.1, responseFormat: MENU_EXTRACTION_RESPONSE_FORMAT },
+    { imageDataUrl, providers, maxTokens: MENU_IMAGE_OUTPUT_TOKENS, responseFormat: MENU_EXTRACTION_RESPONSE_FORMAT },
   );
-  const parsed = extractJsonObject(aiResult);
+  const parsed = result.parsed;
   const fallbackItems = splitMenuText(parsed.menuText || "");
   return {
     ok: true,
     items: cleanExtractedItems(parsed, fallbackItems),
     menuText: jsonSafeText(parsed.menuText || fallbackItems.map((item) => item.originalName).join("\n"), MAX_MENU_TEXT_LENGTH),
-    extractionSource: "openai-vision",
-    model: openAiVisionModel(env),
+    extractionSource: `${result.provider}-vision`,
+    model: result.model,
   };
 }
 
@@ -1089,31 +1148,29 @@ async function buildAiFallbackCards(unmatchedItems, targetLanguage, env) {
   const maxTokens = Math.min(3500, 650 + targetItems.length * 260);
 
   try {
-    let aiResult;
+    let parsed;
     let source;
     let model;
 
-    if (hasOpenAiApiKey(env)) {
-      aiResult = await runOpenAiJson(prompt, env, {
-        maxTokens,
-        temperature: 0.25,
-        responseFormat: AI_FALLBACK_RESPONSE_FORMAT,
-      });
-      source = "openai";
-      model = openAiModel(env);
+    const result = await runRemoteMenuJson(prompt, env, {
+      maxTokens, temperature: 0.25, responseFormat: AI_FALLBACK_RESPONSE_FORMAT,
+    });
+    if (result) {
+      parsed = result.parsed;
+      source = result.provider;
+      model = result.model;
     } else if (env?.AI) {
-      aiResult = await env.AI.run(TEXT_MODEL, {
+      parsed = extractJsonObject(await env.AI.run(TEXT_MODEL, {
         prompt,
         max_tokens: maxTokens,
         temperature: 0.25,
-      });
+      }));
       source = "workers-ai";
       model = TEXT_MODEL;
     } else {
       return { cards: new Map(), source: "none" };
     }
 
-    const parsed = extractJsonObject(aiResult);
     const rawCards = Array.isArray(parsed.cards) ? parsed.cards : [];
     const cards = new Map(rawCards.map((card) => {
       const orderIndex = Number(card.orderIndex);
@@ -1123,7 +1180,7 @@ async function buildAiFallbackCards(unmatchedItems, targetLanguage, env) {
     }).filter(Boolean));
     return { cards, source: cards.size ? source : "none", model: cards.size ? model : undefined };
   } catch (error) {
-    console.error("DishKAI AI fallback failed, keeping unmatched cards:", error);
+    console.warn("DishKAI AI fallback failed, keeping unmatched cards", { code: error?.code || "AI_SERVICE_UNAVAILABLE" });
     return { cards: new Map(), source: "none" };
   }
 }
@@ -1191,7 +1248,7 @@ async function buildMenuAnalysis({ sourceLanguage, targetLanguage, extraction, e
       card: buildCard(dish, item.originalName, targetLanguage),
     };
   });
-  const aiFallback = await buildAiFallbackCards(
+  const aiFallback = extraction.aiRefused ? { cards: new Map(), source: "none" } : await buildAiFallbackCards(
     matchedItems.filter((item) => item.matchStatus === "unmatched"),
     targetLanguage,
     env,
@@ -1273,7 +1330,6 @@ export async function analyzeMenuImage({ image, sourceLanguage = "auto", targetL
   } catch (error) {
     console.warn("DishKAI menu photo analysis failed", {
       code: error?.code || "IMAGE_ANALYSIS_FAILED",
-      model: openAiVisionModel(env),
       elapsedMs: Date.now() - started,
     });
     const statusByCode = {

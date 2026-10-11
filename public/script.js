@@ -1,4 +1,4 @@
-const APP_VERSION = "DishKAI v0.2.37-public-beta";
+const APP_VERSION = "DishKAI v0.2.38-public-beta";
 const VISIT_COUNT_KEY = "dishkai-local-visit-count";
 const USAGE_COUNT_KEY = "dishkai-local-usage-count";
 const LEGAL_ACCEPTED_KEY = "dishkai-legal-disclaimer-accepted-v1";
@@ -22,7 +22,7 @@ const translations = {
     outputLanguage: "Language", generate: "Analyze menu", loading: "Analyzing menu...", compressionStatus: "Compressed {from} to {to}. Analyzing menu...", noItems: "No menu items were found. Please paste clearer menu text.", imageUnavailable: "Image analysis is not available yet. Please paste menu text instead.",
     imageRequired: "Choose a menu photo before analyzing.",
     imageTooLarge: "This photo is still larger than 8 MB after compression. Choose a smaller photo or crop the menu.",
-    imageUnsupported: "Please use a JPEG, PNG, WebP, or GIF photo. Convert HEIC photos to JPEG first.",
+    imageUnsupported: "Please use a JPEG, PNG, or WebP photo. If a GIF or HEIC photo is rejected, convert it to JPEG first.",
     imageNoItems: "No dishes could be read from this photo. Try a clearer photo, crop to one menu section, or paste menu text.",
     menuNetworkError: "The connection was interrupted. Check your internet connection and try again.",
     menuTimeout: "Menu analysis took too long. Try a smaller menu section or paste menu text.",
@@ -69,7 +69,7 @@ const translations = {
     outputLanguage: "语言", generate: "分析菜单", loading: "正在分析菜单...", compressionStatus: "已将图片从 {from} 压缩到 {to}，正在分析菜单...", noItems: "没有找到菜单项。请粘贴更清晰的菜单文字。", imageUnavailable: "图片分析暂不可用。请粘贴菜单文字。",
     imageRequired: "请先选择一张菜单照片。",
     imageTooLarge: "图片压缩后仍超过 8 MB。请选择较小的照片，或裁剪菜单区域。",
-    imageUnsupported: "请使用 JPEG、PNG、WebP 或 GIF 图片。HEIC 照片请先转为 JPEG。",
+    imageUnsupported: "请使用 JPEG、PNG 或 WebP 图片。若 GIF 或 HEIC 照片不受支持，请先转为 JPEG。",
     imageNoItems: "没有读出照片中的菜品。请换清晰照片、裁剪一个菜单区域，或粘贴菜单文字。",
     menuNetworkError: "连接中断了。请检查网络后重试。",
     menuTimeout: "菜单识别耗时过长。请缩小菜单区域，或粘贴菜单文字。",
@@ -116,7 +116,7 @@ const translations = {
     outputLanguage: "Taal", generate: "Analyseer menu", loading: "Menu analyseren...", compressionStatus: "Afbeelding verkleind van {from} naar {to}. Menu analyseren...", noItems: "Geen menu-items gevonden. Plak duidelijkere menutekst.", imageUnavailable: "Beeldanalyse is nog niet beschikbaar. Plak menutekst.",
     imageRequired: "Kies eerst een menufoto.",
     imageTooLarge: "De foto is na verkleinen nog groter dan 8 MB. Kies een kleinere foto of snijd het menu bij.",
-    imageUnsupported: "Gebruik een JPEG-, PNG-, WebP- of GIF-foto. Zet HEIC-foto's eerst om naar JPEG.",
+    imageUnsupported: "Gebruik een JPEG-, PNG- of WebP-foto. Zet een afgewezen GIF- of HEIC-foto eerst om naar JPEG.",
     imageNoItems: "Er zijn geen gerechten uit deze foto gelezen. Probeer een scherpere foto, snijd één menugedeelte uit of plak menutekst.",
     menuNetworkError: "De verbinding werd onderbroken. Controleer je internetverbinding en probeer opnieuw.",
     menuTimeout: "De menuanalyse duurde te lang. Probeer een kleiner menugedeelte of plak menutekst.",
@@ -288,6 +288,7 @@ const MENU_ERROR_TRANSLATIONS = {
   AI_RESPONSE_REFUSED: "aiResponseRefused",
   NO_MENU_ITEMS_FOUND: "imageNoItems",
   IMAGE_AI_NOT_CONFIGURED: "imageUnavailable",
+  AI_PROVIDER_NOT_CONFIGURED: "imageUnavailable",
   IMAGE_REQUIRED: "imageRequired",
   IMAGE_TOO_LARGE: "imageTooLarge",
   REQUEST_BODY_TOO_LARGE: "imageTooLarge",

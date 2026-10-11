@@ -1,6 +1,6 @@
 {
   "name": "dishkai",
-  "version": "0.2.37",
+  "version": "0.2.38",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,6 +9,7 @@
     "validate:metadata": "node scripts/validate-metadata.mjs",
     "check:menu-matching": "node scripts/check-menu-matching.mjs",
     "check:menu-ai": "node scripts/check-menu-ai.mjs",
+    "check:menu-gemini": "node scripts/check-menu-gemini.mjs",
     "check:menu-upload-frontend": "node scripts/check-menu-upload-frontend.mjs",
     "audit:verified-dishes": "node scripts/audit-verified-dishes.mjs",
     "check:dish-assets": "node scripts/check-dish-assets.mjs",
