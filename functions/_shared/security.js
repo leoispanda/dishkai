@@ -1,5 +1,8 @@
 const SESSION_COOKIE = "dishkai_session";
 const SESSION_TTL_SECONDS = 60 * 60 * 24 * 7;
+const SESSION_SUBJECT = "dishkai-owner";
+// The owner-only access change must invalidate sessions from the earlier shared tools.
+const SESSION_VERSION = 2;
 const DEFAULT_JSON_BODY_LIMIT_BYTES = 64 * 1024;
 const MAX_RATE_BUCKETS = 5000;
 const rateBuckets = new Map();
@@ -18,7 +21,8 @@ export function securityHeaders() {
 export async function createSessionCookie(env) {
   const secret = requireSecret(env, "DISHKAI_SESSION_SECRET");
   const payload = {
-    sub: "leo-cindy",
+    sub: SESSION_SUBJECT,
+    version: SESSION_VERSION,
     exp: Math.floor(Date.now() / 1000) + SESSION_TTL_SECONDS,
   };
   const encodedPayload = base64UrlEncode(JSON.stringify(payload));
@@ -48,7 +52,8 @@ export async function hasValidSession(request, env) {
     const expected = await sign(payload, secret);
     if (!timingSafeEqual(signature, expected)) return false;
     const decoded = JSON.parse(base64UrlDecode(payload));
-    return decoded.sub === "leo-cindy" && Number.isFinite(Number(decoded.exp))
+    return decoded.sub === SESSION_SUBJECT && decoded.version === SESSION_VERSION
+      && Number.isFinite(Number(decoded.exp))
       && Number(decoded.exp) > Math.floor(Date.now() / 1000);
   } catch {
     return false;

@@ -10,7 +10,10 @@ for (const name of ["script.js", "index.html", "styles.css", "login.js", "login.
   assert.equal(await read(name), await read(`public/${name}`), `${name} must match the deployed copy.`);
 }
 for (const page of [html, loginHtml]) assert.ok(page.includes('name="robots" content="noindex, nofollow, noarchive"'));
-assert.ok(script.includes("v0.2.41-private-beta"));
+const appVersion = JSON.parse(await read("package.json")).version;
+assert.ok(script.includes(`v${appVersion}-private-beta`));
+assert.ok(html.includes(`script.js?v=${appVersion}`));
+assert.ok(loginHtml.includes(`login.js?v=${appVersion}`));
 assert.ok(html.includes('class="session-checking"'), "Cached private markup must start hidden.");
 assert.ok(!html.includes('id="privateAccessForm"'), "Passwords belong on the standalone login page.");
 assert.ok(loginHtml.includes('type="password"'));

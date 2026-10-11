@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import { createServer } from "node:net";
 import { spawn } from "node:child_process";
+import { createHmac } from "node:crypto";
 import { fileURLToPath } from "node:url";
 import { createSessionCookie, hasValidSession } from "../functions/_shared/security.js";
 import { isPublicLoginRequest, requireSiteAccess } from "../functions/_shared/site-access.js";
@@ -19,7 +20,14 @@ const cases = [];
 function check(name, run) { cases.push({ name, run }); }
 function request(path, options = {}) { return new Request(`https://dishkai.test${path}`, options); }
 function cookieHeader(cookie) { return cookie.split(";")[0]; }
+function signedCookie(payload) {
+  const encoded = Buffer.from(JSON.stringify(payload)).toString("base64url");
+  const signature = createHmac("sha256", env.DISHKAI_SESSION_SECRET).update(encoded).digest("base64url");
+  return `dishkai_session=${encoded}.${signature}`;
+}
 const cookie = cookieHeader(await createSessionCookie(env));
+const sharedSessionPayload = { sub: "leo-cindy", exp: Math.floor(Date.now() / 1000) + 3600 };
+const sharedSessionCookie = signedCookie(sharedSessionPayload);
 
 check("password login validates server-side and keeps credentials out of responses", async () => {
   const wrong = await login({ env, request: request("/api/private-login", {
@@ -56,6 +64,25 @@ check("tampered, malformed and expired sessions cannot enter the site", async ()
     expired = cookieHeader(await createSessionCookie(env));
   } finally { Date.now = originalNow; }
   assert.equal(await hasValidSession(request("/", { headers: { Cookie: expired } }), env), false);
+});
+
+check("earlier shared sessions are refused even when their signature and expiry are valid", async () => {
+  const signature = sharedSessionCookie.split(".")[1];
+  const encoded = sharedSessionCookie.slice("dishkai_session=".length).split(".")[0];
+  assert.equal(signature, createHmac("sha256", env.DISHKAI_SESSION_SECRET).update(encoded).digest("base64url"));
+  assert.ok(sharedSessionPayload.exp > Math.floor(Date.now() / 1000));
+  for (const payload of [sharedSessionPayload,
+    { ...sharedSessionPayload, sub: "dishkai-owner" },
+    { ...sharedSessionPayload, sub: "dishkai-owner", version: 1 },
+    { ...sharedSessionPayload, version: 2 }]) {
+    const headers = { Cookie: signedCookie(payload) };
+    assert.equal(await hasValidSession(request("/", { headers }), env), false);
+    assert.equal((await requireSiteAccess(request("/", { headers }), env)).status, 302);
+    assert.equal((await requireSiteAccess(request("/api/analyze-menu-text", { method: "POST", headers }), env)).status, 401);
+    const privateStatus = await status({ env, request: request("/api/private-status", { headers }) });
+    assert.equal((await privateStatus.json()).authenticated, false);
+  }
+  assert.equal(await hasValidSession(request("/", { headers: { Cookie: cookie } }), env), true);
 });
 
 check("missing either secret closes protected pages and APIs even with a previously valid cookie", async () => {
@@ -151,13 +178,15 @@ check("all three menu endpoints enforce their own auth before reading a body or 
   globalThis.fetch = async () => { aiCalled = true; throw new Error("AI must not run before auth"); };
   try {
     for (const endpoint of [analyzeText, analyzeLegacyText, analyzeImage]) {
-      const response = await endpoint({
-        request: request("/api/menu", { method: "POST", body: "invalid input that must not be parsed" }),
-        env: { ...env, DISHKAI_GEMINI_API_KEY: "synthetic-ai-key" },
-        waitUntil: () => { throw new Error("No contribution before auth"); },
-      });
-      assert.equal(response.status, 401);
-      assert.equal((await response.json()).error, "PRIVATE_ACCESS_REQUIRED");
+      for (const headers of [{}, { Cookie: sharedSessionCookie }]) {
+        const response = await endpoint({
+          request: request("/api/menu", { method: "POST", headers, body: "invalid input that must not be parsed" }),
+          env: { ...env, DISHKAI_GEMINI_API_KEY: "synthetic-ai-key" },
+          waitUntil: () => { throw new Error("No contribution before auth"); },
+        });
+        assert.equal(response.status, 401);
+        assert.equal((await response.json()).error, "PRIVATE_ACCESS_REQUIRED");
+      }
     }
     assert.equal(aiCalled, false);
     const authenticated = await analyzeText({
@@ -219,6 +248,8 @@ check("local server protects app pages, modules, dish images and APIs before ser
       assert.equal(response.status, 401);
     }
     assert.equal((await fetchLocal("/api/analyze-menu-text", { method: "OPTIONS" })).status, 401);
+    assert.equal((await fetchLocal("/", { headers: { Cookie: sharedSessionCookie } })).status, 302);
+    assert.equal((await fetchLocal("/api/analyze-menu-text", { method: "POST", headers: { Cookie: sharedSessionCookie }, body: "must not be parsed" })).status, 401);
     const publicLogo = await fetchLocal("/assets/brand/dishkai-cloche-logo.svg");
     assert.equal(publicLogo.status, 200);
     assert.match(await publicLogo.text(), /<svg/);

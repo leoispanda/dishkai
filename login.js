@@ -1,24 +1,24 @@
 const loginStrings = {
   zh: {
-    eyebrow: "PRIVATE EXPERIMENT", title: "私人实验室", intro: "输入密码，继续探索 AI 菜单工具与个人 PDC。",
+    eyebrow: "PRIVATE EXPERIMENT", title: "私人实验室", intro: "考虑到欧洲 AI 法规及潜在风险，我决定为这个个人开发的网站增加密码，仅供自己使用。",
     passwordLabel: "访问密码", enter: "进入实验室", checking: "正在确认会话…", signingIn: "正在验证…",
     required: "请输入访问密码。", denied: "密码未通过验证，请重试。", unavailable: "暂时无法完成请求，请检查网络后重试。",
     notConfigured: "私人访问尚未配置，暂时无法登录。", rateLimited: "尝试过于频繁，请稍后再试。", retry: "重新检查连接",
-    privacy: "密码由服务器验证。此应用使用安全会话 Cookie，AI 功能会调用外部服务。", footer: "一个安静的 AI 应用实验空间。",
+    privacy: "密码由服务器验证。此应用使用安全会话 Cookie，AI 功能会调用外部服务。", footer: "我的 AI 菜单工具与个人 PDC 实验空间。",
   },
   en: {
-    eyebrow: "PRIVATE EXPERIMENT", title: "Private workspace", intro: "Enter your password to explore the AI menu tool and Personal PDC.",
+    eyebrow: "PRIVATE EXPERIMENT", title: "Private workspace", intro: "In light of European AI regulations and potential risks, I've decided to password-protect this personally developed website for my own use only.",
     passwordLabel: "Access password", enter: "Enter workspace", checking: "Checking your session…", signingIn: "Verifying…",
     required: "Enter your access password.", denied: "The password was not accepted. Please try again.", unavailable: "The request could not be completed. Check your connection and try again.",
     notConfigured: "Private access is not configured, so sign-in is unavailable.", rateLimited: "Too many attempts. Please try again later.", retry: "Check connection again",
-    privacy: "The server verifies your password. This app uses a secure session cookie, and AI features call external services.", footer: "A quiet space for AI application experiments.",
+    privacy: "The server verifies your password. This app uses a secure session cookie, and AI features call external services.", footer: "My experimental space for the AI menu tool and Personal PDC.",
   },
   nl: {
-    eyebrow: "PRIVÉ-EXPERIMENT", title: "Privéwerkruimte", intro: "Voer je wachtwoord in om de AI-menutool en Personal PDC te verkennen.",
+    eyebrow: "PRIVÉ-EXPERIMENT", title: "Privéwerkruimte", intro: "Met het oog op Europese AI-regelgeving en mogelijke risico’s heb ik besloten deze zelf ontwikkelde website met een wachtwoord te beveiligen, alleen voor eigen gebruik.",
     passwordLabel: "Toegangswachtwoord", enter: "Open werkruimte", checking: "Je sessie wordt gecontroleerd…", signingIn: "Controleren…",
     required: "Voer je toegangswachtwoord in.", denied: "Het wachtwoord is niet geaccepteerd. Probeer opnieuw.", unavailable: "Het verzoek kon niet worden voltooid. Controleer je verbinding en probeer opnieuw.",
     notConfigured: "Privétoegang is niet ingesteld. Inloggen is niet beschikbaar.", rateLimited: "Te veel pogingen. Probeer het later opnieuw.", retry: "Controleer verbinding opnieuw",
-    privacy: "De server controleert je wachtwoord. Deze app gebruikt een beveiligde sessiecookie; AI-functies gebruiken externe diensten.", footer: "Een rustige ruimte voor experimenten met AI-toepassingen.",
+    privacy: "De server controleert je wachtwoord. Deze app gebruikt een beveiligde sessiecookie; AI-functies gebruiken externe diensten.", footer: "Mijn experimenteerruimte voor de AI-menutool en Personal PDC.",
   },
 };
 
