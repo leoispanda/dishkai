@@ -2,13 +2,13 @@
 
 DishKAI is a personally operated menu-understanding experiment for exploring AI application development. The current application requires a password and is intended for the owner's personal use. Earlier publicly deployed versions need a separate access-control review. Questions, feedback and privacy requests can be sent to hello@dishkai.com.
 
-The public entrance introduces DishKAI as Leo's personal AI exploration tool. A fixed sample demo is open to browse while live menu analysis and personal tools remain private as potential European AI regulatory obligations are reviewed. The notice invites close friends to contact Leo if interested, without granting access. English is also visible in the default Chinese view. Any actual use by friends requires a fresh scope assessment; the wording alone does not establish a legal exemption.
+The public entrance introduces DishKAI as Leo's personal AI exploration tool. A fixed sample demo is open to browse while live menu analysis remains private as potential European AI regulatory obligations are reviewed. The notice invites close friends to contact Leo if interested, without granting access. English is also visible in the default Chinese view. Any actual use by friends requires a fresh scope assessment; the wording alone does not establish a legal exemption.
 
 ## Public product demo
 
 The `/login` page is a responsive product showcase, with a fixed Italian menu in original order and a clickable dish-card preview in Chinese, English or Dutch. Carbonara, Margherita Pizza and Tiramisu are a small curated snapshot in `demo-data.js`, derived from the existing verified knowledge. The corresponding three images in `assets/demo/` are unchanged copies of existing AI illustrations, labelled as visual references. Composition is estimated; restaurant-specific ingredients and allergens need confirmation.
 
-Selecting a sample only updates the page locally. There are no public upload/text inputs or analysis/PDC requests. Only the exact demo script and three named image files are added to the existing public access allowlist; all main application files, original dish images and full metadata remain private. The expandable owner entry retains the existing server-verified login and session handling. No hosting audience, credentials or live API permissions were changed.
+Selecting a sample only updates the page locally. There are no public upload/text inputs or analysis requests. Only the exact demo script and three named image files are added to the existing public access allowlist; all main application files, original dish images and full metadata remain private. The expandable owner entry retains the existing server-verified login and session handling. No hosting audience, credentials or live API permissions were changed.
 
 Run `npm run check:public-demo`, `npm run check:private-access` and `npm run check:private-frontend` to validate curated assets, precise route boundaries, sample interaction and the private-session flow.
 
@@ -73,7 +73,7 @@ Optional Cloudflare variables:
 
 To activate Gemini, add the original key as an encrypted `DISHKAI_GEMINI_API_KEY` secret in **DishKAI's production environment**, then create a deployment that includes it. A secret stored in MapKAI is scoped to that project and is not automatically available to DishKAI; saved secret values cannot be read back from the dashboard. See [Cloudflare's bindings documentation](https://developers.cloudflare.com/pages/functions/bindings/). Do not put keys in source files, frontend code, chat, logs, or `wrangler.toml`. Reusing a compatible Google key shares that Google project's quota and billing.
 
-Gemini uses the native [generateContent REST API](https://ai.google.dev/api/generate-content), an `x-goog-api-key` header, inline image bytes, and structured JSON output. The response reports the actual extraction provider/model, including any OpenAI backup. Dish knowledge still comes from verified DishKAI metadata; optional generated cards remain unverified. The separate private PDC tool keeps its existing Workers AI binding.
+Gemini uses the native [generateContent REST API](https://ai.google.dev/api/generate-content), an `x-goog-api-key` header, inline image bytes, and structured JSON output. The response reports the actual extraction provider/model, including any OpenAI backup. Dish knowledge still comes from verified DishKAI metadata; optional generated cards remain unverified.
 
 Optional Cloudflare bindings:
 
@@ -86,7 +86,6 @@ Current API endpoints:
 - `POST /api/private-logout`
 - `POST /api/analyze-menu-text`
 - `POST /api/analyze-menu-image`
-- `POST /api/pdc-round`
 - `POST /api/analyze-menu`
 - `GET /api/unmatched-dishes` (private)
 - `DELETE /api/unmatched-dishes` (private)
@@ -120,11 +119,11 @@ Privacy and misuse protections:
 - Users are warned not to upload images containing faces, payment details, addresses, phone numbers, or other personal/sensitive information.
 - AI dish illustrations are labelled at first thumbnail exposure and on the full image. They are visual references, not restaurant photographs. The image importer retains exact source bytes and origin/hashes, and blocks transformation when recognised content-credential markers are found. This conservative guard does not validate signatures or detect invisible watermarks, and does not certify robust machine marking or mark preservation.
 - Card/response provenance distinguishes stored knowledge, stored guidance, generated estimates and missing metadata. Ingredient percentages are estimates; restaurant confirmation is needed for allergens, substitutions and cross-contact.
-- The private browser PDC state expires after seven days (also on reads and before continuation); old records without expiry are removed from browser state. The clear-local-data action clears browser state and does not erase cloud contributions or AI-provider records.
+- The retired personal-decision feature no longer loads or saves discussions. On application startup, only its two obsolete browser-storage keys are removed; menu preferences remain. This cleanup does not erase cloud contributions or AI-provider records.
 - The local Node dev server serves static files from `public/` only, so source files and local configuration are not exposed by static routes.
 - DishKAI currently does not enforce a shared daily AI quota; the footer gives a simple approximate API-cost note for AI scans.
 - The dedicated login page comes before the application. A URL parameter such as `?internal=1` is not an access grant.
-- Application loads check private-session status. PDC requests still require opening and using the PDC tool.
+- Application loads check private-session status before using the menu tool.
 - Menu image request bodies are stream-bounded before multipart parsing; the accepted upload formats are JPEG, PNG, WebP, and GIF.
 
 For local Wrangler testing, Workers AI may require:
@@ -144,26 +143,6 @@ wrangler pages dev public --ai AI
 
 ## AI transparency and operations
 
-The password-protected `/ai-transparency` page explains actual menu/PDC capabilities, AI providers, content origin, limits and data handling in English, Chinese and Dutch. The [EU AI Act review](docs/ai-act-review.md) records the earlier public scope, the private-use conversion, applicable transparency issues and unresolved evidence. Purely personal non-professional use can change deployer obligations, but a password does not itself remove provider obligations or earlier public-operation facts. The [operations and literacy guide](docs/ai-operations.md) contains practical exercises and an uncompleted training record template; writing it is not proof that staff training occurred.
+The password-protected `/ai-transparency` page explains actual menu capabilities, AI providers, content origin, limits and data handling in English, Chinese and Dutch. The [EU AI Act review](docs/ai-act-review.md) records the earlier public scope, the private-use conversion, applicable transparency issues and unresolved evidence. Purely personal non-professional use can change deployer obligations, but a password does not itself remove provider obligations or earlier public-operation facts. The [operations and literacy guide](docs/ai-operations.md) contains practical exercises and an uncompleted training record template; writing it is not proof that staff training occurred.
 
 Run `npm run check:ai-transparency` and `npm run check:image-provenance` for the new synthetic source, disclosure, opt-in, retention and guarded-import checks. Personal operation, the AI application exploration purpose and the contact email are owner-confirmed. The separate GDPR controller-identification assessment, provider contracts/processing settings, legacy retention and robust Article 50(2) marking/detection remain open. See the [operator identity follow-up](docs/ai-act-review.md#operator-identity-follow-up): Article 50 does not impose a general personal-name/home-address publication rule on this menu utility, but an email alone is not evidence of complete GDPR information. UI badges and declared JSON/DOM provenance are useful controls, not a full compliance certification.
-
-## Personal PDC Council Room V1.5
-
-DishKAI now hosts an internal Personal PDC Council Room as a technical test environment. This is a general personal decision system, not a DishKAI-specific food council.
-
-The PDC room:
-
-- outputs Chinese by default
-- lets Leo choose Product Council or Personal PDC Council
-- uses role cards with short traits, tags, and expandable detail profiles
-- supports independent speaking and automatic round-robin grouping as the main path
-- keeps older modes such as `quick_mode`, `preset_team_debate`, `custom_team_debate`, and `hybrid_debate` compatible in the backend
-- uses Cloudflare Workers AI through the backend `AI` binding
-- presents fictional AI role perspectives, not real experts; identifies AI responses, local fallback templates and rule-based summaries separately
-- does not use the menu's Gemini/OpenAI path, database storage, voting, elimination, or PK; private access is checked server-side
-- supports user intervention through follow-up rounds using `previous_summary`
-
-Future V2 ideas include likes, elimination, PK, and persistent meeting state.
-
-The main PDC flow is council-first: choose Product Council or Personal PDC Council, select role cards, inspect role details, then choose independent speaking or automatic grouping. Automatic grouping uses a simple round-robin assignment and can turn 9 selected roles into any valid group count, such as 5 groups. Settings are saved in localStorage under `personalPdcCustomGroups`; no database is used.

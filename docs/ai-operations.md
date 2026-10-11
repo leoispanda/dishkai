@@ -8,7 +8,7 @@ Date: **11 October 2026**. Audience: anyone operating, developing, reviewing met
 
 Menu input goes to a backend endpoint. AI can extract and normalise names; aliases select internal dish metadata. The verified database supplies stored knowledge, not the restaurant's exact current ingredients. Local generic guidance and unknown-item notes are rules/data; optional AI estimate cards are newly generated and unverified. A successful scan can still contain an OCR or matching error.
 
-Gemini is preferred when configured; OpenAI may be a backup. Workers AI or local parsing may handle text fallback. Private PDC uses its separate Workers AI path. Read actual result provenance when diagnosing a scan rather than assuming every request used the preferred model. Safety refusals must not be bypassed by switching providers.
+Gemini is preferred when configured; OpenAI may be a backup. Workers AI or local parsing may handle text fallback. Read actual result provenance when diagnosing a scan rather than assuming every request used the preferred model. Safety refusals must not be bypassed by switching providers.
 
 ## Review a menu result
 
@@ -22,7 +22,7 @@ For failures, record the safe error code, provider/model, timing and request ide
 
 ## Handle input and optional contributions
 
-Ask users to crop to the menu and avoid faces, receipts, payment details and other personal information. Do not intentionally send special-category personal data or unrelated personal context for menu recognition. Private PDC topics and follow-ups also go to an AI provider and may persist in browser storage; private access does not make those inputs local-only.
+Ask users to crop to the menu and avoid faces, receipts, payment details and other personal information. Do not intentionally send special-category personal data or unrelated personal context for menu recognition.
 
 The contribution checkbox is optional, starts unchecked and must not block a scan when declined. New collected records contain limited unknown dish fields rather than photos or whole menus. The obvious-personal-data filter is a precaution, not an anonymity guarantee. New KV event records have a 90-day expiry. New writes are declined when a store lacks event storage with individual expiry; legacy compatibility aggregates remain readable without being rewritten or deleted. Legacy data was not cleared by this update.
 
@@ -36,7 +36,7 @@ Labels and JSON/DOM origin fields improve transparency but are not evidence that
 
 ## Test and change safely
 
-- Use mocks and wholly synthetic, non-personal menu examples for tests. Do not export the internal database, private PDC inputs or user submissions to a public/live endpoint merely to exercise the API.
+- Use mocks and wholly synthetic, non-personal menu examples for tests. Do not export the internal database or user submissions to a public/live endpoint merely to exercise the API.
 - Keep API keys and session secrets in the appropriate server-side secret store. Do not read, print or copy their values into source, browser code, screenshots, chat or logs. Secrets are scoped to their configured project/environment.
 - Confirm authorisation before installing dependencies, changing Cloudflare settings, deploying, touching credentials or taking destructive actions. Routine checks should not mutate accounts or production data.
 - Check root/public parity, all supported UI languages, original menu order, unmatched behavior, first-exposure labels, contribution decline/opt-in, safe errors and actual fallback origin after relevant changes.

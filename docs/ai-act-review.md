@@ -1,6 +1,6 @@
 # DishKAI EU AI Act review
 
-Review date: **11 October 2026**. Original scope: the publicly available menu tool, its stored dish illustrations, optional generated estimate cards, unmatched-dish backlog, and private PDC room. The owner subsequently requested password protection for personal use; the conversion and its limits are recorded below. This is a documented engineering and operational assessment, not a legal certification. Provider contracts, staff training, the production KV contents, and the operator's legal identity were not inspected or verified. Only the limited hosting settings expressly noted below were read.
+Review date: **11 October 2026**. Original scope: the publicly available menu tool, its stored dish illustrations, optional generated estimate cards, unmatched-dish backlog, and private PDC room. The owner subsequently requested password protection for personal use and removal of the PDC feature in v0.2.45; those changes and their limits are recorded below. The original review scope is historical, while the capability table describes the current release. This is a documented engineering and operational assessment, not a legal certification. Provider contracts, staff training, the production KV contents, and the operator's legal identity were not inspected or verified. Only the limited hosting settings expressly noted below were read.
 
 ## Current legal basis
 
@@ -16,17 +16,16 @@ The operator likely acts as a downstream **AI-system provider** for an applicati
 
 | Function | Current boundary | Assessment |
 | --- | --- | --- |
-| Public menu text/photo analysis | Gemini/OpenAI backend extraction; Workers AI or local parsing where available; stored metadata matching | AI-assisted menu understanding. Faithful extraction must be distinguished from newly invented information. |
+| Private menu text/photo analysis | Gemini/OpenAI backend extraction; Workers AI or local parsing where available; stored metadata matching | AI-assisted menu understanding. Faithful extraction must be distinguished from newly invented information. |
 | Optional estimate cards | Enabled only by the backend fallback setting; temporary, unverified | Generated text, not verified knowledge or a restaurant guarantee. |
 | Stored dish images | AI illustrations imported into website assets | Illustrative references; must not imply photographs of the user's restaurant meal. |
-| Private PDC | Workers AI generates responses to topics and follow-up interventions; summaries also use rules | Genuine interactive AI. Private access alone does not establish an exemption for professional/internal use. |
 | Receipt analysis, live image generation, profile/rating writes | Endpoints currently return disabled responses | No active capability to certify. Reassess before enabling. |
 
 For the present intended use, no Annex I regulated-product/safety-component or Annex III decision use case was identified. This is therefore an assessment **outside the high-risk categories**, not an Article 6(3) exemption for an Annex III system. High-risk registration, CE conformity, mandatory high-risk logs and a fundamental-rights impact assessment are not indicated for this menu utility. Review again before medical/clinical use, recruitment, eligibility decisions or other regulated uses are introduced. See [Article 6](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-6).
 
 ## Applicable transparency and literacy
 
-Article 50(1) concerns direct interaction; the Commission distinguishes genuine two-way exchanges from background processing or one-way automated responses. The PDC room clearly supports user-directed exchanges. The menu form has a narrower scope requiring a case-specific assessment; its explicit AI notice is retained regardless. Information must be clear, accessible and available at first interaction/exposure. See [Commission Article 50 FAQ](https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act).
+Article 50(1) concerns direct interaction; the Commission distinguishes genuine two-way exchanges from background processing or one-way automated responses. The remaining menu form has a narrower scope requiring a case-specific assessment; its explicit AI notice is retained regardless. Information must be clear, accessible and available at first interaction/exposure. See [Commission Article 50 FAQ](https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act).
 
 The same FAQ states that content generated before 2 August 2026 does not need retrospective labelling. Creation-date evidence has not been verified for every legacy asset; clearer labels are retained as a practical transparency measure.
 
@@ -72,7 +71,7 @@ Keep the confirmed personal-project description and hello@dishkai.com. Do not pu
 
 ## Private-use conversion — 11 October 2026
 
-The owner requested a password to use the project personally. The coordinated code update requires a backend-verified session for the main application, static dish data/images and menu/PDC APIs, with only a dedicated login page/assets and authentication endpoints open. It reuses the current access-code/session configuration; values have not been read or changed. Code and local checks must be followed by deployment verification.
+The owner requested a password to use the project personally. The coordinated code update requires a backend-verified session for the main application, static dish data/images and menu APIs, with only a dedicated login page/assets and authentication endpoints open. It reuses the current access-code/session configuration; values have not been read or changed. Code and local checks must be followed by deployment verification.
 
 [Article 2(10)](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2) excludes deployer obligations for natural persons using AI in purely personal non-professional activity. The [Commission's final Article 50 guidelines](https://ec.europa.eu/newsroom/dae/redirection/document/131215), paragraphs 19–20, explain that this does not exclude the system or its provider obligations. DishKAI's own provider role needs independent assessment, and Gemini or other upstream providers do not become exempt because this application has a password. Paragraphs 21–22 distinguish solely scientific R&D and pre-market/pre-service testing from already deployed or real-world use. A private-use conversion does not retroactively establish those exceptions.
 
@@ -86,9 +85,15 @@ The v0.2.43 visitor wording, expressly requested by the owner, describes Leo's p
 
 ### Fixed public showcase — v0.2.44
 
-At the owner's request, the public entrance is now a product demo instead of a password-focused notice. It shows three fixed, curated dish examples with locally selectable details and labelled existing AI illustrations. This exposes a limited sample of stored content; it does not run menu recognition, accept uploaded input or grant access to personal tools. The public route allowlist adds only the exact demo-data file and its three selected images. Existing passwords, session version, full-database restrictions and historical-deployment policy are unchanged.
+At the owner's request, the public entrance is now a product demo instead of a password-focused notice. It shows three fixed, curated dish examples with locally selectable details and labelled existing AI illustrations. This exposes a limited sample of stored content; it does not run menu recognition, accept uploaded input or grant access to live menu analysis. The public route allowlist adds only the exact demo-data file and its three selected images. Existing passwords, session version, full-database restrictions and historical-deployment policy are unchanged.
 
 The visitor copy distinguishes the publicly viewable sample from private live functionality and retains the personal-project/contact note in three languages with English directly visible. Public demonstration of prepared AI-assisted content is not proof of a personal-use or research exception. This change is an engineering boundary and presentation improvement, not a certification that the publicly displayed content or the operator is exempt from legal obligations.
+
+### Personal PDC removal — v0.2.45
+
+At the owner's request, the personal-decision room, role/group/round logic, frontend API calls and dedicated backend endpoint/provider modules have been removed. The current product scope is menu understanding and the prepared public sample. Unknown API paths return an authenticated JSON 404 rather than falling through to an HTML page; unauthenticated requests remain gated.
+
+On the next main-application startup, only the obsolete `dishkai-pdc-state` and `personalPdcCustomGroups` browser-storage keys are removed, without reading their contents. Menu language, acknowledgment and usage preferences remain. No new PDC inputs are collected or sent by this release. Removal does not retroactively change earlier operation, erase upstream provider records or establish a legal exemption. Historical review and memory entries are retained as evidence of the former scope.
 
 ## Operational and privacy matters still open
 
@@ -98,7 +103,7 @@ These are related operational/GDPR matters, not duties invented under the AI Act
 - Verify Google, OpenAI and Cloudflare account terms, billing/service tier, prompt use, provider retention, processing regions, transfers, relevant DPA terms and the actual production fallback configuration. An inline request and absence of application image storage do not mean upstream providers retain nothing.
 - Confirm the legal basis and user-information requirements for analysis and optional contributions. A disclaimer checkbox is not a general privacy waiver, and the contribution opt-in is not proof that all processing is lawful.
 - New KV event records expire 90 days after writing. Stores without event storage and individual expiry decline new contributions; legacy compatibility aggregates remain readable by private tools without rewriting or deleting them. Production store behavior and legacy records still need an operator review. This review did not access production data.
-- Browser state includes language/disclaimer preferences, counters and private PDC state/settings. Clearing local state does not delete Cloudflare backlog entries or upstream service records. Check platform logs and retention independently; application error logs intentionally omit uploaded content and keys.
+- Browser state includes language/disclaimer preferences and counters. The two retired decision-tool keys are selectively removed on main-application startup. Clearing local state does not delete Cloudflare backlog entries or upstream service records. Check platform logs and retention independently; application error logs intentionally omit uploaded content and keys.
 - Confirm meaningful human-review evidence before applying a human-reviewed label. Stored/prepared content and database inclusion alone do not prove the Article 50(4) editorial exception.
 
 The scope should be revisited after a provider/model change, a new publication/export mode, new stored fields, or a change to the product's intended use. Maintain release checks, asset-origin records and completed operational records without adding unnecessary prompt or image retention.

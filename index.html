@@ -7,7 +7,7 @@
   <meta name="description" content="DishKAI helps people understand unfamiliar menu names before ordering.">
   <title>DishKAI | Know the dish before you order</title>
   <link rel="icon" href="/assets/brand/dishkai-cloche-logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=0.2.44">
+  <link rel="stylesheet" href="styles.css?v=0.2.45">
 </head>
 <body class="session-checking">
   <div class="session-check-panel" role="status">
@@ -23,7 +23,6 @@
       <span id="appVersion">Private beta</span>
       <span id="visitCount">Visits: 0</span>
     </div>
-    <button id="openPdcButton" class="internal-button" type="button" hidden aria-hidden="true" tabindex="-1">个人 PDC</button>
     <button id="privateLogoutTop" class="internal-button session-lock" type="button" hidden data-i18n="privateLogout">Sign out</button>
   </header>
 
@@ -74,9 +73,8 @@
       <section id="privateAccess" class="private-access-panel" aria-label="Private access" hidden>
         <p class="eyebrow" data-i18n="privateAccessEyebrow">Private experiment</p>
         <h2 data-i18n="privateAccessTitle">Your AI application workspace.</h2>
-        <p data-i18n="unauthorizedNotice">Menu analysis and PDC require a private session.</p>
+        <p data-i18n="unauthorizedNotice">Menu analysis requires a private session.</p>
         <div class="private-actions">
-          <button id="clearRecentScans" class="button" type="button" data-i18n="clearRecentScans">Clear local PDC history</button>
           <button id="privateLogout" class="button" type="button" data-i18n="privateLogout">Sign out</button>
         </div>
         <p id="privateAccessStatus" class="status" role="status"></p>
@@ -143,84 +141,6 @@ Ratatouille</textarea>
       </div>
     </section>
 
-    <section id="personal-pdc" class="section pdc-section" hidden>
-      <div class="pdc-shell">
-        <div class="pdc-heading">
-          <p class="eyebrow">Personal PDC</p>
-          <h2>个人 PDC 会议室</h2>
-          <p>9 位 AI 合伙人，从增长、UX、执行、社群、视觉、用户洞察、战略、象征时机和镜像边界等角度挑战你的决策。</p>
-          <p class="helper" data-i18n="pdcDisclosure">These are simulated AI roles, not real advisers. Topics, context, and follow-ups are sent to Cloudflare Workers AI. History and settings are saved in this browser, expire after 7 days of inactivity, and are cleared when you next open private tools. Avoid personal or sensitive information.</p>
-        </div>
-
-        <form id="pdcForm" class="pdc-form">
-          <label>
-            <span>决策议题</span>
-            <input id="pdcTopic" name="topic" type="text" placeholder="例如：我是否应该把真实 API agent 系统先放在 DishKAI 里测试？">
-          </label>
-
-          <label>
-            <span>背景信息</span>
-            <textarea id="pdcContext" name="context" rows="5" placeholder="例如：DishKAI 只是技术试验场，我真正想验证的是个人 PDC 决策系统。"></textarea>
-          </label>
-
-          <label>
-            <span>Council Type</span>
-            <select id="pdcCouncilType" name="council_type">
-              <option value="product">Product Council / 产品决策委员会</option>
-              <option value="personal">Personal PDC Council / 个人 PDC 决策委员会</option>
-            </select>
-          </label>
-
-          <section class="pdc-grouping">
-            <div>
-              <h3>选择角色</h3>
-              <p class="helper">点击卡片选择参会人，也可以展开查看性格、盲点和典型问题。</p>
-            </div>
-            <div class="group-tools">
-              <button id="pdcSelectAll" class="button" type="button">一键全选</button>
-              <button id="pdcSelectProductQuick" class="button" type="button">一键选择产品快速组</button>
-              <button id="pdcSelectPersonalQuick" class="button" type="button">一键选择个人决策快速组</button>
-              <button id="pdcClearSelection" class="button" type="button">清空选择</button>
-            </div>
-            <div id="pdcRoleGrid" class="role-grid"></div>
-          </section>
-
-          <section class="pdc-grouping">
-            <div>
-              <h3>讨论方式</h3>
-              <p class="helper">独立发言会逐个调用；自动分组讨论会把选中角色分成若干小组后融合发言。</p>
-            </div>
-            <label>
-              <span>讨论方式</span>
-              <select id="pdcDiscussionStyle">
-                <option value="individual_debate" selected>独立发言</option>
-                <option value="auto_group_debate">自动分组讨论</option>
-              </select>
-            </label>
-            <label id="pdcGroupCountWrap" hidden>
-              <span>分成几个组？</span>
-              <input id="pdcGroupCount" type="number" min="1" value="3">
-            </label>
-            <p id="pdcCallEstimate" class="helper">预计 AI 调用次数：0</p>
-            <div id="pdcAutoGroupPreview" class="auto-group-preview"></div>
-          </section>
-
-          <button id="pdcStartButton" class="button primary" type="submit">启动委员会</button>
-          <p id="pdcStatus" class="status" role="status"></p>
-        </form>
-
-        <div id="pdcRounds" class="pdc-rounds"></div>
-
-        <form id="pdcInterventionForm" class="pdc-intervention" hidden>
-          <h3>我想参与讨论</h3>
-          <label>
-            <span>我想补充 / 追问 / 纠正：</span>
-            <textarea id="pdcIntervention" rows="4" placeholder="例如：我觉得你们忽略了时间成本，请重新考虑。"></textarea>
-          </label>
-          <button id="pdcContinueButton" class="button primary" type="submit">继续讨论</button>
-        </form>
-      </div>
-    </section>
     </div>
 
     <section id="aiTransparencyPage" class="ai-transparency-page section" hidden aria-labelledby="aiTransparencyTitle">
@@ -263,8 +183,7 @@ Ratatouille</textarea>
             <p data-i18n="aiDataRetention">Storage: this menu-processing code does not save uploaded photos or full menus. AI providers and hosting services may process or retain data under their account settings and terms; DishKAI does not promise that they retain nothing or never use data for training.</p>
             <p data-i18n="aiDataContribution">Optional contributions: the unchecked box shares only unknown dish-name suggestions and limited language/source metadata for knowledge-base improvement, retained for up to 90 days. Analysis works without this option. Do not include personal information in dish names.</p>
             <p data-i18n="aiDataLegacy">Previously collected unknown-dish records need a separate operator review and deletion or retention decision; this update does not claim they have already been cleared.</p>
-            <p data-i18n="aiDataLocal">This browser stores your language, safety acknowledgment, and local usage counts. Private login uses a session cookie. Private PDC history and settings expire after 7 days of inactivity; expired records are removed when private tools next open. Use Clear local PDC history or clear site data to remove them sooner.</p>
-            <p data-i18n="aiDataPdc">Private PDC sends your topic, context, and follow-up input to Cloudflare Workers AI. Its personas are simulated AI roles, not real professionals; it provides reflection rather than professional advice.</p>
+            <p data-i18n="aiDataLocal">This browser stores your language, safety acknowledgment, and local usage counts. Private login uses a session cookie. Clear site data to remove your saved preferences and counts.</p>
             <p data-i18n="aiDataRights">For an incorrect result, privacy question, or access/deletion request, contact hello@dishkai.com. You may also contact your competent data-protection authority. The safety acknowledgment is not consent to optional contributions.</p>
             <h3 data-i18n="aiDataTermsTitle">Provider data terms</h3>
             <ul>
@@ -291,7 +210,7 @@ Ratatouille</textarea>
               </div>
               <div>
                 <dt data-i18n="aiLabelLocal">Rule-based guidance</dt>
-                <dd data-i18n="aiLabelLocalDescription">A result assembled from stored data or deterministic rules. In PDC, a rule-based summary combines participant outputs without another model call.</dd>
+                <dd data-i18n="aiLabelLocalDescription">A result assembled from stored dish data or deterministic matching rules.</dd>
               </div>
             </dl>
           </section>
@@ -337,6 +256,6 @@ Ratatouille</textarea>
     </div>
   </footer>
 
-  <script src="script.js?v=0.2.44"></script>
+  <script src="script.js?v=0.2.45"></script>
 </body>
 </html>

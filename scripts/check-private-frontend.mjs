@@ -16,9 +16,14 @@ assert.ok(html.includes(`script.js?v=${appVersion}`));
 assert.ok(loginHtml.includes(`login.js?v=${appVersion}`));
 assert.ok(html.includes('class="session-checking"'), "Cached private markup must start hidden.");
 assert.ok(!html.includes('id="privateAccessForm"'), "Passwords belong on the standalone login page.");
+for (const page of [html, loginHtml]) {
+  assert.ok(!/pdc|personal decision council|个人\s*pdc/i.test(page), "No retired PDC view, navigation or visitor copy may remain.");
+}
+assert.ok(!/\/api\/pdc-round|renderPdc|loadPdc|savePdc|pdcState|pdcRoles/.test(script), "The main app must not retain PDC execution, rendering or state management.");
+assert.ok(!/\/api\/pdc-round|renderPdc|loadPdc|savePdc/.test(loginScript), "The public demo must not retain a PDC API call or renderer.");
 assert.ok(loginHtml.includes('type="password"'));
 const loginInputs = [...loginHtml.matchAll(/<input\b[^>]*>/gi)];
-assert.equal(loginInputs.length, 1, "The public page only accepts the owner's password, not visitor menu or PDC input.");
+assert.equal(loginInputs.length, 1, "The public page only accepts the owner's password, not visitor input.");
 assert.match(loginInputs[0][0], /type="password"/);
 assert.ok(!/<textarea\b/i.test(loginHtml), "The fixed public demo does not accept visitor text.");
 const demoContext = vm.createContext({});
@@ -158,7 +163,7 @@ assert.equal(login.elements.get("#demoDescription").textContent, demoDishes[0].s
 demoButtons[2].events.click();
 const selectedEnglishDish = demoDishes.find((dish) => dish.id === demoButtons[2].dataset.demoDish);
 assert.equal(login.elements.get("#demoDishName").textContent, selectedEnglishDish.names.en);
-assert.deepEqual(login.requests.map((request) => request.url), ["/api/private-status"], "Demo selection and translation must never call analysis or PDC APIs.");
+assert.deepEqual(login.requests.map((request) => request.url), ["/api/private-status"], "Demo selection and translation must never call live AI APIs.");
 login.languageButtons.find((button) => button.dataset.loginLanguage === "zh").events.click();
 for (const next of ["https://evil.test/", "//evil.test/", "/\\evil.test/", "/login", "/login.html?next=/", "javascript:alert(1)", "/bad\npath"]) {
   assert.equal(login.api.safeLoginNext(next), "/", "Unsafe next values must not leave or loop through login.");
@@ -243,11 +248,12 @@ assert.equal(noCookie.elements.get("#retryLoginStatus").hidden, false);
 
 function makeMain(handler = authenticated) {
   const app = makeEnvironment(html, {
-    handler, storageValues: [["dishkai-ui-lang", "en"], ["dishkai-legal-disclaimer-accepted-v1", "true"]],
+    handler, storageValues: [
+      ["dishkai-ui-lang", "en"], ["dishkai-legal-disclaimer-accepted-v1", "true"],
+      ["dishkai-pdc-state", "synthetic retired history"], ["personalPdcCustomGroups", "synthetic retired settings"],
+      ["unrelated-preference", "preserve"],
+    ],
   });
-  app.elements.get("#pdcCouncilType").value = "product";
-  app.elements.get("#pdcDiscussionStyle").value = "individual_debate";
-  app.elements.get("#pdcGroupCount").value = "3";
   vm.runInContext(script, app.context);
   vm.runInContext(`globalThis.api = { checkPrivateAccess, fetchJson, logoutPrivateAccess, translations, requireLegalAcceptance };`, app.context);
   app.api = app.context.api;
@@ -258,11 +264,18 @@ const main = makeMain(); await flush();
 assert.equal(main.requests[0].url, "/api/private-status", "Every application startup checks its server session without an internal URL.");
 assert.equal(main.requests[0].options.cache, "no-store");
 assert.equal(main.document.body.classList.contains("session-checking"), false);
-assert.equal(main.elements.get("#openPdcButton").hidden, false, "PDC must remain available after authentication.");
-assert.ok(main.elements.get("#pdcRoleGrid").innerHTML.includes("role-card"), "Authenticate before initializing the actual PDC controls.");
+assert.ok(main.elements.has("#menuForm"), "The menu tool remains available after authentication.");
+assert.equal(main.storage.has("dishkai-pdc-state"), false, "Startup removes retired PDC history.");
+assert.equal(main.storage.has("personalPdcCustomGroups"), false, "Startup removes retired PDC grouping settings.");
+assert.equal(main.storage.get("dishkai-ui-lang"), "en", "Retirement preserves the menu language preference.");
+assert.equal(main.storage.get("dishkai-legal-disclaimer-accepted-v1"), "true", "Retirement preserves the menu safety acknowledgment.");
+assert.equal(main.storage.get("unrelated-preference"), "preserve", "Retirement must not broadly clear browser storage.");
+assert.deepEqual(main.requests.map((request) => request.url), ["/api/private-status"], "Authenticated startup performs no retired model calls.");
 const locked = makeMain(unauthenticated); await flush();
 assert.deepEqual(locked.redirects, ["/login?next=%2F"]);
 assert.equal(locked.document.body.classList.contains("session-checking"), true);
+assert.equal(locked.storage.has("dishkai-pdc-state"), false, "Retired local data is cleaned even when the session has expired.");
+assert.equal(locked.storage.has("personalPdcCustomGroups"), false);
 const offline = makeMain(async () => { throw new TypeError("offline raw detail"); }); await flush();
 assert.equal(offline.redirects.length, 0);
 assert.equal(offline.document.body.classList.contains("session-checking"), true);
@@ -271,24 +284,19 @@ assert.equal(offline.elements.get("#retrySessionButton").hidden, false);
 offline.respondWith(authenticated); await offline.api.checkPrivateAccess();
 assert.equal(offline.document.body.classList.contains("session-checking"), false);
 
-main.storage.set("dishkai-pdc-state", "synthetic private history");
 main.respondWith(() => ({ ok: false, status: 401, text: async () => { throw new Error("A 401 body must not be rendered."); } }));
 await assert.rejects(main.api.fetchJson("/api/analyze-menu-text"), (error) => error.code === "SESSION_REQUIRED");
 assert.deepEqual(main.redirects, ["/login?next=%2F"]);
-assert.equal(main.storage.has("dishkai-pdc-state"), false);
 assert.equal(main.document.body.classList.contains("session-checking"), true);
 
 const logout = makeMain(); await flush();
-logout.storage.set("dishkai-pdc-state", "synthetic history");
 logout.respondWith(async () => { throw new TypeError("network failure"); });
 await logout.api.logoutPrivateAccess();
 assert.equal(logout.redirects.length, 0, "A failed sign-out must not pretend the server cookie was cleared.");
-assert.equal(logout.storage.has("dishkai-pdc-state"), true);
 assert.equal(logout.elements.get("#privateAccessStatus").textContent, logout.api.translations.en.logoutFailed);
 logout.respondWith(() => response(200, { ok: true }));
 await logout.api.logoutPrivateAccess();
 assert.deepEqual(logout.redirects, ["/login"]);
-assert.equal(logout.storage.has("dishkai-pdc-state"), false);
 
 const restored = makeMain(); await flush();
 restored.events.pagehide();
@@ -308,4 +316,4 @@ resolveStatus(authenticated());
 await checking;
 assert.equal(race.document.body.classList.contains("session-checking"), true, "A stale successful status response must not reopen a page already redirecting after a 401.");
 
-console.log("Private frontend checks passed: fixed public demo selection and translation without analysis calls, exact public sample assets, safe login navigation, localized errors, password clearing, cookie confirmation, recoverable failures, startup/401/logout/BFcache session checks, PDC preservation, and synchronized assets.");
+console.log("Private frontend checks passed: fixed public demo without live AI calls, exact public sample assets, safe login navigation, localized errors, password clearing, cookie confirmation, recoverable failures, startup/401/logout/BFcache session checks, retired PDC removal and selective storage cleanup, and synchronized assets.");

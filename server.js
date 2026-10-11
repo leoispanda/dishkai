@@ -2,7 +2,6 @@ import { createServer } from "node:http";
 import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { dirname, extname, join, normalize, resolve, sep } from "node:path";
 import { MAX_MENU_IMAGE_REQUEST_BYTES, analyzeMenuImage, analyzeMenuText } from "./functions/_shared/menu-analysis.js";
-import { runPdcRound } from "./functions/_shared/pdc-engine.js";
 import {
   checkRateLimit,
   clearSessionCookie,
@@ -184,24 +183,6 @@ const server = createServer(async (request, response) => {
       return;
     }
 
-    if (request.method === "POST" && url.pathname === "/api/pdc-round") {
-      const webRequest = toWebRequest(request, url);
-      const crossOrigin = requireSameOrigin(webRequest, localJson);
-      if (crossOrigin) return sendWebJson(response, crossOrigin);
-
-      if (!(await hasValidSession(webRequest, localEnv()))) {
-        sendJson(response, 401, { error: "PRIVATE_ACCESS_REQUIRED", message: "Unauthorized access is not permitted." }, securityHeaders());
-        return;
-      }
-      const limited = checkRateLimit(webRequest, localJson, "pdc-round", 20, 60_000);
-      if (limited) return sendWebJson(response, limited);
-
-      const body = await readJson(request);
-      const result = await runPdcRound(body, {});
-      sendJson(response, result.status, result.body, securityHeaders());
-      return;
-    }
-
     if (request.method === "POST" && [
       "/api/save-profile",
       "/api/analyze-receipt",
@@ -227,7 +208,7 @@ const server = createServer(async (request, response) => {
     }
 
     if (url.pathname.startsWith("/api/")) {
-      sendJson(response, 405, { error: "Method not allowed." }, securityHeaders());
+      sendJson(response, 404, { error: "NOT_FOUND", message: "API endpoint not found." }, securityHeaders());
       return;
     }
     if (!["GET", "HEAD"].includes(request.method)) {

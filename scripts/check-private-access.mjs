@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { access, readFile } from "node:fs/promises";
 import { createServer } from "node:net";
 import { spawn } from "node:child_process";
 import { createHmac } from "node:crypto";
@@ -13,6 +13,7 @@ import { onRequestGet as status } from "../functions/api/private-status.js";
 import { onRequestPost as analyzeText } from "../functions/api/analyze-menu-text.js";
 import { onRequestPost as analyzeLegacyText } from "../functions/api/analyze-menu.js";
 import { onRequestPost as analyzeImage } from "../functions/api/analyze-menu-image.js";
+import { onRequest as unknownApi } from "../functions/api/[[path]].js";
 
 // All passwords, sessions and inputs below are synthetic. The only HTTP calls are loopback.
 const env = { DISHKAI_PRIVATE_ACCESS_CODE: "synthetic-private-password", DISHKAI_SESSION_SECRET: "synthetic-session-signing-secret" };
@@ -216,6 +217,33 @@ check("Pages invocation rules do not exempt any protected static files", async (
   assert.deepEqual(rules.exclude, []);
 });
 
+check("retired PDC endpoint and supporting modules are absent from the deployed Functions", async () => {
+  for (const path of ["functions/api/pdc-round.js", "functions/_shared/pdc-engine.js", "functions/_shared/pdc-agents.js", "functions/_shared/pdc-teams.js", "functions/_shared/pdc-provider.js"]) {
+    await assert.rejects(access(new URL(`../${path}`, import.meta.url)), { code: "ENOENT" }, path);
+  }
+});
+
+check("unknown API catch-all requires a session and returns JSON 404 without parsing input or using AI", async () => {
+  for (const headers of [{}, { Cookie: cookie }]) {
+    const unknownRequest = request("/api/pdc-round", { method: "POST", headers, body: "must not be parsed" });
+    for (const method of ["json", "text", "formData"]) {
+      unknownRequest[method] = () => { throw new Error("Retired requests must not be parsed"); };
+    }
+    let aiCalled = false;
+    const response = await unknownApi({
+      request: unknownRequest,
+      env: { ...env, AI: { run: () => { aiCalled = true; throw new Error("No retired model calls"); } } },
+      waitUntil: () => { throw new Error("No retired background work"); },
+    });
+    assert.equal(response.status, headers.Cookie ? 404 : 401);
+    assert.match(response.headers.get("Content-Type"), /application\/json/);
+    assert.match(response.headers.get("Cache-Control"), /no-store/);
+    const body = await response.json();
+    assert.equal(body.error, headers.Cookie ? "NOT_FOUND" : "PRIVATE_ACCESS_REQUIRED");
+    assert.equal(aiCalled, false);
+  }
+});
+
 async function startLocalServer() {
   const portFinder = createServer();
   await new Promise((resolve, reject) => { portFinder.once("error", reject); portFinder.listen(0, "127.0.0.1", resolve); });
@@ -253,7 +281,7 @@ check("local server protects app pages, modules, dish images and APIs before ser
     const head = await fetchLocal("/script.js", { method: "HEAD" });
     assert.equal(head.status, 302);
     assert.equal(await head.text(), "");
-    for (const path of ["/api/analyze-menu", "/api/analyze-menu-text", "/api/analyze-menu-image"]) {
+    for (const path of ["/api/analyze-menu", "/api/analyze-menu-text", "/api/analyze-menu-image", "/api/pdc-round"]) {
       const response = await fetchLocal(path, { method: "POST", body: "must not be parsed" });
       assert.equal(response.status, 401);
     }
@@ -283,6 +311,9 @@ check("local server protects app pages, modules, dish images and APIs before ser
       headers: { "Content-Type": "application/json", Origin: server.origin }, body: JSON.stringify({ accessCode: env.DISHKAI_PRIVATE_ACCESS_CODE }) });
     assert.equal(loggedIn.status, 200);
     const localCookie = cookieHeader(loggedIn.headers.get("Set-Cookie"));
+    const retiredPdc = await fetchLocal("/api/pdc-round", { method: "POST", headers: { Cookie: localCookie, "Content-Type": "application/json" },
+      body: JSON.stringify({ topic: "Retired synthetic request" }) });
+    assert.ok([404, 410].includes(retiredPdc.status), "Authenticated callers cannot execute the retired PDC endpoint.");
     const unlocked = await fetchLocal("/", { headers: { Cookie: localCookie } });
     assert.equal(unlocked.status, 200);
     assert.match(await unlocked.text(), /id="menuForm"/);

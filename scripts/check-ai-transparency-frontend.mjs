@@ -33,9 +33,6 @@ const transparencyPage = element("#aiTransparencyPage", { hidden: true });
 const legalGate = element("#legalGate", { hidden: false });
 const appShell = element("#appShell", { hidden: false });
 element("#privateAccessStatus");
-element("#pdcTopic", { value: "Private synthetic topic" });
-element("#pdcContext", { value: "Private synthetic context" });
-element("#pdcIntervention", { value: "Private synthetic follow-up" });
 const contribution = element("#contributeUnknownDishes");
 element("#menuImage", { files: [{ type: "image/png", size: 1024, name: "synthetic-menu.png" }] });
 
@@ -73,9 +70,8 @@ vm.runInContext(`
   privateAccessGranted = true;
   globalThis.frontend = {
     translations, renderVisualMenu, renderKnowledgeCardMarkup,
-    renderPdcParticipantCard, renderPdcRound, renderSummary,
-    isAiGeneratedImage, loadPdcState, loadPdcGroupingSettings, savePdcState,
-    analyzeText, analyzeImage, isTransparencyPage, renderPageRoute, clearRecentScans,
+    renderSummary, isAiGeneratedImage,
+    analyzeText, analyzeImage, isTransparencyPage, renderPageRoute,
     setLanguage: (language) => { uiLang = language; },
   };
   renderAnalysis = () => {};
@@ -150,34 +146,6 @@ assert.ok(!grid.innerHTML.includes("thumbnail-provenance-label"), "An explicitly
 assert.ok(!app.renderKnowledgeCardMarkup(photograph).includes("image-provenance-label"));
 assert.equal(app.isAiGeneratedImage(matched.card, "/assets/dishes/placeholders/unknown.webp"), false);
 
-const localParticipant = app.renderPdcParticipantCard({ participant_type: "agent", contentOrigin: "local-fallback", name: "Simulated role" });
-assert.ok(localParticipant.includes(app.translations.en.localFallbackLabel));
-assert.ok(!localParticipant.includes("AI-generated"), "A local error placeholder is not generated advice.");
-assert.ok(app.renderPdcParticipantCard({ participant_type: "team", contentOrigin: "ai-generated", name: "Simulated group" }).includes(app.translations.en.aiGeneratedLabel));
-assert.ok(app.renderPdcParticipantCard({ participant_type: "agent", name: "Legacy role" }).includes(app.translations.en.sourceNotRecorded));
-assert.ok(app.renderPdcRound({ result: { participants: [], summary: { contentOrigin: "rule-based" }, next_step: "Reflect on the uncertainty." } }, 0).includes(app.translations.en.ruleBasedSummaryLabel));
-
-const stateKey = "dishkai-pdc-state";
-storage.set(stateKey, JSON.stringify({ rounds: [{}], expiresAt: now - 1 }));
-assert.equal(app.loadPdcState().rounds.length, 0);
-assert.equal(storage.has(stateKey), false, "Expired private history must be removed on read.");
-storage.set(stateKey, JSON.stringify({ rounds: [{}] }));
-assert.equal(app.loadPdcState().rounds.length, 0);
-assert.equal(storage.has(stateKey), false, "Legacy private history without an expiry must not persist indefinitely.");
-storage.set(stateKey, JSON.stringify({ rounds: [{}], expiresAt: now + 1 }));
-assert.equal(app.loadPdcState().rounds.length, 1, "Valid history should remain available.");
-storage.set("personalPdcCustomGroups", JSON.stringify({ selected_agents: ["role"], expiresAt: now - 1 }));
-assert.equal(Object.keys(app.loadPdcGroupingSettings()).length, 0);
-assert.equal(storage.has("personalPdcCustomGroups"), false);
-app.savePdcState();
-assert.equal(JSON.parse(storage.get(stateKey)).expiresAt, now + 7 * 24 * 60 * 60 * 1000);
-storage.set("personalPdcCustomGroups", JSON.stringify({ expiresAt: now + 1 }));
-await app.clearRecentScans();
-assert.equal(storage.has(stateKey), false);
-assert.equal(storage.has("personalPdcCustomGroups"), false);
-for (const selector of ["#pdcTopic", "#pdcContext", "#pdcIntervention"]) assert.equal(elements.get(selector).value, "");
-assert.equal(requests.length, 0, "Clearing local PDC history must not claim or attempt to delete cloud contributions.");
-
 await app.analyzeText();
 assert.equal(JSON.parse(requests.at(-1).options.body).contributeUnknownDishes, false, "Text analysis must work without a contribution.");
 contribution.checked = true;
@@ -189,4 +157,4 @@ contribution.checked = false;
 await app.analyzeImage();
 assert.equal(requests.at(-1).options.body.values.find(([key]) => key === "contributeUnknownDishes")[1], "false");
 
-console.log("AI transparency frontend checks passed: three-language notices, truthful image and source labels, PDC origins and expiry, optional contributions, and synchronized copies.");
+console.log("AI transparency frontend checks passed: three-language notices, truthful menu image and source labels, optional contributions, and synchronized copies.");

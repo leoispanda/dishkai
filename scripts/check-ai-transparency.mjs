@@ -9,11 +9,10 @@ import {
 import { onRequestPost as analyzeText } from "../functions/api/analyze-menu-text.js";
 import { onRequestPost as analyzeLegacyText } from "../functions/api/analyze-menu.js";
 import { onRequestPost as analyzeImage } from "../functions/api/analyze-menu-image.js";
-import { runPdcRound } from "../functions/_shared/pdc-engine.js";
 import { analyzeMenuText } from "../functions/_shared/menu-analysis.js";
 import { createSessionCookie } from "../functions/_shared/security.js";
 
-// Exercise the actual collectors, endpoints and PDC engine with synthetic data only.
+// Exercise the actual menu collectors and endpoints with synthetic data only.
 // No credentials, live AI calls, file storage, or new dependencies are needed.
 const cases = [];
 function check(name, run) { cases.push({ name, run }); }
@@ -283,53 +282,6 @@ check("photo API requires the exact multipart opt-in value", async () => {
   });
   assert.equal(calls, 5);
 });
-
-const fakeOutput = {
-  decision_bias: "测试立场", position: "这是一条模拟的 AI 发言。", response_to_user: "已回应测试输入。",
-  strongest_counterargument: "测试反方观点。", recommendation: "测试行动。", risk: "测试风险。", challenge: "测试挑战。",
-};
-for (const meeting_mode of ["individual_debate", "preset_team_debate"]) {
-  check(`successful ${meeting_mode} outputs preserve AI provenance`, async () => {
-    const result = await runPdcRound({ topic: "本地测试", meeting_mode }, {
-      AI: { run: async () => ({ response: JSON.stringify(fakeOutput) }) },
-    });
-    assert.equal(result.status, 200);
-    assert.ok(result.body.participants.length > 0);
-    for (const participant of result.body.participants) {
-      assert.equal(participant.contentOrigin, "ai-generated");
-      assert.equal(participant.provider, "cloudflare_workers_ai");
-      assert.ok(participant.model);
-    }
-    assert.equal(result.body.summary.contentOrigin, "rule-based");
-    assert.deepEqual(result.body.summary.participantOrigins, ["ai-generated"]);
-    assert.deepEqual(result.body.transparency.participantOrigins, ["ai-generated"]);
-    for (const output of [...result.body.agent_outputs, ...result.body.team_outputs]) {
-      assert.equal(output.contentOrigin, "ai-generated");
-      assert.equal(output.provider, "cloudflare_workers_ai");
-    }
-  });
-
-  check(`failed ${meeting_mode} calls return clearly local, safe fallback messages`, async () => {
-    const result = await runPdcRound({ topic: "本地测试", meeting_mode }, {
-      AI: { run: async () => { throw new Error("Synthetic private payload order@example.com"); } },
-    });
-    assert.equal(result.status, 200);
-    assert.equal(JSON.stringify(result).includes("order@example.com"), false);
-    for (const participant of result.body.participants) {
-      assert.equal(participant.contentOrigin, "local-fallback");
-      assert.equal(participant.provider, "none");
-      assert.equal(participant.model, null);
-      assert.equal(participant.errorCode, "PDC_PARTICIPANT_UNAVAILABLE");
-      assert.match(participant.position, /稍后重试/);
-    }
-    assert.equal(result.body.summary.contentOrigin, "rule-based");
-    assert.deepEqual(result.body.summary.participantOrigins, ["local-fallback"]);
-    assert.deepEqual(result.body.transparency.participantOrigins, ["local-fallback"]);
-    for (const output of [...result.body.agent_outputs, ...result.body.team_outputs]) {
-      assert.equal(output.contentOrigin, "local-fallback");
-    }
-  });
-}
 
 for (const { name, run } of cases) {
   await run();
