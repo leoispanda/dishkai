@@ -1,6 +1,6 @@
 {
   "name": "dishkai",
-  "version": "0.2.43",
+  "version": "0.2.44",
   "private": true,
   "type": "module",
   "scripts": {
@@ -18,7 +18,8 @@
     "audit:verified-dishes": "node scripts/audit-verified-dishes.mjs",
     "check:dish-assets": "node scripts/check-dish-assets.mjs",
     "dev:cloudflare": "wrangler pages dev public",
-    "deploy": "wrangler pages deploy public"
+    "deploy": "wrangler pages deploy public",
+    "check:public-demo": "node scripts/check-public-demo.mjs"
   },
   "engines": {
     "node": ">=18"

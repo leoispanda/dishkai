@@ -4,44 +4,105 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow, noarchive">
-  <meta name="description" content="DishKAI 私人 AI 应用实验空间。">
-  <title>私人实验室 · DishKAI</title>
+  <meta name="description" content="DishKAI — 将陌生菜名变成看得懂的选择。浏览固定菜单示例，了解这个私人 AI 探索工具。">
+  <title>DishKAI · 看懂菜单，再从容点单</title>
   <link rel="icon" href="/assets/brand/dishkai-cloche-logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/login.css?v=0.2.43">
-  <script src="/login.js?v=0.2.43" defer></script>
+  <link rel="stylesheet" href="/login.css?v=0.2.44">
+  <script src="/demo-data.js?v=0.2.44" defer></script>
+  <script src="/login.js?v=0.2.44" defer></script>
 </head>
 <body>
-  <main class="login-shell">
-    <section class="login-card" aria-labelledby="loginTitle">
-      <div class="login-brand">
-        <span class="brand-icon"><img src="/assets/brand/dishkai-cloche-logo.svg" alt=""></span>
-        <span>Dish<span class="brand-accent">KAI</span></span>
-      </div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="DishKAI">
+      <img src="/assets/brand/dishkai-cloche-logo.svg" width="34" height="34" alt="">
+      <span>Dish<span class="brand-accent">KAI</span></span>
+    </a>
+    <nav class="header-actions" aria-label="Page navigation">
       <div class="language-switch" role="group" aria-label="Language">
         <button type="button" data-login-language="zh" aria-pressed="true">中文</button>
-        <button type="button" data-login-language="en" aria-pressed="false">English</button>
-        <button type="button" data-login-language="nl" aria-pressed="false">Nederlands</button>
+        <button type="button" data-login-language="en" aria-pressed="false">EN</button>
+        <button type="button" data-login-language="nl" aria-pressed="false">NL</button>
       </div>
-      <p class="eyebrow" data-login-i18n="eyebrow">PRIVATE EXPERIMENT</p>
-      <h1 id="loginTitle" data-login-i18n="title">私人实验室</h1>
-      <div class="access-notice">
-        <p class="intro" data-login-i18n="intro">DishKAI 是 Leo 用于探索 AI 应用的个人工具。考虑到欧洲 AI 法规可能涉及的义务，目前设有密码，暂不对公众开放。</p>
-        <p class="friend-contact" data-login-i18n="contact">Leo 的好朋友如希望使用，请直接联系 Leo。</p>
-        <div id="englishAccessNotice" class="english-notice" lang="en">
-          <p data-english-i18n="intro">DishKAI is Leo’s personal tool for exploring AI applications. It is password-protected and is not currently open to the public while he reviews potential obligations under European AI regulations.</p>
-          <p data-english-i18n="contact">If you’re a close friend of Leo and would like to use it, please contact him directly.</p>
+      <a class="owner-link" href="#ownerAccess" data-owner-entry><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="5" y="9" width="10" height="8" rx="2"/><path d="M7 9V6a3 3 0 0 1 6 0v3"/></svg><span data-login-i18n="ownerEntry">私人入口</span></a>
+    </nav>
+  </header>
+
+  <main id="top" class="landing-shell">
+    <section class="hero-section" aria-labelledby="loginTitle">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span><span data-login-i18n="eyebrow">LEO’S PERSONAL AI EXPERIMENT</span></p>
+        <h1 id="loginTitle"><span data-login-i18n="title">陌生的菜名，</span><em data-login-i18n="titleAccent">看得懂的选择。</em></h1>
+        <p class="hero-description" data-login-i18n="heroDescription">菜单不该是猜谜。DishKAI 将菜名变成直观的菜品知识卡，帮你了解通常的食材、口味和需要问清楚的地方。</p>
+        <a class="demo-cta" href="#demo" data-demo-explore><span data-login-i18n="explore">看看它怎么用</span><span aria-hidden="true">↗</span></a>
+        <p class="availability"><span class="status-dot"></span><span data-login-i18n="availability">可浏览示例 · 实际 AI 功能暂不开放</span></p>
+        <div class="hero-caption"><span class="caption-line"></span><p data-login-i18n="heroCaption">从一张陌生菜单，到一次更明白的点单。</p></div>
+      </div>
+
+      <section id="demo" class="demo-frame" aria-labelledby="demoTitle">
+        <div class="demo-heading"><div><p class="small-label" data-login-i18n="demoEyebrow">PRODUCT PREVIEW</p><h2 id="demoTitle" data-login-i18n="demoTitle">一份菜单，三道新发现。</h2></div><span class="demo-badge" data-login-i18n="demoBadge">示例 Demo</span></div>
+        <p class="demo-instruction" data-login-i18n="demoInstruction">点击左侧菜名，看看通常会吃到什么。</p>
+        <div class="preview-layout">
+          <div class="sample-menu">
+            <div class="menu-heading"><span class="small-label" data-login-i18n="menuLabel">原始菜单</span><span class="menu-language">ITALIAN</span></div>
+            <div class="menu-rows" role="group" aria-label="Sample menu">
+              <button class="menu-row" type="button" data-demo-dish="carbonara" aria-pressed="true" aria-controls="demoDetail"><span class="menu-number">01</span><span class="menu-name"><strong>Spaghetti alla carbonara</strong><span data-demo-name="carbonara">卡邦尼意面</span></span><span class="row-arrow" aria-hidden="true">↗</span></button>
+              <button class="menu-row" type="button" data-demo-dish="margherita-pizza" aria-pressed="false" aria-controls="demoDetail"><span class="menu-number">02</span><span class="menu-name"><strong>Pizza Margherita</strong><span data-demo-name="margherita-pizza">玛格丽特披萨</span></span><span class="row-arrow" aria-hidden="true">↗</span></button>
+              <button class="menu-row" type="button" data-demo-dish="tiramisu" aria-pressed="false" aria-controls="demoDetail"><span class="menu-number">03</span><span class="menu-name"><strong>Tiramisù</strong><span data-demo-name="tiramisu">提拉米苏</span></span><span class="row-arrow" aria-hidden="true">↗</span></button>
+            </div>
+            <p class="menu-note" data-login-i18n="menuNote">保留菜单顺序。先看菜名，再打开详情。</p>
+          </div>
+          <article id="demoDetail" class="dish-preview" aria-labelledby="demoDishName">
+            <figure class="dish-figure"><img id="demoImage" src="/assets/demo/carbonara.webp" alt="卡邦尼意面的 AI 视觉参考" width="600" height="450"><figcaption data-login-i18n="imageLabel">AI 插图 · 仅作视觉参考</figcaption></figure>
+            <div class="dish-body">
+              <p id="demoOriginalName" class="original-name">Spaghetti alla carbonara</p>
+              <h3 id="demoDishName">卡邦尼意面</h3>
+              <p id="demoVerdict" class="dish-verdict"></p>
+              <p id="demoDescription" class="dish-description"></p>
+              <div id="demoTaste" class="taste-tags"></div>
+              <div class="composition-section"><h4 data-login-i18n="compositionLabel">大致有什么</h4><div id="demoComposition" class="composition-list"></div><p class="estimate-note" data-login-i18n="estimateNote">估算组成；餐厅做法可能不同。</p></div>
+              <div class="watch-out"><h4><span aria-hidden="true">!</span><span data-login-i18n="watchOutLabel">点单前问清楚</span></h4><p id="demoWatchOut"></p><p class="allergen-note" data-login-i18n="allergenNote">请向餐厅确认实际食材与过敏原。</p></div>
+              <p id="demoVisualDisclaimer" class="visual-note"></p>
+            </div>
+          </article>
         </div>
-      </div>
-      <form id="loginForm" autocomplete="on">
-        <label for="loginPassword" data-login-i18n="passwordLabel">访问密码</label>
-        <input id="loginPassword" name="accessCode" type="password" autocomplete="current-password" required maxlength="512" aria-describedby="loginPrivacy loginStatus">
-        <button id="loginButton" class="login-button" type="submit" data-login-i18n="enter">进入实验室</button>
-      </form>
-      <p id="loginStatus" class="login-status" role="status" aria-live="polite"></p>
-      <button id="retryLoginStatus" class="retry-button" type="button" hidden data-login-i18n="retry">重新检查连接</button>
-      <p id="loginPrivacy" class="privacy-note" data-login-i18n="privacy">密码由服务器验证。此应用使用安全会话 Cookie，AI 功能会调用外部服务。</p>
+        <div class="demo-footnote"><span class="status-dot"></span><span data-login-i18n="demoFootnote">固定示例，无上传，也不发起 AI 请求。</span></div>
+        <p id="demoLiveStatus" class="sr-only" role="status" aria-live="polite"></p>
+      </section>
     </section>
-    <p class="login-footer" data-login-i18n="footer">Leo 的 AI 菜单工具与个人 PDC 实验空间。</p>
+
+    <section class="how-section" aria-labelledby="howTitle">
+      <div class="how-intro"><p class="small-label" data-login-i18n="howEyebrow">THE IDEA</p><h2 id="howTitle" data-login-i18n="howTitle">少一点猜测，<br>多一点了解。</h2></div>
+      <ol class="how-steps">
+        <li><span class="step-number">01</span><div><h3 data-login-i18n="stepOneTitle">从菜单开始</h3><p data-login-i18n="stepOneText">实际工具支持菜单照片或文字，自动识别原始语言。</p></div></li>
+        <li><span class="step-number">02</span><div><h3 data-login-i18n="stepTwoTitle">用熟悉的语言看</h3><p data-login-i18n="stepTwoText">按菜单顺序列出菜品，匹配 DishKAI 的菜品知识。</p></div></li>
+        <li><span class="step-number">03</span><div><h3 data-login-i18n="stepThreeTitle">点开一道，了解更多</h3><p data-login-i18n="stepThreeText">看看食材、味道和注意事项，再与餐厅确认。</p></div></li>
+      </ol>
+    </section>
+
+    <section class="access-section" aria-labelledby="accessTitle">
+      <div class="access-copy">
+        <p class="small-label" data-login-i18n="accessEyebrow">A NOTE FROM LEO</p>
+        <h2 id="accessTitle" data-login-i18n="accessTitle">个人探索，暂不开放实际功能。</h2>
+        <p class="intro" data-login-i18n="intro">这是 Leo 个人探索 AI 应用的工具。考虑到潜在的欧盟 AI 法规要求，目前只公开固定示例，实际功能仍需密码。</p>
+        <p class="friend-contact" data-login-i18n="contact">Leo 的好朋友如希望使用，请直接联系 Leo。</p>
+        <div id="englishAccessNotice" class="english-notice" lang="en"><p data-english-i18n="intro">A personal AI experiment by Leo. Live menu analysis is private while potential EU AI regulatory obligations are reviewed. This sample demo is open to explore.</p><p data-english-i18n="contact">Close friends interested in using the tool can contact Leo directly.</p></div>
+      </div>
+      <details id="ownerAccess" class="owner-access">
+        <summary><span class="owner-summary"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="5" y="9" width="10" height="8" rx="2"/><path d="M7 9V6a3 3 0 0 1 6 0v3"/></svg><span data-login-i18n="ownerEntry">私人入口</span></span><span class="summary-plus" aria-hidden="true">+</span></summary>
+        <div class="owner-form-body">
+          <p class="owner-note" data-login-i18n="ownerNote">此入口用于 Leo 的私人实验空间。</p>
+          <form id="loginForm" autocomplete="on">
+            <label for="loginPassword" data-login-i18n="passwordLabel">访问密码</label>
+            <input id="loginPassword" name="accessCode" type="password" autocomplete="current-password" required maxlength="512" aria-describedby="loginPrivacy loginStatus">
+            <button id="loginButton" class="login-button" type="submit" data-login-i18n="enter">进入私人空间 <span aria-hidden="true">→</span></button>
+          </form>
+          <p id="loginStatus" class="login-status" role="status" aria-live="polite"></p>
+          <button id="retryLoginStatus" class="retry-button" type="button" hidden data-login-i18n="retry">重新检查连接</button>
+          <p id="loginPrivacy" class="privacy-note" data-login-i18n="privacy">私人功能使用安全会话 Cookie，AI 功能会调用外部服务。</p>
+        </div>
+      </details>
+    </section>
   </main>
+  <footer class="site-footer"><span>DishKAI <span class="footer-dot">·</span> <span data-login-i18n="footer">A personal project by Leo</span></span><span data-login-i18n="footerNote">给好奇心一个小小的实验空间。</span></footer>
 </body>
 </html>

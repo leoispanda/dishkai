@@ -2,7 +2,15 @@
 
 DishKAI is a personally operated menu-understanding experiment for exploring AI application development. The current application requires a password and is intended for the owner's personal use. Earlier publicly deployed versions need a separate access-control review. Questions, feedback and privacy requests can be sent to hello@dishkai.com.
 
-The public login notice explains that DishKAI is Leo's personal AI exploration tool and is not currently open to the public while he reviews potential European AI regulatory obligations. It invites close friends to contact Leo if interested, without granting access. English is also visible in the default Chinese view. Any actual use by friends requires a fresh scope assessment; the wording alone does not establish a legal exemption.
+The public entrance introduces DishKAI as Leo's personal AI exploration tool. A fixed sample demo is open to browse while live menu analysis and personal tools remain private as potential European AI regulatory obligations are reviewed. The notice invites close friends to contact Leo if interested, without granting access. English is also visible in the default Chinese view. Any actual use by friends requires a fresh scope assessment; the wording alone does not establish a legal exemption.
+
+## Public product demo
+
+The `/login` page is a responsive product showcase, with a fixed Italian menu in original order and a clickable dish-card preview in Chinese, English or Dutch. Carbonara, Margherita Pizza and Tiramisu are a small curated snapshot in `demo-data.js`, derived from the existing verified knowledge. The corresponding three images in `assets/demo/` are unchanged copies of existing AI illustrations, labelled as visual references. Composition is estimated; restaurant-specific ingredients and allergens need confirmation.
+
+Selecting a sample only updates the page locally. There are no public upload/text inputs or analysis/PDC requests. Only the exact demo script and three named image files are added to the existing public access allowlist; all main application files, original dish images and full metadata remain private. The expandable owner entry retains the existing server-verified login and session handling. No hosting audience, credentials or live API permissions were changed.
+
+Run `npm run check:public-demo`, `npm run check:private-access` and `npm run check:private-frontend` to validate curated assets, precise route boundaries, sample interaction and the private-session flow.
 
 It turns unfamiliar menu names into visual, clickable Dish Knowledge Cards for fast ordering decisions.
 
@@ -90,7 +98,7 @@ Current API endpoints:
 
 Password protection:
 
-- `functions/_middleware.js` checks the signed session before serving the application, metadata, dish images or APIs. `public/_routes.json` includes every path with no exclusions; the local server uses the same gate. Only the dedicated `/login` page, its exact assets/logo, and the login/status/logout endpoints are accessible without a session.
+- `functions/_middleware.js` checks the signed session before serving the application, metadata, original dish images or APIs. `public/_routes.json` includes every path with no exclusions; the local server uses the same gate. Only the `/login` showcase, its exact assets/logo, the curated demo script/three images, and the login/status/logout endpoints are accessible without a session.
 - The three menu APIs also check the session directly. An unauthenticated API call cannot invoke AI or add a contribution. Protected responses are private/no-store, and the frontend rechecks its session on startup and browser-history restoration.
 - Authentication uses the existing secret configuration. No password is embedded in the project or saved to browser storage. v0.2.42 requires versioned owner sessions and rejects every session issued before that cutover, even if its signature and expiry are valid. The owner completed the requested password change in Cloudflare; its encrypted saved state was observed, without reading its value. Future password changes alone do not revoke the new session version.
 - Cloudflare Production Settings were read on 11 October 2026: **Fail closed** was already enabled, and both authentication-secret names were present as encrypted values. Their contents were not accessed. Keep fail-closed behavior so exhausted Functions allowance does not serve protected static files; see [Cloudflare routing guidance](https://developers.cloudflare.com/pages/functions/routing/#fail-open--closed).

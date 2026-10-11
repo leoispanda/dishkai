@@ -4,6 +4,11 @@ import { hasValidSession, requirePrivateSession, securityHeaders } from "./secur
 const LOGIN_ASSETS = new Set([
   "/login", "/login.html", "/login.js", "/login.css",
   "/assets/brand/dishkai-cloche-logo.svg",
+  // The public showcase has three fixed dishes; the app/database stay private.
+  "/demo-data.js",
+  "/assets/demo/carbonara.webp",
+  "/assets/demo/margherita-pizza.webp",
+  "/assets/demo/tiramisu.webp",
 ]);
 const PUBLIC_AUTH_METHODS = new Map([
   ["/api/private-login", new Set(["POST"])],

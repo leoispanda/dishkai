@@ -28,6 +28,7 @@ function signedCookie(payload) {
 const cookie = cookieHeader(await createSessionCookie(env));
 const sharedSessionPayload = { sub: "leo-cindy", exp: Math.floor(Date.now() / 1000) + 3600 };
 const sharedSessionCookie = signedCookie(sharedSessionPayload);
+const publicDemoPaths = ["/demo-data.js", "/assets/demo/carbonara.webp", "/assets/demo/margherita-pizza.webp", "/assets/demo/tiramisu.webp"];
 
 check("password login validates server-side and keeps credentials out of responses", async () => {
   const wrong = await login({ env, request: request("/api/private-login", {
@@ -99,13 +100,22 @@ check("missing either secret closes protected pages and APIs even with a previou
   }
 });
 
-check("login allowlist is exact and does not expose app assets, data or alternate encoded paths", async () => {
-  for (const path of ["/login", "/login.html", "/login.js?v=test", "/login.css", "/assets/brand/dishkai-cloche-logo.svg"]) {
-    assert.equal(isPublicLoginRequest(request(path)), true, path);
-    assert.equal(await requireSiteAccess(request(path), {}), null);
+check("login and fixed showcase allowlist does not expose app assets, data or alternate paths", async () => {
+  for (const path of ["/login", "/login.html", "/login.js?v=test", "/login.css", "/assets/brand/dishkai-cloche-logo.svg", ...publicDemoPaths]) {
+    for (const method of ["GET", "HEAD"]) {
+      assert.equal(isPublicLoginRequest(request(path, { method })), true, `${method} ${path}`);
+      assert.equal(await requireSiteAccess(request(path, { method }), {}), null);
+    }
+    for (const method of ["POST", "OPTIONS", "PUT"]) {
+      assert.equal(isPublicLoginRequest(request(path, { method })), false, `${method} ${path}`);
+      assert.equal((await requireSiteAccess(request(path, { method }), env)).status, 401);
+    }
   }
   for (const path of ["/", "/index.html", "/script.js", "/styles.css", "/ai-transparency", "/login/private", "/login.js/extra",
-    "/login/", "/%6cogin.js", "/login%2ejs", "/assets/brand/other.svg", "/assets/dishes/main/example.webp", "/data/internal/dishes.js"]) {
+    "/login/", "/%6cogin.js", "/login%2ejs", "/assets/brand/other.svg", "/assets/dishes/main/example.webp", "/data/internal/dishes.js",
+    "/demo-data.js/extra", "/demo-data%2ejs", "/%64emo-data.js", "/assets/demo/", "/assets/demo/other.webp", "/assets/demo/carbonara.webp/extra",
+    "/assets/demo/carbonara%2ewebp", "/assets/demo/%63arbonara.webp", "/assets/dishes/main/101001-carbonara.webp",
+    "/assets/dishes/thumb/101001-carbonara.webp", "/data/internal/dishes/italian.js"]) {
     const response = await requireSiteAccess(request(path), env);
     assert.equal(response.status, 302, path);
     assert.equal(response.headers.get("Location"), "/login");
@@ -253,6 +263,19 @@ check("local server protects app pages, modules, dish images and APIs before ser
     const publicLogo = await fetchLocal("/assets/brand/dishkai-cloche-logo.svg");
     assert.equal(publicLogo.status, 200);
     assert.match(await publicLogo.text(), /<svg/);
+    for (const path of publicDemoPaths) {
+      const response = await fetchLocal(path);
+      assert.equal(response.status, 200, path);
+      assert.ok((await response.arrayBuffer()).byteLength > 0, path);
+      const head = await fetchLocal(path, { method: "HEAD" });
+      assert.equal(head.status, 200, path);
+      assert.equal(await head.text(), "", path);
+      assert.equal((await fetchLocal(path, { method: "POST" })).status, 401, path);
+    }
+    for (const path of ["/assets/demo/other.webp", "/assets/demo/carbonara.webp/extra", "/demo-data.js/extra",
+      "/assets/dishes/main/101001-carbonara.webp", "/assets/dishes/thumb/101001-carbonara.webp", "/data/internal/dishes/italian.js"]) {
+      assert.equal((await fetchLocal(path)).status, 302, path);
+    }
     const loginPage = await fetchLocal("/login");
     assert.equal(loginPage.status, 200);
     assert.equal((await loginPage.text()).includes('id="menuForm"'), false);

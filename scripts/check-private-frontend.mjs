@@ -3,10 +3,10 @@ import fs from "node:fs/promises";
 import vm from "node:vm";
 
 const read = (name) => fs.readFile(new URL(`../${name}`, import.meta.url), "utf8");
-const [script, html, loginScript, loginHtml, loginCss] = await Promise.all([
-  read("script.js"), read("index.html"), read("login.js"), read("login.html"), read("login.css"),
+const [script, html, loginScript, loginHtml, demoScript] = await Promise.all([
+  read("script.js"), read("index.html"), read("login.js"), read("login.html"), read("demo-data.js"),
 ]);
-for (const name of ["script.js", "index.html", "styles.css", "login.js", "login.html", "login.css"]) {
+for (const name of ["script.js", "index.html", "styles.css", "login.js", "login.html", "login.css", "demo-data.js"]) {
   assert.equal(await read(name), await read(`public/${name}`), `${name} must match the deployed copy.`);
 }
 for (const page of [html, loginHtml]) assert.ok(page.includes('name="robots" content="noindex, nofollow, noarchive"'));
@@ -17,11 +17,25 @@ assert.ok(loginHtml.includes(`login.js?v=${appVersion}`));
 assert.ok(html.includes('class="session-checking"'), "Cached private markup must start hidden.");
 assert.ok(!html.includes('id="privateAccessForm"'), "Passwords belong on the standalone login page.");
 assert.ok(loginHtml.includes('type="password"'));
-assert.ok(loginCss.includes("#fff4e8"));
-const allowedLoginAssets = new Set(["/assets/brand/dishkai-cloche-logo.svg", "/login.css", "/login.js"]);
-for (const match of loginHtml.matchAll(/(?:href|src)="([^"]+)"/g)) {
-  assert.ok(allowedLoginAssets.has(match[1].split("?")[0]), "Login must reference only its exact public assets.");
+const loginInputs = [...loginHtml.matchAll(/<input\b[^>]*>/gi)];
+assert.equal(loginInputs.length, 1, "The public page only accepts the owner's password, not visitor menu or PDC input.");
+assert.match(loginInputs[0][0], /type="password"/);
+assert.ok(!/<textarea\b/i.test(loginHtml), "The fixed public demo does not accept visitor text.");
+const demoContext = vm.createContext({});
+vm.runInContext(`${demoScript}\nglobalThis.dishes = DISHKAI_DEMO_DISHES;`, demoContext);
+const demoDishes = demoContext.dishes;
+assert.equal(demoDishes.length, 3, "The public demo contains only three curated dishes.");
+const demoImages = demoDishes.map((dish) => dish.imagePath);
+assert.equal(new Set(demoImages).size, 3, "Each sample uses its own curated image.");
+for (const imagePath of demoImages) {
+  assert.match(imagePath, /^\/assets\/demo\/[a-z0-9-]+\.webp$/, "Sample image references stay in the isolated public demo directory.");
+  assert.ok((await fs.stat(new URL(`../public${imagePath}`, import.meta.url))).size > 0, "Every sample image must exist in the deployed assets.");
 }
+const allowedLoginAssets = new Set(["/assets/brand/dishkai-cloche-logo.svg", "/login.css", "/login.js", "/demo-data.js", ...demoImages]);
+for (const match of loginHtml.matchAll(/(?:href|src)="([^"]+)"/g)) {
+  assert.ok(match[1].startsWith("#") || allowedLoginAssets.has(match[1].split("?")[0]), "Login must reference only its exact public assets or on-page anchors.");
+}
+assert.ok(loginHtml.indexOf("demo-data.js") < loginHtml.indexOf("login.js"), "Curated demo data loads before its renderer.");
 
 function classList(initial = []) {
   const values = new Set(initial);
@@ -35,23 +49,37 @@ function classList(initial = []) {
 
 function makeDom(source) {
   const elements = new Map();
+  const allElements = [];
   function node(id = "", properties = {}) {
     const element = {
       value: "", checked: false, disabled: false, hidden: false, innerHTML: "", textContent: "", dataset: {}, attributes: {}, events: {},
       classList: classList(), querySelectorAll: () => [], scrollIntoView() {}, focus() {},
-      setAttribute(key, value) { this.attributes[key] = value; },
+      setAttribute(key, value) { this.attributes[key] = value; if (["src", "alt"].includes(key)) this[key] = value; },
+      getAttribute(key) { return this.attributes[key] ?? null; },
+      removeAttribute(key) { delete this.attributes[key]; },
       addEventListener(type, callback) { this.events[type] = callback; },
       ...properties,
     };
     if (id) elements.set(`#${id}`, element);
+    allElements.push(element);
     return element;
   }
-  for (const match of source.matchAll(/\bid="([^"]+)"/g)) node(match[1]);
-  const languageButtons = ["zh", "en", "nl"].map((language) => node("", { dataset: { loginLanguage: language } }));
+  for (const match of source.matchAll(/<([a-z][a-z0-9-]*)\b([^>]*)>/gi)) {
+    const attributes = Object.fromEntries([...match[2].matchAll(/(?:^|\s)([\w-]+)(?:\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s"'=<>`]+)))?/g)].map((attribute) => [attribute[1], attribute[2] ?? attribute[3] ?? attribute[4] ?? ""]));
+    const dataset = Object.fromEntries(Object.entries(attributes).filter(([key]) => key.startsWith("data-")).map(([key, value]) => [key.slice(5).replace(/-([a-z])/g, (_, letter) => letter.toUpperCase()), value]));
+    node(attributes.id || "", { attributes, dataset, tagName: match[1].toUpperCase() });
+  }
+  const languageButtons = allElements.filter((element) => Object.hasOwn(element.dataset, "loginLanguage"));
+  const queryData = (selector) => {
+    const dataAttribute = selector.match(/^\[data-([a-z-]+)\]$/);
+    if (!dataAttribute) return [];
+    const key = dataAttribute[1].replace(/-([a-z])/g, (_, letter) => letter.toUpperCase());
+    return allElements.filter((element) => Object.hasOwn(element.dataset, key));
+  };
   const document = {
     title: "", documentElement: {}, body: { classList: classList(["session-checking"]) },
-    querySelector: (selector) => elements.get(selector) || null,
-    querySelectorAll: (selector) => selector === "[data-login-language]" ? languageButtons : [],
+    querySelector: (selector) => elements.get(selector) || queryData(selector)[0] || null,
+    querySelectorAll: queryData,
   };
   return { elements, languageButtons, document };
 }
@@ -87,6 +115,7 @@ const authenticated = () => response(200, { ok: true, configured: true, authenti
 
 function makeLogin(options = {}) {
   const app = makeEnvironment(loginHtml, { path: "/login", handler: unauthenticated, ...options });
+  vm.runInContext(demoScript, app.context);
   vm.runInContext(loginScript, app.context);
   vm.runInContext(`globalThis.api = { safeLoginNext, submitLogin, checkLoginSession, loginText, loginStrings };`, app.context);
   app.api = app.context.api;
@@ -97,10 +126,40 @@ function makeLogin(options = {}) {
 const login = makeLogin();
 await flush();
 assert.equal(login.document.documentElement.lang, "zh-CN", "A new login page must default to Chinese.");
+assert.equal(login.elements.get("#englishAccessNotice").hidden, false, "The default Chinese page keeps the public access explanation available in English.");
 assert.equal(login.requests[0].url, "/api/private-status");
 assert.equal(login.requests[0].options.cache, "no-store");
 assert.equal(login.requests[0].options.credentials, "same-origin");
 assert.equal(login.redirects.length, 0);
+assert.equal(login.elements.get("#ownerAccess").tagName, "DETAILS", "Owner sign-in should be available without dominating the public demo.");
+assert.ok(!Object.hasOwn(login.elements.get("#ownerAccess").attributes, "open"), "Owner password controls start collapsed.");
+login.document.querySelector("[data-owner-entry]").events.click();
+assert.equal(login.elements.get("#ownerAccess").open, true, "The private-entry link must expose the existing owner login.");
+const demoButtons = login.document.querySelectorAll("[data-demo-dish]");
+assert.equal(demoButtons.length, demoDishes.length);
+assert.deepEqual(demoButtons.map((button) => button.dataset.demoDish), Array.from(demoDishes, (dish) => dish.id), "Sample rows preserve the original menu order.");
+assert.equal(login.elements.get("#demoDishName").textContent, demoDishes[0].names.zh, "A visitor sees a useful sample before signing in.");
+for (const dish of [demoDishes[2], demoDishes[1], demoDishes[0]]) {
+  const button = demoButtons.find((candidate) => candidate.dataset.demoDish === dish.id);
+  assert.ok(button, "Every curated sample can be selected.");
+  button.events.click();
+  assert.equal(login.elements.get("#demoDishName").textContent, dish.names.zh, "Selecting a menu item changes the displayed dish card.");
+  assert.equal(login.elements.get("#demoOriginalName").textContent, dish.originalName);
+  assert.equal(login.elements.get("#demoDescription").textContent, dish.shortDescription.zh);
+  assert.equal(login.elements.get("#demoVerdict").textContent, dish.orderVerdict.zh);
+  assert.equal(login.elements.get("#demoWatchOut").textContent, dish.watchOut.zh, "Dietary warnings must follow the selected sample.");
+  assert.equal(login.elements.get("#demoImage").src, dish.imagePath);
+  assert.equal(button.attributes["aria-pressed"], "true", "Selection remains apparent to assistive technology.");
+}
+login.languageButtons.find((button) => button.dataset.loginLanguage === "en").events.click();
+assert.equal(login.elements.get("#englishAccessNotice").hidden, true, "English mode should not duplicate the same access explanation.");
+assert.equal(login.elements.get("#demoDishName").textContent, demoDishes[0].names.en, "Language switching translates the current sample.");
+assert.equal(login.elements.get("#demoDescription").textContent, demoDishes[0].shortDescription.en);
+demoButtons[2].events.click();
+const selectedEnglishDish = demoDishes.find((dish) => dish.id === demoButtons[2].dataset.demoDish);
+assert.equal(login.elements.get("#demoDishName").textContent, selectedEnglishDish.names.en);
+assert.deepEqual(login.requests.map((request) => request.url), ["/api/private-status"], "Demo selection and translation must never call analysis or PDC APIs.");
+login.languageButtons.find((button) => button.dataset.loginLanguage === "zh").events.click();
 for (const next of ["https://evil.test/", "//evil.test/", "/\\evil.test/", "/login", "/login.html?next=/", "javascript:alert(1)", "/bad\npath"]) {
   assert.equal(login.api.safeLoginNext(next), "/", "Unsafe next values must not leave or loop through login.");
 }
@@ -113,10 +172,17 @@ const unconfigured = makeLogin({ handler: () => response(200, { ok: true, config
 await flush();
 assert.equal(unconfigured.elements.get("#loginButton").disabled, true);
 assert.equal(unconfigured.elements.get("#loginStatus").textContent, unconfigured.api.loginStrings.zh.notConfigured);
+unconfigured.document.querySelectorAll("[data-demo-dish]")[1].events.click();
+assert.equal(unconfigured.elements.get("#demoDishName").textContent, demoDishes[1].names.zh, "Fixed examples remain usable when private sign-in is unavailable.");
 const unconfiguredCount = unconfigured.requests.length;
 unconfigured.elements.get("#loginPassword").value = "synthetic-password";
 await unconfigured.submit();
 assert.equal(unconfigured.requests.length, unconfiguredCount, "Missing server configuration must not be bypassed by the form.");
+const offlineDemo = makeLogin({ handler: async () => { throw new TypeError("private status offline"); } });
+await flush();
+offlineDemo.document.querySelectorAll("[data-demo-dish]")[2].events.click();
+assert.equal(offlineDemo.elements.get("#demoDishName").textContent, demoDishes[2].names.zh, "A failed session check must not prevent browsing static examples.");
+assert.equal(offlineDemo.redirects.length, 0);
 for (const language of ["en", "zh", "nl"]) {
   const translated = makeLogin({ storageValues: [["dishkai-ui-lang", language]] });
   await flush();
@@ -242,4 +308,4 @@ resolveStatus(authenticated());
 await checking;
 assert.equal(race.document.body.classList.contains("session-checking"), true, "A stale successful status response must not reopen a page already redirecting after a 401.");
 
-console.log("Private frontend checks passed: safe login navigation, localized errors, password clearing, cookie confirmation, recoverable failures, startup/401/logout/BFcache session checks, PDC preservation, and synchronized assets.");
+console.log("Private frontend checks passed: fixed public demo selection and translation without analysis calls, exact public sample assets, safe login navigation, localized errors, password clearing, cookie confirmation, recoverable failures, startup/401/logout/BFcache session checks, PDC preservation, and synchronized assets.");

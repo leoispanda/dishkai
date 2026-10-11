@@ -84,6 +84,12 @@ The v0.2.42 cutover rejects all earlier shared-tool sessions through a required 
 
 The v0.2.43 visitor wording, expressly requested by the owner, describes Leo's personal AI exploration tool as temporarily closed to the public while potential European AI regulatory obligations are reviewed. Close friends are invited to contact Leo if interested; this is not an automatic access grant. English is directly visible alongside Chinese or Dutch, without repeating it in the English view. The existing password and historical-deployment allowlist stay in place. Actual access by friends needs a renewed assessment of the activity and roles under Article 2; the personal-use exception must not be assumed from this notice. The owner supplied the name Leo for this product wording; it does not settle the separate controller-identification question.
 
+### Fixed public showcase — v0.2.44
+
+At the owner's request, the public entrance is now a product demo instead of a password-focused notice. It shows three fixed, curated dish examples with locally selectable details and labelled existing AI illustrations. This exposes a limited sample of stored content; it does not run menu recognition, accept uploaded input or grant access to personal tools. The public route allowlist adds only the exact demo-data file and its three selected images. Existing passwords, session version, full-database restrictions and historical-deployment policy are unchanged.
+
+The visitor copy distinguishes the publicly viewable sample from private live functionality and retains the personal-project/contact note in three languages with English directly visible. Public demonstration of prepared AI-assisted content is not proof of a personal-use or research exception. This change is an engineering boundary and presentation improvement, not a certification that the publicly displayed content or the operator is exempt from legal obligations.
+
 ## Operational and privacy matters still open
 
 These are related operational/GDPR matters, not duties invented under the AI Act. Article 2 preserves other applicable privacy and consumer law.
